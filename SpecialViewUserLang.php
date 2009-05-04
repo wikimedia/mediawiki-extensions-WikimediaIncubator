@@ -8,8 +8,9 @@
  *
  * @file
  */
-class SpecialViewUserLang extends SpecialPage {
 
+class SpecialViewUserLang extends SpecialPage
+{
 	public function __construct() {
 		parent::__construct( 'ViewUserLang', 'viewuserlang' );
 	}
@@ -93,17 +94,17 @@ EOT
 				) ) );
 			$wgOut->addWikiText(
 				'*' . wfMsg( 'loginlanguagelabel',
-				$wgLanguageNames[$user->mOptions['language']] . ' ('.$user->mOptions['language'].')'
+				$wgLanguageNames[$user->mOptions['language']] . ' (' . $user->mOptions['language'] . ')'
 				)
 			);
-			if(IncubatorTest::NormalPrefix() == true) {
-				$testwiki = '[[W'.$user->mOptions[$wmincPref.'-project'].'/'.$user->mOptions[$wmincPref.'-code'].']]';
-			} elseif(IncubatorTest::DisplayPrefix() == 'inc') {
+			if ( IncubatorTest::NormalPrefix() == true ) {
+				$testwiki = '[[W' . $user->mOptions[$wmincPref . '-project'] . '/' . $user->mOptions[$wmincPref . '-code'] . ']]';
+			} elseif ( IncubatorTest::DisplayPrefix() == 'inc' ) {
 				$testwiki = 'Incubator';
 			} else {
-				$testwiki = wfMsg('wminc-testwiki-none' );
+				$testwiki = wfMsg( 'wminc-testwiki-none' );
 			}
-				$wgOut->addWikiText( '*' . wfMsg( 'wminc-testwiki' ) . ' '.$testwiki );
+				$wgOut->addWikiText( '*' . wfMsg( 'wminc-testwiki' ) . ' ' . $testwiki );
 		}
 	}
 }

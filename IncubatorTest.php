@@ -3,49 +3,51 @@
 * Implement test wiki preference, magic word and prefix check on edit page
 */
 
-class IncubatorTest {
+class IncubatorTest
+{
 	static function AddPreferences( $user, &$preferences ) {
-	global $wmincPref, $wmincPrefProject, $wmincPrefNone;
+		global $wmincPref, $wmincPrefProject, $wmincPrefNone;
+
 		$preferences['language']['help-message'] = 'wminc-prefinfo-language';
-		
-		$prefinsert[$wmincPref.'-project'] = array(
+
+		$prefinsert[$wmincPref . '-project'] = array(
 			'type' => 'select',
-			'options' => array(	wfMsg('wminc-testwiki-none')=>'none',		'wikipedia'=>'p',		'wikibooks'=>'b',
-			'wiktionary'=>'t',	'wikiquote'=>'q',	'wikinews'=>'n',		'incubator'=>'inc' ),
+			'options' => array(	wfMsg( 'wminc-testwiki-none' ) => 'none',		'wikipedia' => 'p',		'wikibooks' => 'b',
+			'wiktionary' => 't',	'wikiquote' => 'q',	'wikinews' => 'n',		'incubator' => 'inc' ),
 			'section' => 'personal/i18n',
 			'label-message' => 'wminc-testwiki',
-			'id' => $wmincPref.'-project',
+			'id' => $wmincPref . '-project',
 			'help-message' => 'wminc-prefinfo-project',
 		);
-		$prefinsert[$wmincPref.'-code'] = array(
+		$prefinsert[$wmincPref . '-code'] = array(
 			'type' => 'text',
 			'section' => 'personal/i18n',
 			'label-message' => 'wminc-testwiki',
-			'id' => $wmincPref.'-code',
+			'id' => $wmincPref . '-code',
 			'maxlength' => 3,
 			'size' => 3,
 			'help-message' => 'wminc-prefinfo-code',
-			'validation-callback' => array('IncubatorTest','CodeValidation'),
+			'validation-callback' => array( 'IncubatorTest', 'CodeValidation' ),
 		);
 
 		$preferences = wfArrayInsertAfter( $preferences, $prefinsert, 'language' );
-		
+
 		return true;
 	}
-	
-	function CodeValidation($input, $alldata) {
+
+	function CodeValidation( $input, $alldata ) {
 		global $wmincPref;
 		// If the user selected a project that NEEDS a language code, but the user DID NOT enter a language code, give an error
-		if(!in_array($alldata[$wmincPref.'-project'],array('','none','inc')) && !$input) {
-			return Xml::element( 'span', array( 'class'=>'error' ), wfMsg( 'wminc-prefinfo-error' ) );
+		if ( !in_array( $alldata[$wmincPref . '-project'], array( '', 'none', 'inc' ) ) && !$input ) {
+			return Xml::element( 'span', array( 'class' => 'error' ), wfMsg( 'wminc-prefinfo-error' ) );
 		} else {
 			return true;
 		}
 	}
-	
+
 	function NormalPrefix() {
 		global $wgUser, $wmincPref;
-		if(in_array($wgUser->mOptions[$wmincPref.'-project'],array('','none','inc'))) {
+		if ( in_array( $wgUser->mOptions[$wmincPref . '-project'], array( '', 'none', 'inc' ) ) ) {
 			return false; // false because this is NOT a normal prefix
 		} else {
 			return true; // true because this is a normal prefix
@@ -53,25 +55,25 @@ class IncubatorTest {
 	}
 	function DisplayPrefix() {
 		global $wgUser, $wmincPref;
-		if(self::NormalPrefix() == true) {
-			return 'W'.$wgUser->mOptions[$wmincPref.'-project'].'/'. $wgUser->mOptions[$wmincPref.'-code']; // return the prefix
+		if ( self::NormalPrefix() == true ) {
+			return 'W' . $wgUser->mOptions[$wmincPref . '-project'] . '/' . $wgUser->mOptions[$wmincPref . '-code']; // return the prefix
 		} else {
-			return $wgUser->mOptions[$wmincPref.'-project']; // still provide the value
+			return $wgUser->mOptions[$wmincPref . '-project']; // still provide the value
 		}
 	}
-	
-	function DisplayPrefixedTitle($title, $namespace='') {
+
+	function DisplayPrefixedTitle( $title, $namespace = '' ) {
 		global $wgUser, $wmincPref;
 		$out = '';
-		if(self::NormalPrefix()) {
-			if($namespace) { $out .= $namespace.':'; }
+		if ( self::NormalPrefix() ) {
+			if ( $namespace ) { $out .= $namespace . ':'; }
 			$out .= self::DisplayPrefix() . '/' . $title;
 		} else {
 			$out .= self::DisplayPrefix();
 		}
 		return $out;
 	}
-	
+
 	function MagicWordVariable( &$magicWords ) {
 		$magicWords[] = 'usertestwiki';
 		return true;
@@ -79,30 +81,30 @@ class IncubatorTest {
 
 	function MagicWord( &$magicWords, $langCode ) {
 		$magicWords['usertestwiki'] = array( 0, 'USERTESTWIKI' );
-		return true;  
+		return true;
 	}
-	
+
 	function MagicWordValue( &$parser, &$cache, &$magicWordId, &$ret ) {
 		$ret = self::DisplayPrefix();
 		return true;
 	}
-	
-	function EditPageCheckPrefix($editpage) {
+
+	function EditPageCheckPrefix( $editpage ) {
 		// If user has "project" as test wiki preference, it isn't needed to check
-		if(self::DisplayPrefix() != 'inc') {
+		if ( self::DisplayPrefix() != 'inc' ) {
 			global $wgTitle;
 			$namespaces = array( NS_MAIN, NS_TALK, NS_TEMPLATE, NS_TEMPLATE_TALK, NS_CATEGORY, NS_CATEGORY_TALK );
 			// If it is in one of the above namespace, check if the page title has a prefix
-			if(in_array($wgTitle->getNamespace(), $namespaces) && !preg_match('/W[bnpqt]\/[a-z][a-z][a-z]?/', $wgTitle->getText())) {
+			if ( in_array( $wgTitle->getNamespace(), $namespaces ) && !preg_match( '/W[bnpqt]\/[a-z][a-z][a-z]?/', $wgTitle->getText() ) ) {
 				global $wgOut;
 				wfLoadExtensionMessages( 'WikimediaIncubator' );
 					$warning = '<div id="wminc-warning"><span id="wm-warning-unprefixed">'
 						. wfMsg( 'wminc-warning-unprefixed' )
 						. '</span>';
 					// If the user has a test wiki pref, suggest a page title with prefix
-					if(self::NormalPrefix()) {
+					if ( self::NormalPrefix() ) {
 						$warning .= ' <span id="wminc-warning-suggest">'
-							. wfMsg( 'wminc-warning-suggest', self::DisplayPrefixedTitle($wgTitle->getText(), $wgTitle->getNsText()) )
+							. wfMsg( 'wminc-warning-suggest', self::DisplayPrefixedTitle( $wgTitle->getText(), $wgTitle->getNsText() ) )
 							. '</span>';
 					}
 					$warning .= '</div>';
@@ -119,9 +121,9 @@ class IncubatorTest {
   * Based on code from extension LookupUser made by Tim Starling
  * @return true
  */
-function efLoadViewUserLangLink( $id, $nt, &$links ){
+function efLoadViewUserLangLink( $id, $nt, &$links ) {
 	global $wgUser;
-	if( $wgUser->isAllowed( 'viewuserlang' ) ) {
+	if ( $wgUser->isAllowed( 'viewuserlang' ) ) {
 		wfLoadExtensionMessages( 'WikimediaIncubator' );
 		$links[] = $wgUser->getSkin()->makeKnownLinkObj(
 					SpecialPage::getTitleFor( 'ViewUserLang' ),

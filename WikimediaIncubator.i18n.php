@@ -15,14 +15,13 @@ $messages['en'] = array(
 	'wminc-viewuserlang' => 'Look up user language and test wiki',
 	'wminc-testwiki' => 'Test wiki:',
 	'wminc-testwiki-none' => 'None/All',
-	'wminc-prefinfo-language' => 'Your interface language - independant from your test wiki',
+	'wminc-prefinfo-language' => 'Your interface language - independent from your test wiki',
 	'wminc-prefinfo-code' => 'The ISO 639 language code',
 	'wminc-prefinfo-project' => 'Select the Wikimedia project (Incubator option is for users who do general work)',
 	'wminc-prefinfo-error' => 'You selected a project that needs a language code.',
 	'wminc-warning-unprefixed' => 'Warning: the page you are editing is unprefixed!',
 	'wminc-warning-suggest' => 'You can create a page at [[$1]].',
 );
-
 
 /** Dutch (Nederlands)
  * @author SPQRobin

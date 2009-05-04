@@ -13,9 +13,7 @@ $aliases['en'] = array(
 	'ViewUserLang' => array( 'ViewUserLang' ),
 );
 
-
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'ViewUserLang' => array( 'GebruikerstaalOpzoeken' ),
 );
-
