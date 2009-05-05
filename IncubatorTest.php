@@ -103,9 +103,17 @@ class IncubatorTest
 						. '</span>';
 					// If the user has a test wiki pref, suggest a page title with prefix
 					if ( self::NormalPrefix() ) {
+						global $wgUser;
+						$suggest = self::DisplayPrefixedTitle( $wgTitle->getText(), $wgTitle->getNsText() );
+						if( !$wgTitle->exists() ) { // Creating a page, so suggest to create a prefixed page
 						$warning .= ' <span id="wminc-warning-suggest">'
-							. wfMsg( 'wminc-warning-suggest', self::DisplayPrefixedTitle( $wgTitle->getText(), $wgTitle->getNsText() ) )
+							. wfMsg( 'wminc-warning-suggest', $suggest )
 							. '</span>';
+						} elseif( $wgUser->isAllowed( 'move' ) ) { // Page exists, so suggest to move
+						$warning .= ' <span id="wminc-warning-suggest-move" class="plainlinks">'
+							. wfMsg( 'wminc-warning-suggest-move', $suggest, urlencode($suggest), urlencode($wgTitle) )
+							. '</span>';
+						}
 					}
 					$warning .= '</div>';
 				$wgOut->addWikiText( $warning );

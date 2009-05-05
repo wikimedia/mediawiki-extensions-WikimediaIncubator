@@ -9,7 +9,7 @@ if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWik
 $wgExtensionCredits['other'][] = array(
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '2.1.1',
+	'version' => '2.1.2',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'description' => 'Test wiki features for Wikimedia Incubator',
 	'descriptionmsg' => 'wminc-desc',

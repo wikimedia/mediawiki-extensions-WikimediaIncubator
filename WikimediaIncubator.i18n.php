@@ -21,6 +21,7 @@ $messages['en'] = array(
 	'wminc-prefinfo-error' => 'You selected a project that needs a language code.',
 	'wminc-warning-unprefixed' => 'Warning: the page you are editing is unprefixed!',
 	'wminc-warning-suggest' => 'You can create a page at [[$1]].',
+	'wminc-warning-suggest-move' => 'You can [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} move this page to $1].',
 );
 
 /** Dutch (Nederlands)
@@ -37,4 +38,5 @@ $messages['nl'] = array(
 	'wminc-prefinfo-error' => 'U selecteerde een project dat een taalcode nodig heeft.',
 	'wminc-warning-unprefixed' => 'Waarschuwing: de pagina die u aan het bewerken bent, heeft geen voorvoegsel!',
 	'wminc-warning-suggest' => 'U kunt een pagina aanmaken op [[$1]].',
+	'wminc-warning-suggest-move' => 'U kunt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} deze pagina hernoemen naar $1].',
 );
