@@ -28,16 +28,16 @@ $messages['en'] = array(
  * @author MF-Warburg
  */
 $messages['de'] = array(
-    'wminc-desc' => 'Testwiki-System für den Wikimedia Incubator',
-    'wminc-viewuserlang' => 'Benutzersprache und Testwiki einsehen',
-    'wminc-testwiki' => 'Testwiki:',
-    'wminc-testwiki-none' => 'Keins/Alle',
-    'wminc-prefinfo-language' => 'Sprache deiner Benutzeroberfläche - vom Testwiki unabhängig',
-    'wminc-prefinfo-code' => 'Der ISO-639-Sprachcode',
-    'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem du hier arbeitest ("Incubator" für Benutzer, die allgemeine Aufgaben übernehmen)',
-    'wminc-prefinfo-error' => 'Bei diesem Projekt muss ein Sprachcode angeben werden!',
-    'wminc-warning-unprefixed' => 'Achtung: Du bearbeitest eine Seite ohne Präfix!',
-    'wminc-warning-suggest' => 'Du kannst hier eine Seite erstellen: [[$1]].',
+	'wminc-desc' => 'Testwiki-System für den Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Benutzersprache und Testwiki einsehen',
+	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-none' => 'Keins/Alle',
+	'wminc-prefinfo-language' => 'Sprache deiner Benutzeroberfläche - vom Testwiki unabhängig',
+	'wminc-prefinfo-code' => 'Der ISO-639-Sprachcode',
+	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem du hier arbeitest ("Incubator" für Benutzer, die allgemeine Aufgaben übernehmen)',
+	'wminc-prefinfo-error' => 'Bei diesem Projekt muss ein Sprachcode angeben werden!',
+	'wminc-warning-unprefixed' => 'Achtung: Du bearbeitest eine Seite ohne Präfix!',
+	'wminc-warning-suggest' => 'Du kannst hier eine Seite erstellen: [[$1]].',
 	'wminc-warning-suggest-move' => 'Du kannst [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
 );
 
@@ -51,7 +51,6 @@ $messages['de-formal'] = array(
 	'wminc-warning-suggest' => 'Sie können hier eine Seite erstellen: [[$1]].',
 	'wminc-warning-suggest-move' => 'Sie können [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
 );
-
 
 /** Dutch (Nederlands)
  * @author SPQRobin
