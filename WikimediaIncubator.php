@@ -9,14 +9,14 @@ if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWik
 $wgExtensionCredits['other'][] = array(
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '2.1.2',
+	'version' => '2.1.3',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'description' => 'Test wiki features for Wikimedia Incubator',
 	'descriptionmsg' => 'wminc-desc',
 );
 
 /* Config */
-$wmincEnableAutoTestWiki = false;
+$wmincEnableAutoTestWiki = true;
 $wmincPref = 'incubatortestwiki'; /* Name of the preference */
 $wgGroupPermissions['*']['viewuserlang'] = false;
 $wgGroupPermissions['sysop']['viewuserlang'] = true;

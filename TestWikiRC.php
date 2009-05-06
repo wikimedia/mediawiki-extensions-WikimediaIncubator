@@ -13,7 +13,7 @@ class TestWikiRC {
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
 		$opts->add( 'rc-testwiki-code', false );
 		$opts->setValue( 'rc-testwiki-code', $codevalue );
-		if ( $projectvalue == 'none' ) {
+		if ( $projectvalue == 'none' OR $projectvalue == '' ) {
 			// If "none" is selected, display normal recent changes
 			return true;
 		} elseif ( $projectvalue == 'inc' ) {
