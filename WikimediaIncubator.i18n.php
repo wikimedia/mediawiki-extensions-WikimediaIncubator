@@ -34,7 +34,7 @@ $messages['de'] = array(
 	'wminc-testwiki-none' => 'Keins/Alle',
 	'wminc-prefinfo-language' => 'Sprache deiner Benutzeroberfläche - vom Testwiki unabhängig',
 	'wminc-prefinfo-code' => 'Der ISO-639-Sprachcode',
-	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem du hier arbeitest ("Incubator" für Benutzer, die allgemeine Aufgaben übernehmen)',
+	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem du hier arbeitest („Incubator“ für Benutzer, die allgemeine Aufgaben übernehmen)',
 	'wminc-prefinfo-error' => 'Bei diesem Projekt muss ein Sprachcode angeben werden!',
 	'wminc-warning-unprefixed' => 'Achtung: Du bearbeitest eine Seite ohne Präfix!',
 	'wminc-warning-suggest' => 'Du kannst hier eine Seite erstellen: [[$1]].',
@@ -46,10 +46,34 @@ $messages['de'] = array(
  */
 $messages['de-formal'] = array(
 	'wminc-prefinfo-language' => 'Sprache Ihrer Benutzeroberfläche - vom Testwiki unabhängig',
-	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem Sie hier arbeiten ("Incubator" für Benutzer, die allgemeine Aufgaben übernehmen)',
+	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem Sie hier arbeiten („Incubator“ für Benutzer, die allgemeine Aufgaben übernehmen)',
 	'wminc-warning-unprefixed' => 'Achtung: Sie bearbeiten eine Seite ohne Präfix!',
 	'wminc-warning-suggest' => 'Sie können hier eine Seite erstellen: [[$1]].',
 	'wminc-warning-suggest-move' => 'Sie können [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
+);
+
+/** French (Français)
+ * @author IAlex
+ */
+$messages['fr'] = array(
+	'wminc-desc' => 'Système de test de wiki pour Wikimedia Incubator',
+	'wminc-viewuserlang' => "Voir la langue de l'utilisateur et son wiki de test",
+	'wminc-testwiki' => 'Wiki de test :',
+	'wminc-testwiki-none' => 'Aucun / tous',
+	'wminc-prefinfo-language' => "Votre langue de l'interface - indépendante de votre wiki de test",
+	'wminc-prefinfo-code' => 'Le code ISO 639 de la langue',
+	'wminc-prefinfo-project' => "Sélectionnez le projet Wikimedia (l'option Incubator est destinée aux utilisateurs qui font un travail général)",
+	'wminc-prefinfo-error' => 'Vous avez sélectionné un projet qui nécessite un code de langue.',
+	'wminc-warning-unprefixed' => "Attention : la page que vous modifiez n'a pas de préfixe !",
+	'wminc-warning-suggest' => 'Vous pouvez créer la page à [[$1]].',
+	'wminc-warning-suggest-move' => 'Vous pouvez [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renommer cette page vers $1].',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'wminc-desc' => 'Testowy wikijowy system za Wikimedia Incubator',
 );
 
 /** Dutch (Nederlands)
@@ -69,7 +93,20 @@ $messages['nl'] = array(
 	'wminc-warning-suggest-move' => 'U kunt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} deze pagina hernoemen naar $1].',
 );
 
-/** Cantonese
+/** Swedish (Svenska)
+ * @author Najami
+ */
+$messages['sv'] = array(
+	'wminc-desc' => 'Testwikisystem för Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Kolla upp användarspråk och testwiki',
+	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-none' => 'Ingen/Alla',
+	'wminc-prefinfo-language' => 'Ditt gränssnittsspråk - oavhängigt från din testwiki',
+	'wminc-prefinfo-code' => 'ISO 639-språkkoden',
+	'wminc-prefinfo-project' => 'Välj Wikimediaprojekt (alternativet Incubator för användare som gör allmänt arbete)',
+);
+
+/** Yue (粵語)
  * @author Shinjiman
  */
 $messages['yue'] = array(
@@ -86,7 +123,7 @@ $messages['yue'] = array(
 	'wminc-warning-suggest-move' => '你可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 搬呢一版到$1]。',
 );
 
-/** Simplified Chinese
+/** Simplified Chinese (‪中文(简体)‬)
  * @author Shinjiman
  */
 $messages['zh-hans'] = array(
@@ -103,7 +140,7 @@ $messages['zh-hans'] = array(
 	'wminc-warning-suggest-move' => '您可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 移动这个页面到$1]。',
 );
 
-/** Traditional Chinese
+/** Traditional Chinese (‪中文(繁體)‬)
  * @author Shinjiman
  */
 $messages['zh-hant'] = array(
@@ -119,3 +156,4 @@ $messages['zh-hant'] = array(
 	'wminc-warning-suggest' => '您可以在[[$1]]開新頁面。',
 	'wminc-warning-suggest-move' => '您可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 移動這個頁面到$1]。',
 );
+
