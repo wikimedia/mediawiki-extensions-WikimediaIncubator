@@ -13,6 +13,13 @@ $aliases['en'] = array(
 	'ViewUserLang' => array( 'ViewUserLang' ),
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$aliases['ar'] = array(
+	'ViewUserLang' => array( 'عرض_لغة_المستخدم' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'ViewUserLang' => array( 'GebruikerstaalOpzoeken' ),
