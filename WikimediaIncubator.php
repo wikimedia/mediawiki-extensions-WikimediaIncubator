@@ -27,7 +27,6 @@ $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 
 /* Special:ViewUserLang */
-$wgExtensionAliasesFiles['ViewUserLang'] = $dir . 'WikimediaIncubator.alias.php';
 $wgAutoloadClasses['SpecialViewUserLang'] = $dir . 'SpecialViewUserLang.php';
 $wgSpecialPages['ViewUserLang'] = 'SpecialViewUserLang';
 $wgSpecialPageGroups['ViewUserLang'] = 'users';
