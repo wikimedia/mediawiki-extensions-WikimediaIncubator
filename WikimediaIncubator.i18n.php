@@ -330,6 +330,23 @@ $messages['pt'] = array(
 	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Eduardo.mps
+ */
+$messages['pt-br'] = array(
+	'wminc-desc' => 'Sistema de wikis de teste para a Incubadora Wikimedia',
+	'wminc-viewuserlang' => 'Procurar idioma do utilizador e wiki de teste',
+	'wminc-testwiki' => 'Wiki de teste:',
+	'wminc-testwiki-none' => 'Nenhum/Tudo',
+	'wminc-prefinfo-language' => 'Seu idioma de interface - independente do seu wiki de teste',
+	'wminc-prefinfo-code' => 'O código de língua ISO 639',
+	'wminc-prefinfo-project' => 'Selecione o projeto Wikimedia (a opção Incubadora é para usuários que fazem trabalho geral)',
+	'wminc-prefinfo-error' => 'Você selecionou um projeto que necessita de um código de língua.',
+	'wminc-warning-unprefixed' => 'Aviso: a página que você está editando não tem prefixo!',
+	'wminc-warning-suggest' => 'Você pode criar uma página em [[$1]].',
+	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
+);
+
 /** Russian (Русский)
  * @author Ferrer
  */
