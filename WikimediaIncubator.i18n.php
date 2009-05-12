@@ -79,6 +79,13 @@ $messages['bs'] = array(
 	'wminc-warning-suggest-move' => 'Možete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} premjestiti ovu stranicu na $1].',
 );
 
+/** Catalan (Català)
+ * @author Solde
+ */
+$messages['ca'] = array(
+	'wminc-testwiki-none' => 'Cap/Tots',
+);
+
 /** German (Deutsch)
  * @author MF-Warburg
  */
@@ -298,6 +305,23 @@ $messages['nl'] = array(
 	'wminc-warning-unprefixed' => 'Waarschuwing: de pagina die u aan het bewerken bent, heeft geen voorvoegsel!',
 	'wminc-warning-suggest' => 'U kunt een pagina aanmaken op [[$1]].',
 	'wminc-warning-suggest-move' => 'U kunt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} deze pagina hernoemen naar $1].',
+);
+
+/** Occitan (Occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'wminc-desc' => 'Sistèma de tèst de wiki per Wikimedia Incubator',
+	'wminc-viewuserlang' => "Veire la lenga de l'utilizaire e son wiki de tèst",
+	'wminc-testwiki' => 'Wiki de tèst :',
+	'wminc-testwiki-none' => 'Pas cap / totes',
+	'wminc-prefinfo-language' => "Vòstra lenga de l'interfàcia - independenta de vòstre wiki de tèst",
+	'wminc-prefinfo-code' => 'Lo còde ISO 639 de la lenga',
+	'wminc-prefinfo-project' => "Seleccionatz lo projècte Wikimedia (l'opcion Incubator es destinada als utilizaires que fan un trabalh general)",
+	'wminc-prefinfo-error' => 'Avètz seleccionat un projècte que necessita un còde de lenga.',
+	'wminc-warning-unprefixed' => 'Atencion : la pagina que modificatz a pas de prefixe !',
+	'wminc-warning-suggest' => 'Podètz crear la pagina a [[$1]].',
+	'wminc-warning-suggest-move' => 'Podètz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} tornar nomenar aquesta pagina cap a $1].',
 );
 
 /** Polish (Polski)
