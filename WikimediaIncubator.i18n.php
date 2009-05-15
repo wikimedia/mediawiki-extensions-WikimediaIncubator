@@ -44,6 +44,15 @@ $messages['qqq'] = array(
 * $3 is the current page title.',
 );
 
+/** Arabic (العربية)
+ * @author OsamaK
+ */
+$messages['ar'] = array(
+	'wminc-testwiki' => 'ويكي الاختبار:',
+	'wminc-testwiki-none' => 'لا شيء/الكل',
+	'wminc-prefinfo-code' => 'رمز ISO 639 للغة',
+);
+
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
@@ -137,6 +146,13 @@ $messages['dsb'] = array(
 $messages['el'] = array(
 	'wminc-testwiki' => 'Δοκιμαστικό wiki:',
 	'wminc-testwiki-none' => 'Κανένα/Όλα',
+);
+
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'wminc-testwiki' => 'Prova vikio:',
 );
 
 /** Spanish (Español)
@@ -397,6 +413,7 @@ $messages['sk'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Gabbe.g
  * @author Najami
  */
 $messages['sv'] = array(
@@ -407,6 +424,7 @@ $messages['sv'] = array(
 	'wminc-prefinfo-language' => 'Ditt gränssnittsspråk - oavhängigt från din testwiki',
 	'wminc-prefinfo-code' => 'ISO 639-språkkoden',
 	'wminc-prefinfo-project' => 'Välj Wikimediaprojekt (alternativet Incubator för användare som gör allmänt arbete)',
+	'wminc-prefinfo-error' => 'Du valde ett projekt som kräver en språkkod.',
 );
 
 /** Telugu (తెలుగు)
