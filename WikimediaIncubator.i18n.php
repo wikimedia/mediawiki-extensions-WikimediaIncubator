@@ -295,6 +295,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'wminc-desc' => 'Testwiki-System fir de Wikimedia-Incubator',
 	'wminc-viewuserlang' => 'Benotzersprooch an Test-Wiki nokucken',
 	'wminc-testwiki' => 'Test-Wiki:',
 	'wminc-testwiki-none' => 'Keen/All',
@@ -302,6 +303,7 @@ $messages['lb'] = array(
 	'wminc-prefinfo-code' => 'Den ISO 639 Sprooche-Code',
 	'wminc-prefinfo-project' => "Wielt de Wikimediaprojet (D'Optioun 'Incubator' ass fir Benotzer déi allgemeng Aufgaben erledigen)",
 	'wminc-prefinfo-error' => 'Dir hutt e Projet gewielt deen e Sproochecode brauch.',
+	'wminc-warning-unprefixed' => "Opgepasst: d'Säit déi Dir ännert huet kee Prefix!",
 	'wminc-warning-suggest' => 'Dir kënnt eng Säit op [[$1]] uleeën.',
 	'wminc-warning-suggest-move' => 'Dir kënnt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} dës Säit op $1 réckelen].',
 );
@@ -385,6 +387,13 @@ $messages['pt-br'] = array(
 	'wminc-warning-unprefixed' => 'Aviso: a página que você está editando não tem prefixo!',
 	'wminc-warning-suggest' => 'Você pode criar uma página em [[$1]].',
 	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'wminc-testwiki-none' => 'Nisciune/Tutte',
 );
 
 /** Russian (Русский)
