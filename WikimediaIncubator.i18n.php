@@ -19,7 +19,7 @@ $messages['en'] = array(
 	'wminc-prefinfo-code' => 'The ISO 639 language code',
 	'wminc-prefinfo-project' => 'Select the Wikimedia project (Incubator option is for users who do general work)',
 	'wminc-prefinfo-error' => 'You selected a project that needs a language code.',
-	'wminc-warning-unprefixed' => 'Warning: the page you are editing is unprefixed!',
+	'wminc-warning-unprefixed' => "'''Warning:''' The page you are editing is unprefixed!",
 	'wminc-warning-suggest' => 'You can create a page at [[$1]].',
 	'wminc-warning-suggest-move' => 'You can [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} move this page to $1].',
 );
