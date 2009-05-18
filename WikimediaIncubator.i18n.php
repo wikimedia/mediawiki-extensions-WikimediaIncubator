@@ -22,6 +22,7 @@ $messages['en'] = array(
 	'wminc-warning-unprefixed' => "'''Warning:''' The page you are editing is unprefixed!",
 	'wminc-warning-suggest' => 'You can create a page at [[$1]].',
 	'wminc-warning-suggest-move' => 'You can [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} move this page to $1].',
+	'right-viewuserlang' => 'View [[Special:ViewUserLang|user language and test wiki]]',
 );
 
 /** Message documentation (Message documentation)

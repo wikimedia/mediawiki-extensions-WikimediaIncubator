@@ -2,7 +2,7 @@
 /**
  * Provides a special page to look up user language and test wiki
  * This can be useful e.g. when a user has a problem with the preference system,
-* so the test wiki/language information can be easily looked up
+ * so the test wiki/language information can be easily looked up
  *
  * Based on code from extension LookupUser made by Tim Starling
  *

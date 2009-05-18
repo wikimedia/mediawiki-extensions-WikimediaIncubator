@@ -105,13 +105,13 @@ class IncubatorTest
 					if ( self::NormalPrefix() ) {
 						global $wgUser;
 						$suggest = self::DisplayPrefixedTitle( $wgTitle->getText(), $wgTitle->getNsText() );
-						if( !$wgTitle->exists() ) { // Creating a page, so suggest to create a prefixed page
+						if ( !$wgTitle->exists() ) { // Creating a page, so suggest to create a prefixed page
 						$warning .= ' <span id="wminc-warning-suggest">'
 							. wfMsg( 'wminc-warning-suggest', $suggest )
 							. '</span>';
-						} elseif( $wgUser->isAllowed( 'move' ) ) { // Page exists, so suggest to move
+						} elseif ( $wgUser->isAllowed( 'move' ) ) { // Page exists, so suggest to move
 						$warning .= ' <span id="wminc-warning-suggest-move" class="plainlinks">'
-							. wfMsg( 'wminc-warning-suggest-move', $suggest, urlencode($suggest), urlencode($wgTitle) )
+							. wfMsg( 'wminc-warning-suggest-move', $suggest, urlencode( $suggest ), urlencode( $wgTitle ) )
 							. '</span>';
 						}
 					}
