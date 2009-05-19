@@ -26,6 +26,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Purodha
  * @author SPQRobin
  */
 $messages['qqq'] = array(
@@ -43,6 +44,7 @@ $messages['qqq'] = array(
 	'wminc-warning-suggest-move' => '* $1 is user prefix + current page title (for example "Wp/nl/Pagina" when creating "Pagina").
 * $2 is the same, but for use in URLs.
 * $3 is the current page title.',
+	'right-viewuserlang' => '{{doc-right|viewuserlang}}',
 );
 
 /** Arabic (العربية)
@@ -70,6 +72,7 @@ $messages['be-tarask'] = array(
 	'wminc-warning-unprefixed' => 'Папярэджаньне: старонка, якую Вы рэдагуеце, ня мае прэфікса!',
 	'wminc-warning-suggest' => 'Вы можаце стварыць старонку [[$1]].',
 	'wminc-warning-suggest-move' => 'Вы можаце [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} перанесьці гэту старонку ў $1].',
+	'right-viewuserlang' => 'прагляд [[Special:ViewUserLang|мовы ўдзельніка і тэставаньне вікі]]',
 );
 
 /** Bosnian (Bosanski)
@@ -87,6 +90,7 @@ $messages['bs'] = array(
 	'wminc-warning-unprefixed' => 'Upozorenje: stranica koju uređujete nema prefiksa!',
 	'wminc-warning-suggest' => 'Možete napraviti stranicu na [[$1]].',
 	'wminc-warning-suggest-move' => 'Možete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} premjestiti ovu stranicu na $1].',
+	'right-viewuserlang' => 'Pregledavanje [[Special:ViewUserLang|korisničkog jezika i probne wiki]]',
 );
 
 /** Catalan (Català)
@@ -98,6 +102,7 @@ $messages['ca'] = array(
 
 /** German (Deutsch)
  * @author MF-Warburg
+ * @author Umherirrender
  */
 $messages['de'] = array(
 	'wminc-desc' => 'Testwiki-System für den Wikimedia Incubator',
@@ -111,6 +116,7 @@ $messages['de'] = array(
 	'wminc-warning-unprefixed' => 'Achtung: Du bearbeitest eine Seite ohne Präfix!',
 	'wminc-warning-suggest' => 'Du kannst hier eine Seite erstellen: [[$1]].',
 	'wminc-warning-suggest-move' => 'Du kannst [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|Benutzersprache und Testwiki]] anschauen',
 );
 
 /** German (formal address) (Deutsch (Sie-Form))
@@ -139,6 +145,7 @@ $messages['dsb'] = array(
 	'wminc-warning-unprefixed' => 'Warnowanje: bok, kótaryž wobźěłujoš, njama prefiks!',
 	'wminc-warning-suggest' => 'Móžoš na [[$1]] bok napóraś.',
 	'wminc-warning-suggest-move' => 'Móžoš [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} toś ten bok do $1 pśesunuś].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|Wužywarsku rěc a testowy wiki]] se woglědaś',
 );
 
 /** Greek (Ελληνικά)
@@ -174,6 +181,7 @@ $messages['es'] = array(
 );
 
 /** French (Français)
+ * @author Crochet.david
  * @author IAlex
  */
 $messages['fr'] = array(
@@ -188,6 +196,7 @@ $messages['fr'] = array(
 	'wminc-warning-unprefixed' => "Attention : la page que vous modifiez n'a pas de préfixe !",
 	'wminc-warning-suggest' => 'Vous pouvez créer la page à [[$1]].',
 	'wminc-warning-suggest-move' => 'Vous pouvez [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renommer cette page vers $1].',
+	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|langue de l’utilisateur et le wiki de test]]',
 );
 
 /** Galician (Galego)
@@ -205,6 +214,16 @@ $messages['gl'] = array(
 	'wminc-warning-unprefixed' => 'Aviso: a páxina que está editando non ten prefixo!',
 	'wminc-warning-suggest' => 'Pode crear a páxina en "[[$1]]".',
 	'wminc-warning-suggest-move' => 'Pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta páxina a "$1"].',
+	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|a lingua do usuario e o wiki de probas]]',
+);
+
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Omnipaedista
+ */
+$messages['grc'] = array(
+	'wminc-testwiki' => 'Ϝίκι δοκιμή:',
+	'wminc-testwiki-none' => 'Οὐδέν/Ἅπαντα',
+	'wminc-prefinfo-code' => 'Ὁ κῶδιξ γλώσσης ISO 639',
 );
 
 /** Swiss German (Alemannisch)
@@ -222,6 +241,7 @@ $messages['gsw'] = array(
 	'wminc-warning-unprefixed' => 'Obacht: Du bearbeitsch e Syte ohni Präfix!',
 	'wminc-warning-suggest' => 'Do chasch e Syte aalege: [[$1]].',
 	'wminc-warning-suggest-move' => 'Du chasch [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} die Syte no $1 verschiebe].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|D Benutzersproch und s Teschtwiki]] aaluege',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -239,6 +259,7 @@ $messages['hsb'] = array(
 	'wminc-warning-unprefixed' => 'Warnowanje: strona, kotruž wobdźěłuješ, nima prefiks!',
 	'wminc-warning-suggest' => 'Móžeš na [[$1]] stronu wutworić.',
 	'wminc-warning-suggest-move' => 'Móžeš [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} tutu stronu do $1 přesunyć].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|Wužiwarsku rěč a testowy wiki]] sej wobhladać',
 );
 
 /** Interlingua (Interlingua)
@@ -256,6 +277,7 @@ $messages['ia'] = array(
 	'wminc-warning-unprefixed' => 'Attention: le pagina que tu modifica es sin prefixo!',
 	'wminc-warning-suggest' => 'Tu pote crear un pagina a [[$1]].',
 	'wminc-warning-suggest-move' => 'Tu pote [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renominar iste pagina verso $1].',
+	'right-viewuserlang' => 'Vider le [[Special:ViewUserLang|lingua e wiki de test de usatores]]',
 );
 
 /** Japanese (日本語)
@@ -273,6 +295,7 @@ $messages['ja'] = array(
 	'wminc-warning-unprefixed' => '警告: あなたが編集しているページには接頭辞が付いていません！',
 	'wminc-warning-suggest' => 'あなたは [[$1]] にページを作りました。',
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} このページを $1 に移動]できます。',
+	'right-viewuserlang' => '[[Special:ViewUserLang|利用者言語と試験版ウィキ]]を見る',
 );
 
 /** Ripoarisch (Ripoarisch)
@@ -290,6 +313,7 @@ $messages['ksh'] = array(
 	'wminc-warning-unprefixed' => 'Opjepaß: Do bes en Sigg oohne ene Namess-Försatz för et Projäk un en Shprooch am beärbeide!',
 	'wminc-warning-suggest' => 'De kanns en Sigg aanlääje als [[$1]].',
 	'wminc-warning-suggest-move' => 'Do kanns hee di Sigg [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} op $1 ömnänne].',
+	'right-viewuserlang' => 'De [[Special:ViewUserLang|Metmaacher ier Shprooche un Täßwiki]] beloore',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -311,6 +335,7 @@ $messages['lb'] = array(
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'wminc-desc' => 'Testwiki-systeem voor Wikimedia Incubator',
@@ -324,6 +349,35 @@ $messages['nl'] = array(
 	'wminc-warning-unprefixed' => 'Waarschuwing: de pagina die u aan het bewerken bent, heeft geen voorvoegsel!',
 	'wminc-warning-suggest' => 'U kunt een pagina aanmaken op [[$1]].',
 	'wminc-warning-suggest-move' => 'U kunt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} deze pagina hernoemen naar $1].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|Gebruikerstaal en test wiki]] bekijken',
+);
+
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Gunnernett
+ */
+$messages['nn'] = array(
+	'wminc-desc' => 'Testwikisystem for Wikimedia Incubator',
+	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-none' => 'Ingen/alle',
+	'wminc-prefinfo-code' => 'ISO 639-språkkode',
+	'wminc-warning-suggest' => 'Du kan oppretta ei side på [[$1]].',
+);
+
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['no'] = array(
+	'wminc-desc' => 'Testwikisystem for Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Slå opp brukerspråk og testwiki',
+	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-none' => 'Ingen/Alle',
+	'wminc-prefinfo-language' => 'Ditt grensesnittspråk - uavhengig av din testwiki',
+	'wminc-prefinfo-code' => 'ISO 639-språkkoden',
+	'wminc-prefinfo-project' => 'Velg Wikimediaprosjektet (alternativet Incubator er for brukere som gjør generelt arbeid)',
+	'wminc-prefinfo-error' => 'Du valgte et prosjekt som krever en språkkode.',
+	'wminc-warning-suggest' => 'Du kan opprette en side på [[$1]].',
+	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytte denne siden til $1].',
+	'right-viewuserlang' => 'Vis [[Special:ViewUserLang|brukerspråk og testwiki]]',
 );
 
 /** Occitan (Occitan)
@@ -420,6 +474,7 @@ $messages['sk'] = array(
 	'wminc-warning-unprefixed' => 'Upozornenie: stránka, ktorú upravujete je bez predpony!',
 	'wminc-warning-suggest' => 'Môžete vytvoriť stránku na [[$1]].',
 	'wminc-warning-suggest-move' => 'Môžete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} presunúť túto stránku na $1].',
+	'right-viewuserlang' => 'Zobraziť [[Special:ViewUserLang|jazyk používateľa a testovaciu wiki]]',
 );
 
 /** Swedish (Svenska)
