@@ -396,6 +396,7 @@ $messages['oc'] = array(
 	'wminc-warning-unprefixed' => 'Atencion : la pagina que modificatz a pas de prefixe !',
 	'wminc-warning-suggest' => 'Podètz crear la pagina a [[$1]].',
 	'wminc-warning-suggest-move' => 'Podètz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} tornar nomenar aquesta pagina cap a $1].',
+	'right-viewuserlang' => 'Vejatz [[Special:ViewUserLang|lenga de l’utilizaire e lo wiki de tèst]]',
 );
 
 /** Polish (Polski)
