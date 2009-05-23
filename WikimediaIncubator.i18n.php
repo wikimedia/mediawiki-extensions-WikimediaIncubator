@@ -501,6 +501,25 @@ $messages['te'] = array(
 	'wminc-testwiki' => 'పరీక్షా వికీ:',
 );
 
+/** Turkish (Türkçe)
+ * @author Karduelis
+ */
+$messages['tr'] = array(
+	'wminc-testwiki' => 'Test viki:',
+);
+
+/** Ukrainian (Українська)
+ * @author AS
+ */
+$messages['uk'] = array(
+	'wminc-desc' => 'Тестова вікі для Інкубатора Вікімедіа',
+	'wminc-viewuserlang' => 'Проглянути мову й тестову вікі користувача',
+	'wminc-testwiki' => 'Тестова вікі:',
+	'wminc-testwiki-none' => 'Жодна або всі',
+	'wminc-prefinfo-language' => 'Мова інтерфейсу (залежить від мови тестової вікі)',
+	'wminc-prefinfo-code' => 'Код мови згідно з ISO 639',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
@@ -516,6 +535,7 @@ $messages['vi'] = array(
 	'wminc-warning-unprefixed' => 'Cảnh báo: bạn đang sửa đổi trang chưa có tiền tố!',
 	'wminc-warning-suggest' => 'Bạn có thể tạo trang “[[$1]]”.',
 	'wminc-warning-suggest-move' => 'Bạn có thể [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} di chuyển trang này đến $1].',
+	'right-viewuserlang' => 'Xem [[Special:ViewUserLang|ngôn ngữ và wiki thử của người dùng]]',
 );
 
 /** Yue (粵語)
