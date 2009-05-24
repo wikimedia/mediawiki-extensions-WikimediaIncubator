@@ -334,6 +334,26 @@ $messages['lb'] = array(
 	'wminc-warning-suggest-move' => 'Dir kënnt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} dës Säit op $1 réckelen].',
 );
 
+/** Lazuri Nena (Lazuri Nena)
+ * @author Bombola
+ */
+$messages['lzz'] = array(
+	'wminc-prefinfo-code' => "ISO 639 nena k'odi",
+);
+
+/** Malagasy (Malagasy)
+ * @author Jagwar
+ */
+$messages['mg'] = array(
+	'wminc-testwiki' => 'Wiki fanandramana :',
+	'wminc-testwiki-none' => 'Tsy misy / izy rehetra',
+	'wminc-prefinfo-language' => "Ny ten'ny rindrankajy ho anao - tsy mifatotra amin'ny wiki fanandramanao",
+	'wminc-prefinfo-code' => 'Kaody ISO 639 ny teny',
+	'wminc-prefinfo-error' => 'Nisafidy tetikasa mila kaody nà teny ianao.',
+	'wminc-warning-unprefixed' => "'''Tandremo''' : tsy manana prefiksa ny pejy ovainao",
+	'wminc-warning-suggest' => "Afaka mamorona ny pejy an'i [[$1]] ianao.",
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
