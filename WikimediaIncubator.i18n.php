@@ -187,14 +187,14 @@ $messages['es'] = array(
  */
 $messages['fr'] = array(
 	'wminc-desc' => 'Système de test de wiki pour Wikimedia Incubator',
-	'wminc-viewuserlang' => "Voir la langue de l'utilisateur et son wiki de test",
+	'wminc-viewuserlang' => 'Voir la langue de l’utilisateur et son wiki de test',
 	'wminc-testwiki' => 'Wiki de test :',
 	'wminc-testwiki-none' => 'Aucun / tous',
-	'wminc-prefinfo-language' => "Votre langue de l'interface - indépendante de votre wiki de test",
+	'wminc-prefinfo-language' => 'Votre langue de l’interface - indépendante de votre wiki de test',
 	'wminc-prefinfo-code' => 'Le code ISO 639 de la langue',
-	'wminc-prefinfo-project' => "Sélectionnez le projet Wikimedia (l'option Incubator est destinée aux utilisateurs qui font un travail général)",
+	'wminc-prefinfo-project' => 'Sélectionnez le projet Wikimedia (l’option Incubator est destinée aux utilisateurs qui font un travail général)',
 	'wminc-prefinfo-error' => 'Vous avez sélectionné un projet qui nécessite un code de langue.',
-	'wminc-warning-unprefixed' => "Attention : la page que vous modifiez n'a pas de préfixe !",
+	'wminc-warning-unprefixed' => "'''Attention :''' la page que vous modifiez n’a pas de préfixe !",
 	'wminc-warning-suggest' => 'Vous pouvez créer la page à [[$1]].',
 	'wminc-warning-suggest-move' => 'Vous pouvez [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renommer cette page vers $1].',
 	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|langue de l’utilisateur et le wiki de test]]',
@@ -378,9 +378,12 @@ $messages['nl'] = array(
  */
 $messages['nn'] = array(
 	'wminc-desc' => 'Testwikisystem for Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Slå opp brukarspråk og testwiki',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/alle',
+	'wminc-prefinfo-language' => 'Ditt grensesnittspråk - uavhengig av testwikien din',
 	'wminc-prefinfo-code' => 'ISO 639-språkkode',
+	'wminc-prefinfo-error' => 'Du valde eit prosjekt som krev ei språkkode.',
 	'wminc-warning-suggest' => 'Du kan oppretta ei side på [[$1]].',
 );
 
