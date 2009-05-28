@@ -54,9 +54,9 @@ class SpecialViewUserLang extends SpecialPage
 		$title = htmlspecialchars( $this->getTitle()->getPrefixedText() );
 		$action = htmlspecialchars( $wgScript );
 		$target = htmlspecialchars( $target );
-		$ok = wfMsg( 'go' );
-		$username = wfMsg( 'username' );
-		$inputformtop = wfMsg( 'wminc-viewuserlang' );
+		$ok = wfMsgHtml( 'go' );
+		$username = wfMsgHtml( 'username' );
+		$inputformtop = wfMsgHtml( 'wminc-viewuserlang' );
 
 		$wgOut->addHTML( <<<EOT
 <fieldset>
@@ -84,7 +84,7 @@ EOT
 		global $wgOut, $wgLang, $wgLanguageNames, $wmincPref;
 		$user = User::newFromName( $target );
 		if ( $user == null || $user->getId() == 0 ) {
-			$wgOut->addWikiText( '<span class="error">' . wfMsg( 'wminc-viewuserlang-unexisting', $target ) . '</span>' );
+			$wgOut->addWikiText( '<span class="error">' . wfMsgNoTrans( 'wminc-viewuserlang-unexisting', $target ) . '</span>' );
 		} else {
 			$name = $user->getName();
 			$wgOut->addWikiText( '*' . wfMsg( 'username' ) . ' [[User:' . $name . '|' . $name . ']] (' .
@@ -97,9 +97,9 @@ EOT
 				$wgLanguageNames[$user->mOptions['language']] . ' (' . $user->mOptions['language'] . ')'
 				)
 			);
-			if ( IncubatorTest::NormalPrefix() == true ) {
+			if ( IncubatorTest::isNormalPrefix() == true ) {
 				$testwiki = '[[W' . $user->mOptions[$wmincPref . '-project'] . '/' . $user->mOptions[$wmincPref . '-code'] . ']]';
-			} elseif ( IncubatorTest::DisplayPrefix() == 'inc' ) {
+			} elseif ( IncubatorTest::displayPrefix() == 'inc' ) {
 				$testwiki = 'Incubator';
 			} else {
 				$testwiki = wfMsg( 'wminc-testwiki-none' );

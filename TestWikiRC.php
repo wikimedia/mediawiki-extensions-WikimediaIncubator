@@ -4,10 +4,10 @@
 */
 
 class TestWikiRC {
-	static function RcQuery( &$conds, &$tables, &$join_conds, $opts ) {
+	static function onRcQuery( &$conds, &$tables, &$join_conds, $opts ) {
 		global $wgUser, $wgRequest, $wmincPref;
-		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $wgUser->mOptions[$wmincPref . '-project'] ) );
-		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $wgUser->mOptions[$wmincPref . '-code'] ) );
+		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') ) );
+		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') ) );
 		$fullprefix = 'W' . $projectvalue . '/' . $codevalue;
 		$opts->add( 'rc-testwiki-project', false );
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
@@ -25,16 +25,17 @@ class TestWikiRC {
 			$dbr = wfGetDB( DB_SLAVE );
 			$namespaces = array( NS_MAIN, NS_TALK, NS_TEMPLATE, NS_TEMPLATE_TALK, NS_CATEGORY, NS_CATEGORY_TALK );
 			$conds[] = 'rc_namespace IN (' . $dbr->makeList( $namespaces ) . ')';
-			$conds[] = 'rc_title like \'' . $fullprefix . '/%\' OR rc_title like \'' . $fullprefix . '\'';
+			$conds[] = 'rc_title like ' . $dbr->addQuotes( $dbr->escapeLike( $fullprefix ) . '/%' ) . 
+			' OR rc_title = ' . $dbr->addQuotes( $fullprefix );
 			return true;
 		}
 	}
 
-	static function RcForm( &$items, $opts ) {
+	static function onRcForm( &$items, $opts ) {
 		global $wgUser, $wgRequest, $wmincPref;
 		wfLoadExtensionMessages( 'WikimediaIncubator' );
-		$projectvalue = $wgRequest->getVal( 'rc-testwiki-project', $wgUser->mOptions[$wmincPref . '-project'] );
-		$langcodevalue = $wgRequest->getVal( 'rc-testwiki-code', $wgUser->mOptions[$wmincPref . '-code'] );
+		$projectvalue = $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') );
+		$langcodevalue = $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') );
 		$opts->consumeValue( 'rc-testwiki-project' );
 		$opts->consumeValue( 'rc-testwiki-code' );
 		$label = Xml::label( wfMsg( 'wminc-testwiki' ), 'rc-testwiki' );

@@ -10,19 +10,18 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '2.1.4',
+	'version' => '2.2.0',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'description' => 'Test wiki features for Wikimedia Incubator',
 	'descriptionmsg' => 'wminc-desc',
 );
 
 /* Config */
-$wmincEnableAutoTestWiki = true;
-$wmincPref = 'incubatortestwiki'; /* Name of the preference */
 $wgGroupPermissions['*']['viewuserlang'] = false;
 $wgGroupPermissions['sysop']['viewuserlang'] = true;
 
 /* General */
+$wmincPref = 'incubatortestwiki'; // Name of the preference
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 
@@ -35,22 +34,21 @@ $wgHooks['ContributionsToolLinks'][] = 'efLoadViewUserLangLink';
 
 /* TestWiki preference */
 $wgAutoloadClasses['IncubatorTest'] = $dir . 'IncubatorTest.php';
-$wgHooks['GetPreferences'][] = 'IncubatorTest::AddPreferences';
-$wgHooks['MagicWordwgVariableIDs'][] = 'IncubatorTest::MagicWordVariable';
-$wgHooks['LanguageGetMagic'][] = 'IncubatorTest::MagicWord';
-$wgHooks['ParserGetVariableValueSwitch'][] = 'IncubatorTest::MagicWordValue';
+$wgHooks['GetPreferences'][] = 'IncubatorTest::onGetPreferences';
+$wgHooks['MagicWordwgVariableIDs'][] = 'IncubatorTest::magicWordVariable';
+$wgHooks['LanguageGetMagic'][] = 'IncubatorTest::magicWord';
+$wgHooks['ParserGetVariableValueSwitch'][] = 'IncubatorTest::magicWordValue';
 
 /* Edit page */
-$wgHooks['EditPage::showEditForm:initial'][] = 'IncubatorTest::EditPageCheckPrefix';
+$wgHooks['EditPage::showEditForm:initial'][] = 'IncubatorTest::editPageCheckPrefix';
 
 /* Recent Changes */
 $wgAutoloadClasses['TestWikiRC'] = $dir . 'TestWikiRC.php';
-$wgHooks['SpecialRecentChangesQuery'][] = 'TestWikiRC::RcQuery';
-$wgHooks['SpecialRecentChangesPanel'][] = 'TestWikiRC::RcForm';
+$wgHooks['SpecialRecentChangesQuery'][] = 'TestWikiRC::onRcQuery';
+$wgHooks['SpecialRecentChangesPanel'][] = 'TestWikiRC::onRcForm';
 
 /* Automatic pref on account creation */
-if ( $wmincEnableAutoTestWiki == true ) {
-	$wgAutoloadClasses['AutoTestWiki'] = $dir . 'CreateAccountTestWiki.php';
-	$wgHooks['UserCreateForm'][] = 'AutoTestWiki::UserCreateForm';
-	$wgHooks['AddNewAccount'][] = 'AutoTestWiki::AddNewAccount';
-}
+$wgAutoloadClasses['AutoTestWiki'] = $dir . 'CreateAccountTestWiki.php';
+$wgHooks['UserCreateForm'][] = 'AutoTestWiki::onUserCreateForm';
+$wgHooks['AddNewAccount'][] = 'AutoTestWiki::onAddNewAccount';
+

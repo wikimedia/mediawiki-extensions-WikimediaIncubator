@@ -5,7 +5,7 @@
 
 class IncubatorTest
 {
-	static function AddPreferences( $user, &$preferences ) {
+	static function onGetPreferences( $user, &$preferences ) {
 		global $wmincPref, $wmincPrefProject, $wmincPrefNone;
 
 		$preferences['language']['help-message'] = 'wminc-prefinfo-language';
@@ -35,7 +35,7 @@ class IncubatorTest
 		return true;
 	}
 
-	function CodeValidation( $input, $alldata ) {
+	function codeValidation( $input, $alldata ) {
 		global $wmincPref;
 		// If the user selected a project that NEEDS a language code, but the user DID NOT enter a language code, give an error
 		if ( !in_array( $alldata[$wmincPref . '-project'], array( '', 'none', 'inc' ) ) && !$input ) {
@@ -45,79 +45,85 @@ class IncubatorTest
 		}
 	}
 
-	function NormalPrefix() {
+	function isNormalPrefix() {
 		global $wgUser, $wmincPref;
-		if ( in_array( $wgUser->mOptions[$wmincPref . '-project'], array( '', 'none', 'inc' ) ) ) {
+		if ( in_array( $wgUser->getOption($wmincPref . '-project'), array( '', 'none', 'inc' ) ) ) {
 			return false; // false because this is NOT a normal prefix
 		} else {
 			return true; // true because this is a normal prefix
 		}
 	}
-	function DisplayPrefix() {
+	function displayPrefix() {
+		// display the prefix of the user preference
 		global $wgUser, $wmincPref;
-		if ( self::NormalPrefix() == true ) {
-			return 'W' . $wgUser->mOptions[$wmincPref . '-project'] . '/' . $wgUser->mOptions[$wmincPref . '-code']; // return the prefix
+		if ( self::isNormalPrefix() == true ) {
+			return 'W' . $wgUser->getOption($wmincPref . '-project') . '/' . $wgUser->getOption($wmincPref . '-code'); // return the prefix
 		} else {
-			return $wgUser->mOptions[$wmincPref . '-project']; // still provide the value
+			return $wgUser->getOption($wmincPref . '-project'); // still provide the value
 		}
 	}
 
-	function DisplayPrefixedTitle( $title, $namespace = '' ) {
+	function displayPrefixedTitle( $title, $namespace = '' ) {
 		global $wgUser, $wmincPref;
 		$out = '';
-		if ( self::NormalPrefix() ) {
+		if ( self::isNormalPrefix() ) {
 			if ( $namespace ) { $out .= $namespace . ':'; }
-			$out .= self::DisplayPrefix() . '/' . $title;
+			$out .= self::displayPrefix() . '/' . $title;
 		} else {
-			$out .= self::DisplayPrefix();
+			$out .= self::displayPrefix();
 		}
 		return $out;
 	}
 
-	function MagicWordVariable( &$magicWords ) {
+	function magicWordVariable( &$magicWords ) {
 		$magicWords[] = 'usertestwiki';
 		return true;
 	}
 
-	function MagicWord( &$magicWords, $langCode ) {
+	function magicWord( &$magicWords, $langCode ) {
 		$magicWords['usertestwiki'] = array( 0, 'USERTESTWIKI' );
 		return true;
 	}
 
-	function MagicWordValue( &$parser, &$cache, &$magicWordId, &$ret ) {
-		$ret = self::DisplayPrefix();
+	function magicWordValue( &$parser, &$cache, &$magicWordId, &$ret ) {
+		if( !self::displayPrefix() ) {
+			$ret = 'none';
+		} else {
+			$ret = self::displayPrefix();
+		}
 		return true;
 	}
 
-	function EditPageCheckPrefix( $editpage ) {
+	function editPageCheckPrefix( $editpage ) {
 		// If user has "project" as test wiki preference, it isn't needed to check
-		if ( self::DisplayPrefix() != 'inc' ) {
-			global $wgTitle;
-			$namespaces = array( NS_MAIN, NS_TALK, NS_TEMPLATE, NS_TEMPLATE_TALK, NS_CATEGORY, NS_CATEGORY_TALK );
-			// If it is in one of the above namespace, check if the page title has a prefix
-			if ( in_array( $wgTitle->getNamespace(), $namespaces ) && !preg_match( '/W[bnpqt]\/[a-z][a-z][a-z]?/', $wgTitle->getText() ) ) {
-				global $wgOut;
-				wfLoadExtensionMessages( 'WikimediaIncubator' );
-					$warning = '<div id="wminc-warning"><span id="wm-warning-unprefixed">'
-						. wfMsg( 'wminc-warning-unprefixed' )
+		if ( self::displayPrefix() == 'inc' ) {
+			return true;
+		}
+		global $wgTitle;
+		$namespaces = array( NS_MAIN, NS_TALK, NS_TEMPLATE, NS_TEMPLATE_TALK, NS_CATEGORY, NS_CATEGORY_TALK );
+		// If it is in one of the above namespace, check if the page title has a prefix
+		if ( in_array( $wgTitle->getNamespace(), $namespaces ) && !preg_match( '/W[bnpqt]\/[a-z][a-z][a-z]?/', $wgTitle->getText() ) ) {
+			global $wgOut;
+			wfLoadExtensionMessages( 'WikimediaIncubator' );
+				$warning = '<div id="wminc-warning"><span id="wm-warning-unprefixed">'
+					. wfMsg( 'wminc-warning-unprefixed' )
+					. '</span>';
+				// If the user has a test wiki pref, suggest a page title with prefix
+				if ( self::isNormalPrefix() ) {
+					global $wgUser;
+					$suggest = self::displayPrefixedTitle( $wgTitle->getText(), $wgTitle->getNsText() );
+					if ( !$wgTitle->exists() ) { // Creating a page, so suggest to create a prefixed page
+					$warning .= ' <span id="wminc-warning-suggest">'
+						. wfMsg( 'wminc-warning-suggest', $suggest )
 						. '</span>';
-					// If the user has a test wiki pref, suggest a page title with prefix
-					if ( self::NormalPrefix() ) {
-						global $wgUser;
-						$suggest = self::DisplayPrefixedTitle( $wgTitle->getText(), $wgTitle->getNsText() );
-						if ( !$wgTitle->exists() ) { // Creating a page, so suggest to create a prefixed page
-						$warning .= ' <span id="wminc-warning-suggest">'
-							. wfMsg( 'wminc-warning-suggest', $suggest )
-							. '</span>';
-						} elseif ( $wgUser->isAllowed( 'move' ) ) { // Page exists, so suggest to move
-						$warning .= ' <span id="wminc-warning-suggest-move" class="plainlinks">'
-							. wfMsg( 'wminc-warning-suggest-move', $suggest, urlencode( $suggest ), urlencode( $wgTitle ) )
-							. '</span>';
-						}
+					} elseif ( $wgUser->isAllowed( 'move' ) ) { // Page exists, so suggest to move
+					$warning .= ' <span id="wminc-warning-suggest-move" class="plainlinks">'
+						. wfMsg( 'wminc-warning-suggest-move', $suggest, urlencode( $suggest ), urlencode( $wgTitle ) )
+						. '</span>';
 					}
-					$warning .= '</div>';
-				$wgOut->addWikiText( $warning );
-			}
+				}
+				$warning .= '</div>';
+			$wgOut->addWikiText( $warning );
 		}
 		return true;
 	}

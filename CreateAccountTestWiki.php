@@ -4,7 +4,7 @@
 * This can be used to work with my toolserver project (http://toolserver.org/~robin/?tool=proposewiki), so users don't *have* to change their preferences (automatically is always better :p)
 */
 class AutoTestWiki {
-	function UserCreateForm( $template ) {
+	function onUserCreateForm( $template ) {
 		global $wgRequest;
 		$projectvalue = strtolower( $wgRequest->getVal( 'testwikiproject', '' ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'testwikicode', '' ) );
@@ -16,7 +16,7 @@ class AutoTestWiki {
 		return true;
 	}
 
-	function AddNewAccount( $user ) {
+	function onAddNewAccount( $user ) {
 		global $wgRequest, $wmincPref;
 		$getprojectvalue = $wgRequest->getVal( 'testwiki-project' );
 		$getcodevalue = $wgRequest->getVal( 'testwiki-code' );
