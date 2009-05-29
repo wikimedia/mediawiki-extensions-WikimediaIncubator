@@ -28,14 +28,20 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author EugeneZelenko
+ * @author Fryed-peach
  * @author Purodha
  * @author SPQRobin
  */
 $messages['qqq'] = array(
 	'wminc-desc' => 'Short description of this extension, shown on [[Special:Version]].',
 	'wminc-viewuserlang' => 'Title of a special page to look up the language and test wiki of a user. See [[:File:Incubator-testwiki-viewuserlang.jpg]].',
-	'wminc-viewuserlang-user' => 'Label for the input.',
-	'wminc-viewuserlang-go' => "Text on the submit button to view the user's language and test wiki.",
+	'wminc-viewuserlang-user' => 'Label for the input.
+
+{{Identical|Username}}',
+	'wminc-viewuserlang-go' => "Text on the submit button to view the user's language and test wiki.
+
+{{Identical|Go}}",
 	'wminc-testwiki' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-testwiki-none' => "* Used on Special:Preferences when the user didn't select a test wiki preference (yet).
 * Used on Special:RecentChanges to show normal recent changes display.",
@@ -67,6 +73,8 @@ $messages['ar'] = array(
 $messages['be-tarask'] = array(
 	'wminc-desc' => 'Тэставая вікі-сыстэма для інкубатара фундацыі «Вікімэдыя»',
 	'wminc-viewuserlang' => 'Пошук мовы ўдзельніка і тэставай вікі',
+	'wminc-viewuserlang-user' => 'Імя ўдзельніка:',
+	'wminc-viewuserlang-go' => 'Перайсьці',
 	'wminc-testwiki' => 'Тэставая вікі:',
 	'wminc-testwiki-none' => 'Ніякая/усе',
 	'wminc-prefinfo-language' => 'Вашая мова інтэрфэйсу — незалежная ад мовы Вашай тэставай вікі',
@@ -85,6 +93,8 @@ $messages['be-tarask'] = array(
 $messages['bs'] = array(
 	'wminc-desc' => 'Testiranje wiki sistema za Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Pregledaj korisnički jezik i testiranu wiki',
+	'wminc-viewuserlang-user' => 'Korisničko ime:',
+	'wminc-viewuserlang-go' => 'Idi',
 	'wminc-testwiki' => 'Testna wiki:',
 	'wminc-testwiki-none' => 'Ništa/Sve',
 	'wminc-prefinfo-language' => 'Vaš jezik interfejsa - nezavisno od Vaše testirane wiki',
@@ -140,6 +150,8 @@ $messages['de-formal'] = array(
 $messages['dsb'] = array(
 	'wminc-desc' => 'Testowy wikijowy system za Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Wužywarsku rěc a testowy wiki se woglědaś',
+	'wminc-viewuserlang-user' => 'Wužywarske mě:',
+	'wminc-viewuserlang-go' => 'Pokazaś',
 	'wminc-testwiki' => 'Testowy wiki:',
 	'wminc-testwiki-none' => 'Žeden/Wše',
 	'wminc-prefinfo-language' => 'Rěc twójogo wužywarskego pówjercha - wót twójogo testowego wikija njewótwisna',
@@ -212,6 +224,8 @@ $messages['fr'] = array(
 $messages['gl'] = array(
 	'wminc-desc' => 'Sistema wiki de probas para a Incubadora da Wikimedia',
 	'wminc-viewuserlang' => 'Olle a lingua de usuario e o wiki de proba',
+	'wminc-viewuserlang-user' => 'Nome de usuario:',
+	'wminc-viewuserlang-go' => 'Ir',
 	'wminc-testwiki' => 'Wiki de proba:',
 	'wminc-testwiki-none' => 'Ningún/Todos',
 	'wminc-prefinfo-language' => 'A súa lingua da interface (independente do seu wiki de proba)',
@@ -239,6 +253,8 @@ $messages['grc'] = array(
 $messages['gsw'] = array(
 	'wminc-desc' => 'Teschtwiki-Syschtem fir dr Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Benutzersproch un Teschtwiki aaluege',
+	'wminc-viewuserlang-user' => 'Benutzername:',
+	'wminc-viewuserlang-go' => 'Gang ane',
 	'wminc-testwiki' => 'Teschtwiki:',
 	'wminc-testwiki-none' => 'Keis/Alli',
 	'wminc-prefinfo-language' => 'Sproch vu Dyyre Benutzeroberflächi - nit abhängig vum Teschtwiki',
@@ -257,6 +273,8 @@ $messages['gsw'] = array(
 $messages['hsb'] = array(
 	'wminc-desc' => 'Testowy wikijowy system za Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Wužiwarsku rěč a testowy wiki sej wobhladać',
+	'wminc-viewuserlang-user' => 'Wužiwarske mjeno:',
+	'wminc-viewuserlang-go' => 'Pokazać',
 	'wminc-testwiki' => 'Testowy wiki:',
 	'wminc-testwiki-none' => 'Žadyn/Wšě',
 	'wminc-prefinfo-language' => 'Rěč twojeho wužiwarskeho powjercha - wot twojeho testoweho wikija njewotwisna',
@@ -295,6 +313,8 @@ $messages['ia'] = array(
 $messages['ja'] = array(
 	'wminc-desc' => 'ウィキメディア・インキュベーター用の試験版ウィキシステム',
 	'wminc-viewuserlang' => '利用者の言語と試験版ウィキを探す',
+	'wminc-viewuserlang-user' => '利用者名:',
+	'wminc-viewuserlang-go' => '表示',
 	'wminc-testwiki' => '試験版ウィキ:',
 	'wminc-testwiki-none' => 'なし/すべて',
 	'wminc-prefinfo-language' => 'あなたのインタフェース言語（あなたの試験版ウィキとは独立しています）',
@@ -313,6 +333,8 @@ $messages['ja'] = array(
 $messages['ksh'] = array(
 	'wminc-desc' => 'Täß-Wiki Süßtemm för dä Inkubator vun de Wikimedia Shtefftung',
 	'wminc-viewuserlang' => 'Däm Metmaacher sing Shprooch un sing Täß-Wiki aanloore',
+	'wminc-viewuserlang-user' => 'Metmaacher-Name:',
+	'wminc-viewuserlang-go' => 'Lohß Jonn!',
 	'wminc-testwiki' => 'Täß-Wiki:',
 	'wminc-testwiki-none' => 'Kein/All',
 	'wminc-prefinfo-language' => 'De Shprooch för däm Wiki sing Bovverfläsch un et Wiki ze Bedeene — hät nix met Dingem Täß-Wiki singe Shprooch ze donn',
@@ -389,12 +411,15 @@ $messages['nl'] = array(
 $messages['nn'] = array(
 	'wminc-desc' => 'Testwikisystem for Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Slå opp brukarspråk og testwiki',
+	'wminc-viewuserlang-user' => 'Brukarnamn:',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/alle',
 	'wminc-prefinfo-language' => 'Ditt grensesnittspråk - uavhengig av testwikien din',
 	'wminc-prefinfo-code' => 'ISO 639-språkkode',
 	'wminc-prefinfo-error' => 'Du valde eit prosjekt som krev ei språkkode.',
+	'wminc-warning-unprefixed' => "'''Åtvaring:''' Sida du endrar er utan prefiks!",
 	'wminc-warning-suggest' => 'Du kan oppretta ei side på [[$1]].',
+	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytta denne sida til $1].',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
@@ -420,6 +445,8 @@ $messages['no'] = array(
 $messages['oc'] = array(
 	'wminc-desc' => 'Sistèma de tèst de wiki per Wikimedia Incubator',
 	'wminc-viewuserlang' => "Veire la lenga de l'utilizaire e son wiki de tèst",
+	'wminc-viewuserlang-user' => "Nom d'utilizaire :",
+	'wminc-viewuserlang-go' => 'Anar',
 	'wminc-testwiki' => 'Wiki de tèst :',
 	'wminc-testwiki-none' => 'Pas cap / totes',
 	'wminc-prefinfo-language' => "Vòstra lenga de l'interfàcia - independenta de vòstre wiki de tèst",
@@ -517,10 +544,12 @@ $messages['sk'] = array(
 /** Swedish (Svenska)
  * @author Gabbe.g
  * @author Najami
+ * @author Poxnar
  */
 $messages['sv'] = array(
 	'wminc-desc' => 'Testwikisystem för Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Kolla upp användarspråk och testwiki',
+	'wminc-viewuserlang-user' => 'Användarnamn:',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/Alla',
 	'wminc-prefinfo-language' => 'Ditt gränssnittsspråk - oavhängigt från din testwiki',
