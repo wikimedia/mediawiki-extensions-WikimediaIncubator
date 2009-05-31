@@ -353,6 +353,8 @@ $messages['ksh'] = array(
 $messages['lb'] = array(
 	'wminc-desc' => 'Testwiki-System fir de Wikimedia-Incubator',
 	'wminc-viewuserlang' => 'Benotzersprooch an Test-Wiki nokucken',
+	'wminc-viewuserlang-user' => 'Benotzernumm:',
+	'wminc-viewuserlang-go' => 'Lass',
 	'wminc-testwiki' => 'Test-Wiki:',
 	'wminc-testwiki-none' => 'Keen/All',
 	'wminc-prefinfo-language' => 'Sprooch vun ärem Interface - onofhängeg vun Ärer Test-Wiki',
@@ -362,6 +364,7 @@ $messages['lb'] = array(
 	'wminc-warning-unprefixed' => "Opgepasst: d'Säit déi Dir ännert huet kee Prefix!",
 	'wminc-warning-suggest' => 'Dir kënnt eng Säit op [[$1]] uleeën.',
 	'wminc-warning-suggest-move' => 'Dir kënnt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} dës Säit op $1 réckelen].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|Benotzersprooch an Test-Wiki]] weisen',
 );
 
 /** Lazuri Nena (Lazuri Nena)
