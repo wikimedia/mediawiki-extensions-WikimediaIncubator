@@ -518,10 +518,23 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Ferrer
+ * @author Александр Сигачёв
  */
 $messages['ru'] = array(
+	'wminc-desc' => 'Проверочная вики-система для Инкубатора Викимедии',
+	'wminc-viewuserlang' => 'Поиск языковых настроек и проверочной вики участника',
+	'wminc-viewuserlang-user' => 'Имя участника:',
+	'wminc-viewuserlang-go' => 'Найти',
+	'wminc-testwiki' => 'Проверочная вики:',
+	'wminc-testwiki-none' => 'Нет/все',
+	'wminc-prefinfo-language' => 'Ваш язык интерфейса не зависит от вашей проверочной вики',
+	'wminc-prefinfo-code' => 'Код языка по ISO 639',
+	'wminc-prefinfo-project' => 'Выбор проекта Викимедиа (выберите Инкубатора, если вы занимаетесь общими вопросами)',
+	'wminc-prefinfo-error' => 'Вы выбрали проект, для которого необходимо указать код языка.',
+	'wminc-warning-unprefixed' => "'''Внимание.''' Страница, которую вы правите не имеет префикса!",
 	'wminc-warning-suggest' => 'Вы можете создать страницу на [[$1]].',
 	'wminc-warning-suggest-move' => 'Вы можете [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} переименовать эту страницу в $1].',
+	'right-viewuserlang' => 'просматривать [[Special:ViewUserLang|языковые настройки и проверочную вики участника]]',
 );
 
 /** Slovak (Slovenčina)
@@ -589,10 +602,13 @@ $messages['uk'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
+ * @author Vinhtantran
  */
 $messages['vi'] = array(
 	'wminc-desc' => 'Hệ thống wiki thử của Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Ngôn ngữ và wiki thử của người dùng',
+	'wminc-viewuserlang-user' => 'Tên hiệu:',
+	'wminc-viewuserlang-go' => 'Xem',
 	'wminc-testwiki' => 'Wiki thử:',
 	'wminc-testwiki-none' => 'Không có / tất cả',
 	'wminc-prefinfo-language' => 'Ngôn ngữ giao diện của bạn – có thể khác với wiki thử',
