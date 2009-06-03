@@ -10,7 +10,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '2.2.0',
+	'version' => '2.3.0',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'description' => 'Test wiki features for Wikimedia Incubator',
 	'descriptionmsg' => 'wminc-desc',
@@ -52,3 +52,6 @@ $wgAutoloadClasses['AutoTestWiki'] = $dir . 'CreateAccountTestWiki.php';
 $wgHooks['UserCreateForm'][] = 'AutoTestWiki::onUserCreateForm';
 $wgHooks['AddNewAccount'][] = 'AutoTestWiki::onAddNewAccount';
 
+/* Random page by test */
+$wgAutoloadClasses['SpecialRandomByTest'] = $dir . 'SpecialRandomByTest.php';
+$wgSpecialPages['RandomByTest'] = 'SpecialRandomByTest';
