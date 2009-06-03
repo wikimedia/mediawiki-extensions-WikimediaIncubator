@@ -87,6 +87,16 @@ $messages['be-tarask'] = array(
 	'right-viewuserlang' => 'прагляд [[Special:ViewUserLang|мовы ўдзельніка і тэставаньне вікі]]',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'wminc-viewuserlang-user' => 'Потребител:',
+	'wminc-testwiki' => 'Тестово уики:',
+	'wminc-warning-suggest' => 'Можете да създадете страница на [[$1]].',
+	'wminc-warning-suggest-move' => 'Можете да [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} преместите тази страница като $1].',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
