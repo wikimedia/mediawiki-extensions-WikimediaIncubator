@@ -61,6 +61,7 @@ $messages['qqq'] = array(
  * @author OsamaK
  */
 $messages['ar'] = array(
+	'wminc-viewuserlang-user' => 'اسم المستخدم:',
 	'wminc-testwiki' => 'ويكي الاختبار:',
 	'wminc-testwiki-none' => 'لا شيء/الكل',
 	'wminc-prefinfo-code' => 'رمز ISO 639 للغة',
@@ -436,17 +437,21 @@ $messages['nn'] = array(
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Audun
  * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'wminc-desc' => 'Testwikisystem for Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Slå opp brukerspråk og testwiki',
+	'wminc-viewuserlang-user' => 'Brukernavn:',
+	'wminc-viewuserlang-go' => 'Gå',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/Alle',
 	'wminc-prefinfo-language' => 'Ditt grensesnittspråk - uavhengig av din testwiki',
 	'wminc-prefinfo-code' => 'ISO 639-språkkoden',
 	'wminc-prefinfo-project' => 'Velg Wikimediaprosjektet (alternativet Incubator er for brukere som gjør generelt arbeid)',
 	'wminc-prefinfo-error' => 'Du valgte et prosjekt som krever en språkkode.',
+	'wminc-warning-unprefixed' => "'''Advarsel:''' Siden du endrer er uprefiksert!",
 	'wminc-warning-suggest' => 'Du kan opprette en side på [[$1]].',
 	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytte denne siden til $1].',
 	'right-viewuserlang' => 'Vis [[Special:ViewUserLang|brukerspråk og testwiki]]',
@@ -486,11 +491,14 @@ $messages['pl'] = array(
 );
 
 /** Portuguese (Português)
+ * @author Lijealso
  * @author Waldir
  */
 $messages['pt'] = array(
 	'wminc-desc' => 'Sistema de wikis de teste para a Incubadora Wikimedia',
 	'wminc-viewuserlang' => 'Procurar idioma de utilizador e wiki de teste',
+	'wminc-viewuserlang-user' => 'Nome de usuário:',
+	'wminc-viewuserlang-go' => 'Ir',
 	'wminc-testwiki' => 'Wiki de teste:',
 	'wminc-testwiki-none' => 'Nenhum/Tudo',
 	'wminc-prefinfo-language' => 'A seu idioma de interface - independente do seu wiki de teste',
