@@ -531,6 +531,8 @@ $messages['pt-br'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'wminc-viewuserlang-user' => "Nome de l'utende:",
+	'wminc-viewuserlang-go' => 'Veje',
 	'wminc-testwiki-none' => 'Nisciune/Tutte',
 );
 
