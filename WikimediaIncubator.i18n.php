@@ -125,6 +125,18 @@ $messages['ca'] = array(
 	'wminc-testwiki-none' => 'Cap/Tots',
 );
 
+/** Sorani (Arabic script) (‫کوردی (عەرەبی)‬)
+ * @author Marmzok
+ */
+$messages['ckb-arab'] = array(
+	'wminc-viewuserlang-user' => 'ناوی بەکارهێنەری:',
+	'wminc-viewuserlang-go' => 'بڕۆ',
+	'wminc-testwiki-none' => 'هیچیان\\هەموویان',
+	'wminc-prefinfo-code' => 'کۆدی زمانی ISO 639',
+	'wminc-prefinfo-error' => 'پڕۆژەیەکت هەڵبژاردووه کە پێویستی بە کۆدی زمانە.',
+	'wminc-warning-suggest' => 'دەتوانی لاپەڕەیەک لە [[$1]]دا درووست‌بکەی.',
+);
+
 /** German (Deutsch)
  * @author MF-Warburg
  * @author Umherirrender
@@ -176,9 +188,12 @@ $messages['dsb'] = array(
 );
 
 /** Greek (Ελληνικά)
+ * @author Crazymadlover
  * @author Omnipaedista
  */
 $messages['el'] = array(
+	'wminc-viewuserlang-user' => 'Όνομα χρήστη:',
+	'wminc-viewuserlang-go' => 'Πήγαινε',
 	'wminc-testwiki' => 'Δοκιμαστικό wiki:',
 	'wminc-testwiki-none' => 'Κανένα/Όλα',
 );
@@ -187,7 +202,10 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'wminc-viewuserlang-user' => 'Salutnomo:',
 	'wminc-testwiki' => 'Prova vikio:',
+	'wminc-testwiki-none' => 'Nenio/Ĉio',
+	'wminc-prefinfo-language' => 'Via interfaca lingvo - sendepende de via prova vikio',
 );
 
 /** Spanish (Español)
@@ -196,6 +214,8 @@ $messages['eo'] = array(
 $messages['es'] = array(
 	'wminc-desc' => 'Sistema de wiki de prueba para Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Ver lenguaje de usuario y wiki de prueba',
+	'wminc-viewuserlang-user' => 'Nombre de usuario:',
+	'wminc-viewuserlang-go' => 'Ir',
 	'wminc-testwiki' => 'Wiki de prueba:',
 	'wminc-testwiki-none' => 'Ninguno/Todo',
 	'wminc-prefinfo-language' => 'Tu lenguaje de interface - independiente de tu wiki de prueba',
@@ -250,9 +270,12 @@ $messages['gl'] = array(
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
  * @author Omnipaedista
  */
 $messages['grc'] = array(
+	'wminc-viewuserlang-user' => 'Ὄνομα χρωμένου:',
+	'wminc-viewuserlang-go' => 'Ἰέναι',
 	'wminc-testwiki' => 'Ϝίκι δοκιμή:',
 	'wminc-testwiki-none' => 'Οὐδέν/Ἅπαντα',
 	'wminc-prefinfo-code' => 'Ὁ κῶδιξ γλώσσης ISO 639',
