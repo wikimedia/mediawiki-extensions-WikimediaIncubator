@@ -501,16 +501,24 @@ $messages['oc'] = array(
 );
 
 /** Polish (Polski)
+ * @author Leinad
  * @author Sp5uhe
  */
 $messages['pl'] = array(
 	'wminc-desc' => 'Testowa wiki dla Inkubatora Wikimedia',
+	'wminc-viewuserlang' => 'Sprawdzanie języka użytkownika i testowej wiki',
+	'wminc-viewuserlang-user' => 'Nazwa użytkownika',
+	'wminc-viewuserlang-go' => 'Pokaż',
 	'wminc-testwiki' => 'Testowa wiki',
 	'wminc-testwiki-none' => 'Żadna lub wszystkie',
 	'wminc-prefinfo-language' => 'Język interfejsu (niezależny od języka testowej wiki)',
 	'wminc-prefinfo-code' => 'Kod języka według ISO 639',
+	'wminc-prefinfo-project' => 'Wybierz projekt Wikimedia (opcja wyboru Inkubatora jest przeznaczonach dla użytkowników, którzy wykonują ogólne prace)',
+	'wminc-prefinfo-error' => 'Został wybrany projekt, który wymaga podania kodu języka.',
+	'wminc-warning-unprefixed' => "'''Uwaga:''' strona, którą edytujesz, nie posiada prefiksu!",
 	'wminc-warning-suggest' => 'Możesz utworzyć stronę „[[$1]]”.',
 	'wminc-warning-suggest-move' => 'Możesz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} przenieść tę stronę do „$1”].',
+	'right-viewuserlang' => 'Zobacz [[Special:ViewUserLang|język użytkownika i testową wiki]]',
 );
 
 /** Portuguese (Português)
