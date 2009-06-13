@@ -131,10 +131,13 @@ $messages['ca'] = array(
 $messages['ckb-arab'] = array(
 	'wminc-viewuserlang-user' => 'ناوی بەکارهێنەری:',
 	'wminc-viewuserlang-go' => 'بڕۆ',
+	'wminc-testwiki' => 'تاقی‌کردنه‌وه‌ی ویکی:',
 	'wminc-testwiki-none' => 'هیچیان\\هەموویان',
+	'wminc-prefinfo-language' => 'ڕووکاری زمانی تۆ جیاوازه‌ له‌ تاقی کردنه‌وه‌ی ویکی',
 	'wminc-prefinfo-code' => 'کۆدی زمانی ISO 639',
 	'wminc-prefinfo-error' => 'پڕۆژەیەکت هەڵبژاردووه کە پێویستی بە کۆدی زمانە.',
 	'wminc-warning-suggest' => 'دەتوانی لاپەڕەیەک لە [[$1]]دا درووست‌بکەی.',
+	'wminc-warning-suggest-move' => '',
 );
 
 /** German (Deutsch)
@@ -144,6 +147,7 @@ $messages['ckb-arab'] = array(
 $messages['de'] = array(
 	'wminc-desc' => 'Testwiki-System für den Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Benutzersprache und Testwiki einsehen',
+	'wminc-viewuserlang-user' => 'Benutzername:',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Keins/Alle',
 	'wminc-prefinfo-language' => 'Sprache deiner Benutzeroberfläche - vom Testwiki unabhängig',
@@ -193,7 +197,7 @@ $messages['dsb'] = array(
  */
 $messages['el'] = array(
 	'wminc-viewuserlang-user' => 'Όνομα χρήστη:',
-	'wminc-viewuserlang-go' => 'Πήγαινε',
+	'wminc-viewuserlang-go' => 'Μετάβαση',
 	'wminc-testwiki' => 'Δοκιμαστικό wiki:',
 	'wminc-testwiki-none' => 'Κανένα/Όλα',
 );
@@ -339,6 +343,16 @@ $messages['ia'] = array(
 	'wminc-warning-suggest' => 'Tu pote crear un pagina a [[$1]].',
 	'wminc-warning-suggest-move' => 'Tu pote [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renominar iste pagina verso $1].',
 	'right-viewuserlang' => 'Vider le [[Special:ViewUserLang|lingua e wiki de test de usatores]]',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Rex
+ */
+$messages['id'] = array(
+	'wminc-desc' => 'Sistem pengujian wiki untuk Wikimedia Incubator',
+	'wminc-viewuserlang-user' => 'Nama pengguna:',
+	'wminc-testwiki' => 'Wiki pengujian:',
+	'wminc-testwiki-none' => 'Tidak ada/Semua',
 );
 
 /** Japanese (日本語)
@@ -513,12 +527,12 @@ $messages['pl'] = array(
 	'wminc-testwiki-none' => 'Żadna lub wszystkie',
 	'wminc-prefinfo-language' => 'Język interfejsu (niezależny od języka testowej wiki)',
 	'wminc-prefinfo-code' => 'Kod języka według ISO 639',
-	'wminc-prefinfo-project' => 'Wybierz projekt Wikimedia (opcja wyboru Inkubatora jest przeznaczonach dla użytkowników, którzy wykonują ogólne prace)',
+	'wminc-prefinfo-project' => 'Wybierz projekt Wikimedia (opcja wyboru Inkubatora jest przeznaczona dla użytkowników, którzy wykonują prace ogólne)',
 	'wminc-prefinfo-error' => 'Został wybrany projekt, który wymaga podania kodu języka.',
-	'wminc-warning-unprefixed' => "'''Uwaga:''' strona, którą edytujesz, nie posiada prefiksu!",
+	'wminc-warning-unprefixed' => "'''Uwaga''' – strona, którą edytujesz, nie posiada prefiksu!",
 	'wminc-warning-suggest' => 'Możesz utworzyć stronę „[[$1]]”.',
 	'wminc-warning-suggest-move' => 'Możesz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} przenieść tę stronę do „$1”].',
-	'right-viewuserlang' => 'Zobacz [[Special:ViewUserLang|język użytkownika i testową wiki]]',
+	'right-viewuserlang' => 'Zobacz [[Special:ViewUserLang|język użytkownika oraz testową wiki]]',
 );
 
 /** Portuguese (Português)
@@ -633,10 +647,24 @@ $messages['te'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Joseph
  * @author Karduelis
  */
 $messages['tr'] = array(
+	'wminc-desc' => 'Vikimedya İnkübatör için test viki sistemi',
+	'wminc-viewuserlang' => 'Kullanıcı dili ve test vikisine bak',
+	'wminc-viewuserlang-user' => 'Kullanıcı adı:',
+	'wminc-viewuserlang-go' => 'Git',
 	'wminc-testwiki' => 'Test viki:',
+	'wminc-testwiki-none' => 'Hiçbiri/Tümü',
+	'wminc-prefinfo-language' => 'Arayüz diliniz - test vikinizden bağımsız',
+	'wminc-prefinfo-code' => 'ISO 639 dil kodu',
+	'wminc-prefinfo-project' => 'Vikimedya projesini seçin (İnkübatör seçeneği genel çalışma yapan kullanıcılar için)',
+	'wminc-prefinfo-error' => 'Bir dil kodu gereken bir proje seçtiniz.',
+	'wminc-warning-unprefixed' => "'''Uyarı:''' Değiştirdiğiniz sayfanın öneki yok!",
+	'wminc-warning-suggest' => '[[$1]] adında yeni bir sayfa oluşturabilirsiniz.',
+	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} Bu sayfayı $1 sayfasına taşıyabilirsiniz].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|Kullanıcı dilini ve test vikisini]] gör',
 );
 
 /** Ukrainian (Українська)
