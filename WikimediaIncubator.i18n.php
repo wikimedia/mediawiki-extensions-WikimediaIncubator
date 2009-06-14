@@ -148,6 +148,7 @@ $messages['de'] = array(
 	'wminc-desc' => 'Testwiki-System für den Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Benutzersprache und Testwiki einsehen',
 	'wminc-viewuserlang-user' => 'Benutzername:',
+	'wminc-viewuserlang-go' => 'Holen',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Keins/Alle',
 	'wminc-prefinfo-language' => 'Sprache deiner Benutzeroberfläche - vom Testwiki unabhängig',
