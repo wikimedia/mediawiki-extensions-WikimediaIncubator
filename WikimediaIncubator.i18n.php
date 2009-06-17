@@ -67,6 +67,18 @@ $messages['ar'] = array(
 	'wminc-prefinfo-code' => 'رمز ISO 639 للغة',
 );
 
+/** Bavarian (Boarisch)
+ * @author Man77
+ */
+$messages['bar'] = array(
+	'wminc-viewuserlang-user' => 'Benutzanãm:',
+	'wminc-viewuserlang-go' => 'Hoin',
+	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-none' => 'Koane/Ålle',
+	'wminc-prefinfo-language' => 'Språch vu deina Benutzaowaflächn – vum Testwiki åbhängig',
+	'wminc-prefinfo-code' => 'Da ISO-639-Språchcode',
+);
+
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
  * @author Jim-by
@@ -534,6 +546,13 @@ $messages['pl'] = array(
 	'wminc-warning-suggest' => 'Możesz utworzyć stronę „[[$1]]”.',
 	'wminc-warning-suggest-move' => 'Możesz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} przenieść tę stronę do „$1”].',
 	'right-viewuserlang' => 'Zobacz [[Special:ViewUserLang|język użytkownika oraz testową wiki]]',
+);
+
+/** Pontic (Ποντιακά)
+ * @author Omnipaedista
+ */
+$messages['pnt'] = array(
+	'wminc-viewuserlang-go' => 'Δέβα',
 );
 
 /** Portuguese (Português)
