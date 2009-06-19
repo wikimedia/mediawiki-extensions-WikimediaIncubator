@@ -527,6 +527,13 @@ $messages['oc'] = array(
 	'right-viewuserlang' => 'Vejatz [[Special:ViewUserLang|lenga de l’utilizaire e lo wiki de tèst]]',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'wminc-viewuserlang-user' => 'Yuuser-Naame:',
+);
+
 /** Polish (Polski)
  * @author Leinad
  * @author Sp5uhe
