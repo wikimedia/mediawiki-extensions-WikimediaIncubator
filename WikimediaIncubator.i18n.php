@@ -169,19 +169,20 @@ $messages['de'] = array(
 	'wminc-prefinfo-error' => 'Bei diesem Projekt muss ein Sprachcode angeben werden!',
 	'wminc-warning-unprefixed' => 'Achtung: Du bearbeitest eine Seite ohne Präfix!',
 	'wminc-warning-suggest' => 'Du kannst hier eine Seite erstellen: [[$1]].',
-	'wminc-warning-suggest-move' => 'Du kannst [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
+	'wminc-warning-suggest-move' => 'Du kannst [{{fullurl:{{#special:MovePage}}/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benutzersprache und Testwiki]] anschauen',
 );
 
 /** German (formal address) (Deutsch (Sie-Form))
  * @author MF-Warburg
+ * @author Umherirrender
  */
 $messages['de-formal'] = array(
 	'wminc-prefinfo-language' => 'Sprache Ihrer Benutzeroberfläche - vom Testwiki unabhängig',
 	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem Sie hier arbeiten („Incubator“ für Benutzer, die allgemeine Aufgaben übernehmen)',
 	'wminc-warning-unprefixed' => 'Achtung: Sie bearbeiten eine Seite ohne Präfix!',
 	'wminc-warning-suggest' => 'Sie können hier eine Seite erstellen: [[$1]].',
-	'wminc-warning-suggest-move' => 'Sie können [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
+	'wminc-warning-suggest-move' => 'Sie können [{{fullurl:{{#special:MovePage}}/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -369,6 +370,7 @@ $messages['id'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Aotake
  * @author Fryed-peach
  */
 $messages['ja'] = array(
@@ -378,12 +380,12 @@ $messages['ja'] = array(
 	'wminc-viewuserlang-go' => '表示',
 	'wminc-testwiki' => '試験版ウィキ:',
 	'wminc-testwiki-none' => 'なし/すべて',
-	'wminc-prefinfo-language' => 'あなたのインタフェース言語（あなたの試験版ウィキとは独立しています）',
+	'wminc-prefinfo-language' => 'あなたのインタフェース言語 (あなたの試験版ウィキとは独立しています)',
 	'wminc-prefinfo-code' => 'ISO 639 言語コード',
 	'wminc-prefinfo-project' => 'ウィキメディア・プロジェクトを選択する (「Incubator」オプションは全般的な作業を行う利用者のためのものです)',
 	'wminc-prefinfo-error' => 'あなたが選択したプロジェクトは言語コードが必要です。',
 	'wminc-warning-unprefixed' => '警告: あなたが編集しているページには接頭辞が付いていません！',
-	'wminc-warning-suggest' => 'あなたは [[$1]] にページを作りました。',
+	'wminc-warning-suggest' => '[[$1]] にページを作ることができます。',
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} このページを $1 に移動]できます。',
 	'right-viewuserlang' => '[[Special:ViewUserLang|利用者言語と試験版ウィキ]]を見る',
 );
@@ -439,6 +441,8 @@ $messages['lzz'] = array(
  * @author Jagwar
  */
 $messages['mg'] = array(
+	'wminc-viewuserlang-user' => 'Solonanarana :',
+	'wminc-viewuserlang-go' => 'Andana',
 	'wminc-testwiki' => 'Wiki fanandramana :',
 	'wminc-testwiki-none' => 'Tsy misy / izy rehetra',
 	'wminc-prefinfo-language' => "Ny ten'ny rindrankajy ho anao - tsy mifatotra amin'ny wiki fanandramanao",
