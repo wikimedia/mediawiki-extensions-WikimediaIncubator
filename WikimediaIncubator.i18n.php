@@ -319,6 +319,24 @@ $messages['gsw'] = array(
 	'right-viewuserlang' => '[[Special:ViewUserLang|D Benutzersproch und s Teschtwiki]] aaluege',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author Ashok modhvadia
+ */
+$messages['gu'] = array(
+	'wminc-desc' => 'વિકિમીડિયા ઇનક્યુબેટર માટે પરિક્ષણ વિકિ પ્રણાલી',
+	'wminc-viewuserlang' => 'સભ્ય ભાષા અને પરિક્ષણ વિકિ જુઓ',
+	'wminc-viewuserlang-user' => 'સભ્યનામ:',
+	'wminc-viewuserlang-go' => 'જાઓ',
+	'wminc-testwiki' => 'પરિક્ષણ વિકિ:',
+	'wminc-testwiki-none' => 'કોઇ પણ નહીં/તમામ',
+	'wminc-prefinfo-language' => 'તમારી ઇન્ટરફેસ ભાષા - તમારા પરિક્ષણ વિકિથી સ્વતંત્ર',
+	'wminc-prefinfo-code' => 'ISO ૬૩૯ ભાષા સંજ્ઞા',
+	'wminc-prefinfo-project' => 'વિકિમીડિયા યોજના પસંદ કરો (સામાન્ય કાર્ય કરતા સભ્ય માટે ઇનક્યુબેટર વિકલ્પ)',
+	'wminc-prefinfo-error' => 'તમે પસંદ કરેલ યોજના માટે ભાષા સંજ્ઞા જરૂરી છે.',
+	'wminc-warning-unprefixed' => "'''ચેતાવણી:''' તમે જે પાનું સંપાદન કરી રહ્યા છો તે ઉપસર્ગરહીત છે!",
+	'wminc-warning-suggest' => 'તમે [[$1]] પર પાનું બનાવી શકો છો.',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
@@ -674,6 +692,8 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'wminc-viewuserlang-user' => 'వాడుకరిపేరు:',
+	'wminc-viewuserlang-go' => 'వెళ్ళు',
 	'wminc-testwiki' => 'పరీక్షా వికీ:',
 );
 
