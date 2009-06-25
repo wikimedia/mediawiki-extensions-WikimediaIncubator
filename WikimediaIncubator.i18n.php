@@ -246,6 +246,14 @@ $messages['es'] = array(
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma de usuario y prueba wiki]]',
 );
 
+/** Finnish (Suomi)
+ * @author Varusmies
+ */
+$messages['fi'] = array(
+	'wminc-viewuserlang-user' => 'Käyttäjätunnus:',
+	'wminc-viewuserlang-go' => 'Siirry',
+);
+
 /** French (Français)
  * @author Crochet.david
  * @author IAlex
@@ -378,11 +386,13 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Bennylin
  * @author Rex
  */
 $messages['id'] = array(
 	'wminc-desc' => 'Sistem pengujian wiki untuk Wikimedia Incubator',
 	'wminc-viewuserlang-user' => 'Nama pengguna:',
+	'wminc-viewuserlang-go' => 'Tuju ke',
 	'wminc-testwiki' => 'Wiki pengujian:',
 	'wminc-testwiki-none' => 'Tidak ada/Semua',
 );
@@ -619,6 +629,13 @@ $messages['pt-br'] = array(
 	'wminc-warning-unprefixed' => 'Aviso: a página que você está editando não tem prefixo!',
 	'wminc-warning-suggest' => 'Você pode criar uma página em [[$1]].',
 	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
+);
+
+/** Romanian (Română)
+ * @author KlaudiuMihaila
+ */
+$messages['ro'] = array(
+	'wminc-viewuserlang-user' => 'Nume de utilizator:',
 );
 
 /** Tarandíne (Tarandíne)
