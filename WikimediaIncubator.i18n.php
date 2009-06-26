@@ -390,11 +390,20 @@ $messages['ia'] = array(
  * @author Rex
  */
 $messages['id'] = array(
-	'wminc-desc' => 'Sistem pengujian wiki untuk Wikimedia Incubator',
+	'wminc-desc' => 'Sistem wiki pengujian untuk Inkubator Wikimedia',
+	'wminc-viewuserlang' => 'Cari bahasa pengguna dan wiki pengujian',
 	'wminc-viewuserlang-user' => 'Nama pengguna:',
 	'wminc-viewuserlang-go' => 'Tuju ke',
 	'wminc-testwiki' => 'Wiki pengujian:',
 	'wminc-testwiki-none' => 'Tidak ada/Semua',
+	'wminc-prefinfo-language' => 'Bahasa antarmuka Anda - tidak terpengaruh oleh wiki pengujian Anda',
+	'wminc-prefinfo-code' => 'Kode bahasa ISO 639',
+	'wminc-prefinfo-project' => 'Pilih proyek Wikimedia (pilihan Inkubator adalah untuk pengguna-pengguna yang melakukan kerja umum)',
+	'wminc-prefinfo-error' => 'Anda memilih sebuah proyek yang membutuhkan sebuah kode bahasa.',
+	'wminc-warning-unprefixed' => "'''Perhatian:''' Halaman yang Anda sunting tidak memiliki prefiks!",
+	'wminc-warning-suggest' => 'Anda dapat membuat halaman di [[$1]].',
+	'wminc-warning-suggest-move' => 'Anda dapat [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} memindahkan halaman ini] ke $1.',
+	'right-viewuserlang' => 'Lihat [[Special:ViewUserLang|bahasa pengguna dan wiki pengujian]]',
 );
 
 /** Japanese (日本語)
