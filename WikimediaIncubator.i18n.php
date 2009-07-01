@@ -605,6 +605,7 @@ $messages['pnt'] = array(
 
 /** Portuguese (Português)
  * @author Lijealso
+ * @author Malafaya
  * @author Waldir
  */
 $messages['pt'] = array(
@@ -621,6 +622,7 @@ $messages['pt'] = array(
 	'wminc-warning-unprefixed' => 'Aviso: a página que você está a editar não tem prefixo!',
 	'wminc-warning-suggest' => 'Você pode criar uma página em [[$1]].',
 	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
+	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|língua do utilizador e wiki de teste]]',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
