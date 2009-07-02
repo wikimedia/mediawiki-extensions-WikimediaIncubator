@@ -247,11 +247,20 @@ $messages['es'] = array(
 );
 
 /** Finnish (Suomi)
+ * @author Cimon Avaro
  * @author Varusmies
  */
 $messages['fi'] = array(
+	'wminc-desc' => 'Testiwiki-järjestelmä Wikimedia-hautomoa varten',
+	'wminc-viewuserlang' => 'Hae esiin käyttäjän kieli ja testiwiki',
 	'wminc-viewuserlang-user' => 'Käyttäjätunnus:',
 	'wminc-viewuserlang-go' => 'Siirry',
+	'wminc-testwiki' => 'Testiwiki:',
+	'wminc-testwiki-none' => 'Ei lainkaan/Kaikki',
+	'wminc-prefinfo-code' => 'ISO 639:n mukainen kielilyhennekoodi',
+	'wminc-prefinfo-project' => 'Valitse Wikimedia-hanke (Hautomossa tätä käyttävät ne jotka toimittavat yleisluontoisia askareita)',
+	'wminc-prefinfo-error' => 'Olet valinnut hankkeen, joka vaatii kielikoodin.',
+	'wminc-warning-suggest' => 'Voit luoda sivun nimelle [[$1]].',
 );
 
 /** French (Français)
@@ -744,6 +753,19 @@ $messages['tr'] = array(
 	'wminc-warning-suggest' => '[[$1]] adında yeni bir sayfa oluşturabilirsiniz.',
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} Bu sayfayı $1 sayfasına taşıyabilirsiniz].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Kullanıcı dilini ve test vikisini]] gör',
+);
+
+/** ئۇيغۇرچە (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'wminc-viewuserlang' => 'ئىشلەتكۈچى تىلىنى كۆرۈپ، wiki سىناش',
+	'wminc-viewuserlang-user' => 'ئىشلەتكۈچى ئاتى:',
+	'wminc-viewuserlang-go' => 'يۆتكەل',
+	'wminc-testwiki' => 'wiki سىناش:',
+	'wminc-testwiki-none' => 'ھەممىسى/يوق',
+	'wminc-prefinfo-language' => 'سىزنىڭ كۆرۈنمە تىلىڭىز - wiki سىناشتىن مۇستەقىل تۇرىدۇ',
+	'wminc-prefinfo-code' => 'ISO 639 تىل كودى',
 );
 
 /** Ukrainian (Українська)
