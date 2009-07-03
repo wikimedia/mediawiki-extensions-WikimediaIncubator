@@ -6,7 +6,7 @@
 class IncubatorTest
 {
 	static function onGetPreferences( $user, &$preferences ) {
-		global $wmincPref, $wmincPrefProject, $wmincPrefNone;
+		global $wmincPref, $wmincPrefProject, $wmincPrefNone, $wgDefaultUserOptions;
 
 		$preferences['language']['help-message'] = 'wminc-prefinfo-language';
 
@@ -29,6 +29,8 @@ class IncubatorTest
 			'help-message' => 'wminc-prefinfo-code',
 			'validation-callback' => array( 'IncubatorTest', 'CodeValidation' ),
 		);
+
+		$wgDefaultUserOptions[$wmincPref . '-project'] = 'none';
 
 		$preferences = wfArrayInsertAfter( $preferences, $prefinsert, 'language' );
 
