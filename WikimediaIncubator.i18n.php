@@ -354,6 +354,15 @@ $messages['gu'] = array(
 	'wminc-warning-suggest' => 'તમે [[$1]] પર પાનું બનાવી શકો છો.',
 );
 
+/** Hebrew (עברית)
+ * @author Rotemliss
+ * @author YaronSh
+ */
+$messages['he'] = array(
+	'wminc-viewuserlang-user' => 'שם המשתמש:',
+	'wminc-testwiki-none' => 'הכול/כלום',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
