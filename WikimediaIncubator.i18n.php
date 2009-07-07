@@ -248,6 +248,7 @@ $messages['es'] = array(
 
 /** Finnish (Suomi)
  * @author Cimon Avaro
+ * @author Crt
  * @author Varusmies
  */
 $messages['fi'] = array(
@@ -257,9 +258,11 @@ $messages['fi'] = array(
 	'wminc-viewuserlang-go' => 'Siirry',
 	'wminc-testwiki' => 'Testiwiki:',
 	'wminc-testwiki-none' => 'Ei lainkaan/Kaikki',
+	'wminc-prefinfo-language' => 'Käyttöliittymän kieli – riippumaton testiwikistäsi',
 	'wminc-prefinfo-code' => 'ISO 639:n mukainen kielilyhennekoodi',
 	'wminc-prefinfo-project' => 'Valitse Wikimedia-hanke (Hautomossa tätä käyttävät ne jotka toimittavat yleisluontoisia askareita)',
 	'wminc-prefinfo-error' => 'Olet valinnut hankkeen, joka vaatii kielikoodin.',
+	'wminc-warning-unprefixed' => "'''Varoitus:''' Sivu, jota muokkaat on etuliitteetön.",
 	'wminc-warning-suggest' => 'Voit luoda sivun nimelle [[$1]].',
 );
 
@@ -359,8 +362,20 @@ $messages['gu'] = array(
  * @author YaronSh
  */
 $messages['he'] = array(
+	'wminc-desc' => 'מערכת ויקי נסיונית עבור האינקובטור של ויקימדיה',
+	'wminc-viewuserlang' => 'חיפוש שפת משתמש ואתר ויקי נסיוני',
 	'wminc-viewuserlang-user' => 'שם המשתמש:',
+	'wminc-viewuserlang-go' => 'הצגה',
+	'wminc-testwiki' => 'ויקי נסיוני:',
 	'wminc-testwiki-none' => 'הכול/כלום',
+	'wminc-prefinfo-language' => 'שפת המנשק שלכם - אינה תלויה בוויקי הנסיוני שלכם',
+	'wminc-prefinfo-code' => 'קוד השפה לפי ISO 639',
+	'wminc-prefinfo-project' => 'בחרו את מיזם הוויקימדיה (אפשרות האינקובטור מיועדת למשתמשים המבצעים עבודה כללית)',
+	'wminc-prefinfo-error' => 'בחרתם במיזם הזקוק לקוד שפה.',
+	'wminc-warning-unprefixed' => "'''אזהרה:''' הדף שהנכם עורכים הוא ללא קידומת!",
+	'wminc-warning-suggest' => 'תוכלו ליצור דף במיקום [[$1]].',
+	'wminc-warning-suggest-move' => 'תוכלו [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} להעביר דף זה אל $1].',
+	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הנסיוני]]',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -443,6 +458,16 @@ $messages['ja'] = array(
 	'wminc-warning-suggest' => '[[$1]] にページを作ることができます。',
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} このページを $1 に移動]できます。',
 	'right-viewuserlang' => '[[Special:ViewUserLang|利用者言語と試験版ウィキ]]を見る',
+);
+
+/** Khmer (ភាសាខ្មែរ)
+ * @author វ័ណថារិទ្ធ
+ */
+$messages['km'] = array(
+	'wminc-viewuserlang-user' => 'អ្នកប្រើប្រាស់​៖',
+	'wminc-viewuserlang-go' => 'ទៅ​',
+	'wminc-testwiki' => 'សាកល្បង​វីគី៖',
+	'wminc-testwiki-none' => 'គ្មាន​/ទាំងអស់​',
 );
 
 /** Ripoarisch (Ripoarisch)
