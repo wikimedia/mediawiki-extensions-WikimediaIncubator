@@ -57,6 +57,14 @@ $messages['qqq'] = array(
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}',
 );
 
+/** Achinese (Acèh)
+ * @author Fadli Idris
+ */
+$messages['ace'] = array(
+	'wminc-desc' => 'Sistem cuba wiki keu Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Kaleun bahsa pengguna dan cuba wiki',
+);
+
 /** Arabic (العربية)
  * @author OsamaK
  */
@@ -362,19 +370,19 @@ $messages['gu'] = array(
  * @author YaronSh
  */
 $messages['he'] = array(
-	'wminc-desc' => 'מערכת ויקי נסיונית עבור האינקובטור של ויקימדיה',
+	'wminc-desc' => 'מערכת אתרי ויקי נסיוניים עבור האינקובטור של ויקימדיה',
 	'wminc-viewuserlang' => 'חיפוש שפת משתמש ואתר ויקי נסיוני',
 	'wminc-viewuserlang-user' => 'שם המשתמש:',
 	'wminc-viewuserlang-go' => 'הצגה',
-	'wminc-testwiki' => 'ויקי נסיוני:',
+	'wminc-testwiki' => 'אתר ויקי נסיוני:',
 	'wminc-testwiki-none' => 'הכול/כלום',
-	'wminc-prefinfo-language' => 'שפת המנשק שלכם - אינה תלויה בוויקי הנסיוני שלכם',
+	'wminc-prefinfo-language' => 'שפת הממשק שלכם - בלתי תלויה באתר הוויקי הנסיוני שלכם',
 	'wminc-prefinfo-code' => 'קוד השפה לפי ISO 639',
-	'wminc-prefinfo-project' => 'בחרו את מיזם הוויקימדיה (אפשרות האינקובטור מיועדת למשתמשים המבצעים עבודה כללית)',
-	'wminc-prefinfo-error' => 'בחרתם במיזם הזקוק לקוד שפה.',
-	'wminc-warning-unprefixed' => "'''אזהרה:''' הדף שהנכם עורכים הוא ללא קידומת!",
-	'wminc-warning-suggest' => 'תוכלו ליצור דף במיקום [[$1]].',
-	'wminc-warning-suggest-move' => 'תוכלו [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} להעביר דף זה אל $1].',
+	'wminc-prefinfo-project' => 'בחרו אחד ממיזמי ויקימדיה (האפשרות "אינקובטור" מיועדת למשתמשים המבצעים עבודה כללית)',
+	'wminc-prefinfo-error' => 'בחרתם במיזם הדורש קוד שפה.',
+	'wminc-warning-unprefixed' => "'''אזהרה:''' לדף שאתם עורכים אין קידומת!",
+	'wminc-warning-suggest' => 'באפשרותכם ליצור דף בשם [[$1]].',
+	'wminc-warning-suggest-move' => 'באפשרותכם [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} להעביר דף זה ל$1].',
 	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הנסיוני]]',
 );
 
@@ -616,6 +624,8 @@ $messages['oc'] = array(
  */
 $messages['pdc'] = array(
 	'wminc-viewuserlang-user' => 'Yuuser-Naame:',
+	'wminc-viewuserlang-go' => 'Hole',
+	'wminc-testwiki-none' => 'Ken/All',
 );
 
 /** Polish (Polski)
