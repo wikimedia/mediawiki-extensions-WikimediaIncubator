@@ -75,6 +75,15 @@ $messages['ar'] = array(
 	'wminc-prefinfo-code' => 'رمز ISO 639 للغة',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'wminc-viewuserlang-go' => 'ܙܠ',
+	'wminc-testwiki' => 'ܘܝܩܝ ܢܣܝܘܢܐ:',
+	'wminc-testwiki-none' => 'ܠܐ ܡܕܡ/ܟܠ',
+);
+
 /** Bavarian (Boarisch)
  * @author Man77
  */
@@ -322,7 +331,7 @@ $messages['gl'] = array(
 $messages['grc'] = array(
 	'wminc-viewuserlang-user' => 'Ὄνομα χρωμένου:',
 	'wminc-viewuserlang-go' => 'Ἰέναι',
-	'wminc-testwiki' => 'Ϝίκι δοκιμή:',
+	'wminc-testwiki' => 'Βίκι δοκιμή:',
 	'wminc-testwiki-none' => 'Οὐδέν/Ἅπαντα',
 	'wminc-prefinfo-code' => 'Ὁ κῶδιξ γλώσσης ISO 639',
 );
