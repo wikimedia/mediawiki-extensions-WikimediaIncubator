@@ -395,6 +395,26 @@ $messages['he'] = array(
 	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הנסיוני]]',
 );
 
+/** Hiligaynon (Ilonggo)
+ * @author Tagimata
+ */
+$messages['hil'] = array(
+	'wminc-desc' => 'Testing nga sistema wiki para sa Wikimedia Inkyubeytor',
+	'wminc-viewuserlang' => 'Tan-awon ang user halamabalanon kag pagtilaw wiki',
+	'wminc-viewuserlang-user' => 'Usarngalan:',
+	'wminc-viewuserlang-go' => 'Lakat',
+	'wminc-testwiki' => 'Pagtilaw wiki:',
+	'wminc-testwiki-none' => 'Wala/Tanan',
+	'wminc-prefinfo-language' => 'Ang imo hambalanon nga interface - kahilwayan halin sa imo pagtilaw wiki',
+	'wminc-prefinfo-code' => 'Ang ISO 639 lengwahe koda',
+	'wminc-prefinfo-project' => 'Pilion ang Wikimedia proyekto (Inkyubeytor pilili-an ar para sa mga user nga nagahimo sang kabilugan nga obra)',
+	'wminc-prefinfo-error' => 'Ginpili mo nga proyekto nga naga kilanlan sang lengwahe koda.',
+	'wminc-warning-unprefixed' => "'''Pa-andam:''' Ini nga pahina nga imo gina-islan ay diprefiks!",
+	'wminc-warning-suggest' => 'Makahimo ka pahina sa [[$1]].',
+	'wminc-warning-suggest-move' => 'Pwede mo [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} magiho ini nga pahina sa $1].',
+	'right-viewuserlang' => 'Tan-awon [[Special:ViewUserLang|user lengwahe kag pagtilaw wiki]]',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
