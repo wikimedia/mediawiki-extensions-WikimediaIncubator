@@ -34,7 +34,7 @@ $messages['en'] = array(
  * @author SPQRobin
  */
 $messages['qqq'] = array(
-	'wminc-desc' => 'Short description of this extension, shown on [[Special:Version]].',
+	'wminc-desc' => '{{desc}}',
 	'wminc-viewuserlang' => 'Title of a special page to look up the language and test wiki of a user. See [[:File:Incubator-testwiki-viewuserlang.jpg]].',
 	'wminc-viewuserlang-user' => 'Label for the input.
 
@@ -597,14 +597,17 @@ $messages['nn'] = array(
 	'wminc-desc' => 'Testwikisystem for Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Slå opp brukarspråk og testwiki',
 	'wminc-viewuserlang-user' => 'Brukarnamn:',
+	'wminc-viewuserlang-go' => 'Gå',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/alle',
 	'wminc-prefinfo-language' => 'Ditt grensesnittspråk - uavhengig av testwikien din',
 	'wminc-prefinfo-code' => 'ISO 639-språkkode',
+	'wminc-prefinfo-project' => 'Vél Wikimediaprosjekt (alternativet Incubator er for brukarar som gjer generelt arbeid)',
 	'wminc-prefinfo-error' => 'Du valde eit prosjekt som krev ei språkkode.',
 	'wminc-warning-unprefixed' => "'''Åtvaring:''' Sida du endrar er utan prefiks!",
 	'wminc-warning-suggest' => 'Du kan oppretta ei side på [[$1]].',
 	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytta denne sida til $1].',
+	'right-viewuserlang' => 'Vis [[Special:ViewUserLang|brukarspråk og testwiki]]',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
