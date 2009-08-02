@@ -263,6 +263,16 @@ $messages['es'] = array(
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma de usuario y prueba wiki]]',
 );
 
+/** Basque (Euskara)
+ * @author Kobazulo
+ */
+$messages['eu'] = array(
+	'wminc-viewuserlang-user' => 'Erabiltzaile izena:',
+	'wminc-viewuserlang-go' => 'Joan',
+	'wminc-testwiki-none' => 'Bat ere ez/Guztiak',
+	'wminc-prefinfo-code' => 'ISO 639 hizkuntza kodea',
+);
+
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Crt
