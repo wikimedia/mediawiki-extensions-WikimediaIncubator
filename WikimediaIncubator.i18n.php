@@ -271,6 +271,7 @@ $messages['eu'] = array(
 	'wminc-viewuserlang-go' => 'Joan',
 	'wminc-testwiki-none' => 'Bat ere ez/Guztiak',
 	'wminc-prefinfo-code' => 'ISO 639 hizkuntza kodea',
+	'wminc-warning-unprefixed' => "'''Abisua:''' Editatzen ari zaren orrialdeak ez du aurrizkirik!",
 );
 
 /** Finnish (Suomi)
@@ -792,6 +793,16 @@ $messages['sk'] = array(
 	'wminc-warning-suggest' => 'Môžete vytvoriť stránku na [[$1]].',
 	'wminc-warning-suggest-move' => 'Môžete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} presunúť túto stránku na $1].',
 	'right-viewuserlang' => 'Zobraziť [[Special:ViewUserLang|jazyk používateľa a testovaciu wiki]]',
+);
+
+/** Serbian Cyrillic ekavian (ћирилица)
+ * @author Михајло Анђелковић
+ */
+$messages['sr-ec'] = array(
+	'wminc-viewuserlang-user' => 'Корисничко име:',
+	'wminc-viewuserlang-go' => 'Иди',
+	'wminc-testwiki' => 'Тест-Вики:',
+	'wminc-testwiki-none' => 'Ништа/Све',
 );
 
 /** Swedish (Svenska)
