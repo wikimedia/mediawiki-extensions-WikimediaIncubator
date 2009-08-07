@@ -66,10 +66,12 @@ $messages['ace'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Ciphers
  * @author OsamaK
  */
 $messages['ar'] = array(
 	'wminc-viewuserlang-user' => 'اسم المستخدم:',
+	'wminc-viewuserlang-go' => 'اذهب',
 	'wminc-testwiki' => 'ويكي الاختبار:',
 	'wminc-testwiki-none' => 'لا شيء/الكل',
 	'wminc-prefinfo-code' => 'رمز ISO 639 للغة',
@@ -267,8 +269,10 @@ $messages['es'] = array(
  * @author Kobazulo
  */
 $messages['eu'] = array(
+	'wminc-viewuserlang' => 'Lankidearen hizkuntza eta probazko wikia ikusi',
 	'wminc-viewuserlang-user' => 'Erabiltzaile izena:',
 	'wminc-viewuserlang-go' => 'Joan',
+	'wminc-testwiki' => 'Probazko wikia:',
 	'wminc-testwiki-none' => 'Bat ere ez/Guztiak',
 	'wminc-prefinfo-code' => 'ISO 639 hizkuntza kodea',
 	'wminc-warning-unprefixed' => "'''Abisua:''' Editatzen ari zaren orrialdeak ez du aurrizkirik!",
@@ -506,6 +510,18 @@ $messages['ja'] = array(
 	'wminc-warning-suggest' => '[[$1]] にページを作ることができます。',
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} このページを $1 に移動]できます。',
 	'right-viewuserlang' => '[[Special:ViewUserLang|利用者言語と試験版ウィキ]]を見る',
+);
+
+/** Javanese (Basa Jawa)
+ * @author Pras
+ */
+$messages['jv'] = array(
+	'wminc-desc' => 'Sistem pangujian wiki kanggo Inkubator Wikimedia',
+	'wminc-viewuserlang' => 'Golèki basa panganggo lan wiki pangujian',
+	'wminc-viewuserlang-user' => 'Jeneng panganggo:',
+	'wminc-viewuserlang-go' => 'Tumuju menyang',
+	'wminc-testwiki' => 'Wiki pangujian:',
+	'wminc-testwiki-none' => 'Ora ana/Kabèh',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -808,18 +824,24 @@ $messages['sr-ec'] = array(
 /** Swedish (Svenska)
  * @author Gabbe.g
  * @author Najami
+ * @author Ozp
  * @author Poxnar
  */
 $messages['sv'] = array(
 	'wminc-desc' => 'Testwikisystem för Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Kolla upp användarspråk och testwiki',
 	'wminc-viewuserlang-user' => 'Användarnamn:',
+	'wminc-viewuserlang-go' => 'Gå till',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/Alla',
 	'wminc-prefinfo-language' => 'Ditt gränssnittsspråk - oavhängigt från din testwiki',
 	'wminc-prefinfo-code' => 'ISO 639-språkkoden',
 	'wminc-prefinfo-project' => 'Välj Wikimediaprojekt (alternativet Incubator för användare som gör allmänt arbete)',
 	'wminc-prefinfo-error' => 'Du valde ett projekt som kräver en språkkod.',
+	'wminc-warning-unprefixed' => "'''Varning:''' Sidan du redigerar saknar prefix!",
+	'wminc-warning-suggest' => 'Du kan skapa sidan [[$1]].',
+	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytta denna sidan till $1].',
+	'right-viewuserlang' => 'Visa [[Special:ViewUserLang|användarspråk och testwiki]]',
 );
 
 /** Telugu (తెలుగు)
