@@ -129,6 +129,26 @@ $messages['bg'] = array(
 	'wminc-warning-suggest-move' => 'Можете да [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} преместите тази страница като $1].',
 );
 
+/** Breton (Brezhoneg)
+ * @author Fulup
+ */
+$messages['br'] = array(
+	'wminc-desc' => 'Reizhiad testiñ wiki evit Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Gwelet yezh an implijer hag e wiki testiñ',
+	'wminc-viewuserlang-user' => 'Anv implijer :',
+	'wminc-viewuserlang-go' => 'Mont',
+	'wminc-testwiki' => 'Wiki testiñ :',
+	'wminc-testwiki-none' => 'Hini ebet / An holl',
+	'wminc-prefinfo-language' => "Yezh hoc'h etrefas - distag diouzh hini ho wiki testiñ",
+	'wminc-prefinfo-code' => 'Kod ISO 639 ar yezh',
+	'wminc-prefinfo-project' => 'Diuzit ar raktres Wikimedia (miret eo an dibarzh Incubator evit an implijerien a gas da benn ul labour dre vras)',
+	'wminc-prefinfo-error' => "Diuzet hoc'h eus ur raktres zo ezhomm ur c'hod yezh evitañ.",
+	'wminc-warning-unprefixed' => "'''Diwallit : ''' Emaoc'h oc'h aozañ ur bajenn hep rakger ebet dezhi !",
+	'wminc-warning-suggest' => 'Gallout a rit krouiñ ur bajenn war [[$1]].',
+	'wminc-warning-suggest-move' => 'Gallout a rit [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} adenvel ar bajenn-mañ e $1].',
+	'right-viewuserlang' => 'Gwelet [[Special:ViewUserLang|yezh an implijer hag ar wiki testiñ]]',
+);
+
 /** Bosnian (Bosanski)
  * @author CERminator
  */
@@ -233,6 +253,9 @@ $messages['el'] = array(
 	'wminc-viewuserlang-go' => 'Μετάβαση',
 	'wminc-testwiki' => 'Δοκιμαστικό wiki:',
 	'wminc-testwiki-none' => 'Κανένα/Όλα',
+	'wminc-prefinfo-code' => 'Το κωδικός γλώσσας ISO 639',
+	'wminc-prefinfo-error' => 'Επιλέξατε ένα σχέδιο που χρειάζεται ένα κωδικό γλώσσας.',
+	'wminc-warning-suggest' => 'Μπορείτε να δημιουργήσετε μια σελίδα στο [[$1]].',
 );
 
 /** Esperanto (Esperanto)
@@ -281,6 +304,7 @@ $messages['eu'] = array(
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Crt
+ * @author Silvonen
  * @author Varusmies
  */
 $messages['fi'] = array(
@@ -296,6 +320,7 @@ $messages['fi'] = array(
 	'wminc-prefinfo-error' => 'Olet valinnut hankkeen, joka vaatii kielikoodin.',
 	'wminc-warning-unprefixed' => "'''Varoitus:''' Sivu, jota muokkaat on etuliitteetön.",
 	'wminc-warning-suggest' => 'Voit luoda sivun nimelle [[$1]].',
+	'wminc-warning-suggest-move' => 'Voit [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} siirtää tämän sivun nimelle $1].',
 );
 
 /** French (Français)
@@ -739,10 +764,13 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Heldergeovane
  */
 $messages['pt-br'] = array(
 	'wminc-desc' => 'Sistema de wikis de teste para a Incubadora Wikimedia',
 	'wminc-viewuserlang' => 'Procurar idioma do utilizador e wiki de teste',
+	'wminc-viewuserlang-user' => 'Nome de usuário:',
+	'wminc-viewuserlang-go' => 'Ir',
 	'wminc-testwiki' => 'Wiki de teste:',
 	'wminc-testwiki-none' => 'Nenhum/Tudo',
 	'wminc-prefinfo-language' => 'Seu idioma de interface - independente do seu wiki de teste',
@@ -752,13 +780,27 @@ $messages['pt-br'] = array(
 	'wminc-warning-unprefixed' => 'Aviso: a página que você está editando não tem prefixo!',
 	'wminc-warning-suggest' => 'Você pode criar uma página em [[$1]].',
 	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
+	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma do usuário e wiki de teste]]',
 );
 
 /** Romanian (Română)
+ * @author Emily
+ * @author Firilacroco
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
+	'wminc-desc' => 'Sistemul wiki de testare pentru Wikimedia Incubator',
 	'wminc-viewuserlang-user' => 'Nume de utilizator:',
+	'wminc-viewuserlang-go' => 'Du-te',
+	'wminc-testwiki' => 'Wikia test:',
+	'wminc-testwiki-none' => 'Niciunul/Toţi',
+	'wminc-prefinfo-language' => 'Limba interfeţei dumneavoastră - independentă de wikia test',
+	'wminc-prefinfo-code' => 'Limbajul cod ISO 639',
+	'wminc-prefinfo-error' => 'Aţi selectat un proiect care are nevoie de un cod al limbajului.',
+	'wminc-warning-unprefixed' => "'''Avertisment:''' Pagina pe care o editaţi nu este prefixată!",
+	'wminc-warning-suggest' => 'Puteţi crea o pagină la [[$1]].',
+	'wminc-warning-suggest-move' => 'Puteţi [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} muta această pagină la $1].',
+	'right-viewuserlang' => 'Vizualizează [[Special:ViewUserLang|limba utilizatorului şi wikia test]]',
 );
 
 /** Tarandíne (Tarandíne)
