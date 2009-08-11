@@ -274,9 +274,12 @@ $messages['el'] = array(
  */
 $messages['eo'] = array(
 	'wminc-viewuserlang-user' => 'Salutnomo:',
+	'wminc-viewuserlang-go' => 'Ek',
 	'wminc-testwiki' => 'Prova vikio:',
 	'wminc-testwiki-none' => 'Nenio/Ĉio',
 	'wminc-prefinfo-language' => 'Via interfaca lingvo - sendepende de via prova vikio',
+	'wminc-prefinfo-code' => 'La lingvo kodo ISO 639',
+	'wminc-warning-suggest' => 'Vi povas krei paĝon ĉe [[$1]].',
 );
 
 /** Spanish (Español)
@@ -579,6 +582,8 @@ $messages['jv'] = array(
  * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
+	'wminc-desc' => 'សាកល្បង​ប្រព័ន្ធ​វិគី​សម្រាប់​ Wikimedia Incubator',
+	'wminc-viewuserlang' => 'រក​មើល​ភាសា​អ្នក​ប្រើប្រាស់​និង​សាក​ល្បង​វិគី​',
 	'wminc-viewuserlang-user' => 'អ្នកប្រើប្រាស់​៖',
 	'wminc-viewuserlang-go' => 'ទៅ​',
 	'wminc-testwiki' => 'សាកល្បង​វីគី៖',
