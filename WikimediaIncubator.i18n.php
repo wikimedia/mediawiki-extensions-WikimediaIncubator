@@ -273,13 +273,18 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'wminc-desc' => 'Testa vikisistemo por Wikimedia-Inkubatoro',
+	'wminc-viewuserlang' => 'Trarigardi uzulan lingvon kaj testi vikion',
 	'wminc-viewuserlang-user' => 'Salutnomo:',
 	'wminc-viewuserlang-go' => 'Ek',
 	'wminc-testwiki' => 'Prova vikio:',
 	'wminc-testwiki-none' => 'Nenio/Ĉio',
 	'wminc-prefinfo-language' => 'Via interfaca lingvo - sendepende de via prova vikio',
 	'wminc-prefinfo-code' => 'La lingvo kodo ISO 639',
+	'wminc-prefinfo-error' => 'Vi elektis projekton kiu bezonas lingvan kodon.',
+	'wminc-warning-unprefixed' => "'''Averto:''' La paĝon kiun vi redaktas estas senprefiksa!",
 	'wminc-warning-suggest' => 'Vi povas krei paĝon ĉe [[$1]].',
+	'wminc-warning-suggest-move' => 'Vi povas [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} movi ĉi tiun paĝon al $1].',
 );
 
 /** Spanish (Español)
@@ -576,6 +581,14 @@ $messages['jv'] = array(
 	'wminc-viewuserlang-go' => 'Tumuju menyang',
 	'wminc-testwiki' => 'Wiki pangujian:',
 	'wminc-testwiki-none' => 'Ora ana/Kabèh',
+	'wminc-prefinfo-language' => 'Basa adu-rai panjenengan - indhepèndhen saka wiki pacoban panjenengan',
+	'wminc-prefinfo-code' => 'Kodhe basa ISO 639',
+	'wminc-prefinfo-project' => 'Pilih proyèk Wikimedia (pilihan inkubator iku kanggo para panganggo sing ngayahi kerja umum)',
+	'wminc-prefinfo-error' => 'Panjenengan milih sawijining proyèk sing mbutuhaké sawijining kodhe basa.',
+	'wminc-warning-unprefixed' => "'''Pènget:''' Kaca sing panjenengan sunting ora nduwèni ater-ater!",
+	'wminc-warning-suggest' => 'Panjenengan bisa gawé kaca ing [[$1]].',
+	'wminc-warning-suggest-move' => 'Panjenengan bisa [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mindhah kaca iki] menyang $1.',
+	'right-viewuserlang' => 'Pirsani [[Special:ViewUserLang|basa panganggo lan wiki pacoban]]',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -1059,10 +1072,12 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Shinjiman
+ * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'wminc-desc' => '維基孵育場的測試wiki系統',
 	'wminc-viewuserlang' => '查看用戶語言與測試wiki',
+	'wminc-viewuserlang-user' => '使用者名稱：',
 	'wminc-testwiki' => '測試wiki:',
 	'wminc-testwiki-none' => '無/所有',
 	'wminc-prefinfo-language' => '您的界面語言 - 在您的測試wiki中為獨立的',
