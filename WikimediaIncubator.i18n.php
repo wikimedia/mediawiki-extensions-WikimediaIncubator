@@ -65,19 +65,34 @@ $messages['ace'] = array(
 	'wminc-viewuserlang' => 'Kaleun bahsa pengguna dan cuba wiki',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'wminc-viewuserlang-user' => 'Gebruikersnaam:',
+	'wminc-viewuserlang-go' => 'OK',
+	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-none' => 'Geen/alles',
+);
+
 /** Arabic (العربية)
  * @author Ciphers
+ * @author Orango
  * @author OsamaK
  */
 $messages['ar'] = array(
+	'wminc-desc' => 'جرّب نظام الويكي لحضانة ويكيميديا',
+	'wminc-viewuserlang' => 'أوجد لغة المستخدم و جرّب الويكي',
 	'wminc-viewuserlang-user' => 'اسم المستخدم:',
 	'wminc-viewuserlang-go' => 'اذهب',
 	'wminc-testwiki' => 'ويكي الاختبار:',
 	'wminc-testwiki-none' => 'لا شيء/الكل',
 	'wminc-prefinfo-language' => 'لغة واجهتك - مستقلة عن ويكي الاختبار',
 	'wminc-prefinfo-code' => 'رمز ISO 639 للغة',
+	'wminc-prefinfo-project' => 'إختر مشروع ويكيميديا (خيار الحضانة هو للمستخدمين الذين يقومون بعمل عام)',
 	'wminc-prefinfo-error' => 'اخترت مشروعًا يختاج رمز لغة.',
 	'wminc-warning-suggest' => 'تستطيع إنشاء صفحة في [[$1]].',
+	'wminc-warning-suggest-move' => 'يمكنك [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} نقل الصفحة إلى $1].',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -371,6 +386,14 @@ $messages['fr'] = array(
 	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|langue de l’utilisateur et le wiki de test]]',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author Cedric31
+ */
+$messages['frp'] = array(
+	'wminc-viewuserlang-user' => 'Nom d’utilisator :',
+	'wminc-viewuserlang-go' => 'Alar',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
@@ -524,6 +547,7 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author Kandar
  * @author Rex
  */
 $messages['id'] = array(
@@ -539,15 +563,19 @@ $messages['id'] = array(
 	'wminc-prefinfo-error' => 'Anda memilih sebuah proyek yang membutuhkan sebuah kode bahasa.',
 	'wminc-warning-unprefixed' => "'''Perhatian:''' Halaman yang Anda sunting tidak memiliki prefiks!",
 	'wminc-warning-suggest' => 'Anda dapat membuat halaman di [[$1]].',
-	'wminc-warning-suggest-move' => 'Anda dapat [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} memindahkan halaman ini] ke $1.',
+	'wminc-warning-suggest-move' => 'Anda dapat [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} memindahkan halaman ini ke $1].',
 	'right-viewuserlang' => 'Lihat [[Special:ViewUserLang|bahasa pengguna dan wiki pengujian]]',
 );
 
 /** Italian (Italiano)
  * @author Darth Kule
+ * @author Melos
  */
 $messages['it'] = array(
+	'wminc-viewuserlang-user' => 'Nome utente:',
 	'wminc-viewuserlang-go' => 'Vai',
+	'wminc-prefinfo-project' => "Seleziona il progetto Wikimedia (l'opzione Incubator è per gli utentu che fanno del lavoro generale)",
+	'right-viewuserlang' => 'Visualizza [[Special:ViewUserLang|il linguaggio utente e prova la wiki]]',
 );
 
 /** Japanese (日本語)
@@ -789,6 +817,13 @@ $messages['pnt'] = array(
 	'wminc-viewuserlang-go' => 'Δέβα',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'wminc-viewuserlang-go' => 'ورځه',
+);
+
 /** Portuguese (Português)
  * @author Lijealso
  * @author Malafaya
@@ -920,6 +955,17 @@ $messages['sr-el'] = array(
 	'wminc-viewuserlang-go' => 'Idi',
 	'wminc-testwiki' => 'Test-Viki:',
 	'wminc-testwiki-none' => 'Ništa/Sve',
+);
+
+/** Sundanese (Basa Sunda)
+ * @author Kandar
+ */
+$messages['su'] = array(
+	'wminc-prefinfo-code' => 'Sandi basa ISO 639',
+	'wminc-prefinfo-project' => 'Pilih proyék Wikimédia (pilihan Inkubator pikeun pamaké nu ngahanca pagawéan umum)',
+	'wminc-prefinfo-error' => 'Anjeun milih proyék anu merlukeun sandi basa.',
+	'wminc-warning-suggest' => 'Anjeun bisa nyieun kaca/artikel di [[$1]].',
+	'wminc-warning-suggest-move' => 'Anjeun bisa [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mindahkeun ieu kaca ka $1].',
 );
 
 /** Swedish (Svenska)
