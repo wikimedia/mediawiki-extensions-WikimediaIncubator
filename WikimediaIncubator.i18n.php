@@ -188,9 +188,12 @@ $messages['bs'] = array(
 );
 
 /** Catalan (Català)
+ * @author Paucabot
  * @author Solde
  */
 $messages['ca'] = array(
+	'wminc-viewuserlang-user' => "Nom d'usuari:",
+	'wminc-viewuserlang-go' => 'Vés-hi!',
 	'wminc-testwiki-none' => 'Cap/Tots',
 );
 
@@ -636,6 +639,13 @@ $messages['km'] = array(
 	'right-viewuserlang' => 'មើល​[[Special:ViewUserLang|ភាសា​អ្នកប្រើប្រាស់​និងធ្វើការ​សាកល្បង​វិគី]]',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Nayvik
+ */
+$messages['kn'] = array(
+	'wminc-viewuserlang-go' => 'ಹೋಗು',
+);
+
 /** Ripoarisch (Ripoarisch)
  * @author Purodha
  */
@@ -696,6 +706,22 @@ $messages['mg'] = array(
 	'wminc-prefinfo-error' => 'Nisafidy tetikasa mila kaody nà teny ianao.',
 	'wminc-warning-unprefixed' => "'''Tandremo''' : tsy manana prefiksa ny pejy ovainao",
 	'wminc-warning-suggest' => "Afaka mamorona ny pejy an'i [[$1]] ianao.",
+);
+
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'wminc-viewuserlang' => 'Провери го јазикот на корисникот и неговото тест-вики',
+	'wminc-viewuserlang-user' => 'Корисничко име:',
+	'wminc-viewuserlang-go' => 'Оди',
+	'wminc-testwiki' => 'Тест-вики:',
+	'wminc-testwiki-none' => 'Ништо/Сè',
+	'wminc-prefinfo-language' => 'Јазикот на вашиот интерфејс - назависно од вашето тест-вики',
+	'wminc-prefinfo-error' => 'Избравте проект на кој му треба јазичен код.',
+	'wminc-warning-unprefixed' => "'''Предупредување:''' Страницата што ја уредувате нема префикс!",
+	'wminc-warning-suggest' => 'Можете да созададете страница на [[$1]].',
+	'wminc-warning-suggest-move' => 'Можете  [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} ја преместите страницава на $1].',
 );
 
 /** Dutch (Nederlands)
