@@ -195,6 +195,7 @@ $messages['ca'] = array(
 	'wminc-viewuserlang-user' => "Nom d'usuari:",
 	'wminc-viewuserlang-go' => 'Vés-hi!',
 	'wminc-testwiki-none' => 'Cap/Tots',
+	'wminc-prefinfo-code' => 'El codi de llengua ISO 639',
 );
 
 /** Sorani (Arabic script) (‫کوردی (عەرەبی)‬)
@@ -391,10 +392,11 @@ $messages['fr'] = array(
 
 /** Franco-Provençal (Arpetan)
  * @author Cedric31
+ * @author ChrisPtDe
  */
 $messages['frp'] = array(
 	'wminc-viewuserlang-user' => 'Nom d’utilisator :',
-	'wminc-viewuserlang-go' => 'Alar',
+	'wminc-viewuserlang-go' => 'Alar trovar',
 );
 
 /** Galician (Galego)
@@ -718,6 +720,7 @@ $messages['mk'] = array(
 	'wminc-testwiki' => 'Тест-вики:',
 	'wminc-testwiki-none' => 'Ништо/Сè',
 	'wminc-prefinfo-language' => 'Јазикот на вашиот интерфејс - назависно од вашето тест-вики',
+	'wminc-prefinfo-code' => 'Јазичниот ISO 639 код',
 	'wminc-prefinfo-error' => 'Избравте проект на кој му треба јазичен код.',
 	'wminc-warning-unprefixed' => "'''Предупредување:''' Страницата што ја уредувате нема префикс!",
 	'wminc-warning-suggest' => 'Можете да созададете страница на [[$1]].',
@@ -1039,6 +1042,16 @@ $messages['te'] = array(
 	'wminc-viewuserlang-user' => 'వాడుకరిపేరు:',
 	'wminc-viewuserlang-go' => 'వెళ్ళు',
 	'wminc-testwiki' => 'పరీక్షా వికీ:',
+);
+
+/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+ * @author Ibrahim
+ */
+$messages['tg-cyrl'] = array(
+	'wminc-viewuserlang-user' => 'Номи корбарӣ:',
+	'wminc-viewuserlang-go' => 'Рав',
+	'wminc-testwiki' => 'Санҷиши вики:',
+	'wminc-testwiki-none' => 'Ҳеҷ/Ҳама',
 );
 
 /** Turkish (Türkçe)
