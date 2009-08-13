@@ -265,6 +265,7 @@ $messages['dsb'] = array(
 	'wminc-warning-suggest' => 'Móžoš na [[$1]] bok napóraś.',
 	'wminc-warning-suggest-move' => 'Móžoš [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} toś ten bok do $1 pśesunuś].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Wužywarsku rěc a testowy wiki]] se woglědaś',
+	'randombytest' => 'Pśipadny bok pó testowem wikiju',
 );
 
 /** Greek (Ελληνικά)
@@ -450,6 +451,7 @@ $messages['gsw'] = array(
 	'wminc-warning-suggest' => 'Do chasch e Syte aalege: [[$1]].',
 	'wminc-warning-suggest-move' => 'Du chasch [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} die Syte no $1 verschiebe].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|D Benutzersproch und s Teschtwiki]] aaluege',
+	'randombytest' => 'Zuefallssyte no Teschtwiki',
 );
 
 /** Gujarati (ગુજરાતી)
@@ -529,6 +531,7 @@ $messages['hsb'] = array(
 	'wminc-warning-suggest' => 'Móžeš na [[$1]] stronu wutworić.',
 	'wminc-warning-suggest-move' => 'Móžeš [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} tutu stronu do $1 přesunyć].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Wužiwarsku rěč a testowy wiki]] sej wobhladać',
+	'randombytest' => 'Připadna strona po testowym wikiju',
 );
 
 /** Interlingua (Interlingua)
@@ -603,6 +606,7 @@ $messages['ja'] = array(
 	'wminc-warning-suggest' => '[[$1]] にページを作ることができます。',
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} このページを $1 に移動]できます。',
 	'right-viewuserlang' => '[[Special:ViewUserLang|利用者言語と試験版ウィキ]]を見る',
+	'randombytest' => '試験版ウィキによる無作為ページ',
 );
 
 /** Javanese (Basa Jawa)
@@ -667,6 +671,7 @@ $messages['ksh'] = array(
 	'wminc-warning-suggest' => 'De kanns en Sigg aanlääje als [[$1]].',
 	'wminc-warning-suggest-move' => 'Do kanns hee di Sigg [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} op $1 ömnänne].',
 	'right-viewuserlang' => 'De [[Special:ViewUserLang|Metmaacher ier Shprooche un Täßwiki]] beloore',
+	'randombytest' => 'Zofällije Sigg uss_em Versoochswiki',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -687,6 +692,7 @@ $messages['lb'] = array(
 	'wminc-warning-suggest' => 'Dir kënnt eng Säit op [[$1]] uleeën.',
 	'wminc-warning-suggest-move' => 'Dir kënnt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} dës Säit op $1 réckelen].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benotzersprooch an Test-Wiki]] weisen',
+	'randombytest' => 'Zoufallssäit duerch Test Wiki',
 );
 
 /** Lazuri Nena (Lazuri Nena)
@@ -728,6 +734,14 @@ $messages['mk'] = array(
 	'wminc-warning-suggest-move' => 'Можете  [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} ја преместите страницава на $1].',
 );
 
+/** Erzya (Эрзянь)
+ * @author Botuzhaleny-sodamo
+ */
+$messages['myv'] = array(
+	'wminc-viewuserlang-user' => 'Сёрмадыцянь леметь:',
+	'wminc-testwiki-none' => 'Мезеяк/Весе',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -747,6 +761,7 @@ $messages['nl'] = array(
 	'wminc-warning-suggest' => 'U kunt een pagina aanmaken op [[$1]].',
 	'wminc-warning-suggest-move' => 'U kunt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} deze pagina hernoemen naar $1].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Gebruikerstaal en test wiki]] bekijken',
+	'randombytest' => 'Willekeurige pagina uit testwiki',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -1037,12 +1052,14 @@ $messages['szl'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Kiranmayee
  * @author Veeven
  */
 $messages['te'] = array(
 	'wminc-viewuserlang-user' => 'వాడుకరిపేరు:',
 	'wminc-viewuserlang-go' => 'వెళ్ళు',
 	'wminc-testwiki' => 'పరీక్షా వికీ:',
+	'wminc-testwiki-none' => 'ఏమికాదు/అన్నీ',
 );
 
 /** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
