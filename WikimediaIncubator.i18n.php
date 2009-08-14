@@ -136,6 +136,7 @@ $messages['be-tarask'] = array(
 	'wminc-warning-suggest' => 'Вы можаце стварыць старонку [[$1]].',
 	'wminc-warning-suggest-move' => 'Вы можаце [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} перанесьці гэту старонку ў $1].',
 	'right-viewuserlang' => 'прагляд [[Special:ViewUserLang|мовы ўдзельніка і тэставаньне вікі]]',
+	'randombytest' => 'Выпадковая старонка тэставай вікі',
 );
 
 /** Bulgarian (Български)
@@ -215,6 +216,7 @@ $messages['ckb-arab'] = array(
 );
 
 /** German (Deutsch)
+ * @author Imre
  * @author MF-Warburg
  * @author Umherirrender
  */
@@ -233,6 +235,7 @@ $messages['de'] = array(
 	'wminc-warning-suggest' => 'Du kannst hier eine Seite erstellen: [[$1]].',
 	'wminc-warning-suggest-move' => 'Du kannst [{{fullurl:{{#special:MovePage}}/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benutzersprache und Testwiki]] anschauen',
+	'randombytest' => 'Zufällige Seite aus dem Testwiki',
 );
 
 /** German (formal address) (Deutsch (Sie-Form))
@@ -369,6 +372,7 @@ $messages['fi'] = array(
 	'wminc-warning-unprefixed' => "'''Varoitus:''' Sivu, jota muokkaat on etuliitteetön.",
 	'wminc-warning-suggest' => 'Voit luoda sivun nimelle [[$1]].',
 	'wminc-warning-suggest-move' => 'Voit [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} siirtää tämän sivun nimelle $1].',
+	'randombytest' => 'Testiwiki-kohtainen satunnainen sivu',
 );
 
 /** French (Français)
@@ -574,6 +578,7 @@ $messages['id'] = array(
 	'wminc-warning-suggest' => 'Anda dapat membuat halaman di [[$1]].',
 	'wminc-warning-suggest-move' => 'Anda dapat [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} memindahkan halaman ini ke $1].',
 	'right-viewuserlang' => 'Lihat [[Special:ViewUserLang|bahasa pengguna dan wiki pengujian]]',
+	'randombytest' => 'Halaman sembarang oleh wiki percobaan',
 );
 
 /** Italian (Italiano)
@@ -606,7 +611,7 @@ $messages['ja'] = array(
 	'wminc-warning-suggest' => '[[$1]] にページを作ることができます。',
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} このページを $1 に移動]できます。',
 	'right-viewuserlang' => '[[Special:ViewUserLang|利用者言語と試験版ウィキ]]を見る',
-	'randombytest' => '試験版ウィキによる無作為ページ',
+	'randombytest' => '試験版ウィキによるおまかせ表示',
 );
 
 /** Javanese (Basa Jawa)
@@ -651,6 +656,13 @@ $messages['km'] = array(
  */
 $messages['kn'] = array(
 	'wminc-viewuserlang-go' => 'ಹೋಗು',
+);
+
+/** Korean (한국어)
+ * @author Pakman
+ */
+$messages['ko'] = array(
+	'wminc-viewuserlang-user' => '사용자이름:',
 );
 
 /** Ripoarisch (Ripoarisch)
@@ -960,6 +972,7 @@ $messages['ru'] = array(
 	'wminc-warning-suggest' => 'Вы можете создать страницу на [[$1]].',
 	'wminc-warning-suggest-move' => 'Вы можете [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} переименовать эту страницу в $1].',
 	'right-viewuserlang' => 'просматривать [[Special:ViewUserLang|языковые настройки и проверочную вики участника]]',
+	'randombytest' => 'Случайная страница проверочной вики',
 );
 
 /** Slovak (Slovenčina)
@@ -980,6 +993,7 @@ $messages['sk'] = array(
 	'wminc-warning-suggest' => 'Môžete vytvoriť stránku na [[$1]].',
 	'wminc-warning-suggest-move' => 'Môžete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} presunúť túto stránku na $1].',
 	'right-viewuserlang' => 'Zobraziť [[Special:ViewUserLang|jazyk používateľa a testovaciu wiki]]',
+	'randombytest' => 'Náhodná stránka z testovacej wiki',
 );
 
 /** Serbian Cyrillic ekavian (ћирилица)
