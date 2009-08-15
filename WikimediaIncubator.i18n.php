@@ -291,6 +291,7 @@ $messages['el'] = array(
 	'wminc-warning-suggest' => 'Μπορείτε να δημιουργήσετε μια σελίδα στο [[$1]].',
 	'wminc-warning-suggest-move' => 'Μπορείτε να [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} μετακινήσετε αυτή τη σελίδα στο $1].',
 	'right-viewuserlang' => 'Προβολή της [[Special:ViewUserLang|γλώσσας χρήστη και του δοκιμαστικού βίκι]]',
+	'randombytest' => 'Τυχαία σελίδα βάσει του δοκιμαστικού βίκι',
 );
 
 /** Esperanto (Esperanto)
@@ -372,7 +373,8 @@ $messages['fi'] = array(
 	'wminc-warning-unprefixed' => "'''Varoitus:''' Sivu, jota muokkaat on etuliitteetön.",
 	'wminc-warning-suggest' => 'Voit luoda sivun nimelle [[$1]].',
 	'wminc-warning-suggest-move' => 'Voit [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} siirtää tämän sivun nimelle $1].',
-	'randombytest' => 'Testiwiki-kohtainen satunnainen sivu',
+	'right-viewuserlang' => 'Nähdä [[Special:ViewUserLang|käyttäjän kieli ja testiwiki]]',
+	'randombytest' => 'Satunnainen sivu testiwikistä',
 );
 
 /** French (Français)
@@ -733,6 +735,7 @@ $messages['mg'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
+	'wminc-desc' => 'Тестирање на вики-систем за Викимедија Инкубаторот',
 	'wminc-viewuserlang' => 'Провери го јазикот на корисникот и неговото тест-вики',
 	'wminc-viewuserlang-user' => 'Корисничко име:',
 	'wminc-viewuserlang-go' => 'Оди',
@@ -740,10 +743,13 @@ $messages['mk'] = array(
 	'wminc-testwiki-none' => 'Ништо/Сè',
 	'wminc-prefinfo-language' => 'Јазикот на вашиот интерфејс - назависно од вашето тест-вики',
 	'wminc-prefinfo-code' => 'Јазичниот ISO 639 код',
+	'wminc-prefinfo-project' => 'Изберете го проектот (можноста за Инкубатор е за корисници кои работат општи задачи)',
 	'wminc-prefinfo-error' => 'Избравте проект на кој му треба јазичен код.',
 	'wminc-warning-unprefixed' => "'''Предупредување:''' Страницата што ја уредувате нема префикс!",
 	'wminc-warning-suggest' => 'Можете да созададете страница на [[$1]].',
 	'wminc-warning-suggest-move' => 'Можете  [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} ја преместите страницава на $1].',
+	'right-viewuserlang' => 'Погледајте [[Special:ViewUserLang|кориснички јазик и текст вики]]',
+	'randombytest' => 'Случајна страница од тест вики',
 );
 
 /** Erzya (Эрзянь)
