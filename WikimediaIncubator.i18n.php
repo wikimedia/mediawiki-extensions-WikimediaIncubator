@@ -605,9 +605,9 @@ $messages['ja'] = array(
 	'wminc-viewuserlang-go' => '表示',
 	'wminc-testwiki' => '試験版ウィキ:',
 	'wminc-testwiki-none' => 'なし/すべて',
-	'wminc-prefinfo-language' => 'あなたのインタフェース言語 (あなたの試験版ウィキとは独立しています)',
+	'wminc-prefinfo-language' => 'あなたのインタフェース言語 （あなたの試験版ウィキとは独立しています）',
 	'wminc-prefinfo-code' => 'ISO 639 言語コード',
-	'wminc-prefinfo-project' => 'ウィキメディア・プロジェクトを選択する (「Incubator」オプションは全般的な作業を行う利用者のためのものです)',
+	'wminc-prefinfo-project' => 'ウィキメディア・プロジェクトを選択する （「Incubator」オプションは全般的な作業を行う利用者のためのものです）',
 	'wminc-prefinfo-error' => 'あなたが選択したプロジェクトは言語コードが必要です。',
 	'wminc-warning-unprefixed' => '警告: あなたが編集しているページには接頭辞が付いていません！',
 	'wminc-warning-suggest' => '[[$1]] にページを作ることができます。',
@@ -855,6 +855,7 @@ $messages['pdc'] = array(
 /** Polish (Polski)
  * @author Leinad
  * @author Sp5uhe
+ * @author ToSter
  */
 $messages['pl'] = array(
 	'wminc-desc' => 'Testowa wiki dla Inkubatora Wikimedia',
@@ -871,6 +872,7 @@ $messages['pl'] = array(
 	'wminc-warning-suggest' => 'Możesz utworzyć stronę „[[$1]]”.',
 	'wminc-warning-suggest-move' => 'Możesz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} przenieść tę stronę do „$1”].',
 	'right-viewuserlang' => 'Zobacz [[Special:ViewUserLang|język użytkownika oraz testową wiki]]',
+	'randombytest' => 'Losowa strona testowej wiki',
 );
 
 /** Pontic (Ποντιακά)
@@ -1177,16 +1179,19 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Liangent
  * @author Shinjiman
  */
 $messages['zh-hans'] = array(
 	'wminc-desc' => '维基孵育场的测试wiki系统',
 	'wminc-viewuserlang' => '查看用户语言与测试wiki',
+	'wminc-viewuserlang-user' => '用户名：',
+	'wminc-viewuserlang-go' => '转到',
 	'wminc-testwiki' => '测试wiki:',
 	'wminc-testwiki-none' => '无/所有',
 	'wminc-prefinfo-language' => '您的接口语言 - 在您的测试wiki中为独立的',
 	'wminc-prefinfo-code' => 'ISO 639语言代码',
-	'wminc-prefinfo-project' => '选择维基媒体计划 (孵育场选项用作一般用途)',
+	'wminc-prefinfo-project' => '选择维基媒体计划 （孵育场选项用作一般用途）',
 	'wminc-prefinfo-error' => '您已选择一个需要语言代码的计划。',
 	'wminc-warning-unprefixed' => '警告: 您编辑的页面尚未加入前缀！',
 	'wminc-warning-suggest' => '您可以在[[$1]]开新页面。',
@@ -1205,7 +1210,7 @@ $messages['zh-hant'] = array(
 	'wminc-testwiki-none' => '無/所有',
 	'wminc-prefinfo-language' => '您的界面語言 - 在您的測試wiki中為獨立的',
 	'wminc-prefinfo-code' => 'ISO 639語言代碼',
-	'wminc-prefinfo-project' => '選擇維基媒體計劃 (孵育場選項用作一般用途)',
+	'wminc-prefinfo-project' => '選擇維基媒體計劃 （孵育場選項用作一般用途）',
 	'wminc-prefinfo-error' => '您已選擇一個需要語言代碼的計劃。',
 	'wminc-warning-unprefixed' => '警告: 您編輯的頁面尚未加入前綴！',
 	'wminc-warning-suggest' => '您可以在[[$1]]開新頁面。',
