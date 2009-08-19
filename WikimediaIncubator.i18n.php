@@ -316,6 +316,7 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Antur
  * @author Crazymadlover
  */
 $messages['es'] = array(
@@ -333,6 +334,7 @@ $messages['es'] = array(
 	'wminc-warning-suggest' => 'Puedes crear una página en [[$1]].',
 	'wminc-warning-suggest-move' => 'Puedes [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página a $1].',
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma de usuario y prueba wiki]]',
+	'randombytest' => 'Página aleatoria para testear wiki',
 );
 
 /** Estonian (Eesti)
