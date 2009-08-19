@@ -78,6 +78,7 @@ $messages['af'] = array(
 
 /** Arabic (العربية)
  * @author Ciphers
+ * @author Meno25
  * @author Orango
  * @author OsamaK
  */
@@ -94,6 +95,7 @@ $messages['ar'] = array(
 	'wminc-prefinfo-error' => 'اخترت مشروعًا يختاج رمز لغة.',
 	'wminc-warning-suggest' => 'تستطيع إنشاء صفحة في [[$1]].',
 	'wminc-warning-suggest-move' => 'يمكنك [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} نقل الصفحة إلى $1].',
+	'randombytest' => 'صفحة عشوائية بواسطة ويكي الاختبار',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -187,6 +189,7 @@ $messages['bs'] = array(
 	'wminc-warning-suggest' => 'Možete napraviti stranicu na [[$1]].',
 	'wminc-warning-suggest-move' => 'Možete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} premjestiti ovu stranicu na $1].',
 	'right-viewuserlang' => 'Pregledavanje [[Special:ViewUserLang|korisničkog jezika i probne wiki]]',
+	'randombytest' => 'Slučajna stranica od testirane wiki',
 );
 
 /** Catalan (Català)
@@ -341,16 +344,25 @@ $messages['et'] = array(
 );
 
 /** Basque (Euskara)
+ * @author An13sa
  * @author Kobazulo
  */
 $messages['eu'] = array(
+	'wminc-desc' => 'Wikimedia Incubatorrerako wiki proba sistema',
 	'wminc-viewuserlang' => 'Lankidearen hizkuntza eta probazko wikia ikusi',
 	'wminc-viewuserlang-user' => 'Erabiltzaile izena:',
 	'wminc-viewuserlang-go' => 'Joan',
 	'wminc-testwiki' => 'Probazko wikia:',
 	'wminc-testwiki-none' => 'Bat ere ez/Guztiak',
+	'wminc-prefinfo-language' => 'Zure interfazearen hizkuntza - Wiki probatik independentea da',
 	'wminc-prefinfo-code' => 'ISO 639 hizkuntza kodea',
+	'wminc-prefinfo-project' => 'Aukeratu Wikimedia proiektua (Incubator aukera lan orokorra egiten dutenentzako da)',
+	'wminc-prefinfo-error' => 'Hizkuntza-kodea behar duen proiektua aukeratu duzu.',
 	'wminc-warning-unprefixed' => "'''Abisua:''' Editatzen ari zaren orrialdeak ez du aurrizkirik!",
+	'wminc-warning-suggest' => '[[$1]]-(e)an orrialdea sortu dezakezu.',
+	'wminc-warning-suggest-move' => 'Orrialde hau [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} $1-(e)ra mugitu dezakezu].',
+	'right-viewuserlang' => 'Ikusi [[Special:ViewUserLang|lankide hizkuntza eta wiki testa]]',
+	'randombytest' => 'Wiiki testaren ausazko orria',
 );
 
 /** Finnish (Suomi)
@@ -380,6 +392,7 @@ $messages['fi'] = array(
 /** French (Français)
  * @author Crochet.david
  * @author IAlex
+ * @author PieRRoMaN
  */
 $messages['fr'] = array(
 	'wminc-desc' => 'Système de test de wiki pour Wikimedia Incubator',
@@ -395,7 +408,8 @@ $messages['fr'] = array(
 	'wminc-warning-unprefixed' => "'''Attention :''' la page que vous modifiez n’a pas de préfixe !",
 	'wminc-warning-suggest' => 'Vous pouvez créer la page à [[$1]].',
 	'wminc-warning-suggest-move' => 'Vous pouvez [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renommer cette page vers $1].',
-	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|langue de l’utilisateur et le wiki de test]]',
+	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|la langue de l’utilisateur et le wiki de test]]',
+	'randombytest' => 'Page aléatoire par le wiki de test',
 );
 
 /** Franco-Provençal (Arpetan)
@@ -497,6 +511,7 @@ $messages['he'] = array(
 	'wminc-warning-suggest' => 'באפשרותכם ליצור דף בשם [[$1]].',
 	'wminc-warning-suggest-move' => 'באפשרותכם [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} להעביר דף זה ל$1].',
 	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הנסיוני]]',
+	'randombytest' => 'דף אקראי על ידי אתר ויקי נסיוני',
 );
 
 /** Hiligaynon (Ilonggo)
@@ -841,6 +856,7 @@ $messages['oc'] = array(
 	'wminc-warning-suggest' => 'Podètz crear la pagina a [[$1]].',
 	'wminc-warning-suggest-move' => 'Podètz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} tornar nomenar aquesta pagina cap a $1].',
 	'right-viewuserlang' => 'Vejatz [[Special:ViewUserLang|lenga de l’utilizaire e lo wiki de tèst]]',
+	'randombytest' => 'Pagina aleatòria pel wiki de tèst',
 );
 
 /** Deitsch (Deitsch)
@@ -930,6 +946,7 @@ $messages['pt-br'] = array(
 	'wminc-warning-suggest' => 'Você pode criar uma página em [[$1]].',
 	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma do usuário e wiki de teste]]',
+	'randombytest' => 'Página aleatória da wiki de testes',
 );
 
 /** Romanian (Română)
@@ -956,9 +973,12 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'wminc-desc' => 'Test pu sisteme Uicchi pe UicchiMedia Incubatore',
 	'wminc-viewuserlang-user' => "Nome de l'utende:",
 	'wminc-viewuserlang-go' => 'Veje',
+	'wminc-testwiki' => 'Test de Uicchi:',
 	'wminc-testwiki-none' => 'Nisciune/Tutte',
+	'wminc-warning-suggest' => "Tu puè ccreja 'na pàgene a [[$1]].",
 );
 
 /** Russian (Русский)
@@ -1078,10 +1098,16 @@ $messages['szl'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'wminc-desc' => 'వికీమీడియా ఇంక్యుబేటర్ కొరకు పరీక్షా వికీ సిస్టం',
 	'wminc-viewuserlang-user' => 'వాడుకరిపేరు:',
 	'wminc-viewuserlang-go' => 'వెళ్ళు',
 	'wminc-testwiki' => 'పరీక్షా వికీ:',
 	'wminc-testwiki-none' => 'ఏమికాదు/అన్నీ',
+	'wminc-prefinfo-code' => 'ISO 639 భాష కోడు',
+	'wminc-prefinfo-error' => 'భాష కోడు కావాల్సిన ఒక ప్రాజెక్టును మీరు ఎన్నుకున్నారు.',
+	'wminc-warning-suggest' => '[[$1]] దగ్గర మీరు పేజిని సృష్టించవచ్చు.',
+	'right-viewuserlang' => 'వీక్షించండి [[Special:ViewUserLang|సభ్యుని భాష మరియు పరీక్షా వికీ]]',
+	'randombytest' => 'పరీక్షా వికీ ద్వారా ఒక యాధృచిక పేజి',
 );
 
 /** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
@@ -1179,6 +1205,7 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Jimmy xu wrk
  * @author Liangent
  * @author Shinjiman
  */
@@ -1196,6 +1223,8 @@ $messages['zh-hans'] = array(
 	'wminc-warning-unprefixed' => '警告: 您编辑的页面尚未加入前缀！',
 	'wminc-warning-suggest' => '您可以在[[$1]]开新页面。',
 	'wminc-warning-suggest-move' => '您可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 移动这个页面到$1]。',
+	'right-viewuserlang' => '查看[[Special:ViewUserLang|用户语言和测试维基]]',
+	'randombytest' => '测试维基上的随机页面',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
