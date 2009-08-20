@@ -26,6 +26,7 @@ $messages['en'] = array(
 	'wminc-warning-suggest-move' => 'You can [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} move this page to $1].',
 	'right-viewuserlang' => 'View [[Special:ViewUserLang|user language and test wiki]]',
 	'randombytest' => 'Random page by test wiki',
+	'randombytest-nopages' => 'There are no pages in your test wiki, in the namespace: $1.',
 );
 
 /** Message documentation (Message documentation)

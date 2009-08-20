@@ -7,15 +7,12 @@
 class SpecialRandomByTest extends RandomPage
 {
 	public function __construct() {
-		parent::__construct( 'RandomByTest' );		
-	}
-
-	public function addExtraSQL() {
 		global $wgUser, $wmincPref;
 		if(IncubatorTest::isNormalPrefix()) {
-			return 'page_title like "W'.$wgUser->getOption($wmincPref . '-project').'/'.$wgUser->getOption($wmincPref . '-code').'/%%"';
+			$this->extra[] = 'page_title like "W'.$wgUser->getOption($wmincPref . '-project').'/'.$wgUser->getOption($wmincPref . '-code').'/%%"';
 		} elseif($wgUser->getOption($wmincPref . '-project') == 'inc') {
-			return 'page_title not like "W_/%%" OR "W_/%%/%%"';
+			$this->extra[] = 'page_title not like "W_/%%" OR "W_/%%/%%"';
 		}
+		parent::__construct( 'RandomByTest' );
 	}
 }
