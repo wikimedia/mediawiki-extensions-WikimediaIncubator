@@ -140,6 +140,7 @@ $messages['be-tarask'] = array(
 	'wminc-warning-suggest-move' => 'Вы можаце [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} перанесьці гэту старонку ў $1].',
 	'right-viewuserlang' => 'прагляд [[Special:ViewUserLang|мовы ўдзельніка і тэставаньне вікі]]',
 	'randombytest' => 'Выпадковая старонка тэставай вікі',
+	'randombytest-nopages' => 'Няма старонак ў Вашай тэставай вікі, у прасторы назваў: $1.',
 );
 
 /** Bulgarian (Български)
@@ -514,7 +515,7 @@ $messages['he'] = array(
 	'wminc-warning-suggest' => 'באפשרותכם ליצור דף בשם [[$1]].',
 	'wminc-warning-suggest-move' => 'באפשרותכם [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} להעביר דף זה ל$1].',
 	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הנסיוני]]',
-	'randombytest' => 'דף אקראי על ידי אתר ויקי נסיוני',
+	'randombytest' => 'דף אקראי באתר ויקי נסיוני',
 );
 
 /** Hiligaynon (Ilonggo)
@@ -556,6 +557,7 @@ $messages['hsb'] = array(
 	'wminc-warning-suggest-move' => 'Móžeš [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} tutu stronu do $1 přesunyć].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Wužiwarsku rěč a testowy wiki]] sej wobhladać',
 	'randombytest' => 'Připadna strona po testowym wikiju',
+	'randombytest-nopages' => 'W twojim testowym wikiju w mjenowym rumje $1 strony njejsu.',
 );
 
 /** Interlingua (Interlingua)
@@ -704,6 +706,7 @@ $messages['ksh'] = array(
 	'wminc-warning-suggest-move' => 'Do kanns hee di Sigg [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} op $1 ömnänne].',
 	'right-viewuserlang' => 'De [[Special:ViewUserLang|Metmaacher ier Shprooche un Täßwiki]] beloore',
 	'randombytest' => 'Zofällije Sigg uss_em Versoochswiki',
+	'randombytest-nopages' => 'Et Appachtemang $1 änthält kein Sigge en Dingem Versöhkß-Wiki.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -798,6 +801,7 @@ $messages['nl'] = array(
 	'wminc-warning-suggest-move' => 'U kunt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} deze pagina hernoemen naar $1].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Gebruikerstaal en test wiki]] bekijken',
 	'randombytest' => 'Willekeurige pagina uit testwiki',
+	'randombytest-nopages' => "Er zijn geen pagina's in uw testwiki in de naamruimte $1.",
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -986,6 +990,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Ferrer
+ * @author Kv75
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1004,6 +1009,7 @@ $messages['ru'] = array(
 	'wminc-warning-suggest-move' => 'Вы можете [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} переименовать эту страницу в $1].',
 	'right-viewuserlang' => 'просматривать [[Special:ViewUserLang|языковые настройки и проверочную вики участника]]',
 	'randombytest' => 'Случайная страница проверочной вики',
+	'randombytest-nopages' => 'В вашей проверочной вики нет страниц в пространстве имён $1.',
 );
 
 /** Slovak (Slovenčina)
