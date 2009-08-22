@@ -274,6 +274,7 @@ $messages['dsb'] = array(
 	'wminc-warning-suggest-move' => 'Móžoš [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} toś ten bok do $1 pśesunuś].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Wužywarsku rěc a testowy wiki]] se woglědaś',
 	'randombytest' => 'Pśipadny bok pó testowem wikiju',
+	'randombytest-nopages' => 'W twójom testowem wikiju w mjenjowem rumje $1 boki njejsu.',
 );
 
 /** Greek (Ελληνικά)
@@ -337,6 +338,7 @@ $messages['es'] = array(
 	'wminc-warning-suggest-move' => 'Puedes [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página a $1].',
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma de usuario y prueba wiki]]',
 	'randombytest' => 'Página aleatoria para testear wiki',
+	'randombytest-nopages' => 'No hay páginas en su wiki de prueba, en el espacio de nombres: $1.',
 );
 
 /** Estonian (Eesti)
@@ -414,6 +416,7 @@ $messages['fr'] = array(
 	'wminc-warning-suggest-move' => 'Vous pouvez [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renommer cette page vers $1].',
 	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|la langue de l’utilisateur et le wiki de test]]',
 	'randombytest' => 'Page aléatoire par le wiki de test',
+	'randombytest-nopages' => "Votre wiki de test ne contient pas de page dans l'espace de noms : $1.",
 );
 
 /** Franco-Provençal (Arpetan)
@@ -564,7 +567,7 @@ $messages['hsb'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'wminc-desc' => 'Systema pro essayar wikis in Wikimedia Incubator',
+	'wminc-desc' => 'Systema pro wikis de test in Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Vider le lingua de un usator e su wiki de test',
 	'wminc-viewuserlang-user' => 'Nomine de usator:',
 	'wminc-viewuserlang-go' => 'Ir',
@@ -578,6 +581,8 @@ $messages['ia'] = array(
 	'wminc-warning-suggest' => 'Tu pote crear un pagina a [[$1]].',
 	'wminc-warning-suggest-move' => 'Tu pote [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renominar iste pagina verso $1].',
 	'right-viewuserlang' => 'Vider le [[Special:ViewUserLang|lingua e wiki de test de usatores]]',
+	'randombytest' => 'Pagina aleatori per le wiki de test',
+	'randombytest-nopages' => 'Le wiki de test non ha paginas in le spatio de nomines: $1',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -634,6 +639,7 @@ $messages['ja'] = array(
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} このページを $1 に移動]できます。',
 	'right-viewuserlang' => '[[Special:ViewUserLang|利用者言語と試験版ウィキ]]を見る',
 	'randombytest' => '試験版ウィキによるおまかせ表示',
+	'randombytest-nopages' => 'あなたの試験版ウィキには名前空間 $1 にページがありません。',
 );
 
 /** Javanese (Basa Jawa)
@@ -864,6 +870,7 @@ $messages['oc'] = array(
 	'wminc-warning-suggest-move' => 'Podètz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} tornar nomenar aquesta pagina cap a $1].',
 	'right-viewuserlang' => 'Vejatz [[Special:ViewUserLang|lenga de l’utilizaire e lo wiki de tèst]]',
 	'randombytest' => 'Pagina aleatòria pel wiki de tèst',
+	'randombytest-nopages' => "Vòstre wiki de tèst conten pas de pagina dins l'espaci de noms : $1.",
 );
 
 /** Deitsch (Deitsch)
@@ -990,26 +997,27 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author Ferrer
+ * @author Kaganer
  * @author Kv75
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
-	'wminc-desc' => 'Проверочная вики-система для Инкубатора Викимедии',
-	'wminc-viewuserlang' => 'Поиск языковых настроек и проверочной вики участника',
+	'wminc-desc' => 'Пробная вики-система для Инкубатора Викимедиа',
+	'wminc-viewuserlang' => 'Поиск языковых настроек участника и его пробной вики',
 	'wminc-viewuserlang-user' => 'Имя участника:',
 	'wminc-viewuserlang-go' => 'Найти',
-	'wminc-testwiki' => 'Проверочная вики:',
+	'wminc-testwiki' => 'Пробная вики:',
 	'wminc-testwiki-none' => 'Нет/все',
-	'wminc-prefinfo-language' => 'Ваш язык интерфейса не зависит от вашей проверочной вики',
+	'wminc-prefinfo-language' => 'Ваш язык интерфейса не зависит от вашей пробной вики',
 	'wminc-prefinfo-code' => 'Код языка по ISO 639',
-	'wminc-prefinfo-project' => 'Выбор проекта Викимедиа (выберите Инкубатора, если вы занимаетесь общими вопросами)',
+	'wminc-prefinfo-project' => 'Выбор проекта Викимедиа (выберите Инкубатор, если занимаетесь общими вопросами)',
 	'wminc-prefinfo-error' => 'Вы выбрали проект, для которого необходимо указать код языка.',
-	'wminc-warning-unprefixed' => "'''Внимание.''' Страница, которую вы правите не имеет префикса!",
+	'wminc-warning-unprefixed' => "'''Внимание:''' название страницы, которую вы правите, не содержит префикса!",
 	'wminc-warning-suggest' => 'Вы можете создать страницу на [[$1]].',
 	'wminc-warning-suggest-move' => 'Вы можете [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} переименовать эту страницу в $1].',
-	'right-viewuserlang' => 'просматривать [[Special:ViewUserLang|языковые настройки и проверочную вики участника]]',
-	'randombytest' => 'Случайная страница проверочной вики',
-	'randombytest-nopages' => 'В вашей проверочной вики нет страниц в пространстве имён $1.',
+	'right-viewuserlang' => 'просматривать [[Special:ViewUserLang|языковые настройки участника и его пробную вики]]',
+	'randombytest' => 'Случайная страница пробной вики',
+	'randombytest-nopages' => 'В вашей пробной вики нет страниц в пространстве имён $1.',
 );
 
 /** Slovak (Slovenčina)
