@@ -103,6 +103,7 @@ $messages['ar'] = array(
  * @author Basharh
  */
 $messages['arc'] = array(
+	'wminc-viewuserlang-user' => 'ܫܡܐ ܕܡܦܠܚܢܐ:',
 	'wminc-viewuserlang-go' => 'ܙܠ',
 	'wminc-testwiki' => 'ܘܝܩܝ ܢܣܝܘܢܐ:',
 	'wminc-testwiki-none' => 'ܠܐ ܡܕܡ/ܟܠ',
@@ -1012,7 +1013,7 @@ $messages['ru'] = array(
 	'wminc-prefinfo-code' => 'Код языка по ISO 639',
 	'wminc-prefinfo-project' => 'Выбор проекта Викимедиа (выберите Инкубатор, если занимаетесь общими вопросами)',
 	'wminc-prefinfo-error' => 'Вы выбрали проект, для которого необходимо указать код языка.',
-	'wminc-warning-unprefixed' => "'''Внимание:''' название страницы, которую вы правите, не содержит префикса!",
+	'wminc-warning-unprefixed' => "'''Внимание.''' Название страницы, которую вы правите, не содержит префикса!",
 	'wminc-warning-suggest' => 'Вы можете создать страницу на [[$1]].',
 	'wminc-warning-suggest-move' => 'Вы можете [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} переименовать эту страницу в $1].',
 	'right-viewuserlang' => 'просматривать [[Special:ViewUserLang|языковые настройки участника и его пробную вики]]',
@@ -1041,7 +1042,7 @@ $messages['sk'] = array(
 	'randombytest' => 'Náhodná stránka z testovacej wiki',
 );
 
-/** Serbian Cyrillic ekavian (ћирилица)
+/** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -1051,7 +1052,7 @@ $messages['sr-ec'] = array(
 	'wminc-testwiki-none' => 'Ништа/Све',
 );
 
-/** latinica (latinica)
+/** Serbian Latin ekavian (Srpski (latinica))
  * @author Michaello
  */
 $messages['sr-el'] = array(
