@@ -540,6 +540,8 @@ $messages['hil'] = array(
 	'wminc-warning-suggest' => 'Makahimo ka pahina sa [[$1]].',
 	'wminc-warning-suggest-move' => 'Pwede mo [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} magiho ini nga pahina sa $1].',
 	'right-viewuserlang' => 'Tan-awon [[Special:ViewUserLang|user lengwahe kag pagtilaw wiki]]',
+	'randombytest' => 'Ginpalagpat-pagpili nga pahina sang test wiki',
+	'randombytest-nopages' => 'Wala sang mga pahina sa imo nga test wiki, sa may ngalanespasyo: $1.',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
