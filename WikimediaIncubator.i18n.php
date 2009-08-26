@@ -172,6 +172,8 @@ $messages['br'] = array(
 	'wminc-warning-suggest' => 'Gallout a rit krouiñ ur bajenn war [[$1]].',
 	'wminc-warning-suggest-move' => 'Gallout a rit [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} adenvel ar bajenn-mañ e $1].',
 	'right-viewuserlang' => 'Gwelet [[Special:ViewUserLang|yezh an implijer hag ar wiki testiñ]]',
+	'randombytest' => 'Pajenn dargouezhek gant ar wiki amprouiñ',
+	'randombytest-nopages' => "N'eus pajenn ebet en ho wiki amprouiñ, en esaouenn anv : $1.",
 );
 
 /** Bosnian (Bosanski)
@@ -447,6 +449,8 @@ $messages['gl'] = array(
 	'wminc-warning-suggest' => 'Pode crear a páxina en "[[$1]]".',
 	'wminc-warning-suggest-move' => 'Pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta páxina a "$1"].',
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|a lingua do usuario e o wiki de probas]]',
+	'randombytest' => 'Páxina ao chou para o wiki de proba',
+	'randombytest-nopages' => 'O seu wiki de proba aínda non ten páxinas no espazo de nomes: $1.',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -480,6 +484,7 @@ $messages['gsw'] = array(
 	'wminc-warning-suggest-move' => 'Du chasch [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} die Syte no $1 verschiebe].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|D Benutzersproch und s Teschtwiki]] aaluege',
 	'randombytest' => 'Zuefallssyte no Teschtwiki',
+	'randombytest-nopages' => 'S git kei Syte im Namensruum $1 in Dyym Teschtwiki.',
 );
 
 /** Gujarati (ગુજરાતી)
@@ -1042,6 +1047,7 @@ $messages['sk'] = array(
 	'wminc-warning-suggest-move' => 'Môžete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} presunúť túto stránku na $1].',
 	'right-viewuserlang' => 'Zobraziť [[Special:ViewUserLang|jazyk používateľa a testovaciu wiki]]',
 	'randombytest' => 'Náhodná stránka z testovacej wiki',
+	'randombytest-nopages' => 'Vo vašej testovacej wiki neexistujú stránky v mennom priestore $1.',
 );
 
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
