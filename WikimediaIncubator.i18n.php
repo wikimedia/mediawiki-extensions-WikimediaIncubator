@@ -195,6 +195,7 @@ $messages['bs'] = array(
 	'wminc-warning-suggest-move' => 'Možete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} premjestiti ovu stranicu na $1].',
 	'right-viewuserlang' => 'Pregledavanje [[Special:ViewUserLang|korisničkog jezika i probne wiki]]',
 	'randombytest' => 'Slučajna stranica od testirane wiki',
+	'randombytest-nopages' => 'Nema stranica u Vašoj probnoj wiki, u imenskom prostoru: $1.',
 );
 
 /** Catalan (Català)
@@ -301,6 +302,7 @@ $messages['el'] = array(
 	'wminc-warning-suggest-move' => 'Μπορείτε να [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} μετακινήσετε αυτή τη σελίδα στο $1].',
 	'right-viewuserlang' => 'Προβολή της [[Special:ViewUserLang|γλώσσας χρήστη και του δοκιμαστικού βίκι]]',
 	'randombytest' => 'Τυχαία σελίδα βάσει του δοκιμαστικού βίκι',
+	'randombytest-nopages' => 'Δεν υπάρχουν σελίδες στο wiki δοκιμής σας, στις περιοχές ονομάτων: $1.',
 );
 
 /** Esperanto (Esperanto)
