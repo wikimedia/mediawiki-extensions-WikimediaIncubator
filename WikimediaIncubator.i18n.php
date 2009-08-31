@@ -245,6 +245,7 @@ $messages['de'] = array(
 	'wminc-warning-suggest-move' => 'Du kannst [{{fullurl:{{#special:MovePage}}/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benutzersprache und Testwiki]] anschauen',
 	'randombytest' => 'Zufällige Seite aus dem Testwiki',
+	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ deines Testwikis.',
 );
 
 /** German (formal address) (Deutsch (Sie-Form))
@@ -257,6 +258,7 @@ $messages['de-formal'] = array(
 	'wminc-warning-unprefixed' => 'Achtung: Sie bearbeiten eine Seite ohne Präfix!',
 	'wminc-warning-suggest' => 'Sie können hier eine Seite erstellen: [[$1]].',
 	'wminc-warning-suggest-move' => 'Sie können [{{fullurl:{{#special:MovePage}}/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
+	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ Ihres Testwikis.',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -597,6 +599,7 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author Irwangatot
  * @author Kandar
  * @author Rex
  */
@@ -616,6 +619,7 @@ $messages['id'] = array(
 	'wminc-warning-suggest-move' => 'Anda dapat [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} memindahkan halaman ini ke $1].',
 	'right-viewuserlang' => 'Lihat [[Special:ViewUserLang|bahasa pengguna dan wiki pengujian]]',
 	'randombytest' => 'Halaman sembarang oleh wiki percobaan',
+	'randombytest-nopages' => 'Tidak ada halaman  wiki pengujian anda, dalam ruangnama: $1.',
 );
 
 /** Italian (Italiano)
@@ -744,6 +748,7 @@ $messages['lb'] = array(
 	'wminc-warning-suggest-move' => 'Dir kënnt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} dës Säit op $1 réckelen].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benotzersprooch an Test-Wiki]] weisen',
 	'randombytest' => 'Zoufallssäit duerch Test Wiki',
+	'randombytest-nopages' => 'Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.',
 );
 
 /** Lazuri Nena (Lazuri Nena)
@@ -913,6 +918,7 @@ $messages['pl'] = array(
 	'wminc-warning-suggest-move' => 'Możesz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} przenieść tę stronę do „$1”].',
 	'right-viewuserlang' => 'Zobacz [[Special:ViewUserLang|język użytkownika oraz testową wiki]]',
 	'randombytest' => 'Losowa strona testowej wiki',
+	'randombytest-nopages' => 'W Twojej testowej wiki brak jest stron w przestrzeni nazw $1.',
 );
 
 /** Pontic (Ποντιακά)
@@ -971,6 +977,7 @@ $messages['pt-br'] = array(
 	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma do usuário e wiki de teste]]',
 	'randombytest' => 'Página aleatória da wiki de testes',
+	'randombytest-nopages' => 'Não há páginas em sua wiki de testes no domínio: $1',
 );
 
 /** Romanian (Română)
