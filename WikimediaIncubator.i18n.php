@@ -71,10 +71,22 @@ $messages['ace'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
+	'wminc-desc' => 'Toets wiki-stelsel vir die Wikipedia Inkubator',
+	'wminc-viewuserlang' => 'Soek op gebruikerstaal en toetswiki',
 	'wminc-viewuserlang-user' => 'Gebruikersnaam:',
 	'wminc-viewuserlang-go' => 'OK',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Geen/alles',
+	'wminc-prefinfo-language' => 'U koppelvlaktaal - onafhanklik van u toetswiki',
+	'wminc-prefinfo-code' => 'Die ISO 639-taalkode',
+	'wminc-prefinfo-project' => 'Kies die Wikimedia-projek (Inkubator-opsie is vir gebruikers wat nie algemeen werk doen nie)',
+	'wminc-prefinfo-error' => "Jy het 'n projek gekies wat 'n taalkode benodig.",
+	'wminc-warning-unprefixed' => "'''Waarskuwing:''' Die bladsy wat jy wysig het nie 'n voorvoegsel nie!",
+	'wminc-warning-suggest' => "U kan 'n bladsy skep by [[$1]].",
+	'wminc-warning-suggest-move' => 'U kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} hierdie bladsy skuif na $1].',
+	'right-viewuserlang' => 'Sien [[Special:ViewUserLang|gebruikerstaal en toetswiki]]',
+	'randombytest' => 'Lukrake bladsy uit die toetswiki',
+	'randombytest-nopages' => 'Daar is geen bladsye in jou toetswiki in die $1-naamruimte nie.',
 );
 
 /** Arabic (العربية)
