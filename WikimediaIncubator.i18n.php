@@ -166,6 +166,17 @@ $messages['bg'] = array(
 	'wminc-warning-suggest-move' => 'Можете да [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} преместите тази страница като $1].',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'wminc-viewuserlang-user' => 'ব্যবহারকারী নাম:',
+	'wminc-viewuserlang-go' => 'যাও',
+	'wminc-testwiki' => 'পরীক্ষামূলক উইকি:',
+	'wminc-testwiki-none' => 'কিছু না/সমস্ত',
+	'wminc-prefinfo-language' => 'আপনার ইন্টারফেস ভাষা - আপনার পরীক্ষামূলক উইকি হতে স্বাধীন',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
@@ -656,9 +667,9 @@ $messages['ja'] = array(
 	'wminc-viewuserlang-go' => '表示',
 	'wminc-testwiki' => '試験版ウィキ:',
 	'wminc-testwiki-none' => 'なし/すべて',
-	'wminc-prefinfo-language' => 'あなたのインタフェース言語 （あなたの試験版ウィキとは独立しています）',
+	'wminc-prefinfo-language' => 'あなたのインタフェース言語 (あなたの試験版ウィキとは独立しています)',
 	'wminc-prefinfo-code' => 'ISO 639 言語コード',
-	'wminc-prefinfo-project' => 'ウィキメディア・プロジェクトを選択する （「Incubator」オプションは全般的な作業を行う利用者のためのものです）',
+	'wminc-prefinfo-project' => 'ウィキメディア・プロジェクトを選択する (「Incubator」オプションは全般的な作業を行う利用者のためのものです)',
 	'wminc-prefinfo-error' => 'あなたが選択したプロジェクトは言語コードが必要です。',
 	'wminc-warning-unprefixed' => '警告: あなたが編集しているページには接頭辞が付いていません！',
 	'wminc-warning-suggest' => '[[$1]] にページを作ることができます。',
