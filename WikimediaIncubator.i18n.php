@@ -247,6 +247,18 @@ $messages['ckb-arab'] = array(
 	'wminc-warning-suggest-move' => '',
 );
 
+/** Danish (Dansk)
+ * @author Byrial
+ * @author Masz
+ */
+$messages['da'] = array(
+	'wminc-desc' => 'Testwikisystem for Wikimedia Incubator',
+	'wminc-viewuserlang-user' => 'Brugernavn:',
+	'wminc-viewuserlang-go' => 'Gå',
+	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-none' => 'Ingen/Alle',
+);
+
 /** German (Deutsch)
  * @author Imre
  * @author MF-Warburg
@@ -1222,6 +1234,14 @@ $messages['uk'] = array(
 	'wminc-testwiki-none' => 'Жодна або всі',
 	'wminc-prefinfo-language' => 'Мова інтерфейсу (залежить від мови тестової вікі)',
 	'wminc-prefinfo-code' => 'Код мови згідно з ISO 639',
+);
+
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'wminc-viewuserlang-user' => 'Kävutajan nimi:',
+	'wminc-prefinfo-code' => "ISO 639-kel'kod",
 );
 
 /** Vietnamese (Tiếng Việt)
