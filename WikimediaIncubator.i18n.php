@@ -1241,6 +1241,9 @@ $messages['uk'] = array(
  */
 $messages['vep'] = array(
 	'wminc-viewuserlang-user' => 'Kävutajan nimi:',
+	'wminc-viewuserlang-go' => 'Ectä',
+	'wminc-testwiki' => 'Kodvwiki:',
+	'wminc-testwiki-none' => 'Ei ole/Kaik',
 	'wminc-prefinfo-code' => "ISO 639-kel'kod",
 );
 
