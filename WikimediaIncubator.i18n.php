@@ -1072,6 +1072,21 @@ $messages['ru'] = array(
 	'randombytest-nopages' => 'В вашей пробной вики нет страниц в пространстве имён $1.',
 );
 
+/** Yakut (Саха тыла)
+ * @author HalanTul
+ */
+$messages['sah'] = array(
+	'wminc-desc' => 'Бикимиэдьийэ Инкубаатарын тургутар биики-систиэмэтэ',
+	'wminc-viewuserlang' => 'Кыттааччы тыллары талыытын уонна тургутар биикитин көрдөөһүн',
+	'wminc-viewuserlang-user' => 'Кытааччы аата:',
+	'wminc-viewuserlang-go' => 'Бул',
+	'wminc-testwiki' => 'Тургутуллар биики:',
+	'wminc-testwiki-none' => 'Суох/Барыта',
+	'wminc-prefinfo-language' => 'Эн тылыҥ туруоруута тургутар биикигиттэн тутулуга суох',
+	'wminc-prefinfo-code' => 'Тыл ISO 639 тиһилигэр анаммыт куода',
+	'wminc-prefinfo-project' => 'Бикимиэдьийэ бырайыактарыттан талыы (уопсай боппуруостарынан дьарыктаныаххын баҕарар буоллаххына Инкубаатары тал)',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
