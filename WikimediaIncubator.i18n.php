@@ -59,6 +59,28 @@ $messages['qqq'] = array(
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}',
 );
 
+/** Moroccan Spoken Arabic (Maġribi)
+ * @author Enzoreg
+ */
+$messages['ary'] = array(
+	'wminc-desc' => "L-Wiki dyal 't-tést le Wikimédya Incubator",
+	'wminc-viewuserlang' => "Ha hiya loġaṫ l-mosṫeĥdim o l-Wiki dyal 't-tést dyalo",
+	'wminc-viewuserlang-user' => 'Smiyṫ l-mosṫeĥdim :',
+	'wminc-viewuserlang-go' => 'Sir',
+	'wminc-testwiki' => "L-Wiki dyal 't-tést :",
+	'wminc-testwiki-none' => 'Ḫṫa ḫaja / Kol ċi',
+	'wminc-prefinfo-language' => "Loġṫ wajihṫek - mesṫaqela men 't-tést dyal l-Wiki dyalek",
+	'wminc-prefinfo-code' => 'L-kod ISO 639 dyal l-loġa',
+	'wminc-prefinfo-project' => 'Ĥṫar l-meċroĝ Wikimédya (l-opsyon Incubator mĥeṣeṣa le mosṫeĥdimin li ka iṣaybo ĥedma ĝama)',
+	'wminc-prefinfo-error' => 'Ĥṫariṫi meċroĝ li ka iḫṫaj l-kod dyal l-loġa.',
+	'wminc-warning-unprefixed' => "'''Ĝendak :''' 'ṣ-ṣefḫa li ka ṫṫbedel ma ĝendha ḫṫa préfiks !",
+	'wminc-warning-suggest' => 'Imkenlik ṫĥṫareĝ ċi ṣefḫa fe [[$1]].',
+	'wminc-warning-suggest-move' => "Imkenlik [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} ṫneqel had 'ṣ-ṣefḫa le $1].",
+	'right-viewuserlang' => "Ċof [[Special:ViewUserLang|loġṫ l-mosṫeĥdim o l-Wiki dyal 't-tést]]",
+	'randombytest' => "Ṣefḫa ĝel l-Lah men l-Wiki dyal 't-tést",
+	'randombytest-nopages' => "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
+);
+
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
@@ -608,6 +630,16 @@ $messages['hsb'] = array(
 	'right-viewuserlang' => '[[Special:ViewUserLang|Wužiwarsku rěč a testowy wiki]] sej wobhladać',
 	'randombytest' => 'Připadna strona po testowym wikiju',
 	'randombytest-nopages' => 'W twojim testowym wikiju w mjenowym rumje $1 strony njejsu.',
+);
+
+/** Hungarian (Magyar)
+ * @author Glanthor Reviol
+ */
+$messages['hu'] = array(
+	'wminc-viewuserlang-user' => 'Felhasználói név:',
+	'wminc-viewuserlang-go' => 'Menj',
+	'wminc-testwiki' => 'Tesztwiki:',
+	'wminc-testwiki-none' => 'Egyik sem/Mind',
 );
 
 /** Interlingua (Interlingua)
