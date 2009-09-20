@@ -9,9 +9,9 @@ class AutoTestWiki {
 		$projectvalue = strtolower( $wgRequest->getVal( 'testwikiproject', '' ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'testwikicode', '' ) );
 		if ( preg_match( '/[a-z][a-z][a-z]?/', $codevalue ) && in_array( $projectvalue, array( 'p', 'b', 't', 'q', 'n' ) ) ) {
-			$sp->mFormHeader .= '<input type="hidden" name="testwiki-project" value="' . $projectvalue . '" />
+			$sp->addFormHeader( '<input type="hidden" name="testwiki-project" value="' . $projectvalue . '" />
 	<input type="hidden" name="testwiki-code" value="' . $codevalue . '" />
-	';
+	');
 		}
 		return true;
 	}
