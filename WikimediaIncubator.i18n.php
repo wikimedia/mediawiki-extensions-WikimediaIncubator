@@ -988,6 +988,28 @@ $messages['pl'] = array(
 	'randombytest-nopages' => 'W Twojej testowej wiki brak jest stron w przestrzeni nazw $1.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'wminc-desc' => 'Preuva ël sistema ëd wiki për Wikimedia Incubator',
+	'wminc-viewuserlang' => "varda la lenga dl'utent e preuva la wiki",
+	'wminc-viewuserlang-user' => 'Nòm utent:',
+	'wminc-viewuserlang-go' => 'Va',
+	'wminc-testwiki' => 'Preuva wiki:',
+	'wminc-testwiki-none' => 'Gnun/Tùit',
+	'wminc-prefinfo-language' => "Toa lenga d'antërfacia - andipendenta da toa wiki ëd preuva",
+	'wminc-prefinfo-code' => 'Ël còdes ISO 639 dla lenga',
+	'wminc-prefinfo-project' => "Selession-a ël proget Wikimedia (l'opsion Incubator a l'é për utent che a fan travaj general)",
+	'wminc-prefinfo-error' => "It l'has selessionà un proget che a l'ha dbzògn d'un còdes ëd lenga.",
+	'wminc-warning-unprefixed' => "'''Avis:''' la pàgina ch'i të stas modificand a l'é sensa prefiss!",
+	'wminc-warning-suggest' => 'It peule creé na pàgina a [[$1]].',
+	'wminc-warning-suggest-move' => 'It peule [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} tramudé sta pàgina-sì a $1].',
+	'right-viewuserlang' => "Visualisa [[Special:ViewUserLang|lenga dl'utent e wiki ëd preuva]]",
+	'randombytest' => 'Pàgina a cas da wiki ëd preuva',
+	'randombytest-nopages' => 'A-i son pa ëd pàgine ant toa wiki ëd preuva, ant lë spassi nominal: $1:',
+);
+
 /** Pontic (Ποντιακά)
  * @author Omnipaedista
  */
