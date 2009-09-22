@@ -796,6 +796,16 @@ $messages['ksh'] = array(
 	'randombytest-nopages' => 'Et Appachtemang $1 änthält kein Sigge en Dingem Versöhkß-Wiki.',
 );
 
+/** Cornish (Kernowek)
+ * @author Kernoweger
+ */
+$messages['kw'] = array(
+	'wminc-viewuserlang-user' => 'Hanow-usyer:',
+	'wminc-viewuserlang-go' => 'Ke',
+	'wminc-testwiki-none' => 'Veth/Oll',
+	'wminc-prefinfo-code' => 'Koden ISO 639 an yeth',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -1139,6 +1149,19 @@ $messages['sah'] = array(
 	'wminc-prefinfo-language' => 'Эн тылыҥ туруоруута тургутар биикигиттэн тутулуга суох',
 	'wminc-prefinfo-code' => 'Тыл ISO 639 тиһилигэр анаммыт куода',
 	'wminc-prefinfo-project' => 'Бикимиэдьийэ бырайыактарыттан талыы (уопсай боппуруостарынан дьарыктаныаххын баҕарар буоллаххына Инкубаатары тал)',
+);
+
+/** Tachelhit (Tašlḥiyt)
+ * @author Dalinanir
+ */
+$messages['shi'] = array(
+	'wminc-viewuserlang' => 'Af tutlayt nu amsdaqc tjrrebt wiki',
+	'wminc-viewuserlang-user' => 'Assaɣ nu-msxdan',
+	'wminc-viewuserlang-go' => 'Balak',
+	'wminc-testwiki' => 'Test n wiki',
+	'wminc-testwiki-none' => 'Walu/kullu',
+	'wminc-prefinfo-language' => 'Udm n tutlayt nk. Ansimal z ɣ test n wiki',
+	'wminc-prefinfo-code' => 'Asngl ISO 639 n tutlayt',
 );
 
 /** Slovak (Slovenčina)
