@@ -81,6 +81,13 @@ $messages['ary'] = array(
 	'randombytest-nopages' => "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
 );
 
+/** Lazuri Nena (Lazuri Nena)
+ * @author Bombola
+ */
+$messages['lzz'] = array(
+	'wminc-prefinfo-code' => "ISO 639 nena k'odi",
+);
+
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
@@ -828,13 +835,6 @@ $messages['lb'] = array(
 	'randombytest-nopages' => 'Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.',
 );
 
-/** Lazuri Nena (Lazuri Nena)
- * @author Bombola
- */
-$messages['lzz'] = array(
-	'wminc-prefinfo-code' => "ISO 639 nena k'odi",
-);
-
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
@@ -1031,6 +1031,7 @@ $messages['pnt'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'wminc-viewuserlang-user' => 'کارن-نوم:',
 	'wminc-viewuserlang-go' => 'ورځه',
 );
 
@@ -1358,6 +1359,8 @@ $messages['vi'] = array(
 	'wminc-warning-suggest' => 'Bạn có thể tạo trang “[[$1]]”.',
 	'wminc-warning-suggest-move' => 'Bạn có thể [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} di chuyển trang này đến $1].',
 	'right-viewuserlang' => 'Xem [[Special:ViewUserLang|ngôn ngữ và wiki thử của người dùng]]',
+	'randombytest' => 'Trang ngẫu nhiên theo wiki thử',
+	'randombytest-nopages' => 'Không có trang này tại wiki thử của bạn trong không gian tên “$1”.',
 );
 
 /** Yue (粵語)
