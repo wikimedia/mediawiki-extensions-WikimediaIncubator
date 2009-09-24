@@ -593,6 +593,7 @@ $messages['he'] = array(
 	'wminc-warning-suggest-move' => 'באפשרותכם [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} להעביר דף זה ל$1].',
 	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הנסיוני]]',
 	'randombytest' => 'דף אקראי באתר ויקי נסיוני',
+	'randombytest-nopages' => 'אין דפים באתר הוויקי הנסיוני שלכם, במרחב השם: $1.',
 );
 
 /** Hiligaynon (Ilonggo)
@@ -647,6 +648,8 @@ $messages['hu'] = array(
 	'wminc-viewuserlang-go' => 'Menj',
 	'wminc-testwiki' => 'Tesztwiki:',
 	'wminc-testwiki-none' => 'Egyik sem/Mind',
+	'wminc-prefinfo-language' => 'A felhasználói felületed nyelve – független a teszt wikidtől',
+	'wminc-prefinfo-code' => 'Az ISO 639 szerinti nyelvkód',
 );
 
 /** Interlingua (Interlingua)
