@@ -923,6 +923,7 @@ $messages['nn'] = array(
 	'wminc-warning-suggest' => 'Du kan oppretta ei side på [[$1]].',
 	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytta denne sida til $1].',
 	'right-viewuserlang' => 'Vis [[Special:ViewUserLang|brukarspråk og testwiki]]',
+	'randombytest' => 'Tilfelleleg side frå testwiki',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
