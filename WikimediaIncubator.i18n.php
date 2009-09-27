@@ -924,6 +924,7 @@ $messages['nn'] = array(
 	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytta denne sida til $1].',
 	'right-viewuserlang' => 'Vis [[Special:ViewUserLang|brukarspråk og testwiki]]',
 	'randombytest' => 'Tilfelleleg side frå testwiki',
+	'randombytest-nopages' => 'Det er ingen sider i testwikien din, i namneromet:  $1.',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
