@@ -1161,13 +1161,21 @@ $messages['sah'] = array(
  * @author Dalinanir
  */
 $messages['shi'] = array(
-	'wminc-viewuserlang' => 'Af tutlayt nu amsdaqc tjrrebt wiki',
+	'wminc-viewuserlang' => 'Af tutlayt nu amsdaqc tarmt wiki',
 	'wminc-viewuserlang-user' => 'Assaɣ nu-msxdan',
 	'wminc-viewuserlang-go' => 'Balak',
-	'wminc-testwiki' => 'Test n wiki',
+	'wminc-testwiki' => 'Arm n wiki',
 	'wminc-testwiki-none' => 'Walu/kullu',
-	'wminc-prefinfo-language' => 'Udm n tutlayt nk. Ansimal z ɣ test n wiki',
+	'wminc-prefinfo-language' => 'Udm n tutlayt nk.  tbḍa d arm  n wiki',
 	'wminc-prefinfo-code' => 'Asngl ISO 639 n tutlayt',
+	'wminc-prefinfo-project' => 'Sti tawuri n Wikipedya (Astay n tusnkert ittuyzlay s imsxdamn li skarni tawuri ur ittiyslayn)',
+	'wminc-prefinfo-error' => 'Tstit yat tuwuri li iran asngl n tutlayt',
+	'wminc-warning-unprefixed' => 'Wayyak  ḥan tasna li tarat ur tla amttuz (prefix)',
+	'wminc-warning-suggest' => 'Ttzdart at tarat tasna ɣ [[$1]]',
+	'wminc-warning-suggest-move' => 'Tzdart at [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}}  smmatit tasna yad s $1.]',
+	'right-viewuserlang' => 'Ẓr [[Special:ViewUserLang|Tutlayt nu umsxdam d arm n  wiki]]',
+	'randombytest' => 'Tasna nn ḥlli s astay n wiki',
+	'randombytest-nopages' => 'Ur gis kra n tasna ɣ warm n wiki, li ittafn assaɣ: $1.',
 );
 
 /** Slovak (Slovenčina)
