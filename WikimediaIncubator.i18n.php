@@ -641,9 +641,11 @@ $messages['hsb'] = array(
 );
 
 /** Hungarian (Magyar)
+ * @author Bdamokos
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
+	'wminc-desc' => 'Tesztwiki rendszer a Wikimédia Inkubátorhoz',
 	'wminc-viewuserlang-user' => 'Felhasználói név:',
 	'wminc-viewuserlang-go' => 'Menj',
 	'wminc-testwiki' => 'Tesztwiki:',
