@@ -446,6 +446,7 @@ $messages['eu'] = array(
  * @author Cimon Avaro
  * @author Crt
  * @author Silvonen
+ * @author Str4nd
  * @author Varusmies
  */
 $messages['fi'] = array(
@@ -464,6 +465,7 @@ $messages['fi'] = array(
 	'wminc-warning-suggest-move' => 'Voit [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} siirtää tämän sivun nimelle $1].',
 	'right-viewuserlang' => 'Nähdä [[Special:ViewUserLang|käyttäjän kieli ja testiwiki]]',
 	'randombytest' => 'Satunnainen sivu testiwikistä',
+	'randombytest-nopages' => 'Testiwikisi nimiavaruudessa $2 ei ole sivuja.',
 );
 
 /** French (Français)
@@ -652,6 +654,7 @@ $messages['hu'] = array(
 	'wminc-testwiki-none' => 'Egyik sem/Mind',
 	'wminc-prefinfo-language' => 'A felhasználói felületed nyelve – független a teszt wikidtől',
 	'wminc-prefinfo-code' => 'Az ISO 639 szerinti nyelvkód',
+	'randombytest' => 'Véletlen lap a tesztwikiből',
 );
 
 /** Interlingua (Interlingua)
