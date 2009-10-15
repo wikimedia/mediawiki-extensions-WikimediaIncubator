@@ -1381,6 +1381,13 @@ $messages['vi'] = array(
 	'randombytest-nopages' => 'Không có trang này tại wiki thử của bạn trong không gian tên “$1”.',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'wminc-viewuserlang-user' => 'באַניצער נאָמען:',
+);
+
 /** Yue (粵語)
  * @author Shinjiman
  */
