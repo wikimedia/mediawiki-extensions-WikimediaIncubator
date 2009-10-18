@@ -465,7 +465,7 @@ $messages['fi'] = array(
 	'wminc-warning-suggest-move' => 'Voit [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} siirtää tämän sivun nimelle $1].',
 	'right-viewuserlang' => 'Nähdä [[Special:ViewUserLang|käyttäjän kieli ja testiwiki]]',
 	'randombytest' => 'Satunnainen sivu testiwikistä',
-	'randombytest-nopages' => 'Testiwikisi nimiavaruudessa $2 ei ole sivuja.',
+	'randombytest-nopages' => 'Testiwikisi nimiavaruudessa $1 ei ole sivuja.',
 );
 
 /** French (Français)
