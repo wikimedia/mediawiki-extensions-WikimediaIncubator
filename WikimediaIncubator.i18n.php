@@ -648,13 +648,21 @@ $messages['hsb'] = array(
  */
 $messages['hu'] = array(
 	'wminc-desc' => 'Tesztwiki rendszer a Wikimédia Inkubátorhoz',
+	'wminc-viewuserlang' => 'Felhasználó nyelvének és a tesztwikinek a felkeresése',
 	'wminc-viewuserlang-user' => 'Felhasználói név:',
 	'wminc-viewuserlang-go' => 'Menj',
 	'wminc-testwiki' => 'Tesztwiki:',
 	'wminc-testwiki-none' => 'Egyik sem/Mind',
 	'wminc-prefinfo-language' => 'A felhasználói felületed nyelve – független a teszt wikidtől',
 	'wminc-prefinfo-code' => 'Az ISO 639 szerinti nyelvkód',
+	'wminc-prefinfo-project' => 'Válaszd ki a Wikimédia projektet (az inkubátor választási lehetőség azoknak a felhasználóknak szól, akik általános munkát végeznek)',
+	'wminc-prefinfo-error' => 'Olyan projektet választottál, amihez szükség van nyelvkódra.',
+	'wminc-warning-unprefixed' => "'''Figyelmeztetés:''' nincs előtagja a lapnak, amit szerkesztesz!",
+	'wminc-warning-suggest' => 'Létrehozhatsz lapot a(z) [[$1]] címen.',
+	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} Átnevezheted a lapot erre: $1].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|felhasználó nyelv és teszt wiki]] megjelenítése',
 	'randombytest' => 'Véletlen lap a tesztwikiből',
+	'randombytest-nopages' => 'Nincsenek lapok a teszt wikid $1 névterében.',
 );
 
 /** Interlingua (Interlingua)
