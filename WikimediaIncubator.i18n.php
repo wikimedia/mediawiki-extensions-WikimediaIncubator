@@ -885,6 +885,7 @@ $messages['mk'] = array(
 	'wminc-warning-suggest-move' => 'Можете  [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} ја преместите страницава на $1].',
 	'right-viewuserlang' => 'Погледајте [[Special:ViewUserLang|кориснички јазик и текст вики]]',
 	'randombytest' => 'Случајна страница од тест вики',
+	'randombytest-nopages' => 'Не постојат страници на вашето пробно вики, во именскиот простор: $1.',
 );
 
 /** Erzya (Эрзянь)
