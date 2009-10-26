@@ -392,6 +392,7 @@ $messages['eo'] = array(
 /** Spanish (Español)
  * @author Antur
  * @author Crazymadlover
+ * @author Translationista
  */
 $messages['es'] = array(
 	'wminc-desc' => 'Sistema de wiki de prueba para Wikimedia Incubator',
@@ -400,15 +401,15 @@ $messages['es'] = array(
 	'wminc-viewuserlang-go' => 'Ir',
 	'wminc-testwiki' => 'Wiki de prueba:',
 	'wminc-testwiki-none' => 'Ninguno/Todo',
-	'wminc-prefinfo-language' => 'Tu lenguaje de interface - independiente de tu wiki de prueba',
-	'wminc-prefinfo-code' => 'El código de lenguaje ISO 639',
+	'wminc-prefinfo-language' => 'Tu idioma de interface - independiente de tu wiki de prueba',
+	'wminc-prefinfo-code' => 'El código de idioma ISO 639',
 	'wminc-prefinfo-project' => 'Seleccionar el proyecto wikimedia (opción Incubator es para usuarios que hacen trabajo general)',
 	'wminc-prefinfo-error' => 'Seleccionaste un proyecto que necesita un código de lenguaje.',
 	'wminc-warning-unprefixed' => 'Advertencia: la página que estás editando está sin prefijo!',
 	'wminc-warning-suggest' => 'Puedes crear una página en [[$1]].',
 	'wminc-warning-suggest-move' => 'Puedes [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página a $1].',
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma de usuario y prueba wiki]]',
-	'randombytest' => 'Página aleatoria para testear wiki',
+	'randombytest' => 'Página aleatoria para probar wiki',
 	'randombytest-nopages' => 'No hay páginas en su wiki de prueba, en el espacio de nombres: $1.',
 );
 
