@@ -862,7 +862,7 @@ $messages['mg'] = array(
 	'wminc-testwiki-none' => 'Tsy misy / izy rehetra',
 	'wminc-prefinfo-language' => "Ny ten'ny rindrankajy ho anao - tsy mifatotra amin'ny wiki fanandramanao",
 	'wminc-prefinfo-code' => 'Kaody ISO 639 ny teny',
-	'wminc-prefinfo-error' => 'Nisafidy tetikasa mila kaody nà teny ianao.',
+	'wminc-prefinfo-error' => 'Nisafidy tetikasa mila kaodim-piteny ianao.',
 	'wminc-warning-unprefixed' => "'''Tandremo''' : tsy manana prefiksa ny pejy ovainao",
 	'wminc-warning-suggest' => "Afaka mamorona ny pejy an'i [[$1]] ianao.",
 );
