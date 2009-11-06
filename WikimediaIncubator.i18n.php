@@ -1396,6 +1396,7 @@ $messages['vi'] = array(
  */
 $messages['yi'] = array(
 	'wminc-viewuserlang-user' => 'באַניצער נאָמען:',
+	'wminc-viewuserlang-go' => 'גיין',
 );
 
 /** Yue (粵語)
