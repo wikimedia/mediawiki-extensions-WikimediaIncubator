@@ -81,13 +81,6 @@ $messages['ary'] = array(
 	'randombytest-nopages' => "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
 );
 
-/** Lazuri Nena (Lazuri Nena)
- * @author Bombola
- */
-$messages['lzz'] = array(
-	'wminc-prefinfo-code' => "ISO 639 nena k'odi",
-);
-
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
@@ -1056,25 +1049,28 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (Português)
+ * @author Hamilton Abreu
  * @author Lijealso
  * @author Malafaya
  * @author Waldir
  */
 $messages['pt'] = array(
-	'wminc-desc' => 'Sistema de wikis de teste para a Incubadora Wikimedia',
-	'wminc-viewuserlang' => 'Procurar idioma de utilizador e wiki de teste',
-	'wminc-viewuserlang-user' => 'Nome de usuário:',
+	'wminc-desc' => 'Sistema de wikis de testes para a Incubadora Wikimedia',
+	'wminc-viewuserlang' => 'Procurar a língua do utilizador e a wiki de testes',
+	'wminc-viewuserlang-user' => 'Nome de utilizador:',
 	'wminc-viewuserlang-go' => 'Ir',
-	'wminc-testwiki' => 'Wiki de teste:',
+	'wminc-testwiki' => 'Wiki de testes:',
 	'wminc-testwiki-none' => 'Nenhum/Tudo',
-	'wminc-prefinfo-language' => 'A seu idioma de interface - independente do seu wiki de teste',
+	'wminc-prefinfo-language' => 'A língua da interface - independente da da sua wiki de testes',
 	'wminc-prefinfo-code' => 'O código de língua ISO 639',
-	'wminc-prefinfo-project' => 'Selecione o projeto Wikimedia (a opção Incubadora é para usuários que fazem trabalho geral)',
-	'wminc-prefinfo-error' => 'Você selecionou um projeto que necessita de um código de língua.',
-	'wminc-warning-unprefixed' => 'Aviso: a página que você está a editar não tem prefixo!',
-	'wminc-warning-suggest' => 'Você pode criar uma página em [[$1]].',
-	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
-	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|língua do utilizador e wiki de teste]]',
+	'wminc-prefinfo-project' => 'Seleccione o projeto Wikimedia (a opção Incubadora é para utilizadores que fazem trabalho geral)',
+	'wminc-prefinfo-error' => 'Seleccionou um projecto que necessita de um código de língua.',
+	'wminc-warning-unprefixed' => 'Aviso: a página que está a editar não tem prefixo!',
+	'wminc-warning-suggest' => 'Pode criar uma página em [[$1]].',
+	'wminc-warning-suggest-move' => 'Pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
+	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|língua do utilizador e wiki de testes]]',
+	'randombytest' => 'Página aleatória da wiki de testes',
+	'randombytest-nopages' => 'Não há páginas na sua wiki de testes, no espaço nominal: $1.',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
