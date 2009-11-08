@@ -192,11 +192,19 @@ $messages['bg'] = array(
  * @author Bellayet
  */
 $messages['bn'] = array(
+	'wminc-desc' => 'উইকিমিডিয়া ইনকিউবেটরের জন্য পরীক্ষামূলক উইকি ব্যবস্থা',
+	'wminc-viewuserlang' => 'ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখুন',
 	'wminc-viewuserlang-user' => 'ব্যবহারকারী নাম:',
 	'wminc-viewuserlang-go' => 'যাও',
 	'wminc-testwiki' => 'পরীক্ষামূলক উইকি:',
 	'wminc-testwiki-none' => 'কিছু না/সমস্ত',
 	'wminc-prefinfo-language' => 'আপনার ইন্টারফেস ভাষা - আপনার পরীক্ষামূলক উইকি হতে স্বাধীন',
+	'wminc-prefinfo-code' => 'ISO 639 ভাষা কোড',
+	'wminc-prefinfo-error' => 'আপনার নির্বাচিত প্রকল্পের ভাষার কোড প্রয়োজন।',
+	'wminc-warning-suggest' => '[[$1]] তে আপনি পাতা তৈরি করতে পারেন।',
+	'wminc-warning-suggest-move' => 'আপনি [ $1 এ {{fullurl:Special:MovePage/$3|wpNewTitle=$2}} এই পাতা সরিয়ে নিতে পারেন]।',
+	'right-viewuserlang' => '[[Special:ViewUserLang|ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি]] দেখাও',
+	'randombytest' => 'পরীক্ষামূলক উইকির অজানা পাতা',
 );
 
 /** Breton (Brezhoneg)
@@ -1393,6 +1401,7 @@ $messages['vi'] = array(
 $messages['yi'] = array(
 	'wminc-viewuserlang-user' => 'באַניצער נאָמען:',
 	'wminc-viewuserlang-go' => 'גיין',
+	'wminc-testwiki' => 'פרווו וויקי',
 );
 
 /** Yue (粵語)
