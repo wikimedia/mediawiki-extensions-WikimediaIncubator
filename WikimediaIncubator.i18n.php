@@ -1197,6 +1197,28 @@ $messages['shi'] = array(
 	'randombytest-nopages' => 'Ur gis kra n tasna ɣ warm n wiki, li ittafn assaɣ: $1.',
 );
 
+/** Sinhala (සිංහල)
+ * @author Calcey
+ */
+$messages['si'] = array(
+	'wminc-desc' => 'විකි මීඩියා ආසීනකාරකය සඳහා විකි පද්ධතිය පරීක්ෂා කරන්න',
+	'wminc-viewuserlang' => 'පරිශීලක භාෂාව බලා විකිය පරීක්ෂා කරන්න.',
+	'wminc-viewuserlang-user' => 'පරිශීලක නාමය:',
+	'wminc-viewuserlang-go' => 'යන්න',
+	'wminc-testwiki' => 'විකිය පරීක්ෂා කරන්න:',
+	'wminc-testwiki-none' => 'කිසිවක් නොවේ/සියල්ලම',
+	'wminc-prefinfo-language' => 'ඔබේ අතුරු මුහුණත් භාෂාව - ඔබේ විකි පරීක්ෂාවෙන් ස්වායත්ත වේ',
+	'wminc-prefinfo-code' => 'ISO  639 භාෂා කේතය',
+	'wminc-prefinfo-project' => 'විකි මීඩියා ව්‍යාපෘතිය තෝරන්න.(ආසීනකාරක තොරාගැනීම සාමාන්‍ය කාර්යයන් කරන පරිශීලකයන් සඳහා වේ)',
+	'wminc-prefinfo-error' => 'භාෂා කේතයක් අවශ්‍ය වන ව්‍යාපෘතියක් ඔබ විසින්  තෝරා ගෙන ඇත.',
+	'wminc-warning-unprefixed' => "'''අවවාදයයි:'''  ඔබ සංස්කරණය කරන පිටුව උපසර්ග නොයෙදවූවකි!",
+	'wminc-warning-suggest' => 'ඔබට  [[$1]] හි පිටුවක් නිර්මාණය කළ හැක.',
+	'wminc-warning-suggest-move' => 'ඔබට [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} මෙම පිටුව $1] වෙත ගෙන යා හැක.',
+	'right-viewuserlang' => ' [[Special:ViewUserLang|පරිශීලක භාෂාව හා විකි පරීක්ෂාව]] බලන්න.',
+	'randombytest' => 'විකි පරීක්ෂාවකින් සසම්භාවී පිවුවක්',
+	'randombytest-nopages' => '$1 නාම අවකාශය තුළ,ඔබේ විකි පරීක්ෂාවේ කිසිදු පිටුවක් නොමැත.',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
