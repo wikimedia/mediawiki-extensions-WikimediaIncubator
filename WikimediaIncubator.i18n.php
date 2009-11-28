@@ -81,6 +81,14 @@ $messages['ary'] = array(
 	'randombytest-nopages' => "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
 );
 
+/** Laz (Laz)
+ * @author Bombola
+ */
+$messages['lzz'] = array(
+	'wminc-viewuserlang-go' => 'İgzali',
+	'wminc-prefinfo-code' => "ISO 639 nena k'odi",
+);
+
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
