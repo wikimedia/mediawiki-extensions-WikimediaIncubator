@@ -285,6 +285,16 @@ $messages['ckb-arab'] = array(
 	'wminc-warning-suggest-move' => '',
 );
 
+/** Czech (Česky)
+ * @author Kuvaly
+ */
+$messages['cs'] = array(
+	'wminc-viewuserlang-user' => 'Uživatelské jméno:',
+	'wminc-viewuserlang-go' => 'Přejít',
+	'wminc-testwiki-none' => 'Nic/vše',
+	'wminc-prefinfo-code' => 'Jazykový kód ISO 639',
+);
+
 /** Danish (Dansk)
  * @author Byrial
  * @author Masz
