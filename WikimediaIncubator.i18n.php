@@ -908,6 +908,13 @@ $messages['mk'] = array(
 	'randombytest-nopages' => 'Не постојат страници на вашето пробно вики, во именскиот простор: $1.',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Junaidpv
+ */
+$messages['ml'] = array(
+	'wminc-viewuserlang-user' => 'ഉപയോക്തൃനാമം:',
+);
+
 /** Erzya (Эрзянь)
  * @author Botuzhaleny-sodamo
  */
@@ -1442,6 +1449,7 @@ $messages['yi'] = array(
 	'wminc-viewuserlang-user' => 'באַניצער נאָמען:',
 	'wminc-viewuserlang-go' => 'גיין',
 	'wminc-testwiki' => 'פרווו וויקי',
+	'wminc-testwiki-none' => 'קיינע/אלע',
 );
 
 /** Yue (粵語)
