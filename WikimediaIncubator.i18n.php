@@ -1298,6 +1298,7 @@ $messages['su'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Boivie
  * @author Gabbe.g
  * @author Najami
  * @author Ozp
@@ -1318,6 +1319,8 @@ $messages['sv'] = array(
 	'wminc-warning-suggest' => 'Du kan skapa sidan [[$1]].',
 	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytta denna sidan till $1].',
 	'right-viewuserlang' => 'Visa [[Special:ViewUserLang|användarspråk och testwiki]]',
+	'randombytest' => 'Slumpvis sida från testwiki',
+	'randombytest-nopages' => 'Det finns inga sidor i din textwiki, i namnrymden: $1.',
 );
 
 /** Silesian (Ślůnski)
