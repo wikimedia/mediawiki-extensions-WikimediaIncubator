@@ -344,6 +344,14 @@ $messages['de-formal'] = array(
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ Ihres Testwikis.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Mirzali
+ */
+$messages['diq'] = array(
+	'wminc-viewuserlang-user' => 'Namey karberi:',
+	'wminc-viewuserlang-go' => 'Şo',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -987,6 +995,8 @@ $messages['no'] = array(
 	'wminc-warning-suggest' => 'Du kan opprette en side på [[$1]].',
 	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytte denne siden til $1].',
 	'right-viewuserlang' => 'Vis [[Special:ViewUserLang|brukerspråk og testwiki]]',
+	'randombytest' => 'Tilfeldig side fra testwiki',
+	'randombytest-nopages' => 'Det er ingen sider i din testwiki, i navnerommet: $1.',
 );
 
 /** Occitan (Occitan)
