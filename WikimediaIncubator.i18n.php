@@ -136,9 +136,12 @@ $messages['ar'] = array(
 	'wminc-prefinfo-code' => 'رمز ISO 639 للغة',
 	'wminc-prefinfo-project' => 'إختر مشروع ويكيميديا (خيار الحضانة هو للمستخدمين الذين يقومون بعمل عام)',
 	'wminc-prefinfo-error' => 'اخترت مشروعًا يختاج رمز لغة.',
+	'wminc-warning-unprefixed' => "'''تحذير:''' الصفحة التي تعدلها بدون بادئة!",
 	'wminc-warning-suggest' => 'تستطيع إنشاء صفحة في [[$1]].',
 	'wminc-warning-suggest-move' => 'يمكنك [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} نقل الصفحة إلى $1].',
+	'right-viewuserlang' => 'رؤية [[Special:ViewUserLang|لغة وويكي الاختبار الخاص بالمستخدم]]',
 	'randombytest' => 'صفحة عشوائية بواسطة ويكي الاختبار',
+	'randombytest-nopages' => 'لا توجد صفحات في ويكي الاختبار الخاص بك، في النطاق: $1.',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -923,6 +926,18 @@ $messages['ml'] = array(
 	'wminc-viewuserlang-user' => 'ഉപയോക്തൃനാമം:',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Yosri
+ */
+$messages['ms'] = array(
+	'wminc-viewuserlang' => 'Lihat bahasa pengguna dan wiki ujian',
+	'wminc-viewuserlang-user' => 'Nama pengguna:',
+	'wminc-viewuserlang-go' => 'Pergi',
+	'wminc-testwiki' => 'Wiki ujian:',
+	'wminc-testwiki-none' => 'Tiada/Semua',
+	'wminc-prefinfo-language' => 'Bahasa antaramuka anda - bebas dari wiki ujian anda',
+);
+
 /** Erzya (Эрзянь)
  * @author Botuzhaleny-sodamo
  */
@@ -1361,6 +1376,7 @@ $messages['te'] = array(
 	'wminc-prefinfo-code' => 'ISO 639 భాష కోడు',
 	'wminc-prefinfo-error' => 'భాష కోడు కావాల్సిన ఒక ప్రాజెక్టును మీరు ఎన్నుకున్నారు.',
 	'wminc-warning-suggest' => '[[$1]] దగ్గర మీరు పేజిని సృష్టించవచ్చు.',
+	'wminc-warning-suggest-move' => 'మీరు [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} ఈ పేజీని $1కి తరలించ]వచ్చు.',
 	'right-viewuserlang' => 'వీక్షించండి [[Special:ViewUserLang|సభ్యుని భాష మరియు పరీక్షా వికీ]]',
 	'randombytest' => 'పరీక్షా వికీ ద్వారా ఒక యాధృచిక పేజి',
 );
@@ -1378,6 +1394,7 @@ $messages['tg-cyrl'] = array(
 /** Turkish (Türkçe)
  * @author Joseph
  * @author Karduelis
+ * @author Vito Genovese
  */
 $messages['tr'] = array(
 	'wminc-desc' => 'Vikimedya İnkübatör için test viki sistemi',
@@ -1394,6 +1411,7 @@ $messages['tr'] = array(
 	'wminc-warning-suggest' => '[[$1]] adında yeni bir sayfa oluşturabilirsiniz.',
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} Bu sayfayı $1 sayfasına taşıyabilirsiniz].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Kullanıcı dilini ve test vikisini]] gör',
+	'randombytest' => 'Test vikisinden rastgele sayfa',
 );
 
 /** ئۇيغۇرچە (ئۇيغۇرچە)
@@ -1463,6 +1481,7 @@ $messages['yi'] = array(
 	'wminc-viewuserlang-go' => 'גיין',
 	'wminc-testwiki' => 'פרווו וויקי',
 	'wminc-testwiki-none' => 'קיינע/אלע',
+	'wminc-warning-suggest' => 'איר קענט שאַפֿן א בלאַט [[$1]].',
 );
 
 /** Yue (粵語)
