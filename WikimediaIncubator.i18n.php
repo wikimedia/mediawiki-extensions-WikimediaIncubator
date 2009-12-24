@@ -290,12 +290,22 @@ $messages['ckb-arab'] = array(
 
 /** Czech (Česky)
  * @author Kuvaly
+ * @author Matěj Grabovský
  */
 $messages['cs'] = array(
+	'wminc-desc' => 'Testovací wiki systém pro Inkubátor Wikimedia',
+	'wminc-viewuserlang' => 'Vyhledat jazyk uživatele a testovací wiki',
 	'wminc-viewuserlang-user' => 'Uživatelské jméno:',
 	'wminc-viewuserlang-go' => 'Přejít',
+	'wminc-testwiki' => 'Testovací wiki:',
 	'wminc-testwiki-none' => 'Nic/vše',
+	'wminc-prefinfo-language' => 'Váš jazyk rozhraní – nezávislý na vaší testovací wiki',
 	'wminc-prefinfo-code' => 'Jazykový kód ISO 639',
+	'wminc-prefinfo-project' => 'Vybrat projekt Wikimedia (možnost „Inkubátor“ je pro uživatele, kteří vykonávají všeobecnou činnost)',
+	'wminc-prefinfo-error' => 'Vybrali jste projekt, který vyžaduje kód jazyku.',
+	'wminc-warning-unprefixed' => "'''Upozornění:''' Stránka, kterou upravujete je bez prefixu!",
+	'wminc-warning-suggest' => 'Můžete vytvořit stránku na [[$1]].',
+	'wminc-warning-suggest-move' => 'Můžete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} přesunout tuto stránku na $1].',
 );
 
 /** Danish (Dansk)
@@ -936,6 +946,14 @@ $messages['ms'] = array(
 	'wminc-testwiki' => 'Wiki ujian:',
 	'wminc-testwiki-none' => 'Tiada/Semua',
 	'wminc-prefinfo-language' => 'Bahasa antaramuka anda - bebas dari wiki ujian anda',
+	'wminc-prefinfo-code' => 'Kod bahasa ISO 639',
+	'wminc-prefinfo-project' => 'Pilih projek wikimedia (pilihan eraman adalah bagi pengguna yang membuat kerja umum)',
+	'wminc-warning-unprefixed' => "'''Amaran:''' Laman yang anda sunting adalah tidak ditetapkan!",
+	'wminc-warning-suggest' => 'Anda boleh cipta satu laman di [[$1]].',
+	'wminc-warning-suggest-move' => 'Anda boleh [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} alih laman ini ke $1].',
+	'right-viewuserlang' => 'Lihat [[Special:ViewUserLang|bahasa pengguna dan wiki ujian]]',
+	'randombytest' => 'Laman rawak oleh wiki ujian',
+	'randombytest-nopages' => 'Tidak terdapat laman dalam wiki ujian anda, dalam ruang nama: $1.',
 );
 
 /** Erzya (Эрзянь)
@@ -1179,11 +1197,21 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'wminc-desc' => 'Test pu sisteme Uicchi pe UicchiMedia Incubatore',
+	'wminc-viewuserlang' => "Combronde 'mbrà 'a lènghe de l'utende e 'u teste de Uicchi",
 	'wminc-viewuserlang-user' => "Nome de l'utende:",
 	'wminc-viewuserlang-go' => 'Veje',
 	'wminc-testwiki' => 'Test de Uicchi:',
 	'wminc-testwiki-none' => 'Nisciune/Tutte',
+	'wminc-prefinfo-language' => "L'inderfacce indipendende de lènghe da 'u teste tue de Uicchi",
+	'wminc-prefinfo-code' => "'U codece ISO 639 d'a lènghe",
+	'wminc-prefinfo-project' => "Scacchie 'u proggette UicchiMedia (opzione Incubatore jè pe l'utinde ca fanne 'na fatìe generale)",
+	'wminc-prefinfo-error' => "Tu è scacchiate 'nu proggette ca abbesogne de 'nu codece de lènghe.",
+	'wminc-warning-unprefixed' => "'''Attenziò:''' 'A pàgene ca tu ste cange jè senza prefisse!",
 	'wminc-warning-suggest' => "Tu puè ccreja 'na pàgene a [[$1]].",
+	'wminc-warning-suggest-move' => 'Tu puè [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} spustà sta pàgene sus a $1].',
+	'right-viewuserlang' => "Vide [[Special:ViewUserLang|'a lènghe de l'utende e teste Uicchi]]",
+	'randombytest' => 'Pàgene a uecchie pe testà Uicchi',
+	'randombytest-nopages' => "Non ge stonne pàggene jndr'à Uicchi de test, jndr'à 'u namespace: $1.",
 );
 
 /** Russian (Русский)
