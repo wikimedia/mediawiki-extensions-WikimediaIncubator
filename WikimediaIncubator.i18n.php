@@ -154,6 +154,16 @@ $messages['arc'] = array(
 	'wminc-testwiki-none' => 'ܠܐ ܡܕܡ/ܟܠ',
 );
 
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'wminc-viewuserlang-user' => 'اسم اليوزر:',
+	'wminc-viewuserlang-go' => 'روح',
+	'wminc-testwiki' => 'ويكى تجربه:',
+	'wminc-testwiki-none' => 'ولاحاجه/كل',
+);
+
 /** Bavarian (Boarisch)
  * @author Man77
  */
@@ -291,6 +301,7 @@ $messages['ckb-arab'] = array(
 /** Czech (Česky)
  * @author Kuvaly
  * @author Matěj Grabovský
+ * @author Mormegil
  */
 $messages['cs'] = array(
 	'wminc-desc' => 'Testovací wiki systém pro Inkubátor Wikimedia',
@@ -306,6 +317,9 @@ $messages['cs'] = array(
 	'wminc-warning-unprefixed' => "'''Upozornění:''' Stránka, kterou upravujete je bez prefixu!",
 	'wminc-warning-suggest' => 'Můžete vytvořit stránku na [[$1]].',
 	'wminc-warning-suggest-move' => 'Můžete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} přesunout tuto stránku na $1].',
+	'right-viewuserlang' => 'Prohlížení [[Special:ViewUserLang|uživatelského jazyka a testovací wiki]]',
+	'randombytest' => 'Náhodná stránka z testovací wiki',
+	'randombytest-nopages' => 'Ve vaší testovací wiki nejsou ve jmenném prostoru $1 žádné stránky.',
 );
 
 /** Danish (Dansk)
@@ -1457,14 +1471,25 @@ $messages['ug-arab'] = array(
 
 /** Ukrainian (Українська)
  * @author AS
+ * @author Aleksandrit
  */
 $messages['uk'] = array(
 	'wminc-desc' => 'Тестова вікі для Інкубатора Вікімедіа',
 	'wminc-viewuserlang' => 'Проглянути мову й тестову вікі користувача',
+	'wminc-viewuserlang-user' => 'Ім’я користувача:',
+	'wminc-viewuserlang-go' => 'Пошук',
 	'wminc-testwiki' => 'Тестова вікі:',
 	'wminc-testwiki-none' => 'Жодна або всі',
 	'wminc-prefinfo-language' => 'Мова інтерфейсу (залежить від мови тестової вікі)',
 	'wminc-prefinfo-code' => 'Код мови згідно з ISO 639',
+	'wminc-prefinfo-project' => 'Оберіть проект Вікімедіа (варіант Інкубатор для тих, хто займається загальними питаннями)',
+	'wminc-prefinfo-error' => 'Ви обрали проект, для якого необхідно вказати код мови.',
+	'wminc-warning-unprefixed' => "'''Увага.''' Назва сторінки, яку ви редагуєте, не містить префікса!",
+	'wminc-warning-suggest' => 'Ви можете створити сторінку на [[$1]].',
+	'wminc-warning-suggest-move' => 'Ви можете [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} перейменувати цю сторінку в $1].',
+	'right-viewuserlang' => 'Переглядати [[Special:ViewUserLang|мовні налаштування користувача і його тестову вікі]]',
+	'randombytest' => 'Випадкова сторінка тестової вікі',
+	'randombytest-nopages' => 'У вашій тестовій вікі немає сторінок у просторі імен $1.',
 );
 
 /** Veps (Vepsan kel')
@@ -1553,6 +1578,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Liangent
  * @author Shinjiman
  * @author Wrightbus
  */
@@ -1560,6 +1586,7 @@ $messages['zh-hant'] = array(
 	'wminc-desc' => '維基孵育場的測試wiki系統',
 	'wminc-viewuserlang' => '查看用戶語言與測試wiki',
 	'wminc-viewuserlang-user' => '使用者名稱：',
+	'wminc-viewuserlang-go' => '轉到',
 	'wminc-testwiki' => '測試wiki:',
 	'wminc-testwiki-none' => '無/所有',
 	'wminc-prefinfo-language' => '您的界面語言 - 在您的測試wiki中為獨立的',
@@ -1569,5 +1596,7 @@ $messages['zh-hant'] = array(
 	'wminc-warning-unprefixed' => '警告: 您編輯的頁面尚未加入前綴！',
 	'wminc-warning-suggest' => '您可以在[[$1]]開新頁面。',
 	'wminc-warning-suggest-move' => '您可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 移動這個頁面到$1]。',
+	'right-viewuserlang' => '查看[[Special:ViewUserLang|用戶語言和測試維基]]',
+	'randombytest' => '測試維基上的隨機頁面',
 );
 
