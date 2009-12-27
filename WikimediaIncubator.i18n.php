@@ -945,9 +945,14 @@ $messages['mk'] = array(
 
 /** Malayalam (മലയാളം)
  * @author Junaidpv
+ * @author Praveenp
  */
 $messages['ml'] = array(
 	'wminc-viewuserlang-user' => 'ഉപയോക്തൃനാമം:',
+	'wminc-viewuserlang-go' => 'പോകൂ',
+	'wminc-testwiki' => 'പരീക്ഷണ വിക്കി:',
+	'wminc-testwiki-none' => 'ഒന്നുമില്ല/എല്ലാം',
+	'randombytest' => 'പരീക്ഷണ വിക്കിയിൽ നിന്നും ക്രമരഹിതമായി എടുത്ത താൾ',
 );
 
 /** Malay (Bahasa Melayu)
@@ -1431,6 +1436,16 @@ $messages['tg-cyrl'] = array(
 	'wminc-viewuserlang-go' => 'Рав',
 	'wminc-testwiki' => 'Санҷиши вики:',
 	'wminc-testwiki-none' => 'Ҳеҷ/Ҳама',
+);
+
+/** Tajik (Latin) (Тоҷикӣ (Latin))
+ * @author Liangent
+ */
+$messages['tg-latn'] = array(
+	'wminc-viewuserlang-user' => 'Nomi korbarī:',
+	'wminc-viewuserlang-go' => 'Rav',
+	'wminc-testwiki' => 'Sançişi viki:',
+	'wminc-testwiki-none' => 'Heç/Hama',
 );
 
 /** Turkish (Türkçe)
