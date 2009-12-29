@@ -1448,6 +1448,14 @@ $messages['tg-latn'] = array(
 	'wminc-testwiki-none' => 'Heç/Hama',
 );
 
+/** Turkmen (Türkmençe)
+ * @author Hanberke
+ */
+$messages['tk'] = array(
+	'wminc-viewuserlang-user' => 'Ulanyjy ady:',
+	'wminc-viewuserlang-go' => 'Git',
+);
+
 /** Turkish (Türkçe)
  * @author Joseph
  * @author Karduelis
@@ -1469,6 +1477,7 @@ $messages['tr'] = array(
 	'wminc-warning-suggest-move' => '[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} Bu sayfayı $1 sayfasına taşıyabilirsiniz].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Kullanıcı dilini ve test vikisini]] gör',
 	'randombytest' => 'Test vikisinden rastgele sayfa',
+	'randombytest-nopages' => 'Test vikinizdeki $1 isim alanında herhangi bir sayfa bulunmuyor.',
 );
 
 /** ئۇيغۇرچە (ئۇيغۇرچە)
