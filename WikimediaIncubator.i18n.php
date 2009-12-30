@@ -441,6 +441,9 @@ $messages['eo'] = array(
 	'wminc-warning-unprefixed' => "'''Averto:''' La paĝon kiun vi redaktas estas senprefiksa!",
 	'wminc-warning-suggest' => 'Vi povas krei paĝon ĉe [[$1]].',
 	'wminc-warning-suggest-move' => 'Vi povas [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} movi ĉi tiun paĝon al $1].',
+	'right-viewuserlang' => 'Vidi [[Special:ViewUserLang|uzulan lingvon kaj testvikion]]',
+	'randombytest' => 'Hazarda paĝo de testvikio',
+	'randombytest-nopages' => 'Mankas paĝoj en via testvikio en la nomspaco: $1.',
 );
 
 /** Spanish (Español)
