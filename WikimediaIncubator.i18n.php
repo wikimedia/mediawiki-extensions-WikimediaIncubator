@@ -1457,6 +1457,7 @@ $messages['tg-latn'] = array(
 $messages['tk'] = array(
 	'wminc-viewuserlang-user' => 'Ulanyjy ady:',
 	'wminc-viewuserlang-go' => 'Git',
+	'wminc-testwiki' => 'Test wiki:',
 );
 
 /** Turkish (Türkçe)
