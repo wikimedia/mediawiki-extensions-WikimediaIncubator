@@ -1144,6 +1144,8 @@ $messages['pnt'] = array(
 $messages['ps'] = array(
 	'wminc-viewuserlang-user' => 'کارن-نوم:',
 	'wminc-viewuserlang-go' => 'ورځه',
+	'wminc-testwiki' => 'د آزمېښت ويکي:',
+	'wminc-testwiki-none' => 'هېڅ/ټول',
 );
 
 /** Portuguese (Português)
