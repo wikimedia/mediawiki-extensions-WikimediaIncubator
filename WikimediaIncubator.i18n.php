@@ -201,8 +201,10 @@ $messages['be-tarask'] = array(
 
 /** Bulgarian (Български)
  * @author DCLXVI
+ * @author Stanqo
  */
 $messages['bg'] = array(
+	'wminc-desc' => 'Тест на уики система за инкубатор на Уикипедия',
 	'wminc-viewuserlang-user' => 'Потребител:',
 	'wminc-testwiki' => 'Тестово уики:',
 	'wminc-warning-suggest' => 'Можете да създадете страница на [[$1]].',
