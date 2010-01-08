@@ -961,6 +961,7 @@ $messages['ml'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Aurora
  * @author Yosri
  */
 $messages['ms'] = array(
@@ -971,8 +972,8 @@ $messages['ms'] = array(
 	'wminc-testwiki-none' => 'Tiada/Semua',
 	'wminc-prefinfo-language' => 'Bahasa antaramuka anda - bebas dari wiki ujian anda',
 	'wminc-prefinfo-code' => 'Kod bahasa ISO 639',
-	'wminc-prefinfo-project' => 'Pilih projek wikimedia (pilihan eraman adalah bagi pengguna yang membuat kerja umum)',
-	'wminc-warning-unprefixed' => "'''Amaran:''' Laman yang anda sunting adalah tidak ditetapkan!",
+	'wminc-prefinfo-project' => 'Pilih projek Wikimedia (pilihan Incubator ialah bagi pengguna yang membuat kerja umum)',
+	'wminc-warning-unprefixed' => "'''Amaran:''' Laman yang anda sunting tiada awalan!",
 	'wminc-warning-suggest' => 'Anda boleh cipta satu laman di [[$1]].',
 	'wminc-warning-suggest-move' => 'Anda boleh [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} alih laman ini ke $1].',
 	'right-viewuserlang' => 'Lihat [[Special:ViewUserLang|bahasa pengguna dan wiki ujian]]',
