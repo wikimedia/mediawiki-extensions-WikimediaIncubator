@@ -205,10 +205,21 @@ $messages['be-tarask'] = array(
  */
 $messages['bg'] = array(
 	'wminc-desc' => 'Тест на уики система за инкубатор на Уикипедия',
+	'wminc-viewuserlang' => 'Търсене на потребител език и уики тест',
 	'wminc-viewuserlang-user' => 'Потребител:',
+	'wminc-viewuserlang-go' => 'Старт',
 	'wminc-testwiki' => 'Тестово уики:',
+	'wminc-testwiki-none' => 'Нищо/Всичко',
+	'wminc-prefinfo-language' => 'Езика на интерфейса - независим от езика на пробното уики',
+	'wminc-prefinfo-code' => 'Стандартът ISO 639 езиков код',
+	'wminc-prefinfo-project' => 'Изберете проект на Уикимедия (Опцията инкубатор е за потребители, които извършват обща работа)',
+	'wminc-prefinfo-error' => 'Избрали сте проект, който се нуждае от езиков код.',
+	'wminc-warning-unprefixed' => "'''Внимание:''' Страницата която редактирате не е уводна!",
 	'wminc-warning-suggest' => 'Можете да създадете страница на [[$1]].',
 	'wminc-warning-suggest-move' => 'Можете да [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} преместите тази страница като $1].',
+	'right-viewuserlang' => 'Вижте [[Special:ViewUserLang|езика на потребителя и езика на тестваното уики]]',
+	'randombytest' => 'Случайна страница от тестваното уики',
+	'randombytest-nopages' => 'Няма страници в тестваното уики, в пространство с имена: $1.',
 );
 
 /** Bengali (বাংলা)
