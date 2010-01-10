@@ -201,25 +201,26 @@ $messages['be-tarask'] = array(
 
 /** Bulgarian (Български)
  * @author DCLXVI
+ * @author Spiritia
  * @author Stanqo
  */
 $messages['bg'] = array(
-	'wminc-desc' => 'Тест на уики система за инкубатор на Уикипедия',
-	'wminc-viewuserlang' => 'Търсене на потребител език и уики тест',
+	'wminc-desc' => 'Тестова уики система за Инкубатора на Уикимедия',
+	'wminc-viewuserlang' => 'Справка за езика на потребителя и тестваното от него уики',
 	'wminc-viewuserlang-user' => 'Потребител:',
-	'wminc-viewuserlang-go' => 'Старт',
+	'wminc-viewuserlang-go' => 'Търсене',
 	'wminc-testwiki' => 'Тестово уики:',
-	'wminc-testwiki-none' => 'Нищо/Всичко',
-	'wminc-prefinfo-language' => 'Езика на интерфейса - независим от езика на пробното уики',
-	'wminc-prefinfo-code' => 'Стандартът ISO 639 езиков код',
+	'wminc-testwiki-none' => 'Никои / Всички',
+	'wminc-prefinfo-language' => 'Език на интерфейса (независим от езика на вашето тестово уики)',
+	'wminc-prefinfo-code' => 'Езиковият код според стандарта ISO 639',
 	'wminc-prefinfo-project' => 'Изберете проект на Уикимедия (Опцията инкубатор е за потребители, които извършват обща работа)',
 	'wminc-prefinfo-error' => 'Избрали сте проект, който се нуждае от езиков код.',
-	'wminc-warning-unprefixed' => "'''Внимание:''' Страницата която редактирате не е уводна!",
+	'wminc-warning-unprefixed' => "'''Внимание:''' В заглавието на редактираната от вас страница липсва префикс!",
 	'wminc-warning-suggest' => 'Можете да създадете страница на [[$1]].',
 	'wminc-warning-suggest-move' => 'Можете да [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} преместите тази страница като $1].',
 	'right-viewuserlang' => 'Вижте [[Special:ViewUserLang|езика на потребителя и езика на тестваното уики]]',
 	'randombytest' => 'Случайна страница от тестваното уики',
-	'randombytest-nopages' => 'Няма страници в тестваното уики, в пространство с имена: $1.',
+	'randombytest-nopages' => 'В тестваното уики няма страници в именно пространство $1.',
 );
 
 /** Bengali (বাংলা)
