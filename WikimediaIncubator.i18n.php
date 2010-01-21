@@ -985,6 +985,7 @@ $messages['ms'] = array(
 	'wminc-prefinfo-language' => 'Bahasa antaramuka anda - bebas dari wiki ujian anda',
 	'wminc-prefinfo-code' => 'Kod bahasa ISO 639',
 	'wminc-prefinfo-project' => 'Pilih projek Wikimedia (pilihan Incubator ialah bagi pengguna yang membuat kerja umum)',
+	'wminc-prefinfo-error' => 'Anda memilih projek yang memerlukan kod bahasa.',
 	'wminc-warning-unprefixed' => "'''Amaran:''' Laman yang anda sunting tiada awalan!",
 	'wminc-warning-suggest' => 'Anda boleh cipta satu laman di [[$1]].',
 	'wminc-warning-suggest-move' => 'Anda boleh [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} alih laman ini ke $1].',
