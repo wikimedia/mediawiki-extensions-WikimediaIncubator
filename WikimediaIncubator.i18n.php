@@ -893,11 +893,12 @@ $messages['ksh'] = array(
 
 /** Cornish (Kernowek)
  * @author Kernoweger
+ * @author Kw-Moon
  */
 $messages['kw'] = array(
 	'wminc-viewuserlang-user' => 'Hanow-usyer:',
 	'wminc-viewuserlang-go' => 'Ke',
-	'wminc-testwiki-none' => 'Veth/Oll',
+	'wminc-testwiki-none' => 'Vyth/Oll',
 	'wminc-prefinfo-code' => 'Koden ISO 639 an yeth',
 );
 
