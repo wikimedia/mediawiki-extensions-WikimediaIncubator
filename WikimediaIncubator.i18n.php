@@ -784,6 +784,15 @@ $messages['id'] = array(
 	'randombytest-nopages' => 'Tidak ada halaman  wiki pengujian anda, dalam ruangnama: $1.',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'wminc-viewuserlang-go' => 'Gá',
+	'wminc-testwiki' => 'Dàmatu wiki:',
+	'wminc-testwiki-none' => 'Enwerö/Hánilé',
+);
+
 /** Italian (Italiano)
  * @author Darth Kule
  * @author Melos
