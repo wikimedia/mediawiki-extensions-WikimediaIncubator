@@ -987,6 +987,7 @@ $messages['ml'] = array(
  * @author Yosri
  */
 $messages['ms'] = array(
+	'wminc-desc' => 'Sistem wiki ujian untuk Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Lihat bahasa pengguna dan wiki ujian',
 	'wminc-viewuserlang-user' => 'Nama pengguna:',
 	'wminc-viewuserlang-go' => 'Pergi',
