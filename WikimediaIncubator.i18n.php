@@ -81,14 +81,6 @@ $messages['ary'] = array(
 	'randombytest-nopages' => "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
 );
 
-/** Laz (Laz)
- * @author Bombola
- */
-$messages['lzz'] = array(
-	'wminc-viewuserlang-go' => 'İgzali',
-	'wminc-prefinfo-code' => "ISO 639 nena k'odi",
-);
-
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
@@ -933,6 +925,14 @@ $messages['lb'] = array(
 	'randombytest-nopages' => 'Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.',
 );
 
+/** Laz (Laz)
+ * @author Bombola
+ */
+$messages['lzz'] = array(
+	'wminc-viewuserlang-go' => 'İgzali',
+	'wminc-prefinfo-code' => "ISO 639 nena k'odi",
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
@@ -1454,6 +1454,7 @@ $messages['te'] = array(
 	'wminc-testwiki-none' => 'ఏమికాదు/అన్నీ',
 	'wminc-prefinfo-code' => 'ISO 639 భాష కోడు',
 	'wminc-prefinfo-error' => 'భాష కోడు కావాల్సిన ఒక ప్రాజెక్టును మీరు ఎన్నుకున్నారు.',
+	'wminc-warning-unprefixed' => "'''హెచ్చరిక:''' మీరు మారుస్తున్న పేజీకి ఉపసర్గ లేదు!",
 	'wminc-warning-suggest' => '[[$1]] దగ్గర మీరు పేజిని సృష్టించవచ్చు.',
 	'wminc-warning-suggest-move' => 'మీరు [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} ఈ పేజీని $1కి తరలించ]వచ్చు.',
 	'right-viewuserlang' => 'వీక్షించండి [[Special:ViewUserLang|సభ్యుని భాష మరియు పరీక్షా వికీ]]',
