@@ -504,6 +504,7 @@ $messages['eu'] = array(
 	'wminc-warning-suggest-move' => 'Orrialde hau [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} $1-(e)ra mugitu dezakezu].',
 	'right-viewuserlang' => 'Ikusi [[Special:ViewUserLang|lankide hizkuntza eta wiki testa]]',
 	'randombytest' => 'Wiiki testaren ausazko orria',
+	'randombytest-nopages' => 'Ez dago orrialderik zure proba wikian, $1 izen-tartearekin.',
 );
 
 /** Finnish (Suomi)
