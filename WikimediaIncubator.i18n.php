@@ -537,6 +537,7 @@ $messages['fi'] = array(
  * @author Crochet.david
  * @author IAlex
  * @author PieRRoMaN
+ * @author Urhixidur
  */
 $messages['fr'] = array(
 	'wminc-desc' => 'Système de test de wiki pour Wikimedia Incubator',
@@ -545,7 +546,7 @@ $messages['fr'] = array(
 	'wminc-viewuserlang-go' => 'Aller',
 	'wminc-testwiki' => 'Wiki de test :',
 	'wminc-testwiki-none' => 'Aucun / tous',
-	'wminc-prefinfo-language' => 'Votre langue de l’interface - indépendante de votre wiki de test',
+	'wminc-prefinfo-language' => 'Votre langue d’interface - indépendante de celle de votre wiki de test',
 	'wminc-prefinfo-code' => 'Le code ISO 639 de la langue',
 	'wminc-prefinfo-project' => 'Sélectionnez le projet Wikimedia (l’option Incubator est destinée aux utilisateurs qui font un travail général)',
 	'wminc-prefinfo-error' => 'Vous avez sélectionné un projet qui nécessite un code de langue.',
