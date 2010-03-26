@@ -542,7 +542,7 @@ $messages['fi'] = array(
 $messages['fr'] = array(
 	'wminc-desc' => 'Système de test de wiki pour Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Voir la langue de l’utilisateur et son wiki de test',
-	'wminc-viewuserlang-user' => "Nom d'utilisateur :",
+	'wminc-viewuserlang-user' => 'Nom d’utilisateur :',
 	'wminc-viewuserlang-go' => 'Aller',
 	'wminc-testwiki' => 'Wiki de test :',
 	'wminc-testwiki-none' => 'Aucun / tous',
@@ -555,7 +555,7 @@ $messages['fr'] = array(
 	'wminc-warning-suggest-move' => 'Vous pouvez [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renommer cette page vers $1].',
 	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|la langue de l’utilisateur et le wiki de test]]',
 	'randombytest' => 'Page aléatoire par le wiki de test',
-	'randombytest-nopages' => "Votre wiki de test ne contient pas de page dans l'espace de noms : $1.",
+	'randombytest-nopages' => 'Votre wiki de test ne contient pas de page dans l’espace de noms : $1.',
 );
 
 /** Franco-Provençal (Arpetan)
