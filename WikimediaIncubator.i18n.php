@@ -59,6 +59,14 @@ $messages['qqq'] = array(
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}',
 );
 
+/** Adyghe (Cyrillic) ()
+ * @author Celekan
+ */
+$messages['ady-cyrl'] = array(
+	'wminc-desc' => 'Щыплъэк1у Вики систэмыр Викимедия Инкубаторым',
+	'wminc-viewuserlang' => 'Нэбгырэм ибзэм еплъий плъэк1у Викир',
+);
+
 /** Moroccan Spoken Arabic (Maġribi)
  * @author Enzoreg
  */
@@ -1133,7 +1141,7 @@ $messages['pl'] = array(
 	'wminc-warning-unprefixed' => "'''Uwaga''' – strona, którą edytujesz, nie posiada prefiksu!",
 	'wminc-warning-suggest' => 'Możesz utworzyć stronę „[[$1]]”.',
 	'wminc-warning-suggest-move' => 'Możesz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} przenieść tę stronę do „$1”].',
-	'right-viewuserlang' => 'Zobacz [[Special:ViewUserLang|język użytkownika oraz testową wiki]]',
+	'right-viewuserlang' => 'Podgląd [[Special:ViewUserLang|języka użytkownika oraz testowej wiki]]',
 	'randombytest' => 'Losowa strona testowej wiki',
 	'randombytest-nopages' => 'W Twojej testowej wiki brak jest stron w przestrzeni nazw $1.',
 );
