@@ -1300,6 +1300,26 @@ $messages['ru'] = array(
 	'randombytest-nopages' => 'В вашей пробной вики нет страниц в пространстве имён $1.',
 );
 
+/** Rusyn (русиньскый язык)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'wminc-desc' => 'Тестова вікі про Інкубатор Вікімедіа',
+	'wminc-viewuserlang' => 'Выглядати язык тай тестову вікі хоснователя',
+	'wminc-viewuserlang-user' => 'Мено хоснователя:',
+	'wminc-viewuserlang-go' => 'Перейти',
+	'wminc-testwiki' => 'Вікі про тестованя:',
+	'wminc-testwiki-none' => 'Ніч/Вшытко',
+	'wminc-prefinfo-language' => 'Ваш язык інтерфейсу не залежыть од языка тестовой вікі',
+	'wminc-prefinfo-code' => 'Языковый код ISO 639',
+	'wminc-prefinfo-error' => 'Выбрали сьте проєкт, котрый потребує код языка.',
+	'wminc-warning-unprefixed' => "'''Увага.''' Назва сторінкы, яку едітуєте, не має префікс!",
+	'wminc-warning-suggest' => 'Можете створити сторінку на [[$1]].',
+	'wminc-warning-suggest-move' => 'Можете [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} переменовати тоту сторінку на $1].',
+	'right-viewuserlang' => 'Відїти [[Special:ViewUserLang|языковы наставлиня хоснователя і його тестову вікі]]',
+	'randombytest-nopages' => 'Во вашій тестовій вікі немає сторінок у просторі мен $1.',
+);
+
 /** Yakut (Саха тыла)
  * @author HalanTul
  */
