@@ -874,10 +874,15 @@ $messages['kn'] = array(
 );
 
 /** Korean (한국어)
+ * @author Kwj2772
  * @author Pakman
  */
 $messages['ko'] = array(
+	'wminc-desc' => '위키미디어 인큐베이터의 테스트 위키 시스템',
+	'wminc-viewuserlang' => '사용자 언어와 테스트 위키 찾기',
 	'wminc-viewuserlang-user' => '사용자이름:',
+	'wminc-viewuserlang-go' => '찾기',
+	'wminc-prefinfo-code' => 'ISO 639 언어 코드',
 );
 
 /** Ripoarisch (Ripoarisch)
