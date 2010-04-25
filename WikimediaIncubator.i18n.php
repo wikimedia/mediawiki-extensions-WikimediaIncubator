@@ -885,7 +885,7 @@ $messages['ko'] = array(
 	'wminc-prefinfo-code' => 'ISO 639 언어 코드',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
@@ -907,7 +907,7 @@ $messages['ksh'] = array(
 	'randombytest-nopages' => 'Et Appachtemang $1 änthält kein Sigge en Dingem Versöhkß-Wiki.',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (Kernewek)
  * @author Kernoweger
  * @author Kw-Moon
  */
@@ -940,7 +940,7 @@ $messages['lb'] = array(
 	'randombytest-nopages' => 'Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.',
 );
 
-/** Laz (Laz)
+/** Lazuri (Lazuri)
  * @author Bombola
  */
 $messages['lzz'] = array(
@@ -1647,7 +1647,7 @@ $messages['yi'] = array(
 	'wminc-warning-suggest' => 'איר קענט שאַפֿן א בלאַט [[$1]].',
 );
 
-/** Yue (粵語)
+/** Cantonese (粵語)
  * @author Shinjiman
  */
 $messages['yue'] = array(
