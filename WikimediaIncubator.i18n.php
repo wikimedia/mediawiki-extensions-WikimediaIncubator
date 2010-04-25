@@ -1028,6 +1028,23 @@ $messages['myv'] = array(
 	'wminc-testwiki-none' => 'Мезеяк/Весе',
 );
 
+/** Nedersaksisch (Nedersaksisch)
+ * @author Servien
+ */
+$messages['nds-nl'] = array(
+	'wminc-desc' => 'Testwikisysteem veur de Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Gebrukerstaal en testwiki opzeuken',
+	'wminc-viewuserlang-user' => 'Gebrukersnaam:',
+	'wminc-viewuserlang-go' => 'Zeuken',
+	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-none' => 'Gien/alles',
+	'wminc-prefinfo-language' => 'De gebrukerstaal - onofhankelijk van joew testwiki',
+	'wminc-prefinfo-code' => 'De ISO639-taalcode',
+	'wminc-prefinfo-project' => "Kies 't Wikimedia-prejek (Incubator-optie is veur gebrukers dee algemeen wark doon)",
+	'wminc-prefinfo-error' => 'Je hemmen ekeuzen veur een prejek waor da-j een taalcode veur neudig hemmen.',
+	'wminc-warning-unprefixed' => "'''Waorschuwing:''' de pagina dee-j an 't bewarken bin, hef gien veurvoegsel!",
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
