@@ -1688,6 +1688,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Horacewai2
  * @author Liangent
  * @author Shinjiman
  * @author Wrightbus
@@ -1708,5 +1709,6 @@ $messages['zh-hant'] = array(
 	'wminc-warning-suggest-move' => '您可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 移動這個頁面到$1]。',
 	'right-viewuserlang' => '查看[[Special:ViewUserLang|用戶語言和測試維基]]',
 	'randombytest' => '測試維基上的隨機頁面',
+	'randombytest-nopages' => '在你的測試網頁的$1名字空間中，沒有頁面。',
 );
 
