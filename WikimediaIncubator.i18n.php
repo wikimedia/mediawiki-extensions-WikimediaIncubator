@@ -1357,6 +1357,15 @@ $messages['sah'] = array(
 	'wminc-prefinfo-project' => 'Бикимиэдьийэ бырайыактарыттан талыы (уопсай боппуруостарынан дьарыктаныаххын баҕарар буоллаххына Инкубаатары тал)',
 );
 
+/** Sardinian (Sardu)
+ * @author Andria
+ */
+$messages['sc'] = array(
+	'wminc-viewuserlang-user' => 'Nùmene usuàriu:',
+	'wminc-viewuserlang-go' => 'Bae',
+	'wminc-testwiki-none' => 'Nudda/Totu',
+);
+
 /** Tachelhit (Tašlḥiyt)
  * @author Dalinanir
  */
