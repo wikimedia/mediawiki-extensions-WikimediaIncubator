@@ -1265,14 +1265,14 @@ $messages['ro'] = array(
 	'wminc-viewuserlang-user' => 'Nume de utilizator:',
 	'wminc-viewuserlang-go' => 'Du-te',
 	'wminc-testwiki' => 'Wikia test:',
-	'wminc-testwiki-none' => 'Niciunul/Toţi',
-	'wminc-prefinfo-language' => 'Limba interfeţei dumneavoastră - independentă de wikia test',
+	'wminc-testwiki-none' => 'Niciunul/Toți',
+	'wminc-prefinfo-language' => 'Limba interfeței dumneavoastră - independentă de wikia test',
 	'wminc-prefinfo-code' => 'Limbajul cod ISO 639',
-	'wminc-prefinfo-error' => 'Aţi selectat un proiect care are nevoie de un cod al limbajului.',
-	'wminc-warning-unprefixed' => "'''Avertisment:''' Pagina pe care o editaţi nu este prefixată!",
-	'wminc-warning-suggest' => 'Puteţi crea o pagină la [[$1]].',
-	'wminc-warning-suggest-move' => 'Puteţi [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} muta această pagină la $1].',
-	'right-viewuserlang' => 'Vizualizează [[Special:ViewUserLang|limba utilizatorului şi wikia test]]',
+	'wminc-prefinfo-error' => 'Ați selectat un proiect care are nevoie de un cod al limbajului.',
+	'wminc-warning-unprefixed' => "'''Avertisment:''' Pagina pe care o editați nu este prefixată!",
+	'wminc-warning-suggest' => 'Puteți crea o pagină la [[$1]].',
+	'wminc-warning-suggest-move' => 'Puteți [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} muta această pagină la $1].',
+	'right-viewuserlang' => 'Vizualizează [[Special:ViewUserLang|limba utilizatorului și wikia test]]',
 );
 
 /** Tarandíne (Tarandíne)
