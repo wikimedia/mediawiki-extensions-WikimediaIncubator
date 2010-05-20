@@ -119,6 +119,28 @@ $messages['af'] = array(
 	'randombytest-nopages' => 'Daar is geen bladsye in jou toetswiki in die $1-naamruimte nie.',
 );
 
+/** Gheg Albanian (Gegë)
+ * @author Mdupont
+ */
+$messages['aln'] = array(
+	'wminc-desc' => 'Sistemi Test wiki për Wikimedia Inkubatori',
+	'wminc-viewuserlang' => 'Kërkoni gjuhën e përdoruesit dhe wiki provë',
+	'wminc-viewuserlang-user' => 'Emri i përdoruesit:',
+	'wminc-viewuserlang-go' => 'Shkoj',
+	'wminc-testwiki' => 'wiki Test:',
+	'wminc-testwiki-none' => 'Asnjë / Të gjitha',
+	'wminc-prefinfo-language' => 'Gjuha juaj interface - të pavarur nga testin tuaj wiki',
+	'wminc-prefinfo-code' => 'Kodi i gjuhës ISO 639',
+	'wminc-prefinfo-project' => 'Zgjidhni projekti Wikimedia (opsion Inkubatori është për përdoruesit që bëjnë punë të përgjithshme)',
+	'wminc-prefinfo-error' => 'Ju zgjedhur një projekt që ka nevojë për një kod gjuhë.',
+	'wminc-warning-unprefixed' => "'''Kujdes:''' faqe që janë të redaktimi është unprefixed!",
+	'wminc-warning-suggest' => 'Ju mund të krijoni një faqe në [[$1]].',
+	'wminc-warning-suggest-move' => 'Ju mund ta [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} masë këtë faqe për $1].',
+	'right-viewuserlang' => 'Shikoni [[Special:ViewUserLang|gjuhën përdoruesit dhe provë wiki]]',
+	'randombytest' => 'faqe të rastësishme nga wiki provë',
+	'randombytest-nopages' => 'Nuk ka faqe në wiki në provim, në hapësirën: $1.',
+);
+
 /** Arabic (العربية)
  * @author Ciphers
  * @author Meno25
