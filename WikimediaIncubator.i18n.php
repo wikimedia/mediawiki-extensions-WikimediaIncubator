@@ -1042,6 +1042,13 @@ $messages['ms'] = array(
 	'randombytest-nopages' => 'Tidak terdapat laman dalam wiki ujian anda, dalam ruang nama: $1.',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'wminc-viewuserlang-go' => 'Mur',
+);
+
 /** Erzya (Эрзянь)
  * @author Botuzhaleny-sodamo
  */
