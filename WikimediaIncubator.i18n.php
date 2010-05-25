@@ -962,6 +962,26 @@ $messages['lb'] = array(
 	'randombytest-nopages' => 'Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.',
 );
 
+/** Lithuanian (Lietuvių)
+ * @author Hugo.arg
+ */
+$messages['lt'] = array(
+	'wminc-desc' => 'Wiki testasvimo sistema Vikimedija Inkubatoriui',
+	'wminc-viewuserlang' => 'Ieškoti vartotojo kalbos ir testavimo wiki',
+	'wminc-viewuserlang-user' => 'Naudotojo vardas:',
+	'wminc-viewuserlang-go' => 'Eiti',
+	'wminc-testwiki' => 'Testavimo wiki:',
+	'wminc-testwiki-none' => 'Nei vienas/Visi',
+	'wminc-prefinfo-language' => 'Jūsų sąsajos kalba - nepriklausomai nuo jūsų testavimo wiki',
+	'wminc-prefinfo-code' => 'ISO 639 kalbos kodas',
+	'wminc-prefinfo-error' => 'Jūs pasirinkote projektą, kuriam reikia kalbos kodo.',
+	'wminc-warning-unprefixed' => "'''Dėmėsio:''' Puslapis, kurį bandote redaguoti, neturi priešdėlio!",
+	'wminc-warning-suggest' => 'Galite sukurti puslapį čia: [[$ 1]].',
+	'wminc-warning-suggest-move' => 'Galite [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} perkelti puslapį į $1].',
+	'right-viewuserlang' => 'Žiūrėti [[Special:ViewUserLang|naudotojo kalbą ir testavimo wiki]]',
+	'randombytest' => 'Atsitiktinis puslapis iš testavimo wiki',
+);
+
 /** Lazuri (Lazuri)
  * @author Bombola
  */
