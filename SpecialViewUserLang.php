@@ -23,7 +23,6 @@ class SpecialViewUserLang extends SpecialPage
 	 */
 	public function execute( $subpage ) {
 		global $wgRequest, $wgUser;
-		wfLoadExtensionMessages( 'WikimediaIncubator' );
 
 		$this->setHeaders();
 

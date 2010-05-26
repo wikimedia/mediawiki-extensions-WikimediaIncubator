@@ -33,7 +33,6 @@ class TestWikiRC {
 
 	static function onRcForm( &$items, $opts ) {
 		global $wgUser, $wgRequest, $wmincPref;
-		wfLoadExtensionMessages( 'WikimediaIncubator' );
 		$projectvalue = $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') );
 		$langcodevalue = $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') );
 		$opts->consumeValue( 'rc-testwiki-project' );
