@@ -106,6 +106,7 @@ class IncubatorTest
 		// If it is in one of the above namespace, check if the page title has a prefix
 		if ( in_array( $wgTitle->getNamespace(), $namespaces ) && !preg_match( '/W[bnpqt]\/[a-z][a-z][a-z]?/', $wgTitle->getText() ) ) {
 			global $wgOut;
+			wfLoadExtensionMessages( 'WikimediaIncubator' );
 				$warning = '<div id="wminc-warning"><span id="wm-warning-unprefixed">'
 					. wfMsg( 'wminc-warning-unprefixed' )
 					. '</span>';
@@ -139,6 +140,7 @@ class IncubatorTest
 function efLoadViewUserLangLink( $id, $nt, &$links ) {
 	global $wgUser;
 	if ( $wgUser->isAllowed( 'viewuserlang' ) ) {
+		wfLoadExtensionMessages( 'WikimediaIncubator' );
 		$links[] = $wgUser->getSkin()->makeKnownLinkObj(
 					SpecialPage::getTitleFor( 'ViewUserLang' ),
 					wfMsgHtml( 'wminc-viewuserlang' ),
