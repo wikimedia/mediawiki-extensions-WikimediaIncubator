@@ -1600,6 +1600,28 @@ $messages['tk'] = array(
 	'wminc-testwiki' => 'Test wiki:',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'wminc-desc' => 'Sistemang pangsubok ng wiki para sa Pisaan ng Wikimedia',
+	'wminc-viewuserlang' => 'Hanapin ang wika ng tagagamit ang wiking sinusubok',
+	'wminc-viewuserlang-user' => 'Pangalan ng tagagamit:',
+	'wminc-viewuserlang-go' => 'Gawin',
+	'wminc-testwiki' => 'Wiking sinusubok:',
+	'wminc-testwiki-none' => 'Wala/Lahat',
+	'wminc-prefinfo-language' => 'Ang wika ng pangtawid-mukha mo - malaya mula sa iyong wiking sinusubok',
+	'wminc-prefinfo-code' => 'Ang kodigo ng wika ng ISO 639',
+	'wminc-prefinfo-project' => 'Piliin ang proyekto ng Wikimedia (Ang mapipiling pisaan ay para sa mga tagagamit na gumagawa ng pangkalahatang gawain)',
+	'wminc-prefinfo-error' => 'Nakapili ka ng isang proyektong nangangailangan ng isang kodigong pangwika.',
+	'wminc-warning-unprefixed' => "'''Babala:''' Walang unlapi ang pahinang binabago mo!",
+	'wminc-warning-suggest' => 'Makakalikha ka ng isang pahina sa [[$1]].',
+	'wminc-warning-suggest-move' => 'Maaari mong [((fullurl: Special: MovePage /$3 | wpNewTitle=$2)) ilipat ang pahinang ito sa $1].',
+	'right-viewuserlang' => 'Tingnan ang [[Special:ViewUserLang|wika ng tagagamit at wiking sinusubukan]]',
+	'randombytest' => 'Alinmang pahina ayon sa wiking sinusubukan',
+	'randombytest-nopages' => 'Walang mga pahina sa loob ng iyong wiking sinusubok, sa loob ng puwang ng pangalan: $1.',
+);
+
 /** Turkish (Türkçe)
  * @author Joseph
  * @author Karduelis
