@@ -3,7 +3,8 @@ if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWik
 /**
  * An extension that adds test wiki features (such as a preference, recent changes for a test wiki, ...) specifically for the Wikimedia Incubator
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $wgExtensionCredits['other'][] = array(
