@@ -1765,6 +1765,7 @@ $messages['zh-hans'] = array(
 	'wminc-warning-suggest-move' => '您可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 移动这个页面到$1]。',
 	'right-viewuserlang' => '查看[[Special:ViewUserLang|用户语言和测试维基]]',
 	'randombytest' => '测试维基上的随机页面',
+	'randombytest-nopages' => '在你的测试网页的$1名字空间中，没有页面。',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
