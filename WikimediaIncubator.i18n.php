@@ -71,7 +71,7 @@ $messages['ady-cyrl'] = array(
  * @author Enzoreg
  */
 $messages['ary'] = array(
-	'wminc-desc' => "L-Wiki dyal 't-tést le Wikimédya Incubator",
+	'wminc-desc' => 'L-Wiki dyal t-tést le Wikimédya Incubator',
 	'wminc-viewuserlang' => "Ha hiya loġaṫ l-mosṫeĥdim o l-Wiki dyal 't-tést dyalo",
 	'wminc-viewuserlang-user' => 'Smiyṫ l-mosṫeĥdim :',
 	'wminc-viewuserlang-go' => 'Sir',
