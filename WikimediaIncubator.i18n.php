@@ -819,13 +819,14 @@ $messages['ig'] = array(
 
 /** Italian (Italiano)
  * @author Darth Kule
+ * @author HalphaZ
  * @author Melos
  */
 $messages['it'] = array(
 	'wminc-viewuserlang-user' => 'Nome utente:',
 	'wminc-viewuserlang-go' => 'Vai',
 	'wminc-prefinfo-project' => "Seleziona il progetto Wikimedia (l'opzione Incubator è per gli utentu che fanno del lavoro generale)",
-	'right-viewuserlang' => 'Visualizza [[Special:ViewUserLang|il linguaggio utente e prova la wiki]]',
+	'right-viewuserlang' => 'Visualizza [[Special:ViewUserLang|il linguaggio utente e prova il wiki]]',
 );
 
 /** Japanese (日本語)
