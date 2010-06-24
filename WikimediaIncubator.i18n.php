@@ -818,6 +818,7 @@ $messages['ig'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Annayram
  * @author Darth Kule
  * @author HalphaZ
  * @author Melos
@@ -826,7 +827,12 @@ $messages['it'] = array(
 	'wminc-viewuserlang-user' => 'Nome utente:',
 	'wminc-viewuserlang-go' => 'Vai',
 	'wminc-prefinfo-project' => "Seleziona il progetto Wikimedia (l'opzione Incubator è per gli utentu che fanno del lavoro generale)",
+	'wminc-prefinfo-error' => 'Hai selezionato un progetto che ha bisogno di un codice di linguaggio',
+	'wminc-warning-unprefixed' => '"Attenzione: la pagina che si sta modificando non corrisponde a quella prefissata"',
+	'wminc-warning-suggest' => 'Si può creare una pagina su [[$1]]',
+	'wminc-warning-suggest-move' => 'è possibile [((fullurl: Special: MovePage / $ 3 | wpNewTitle = $ 2)) spostare questa pagina a $ 1]',
 	'right-viewuserlang' => 'Visualizza [[Special:ViewUserLang|il linguaggio utente e prova il wiki]]',
+	'randombytest' => 'Una pagina a caso da Test Wiki',
 );
 
 /** Japanese (日本語)
