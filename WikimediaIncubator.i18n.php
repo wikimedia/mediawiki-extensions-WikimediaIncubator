@@ -1390,11 +1390,13 @@ $messages['rue'] = array(
 	'wminc-testwiki-none' => 'Ніч/Вшытко',
 	'wminc-prefinfo-language' => 'Ваш язык інтерфейсу не залежыть од языка тестовой вікі',
 	'wminc-prefinfo-code' => 'Языковый код ISO 639',
+	'wminc-prefinfo-project' => 'Выбрати проєкт Вікімедія (варіант Інкубатор про тых, што ся занимають общов роботов)',
 	'wminc-prefinfo-error' => 'Выбрали сьте проєкт, котрый потребує код языка.',
 	'wminc-warning-unprefixed' => "'''Увага.''' Назва сторінкы, яку едітуєте, не має префікс!",
 	'wminc-warning-suggest' => 'Можете створити сторінку на [[$1]].',
 	'wminc-warning-suggest-move' => 'Можете [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} переменовати тоту сторінку на $1].',
 	'right-viewuserlang' => 'Відїти [[Special:ViewUserLang|языковы наставлиня хоснователя і його тестову вікі]]',
+	'randombytest' => 'Нагодна сторінка з тестовой вікі',
 	'randombytest-nopages' => 'Во вашій тестовій вікі немає сторінок у просторі мен $1.',
 );
 
