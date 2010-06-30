@@ -1489,6 +1489,17 @@ $messages['sk'] = array(
 	'randombytest-nopages' => 'Vo vašej testovacej wiki neexistujú stránky v mennom priestore $1.',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'wminc-viewuserlang-user' => 'Uporabniško ime:',
+	'wminc-viewuserlang-go' => 'Pojdi',
+	'wminc-testwiki' => 'Preizkusni wiki:',
+	'wminc-testwiki-none' => 'Nič/Vse',
+	'wminc-prefinfo-code' => 'Koda jezika ISO 639',
+);
+
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Михајло Анђелковић
  */
