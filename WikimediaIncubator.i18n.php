@@ -437,6 +437,11 @@ $messages['dsb'] = array(
 	'randombytest-nopages' => 'W twójom testowem wikiju w mjenjowem rumje $1 boki njejsu.',
 );
 
+/** Ewe (Eʋegbe) */
+$messages['ee'] = array(
+	'wminc-viewuserlang-go' => 'Yi',
+);
+
 /** Greek (Ελληνικά)
  * @author Crazymadlover
  * @author Omnipaedista
