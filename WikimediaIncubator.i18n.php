@@ -827,10 +827,13 @@ $messages['ig'] = array(
  * @author Darth Kule
  * @author HalphaZ
  * @author Melos
+ * @author OrbiliusMagister
  */
 $messages['it'] = array(
 	'wminc-viewuserlang-user' => 'Nome utente:',
 	'wminc-viewuserlang-go' => 'Vai',
+	'wminc-testwiki' => 'Test wiki:',
+	'wminc-prefinfo-code' => 'Il codice ISO 639 per la lingua',
 	'wminc-prefinfo-project' => "Seleziona il progetto Wikimedia (l'opzione Incubator è per gli utentu che fanno del lavoro generale)",
 	'wminc-prefinfo-error' => 'Hai selezionato un progetto che ha bisogno di un codice di linguaggio',
 	'wminc-warning-unprefixed' => '"Attenzione: la pagina che si sta modificando non corrisponde a quella prefissata"',
