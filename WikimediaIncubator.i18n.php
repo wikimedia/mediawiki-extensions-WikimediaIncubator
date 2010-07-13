@@ -997,6 +997,24 @@ $messages['lt'] = array(
 	'randombytest' => 'Atsitiktinis puslapis iš testavimo wiki',
 );
 
+/** Latvian (Latviešu)
+ * @author Xil
+ */
+$messages['lv'] = array(
+	'wminc-viewuserlang' => 'Sameklēt lietotāja valodu un testa projektu',
+	'wminc-viewuserlang-user' => 'Lietotājvārds:',
+	'wminc-viewuserlang-go' => 'Aiziet!',
+	'wminc-testwiki' => 'Testa projekts:',
+	'wminc-prefinfo-language' => 'Tava interfeisa valoda - nav saistīta ar testa projektu, kurā tu piedalies',
+	'wminc-prefinfo-code' => 'ISO 639 valodas kods',
+	'wminc-prefinfo-project' => 'Izvēlēties Wikimedia projektu (iespēja Incubator ir domāta tiem lietotājiem, kuri darbojas inkubatorā vispār, nevis konkrētos testa projektos)',
+	'wminc-prefinfo-error' => 'Jūs izvēlējāties projektu, bet nenorādījāt valodas kodu',
+	'wminc-warning-unprefixed' => "'''Brīdinājums:''' Lapai kuru rediģējat nav pievienots prefikss!",
+	'wminc-warning-suggest' => 'Varētu izveidot lapu [[$1]].',
+	'wminc-warning-suggest-move' => 'Varat [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} pārvietot šo lapu uz $1].',
+	'right-viewuserlang' => 'Apskatīt [[Special:ViewUserLang|lietotāja valodu un testa projektu]]',
+);
+
 /** Lazuri (Lazuri)
  * @author Bombola
  */
