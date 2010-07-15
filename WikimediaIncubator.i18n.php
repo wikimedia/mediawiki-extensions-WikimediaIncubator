@@ -824,23 +824,28 @@ $messages['ig'] = array(
 
 /** Italian (Italiano)
  * @author Annayram
+ * @author Beta16
  * @author Darth Kule
  * @author HalphaZ
  * @author Melos
  * @author OrbiliusMagister
  */
 $messages['it'] = array(
+	'wminc-desc' => 'Sistema wiki di test per Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Ricerca della lingua utente e del wiki di test',
 	'wminc-viewuserlang-user' => 'Nome utente:',
 	'wminc-viewuserlang-go' => 'Vai',
 	'wminc-testwiki' => 'Test wiki:',
+	'wminc-prefinfo-language' => "La lingua dell'interfaccia - indipendente dal tuo wiki di test",
 	'wminc-prefinfo-code' => 'Il codice ISO 639 per la lingua',
 	'wminc-prefinfo-project' => "Seleziona il progetto Wikimedia (l'opzione Incubator è per gli utentu che fanno del lavoro generale)",
 	'wminc-prefinfo-error' => 'Hai selezionato un progetto che ha bisogno di un codice di linguaggio',
 	'wminc-warning-unprefixed' => '"Attenzione: la pagina che si sta modificando non corrisponde a quella prefissata"',
 	'wminc-warning-suggest' => 'Si può creare una pagina su [[$1]]',
-	'wminc-warning-suggest-move' => 'è possibile [((fullurl: Special: MovePage / $ 3 | wpNewTitle = $ 2)) spostare questa pagina a $ 1]',
+	'wminc-warning-suggest-move' => 'È possibile [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} spostare questa pagina a $1].',
 	'right-viewuserlang' => 'Visualizza [[Special:ViewUserLang|il linguaggio utente e prova il wiki]]',
-	'randombytest' => 'Una pagina a caso da Test Wiki',
+	'randombytest' => 'Una pagina a caso dalla wiki di test',
+	'randombytest-nopages' => 'Non ci sono pagine nella tua wiki di test, per il namespace: $1.',
 );
 
 /** Japanese (日本語)
