@@ -360,6 +360,7 @@ $messages['cs'] = array(
 
 /** Danish (Dansk)
  * @author Byrial
+ * @author Froztbyte
  * @author Masz
  */
 $messages['da'] = array(
@@ -368,6 +369,7 @@ $messages['da'] = array(
 	'wminc-viewuserlang-go' => 'Gå',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/Alle',
+	'wminc-prefinfo-code' => 'ISO 639-sprogkode',
 );
 
 /** German (Deutsch)
