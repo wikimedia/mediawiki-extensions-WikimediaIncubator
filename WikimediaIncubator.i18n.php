@@ -1181,6 +1181,7 @@ $messages['nn'] = array(
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Audun
+ * @author Jon Harald Søby
  * @author Nghtwlkr
  */
 $messages['no'] = array(
@@ -1192,9 +1193,9 @@ $messages['no'] = array(
 	'wminc-testwiki-none' => 'Ingen/Alle',
 	'wminc-prefinfo-language' => 'Ditt grensesnittspråk - uavhengig av din testwiki',
 	'wminc-prefinfo-code' => 'ISO 639-språkkoden',
-	'wminc-prefinfo-project' => 'Velg Wikimediaprosjektet (alternativet Incubator er for brukere som gjør generelt arbeid)',
+	'wminc-prefinfo-project' => 'Velg Wikimedia-prosjektet (alternativet Incubator er for brukere som gjør generelt arbeid)',
 	'wminc-prefinfo-error' => 'Du valgte et prosjekt som krever en språkkode.',
-	'wminc-warning-unprefixed' => "'''Advarsel:''' Siden du endrer er uprefiksert!",
+	'wminc-warning-unprefixed' => "'''Advarsel:''' Siden du endrer er mangler prefiks!",
 	'wminc-warning-suggest' => 'Du kan opprette en side på [[$1]].',
 	'wminc-warning-suggest-move' => 'Du kan [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} flytte denne siden til $1].',
 	'right-viewuserlang' => 'Vis [[Special:ViewUserLang|brukerspråk og testwiki]]',
