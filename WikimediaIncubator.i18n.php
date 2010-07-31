@@ -1295,6 +1295,7 @@ $messages['ps'] = array(
 	'wminc-viewuserlang-go' => 'ورځه',
 	'wminc-testwiki' => 'د آزمېښت ويکي:',
 	'wminc-testwiki-none' => 'هېڅ/ټول',
+	'wminc-warning-suggest' => 'تاسې په [[$1]] کې يو مخ جوړولای شی.',
 );
 
 /** Portuguese (Português)
