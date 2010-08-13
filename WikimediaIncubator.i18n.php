@@ -319,7 +319,7 @@ $messages['ca'] = array(
 	'wminc-prefinfo-code' => 'El codi de llengua ISO 639',
 );
 
-/** Sorani (Arabic script) (‫کوردی (عەرەبی)‬)
+/** Sorani (کوردی)
  * @author Marmzok
  */
 $messages['ckb'] = array(
@@ -600,8 +600,22 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'wminc-desc' => 'Sistèmo de vouiqui d’èprôva por Wikimedia Covosa.',
+	'wminc-viewuserlang' => 'Vêre la lengoua a l’utilisator et lo vouiqui d’èprôva',
 	'wminc-viewuserlang-user' => 'Nom d’utilisator :',
 	'wminc-viewuserlang-go' => 'Alar trovar',
+	'wminc-testwiki' => 'Vouiqui d’èprôva :',
+	'wminc-testwiki-none' => 'Nion / tôs',
+	'wminc-prefinfo-language' => 'Voutra lengoua d’entèrface - endèpendenta de cela de voutron vouiqui d’èprôva',
+	'wminc-prefinfo-code' => 'Lo code ISO 639 de la lengoua',
+	'wminc-prefinfo-project' => 'Chouèsésséd lo projèt Wikimedia (lo chouèx Covosa est dèstinâ ux utilisators que font un travâly g·ènèral)',
+	'wminc-prefinfo-error' => 'Vos éd chouèsi un projèt qu’at fôta d’un code lengoua.',
+	'wminc-warning-unprefixed' => "'''Atencion :''' la pâge que vos changiéd at gins de prèfixo !",
+	'wminc-warning-suggest' => 'Vos pouede fâre la pâge a [[$1]].',
+	'wminc-warning-suggest-move' => 'Vos pouede [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renomar ceta pâge vers $1].',
+	'right-viewuserlang' => 'Vêre la [[Special:ViewUserLang|lengoua a l’utilisator et lo vouiqui d’èprôva]]',
+	'randombytest' => 'Pâge a l’hasârd per lo vouiqui d’èprôva',
+	'randombytest-nopages' => 'Voutron vouiqui d’èprôva contint gins de pâge dens l’èspâço de noms : $1.',
 );
 
 /** Galician (Galego)
