@@ -1548,6 +1548,8 @@ $messages['sl'] = array(
 	'wminc-testwiki-none' => 'Nič/Vse',
 	'wminc-prefinfo-code' => 'Koda jezika ISO 639',
 	'wminc-warning-suggest' => 'Ustvarite lahko stran na [[$1]].',
+	'randombytest' => 'Naključna stran preizkusnega wikija',
+	'randombytest-nopages' => 'Na vašem wikiju ni strani v imenskem prostoru: $1.',
 );
 
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
