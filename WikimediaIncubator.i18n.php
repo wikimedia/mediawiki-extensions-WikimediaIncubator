@@ -973,7 +973,7 @@ $messages['kw'] = array(
 	'wminc-viewuserlang-user' => 'Hanow-usyer:',
 	'wminc-viewuserlang-go' => 'Ke',
 	'wminc-testwiki-none' => 'Vyth/Oll',
-	'wminc-prefinfo-code' => 'Koden ISO 639 an yeth',
+	'wminc-prefinfo-code' => 'Coden ISO 639 an yeth',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -1542,6 +1542,7 @@ $messages['sk'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
+	'wminc-desc' => 'Preizkusni sistem wiki za Wikimedia Incubator',
 	'wminc-viewuserlang-user' => 'Uporabniško ime:',
 	'wminc-viewuserlang-go' => 'Pojdi',
 	'wminc-testwiki' => 'Preizkusni wiki:',
