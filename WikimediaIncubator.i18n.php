@@ -998,6 +998,28 @@ $messages['lb'] = array(
 	'randombytest-nopages' => 'Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.',
 );
 
+/** Limburgish (Limburgs)
+ * @author Ooswesthoesbes
+ */
+$messages['li'] = array(
+	'wminc-desc' => 'Teswikisysteem veur Wikimedia Inkubater',
+	'wminc-viewuserlang' => 'Zeuk de gebroekersspraok en teswiki óp',
+	'wminc-viewuserlang-user' => 'Gebroekersnaam:',
+	'wminc-viewuserlang-go' => 'Gank',
+	'wminc-testwiki' => 'Teswiki:',
+	'wminc-testwiki-none' => 'Gein/al',
+	'wminc-prefinfo-language' => 'Dien oeterliksspraok - ónaafhenkelik van diene teswiki',
+	'wminc-prefinfo-code' => 'De ISO 639-spraokcode',
+	'wminc-prefinfo-project' => "Selecteer 't Wikimediaprojek (inkubateroptie is veur gebroekers die algemein wèrk doon)",
+	'wminc-prefinfo-error' => "Doe selecteerdes e projek det 'n spraokcode gebroek.",
+	'wminc-warning-unprefixed' => "Waorsjoewing: de pazjena die se aan 't bewirke bös haet gein veurvoogsel!",
+	'wminc-warning-suggest' => "Doe kèns 'n pazjena maken óp [[$1]].",
+	'wminc-warning-suggest-move' => 'Doe kins [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} dees pazjena herneume nao $1].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|Bekiek gebroekersspraok en teswiki]]',
+	'randombytest' => 'Willekäörige pazjena oete teswiki',
+	'randombytest-nopages' => "d'r Zeen gein pazjena's in diene teswiki inne naamruumdje $1.",
+);
+
 /** Lithuanian (Lietuvių)
  * @author Hugo.arg
  */
