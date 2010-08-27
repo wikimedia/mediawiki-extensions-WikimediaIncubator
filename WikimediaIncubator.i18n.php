@@ -89,6 +89,18 @@ $messages['ary'] = array(
 	'randombytest-nopages' => "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
 );
 
+/** Angika (अंगिका)
+ * @author Angpradesh
+ */
+$messages['anp'] = array(
+	'wminc-desc' => 'विकीपीडिया इनक्यूबेटर केरॊ टेस्ट विकी सिस्टम',
+	'wminc-viewuserlang' => 'भाषा उपयोगकर्ता आरू टेस्ट विकी सिस्टम कॆ देखॊ',
+	'wminc-viewuserlang-user' => 'उपयोगकर्ता',
+	'wminc-viewuserlang-go' => 'जा',
+	'wminc-testwiki' => 'टेस्ट विकी',
+	'wminc-testwiki-none' => 'कुच्छु नै / सबेभॆ',
+);
+
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
