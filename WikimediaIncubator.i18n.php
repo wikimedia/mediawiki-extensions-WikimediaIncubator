@@ -99,6 +99,16 @@ $messages['anp'] = array(
 	'wminc-viewuserlang-go' => 'जा',
 	'wminc-testwiki' => 'टेस्ट विकी',
 	'wminc-testwiki-none' => 'कुच्छु नै / सबेभॆ',
+	'wminc-prefinfo-language' => 'तोरॊ इंटरफेस भाषा - टेस्ट विकी सॆं अलग',
+	'wminc-prefinfo-code' => 'ISO 639 भाषा कोड',
+	'wminc-prefinfo-project' => 'विकीमीडिया प्रोजेक्ट केरॊ चयन करॊ (इनक्यूबेटर विकल्प सामान्य काम करै वाला लेली)',
+	'wminc-prefinfo-error' => 'अपनॆ एगॊ प्रोजेक्ट चुनलॆ छियै, जेकरा लेली भाषा कोड के जरूरत छै.',
+	'wminc-warning-unprefixed' => "''' सावधान ''' सम्पादित होय रहलॊ पन्ना अपरिचित छै.",
+	'wminc-warning-suggest' => 'अपनॆ [[$1]] पर पन्ना जोङियै.',
+	'wminc-warning-suggest-move' => 'अपनॆ [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} पन्ना कॆ $1 पर भेजियै.].',
+	'right-viewuserlang' => 'देखॊ [[Special:ViewUserLang|user language and test wiki]]',
+	'randombytest' => 'बेतरतीब पन्ना - प्रारंभिक विकी द्वारा.',
+	'randombytest-nopages' => 'तोरॊ प्रारंभिक विकी मॆं $1 नामॊ के जग्घॊ पॆ कोय पन्ना नै छौं.',
 );
 
 /** Achinese (Acèh)
@@ -854,6 +864,7 @@ $messages['ig'] = array(
  * @author Annayram
  * @author Beta16
  * @author Darth Kule
+ * @author Gianfranco
  * @author HalphaZ
  * @author Melos
  * @author OrbiliusMagister
@@ -864,6 +875,7 @@ $messages['it'] = array(
 	'wminc-viewuserlang-user' => 'Nome utente:',
 	'wminc-viewuserlang-go' => 'Vai',
 	'wminc-testwiki' => 'Test wiki:',
+	'wminc-testwiki-none' => 'Nessuno/Tutti',
 	'wminc-prefinfo-language' => "La lingua dell'interfaccia - indipendente dal tuo wiki di test",
 	'wminc-prefinfo-code' => 'Il codice ISO 639 per la lingua',
 	'wminc-prefinfo-project' => "Seleziona il progetto Wikimedia (l'opzione Incubator è per gli utentu che fanno del lavoro generale)",
@@ -953,6 +965,13 @@ $messages['ko'] = array(
 	'wminc-viewuserlang-user' => '사용자이름:',
 	'wminc-viewuserlang-go' => '찾기',
 	'wminc-prefinfo-code' => 'ISO 639 언어 코드',
+);
+
+/** Komi-Permyak (Перем Коми)
+ * @author Enye Lav
+ */
+$messages['koi'] = array(
+	'wminc-viewuserlang-user' => 'Уджкерисьлöн ним:',
 );
 
 /** Colognian (Ripoarisch)
