@@ -759,6 +759,28 @@ $messages['hil'] = array(
 	'randombytest-nopages' => 'Wala sang mga pahina sa imo nga test wiki, sa may ngalanespasyo: $1.',
 );
 
+/** Croatian (Hrvatski)
+ * @author Tivek
+ */
+$messages['hr'] = array(
+	'wminc-desc' => 'Testni wiki sustav za Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Potraži jezik i testni wiki suradnika',
+	'wminc-viewuserlang-user' => 'Suradničko ime:',
+	'wminc-viewuserlang-go' => 'Idi',
+	'wminc-testwiki' => 'Testni wiki:',
+	'wminc-testwiki-none' => 'Nijedno/Sve',
+	'wminc-prefinfo-language' => 'Vaš jezik sučelja - neovisno o Vašem testnom wikiju',
+	'wminc-prefinfo-code' => 'ISO 639 kôd jezika',
+	'wminc-prefinfo-project' => 'Odaberi Wikimedia projekt (opcija Inkubator je za suradnike koji rade opće poslove)',
+	'wminc-prefinfo-error' => 'Odabrali ste projekt koji zahtijeva kôd jezika.',
+	'wminc-warning-unprefixed' => "'''Upozorenje:''' Stranica koju uređujete nema prefiks!",
+	'wminc-warning-suggest' => 'Možete stvoriti stranicu na [[$1]].',
+	'wminc-warning-suggest-move' => 'Možete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} premjestiti ovu stranicu na $1].',
+	'right-viewuserlang' => 'Pogledaj [[Special:ViewUserLang|suradnikov jezik i testni wiki]]',
+	'randombytest' => 'Slučajna stranica prema testnom wikiju',
+	'randombytest-nopages' => 'Nema stranica u Vašem testnom wikiju, u imenskom prostoru: $1.',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
