@@ -22,7 +22,7 @@ $messages['en'] = array(
 	'wminc-prefinfo-project' => 'Select the Wikimedia project (Incubator option is for users who do general work)',
 	'wminc-prefinfo-error' => 'You selected a project that needs a language code.',
 	'wminc-warning-unprefixed' => "'''Warning:''' The page you are editing is unprefixed!",
-	'wminc-warning-suggest' => 'You can create a page at [[$1]].',
+	'wminc-warning-suggest' => 'You can create a page at [[:$1]].',
 	'wminc-warning-suggest-move' => 'You can [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} move this page to $1].',
 	'right-viewuserlang' => 'View [[Special:ViewUserLang|user language and test wiki]]',
 	'randombytest' => 'Random page by test wiki',
