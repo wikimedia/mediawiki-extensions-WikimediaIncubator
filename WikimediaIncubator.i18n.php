@@ -1168,6 +1168,13 @@ $messages['ml'] = array(
 	'randombytest' => 'പരീക്ഷണ വിക്കിയിൽ നിന്നും ക്രമരഹിതമായി എടുത്ത താൾ',
 );
 
+/** Mongolian (Монгол)
+ * @author Chinneeb
+ */
+$messages['mn'] = array(
+	'wminc-viewuserlang-go' => 'Явах',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Aurora
  * @author Yosri
