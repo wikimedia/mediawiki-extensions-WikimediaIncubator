@@ -1161,17 +1161,29 @@ $messages['mk'] = array(
  * @author Praveenp
  */
 $messages['ml'] = array(
+	'wminc-desc' => 'വിക്കിമീഡിയ ഇൻകുബേറ്ററിനുള്ള പരീക്ഷണ വിക്കി വ്യവസ്ഥ',
+	'wminc-viewuserlang' => 'താങ്കളുടെ പരീക്ഷണ വിക്കിയും ഉപയോക്തൃഭാഷയും നോക്കുക',
 	'wminc-viewuserlang-user' => 'ഉപയോക്തൃനാമം:',
 	'wminc-viewuserlang-go' => 'പോകൂ',
 	'wminc-testwiki' => 'പരീക്ഷണ വിക്കി:',
 	'wminc-testwiki-none' => 'ഒന്നുമില്ല/എല്ലാം',
+	'wminc-prefinfo-language' => 'താങ്കളുടെ സമ്പർക്കമുഖ ഭാഷ - താങ്കളുടെ പരീക്ഷണ വിക്കിയിൽ നിന്ന് സ്വതന്ത്രം',
+	'wminc-prefinfo-code' => 'ISO 639 ഭാഷാ കോഡ്',
+	'wminc-prefinfo-project' => 'വിക്കിമീഡിയ പദ്ധതി തിരഞ്ഞെടുക്കുക (സാധാരണ പ്രവൃത്തികൾ ചെയ്യുന്ന ഉപയോക്താക്കൾക്കാണ് ഇൻകുബേറ്റർ ഐച്ഛികം)',
+	'wminc-prefinfo-error' => 'ഭാഷാ കോഡ് വേണ്ട ഒരു പദ്ധതിയാണ് താങ്കൾ തിരഞ്ഞെടുത്തിരിക്കുന്നത്.',
+	'wminc-warning-unprefixed' => "'''മുന്നറിയിപ്പ്:''' താങ്കൾ തിരുത്തുന്ന താളിന് പൂർവ്വപദമില്ല!",
+	'wminc-warning-suggest' => 'താങ്കൾക്ക് ഒരു താൾ [[:$1]] എന്നയിടത്ത് സൃഷ്ടിക്കാവുന്നതാണ്.',
+	'wminc-warning-suggest-move' => 'താങ്കൾക്ക് ഈ താൾ [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} $1 എന്നതിലേയ്ക്ക് മാറ്റാവുന്നതാണ്].',
+	'right-viewuserlang' => '[[Special:ViewUserLang|ഉപയോക്തൃഭാഷയും പരീക്ഷണ വിക്കിയും]] കാണുക',
 	'randombytest' => 'പരീക്ഷണ വിക്കിയിൽ നിന്നും ക്രമരഹിതമായി എടുത്ത താൾ',
+	'randombytest-nopages' => 'ഈ നാമമേഖലയിൽ പരീക്ഷണ വിക്കിയിൽ താങ്കൾക്ക് ഒരു താളും ഇല്ല: $1.',
 );
 
 /** Mongolian (Монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
+	'wminc-viewuserlang-user' => 'Хэрэглэгчийн нэр:',
 	'wminc-viewuserlang-go' => 'Явах',
 );
 
