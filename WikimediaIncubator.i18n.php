@@ -1642,7 +1642,10 @@ $messages['sl'] = array(
 	'wminc-testwiki' => 'Preizkusni wiki:',
 	'wminc-testwiki-none' => 'Nič/Vse',
 	'wminc-prefinfo-code' => 'Koda jezika ISO 639',
+	'wminc-prefinfo-error' => 'Izbrali ste projekt, ki zahteva kodo jezika.',
+	'wminc-warning-unprefixed' => "'''Opozorilo:''' Stran, ki jo urejate, nima predpone!",
 	'wminc-warning-suggest' => 'Ustvarite lahko stran na [[:$1]].',
+	'wminc-warning-suggest-move' => 'To stran lahko [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} prestavite na $1].',
 	'randombytest' => 'Naključna stran preizkusnega wikija',
 	'randombytest-nopages' => 'Na vašem wikiju ni strani v imenskem prostoru: $1.',
 );
