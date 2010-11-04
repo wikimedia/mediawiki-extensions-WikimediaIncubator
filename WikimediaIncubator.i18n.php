@@ -1637,15 +1637,19 @@ $messages['sk'] = array(
  */
 $messages['sl'] = array(
 	'wminc-desc' => 'Preizkusni sistem wiki za Wikimedia Incubator',
+	'wminc-viewuserlang' => 'Poiščite jezik in preizkusni wiki uporabnika',
 	'wminc-viewuserlang-user' => 'Uporabniško ime:',
 	'wminc-viewuserlang-go' => 'Pojdi',
 	'wminc-testwiki' => 'Preizkusni wiki:',
 	'wminc-testwiki-none' => 'Nič/Vse',
+	'wminc-prefinfo-language' => 'Vaš jezik vmesnika – neodvisen od vašega preizkusnega wikija',
 	'wminc-prefinfo-code' => 'Koda jezika ISO 639',
+	'wminc-prefinfo-project' => 'Izberite projekt Wikimedie (možnost Incubator je namenjena uporabnikom, ki opravljajo splošna dela)',
 	'wminc-prefinfo-error' => 'Izbrali ste projekt, ki zahteva kodo jezika.',
 	'wminc-warning-unprefixed' => "'''Opozorilo:''' Stran, ki jo urejate, nima predpone!",
 	'wminc-warning-suggest' => 'Ustvarite lahko stran na [[:$1]].',
 	'wminc-warning-suggest-move' => 'To stran lahko [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} prestavite na $1].',
+	'right-viewuserlang' => 'Vpogled v [[Special:ViewUserLang|jezik in preizkusni wiki uporabnika]]',
 	'randombytest' => 'Naključna stran preizkusnega wikija',
 	'randombytest-nopages' => 'Na vašem wikiju ni strani v imenskem prostoru: $1.',
 );
