@@ -566,6 +566,16 @@ $messages['eu'] = array(
 	'randombytest-nopages' => 'Ez dago orrialderik zure proba wikian, $1 izen-tartearekin.',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'wminc-viewuserlang-user' => 'نام کاربری:',
+	'wminc-viewuserlang-go' => 'برو',
+	'wminc-testwiki-none' => 'هیچ‌کدام/همه',
+	'wminc-prefinfo-code' => 'کد زبان ایزو ۶۳۹',
+);
+
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Crt
@@ -913,11 +923,12 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Aotake
  * @author Fryed-peach
+ * @author 青子守歌
  */
 $messages['ja'] = array(
 	'wminc-desc' => 'ウィキメディア・インキュベーター用の試験版ウィキシステム',
 	'wminc-viewuserlang' => '利用者の言語と試験版ウィキを探す',
-	'wminc-viewuserlang-user' => '利用者名:',
+	'wminc-viewuserlang-user' => '利用者名：',
 	'wminc-viewuserlang-go' => '表示',
 	'wminc-testwiki' => '試験版ウィキ:',
 	'wminc-testwiki-none' => 'なし/すべて',
