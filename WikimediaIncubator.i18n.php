@@ -1582,6 +1582,7 @@ $messages['sc'] = array(
  * @author Dalinanir
  */
 $messages['shi'] = array(
+	'wminc-desc' => 'Arm wiki anagraw i Wikimidya Ankubatur',
 	'wminc-viewuserlang' => 'Af tutlayt nu amsdaqc tarmt wiki',
 	'wminc-viewuserlang-user' => 'Assaɣ nu-msxdan',
 	'wminc-viewuserlang-go' => 'Balak',
