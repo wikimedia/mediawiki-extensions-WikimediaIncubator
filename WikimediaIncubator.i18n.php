@@ -1667,11 +1667,12 @@ $messages['sl'] = array(
 );
 
 /** Serbian Cyrillic ekavian (Српски (ћирилица))
+ * @author Rancher
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'wminc-viewuserlang-user' => 'Корисничко име:',
-	'wminc-viewuserlang-go' => 'Иди',
+	'wminc-viewuserlang-go' => 'Пређи',
 	'wminc-testwiki' => 'Тест-Вики:',
 	'wminc-testwiki-none' => 'Ништа/Све',
 );
