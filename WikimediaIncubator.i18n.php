@@ -220,7 +220,7 @@ $messages['bar'] = array(
 	'wminc-prefinfo-code' => 'Da ISO-639-Språchcode',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -418,7 +418,7 @@ $messages['de'] = array(
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ deines Testwikis.',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author MF-Warburg
  * @author Umherirrender
  */
@@ -1029,7 +1029,7 @@ $messages['ksh'] = array(
 	'randombytest-nopages' => 'Et Appachtemang $1 änthält kein Sigge en Dingem Versöhkß-Wiki.',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
  * @author Kernoweger
  * @author Kw-Moon
  */
@@ -1444,6 +1444,7 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Helder.wiki
  * @author Heldergeovane
  */
 $messages['pt-br'] = array(
@@ -1666,7 +1667,7 @@ $messages['sl'] = array(
 	'randombytest-nopages' => 'Na vašem wikiju ni strani v imenskem prostoru: $1.',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -1677,7 +1678,7 @@ $messages['sr-ec'] = array(
 	'wminc-testwiki-none' => 'Ништа/Све',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1960,6 +1961,7 @@ $messages['zh-hans'] = array(
  * @author Horacewai2
  * @author Liangent
  * @author Shinjiman
+ * @author Waihorace
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
