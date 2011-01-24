@@ -223,6 +223,7 @@ $messages['bar'] = array(
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Zedlik
  */
 $messages['be-tarask'] = array(
 	'wminc-desc' => 'Тэставая вікі-сыстэма для інкубатара фундацыі «Вікімэдыя»',
@@ -233,7 +234,7 @@ $messages['be-tarask'] = array(
 	'wminc-testwiki-none' => 'Ніякая/усе',
 	'wminc-prefinfo-language' => 'Вашая мова інтэрфэйсу — незалежная ад мовы Вашай тэставай вікі',
 	'wminc-prefinfo-code' => 'Код мовы ISO 639',
-	'wminc-prefinfo-project' => 'Выберыце праект фундацыі «Вікімэдыя» (устаноўка інкубатара для ўдзельнікаў, якія займаецца асноўнай працай)',
+	'wminc-prefinfo-project' => 'Выберыце праект фундацыі «Вікімэдыя» (налада інкубатара для ўдзельнікаў, якія займаецца асноўнай працай)',
 	'wminc-prefinfo-error' => 'Вы выбралі праект, які патрабуе код мовы.',
 	'wminc-warning-unprefixed' => 'Папярэджаньне: старонка, якую Вы рэдагуеце, ня мае прэфікса!',
 	'wminc-warning-suggest' => 'Вы можаце стварыць старонку [[:$1]].',
@@ -1960,26 +1961,27 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Horacewai2
  * @author Liangent
+ * @author Mark85296341
  * @author Shinjiman
  * @author Waihorace
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
-	'wminc-desc' => '維基孵育場的測試wiki系統',
-	'wminc-viewuserlang' => '查看用戶語言與測試wiki',
+	'wminc-desc' => '維基孵育場的測試 wiki 系統',
+	'wminc-viewuserlang' => '檢視使用者語言與測試 wiki',
 	'wminc-viewuserlang-user' => '使用者名稱：',
 	'wminc-viewuserlang-go' => '轉到',
-	'wminc-testwiki' => '測試wiki:',
+	'wminc-testwiki' => '測試 wiki:',
 	'wminc-testwiki-none' => '無/所有',
-	'wminc-prefinfo-language' => '您的界面語言 - 在您的測試wiki中為獨立的',
-	'wminc-prefinfo-code' => 'ISO 639語言代碼',
+	'wminc-prefinfo-language' => '您的介面語言 - 在您的測試 wiki 中為獨立的',
+	'wminc-prefinfo-code' => 'ISO 639 語言代碼',
 	'wminc-prefinfo-project' => '選擇維基媒體計劃 （孵育場選項用作一般用途）',
-	'wminc-prefinfo-error' => '您已選擇一個需要語言代碼的計劃。',
-	'wminc-warning-unprefixed' => '警告: 您編輯的頁面尚未加入前綴！',
-	'wminc-warning-suggest' => '您可以在[[:$1]]開新頁面。',
-	'wminc-warning-suggest-move' => '您可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 移動這個頁面到$1]。',
-	'right-viewuserlang' => '查看[[Special:ViewUserLang|用戶語言和測試維基]]',
+	'wminc-prefinfo-error' => '您已選擇一個需要語言代碼的計畫。',
+	'wminc-warning-unprefixed' => "'''警告：'''您編輯的頁面尚未加入前綴！",
+	'wminc-warning-suggest' => '您可以在 [[:$1]] 開新頁面。',
+	'wminc-warning-suggest-move' => '您可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 移動這個頁面到 $1]。',
+	'right-viewuserlang' => '檢視[[Special:ViewUserLang|使用者語言和測試 wiki]]',
 	'randombytest' => '測試維基上的隨機頁面',
-	'randombytest-nopages' => '在你的測試網頁的$1名字空間中，沒有頁面。',
+	'randombytest-nopages' => '在你的測試網頁的 $1 名字空間中，沒有頁面。',
 );
 
