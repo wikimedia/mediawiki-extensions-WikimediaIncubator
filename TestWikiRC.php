@@ -25,7 +25,7 @@ class TestWikiRC {
 			$dbr = wfGetDB( DB_SLAVE );
 			$namespaces = array( NS_MAIN, NS_TALK, NS_TEMPLATE, NS_TEMPLATE_TALK, NS_CATEGORY, NS_CATEGORY_TALK );
 			$conds[] = 'rc_namespace IN (' . $dbr->makeList( $namespaces ) . ')';
-			$conds[] = 'rc_title like ' . $dbr->addQuotes( $dbr->escapeLike( $fullprefix ) . '/%' ) . 
+			$conds[] = 'rc_title ' . $dbr->buildLike( $fullprefix . '/', $dbr->anyString() ) .
 			' OR rc_title = ' . $dbr->addQuotes( $fullprefix );
 			return true;
 		}
