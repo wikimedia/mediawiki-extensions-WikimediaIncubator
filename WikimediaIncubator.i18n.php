@@ -726,26 +726,27 @@ $messages['gu'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Rotemliss
  * @author YaronSh
  */
 $messages['he'] = array(
-	'wminc-desc' => 'מערכת אתרי ויקי נסיוניים עבור האינקובטור של ויקימדיה',
-	'wminc-viewuserlang' => 'חיפוש שפת משתמש ואתר ויקי נסיוני',
+	'wminc-desc' => 'מערכת אתרי ויקי ניסיוניים עבור האינקובטור של ויקימדיה',
+	'wminc-viewuserlang' => 'חיפוש שפת משתמש ואתר ויקי ניסיוני',
 	'wminc-viewuserlang-user' => 'שם המשתמש:',
 	'wminc-viewuserlang-go' => 'הצגה',
-	'wminc-testwiki' => 'אתר ויקי נסיוני:',
-	'wminc-testwiki-none' => 'הכול/כלום',
-	'wminc-prefinfo-language' => 'שפת הממשק שלכם - בלתי תלויה באתר הוויקי הנסיוני שלכם',
+	'wminc-testwiki' => 'אתר ויקי ניסיוני:',
+	'wminc-testwiki-none' => 'הכול/לא כלום',
+	'wminc-prefinfo-language' => 'שפת הממשק שלכם – בלתי תלויה באתר הוויקי הניסיוני שלכם',
 	'wminc-prefinfo-code' => 'קוד השפה לפי ISO 639',
 	'wminc-prefinfo-project' => 'בחרו אחד ממיזמי ויקימדיה (האפשרות "אינקובטור" מיועדת למשתמשים המבצעים עבודה כללית)',
 	'wminc-prefinfo-error' => 'בחרתם במיזם הדורש קוד שפה.',
 	'wminc-warning-unprefixed' => "'''אזהרה:''' לדף שאתם עורכים אין קידומת!",
 	'wminc-warning-suggest' => 'באפשרותכם ליצור דף בשם [[:$1]].',
 	'wminc-warning-suggest-move' => 'באפשרותכם [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} להעביר דף זה ל$1].',
-	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הנסיוני]]',
-	'randombytest' => 'דף אקראי באתר ויקי נסיוני',
-	'randombytest-nopages' => 'אין דפים באתר הוויקי הנסיוני שלכם, במרחב השם: $1.',
+	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הניסיוני]]',
+	'randombytest' => 'דף אקראי באתר ויקי ניסיוני',
+	'randombytest-nopages' => 'אין דפים באתר הוויקי הניסיוני שלכם, במרחב השם: $1.',
 );
 
 /** Hiligaynon (Ilonggo)
