@@ -1031,6 +1031,14 @@ $messages['ksh'] = array(
 	'randombytest-nopages' => 'Et Appachtemang $1 änthält kein Sigge en Dingem Versöhkß-Wiki.',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'wminc-viewuserlang-user' => 'Navê bikarhêner:',
+	'wminc-viewuserlang-go' => 'Biçe',
+);
+
 /** Cornish (Kernowek)
  * @author Kernoweger
  * @author Kw-Moon
