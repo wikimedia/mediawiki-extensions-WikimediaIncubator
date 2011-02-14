@@ -1037,6 +1037,8 @@ $messages['ksh'] = array(
 $messages['ku-latn'] = array(
 	'wminc-viewuserlang-user' => 'Navê bikarhêner:',
 	'wminc-viewuserlang-go' => 'Biçe',
+	'wminc-prefinfo-code' => 'Koda ISO 639 a ziman',
+	'wminc-warning-suggest' => 'Tu karî di [[:$1]] de rûpelekî çêkî.',
 );
 
 /** Cornish (Kernowek)
