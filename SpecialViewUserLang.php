@@ -54,8 +54,8 @@ class SpecialViewUserLang extends SpecialPage
 		$title = htmlspecialchars( $this->getTitle()->getPrefixedText() );
 		$action = htmlspecialchars( $wgScript );
 		$target = htmlspecialchars( $target );
-		$ok = wfMsgHtml( 'go' );
-		$username = wfMsgHtml( 'username' );
+		$ok = wfMsgHtml( 'wminc-viewuserlang-go' );
+		$username = wfMsgHtml( 'wminc-viewuserlang-user' );
 		$inputformtop = wfMsgHtml( 'wminc-viewuserlang' );
 
 		$wgOut->addHTML( <<<EOT
