@@ -111,6 +111,28 @@ $messages['anp'] = array(
 	'randombytest-nopages' => 'तोरॊ प्रारंभिक विकी मॆं $1 नामॊ के जग्घॊ पॆ कोय पन्ना नै छौं.',
 );
 
+/** Dusun Bundu-liwan (Dusun Bundu-liwan)
+ * @author FRANCIS5091
+ */
+$messages['dtp'] = array(
+	'wminc-desc' => 'Nuludan pogumbalan wiki montok Pongongomut Wikimodia',
+	'wminc-viewuserlang' => 'Ihumo boros momoguno om pogumbalan wiki',
+	'wminc-viewuserlang-user' => 'Ngarannu:',
+	'wminc-viewuserlang-go' => 'Ongoi',
+	'wminc-testwiki' => 'Wiki pogumbalan',
+	'wminc-testwiki-none' => 'Aiso/Oinsanan',
+	'wminc-prefinfo-language' => 'Woyoboros gunoonnu - poinsuai mantad wiki pogumbalannu',
+	'wminc-prefinfo-code' => 'Kod woyoboros tumanud ISO 639',
+	'wminc-prefinfo-project' => 'Pilio purujik wikimodia (Pongongomut nopo nga pipilion montok momomoguno di pigosusuaian wonsoion)',
+	'wminc-prefinfo-error' => 'Minomili ko di purujik di momoguno kod woyoboros',
+	'wminc-warning-unprefixed' => "'''Panansarahan:''' Bolikon di iditonnu nopo nga awu nokopiulud!",
+	'wminc-warning-suggest' => 'Pasagaon ko do momonsoi bolikon id [[:$1]].',
+	'wminc-warning-suggest-move' => 'Pasagaonko [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} papaalih diti bolikon mongoi hilo id $1].',
+	'right-viewuserlang' => 'Intaai [[Special:ViewUserLang|woyoboros momomoguno om wiki pogumbalan]]',
+	'randombytest' => 'Songkobolikon do wiki pogumbalan',
+	'randombytest-nopages' => 'Ingaa bobolikon id wiki pogumbalannu, it koingaran do: $1.',
+);
+
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
