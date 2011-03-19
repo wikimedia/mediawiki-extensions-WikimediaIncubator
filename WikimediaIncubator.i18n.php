@@ -590,6 +590,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Huji
  * @author Mjbmr
  * @author Sahim
  */
@@ -599,8 +600,8 @@ $messages['fa'] = array(
 	'wminc-testwiki' => 'آزمودن ویکی:',
 	'wminc-testwiki-none' => 'هیچ‌کدام/همه',
 	'wminc-prefinfo-code' => 'کد زبان ایزو ۶۳۹',
-	'wminc-warning-suggest-move' => 'شما می‌توانید [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} این صفحه را انتقال دهید به $1].',
-	'randombytest' => 'صفحه تصادفی به‌وسیلهٔ آزمودن ویکی:',
+	'wminc-warning-suggest-move' => 'شما می‌توانید [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} این صفحه را به $1 انتقال دهید].',
+	'randombytest' => 'صفحه تصادفی به وسیلهٔ آزمودن ویکی',
 );
 
 /** Finnish (Suomi)
