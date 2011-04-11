@@ -355,6 +355,7 @@ $messages['bs'] = array(
 
 /** Catalan (Català)
  * @author Paucabot
+ * @author SMP
  * @author Solde
  */
 $messages['ca'] = array(
@@ -362,6 +363,7 @@ $messages['ca'] = array(
 	'wminc-viewuserlang-go' => 'Vés-hi!',
 	'wminc-testwiki-none' => 'Cap/Tots',
 	'wminc-prefinfo-code' => 'El codi de llengua ISO 639',
+	'right-viewuserlang' => "Veure [[Special:ViewUserLang|l'idioma i el wiki de prova]]",
 );
 
 /** Sorani (کوردی)
