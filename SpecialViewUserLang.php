@@ -81,8 +81,9 @@ EOT
 	 * @param $target Mixed: user whose language and test wiki we're looking up
 	 */
 	function showInfo( $target ) {
-		global $wgOut, $wgLang, $wgLanguageNames, $wmincPref;
+		global $wgOut, $wgLang, $wmincPref;
 		$user = User::newFromName( $target );
+		$langNames = Language::getLanguageNames();
 		if ( $user == null || $user->getId() == 0 ) {
 			$wgOut->addWikiText( '<span class="error">' . wfMsgNoTrans( 'wminc-viewuserlang-unexisting', $target ) . '</span>' );
 		} else {
@@ -94,7 +95,7 @@ EOT
 				) ) );
 			$wgOut->addWikiText(
 				'*' . wfMsg( 'loginlanguagelabel',
-				$wgLanguageNames[$user->mOptions['language']] . ' (' . $user->mOptions['language'] . ')'
+				$langNames[$user->mOptions['language']] . ' (' . $user->mOptions['language'] . ')'
 				)
 			);
 			if ( IncubatorTest::isNormalPrefix() == true ) {
