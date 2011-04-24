@@ -15,6 +15,7 @@ $messages['en'] = array(
 	'wminc-viewuserlang' => 'Look up user language and test wiki',
 	'wminc-viewuserlang-user' => 'Username:',
 	'wminc-viewuserlang-go' => 'Go',
+	'wminc-userdoesnotexist' => 'The user "$1" does not exist.',
 	'wminc-testwiki' => 'Test wiki:',
 	'wminc-testwiki-none' => 'None/All',
 	'wminc-prefinfo-language' => 'Your interface language - independent from your test wiki',

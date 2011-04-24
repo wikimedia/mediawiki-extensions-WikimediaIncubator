@@ -51,28 +51,18 @@ class SpecialViewUserLang extends SpecialPage
 	 */
 	function showForm( $target ) {
 		global $wgScript, $wgOut;
-		$title = htmlspecialchars( $this->getTitle()->getPrefixedText() );
-		$action = htmlspecialchars( $wgScript );
-		$target = htmlspecialchars( $target );
-		$ok = wfMsgHtml( 'wminc-viewuserlang-go' );
-		$username = wfMsgHtml( 'wminc-viewuserlang-user' );
-		$inputformtop = wfMsgHtml( 'wminc-viewuserlang' );
 
-		$wgOut->addHTML( <<<EOT
-<fieldset>
-<legend>$inputformtop</legend>
-<form method="get" action="$action">
-<input type="hidden" name="title" value="{$title}" />
-<table border="0">
-<tr>
-<td align="right">$username</td>
-<td align="left"><input type="text" size="50" name="target" value="$target" />
-<td colspan="2" align="center"><input type="submit" name="submit" value="$ok" /></td>
-</tr>
-</table>
-</form>
-</fieldset>
-EOT
+		$wgOut->addHTML(
+			Xml::fieldset( wfMsg( 'wminc-viewuserlang' ) ) .
+			Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) ) .
+			Html::hidden( 'title', $this->getTitle()->getPrefixedText() ) .
+			"<p>" .
+				Xml::inputLabel( wfMsg( 'wminc-viewuserlang-user' ), 'target', 'viewuserlang-username', 40, $target ) .
+				' ' .
+				Xml::submitButton( wfMsg( 'wminc-viewuserlang-go' ) ) .
+			"</p>" .
+			Xml::closeElement( 'form' ) .
+			Xml::closeElement( 'fieldset' )
 		);
 	}
 
@@ -85,7 +75,7 @@ EOT
 		$user = User::newFromName( $target );
 		$langNames = Language::getLanguageNames();
 		if ( $user == null || $user->getId() == 0 ) {
-			$wgOut->addWikiText( '<span class="error">' . wfMsgNoTrans( 'wminc-viewuserlang-unexisting', $target ) . '</span>' );
+			$wgOut->addWikiText( '<span class="error">' . wfMsgNoTrans( 'wminc-userdoesnotexist', $target ) . '</span>' );
 		} else {
 			$name = $user->getName();
 			$wgOut->addWikiText( '*' . wfMsg( 'username' ) . ' [[User:' . $name . '|' . $name . ']] (' .
