@@ -90,50 +90,6 @@ $messages['ary'] = array(
 	'randombytest-nopages' => "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
 );
 
-/** Angika (अंगिका)
- * @author Angpradesh
- */
-$messages['anp'] = array(
-	'wminc-desc' => 'विकीपीडिया इनक्यूबेटर केरॊ टेस्ट विकी सिस्टम',
-	'wminc-viewuserlang' => 'भाषा उपयोगकर्ता आरू टेस्ट विकी सिस्टम कॆ देखॊ',
-	'wminc-viewuserlang-user' => 'उपयोगकर्ता',
-	'wminc-viewuserlang-go' => 'जा',
-	'wminc-testwiki' => 'टेस्ट विकी',
-	'wminc-testwiki-none' => 'कुच्छु नै / सबेभॆ',
-	'wminc-prefinfo-language' => 'तोरॊ इंटरफेस भाषा - टेस्ट विकी सॆं अलग',
-	'wminc-prefinfo-code' => 'ISO 639 भाषा कोड',
-	'wminc-prefinfo-project' => 'विकीमीडिया प्रोजेक्ट केरॊ चयन करॊ (इनक्यूबेटर विकल्प सामान्य काम करै वाला लेली)',
-	'wminc-prefinfo-error' => 'अपनॆ एगॊ प्रोजेक्ट चुनलॆ छियै, जेकरा लेली भाषा कोड के जरूरत छै.',
-	'wminc-warning-unprefixed' => "''' सावधान ''' सम्पादित होय रहलॊ पन्ना अपरिचित छै.",
-	'wminc-warning-suggest' => 'अपनॆ [[:$1]] पर पन्ना जोङियै.',
-	'wminc-warning-suggest-move' => 'अपनॆ [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} पन्ना कॆ $1 पर भेजियै.].',
-	'right-viewuserlang' => 'देखॊ [[Special:ViewUserLang|user language and test wiki]]',
-	'randombytest' => 'बेतरतीब पन्ना - प्रारंभिक विकी द्वारा.',
-	'randombytest-nopages' => 'तोरॊ प्रारंभिक विकी मॆं $1 नामॊ के जग्घॊ पॆ कोय पन्ना नै छौं.',
-);
-
-/** Dusun Bundu-liwan (Dusun Bundu-liwan)
- * @author FRANCIS5091
- */
-$messages['dtp'] = array(
-	'wminc-desc' => 'Nuludan pogumbalan wiki montok Pongongomut Wikimodia',
-	'wminc-viewuserlang' => 'Ihumo boros momoguno om pogumbalan wiki',
-	'wminc-viewuserlang-user' => 'Ngarannu:',
-	'wminc-viewuserlang-go' => 'Ongoi',
-	'wminc-testwiki' => 'Wiki pogumbalan',
-	'wminc-testwiki-none' => 'Aiso/Oinsanan',
-	'wminc-prefinfo-language' => 'Woyoboros gunoonnu - poinsuai mantad wiki pogumbalannu',
-	'wminc-prefinfo-code' => 'Kod woyoboros tumanud ISO 639',
-	'wminc-prefinfo-project' => 'Pilio purujik wikimodia (Pongongomut nopo nga pipilion montok momomoguno di pigosusuaian wonsoion)',
-	'wminc-prefinfo-error' => 'Minomili ko di purujik di momoguno kod woyoboros',
-	'wminc-warning-unprefixed' => "'''Panansarahan:''' Bolikon di iditonnu nopo nga awu nokopiulud!",
-	'wminc-warning-suggest' => 'Pasagaon ko do momonsoi bolikon id [[:$1]].',
-	'wminc-warning-suggest-move' => 'Pasagaonko [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} papaalih diti bolikon mongoi hilo id $1].',
-	'right-viewuserlang' => 'Intaai [[Special:ViewUserLang|woyoboros momomoguno om wiki pogumbalan]]',
-	'randombytest' => 'Songkobolikon do wiki pogumbalan',
-	'randombytest-nopages' => 'Ingaa bobolikon id wiki pogumbalannu, it koingaran do: $1.',
-);
-
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
@@ -184,6 +140,28 @@ $messages['aln'] = array(
 	'right-viewuserlang' => 'Shikoni [[Special:ViewUserLang|gjuhën përdoruesit dhe provë wiki]]',
 	'randombytest' => 'faqe të rastësishme nga wiki provë',
 	'randombytest-nopages' => 'Nuk ka faqe në wiki në provim, në hapësirën: $1.',
+);
+
+/** Angika (अंगिका)
+ * @author Angpradesh
+ */
+$messages['anp'] = array(
+	'wminc-desc' => 'विकीपीडिया इनक्यूबेटर केरॊ टेस्ट विकी सिस्टम',
+	'wminc-viewuserlang' => 'भाषा उपयोगकर्ता आरू टेस्ट विकी सिस्टम कॆ देखॊ',
+	'wminc-viewuserlang-user' => 'उपयोगकर्ता',
+	'wminc-viewuserlang-go' => 'जा',
+	'wminc-testwiki' => 'टेस्ट विकी',
+	'wminc-testwiki-none' => 'कुच्छु नै / सबेभॆ',
+	'wminc-prefinfo-language' => 'तोरॊ इंटरफेस भाषा - टेस्ट विकी सॆं अलग',
+	'wminc-prefinfo-code' => 'ISO 639 भाषा कोड',
+	'wminc-prefinfo-project' => 'विकीमीडिया प्रोजेक्ट केरॊ चयन करॊ (इनक्यूबेटर विकल्प सामान्य काम करै वाला लेली)',
+	'wminc-prefinfo-error' => 'अपनॆ एगॊ प्रोजेक्ट चुनलॆ छियै, जेकरा लेली भाषा कोड के जरूरत छै.',
+	'wminc-warning-unprefixed' => "''' सावधान ''' सम्पादित होय रहलॊ पन्ना अपरिचित छै.",
+	'wminc-warning-suggest' => 'अपनॆ [[:$1]] पर पन्ना जोङियै.',
+	'wminc-warning-suggest-move' => 'अपनॆ [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} पन्ना कॆ $1 पर भेजियै.].',
+	'right-viewuserlang' => 'देखॊ [[Special:ViewUserLang|user language and test wiki]]',
+	'randombytest' => 'बेतरतीब पन्ना - प्रारंभिक विकी द्वारा.',
+	'randombytest-nopages' => 'तोरॊ प्रारंभिक विकी मॆं $1 नामॊ के जग्घॊ पॆ कोय पन्ना नै छौं.',
 );
 
 /** Arabic (العربية)
@@ -246,13 +224,15 @@ $messages['bar'] = array(
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Wizardist
  * @author Zedlik
  */
 $messages['be-tarask'] = array(
-	'wminc-desc' => 'Тэставая вікі-сыстэма для інкубатара фундацыі «Вікімэдыя»',
+	'wminc-desc' => 'Тэставая вікі-сыстэма для інкубатара Фундацыі «Вікімэдыя»',
 	'wminc-viewuserlang' => 'Пошук мовы ўдзельніка і тэставай вікі',
 	'wminc-viewuserlang-user' => 'Імя ўдзельніка:',
 	'wminc-viewuserlang-go' => 'Перайсьці',
+	'wminc-userdoesnotexist' => 'Удзельнік «$1» не існуе.',
 	'wminc-testwiki' => 'Тэставая вікі:',
 	'wminc-testwiki-none' => 'Ніякая/усе',
 	'wminc-prefinfo-language' => 'Вашая мова інтэрфэйсу — незалежная ад мовы Вашай тэставай вікі',
@@ -485,6 +465,28 @@ $messages['dsb'] = array(
 	'right-viewuserlang' => '[[Special:ViewUserLang|Wužywarsku rěc a testowy wiki]] se woglědaś',
 	'randombytest' => 'Pśipadny bok pó testowem wikiju',
 	'randombytest-nopages' => 'W twójom testowem wikiju w mjenjowem rumje $1 boki njejsu.',
+);
+
+/** Dusun Bundu-liwan (Dusun Bundu-liwan)
+ * @author FRANCIS5091
+ */
+$messages['dtp'] = array(
+	'wminc-desc' => 'Nuludan pogumbalan wiki montok Pongongomut Wikimodia',
+	'wminc-viewuserlang' => 'Ihumo boros momoguno om pogumbalan wiki',
+	'wminc-viewuserlang-user' => 'Ngarannu:',
+	'wminc-viewuserlang-go' => 'Ongoi',
+	'wminc-testwiki' => 'Wiki pogumbalan',
+	'wminc-testwiki-none' => 'Aiso/Oinsanan',
+	'wminc-prefinfo-language' => 'Woyoboros gunoonnu - poinsuai mantad wiki pogumbalannu',
+	'wminc-prefinfo-code' => 'Kod woyoboros tumanud ISO 639',
+	'wminc-prefinfo-project' => 'Pilio purujik wikimodia (Pongongomut nopo nga pipilion montok momomoguno di pigosusuaian wonsoion)',
+	'wminc-prefinfo-error' => 'Minomili ko di purujik di momoguno kod woyoboros',
+	'wminc-warning-unprefixed' => "'''Panansarahan:''' Bolikon di iditonnu nopo nga awu nokopiulud!",
+	'wminc-warning-suggest' => 'Pasagaon ko do momonsoi bolikon id [[:$1]].',
+	'wminc-warning-suggest-move' => 'Pasagaonko [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} papaalih diti bolikon mongoi hilo id $1].',
+	'right-viewuserlang' => 'Intaai [[Special:ViewUserLang|woyoboros momomoguno om wiki pogumbalan]]',
+	'randombytest' => 'Songkobolikon do wiki pogumbalan',
+	'randombytest-nopages' => 'Ingaa bobolikon id wiki pogumbalannu, it koingaran do: $1.',
 );
 
 /** Ewe (Eʋegbe) */
@@ -876,6 +878,7 @@ $messages['ia'] = array(
 	'wminc-viewuserlang' => 'Vider le lingua de un usator e su wiki de test',
 	'wminc-viewuserlang-user' => 'Nomine de usator:',
 	'wminc-viewuserlang-go' => 'Ir',
+	'wminc-userdoesnotexist' => 'Le usator "$1" non existe.',
 	'wminc-testwiki' => 'Wiki de test:',
 	'wminc-testwiki-none' => 'Nulle/Totes',
 	'wminc-prefinfo-language' => 'Le lingua de tu interfacie - independente de tu wiki de test',
@@ -1304,6 +1307,7 @@ $messages['nl'] = array(
 	'wminc-viewuserlang' => 'Gebruikerstaal en testwiki opzoeken',
 	'wminc-viewuserlang-user' => 'Gebruikersnaam:',
 	'wminc-viewuserlang-go' => 'OK',
+	'wminc-userdoesnotexist' => 'De gebruiker "$1" bestaat niet.',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Geen/alles',
 	'wminc-prefinfo-language' => 'Uw interfacetaal - onafhankelijk van uw testwiki',
