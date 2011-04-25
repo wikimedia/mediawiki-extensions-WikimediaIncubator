@@ -6,14 +6,14 @@
 class IncubatorTest
 {
 	static function onGetPreferences( $user, &$preferences ) {
-		global $wmincPref, $wmincPrefProject, $wmincPrefNone, $wgDefaultUserOptions;
+		global $wmincPref, $wmincProjects, $wmincProjectSite, $wmincPrefProject, $wmincPrefNone, $wgDefaultUserOptions;
 
 		$preferences['language']['help-message'] = 'wminc-prefinfo-language';
 
 		$prefinsert[$wmincPref . '-project'] = array(
 			'type' => 'select',
-			'options' => array(	wfMsg( 'wminc-testwiki-none' ) => 'none',		'wikipedia' => 'p',		'wikibooks' => 'b',
-			'wiktionary' => 't',	'wikiquote' => 'q',	'wikinews' => 'n',		'incubator' => 'inc' ),
+			'options' => array( wfMsg( 'wminc-testwiki-none' ) => 'none' ) +
+				(array)$wmincProjects + array( $wmincProjectSite['name'] => $wmincProjectSite['short'] ),
 			'section' => 'personal/i18n',
 			'label-message' => 'wminc-testwiki',
 			'id' => $wmincPref . '-project',
@@ -38,9 +38,9 @@ class IncubatorTest
 	}
 
 	function codeValidation( $input, $alldata ) {
-		global $wmincPref;
+		global $wmincPref, $wmincProjects;
 		// If the user selected a project that NEEDS a language code, but the user DID NOT enter a language code, give an error
-		if ( !in_array( $alldata[$wmincPref . '-project'], array( '', 'none', 'inc' ) ) && !$input ) {
+		if ( isset( $alldata[$wmincPref.'-project'] ) && in_array( $alldata[$wmincPref.'-project'], $wmincProjects ) && !$input ) {
 			return Xml::element( 'span', array( 'class' => 'error' ), wfMsg( 'wminc-prefinfo-error' ) );
 		} else {
 			return true;
@@ -48,13 +48,14 @@ class IncubatorTest
 	}
 
 	function isNormalPrefix() {
-		global $wgUser, $wmincPref;
-		if ( in_array( $wgUser->getOption($wmincPref . '-project'), array( '', 'none', 'inc' ) ) ) {
-			return false; // false because this is NOT a normal prefix
-		} else {
+		global $wgUser, $wmincPref, $wmincProjects;
+		if ( in_array( $wgUser->getOption($wmincPref . '-project'), $wmincProjects ) ) {
 			return true; // true because this is a normal prefix
+		} else {
+			return false; // false because this is NOT a normal prefix
 		}
 	}
+
 	function displayPrefix() {
 		// display the prefix of the user preference
 		global $wgUser, $wmincPref;

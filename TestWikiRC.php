@@ -5,7 +5,7 @@
 
 class TestWikiRC {
 	static function onRcQuery( &$conds, &$tables, &$join_conds, $opts ) {
-		global $wgUser, $wgRequest, $wmincPref;
+		global $wgUser, $wgRequest, $wmincPref, $wmincProjectSite;
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') ) );
 		$fullprefix = 'W' . $projectvalue . '/' . $codevalue;
@@ -16,8 +16,8 @@ class TestWikiRC {
 		if ( $projectvalue == 'none' OR $projectvalue == '' ) {
 			// If "none" is selected, display normal recent changes
 			return true;
-		} elseif ( $projectvalue == 'inc' ) {
-			// If "inc" (incubator) is selected, display all changes except test wiki changes
+		} elseif ( $projectvalue == $wmincProjectSite['short'] ) {
+			// If project site is selected, display all changes except test wiki changes
 			$conds[] = 'rc_title not like \'W_/%%\' OR \'W_/%%/%%\'';
 			return true;
 		} else {
@@ -32,7 +32,7 @@ class TestWikiRC {
 	}
 
 	static function onRcForm( &$items, $opts ) {
-		global $wgUser, $wgRequest, $wmincPref;
+		global $wgUser, $wgRequest, $wmincPref, $wmincProjects, $wmincProjectSite;
 		
 		$projectvalue = $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') );
 		$langcodevalue = $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') );
@@ -41,12 +41,10 @@ class TestWikiRC {
 		$label = Xml::label( wfMsg( 'wminc-testwiki' ), 'rc-testwiki' );
 		$select = new XmlSelect( 'rc-testwiki-project', 'rc-testwiki-project', $projectvalue );
 		$select->addOption( wfMsg( 'wminc-testwiki-none' ), 'none' );
-		$select->addOption( 'wikipedia', 'p' );
-		$select->addOption( 'wikibooks', 'b' );
-		$select->addOption( 'wiktionary', 't' );
-		$select->addOption( 'wikiquote', 'q' );
-		$select->addOption( 'wikinews', 'n' );
-		$select->addOption( 'incubator', 'inc' );
+		foreach( $wmincProjects as $name => $prefix) {
+			$select->addOption( $name, $prefix );
+		}
+		$select->addOption( $wmincProjectSite['name'], $wmincProjectSite['short'] );
 		$langcode = Xml::input( 'rc-testwiki-code', 3, $langcodevalue, array( 'id' => 'rc-testwiki-code', 'maxlength' => 3 ) );
 		$items['testwiki'] = array( $label, $select->getHTML() . ' ' . $langcode );
 		return true;

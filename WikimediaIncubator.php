@@ -11,7 +11,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '2.3.3',
+	'version' => '2.4',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -20,9 +20,21 @@ $wgExtensionCredits['other'][] = array(
 $wgGroupPermissions['*']['viewuserlang'] = false;
 $wgGroupPermissions['sysop']['viewuserlang'] = true;
 
-/* General */
+/* General (kind of globals) */
 $wmincPref = 'incubatortestwiki'; // Name of the preference
 $dir = dirname( __FILE__ ) . '/';
+$wmincProjects = array(
+	'Wikipedia' => 'p',
+	'Wikibooks' => 'b',
+	'Wiktionary' => 't',
+	'Wikiquote' => 'q',
+	'Wikinews' => 'n',
+);
+$wmincProjectSite = array(
+	'name' => 'Incubator',
+	'short' => 'inc',
+);
+
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 
 /* Special:ViewUserLang */
