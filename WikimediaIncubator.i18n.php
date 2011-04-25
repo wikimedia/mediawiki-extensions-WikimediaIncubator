@@ -402,6 +402,7 @@ $messages['da'] = array(
 
 /** German (Deutsch)
  * @author Imre
+ * @author Kghbln
  * @author MF-Warburg
  * @author Umherirrender
  */
@@ -410,6 +411,7 @@ $messages['de'] = array(
 	'wminc-viewuserlang' => 'Benutzersprache und Testwiki einsehen',
 	'wminc-viewuserlang-user' => 'Benutzername:',
 	'wminc-viewuserlang-go' => 'Holen',
+	'wminc-userdoesnotexist' => 'Der Benutzer „$1“ ist nicht vorhanden.',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Keins/Alle',
 	'wminc-prefinfo-language' => 'Sprache deiner Benutzeroberfläche - vom Testwiki unabhängig',
@@ -646,6 +648,7 @@ $messages['fr'] = array(
 	'wminc-viewuserlang' => 'Voir la langue de l’utilisateur et son wiki de test',
 	'wminc-viewuserlang-user' => 'Nom d’utilisateur :',
 	'wminc-viewuserlang-go' => 'Aller',
+	'wminc-userdoesnotexist' => "L'utilisateur « $1 » n'existe pas.",
 	'wminc-testwiki' => 'Wiki de test :',
 	'wminc-testwiki-none' => 'Aucun / tous',
 	'wminc-prefinfo-language' => 'Votre langue d’interface - indépendante de celle de votre wiki de test',
@@ -1050,6 +1053,7 @@ $messages['ksh'] = array(
 	'wminc-viewuserlang' => 'Däm Metmaacher sing Shprooch un sing Täß-Wiki aanloore',
 	'wminc-viewuserlang-user' => 'Metmaacher Name:',
 	'wminc-viewuserlang-go' => 'Lohß Jonn!',
+	'wminc-userdoesnotexist' => 'Ene Metmaacher „$1“ jidd_et nit.',
 	'wminc-testwiki' => 'Täß-Wiki:',
 	'wminc-testwiki-none' => 'Kein/All',
 	'wminc-prefinfo-language' => 'De Shprooch för däm Wiki sing Bovverfläsch un et Wiki ze Bedeene — hät nix met Dingem Täß-Wiki singe Shprooch ze donn',
@@ -1198,6 +1202,7 @@ $messages['mk'] = array(
 	'wminc-viewuserlang' => 'Провери го јазикот на корисникот и неговото тест-вики',
 	'wminc-viewuserlang-user' => 'Корисничко име:',
 	'wminc-viewuserlang-go' => 'Оди',
+	'wminc-userdoesnotexist' => 'Корисникот „$1“ не постои.',
 	'wminc-testwiki' => 'Тест-вики:',
 	'wminc-testwiki-none' => 'Ништо/Сè',
 	'wminc-prefinfo-language' => 'Јазикот на вашиот посредник - назависно од вашето тест-вики',
@@ -1354,6 +1359,7 @@ $messages['no'] = array(
 	'wminc-viewuserlang' => 'Slå opp brukerspråk og testwiki',
 	'wminc-viewuserlang-user' => 'Brukernavn:',
 	'wminc-viewuserlang-go' => 'Gå',
+	'wminc-userdoesnotexist' => 'Brukeren «$1» finnes ikke.',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/Alle',
 	'wminc-prefinfo-language' => 'Ditt grensesnittspråk - uavhengig av din testwiki',
@@ -1431,6 +1437,7 @@ $messages['pms'] = array(
 	'wminc-viewuserlang' => "varda la lenga dl'utent e preuva la wiki",
 	'wminc-viewuserlang-user' => 'Nòm utent:',
 	'wminc-viewuserlang-go' => 'Va',
+	'wminc-userdoesnotexist' => 'L\'utent "$1" a esist pa.',
 	'wminc-testwiki' => 'Preuva wiki:',
 	'wminc-testwiki-none' => 'Gnun/Tùit',
 	'wminc-prefinfo-language' => "Toa lenga d'antërfacia - andipendenta da toa wiki ëd preuva",
@@ -1474,6 +1481,7 @@ $messages['pt'] = array(
 	'wminc-viewuserlang' => 'Procurar a língua do utilizador e a wiki de testes',
 	'wminc-viewuserlang-user' => 'Nome de utilizador:',
 	'wminc-viewuserlang-go' => 'Ir',
+	'wminc-userdoesnotexist' => 'O utilizador "$1" não existe.',
 	'wminc-testwiki' => 'Wiki de testes:',
 	'wminc-testwiki-none' => 'Nenhum/Tudo',
 	'wminc-prefinfo-language' => 'A língua da interface - independente da da sua wiki de testes',
@@ -1558,6 +1566,7 @@ $messages['roa-tara'] = array(
  * @author Ferrer
  * @author Kaganer
  * @author Kv75
+ * @author MaxSem
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1565,6 +1574,7 @@ $messages['ru'] = array(
 	'wminc-viewuserlang' => 'Поиск языковых настроек участника и его пробной вики',
 	'wminc-viewuserlang-user' => 'Имя участника:',
 	'wminc-viewuserlang-go' => 'Найти',
+	'wminc-userdoesnotexist' => 'Участник «$1» не существует',
 	'wminc-testwiki' => 'Пробная вики:',
 	'wminc-testwiki-none' => 'Нет/все',
 	'wminc-prefinfo-language' => 'Ваш язык интерфейса не зависит от вашей пробной вики',
@@ -1842,6 +1852,7 @@ $messages['tl'] = array(
 	'wminc-viewuserlang' => 'Hanapin ang wika ng tagagamit ang wiking sinusubok',
 	'wminc-viewuserlang-user' => 'Pangalan ng tagagamit:',
 	'wminc-viewuserlang-go' => 'Gawin',
+	'wminc-userdoesnotexist' => 'Hindi umiiral ang tagagamit na si "$1".',
 	'wminc-testwiki' => 'Wiking sinusubok:',
 	'wminc-testwiki-none' => 'Wala/Lahat',
 	'wminc-prefinfo-language' => 'Ang wika ng pangtawid-mukha mo - malaya mula sa iyong wiking sinusubok',
