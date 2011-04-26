@@ -807,6 +807,7 @@ $messages['hil'] = array(
 );
 
 /** Croatian (Hrvatski)
+ * @author Ex13
  * @author Tivek
  */
 $messages['hr'] = array(
@@ -814,6 +815,7 @@ $messages['hr'] = array(
 	'wminc-viewuserlang' => 'Potraži jezik i testni wiki suradnika',
 	'wminc-viewuserlang-user' => 'Suradničko ime:',
 	'wminc-viewuserlang-go' => 'Idi',
+	'wminc-userdoesnotexist' => 'Suradnik "$1" ne postoji.',
 	'wminc-testwiki' => 'Testni wiki:',
 	'wminc-testwiki-none' => 'Nijedno/Sve',
 	'wminc-prefinfo-language' => 'Vaš jezik sučelja - neovisno o Vašem testnom wikiju',
@@ -1548,6 +1550,7 @@ $messages['roa-tara'] = array(
 	'wminc-viewuserlang' => "Combronde 'mbrà 'a lènghe de l'utende e 'u teste de Uicchi",
 	'wminc-viewuserlang-user' => "Nome de l'utende:",
 	'wminc-viewuserlang-go' => 'Veje',
+	'wminc-userdoesnotexist' => 'L\'utende "$1" non g\'esiste.',
 	'wminc-testwiki' => 'Test de Uicchi:',
 	'wminc-testwiki-none' => 'Nisciune/Tutte',
 	'wminc-prefinfo-language' => "L'inderfacce indipendende de lènghe da 'u teste tue de Uicchi",
@@ -1709,6 +1712,7 @@ $messages['sl'] = array(
 	'wminc-viewuserlang' => 'Poiščite jezik in preizkusni wiki uporabnika',
 	'wminc-viewuserlang-user' => 'Uporabniško ime:',
 	'wminc-viewuserlang-go' => 'Pojdi',
+	'wminc-userdoesnotexist' => 'Uporabnik »$1« ne obstaja.',
 	'wminc-testwiki' => 'Preizkusni wiki:',
 	'wminc-testwiki-none' => 'Nič/Vse',
 	'wminc-prefinfo-language' => 'Vaš jezik vmesnika – neodvisen od vašega preizkusnega wikija',
