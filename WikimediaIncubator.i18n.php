@@ -770,6 +770,7 @@ $messages['he'] = array(
 	'wminc-viewuserlang' => 'חיפוש שפת משתמש ואתר ויקי ניסיוני',
 	'wminc-viewuserlang-user' => 'שם המשתמש:',
 	'wminc-viewuserlang-go' => 'הצגה',
+	'wminc-userdoesnotexist' => 'המשתמש "$1" אינו קיים.',
 	'wminc-testwiki' => 'אתר ויקי ניסיוני:',
 	'wminc-testwiki-none' => 'הכול/לא כלום',
 	'wminc-prefinfo-language' => 'שפת הממשק שלכם – בלתי תלויה באתר הוויקי הניסיוני שלכם',
@@ -901,6 +902,7 @@ $messages['ia'] = array(
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
  * @author Irwangatot
+ * @author IvanLanin
  * @author Kandar
  * @author Rex
  */
@@ -909,6 +911,7 @@ $messages['id'] = array(
 	'wminc-viewuserlang' => 'Cari bahasa pengguna dan wiki pengujian',
 	'wminc-viewuserlang-user' => 'Nama pengguna:',
 	'wminc-viewuserlang-go' => 'Tuju ke',
+	'wminc-userdoesnotexist' => 'Pengguna "$1" tidak ditemukan.',
 	'wminc-testwiki' => 'Wiki pengujian:',
 	'wminc-testwiki-none' => 'Tidak ada/Semua',
 	'wminc-prefinfo-language' => 'Bahasa antarmuka Anda - tidak terpengaruh oleh wiki pengujian Anda',
