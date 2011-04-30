@@ -1824,6 +1824,13 @@ $messages['te'] = array(
 	'randombytest' => 'పరీక్షా వికీ ద్వారా ఒక యాధృచిక పేజి',
 );
 
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'wminc-viewuserlang-user' => "Naran uza-na'in:",
+);
+
 /** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
  * @author Ibrahim
  */
