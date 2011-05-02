@@ -1963,6 +1963,7 @@ $messages['vi'] = array(
 	'wminc-viewuserlang' => 'Ngôn ngữ và wiki thử của người dùng',
 	'wminc-viewuserlang-user' => 'Tên hiệu:',
 	'wminc-viewuserlang-go' => 'Xem',
+	'wminc-userdoesnotexist' => 'Thành viên “$1” không tồn tại.',
 	'wminc-testwiki' => 'Wiki thử:',
 	'wminc-testwiki-none' => 'Không có / tất cả',
 	'wminc-prefinfo-language' => 'Ngôn ngữ giao diện của bạn – có thể khác với wiki thử',
