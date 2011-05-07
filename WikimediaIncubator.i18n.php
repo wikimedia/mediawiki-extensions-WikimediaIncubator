@@ -841,6 +841,7 @@ $messages['hsb'] = array(
 	'wminc-viewuserlang' => 'Wužiwarsku rěč a testowy wiki sej wobhladać',
 	'wminc-viewuserlang-user' => 'Wužiwarske mjeno:',
 	'wminc-viewuserlang-go' => 'Pokazać',
+	'wminc-userdoesnotexist' => 'Wužiwar "$1" njeeksistuje.',
 	'wminc-testwiki' => 'Testowy wiki:',
 	'wminc-testwiki-none' => 'Žadyn/Wšě',
 	'wminc-prefinfo-language' => 'Rěč twojeho wužiwarskeho powjercha - wot twojeho testoweho wikija njewotwisna',
