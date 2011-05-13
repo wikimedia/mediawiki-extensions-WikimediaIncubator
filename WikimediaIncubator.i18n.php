@@ -1958,10 +1958,11 @@ $messages['vep'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
+ * @author Trần Nguyễn Minh Huy
  * @author Vinhtantran
  */
 $messages['vi'] = array(
-	'wminc-desc' => 'Hệ thống wiki thử của Wikimedia Incubator',
+	'wminc-desc' => 'Hệ thống wiki thử nghiệm của Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Ngôn ngữ và wiki thử của người dùng',
 	'wminc-viewuserlang-user' => 'Tên hiệu:',
 	'wminc-viewuserlang-go' => 'Xem',
