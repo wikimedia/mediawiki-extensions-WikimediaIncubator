@@ -12,9 +12,10 @@ class AutoTestWiki {
 		$projectvalue = strtolower( $wgRequest->getVal( 'testwikiproject', '' ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'testwikicode', '' ) );
 		if ( preg_match( '/[a-z][a-z][a-z]?/', $codevalue ) && in_array( $projectvalue, (array)$wmincProjects ) ) {
-			$template->set( 'header', '<input type="hidden" name="testwiki-project" value="' . $projectvalue . '" />
-	<input type="hidden" name="testwiki-code" value="' . $codevalue . '" />
-	' );
+			$template->set( 'header',
+				Html::hidden('testwiki-project', $projectvalue).
+				Html::hidden('testwiki-code', $codevalue)
+			);
 		}
 		return true;
 	}
