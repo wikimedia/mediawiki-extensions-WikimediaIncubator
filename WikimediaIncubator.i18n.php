@@ -1793,18 +1793,27 @@ $messages['sv'] = array(
 );
 
 /** Silesian (Ślůnski)
+ * @author Britscher
  * @author Ozi64
  */
 $messages['szl'] = array(
+	'wminc-desc' => 'Testowo wiki lo Inkubatůra Wikimedia',
+	'wminc-viewuserlang' => 'Nojdowańy godki używacza a testowyj wiki',
 	'wminc-viewuserlang-user' => 'Mjano używacza:',
+	'wminc-viewuserlang-go' => 'Pokoż',
+	'wminc-userdoesnotexist' => 'Ńyma używacza ze mjanym "$1"',
+	'wminc-testwiki' => 'Testowo wiki',
 	'wminc-testwiki-none' => 'Żodno/Wszyjske',
-	'wminc-prefinfo-code' => 'Kod godki ISO 639',
-	'wminc-prefinfo-project' => 'Uobjer projekt Wikimedia (upcyjo uobjyrańo Inkubatora je zuůnaczůno lo używaczůw, kere robjům uogůlne proce)',
+	'wminc-prefinfo-language' => 'Godka interface (ńyznoleżno na godce testowyj wiki)',
+	'wminc-prefinfo-code' => 'Kod godki podug ISO 639',
+	'wminc-prefinfo-project' => 'Uobjer projekt Wikimedia (uopcyjo uobjyrańo Inkubatůra je zuůnaczůno lo używaczůw, kere robjům uogůlne roboty)',
 	'wminc-prefinfo-error' => 'Uostoł uobrany projekt, przi kerym trza podać kod godki.',
-	'wminc-warning-unprefixed' => "'''Pozůr''' - edytowana zajta ńy mo prefiksa!",
+	'wminc-warning-unprefixed' => "'''Pozůr:''' zajta, kerům sprowjosz, ńyma prefiksa",
 	'wminc-warning-suggest' => 'Mogesz zrobić zajta [[:$1]].',
 	'wminc-warning-suggest-move' => 'Mogesz [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} przećepnyńc zajta do $1].',
 	'right-viewuserlang' => 'Uobocz [[Special:ViewUserLang|zajta używacza a testowo wiki]]',
+	'randombytest' => 'Losowo zajta testowyj wiki',
+	'randombytest-nopages' => 'We twojij testowyj wiki ńyma zajtůw we raumje mjan $1',
 );
 
 /** Telugu (తెలుగు)
