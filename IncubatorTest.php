@@ -67,7 +67,7 @@ class IncubatorTest
 		global $wmincProjects;
 		$listProjects =	implode( '', $wmincProjects ); // something like: pbtqn
 		return (bool) preg_match( '/^W['.$listProjects.']\/[a-z][a-z][a-z]?' .
-			($onlyprefix ? '' : '' ) . '/', $title );
+			($onlyprefix ? '$' : '' ) . '/', $title );
 	}
 
 	/* 
