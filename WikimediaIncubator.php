@@ -11,7 +11,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '2.4',
+	'version' => '3.0',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -20,7 +20,7 @@ $wgExtensionCredits['other'][] = array(
 $wgGroupPermissions['*']['viewuserlang'] = false;
 $wgGroupPermissions['sysop']['viewuserlang'] = true;
 
-/* General (kind of globals) */
+/* General (globals and/or configuration) */
 $wmincPref = 'incubatortestwiki'; // Name of the preference
 $dir = dirname( __FILE__ ) . '/';
 $wmincProjects = array(
@@ -34,6 +34,12 @@ $wmincProjectSite = array(
 	'name' => 'Incubator',
 	'short' => 'inc',
 );
+$wmincTestWikiNamespaces = array(
+	NS_MAIN, NS_TALK,
+	NS_TEMPLATE, NS_TEMPLATE_TALK,
+	NS_CATEGORY, NS_CATEGORY_TALK,
+);
+$wmincLangCodeLength = 3; // can be increased if needed (depends on policy)
 
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 
@@ -42,7 +48,7 @@ $wgAutoloadClasses['SpecialViewUserLang'] = $dir . 'SpecialViewUserLang.php';
 $wgSpecialPages['ViewUserLang'] = 'SpecialViewUserLang';
 $wgSpecialPageGroups['ViewUserLang'] = 'users';
 $wgAvailableRights[] = 'viewuserlang';
-$wgHooks['ContributionsToolLinks'][] = 'efLoadViewUserLangLink';
+$wgHooks['ContributionsToolLinks'][] = 'IncubatorTest::efLoadViewUserLangLink';
 
 /* TestWiki preference */
 $wgAutoloadClasses['IncubatorTest'] = $dir . 'IncubatorTest.php';
@@ -52,7 +58,7 @@ $wgHooks['LanguageGetMagic'][] = 'IncubatorTest::magicWord';
 $wgHooks['ParserGetVariableValueSwitch'][] = 'IncubatorTest::magicWordValue';
 
 /* Edit page */
-$wgHooks['EditPage::showEditForm:initial'][] = 'IncubatorTest::editPageCheckPrefix';
+$wgHooks['EditPage::showEditForm:initial'][] = 'IncubatorTest::checkPrefixOnEditPage';
 
 /* Recent Changes */
 $wgAutoloadClasses['TestWikiRC'] = $dir . 'TestWikiRC.php';

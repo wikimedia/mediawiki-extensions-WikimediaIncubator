@@ -32,11 +32,7 @@ class SpecialViewUserLang extends SpecialPage
 			return;
 		}
 
-		if ( $subpage ) {
-			$target = $subpage;
-		} else {
-			$target = $wgRequest->getText( 'target' );
-		}
+		$target = $wgRequest->getText( 'target', $subpage );
 
 		$this->showForm( $target );
 
@@ -53,13 +49,13 @@ class SpecialViewUserLang extends SpecialPage
 		global $wgScript, $wgOut;
 
 		$wgOut->addHTML(
-			Xml::fieldset( wfMsg( 'wminc-viewuserlang' ) ) .
+			Xml::fieldset( wfMsgHtml( 'wminc-viewuserlang' ) ) .
 			Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) ) .
 			Html::hidden( 'title', $this->getTitle()->getPrefixedText() ) .
 			"<p>" .
-				Xml::inputLabel( wfMsg( 'wminc-viewuserlang-user' ), 'target', 'viewuserlang-username', 40, $target ) .
+				Xml::inputLabel( wfMsgHtml( 'wminc-viewuserlang-user' ), 'target', 'viewuserlang-username', 40, $target ) .
 				' ' .
-				Xml::submitButton( wfMsg( 'wminc-viewuserlang-go' ) ) .
+				Xml::submitButton( wfMsgHtml( 'wminc-viewuserlang-go' ) ) .
 			"</p>" .
 			Xml::closeElement( 'form' ) .
 			Xml::closeElement( 'fieldset' )
@@ -79,22 +75,21 @@ class SpecialViewUserLang extends SpecialPage
 			// show error if a user with that name does not exist
 			$wgOut->addHTML( Xml::span( wfMsg( 'wminc-userdoesnotexist', $target ), 'error' ) );
 		} else {
-			if ( IncubatorTest::isNormalPrefix() == true ) {
-				$testwiki = Linker::link( 'W' . $user->getOption($wmincPref . '-project') .
-					'/' . $user->getOption($wmincPref . '-code') );
+			if ( IncubatorTest::isContentProject() ) {
+				$testwiki = $sk->link( Title::newFromText( IncubatorTest::displayPrefix() ) );
 			} elseif ( IncubatorTest::displayPrefix() == $wmincProjectSite['short'] ) {
-				$testwiki = $wmincProjectSite['name'];
+				$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
 			} else {
-				$testwiki = wfMsg( 'wminc-testwiki-none' );
+				$testwiki = wfMsgHtml( 'wminc-testwiki-none' );
 			}
 			$name = $user->getName();
 			$wgOut->addHtml(
 				Xml::openElement( 'ul' ) .
-				'<li>' . wfMsg( 'username' ) . ' ' .
+				'<li>' . wfMsgHtml( 'username' ) . ' ' .
 					$sk->userLink( $name, $name ) . $sk->userToolLinks( $name, $name ) . '</li>' .
-				'<li>' . wfMsg( 'loginlanguagelabel', $langNames[$user->getOption( 'language' )] .
+				'<li>' . wfMsgHtml( 'loginlanguagelabel', $langNames[$user->getOption( 'language' )] .
 					' (' . $user->getOption( 'language' ) . ')' ) . '</li>' .
-				'<li>' . wfMsg( 'wminc-testwiki' ) . ' ' . $testwiki . '</li>' .
+				'<li>' . wfMsgHtml( 'wminc-testwiki' ) . ' ' . $testwiki . '</li>' .
 				Xml::closeElement( 'ul' )
 			);
 		}

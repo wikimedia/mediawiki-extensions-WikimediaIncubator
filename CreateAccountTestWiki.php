@@ -7,11 +7,11 @@
 * change their preferences (automatically is always better :p)
 */
 class AutoTestWiki {
-	function onUserCreateForm( $template ) {
+	public static function onUserCreateForm( $template ) {
 		global $wgRequest, $wmincProjects;
 		$projectvalue = strtolower( $wgRequest->getVal( 'testwikiproject', '' ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'testwikicode', '' ) );
-		if ( preg_match( '/[a-z][a-z][a-z]?/', $codevalue ) && in_array( $projectvalue, (array)$wmincProjects ) ) {
+		if ( IncubatorTest::validateLanguageCode( $codevalue ) && in_array( $projectvalue, (array)$wmincProjects ) ) {
 			$template->set( 'header',
 				Html::hidden('testwiki-project', $projectvalue).
 				Html::hidden('testwiki-code', $codevalue)
@@ -20,13 +20,13 @@ class AutoTestWiki {
 		return true;
 	}
 
-	function onAddNewAccount( $user ) {
-		global $wgRequest, $wmincPref;
-		$getprojectvalue = $wgRequest->getVal( 'testwiki-project' );
-		$getcodevalue = $wgRequest->getVal( 'testwiki-code' );
-		if ( $getprojectvalue && $getcodevalue ) {
-			$user->setOption( $wmincPref . '-project', $getprojectvalue );
-			$user->setOption( $wmincPref . '-code', $getcodevalue );
+	public static function onAddNewAccount( $user ) {
+		global $wgRequest, $wmincProjects, $wmincPref;
+		$projectvalue = $wgRequest->getVal( 'testwiki-project' );
+		$codevalue = $wgRequest->getVal( 'testwiki-code' );
+		if ( IncubatorTest::validateLanguageCode( $codevalue ) && in_array( $projectvalue, (array)$wmincProjects ) ) {
+			$user->setOption( $wmincPref . '-project', $projectvalue );
+			$user->setOption( $wmincPref . '-code', $codevalue );
 			$user->saveSettings();
 		}
 		return true;

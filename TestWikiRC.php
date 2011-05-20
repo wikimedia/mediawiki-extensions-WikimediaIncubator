@@ -5,15 +5,15 @@
 
 class TestWikiRC {
 	static function onRcQuery( &$conds, &$tables, &$join_conds, $opts ) {
-		global $wgUser, $wgRequest, $wmincPref, $wmincProjectSite;
+		global $wgUser, $wgRequest, $wmincPref, $wmincProjectSite, $wmincTestWikiNamespaces;
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') ) );
-		$fullprefix = 'W' . $projectvalue . '/' . $codevalue;
+		$fullprefix = IncubatorTest::displayPrefix( $projectvalue, $codevalue );
 		$opts->add( 'rc-testwiki-project', false );
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
 		$opts->add( 'rc-testwiki-code', false );
 		$opts->setValue( 'rc-testwiki-code', $codevalue );
-		if ( $projectvalue == 'none' OR $projectvalue == '' ) {
+		if ( $projectvalue == 'none' || $projectvalue == '' ) {
 			// If "none" is selected, display normal recent changes
 			return true;
 		} elseif ( $projectvalue == $wmincProjectSite['short'] ) {
@@ -23,8 +23,7 @@ class TestWikiRC {
 		} else {
 			// Else, display changes to the selected test wiki (in main, template and category namespace)
 			$dbr = wfGetDB( DB_SLAVE );
-			$namespaces = array( NS_MAIN, NS_TALK, NS_TEMPLATE, NS_TEMPLATE_TALK, NS_CATEGORY, NS_CATEGORY_TALK );
-			$conds[] = 'rc_namespace IN (' . $dbr->makeList( $namespaces ) . ')';
+			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
 			$conds[] = 'rc_title ' . $dbr->buildLike( $fullprefix . '/', $dbr->anyString() ) .
 			' OR rc_title = ' . $dbr->addQuotes( $fullprefix );
 			return true;
@@ -32,7 +31,7 @@ class TestWikiRC {
 	}
 
 	static function onRcForm( &$items, $opts ) {
-		global $wgUser, $wgRequest, $wmincPref, $wmincProjects, $wmincProjectSite;
+		global $wgUser, $wgRequest, $wmincPref, $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
 		
 		$projectvalue = $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') );
 		$langcodevalue = $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') );
@@ -45,7 +44,8 @@ class TestWikiRC {
 			$select->addOption( $name, $prefix );
 		}
 		$select->addOption( $wmincProjectSite['name'], $wmincProjectSite['short'] );
-		$langcode = Xml::input( 'rc-testwiki-code', 3, $langcodevalue, array( 'id' => 'rc-testwiki-code', 'maxlength' => 3 ) );
+		$langcode = Xml::input( 'rc-testwiki-code', (int)$wmincLangCodeLength, $langcodevalue,
+			array( 'id' => 'rc-testwiki-code', 'maxlength' => (int)$wmincLangCodeLength ) );
 		$items['testwiki'] = array( $label, $select->getHTML() . ' ' . $langcode );
 		return true;
 	}
