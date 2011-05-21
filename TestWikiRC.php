@@ -8,7 +8,7 @@ class TestWikiRC {
 		global $wgUser, $wgRequest, $wmincPref, $wmincProjectSite, $wmincTestWikiNamespaces;
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') ) );
-		$fullprefix = IncubatorTest::displayPrefix( $projectvalue, $codevalue );
+		$prefix = IncubatorTest::displayPrefix( $projectvalue, $codevalue );
 		$opts->add( 'rc-testwiki-project', false );
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
 		$opts->add( 'rc-testwiki-code', false );
@@ -18,16 +18,16 @@ class TestWikiRC {
 			return true;
 		} elseif ( $projectvalue == $wmincProjectSite['short'] ) {
 			// If project site is selected, display all changes except test wiki changes
-			$conds[] = 'rc_title not like \'W_/%%\' OR \'W_/%%/%%\'';
-			return true;
+			$dbr = wfGetDB( DB_SLAVE );
+			$conds[] = 'rc_title NOT ' . $dbr->buildLike( 'W', $dbr->anyChar(), '/', $dbr->anyString() );
 		} else {
-			// Else, display changes to the selected test wiki (in main, template and category namespace)
+			// Else, display changes to the selected test wiki in the appropriate namespaces
 			$dbr = wfGetDB( DB_SLAVE );
 			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
-			$conds[] = 'rc_title ' . $dbr->buildLike( $fullprefix . '/', $dbr->anyString() ) .
-			' OR rc_title = ' . $dbr->addQuotes( $fullprefix );
-			return true;
+			$conds[] = 'rc_title ' . $dbr->buildLike( $prefix . '/', $dbr->anyString() ) .
+			' OR rc_title = ' . $dbr->addQuotes( $prefix );
 		}
+		return true;
 	}
 
 	static function onRcForm( &$items, $opts ) {

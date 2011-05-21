@@ -1,7 +1,9 @@
 <?php
 if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" ); }
 /**
- * An extension that adds test wiki features (such as a preference, recent changes for a test wiki, ...) specifically for the Wikimedia Incubator
+ * An extension that adds features (such as a preference, recent changes, ...)
+ * for a test wiki system (i.e. incubated wikis inside one actual wiki)
+ * mainly intended for the Wikimedia Incubator
  *
  * @file
  * @ingroup Extensions
@@ -11,7 +13,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '3.0',
+	'version' => '3.0.1',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
