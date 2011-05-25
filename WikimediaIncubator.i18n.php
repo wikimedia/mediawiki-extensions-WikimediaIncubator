@@ -1258,6 +1258,7 @@ $messages['mn'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Aurora
  * @author Yosri
  */
@@ -1266,6 +1267,7 @@ $messages['ms'] = array(
 	'wminc-viewuserlang' => 'Lihat bahasa pengguna dan wiki ujian',
 	'wminc-viewuserlang-user' => 'Nama pengguna:',
 	'wminc-viewuserlang-go' => 'Pergi',
+	'wminc-userdoesnotexist' => 'Pengguna "$1" tidak wujud.',
 	'wminc-testwiki' => 'Wiki ujian:',
 	'wminc-testwiki-none' => 'Tiada/Semua',
 	'wminc-prefinfo-language' => 'Bahasa antaramuka anda - bebas dari wiki ujian anda',
