@@ -67,7 +67,7 @@ class SpecialViewUserLang extends SpecialPage
 	 * @param $target Mixed: user whose language and test wiki we're looking up
 	 */
 	function showInfo( $target ) {
-		global $wgOut, $wgLang, $wmincPref, $wmincProjectSite;
+		global $wgOut, $wmincPref, $wmincProjectSite;
 		$sk = $this->getSkin();
 		$user = User::newFromName( $target );
 		$langNames = Language::getLanguageNames();
@@ -75,9 +75,13 @@ class SpecialViewUserLang extends SpecialPage
 			// show error if a user with that name does not exist
 			$wgOut->addHTML( Xml::span( wfMsg( 'wminc-userdoesnotexist', $target ), 'error' ) );
 		} else {
+			$prefix = IncubatorTest::displayPrefix(
+				$user->getOption( $wmincPref . '-project' ),
+				$user->getOption( $wmincPref . '-code' )
+			);
 			if ( IncubatorTest::isContentProject() ) {
-				$testwiki = $sk->link( Title::newFromText( IncubatorTest::displayPrefix() ) );
-			} elseif ( IncubatorTest::displayPrefix() == $wmincProjectSite['short'] ) {
+				$testwiki = $sk->link( Title::newFromText( $prefix ) );
+			} elseif ( $prefix == $wmincProjectSite['short'] ) {
 				$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
 			} else {
 				$testwiki = wfMsgHtml( 'wminc-testwiki-none' );

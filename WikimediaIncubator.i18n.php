@@ -22,12 +22,14 @@ $messages['en'] = array(
 	'wminc-prefinfo-code' => 'The ISO 639 language code',
 	'wminc-prefinfo-project' => 'Select the Wikimedia project (Incubator option is for users who do general work)',
 	'wminc-prefinfo-error' => 'You selected a project that needs a language code.',
-	'wminc-warning-unprefixed' => "'''Warning:''' The page you are editing is unprefixed!",
-	'wminc-warning-suggest' => 'You can create a page at [[:$1]].',
-	'wminc-warning-suggest-move' => 'You can [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} move this page to $1].',
+	'wminc-error-move-unprefixed' => "Error: The page you are trying to move to [[{{MediaWiki:Helppage}}|is unprefixed or has a wrong prefix]]!",
+	'wminc-error-wronglangcode' => "'''Error:''' The page you are trying to edit contains a [[{{MediaWiki:Helppage}}|wrong language code]] \"$1\"!",
+	'wminc-error-unprefixed' => "'''Error:''' The page you are trying to edit is [[{{MediaWiki:Helppage}}|unprefixed]]!",
+	'wminc-error-unprefixed-suggest' => "'''Error:''' The page you are trying to edit is [[{{MediaWiki:Helppage}}|unprefixed]]! You can create a page at [[:$1]].",
 	'right-viewuserlang' => 'View [[Special:ViewUserLang|user language and test wiki]]',
 	'randombytest' => 'Random page by test wiki',
 	'randombytest-nopages' => 'There are no pages in your test wiki, in the namespace: $1.',
+	'wminc-recentchanges-all' => 'All recent changes',
 );
 
 /** Message documentation (Message documentation)

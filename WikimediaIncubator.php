@@ -13,7 +13,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '3.0.1',
+	'version' => '3.1.0',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -25,6 +25,7 @@ $wgGroupPermissions['sysop']['viewuserlang'] = true;
 /* General (globals and/or configuration) */
 $wmincPref = 'incubatortestwiki'; // Name of the preference
 $dir = dirname( __FILE__ ) . '/';
+// only one-letter codes can be used for projects
 $wmincProjects = array(
 	'Wikipedia' => 'p',
 	'Wikibooks' => 'b',
@@ -41,7 +42,11 @@ $wmincTestWikiNamespaces = array(
 	NS_TEMPLATE, NS_TEMPLATE_TALK,
 	NS_CATEGORY, NS_CATEGORY_TALK,
 );
-$wmincLangCodeLength = 3; // can be increased if needed (depends on policy)
+$wmincLangCodeLength = 12; // can be changed if needed (depends on policy)
+// Pseudo category namespaces like "Category:Maintenance:Delete", for easy whitelisting and structure
+$wmincPseudoCategoryNSes = array(
+	'Incubator', 'Help', 'Users', 'Maintenance', 'Files',
+);
 
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 
@@ -59,8 +64,9 @@ $wgHooks['MagicWordwgVariableIDs'][] = 'IncubatorTest::magicWordVariable';
 $wgHooks['LanguageGetMagic'][] = 'IncubatorTest::magicWord';
 $wgHooks['ParserGetVariableValueSwitch'][] = 'IncubatorTest::magicWordValue';
 
-/* Edit page */
-$wgHooks['EditPage::showEditForm:initial'][] = 'IncubatorTest::checkPrefixOnEditPage';
+/* Create/move page permissions */
+$wgHooks['getUserPermissionsErrors'][] = 'IncubatorTest::checkPrefixCreatePermissions';
+$wgHooks['AbortMove'][] = 'IncubatorTest::checkPrefixMovePermissions';
 
 /* Recent Changes */
 $wgAutoloadClasses['TestWikiRC'] = $dir . 'TestWikiRC.php';

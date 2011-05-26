@@ -49,25 +49,63 @@ class IncubatorTest
 	}
 
 	/*
-	* This validates a language code. Currently it is set
-	* to only allow two or three-letter codes strictly, but
-	* it can be changed when the policy changes.
-	* See also $wmincLangCodeLength.
+	* This validates a given language code.
+	* Only "xx[x]" and "xx[x]-x[xxxxxxxx]" are allowed.
 	*/
 	static function validateLanguageCode( $code ) {
-		return (bool) preg_match( '/[a-z][a-z][a-z]?/', $code );
+		global $wmincLangCodeLength;
+		if( strlen( $code ) > $wmincLangCodeLength ) { return false; }
+		if( $code == 'be-x-old' ) { return true; } // one exception...
+		return (bool) preg_match( '/^[a-z][a-z][a-z]?(-[a-z]+)?$/', $code );
 	}
 
 	/*
-	* Same as above, but for full prefix in a given title.
+	* This validates a full prefix in a given title.
+	* It gives an array with the project and language code, containing
+	* the key 'error' if it is invalid.
+	* Use validatePrefix() if you just want true or false.
+	* Use displayPrefixedTitle() to make a prefix page title!
+	*
 	* @param $onlyprefix Bool Whether to validate only the prefix, or
 	* also allow other text within the page title (Wx/xxx vs Wx/xxx/Text)
 	*/
-	static function validatePrefix( $title, $onlyprefix = false ) {
+	static function analyzePrefix( $title, $onlyprefix = false ) {
+		$data = array();
+		// split title into parts
+		$titleparts = explode( '/', $title );
+		if( !is_array( $titleparts ) || !isset( $titleparts[1] ) ) {
+			$data['error'] = 'noslash';
+		} else {
+			$data['project'] = $titleparts[0][1]; // get the x from Wx/...
+			$data['lang'] = $titleparts[1];
+			$data['prefix'] = 'W'.$data['project'].'/'.$data['lang'];
+			// check language code
+			if( !self::validateLanguageCode( $data['lang'] ) ) {
+				$data['error'] = 'invalidlangcode';
+			}
+		}
 		global $wmincProjects;
 		$listProjects =	implode( '', $wmincProjects ); // something like: pbtqn
-		return (bool) preg_match( '/^W['.$listProjects.']\/[a-z][a-z][a-z]?' .
-			($onlyprefix ? '$' : '' ) . '/', $title );
+		if( !preg_match( '/^W['.$listProjects.']\/[a-z-]+' .
+			($onlyprefix ? '$/' : '(\/.+)?$/' ), $title ) ) {
+			$data['error'] = 'invalidprefix';
+		}
+		if( !$onlyprefix && ( isset( $data['error'] ) &&
+			$data['error'] != 'invalidprefix' ) ) { // there is a Page_title
+			$prefixn = strlen( $data['prefix'].'/' ); // number of chars in prefix
+			// get Page_title from Wx/xx/Page_title
+			$data['realtitle'] = substr( $title, $prefixn );
+		}
+		return $data; // return an array with information
+	}
+
+	/*
+	* This returns simply true or false based on analyzePrefix().
+	*/
+	static function validatePrefix( $title, $onlyprefix = false ) {
+		$data = self::analyzePrefix( $title, $onlyprefix );
+		if( isset( $data['error'] ) ) { return true; }
+		return false;
 	}
 
 	/* 
@@ -99,7 +137,7 @@ class IncubatorTest
 
 	/*
 	* Makes a full prefixed title of a given page title and namespace
-	* @param $ns Tnt numeric value of namespace
+	* @param $ns Int numeric value of namespace
 	*/
 	static function displayPrefixedTitle( $title, $ns = 0 ) {
 		global $wgLang, $wmincTestWikiNamespaces;
@@ -139,40 +177,67 @@ class IncubatorTest
 		return true;
 	}
 
-	static function checkPrefixOnEditPage( $editpage ) {
-		global $wmincProjectSite;
-		// If user has "project" as test wiki preference, it isn't needed to check
-		if ( self::displayPrefix() == $wmincProjectSite['short'] ) {
+	/* Return an error if the user wants to create an unprefixed page
+	*/
+	static function checkPrefixCreatePermissions( $title, $user, $action, &$result ) {
+		global $wmincProjectSite, $wmincTestWikiNamespaces, $wmincPseudoCategoryNSes;
+		$titletext = $title->getText();
+		$ns = $title->getNamespace();
+		$prefixdata = self::analyzePrefix( $titletext );
+		if( $action != 'create' ) {
+			// only check on page creation
 			return true;
-		}
-		global $wgTitle, $wmincTestWikiNamespaces;
-		$title = $wgTitle->getText();
-		$ns = $wgTitle->getNamespace();
-		// If it's in one of the content namespaces or if the page title has a prefix, return
-		if ( !in_array( $ns, $wmincTestWikiNamespaces ) || self::validatePrefix( $title ) ) {
+		} elseif( self::displayPrefix() == $wmincProjectSite['short'] ) {
+			// If user has "project" as test wiki preference, it isn't needed to check
 			return true;
-		}
-		$warning = '<div id="wminc-warning"><span id="wm-warning-unprefixed">'
-			. wfMsg( 'wminc-warning-unprefixed' )
-			. '</span>';
-		// If the user has a test wiki pref, suggest a page title with prefix
-		if ( self::isContentProject() ) {
-			global $wgUser;
-			$suggest = self::displayPrefixedTitle( $title, $ns );
-			if ( !$wgTitle->exists() ) { // Creating a page, so suggest to create a prefixed page
-				$warning .= ' <span id="wminc-warning-suggest">'
-					. wfMsg( 'wminc-warning-suggest', $suggest )
-					. '</span>';
-			} elseif ( $wgUser->isAllowed( 'move' ) ) { // Page exists, so suggest to move
-				$warning .= ' <span id="wminc-warning-suggest-move" class="plainlinks">'
-					. wfMsg( 'wminc-warning-suggest-move', $suggest, wfUrlencode( $suggest ), wfUrlencode( $wgTitle ) )
-					. '</span>';
+		} elseif( !in_array( $ns, $wmincTestWikiNamespaces ) ) {
+			// OK if it's not in one of the content namespaces
+			return true;
+		} elseif( !isset( $prefixdata['error'] ) ) {
+			// no error in prefix -> no error to show
+			return true;
+		} elseif( ($ns == NS_CATEGORY || $ns == NS_CATEGORY_TALK) &&
+			preg_match('/^('.implode('|',$wmincPseudoCategoryNSes).'):.+$/', $titletext) ) {
+			// whitelisting
+			return true;
+		} elseif( $prefixdata['error'] == 'invalidlangcode' ) {
+			$error[] = array( 'wminc-error-wronglangcode', $prefixdata['lang'] );
+		} elseif ( self::isContentProject() ) {
+			// If the user has a test wiki pref, suggest a page title with prefix
+			$suggesttitle = (isset( $prefixdata['realtitle'] ) ?
+				$prefixdata['realtitle'] : $titletext );
+			$suggest = self::displayPrefixedTitle( $suggesttitle, $ns );
+			if ( !$title->exists() ) {
+				// Creating a page, so suggest to create a prefixed page
+				$error[] = array( 'wminc-error-unprefixed-suggest', $suggest );
 			}
+		} else {
+			$error = 'wminc-error-unprefixed';
 		}
-		$warning .= '</div>';
-		global $wgOut;
-		$wgOut->addWikiText( $warning );
-		return true;
+		$result = $error;
+		return false;
+	}
+
+	/* Return an error if the user wants to move 
+	* an existing page to an unprefixed title
+	*/
+	static function checkPrefixMovePermissions( $oldtitle, $newtitle, $user, &$error ) {
+		global $wmincProjectSite, $wmincTestWikiNamespaces;
+		$prefixdata = self::analyzePrefix( $newtitle->getText() );
+		$ns = $newtitle->getNamespace();
+		if( !isset( $prefixdata['error'] ) ) {
+			// if there is no error with the page title
+			return true;
+		} elseif( self::displayPrefix() == $wmincProjectSite['short'] ) {
+			// If user has "project" as test wiki preference, it isn't needed to check
+			return true;
+		} elseif( !in_array( $ns, $wmincTestWikiNamespaces ) ) {
+			// OK if it's not in one of the content namespaces
+			return true;
+		}
+		// now there should be an error with the new page title
+		$error = wfMsgWikiHtml( 'wminc-error-move-unprefixed' );
+		return false;
 	}
 
 	/**
