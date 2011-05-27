@@ -54,11 +54,11 @@ $messages['qqq'] = array(
 	'wminc-prefinfo-code' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-prefinfo-project' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-prefinfo-error' => 'See [[:File:Incubator-testwiki-preference.jpg]]. If the user selected a Wikimedia project but not a language code, this error message is shown.',
-	'wminc-warning-unprefixed' => 'This warning is shown when creating or editing a page that does not match <code>/W[bnpqt]\\/[a-z][a-z][a-z]?/</code>.',
-	'wminc-warning-suggest' => '* $1 is user prefix + current page title (for example "Wp/nl/Pagina" when creating "Pagina").',
-	'wminc-warning-suggest-move' => '* $1 is user prefix + current page title (for example "Wp/nl/Pagina" when creating "Pagina").
-* $2 is the same, but for use in URLs.
-* $3 is the current page title.',
+	'wminc-error-move-unprefixed' => 'Do not change <code><nowiki>{{MediaWiki:Helppage}}</nowiki></code>',
+	'wminc-error-wronglangcode' => '* $1 is a language code.
+* Do not change <code><nowiki>{{MediaWiki:Helppage}}</nowiki></code>',
+	'wminc-error-unprefixed-suggest' => '* $1 is a new page title based on the page title the user is currently trying to edit. E.g. "Test" would become "Wx/xx/Test".
+* Do not change <code><nowiki>{{MediaWiki:Helppage}}</nowiki></code>',
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}',
 );
 
@@ -410,35 +410,39 @@ $messages['da'] = array(
  * @author Umherirrender
  */
 $messages['de'] = array(
-	'wminc-desc' => 'Testwiki-System für den Wikimedia Incubator',
+	'wminc-desc' => 'Ermöglicht Testwikis für den Wikimedia Incubator',
 	'wminc-viewuserlang' => 'Benutzersprache und Testwiki einsehen',
 	'wminc-viewuserlang-user' => 'Benutzername:',
 	'wminc-viewuserlang-go' => 'Holen',
 	'wminc-userdoesnotexist' => 'Der Benutzer „$1“ ist nicht vorhanden.',
 	'wminc-testwiki' => 'Testwiki:',
-	'wminc-testwiki-none' => 'Keins/Alle',
+	'wminc-testwiki-none' => 'Keine/ Alle',
 	'wminc-prefinfo-language' => 'Sprache deiner Benutzeroberfläche - vom Testwiki unabhängig',
 	'wminc-prefinfo-code' => 'Der ISO-639-Sprachcode',
 	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem du hier arbeitest („Incubator“ für Benutzer, die allgemeine Aufgaben übernehmen)',
 	'wminc-prefinfo-error' => 'Bei diesem Projekt muss ein Sprachcode angeben werden!',
-	'wminc-warning-unprefixed' => 'Achtung: Du bearbeitest eine Seite ohne Präfix!',
-	'wminc-warning-suggest' => 'Du kannst hier eine Seite erstellen: [[:$1]].',
-	'wminc-warning-suggest-move' => 'Du kannst [{{fullurl:{{#special:MovePage}}/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
+	'wminc-error-move-unprefixed' => 'Fehler: Die Seite die du zu verschieben versuchst hat entweder [[{{MediaWiki:Helppage}}|keinen oder einen falschen Präfix]].',
+	'wminc-error-wronglangcode' => "'''Fehler:''' Die Seite die du zu bearbeiten versuchst hat einen [[{{MediaWiki:Helppage}}|falschen Sprachcode]]: \"\$1\".",
+	'wminc-error-unprefixed' => "'''Fehler:''' Die Seite die du zu bearbeiten versuchst hat [[{{MediaWiki:Helppage}}|keinen Präfix]].",
+	'wminc-error-unprefixed-suggest' => "'''Fehler:''' Die Seite die du zu bearbeiten versuchst hat [[{{MediaWiki:Helppage}}|keinen Präfix]]. Du kannst unter [[:$1]] eine Seite erstellen.",
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benutzersprache und Testwiki]] anschauen',
 	'randombytest' => 'Zufällige Seite aus dem Testwiki',
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ deines Testwikis.',
+	'wminc-recentchanges-all' => 'Alle letzte Änderungen',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
  * @author MF-Warburg
  * @author Umherirrender
  */
 $messages['de-formal'] = array(
 	'wminc-prefinfo-language' => 'Sprache Ihrer Benutzeroberfläche - vom Testwiki unabhängig',
 	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem Sie hier arbeiten („Incubator“ für Benutzer, die allgemeine Aufgaben übernehmen)',
-	'wminc-warning-unprefixed' => 'Achtung: Sie bearbeiten eine Seite ohne Präfix!',
-	'wminc-warning-suggest' => 'Sie können hier eine Seite erstellen: [[:$1]].',
-	'wminc-warning-suggest-move' => 'Sie können [{{fullurl:{{#special:MovePage}}/$3|wpNewTitle=$2}} diese Seite nach $1 verschieben].',
+	'wminc-error-move-unprefixed' => 'Fehler: Die Seite die Sie zu verschieben versuchen hat entweder [[{{MediaWiki:Helppage}}|keinen oder einen falschen Präfix]].',
+	'wminc-error-wronglangcode' => "'''Fehler:''' Die Seite die Sie zu bearbeiten versuchen hat einen [[{{MediaWiki:Helppage}}|falschen Sprachcode]]: \"\$1\".",
+	'wminc-error-unprefixed' => "'''Fehler:''' Die Seite die Sie zu bearbeiten versuchen hat [[{{MediaWiki:Helppage}}|keinen Präfix]].",
+	'wminc-error-unprefixed-suggest' => "'''Fehler:''' Die Seite die Sie zu bearbeiten versuchen hat [[{{MediaWiki:Helppage}}|keinen Präfix]]. Sie können unter [[:$1]] eine Seite erstellen.",
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ Ihres Testwikis.',
 );
 
@@ -704,12 +708,10 @@ $messages['gl'] = array(
 	'wminc-prefinfo-code' => 'O código de lingua ISO 639',
 	'wminc-prefinfo-project' => 'Seleccione o proxecto Wikimedia (a opción da Incubadora é para os usuarios que fan traballo xeral)',
 	'wminc-prefinfo-error' => 'Escolleu un proxecto que precisa dun código de lingua.',
-	'wminc-warning-unprefixed' => 'Aviso: a páxina que está editando non ten prefixo!',
-	'wminc-warning-suggest' => 'Pode crear a páxina en "[[:$1]]".',
-	'wminc-warning-suggest-move' => 'Pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta páxina a "$1"].',
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|a lingua do usuario e o wiki de probas]]',
 	'randombytest' => 'Páxina ao chou para o wiki de proba',
 	'randombytest-nopages' => 'O seu wiki de proba aínda non ten páxinas no espazo de nomes: $1.',
+	'wminc-recentchanges-all' => 'Todos os cambios recentes',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -781,12 +783,14 @@ $messages['he'] = array(
 	'wminc-prefinfo-code' => 'קוד השפה לפי ISO 639',
 	'wminc-prefinfo-project' => 'בחרו אחד ממיזמי ויקימדיה (האפשרות "אינקובטור" מיועדת למשתמשים המבצעים עבודה כללית)',
 	'wminc-prefinfo-error' => 'בחרתם במיזם הדורש קוד שפה.',
-	'wminc-warning-unprefixed' => "'''אזהרה:''' לדף שאתם עורכים אין קידומת!",
-	'wminc-warning-suggest' => 'באפשרותכם ליצור דף בשם [[:$1]].',
-	'wminc-warning-suggest-move' => 'באפשרותכם [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} להעביר דף זה ל$1].',
+	'wminc-error-move-unprefixed' => 'שגיאה: הדף שאתם מנסים להעביר אליו [[{{MediaWiki:Helppage}}|אינו בעל תחילית או שהוא בעלת תחילית שאינה נכונה]]!',
+	'wminc-error-wronglangcode' => "'''שגיאה:''' הדף שאתם מנסים לערוך מכיל [[{{MediaWiki:Helppage}}|קוד שפה שגוי]] – \"\$1\"!",
+	'wminc-error-unprefixed' => 'שגיאה: הדף שאתם מנסים להעביר אליו [[{{MediaWiki:Helppage}}|אינו בעל תחילית]]!',
+	'wminc-error-unprefixed-suggest' => 'שגיאה: הדף שאתם מנסים להעביר אליו [[{{MediaWiki:Helppage}}|אינו בעל תחילית]]! אפשר ליצור דף ב־[[:$1]].',
 	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הניסיוני]]',
 	'randombytest' => 'דף אקראי באתר ויקי ניסיוני',
 	'randombytest-nopages' => 'אין דפים באתר הוויקי הניסיוני שלכם, במרחב השם: $1.',
+	'wminc-recentchanges-all' => 'כל השינויים האחרונים',
 );
 
 /** Hiligaynon (Ilonggo)
@@ -1220,12 +1224,14 @@ $messages['mk'] = array(
 	'wminc-prefinfo-code' => 'Јазичниот ISO 639 код',
 	'wminc-prefinfo-project' => 'Изберете го проектот (можноста за Инкубатор е за корисници кои работат општи задачи)',
 	'wminc-prefinfo-error' => 'Избравте проект на кој му треба јазичен код.',
-	'wminc-warning-unprefixed' => "'''Предупредување:''' Страницата што ја уредувате нема префикс!",
-	'wminc-warning-suggest' => 'Можете да созададете страница на [[:$1]].',
-	'wminc-warning-suggest-move' => 'Можете  [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} ја преместите страницава на $1].',
+	'wminc-error-move-unprefixed' => 'Грешка: Страницата што сакате да ја преместите на [[{{MediaWiki:Helppage}}|нема префикс или префиксот ѝ е грешен]]!',
+	'wminc-error-wronglangcode' => "'''Грешка:''' Страницата што сакате да ја уредите содржи [[{{MediaWiki:Helppage}}|погрешен јазичен код]] „$1“!",
+	'wminc-error-unprefixed' => "'''Грешка:''' Страницата што сакате да ја уредите [[{{MediaWiki:Helppage}}|нема префикс]]!",
+	'wminc-error-unprefixed-suggest' => "'''Грешка:''' Страницата што сакате да ја уредите [[{{MediaWiki:Helppage}}|нема префикс]]! Можете да создадете страница на [[:$1]].",
 	'right-viewuserlang' => 'Погледајте [[Special:ViewUserLang|кориснички јазик и текст вики]]',
 	'randombytest' => 'Случајна страница од тест вики',
 	'randombytest-nopages' => 'Не постојат страници на вашето пробно вики, во именскиот простор: $1.',
+	'wminc-recentchanges-all' => 'Сите скорешни промени',
 );
 
 /** Malayalam (മലയാളം)
@@ -1332,12 +1338,14 @@ $messages['nl'] = array(
 	'wminc-prefinfo-code' => 'De ISO 639-taalcode',
 	'wminc-prefinfo-project' => 'Selecteer het Wikimedia-project (Incubator-optie is voor gebruikers die algemeen werk doen)',
 	'wminc-prefinfo-error' => 'U selecteerde een project dat een taalcode nodig heeft.',
-	'wminc-warning-unprefixed' => 'Waarschuwing: de pagina die u aan het bewerken bent, heeft geen voorvoegsel!',
-	'wminc-warning-suggest' => 'U kunt een pagina aanmaken op [[:$1]].',
-	'wminc-warning-suggest-move' => 'U kunt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} deze pagina hernoemen naar $1].',
+	'wminc-error-move-unprefixed' => 'Fout: De pagina waarnaar u probeert te hernoemen [[{{MediaWiki:Helppage}}|heeft geen prefix of een verkeerde prefix]]!',
+	'wminc-error-wronglangcode' => "'''Fout:''' De pagina die u probeert te bewerken bevat een [[{{MediaWiki:Helppage}}|verkeerde taalcode]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Fout:''' De pagina die u probeert te bewerken heeft [[{{MediaWiki:Helppage}}|geen prefix]]!",
+	'wminc-error-unprefixed-suggest' => "'''Fout:''' De pagina die u probeert te bewerken heeft [[{{MediaWiki:Helppage}}|geen prefix]]! U kunt een pagina aanmaken op [[:$1]].",
 	'right-viewuserlang' => '[[Special:ViewUserLang|Gebruikerstaal en test wiki]] bekijken',
 	'randombytest' => 'Willekeurige pagina uit testwiki',
 	'randombytest-nopages' => "Er zijn geen pagina's in uw testwiki in de naamruimte $1.",
+	'wminc-recentchanges-all' => 'Alle recente wijzigingen',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -1501,12 +1509,14 @@ $messages['pt'] = array(
 	'wminc-prefinfo-code' => 'O código de língua ISO 639',
 	'wminc-prefinfo-project' => 'Seleccione o projeto Wikimedia (a opção Incubadora é para utilizadores que fazem trabalho geral)',
 	'wminc-prefinfo-error' => 'Seleccionou um projecto que necessita de um código de língua.',
-	'wminc-warning-unprefixed' => 'Aviso: a página que está a editar não tem prefixo!',
-	'wminc-warning-suggest' => 'Pode criar uma página em [[:$1]].',
-	'wminc-warning-suggest-move' => 'Pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
+	'wminc-error-move-unprefixed' => "'''Erro:''' A página de destino [[{{MediaWiki:Helppage}}|não tem prefixo ou tem um prefixo incorrecto]]!",
+	'wminc-error-wronglangcode' => "'''Erro:''' A página que está a tentar editar tem um [[{{MediaWiki:Helppage}}|código de língua incorrecto]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Erro:''' A página que está a tentar editar [[{{MediaWiki:Helppage}}|não tem prefixo]]!",
+	'wminc-error-unprefixed-suggest' => "'''Erro:''' A página que está a tentar editar [[{{MediaWiki:Helppage}}|não tem prefixo]]! Pode criar uma página em [[:$1]].",
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|língua do utilizador e wiki de testes]]',
 	'randombytest' => 'Página aleatória da wiki de testes',
 	'randombytest-nopages' => 'Não há páginas na sua wiki de testes, no espaço nominal: $1.',
+	'wminc-recentchanges-all' => 'Todas as mudanças recentes',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
