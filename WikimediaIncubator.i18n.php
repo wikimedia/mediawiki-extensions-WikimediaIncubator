@@ -416,19 +416,19 @@ $messages['de'] = array(
 	'wminc-viewuserlang-go' => 'Holen',
 	'wminc-userdoesnotexist' => 'Der Benutzer „$1“ ist nicht vorhanden.',
 	'wminc-testwiki' => 'Testwiki:',
-	'wminc-testwiki-none' => 'Keine/ Alle',
+	'wminc-testwiki-none' => 'Keins/Alle',
 	'wminc-prefinfo-language' => 'Sprache deiner Benutzeroberfläche - vom Testwiki unabhängig',
 	'wminc-prefinfo-code' => 'Der ISO-639-Sprachcode',
 	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem du hier arbeitest („Incubator“ für Benutzer, die allgemeine Aufgaben übernehmen)',
 	'wminc-prefinfo-error' => 'Bei diesem Projekt muss ein Sprachcode angeben werden!',
-	'wminc-error-move-unprefixed' => 'Fehler: Die Seite die du zu verschieben versuchst hat entweder [[{{MediaWiki:Helppage}}|keinen oder einen falschen Präfix]].',
-	'wminc-error-wronglangcode' => "'''Fehler:''' Die Seite die du zu bearbeiten versuchst hat einen [[{{MediaWiki:Helppage}}|falschen Sprachcode]]: \"\$1\".",
-	'wminc-error-unprefixed' => "'''Fehler:''' Die Seite die du zu bearbeiten versuchst hat [[{{MediaWiki:Helppage}}|keinen Präfix]].",
-	'wminc-error-unprefixed-suggest' => "'''Fehler:''' Die Seite die du zu bearbeiten versuchst hat [[{{MediaWiki:Helppage}}|keinen Präfix]]. Du kannst unter [[:$1]] eine Seite erstellen.",
+	'wminc-error-move-unprefixed' => 'Fehler: Die Seite, die du verschieben willst, hat [[{{MediaWiki:Helppage}}|kein oder ein falsches Präfix]].',
+	'wminc-error-wronglangcode' => "'''Fehler:''' Die Seite, die du zu bearbeiten versuchst, hat einen [[{{MediaWiki:Helppage}}|falschen Sprachcode]]: \"\$1\".",
+	'wminc-error-unprefixed' => "'''Fehler:''' Die Seite, die du zu bearbeiten versuchst, hat [[{{MediaWiki:Helppage}}|kein Präfix]].",
+	'wminc-error-unprefixed-suggest' => "'''Fehler:''' Die Seite, die du zu bearbeiten versuchst, hat [[{{MediaWiki:Helppage}}|kein Präfix]]. Du kannst unter [[:$1]] eine Seite anlegen.",
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benutzersprache und Testwiki]] anschauen',
 	'randombytest' => 'Zufällige Seite aus dem Testwiki',
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ deines Testwikis.',
-	'wminc-recentchanges-all' => 'Alle letzte Änderungen',
+	'wminc-recentchanges-all' => 'Alle letzten Änderungen',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -439,10 +439,10 @@ $messages['de'] = array(
 $messages['de-formal'] = array(
 	'wminc-prefinfo-language' => 'Sprache Ihrer Benutzeroberfläche - vom Testwiki unabhängig',
 	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem Sie hier arbeiten („Incubator“ für Benutzer, die allgemeine Aufgaben übernehmen)',
-	'wminc-error-move-unprefixed' => 'Fehler: Die Seite die Sie zu verschieben versuchen hat entweder [[{{MediaWiki:Helppage}}|keinen oder einen falschen Präfix]].',
-	'wminc-error-wronglangcode' => "'''Fehler:''' Die Seite die Sie zu bearbeiten versuchen hat einen [[{{MediaWiki:Helppage}}|falschen Sprachcode]]: \"\$1\".",
-	'wminc-error-unprefixed' => "'''Fehler:''' Die Seite die Sie zu bearbeiten versuchen hat [[{{MediaWiki:Helppage}}|keinen Präfix]].",
-	'wminc-error-unprefixed-suggest' => "'''Fehler:''' Die Seite die Sie zu bearbeiten versuchen hat [[{{MediaWiki:Helppage}}|keinen Präfix]]. Sie können unter [[:$1]] eine Seite erstellen.",
+	'wminc-error-move-unprefixed' => 'Fehler: Die Seite, die Sie verschieben wollen, hat entweder [[{{MediaWiki:Helppage}}|kein oder ein falsches Präfix]].',
+	'wminc-error-wronglangcode' => "'''Fehler:''' Die Seite, die Sie zu bearbeiten versuchen, hat einen [[{{MediaWiki:Helppage}}|falschen Sprachcode]]: \"\$1\".",
+	'wminc-error-unprefixed' => "'''Fehler:''' Die Seite, die Sie zu bearbeiten versuchen, hat [[{{MediaWiki:Helppage}}|kein Präfix]].",
+	'wminc-error-unprefixed-suggest' => "'''Fehler:''' Die Seite, die Sie zu bearbeiten versuchen, hat [[{{MediaWiki:Helppage}}|kein Präfix]]. Sie können unter [[:$1]] eine Seite anlegen.",
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ Ihres Testwikis.',
 );
 
