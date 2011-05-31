@@ -677,15 +677,13 @@ $messages['frp'] = array(
 	'wminc-viewuserlang' => 'Vêre la lengoua a l’utilisator et lo vouiqui d’èprôva',
 	'wminc-viewuserlang-user' => 'Nom d’utilisator :',
 	'wminc-viewuserlang-go' => 'Alar trovar',
+	'wminc-userdoesnotexist' => 'L’utilisator « $1 » ègziste pas.',
 	'wminc-testwiki' => 'Vouiqui d’èprôva :',
 	'wminc-testwiki-none' => 'Nion / tôs',
 	'wminc-prefinfo-language' => 'Voutra lengoua d’entèrface - endèpendenta de cela de voutron vouiqui d’èprôva',
 	'wminc-prefinfo-code' => 'Lo code ISO 639 de la lengoua',
 	'wminc-prefinfo-project' => 'Chouèsésséd lo projèt Wikimedia (lo chouèx Covosa est dèstinâ ux utilisators que font un travâly g·ènèral)',
 	'wminc-prefinfo-error' => 'Vos éd chouèsi un projèt qu’at fôta d’un code lengoua.',
-	'wminc-warning-unprefixed' => "'''Atencion :''' la pâge que vos changiéd at gins de prèfixo !",
-	'wminc-warning-suggest' => 'Vos pouede fâre la pâge a [[:$1]].',
-	'wminc-warning-suggest-move' => 'Vos pouede [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renomar ceta pâge vers $1].',
 	'right-viewuserlang' => 'Vêre la [[Special:ViewUserLang|lengoua a l’utilisator et lo vouiqui d’èprôva]]',
 	'randombytest' => 'Pâge a l’hasârd per lo vouiqui d’èprôva',
 	'randombytest-nopages' => 'Voutron vouiqui d’èprôva contint gins de pâge dens l’èspâço de noms : $1.',
@@ -1153,6 +1151,7 @@ $messages['li'] = array(
 );
 
 /** Lithuanian (Lietuvių)
+ * @author Eitvys200
  * @author Hugo.arg
  */
 $messages['lt'] = array(
@@ -1160,14 +1159,12 @@ $messages['lt'] = array(
 	'wminc-viewuserlang' => 'Ieškoti vartotojo kalbos ir testavimo wiki',
 	'wminc-viewuserlang-user' => 'Naudotojo vardas:',
 	'wminc-viewuserlang-go' => 'Eiti',
+	'wminc-userdoesnotexist' => 'Vartotojas " $1 "neegzistuoja.',
 	'wminc-testwiki' => 'Testavimo wiki:',
 	'wminc-testwiki-none' => 'Nei vienas/Visi',
 	'wminc-prefinfo-language' => 'Jūsų sąsajos kalba - nepriklausomai nuo jūsų testavimo wiki',
 	'wminc-prefinfo-code' => 'ISO 639 kalbos kodas',
 	'wminc-prefinfo-error' => 'Jūs pasirinkote projektą, kuriam reikia kalbos kodo.',
-	'wminc-warning-unprefixed' => "'''Dėmėsio:''' Puslapis, kurį bandote redaguoti, neturi priešdėlio!",
-	'wminc-warning-suggest' => 'Galite sukurti puslapį čia: [[:$1]].',
-	'wminc-warning-suggest-move' => 'Galite [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} perkelti puslapį į $1].',
 	'right-viewuserlang' => 'Žiūrėti [[Special:ViewUserLang|naudotojo kalbą ir testavimo wiki]]',
 	'randombytest' => 'Atsitiktinis puslapis iš testavimo wiki',
 );
