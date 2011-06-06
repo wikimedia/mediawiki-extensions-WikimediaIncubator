@@ -75,11 +75,10 @@ class SpecialViewUserLang extends SpecialPage
 			// show error if a user with that name does not exist
 			$wgOut->addHTML( Xml::span( wfMsg( 'wminc-userdoesnotexist', $target ), 'error' ) );
 		} else {
-			$prefix = IncubatorTest::displayPrefix(
-				$user->getOption( $wmincPref . '-project' ),
-				$user->getOption( $wmincPref . '-code' )
-			);
-			if ( IncubatorTest::isContentProject() ) {
+			$userproject = $user->getOption( $wmincPref . '-project' );
+			$usercode = $user->getOption( $wmincPref . '-code' );
+			$prefix = IncubatorTest::displayPrefix( $userproject, $usercode );
+			if ( IncubatorTest::isContentProject( $userproject ) ) {
 				$testwiki = $sk->link( Title::newFromText( $prefix ) );
 			} elseif ( $prefix == $wmincProjectSite['short'] ) {
 				$testwiki = htmlspecialchars( $wmincProjectSite['name'] );

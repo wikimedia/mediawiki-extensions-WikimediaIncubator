@@ -125,15 +125,16 @@ class IncubatorTest
 	*/
 	static function displayPrefix( $project = '', $code = '' ) {
 		global $wgUser, $wmincPref;
-		if ( ($project && $code) || self::isContentProject() ) {
+		$projectvalue = ( $project ? $project : $wgUser->getOption($wmincPref . '-project') );
+		$codevalue = ( $code ? $code : $wgUser->getOption($wmincPref . '-code') );
+		if ( self::isContentProject( $projectvalue ) ) {
 			// if parameters are set OR it falls back to user pref and
 			// he has a content project pref set  -> return the prefix
-			return 'W' . ( $project ? $project : $wgUser->getOption($wmincPref . '-project') ) .
-				'/' . ( $code ? $code : $wgUser->getOption($wmincPref . '-code') ); // return the prefix
+			return 'W' . $projectvalue . '/' . $codevalue; // return the prefix
 		} else {
 			// fall back to user pref with NO content pref set
 			// -> still provide the value (probably 'none' or 'inc')
-			return $wgUser->getOption($wmincPref . '-project');
+			return $projectvalue;
 		}
 	}
 
