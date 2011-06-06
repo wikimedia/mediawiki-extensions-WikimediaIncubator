@@ -1741,12 +1741,14 @@ $messages['sl'] = array(
 	'wminc-prefinfo-code' => 'Koda jezika ISO 639',
 	'wminc-prefinfo-project' => 'Izberite projekt Wikimedie (možnost Incubator je namenjena uporabnikom, ki opravljajo splošna dela)',
 	'wminc-prefinfo-error' => 'Izbrali ste projekt, ki zahteva kodo jezika.',
-	'wminc-warning-unprefixed' => "'''Opozorilo:''' Stran, ki jo urejate, nima predpone!",
-	'wminc-warning-suggest' => 'Ustvarite lahko stran na [[:$1]].',
-	'wminc-warning-suggest-move' => 'To stran lahko [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} prestavite na $1].',
+	'wminc-error-move-unprefixed' => 'Napaka: Stran, na katero skušate prestaviti, [[{{MediaWiki:Helppage}}|nima predpone ali ima napačno predpono]]!',
+	'wminc-error-wronglangcode' => "'''Napak:''' Stran, ki jo poskušate urediti, vsebuje [[{{MediaWiki:Helppage}}|napačno kodo jezika]] »$1«!",
+	'wminc-error-unprefixed' => "'''Napak:''' Stran, ki jo poskušate urediti, [[{{MediaWiki:Helppage}}|nima predpone]]!",
+	'wminc-error-unprefixed-suggest' => "'''Napak:''' Stran, ki jo poskušate urediti, [[{{MediaWiki:Helppage}}|nima predpone]]! Stran lahko ustvarite na [[:$1]].",
 	'right-viewuserlang' => 'Vpogled v [[Special:ViewUserLang|jezik in preizkusni wiki uporabnika]]',
 	'randombytest' => 'Naključna stran preizkusnega wikija',
 	'randombytest-nopages' => 'Na vašem wikiju ni strani v imenskem prostoru: $1.',
+	'wminc-recentchanges-all' => 'Vse zadnje spremembe',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
