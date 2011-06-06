@@ -67,8 +67,8 @@ class SpecialViewUserLang extends SpecialPage
 	 * @param $target Mixed: user whose language and test wiki we're looking up
 	 */
 	function showInfo( $target ) {
-		global $wgOut, $wmincPref, $wmincProjectSite;
-		$sk = $this->getSkin();
+		global $wgOut, $wmincPref, $wmincProjectSite, $wgUser;
+		$sk = $wgUser->getSkin();
 		$user = User::newFromName( $target );
 		$langNames = Language::getLanguageNames();
 		if ( $user == null || $user->getId() == 0 ) {
