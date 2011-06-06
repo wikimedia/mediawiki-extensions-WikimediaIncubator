@@ -76,7 +76,7 @@ class IncubatorTest
 		if( !is_array( $titleparts ) || !isset( $titleparts[1] ) ) {
 			$data['error'] = 'noslash';
 		} else {
-			$data['project'] = $titleparts[0][1]; // get the x from Wx/...
+			$data['project'] = ( isset( $titleparts[0][1] ) ? $titleparts[0][1] : '' ); // get the x from Wx/...
 			$data['lang'] = $titleparts[1];
 			$data['prefix'] = 'W'.$data['project'].'/'.$data['lang'];
 			// check language code
@@ -125,12 +125,14 @@ class IncubatorTest
 	*/
 	static function displayPrefix( $project = '', $code = '' ) {
 		global $wgUser, $wmincPref;
-		if ( self::isContentProject() ) {
-			// return the prefix
+		if ( ($project && $code) || self::isContentProject() ) {
+			// if parameters are set OR it falls back to user pref and
+			// he has a content project pref set  -> return the prefix
 			return 'W' . ( $project ? $project : $wgUser->getOption($wmincPref . '-project') ) .
 				'/' . ( $code ? $code : $wgUser->getOption($wmincPref . '-code') ); // return the prefix
 		} else {
-			// still provide the value
+			// fall back to user pref with NO content pref set
+			// -> still provide the value (probably 'none' or 'inc')
 			return $wgUser->getOption($wmincPref . '-project');
 		}
 	}
