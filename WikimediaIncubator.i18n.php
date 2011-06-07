@@ -646,6 +646,7 @@ $messages['fi'] = array(
  * @author Crochet.david
  * @author IAlex
  * @author PieRRoMaN
+ * @author Sylvain2803
  * @author Urhixidur
  */
 $messages['fr'] = array(
@@ -660,12 +661,14 @@ $messages['fr'] = array(
 	'wminc-prefinfo-code' => 'Le code ISO 639 de la langue',
 	'wminc-prefinfo-project' => 'Sélectionnez le projet Wikimedia (l’option Incubator est destinée aux utilisateurs qui font un travail général)',
 	'wminc-prefinfo-error' => 'Vous avez sélectionné un projet qui nécessite un code de langue.',
-	'wminc-warning-unprefixed' => "'''Attention :''' la page que vous modifiez n’a pas de préfixe !",
-	'wminc-warning-suggest' => 'Vous pouvez créer la page à [[:$1]].',
-	'wminc-warning-suggest-move' => 'Vous pouvez [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} renommer cette page vers $1].',
+	'wminc-error-move-unprefixed' => "Erreur : La page vers laquelle vous tentez de renommer [[{{MediaWiki:Helppage}}|n'a pas de préfixe ou a un préfixe erroné]] !",
+	'wminc-error-wronglangcode' => "'''Erreur:''' la page que vous essayez d'éditer contient un [[{{MediaWiki:Helppage}}|code de langue erroné]] \"\$1\" !",
+	'wminc-error-unprefixed' => "''' Erreur:''' la page que vous essayez d'éditer n'a [[{{MediaWiki:Helppage}}|pas de préfixe]] !",
+	'wminc-error-unprefixed-suggest' => "''' Erreur:''' la page que vous essayez d'éditer n'a [[{{MediaWiki:Helppage}}|pas de préfixe]] ! Vous pouvez créer la page suivante : [[:$1]].",
 	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|la langue de l’utilisateur et le wiki de test]]',
 	'randombytest' => 'Page aléatoire par le wiki de test',
 	'randombytest-nopages' => 'Votre wiki de test ne contient pas de page dans l’espace de noms : $1.',
+	'wminc-recentchanges-all' => 'Toutes les modifications récentes',
 );
 
 /** Franco-Provençal (Arpetan)
