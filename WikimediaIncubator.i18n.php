@@ -2002,12 +2002,14 @@ $messages['vi'] = array(
 	'wminc-prefinfo-code' => 'Mã ngôn ngữ ISO 639',
 	'wminc-prefinfo-project' => 'Hãy chọn dự án Wikimedia (hay Incubator để làm việc chung)',
 	'wminc-prefinfo-error' => 'Bạn đã chọn một dự án bắt phải có mã ngôn ngữ.',
-	'wminc-warning-unprefixed' => 'Cảnh báo: bạn đang sửa đổi trang chưa có tiền tố!',
-	'wminc-warning-suggest' => 'Bạn có thể tạo trang “[[:$1]]”.',
-	'wminc-warning-suggest-move' => 'Bạn có thể [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} di chuyển trang này đến $1].',
+	'wminc-error-move-unprefixed' => 'Lỗi: Tên mới của trang [[{{MediaWiki:Helppage}}|thiếu tiền tố hoặc có tiền tố sai]]!',
+	'wminc-error-wronglangcode' => "'''Lỗi:''' Trang đang được sửa đổi có [[{{MediaWiki:Helppage}}|mã ngôn ngữ sai]]: “$1”!",
+	'wminc-error-unprefixed' => "'''Lỗi:''' Trang đang được sửa đổi [[{{MediaWiki:Helppage}}|thiếu tiền tố]]!",
+	'wminc-error-unprefixed-suggest' => "'''Lỗi:''' Trang đang được sửa đổi [[{{MediaWiki:Helppage}}|thiếu tiền tố]]! Bạn có thể tạo trang tại “[[:$1]]” thay thế.",
 	'right-viewuserlang' => 'Xem [[Special:ViewUserLang|ngôn ngữ và wiki thử của người dùng]]',
 	'randombytest' => 'Trang ngẫu nhiên theo wiki thử',
 	'randombytest-nopages' => 'Không có trang này tại wiki thử của bạn trong không gian tên “$1”.',
+	'wminc-recentchanges-all' => 'Mọi thay đổi gần đây',
 );
 
 /** Yiddish (ייִדיש)
