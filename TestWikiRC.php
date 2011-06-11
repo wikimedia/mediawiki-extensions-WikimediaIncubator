@@ -20,12 +20,14 @@ class TestWikiRC {
 			// If project site is selected, display all changes except test wiki changes
 			$dbr = wfGetDB( DB_SLAVE );
 			$conds[] = 'rc_title NOT ' . $dbr->buildLike( 'W', $dbr->anyChar(), '/', $dbr->anyString() );
-		} else {
+		} elseif( IncubatorTest::validatePrefix( $prefix, true ) ) {
 			// Else, display changes to the selected test wiki in the appropriate namespaces
 			$dbr = wfGetDB( DB_SLAVE );
 			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
 			$conds[] = 'rc_title ' . $dbr->buildLike( $prefix . '/', $dbr->anyString() ) .
 			' OR rc_title = ' . $dbr->addQuotes( $prefix );
+		} else {
+			return true;
 		}
 		return true;
 	}

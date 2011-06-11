@@ -104,7 +104,7 @@ class IncubatorTest
 	*/
 	static function validatePrefix( $title, $onlyprefix = false ) {
 		$data = self::analyzePrefix( $title, $onlyprefix );
-		if( isset( $data['error'] ) ) { return true; }
+		if( !isset( $data['error'] ) ) { return true; }
 		return false;
 	}
 
@@ -252,7 +252,7 @@ class IncubatorTest
 	static function efLoadViewUserLangLink( $id, $nt, &$links ) {
 		global $wgUser;
 		if ( $wgUser->isAllowed( 'viewuserlang' ) ) {
-			$user = wfUrlencode( $nt->getText() );
+			$user = $nt->getText();
 			$links[] = $wgUser->getSkin()->link(
 				SpecialPage::getTitleFor( 'ViewUserLang', $user ),
 				wfMsgHtml( 'wminc-viewuserlang' )

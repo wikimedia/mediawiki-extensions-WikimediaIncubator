@@ -7,11 +7,15 @@
 class SpecialRandomByTest extends RandomPage
 {
 	public function __construct() {
-		global $wgUser, $wmincPref, $wmincProjectSite;
-		if( IncubatorTest::isContentProject() ) {
+		global $wgUser, $wgRequest, $wmincPref, $wmincProjectSite;
+		$target = $wgRequest->getVal( 'testwiki' );
+		$target = IncubatorTest::analyzePrefix( $target );
+		$project = ( isset( $target['project'] ) ? $target['project'] : '' );
+		$lang = ( isset( $target['lang'] ) ? $target['lang'] : '' );
+		if( IncubatorTest::isContentProject() || ($project && $lang) ) {
 			$dbr = wfGetDB( DB_SLAVE );
 			$this->extra[] = 'page_title' .
-				$dbr->buildLike( IncubatorTest::displayPrefix() . '/', $dbr->anyString() );
+				$dbr->buildLike( IncubatorTest::displayPrefix( $project, $lang ) . '/', $dbr->anyString() );
 		} elseif($wgUser->getOption($wmincPref . '-project') == $wmincProjectSite['short'] ) {
 			global $wgVersion;
 			// only works above MW 1.17
