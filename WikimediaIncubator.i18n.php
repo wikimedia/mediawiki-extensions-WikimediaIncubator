@@ -2041,28 +2041,29 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Hydra
  * @author Jimmy xu wrk
  * @author Liangent
  * @author Shinjiman
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'wminc-desc' => '维基孵育场测试wiki系统',
-	'wminc-viewuserlang' => '查看用户语言与测试wiki',
+	'wminc-desc' => '维基孵育场测试维基系统',
+	'wminc-viewuserlang' => '查看用户语言与测试维基',
 	'wminc-viewuserlang-user' => '用户名：',
 	'wminc-viewuserlang-go' => '转到',
-	'wminc-testwiki' => '测试wiki：',
+	'wminc-userdoesnotexist' => '用户 "$1" 并不存在。',
+	'wminc-testwiki' => '测试维基：',
 	'wminc-testwiki-none' => '无/所有',
-	'wminc-prefinfo-language' => '你的界面语言-从你的测试wiki独立',
-	'wminc-prefinfo-code' => 'ISO 639语言代码',
-	'wminc-prefinfo-project' => '选择维基媒体项目 （孵育场选项用作一般用途）',
+	'wminc-prefinfo-language' => '你的界面语言-从你的测试维基独立',
+	'wminc-prefinfo-code' => 'ISO 639 语言代码',
+	'wminc-prefinfo-project' => '选择维基媒体项目（孵育场选项用作一般用途）',
 	'wminc-prefinfo-error' => '你选择了需要语言代码的项目。',
-	'wminc-warning-unprefixed' => "'''警告：'''你正在编辑的页面没有前缀！",
-	'wminc-warning-suggest' => '你可以在[[:$1]]创建新页面。',
-	'wminc-warning-suggest-move' => '你可以[{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} 移动本页面至$1]。',
-	'right-viewuserlang' => '请查看[[Special:ViewUserLang|用户语言与测试wiki]]',
-	'randombytest' => '测试wiki随机页面',
-	'randombytest-nopages' => '你的测试wiki名称空间$1中没有页面。',
+	'wminc-error-move-unprefixed' => '错误：您要移动页面到的目的地 [[{{MediaWiki:Helppage}}|没有前缀或有错误的前缀]] ！',
+	'right-viewuserlang' => '请查看[[Special:ViewUserLang|用户语言与测试维基]]',
+	'randombytest' => '测试维基随机页面',
+	'randombytest-nopages' => '你的测试维基名称空间$1中没有页面。',
+	'wminc-recentchanges-all' => '所有最近的更改',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
