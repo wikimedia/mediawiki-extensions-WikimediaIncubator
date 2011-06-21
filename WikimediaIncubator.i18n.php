@@ -1022,6 +1022,13 @@ $messages['jv'] = array(
 	'right-viewuserlang' => 'Pirsani [[Special:ViewUserLang|basa panganggo lan wiki pacoban]]',
 );
 
+/** Georgian (ქართული)
+ * @author BRUTE
+ */
+$messages['ka'] = array(
+	'wminc-recentchanges-all' => 'ყველა ბოლო ცვლილება',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author វ័ណថារិទ្ធ
  */
@@ -1105,7 +1112,7 @@ $messages['ku-latn'] = array(
 $messages['kw'] = array(
 	'wminc-viewuserlang-user' => 'Hanow-usyer:',
 	'wminc-viewuserlang-go' => 'Ke',
-	'wminc-testwiki-none' => 'Vyth/Oll',
+	'wminc-testwiki-none' => 'Nagonen/Oll',
 	'wminc-prefinfo-code' => 'Coden ISO 639 an yeth',
 );
 
