@@ -1124,18 +1124,17 @@ $messages['lb'] = array(
 	'wminc-viewuserlang' => 'Benotzersprooch an Test-Wiki nokucken',
 	'wminc-viewuserlang-user' => 'Benotzernumm:',
 	'wminc-viewuserlang-go' => 'Lass',
+	'wminc-userdoesnotexist' => "De Benotzer ''$1'' gëtt et net.",
 	'wminc-testwiki' => 'Test-Wiki:',
 	'wminc-testwiki-none' => 'Keen/All',
 	'wminc-prefinfo-language' => 'Sprooch vun ärem Interface - onofhängeg vun Ärer Test-Wiki',
 	'wminc-prefinfo-code' => 'Den ISO 639 Sprooche-Code',
 	'wminc-prefinfo-project' => "Wielt de Wikimediaprojet (D'Optioun 'Incubator' ass fir Benotzer déi allgemeng Aufgaben erledigen)",
 	'wminc-prefinfo-error' => 'Dir hutt e Projet gewielt deen e Sproochecode brauch.',
-	'wminc-warning-unprefixed' => "Opgepasst: d'Säit déi Dir ännert huet kee Prefix!",
-	'wminc-warning-suggest' => 'Dir kënnt eng Säit op [[:$1]] uleeën.',
-	'wminc-warning-suggest-move' => 'Dir kënnt [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} dës Säit op $1 réckelen].',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benotzersprooch an Test-Wiki]] weisen',
 	'randombytest' => 'Zoufallssäit duerch Test Wiki',
 	'randombytest-nopages' => 'Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.',
+	'wminc-recentchanges-all' => 'All rezent Ännerungen',
 );
 
 /** Limburgish (Limburgs)
