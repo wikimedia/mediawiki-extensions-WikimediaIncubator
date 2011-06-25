@@ -304,12 +304,10 @@ $messages['br'] = array(
 	'wminc-prefinfo-code' => 'Kod ISO 639 ar yezh',
 	'wminc-prefinfo-project' => 'Diuzit ar raktres Wikimedia (miret eo an dibarzh Incubator evit an implijerien a gas da benn ul labour dre vras)',
 	'wminc-prefinfo-error' => "Diuzet hoc'h eus ur raktres zo ezhomm ur c'hod yezh evitañ.",
-	'wminc-warning-unprefixed' => "'''Diwallit : ''' Emaoc'h oc'h aozañ ur bajenn hep rakger ebet dezhi !",
-	'wminc-warning-suggest' => 'Gallout a rit krouiñ ur bajenn war [[:$1]].',
-	'wminc-warning-suggest-move' => 'Gallout a rit [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} adenvel ar bajenn-mañ e $1].',
 	'right-viewuserlang' => 'Gwelet [[Special:ViewUserLang|yezh an implijer hag ar wiki testiñ]]',
 	'randombytest' => 'Pajenn dargouezhek gant ar wiki amprouiñ',
 	'randombytest-nopages' => "N'eus pajenn ebet en ho wiki amprouiñ, en esaouenn anv : $1.",
+	'wminc-recentchanges-all' => 'An holl gemmoù diwezhañ',
 );
 
 /** Bosnian (Bosanski)
