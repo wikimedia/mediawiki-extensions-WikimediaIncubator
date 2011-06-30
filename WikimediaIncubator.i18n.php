@@ -969,12 +969,13 @@ $messages['it'] = array(
 	'wminc-prefinfo-code' => 'Il codice ISO 639 per la lingua',
 	'wminc-prefinfo-project' => "Seleziona il progetto Wikimedia (l'opzione Incubator è per gli utentu che fanno del lavoro generale)",
 	'wminc-prefinfo-error' => 'Hai selezionato un progetto che ha bisogno di un codice di linguaggio',
-	'wminc-warning-unprefixed' => '"Attenzione: la pagina che si sta modificando non corrisponde a quella prefissata"',
-	'wminc-warning-suggest' => 'Si può creare una pagina su [[:$1]]',
-	'wminc-warning-suggest-move' => 'È possibile [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} spostare questa pagina a $1].',
+	'wminc-error-move-unprefixed' => 'Errore: La pagina che stai cercando di spostare a [[{{MediaWiki:Helppage}}|è senza prefisso o ha un prefisso sbagliato]]!',
+	'wminc-error-wronglangcode' => "'''Errore:''' La pagina che stai cercando di modificare contiene un [[{{MediaWiki:Helppage}}|codice lingua errato]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Errore:''' La pagina che stai cercando di modificare è [[{{MediaWiki:Helppage}}|senza prefisso]]!",
 	'right-viewuserlang' => 'Visualizza [[Special:ViewUserLang|il linguaggio utente e prova il wiki]]',
 	'randombytest' => 'Una pagina a caso dalla wiki di test',
 	'randombytest-nopages' => 'Non ci sono pagine nella tua wiki di test, per il namespace: $1.',
+	'wminc-recentchanges-all' => 'Tutte le modifiche recenti',
 );
 
 /** Japanese (日本語)
