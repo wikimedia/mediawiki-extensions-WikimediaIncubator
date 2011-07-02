@@ -818,6 +818,7 @@ $messages['hil'] = array(
 );
 
 /** Croatian (Hrvatski)
+ * @author Bugoslav
  * @author Ex13
  * @author Tivek
  */
@@ -833,12 +834,10 @@ $messages['hr'] = array(
 	'wminc-prefinfo-code' => 'ISO 639 kôd jezika',
 	'wminc-prefinfo-project' => 'Odaberi Wikimedia projekt (opcija Inkubator je za suradnike koji rade opće poslove)',
 	'wminc-prefinfo-error' => 'Odabrali ste projekt koji zahtijeva kôd jezika.',
-	'wminc-warning-unprefixed' => "'''Upozorenje:''' Stranica koju uređujete nema prefiks!",
-	'wminc-warning-suggest' => 'Možete stvoriti stranicu na [[:$1]].',
-	'wminc-warning-suggest-move' => 'Možete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} premjestiti ovu stranicu na $1].',
 	'right-viewuserlang' => 'Pogledaj [[Special:ViewUserLang|suradnikov jezik i testni wiki]]',
 	'randombytest' => 'Slučajna stranica prema testnom wikiju',
 	'randombytest-nopages' => 'Nema stranica u Vašem testnom wikiju, u imenskom prostoru: $1.',
+	'wminc-recentchanges-all' => 'Sve nedavne promjene',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
