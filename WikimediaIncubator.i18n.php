@@ -328,12 +328,10 @@ $messages['bs'] = array(
 	'wminc-prefinfo-code' => 'ISO 639 kod jezika',
 	'wminc-prefinfo-project' => 'Odaberite Wikimedia projekat (Opcija u inkubatoru za korisnike koje rade opći posao)',
 	'wminc-prefinfo-error' => 'Odabrali ste projekat koji zahtijeva kod jezika.',
-	'wminc-warning-unprefixed' => 'Upozorenje: stranica koju uređujete nema prefiksa!',
-	'wminc-warning-suggest' => 'Možete napraviti stranicu na [[:$1]].',
-	'wminc-warning-suggest-move' => 'Možete [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} premjestiti ovu stranicu na $1].',
 	'right-viewuserlang' => 'Pregledavanje [[Special:ViewUserLang|korisničkog jezika i probne wiki]]',
 	'randombytest' => 'Slučajna stranica od testirane wiki',
 	'randombytest-nopages' => 'Nema stranica u Vašoj probnoj wiki, u imenskom prostoru: $1.',
+	'wminc-recentchanges-all' => 'Sve nedavne izmjene',
 );
 
 /** Catalan (Català)
