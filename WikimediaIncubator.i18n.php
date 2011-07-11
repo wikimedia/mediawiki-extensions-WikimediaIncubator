@@ -241,12 +241,11 @@ $messages['be-tarask'] = array(
 	'wminc-prefinfo-code' => 'Код мовы ISO 639',
 	'wminc-prefinfo-project' => 'Выберыце праект фундацыі «Вікімэдыя» (выберыце варыянт Інкубатар, калі займаецеся агульнай працай)',
 	'wminc-prefinfo-error' => 'Вы выбралі праект, які патрабуе код мовы.',
-	'wminc-warning-unprefixed' => 'Папярэджаньне: старонка, якую Вы рэдагуеце, ня мае прэфікса!',
-	'wminc-warning-suggest' => 'Вы можаце стварыць старонку [[:$1]].',
-	'wminc-warning-suggest-move' => 'Вы можаце [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} перанесьці гэту старонку ў $1].',
+	'wminc-error-unprefixed-suggest' => "'''Памылка:''' Старонка, якую Вы спрабуеце рэдагаваць, [[{{MediaWiki:Helppage}}|не мае прэфіксу]]! Вы можаце стварыць старонку на [[:$1]].",
 	'right-viewuserlang' => 'прагляд [[Special:ViewUserLang|мовы ўдзельніка і тэставаньне вікі]]',
 	'randombytest' => 'Выпадковая старонка тэставай вікі',
 	'randombytest-nopages' => 'Няма старонак ў Вашай тэставай вікі, у прасторы назваў: $1.',
+	'wminc-recentchanges-all' => 'Усе апошнія зьмены',
 );
 
 /** Bulgarian (Български)
