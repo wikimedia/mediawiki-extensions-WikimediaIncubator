@@ -241,6 +241,7 @@ $messages['be-tarask'] = array(
 	'wminc-prefinfo-code' => 'Код мовы ISO 639',
 	'wminc-prefinfo-project' => 'Выберыце праект фундацыі «Вікімэдыя» (выберыце варыянт Інкубатар, калі займаецеся агульнай працай)',
 	'wminc-prefinfo-error' => 'Вы выбралі праект, які патрабуе код мовы.',
+	'wminc-error-unprefixed' => "'''Памылка:''' старонка, якую Вы спрабуеце рэдагаваць, [[{{MediaWiki:Helppage}}|ня мае прэфіксу]]!",
 	'wminc-error-unprefixed-suggest' => "'''Памылка:''' Старонка, якую Вы спрабуеце рэдагаваць, [[{{MediaWiki:Helppage}}|не мае прэфіксу]]! Вы можаце стварыць старонку на [[:$1]].",
 	'right-viewuserlang' => 'прагляд [[Special:ViewUserLang|мовы ўдзельніка і тэставаньне вікі]]',
 	'randombytest' => 'Выпадковая старонка тэставай вікі',
