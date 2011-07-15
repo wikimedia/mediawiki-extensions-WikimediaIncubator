@@ -30,6 +30,10 @@ $messages['en'] = array(
 	'randombytest' => 'Random page by test wiki',
 	'randombytest-nopages' => 'There are no pages in your test wiki, in the namespace: $1.',
 	'wminc-recentchanges-all' => 'All recent changes',
+
+	'group-test-sysop' => 'Test wiki administrators',
+	'group-test-sysop-member' => 'test wiki administrator',
+	'grouppage-test-sysop' => 'Project:Test wiki administrators',
 );
 
 /** Message documentation (Message documentation)

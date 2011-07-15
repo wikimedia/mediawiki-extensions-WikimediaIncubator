@@ -48,6 +48,16 @@ $wmincPseudoCategoryNSes = array(
 	'Incubator', 'Help', 'Users', 'Maintenance', 'Files',
 );
 
+/* Test wiki admin user group */
+$wgGroupPermissions['test-sysop']['delete'] = true;
+$wgGroupPermissions['test-sysop']['undelete'] = true;
+$wgGroupPermissions['test-sysop']['deletedhistory'] = true;
+$wgGroupPermissions['test-sysop']['block'] = true;
+$wgGroupPermissions['test-sysop']['blockemail'] = true;
+$wgGroupPermissions['test-sysop']['rollback'] = true;
+$wgAddGroups['bureaucrat']['test-sysop'] = true;
+$wgRemoveGroups['bureaucrat']['test-sysop'] = true;
+
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 
 /* Special:ViewUserLang */
