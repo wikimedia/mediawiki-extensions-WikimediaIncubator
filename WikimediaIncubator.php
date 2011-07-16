@@ -13,7 +13,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '3.1.1',
+	'version' => '3.2',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -73,6 +73,10 @@ $wgHooks['GetPreferences'][] = 'IncubatorTest::onGetPreferences';
 $wgHooks['MagicWordwgVariableIDs'][] = 'IncubatorTest::magicWordVariable';
 $wgHooks['LanguageGetMagic'][] = 'IncubatorTest::magicWord';
 $wgHooks['ParserGetVariableValueSwitch'][] = 'IncubatorTest::magicWordValue';
+
+/* Special:MyMainPage (depending on your test wiki preference) */
+$wgAutoloadClasses['SpecialMyMainPage'] = $dir . 'SpecialMyMainPage.php';
+$wgSpecialPages['MyMainPage'] = 'SpecialMyMainPage';
 
 /* Create/move page permissions */
 $wgHooks['getUserPermissionsErrors'][] = 'IncubatorTest::checkPrefixCreatePermissions';
