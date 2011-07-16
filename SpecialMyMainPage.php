@@ -14,7 +14,7 @@ class SpecialMyMainPage extends UnlistedSpecialPage {
 		parent::__construct( 'MyMainPage' );
 	}
 
-	public function execute() {
+	public function execute( $par ) {
 		global $wgOut;
 
 		$title = '';
