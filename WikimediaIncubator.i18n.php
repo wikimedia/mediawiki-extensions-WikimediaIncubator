@@ -64,6 +64,8 @@ $messages['qqq'] = array(
 	'wminc-error-unprefixed-suggest' => '* $1 is a new page title based on the page title the user is currently trying to edit. E.g. "Test" would become "Wx/xx/Test".
 * Do not change <code><nowiki>{{MediaWiki:Helppage}}</nowiki></code>',
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}',
+	'group-test-sysop' => 'Name of the group of administrators of a specific test wiki on the Wikimedia Incubator.',
+	'group-test-sysop-member' => 'An administrator of a specific test wiki on the Wikimedia Incubator.',
 );
 
 /** Adyghe (Cyrillic) ()
@@ -432,6 +434,9 @@ $messages['de'] = array(
 	'randombytest' => 'Zufällige Seite aus dem Testwiki',
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ deines Testwikis.',
 	'wminc-recentchanges-all' => 'Alle letzten Änderungen',
+	'group-test-sysop' => 'Testadministratoren',
+	'group-test-sysop-member' => 'Testadministrator',
+	'grouppage-test-sysop' => 'Project:Testadministratoren',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -797,6 +802,9 @@ $messages['he'] = array(
 	'randombytest' => 'דף אקראי באתר ויקי ניסיוני',
 	'randombytest-nopages' => 'אין דפים באתר הוויקי הניסיוני שלכם, במרחב השם: $1.',
 	'wminc-recentchanges-all' => 'כל השינויים האחרונים',
+	'group-test-sysop' => 'מפעילי ויקי לבדיקה',
+	'group-test-sysop-member' => 'מפעיל ויקי לבדיקה',
+	'grouppage-test-sysop' => 'Project:מפעילי ויקי לבדיקה',
 );
 
 /** Hiligaynon (Ilonggo)
@@ -913,6 +921,9 @@ $messages['ia'] = array(
 	'randombytest' => 'Pagina aleatori per le wiki de test',
 	'randombytest-nopages' => 'Le wiki de test non ha paginas in le spatio de nomines: $1',
 	'wminc-recentchanges-all' => 'Tote le modificationes recente',
+	'group-test-sysop' => 'Administratores del wiki de test',
+	'group-test-sysop-member' => 'administrator del wiki de test',
+	'grouppage-test-sysop' => 'Project:Administratores del wiki de test',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1245,6 +1256,9 @@ $messages['mk'] = array(
 	'randombytest' => 'Случајна страница од тест вики',
 	'randombytest-nopages' => 'Не постојат страници на вашето пробно вики, во именскиот простор: $1.',
 	'wminc-recentchanges-all' => 'Сите скорешни промени',
+	'group-test-sysop' => 'Администратори на пробно вики',
+	'group-test-sysop-member' => 'администратор на пробно вики',
+	'grouppage-test-sysop' => 'Project:Администратори на пробни викија',
 );
 
 /** Malayalam (മലയാളം)
@@ -1301,6 +1315,7 @@ $messages['ms'] = array(
 	'right-viewuserlang' => 'Melihat [[Special:ViewUserLang|bahasa pengguna dan wiki ujian]]',
 	'randombytest' => 'Laman rawak oleh wiki ujian',
 	'randombytest-nopages' => 'Tidak terdapat laman dalam wiki ujian anda, dalam ruang nama: $1.',
+	'wminc-recentchanges-all' => 'Semua perubahan terkini',
 );
 
 /** Maltese (Malti)
@@ -1359,6 +1374,9 @@ $messages['nl'] = array(
 	'randombytest' => 'Willekeurige pagina uit testwiki',
 	'randombytest-nopages' => "Er zijn geen pagina's in uw testwiki in de naamruimte $1.",
 	'wminc-recentchanges-all' => 'Alle recente wijzigingen',
+	'group-test-sysop' => 'testwiki-beheerders',
+	'group-test-sysop-member' => 'testwiki-beheerder',
+	'grouppage-test-sysop' => 'Project:Testwiki-beheerders',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -1766,6 +1784,9 @@ $messages['sl'] = array(
 	'randombytest' => 'Naključna stran preizkusnega wikija',
 	'randombytest-nopages' => 'Na vašem wikiju ni strani v imenskem prostoru: $1.',
 	'wminc-recentchanges-all' => 'Vse zadnje spremembe',
+	'group-test-sysop' => 'Administratorji poskusnega wikija',
+	'group-test-sysop-member' => 'administrator poskusnega wikija',
+	'grouppage-test-sysop' => 'Project:Administratorji poskusnega wikija',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
