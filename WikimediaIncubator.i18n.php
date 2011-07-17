@@ -1285,6 +1285,9 @@ $messages['ml'] = array(
 	'randombytest' => 'പരീക്ഷണ വിക്കിയിൽ നിന്നും ക്രമരഹിതമായി എടുത്ത താൾ',
 	'randombytest-nopages' => 'ഈ നാമമേഖലയിൽ പരീക്ഷണ വിക്കിയിൽ താങ്കൾക്ക് ഒരു താളും ഇല്ല: $1.',
 	'wminc-recentchanges-all' => 'എല്ലാ സമീപകാല മാറ്റങ്ങളും',
+	'group-test-sysop' => 'പരീക്ഷണവിക്കി കാര്യനിർവ്വാഹകർ',
+	'group-test-sysop-member' => 'പരീക്ഷണവിക്കി കാര്യനിർവ്വാഹക(ൻ)',
+	'grouppage-test-sysop' => 'Project:പരീക്ഷണവിക്കി കാര്യനിർവ്വാഹകർ',
 );
 
 /** Mongolian (Монгол)
@@ -1312,10 +1315,17 @@ $messages['ms'] = array(
 	'wminc-prefinfo-code' => 'Kod bahasa ISO 639',
 	'wminc-prefinfo-project' => 'Pilih projek Wikimedia (pilihan Incubator ialah bagi pengguna yang membuat kerja umum)',
 	'wminc-prefinfo-error' => 'Anda memilih projek yang memerlukan kod bahasa.',
+	'wminc-error-move-unprefixed' => 'Ralat: Laman yang anda cuba pindahkan itu [[{{MediaWiki:Helppage}}|tiada awalan atau tersalah awalan]]!',
+	'wminc-error-wronglangcode' => "'''Ralat:''' Laman yang anda cuba sunting itu mengandungi [[{{MediaWiki:Helppage}}|kod bahasa yang salah]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Ralat:''' Laman yang anda cuba sunting itu [[{{MediaWiki:Helppage}}|tiada awalan]]!",
+	'wminc-error-unprefixed-suggest' => "'''Ralat:''' Laman yang anda cuba sunting itu [[{{MediaWiki:Helppage}}|tiada awalan]]! Anda boleh membuat laman baru di [[:$1]].",
 	'right-viewuserlang' => 'Melihat [[Special:ViewUserLang|bahasa pengguna dan wiki ujian]]',
 	'randombytest' => 'Laman rawak oleh wiki ujian',
 	'randombytest-nopages' => 'Tidak terdapat laman dalam wiki ujian anda, dalam ruang nama: $1.',
 	'wminc-recentchanges-all' => 'Semua perubahan terkini',
+	'group-test-sysop' => 'Pentadbir wiki ujian',
+	'group-test-sysop-member' => 'pentadir wiki ujian',
+	'grouppage-test-sysop' => 'Project:Pentadbir wiki ujian',
 );
 
 /** Maltese (Malti)
@@ -1482,6 +1492,9 @@ $messages['pl'] = array(
 	'randombytest' => 'Losowa strona testowej wiki',
 	'randombytest-nopages' => 'W Twojej testowej wiki brak jest stron w przestrzeni nazw $1.',
 	'wminc-recentchanges-all' => 'Wszystkie ostatnie zmiany',
+	'group-test-sysop' => 'Administratorzy testowej wiki',
+	'group-test-sysop-member' => 'administrator testowej wiki',
+	'grouppage-test-sysop' => 'Project:Administratorzy testowej wiki',
 );
 
 /** Piedmontese (Piemontèis)
@@ -1551,6 +1564,9 @@ $messages['pt'] = array(
 	'randombytest' => 'Página aleatória da wiki de testes',
 	'randombytest-nopages' => 'Não há páginas na sua wiki de testes, no espaço nominal: $1.',
 	'wminc-recentchanges-all' => 'Todas as mudanças recentes',
+	'group-test-sysop' => 'Administradores da wiki de testes',
+	'group-test-sysop-member' => 'administrador da wiki de testes',
+	'grouppage-test-sysop' => 'Project:Administradores da wiki de testes',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
@@ -2045,6 +2061,9 @@ $messages['vi'] = array(
 	'randombytest' => 'Trang ngẫu nhiên theo wiki thử',
 	'randombytest-nopages' => 'Không có trang này tại wiki thử của bạn trong không gian tên “$1”.',
 	'wminc-recentchanges-all' => 'Mọi thay đổi gần đây',
+	'group-test-sysop' => 'Bảo quản viên tại wiki thử nghiệm',
+	'group-test-sysop-member' => 'bảo quản viên tại wiki thử nghiệm',
+	'grouppage-test-sysop' => 'Project:Bảo quản viên tại wiki thử nghiệm',
 );
 
 /** Yiddish (ייִדיש)
