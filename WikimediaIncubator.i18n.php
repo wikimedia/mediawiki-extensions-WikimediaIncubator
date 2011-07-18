@@ -255,6 +255,9 @@ $messages['be-tarask'] = array(
 	'randombytest' => 'Выпадковая старонка тэставай вікі',
 	'randombytest-nopages' => 'Няма старонак ў Вашай тэставай вікі, у прасторы назваў: $1.',
 	'wminc-recentchanges-all' => 'Усе апошнія зьмены',
+	'group-test-sysop' => 'Адміністратары тэставай вікі',
+	'group-test-sysop-member' => 'адміністратар тэставай вікі',
+	'grouppage-test-sysop' => 'Project:Адміністратары тэставай вікі',
 );
 
 /** Bulgarian (Български)
@@ -1090,23 +1093,28 @@ $messages['koi'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'wminc-desc' => 'Täß-Wiki Süßtemm för dä Inkubator vun de Wikimedia Shtefftung',
-	'wminc-viewuserlang' => 'Däm Metmaacher sing Shprooch un sing Täß-Wiki aanloore',
-	'wminc-viewuserlang-user' => 'Metmaacher Name:',
+	'wminc-desc' => 'Süßtemm för Versöhkß-Wikis för dä Inkubator vun de Wikimedia Shtefftung',
+	'wminc-viewuserlang' => 'Däm Metmaacher sing Shprooch un sing Versöhkß-Wiki aanloore',
+	'wminc-viewuserlang-user' => 'Däm Metmaacher singe Name:',
 	'wminc-viewuserlang-go' => 'Lohß Jonn!',
 	'wminc-userdoesnotexist' => 'Ene Metmaacher „$1“ jidd_et nit.',
-	'wminc-testwiki' => 'Täß-Wiki:',
+	'wminc-testwiki' => 'Et Versöhkß-Wiki:',
 	'wminc-testwiki-none' => 'Kein/All',
-	'wminc-prefinfo-language' => 'De Shprooch för däm Wiki sing Bovverfläsch un et Wiki ze Bedeene — hät nix met Dingem Täß-Wiki singe Shprooch ze donn',
-	'wminc-prefinfo-code' => 'Dat Köözel för de Shprooch noh dä Norrem ISO 639',
-	'wminc-prefinfo-project' => 'Donn dat Projak ußwähle — „Incubator“ is för Lück met alljemein Werk.',
-	'wminc-prefinfo-error' => 'Bei dämm Projäk moß och en Köözel för de Shprooch aanjejovve wääde.',
-	'wminc-warning-unprefixed' => 'Opjepaß: Do bes en Sigg oohne ene Namess-Försatz för et Projäk un en Shprooch am beärbeide!',
-	'wminc-warning-suggest' => 'De kanns en Sigg aanlääje als [[:$1]].',
-	'wminc-warning-suggest-move' => 'Do kanns hee di Sigg [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} op $1 ömnänne].',
-	'right-viewuserlang' => 'De [[Special:ViewUserLang|Metmaacher ier Shprooche un Täßwiki]] beloore',
-	'randombytest' => 'Zofällije Sigg uss_em Versoochswiki',
-	'randombytest-nopages' => 'Et Appachtemang $1 änthält kein Sigge en Dingem Versöhkß-Wiki.',
+	'wminc-prefinfo-language' => 'Ding Shprooch för däm Wiki sing Bovverfläsch un et Wiki ze bedeene — hät nix met Dingem Versöhkß-Wiki singe Shprooch ze donn',
+	'wminc-prefinfo-code' => 'Dat Köözel för di Shprooch noh dä Norrem ISO 639',
+	'wminc-prefinfo-project' => 'Donn dat Projäk ußwähle — „Incubator“ is för Lück met alljemein Werk.',
+	'wminc-prefinfo-error' => 'Bei dämm Projäk moß och e Köözel för de Shprooch aanjejovve wääde.',
+	'wminc-error-move-unprefixed' => 'Dat es jeiht nit: Dä neue Name för di Sigg hät [[{{MediaWiki:Helppage}}|kei udder e verkeeht Köözel]] am Aanfang!',
+	'wminc-error-wronglangcode' => "'''Dat es jeiht nit:''' Di Sigg, di de ändere wells, häd [[{{MediaWiki:Helppage}}|e verkeeht Köözel för de Shprooch]]: „$1“",
+	'wminc-error-unprefixed' => "'''Dat es jeiht nit:''' Di Sigg, di de ändere wells, hät kei [[{{MediaWiki:Helppage}}|Köözel am Aanfang]]!",
+	'wminc-error-unprefixed-suggest' => "'''Dat es jeiht nit:''' Di Sigg, di de ändere wells, hät kei [[{{MediaWiki:Helppage}}|Köözel am Aanfang]]! Do kanns en Sigg onger [[:$1]] aanlääje.",
+	'right-viewuserlang' => 'De [[Special:ViewUserLang|Metmaacher ier Shprooch un Versöhkß-Wiki]] beloore',
+	'randombytest' => 'En zohfällije Sigg uss_em Versöhkß-Wiki',
+	'randombytest-nopages' => 'En Appachtemang $1 sin kein Sigge uß Dingem Versöhkß-Wiki.',
+	'wminc-recentchanges-all' => 'All de {{LCFIRST:{{int:recentchanges}}}}',
+	'group-test-sysop' => 'Köbeße för e Versöhkß-Wiki',
+	'group-test-sysop-member' => 'Köbes för e Versöhkß-Wiki',
+	'grouppage-test-sysop' => 'Project:Köbeße för Versöhkß-Wikis',
 );
 
 /** Kurdish (Latin) (Kurdî (Latin))
