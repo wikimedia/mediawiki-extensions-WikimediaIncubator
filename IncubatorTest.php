@@ -130,6 +130,27 @@ class IncubatorTest {
 		return false;
 	}
 
+
+	/**
+	 * Get &testwiki=wx/xx and validate that prefix.
+	 * Returns the array of analyzePrefix() on success.
+	 * @return Array or false
+	 */
+	static function getUrlParam() {
+		global $wgRequest;
+		$urlParam = $wgRequest->getVal( 'testwiki' );
+		if( !$urlParam ) {
+			return false;
+		}
+		$val = self::analyzePrefix( ucfirst( $urlParam ), true );
+		if( $val['error'] || !isset( $val['project'] ) || !isset( $val['lang'] )
+			|| !$val['project'] || !$val['lang'] ) {
+			return false;
+		}
+		$val['prefix'] = strtolower( $val['prefix'] );
+		return $val;
+	}
+
 	/**
 	 * Whether the given project (or preference by default) is one of the
 	 * projects using the format Wx/xxx (as defined in $wmincProjects)

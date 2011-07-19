@@ -10,8 +10,9 @@
 class TestWikiRC {
 	static function getValues() {
 		global $wgUser, $wmincPref, $wgRequest;
-		$projectvalue = $wgUser->getOption( $wmincPref . '-project' );
-		$codevalue = $wgUser->getOption( $wmincPref . '-code' );
+		$url = IncubatorTest::getUrlParam();
+		$projectvalue = $url ? $url['project'] : $wgUser->getOption( $wmincPref . '-project' );
+		$codevalue = $url ? $url['lang'] : $wgUser->getOption( $wmincPref . '-code' );
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $projectvalue ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $codevalue ) );
 		return array( $projectvalue, $codevalue );

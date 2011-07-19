@@ -25,8 +25,11 @@ class SpecialMyMainPage extends UnlistedSpecialPage {
 			global $wgRequest;
 			$title = Title::newFromText( IncubatorTest::displayPrefix() );
 			if( $wgRequest->getVal( 'goto' ) != 'infopage' ) {
-				# Used in development version
-				$params = array( 'goto' => 'mainpage' );
+				$params['goto'] = 'mainpage';
+			}
+			$url = IncubatorTest::getUrlParam();
+			if( $url ) {
+				$params['testwiki'] = $url['prefix'];
 			}
 		}
 
