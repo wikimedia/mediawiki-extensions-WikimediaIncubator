@@ -1,13 +1,25 @@
 <?php
-/*
-* Recent changes for a specific test wiki, or for all project changes (or normal display)
-*/
+/**
+ * Recent changes for a specific test wiki, or for all project changes (or normal display)
+ *
+ * @file
+ * @ingroup Extensions
+ * @author Robin Pepermans (SPQRobin)
+ */
 
 class TestWikiRC {
+	static function getValues() {
+		global $wgUser, $wmincPref, $wgRequest;
+		$projectvalue = $wgUser->getOption( $wmincPref . '-project' );
+		$codevalue = $wgUser->getOption( $wmincPref . '-code' );
+		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $projectvalue ) );
+		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $codevalue ) );
+		return array( $projectvalue, $codevalue );
+	}
+
 	static function onRcQuery( &$conds, &$tables, &$join_conds, $opts ) {
-		global $wgUser, $wgRequest, $wmincPref, $wmincProjectSite, $wmincTestWikiNamespaces;
-		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') ) );
-		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') ) );
+		global $wmincProjectSite, $wmincTestWikiNamespaces;
+		list( $projectvalue, $codevalue ) = self::getValues();
 		$prefix = IncubatorTest::displayPrefix( $projectvalue, $codevalue );
 		$opts->add( 'rc-testwiki-project', false );
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
@@ -33,20 +45,19 @@ class TestWikiRC {
 	}
 
 	static function onRcForm( &$items, $opts ) {
-		global $wgUser, $wgRequest, $wmincPref, $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
+		global $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
 		
-		$projectvalue = $wgRequest->getVal( 'rc-testwiki-project', $wgUser->getOption($wmincPref . '-project') );
-		$langcodevalue = $wgRequest->getVal( 'rc-testwiki-code', $wgUser->getOption($wmincPref . '-code') );
+		list( $projectvalue, $codevalue ) = self::getValues();
 		$opts->consumeValue( 'rc-testwiki-project' );
 		$opts->consumeValue( 'rc-testwiki-code' );
 		$label = Xml::label( wfMsg( 'wminc-testwiki' ), 'rc-testwiki' );
 		$select = new XmlSelect( 'rc-testwiki-project', 'rc-testwiki-project', $projectvalue );
 		$select->addOption( wfMsg( 'wminc-testwiki-none' ), 'none' );
-		foreach( $wmincProjects as $name => $prefix) {
+		foreach( $wmincProjects as $name => $prefix ) {
 			$select->addOption( $name, $prefix );
 		}
 		$select->addOption( $wmincProjectSite['name'], $wmincProjectSite['short'] );
-		$langcode = Xml::input( 'rc-testwiki-code', (int)$wmincLangCodeLength, $langcodevalue,
+		$langcode = Xml::input( 'rc-testwiki-code', (int)$wmincLangCodeLength, $codevalue,
 			array( 'id' => 'rc-testwiki-code', 'maxlength' => (int)$wmincLangCodeLength ) );
 		$items['testwiki'] = array( $label, $select->getHTML() . ' ' . $langcode );
 		return true;

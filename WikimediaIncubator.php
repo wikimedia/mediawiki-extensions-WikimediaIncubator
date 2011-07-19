@@ -7,6 +7,7 @@ if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWik
  *
  * @file
  * @ingroup Extensions
+ * @author Robin Pepermans (SPQRobin)
  */
 
 $wgExtensionCredits['other'][] = array(

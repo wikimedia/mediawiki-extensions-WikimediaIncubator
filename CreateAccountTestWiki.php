@@ -1,11 +1,16 @@
 <?php
-/*
-* If URL parameters "testwikiproject" and "testwikicode" are set
-* on account creation form, set them as user preference.
-* This can be used to work with links on other sites
-* referring to the account creation form so users don't *have* to
-* change their preferences (automatically is always better :p)
-*/
+/**
+ * If URL parameters "testwikiproject" and "testwikicode" are set
+ * on account creation form, set them as user preference.
+ * This can be used to work with links on other sites
+ * referring to the account creation form so users don't *have* to
+ * change their preferences (automatically is always better :p)
+ *
+ * @file
+ * @ingroup Extensions
+ * @author Robin Pepermans (SPQRobin)
+ */
+
 class AutoTestWiki {
 	public static function onUserCreateForm( $template ) {
 		global $wgRequest, $wmincProjects;

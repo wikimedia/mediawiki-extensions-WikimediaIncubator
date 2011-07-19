@@ -6,6 +6,7 @@
  *
  * @file
  * @ingroup SpecialPage
+ * @author Robin Pepermans (SPQRobin)
  */
 
 class SpecialMyMainPage extends UnlistedSpecialPage {

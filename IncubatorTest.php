@@ -1,10 +1,20 @@
 <?php
-/*
-* Implement test wiki preference, magic word and prefix check on edit page
-*/
+/**
+ * Main class of the WikimediaIncubator extension.
+ * Implement test wiki preference, magic word and prefix check on edit page,
+ * and contains general functions for other classes.
+ *
+ * @file
+ * @ingroup Extensions
+ * @author Robin Pepermans (SPQRobin)
+ */
 
-class IncubatorTest
-{
+class IncubatorTest {
+
+	/**
+	 * Add preferences
+	 * @return True
+	 */
 	static function onGetPreferences( $user, &$preferences ) {
 		global $wmincPref, $wmincProjects, $wmincProjectSite,
 			$wmincLangCodeLength, $wgDefaultUserOptions;
@@ -13,8 +23,10 @@ class IncubatorTest
 
 		$prefinsert[$wmincPref . '-project'] = array(
 			'type' => 'select',
-			'options' => array( wfMsg( 'wminc-testwiki-none' ) => 'none' ) +
-				(array)$wmincProjects + array( $wmincProjectSite['name'] => $wmincProjectSite['short'] ),
+			'options' =>
+				array( wfMsg( 'wminc-testwiki-none' ) => 'none' ) +
+				(array)$wmincProjects +
+				array( $wmincProjectSite['name'] => $wmincProjectSite['short'] ),
 			'section' => 'personal/i18n',
 			'label-message' => 'wminc-testwiki',
 			'id' => $wmincPref . '-project',
@@ -38,6 +50,10 @@ class IncubatorTest
 		return true;
 	}
 
+	/**
+	 * For the preferences above
+	 * @return String or true
+	 */
 	static function validateCodePreference( $input, $alldata ) {
 		global $wmincPref, $wmincProjects;
 		// If the user selected a project that NEEDS a language code, but the user DID NOT enter a language code, give an error
@@ -48,10 +64,11 @@ class IncubatorTest
 		}
 	}
 
-	/*
-	* This validates a given language code.
-	* Only "xx[x]" and "xx[x]-x[xxxxxxxx]" are allowed.
-	*/
+	/**
+	 * This validates a given language code.
+	 * Only "xx[x]" and "xx[x]-x[xxxxxxxx]" are allowed.
+	 * @return Boolean
+	 */
 	static function validateLanguageCode( $code ) {
 		global $wmincLangCodeLength;
 		if( strlen( $code ) > $wmincLangCodeLength ) { return false; }
@@ -59,16 +76,20 @@ class IncubatorTest
 		return (bool) preg_match( '/^[a-z][a-z][a-z]?(-[a-z]+)?$/', $code );
 	}
 
-	/*
-	* This validates a full prefix in a given title.
-	* It gives an array with the project and language code, containing
-	* the key 'error' if it is invalid.
-	* Use validatePrefix() if you just want true or false.
-	* Use displayPrefixedTitle() to make a prefix page title!
-	*
-	* @param $onlyprefix Bool Whether to validate only the prefix, or
-	* also allow other text within the page title (Wx/xxx vs Wx/xxx/Text)
-	*/
+	/**
+	 * This validates a full prefix in a given title.
+	 * Do not include namespaces!
+	 * It gives an array with the project and language code, containing
+	 * the key 'error' if it is invalid.
+	 * Use validatePrefix() if you just want true or false.
+	 * Use displayPrefixedTitle() to make a prefix page title!
+	 *
+	 * @param $title String The given title (often $wgTitle->getText() )
+	 * @param $onlyInfoPage Bool Whether to validate only the prefix, or
+	 * also allow other text within the page title (Wx/xxx vs Wx/xxx/Text)
+	 * @return Array with 'error' or 'project', 'lang', 'prefix' and
+	 *					optionally 'realtitle'
+	 */
 	static function analyzePrefix( $title, $onlyprefix = false ) {
 		$data = array();
 		// split title into parts
@@ -99,30 +120,33 @@ class IncubatorTest
 		return $data; // return an array with information
 	}
 
-	/*
-	* This returns simply true or false based on analyzePrefix().
-	*/
+	/**
+	 * This returns simply true or false based on analyzePrefix().
+	 * @return Boolean
+	 */
 	static function validatePrefix( $title, $onlyprefix = false ) {
 		$data = self::analyzePrefix( $title, $onlyprefix );
 		if( !isset( $data['error'] ) ) { return true; }
 		return false;
 	}
 
-	/* 
-	* Returns true if the given project (or preference
-	* by default) is one of the projects using the
-	* format Wx/xxx (as defined in $wmincProjects)
-	*/
+	/**
+	 * Whether the given project (or preference by default) is one of the
+	 * projects using the format Wx/xxx (as defined in $wmincProjects)
+	 * @param $project the project code
+	 * @return Boolean
+	 */
 	static function isContentProject( $project = '' ) {
 		global $wgUser, $wmincPref, $wmincProjects;
 		$project = ($project ? $project : $wgUser->getOption($wmincPref . '-project') );
 		return (bool) in_array( $project, $wmincProjects );
 	}
 
-	/*
-	* display the prefix by the given project and code
-	* (or the user preference if no parameters are given)
-	*/
+	/**
+	 * display the prefix by the given project and code
+	 * (or the user preference if no parameters are given)
+	 * @return String
+	 */
 	static function displayPrefix( $project = '', $code = '' ) {
 		global $wgUser, $wmincPref;
 		$projectvalue = ( $project ? $project : $wgUser->getOption($wmincPref . '-project') );
@@ -138,10 +162,11 @@ class IncubatorTest
 		}
 	}
 
-	/*
-	* Makes a full prefixed title of a given page title and namespace
-	* @param $ns Int numeric value of namespace
-	*/
+	/**
+	 * Makes a full prefixed title of a given page title and namespace
+	 * @param $ns Int numeric value of namespace
+	 * @return object Title
+	 */
 	static function displayPrefixedTitle( $title, $ns = 0 ) {
 		global $wgLang, $wmincTestWikiNamespaces;
 		if( in_array( $ns, $wmincTestWikiNamespaces ) ) {
@@ -180,8 +205,10 @@ class IncubatorTest
 		return true;
 	}
 
-	/* Return an error if the user wants to create an unprefixed page
-	*/
+	/**
+	 * Return an error if the user wants to create an unprefixed page
+	 * @return Boolean
+	 */
 	static function checkPrefixCreatePermissions( $title, $user, $action, &$result ) {
 		global $wmincProjectSite, $wmincTestWikiNamespaces, $wmincPseudoCategoryNSes;
 		$titletext = $title->getText();
@@ -221,9 +248,11 @@ class IncubatorTest
 		return false;
 	}
 
-	/* Return an error if the user wants to move 
-	* an existing page to an unprefixed title
-	*/
+	/**
+	 * Return an error if the user wants to move
+	 * an existing page to an unprefixed title
+	 * @return Boolean
+	 */
 	static function checkPrefixMovePermissions( $oldtitle, $newtitle, $user, &$error ) {
 		global $wmincProjectSite, $wmincTestWikiNamespaces;
 		$prefixdata = self::analyzePrefix( $newtitle->getText() );
@@ -244,11 +273,11 @@ class IncubatorTest
 	}
 
 	/**
-	* Add a link to Special:ViewUserLang from Special:Contributions/USERNAME
-	* if the user has 'viewuserlang' permission
-	* Based on code from extension LookupUser made by Tim Starling
-	* @return true
-	*/
+	 * Add a link to Special:ViewUserLang from Special:Contributions/USERNAME
+	 * if the user has 'viewuserlang' permission
+	 * Based on code from extension LookupUser made by Tim Starling
+	 * @return True
+	 */
 	static function efLoadViewUserLangLink( $id, $nt, &$links ) {
 		global $wgUser;
 		if ( $wgUser->isAllowed( 'viewuserlang' ) ) {
