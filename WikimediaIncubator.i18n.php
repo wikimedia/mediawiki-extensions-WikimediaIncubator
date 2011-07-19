@@ -18,7 +18,6 @@ $messages['en'] = array(
 	'wminc-testwiki' => 'Test wiki:',
 	'wminc-testwiki-none' => 'None/All',
 	'wminc-recentchanges-all' => 'All recent changes',
-	'wminc-mainpage-url' => 'Main Page', # do not translate
 
 	# Preferences
 	'wminc-prefinfo-language' => 'Your interface language - independent from your test wiki',
