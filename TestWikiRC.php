@@ -54,7 +54,7 @@ class TestWikiRC {
 		$label = Xml::label( wfMsg( 'wminc-testwiki' ), 'rc-testwiki' );
 		$select = new XmlSelect( 'rc-testwiki-project', 'rc-testwiki-project', $projectvalue );
 		$select->addOption( wfMsg( 'wminc-testwiki-none' ), 'none' );
-		foreach( $wmincProjects as $name => $prefix ) {
+		foreach( $wmincProjects as $prefix => $name ) {
 			$select->addOption( $name, $prefix );
 		}
 		$select->addOption( $wmincProjectSite['name'], $wmincProjectSite['short'] );

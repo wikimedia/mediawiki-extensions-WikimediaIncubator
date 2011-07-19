@@ -25,7 +25,7 @@ class IncubatorTest {
 			'type' => 'select',
 			'options' =>
 				array( wfMsg( 'wminc-testwiki-none' ) => 'none' ) +
-				(array)$wmincProjects +
+				array_flip( $wmincProjects ) +
 				array( $wmincProjectSite['name'] => $wmincProjectSite['short'] ),
 			'section' => 'personal/i18n',
 			'label-message' => 'wminc-testwiki',
@@ -56,9 +56,13 @@ class IncubatorTest {
 	 */
 	static function validateCodePreference( $input, $alldata ) {
 		global $wmincPref, $wmincProjects;
-		// If the user selected a project that NEEDS a language code, but the user DID NOT enter a language code, give an error
-		if ( isset( $alldata[$wmincPref.'-project'] ) && in_array( $alldata[$wmincPref.'-project'], $wmincProjects ) && !$input ) {
-			return Xml::element( 'span', array( 'class' => 'error' ), wfMsg( 'wminc-prefinfo-error' ) );
+		# If the user selected a project that NEEDS a language code,
+		# but the user DID NOT enter a language code, give an error
+		if ( isset( $alldata[$wmincPref.'-project'] ) &&
+			array_key_exists( $alldata[$wmincPref.'-project'], $wmincProjects ) &&
+			!$input ) {
+			return Xml::element( 'span', array( 'class' => 'error' ),
+				wfMsg( 'wminc-prefinfo-error' ) );
 		} else {
 			return true;
 		}
@@ -106,7 +110,7 @@ class IncubatorTest {
 			}
 		}
 		global $wmincProjects;
-		$listProjects =	implode( '', $wmincProjects ); // something like: pbtqn
+		$listProjects =	implode( '', array_keys( $wmincProjects ) ); # something like: pbtqn
 		if( !preg_match( '/^W['.$listProjects.']\/[a-z-]+' .
 			($onlyprefix ? '$/' : '(\/.+)?$/' ), $title ) ) {
 			$data['error'] = 'invalidprefix';
@@ -159,20 +163,35 @@ class IncubatorTest {
 	 */
 	static function isContentProject( $project = '' ) {
 		global $wgUser, $wmincPref, $wmincProjects;
-		$project = ($project ? $project : $wgUser->getOption($wmincPref . '-project') );
-		return (bool) in_array( $project, $wmincProjects );
+		$url = self::getUrlParam();
+		if( $project ) {
+			$r = $project; # Precedence to given value
+		} elseif( $url ) {
+			$r = $url['project']; # Otherwise URL &testwiki= if set
+		} else {
+			$r = $wgUser->getOption( $wmincPref . '-project' ); # Defaults to preference
+		}
+		return (bool) array_key_exists( $r, $wmincProjects );
 	}
 
 	/**
 	 * display the prefix by the given project and code
-	 * (or the user preference if no parameters are given)
+	 * (or the URL &testwiki= or user preference if no parameters are given)
 	 * @return String
 	 */
-	static function displayPrefix( $project = '', $code = '' ) {
-		global $wgUser, $wmincPref;
-		$projectvalue = ( $project ? $project : $wgUser->getOption($wmincPref . '-project') );
-		$codevalue = ( $code ? $code : $wgUser->getOption($wmincPref . '-code') );
-		if ( self::isContentProject( $projectvalue ) ) {
+	static function displayPrefix( $project = '', $code = '', $allowSister = false ) {
+		global $wmincSisterProjects;
+		if( $project && $code ) {
+			$projectvalue = $project;
+			$codevalue = $code;
+		} else {
+			global $wgUser, $wmincPref;
+			$url = self::getUrlParam();
+			$projectvalue = ( $url ? $url['project'] : $wgUser->getOption($wmincPref . '-project') );
+			$codevalue = ( $url ? $url['lang'] : $wgUser->getOption($wmincPref . '-code') );
+		}
+		$sister = (bool)( $allowSister && isset( $wmincSisterProjects[$projectvalue] ) );
+		if ( self::isContentProject( $projectvalue ) || $sister ) {
 			// if parameters are set OR it falls back to user pref and
 			// he has a content project pref set  -> return the prefix
 			return 'W' . $projectvalue . '/' . $codevalue; // return the prefix

@@ -16,7 +16,7 @@ class AutoTestWiki {
 		global $wgRequest, $wmincProjects;
 		$projectvalue = strtolower( $wgRequest->getVal( 'testwikiproject', '' ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'testwikicode', '' ) );
-		if ( IncubatorTest::validateLanguageCode( $codevalue ) && in_array( $projectvalue, (array)$wmincProjects ) ) {
+		if ( IncubatorTest::validateLanguageCode( $codevalue ) && isset( $wmincProjects[$projectvalue] ) ) {
 			$template->set( 'header',
 				Html::hidden('testwiki-project', $projectvalue).
 				Html::hidden('testwiki-code', $codevalue)
@@ -29,7 +29,7 @@ class AutoTestWiki {
 		global $wgRequest, $wmincProjects, $wmincPref;
 		$projectvalue = $wgRequest->getVal( 'testwiki-project' );
 		$codevalue = $wgRequest->getVal( 'testwiki-code' );
-		if ( IncubatorTest::validateLanguageCode( $codevalue ) && in_array( $projectvalue, (array)$wmincProjects ) ) {
+		if ( IncubatorTest::validateLanguageCode( $codevalue ) && isset( $wmincProjects[$projectvalue] ) ) {
 			$user->setOption( $wmincPref . '-project', $projectvalue );
 			$user->setOption( $wmincPref . '-code', $codevalue );
 			$user->saveSettings();

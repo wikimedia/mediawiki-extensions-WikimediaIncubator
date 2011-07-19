@@ -19,20 +19,21 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'wminc-desc',
 );
 
-/* Config */
-$wgGroupPermissions['*']['viewuserlang'] = false;
-$wgGroupPermissions['sysop']['viewuserlang'] = true;
-
 /* General (globals and/or configuration) */
 $wmincPref = 'incubatortestwiki'; // Name of the preference
 $dir = dirname( __FILE__ ) . '/';
 // only one-letter codes can be used for projects
 $wmincProjects = array(
-	'Wikipedia' => 'p',
-	'Wikibooks' => 'b',
-	'Wiktionary' => 't',
-	'Wikiquote' => 'q',
-	'Wikinews' => 'n',
+	'p' => 'Wikipedia',
+	'b' => 'Wikibooks',
+	't' => 'Wiktionary',
+	'q' => 'Wikiquote',
+	'n' => 'Wikinews',
+);
+# Sister projects is here defined as projects that are not on Incubator
+$wmincSisterProjects = array(
+	's' => 'Wikisource',
+	'v' => 'Wikiversity',
 );
 $wmincProjectSite = array(
 	'name' => 'Incubator',
@@ -67,6 +68,8 @@ $wgSpecialPages['ViewUserLang'] = 'SpecialViewUserLang';
 $wgSpecialPageGroups['ViewUserLang'] = 'users';
 $wgAvailableRights[] = 'viewuserlang';
 $wgHooks['ContributionsToolLinks'][] = 'IncubatorTest::efLoadViewUserLangLink';
+$wgGroupPermissions['*']['viewuserlang'] = false;
+$wgGroupPermissions['sysop']['viewuserlang'] = true;
 
 /* TestWiki preference */
 $wgAutoloadClasses['IncubatorTest'] = $dir . 'IncubatorTest.php';
