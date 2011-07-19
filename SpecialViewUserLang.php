@@ -7,10 +7,11 @@
  * Based on code from extension LookupUser made by Tim Starling
  *
  * @file
+ * @ingroup SpecialPage
+ * @author Robin Pepermans (SPQRobin)
  */
 
-class SpecialViewUserLang extends SpecialPage
-{
+class SpecialViewUserLang extends SpecialPage {
 	public function __construct() {
 		parent::__construct( 'ViewUserLang', 'viewuserlang' );
 	}
@@ -23,7 +24,6 @@ class SpecialViewUserLang extends SpecialPage
 	 */
 	public function execute( $subpage ) {
 		global $wgRequest, $wgUser;
-		
 
 		$this->setHeaders();
 
@@ -67,7 +67,7 @@ class SpecialViewUserLang extends SpecialPage
 	 * @param $target Mixed: user whose language and test wiki we're looking up
 	 */
 	function showInfo( $target ) {
-		global $wgOut, $wmincPref, $wmincProjectSite;
+		global $wgOut, $wmincPref, $wmincProjectSite, $wgUser;
 		$user = User::newFromName( $target );
 		$name = $user->getName();
 		$id = $user->getId();
@@ -81,7 +81,7 @@ class SpecialViewUserLang extends SpecialPage
 			$usercode = $user->getOption( $wmincPref . '-code' );
 			$prefix = IncubatorTest::displayPrefix( $userproject, $usercode );
 			if ( IncubatorTest::isContentProject( $userproject ) ) {
-				$testwiki = Linker::link( Title::newFromText( $prefix ) );
+				$testwiki = $wgUser->getSkin()->link( Title::newFromText( $prefix ) );
 			} elseif ( $prefix == $wmincProjectSite['short'] ) {
 				$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
 			} else {
@@ -90,7 +90,7 @@ class SpecialViewUserLang extends SpecialPage
 			$wgOut->addHtml(
 				Xml::openElement( 'ul' ) .
 				'<li>' . wfMsgHtml( 'username' ) . ' ' .
-					Linker::userLink( $id, $name ) . Linker::userToolLinks( $id, $name, true ) . '</li>' .
+					$wgUser->getSkin()->userLink( $id, $name ) . $wgUser->getSkin()->userToolLinks( $id, $name, true ) . '</li>' .
 				'<li>' . wfMsgHtml( 'loginlanguagelabel', $langNames[$user->getOption( 'language' )] .
 					' (' . $user->getOption( 'language' ) . ')' ) . '</li>' .
 				'<li>' . wfMsgHtml( 'wminc-testwiki' ) . ' ' . $testwiki . '</li>' .
