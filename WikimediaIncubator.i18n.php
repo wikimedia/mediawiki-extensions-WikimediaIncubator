@@ -1689,6 +1689,9 @@ $messages['ru'] = array(
 	'randombytest' => 'Случайная страница пробной вики',
 	'randombytest-nopages' => 'В вашей пробной вики нет страниц в пространстве имён $1.',
 	'wminc-recentchanges-all' => 'Все недавние правки',
+	'group-test-sysop' => 'Администраторы тестовой вики',
+	'group-test-sysop-member' => 'администратор тестовой вики',
+	'grouppage-test-sysop' => 'Проект:Администраторы тестовой вики',
 );
 
 /** Rusyn (Русиньскый)
