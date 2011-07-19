@@ -14,7 +14,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '3.2',
+	'version' => '4.0',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -22,7 +22,8 @@ $wgExtensionCredits['other'][] = array(
 /* General (globals and/or configuration) */
 $wmincPref = 'incubatortestwiki'; // Name of the preference
 $dir = dirname( __FILE__ ) . '/';
-// only one-letter codes can be used for projects
+$wmincScriptDir = $wgScriptPath . '/extensions/WikimediaIncubator/';
+# only one-letter codes can be used for projects
 $wmincProjects = array(
 	'p' => 'Wikipedia',
 	'b' => 'Wikibooks',
@@ -34,6 +35,12 @@ $wmincProjects = array(
 $wmincSisterProjects = array(
 	's' => 'Wikisource',
 	'v' => 'Wikiversity',
+);
+$wmincMultilingualProjects = array(
+	'meta.wikimedia.org' => 'Meta-Wiki',
+	'commons.wikimedia.org' => 'Wikimedia Commons',
+	'species.wikimedia.org' => 'Wikispecies',
+	'mediawiki.org' => 'MediaWiki',
 );
 $wmincProjectSite = array(
 	'name' => 'Incubator',
@@ -83,7 +90,7 @@ $wgAutoloadClasses['SpecialMyMainPage'] = $dir . 'SpecialMyMainPage.php';
 $wgSpecialPages['MyMainPage'] = 'SpecialMyMainPage';
 
 /* Create/move page permissions */
-$wgHooks['getUserPermissionsErrors'][] = 'IncubatorTest::checkPrefixCreatePermissions';
+$wgHooks['getUserPermissionsErrors'][] = 'IncubatorTest::onGetUserPermissionsErrors';
 $wgHooks['AbortMove'][] = 'IncubatorTest::checkPrefixMovePermissions';
 
 /* Recent Changes */
@@ -99,3 +106,35 @@ $wgHooks['AddNewAccount'][] = 'AutoTestWiki::onAddNewAccount';
 /* Random page by test */
 $wgAutoloadClasses['SpecialRandomByTest'] = $dir . 'SpecialRandomByTest.php';
 $wgSpecialPages['RandomByTest'] = 'SpecialRandomByTest';
+
+/* support for automatic checking in a list of databases if a wiki exists */
+$wmincExistingWikis = $wgLocalDatabases;
+/* Stupid "wiki" referring to "wikipedia" in WMF config */
+$wmincProjectDatabases = array( 
+	'p' => 'wiki',
+	'b' => 'wikibooks',
+	't' => 'wiktionary',
+	'q' => 'wikiquote',
+	'n' => 'wikinews',
+	's' => 'wikisource',
+	'v' => 'wikiversity',
+);
+# if WMF/SiteMatrix config is available, use it
+# NOTICE: include SiteMatrix extension before this extension (this is the case for WMF)
+$wmincClosedWikis = isset( $wgSiteMatrixClosedSites ) ? $wgSiteMatrixClosedSites : null;
+
+/* Wx/xx[x] info page */
+$wgAutoloadClasses['InfoPage'] = $dir . 'InfoPage.php';
+$wgExtensionMessagesFiles['InfoPage'] = $dir . 'InfoPage.i18n.php';
+$wgHooks['ShowMissingArticle'][] = 'IncubatorTest::onShowMissingArticle';
+$wgHooks['EditFormPreloadText'][] = 'IncubatorTest::onEditFormPreloadText';
+$wgHooks['ArticleFromTitle'][] = 'IncubatorTest::onArticleFromTitle';
+
+$wgResourceModules['WikimediaIncubator.InfoPage'] = array(
+		'styles' => 'InfoPage.css',
+		'localBasePath' => dirname(__FILE__),
+		'remoteExtPath' => $wmincScriptDir,
+);
+
+/* Possibility to set a logo per test wiki */
+$wgHooks['BeforePageDisplay'][] = 'IncubatorTest::fnTestWikiLogo';

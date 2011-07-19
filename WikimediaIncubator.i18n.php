@@ -11,29 +11,48 @@ $messages = array();
  * @author SPQRobin
  */
 $messages['en'] = array(
+	# General messages
 	'wminc-desc' => 'Test wiki system for Wikimedia Incubator',
-	'wminc-viewuserlang' => 'Look up user language and test wiki',
-	'wminc-viewuserlang-user' => 'Username:',
-	'wminc-viewuserlang-go' => 'Go',
-	'wminc-userdoesnotexist' => 'The user "$1" does not exist.',
+	'wminc-manual' => 'Manual',
+	'wminc-listwikis' => 'List of wikis',
 	'wminc-testwiki' => 'Test wiki:',
 	'wminc-testwiki-none' => 'None/All',
+	'wminc-recentchanges-all' => 'All recent changes',
+	'wminc-mainpage-url' => 'Main Page', # do not translate
+
+	# Preferences
 	'wminc-prefinfo-language' => 'Your interface language - independent from your test wiki',
 	'wminc-prefinfo-code' => 'The ISO 639 language code',
 	'wminc-prefinfo-project' => 'Select the Wikimedia project (Incubator option is for users who do general work)',
 	'wminc-prefinfo-error' => 'You selected a project that needs a language code.',
+
+	# Editing/creating pages errors
 	'wminc-error-move-unprefixed' => "Error: The page you are trying to move to [[{{MediaWiki:Helppage}}|is unprefixed or has a wrong prefix]]!",
-	'wminc-error-wronglangcode' => "'''Error:''' The page you are trying to edit contains a [[{{MediaWiki:Helppage}}|wrong language code]] \"$1\"!",
-	'wminc-error-unprefixed' => "'''Error:''' The page you are trying to edit is [[{{MediaWiki:Helppage}}|unprefixed]]!",
-	'wminc-error-unprefixed-suggest' => "'''Error:''' The page you are trying to edit is [[{{MediaWiki:Helppage}}|unprefixed]]! You can create a page at [[:$1]].",
-	'right-viewuserlang' => 'View [[Special:ViewUserLang|user language and test wiki]]',
+	'wminc-error-wronglangcode' => "'''Error:''' This page contains a [[{{MediaWiki:Helppage}}|wrong language code]] \"$1\"!",
+	'wminc-error-unprefixed' => "'''Error:''' This page is [[{{MediaWiki:Helppage}}|unprefixed]]!",
+	'wminc-error-unprefixed-suggest' => "'''Error:''' This page is [[{{MediaWiki:Helppage}}|unprefixed]]! You can create a page at [[:$1]].",
+	'wminc-error-wiki-exists' => 'This wiki already exists. You can find this page on $1. If the wiki was recently created, please wait a few hours or days until all content is imported.',
+
+	# Special:RandomByTest
 	'randombytest' => 'Random page by test wiki',
 	'randombytest-nopages' => 'There are no pages in your test wiki, in the namespace: $1.',
-	'wminc-recentchanges-all' => 'All recent changes',
 
+	# Special:ViewUserLang
+	'wminc-viewuserlang' => 'Look up user language and test wiki',
+	'wminc-viewuserlang-user' => 'Username:',
+	'wminc-viewuserlang-go' => 'Go',
+	'wminc-userdoesnotexist' => 'The user "$1" does not exist.',
+
+	# User groups
+	'right-viewuserlang' => 'View [[Special:ViewUserLang|user language and test wiki]]',
 	'group-test-sysop' => 'Test wiki administrators',
 	'group-test-sysop-member' => 'test wiki administrator',
 	'grouppage-test-sysop' => 'Project:Test wiki administrators',
+
+	# Language codes
+	'wminc-code-macrolanguage' => 'The [[wikipedia:$2 language|"$3" language]] is a [[wikipedia:ISO 639 macrolanguage|macrolanguage]], consisting of the following member languages:',
+	'wminc-code-collective' => 'The code "$1" does not refer to a specific language, but to a collection of languages, namely the [[w:$2 language|"$3" languages]].',
+	'wminc-code-retired' => 'This language code has been changed and no longer refers to the original language.',
 );
 
 /** Message documentation (Message documentation)
