@@ -493,8 +493,6 @@ $messages['de-formal'] = array(
 	'wminc-prefinfo-language' => 'Sprache Ihrer Benutzeroberfläche - vom Testwiki unabhängig',
 	'wminc-prefinfo-project' => 'Das Wikimedia-Projekt, an dem Sie hier arbeiten („Incubator“ für Benutzer, die allgemeine Aufgaben übernehmen)',
 	'wminc-error-move-unprefixed' => 'Fehler: Die Seite, die Sie verschieben wollen, hat entweder [[{{MediaWiki:Helppage}}|kein oder ein falsches Präfix]].',
-	'wminc-error-wronglangcode' => "'''Fehler:''' Die Seite, die Sie zu bearbeiten versuchen, hat einen [[{{MediaWiki:Helppage}}|falschen Sprachcode]]: \"\$1\".",
-	'wminc-error-unprefixed' => "'''Fehler:''' Die Seite, die Sie zu bearbeiten versuchen, hat [[{{MediaWiki:Helppage}}|kein Präfix]].",
 	'wminc-error-unprefixed-suggest' => "'''Fehler:''' Diese Seite hat [[{{MediaWiki:Helppage}}|kein Präfix]]. Sie können unter [[:$1]] eine Seite anlegen.",
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ Ihres Testwikis.',
 );
@@ -730,19 +728,22 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'wminc-desc' => 'Sistèmo de vouiqui d’èprôva por Wikimedia Covosa.',
-	'wminc-viewuserlang' => 'Vêre la lengoua a l’utilisator et lo vouiqui d’èprôva',
-	'wminc-viewuserlang-user' => 'Nom d’utilisator :',
-	'wminc-viewuserlang-go' => 'Alar trovar',
-	'wminc-userdoesnotexist' => 'L’utilisator « $1 » ègziste pas.',
+	'wminc-manual' => 'Manuâl',
+	'wminc-listwikis' => 'Lista des vouiquis',
 	'wminc-testwiki' => 'Vouiqui d’èprôva :',
 	'wminc-testwiki-none' => 'Nion / tôs',
+	'wminc-recentchanges-all' => 'Tôs los dèrriérs changements',
 	'wminc-prefinfo-language' => 'Voutra lengoua d’entèrface - endèpendenta de cela de voutron vouiqui d’èprôva',
 	'wminc-prefinfo-code' => 'Lo code ISO 639 de la lengoua',
 	'wminc-prefinfo-project' => 'Chouèsésséd lo projèt Wikimedia (lo chouèx Covosa est dèstinâ ux utilisators que font un travâly g·ènèral)',
 	'wminc-prefinfo-error' => 'Vos éd chouèsi un projèt qu’at fôta d’un code lengoua.',
-	'right-viewuserlang' => 'Vêre la [[Special:ViewUserLang|lengoua a l’utilisator et lo vouiqui d’èprôva]]',
 	'randombytest' => 'Pâge a l’hasârd per lo vouiqui d’èprôva',
 	'randombytest-nopages' => 'Voutron vouiqui d’èprôva contint gins de pâge dens l’èspâço de noms : $1.',
+	'wminc-viewuserlang' => 'Vêre la lengoua a l’utilisator et lo vouiqui d’èprôva',
+	'wminc-viewuserlang-user' => 'Nom d’utilisator :',
+	'wminc-viewuserlang-go' => 'Alar trovar',
+	'wminc-userdoesnotexist' => 'L’utilisator « $1 » ègziste pas.',
+	'right-viewuserlang' => 'Vêre la [[Special:ViewUserLang|lengoua a l’utilisator et lo vouiqui d’èprôva]]',
 );
 
 /** Galician (Galego)
@@ -1151,6 +1152,8 @@ $messages['koi'] = array(
  */
 $messages['ksh'] = array(
 	'wminc-desc' => 'Süßtemm för Versöhkß-Wikis för dä Inkubator vun de Wikimedia Shtefftung',
+	'wminc-manual' => 'Handbooch',
+	'wminc-listwikis' => 'Leß met de Wikis',
 	'wminc-testwiki' => 'Et Versöhkß-Wiki:',
 	'wminc-testwiki-none' => 'Kein/All',
 	'wminc-recentchanges-all' => 'All de {{LCFIRST:{{int:recentchanges}}}}',
@@ -1162,6 +1165,7 @@ $messages['ksh'] = array(
 	'wminc-error-wronglangcode' => "'''Dat es jeiht nit:''' Di Sigg, di de ändere wells, häd [[{{MediaWiki:Helppage}}|e verkeeht Köözel för de Shprooch]]: „$1“",
 	'wminc-error-unprefixed' => "'''Dat es jeiht nit:''' Di Sigg, di de ändere wells, hät kei [[{{MediaWiki:Helppage}}|Köözel am Aanfang]]!",
 	'wminc-error-unprefixed-suggest' => "'''Dat es jeiht nit:''' Di Sigg, di de ändere wells, hät kei [[{{MediaWiki:Helppage}}|Köözel am Aanfang]]! Do kanns en Sigg onger [[:$1]] aanlääje.",
+	'wminc-error-wiki-exists' => 'Dat Wiki jidd_et ald. Do kanns di Sigg op $1 fenge. Wann dat Wiki jraad neu opjemaat woode sin sullt, donn e paa Shtonde udder a paa Dääsch waade, bes dat alle Sigg von heh noh doh erövver jehollt woode sen.',
 	'randombytest' => 'En zohfällije Sigg uss_em Versöhkß-Wiki',
 	'randombytest-nopages' => 'En Appachtemang $1 sin kein Sigge uß Dingem Versöhkß-Wiki.',
 	'wminc-viewuserlang' => 'Däm Metmaacher sing Shprooch un sing Versöhkß-Wiki aanloore',
@@ -1172,6 +1176,9 @@ $messages['ksh'] = array(
 	'group-test-sysop' => 'Köbeße för e Versöhkß-Wiki',
 	'group-test-sysop-member' => 'Köbes för e Versöhkß-Wiki',
 	'grouppage-test-sysop' => 'Project:Köbeße för Versöhkß-Wikis',
+	'wminc-code-macrolanguage' => 'De Sprooch „[[wikipedia:$2 language|$3]]“ is en [[wikipedia:ksh:Makroshprooch (ISO 639-3)|Makroshprooch noh ISO 639-3]], woh heh di Shprooche bei jehüre:',
+	'wminc-code-collective' => 'Dat Köözel „$1“ es nit för en bestemmpte Shprooch, söndern för en Sammlong vun Shprooche, nämmlesch de [[wikipedia:$2 language|$3 Shprooche]].',
+	'wminc-code-retired' => 'Dat Köözel fö di Shprooch wood jeändert un deiht nit mieh för di Shprooch.',
 );
 
 /** Kurdish (Latin) (Kurdî (Latin))
@@ -1200,20 +1207,22 @@ $messages['kw'] = array(
  */
 $messages['lb'] = array(
 	'wminc-desc' => 'Testwiki-System fir de Wikimedia-Incubator',
-	'wminc-viewuserlang' => 'Benotzersprooch an Test-Wiki nokucken',
-	'wminc-viewuserlang-user' => 'Benotzernumm:',
-	'wminc-viewuserlang-go' => 'Lass',
-	'wminc-userdoesnotexist' => "De Benotzer ''$1'' gëtt et net.",
+	'wminc-listwikis' => 'Lëscht vun de Wikien',
 	'wminc-testwiki' => 'Test-Wiki:',
 	'wminc-testwiki-none' => 'Keen/All',
+	'wminc-recentchanges-all' => 'All rezent Ännerungen',
 	'wminc-prefinfo-language' => 'Sprooch vun ärem Interface - onofhängeg vun Ärer Test-Wiki',
 	'wminc-prefinfo-code' => 'Den ISO 639 Sprooche-Code',
 	'wminc-prefinfo-project' => "Wielt de Wikimediaprojet (D'Optioun 'Incubator' ass fir Benotzer déi allgemeng Aufgaben erledigen)",
 	'wminc-prefinfo-error' => 'Dir hutt e Projet gewielt deen e Sproochecode brauch.',
-	'right-viewuserlang' => '[[Special:ViewUserLang|Benotzersprooch an Test-Wiki]] weisen',
+	'wminc-error-wronglangcode' => "'''Feeler:''' Op dëser Säit ass e [[{{MediaWiki:Helppage}}|falsche Sproochecode]] \"\$1\"!",
 	'randombytest' => 'Zoufallssäit duerch Test Wiki',
 	'randombytest-nopages' => 'Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.',
-	'wminc-recentchanges-all' => 'All rezent Ännerungen',
+	'wminc-viewuserlang' => 'Benotzersprooch an Test-Wiki nokucken',
+	'wminc-viewuserlang-user' => 'Benotzernumm:',
+	'wminc-viewuserlang-go' => 'Lass',
+	'wminc-userdoesnotexist' => "De Benotzer ''$1'' gëtt et net.",
+	'right-viewuserlang' => '[[Special:ViewUserLang|Benotzersprooch an Test-Wiki]] weisen',
 );
 
 /** Limburgish (Limburgs)
@@ -1887,6 +1896,7 @@ $messages['sl'] = array(
 	'wminc-error-wronglangcode' => "'''Napaka:''' Stran vsebuje [[{{MediaWiki:Helppage}}|napačno kodo jezika]] »$1«!",
 	'wminc-error-unprefixed' => "'''Napaka:''' Stran [[{{MediaWiki:Helppage}}|nima predpone]]!",
 	'wminc-error-unprefixed-suggest' => "'''Napaka:''' Stran [[{{MediaWiki:Helppage}}|nima predpone]]! Stran lahko ustvarite na [[:$1]].",
+	'wminc-error-wiki-exists' => 'Wiki že obstaja. Stran lahko najdete na $1. Če je bil wiki ustvarjen pred kratkim, počakajte nekaj ur ali dni, dokler vsa vsebina ni uvožena.',
 	'randombytest' => 'Naključna stran preizkusnega wikija',
 	'randombytest-nopages' => 'Na vašem wikiju ni strani v imenskem prostoru: $1.',
 	'wminc-viewuserlang' => 'Poiščite jezik in preizkusni wiki uporabnika',
@@ -1897,6 +1907,9 @@ $messages['sl'] = array(
 	'group-test-sysop' => 'Administratorji poskusnega wikija',
 	'group-test-sysop-member' => 'administrator poskusnega wikija',
 	'grouppage-test-sysop' => 'Project:Administratorji poskusnega wikija',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Jezik »$3«]] je [[wikipedia:ISO 639 macrolanguage|makrojezik]], sestavljen iz naslednjih jezikovnih članov:',
+	'wminc-code-collective' => 'Koda »$1« se ne nanaša na določen jezik, ampak na skupino jezikov, in sicer [[w:$2 language|jeziki »$3«]].',
+	'wminc-code-retired' => 'Koda jezika je spremenjena in se več ne nanaša na izvirni jezik.',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)

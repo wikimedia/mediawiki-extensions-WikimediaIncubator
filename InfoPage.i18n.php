@@ -53,6 +53,7 @@ you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[
  */
 $messages['qqq'] = array(
 	'wminc-infopage-enter' => 'Text of a link to the Main Page of a test wiki at Incubator.',
+	'wminc-infopage-welcome' => 'Do not change <tt><nowiki>{{MediaWiki:Aboutpage}}</nowiki></tt>.',
 	'wminc-infopage-missingwiki-text' => "'''$1''' is a project: Wikipedia/Wiktionary/...",
 	'wminc-infopage-option-languages-existing' => "'''$1''' is the project name (Wikipedia, Wikinews, ...).",
 	'wminc-infopage-option-sisterprojects-existing' => 'Followed by clickable logos of projects Wikipedia, Wiktionary, Wikibooks, ...',
@@ -62,6 +63,24 @@ $messages['qqq'] = array(
 	'wminc-infopage-status-imported' => "'''$1''' is a URL to the closed wiki.",
 	'wminc-infopage-status-created' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-status-beforeincubator' => "'''$1''' is a URL to the existing wiki.",
+);
+
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author EugeneZelenko
+ * @author Jim-by
+ */
+$messages['be-tarask'] = array(
+	'wminc-infopage-option-startwiki' => 'Калі Вы жадаеце распачаць гэтую вікі,
+Вы можаце [{{fullurl:{{FULLPAGENAME}}|action=edit}} стварыць старонку] і выканаць [[{{MediaWiki:Wminc-manual-url}}|нашыя інструкцыі]].',
+	'wminc-infopage-option-languages-existing' => 'Вы можаце пашукаць [http://www.$1.org існуючыя моўныя варыянты $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Вы можаце пашукаць існуючыя праекты на гэтай мове:',
+	'wminc-infopage-option-sisterprojects-other' => 'Вы можаце пашукаць іншыя праекты на гэтай мове:',
+	'wminc-infopage-option-multilingual' => 'Вы можаце перайсьці ў шматмоўную вікі:',
+	'wminc-infopage-createmainpage' => 'Увядзіце словы «Галоўная старонка» на гэтай мове:',
+	'wminc-infopage-contribute' => 'Калі Вы ведаеце гэтую мову, Вы можаце рабіць унёсак!',
+	'wminc-infopage-status-imported' => 'Гэтая вікі ў інкубатары была імпартаваная з $1 пасьля таго, як вікі была закрытая.',
+	'wminc-infopage-status-created' => 'Гэты праект быў зацьверджаны моўным камітэтам, і цяпер ён даступны на $1.',
+	'wminc-infopage-status-beforeincubator' => 'Гэты праект быў створаны перад пачаткам функцыянаваньня Інкубатара фундацыі «Вікімэдыя» і ён даступны на $1.',
 );
 
 /** German (Deutsch)
@@ -201,9 +220,24 @@ $messages['nl'] = array(
 
 /** Portuguese (Português)
  * @author Carla404
+ * @author Hamilton Abreu
  */
 $messages['pt'] = array(
-	'wminc-infopage-contribute' => 'Se você fala este idioma, está convidado a contribuir!',
+	'wminc-infopage-enter' => 'ir para a Página principal',
+	'wminc-unknownlang' => '(língua desconhecida, com o código "$1")',
+	'wminc-infopage-welcome' => 'Bem-vindo(a) Incubadora Wikimedia, um projecto da Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Sobre]])',
+	'wminc-infopage-missingwiki-text' => 'Ainda não existe um projecto $1 nesta língua.',
+	'wminc-infopage-option-startwiki' => 'Se pretende iniciar esta wiki,
+pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{MediaWiki:Wminc-manual-url}}|manual]].',
+	'wminc-infopage-option-languages-existing' => 'Pode pesquisar as [http://www.$1.org edições de $1 nas línguas existentes].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Pode pesquisar os projectos existentes nesta língua:',
+	'wminc-infopage-option-sisterprojects-other' => 'Pode pesquisar outros projectos nesta língua:',
+	'wminc-infopage-option-multilingual' => 'Pode visitar uma wiki multilingue:',
+	'wminc-infopage-createmainpage' => 'Introduza o termo "Página principal" nesta língua:',
+	'wminc-infopage-contribute' => 'Se conhece esta língua, está convidado a colaborar!',
+	'wminc-infopage-status-imported' => 'Esta wiki da Incubadora foi importada de $1 após a wiki ter sido fechada.',
+	'wminc-infopage-status-created' => 'Este projecto foi aprovado pelo comité linguístico e está agora disponível em $1.',
+	'wminc-infopage-status-beforeincubator' => 'Este projecto foi criado antes do início da Incubadora Wikimedia e está disponível em $1.',
 );
 
 /** Russian (Русский)
