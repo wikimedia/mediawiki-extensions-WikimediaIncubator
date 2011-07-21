@@ -50,7 +50,7 @@ $messages['en'] = array(
 
 	# Language codes
 	'wminc-code-macrolanguage' => 'The [[wikipedia:$2 language|"$3" language]] is a [[wikipedia:ISO 639 macrolanguage|macrolanguage]], consisting of the following member languages:',
-	'wminc-code-collective' => 'The code "$1" does not refer to a specific language, but to a collection of languages, namely the [[w:$2 language|"$3" languages]].',
+	'wminc-code-collective' => 'The code "$1" does not refer to a specific language, but to a collection of languages, namely the [[wikipedia:$2 language|"$3" languages]].',
 	'wminc-code-retired' => 'This language code has been changed and no longer refers to the original language.',
 );
 
