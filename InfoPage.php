@@ -73,9 +73,9 @@ class InfoPage {
 		$otherProjects = $wmincProjects + $wmincSisterProjects;
 		foreach( $otherProjects as $code => $name ) {
 			$listOtherProjects[$code] = '<li>' . $this->makeLogo( $name, true,
-				75, NULL, IncubatorTest::getSubdomain( $this->mLangCode, $name ) ) . '</li>';
+				75, null, IncubatorTest::getSubdomain( $this->mLangCode, $name ) ) . '</li>';
 		}
-		unset($listOtherProjects[$this->mProjectCode]);
+		unset( $listOtherProjects[$this->mProjectCode] );
 		return '<ul class="wminc-infopage-otherprojects">' .
 			implode( '', $listOtherProjects ) . '</ul>';
 	}
@@ -83,9 +83,9 @@ class InfoPage {
 	public function listMultilingualProjects() {
 		global $wmincMultilingualProjects;
 		if( !is_array( $wmincMultilingualProjects ) ) { return; }
-		foreach($wmincMultilingualProjects as $url => $name) {
+		foreach( $wmincMultilingualProjects as $url => $name ) {
 			$list[$url] = '<li>' . $this->makeLogo( $name, true,
-				75, NULL, 'http://'.$url.'/') . '</li>';
+				75, null, 'http://'.$url.'/') . '</li>';
 		}
 		return '<ul class="wminc-infopage-multilingualprojects">' .
 			implode( '', $list ) . '</ul>';

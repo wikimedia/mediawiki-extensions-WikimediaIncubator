@@ -370,10 +370,8 @@ class IncubatorTest {
 	 */
 	static function canWeCheckDB() {
 		global $wmincExistingWikis, $wmincProjectDatabases;
-		if( !is_array( $wmincProjectDatabases ) ) {
-			return false; # We don't know the database names of the projects
-		} elseif( !isset( $wmincExistingWikis ) || !is_array( $wmincExistingWikis ) ) {
-			return false; # No list of databases
+		if( !is_array( $wmincProjectDatabases ) || !is_array( $wmincExistingWikis ) ) {
+			return false; # We don't know the databases
 		}
 		return true; # Should work now
 	}
@@ -514,7 +512,12 @@ class IncubatorTest {
 	}
 
 	/**
-	 * TODO: add support for secure server?
+	 * This forms a URL based on the language and project, and optionally title.
+	 * TODO: add support for secure server, or are links automatically converted?
+	 * @param $lang Language code
+	 * @param $project Project code (or project name)
+	 * @param $title Optional title on the target wiki
+	 * @param $protocol Whether to include the protocol
 	 * @return String
 	 */
 	public static function getSubdomain( $lang, $project, $title = '', $protocol = true ) {
@@ -551,10 +554,10 @@ class IncubatorTest {
 		if( $dbstate == 'existing' ) {
 			$url = self::getSubdomain( $prefix['lang'], $prefix['project'] );
 		} else {
-			$params = 'redirectfrom=infopage';
+			$params['redirectfrom'] = 'infopage';
 			$uselang = $wgRequest->getVal( 'uselang' );
 			if( $uselang ) {
-				$params .= '&uselang=' . $uselang;
+				$params['uselang'] = $uselang;
 			}
 			$mainpage = Title::newFromText(
 				self::getMainPage( $prefix['lang'], $prefix['prefix'] )
@@ -605,11 +608,11 @@ class IncubatorTest {
 			return false;
 		}
 		global $wgLogo;
-		# return if MediaWiki: Incubator-logo-wx/xx(x) does not exists
 		$prefixForPageTitle = preg_replace('/\//', '-', strtolower( $setLogo['prefix'] ) );
 		$file = wfFindFile( wfMsgForContentNoTrans( 'Incubator-logo-' . $prefixForPageTitle ) );
 		if( !$file ) {
-			# Try a general, default logo for that project
+			# if MediaWiki:Incubator-logo-wx-xx(x) doesn't exist,
+			# try a general, default logo for that project
 			global $wmincProjects;
 			$project = $setLogo['project'];
 			$projectForFile = preg_replace('/ /', '-', strtolower( $wmincProjects[$project] ) );
@@ -621,9 +624,7 @@ class IncubatorTest {
 			}
 			return false;
 		}
-		if ( $file == null ) {
-			return false;
-		}
+		# Use MediaWiki:Incubator-logo-wx-xx(x)
 		$thumb = $file->transform( array( 'width' => 135, 'height' => 135 ) );
 		$wgLogo = $thumb->getUrl();
 		return true;
