@@ -431,7 +431,7 @@ class IncubatorTest {
 	 * @return True
 	 */
 	static function onShowMissingArticle( $article ) {
-		global $wgOut, $wgUser;
+		global $wgOut;
 		$title = $article->getTitle();
 		$prefix = self::analyzePrefix( $title->getText(), true /* only info pages */ );
 
@@ -447,7 +447,8 @@ class IncubatorTest {
 					return true;
 				} else {
 					# Show a link to the existing wiki
-					$showLink = $wgUser->getSkin()->makeExternalLink( $link, $link );
+					$linker = class_exists( 'DummyLinker' ) ? new DummyLinker : new Linker;
+					$showLink = $linker->makeExternalLink( $link, $link );
 					$wgOut->addHtml( '<div class="wminc-wiki-exists">' .
 						wfMsgHtml( 'wminc-error-wiki-exists', $showLink ) .
 					'</div>' );

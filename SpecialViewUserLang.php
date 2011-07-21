@@ -67,11 +67,12 @@ class SpecialViewUserLang extends SpecialPage {
 	 * @param $target Mixed: user whose language and test wiki we're looking up
 	 */
 	function showInfo( $target ) {
-		global $wgOut, $wmincPref, $wmincProjectSite, $wgUser;
+		global $wgOut, $wmincPref, $wmincProjectSite;
 		$user = User::newFromName( $target );
 		$name = $user->getName();
 		$id = $user->getId();
 		$langNames = Language::getLanguageNames();
+		$linker = class_exists( 'DummyLinker' ) ? new DummyLinker : new Linker;
 		if ( $user == null || $id == 0 ) {
 			// show error if a user with that name does not exist
 			$wgOut->addHTML( Xml::span( wfMsg( 'wminc-userdoesnotexist', $target ), 'error' ) );
@@ -81,7 +82,7 @@ class SpecialViewUserLang extends SpecialPage {
 			$usercode = $user->getOption( $wmincPref . '-code' );
 			$prefix = IncubatorTest::displayPrefix( $userproject, $usercode );
 			if ( IncubatorTest::isContentProject( $userproject ) ) {
-				$testwiki = $wgUser->getSkin()->link( Title::newFromText( $prefix ) );
+				$testwiki = $linker->link( Title::newFromText( $prefix ) );
 			} elseif ( $prefix == $wmincProjectSite['short'] ) {
 				$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
 			} else {
@@ -90,7 +91,7 @@ class SpecialViewUserLang extends SpecialPage {
 			$wgOut->addHtml(
 				Xml::openElement( 'ul' ) .
 				'<li>' . wfMsgHtml( 'username' ) . ' ' .
-					$wgUser->getSkin()->userLink( $id, $name ) . $wgUser->getSkin()->userToolLinks( $id, $name, true ) . '</li>' .
+					$linker->userLink( $id, $name ) . $linker->userToolLinks( $id, $name, true ) . '</li>' .
 				'<li>' . wfMsgHtml( 'loginlanguagelabel', $langNames[$user->getOption( 'language' )] .
 					' (' . $user->getOption( 'language' ) . ')' ) . '</li>' .
 				'<li>' . wfMsgHtml( 'wminc-testwiki' ) . ' ' . $testwiki . '</li>' .
