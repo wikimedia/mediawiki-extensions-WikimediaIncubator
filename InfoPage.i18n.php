@@ -70,6 +70,10 @@ $messages['qqq'] = array(
  * @author Jim-by
  */
 $messages['be-tarask'] = array(
+	'wminc-infopage-enter' => 'перайсьці на Галоўную старонку',
+	'wminc-unknownlang' => '(невядомая мова з кодам «$1»)',
+	'wminc-infopage-welcome' => 'Вітаем у Інкубатары Вікімэдыя, праекце Фундацыі «Вікімэдыя» ([[{{MediaWiki:Aboutpage}}|Падрабязьней]])',
+	'wminc-infopage-missingwiki-text' => '$1 на гэтай мове яшчэ не існуе.',
 	'wminc-infopage-option-startwiki' => 'Калі Вы жадаеце распачаць гэтую вікі,
 Вы можаце [{{fullurl:{{FULLPAGENAME}}|action=edit}} стварыць старонку] і выканаць [[{{MediaWiki:Wminc-manual-url}}|нашыя інструкцыі]].',
 	'wminc-infopage-option-languages-existing' => 'Вы можаце пашукаць [http://www.$1.org існуючыя моўныя варыянты $1].',
@@ -85,6 +89,7 @@ $messages['be-tarask'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author MF-Warburg
  * @author Polletfa
  */
 $messages['de'] = array(
@@ -100,9 +105,9 @@ kannst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und gem
 	'wminc-infopage-option-multilingual' => 'Du kannst zu einem mehrsprachigen Wiki gehen:',
 	'wminc-infopage-createmainpage' => 'Gib das Wort für „Hauptseite“ in dieser Sprache ein:',
 	'wminc-infopage-contribute' => 'Sofern du diese Sprache beherrschst, bist du herzlich willkommen, mitzumachen!',
-	'wminc-infopage-status-imported' => 'Dieses Wiki des Incubators wurde aus $1 importiert nach dem es geschlossen wurde.',
-	'wminc-infopage-status-created' => 'Dieses Projekt wurde vom Ausschuss für Sprachen genehmigt und ist nun unter $1 verfügbar..',
-	'wminc-infopage-status-beforeincubator' => 'Dieses Projekt wurde erstellt bevor es den Wikimedia Incubator gab und ist verfügbar unter $1',
+	'wminc-infopage-status-imported' => 'Dieses Wiki des Incubators wurde von $1 importiert, nachdem es geschlossen wurde.',
+	'wminc-infopage-status-created' => 'Dieses Projekt wurde vom Sprachkomitee genehmigt und ist nun unter $1 verfügbar..',
+	'wminc-infopage-status-beforeincubator' => 'Dieses Projekt wurde erstellt, bevor es den Wikimedia Incubator gab und ist unter $1 verfügbar.',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -125,6 +130,27 @@ können Sie [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und g
  */
 $messages['es'] = array(
 	'wminc-infopage-contribute' => '¡Si entiendes esta lengua, te animamos a contribuir!',
+);
+
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'wminc-infopage-enter' => 'رفتن به صفحهٔ اصلی',
+	'wminc-unknownlang' => '(کد زبان ناشناخته: «$1»)',
+	'wminc-infopage-welcome' => 'به ویکی‌رشد، پروژه‌ای از بنیاد ویکی‌مدیا خوش‌آمدید ([[{{MediaWiki:Aboutpage}}|درباره]])',
+	'wminc-infopage-missingwiki-text' => 'یک $1 از این زبان، هنوز وجود ندارد.',
+	'wminc-infopage-option-startwiki' => 'اگر شما می‌خواهید این ویکی را شروع کنید،
+شما می‌توانید [{{fullurl:{{FULLPAGENAME}}|action=edit}} صفحه را ایجاد کنید] و از [[{{MediaWiki:Wminc-manual-url}}|راهنمای ما]] پیروی کنید.',
+	'wminc-infopage-option-languages-existing' => 'شما می‌توانید به دنبال [http://www.$1.org نسخه‌های زبان موجود از $1] بگردید.',
+	'wminc-infopage-option-sisterprojects-existing' => 'شما می‌توانید به دنبال پروژه‌های موجود از این زبان بگردید:',
+	'wminc-infopage-option-sisterprojects-other' => 'شما می‌توانید به دنبال پروژه‌های دیگر این زبان بگردید:',
+	'wminc-infopage-option-multilingual' => 'شما می‌توانید به ویکی چند زبانه بروید:',
+	'wminc-infopage-createmainpage' => 'کلمه «صفحهٔ اصلی» برای این زبان را وارد کنید:',
+	'wminc-infopage-contribute' => 'اگر شما این زبان را می‌دانید، شما به مشارکت در آن تشویق شده‌اید!',
+	'wminc-infopage-status-imported' => 'این ویکی در حال رشد پس از بسته شدن از نشانی $1 وارد شده است.',
+	'wminc-infopage-status-created' => 'این پروژه توسط کمیته زبان تصویب شده است و در نشانی $1 در دسترس است.',
+	'wminc-infopage-status-beforeincubator' => 'این پروژه قبل از شروع ویکی‌رشد، ایجاد شده است و در نشانی $1 در دسترس است.',
 );
 
 /** French (Français)
