@@ -292,7 +292,7 @@ $messages['be-tarask'] = array(
 	'group-test-sysop-member' => 'адміністратар тэставай вікі',
 	'grouppage-test-sysop' => 'Project:Адміністратары тэставай вікі',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 мова|«$3» мова]] зьяўляецца [[wikipedia:ISO 639 macrolanguage|макрамовай]], якая ўтрымлівае наступную колькасьць моваў:',
-	'wminc-code-collective' => 'Код «$1» не адносіцца да вызначанай мовы, а да набору моваў, а менавіта да [[wikipedia:$2 мовы|«$3» моваў]].',
+	'wminc-code-collective' => 'Код «$1» адносіцца не да пэўнай мовы, а да набору моваў, а менавіта да [[wikipedia:$2 language|«$3»]].',
 	'wminc-code-retired' => 'Гэты код мовы быў зьменены і болей не датычыцца арыгінальнай мовы.',
 );
 
@@ -718,11 +718,14 @@ $messages['fi'] = array(
  * @author Crochet.david
  * @author IAlex
  * @author PieRRoMaN
+ * @author Seb35
  * @author Sylvain2803
  * @author Urhixidur
  */
 $messages['fr'] = array(
 	'wminc-desc' => 'Système de test de wiki pour Wikimedia Incubator',
+	'wminc-manual' => 'Manuel',
+	'wminc-listwikis' => 'Liste des wikis',
 	'wminc-testwiki' => 'Wiki de test :',
 	'wminc-testwiki-none' => 'Aucun / tous',
 	'wminc-recentchanges-all' => 'Toutes les modifications récentes',
@@ -731,9 +734,10 @@ $messages['fr'] = array(
 	'wminc-prefinfo-project' => 'Sélectionnez le projet Wikimedia (l’option Incubator est destinée aux utilisateurs qui font un travail général)',
 	'wminc-prefinfo-error' => 'Vous avez sélectionné un projet qui nécessite un code de langue.',
 	'wminc-error-move-unprefixed' => "Erreur : La page vers laquelle vous tentez de renommer [[{{MediaWiki:Helppage}}|n'a pas de préfixe ou a un préfixe erroné]] !",
-	'wminc-error-wronglangcode' => "'''Erreur:''' la page que vous essayez d'éditer contient un [[{{MediaWiki:Helppage}}|code de langue erroné]] \"\$1\" !",
-	'wminc-error-unprefixed' => "''' Erreur:''' la page que vous essayez d'éditer n'a [[{{MediaWiki:Helppage}}|pas de préfixe]] !",
-	'wminc-error-unprefixed-suggest' => "''' Erreur:''' la page que vous essayez d'éditer n'a [[{{MediaWiki:Helppage}}|pas de préfixe]] ! Vous pouvez créer la page suivante : [[:$1]].",
+	'wminc-error-wronglangcode' => "'''Erreur :''' cette page contient un [[{{MediaWiki:Helppage}}|code de langue erroné]] \"\$1\" !",
+	'wminc-error-unprefixed' => "'''Erreur :''' cette page n’a [[{{MediaWiki:Helppage}}|pas de préfixe]] !",
+	'wminc-error-unprefixed-suggest' => "'''Erreur :''' cette page n’a [[{{MediaWiki:Helppage}}|pas de préfixe]] ! Vous pouvez créer une page sur : [[:$1]].",
+	'wminc-error-wiki-exists' => 'Ce wiki existe déjà. Vous pouvez trouver cette page sur $1. Si le wiki a été récemment créé, veuillez attendre quelques heures ou jours afin que tout le contenu soit importé.',
 	'randombytest' => 'Page aléatoire par le wiki de test',
 	'randombytest-nopages' => 'Votre wiki de test ne contient pas de page dans l’espace de noms : $1.',
 	'wminc-viewuserlang' => 'Voir la langue de l’utilisateur et son wiki de test',
@@ -741,6 +745,9 @@ $messages['fr'] = array(
 	'wminc-viewuserlang-go' => 'Aller',
 	'wminc-userdoesnotexist' => "L'utilisateur « $1 » n'existe pas.",
 	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|la langue de l’utilisateur et le wiki de test]]',
+	'wminc-code-macrolanguage' => 'La [[wikipedia:fr:$3|langue « $3 »]] est une [[wikipedia:fr:macro-langue|macro-langue]], comprenant les langues suivantes :',
+	'wminc-code-collective' => 'Le code « $1 » ne se réfère pas à une langue spécifique, mais à une collection de langues, en particulier les [[wikipedia:fr:$3|langues « $3 »]]',
+	'wminc-code-retired' => 'Ce code de langue a été changé est ne fait plus référence à la langue d’origine.',
 );
 
 /** Franco-Provençal (Arpetan)
@@ -959,8 +966,8 @@ $messages['hu'] = array(
 	'wminc-testwiki-none' => 'Egyik sem/Mind',
 	'wminc-recentchanges-all' => 'Minden friss változtatás',
 	'wminc-prefinfo-language' => 'A felhasználói felületed nyelve – független a teszt wikidtől',
-	'wminc-prefinfo-code' => 'Az ISO 639 szerinti nyelvkód',
-	'wminc-prefinfo-project' => 'Válaszd ki a Wikimédia projektet (az inkubátor választási lehetőség azoknak a felhasználóknak szól, akik általános munkát végeznek)',
+	'wminc-prefinfo-code' => 'Az ISO 639 szerinti nyelvkód. A fenti beállítás kiegészítése: a kettő együtt határozza meg, hogy melyik lesz az elsődleges tesztprojekted.',
+	'wminc-prefinfo-project' => 'Melyik tesztprojektben dolgozol elsődlegesen? Ennek kezdőlapja és friss változtatásainak listája az oldalmenüben külön is elérhető lesz.',
 	'wminc-prefinfo-error' => 'Olyan projektet választottál, amihez szükség van nyelvkódra.',
 	'randombytest' => 'Véletlen lap a tesztwikiből',
 	'randombytest-nopages' => 'Nincsenek lapok a teszt wikid $1 névterében.',
@@ -1593,6 +1600,8 @@ $messages['pdc'] = array(
  */
 $messages['pl'] = array(
 	'wminc-desc' => 'Testowa wiki dla Inkubatora Wikimedia',
+	'wminc-manual' => 'Podręcznik',
+	'wminc-listwikis' => 'Spis wiki',
 	'wminc-testwiki' => 'Testowa wiki',
 	'wminc-testwiki-none' => 'Żadna lub wszystkie',
 	'wminc-recentchanges-all' => 'Wszystkie ostatnie zmiany',
@@ -1601,9 +1610,10 @@ $messages['pl'] = array(
 	'wminc-prefinfo-project' => 'Wybierz projekt Wikimedia (opcja wyboru Inkubatora jest przeznaczona dla użytkowników, którzy wykonują prace ogólne)',
 	'wminc-prefinfo-error' => 'Został wybrany projekt, który wymaga podania kodu języka.',
 	'wminc-error-move-unprefixed' => 'Błąd – strona, którą próbujesz przenieść [[{{MediaWiki:Helppage}}|nie ma lub ma zły przedrostek]]!',
-	'wminc-error-wronglangcode' => "'''Błąd''' – strona, którą próbujesz modyfikować zawiera [[{{MediaWiki:Helppage}}|błędny kod języka]] „$1“!",
-	'wminc-error-unprefixed' => "'''Błąd''' – strona, którą próbujesz modyfikować nie ma [[{{MediaWiki:Helppage}}|przedrostka]]!",
-	'wminc-error-unprefixed-suggest' => "'''Błąd''' – strona, którą próbujesz modyfikować nie ma [[{{MediaWiki:Helppage}}|przedrostka]]! Możesz utworzyć stronę [[:$1]].",
+	'wminc-error-wronglangcode' => "'''Błąd''' – w treści strony odnaleziono [[{{MediaWiki:Helppage}}|błędny kod języka]] „$1“!",
+	'wminc-error-unprefixed' => "'''Błąd''' – ta strona nie ma [[{{MediaWiki:Helppage}}|przedrostka]]!",
+	'wminc-error-unprefixed-suggest' => "'''Błąd''' – ta strona nie ma [[{{MediaWiki:Helppage}}|przedrostka]]! Możesz utworzyć stronę [[:$1]].",
+	'wminc-error-wiki-exists' => 'Taka wiki już istnieje. Możesz odnaleźć tę stronę na $1. Jeśli wiki została utworzona niedawno, poczekaj kilka godzin lub dni, aż cała zawartość zostanie zaimportowana.',
 	'randombytest' => 'Losowa strona testowej wiki',
 	'randombytest-nopages' => 'W Twojej testowej wiki brak jest stron w przestrzeni nazw $1.',
 	'wminc-viewuserlang' => 'Sprawdzanie języka użytkownika i testowej wiki',
@@ -1614,6 +1624,9 @@ $messages['pl'] = array(
 	'group-test-sysop' => 'Administratorzy testowej wiki',
 	'group-test-sysop-member' => 'administrator testowej wiki',
 	'grouppage-test-sysop' => 'Project:Administratorzy testowej wiki',
+	'wminc-code-macrolanguage' => '[[Wikipedia:$2 language|Język $3]] jest [[wikipedia:ISO 639 macrolanguage|makrojęzykiem]], zawierającym następujące warianty języka:',
+	'wminc-code-collective' => 'Kod „$1“ nie odnosi się do jednego języka, a do kolekcji języków – [[wikipedia:$2 language|$3]].',
+	'wminc-code-retired' => 'Ten kod języka został zmieniony i nie odnosi się do wcześniej przypisanego mu języka.',
 );
 
 /** Piedmontese (Piemontèis)

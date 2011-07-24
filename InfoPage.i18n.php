@@ -154,10 +154,23 @@ $messages['fa'] = array(
 );
 
 /** French (Français)
- * @author
+ * @author Seb35
  */
 $messages['fr'] = array(
+	'wminc-infopage-enter' => 'aller à la page principale',
+	'wminc-unknownlang' => '(langue inconnue avec le code « $1 »)',
+	'wminc-infopage-welcome' => 'Bienvenue sur l’Incubateur Wikimedia, un projet de la Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|à propos]])',
+	'wminc-infopage-missingwiki-text' => '$1 dans cette langue n’existe pas.',
+	'wminc-infopage-option-startwiki' => 'Si vous voulez démarrer ce wiki, vous pouvez [{{fullurl:{{FULLPAGENAME}}|action=edit}} créer cette page] et suivre [[{{MediaWiki:Wminc-manual-url}}|notre manuel]].',
+	'wminc-infopage-option-languages-existing' => 'Vous pouvez chercher des [http://www.$1.org versions linguistiques existantes de $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Vous pouvez chercher des projets existants dans cette langue :',
+	'wminc-infopage-option-sisterprojects-other' => 'Vous pouvez chercher d’autres projets dans cette langue :',
+	'wminc-infopage-option-multilingual' => 'Vous pouvez aller vers un wiki multilingue :',
+	'wminc-infopage-createmainpage' => 'Entrez le mot « Page principale » dans votre langue :',
 	'wminc-infopage-contribute' => 'Si vous parlez cette langue, vous êtes invités à contribuer !',
+	'wminc-infopage-status-imported' => 'Ce wiki Incubateur a été importé depuis $1 après que le wiki ait été fermé.',
+	'wminc-infopage-status-created' => 'Ce projet a été approuvé par le comité linguistique et est maintenant disponible sur $1.',
+	'wminc-infopage-status-beforeincubator' => 'Ce projet a été créé après que l’Incubateur Wikimedia ait été lancé et est disponible sur $1.',
 );
 
 /** Interlingua (Interlingua)
@@ -193,6 +206,17 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'wminc-infopage-contribute' => 'Wann De di Shprooch kanns, dann bes De opjeroofe, beizedraare!',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'wminc-infopage-enter' => "Gitt op d'Haaptsäit",
+	'wminc-unknownlang' => '(onbekannte Sprooch mam Code "$1")',
+	'wminc-infopage-missingwiki-text' => '$1 gëtt et an dëser Sprooch nach net',
+	'wminc-infopage-option-languages-existing' => 'Dir kënnt no [http://www.$1.org Sproochversiounen, déi et vun $1 gëtt, sichen].',
+	'wminc-infopage-createmainpage' => 'Gitt d\'Wuert "Haaptsäit" fir dës Sprooch an:',
 );
 
 /** Lithuanian (Lietuvių)
