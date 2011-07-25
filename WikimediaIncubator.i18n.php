@@ -772,6 +772,7 @@ $messages['frp'] = array(
 	'wminc-viewuserlang-go' => 'Alar trovar',
 	'wminc-userdoesnotexist' => 'L’utilisator « $1 » ègziste pas.',
 	'right-viewuserlang' => 'Vêre la [[Special:ViewUserLang|lengoua a l’utilisator et lo vouiqui d’èprôva]]',
+	'wminc-code-retired' => 'Ceti code lengoua at étâ changiê et fât pas més refèrence a la lengoua d’origina.',
 );
 
 /** Galician (Galego)

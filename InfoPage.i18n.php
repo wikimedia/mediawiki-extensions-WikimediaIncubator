@@ -173,6 +173,26 @@ $messages['fr'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Ce projet a été créé après que l’Incubateur Wikimedia ait été lancé et est disponible sur $1.',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'wminc-infopage-enter' => 'alar a la pâge principâla',
+	'wminc-unknownlang' => '(lengoua encognua avouéc lo code « $1 »)',
+	'wminc-infopage-welcome' => 'Benvegnua sur la Covosa Wikimedia, un projèt de la Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|A propôs]])',
+	'wminc-infopage-missingwiki-text' => '$1 dens cela lengoua ègziste pas.',
+	'wminc-infopage-option-startwiki' => 'Se vos voléd emmodar cél vouiqui,
+vos pouede [{{fullurl:{{FULLPAGENAME}}|action=edit}} fâre la pâge] et pués siuvre [[{{MediaWiki:Wminc-manual-url}}|noutron manuâl]].',
+	'wminc-infopage-option-languages-existing' => 'Vos pouede chèrchiér des [http://www.$1.org vèrsions linguistiques ègzistentes de $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Vos pouede chèrchiér des projèts ègzistents dens cela lengoua :',
+	'wminc-infopage-option-sisterprojects-other' => 'Vos pouede chèrchiér d’ôtros projèts dens cela lengoua :',
+	'wminc-infopage-option-multilingual' => 'Vos pouede alar vers un vouiqui multilingo :',
+	'wminc-infopage-createmainpage' => 'Buchiéd lo mot « Pâge principâla » dens voutra lengoua :',
+	'wminc-infopage-status-imported' => 'Ceti vouiqui Covosa at étâ importâ dês $1 aprés que lo vouiqui èye étâ cllôs.',
+	'wminc-infopage-status-created' => 'Ceti projèt at étâ aprovâ per lo comitât linguistico et est ora disponiblo dessus $1.',
+	'wminc-infopage-status-beforeincubator' => 'Ceti projèt at étâ fêt aprés que la Covosa Wikimedia èye étâ lanciê et est disponiblo dessus $1.',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
