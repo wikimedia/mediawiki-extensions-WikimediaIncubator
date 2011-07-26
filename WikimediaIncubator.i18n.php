@@ -1236,6 +1236,7 @@ $messages['kw'] = array(
  */
 $messages['lb'] = array(
 	'wminc-desc' => 'Testwiki-System fir de Wikimedia-Incubator',
+	'wminc-manual' => 'Handbuch',
 	'wminc-listwikis' => 'Lëscht vun de Wikien',
 	'wminc-testwiki' => 'Test-Wiki:',
 	'wminc-testwiki-none' => 'Keen/All',
@@ -1252,6 +1253,7 @@ $messages['lb'] = array(
 	'wminc-viewuserlang-go' => 'Lass',
 	'wminc-userdoesnotexist' => "De Benotzer ''$1'' gëtt et net.",
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benotzersprooch an Test-Wiki]] weisen',
+	'wminc-code-retired' => "Dëse Sproochcode gouf geännert a bezitt sech net méi op d'Original-Sprooch.",
 );
 
 /** Limburgish (Limburgs)
@@ -1469,16 +1471,15 @@ $messages['myv'] = array(
  */
 $messages['nds-nl'] = array(
 	'wminc-desc' => 'Testwikisysteem veur de Wikimedia Incubator',
+	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-none' => 'Gien/alles',
+	'wminc-prefinfo-language' => 'De gebrukerstaal - onaofhankelik van joew testwiki',
+	'wminc-prefinfo-code' => 'De ISO639-taalkode',
+	'wminc-prefinfo-project' => 'Kies t Wikimedia-projekt (Incubator-opsie is veur gebrukers die algemeen wark doon)',
+	'wminc-prefinfo-error' => "Je hebben ekeuzen veur een projekt waor da'j een taalkode veur neudig hebben.",
 	'wminc-viewuserlang' => 'Gebrukerstaal en testwiki opzeuken',
 	'wminc-viewuserlang-user' => 'Gebrukersnaam:',
 	'wminc-viewuserlang-go' => 'Zeuken',
-	'wminc-testwiki' => 'Testwiki:',
-	'wminc-testwiki-none' => 'Gien/alles',
-	'wminc-prefinfo-language' => 'De gebrukerstaal - onofhankelijk van joew testwiki',
-	'wminc-prefinfo-code' => 'De ISO639-taalcode',
-	'wminc-prefinfo-project' => "Kies 't Wikimedia-prejek (Incubator-optie is veur gebrukers dee algemeen wark doon)",
-	'wminc-prefinfo-error' => 'Je hemmen ekeuzen veur een prejek waor da-j een taalcode veur neudig hemmen.',
-	'wminc-warning-unprefixed' => "'''Waorschuwing:''' de pagina dee-j an 't bewarken bin, hef gien veurvoegsel!",
 );
 
 /** Dutch (Nederlands)
