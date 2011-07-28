@@ -214,6 +214,13 @@ tu pote [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear le pagina] e sequer [[{{
 	'wminc-infopage-status-beforeincubator' => 'Iste projecto ha essite create ante le comenciamento de Wikimedia Incubator e es disponibile a $1.',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'wminc-infopage-enter' => 'vai alla pagina principale',
+);
+
 /** Korean (한국어)
  * @author Albamhandae
  */
@@ -236,7 +243,10 @@ $messages['lb'] = array(
 	'wminc-unknownlang' => '(onbekannte Sprooch mam Code "$1")',
 	'wminc-infopage-missingwiki-text' => '$1 gëtt et an dëser Sprooch nach net',
 	'wminc-infopage-option-languages-existing' => 'Dir kënnt no [http://www.$1.org Sproochversiounen, déi et vun $1 gëtt, sichen].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Dir kënnt no Projeten an dëser Sprooch sichen (déi et scho gëtt):',
+	'wminc-infopage-option-sisterprojects-other' => 'Dir kënnt no anere Projeten an dëser Sprooch sichen:',
 	'wminc-infopage-createmainpage' => 'Gitt d\'Wuert "Haaptsäit" fir dës Sprooch an:',
+	'wminc-infopage-contribute' => 'Wann Dir dës Sprooch beherrscht, sidd Dir häerzlech wëllkomm fir matzemaachen!',
 );
 
 /** Lithuanian (Lietuvių)
@@ -308,6 +318,26 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 	'wminc-infopage-status-imported' => 'Esta wiki da Incubadora foi importada de $1 após a wiki ter sido fechada.',
 	'wminc-infopage-status-created' => 'Este projecto foi aprovado pelo comité linguístico e está agora disponível em $1.',
 	'wminc-infopage-status-beforeincubator' => 'Este projecto foi criado antes do início da Incubadora Wikimedia e está disponível em $1.',
+);
+
+/** Brazilian Portuguese (Português do Brasil)
+ * @author MetalBrasil
+ */
+$messages['pt-br'] = array(
+	'wminc-infopage-enter' => 'Vá para a página principal',
+	'wminc-unknownlang' => '(língua desconhecida com código "$1")',
+	'wminc-infopage-welcome' => 'Bem vindo à Wikimedia Incubator, um projeto da Wikimedia Fundation ([[{{MediaWiki:Aboutpage}}|About]])',
+	'wminc-infopage-missingwiki-text' => 'Ainda não existe um projeto $1 nesta língua.',
+	'wminc-infopage-option-startwiki' => 'Se você quiser começar esta wiki, você pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir [[{{MediaWiki:Wminc-manual-url}}|nosso manual]].',
+	'wminc-infopage-option-languages-existing' => 'Você pode pesquisar por [http://www.$1.org edições de $1 línguas existentes].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Você pode pesquisar por projetos existentes nesta língua.',
+	'wminc-infopage-option-sisterprojects-other' => 'Você pode pesquisar por outros projetos nessa língua.',
+	'wminc-infopage-option-multilingual' => 'Você pode ir a uma wiki multilíngue.',
+	'wminc-infopage-createmainpage' => 'Digite a palavra "Página principal" nesta língua.',
+	'wminc-infopage-contribute' => 'Se você conhece esta língua, você é convidado a contribuir!',
+	'wminc-infopage-status-imported' => 'Essa Incubator wiki foi importada de $1 depois que a wiki foi fechada.',
+	'wminc-infopage-status-created' => 'Esse projeto foi aprovado pela comitê linguístico e agora é avaliável em $1.',
+	'wminc-infopage-status-beforeincubator' => 'Esse projeto foi criado antes do inicio da Wikimedia Incubator e está avaliável em $1.',
 );
 
 /** Russian (Русский)

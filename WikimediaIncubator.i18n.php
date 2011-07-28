@@ -1713,24 +1713,37 @@ $messages['pt'] = array(
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
+ * @author MetalBrasil
  */
 $messages['pt-br'] = array(
 	'wminc-desc' => 'Sistema de wikis de teste para a Incubadora Wikimedia',
-	'wminc-viewuserlang' => 'Procurar idioma do utilizador e wiki de teste',
-	'wminc-viewuserlang-user' => 'Nome de usuário:',
-	'wminc-viewuserlang-go' => 'Ir',
+	'wminc-manual' => 'Manual',
+	'wminc-listwikis' => 'Lista de wikis',
 	'wminc-testwiki' => 'Wiki de teste:',
 	'wminc-testwiki-none' => 'Nenhum/Tudo',
+	'wminc-recentchanges-all' => 'Todas as mudanças recentes',
 	'wminc-prefinfo-language' => 'Seu idioma de interface - independente do seu wiki de teste',
 	'wminc-prefinfo-code' => 'O código de língua ISO 639',
 	'wminc-prefinfo-project' => 'Selecione o projeto Wikimedia (a opção Incubadora é para usuários que fazem trabalho geral)',
 	'wminc-prefinfo-error' => 'Você selecionou um projeto que necessita de um código de língua.',
-	'wminc-warning-unprefixed' => 'Aviso: a página que você está editando não tem prefixo!',
-	'wminc-warning-suggest' => 'Você pode criar uma página em [[:$1]].',
-	'wminc-warning-suggest-move' => 'Você pode [{{fullurl:Special:MovePage/$3|wpNewTitle=$2}} mover esta página para $1].',
-	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma do usuário e wiki de teste]]',
+	'wminc-error-move-unprefixed' => 'Erro: A página que você está tentando mover para [[{{MediaWiki:Helppage}}|é aprefixada ou tem um prefixo incorreto]]!',
+	'wminc-error-wronglangcode' => "'''Erro:''' Esta página contém um [[{{MediaWiki:Helppage}}|código de linguagem errado]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Erro:''' Esta página é [[{{MediaWiki:Helppage}}|aprefixada]]!",
+	'wminc-error-unprefixed-suggest' => "'''Erro:''' Esta página é [[{{MediaWiki:Helppage}}|aprefixada]]! Você pode criar uma página em [[:$1]].",
+	'wminc-error-wiki-exists' => 'Esta wiki já existe. Encontra esta página em $1. Se a wiki foi criada recentemente, aguarde algumas horas ou dias até que todo o conteúdo seja importado.',
 	'randombytest' => 'Página aleatória da wiki de testes',
 	'randombytest-nopages' => 'Não há páginas em sua wiki de testes no domínio: $1',
+	'wminc-viewuserlang' => 'Procurar idioma do utilizador e wiki de teste',
+	'wminc-viewuserlang-user' => 'Nome de usuário:',
+	'wminc-viewuserlang-go' => 'Ir',
+	'wminc-userdoesnotexist' => 'A conta de usuário "$1" não existe.',
+	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|idioma do usuário e wiki de teste]]',
+	'group-test-sysop' => 'Administradores da Test wiki',
+	'group-test-sysop-member' => 'Administrador da Test wiki',
+	'grouppage-test-sysop' => 'Project:Administradores da Testwiki',
+	'wminc-code-macrolanguage' => 'A [[wikipedia:$2 língua|"$3" língua]] é uma [[wikipedia:ISO 639 macrolíngua|macrolíngua]], consistindo das seguintes línguas:',
+	'wminc-code-collective' => 'O código "$1" não se refere a uma mensagem específica, mas a uma coleção de línguas, nomeadas a [[wikipedia:$2 language|"$3" línguas]].',
+	'wminc-code-retired' => 'Este código de idioma foi mudado e já não se refere à língua original.',
 );
 
 /** Romanian (Română)
