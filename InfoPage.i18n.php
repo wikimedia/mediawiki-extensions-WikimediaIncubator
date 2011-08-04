@@ -278,6 +278,27 @@ $messages['mk'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Овој проект е создаден пред започнувањето на Инкубаторот на Викимедија и е достапен на $1.',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'wminc-infopage-enter' => 'pergi ke Laman Utama',
+	'wminc-unknownlang' => '(bahasa yang tidak diketahui dengan kod "$1")',
+	'wminc-infopage-welcome' => 'Selamat datang ke Wikimedia Incubator, satu projek Yayasan Wikimedia ([[{{MediaWiki:Aboutpage}}|Perihal]])',
+	'wminc-infopage-missingwiki-text' => '$1 dalam bahasa ini belum wujud.',
+	'wminc-infopage-option-startwiki' => 'Jika anda mahu memulakan wiki ini,
+anda boleh [{{fullurl:{{FULLPAGENAME}}|action=edit}} mencipta lamannya] dan mengikuti [[{{MediaWiki:Wminc-manual-url}}|panduan kami]].',
+	'wminc-infopage-option-languages-existing' => 'Anda boleh mencari [http://www.$1.org edisi-edisi bahasa sedia ada bagi $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Anda boleh mencari projek-projek yang sedia ada dalam bahasa ini:',
+	'wminc-infopage-option-sisterprojects-other' => 'Anda boleh mencari projek-projek lain dalam bahasa ini:',
+	'wminc-infopage-option-multilingual' => 'Anda boleh pergi ke wiki berbilang bahasa:',
+	'wminc-infopage-createmainpage' => 'Isikan perkataan "Laman Utama" dalam bahasa ini:',
+	'wminc-infopage-contribute' => 'Jika anda fasih dalam bahasa ini, anda dialu-alukan untuk menyumbang!',
+	'wminc-infopage-status-imported' => 'Wiki Incubator ini telah diimport dari $1 setelah wiki itu ditutup.',
+	'wminc-infopage-status-created' => 'Projek ini telah diluluskan oleh jawatankuasa bahasa dan kini boleh didapati di $1.',
+	'wminc-infopage-status-beforeincubator' => 'Projek ini dibuka sebelum Wikimedia Incubator dimulakan, dan boleh didapati di $1.',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
