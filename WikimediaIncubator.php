@@ -138,3 +138,6 @@ $wgResourceModules['WikimediaIncubator.InfoPage'] = array(
 
 /* Possibility to set a logo per test wiki */
 $wgHooks['BeforePageDisplay'][] = 'IncubatorTest::fnTestWikiLogo';
+
+/* Set page content language depending on the prefix */
+$wgHooks['PageContentLanguage'][] = 'IncubatorTest::onPageContentLanguage';

@@ -630,4 +630,18 @@ class IncubatorTest {
 		$wgLogo = $thumb->getUrl();
 		return true;
 	}
+
+	function onPageContentLanguage( $title, &$pageLang ) {
+		global $wmincTestWikiNamespaces, $wgOut;
+		$prefix = self::analyzePrefix( $title->getText(), /* onlyInfoPage*/ false );
+		if( $prefix['error'] || !in_array( $title->getNamespace(),
+			$wmincTestWikiNamespaces ) ) {
+			return true;
+		}
+		if( $prefix['prefix'] == $title->getText() ) {
+			return true; # Not for info pages (prefix == title)
+		}
+		$pageLang = $prefix['lang'];
+		return true;
+	}
 }
