@@ -631,7 +631,7 @@ class IncubatorTest {
 		return true;
 	}
 
-	function onPageContentLanguage( $title, &$pageLang ) {
+	static function onPageContentLanguage( $title, &$pageLang ) {
 		global $wmincTestWikiNamespaces, $wgOut;
 		$prefix = self::analyzePrefix( $title->getText(), /* onlyInfoPage*/ false );
 		if( $prefix['error'] || !in_array( $title->getNamespace(),
