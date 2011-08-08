@@ -65,6 +65,27 @@ $messages['qqq'] = array(
 	'wminc-infopage-status-beforeincubator' => "'''$1''' is a URL to the existing wiki.",
 );
 
+/** Bavarian (Boarisch)
+ * @author Mucalexx
+ */
+$messages['bar'] = array(
+	'wminc-infopage-enter' => 'Gee zua da Hauptseiten',
+	'wminc-unknownlang' => '(néd bekånnte Sprooch mid Code „$1“)',
+	'wminc-infopage-welcome' => 'Servas im Wikimedia Incubator, am Prójekt voh da Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Ywer]])',
+	'wminc-infopage-missingwiki-text' => 'A $1 in derer Sprooch is nó néd vurhånden.',
+	'wminc-infopage-option-startwiki' => 'Wånn du dés Wiki starten mecherdst,
+kåst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} dé Seiten erstön] und noch [[{{MediaWiki:Wminc-manual-url}}|unserner Åloattung]] vurgeh.',
+	'wminc-infopage-option-languages-existing' => 'Du kåst auf [http://www.$1.org noch vurhånderne Sproochausgom voh $1] suachen.',
+	'wminc-infopage-option-sisterprojects-existing' => 'Du kåst noch vurhånderne Prójektt in derer Sprooch suachen:',
+	'wminc-infopage-option-sisterprojects-other' => 'Du kåst noch ånderne Prójektt in derer Sprooch suachen:',
+	'wminc-infopage-option-multilingual' => 'Du kåst zuaram mersprooching Wiki geh:',
+	'wminc-infopage-createmainpage' => 'Gibs Wort fyr „Hauptseiten“ in derer Sprooch eih:',
+	'wminc-infopage-contribute' => 'Wånnst du dé Sprooch bherrschst, bist dert oiwei gern eihgloon, midzmochen!',
+	'wminc-infopage-status-imported' => 'Dés Wiki vom Incubator is voh $1 importird worn, nochdéms gschlóssen worn is.',
+	'wminc-infopage-status-created' => 'Dés Prójekt is vom Sproochkómmitee gnemigt worn und is iatz unter $1 vafiagbor.',
+	'wminc-infopage-status-beforeincubator' => "Dés Prójekt is erstöd worn, bevurs 'n Wikimedia Incubator geem hod und is unter $1 vafiagbor.",
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -245,8 +266,11 @@ $messages['lb'] = array(
 	'wminc-infopage-option-languages-existing' => 'Dir kënnt no [http://www.$1.org Sproochversiounen, déi et vun $1 gëtt, sichen].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Dir kënnt no Projeten an dëser Sprooch sichen (déi et scho gëtt):',
 	'wminc-infopage-option-sisterprojects-other' => 'Dir kënnt no anere Projeten an dëser Sprooch sichen:',
+	'wminc-infopage-option-multilingual' => 'Dir kënnt op eng méisproocheg Wiki goen:',
 	'wminc-infopage-createmainpage' => 'Gitt d\'Wuert "Haaptsäit" fir dës Sprooch an:',
 	'wminc-infopage-contribute' => 'Wann Dir dës Sprooch beherrscht, sidd Dir häerzlech wëllkomm fir matzemaachen!',
+	'wminc-infopage-status-created' => 'Dëse Projet gouf vum Sproochecomité akzeptéiert an ass elo op $1 disponibel.',
+	'wminc-infopage-status-beforeincubator' => 'Dëse Projet gouf ugeluecht ier et Wikimedia Incubator gouf an ass op $1 disponibel.',
 );
 
 /** Lithuanian (Lietuvių)

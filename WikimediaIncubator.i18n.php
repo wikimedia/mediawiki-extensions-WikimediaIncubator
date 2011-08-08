@@ -2272,26 +2272,27 @@ $messages['yue'] = array(
  * @author Hydra
  * @author Jimmy xu wrk
  * @author Liangent
+ * @author PhiLiP
  * @author Shinjiman
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'wminc-desc' => '维基孵育场测试维基系统',
-	'wminc-viewuserlang' => '查看用户语言与测试维基',
-	'wminc-viewuserlang-user' => '用户名：',
-	'wminc-viewuserlang-go' => '提交',
-	'wminc-userdoesnotexist' => '用户 "$1" 并不存在。',
 	'wminc-testwiki' => '测试维基：',
 	'wminc-testwiki-none' => '无/所有',
+	'wminc-recentchanges-all' => '所有最近的更改',
 	'wminc-prefinfo-language' => '你的界面语言-从你的测试维基独立',
 	'wminc-prefinfo-code' => 'ISO 639 语言代码',
 	'wminc-prefinfo-project' => '选择维基媒体项目（孵育场选项用作一般用途）',
 	'wminc-prefinfo-error' => '你选择了需要语言代码的项目。',
 	'wminc-error-move-unprefixed' => '错误：您要移动页面到的目的地 [[{{MediaWiki:Helppage}}|没有前缀或有错误的前缀]] ！',
-	'right-viewuserlang' => '请查看[[Special:ViewUserLang|用户语言与测试维基]]',
 	'randombytest' => '测试维基随机页面',
-	'randombytest-nopages' => '你的测试维基名称空间$1中没有页面。',
-	'wminc-recentchanges-all' => '所有最近的更改',
+	'randombytest-nopages' => '您的测试wiki的名字空间$1中没有页面。',
+	'wminc-viewuserlang' => '查看用户语言与测试维基',
+	'wminc-viewuserlang-user' => '用户名：',
+	'wminc-viewuserlang-go' => '提交',
+	'wminc-userdoesnotexist' => '用户 "$1" 并不存在。',
+	'right-viewuserlang' => '请查看[[Special:ViewUserLang|用户语言与测试维基]]',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
