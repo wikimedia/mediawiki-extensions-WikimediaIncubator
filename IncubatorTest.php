@@ -631,6 +631,11 @@ class IncubatorTest {
 		return true;
 	}
 
+	/**
+	 * Make the page content language depend on the test wiki
+	 * Only works for codes that are known to MediaWiki :(
+	 * @return true
+	 */
 	static function onPageContentLanguage( $title, &$pageLang ) {
 		global $wmincTestWikiNamespaces, $wgOut;
 		$prefix = self::analyzePrefix( $title->getText(), /* onlyInfoPage*/ false );
