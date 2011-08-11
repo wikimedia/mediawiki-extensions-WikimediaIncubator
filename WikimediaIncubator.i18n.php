@@ -786,6 +786,8 @@ $messages['frp'] = array(
  */
 $messages['gl'] = array(
 	'wminc-desc' => 'Sistema wiki de probas para a Incubadora da Wikimedia',
+	'wminc-manual' => 'Manual',
+	'wminc-listwikis' => 'Lista dos wikis',
 	'wminc-testwiki' => 'Wiki de proba:',
 	'wminc-testwiki-none' => 'Ningún/Todos',
 	'wminc-recentchanges-all' => 'Todos os cambios recentes',
@@ -2278,6 +2280,8 @@ $messages['yue'] = array(
  */
 $messages['zh-hans'] = array(
 	'wminc-desc' => '维基孵育场测试维基系统',
+	'wminc-manual' => '手动',
+	'wminc-listwikis' => 'Wiki列表',
 	'wminc-testwiki' => '测试维基：',
 	'wminc-testwiki-none' => '无/所有',
 	'wminc-recentchanges-all' => '所有最近的更改',
@@ -2286,6 +2290,10 @@ $messages['zh-hans'] = array(
 	'wminc-prefinfo-project' => '选择维基媒体项目（孵育场选项用作一般用途）',
 	'wminc-prefinfo-error' => '你选择了需要语言代码的项目。',
 	'wminc-error-move-unprefixed' => '错误：您要移动页面到的目的地 [[{{MediaWiki:Helppage}}|没有前缀或有错误的前缀]] ！',
+	'wminc-error-wronglangcode' => "'''错误'''：该页面包含了[[{{MediaWiki:Helppage}}|错误的语言代码]]“$1”！",
+	'wminc-error-unprefixed' => "'''错误'''：该页面[[{{MediaWiki:Helppage}}|无法前缀]]！",
+	'wminc-error-unprefixed-suggest' => "'''错误'''：该页面[[{{MediaWiki:Helppage}}|无法前缀]]！您可以在[[:$1]]创建页面。",
+	'wminc-error-wiki-exists' => '该wiki已经存在。您可以在$1找到该页面。如果该wiki是近期创建的，请耐心等待数小时至数日，以便所有内容都被导入。',
 	'randombytest' => '测试维基随机页面',
 	'randombytest-nopages' => '您的测试wiki的名字空间$1中没有页面。',
 	'wminc-viewuserlang' => '查看用户语言与测试维基',
@@ -2293,6 +2301,12 @@ $messages['zh-hans'] = array(
 	'wminc-viewuserlang-go' => '提交',
 	'wminc-userdoesnotexist' => '用户 "$1" 并不存在。',
 	'right-viewuserlang' => '请查看[[Special:ViewUserLang|用户语言与测试维基]]',
+	'group-test-sysop' => '测试wiki管理员',
+	'group-test-sysop-member' => '测试wiki管理员',
+	'grouppage-test-sysop' => 'Project:测试wiki管理员',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|$3]]是[[wikipedia:ISO 639 macrolanguage|宏语言]]之一，由以下成员语言组成：',
+	'wminc-code-collective' => '代码“$1”并不是一种语言，而是一系列语言的集合，即[[wikipedia:$2 language|$3语言]]。',
+	'wminc-code-retired' => '该语言代码已更改，并且不再指向原来的语言。',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)

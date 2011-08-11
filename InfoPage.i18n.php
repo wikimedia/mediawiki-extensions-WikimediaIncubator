@@ -214,6 +214,13 @@ vos pouede [{{fullurl:{{FULLPAGENAME}}|action=edit}} fâre la pâge] et pués si
 	'wminc-infopage-status-beforeincubator' => 'Ceti projèt at étâ fêt aprés que la Covosa Wikimedia èye étâ lanciê et est disponiblo dessus $1.',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'wminc-infopage-enter' => 'ir á páxina principal',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
