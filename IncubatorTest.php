@@ -513,19 +513,20 @@ class IncubatorTest {
 	}
 
 	/**
-	 * This forms a URL based on the language and project, and optionally title.
-	 * TODO: add support for secure server, or are links automatically converted?
+	 * This forms a URL based on the language and project.
 	 * @param $lang Language code
-	 * @param $project Project code (or project name)
-	 * @param $title Optional title on the target wiki
-	 * @param $protocol Whether to include the protocol
+	 * @param $project Project code
 	 * @return String
 	 */
-	public static function getSubdomain( $lang, $project, $title = '', $protocol = true ) {
-		global $wmincProjects;
-		$projectName = isset( $wmincProjects[$project] ) ? $wmincProjects[$project] : $project;
-		return ( $protocol ? 'http://' : '' ) . strtolower( $lang ) . '.' .
-			strtolower( $projectName ) . '.org' . ( $title ? '/wiki/' . $title : '' );
+	public static function getSubdomain( $lang, $projectCode ) {
+		global $wgConf, $wmincProjectDatabases;
+		$projectName = strtolower( $wmincProjectDatabases[$projectCode] );
+		# Imitate analyzePrefix() array :p
+		$prefix = array( 'error' => null, 'lang' => $lang, 'project' => $projectCode );
+		return $wgConf->get( 'wgServer',
+			self::getDB( $prefix ), $projectName,
+			array( 'lang' => str_replace( '_', '-', $lang ), 'site' => $projectName )
+		);
 	}
 
 	/**
@@ -543,7 +544,7 @@ class IncubatorTest {
 	 * @return True
 	 */
 	public static function onArticleFromTitle( &$title, &$article ) {
-		global $wgRequest;
+		global $wgRequest, $wgOut;
 		$prefix = IncubatorTest::analyzePrefix( $title, true );
 		if( $prefix['error'] || $wgRequest->getVal('goto') != 'mainpage' ) {
 			return true;
@@ -553,20 +554,23 @@ class IncubatorTest {
 			return true;
 		}
 		if( $dbstate == 'existing' ) {
-			$url = self::getSubdomain( $prefix['lang'], $prefix['project'] );
-		} else {
-			$params['redirectfrom'] = 'infopage';
-			$uselang = $wgRequest->getVal( 'uselang' );
-			if( $uselang ) {
-				$params['uselang'] = $uselang;
-			}
-			$mainpage = Title::newFromText(
-				self::getMainPage( $prefix['lang'], $prefix['prefix'] )
-			);
-			$url = $mainpage->getFullURL( $params );
+			# redirect to the existing lang.wikiproject.org if it exists
+			$wgOut->redirect( self::getSubdomain( $prefix['lang'], $prefix['project'] ) );
+			return true;
 		}
-		global $wgOut;
-		$wgOut->redirect( $url );
+		$params['redirectfrom'] = 'infopage';
+		$uselang = $wgRequest->getVal( 'uselang' );
+		if( $uselang ) {
+			# pass through the &uselang parameter
+			$params['uselang'] = $uselang;
+		}
+		$mainpage = Title::newFromText(
+			self::getMainPage( $prefix['lang'], $prefix['prefix'] )
+		);
+		if( $mainpage->exists() ) {
+			# Only redirect to the main page if that page exists
+			$wgOut->redirect( $mainpage->getFullURL( $params ) );
+		}
 		return true;
 	}
 
@@ -598,9 +602,9 @@ class IncubatorTest {
 
 	/**
 	 * Display a different logo in current test wiki
-	 * if it is set in MediaWiki:Incubator-logo-wx/xxx
+	 * if it is set in MediaWiki:Incubator-logo-wx-xxx
 	 * and if accessed through &testwiki=wx/xxx
-	 * or it the user preference is set to wx/xxx
+	 * or if the user preference is set to wx/xxx
 	 * @return Boolean
 	 */
 	static function fnTestWikiLogo( &$out ) {

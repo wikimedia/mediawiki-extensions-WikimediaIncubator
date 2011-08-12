@@ -73,7 +73,7 @@ class InfoPage {
 		$otherProjects = $wmincProjects + $wmincSisterProjects;
 		foreach( $otherProjects as $code => $name ) {
 			$listOtherProjects[$code] = '<li>' . $this->makeLogo( $name, true,
-				75, null, IncubatorTest::getSubdomain( $this->mLangCode, $name ) ) . '</li>';
+				75, null, IncubatorTest::getSubdomain( $this->mLangCode, $code ) ) . '</li>';
 		}
 		unset( $listOtherProjects[$this->mProjectCode] );
 		return '<ul class="wminc-infopage-otherprojects">' .
@@ -146,7 +146,7 @@ class InfoPage {
 				)
 			);
 		}
-		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectName );
+		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = $wgUser->getSkin()->makeExternalLink( $subdomain, $subdomain );
 		$content = Html::rawElement( 'div', array( 'class' => 'wminc-infopage-status' ),
 			wfMsgWikiHtml( 'wminc-infopage-status-' . $this->mSubStatus, $subdomainLink ) );
@@ -162,7 +162,7 @@ class InfoPage {
 		global $wgLang, $wgUser;
 		$created = isset( $this->mCreated ) ? $this->mCreated : '';
 		$bug = isset( $this->mBug ) ? $this->mBug : '';
-		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectName );
+		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = $wgUser->getSkin()->makeExternalLink( $subdomain, $subdomain );
 		if( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoSubdomain = Html::rawElement( 'span',
