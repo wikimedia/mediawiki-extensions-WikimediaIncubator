@@ -31,6 +31,7 @@ $messages['en'] = array(
 	'wminc-error-unprefixed' => "'''Error:''' This page is [[{{MediaWiki:Helppage}}|unprefixed]]!",
 	'wminc-error-unprefixed-suggest' => "'''Error:''' This page is [[{{MediaWiki:Helppage}}|unprefixed]]! You can create a page at [[:$1]].",
 	'wminc-error-wiki-exists' => 'This wiki already exists. You can find this page on $1. If the wiki was recently created, please wait a few hours or days until all content is imported.',
+	'wminc-error-wiki-sister' => 'This page belongs to a project that is not hosted here. Please go to $1 to find the wiki.',
 
 	# Special:RandomByTest
 	'randombytest' => 'Random page by test wiki',

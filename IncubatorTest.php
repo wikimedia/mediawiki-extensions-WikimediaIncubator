@@ -93,10 +93,12 @@ class IncubatorTest {
 	 * @param $title String The given title (often $wgTitle->getText() )
 	 * @param $onlyInfoPage Bool Whether to validate only the prefix, or
 	 * also allow other text within the page title (Wx/xxx vs Wx/xxx/Text)
+	 * @param $allowSister Bool Whether to allow sister projects when checking
+	 * for the project code.
 	 * @return Array with 'error' or 'project', 'lang', 'prefix' and
 	 *					optionally 'realtitle'
 	 */
-	static function analyzePrefix( $title, $onlyInfoPage = false ) {
+	static function analyzePrefix( $title, $onlyInfoPage = false, $allowSister = false ) {
 		$data = array( 'error' => null );
 		# split title into parts
 		$titleparts = explode( '/', $title );
@@ -111,8 +113,12 @@ class IncubatorTest {
 				$data['error'] = 'invalidlangcode';
 			}
 		}
-		global $wmincProjects;
-		$listProjects =	implode( '', array_keys( $wmincProjects ) ); # something like: pbtqn
+		global $wmincProjects, $wmincSisterProjects;
+		$listProjects = implode( '', array_keys( $wmincProjects ) ); # project codes like: pbtqn
+		if( $allowSister && is_array( $wmincSisterProjects ) ) {
+			# join the project codes with those of the sister projects, like: pbtqnsv
+			$listProjects = $listProjects . implode( '', array_keys( $wmincSisterProjects ) );
+		}
 		if( !preg_match( '/^W['.$listProjects.']\/[a-z-]+' .
 			($onlyInfoPage ? '$/' : '(\/.+)?$/' ), $title ) ) {
 			$data['error'] = 'invalidprefix';
@@ -157,13 +163,16 @@ class IncubatorTest {
 	}
 
 	/**
-	 * Whether the given project (or preference by default) is one of the
-	 * projects using the format Wx/xxx (as defined in $wmincProjects)
-	 * @param $project the project code
-	 * @return Boolean
+	 * Returns the project code or name if the given project code or name (or preference by default)
+	 * is one of the projects using the format Wx/xxx (as defined in $wmincProjects)
+	 * Returns false if it is not valid.
+	 * @param $project String The project code
+	 * @param $returnName Bool Whether to return the project name instead of the code
+	 * @param $includeSister Bool Whether to include sister projects
+	 * @return String or false
 	 */
-	static function isContentProject( $project = '' ) {
-		global $wgUser, $wmincPref, $wmincProjects;
+	static function getProject( $project = '', $returnName = false, $includeSister = false ) {
+		global $wgUser, $wmincPref, $wmincProjects, $wmincSisterProjects;
 		$url = self::getUrlParam();
 		if( $project ) {
 			$r = $project; # Precedence to given value
@@ -172,7 +181,24 @@ class IncubatorTest {
 		} else {
 			$r = $wgUser->getOption( $wmincPref . '-project' ); # Defaults to preference
 		}
-		return (bool) array_key_exists( $r, $wmincProjects );
+		$projects = $includeSister ? array_merge( $wmincProjects, $wmincSisterProjects ) : $wmincProjects;
+		if( array_key_exists( $r, $projects ) ) {
+			# If a code is given, return what is wanted
+			return $returnName ? $projects[$r] : $r;
+		} elseif( array_search( $r, $projects ) ) {
+			# If a name is given, return what is wanted
+			return $returnName ? $r : array_search( $r, $projects );
+		}
+		# Unknown code or name given -> false
+		return false;
+	}
+
+	/**
+	 * Returns a simple boolean based on getProject()
+	 * @return Bool
+	 */
+	static function isContentProject( $project = '', $returnName = false, $includeSister = false ) {
+		return (bool) self::getProject( $project, $returnName, $includeSister );
 	}
 
 	/**
@@ -398,7 +424,7 @@ class IncubatorTest {
 	 */
 	static function getDBClosedWikis() {
 		global $wmincClosedWikis;
-		if( !self::canWeCheckDB() ) {
+		if( !self::canWeCheckDB() || !$wmincClosedWikis ) {
 			return false;
 		}
 		# Is probably a file, but it might be that an array is given
@@ -415,10 +441,11 @@ class IncubatorTest {
 		if( !$db ) {
 			return false;
 		}
-		global $wmincExistingWikis, $wmincClosedWikis;
+		global $wmincExistingWikis;
+		$closed = self::getDBClosedWikis();
 		if( !in_array( $db, $wmincExistingWikis ) ) {
 			return 'missing'; # not in the list
-		} elseif( in_array( $db, self::getDBClosedWikis() ) ) {
+		} elseif( is_array( $closed ) && in_array( $db, $closed ) ) {
 			return 'closed'; # in the list of closed wikis
 		}
 		return 'existing';
@@ -433,26 +460,35 @@ class IncubatorTest {
 	static function onShowMissingArticle( $article ) {
 		global $wgOut;
 		$title = $article->getTitle();
-		$prefix = self::analyzePrefix( $title->getText(), true /* only info pages */ );
+		$prefix = self::analyzePrefix( $title->getText(),
+			true /* only info pages */, true /* allow sister projects */ );
 
 		if( $prefix['error'] ) { # We are not on info pages
-			$prefix2 = self::analyzePrefix( $title->getText() );
+			global $wmincSisterProjects;
+			$prefix2 = self::analyzePrefix( $title->getText(), false, true );
+			$linker = class_exists( 'DummyLinker' ) ? new DummyLinker : new Linker;
+			$p = $prefix2['project'];
+			$link = self::getSubdomain( $prefix2['lang'], $p,
+				( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
+					$prefix2['realtitle'] );
 			if( self::getDBState( $prefix2 ) == 'existing' ) {
-				$link = self::getSubdomain( $prefix2['lang'],
-					$prefix2['project'], ( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
-						$prefix2['realtitle'] );
 				if( self::displayPrefix() == $prefix2['prefix'] ) {
 					# Redirect to the existing wiki if the user has this wiki as preference
 					$wgOut->redirect( $link );
 					return true;
 				} else {
 					# Show a link to the existing wiki
-					$linker = class_exists( 'DummyLinker' ) ? new DummyLinker : new Linker;
 					$showLink = $linker->makeExternalLink( $link, $link );
 					$wgOut->addHtml( '<div class="wminc-wiki-exists">' .
 						wfMsgHtml( 'wminc-error-wiki-exists', $showLink ) .
 					'</div>' );
 				}
+			} elseif( array_key_exists( $p, $wmincSisterProjects ) ) {
+				# A sister project is not hosted here, so direct the user to the relevant wiki
+					$showLink = $linker->makeExternalLink( $link, $link );
+					$wgOut->addHtml( '<div class="wminc-wiki-sister">' .
+						wfMsgHtml( 'wminc-error-wiki-sister', $showLink ) .
+					'</div>' );
 			} elseif ( self::shouldWeShowUnprefixedError( $title ) ) {
 				# Unprefixed pages
 				if( self::isContentProject() ) {
@@ -488,6 +524,8 @@ class IncubatorTest {
 		} else {
 			$wgOut->addHtml( $infopage->showMissingWiki() );
 		}
+		# Set the page title from "Wx/xyz - Incubator" to "Wikiproject Language - Incubator"
+		$wgOut->setHTMLTitle( wfMsg( 'pagetitle', htmlspecialchars( $infopage->mFormatTitle ) ) );
 		return true;
 	}
 
@@ -514,19 +552,20 @@ class IncubatorTest {
 
 	/**
 	 * This forms a URL based on the language and project.
-	 * @param $lang Language code
-	 * @param $project Project code
+	 * @param $lang String Language code
+	 * @param $project String Project code
+	 * @param $title String Page name
 	 * @return String
 	 */
-	public static function getSubdomain( $lang, $projectCode ) {
-		global $wgConf, $wmincProjectDatabases;
+	public static function getSubdomain( $lang, $projectCode, $title = '' ) {
+		global $wgConf, $wmincProjectDatabases, $wgArticlePath;
 		$projectName = strtolower( $wmincProjectDatabases[$projectCode] );
 		# Imitate analyzePrefix() array :p
 		$prefix = array( 'error' => null, 'lang' => $lang, 'project' => $projectCode );
 		return $wgConf->get( 'wgServer',
 			self::getDB( $prefix ), $projectName,
 			array( 'lang' => str_replace( '_', '-', $lang ), 'site' => $projectName )
-		);
+		) . ( $title ? preg_replace( '/\$1/', $title, $wgArticlePath ) : '' );
 	}
 
 	/**
@@ -638,7 +677,6 @@ class IncubatorTest {
 	/**
 	 * Make the page content language depend on the test wiki
 	 * Only works for codes that are known to MediaWiki :(
-	 * @return true
 	 */
 	static function onPageContentLanguage( $title, &$pageLang ) {
 		global $wmincTestWikiNamespaces, $wgOut;

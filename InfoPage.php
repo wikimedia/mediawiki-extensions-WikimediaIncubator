@@ -20,22 +20,26 @@
 
 class InfoPage {
 	public function __construct( $title, $prefixdata ) {
-		global $wmincProjects;
+		global $wmincProjects, $wmincSisterProjects;
 		$this->mTitle = $title;
 		$this->mPrefix = $prefixdata['prefix'];
 		$this->mLangCode = $prefixdata['lang'];
 		$this->mProjectCode = $prefixdata['project'];
-		$this->mProjectName = isset( $wmincProjects[$this->mProjectCode] ) ?
-			$wmincProjects[$this->mProjectCode] : '';
+		$allProjects = array_merge( $wmincProjects, $wmincSisterProjects );
+		$this->mProjectName = isset( $allProjects[$this->mProjectCode] ) ?
+			$allProjects[$this->mProjectCode] : '';
 		if( isset( $prefixdata['error'] ) || $title->getNamespace() != NS_MAIN ) {
 			return;
 		}
+		$this->mPortal = IncubatorTest::getSubdomain( 'www', $this->mProjectCode );
+		$this->mIsSister = array_key_exists( $this->mProjectCode, $wmincSisterProjects );
 		$this->mDBStatus = '';
 		$this->mSubStatus = '';
 		$this->mThisLangData = array( 'type' => 'valid' ); # For later code check feature
 		$this->mLangNames = IncubatorTest::getLanguageNames();
 		$this->mLangName = ( isset( $this->mLangNames[$this->mLangCode] ) ?
 			$this->mLangNames[$this->mLangCode] : wfMsg( 'wminc-unknownlang', $this->mLangCode ) );
+		$this->mFormatTitle = wfMsg( 'wminc-infopage-title', $this->mProjectName, $this->mLangName );
 		return;
 	}
 
@@ -47,7 +51,7 @@ class InfoPage {
 		global $wgUser;
 		$projectForFile = preg_replace('/ /', '-', strtolower( $project ) );
 		$imageobj = wfFindFile( wfMsg( 'wminc-logo-' . $projectForFile ) );
-		$useUrl = $url ? $url : 'http://www.'.strtolower( $project ).'.org/';
+		$useUrl = $url ? $url : IncubatorTest::getSubdomain( 'www', IncubatorTest::getProject( $project, false, true ) );
 		if ( !$imageobj ) { # image not found
 			if( !$clickable ) {
 				return $logo;
@@ -106,8 +110,7 @@ class InfoPage {
 				$this->makeLogo( $this->mProjectName, true, 175 )
 			) .
 			Html::rawElement( 'div', array( 'class' => 'wminc-infopage-title' ),
-				wfMsg( 'wminc-infopage-title', $this->mProjectName, $this->mLangName ) .
-				$aftertitle ) .
+				$this->mFormatTitle . $aftertitle ) .
 			$content );
 	}
 
@@ -119,8 +122,8 @@ class InfoPage {
 		) . 
 		Html::rawElement( 'ul', array( 'class' => 'wminc-infopage-options' ),
 			Html::rawElement( 'li', null,
-				wfMsgExt( 'wminc-infopage-option-startwiki',
-					array( 'parseinline' ), $this->mProjectName ) ) .
+				wfMsgExt( 'wminc-infopage-option-' . ( $this->mIsSister ? 'startsister' : 'startwiki' ),
+					array( 'parseinline' ), $this->mProjectName, $this->mPortal ) ) .
 			Html::rawElement( 'li', null,
 				wfMsgExt( 'wminc-infopage-option-languages-existing',
 					array( 'parseinline' ), $this->mProjectName ) ) .
@@ -135,21 +138,24 @@ class InfoPage {
 	}
 
 	public function showIncubatingWiki() {
-		global $wgUser;
-		$bug = isset( $this->mBug ) ? $this->mBug : '';
+		global $wgUser, $wgLang;
+		$substatus = $this->mSubStatus;
+		if( $substatus == 'imported' && $this->mIsSister ) {
+			$substatus = 'closedsister';
+		}
+		$portalLink = $wgUser->getSkin()->makeExternalLink( $this->mPortal, $this->mProjectName );
 		if( $this->mThisLangData['type'] != 'invalid' ) {
+			$gotoLink = $wgUser->getSkin()->link(
+				Title::newFromText( IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix ) ),
+				wfMsgNoTrans( 'wminc-infopage-enter' ) );
 			$gotoMainPage = Html::rawElement( 'span',
 				array( 'class' => 'wminc-infopage-entertest' ),
-				'→ ' . $wgUser->getSkin()->link(
-					Title::newFromText( IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix ) ),
-					wfMsgNoTrans( 'wminc-infopage-enter' )
-				)
-			);
+				$wgLang->getArrow() . ' ' . ( $this->mIsSister ? $portalLink : $gotoLink ) );
 		}
 		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = $wgUser->getSkin()->makeExternalLink( $subdomain, $subdomain );
 		$content = Html::rawElement( 'div', array( 'class' => 'wminc-infopage-status' ),
-			wfMsgWikiHtml( 'wminc-infopage-status-' . $this->mSubStatus, $subdomainLink ) );
+			wfMsgWikiHtml( 'wminc-infopage-status-' . $substatus, $subdomainLink, $portalLink ) );
 		if( $this->mSubStatus != 'approved' && $this->mThisLangData['type'] != 'invalid' ) {
 			$content .= Html::element( 'div',
 				array( 'class' => 'wminc-infopage-contribute' ),

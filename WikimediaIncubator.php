@@ -14,7 +14,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '4.0',
+	'version' => '4.1',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -119,9 +119,8 @@ $wmincProjectDatabases = array(
 	's' => 'wikisource',
 	'v' => 'wikiversity',
 );
-# if WMF/SiteMatrix config is available, use it
-# NOTICE: include SiteMatrix extension before this extension (this is the case for WMF)
-$wmincClosedWikis = isset( $wgSiteMatrixClosedSites ) ? $wgSiteMatrixClosedSites : null;
+# set this to an array or file of closed wikis (like SiteMatrix $wgSiteMatrixClosedSites)
+$wmincClosedWikis = false;
 
 /* Wx/xx[x] info page */
 $wgAutoloadClasses['InfoPage'] = $dir . 'InfoPage.php';
