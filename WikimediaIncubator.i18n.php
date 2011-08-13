@@ -249,14 +249,37 @@ $messages['arz'] = array(
 
 /** Bavarian (Boarisch)
  * @author Man77
+ * @author Mucalexx
  */
 $messages['bar'] = array(
-	'wminc-viewuserlang-user' => 'Benutzanãm:',
-	'wminc-viewuserlang-go' => 'Hoin',
+	'wminc-desc' => 'Daméglécht Testwikis fyrn Wikimedia Incubator',
+	'wminc-manual' => 'Åloattung',
+	'wminc-listwikis' => 'Listen voh dé Wikis',
 	'wminc-testwiki' => 'Testwiki:',
-	'wminc-testwiki-none' => 'Koane/Ålle',
-	'wminc-prefinfo-language' => 'Språch vu deina Benutzaowaflächn – vum Testwiki åbhängig',
-	'wminc-prefinfo-code' => 'Da ISO-639-Språchcode',
+	'wminc-testwiki-none' => 'Koane / Olle',
+	'wminc-recentchanges-all' => 'Olle létzden Änderrungen',
+	'wminc-prefinfo-language' => 'Sprooch voh deiner Benutzerówerflächen - vom Testwiki unobhängég',
+	'wminc-prefinfo-code' => 'Da ISO-639-Sproochcode',
+	'wminc-prefinfo-project' => '\'s Wikimedia-Prójekt, ån dém du do orweidst ("Incubator" fyr Benutzer, dé oigmoane Aufgom ywernemmern)',
+	'wminc-prefinfo-error' => 'Bei dém Prójekt muass a Sproochcode ågeem wern!',
+	'wminc-error-move-unprefixed' => 'Feeler: Dé Seiten, dé du vaschiam wüst, hod [[{{MediaWiki:Helppage}}|koah óder a foischs Präfix]].',
+	'wminc-error-wronglangcode' => "'''Feeler:''' Dé Seiten enthoit an [[{{MediaWiki:Helppage}}|foischen Sproochcode]]: „$1“.",
+	'wminc-error-unprefixed' => "'''Feeler:''' Dé Seiten hod [[{{MediaWiki:Helppage}}|koan Präfix]].",
+	'wminc-error-unprefixed-suggest' => "'''Feeler:''' Dé Seiten hod [[{{MediaWiki:Helppage}}|koan Präfix]]. Du kåst unter [[:$1]] a Seiten åléng.",
+	'wminc-error-wiki-exists' => 'Dés Wiki do gibts bereits schoh. Dé Seiten befindt sé auf $1. Wånns Wiki erst grod amoi erstöd worn is, bitt ma di um a por Stund Geduid, bis olle Inhoite durthih ywertrong worn san.',
+	'randombytest' => "Zuafällige Seiten aus 'm Testwiki",
+	'randombytest-nopages' => 'Es befinden sé koane Seiten im Nåmensraum "$1" voh deim Testwiki.',
+	'wminc-viewuserlang' => 'Benutzersprooch und Testwiki åschauh',
+	'wminc-viewuserlang-user' => 'Benutzernåm:',
+	'wminc-viewuserlang-go' => 'Hoin',
+	'wminc-userdoesnotexist' => 'Der Benutzer „$1“ existird néd.',
+	'right-viewuserlang' => '[[Special:ViewUserLang|Benutzersprooch und Testwiki]] åschauh',
+	'group-test-sysop' => 'Testadministraatorn',
+	'group-test-sysop-member' => 'Testadministraator',
+	'grouppage-test-sysop' => 'Project:Testadministraatorn',
+	'wminc-code-macrolanguage' => "Dé [[wikipedia:$2 language|Sprooch „$3“]] is a [[wikipedia:de:Makrosprache_(ISO_639)|Makrósprooch]], dé d' fóigenden Oahzelsproochn enthoit:",
+	'wminc-code-collective' => 'Da Code „$1“ bziagt sé néd auf a bstimmte Sprooch, sondern auf a Gruppm voh Sproochen, nåmentlich dé [[wikipedia:$2 language|Sproochen „$3“]].',
+	'wminc-code-retired' => "Der Sproochcode is gänderd worn und beziagt sé nimmer auf d' urspryngliche Sprooch.",
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -2157,6 +2180,19 @@ $messages['tr'] = array(
 	'right-viewuserlang' => '[[Special:ViewUserLang|Kullanıcı dilini ve test vikisini]] gör',
 	'randombytest' => 'Test vikisinden rastgele sayfa',
 	'randombytest-nopages' => 'Test vikinizdeki $1 isim alanında herhangi bir sayfa bulunmuyor.',
+);
+
+/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Ajdar
+ */
+$messages['tt-cyrl'] = array(
+	'wminc-desc' => 'Викимедиа Инкубаторы өчен тикшерелмә вики-система',
+	'wminc-manual' => 'Әсбап',
+	'wminc-listwikis' => 'Викилар исемлеге',
+	'wminc-testwiki' => 'Тикшерелүче вики',
+	'wminc-testwiki-none' => 'Юк/барысы да',
+	'wminc-recentchanges-all' => 'Барлык соңгы үзгәртүләр',
+	'wminc-prefinfo-language' => 'Сезнең интерфейс теле сезнең тикшерелүче викига бәйле түгел',
 );
 
 /** ئۇيغۇرچە (ئۇيغۇرچە)
