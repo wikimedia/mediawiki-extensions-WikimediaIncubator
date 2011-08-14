@@ -114,11 +114,13 @@ class IncubatorTest {
 			}
 		}
 		global $wmincProjects, $wmincSisterProjects;
-		$listProjects = implode( '', array_keys( $wmincProjects ) ); # project codes like: pbtqn
+		$listProjects = array_map( 'preg_quote', array_keys( $wmincProjects ) );
 		if( $allowSister && is_array( $wmincSisterProjects ) ) {
-			# join the project codes with those of the sister projects, like: pbtqnsv
-			$listProjects = $listProjects . implode( '', array_keys( $wmincSisterProjects ) );
+			# join the project codes with those of the sister projects
+			$listSister = array_map( 'preg_quote', array_keys( $wmincSisterProjects ) );
+			$listProjects = array_merge( $listProjects, $listSister );
 		}
+		$listProjects = implode( '|', $listProjects );
 		if( !preg_match( '/^W['.$listProjects.']\/[a-z-]+' .
 			($onlyInfoPage ? '$/' : '(\/.+)?$/' ), $title ) ) {
 			$data['error'] = 'invalidprefix';
@@ -278,9 +280,10 @@ class IncubatorTest {
 	 * @return Boolean
 	 */
 	static function shouldWeShowUnprefixedError( $title ) {
-		global $wmincTestWikiNamespaces, $wmincProjectSite;
+		global $wmincTestWikiNamespaces, $wmincProjectSite, $wmincPseudoCategoryNSes;
 		$prefixdata = self::analyzePrefix( $title->getText() );
 		$ns = $title->getNamespace();
+		$categories = array_map( 'preg_quote', $wmincPseudoCategoryNSes );
 		if( !$prefixdata['error'] ) {
 			# no error in prefix -> no error to show
 			return false;
@@ -291,7 +294,7 @@ class IncubatorTest {
 			# OK if it's not in one of the content namespaces
 			return false;
 		} elseif( ( $ns == NS_CATEGORY || $ns == NS_CATEGORY_TALK ) &&
-			preg_match( '/^(' . implode( '|', $wmincPseudoCategoryNSes ) .'):.+$/', $title->getText() ) ) {
+			preg_match( '/^(' . implode( '|', $categories ) .'):.+$/', $title->getText() ) ) {
 			# whitelisted unprefixed categories
 			return false;
 		}
@@ -411,7 +414,7 @@ class IncubatorTest {
 	static function getDB( $prefix ) {
 		if( !self::canWeCheckDB() ) {
 			return false;
-		} elseif( !isset( $prefix ) || $prefix['error'] ) {
+		} elseif( !$prefix || $prefix['error'] ) {
 			return false; # shouldn't be, but you never know
 		}
 		global $wmincProjectDatabases;
@@ -471,11 +474,10 @@ class IncubatorTest {
 			global $wmincSisterProjects;
 			$prefix2 = self::analyzePrefix( $title->getText(), false, true );
 			$linker = class_exists( 'DummyLinker' ) ? new DummyLinker : new Linker;
-			$p = $prefix2['project'];
-			$link = self::getSubdomain( $prefix2['lang'], $p,
-				( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
-					$prefix2['realtitle'] );
+			$p = isset( $prefix2['project' ] ) ? $prefix2['project'] : '';
 			if( self::getDBState( $prefix2 ) == 'existing' ) {
+				$link = self::getSubdomain( $prefix2['lang'], $p,
+					( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
 				if( self::displayPrefix() == $prefix2['prefix'] ) {
 					# Redirect to the existing wiki if the user has this wiki as preference
 					$wgOut->redirect( $link );
@@ -489,6 +491,8 @@ class IncubatorTest {
 				}
 			} elseif( array_key_exists( $p, $wmincSisterProjects ) ) {
 				# A sister project is not hosted here, so direct the user to the relevant wiki
+				$link = self::getSubdomain( $prefix2['lang'], $p,
+					( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
 					$showLink = $linker->makeExternalLink( $link, $link );
 					$wgOut->addHtml( '<div class="wminc-wiki-sister">' .
 						wfMsgHtml( 'wminc-error-wiki-sister', $showLink ) .
@@ -529,7 +533,7 @@ class IncubatorTest {
 			$wgOut->addHtml( $infopage->showMissingWiki() );
 		}
 		# Set the page title from "Wx/xyz - Incubator" to "Wikiproject Language - Incubator"
-		$wgOut->setHTMLTitle( wfMsg( 'pagetitle', htmlspecialchars( $infopage->mFormatTitle ) ) );
+		$wgOut->setHTMLTitle( wfMsg( 'pagetitle', $infopage->mFormatTitle ) );
 		return true;
 	}
 
@@ -579,7 +583,7 @@ class IncubatorTest {
 	public static function getMainPage( $langCode, $prefix = null ) {
 		# Take the "mainpage" msg in the given language
 		$msg = wfMsgExt( 'mainpage', array( 'language' => $langCode ) );
-		return isset( $prefix ) ? $prefix . '/' . $msg : $msg;
+		return $prefix !== null ? $prefix . '/' . $msg : $msg;
 	}
 
 	/**

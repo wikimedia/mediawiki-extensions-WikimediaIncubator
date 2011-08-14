@@ -14,7 +14,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '4.1',
+	'version' => '4.2',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -22,7 +22,7 @@ $wgExtensionCredits['other'][] = array(
 /* General (globals and/or configuration) */
 $wmincPref = 'incubatortestwiki'; // Name of the preference
 $dir = dirname( __FILE__ ) . '/';
-$wmincScriptDir = $wgScriptPath . '/extensions/WikimediaIncubator/';
+$wmincScriptDir = $wgExtensionAssetsPath . '/WikimediaIncubator/';
 # only one-letter codes can be used for projects
 $wmincProjects = array(
 	'p' => 'Wikipedia',
@@ -133,7 +133,7 @@ $wgHooks['ArticleFromTitle'][] = 'IncubatorTest::onArticleFromTitle';
 $wgResourceModules['WikimediaIncubator.InfoPage'] = array(
 		'styles' => 'InfoPage.css',
 		'localBasePath' => dirname(__FILE__),
-		'remoteExtPath' => $wmincScriptDir,
+		'remoteExtPath' => 'WikimediaIncubator',
 );
 
 /* Possibility to set a logo per test wiki */

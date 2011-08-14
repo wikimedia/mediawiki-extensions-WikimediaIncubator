@@ -39,7 +39,7 @@ class InfoPage {
 		$this->mLangNames = IncubatorTest::getLanguageNames();
 		$this->mLangName = ( isset( $this->mLangNames[$this->mLangCode] ) ?
 			$this->mLangNames[$this->mLangCode] : wfMsg( 'wminc-unknownlang', $this->mLangCode ) );
-		$this->mFormatTitle = wfMsg( 'wminc-infopage-title', $this->mProjectName, $this->mLangName );
+		$this->mFormatTitle = wfMsgHtml( 'wminc-infopage-title', $this->mProjectName, $this->mLangName );
 		return;
 	}
 
@@ -117,7 +117,7 @@ class InfoPage {
 	 */
 	public function StandardInfoPage( $beforetitle, $aftertitle, $content ) {
 		global $wgLang, $wgOut;
-		$wgOut->addModules( 'WikimediaIncubator.InfoPage' );
+		$wgOut->addModuleStyles( 'WikimediaIncubator.InfoPage' );
 		return Html::rawElement( 'div', array( 'class' => 'wminc-infopage plainlinks',
 			'lang' => $wgLang->getCode(), 'dir' => $wgLang->getDir() ),
 			$beforetitle .
@@ -190,8 +190,8 @@ class InfoPage {
 	 */
 	public function showExistingWiki() {
 		global $wgLang, $wgUser;
-		$created = isset( $this->mCreated ) ? $this->mCreated : '';
-		$bug = isset( $this->mBug ) ? $this->mBug : '';
+		$created = isset( $this->mCreated ) ? $this->mCreated : ''; # for future use
+		$bug = isset( $this->mBug ) ? $this->mBug : ''; # for future use
 		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = $wgUser->getSkin()->makeExternalLink( $subdomain, $subdomain );
 		if( $this->mThisLangData['type'] != 'invalid' ) {
@@ -201,7 +201,7 @@ class InfoPage {
 		}
 		$content = Html::rawElement( 'div',
 			array( 'class' => 'wminc-infopage-status' ),
-			wfMsg( 'wminc-infopage-status-' . $this->mSubStatus, $subdomainLink )
+			wfMsgWikiHtml( 'wminc-infopage-status-' . $this->mSubStatus, $subdomainLink )
 		) . Html::rawElement( 'ul', array( 'class' => 'wminc-infopage-options' ),
 			Html::rawElement( 'li', null, wfMsgWikiHtml( 'wminc-infopage-option-sisterprojects-other' ) .
 				$this->listOtherProjects() ) .
