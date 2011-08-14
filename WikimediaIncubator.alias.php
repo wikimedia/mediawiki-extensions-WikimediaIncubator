@@ -1,6 +1,6 @@
 <?php
 /**
- * Aliases for Special:Gadgets
+ * Aliases for WikimediaIncubator
  *
  * @file
  * @ingroup Extensions
