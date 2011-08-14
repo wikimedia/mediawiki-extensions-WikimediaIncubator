@@ -458,10 +458,14 @@ class IncubatorTest {
 	 * @return True
 	 */
 	static function onShowMissingArticle( $article ) {
-		global $wgOut;
+		global $wgOut, $wmincTestWikiNamespaces;
 		$title = $article->getTitle();
 		$prefix = self::analyzePrefix( $title->getText(),
 			true /* only info pages */, true /* allow sister projects */ );
+
+		if( !in_array( $title->getNamespace(), $wmincTestWikiNamespaces ) ) {
+			return true;
+		}
 
 		if( $prefix['error'] ) { # We are not on info pages
 			global $wmincSisterProjects;
