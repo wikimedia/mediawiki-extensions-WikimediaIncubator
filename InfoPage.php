@@ -46,6 +46,7 @@ class InfoPage {
 	/**
 	 * Small convenience function to display a (clickable) logo
 	 * @param $project Project name
+	 * @return String
 	 */
 	public function makeLogo( $project, $clickable = true, $width = 25, $height = '', $url = '', $args = array() ) {
 		global $wgUser;
@@ -72,6 +73,10 @@ class InfoPage {
 		);
 	}
 
+	/**
+	 * @return String: list of clickable logos of other projects
+	 *					(Wikipedia, Wiktionary, ...)
+	 */
 	public function listOtherProjects() {
 		global $wmincProjects, $wmincSisterProjects;
 		$otherProjects = $wmincProjects + $wmincSisterProjects;
@@ -84,6 +89,10 @@ class InfoPage {
 			implode( '', $listOtherProjects ) . '</ul>';
 	}
 
+	/**
+	 * @return String: list of clickable logos of multilingual projects
+	 *					(Meta, Commons, ...)
+	 */
 	public function listMultilingualProjects() {
 		global $wmincMultilingualProjects;
 		if( !is_array( $wmincMultilingualProjects ) ) { return; }
@@ -95,11 +104,17 @@ class InfoPage {
 			implode( '', $list ) . '</ul>';
 	}
 
+	/**
+	 * @return String: "Welcome to Incubator" message
+	 */
 	public function showWelcome() {
 		return Html::rawElement( 'div', array( 'class' => 'wminc-infopage-welcome' ),
 			wfMsgWikiHtml( 'wminc-infopage-welcome' ) );
 	}
 
+	/**
+	 * @return String: the core HTML for the info page
+	 */
 	public function StandardInfoPage( $beforetitle, $aftertitle, $content ) {
 		global $wgLang, $wgOut;
 		$wgOut->addModules( 'WikimediaIncubator.InfoPage' );
@@ -114,6 +129,9 @@ class InfoPage {
 			$content );
 	}
 
+	/**
+	 * @return String
+	 */
 	public function showMissingWiki() {
 		$content = Html::rawElement( 'div',
 			array( 'class' => 'wminc-infopage-status' ),
@@ -122,7 +140,7 @@ class InfoPage {
 		) . 
 		Html::rawElement( 'ul', array( 'class' => 'wminc-infopage-options' ),
 			Html::rawElement( 'li', null,
-				wfMsgExt( 'wminc-infopage-option-' . ( $this->mIsSister ? 'startsister' : 'startwiki' ),
+				wfMsgExt( $this->mIsSister ? 'wminc-infopage-option-startsister' : 'wminc-infopage-option-startwiki',
 					array( 'parseinline' ), $this->mProjectName, $this->mPortal ) ) .
 			Html::rawElement( 'li', null,
 				wfMsgExt( 'wminc-infopage-option-languages-existing',
@@ -137,6 +155,9 @@ class InfoPage {
 		return $this->StandardInfoPage( $this->showWelcome(), '', $content );
 	}
 
+	/**
+	 * @return String
+	 */
 	public function showIncubatingWiki() {
 		global $wgUser, $wgLang;
 		$substatus = $this->mSubStatus;
@@ -164,6 +185,9 @@ class InfoPage {
 		return $this->StandardInfoPage( '', $gotoMainPage, $content );
 	}
 
+	/**
+	 * @return String
+	 */
 	public function showExistingWiki() {
 		global $wgLang, $wgUser;
 		$created = isset( $this->mCreated ) ? $this->mCreated : '';

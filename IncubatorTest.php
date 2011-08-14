@@ -318,7 +318,7 @@ class IncubatorTest {
 			# no permission if the wiki already exists
 			$link = self::getSubdomain( $prefixdata['lang'],
 				$prefixdata['project'], ( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
-				preg_replace( '/ /', '_', $prefixdata['realtitle'] ) );
+				str_replace( ' ', '_', $prefixdata['realtitle'] ) );
 			$result[] = array( 'wminc-error-wiki-exists', $link );
 			return false;
 		}
@@ -415,7 +415,7 @@ class IncubatorTest {
 			return false; # shouldn't be, but you never know
 		}
 		global $wmincProjectDatabases;
-		return preg_replace('/-/', '_', $prefix['lang'] ) .
+		return str_replace('-', '_', $prefix['lang'] ) .
 			$wmincProjectDatabases[$prefix['project']];
 	}
 
@@ -565,7 +565,7 @@ class IncubatorTest {
 		return $wgConf->get( 'wgServer',
 			self::getDB( $prefix ), $projectName,
 			array( 'lang' => str_replace( '_', '-', $lang ), 'site' => $projectName )
-		) . ( $title ? preg_replace( '/\$1/', $title, $wgArticlePath ) : '' );
+		) . ( $title ? str_replace( '$1', $title, $wgArticlePath ) : '' );
 	}
 
 	/**
@@ -652,14 +652,14 @@ class IncubatorTest {
 			return false;
 		}
 		global $wgLogo;
-		$prefixForPageTitle = preg_replace('/\//', '-', strtolower( $setLogo['prefix'] ) );
+		$prefixForPageTitle = str_replace( '/', '-', strtolower( $setLogo['prefix'] ) );
 		$file = wfFindFile( wfMsgForContentNoTrans( 'Incubator-logo-' . $prefixForPageTitle ) );
 		if( !$file ) {
 			# if MediaWiki:Incubator-logo-wx-xx(x) doesn't exist,
 			# try a general, default logo for that project
 			global $wmincProjects;
 			$project = $setLogo['project'];
-			$projectForFile = preg_replace('/ /', '-', strtolower( $wmincProjects[$project] ) );
+			$projectForFile = str_replace( ' ', '-', strtolower( $wmincProjects[$project] ) );
 			$imageobj = wfFindFile( wfMsg( 'wminc-logo-' . $projectForFile ) );
 			if( $imageobj ) {
 				$thumb = $imageobj->transform( array( 'width' => 135, 'height' => 135 ) );
