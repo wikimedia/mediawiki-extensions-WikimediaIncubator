@@ -68,6 +68,7 @@ $wgAddGroups['bureaucrat']['test-sysop'] = true;
 $wgRemoveGroups['bureaucrat']['test-sysop'] = true;
 
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
+$wgExtensionAliasesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.alias.php';
 
 /* Special:ViewUserLang */
 $wgAutoloadClasses['SpecialViewUserLang'] = $dir . 'SpecialViewUserLang.php';
