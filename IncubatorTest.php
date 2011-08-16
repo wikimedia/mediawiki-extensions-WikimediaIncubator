@@ -114,10 +114,10 @@ class IncubatorTest {
 			}
 		}
 		global $wmincProjects, $wmincSisterProjects;
-		$listProjects = array_map( 'preg_quote', array_keys( $wmincProjects ) );
+		$listProjects = array_map( 'self::preg_quote_slash', array_keys( $wmincProjects ) );
 		if( $allowSister && is_array( $wmincSisterProjects ) ) {
 			# join the project codes with those of the sister projects
-			$listSister = array_map( 'preg_quote', array_keys( $wmincSisterProjects ) );
+			$listSister = array_map( 'self::preg_quote_slash', array_keys( $wmincSisterProjects ) );
 			$listProjects = array_merge( $listProjects, $listSister );
 		}
 		$listProjects = implode( '|', $listProjects );
@@ -283,7 +283,7 @@ class IncubatorTest {
 		global $wmincTestWikiNamespaces, $wmincProjectSite, $wmincPseudoCategoryNSes;
 		$prefixdata = self::analyzePrefix( $title->getText() );
 		$ns = $title->getNamespace();
-		$categories = array_map( 'preg_quote', $wmincPseudoCategoryNSes );
+		$categories = array_map( 'self::preg_quote_slash', $wmincPseudoCategoryNSes );
 		if( !$prefixdata['error'] ) {
 			# no error in prefix -> no error to show
 			return false;
@@ -698,5 +698,9 @@ class IncubatorTest {
 		}
 		$pageLang = $prefix['lang'];
 		return true;
+	}
+
+	private static function preg_quote_slash( $str ) {
+		return preg_quote( $str, '/' );
 	}
 }
