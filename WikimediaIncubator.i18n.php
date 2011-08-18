@@ -2088,6 +2088,21 @@ $messages['tt-cyrl'] = array(
 	'wminc-testwiki-none' => 'Юк/барысы да',
 	'wminc-recentchanges-all' => 'Барлык соңгы үзгәртүләр',
 	'wminc-prefinfo-language' => 'Сезнең интерфейс теле сезнең тикшерелүче викига бәйле түгел',
+	'wminc-prefinfo-code' => 'Телнең ISO 639 буенча коды',
+	'wminc-prefinfo-project' => 'Викимедиа проектын сайлау (әгәр гомуми мәсьәләләр белән шөгыльләнсәгез, Инкубаторны сайлагыз)',
+	'wminc-prefinfo-error' => 'Сез тел кодын күрсәтү мәҗбүри булган проектны сайладыгыз.',
+	'wminc-error-move-unprefixed' => 'Хата. Сез күчерергә теләгән бит [[{{MediaWiki:Helppage}}|хаталы префикска ия яки аның префиксы бөтенләй юк]]!',
+	'wminc-error-wronglangcode' => "'''Хата:''' Сез үзгәртергә теләгән биттә  [[{{MediaWiki:Helppage}}|дөрес булмаган тел коды бар]]",
+	'wminc-error-unprefixed' => "'''Хата:''' Сез үзгәртергә теләгән битнең  [[{{MediaWiki:Helppage}}|префиксы юк]]!",
+	'randombytest' => 'Тикшерелүче викиның очраклы мәкаләсе',
+	'randombytest-nopages' => 'Сезнең тикшерелүче викида $1 исемнәр аланындагы битләр юк',
+	'wminc-viewuserlang' => 'Кулланучының һәм аның тикшерелүче викиенең тел көйләнмәләрен эзләү',
+	'wminc-viewuserlang-user' => 'Кулланучы исеме:',
+	'wminc-viewuserlang-go' => 'Табарга',
+	'wminc-userdoesnotexist' => '"$1" дигән кулланучы юк',
+	'group-test-sysop' => 'Тикшерелүче вики идарәчеләре',
+	'group-test-sysop-member' => 'тикшерелүче вики идарәчесе',
+	'grouppage-test-sysop' => 'Project:Тикшерелүче вики идарәчеләре',
 );
 
 /** ئۇيغۇرچە (ئۇيغۇرچە)
