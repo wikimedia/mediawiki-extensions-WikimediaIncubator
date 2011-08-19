@@ -624,10 +624,38 @@ $messages['es'] = array(
 
 /** Estonian (Eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
+	'wminc-desc' => 'Katsevikide süsteem Wikimedia Incubatori jaoks',
+	'wminc-manual' => 'Käsiraamat',
+	'wminc-listwikis' => 'Vikide nimekiri',
+	'wminc-testwiki' => 'Katseviki:',
+	'wminc-testwiki-none' => 'Puudub/Kõik',
+	'wminc-recentchanges-all' => 'Kõik viimased muudatused',
+	'wminc-prefinfo-language' => 'Sinu liidese keel (katsevikist olenematu)',
+	'wminc-prefinfo-code' => 'ISO 639 keelekood',
+	'wminc-prefinfo-project' => 'Vali Wikimedia projekt (valik "Incubator" on kasutajatele, kes teevad üldist tööd)',
+	'wminc-prefinfo-error' => 'Koos valitud projektiga tuleb määrata ka keelekood.',
+	'wminc-error-move-unprefixed' => 'Tõrge: Lehekülg, mida üritad teisaldada, [[{{MediaWiki:Helppage}}|on eesliiteta või vale eesliitega]]!',
+	'wminc-error-wronglangcode' => "'''Tõrge:''' See lehekülg sisaldab [[{{MediaWiki:Helppage}}|vale keelekoodi]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Tõrge:''' See lehekülg on [[{{MediaWiki:Helppage}}|eesliiteta]]!",
+	'wminc-error-unprefixed-suggest' => "'''Tõrge:''' See lehekülg on [[{{MediaWiki:Helppage}}|eesliiteta]]! Uue lehekülje saad luua asukohas [[:$1]].",
+	'wminc-error-wiki-exists' => 'See viki on juba olemas. Selle lehekülje leiad asukohast $1. Kui viki loodi hiljuti, oota palun mõned tunnid või päevad, kuni kogu sisu on imporditud.',
+	'wminc-error-wiki-sister' => 'See lehekülg on osa projektist, mida ei peeta siin. Mine palun asukohta $1, et see viki leida.',
+	'randombytest' => 'Juhuslik katseviki lehekülg',
+	'randombytest-nopages' => 'Sinu katseviki nimeruumis "$1" pole lehekülgi.',
+	'wminc-viewuserlang' => 'Kasutaja keele ja katseviki vaatamine',
 	'wminc-viewuserlang-user' => 'Kasutajanimi:',
 	'wminc-viewuserlang-go' => 'Mine',
+	'wminc-userdoesnotexist' => 'Kasutajat "$1" pole olemas.',
+	'right-viewuserlang' => 'Vaadata [[Special:ViewUserLang|kasutaja keelt ja katsevikit]]',
+	'group-test-sysop' => 'Katseviki administraatorid',
+	'group-test-sysop-member' => 'katseviki administraator',
+	'grouppage-test-sysop' => 'Project:Katseviki administraatorid',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|$3 keel]] on [[wikipedia:ISO 639 macrolanguage|makrokeel]], mis koosneb järgmistest keeltest:',
+	'wminc-code-collective' => 'Keelekood "$1" ei viita kindlale keelele, vaid järgmisele keelterühmale: [[wikipedia:$2 language|$3 keeled]].',
+	'wminc-code-retired' => 'Seda keelekoodi on muudetud ja see ei viita enam esialgsele keelele.',
 );
 
 /** Basque (Euskara)
