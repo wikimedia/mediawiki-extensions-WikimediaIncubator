@@ -234,6 +234,17 @@ $messages['arz'] = array(
 	'wminc-viewuserlang-go' => 'روح',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'wminc-manual' => 'Manual',
+	'wminc-listwikis' => 'Llista de wikis',
+	'wminc-testwiki' => 'Wiki de prueba:',
+	'wminc-testwiki-none' => 'Nengún/Toos',
+	'wminc-recentchanges-all' => 'Tolos cambios recientes',
+);
+
 /** Bavarian (Boarisch)
  * @author Man77
  * @author Mucalexx
@@ -1390,6 +1401,7 @@ $messages['ml'] = array(
 	'wminc-error-unprefixed' => "'''പിഴവ്:''' ഈ താളിന് [[{{MediaWiki:Helppage}}|പൂർവ്വപദമില്ല]]!",
 	'wminc-error-unprefixed-suggest' => "'''പിഴവ്:''' ഈ താളിന് [[{{MediaWiki:Helppage}}|പൂർവ്വപദമില്ല]]! താങ്കൾക്ക് [[:$1]]-ൽ ഒരു താൾ സൃഷ്ടിക്കാവുന്നതാണ്.",
 	'wminc-error-wiki-exists' => 'ഈ വിക്കി നിലവിലുണ്ട്. ഈ താൾ താങ്കൾക്ക് $1-ൽ കാണാവുന്നതാണ്. ഈ വിക്കി സമീപകാലത്ത് സൃഷ്ടിച്ചതാണെങ്കിൽ, എല്ലാ ഉള്ളടക്കവും ഇറക്കുമതി ചെയ്യാനായി ഏതാനം മണിക്കൂറുകളോ ദിവസങ്ങളോ ദയവായി കാത്തിരിക്കുക.',
+	'wminc-error-wiki-sister' => 'ഈ താൾ മറ്റെവിടെയോ ഹോസ്റ്റ് ചെയ്തിട്ടുള്ള പദ്ധതിയുടെ ഭാഗമാണ്. ദയവായി  $1 സന്ദർശിച്ച് വിക്കിയേതാണെന്ന് കണ്ടെത്തുക.',
 	'randombytest' => 'പരീക്ഷണ വിക്കിയിൽ നിന്നും ക്രമരഹിതമായി എടുത്ത താൾ',
 	'randombytest-nopages' => 'ഈ നാമമേഖലയിൽ പരീക്ഷണ വിക്കിയിൽ താങ്കൾക്ക് ഒരു താളും ഇല്ല: $1.',
 	'wminc-viewuserlang' => 'താങ്കളുടെ പരീക്ഷണ വിക്കിയും ഉപയോക്തൃഭാഷയും നോക്കുക',
