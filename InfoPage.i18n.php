@@ -347,6 +347,7 @@ $messages['ms'] = array(
 	'wminc-infopage-missingwiki-text' => '$1 dalam bahasa ini belum wujud.',
 	'wminc-infopage-option-startwiki' => 'Jika anda mahu memulakan wiki ini,
 anda boleh [{{fullurl:{{FULLPAGENAME}}|action=edit}} mencipta lamannya] dan mengikuti [[{{MediaWiki:Wminc-manual-url}}|panduan kami]].',
+	'wminc-infopage-option-startsister' => 'Jika anda ingin membuka wiki ini, anda boleh pergi ke <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Anda boleh mencari [http://www.$1.org edisi-edisi bahasa sedia ada bagi $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Anda boleh mencari projek-projek yang sedia ada dalam bahasa ini:',
 	'wminc-infopage-option-sisterprojects-other' => 'Anda boleh mencari projek-projek lain dalam bahasa ini:',
@@ -354,6 +355,7 @@ anda boleh [{{fullurl:{{FULLPAGENAME}}|action=edit}} mencipta lamannya] dan meng
 	'wminc-infopage-createmainpage' => 'Isikan perkataan "Laman Utama" dalam bahasa ini:',
 	'wminc-infopage-contribute' => 'Jika anda fasih dalam bahasa ini, anda dialu-alukan untuk menyumbang!',
 	'wminc-infopage-status-imported' => 'Wiki Incubator ini telah diimport dari $1 setelah wiki itu ditutup.',
+	'wminc-infopage-status-closedsister' => 'Subdomain ini ditutup. Pergi ke <b>$2</b> untuk menyumbang kepada wiki ini.',
 	'wminc-infopage-status-created' => 'Projek ini telah diluluskan oleh jawatankuasa bahasa dan kini boleh didapati di $1.',
 	'wminc-infopage-status-beforeincubator' => 'Projek ini dibuka sebelum Wikimedia Incubator dimulakan, dan boleh didapati di $1.',
 );
