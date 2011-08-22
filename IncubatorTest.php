@@ -570,6 +570,7 @@ class IncubatorTest {
 		$projectName = strtolower( $wmincProjectDatabases[$projectCode] );
 		# Imitate analyzePrefix() array :p
 		$prefix = array( 'error' => null, 'lang' => $lang, 'project' => $projectCode );
+		$wgConf->loadFullData();
 		return $wgConf->get( 'wgServer',
 			self::getDB( $prefix ), $projectName,
 			array( 'lang' => str_replace( '_', '-', $lang ), 'site' => $projectName )
