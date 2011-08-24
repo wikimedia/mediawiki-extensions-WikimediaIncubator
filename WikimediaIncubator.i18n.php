@@ -1983,6 +1983,7 @@ $messages['su'] = array(
 /** Swedish (Svenska)
  * @author Boivie
  * @author Gabbe.g
+ * @author Lokal Profil
  * @author Najami
  * @author Ozp
  * @author Poxnar
@@ -1991,6 +1992,7 @@ $messages['sv'] = array(
 	'wminc-desc' => 'Testwikisystem för Wikimedia Incubator',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/Alla',
+	'wminc-recentchanges-all' => 'Alla de senaste ändringarna',
 	'wminc-prefinfo-language' => 'Ditt gränssnittsspråk - oavhängigt från din testwiki',
 	'wminc-prefinfo-code' => 'ISO 639-språkkoden',
 	'wminc-prefinfo-project' => 'Välj Wikimediaprojekt (alternativet Incubator för användare som gör allmänt arbete)',
@@ -2000,6 +2002,7 @@ $messages['sv'] = array(
 	'wminc-viewuserlang' => 'Kolla upp användarspråk och testwiki',
 	'wminc-viewuserlang-user' => 'Användarnamn:',
 	'wminc-viewuserlang-go' => 'Gå till',
+	'wminc-userdoesnotexist' => 'Användaren "$1" finns inte.',
 	'right-viewuserlang' => 'Visa [[Special:ViewUserLang|användarspråk och testwiki]]',
 );
 
