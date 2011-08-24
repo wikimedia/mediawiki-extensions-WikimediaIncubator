@@ -593,7 +593,7 @@ class IncubatorTest {
 	 */
 	public static function onArticleFromTitle( &$title, &$article ) {
 		global $wgRequest, $wgOut;
-		$prefix = IncubatorTest::analyzePrefix( $title, true );
+		$prefix = IncubatorTest::analyzePrefix( $title->getText(), true );
 		if( $prefix['error'] || $wgRequest->getVal('goto') != 'mainpage' ) {
 			return true;
 		}
