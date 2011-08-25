@@ -384,11 +384,12 @@ $messages['nl'] = array(
 );
 
 /** Polish (Polski)
+ * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
-	'wminc-infopage-enter' => 'przejdź do Strony Głównej',
-	'wminc-unknownlang' => '(nieznany język z kodem "$1")',
+	'wminc-infopage-enter' => 'przejdź do strony głównej',
+	'wminc-unknownlang' => '(nieznany język o kodzie „$1“)',
 );
 
 /** Portuguese (Português)
