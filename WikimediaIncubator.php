@@ -14,7 +14,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '4.2',
+	'version' => '4.3',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -141,3 +141,9 @@ $wgHooks['BeforePageDisplay'][] = 'IncubatorTest::fnTestWikiLogo';
 
 /* Set page content language depending on the prefix */
 $wgHooks['PageContentLanguage'][] = 'IncubatorTest::onPageContentLanguage';
+
+/* List of users */
+$wgAutoloadClasses['ListUsersTestWiki'] = $dir . 'ListUsersTestWiki.php';
+$wgHooks['SpecialListusersHeaderForm'][] = 'ListUsersTestWiki::onSpecialListusersHeaderForm';
+$wgHooks['SpecialListusersQueryInfo'][] = 'ListUsersTestWiki::onSpecialListusersQueryInfo';
+$wgHooks['SpecialListusersHeader'][] = 'ListUsersTestWiki::onSpecialListusersHeader';

@@ -53,6 +53,9 @@ $messages['en'] = array(
 	'wminc-code-macrolanguage' => 'The [[wikipedia:$2 language|"$3" language]] is a [[wikipedia:ISO 639 macrolanguage|macrolanguage]], consisting of the following member languages:',
 	'wminc-code-collective' => 'The code "$1" does not refer to a specific language, but to a collection of languages, namely the [[wikipedia:$2 language|"$3" languages]].',
 	'wminc-code-retired' => 'This language code has been changed and no longer refers to the original language.',
+
+	# Special:ListUsers
+	'wminc-listusers-testwiki' => 'You are viewing users who have set their test wiki preference to [[$1]].',
 );
 
 /** Message documentation (Message documentation)
