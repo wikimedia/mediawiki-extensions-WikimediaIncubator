@@ -42,6 +42,7 @@ $messages['en'] = array(
 	'wminc-viewuserlang-user' => 'Username:',
 	'wminc-viewuserlang-go' => 'Go',
 	'wminc-userdoesnotexist' => 'The user "$1" does not exist.',
+	'wminc-ip' => '"$1" is an IP address.',
 
 	# User groups
 	'right-viewuserlang' => 'View [[Special:ViewUserLang|user language and test wiki]]',

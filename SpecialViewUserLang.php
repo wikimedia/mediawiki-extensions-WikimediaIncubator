@@ -68,35 +68,38 @@ class SpecialViewUserLang extends SpecialPage {
 	 */
 	function showInfo( $target ) {
 		global $wgOut, $wmincPref, $wmincProjectSite;
+		if( User::isIP( $target ) ) {
+			# show error if it is an IP address
+			return $wgOut->addHTML( Xml::span( wfMsg( 'wminc-ip', $target ), 'error' ) );
+		}
 		$user = User::newFromName( $target );
 		$name = $user->getName();
 		$id = $user->getId();
 		$langNames = Language::getLanguageNames();
 		$linker = class_exists( 'DummyLinker' ) ? new DummyLinker : new Linker;
 		if ( $user == null || $id == 0 ) {
-			// show error if a user with that name does not exist
-			$wgOut->addHTML( Xml::span( wfMsg( 'wminc-userdoesnotexist', $target ), 'error' ) );
-		} else {
-			$userproject = $user->getOption( $wmincPref . '-project' );
-			$userproject = ( $userproject ? $userproject : 'none' );
-			$usercode = $user->getOption( $wmincPref . '-code' );
-			$prefix = IncubatorTest::displayPrefix( $userproject, $usercode );
-			if ( IncubatorTest::isContentProject( $userproject ) ) {
-				$testwiki = $linker->link( Title::newFromText( $prefix ) );
-			} elseif ( $prefix == $wmincProjectSite['short'] ) {
-				$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
-			} else {
-				$testwiki = wfMsgHtml( 'wminc-testwiki-none' );
-			}
-			$wgOut->addHtml(
-				Xml::openElement( 'ul' ) .
-				'<li>' . wfMsgHtml( 'username' ) . ' ' .
-					$linker->userLink( $id, $name ) . $linker->userToolLinks( $id, $name, true ) . '</li>' .
-				'<li>' . wfMsgHtml( 'loginlanguagelabel', $langNames[$user->getOption( 'language' )] .
-					' (' . $user->getOption( 'language' ) . ')' ) . '</li>' .
-				'<li>' . wfMsgHtml( 'wminc-testwiki' ) . ' ' . $testwiki . '</li>' .
-				Xml::closeElement( 'ul' )
-			);
+			# show error if a user with that name does not exist
+			return $wgOut->addHTML( Xml::span( wfMsg( 'wminc-userdoesnotexist', $target ), 'error' ) );
 		}
+		$userproject = $user->getOption( $wmincPref . '-project' );
+		$userproject = ( $userproject ? $userproject : 'none' );
+		$usercode = $user->getOption( $wmincPref . '-code' );
+		$prefix = IncubatorTest::displayPrefix( $userproject, $usercode );
+		if ( IncubatorTest::isContentProject( $userproject ) ) {
+			$testwiki = $linker->link( Title::newFromText( $prefix ) );
+		} elseif ( $prefix == $wmincProjectSite['short'] ) {
+			$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
+		} else {
+			$testwiki = wfMsgHtml( 'wminc-testwiki-none' );
+		}
+		$wgOut->addHtml(
+			Xml::openElement( 'ul' ) .
+			'<li>' . wfMsgHtml( 'username' ) . ' ' .
+				$linker->userLink( $id, $name ) . $linker->userToolLinks( $id, $name, true ) . '</li>' .
+			'<li>' . wfMsgHtml( 'loginlanguagelabel', $langNames[$user->getOption( 'language' )] .
+				' (' . $user->getOption( 'language' ) . ')' ) . '</li>' .
+			'<li>' . wfMsgHtml( 'wminc-testwiki' ) . ' ' . $testwiki . '</li>' .
+			Xml::closeElement( 'ul' )
+		);
 	}
 }
