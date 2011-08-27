@@ -100,8 +100,9 @@ $messages['qqq'] = array(
 It is best '''not''' to change the link to the Wikipedia article about the language. The article about macrolanguage can be changed to point to a translated article.",
 	'wminc-code-collective' => "* '''$1''' is the language code
 * '''$2''' is the language name in English
-* '''$3''' is the translated language namefrom CLDR, if available (otherwise, English) 
+* '''$3''' is the translated language name from CLDR, if available (otherwise, English) 
 It is best '''not''' to change the link to the Wikipedia article about the language.",
+	'wminc-listusers-testwiki' => 'Used on [[Special:ListUsers]]. $1 is of the format "Wx/xyz".',
 );
 
 /** Adyghe (Cyrillic) ()
@@ -469,6 +470,7 @@ $messages['da'] = array(
  * @author Imre
  * @author Kghbln
  * @author MF-Warburg
+ * @author Metalhead64
  * @author Umherirrender
  */
 $messages['de'] = array(
@@ -494,6 +496,7 @@ $messages['de'] = array(
 	'wminc-viewuserlang-user' => 'Benutzername:',
 	'wminc-viewuserlang-go' => 'Holen',
 	'wminc-userdoesnotexist' => 'Der Benutzer „$1“ ist nicht vorhanden.',
+	'wminc-ip' => '„$1“ ist eine IP-Adresse.',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Benutzersprache und Testwiki]] anschauen',
 	'group-test-sysop' => 'Testadministratoren',
 	'group-test-sysop-member' => 'Testadministrator',
@@ -501,6 +504,7 @@ $messages['de'] = array(
 	'wminc-code-macrolanguage' => 'Die [[wikipedia:$2 language|Sprache „$3“]] ist eine [[wikipedia:de:Makrosprache_(ISO_639)|Makrosprache]], welche die folgenden Einzelsprachen enthält:',
 	'wminc-code-collective' => 'Der Code „$1“ bezieht sich nicht auf eine bestimmte Sprache, sondern auf eine Gruppe von Sprachen, namentlich die [[wikipedia:$2 language|Sprachen „$3“]].',
 	'wminc-code-retired' => 'Dieser Sprachcode wurde geändert und bezieht sich nicht mehr auf die ursprüngliche Sprache.',
+	'wminc-listusers-testwiki' => 'Du siehst Benutzer, die ihre Testwikieinstellung auf [[$1]] eingestellt haben.',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -784,8 +788,8 @@ $messages['fr'] = array(
 	'wminc-viewuserlang-go' => 'Aller',
 	'wminc-userdoesnotexist' => "L'utilisateur « $1 » n'existe pas.",
 	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|la langue de l’utilisateur et le wiki de test]]',
-	'wminc-code-macrolanguage' => 'La [[wikipedia:fr:$3|langue « $3 »]] est une [[wikipedia:fr:macro-langue|macro-langue]], comprenant les langues suivantes :',
-	'wminc-code-collective' => 'Le code « $1 » ne se réfère pas à une langue spécifique, mais à une collection de langues, en particulier les [[wikipedia:fr:$3|langues « $3 »]]',
+	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 language|langue « $3 »]] est une [[wikipedia:fr:macro-langue|macro-langue]], comprenant les langues suivantes :',
+	'wminc-code-collective' => 'Le code « $1 » ne se réfère pas à une langue spécifique, mais à une collection de langues, en particulier les [[wikipedia:$2 language|langues « $3 »]]',
 	'wminc-code-retired' => 'Ce code de langue a été changé est ne fait plus référence à la langue d’origine.',
 );
 
@@ -1376,6 +1380,7 @@ $messages['mk'] = array(
 	'wminc-viewuserlang-user' => 'Корисничко име:',
 	'wminc-viewuserlang-go' => 'Оди',
 	'wminc-userdoesnotexist' => 'Корисникот „$1“ не постои.',
+	'wminc-ip' => '„$1“ е IP-адреса.',
 	'right-viewuserlang' => 'Погледајте [[Special:ViewUserLang|кориснички јазик и текст вики]]',
 	'group-test-sysop' => 'Администратори на пробно вики',
 	'group-test-sysop-member' => 'администратор на пробно вики',
@@ -1383,6 +1388,7 @@ $messages['mk'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Јазикот „$3“]] е [[wikipedia:ISO 639 macrolanguage|макројазик]], кој се состои од следниве јазици:',
 	'wminc-code-collective' => 'Кодот „$1“ не се однесува на поединечен јазик, туку на збирот јазици наречен [[wikipedia:$2 language|„$3“ јазици]].',
 	'wminc-code-retired' => 'Овој јазичен код е изменет и повеќе не се однесува на првоназначениот јазик.',
+	'wminc-listusers-testwiki' => 'Гледате корисници кои пробното вики го наместиле на [[$1]].',
 );
 
 /** Malayalam (മലയാളം)
@@ -1524,13 +1530,15 @@ $messages['nl'] = array(
 	'wminc-viewuserlang-user' => 'Gebruikersnaam:',
 	'wminc-viewuserlang-go' => 'OK',
 	'wminc-userdoesnotexist' => 'De gebruiker "$1" bestaat niet.',
+	'wminc-ip' => '"$1" is een IP-adres.',
 	'right-viewuserlang' => '[[Special:ViewUserLang|Gebruikerstaal en test wiki]] bekijken',
 	'group-test-sysop' => 'testwiki-beheerders',
 	'group-test-sysop-member' => 'testwiki-beheerder',
 	'grouppage-test-sysop' => 'Project:Testwiki-beheerders',
 	'wminc-code-macrolanguage' => 'De [[wikipedia:$2 language|taal "$3"]] is een [[wikipedia:nl:Macrotaal|macrotaal]], die bestaat uit de volgende talen:',
 	'wminc-code-collective' => 'De code "$1" verwijst niet naar een specifieke taal, maar naar een verzameling talen, namelijk de [[wikipedia:$2 language|"$3" talen.]]',
-	'wminc-code-retired' => 'Deze taal code is gewijzigd en verwijst niet langer naar de oorspronkelijke taal.',
+	'wminc-code-retired' => 'Deze taalcode is gewijzigd en verwijst niet meer naar de oorspronkelijke taal.',
+	'wminc-listusers-testwiki' => 'U bekijkt gebruikers die hun testwiki-instelling naar [[$1]] hebben gezet.',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -1945,6 +1953,7 @@ $messages['sl'] = array(
 	'wminc-viewuserlang-user' => 'Uporabniško ime:',
 	'wminc-viewuserlang-go' => 'Pojdi',
 	'wminc-userdoesnotexist' => 'Uporabnik »$1« ne obstaja.',
+	'wminc-ip' => '»$1« je IP-naslov.',
 	'right-viewuserlang' => 'Vpogled v [[Special:ViewUserLang|jezik in preizkusni wiki uporabnika]]',
 	'group-test-sysop' => 'Administratorji poskusnega wikija',
 	'group-test-sysop-member' => 'administrator poskusnega wikija',
@@ -1952,6 +1961,7 @@ $messages['sl'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Jezik »$3«]] je [[wikipedia:ISO 639 macrolanguage|makrojezik]], sestavljen iz naslednjih jezikovnih članov:',
 	'wminc-code-collective' => 'Koda »$1« se ne nanaša na določen jezik, ampak na skupino jezikov, in sicer [[wikipedia:$2 language|jeziki »$3«]].',
 	'wminc-code-retired' => 'Koda jezika je spremenjena in se več ne nanaša na izvirni jezik.',
+	'wminc-listusers-testwiki' => 'Ogledujete si uporabnike, ki so nastavili svojo nastavitev preizkusnega wikija na [[$1]].',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
