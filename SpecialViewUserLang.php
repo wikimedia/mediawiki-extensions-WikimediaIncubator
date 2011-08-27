@@ -84,7 +84,7 @@ class SpecialViewUserLang extends SpecialPage {
 		$userproject = $user->getOption( $wmincPref . '-project' );
 		$userproject = ( $userproject ? $userproject : 'none' );
 		$usercode = $user->getOption( $wmincPref . '-code' );
-		$prefix = IncubatorTest::displayPrefix( $userproject, $usercode );
+		$prefix = IncubatorTest::displayPrefix( $userproject, $usercode ? $usercode : 'none' );
 		if ( IncubatorTest::isContentProject( $userproject ) ) {
 			$testwiki = $linker->link( Title::newFromText( $prefix ) );
 		} elseif ( $prefix == $wmincProjectSite['short'] ) {

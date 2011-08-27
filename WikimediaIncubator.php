@@ -14,7 +14,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '4.3.1',
+	'version' => '4.3.2',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -64,8 +64,8 @@ $wgGroupPermissions['test-sysop']['deletedhistory'] = true;
 $wgGroupPermissions['test-sysop']['block'] = true;
 $wgGroupPermissions['test-sysop']['blockemail'] = true;
 $wgGroupPermissions['test-sysop']['rollback'] = true;
-$wgAddGroups['bureaucrat']['test-sysop'] = true;
-$wgRemoveGroups['bureaucrat']['test-sysop'] = true;
+$wgAddGroups['bureaucrat'][] = 'test-sysop';
+$wgRemoveGroups['bureaucrat'][] = 'test-sysop';
 
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 $wgExtensionAliasesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.alias.php';
