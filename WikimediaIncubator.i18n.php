@@ -67,8 +67,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'wminc-desc' => '{{desc}}',
-	'wminc-manual' => 'As in "handbook".',
-	'wminc-listwikis' => 'List of wikis that are in Wikimedia Incubator.',
+	'wminc-manual' => 'As in "handbook" (a page with a step-by-step guide).',
+	'wminc-listwikis' => 'List of wikis that are in Wikimedia Incubator. Please keep it short as it is used in the sidebar.',
 	'wminc-testwiki' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-testwiki-none' => "* Used on Special:Preferences when the user didn't select a test wiki preference (yet).
 * Used on Special:RecentChanges to show normal recent changes display.",
@@ -683,6 +683,7 @@ $messages['et'] = array(
  */
 $messages['eu'] = array(
 	'wminc-desc' => 'Wikimedia Incubatorrerako wiki proba sistema',
+	'wminc-manual' => 'Eskuliburua',
 	'wminc-testwiki' => 'Probazko wikia:',
 	'wminc-testwiki-none' => 'Bat ere ez/Guztiak',
 	'wminc-recentchanges-all' => 'Aldaketa berri guztiak',
@@ -825,24 +826,34 @@ $messages['gl'] = array(
 	'wminc-desc' => 'Sistema wiki de probas para a Incubadora da Wikimedia',
 	'wminc-manual' => 'Manual',
 	'wminc-listwikis' => 'Lista dos wikis',
-	'wminc-testwiki' => 'Wiki de proba:',
+	'wminc-testwiki' => 'Wiki de probas:',
 	'wminc-testwiki-none' => 'Ningún/Todos',
 	'wminc-recentchanges-all' => 'Todos os cambios recentes',
-	'wminc-prefinfo-language' => 'A súa lingua da interface (independente do seu wiki de proba)',
+	'wminc-prefinfo-language' => 'A súa lingua da interface (independente do seu wiki de probas)',
 	'wminc-prefinfo-code' => 'O código de lingua ISO 639',
 	'wminc-prefinfo-project' => 'Seleccione o proxecto Wikimedia (a opción da Incubadora é para os usuarios que fan traballo xeral)',
 	'wminc-prefinfo-error' => 'Escolleu un proxecto que precisa dun código de lingua.',
 	'wminc-error-move-unprefixed' => 'Erro: A páxina de destino [[{{MediaWiki:Helppage}}|non ten prefixo ou este é incorrecto]]!',
-	'wminc-error-wronglangcode' => "'''Erro:''' A páxina que intenta editar contén un [[{{MediaWiki:Helppage}}|código de lingua incorrecto]] (\"\$1\")!",
-	'wminc-error-unprefixed' => "'''Erro:''' A páxina que intenta editar non ten [[{{MediaWiki:Helppage}}|prefixo]]!",
-	'wminc-error-unprefixed-suggest' => "'''Erro:''' A páxina que intenta editar non ten [[{{MediaWiki:Helppage}}|prefixo]]! Pode crear unha páxina en \"[[:\$1]]\".",
-	'randombytest' => 'Páxina ao chou para o wiki de proba',
-	'randombytest-nopages' => 'O seu wiki de proba aínda non ten páxinas no espazo de nomes: $1.',
-	'wminc-viewuserlang' => 'Olle a lingua de usuario e o wiki de proba',
+	'wminc-error-wronglangcode' => "'''Erro:''' Esta páxina contén un [[{{MediaWiki:Helppage}}|código de lingua incorrecto]] (\"\$1\")!",
+	'wminc-error-unprefixed' => "'''Erro:''' Esta páxina non ten [[{{MediaWiki:Helppage}}|prefixo]]!",
+	'wminc-error-unprefixed-suggest' => "'''Erro:''' Esta páxina non ten [[{{MediaWiki:Helppage}}|prefixo]]! Pode crear unha páxina en \"[[:\$1]]\".",
+	'wminc-error-wiki-exists' => 'Este wiki xa existe. Pode atopar esta páxina en $1. Se o wiki é de recente creación, agarde unhas poucas horas ou días ata que remate a importación de todos os contidos.',
+	'wminc-error-wiki-sister' => 'Esta páxina pertence a un proxecto que non está aloxado aquí. Vaia a $1 para atopar o wiki.',
+	'randombytest' => 'Páxina ao chou para o wiki de probas',
+	'randombytest-nopages' => 'O seu wiki de probas aínda non ten páxinas no espazo de nomes: $1.',
+	'wminc-viewuserlang' => 'Olle a lingua de usuario e o wiki de probas',
 	'wminc-viewuserlang-user' => 'Nome de usuario:',
 	'wminc-viewuserlang-go' => 'Ir',
 	'wminc-userdoesnotexist' => 'O usuario "$1" non existe.',
+	'wminc-ip' => '"$1" é un enderezo IP.',
 	'right-viewuserlang' => 'Ver [[Special:ViewUserLang|a lingua do usuario e o wiki de probas]]',
+	'group-test-sysop' => 'Administradores do wiki de probas',
+	'group-test-sysop-member' => 'administrador do wiki de probas',
+	'grouppage-test-sysop' => 'Project:Administradores do wiki de probas',
+	'wminc-code-macrolanguage' => 'A [[wikipedia:$2 language|lingua "$3"]] é unha [[wikipedia:ISO 639 macrolanguage|macrolingua]], composta polas seguintes linguas:',
+	'wminc-code-collective' => 'O código "$1" non se refire a unha lingua específica, senón a un conxunto de linguas, en particular, as [[wikipedia:$2 language|linguas "$3"]].',
+	'wminc-code-retired' => 'Este código de lingua cambiou e xa non se refire á lingua orixinal.',
+	'wminc-listusers-testwiki' => 'Está ollando os usuarios que estableceron as súas preferencias do wiki de probas en [[$1]].',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -920,6 +931,7 @@ $messages['he'] = array(
 	'wminc-viewuserlang-user' => 'שם המשתמש:',
 	'wminc-viewuserlang-go' => 'הצגה',
 	'wminc-userdoesnotexist' => 'המשתמש "$1" אינו קיים.',
+	'wminc-ip' => '„$1” היא כתובת IP.',
 	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הניסיוני]]',
 	'group-test-sysop' => 'מפעילי ויקי לבדיקה',
 	'group-test-sysop-member' => 'מפעיל ויקי לבדיקה',
@@ -927,6 +939,7 @@ $messages['he'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|השפה "$3"]] היא [[wikipedia:ISO 639 macrolanguage|מקרו־שפה]], שמורכבת מהשפות הבאות:',
 	'wminc-code-collective' => 'הקוד "$1" לא מתייחס לשפה מסוימת, אלא לאוסף שפות, [[wikipedia:$2 language|"$3"]].',
 	'wminc-code-retired' => 'קוד השפה הזה השתנה וכבר אינו מתייחס לשפה המקורית.',
+	'wminc-listusers-testwiki' => 'זוהי רשימת משתמשים שבחרו ב־[[$1]] בתור ויקי הבדיקה שלהם.',
 );
 
 /** Hiligaynon (Ilonggo)
@@ -998,6 +1011,8 @@ $messages['hsb'] = array(
  */
 $messages['hu'] = array(
 	'wminc-desc' => 'Tesztwiki rendszer a Wikimédia Inkubátorhoz',
+	'wminc-manual' => 'Kézikönyv',
+	'wminc-listwikis' => 'Projektjeink listája',
 	'wminc-testwiki' => 'Tesztwiki:',
 	'wminc-testwiki-none' => 'Egyik sem/Mind',
 	'wminc-recentchanges-all' => 'Minden friss változtatás',
@@ -1418,6 +1433,7 @@ $messages['ml'] = array(
 	'wminc-viewuserlang-user' => 'ഉപയോക്തൃനാമം:',
 	'wminc-viewuserlang-go' => 'പോകൂ',
 	'wminc-userdoesnotexist' => '"$1" എന്ന ഉപയോക്താവ് നിലവിലില്ല.',
+	'wminc-ip' => '"$1" ഒരു ഐ.പി. വിലാസമാണ്.',
 	'right-viewuserlang' => '[[Special:ViewUserLang|ഉപയോക്തൃഭാഷയും പരീക്ഷണ വിക്കിയും]] കാണുക',
 	'group-test-sysop' => 'പരീക്ഷണവിക്കി കാര്യനിർവ്വാഹകർ',
 	'group-test-sysop-member' => 'പരീക്ഷണവിക്കി കാര്യനിർവ്വാഹക(ൻ)',
@@ -1425,6 +1441,7 @@ $messages['ml'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|"$3" എന്ന ഭാഷ]] ഒരു [[wikipedia:ISO 639 macrolanguage|ചെറുഭാഷയാണ്]], അത് ഉൾക്കൊള്ളുന്ന അംഗഭാഷകൾ ഇനി നൽകുന്നു:',
 	'wminc-code-collective' => '"$1" എന്ന കോഡ് ഒരു പ്രത്യേക ഭാഷയെ പ്രതിനിധീകരിക്കുന്നില്ല, മറിച്ച് [[wikipedia:$2 language|"$3" ഭാഷകൾ]] എന്ന ഒരു കൂട്ടം ഭാഷകളാണ്.',
 	'wminc-code-retired' => 'ഈ ഭാഷാ കോഡ് മാറിയിരിക്കുന്നു, യഥാർത്ഥ ഭാഷയെ അത് പ്രതിനിധീകരിക്കുന്നില്ല.',
+	'wminc-listusers-testwiki' => 'തങ്ങളുടെ പരീക്ഷണവിക്കി ക്രമീകരണങ്ങൾ [[$1]] ആയി സജ്ജീകരിച്ചിട്ടുള്ള ഉപയോക്താക്കളെയാണ് താങ്കൾ കാണുന്നത്.',
 );
 
 /** Mongolian (Монгол)
@@ -1796,6 +1813,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Alexandr Efremov
  * @author Ferrer
  * @author Kaganer
  * @author Kv75
@@ -1804,6 +1822,8 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'wminc-desc' => 'Пробная вики-система для Инкубатора Викимедиа',
+	'wminc-manual' => 'Руководство',
+	'wminc-listwikis' => 'список наших проектов',
 	'wminc-testwiki' => 'Пробная вики:',
 	'wminc-testwiki-none' => 'Нет/все',
 	'wminc-recentchanges-all' => 'Все недавние правки',
@@ -1812,19 +1832,26 @@ $messages['ru'] = array(
 	'wminc-prefinfo-project' => 'Выбор проекта Викимедиа (выберите Инкубатор, если занимаетесь общими вопросами)',
 	'wminc-prefinfo-error' => 'Вы выбрали проект, для которого необходимо указать код языка.',
 	'wminc-error-move-unprefixed' => 'Ошибка. Страница, в которую вы пытаетесь переименовать [[{{MediaWiki:Helppage}}|имеет ошибочный префикс или не имеет его вообще]]!',
-	'wminc-error-wronglangcode' => "''' Ошибка.''' Страница, которую вы пытаетесь отредактировать, содержит [[{{MediaWiki:Helppage}}|неправильный код языка]] «$1»!",
-	'wminc-error-unprefixed' => "''' Ошибка.''' Страница, которую вы пытаетесь отредактировать, [[{{MediaWiki:Helppage}}|не имеет префикса]]!",
-	'wminc-error-unprefixed-suggest' => "''' Ошибка.''' Страница, которую вы пытаетесь отредактировать, [[{{MediaWiki:Helppage}}|не имеет префикса]]! Вы можете создать страницу на [[:$1]].",
+	'wminc-error-wronglangcode' => "''' Ошибка.''' Страница содержит [[{{MediaWiki:Helppage}}|неправильный код языка]] «$1»!",
+	'wminc-error-unprefixed' => "''' Ошибка.''' Эта страница [[{{MediaWiki:Helppage}}|не имеет префикса]]!",
+	'wminc-error-unprefixed-suggest' => "'''Ошибка.''' Эта страница [[{{MediaWiki:Helppage}}|не имеет префикса]]! Вы можете создать страницу [[:$1]].",
+	'wminc-error-wiki-exists' => 'Эта вики уже существует. Вы можете найти эту страницу на $1. Если вики была создана недавно, пожалуйста, подождите несколько часов или дней, пока все содержимое импортируется.',
+	'wminc-error-wiki-sister' => 'Эта страница относится к проекту, который здесь не располагается. Пожалуйста, перейдите на $1 , чтобы найти вики.',
 	'randombytest' => 'Случайная страница пробной вики',
 	'randombytest-nopages' => 'В вашей пробной вики нет страниц в пространстве имён $1.',
 	'wminc-viewuserlang' => 'Поиск языковых настроек участника и его пробной вики',
 	'wminc-viewuserlang-user' => 'Имя участника:',
 	'wminc-viewuserlang-go' => 'Найти',
 	'wminc-userdoesnotexist' => 'Участник «$1» не существует',
+	'wminc-ip' => '«$1» не является IP-адресом.',
 	'right-viewuserlang' => 'просматривать [[Special:ViewUserLang|языковые настройки участника и его пробную вики]]',
 	'group-test-sysop' => 'Администраторы тестовой вики',
 	'group-test-sysop-member' => 'администратор тестовой вики',
 	'grouppage-test-sysop' => 'Project:Администраторы тестовой вики',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Язык «$3»]] считается [[wikipedia:ISO 639 macrolanguage|макроязыком]], состоящим из следующих языков:',
+	'wminc-code-collective' => 'Код «$1» относится не к конкретному языку, а к группе из нескольких языков, под общим названием [[wikipedia:$2 language|«$3»]].',
+	'wminc-code-retired' => 'Этот код языка был изменён и больше не ссылается на определённый язык.',
+	'wminc-listusers-testwiki' => 'Вы просматриваете участников, которые установили в настройку тестовой вики [[$1]].',
 );
 
 /** Rusyn (Русиньскый)
@@ -1844,6 +1871,12 @@ $messages['rue'] = array(
 	'wminc-viewuserlang-user' => 'Мено хоснователя:',
 	'wminc-viewuserlang-go' => 'Перейти',
 	'right-viewuserlang' => 'Відїти [[Special:ViewUserLang|языковы наставлиня хоснователя і його тестову вікі]]',
+);
+
+/** Sanskrit (संस्कृत) */
+$messages['sa'] = array(
+	'wminc-manual' => 'शास्त्र',
+	'wminc-listwikis' => 'विकयः सूचि',
 );
 
 /** Sakha (Саха тыла)
@@ -1962,6 +1995,11 @@ $messages['sl'] = array(
 	'wminc-code-collective' => 'Koda »$1« se ne nanaša na določen jezik, ampak na skupino jezikov, in sicer [[wikipedia:$2 language|jeziki »$3«]].',
 	'wminc-code-retired' => 'Koda jezika je spremenjena in se več ne nanaša na izvirni jezik.',
 	'wminc-listusers-testwiki' => 'Ogledujete si uporabnike, ki so nastavili svojo nastavitev preizkusnega wikija na [[$1]].',
+);
+
+/** Albanian (Shqip) */
+$messages['sq'] = array(
+	'wminc-listwikis' => 'Lista e projekteve',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
