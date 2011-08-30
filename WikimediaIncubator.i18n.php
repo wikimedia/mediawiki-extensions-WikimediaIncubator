@@ -760,6 +760,7 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Crochet.david
+ * @author Gomoko
  * @author IAlex
  * @author PieRRoMaN
  * @author Seb35
@@ -782,16 +783,22 @@ $messages['fr'] = array(
 	'wminc-error-unprefixed' => "'''Erreur :''' cette page n’a [[{{MediaWiki:Helppage}}|pas de préfixe]] !",
 	'wminc-error-unprefixed-suggest' => "'''Erreur :''' cette page n’a [[{{MediaWiki:Helppage}}|pas de préfixe]] ! Vous pouvez créer une page sur : [[:$1]].",
 	'wminc-error-wiki-exists' => 'Ce wiki existe déjà. Vous pouvez trouver cette page sur $1. Si le wiki a été récemment créé, veuillez attendre quelques heures ou jours afin que tout le contenu soit importé.',
+	'wminc-error-wiki-sister' => "Cette page appartient à un projet qui n'est pas hébergé ici. Merci d'aller en $1 pour trouver le wiki.",
 	'randombytest' => 'Page aléatoire par le wiki de test',
 	'randombytest-nopages' => 'Votre wiki de test ne contient pas de page dans l’espace de noms : $1.',
 	'wminc-viewuserlang' => 'Voir la langue de l’utilisateur et son wiki de test',
 	'wminc-viewuserlang-user' => 'Nom d’utilisateur :',
 	'wminc-viewuserlang-go' => 'Aller',
 	'wminc-userdoesnotexist' => "L'utilisateur « $1 » n'existe pas.",
+	'wminc-ip' => '"$1" est une adresse IP.',
 	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|la langue de l’utilisateur et le wiki de test]]',
+	'group-test-sysop' => 'Administrateurs du wiki de test',
+	'group-test-sysop-member' => 'administrateur du wiki de test',
+	'grouppage-test-sysop' => 'Administrateurs de Project:Test wiki',
 	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 language|langue « $3 »]] est une [[wikipedia:fr:macro-langue|macro-langue]], comprenant les langues suivantes :',
 	'wminc-code-collective' => 'Le code « $1 » ne se réfère pas à une langue spécifique, mais à une collection de langues, en particulier les [[wikipedia:$2 language|langues « $3 »]]',
 	'wminc-code-retired' => 'Ce code de langue a été changé est ne fait plus référence à la langue d’origine.',
+	'wminc-listusers-testwiki' => 'Vous êtes en train de visualiser les utilisateurs qui ont mis leur préférence de wiki de test à [[$1]].',
 );
 
 /** Franco-Provençal (Arpetan)
