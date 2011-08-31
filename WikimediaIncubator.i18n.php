@@ -794,7 +794,7 @@ $messages['fr'] = array(
 	'right-viewuserlang' => 'Voir [[Special:ViewUserLang|la langue de l’utilisateur et le wiki de test]]',
 	'group-test-sysop' => 'Administrateurs du wiki de test',
 	'group-test-sysop-member' => 'administrateur du wiki de test',
-	'grouppage-test-sysop' => 'Administrateurs de Project:Test wiki',
+	'grouppage-test-sysop' => 'Project:Test wiki - Administrateurs',
 	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 language|langue « $3 »]] est une [[wikipedia:fr:macro-langue|macro-langue]], comprenant les langues suivantes :',
 	'wminc-code-collective' => 'Le code « $1 » ne se réfère pas à une langue spécifique, mais à une collection de langues, en particulier les [[wikipedia:$2 language|langues « $3 »]]',
 	'wminc-code-retired' => 'Ce code de langue a été changé est ne fait plus référence à la langue d’origine.',
@@ -1487,6 +1487,7 @@ $messages['ms'] = array(
 	'wminc-viewuserlang-user' => 'Nama pengguna:',
 	'wminc-viewuserlang-go' => 'Pergi',
 	'wminc-userdoesnotexist' => 'Pengguna "$1" tidak wujud.',
+	'wminc-ip' => '"$1" ialah alamat IP.',
 	'right-viewuserlang' => 'Melihat [[Special:ViewUserLang|bahasa pengguna dan wiki ujian]]',
 	'group-test-sysop' => 'Pentadbir wiki ujian',
 	'group-test-sysop-member' => 'pentadir wiki ujian',
@@ -1494,6 +1495,7 @@ $messages['ms'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Bahasa "$3"]] ialah sejenis [[wikipedia:ISO 639 macrolanguage|bahasa makro]], yang terdiri daripada bahasa-bahasa ahli yang berikut:',
 	'wminc-code-collective' => 'Kod "$1" tidak merujuk kepada satu bahasa yang tertentu, sebaliknya merujuk kepada koleksi bahasa, iaitu [[wikipedia:$2 language|rumpun bahasa "$3"]].',
 	'wminc-code-retired' => 'Kod bahasa ini sudah berubah dan tidak lagi merujuk kepada bahasa asal.',
+	'wminc-listusers-testwiki' => 'Anda sedang melihat pengguna-pengguna yang menetapkan keutamaan wiki ujian mereka kepada [[$1]].',
 );
 
 /** Maltese (Malti)
@@ -2272,12 +2274,14 @@ $messages['vi'] = array(
 	'wminc-error-unprefixed' => "'''Lỗi:''' Trang này [[{{MediaWiki:Helppage}}|thiếu tiền tố]]!",
 	'wminc-error-unprefixed-suggest' => "'''Lỗi:''' Trang này [[{{MediaWiki:Helppage}}|thiếu tiền tố]]! Bạn có thể tạo trang tại “[[:$1]]” thay thế.",
 	'wminc-error-wiki-exists' => 'Wiki này đã tồn tại: bạn có thể truy cập trang tại $1. Nếu wiki mới được mở cửa gần đây, xin vui lòng chờ một vài giờ hoặc ngày cho đến khi tất cả nội dung được nhập xong.',
+	'wminc-error-wiki-sister' => 'Trang này trực thuộc một dự án không được bao gồm tại đây. Xin ghé vào wiki tại $1.',
 	'randombytest' => 'Trang ngẫu nhiên theo wiki thử',
 	'randombytest-nopages' => 'Không có trang này tại wiki thử của bạn trong không gian tên “$1”.',
 	'wminc-viewuserlang' => 'Ngôn ngữ và wiki thử của người dùng',
 	'wminc-viewuserlang-user' => 'Tên hiệu:',
 	'wminc-viewuserlang-go' => 'Xem',
 	'wminc-userdoesnotexist' => 'Thành viên “$1” không tồn tại.',
+	'wminc-ip' => '“$1” là một địa chỉ IP.',
 	'right-viewuserlang' => 'Xem [[Special:ViewUserLang|ngôn ngữ và wiki thử của người dùng]]',
 	'group-test-sysop' => 'Bảo quản viên tại wiki thử nghiệm',
 	'group-test-sysop-member' => 'bảo quản viên tại wiki thử nghiệm',
@@ -2285,6 +2289,7 @@ $messages['vi'] = array(
 	'wminc-code-macrolanguage' => '[[Wikipedia:$2 language|Tiếng “$3”]] là một [[Wikipedia:ISO 639 macrolanguage|ngôn ngữ vĩ mô]] bao gồm các ngôn ngữ này:',
 	'wminc-code-collective' => 'Mã “$1” không phải chỉ đến một ngôn ngữ riêng mà chỉ đến nhóm ngôn ngữ [[wikipedia:$2 language|tiếng “$3”]].',
 	'wminc-code-retired' => 'Mã ngôn ngữ này đã thay đổi và không còn chỉ đến ngôn ngữ ban đầu.',
+	'wminc-listusers-testwiki' => 'Đây là danh sách những thành viên đã đặt tùy chọn wiki thử nghiệm là [[$1]].',
 );
 
 /** Yiddish (ייִדיש)
