@@ -1140,22 +1140,38 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Aotake
  * @author Fryed-peach
+ * @author Marine-Blue
  * @author 青子守歌
  */
 $messages['ja'] = array(
 	'wminc-desc' => 'ウィキメディア・インキュベーター用の試験版ウィキシステム',
+	'wminc-manual' => 'マニュアル',
+	'wminc-listwikis' => 'ウィキの一覧',
 	'wminc-testwiki' => '試験版ウィキ:',
 	'wminc-testwiki-none' => 'なし/すべて',
+	'wminc-recentchanges-all' => '最近の更新をすべて表示',
 	'wminc-prefinfo-language' => 'あなたのインタフェース言語 (あなたの試験版ウィキとは独立しています)',
 	'wminc-prefinfo-code' => 'ISO 639 言語コード',
 	'wminc-prefinfo-project' => 'ウィキメディア・プロジェクトを選択する (「Incubator」オプションは全般的な作業を行う利用者のためのものです)',
 	'wminc-prefinfo-error' => 'あなたが選択したプロジェクトは言語コードが必要です。',
+	'wminc-error-move-unprefixed' => 'エラー: あなたが移動しようとしているページは[[{{MediaWiki:Helppage}}|接頭辞を誤っています]]!',
+	'wminc-error-wronglangcode' => 'エラー: このページには[[{{MediaWiki:Helppage}}|正しくない言語コード]] 「$1」が含まれています。',
+	'wminc-error-unprefixed' => "'''エラー:''' このページには[[{{MediaWiki:Helppage}}|接頭辞がありません]]!",
+	'wminc-error-unprefixed-suggest' => "'''エラー:''' このページには[[{{MediaWiki:Helppage}}|接頭辞がありません]]! [[:$1]]というページ名で作成することができます。",
+	'wminc-error-wiki-exists' => '指定されたWikiは既に作成されています。この項目は $1 にあります。Wikiが最近作成されたばかりの場合は、インポートが行われるまで数時間から数日間お待ちください。',
+	'wminc-error-wiki-sister' => 'このページはここでホストされていないプロジェクトのページです。$1 でWikiをお探しください。',
 	'randombytest' => '試験版ウィキによるおまかせ表示',
 	'randombytest-nopages' => 'あなたの試験版ウィキには名前空間 $1 にページがありません。',
 	'wminc-viewuserlang' => '利用者の言語と試験版ウィキを探す',
 	'wminc-viewuserlang-user' => '利用者名：',
 	'wminc-viewuserlang-go' => '表示',
+	'wminc-userdoesnotexist' => '利用者アカウント「$1」は存在しません。',
+	'wminc-ip' => '「$1」はIPアドレスです。',
 	'right-viewuserlang' => '[[Special:ViewUserLang|利用者言語と試験版ウィキ]]を見る',
+	'group-test-sysop' => '試験版Wiki管理者',
+	'group-test-sysop-member' => '試験版Wiki管理者',
+	'grouppage-test-sysop' => 'Project:試験版Wikiの管理者',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|$3語]]は[[wikipedia:ISO 639 macrolanguage|マクロランゲージ]]で、以下に挙げた言語グループに属しています。',
 );
 
 /** Javanese (Basa Jawa)
@@ -1327,17 +1343,26 @@ $messages['li'] = array(
  */
 $messages['lt'] = array(
 	'wminc-desc' => 'Wiki testasvimo sistema Vikimedija Inkubatoriui',
+	'wminc-listwikis' => 'Wiki, sąrašas',
 	'wminc-testwiki' => 'Testavimo wiki:',
 	'wminc-testwiki-none' => 'Nei vienas/Visi',
+	'wminc-recentchanges-all' => 'Visi naujausi pakeitimai',
 	'wminc-prefinfo-language' => 'Jūsų sąsajos kalba - nepriklausomai nuo jūsų testavimo wiki',
 	'wminc-prefinfo-code' => 'ISO 639 kalbos kodas',
 	'wminc-prefinfo-error' => 'Jūs pasirinkote projektą, kuriam reikia kalbos kodo.',
+	'wminc-error-wiki-sister' => 'Šis puslapis priklauso projektui, kuris nepatalpintas čia. Prašome grįžti į $1 , kad rasti wiki .',
 	'randombytest' => 'Atsitiktinis puslapis iš testavimo wiki',
 	'wminc-viewuserlang' => 'Ieškoti vartotojo kalbos ir testavimo wiki',
 	'wminc-viewuserlang-user' => 'Naudotojo vardas:',
 	'wminc-viewuserlang-go' => 'Eiti',
 	'wminc-userdoesnotexist' => 'Vartotojas " $1 "neegzistuoja.',
+	'wminc-ip' => '" $1 " yra IP adresas.',
 	'right-viewuserlang' => 'Žiūrėti [[Special:ViewUserLang|naudotojo kalbą ir testavimo wiki]]',
+	'group-test-sysop' => 'Bandyti wiki administratorius',
+	'group-test-sysop-member' => 'bandyti wiki administratorių',
+	'grouppage-test-sysop' => 'Projektas: Test wiki administrators',
+	'wminc-code-retired' => 'Šios kalbos kodas buvo pakeistas ir nebėra nuoroda į originalo kalba.',
+	'wminc-listusers-testwiki' => 'Jūs matote naudotojams, kurie nustatė bandymo Wiki pirmenybę [[ $1 ]].',
 );
 
 /** Latvian (Latviešu)

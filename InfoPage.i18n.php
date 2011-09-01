@@ -472,6 +472,7 @@ $messages['vi'] = array(
 	'wminc-infopage-welcome' => 'Hoan nghênh bạn đến với Wikimedia Incubator, một dự án của Quỹ Wikimedia ([[{{MediaWiki:Aboutpage}}|Giới thiệu]])',
 	'wminc-infopage-missingwiki-text' => '$1 chưa có sẵn trong ngôn ngữ này.',
 	'wminc-infopage-option-startwiki' => 'Nếu bạn muốn bắt đầu xây dựng wiki này, [{{fullurl:{{FULLPAGENAME}}|action=edit}} tạo ra trang này] và thực hiện theo [[{{MediaWiki:Wminc-manual-url}}|sách hướng dẫn của chúng ta]].',
+	'wminc-infopage-option-startsister' => 'Để bắt đầu wiki này, hãy ghé vào <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Bạn có thể tìm kiếm [http://www.$1.org phiên bản ngôn ngữ hiện có của $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Bạn có thể tìm kiếm các dự án hiện có trong ngôn ngữ này:',
 	'wminc-infopage-option-sisterprojects-other' => 'Bạn có thể tìm kiếm các dự án khác dùng ngôn ngữ này:',
@@ -479,6 +480,7 @@ $messages['vi'] = array(
 	'wminc-infopage-createmainpage' => 'Nhập từ “Trang Chính” trong ngôn ngữ này:',
 	'wminc-infopage-contribute' => 'Nếu bạn biết ngôn ngữ này, rất hoan nghênh bạn đóng góp cho nó!',
 	'wminc-infopage-status-imported' => 'Wiki Incubator này đã được nhập từ $1 sau khi wiki đó bị đóng cửa.',
+	'wminc-infopage-status-closedsister' => 'Tên miền phụ này đã bị đóng cửa. Hãy ghé vào <b>$2</b> để đóng góp vào wiki này.',
 	'wminc-infopage-status-created' => 'Dự án đã được ủy ban ngôn ngữ chấp thuận và hiện có sẵn tại $1.',
 	'wminc-infopage-status-beforeincubator' => 'Dự án này được tạo trước khi Wikimedia Incubator mở cửa và hiện có sẵn tại $1.',
 );
