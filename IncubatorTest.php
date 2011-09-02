@@ -382,12 +382,9 @@ class IncubatorTest {
 	 * @return Array with language names
 	 */
 	static public function getLanguageNames( $code = null ) {
-		if ( is_callable( array( 'Language', 'getTranslatedLanguageNames' ) ) ) {
-			global $wgLang;
-			$langcode = ( $code ? $code : $wgLang->getCode() );
-			return Language::getTranslatedLanguageNames( $langcode );
-		}
-		return Language::getLanguageNames( false );
+		global $wgLang;
+		$langcode = ( $code ? $code : $wgLang->getCode() );
+		return Language::getTranslatedLanguageNames( $langcode );
 	}
 
 	/**

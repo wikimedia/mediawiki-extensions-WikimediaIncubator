@@ -5,6 +5,8 @@ if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWik
  * for a test wiki system (i.e. incubated wikis inside one actual wiki)
  * mainly intended for the Wikimedia Incubator
  *
+ * MediaWiki 1.18 or higher required
+ *
  * @file
  * @ingroup Extensions
  * @author Robin Pepermans (SPQRobin)
@@ -143,9 +145,7 @@ $wgHooks['BeforePageDisplay'][] = 'IncubatorTest::fnTestWikiLogo';
 $wgHooks['PageContentLanguage'][] = 'IncubatorTest::onPageContentLanguage';
 
 /* List of users */
-if( version_compare( $wgVersion, '1.17', '>' ) ) { # doesn't work below 1.18
-	$wgAutoloadClasses['ListUsersTestWiki'] = $dir . 'ListUsersTestWiki.php';
-	$wgHooks['SpecialListusersHeaderForm'][] = 'ListUsersTestWiki::onSpecialListusersHeaderForm';
-	$wgHooks['SpecialListusersQueryInfo'][] = 'ListUsersTestWiki::onSpecialListusersQueryInfo';
-	$wgHooks['SpecialListusersHeader'][] = 'ListUsersTestWiki::onSpecialListusersHeader';
-}
+$wgAutoloadClasses['ListUsersTestWiki'] = $dir . 'ListUsersTestWiki.php';
+$wgHooks['SpecialListusersHeaderForm'][] = 'ListUsersTestWiki::onSpecialListusersHeaderForm';
+$wgHooks['SpecialListusersQueryInfo'][] = 'ListUsersTestWiki::onSpecialListusersQueryInfo';
+$wgHooks['SpecialListusersHeader'][] = 'ListUsersTestWiki::onSpecialListusersHeader';
