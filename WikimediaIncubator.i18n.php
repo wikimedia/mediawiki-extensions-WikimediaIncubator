@@ -45,7 +45,7 @@ $messages['en'] = array(
 	'wminc-ip' => '"$1" is an IP address.',
 
 	# User groups
-	'right-viewuserlang' => 'View [[Special:ViewUserLang|user language and test wiki]]',
+	'right-viewuserlang' => 'View user language and test wiki',
 	'group-test-sysop' => 'Test wiki administrators',
 	'group-test-sysop-member' => 'test wiki administrator',
 	'grouppage-test-sysop' => 'Project:Test wiki administrators',
@@ -56,7 +56,7 @@ $messages['en'] = array(
 	'wminc-code-retired' => 'This language code has been changed and no longer refers to the original language.',
 
 	# Special:ListUsers
-	'wminc-listusers-testwiki' => 'You are viewing users who have set their test wiki preference to [[$1]].',
+	'wminc-listusers-testwiki' => 'You are viewing users who have set their test wiki preference to $1.',
 );
 
 /** Message documentation (Message documentation)

@@ -50,6 +50,6 @@ ul.wminc-infopage-otherprojects, ul.wminc-infopage-multilingualprojects {
 #ca-nstab-main a {
 	color: black;
 }
-.subpages {
-	display: none;
+span.subpages {
+	display: none !important;
 }
