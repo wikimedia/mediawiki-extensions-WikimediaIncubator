@@ -379,16 +379,13 @@ class IncubatorTest {
 
 	/**
 	 * This loads language names. Also from CLDR if that extension is found.
-	 * @return Array with language names or empty array
+	 * @return Array with language names
 	 */
-	static public function getLanguageNames( $code = '' ) {
-		if ( is_callable( array( 'LanguageNames', 'getNames' ) ) ) {
+	static public function getLanguageNames( $code = null ) {
+		if ( is_callable( array( 'Language', 'getTranslatedLanguageNames' ) ) ) {
 			global $wgLang;
 			$langcode = ( $code ? $code : $wgLang->getCode() );
-			return LanguageNames::getNames( $langcode,
-				LanguageNames::FALLBACK_NORMAL,
-				LanguageNames::LIST_MW_AND_CLDR
-			);
+			return Language::getTranslatedLanguageNames( $langcode );
 		}
 		return Language::getLanguageNames( false );
 	}
