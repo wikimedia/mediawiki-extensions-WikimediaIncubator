@@ -145,8 +145,11 @@ $messages['ace'] = array(
  */
 $messages['af'] = array(
 	'wminc-desc' => 'Toets wiki-stelsel vir die Wikipedia Inkubator',
+	'wminc-manual' => 'Handleiding',
+	'wminc-listwikis' => "Lys van wiki's",
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Geen/alles',
+	'wminc-recentchanges-all' => 'Alle onlangse veranderings',
 	'wminc-prefinfo-language' => 'U koppelvlaktaal - onafhanklik van u toetswiki',
 	'wminc-prefinfo-code' => 'Die ISO 639-taalkode',
 	'wminc-prefinfo-project' => 'Kies die Wikimedia-projek (Inkubator-opsie is vir gebruikers wat nie algemeen werk doen nie)',
@@ -202,21 +205,40 @@ $messages['anp'] = array(
  * @author Meno25
  * @author Orango
  * @author OsamaK
+ * @author زكريا
  */
 $messages['ar'] = array(
 	'wminc-desc' => 'جرّب نظام الويكي لحضانة ويكيميديا',
+	'wminc-manual' => 'دليل',
+	'wminc-listwikis' => 'قائمة الويكيات',
 	'wminc-testwiki' => 'ويكي الاختبار:',
 	'wminc-testwiki-none' => 'لا شيء/الكل',
+	'wminc-recentchanges-all' => 'كل التغييرات الحديثة',
 	'wminc-prefinfo-language' => 'لغة واجهتك - مستقلة عن ويكي الاختبار',
 	'wminc-prefinfo-code' => 'رمز ISO 639 للغة',
 	'wminc-prefinfo-project' => 'إختر مشروع ويكيميديا (خيار الحضانة هو للمستخدمين الذين يقومون بعمل عام)',
 	'wminc-prefinfo-error' => 'اخترت مشروعًا يختاج رمز لغة.',
+	'wminc-error-move-unprefixed' => 'خطأ: الصفحة التي تحاول نقلها هي [[{{MediaWiki:Helppage}}|بلا بادئة أو ببادئة خاطئة]]!',
+	'wminc-error-wronglangcode' => "'''خطأ:''' هذه الصفحة فيها [[{{MediaWiki:Helppage}}|رمز لغة خاطئ]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''خطأ:''' هذه الصفحة [[{{MediaWiki:Helppage}}|بلا بادئة]]!",
+	'wminc-error-unprefixed-suggest' => "'''خطأ:''' هذه الصفحة [[{{MediaWiki:Helppage}}|بلا بادئة]]! يمكنك إنشاء صفحة في [[:$1]].",
+	'wminc-error-wiki-exists' => 'هذا الويكي موجود بالفعل. يمكن إيجاد هذه الصفحة في $1. إذا كان الويكي قد أنشئ حديثا فانتظر لبضع ساعات أو أيام ريثما ينقل محتواه.',
+	'wminc-error-wiki-sister' => 'الصفحة من مشروع ليس من المشاريع الموجودة هنا. اطلب $1 لإيجاد الويكي.',
 	'randombytest' => 'صفحة عشوائية بواسطة ويكي الاختبار',
 	'randombytest-nopages' => 'لا توجد صفحات في ويكي الاختبار الخاص بك، في النطاق: $1.',
 	'wminc-viewuserlang' => 'أوجد لغة المستخدم و جرّب الويكي',
 	'wminc-viewuserlang-user' => 'اسم المستخدم:',
 	'wminc-viewuserlang-go' => 'اذهب',
+	'wminc-userdoesnotexist' => 'المستخدم "$1" لا يوجد',
+	'wminc-ip' => '"$1" عنوان بروتوكول إنترنت.',
 	'right-viewuserlang' => 'رؤية [[Special:ViewUserLang|لغة وويكي الاختبار الخاص بالمستخدم]]',
+	'group-test-sysop' => 'إداريو ويكي التجربة',
+	'group-test-sysop-member' => 'إداري ويكي التجربة',
+	'grouppage-test-sysop' => 'Project:إداريون ويكي التجربة',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|اللغة "$3"]] [[wikipedia:ISO 639 macrolanguage|لغة كبرى]]، تشمل اللغات الصغرى التالية:',
+	'wminc-code-collective' => 'رمز "$1" لا يدل على لغة معينة، بل على مجموعة من اللغات، وهي [[wikipedia:$2 language|اللغات "$3"]].',
+	'wminc-code-retired' => 'رمز اللغة قد تغير أو لم يعد يرمز به إلى اللغة الأصلية.',
+	'wminc-listusers-testwiki' => 'ما تراه هو المستخدمون الذي عينوا تفضيل ويكي التجربة على [[$1]]',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -726,6 +748,7 @@ $messages['fa'] = array(
 	'wminc-viewuserlang-user' => 'نام کاربری:',
 	'wminc-viewuserlang-go' => 'برو',
 	'wminc-userdoesnotexist' => 'کاربر «$1» وجود ندارد.',
+	'wminc-ip' => '«$1» یک نشانی آی‌پی است.',
 	'right-viewuserlang' => 'مشاهده [[Special:ViewUserLang|زبان و ویکی آزمایشی کاربر]]',
 	'group-test-sysop' => 'مدیران ویکی آزمایشی',
 	'group-test-sysop-member' => 'مدیر ویکی آزمایشی',
@@ -822,7 +845,11 @@ $messages['frp'] = array(
 	'wminc-viewuserlang-user' => 'Nom d’utilisator :',
 	'wminc-viewuserlang-go' => 'Alar trovar',
 	'wminc-userdoesnotexist' => 'L’utilisator « $1 » ègziste pas.',
+	'wminc-ip' => '« $1 » est una adrèce IP.',
 	'right-viewuserlang' => 'Vêre la [[Special:ViewUserLang|lengoua a l’utilisator et lo vouiqui d’èprôva]]',
+	'group-test-sysop' => 'Administrators du vouiqui d’èprôva',
+	'group-test-sysop-member' => 'Administrator du vouiqui d’èprôva',
+	'grouppage-test-sysop' => 'Project:Administrators du vouiqui d’èprôva',
 	'wminc-code-retired' => 'Ceti code lengoua at étâ changiê et fât pas més refèrence a la lengoua d’origina.',
 );
 
@@ -1816,14 +1843,32 @@ $messages['pt-br'] = array(
  */
 $messages['ro'] = array(
 	'wminc-desc' => 'Sistemul wiki de testare pentru Wikimedia Incubator',
+	'wminc-manual' => 'Manual de utilizare',
+	'wminc-listwikis' => 'Listă de wikiuri',
 	'wminc-testwiki' => 'Wikia test:',
 	'wminc-testwiki-none' => 'Niciunul/Toți',
+	'wminc-recentchanges-all' => 'Toate modificările recente',
 	'wminc-prefinfo-language' => 'Limba interfeței dumneavoastră - independentă de wikia test',
 	'wminc-prefinfo-code' => 'Limbajul cod ISO 639',
+	'wminc-prefinfo-project' => 'Selectați proiectul Wikimedia (opțiunea Incubator este pentru utilizatori care fac muncă generală)',
 	'wminc-prefinfo-error' => 'Ați selectat un proiect care are nevoie de un cod al limbajului.',
+	'wminc-error-move-unprefixed' => 'Eroare: Pagina pe care încercați să o mutați [[{{MediaWiki:Helppage}}|este fără prefix sau are un prefix greșit]]!',
+	'wminc-error-wronglangcode' => "'''Eroare:''' Această pagină conține un [[{{MediaWiki:Helppage}}|cod de limbă greșit]] „$1”!",
+	'wminc-error-unprefixed' => "'''Eroare:''' Această pagină este [[{{MediaWiki:Helppage}}|fără prefix]]!",
+	'wminc-error-unprefixed-suggest' => "'''Eroare:''' Această pagină este [[{{MediaWiki:Helppage}}|fără prefix]]! Puteți crea o pagină la [[:$1]].",
+	'wminc-error-wiki-exists' => 'Acest wiki există deja. Puteți găsi această pagină pe $1. Dacă acest wiki a fost creat recent, așteptați câteva ore sau zile până când tot conținutul este importat.',
+	'wminc-error-wiki-sister' => 'Această pagină aparține unui proiect care nu este găzduit aici. Mergeți la $1 pentru a găsi wikiul.',
+	'randombytest' => 'Pagina aleatorie de wiki de încercare',
+	'randombytest-nopages' => 'Nu există pagini în acest wiki de încercare, în spațiul de nume: $1.',
+	'wminc-viewuserlang' => 'Căutare limba utilizatorului și wikiul de test',
 	'wminc-viewuserlang-user' => 'Nume de utilizator:',
 	'wminc-viewuserlang-go' => 'Du-te',
+	'wminc-userdoesnotexist' => 'Utilizatorul „$1” nu există.',
+	'wminc-ip' => '„$1” este o adresă IP.',
 	'right-viewuserlang' => 'Vizualizează [[Special:ViewUserLang|limba utilizatorului și wikia test]]',
+	'group-test-sysop' => 'Administratori wiki de încercare',
+	'group-test-sysop-member' => 'administrator wiki de încercare',
+	'grouppage-test-sysop' => 'Project:Administratori wiki de încercare',
 );
 
 /** Tarandíne (Tarandíne)

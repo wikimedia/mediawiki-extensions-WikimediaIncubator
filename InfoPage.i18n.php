@@ -215,7 +215,7 @@ $messages['fr'] = array(
 	'wminc-infopage-status-imported' => 'Ce wiki Incubateur a été importé depuis $1 après que le wiki ait été fermé.',
 	'wminc-infopage-status-closedsister' => 'Ce sous-domaine a été fermé. Veuillez vous rendre sur <b>$2</b> pour contribuer à ce wiki.',
 	'wminc-infopage-status-created' => 'Ce projet a été approuvé par le comité linguistique et est maintenant disponible sur $1.',
-	'wminc-infopage-status-beforeincubator' => 'Ce projet a été créé après que l’Incubateur Wikimedia ait été lancé et est disponible sur $1.',
+	'wminc-infopage-status-beforeincubator' => 'Ce projet a été créé avant que l’Incubateur Wikimedia ait été lancé et est disponible sur $1.',
 );
 
 /** Franco-Provençal (Arpetan)
