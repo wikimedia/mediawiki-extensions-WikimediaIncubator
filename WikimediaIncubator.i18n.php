@@ -62,6 +62,7 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
  * @author Fryed-peach
+ * @author Nike
  * @author Purodha
  * @author SPQRobin
  */
@@ -91,7 +92,7 @@ $messages['qqq'] = array(
 
 {{Identical|Go}}",
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}
-The message says (in the long form): "The ability to view the language and test wiki of a user". A user can set his language and test wiki through Special:Preferences.',
+The message says (in the long form): (This group has) "The ability to view the language and test wiki of a user". A user can set his language and test wiki through Special:Preferences.',
 	'group-test-sysop' => 'Name of the group of administrators of a specific test wiki on the Wikimedia Incubator.',
 	'group-test-sysop-member' => 'An administrator of a specific test wiki on the Wikimedia Incubator.',
 	'grouppage-test-sysop' => 'Do not change the "Project:" part!',
@@ -103,7 +104,7 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 * '''$2''' is the language name in English
 * '''$3''' is the translated language name from CLDR, if available (otherwise, English) 
 It is best '''not''' to change the link to the Wikipedia article about the language.",
-	'wminc-listusers-testwiki' => 'Used on [[Special:ListUsers]]. $1 is of the format "Wx/xyz".',
+	'wminc-listusers-testwiki' => 'Used on [[Special:ListUsers]]. $1 is either "Incubator" or a link to pages like "Wx/xyz".',
 );
 
 /** Adyghe (Cyrillic) ()
@@ -645,13 +646,20 @@ $messages['el'] = array(
  */
 $messages['eo'] = array(
 	'wminc-desc' => 'Testa vikisistemo por Wikimedia-Inkubatoro',
+	'wminc-manual' => 'Manlibro',
 	'wminc-listwikis' => 'Listo de vikioj',
 	'wminc-testwiki' => 'Prova vikio:',
 	'wminc-testwiki-none' => 'Nenio/Ĉio',
 	'wminc-recentchanges-all' => 'Ĉiuj lastatempaj ŝanĝoj',
 	'wminc-prefinfo-language' => 'Via interfaca lingvo - sendepende de via prova vikio',
 	'wminc-prefinfo-code' => 'La lingvo kodo ISO 639',
+	'wminc-prefinfo-project' => 'Elektu la Wikimedia-projekton (Kovejo elekto estas por uzantoj kiuj faras ĝeneralan laboron)',
 	'wminc-prefinfo-error' => 'Vi elektis projekton kiu bezonas lingvan kodon.',
+	'wminc-error-move-unprefixed' => 'Eraro: La paĝo kiun vi provas aliri [[{{MediaWiki:Helppage}}|estas senprefiksa aŭ havas malĝustan prefikson]]!',
+	'wminc-error-wronglangcode' => "'''Eraro:''' Ĉi tiu paĝo enhavas [[{{MediaWiki:Helppage}}|malĝustan lingvokodon]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Eraro:''' Ĉi tiu paĝo estas [[{{MediaWiki:Helppage}}|senprefiksa]]!",
+	'wminc-error-unprefixed-suggest' => "'''Eraro:''' Ĉi tiu paĝo estas [[{{MediaWiki:Helppage}}|senprefiksa]]! Vi povas krei paĝon ĉe [[:$1]].",
+	'wminc-error-wiki-exists' => 'Ĉi tiu vikio jam ekzistas. Vi povas trovi ĉi tiun paĝon en $1. Se la vikio estis lastatempe kreita, bonvolu atendi kelkajn horojn aŭ tagojn ĝis ĉiuj datenoj estas importitaj.',
 	'randombytest' => 'Hazarda paĝo de testvikio',
 	'randombytest-nopages' => 'Mankas paĝoj en via testvikio en la nomspaco: $1.',
 	'wminc-viewuserlang' => 'Trarigardi uzulan lingvon kaj testi vikion',
@@ -660,6 +668,12 @@ $messages['eo'] = array(
 	'wminc-userdoesnotexist' => 'La uzanto "$1" ne ekzistas.',
 	'wminc-ip' => '"$1" estas IP-adreso.',
 	'right-viewuserlang' => 'Vidi uzulan lingvon kaj testvikion',
+	'group-test-sysop' => 'Administrantoj de la test vikio',
+	'group-test-sysop-member' => 'administranto de la testa vikio',
+	'grouppage-test-sysop' => 'Project:Test wiki - Administrantoj de la testa vikio',
+	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 lingvo|lingvo "$3"]] estas [[wikipedia:ISO 639 makrolingvo|makrolingvo]], enhavanta la jenajn membraj lingvoj:',
+	'wminc-code-collective' => 'La lingvo-kodo "$1" ne referencas specifan lingvo, sed aro da lingvoj, ĉefe la [[wikipedia:$2 language|"$3" lingvoj]].',
+	'wminc-listusers-testwiki' => 'Vi rigardas uzantojn kiu agordas vikian preferon al $1.',
 );
 
 /** Spanish (Español)
@@ -1421,7 +1435,7 @@ $messages['lt'] = array(
 	'group-test-sysop-member' => 'bandyti wiki administratorių',
 	'grouppage-test-sysop' => 'Projektas: Test wiki administrators',
 	'wminc-code-retired' => 'Šios kalbos kodas buvo pakeistas ir nebėra nuoroda į originalo kalba.',
-	'wminc-listusers-testwiki' => 'Jūs matote naudotojams, kurie nustatė bandymo Wiki pirmenybę [[ $1 ]].',
+	'wminc-listusers-testwiki' => 'Jūs matote naudotojams, kurie nustatė bandymo Wiki pirmenybę $1.',
 );
 
 /** Latvian (Latviešu)
@@ -1748,6 +1762,7 @@ $messages['pl'] = array(
 	'wminc-viewuserlang-user' => 'Nazwa użytkownika',
 	'wminc-viewuserlang-go' => 'Pokaż',
 	'wminc-userdoesnotexist' => 'Użytkownik „$1” nie istnieje.',
+	'wminc-ip' => '„$1“ to adres IP.',
 	'right-viewuserlang' => 'Podgląd języka użytkownika oraz testowej wiki',
 	'group-test-sysop' => 'Administratorzy testowej wiki',
 	'group-test-sysop-member' => 'administrator testowej wiki',
@@ -1755,6 +1770,7 @@ $messages['pl'] = array(
 	'wminc-code-macrolanguage' => '[[Wikipedia:$2 language|Język $3]] jest [[wikipedia:ISO 639 macrolanguage|makrojęzykiem]], zawierającym następujące warianty języka:',
 	'wminc-code-collective' => 'Kod „$1“ nie odnosi się do jednego języka, a do kolekcji języków – [[wikipedia:$2 language|$3]].',
 	'wminc-code-retired' => 'Ten kod języka został zmieniony i nie odnosi się do wcześniej przypisanego mu języka.',
+	'wminc-listusers-testwiki' => 'Przeglądasz użytkowników, którzy ustawili w swoich preferencjach testową wiki na $1.',
 );
 
 /** Piedmontese (Piemontèis)
@@ -1875,6 +1891,7 @@ $messages['pt-br'] = array(
  * @author Emily
  * @author Firilacroco
  * @author KlaudiuMihaila
+ * @author Minisarm
  */
 $messages['ro'] = array(
 	'wminc-desc' => 'Sistemul wiki de testare pentru Wikimedia Incubator',
@@ -1900,7 +1917,7 @@ $messages['ro'] = array(
 	'wminc-viewuserlang-go' => 'Du-te',
 	'wminc-userdoesnotexist' => 'Utilizatorul „$1” nu există.',
 	'wminc-ip' => '„$1” este o adresă IP.',
-	'right-viewuserlang' => 'Vizualizează limba utilizatorului și wikia test',
+	'right-viewuserlang' => 'Vizualizează limba utilizatorului și testează wikiul',
 	'group-test-sysop' => 'Administratori wiki de încercare',
 	'group-test-sysop-member' => 'administrator wiki de încercare',
 	'grouppage-test-sysop' => 'Project:Administratori wiki de încercare',
@@ -1974,6 +1991,7 @@ $messages['ru'] = array(
  */
 $messages['rue'] = array(
 	'wminc-desc' => 'Тестова вікі про Інкубатор Вікімедіа',
+	'wminc-listwikis' => 'Список вікіпроєктів',
 	'wminc-testwiki' => 'Вікі про тестованя:',
 	'wminc-testwiki-none' => 'Ніч/Вшытко',
 	'wminc-prefinfo-language' => 'Ваш язык інтерфейсу не залежыть од языка тестовой вікі',
@@ -1986,6 +2004,10 @@ $messages['rue'] = array(
 	'wminc-viewuserlang-user' => 'Мено хоснователя:',
 	'wminc-viewuserlang-go' => 'Перейти',
 	'right-viewuserlang' => 'Відїти языковы наставлиня хоснователя і його тестову вікі',
+	'group-test-sysop' => 'Адміністраторы тестовой вікі',
+	'group-test-sysop-member' => 'Адміністратор тестовой вікі',
+	'grouppage-test-sysop' => 'Project:Адміністраторытестовой вікі',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|"$3" язык]] є [[wikipedia:ISO 639 macrolanguage|макроязыком]], што ся складать з наступных языків:',
 );
 
 /** Sanskrit (संस्कृत) */
@@ -2154,9 +2176,12 @@ $messages['su'] = array(
  * @author Najami
  * @author Ozp
  * @author Poxnar
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'wminc-desc' => 'Testwikisystem för Wikimedia Incubator',
+	'wminc-manual' => 'Manuell',
+	'wminc-listwikis' => 'Lista över wikier',
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-none' => 'Ingen/Alla',
 	'wminc-recentchanges-all' => 'Alla de senaste ändringarna',
@@ -2164,13 +2189,27 @@ $messages['sv'] = array(
 	'wminc-prefinfo-code' => 'ISO 639-språkkoden',
 	'wminc-prefinfo-project' => 'Välj Wikimediaprojekt (alternativet Incubator för användare som gör allmänt arbete)',
 	'wminc-prefinfo-error' => 'Du valde ett projekt som kräver en språkkod.',
+	'wminc-error-move-unprefixed' => 'Fel: Sidan du försöker flytta [[{{MediaWiki:Helppage}}|är oprefigerad eller har ett felaktigt prefix]]!',
+	'wminc-error-wronglangcode' => "'''Fel:''' Denna sida innehåller ett [[{{MediaWiki:Helppage}}|felaktig språkkod]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Fel:''' Denna sida är [[{{MediaWiki:Helppage}}|oprefigerad]]!",
+	'wminc-error-unprefixed-suggest' => "'''Fel:''' Denna sida är [[{{MediaWiki:Helppage}}|oprefigerad]]! Du kan skapa en sida på [[:$1]].",
+	'wminc-error-wiki-exists' => 'Denna wiki finns redan. Du hittar denna sida på $1. Om wikin har nyligen skapats, vänta några timmar eller dagar tills allt innehåll har importerats.',
+	'wminc-error-wiki-sister' => 'Denna sida tillhör ett projekt som inte finns här. Gå till $1 att hitta wikin.',
 	'randombytest' => 'Slumpvis sida från testwiki',
 	'randombytest-nopages' => 'Det finns inga sidor i din textwiki, i namnrymden: $1.',
 	'wminc-viewuserlang' => 'Kolla upp användarspråk och testwiki',
 	'wminc-viewuserlang-user' => 'Användarnamn:',
 	'wminc-viewuserlang-go' => 'Gå till',
 	'wminc-userdoesnotexist' => 'Användaren "$1" finns inte.',
+	'wminc-ip' => '"$1" är en IP-adress.',
 	'right-viewuserlang' => 'Visa användarspråk och testwiki',
+	'group-test-sysop' => 'Testwiki-administratörer',
+	'group-test-sysop-member' => 'testwiki-administratör',
+	'grouppage-test-sysop' => 'Project:Testwiki-administratörer',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Språket "$3"]] är en [[wikipedia:ISO 639 macrolanguage|makrospråk]], som består av följande medlemsspråk:',
+	'wminc-code-collective' => 'Koden "$1" refererar inte till ett visst språk, utan en samling av språk, nämligen [[wikipedia:$2 language|"$3"-språken]].',
+	'wminc-code-retired' => 'Denna språkkod har ändrats och hänvisar inte längre till det ursprungliga språket.',
+	'wminc-listusers-testwiki' => 'Du visar användare som har ställt in sina testwiki-inställningar på $1.',
 );
 
 /** Silesian (Ślůnski)
@@ -2344,6 +2383,12 @@ $messages['uk'] = array(
 	'wminc-prefinfo-code' => 'Код мови згідно з ISO 639',
 	'wminc-prefinfo-project' => 'Оберіть проект Вікімедіа (варіант Інкубатор для тих, хто займається загальними питаннями)',
 	'wminc-prefinfo-error' => 'Ви обрали проект, для якого необхідно вказати код мови.',
+	'wminc-error-move-unprefixed' => 'Помилка: Сторінка на яку ви намагаєтеся перейти [[{{MediaWiki:Helppage}}|немає префікса або він помилковий]]!',
+	'wminc-error-wronglangcode' => "'''Помилка:''' Ця сторінка містить [[{{MediaWiki:Helppage}}|невірний код мови]] \"\$1\"!",
+	'wminc-error-unprefixed' => "''Помилка:''' Ця сторінка [[{{MediaWiki:Helppage}}|не містить префіксів]]!",
+	'wminc-error-unprefixed-suggest' => "'''Помилка:''' Ця сторінка [[{{MediaWiki:Helppage}}|не містить префікса]]! Ви можете створити сторінку [[:$1]].",
+	'wminc-error-wiki-exists' => 'Ця вікі вже існує. Ви можете знайти цю сторінку на $1. Якщо вікі було створено недавно, будь ласка, зачекайте кілька годин чи днів, поки весь вміст імпортується.',
+	'wminc-error-wiki-sister' => 'Ця сторінка належить до проекту, який не розміщено тут. Будь ласка, перейдіть на $1, щоб знайти цей вікіпроект.',
 	'randombytest' => 'Випадкова сторінка тестової вікі',
 	'randombytest-nopages' => 'У вашій тестовій вікі немає сторінок у просторі імен $1.',
 	'wminc-viewuserlang' => 'Проглянути мову й тестову вікі користувача',
@@ -2356,6 +2401,7 @@ $messages['uk'] = array(
 	'group-test-sysop-member' => 'Адміністратор тестової вікі',
 	'grouppage-test-sysop' => 'Project:Адміністратори тестової вікі',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|"$3" мова]] є [[wikipedia:ISO 639 macrolanguage|макромовою]], що складається з наступних мов:',
+	'wminc-code-collective' => 'Код "$1" відноситься не до конкретної мови, а до декількох, об\'єднаних під загальною назвою [[wikipedia:$2 language|"$3"]].',
 	'wminc-code-retired' => 'Цей код мови було змінено, код більше не посилається на конкретну мову.',
 	'wminc-listusers-testwiki' => 'Ви переглядаєте користувачів, які встановили налаштування тестової вікі  $1.',
 );
@@ -2435,6 +2481,7 @@ $messages['yue'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Anakmalaysia
  * @author Hydra
  * @author Jimmy xu wrk
  * @author Liangent
@@ -2464,6 +2511,7 @@ $messages['zh-hans'] = array(
 	'wminc-viewuserlang-user' => '用户名：',
 	'wminc-viewuserlang-go' => '提交',
 	'wminc-userdoesnotexist' => '用户 "$1" 并不存在。',
+	'wminc-ip' => '" $1 "是一个IP地址。',
 	'right-viewuserlang' => '请查看用户语言与测试维基',
 	'group-test-sysop' => '测试wiki管理员',
 	'group-test-sysop-member' => '测试wiki管理员',
@@ -2471,6 +2519,7 @@ $messages['zh-hans'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|$3]]是[[wikipedia:ISO 639 macrolanguage|宏语言]]之一，由以下成员语言组成：',
 	'wminc-code-collective' => '代码“$1”并不是一种语言，而是一系列语言的集合，即[[wikipedia:$2 language|$3语言]]。',
 	'wminc-code-retired' => '该语言代码已更改，并且不再指向原来的语言。',
+	'wminc-listusers-testwiki' => '您正在查看将测试维基首选项设置为$1的用户。',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
