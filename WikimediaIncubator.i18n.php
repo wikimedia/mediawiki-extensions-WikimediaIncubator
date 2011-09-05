@@ -660,6 +660,7 @@ $messages['eo'] = array(
 	'wminc-error-unprefixed' => "'''Eraro:''' Ĉi tiu paĝo estas [[{{MediaWiki:Helppage}}|senprefiksa]]!",
 	'wminc-error-unprefixed-suggest' => "'''Eraro:''' Ĉi tiu paĝo estas [[{{MediaWiki:Helppage}}|senprefiksa]]! Vi povas krei paĝon ĉe [[:$1]].",
 	'wminc-error-wiki-exists' => 'Ĉi tiu vikio jam ekzistas. Vi povas trovi ĉi tiun paĝon en $1. Se la vikio estis lastatempe kreita, bonvolu atendi kelkajn horojn aŭ tagojn ĝis ĉiuj datenoj estas importitaj.',
+	'wminc-error-wiki-sister' => 'Ĉi tiu paĝo apartenas projekton ne gastigata ĉi tie. Bonvolu iri al $1 por trovi la vikio.',
 	'randombytest' => 'Hazarda paĝo de testvikio',
 	'randombytest-nopages' => 'Mankas paĝoj en via testvikio en la nomspaco: $1.',
 	'wminc-viewuserlang' => 'Trarigardi uzulan lingvon kaj testi vikion',
@@ -673,6 +674,7 @@ $messages['eo'] = array(
 	'grouppage-test-sysop' => 'Project:Test wiki - Administrantoj de la testa vikio',
 	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 lingvo|lingvo "$3"]] estas [[wikipedia:ISO 639 makrolingvo|makrolingvo]], enhavanta la jenajn membraj lingvoj:',
 	'wminc-code-collective' => 'La lingvo-kodo "$1" ne referencas specifan lingvo, sed aro da lingvoj, ĉefe la [[wikipedia:$2 language|"$3" lingvoj]].',
+	'wminc-code-retired' => 'Ĉi tiu lingvo-kodo estis ŝanĝita kaj ne plu referencas la originalan lingvon.',
 	'wminc-listusers-testwiki' => 'Vi rigardas uzantojn kiu agordas vikian preferon al $1.',
 );
 
@@ -884,6 +886,12 @@ $messages['frp'] = array(
 	'wminc-prefinfo-code' => 'Lo code ISO 639 de la lengoua',
 	'wminc-prefinfo-project' => 'Chouèsésséd lo projèt Wikimedia (lo chouèx Covosa est dèstinâ ux utilisators que font un travâly g·ènèral)',
 	'wminc-prefinfo-error' => 'Vos éd chouèsi un projèt qu’at fôta d’un code lengoua.',
+	'wminc-error-move-unprefixed' => 'Èrror : la pâge de vers laquinta vos tâchiéd de renomar [[{{MediaWiki:Helppage}}|at gins de prèfixo ou ben at un prèfixo fôx]] !',
+	'wminc-error-wronglangcode' => "'''Èrror :''' cela pâge contint un [[{{MediaWiki:Helppage}}|code lengoua fôx]] « $1 » !",
+	'wminc-error-unprefixed' => "'''Èrror :''' cela pâge at [[{{MediaWiki:Helppage}}|gins de prèfixo]] !",
+	'wminc-error-unprefixed-suggest' => "'''Èrror :''' cela pâge at [[{{MediaWiki:Helppage}}|gins de prèfixo]] ! Vos pouede fâre una pâge dessus [[:$1]].",
+	'wminc-error-wiki-exists' => 'Cél vouiqui ègziste ja. Vos pouede trovar ceta pâge dessus $1. Se lo vouiqui at étâ fêt dèrriérement, volyéd atendre doux-três hores ou ben jorns por que tot lo contegnu seye importâ.',
+	'wminc-error-wiki-sister' => 'Cela pâge est a un projèt qu’est pas hèbèrgiê ique. Grant-marci d’alar en $1 por trovar lo vouiqui.',
 	'randombytest' => 'Pâge a l’hasârd per lo vouiqui d’èprôva',
 	'randombytest-nopages' => 'Voutron vouiqui d’èprôva contint gins de pâge dens l’èspâço de noms : $1.',
 	'wminc-viewuserlang' => 'Vêre la lengoua a l’utilisator et lo vouiqui d’èprôva',
@@ -895,7 +903,10 @@ $messages['frp'] = array(
 	'group-test-sysop' => 'Administrators du vouiqui d’èprôva',
 	'group-test-sysop-member' => 'Administrator du vouiqui d’èprôva',
 	'grouppage-test-sysop' => 'Project:Administrators du vouiqui d’èprôva',
+	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 language|lengoua « $3 »]] est una [[wikipedia:fr:macro-langue|macro-lengoua]], composâ de cetes lengoues :',
+	'wminc-code-collective' => 'Lo code « $1 » regârde pas una lengoua spècefica, mas una colèccion de lengoues, en particuliér les [[wikipedia:$2 language|lengoues « $3 »]].',
 	'wminc-code-retired' => 'Ceti code lengoua at étâ changiê et fât pas més refèrence a la lengoua d’origina.',
+	'wminc-listusers-testwiki' => 'Vos éte aprés vêre los utilisators qu’ont betâs lor prèference de vouiqui d’èprôva a $1.',
 );
 
 /** Galician (Galego)
@@ -1814,6 +1825,7 @@ $messages['ps'] = array(
  * @author Hamilton Abreu
  * @author Lijealso
  * @author Malafaya
+ * @author MetalBrasil
  * @author Waldir
  */
 $messages['pt'] = array(
@@ -1832,12 +1844,14 @@ $messages['pt'] = array(
 	'wminc-error-unprefixed' => "'''Erro:''' Esta página [[{{MediaWiki:Helppage}}|não tem prefixo]]!",
 	'wminc-error-unprefixed-suggest' => "'''Erro:''' Esta página [[{{MediaWiki:Helppage}}|não tem prefixo]]! Pode criar uma página em [[:$1]].",
 	'wminc-error-wiki-exists' => 'Esta wiki já existe. Encontra esta página em $1. Se a wiki foi criada recentemente, aguarde algumas horas ou dias até que todo o conteúdo tenha sido importado.',
+	'wminc-error-wiki-sister' => 'Esta página pertence a um projeto que não é hospedado aqui. Por favor, encaminhe-se para $1 para achar a wiki.',
 	'randombytest' => 'Página aleatória da wiki de testes',
 	'randombytest-nopages' => 'Não há páginas na sua wiki de testes, no espaço nominal: $1.',
 	'wminc-viewuserlang' => 'Procurar a língua do utilizador e a wiki de testes',
 	'wminc-viewuserlang-user' => 'Nome de utilizador:',
 	'wminc-viewuserlang-go' => 'Prosseguir',
 	'wminc-userdoesnotexist' => 'O utilizador "$1" não existe.',
+	'wminc-ip' => '"$1" é um endereço de IP.',
 	'right-viewuserlang' => 'Ver língua do utilizador e wiki de testes',
 	'group-test-sysop' => 'Administradores da wiki de testes',
 	'group-test-sysop-member' => 'administrador da wiki de testes',
@@ -1845,6 +1859,7 @@ $messages['pt'] = array(
 	'wminc-code-macrolanguage' => 'A [[wikipedia:$2 language|língua "$3"]] é uma [[wikipedia:ISO 639 macrolanguage|macrolíngua]], composta pelas seguintes línguas:',
 	'wminc-code-collective' => 'O código "$1" não se refere a uma língua específica, mas sim a um conjunto de línguas, nomeadamente as [[wikipedia:$2 language|línguas "$3"]].',
 	'wminc-code-retired' => 'O código de língua foi alterado e já não se refere à língua original.',
+	'wminc-listusers-testwiki' => 'Você está a visualizar os usuários que tem suas preferências de test wiki a $1.',
 );
 
 /** Brazilian Portuguese (Português do Brasil)

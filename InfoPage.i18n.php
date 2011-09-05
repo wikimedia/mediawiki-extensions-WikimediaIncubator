@@ -102,7 +102,7 @@ $messages['be-tarask'] = array(
 	'wminc-infopage-missingwiki-text' => '$1 на гэтай мове яшчэ не існуе.',
 	'wminc-infopage-option-startwiki' => 'Калі Вы жадаеце распачаць гэтую вікі,
 Вы можаце [{{fullurl:{{FULLPAGENAME}}|action=edit}} стварыць старонку] і выканаць [[{{MediaWiki:Wminc-manual-url}}|нашыя інструкцыі]].',
-	'wminc-infopage-option-startsister' => 'Калі вы хочаце пачаць гэтую вікі, перайдзіце на <b>[$2 $1]</b>.',
+	'wminc-infopage-option-startsister' => 'Калі Вы хочаце пачаць гэтую вікі, перайдзіце на <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Вы можаце пашукаць [http://www.$1.org існуючыя моўныя варыянты $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Вы можаце пашукаць існуючыя праекты на гэтай мове:',
 	'wminc-infopage-option-sisterprojects-other' => 'Вы можаце пашукаць іншыя праекты на гэтай мове:',
@@ -110,7 +110,7 @@ $messages['be-tarask'] = array(
 	'wminc-infopage-createmainpage' => 'Увядзіце словы «Галоўная старонка» на гэтай мове:',
 	'wminc-infopage-contribute' => 'Калі Вы ведаеце гэтую мову, Вы можаце рабіць унёсак!',
 	'wminc-infopage-status-imported' => 'Гэтая вікі ў інкубатары была імпартаваная з $1 пасьля таго, як вікі была закрытая.',
-	'wminc-infopage-status-closedsister' => 'Гэты паддамэн зачынены. Перайдзіце на <b>$2</b>, каб напісаць у гэтую вікі.',
+	'wminc-infopage-status-closedsister' => 'Гэты паддамэн закрыты. Перайдзіце на <b>$2</b>, каб напісаць у гэтую вікі.',
 	'wminc-infopage-status-created' => 'Гэты праект быў зацьверджаны моўным камітэтам, і цяпер ён даступны на $1.',
 	'wminc-infopage-status-beforeincubator' => 'Гэты праект быў створаны перад пачаткам функцыянаваньня Інкубатара фундацыі «Вікімэдыя» і ён даступны на $1.',
 );
