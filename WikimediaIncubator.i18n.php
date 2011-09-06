@@ -163,6 +163,8 @@ $messages['af'] = array(
 	'wminc-viewuserlang' => 'Soek op gebruikerstaal en toetswiki',
 	'wminc-viewuserlang-user' => 'Gebruikersnaam:',
 	'wminc-viewuserlang-go' => 'OK',
+	'wminc-userdoesnotexist' => 'Die gebruiker "$1" bestaan nie.',
+	'wminc-ip' => '"$1" is \'n IP-adres.',
 	'right-viewuserlang' => 'Sien gebruikerstaal en toetswiki',
 );
 
@@ -1789,19 +1791,36 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'wminc-desc' => 'Preuva ël sistema ëd wiki për Wikimedia Incubator',
+	'wminc-manual' => 'Manual',
+	'wminc-listwikis' => 'Lista ëd wiki',
 	'wminc-testwiki' => 'Preuva wiki:',
 	'wminc-testwiki-none' => 'Gnun/Tùit',
+	'wminc-recentchanges-all' => "Tute j'ùltime modìfiche",
 	'wminc-prefinfo-language' => "Toa lenga d'antërfacia - andipendenta da toa wiki ëd preuva",
 	'wminc-prefinfo-code' => 'Ël còdes ISO 639 dla lenga',
 	'wminc-prefinfo-project' => "Selession-a ël proget Wikimedia (l'opsion Incubator a l'é për utent che a fan travaj general)",
 	'wminc-prefinfo-error' => "It l'has selessionà un proget che a l'ha dbzògn d'un còdes ëd lenga.",
+	'wminc-error-move-unprefixed' => "Eror: La pagina ch'it l'has provà a tramudé a [[{{MediaWiki:Helppage}}|a l'ha pa prefiss o a l'ha un prefiss gram]]!",
+	'wminc-error-wronglangcode' => "'''Eror:''' Sta pagina a conten un [[{{MediaWiki:Helppage}}|còdes ëd lenga gram]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Eror:''' Sta pagina a l'é [[{{MediaWiki:Helppage}}|pa prefissà]]!",
+	'wminc-error-unprefixed-suggest' => "'''Eror:''' Sta pagina a l'é [[{{MediaWiki:Helppage}}|pa prefissà]]! It peule creé na pagina a [[:$1]].",
+	'wminc-error-wiki-exists' => "Sta wiki a esist già. It peule trové sta pagina su $1. Se la wiki a l'é stàita creà da pòch, Për piasì speta un pòch d'ore o ëd di fin a che ël contnù a sia amportà.",
+	'wminc-error-wiki-sister' => "Sta pagina a parten a un proget ch'a l'é pa ospità ambelessì. Për piasì va a $1 për trové la wiki.",
 	'randombytest' => 'Pàgina a cas da wiki ëd preuva',
 	'randombytest-nopages' => 'A-i son pa ëd pàgine ant toa wiki ëd preuva, ant lë spassi nominal: $1:',
 	'wminc-viewuserlang' => "varda la lenga dl'utent e preuva la wiki",
 	'wminc-viewuserlang-user' => 'Nòm utent:',
 	'wminc-viewuserlang-go' => 'Va',
 	'wminc-userdoesnotexist' => 'L\'utent "$1" a esist pa.',
+	'wminc-ip' => '"$1" a l\'é n\'adrëssa IP.',
 	'right-viewuserlang' => "Visualisa lenga dl'utent e wiki ëd preuva",
+	'group-test-sysop' => 'Aministrador ëd la wiki ëd preuva',
+	'group-test-sysop-member' => 'aministrador ëd la wiki ëd preuva',
+	'grouppage-test-sysop' => 'Project:Aministrador ëd la wiki ëd preuva',
+	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 lenga|"$3" lenga]] a l\'é un [[wikipedia:ISO 639 macrolenga|macrolenga]], consistent dle lenghe mèmber ch\'a ven-o:',
+	'wminc-code-collective' => 'Ël còdes "$1" as riferiss pa a na lenga specifica, ma a na colession ëd lenghe, visadì [[wikipedia:$2 language|"$3" languages]].',
+	'wminc-code-retired' => "Sto còdes ëd lenga a l'é stàit cangià e as arferiss pa pi a la lenga originaria.",
+	'wminc-listusers-testwiki' => "I të stas vardand utent ch'a l'han ampostà ij sò gust ëd wiki ëd preuva a $1.",
 );
 
 /** Pontic (Ποντιακά)
@@ -1943,6 +1962,8 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'wminc-desc' => 'Test pu sisteme Uicchi pe UicchiMedia Incubatore',
+	'wminc-manual' => 'Manuale',
+	'wminc-listwikis' => 'Elenghe de le Uicchi',
 	'wminc-testwiki' => 'Test de Uicchi:',
 	'wminc-testwiki-none' => 'Nisciune/Tutte',
 	'wminc-prefinfo-language' => "L'inderfacce indipendende de lènghe da 'u teste tue de Uicchi",
@@ -1955,7 +1976,10 @@ $messages['roa-tara'] = array(
 	'wminc-viewuserlang-user' => "Nome de l'utende:",
 	'wminc-viewuserlang-go' => 'Veje',
 	'wminc-userdoesnotexist' => 'L\'utende "$1" non g\'esiste.',
+	'wminc-ip' => '"$1" jè \'n\'indirizze IP.',
 	'right-viewuserlang' => "Vide 'a lènghe de l'utende e teste Uicchi",
+	'group-test-sysop-member' => 'test amministrature de uicchi',
+	'grouppage-test-sysop' => 'Project:Test amministrature de uicchi',
 );
 
 /** Russian (Русский)
@@ -2520,6 +2544,7 @@ $messages['zh-hans'] = array(
 	'wminc-error-unprefixed' => "'''错误'''：该页面[[{{MediaWiki:Helppage}}|无法前缀]]！",
 	'wminc-error-unprefixed-suggest' => "'''错误'''：该页面[[{{MediaWiki:Helppage}}|无法前缀]]！您可以在[[:$1]]创建页面。",
 	'wminc-error-wiki-exists' => '该wiki已经存在。您可以在$1找到该页面。如果该wiki是近期创建的，请耐心等待数小时至数日，以便所有内容都被导入。',
+	'wminc-error-wiki-sister' => '此页面是属于不在此处托管的项目，请转到$1找到该维基项目。',
 	'randombytest' => '测试维基随机页面',
 	'randombytest-nopages' => '您的测试wiki的名字空间$1中没有页面。',
 	'wminc-viewuserlang' => '查看用户语言与测试维基',
