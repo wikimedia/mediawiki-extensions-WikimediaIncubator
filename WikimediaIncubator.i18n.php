@@ -65,6 +65,7 @@ $messages['en'] = array(
  * @author Nike
  * @author Purodha
  * @author SPQRobin
+ * @author Yekrats
  */
 $messages['qqq'] = array(
 	'wminc-desc' => '{{desc}}',
@@ -84,6 +85,8 @@ $messages['qqq'] = array(
 * Do not change <code><nowiki>{{MediaWiki:Helppage}}</nowiki></code>',
 	'wminc-error-wiki-exists' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-error-wiki-sister' => '$1 is a link to either Wikisource or Wikiversity.',
+	'randombytest' => '[[Special:Special:RandomByTest]] goes to a random page in a incubator wiki. 
+For more information see: http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'wminc-viewuserlang' => 'Title of a special page to look up the language and test wiki of a user. See [[:File:Incubator-testwiki-viewuserlang.jpg]].',
 	'wminc-viewuserlang-user' => 'Label for the input.
 
@@ -1787,6 +1790,7 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
@@ -1800,12 +1804,12 @@ $messages['pms'] = array(
 	'wminc-prefinfo-code' => 'Ël còdes ISO 639 dla lenga',
 	'wminc-prefinfo-project' => "Selession-a ël proget Wikimedia (l'opsion Incubator a l'é për utent che a fan travaj general)",
 	'wminc-prefinfo-error' => "It l'has selessionà un proget che a l'ha dbzògn d'un còdes ëd lenga.",
-	'wminc-error-move-unprefixed' => "Eror: La pagina ch'it l'has provà a tramudé a [[{{MediaWiki:Helppage}}|a l'ha pa prefiss o a l'ha un prefiss gram]]!",
-	'wminc-error-wronglangcode' => "'''Eror:''' Sta pagina a conten un [[{{MediaWiki:Helppage}}|còdes ëd lenga gram]] \"\$1\"!",
-	'wminc-error-unprefixed' => "'''Eror:''' Sta pagina a l'é [[{{MediaWiki:Helppage}}|pa prefissà]]!",
-	'wminc-error-unprefixed-suggest' => "'''Eror:''' Sta pagina a l'é [[{{MediaWiki:Helppage}}|pa prefissà]]! It peule creé na pagina a [[:$1]].",
-	'wminc-error-wiki-exists' => "Sta wiki a esist già. It peule trové sta pagina su $1. Se la wiki a l'é stàita creà da pòch, Për piasì speta un pòch d'ore o ëd di fin a che ël contnù a sia amportà.",
-	'wminc-error-wiki-sister' => "Sta pagina a parten a un proget ch'a l'é pa ospità ambelessì. Për piasì va a $1 për trové la wiki.",
+	'wminc-error-move-unprefixed' => "Eror: La pàgina ch'a l'ha provà a tramudé a [[{{MediaWiki:Helppage}}|a l'ha pa 'd prefiss o a l'ha un prefiss cioch]]!",
+	'wminc-error-wronglangcode' => "'''Eror:''' Costa pàgina a conten un [[{{MediaWiki:Helppage}}|còdes ëd lenga cioch]] «$1»!",
+	'wminc-error-unprefixed' => "'''Eror:''' Costa pagina a l'ha [[{{MediaWiki:Helppage}}|pa 'd prefiss]]!",
+	'wminc-error-unprefixed-suggest' => "'''Eror:''' Costa pàgina a l'ha [[{{MediaWiki:Helppage}}|pa 'd prefiss]]! A peul creé na pàgina a [[:$1]].",
+	'wminc-error-wiki-exists' => "Sta wiki a esist già. A peul trové sa pàgina su $1. Se la wiki a l'é stàita creà da pòch, për piasì ch'a speta chèich ore o di fin a che ël contnù a sia amportà.",
+	'wminc-error-wiki-sister' => "Costa pàgina a aparten a un proget ch'a l'é pa ospità ambelessì. Për piasì, ch'a va a $1 për trové la wiki.",
 	'randombytest' => 'Pàgina a cas da wiki ëd preuva',
 	'randombytest-nopages' => 'A-i son pa ëd pàgine ant toa wiki ëd preuva, ant lë spassi nominal: $1:',
 	'wminc-viewuserlang' => "varda la lenga dl'utent e preuva la wiki",
@@ -1814,13 +1818,13 @@ $messages['pms'] = array(
 	'wminc-userdoesnotexist' => 'L\'utent "$1" a esist pa.',
 	'wminc-ip' => '"$1" a l\'é n\'adrëssa IP.',
 	'right-viewuserlang' => "Visualisa lenga dl'utent e wiki ëd preuva",
-	'group-test-sysop' => 'Aministrador ëd la wiki ëd preuva',
-	'group-test-sysop-member' => 'aministrador ëd la wiki ëd preuva',
-	'grouppage-test-sysop' => 'Project:Aministrador ëd la wiki ëd preuva',
-	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 lenga|"$3" lenga]] a l\'é un [[wikipedia:ISO 639 macrolenga|macrolenga]], consistent dle lenghe mèmber ch\'a ven-o:',
-	'wminc-code-collective' => 'Ël còdes "$1" as riferiss pa a na lenga specifica, ma a na colession ëd lenghe, visadì [[wikipedia:$2 language|"$3" languages]].',
-	'wminc-code-retired' => "Sto còdes ëd lenga a l'é stàit cangià e as arferiss pa pi a la lenga originaria.",
-	'wminc-listusers-testwiki' => "I të stas vardand utent ch'a l'han ampostà ij sò gust ëd wiki ëd preuva a $1.",
+	'group-test-sysop' => 'Aministrator ëd la wiki ëd preuva',
+	'group-test-sysop-member' => 'aministrator ëd la wiki ëd preuva',
+	'grouppage-test-sysop' => 'Project:Aministrator ëd la wiki ëd preuva',
+	'wminc-code-macrolanguage' => "La [[wikipedia:$2 language|lenga «$3»]] a l'é na [[wikipedia:ISO 639 macrolenga|macrolenga]], ch'a consist ëd le lenghe sì-dapress:",
+	'wminc-code-collective' => 'Ël còdes «$1» as riferiss pa a na lenga spessìfica, ma a na colession ëd lenghe, visadì le [[wikipedia:$2 language|lenghe «$3»]].',
+	'wminc-code-retired' => "Cost còdes ëd lenga a l'é stàit cangià e as arferiss pa pi a la lenga originaria.",
+	'wminc-listusers-testwiki' => "A l'é an camin ch'a vëd j'utent ch'a l'han ampostà ij sò gust ëd wiki ëd preuva a $1.",
 );
 
 /** Pontic (Ποντιακά)
@@ -1834,6 +1838,7 @@ $messages['pnt'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'wminc-listwikis' => 'د ويکي ګانو لړليک',
 	'wminc-testwiki' => 'د آزمېښت ويکي:',
 	'wminc-testwiki-none' => 'هېڅ/ټول',
 	'wminc-viewuserlang-user' => 'کارن-نوم:',
@@ -1955,6 +1960,7 @@ $messages['ro'] = array(
 	'group-test-sysop' => 'Administratori wiki de încercare',
 	'group-test-sysop-member' => 'administrator wiki de încercare',
 	'grouppage-test-sysop' => 'Project:Administratori wiki de încercare',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Limba „$3”]] este o [[wikipedia:ro:ISO 639 macrolimbă|macrolimbă]], incluzând următoarele limbi:',
 );
 
 /** Tarandíne (Tarandíne)
@@ -1966,10 +1972,13 @@ $messages['roa-tara'] = array(
 	'wminc-listwikis' => 'Elenghe de le Uicchi',
 	'wminc-testwiki' => 'Test de Uicchi:',
 	'wminc-testwiki-none' => 'Nisciune/Tutte',
+	'wminc-recentchanges-all' => "Tutte l'urteme cangiaminde",
 	'wminc-prefinfo-language' => "L'inderfacce indipendende de lènghe da 'u teste tue de Uicchi",
 	'wminc-prefinfo-code' => "'U codece ISO 639 d'a lènghe",
 	'wminc-prefinfo-project' => "Scacchie 'u proggette UicchiMedia (opzione Incubatore jè pe l'utinde ca fanne 'na fatìe generale)",
 	'wminc-prefinfo-error' => "Tu è scacchiate 'nu proggette ca abbesogne de 'nu codece de lènghe.",
+	'wminc-error-unprefixed' => "'''Errore:''' Sta pàgene jè [[{{MediaWiki:Helppage}}|senza prefisse]]!",
+	'wminc-error-unprefixed-suggest' => "'''Errore:''' Sta pàgene jè [[{{MediaWiki:Helppage}}|senza prefisse]]! Tu puè ccreja 'na pàgene a [[:$1]].",
 	'randombytest' => 'Pàgene a uecchie pe testà Uicchi',
 	'randombytest-nopages' => "Non ge stonne pàggene jndr'à Uicchi de test, jndr'à 'u namespace: $1.",
 	'wminc-viewuserlang' => "Combronde 'mbrà 'a lènghe de l'utende e 'u teste de Uicchi",
@@ -1978,6 +1987,7 @@ $messages['roa-tara'] = array(
 	'wminc-userdoesnotexist' => 'L\'utende "$1" non g\'esiste.',
 	'wminc-ip' => '"$1" jè \'n\'indirizze IP.',
 	'right-viewuserlang' => "Vide 'a lènghe de l'utende e teste Uicchi",
+	'group-test-sysop' => 'Test amministrature de uicchi',
 	'group-test-sysop-member' => 'test amministrature de uicchi',
 	'grouppage-test-sysop' => 'Project:Test amministrature de uicchi',
 );
