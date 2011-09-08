@@ -2573,6 +2573,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Anakmalaysia
  * @author Horacewai2
  * @author Liangent
  * @author Mark85296341
@@ -2582,17 +2583,35 @@ $messages['zh-hans'] = array(
  */
 $messages['zh-hant'] = array(
 	'wminc-desc' => '維基孵育場的測試 wiki 系統',
+	'wminc-manual' => '手冊',
+	'wminc-listwikis' => '維基名單',
 	'wminc-testwiki' => '測試 wiki:',
 	'wminc-testwiki-none' => '無/所有',
+	'wminc-recentchanges-all' => '所有最近的更改',
 	'wminc-prefinfo-language' => '您的介面語言 - 在您的測試 wiki 中為獨立的',
 	'wminc-prefinfo-code' => 'ISO 639 語言代碼',
 	'wminc-prefinfo-project' => '選擇維基媒體計劃 （孵育場選項用作一般用途）',
 	'wminc-prefinfo-error' => '您已選擇一個需要語言代碼的計畫。',
+	'wminc-error-move-unprefixed' => '錯誤：您想要移動頁面到的目的地[[{{MediaWiki:Helppage}}|沒有前綴或有錯誤的前綴]]！',
+	'wminc-error-wronglangcode' => "'''錯誤'''：此頁面包含了[[{{MediaWiki:Helppage}}|錯誤的語言代碼]]「$1」!",
+	'wminc-error-unprefixed' => "'''錯誤'''：此頁面[[{{MediaWiki:Helppage}}|沒有前綴]]！",
+	'wminc-error-unprefixed-suggest' => "'''錯誤'''：此頁面[[{{MediaWiki:Helppage}}|沒有前綴]]！您可以在[[:$1]]創建頁面。",
+	'wminc-error-wiki-exists' => '這項維基項目已存在，就在$1找到該頁面。如果該維基項目是近期創建的，請耐心等待數小時至數天，以便所有內容都被導入。',
+	'wminc-error-wiki-sister' => '此頁面是屬於不在此處託管的項目，請轉到$1找到該維基項目。',
 	'randombytest' => '測試維基上的隨機頁面',
 	'randombytest-nopages' => '在你的測試網頁的 $1 名字空間中，沒有頁面。',
 	'wminc-viewuserlang' => '檢視使用者語言與測試 wiki',
 	'wminc-viewuserlang-user' => '使用者名稱：',
 	'wminc-viewuserlang-go' => '轉到',
+	'wminc-userdoesnotexist' => '用戶「$1」不存在。',
+	'wminc-ip' => '「$1」是一個IP地址。',
 	'right-viewuserlang' => '檢視使用者語言和測試 wiki',
+	'group-test-sysop' => '測試維基管理員',
+	'group-test-sysop-member' => '測試維基管理員',
+	'grouppage-test-sysop' => 'Project:測試維基管理員',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|$3]]是[[wikipedia:ISO 639 macrolanguage|宏語言]]之一，由以下成員語言組成：',
+	'wminc-code-collective' => '代碼「$1」並不指一種語言，而指一系列語言的集合，即[[wikipedia:$2 language|$3語言]]。',
+	'wminc-code-retired' => '此語言代碼已更改，並且不再指向原來的語言。',
+	'wminc-listusers-testwiki' => '您正在查看將測試維基首選項設置為$1的用戶。',
 );
 

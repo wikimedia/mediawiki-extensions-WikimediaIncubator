@@ -246,6 +246,22 @@ vos pouede [{{fullurl:{{FULLPAGENAME}}|action=edit}} fâre la pâge] et pués si
  */
 $messages['gl'] = array(
 	'wminc-infopage-enter' => 'ir á páxina principal',
+	'wminc-unknownlang' => '(lingua descoñecida co código "$1")',
+	'wminc-infopage-welcome' => 'Benvido á Incubadora da Wikimedia, un proxecto da Fundación Wikimedia ([[{{MediaWiki:Aboutpage}}|acerca de]])',
+	'wminc-infopage-missingwiki-text' => 'Aínda non existe $1 nesta lingua.',
+	'wminc-infopage-option-startwiki' => 'Se quere comezar este wiki,
+pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear esta páxina] e seguir [[{{MediaWiki:Wminc-manual-url}}|o noso manual]].',
+	'wminc-infopage-option-startsister' => 'Se quere comezar este wiki, pode ir a <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Pode ollar [http://www.$1.org as linguas nas que hai $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Pode ollar os proxectos que hai nesta lingua:',
+	'wminc-infopage-option-sisterprojects-other' => 'Pode ollar outros proxectos que hai nesta lingua:',
+	'wminc-infopage-option-multilingual' => 'Pode ir a un wiki multilingüe:',
+	'wminc-infopage-createmainpage' => 'Escriba as palabras "Páxina principal" nesta lingua:',
+	'wminc-infopage-contribute' => 'Se coñece esta lingua, animámolo a contribuír!',
+	'wminc-infopage-status-imported' => 'Este wiki da Incubadora foi importado desde $1 despois de que o wiki pechase.',
+	'wminc-infopage-status-closedsister' => 'Este subdominio foi pechado. Vaia a <b>$2</b> para contribuír neste wiki.',
+	'wminc-infopage-status-created' => 'Este proxecto foi aprobado polo comité de linguas e agora está dispoñible en $1.',
+	'wminc-infopage-status-beforeincubator' => 'Este proxecto foi creado antes cá Incubadora da Wikimedia e está dispoñible en $1.',
 );
 
 /** Interlingua (Interlingua)
