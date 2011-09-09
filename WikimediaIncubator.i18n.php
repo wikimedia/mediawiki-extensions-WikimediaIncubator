@@ -281,6 +281,19 @@ $messages['ast'] = array(
 	'wminc-recentchanges-all' => 'Tolos cambios recientes',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'wminc-manual' => 'Əl ilə',
+	'wminc-listwikis' => 'Vikilərin siyahısı',
+	'wminc-testwiki' => 'Test viki:',
+	'wminc-testwiki-none' => 'Heç biri/Hamısı',
+	'wminc-viewuserlang-user' => 'İstifadəçi adı:',
+	'wminc-viewuserlang-go' => 'Keç',
+	'wminc-userdoesnotexist' => 'İstifadəçi "$1" mövcud deyil',
+);
+
 /** Bavarian (Boarisch)
  * @author Man77
  * @author Mucalexx
