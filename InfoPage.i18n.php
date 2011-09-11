@@ -159,6 +159,7 @@ können Sie [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und g
 
 /** Spanish (Español)
  * @author Diotime
+ * @author Drini
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -168,6 +169,10 @@ $messages['es'] = array(
 	'wminc-infopage-missingwiki-text' => 'Un $1 en este idioma todavía no existe.',
 	'wminc-infopage-option-startwiki' => 'Si deseas comenzar este wiki,
 puedes [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la página] y seguir [[{{MediaWiki:Wminc-manual-url}}|nuestro manual]].',
+	'wminc-infopage-option-startsister' => 'Si deseas iniciar esta wiki, puedes ir a <b>[$2 $1].</b>',
+	'wminc-infopage-option-languages-existing' => 'Puede buscar [http://www.$1.org ediciones existentes en el idioma $1 ].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Puedes buscar proyectos existentes en este idioma:',
+	'wminc-infopage-option-sisterprojects-other' => 'Puedes buscar otros proyectos en este idioma:',
 	'wminc-infopage-option-multilingual' => 'Puedes ir a un wiki multilingüe:',
 	'wminc-infopage-createmainpage' => 'Introduce las palabras «Página principal» en este idioma:',
 	'wminc-infopage-contribute' => '¡Si entiendes esta lengua, te animamos a contribuir!',

@@ -377,8 +377,10 @@ $messages['be-tarask'] = array(
  */
 $messages['bg'] = array(
 	'wminc-desc' => 'Тестова уики система за Уикимедия Инкубатор',
+	'wminc-listwikis' => 'Списък уикита',
 	'wminc-testwiki' => 'Тестово уики:',
 	'wminc-testwiki-none' => 'Никои / Всички',
+	'wminc-recentchanges-all' => 'Всички последни промени',
 	'wminc-prefinfo-language' => 'Език на интерфейса (независим от езика на вашето тестово уики)',
 	'wminc-prefinfo-code' => 'Езиковият код според стандарта ISO 639',
 	'wminc-prefinfo-project' => 'Изберете проект на Уикимедия (Опцията инкубатор е за потребители, които извършват обща работа)',
@@ -388,7 +390,10 @@ $messages['bg'] = array(
 	'wminc-viewuserlang' => 'Справка за езика на потребителя и тестваното от него уики',
 	'wminc-viewuserlang-user' => 'Потребител:',
 	'wminc-viewuserlang-go' => 'Отваряне',
+	'wminc-userdoesnotexist' => 'Не съществува потребител "$1".',
+	'wminc-ip' => '"$1" е IP-адрес.',
 	'right-viewuserlang' => 'Вижте езика на потребителя и езика на тестваното уики',
+	'wminc-code-retired' => 'Този езиков код е бил променен и повече не се отнася към оригиналния език.',
 );
 
 /** Bengali (বাংলা)
@@ -699,6 +704,7 @@ $messages['eo'] = array(
 /** Spanish (Español)
  * @author Antur
  * @author Crazymadlover
+ * @author Drini
  * @author Fitoschido
  * @author Translationista
  */
@@ -713,17 +719,27 @@ $messages['es'] = array(
 	'wminc-prefinfo-code' => 'El código de idioma ISO 639',
 	'wminc-prefinfo-project' => 'Seleccione el proyecto de Wikimedia (la opción Incubator es para usuarios que hacen el trabajo general)',
 	'wminc-prefinfo-error' => 'Seleccionaste un proyecto que necesita un código de lenguaje.',
+	'wminc-error-move-unprefixed' => 'Error: La página que estás intentando trasladar a [[{{MediaWiki:Helppage}}|tiene el prefijo equivocado o carece del mismo]].',
+	'wminc-error-wronglangcode' => "'''Error:''' Esta página contiene un [[{{MediaWiki:Helppage}}|código de idioma equivocado]], \"\$1\".",
+	'wminc-error-unprefixed' => "'''Error:''' Esta página [[{{MediaWiki:Helppage}}|carece de prefijo]].",
+	'wminc-error-unprefixed-suggest' => "'''Error:''' Esta página [[{{MediaWiki:Helppage}}|carece de prefijo]]. Puedes crearla en [[:$1]].",
+	'wminc-error-wiki-exists' => 'Esta wiki ya existe, puedes encontrarla en $1. Si la wiki es de reciente creación, por favor espera un par de días hasta que todo el contenido sea importado.',
+	'wminc-error-wiki-sister' => 'Esta página pertenece a un proyecto que no está hospedado aquí. Por favor acuda a $1 para encontrar la wiki.',
 	'randombytest' => 'Página aleatoria para probar wiki',
 	'randombytest-nopages' => 'No hay páginas en su wiki de prueba, en el espacio de nombres: $1.',
 	'wminc-viewuserlang' => 'Ver lenguaje de usuario y wiki de prueba',
 	'wminc-viewuserlang-user' => 'Nombre de usuario:',
 	'wminc-viewuserlang-go' => 'Ir',
 	'wminc-userdoesnotexist' => 'El usuario «$1» no existe.',
+	'wminc-ip' => '"$1" es una dirección IP.',
 	'right-viewuserlang' => 'Ver idioma de usuario y prueba wiki',
 	'group-test-sysop' => 'Administradores de wiki de prueba',
 	'group-test-sysop-member' => 'administrador de wiki de prueba',
 	'grouppage-test-sysop' => 'Project:Administradores de wiki de pruebas',
 	'wminc-code-macrolanguage' => 'El [[wikipedia:$2 language|$3]] es una [[wikipedia:es:Macrolengua|macrolengua]], que se compone de los siguientes idiomas:',
+	'wminc-code-collective' => 'El código "$1" no se refiere a un idioma específico sino a una colección de idiomas, específicamente los [[wikipedia:$2 language|idiomas "$3"]].',
+	'wminc-code-retired' => 'Este código de idioma ha cambiado o ya no se refiere al idioma original.',
+	'wminc-listusers-testwiki' => 'Estás mirando la lista de usuarios que han seleccionado su opción de wiki de pruebas a $1.',
 );
 
 /** Estonian (Eesti)
@@ -1162,6 +1178,7 @@ $messages['ia'] = array(
 	'wminc-viewuserlang-user' => 'Nomine de usator:',
 	'wminc-viewuserlang-go' => 'Ir',
 	'wminc-userdoesnotexist' => 'Le usator "$1" non existe.',
+	'wminc-ip' => '"$1" es un adresse IP.',
 	'right-viewuserlang' => 'Vider le lingua e wiki de test de usatores',
 	'group-test-sysop' => 'Administratores del wiki de test',
 	'group-test-sysop-member' => 'administrator del wiki de test',
@@ -1169,6 +1186,7 @@ $messages['ia'] = array(
 	'wminc-code-macrolanguage' => 'Le [[wikipedia:$2 language|lingua "$3"]] es un [[wikipedia:ISO 639 macrolanguage|macrolingua]] que se compone del sequente linguas membros:',
 	'wminc-code-collective' => 'Le codice "$1" non refere a un lingua specific, ma a un collection de linguas, a saper le [[wikipedia:$2 language|linguas "$3"]].',
 	'wminc-code-retired' => 'Iste codice de lingua ha essite cambiate e non plus refere al lingua original.',
+	'wminc-listusers-testwiki' => 'Tu vide le usatores que ha mittite lor preferentias de wiki de test a $1.',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1657,6 +1675,7 @@ $messages['nds-nl'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author McDutchie
  * @author SPQRobin
  * @author Siebrand
  */
@@ -1691,7 +1710,7 @@ $messages['nl'] = array(
 	'wminc-code-macrolanguage' => 'De [[wikipedia:$2 language|taal "$3"]] is een [[wikipedia:nl:Macrotaal|macrotaal]], die bestaat uit de volgende talen:',
 	'wminc-code-collective' => 'De code "$1" verwijst niet naar een specifieke taal, maar naar een verzameling talen, namelijk de [[wikipedia:$2 language|"$3" talen.]]',
 	'wminc-code-retired' => 'Deze taalcode is gewijzigd en verwijst niet meer naar de oorspronkelijke taal.',
-	'wminc-listusers-testwiki' => 'U bekijkt gebruikers die hun testwiki-instelling naar $1 hebben gezet.',
+	'wminc-listusers-testwiki' => 'U bekijkt gebruikers die hun testwiki-instelling op $1 hebben gezet.',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -2053,23 +2072,36 @@ $messages['ru'] = array(
  */
 $messages['rue'] = array(
 	'wminc-desc' => 'Тестова вікі про Інкубатор Вікімедіа',
+	'wminc-manual' => 'Інштрукція',
 	'wminc-listwikis' => 'Список вікіпроєктів',
 	'wminc-testwiki' => 'Вікі про тестованя:',
 	'wminc-testwiki-none' => 'Ніч/Вшытко',
+	'wminc-recentchanges-all' => 'Вшыткы послїднї зміны',
 	'wminc-prefinfo-language' => 'Ваш язык інтерфейсу не залежыть од языка тестовой вікі',
 	'wminc-prefinfo-code' => 'Языковый код ISO 639',
 	'wminc-prefinfo-project' => 'Выбрати проєкт Вікімедія (варіант Інкубатор про тых, што ся занимають общов роботов)',
 	'wminc-prefinfo-error' => 'Выбрали сьте проєкт, котрый потребує код языка.',
+	'wminc-error-move-unprefixed' => 'Хыба: Сторінка на яку пробуєте переменовати на [[{{MediaWiki:Helppage}}|не мать префікс або мать планый префікс]]!',
+	'wminc-error-wronglangcode' => "'''Хыба:''' Тота сторінка обсягує [[{{MediaWiki:Helppage}}|неплатный код языка]] \"\$1\"!",
+	'wminc-error-unprefixed' => "''Хыва:''' Тота сторінка [[{{MediaWiki:Helppage}}|не обсягує префіксы]]!",
+	'wminc-error-unprefixed-suggest' => "'''Хыба:''' Тота сторінка [[{{MediaWiki:Helppage}}|не обсягує префікс]]! Можете створити сторінку [[:$1]].",
+	'wminc-error-wiki-exists' => 'Тота вікі уж екзістує. Тоту сторінку можете найти на $1. Кідь тота вікі была недавно створена, просиме почекайте пару годин або днїв докы цалый обсяг є імпортованый.',
+	'wminc-error-wiki-sister' => 'Тота сторінка належыть до проєкту, котрый не є гостованый ту. Просиме, ідьте до $1, жебы сьте тоту вікі нашли.',
 	'randombytest' => 'Нагодна сторінка з тестовой вікі',
 	'randombytest-nopages' => 'Во вашій тестовій вікі немає сторінок у просторі мен $1.',
 	'wminc-viewuserlang' => 'Выглядати язык тай тестову вікі хоснователя',
 	'wminc-viewuserlang-user' => 'Мено хоснователя:',
 	'wminc-viewuserlang-go' => 'Перейти',
+	'wminc-userdoesnotexist' => 'Хоснователь "$1" не єствує.',
+	'wminc-ip' => '"$1" не є IP-адреса.',
 	'right-viewuserlang' => 'Відїти языковы наставлиня хоснователя і його тестову вікі',
 	'group-test-sysop' => 'Адміністраторы тестовой вікі',
 	'group-test-sysop-member' => 'Адміністратор тестовой вікі',
 	'grouppage-test-sysop' => 'Project:Адміністраторытестовой вікі',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|"$3" язык]] є [[wikipedia:ISO 639 macrolanguage|макроязыком]], што ся складать з наступных языків:',
+	'wminc-code-collective' => 'Код "$1" ся не односить до конкретного языка, але до дакількох здруженых під назвов [[wikipedia:$2 language|"$3"]].',
+	'wminc-code-retired' => 'Тот код языка быв зміненый і веце не реферує на конкретный язык',
+	'wminc-listusers-testwiki' => 'Перезерате хоснователїв, котры наставили їх тест вікі наставлїня на $1.',
 );
 
 /** Sanskrit (संस्कृत) */
