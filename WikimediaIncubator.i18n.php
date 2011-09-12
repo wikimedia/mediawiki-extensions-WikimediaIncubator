@@ -16,6 +16,7 @@ $messages['en'] = array(
 	'wminc-manual' => 'Manual',
 	'wminc-listwikis' => 'List of wikis',
 	'wminc-testwiki' => 'Test wiki:',
+	'wminc-testwiki-code' => 'Test wiki language:',
 	'wminc-testwiki-none' => 'None/All',
 	'wminc-recentchanges-all' => 'All recent changes',
 
@@ -57,6 +58,10 @@ $messages['en'] = array(
 
 	# Special:ListUsers
 	'wminc-listusers-testwiki' => 'You are viewing users who have set their test wiki preference to $1.',
+
+	# Search
+	'wminc-search-nocreate-nopref' => 'You searched for "$1". Please set your [[Special:Preferences|test wiki preference]] so we can tell you which page you can create!',
+	'wminc-search-nocreate-suggest' => 'You searched for "$1". You can create a page in your wiki at <b>[[$2]]</b>!',
 );
 
 /** Message documentation (Message documentation)
