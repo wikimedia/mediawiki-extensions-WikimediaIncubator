@@ -77,8 +77,10 @@ $messages['qqq'] = array(
 	'wminc-manual' => 'As in "handbook" (a page with a step-by-step guide).',
 	'wminc-listwikis' => 'List of wikis that are in Wikimedia Incubator. Please keep it short as it is used in the sidebar.',
 	'wminc-testwiki' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
+	'wminc-testwiki-code' => 'Used on Special:Preferences as the label for entering the language code of the test wiki.',
 	'wminc-testwiki-none' => "* Used on Special:Preferences when the user didn't select a test wiki preference (yet).
 * Used on Special:RecentChanges to show normal recent changes display.",
+	'wminc-recentchanges-all' => 'Used in the sidebar for a link to Special:RecentChanges (with default view of all changes).',
 	'wminc-prefinfo-language' => 'See [[:File:Incubator-testwiki-preference.jpg]]. Extra clarification for the (normal) language selection.',
 	'wminc-prefinfo-code' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-prefinfo-project' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
@@ -99,6 +101,8 @@ For more information see: http://www.mediawiki.org/wiki/Extension:WikimediaIncub
 	'wminc-viewuserlang-go' => "Text on the submit button to view the user's language and test wiki.
 
 {{Identical|Go}}",
+	'wminc-userdoesnotexist' => 'Used on Special:ViewUserLang when the entered user does not exist.',
+	'wminc-ip' => 'Used on Special:ViewUserLang which can only be used for logged in users. This error message is shown for IP addresses.',
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}
 The message says (in the long form): (This group has) "The ability to view the language and test wiki of a user". A user can set his language and test wiki through Special:Preferences.',
 	'group-test-sysop' => 'Name of the group of administrators of a specific test wiki on the Wikimedia Incubator.',
@@ -113,6 +117,8 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 * '''$3''' is the translated language name from CLDR, if available (otherwise, English) 
 It is best '''not''' to change the link to the Wikipedia article about the language.",
 	'wminc-listusers-testwiki' => 'Used on [[Special:ListUsers]]. $1 is either "Incubator" or a link to pages like "Wx/xyz".',
+	'wminc-search-nocreate-nopref' => 'Used on Special:Search. $1 is the search term.',
+	'wminc-search-nocreate-suggest' => 'Used on Special:Search. $1 is the search term, and $2 is the prefixed form of $1.',
 );
 
 /** Adyghe (Cyrillic) ()
@@ -549,6 +555,7 @@ $messages['de'] = array(
 	'wminc-manual' => 'Anleitung',
 	'wminc-listwikis' => 'Liste der Wikis',
 	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-code' => 'Sprache des Testwikis:',
 	'wminc-testwiki-none' => 'Keins/Alle',
 	'wminc-recentchanges-all' => 'Alle letzten Änderungen',
 	'wminc-prefinfo-language' => 'Sprache deiner Benutzeroberfläche - vom Testwiki unabhängig',
@@ -576,6 +583,8 @@ $messages['de'] = array(
 	'wminc-code-collective' => 'Der Code „$1“ bezieht sich nicht auf eine bestimmte Sprache, sondern auf eine Gruppe von Sprachen, namentlich die [[wikipedia:$2 language|Sprachen „$3“]].',
 	'wminc-code-retired' => 'Dieser Sprachcode wurde geändert und bezieht sich nicht mehr auf die ursprüngliche Sprache.',
 	'wminc-listusers-testwiki' => 'Du siehst Benutzer, die ihre Testwikieinstellung auf $1 eingestellt haben.',
+	'wminc-search-nocreate-nopref' => 'Du suchtest nach „$1“. Bitte lege die [[Special:Preferences|Einstellungen für Dein Testwiki]] fest, damit wir dir mitteilen können, welche Seite du erstellen kannst.',
+	'wminc-search-nocreate-suggest' => 'Du suchtest nach „$1“. Du kannst in Deinem Testwiki eine Seite unter <b>[[$2]]</b> erstellen.',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -590,6 +599,7 @@ $messages['de-formal'] = array(
 	'wminc-error-unprefixed-suggest' => "'''Fehler:''' Diese Seite hat [[{{MediaWiki:Helppage}}|kein Präfix]]. Sie können unter [[:$1]] eine Seite anlegen.",
 	'wminc-error-wiki-sister' => 'Diese Seite gehört zu einem Projekt, das nicht hier gehostet ist. Gehen Sie bitte zu $1, um das Wiki zu finden.',
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ Ihres Testwikis.',
+	'wminc-search-nocreate-nopref' => 'Sie suchten nach „$1“. Bitte legen Sie die [[Special:Preferences|Einstellungen für Ihr Testwiki]] fest, damit wir Ihnen mitteilen können, welche Seite Sie erstellen können.',
 );
 
 /** Zazaki (Zazaki)
@@ -956,6 +966,7 @@ $messages['gl'] = array(
 	'wminc-manual' => 'Manual',
 	'wminc-listwikis' => 'Lista dos wikis',
 	'wminc-testwiki' => 'Wiki de probas:',
+	'wminc-testwiki-code' => 'Lingua do wiki de probas:',
 	'wminc-testwiki-none' => 'Ningún/Todos',
 	'wminc-recentchanges-all' => 'Todos os cambios recentes',
 	'wminc-prefinfo-language' => 'A súa lingua da interface (independente do seu wiki de probas)',
@@ -983,6 +994,8 @@ $messages['gl'] = array(
 	'wminc-code-collective' => 'O código "$1" non se refire a unha lingua específica, senón a un conxunto de linguas, en particular, as [[wikipedia:$2 language|linguas "$3"]].',
 	'wminc-code-retired' => 'Este código de lingua cambiou e xa non se refire á lingua orixinal.',
 	'wminc-listusers-testwiki' => 'Está ollando os usuarios que estableceron as súas preferencias do wiki de probas en $1.',
+	'wminc-search-nocreate-nopref' => 'Fixo unha procura de "$1". Defina as súas [[Special:Preferences|preferencias do wiki de probas]] de xeito que poidamos dicirlle a páxina que pode crear!',
+	'wminc-search-nocreate-suggest' => 'Fixo unha procura de "$1". Pode crear unha páxina no wiki en "<b>[[$2]]</b>"!',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -1165,6 +1178,7 @@ $messages['ia'] = array(
 	'wminc-manual' => 'Manual',
 	'wminc-listwikis' => 'Lista de wikis',
 	'wminc-testwiki' => 'Wiki de test:',
+	'wminc-testwiki-code' => 'Lingua del wiki de test:',
 	'wminc-testwiki-none' => 'Nulle/Totes',
 	'wminc-recentchanges-all' => 'Tote le modificationes recente',
 	'wminc-prefinfo-language' => 'Le lingua de tu interfacie - independente de tu wiki de test',
@@ -1192,6 +1206,8 @@ $messages['ia'] = array(
 	'wminc-code-collective' => 'Le codice "$1" non refere a un lingua specific, ma a un collection de linguas, a saper le [[wikipedia:$2 language|linguas "$3"]].',
 	'wminc-code-retired' => 'Iste codice de lingua ha essite cambiate e non plus refere al lingua original.',
 	'wminc-listusers-testwiki' => 'Tu vide le usatores que ha mittite lor preferentias de wiki de test a $1.',
+	'wminc-search-nocreate-nopref' => 'Tu cercava "$1". Per favor specifica tu [[Special:Preferences|preferentias de wiki de test]] de sorta que nos pote dicer te le pagina que tu pote crear!',
+	'wminc-search-nocreate-suggest' => 'Tu cercava "$1". Tu pote crear un pagina in tu wiki a <b>[[$2]]</b>!',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1530,13 +1546,14 @@ $messages['mg'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'wminc-desc' => 'Тестирање на вики-систем за Викимедија Инкубаторот',
+	'wminc-desc' => 'Пробен вики-систем за Викимедииниот Инкубатор',
 	'wminc-manual' => 'Прирачник',
 	'wminc-listwikis' => 'Список на викија',
-	'wminc-testwiki' => 'Тест-вики:',
+	'wminc-testwiki' => 'Пробно вики:',
+	'wminc-testwiki-code' => 'Јазик на пробното вики:',
 	'wminc-testwiki-none' => 'Ништо/Сè',
 	'wminc-recentchanges-all' => 'Сите скорешни промени',
-	'wminc-prefinfo-language' => 'Јазикот на вашиот посредник - назависно од вашето тест-вики',
+	'wminc-prefinfo-language' => 'Јазикот на вашиот посредник - назависно од вашето пробно вики',
 	'wminc-prefinfo-code' => 'Јазичниот ISO 639 код',
 	'wminc-prefinfo-project' => 'Изберете го проектот (можноста за Инкубатор е за корисници кои работат општи задачи)',
 	'wminc-prefinfo-error' => 'Избравте проект на кој му треба јазичен код.',
@@ -1546,9 +1563,9 @@ $messages['mk'] = array(
 	'wminc-error-unprefixed-suggest' => "'''Грешка:''' Страницава [[{{MediaWiki:Helppage}}|нема префикс]]! Можете да создадете страница на [[:$1]].",
 	'wminc-error-wiki-exists' => 'Ова вики веќе постои. Страницата ќе ја најдете на $1. Ако в икито е новосоздадено, почекајте неколку часа или дена за да се увезат сите содржини.',
 	'wminc-error-wiki-sister' => 'Оваа страница припаѓа на проект што не е вдомен тука. Појдете на $1 за да го пронајдете викито.',
-	'randombytest' => 'Случајна страница од тест вики',
+	'randombytest' => 'Случајна страница од пробното вики',
 	'randombytest-nopages' => 'Не постојат страници на вашето пробно вики, во именскиот простор: $1.',
-	'wminc-viewuserlang' => 'Провери го јазикот на корисникот и неговото тест-вики',
+	'wminc-viewuserlang' => 'Провери го јазикот на корисникот и неговото пробно вики',
 	'wminc-viewuserlang-user' => 'Корисничко име:',
 	'wminc-viewuserlang-go' => 'Оди',
 	'wminc-userdoesnotexist' => 'Корисникот „$1“ не постои.',
@@ -1561,6 +1578,8 @@ $messages['mk'] = array(
 	'wminc-code-collective' => 'Кодот „$1“ не се однесува на поединечен јазик, туку на збирот јазици наречен [[wikipedia:$2 language|„$3“ јазици]].',
 	'wminc-code-retired' => 'Овој јазичен код е изменет и повеќе не се однесува на првоназначениот јазик.',
 	'wminc-listusers-testwiki' => 'Гледате корисници кои пробното вики го наместиле на $1.',
+	'wminc-search-nocreate-nopref' => 'Го баравте поимот „$1“. Задајте го [[Special:Preferences|нагодувањето на пробното вики]] за да ви соопштиме која страница можете да ја создадете!',
+	'wminc-search-nocreate-suggest' => 'Го баравте поимот „$1“. Можете да создадете страница во вашето вики на <b>[[$2]]</b>!',
 );
 
 /** Malayalam (മലയാളം)
@@ -2043,6 +2062,7 @@ $messages['ru'] = array(
 	'wminc-manual' => 'Руководство',
 	'wminc-listwikis' => 'список наших проектов',
 	'wminc-testwiki' => 'Пробная вики:',
+	'wminc-testwiki-code' => 'Язык проверочной вики:',
 	'wminc-testwiki-none' => 'Нет/все',
 	'wminc-recentchanges-all' => 'Все недавние правки',
 	'wminc-prefinfo-language' => 'Ваш язык интерфейса не зависит от вашей пробной вики',
@@ -2238,12 +2258,12 @@ $messages['sq'] = array(
 	'wminc-listwikis' => 'Lista e projekteve',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
-	'wminc-testwiki' => 'Тест-Вики:',
+	'wminc-testwiki' => 'Пробни вики:',
 	'wminc-testwiki-none' => 'Ништа/Све',
 	'wminc-viewuserlang-user' => 'Корисничко име:',
 	'wminc-viewuserlang-go' => 'Пређи',
@@ -2526,6 +2546,7 @@ $messages['vi'] = array(
 	'wminc-manual' => 'Hướng dẫn',
 	'wminc-listwikis' => 'Danh sách các wiki',
 	'wminc-testwiki' => 'Wiki thử:',
+	'wminc-testwiki-code' => 'Ngôn ngữ wiki thử nghiệm:',
 	'wminc-testwiki-none' => 'Không có / tất cả',
 	'wminc-recentchanges-all' => 'Mọi thay đổi gần đây',
 	'wminc-prefinfo-language' => 'Ngôn ngữ giao diện của bạn – có thể khác với wiki thử',
@@ -2553,6 +2574,8 @@ $messages['vi'] = array(
 	'wminc-code-collective' => 'Mã “$1” không phải chỉ đến một ngôn ngữ riêng mà chỉ đến nhóm ngôn ngữ [[wikipedia:$2 language|tiếng “$3”]].',
 	'wminc-code-retired' => 'Mã ngôn ngữ này đã thay đổi và không còn chỉ đến ngôn ngữ ban đầu.',
 	'wminc-listusers-testwiki' => 'Đây là danh sách những thành viên đã đặt tùy chọn wiki thử nghiệm là $1.',
+	'wminc-search-nocreate-nopref' => 'Bạn đã tìm kiếm cho “$1”. Xin vui lòng đặt [[Special:Preferences|tùy chọn wiki thử nghiệm]] để cho chúng tôi có thể cho biết bạn có thể tạo ra trang mới ở đâu!',
+	'wminc-search-nocreate-suggest' => "Bạn đã tìm kiếm cho “$1”. Bạn có thể tạo ra trang mới trong wiki thử nghiệm của bạn tại “'''[[$2]]'''”!",
 );
 
 /** Yiddish (ייִדיש)
