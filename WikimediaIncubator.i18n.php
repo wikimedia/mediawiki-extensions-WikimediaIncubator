@@ -1708,6 +1708,7 @@ $messages['nl'] = array(
 	'wminc-manual' => 'Handleiding',
 	'wminc-listwikis' => "Lijst met wiki's",
 	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-code' => 'Testwikitaal:',
 	'wminc-testwiki-none' => 'Geen/alles',
 	'wminc-recentchanges-all' => 'Alle recente wijzigingen',
 	'wminc-prefinfo-language' => 'Uw interfacetaal - onafhankelijk van uw testwiki',
@@ -1735,6 +1736,8 @@ $messages['nl'] = array(
 	'wminc-code-collective' => 'De code "$1" verwijst niet naar een specifieke taal, maar naar een verzameling talen, namelijk de [[wikipedia:$2 language|"$3" talen.]]',
 	'wminc-code-retired' => 'Deze taalcode is gewijzigd en verwijst niet meer naar de oorspronkelijke taal.',
 	'wminc-listusers-testwiki' => 'U bekijkt gebruikers die hun testwiki-instelling op $1 hebben gezet.',
+	'wminc-search-nocreate-nopref' => 'U zocht naar "$1". Stel uw [[Special:Preferences|testwikivoorkeur]] in zodat we u kunnen zeggen welke pagina u kunt aanmaken!',
+	'wminc-search-nocreate-suggest' => 'U zocht naar "$1". U kunt een pagina in uw testwiki aanmaken op <b>[[$2]]</b>!',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -2224,6 +2227,7 @@ $messages['sl'] = array(
 	'wminc-manual' => 'Priročnik',
 	'wminc-listwikis' => 'Seznam wikijev',
 	'wminc-testwiki' => 'Preizkusni wiki:',
+	'wminc-testwiki-code' => 'Jezik preizkusnega wikija:',
 	'wminc-testwiki-none' => 'Nič/Vse',
 	'wminc-recentchanges-all' => 'Vse zadnje spremembe',
 	'wminc-prefinfo-language' => 'Vaš jezik vmesnika – neodvisen od vašega preizkusnega wikija',
@@ -2251,6 +2255,8 @@ $messages['sl'] = array(
 	'wminc-code-collective' => 'Koda »$1« se ne nanaša na določen jezik, ampak na skupino jezikov, in sicer [[wikipedia:$2 language|jeziki »$3«]].',
 	'wminc-code-retired' => 'Koda jezika je spremenjena in se več ne nanaša na izvirni jezik.',
 	'wminc-listusers-testwiki' => 'Ogledujete si uporabnike, ki so nastavili svojo nastavitev preizkusnega wikija na $1.',
+	'wminc-search-nocreate-nopref' => 'Iskali ste »$1«. Prosimo, nastavite svoje [[Special:Preferences|nastavitve preizkusnega wikija]], tako da vam lahko povemo, katere strani lahko ustvarite!',
+	'wminc-search-nocreate-suggest' => 'Iskali ste »$1«. Ustvarite lahko stran v vašem wikiju na <b>[[$2]]</b>!',
 );
 
 /** Albanian (Shqip) */

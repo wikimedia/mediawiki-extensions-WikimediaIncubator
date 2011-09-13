@@ -472,6 +472,17 @@ $messages['rue'] = array(
 	'wminc-infopage-contribute' => 'Кідь розумієте тот язык, рекомендуєме, жебы сьте приспівали!',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'wminc-infopage-enter' => 'pojdi na glavno stran',
+	'wminc-unknownlang' => '(neznan jezik s kodo »$1«)',
+	'wminc-infopage-missingwiki-text' => '$1 v tem jeziku še ne obstaja.',
+	'wminc-infopage-option-startsister' => 'Če želite zagnati ta wiki, pojdite na <b>[$2 $1]</b>.',
+	'wminc-infopage-createmainpage' => 'Vnesite besedi »Glavna stran« v tem jeziku:',
+);
+
 /** Albanian (Shqip)
  * @author Olsi
  */
