@@ -460,9 +460,26 @@ $messages['pt-br'] = array(
 
 /** Russian (Русский)
  * @author Amdf
+ * @author Kaganer
  */
 $messages['ru'] = array(
+	'wminc-infopage-enter' => 'перейти на заглавную страницу',
+	'wminc-unknownlang' => '(неизвестный язык с кодом «$1»)',
+	'wminc-infopage-welcome' => 'Добро пожаловать в Инкубатор Викимедиа, проект Фонда Викимедиа ([[{{MediaWiki:Aboutpage}}|о проекте]])',
+	'wminc-infopage-missingwiki-text' => 'У $1 еще ​​нет раздела на этом языке.',
+	'wminc-infopage-option-startwiki' => 'Если вы хотите начать этот вики-проект,
+вы можете [{{fullurl:{{FULLPAGENAME}}|action=edit}} создать страницу] и следовать [[{{MediaWiki:Wminc-manual-url}}|нашему руководству]].',
+	'wminc-infopage-option-startsister' => 'Если вы хотите начать этот вики-проект, вы можете перейти к <b>[ $2  $1 ] </b>.',
+	'wminc-infopage-option-languages-existing' => 'Вы можете поискать [http://www.$1.org существующие языковые разделы для $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Вы можете поискать существующие проекты на этом языке:',
+	'wminc-infopage-option-sisterprojects-other' => 'Вы можете поискать другие проекты на этом языке:',
+	'wminc-infopage-option-multilingual' => 'Вы можете перейти к многоязычным вики-проектам:',
+	'wminc-infopage-createmainpage' => 'Введите на этом языке выражение, означающее «Заглавная страница»:',
 	'wminc-infopage-contribute' => 'Если вы понимаете этот язык, вы можете внести свой вклад!',
+	'wminc-infopage-status-imported' => 'Эта вики была импортирована в Инкубатор из $1 после того, как была закрыта.',
+	'wminc-infopage-status-closedsister' => 'Этот поддомен был закрыт. Перейти к <b>$2</b>, чтобы сделать свой вклад в эту вики.',
+	'wminc-infopage-status-created' => 'Этот проект был одобрен языковым комитетом и теперь доступен по адресу $1 .',
+	'wminc-infopage-status-beforeincubator' => 'Этот проект, созданный до запуска Инкубатора Викимедиа, доступен по адресу $1 .',
 );
 
 /** Rusyn (Русиньскый)
@@ -478,9 +495,21 @@ $messages['rue'] = array(
 $messages['sl'] = array(
 	'wminc-infopage-enter' => 'pojdi na glavno stran',
 	'wminc-unknownlang' => '(neznan jezik s kodo »$1«)',
+	'wminc-infopage-welcome' => 'Dobrodošli na Wikimediinem Inkubatorju, projektu Fundacije Wikimedia ([[{{MediaWiki:Aboutpage}}|O projektu]])',
 	'wminc-infopage-missingwiki-text' => '$1 v tem jeziku še ne obstaja.',
+	'wminc-infopage-option-startwiki' => 'Če želite zagnati ta wiki,
+lahko [{{fullurl:{{FULLPAGENAME}}|action=edit}} ustvarite stran] in sledite [[{{MediaWiki:Wminc-manual-url}}|našemu priročniku]].',
 	'wminc-infopage-option-startsister' => 'Če želite zagnati ta wiki, pojdite na <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Iščete lahko [http://www.$1.org obstoječe jezikovne izdaje $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Iščete lahko obstoječe projekte v tem jeziku:',
+	'wminc-infopage-option-sisterprojects-other' => 'Iščete lahko druge projekte v tem jeziku:',
+	'wminc-infopage-option-multilingual' => 'Greste lahko na večjezikovni wiki:',
 	'wminc-infopage-createmainpage' => 'Vnesite besedi »Glavna stran« v tem jeziku:',
+	'wminc-infopage-contribute' => 'Če znate ta jezik, ste vabljeni k prispevanju!',
+	'wminc-infopage-status-imported' => 'Ta wiki Inkubatorja je bil uvožen iz $1 po zaprtju wikija.',
+	'wminc-infopage-status-closedsister' => 'Poddomena je zaprta. Pojdite na <b>$2</b>, da prispevate k temu wikiju.',
+	'wminc-infopage-status-created' => 'Projekt je odobril  jezikovni odbor in je sedaj na voljo na $1.',
+	'wminc-infopage-status-beforeincubator' => 'Projekt je nastal pred zagonom Wikimediinega Inkubatorja in je na voljo na $1.',
 );
 
 /** Albanian (Shqip)

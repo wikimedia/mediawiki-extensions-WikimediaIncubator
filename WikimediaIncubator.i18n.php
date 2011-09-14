@@ -1633,6 +1633,7 @@ $messages['ms'] = array(
 	'wminc-manual' => 'Manual',
 	'wminc-listwikis' => 'Senarai wiki',
 	'wminc-testwiki' => 'Wiki ujian:',
+	'wminc-testwiki-code' => 'Bahasa wiki ujian:',
 	'wminc-testwiki-none' => 'Tiada/Semua',
 	'wminc-recentchanges-all' => 'Semua perubahan terkini',
 	'wminc-prefinfo-language' => 'Bahasa antaramuka anda - bebas dari wiki ujian anda',
@@ -1660,6 +1661,8 @@ $messages['ms'] = array(
 	'wminc-code-collective' => 'Kod "$1" tidak merujuk kepada satu bahasa yang tertentu, sebaliknya merujuk kepada koleksi bahasa, iaitu [[wikipedia:$2 language|rumpun bahasa "$3"]].',
 	'wminc-code-retired' => 'Kod bahasa ini sudah berubah dan tidak lagi merujuk kepada bahasa asal.',
 	'wminc-listusers-testwiki' => 'Anda sedang melihat pengguna-pengguna yang menetapkan keutamaan wiki ujian mereka kepada $1.',
+	'wminc-search-nocreate-nopref' => 'Anda mencari "$1". Sila tetapkan [[Special:Preferences|keutamaan wiki ujian]] anda supaya kami boleh memberitahu anda laman yang mana boleh anda buat!',
+	'wminc-search-nocreate-suggest' => 'Anda mencari "$1". Anda boleh membuat laman dalam wiki anda di <b>[[$2]]</b>!',
 );
 
 /** Maltese (Malti)
@@ -1731,8 +1734,8 @@ $messages['nl'] = array(
 	'wminc-code-collective' => 'De code "$1" verwijst niet naar een specifieke taal, maar naar een verzameling talen, namelijk de [[wikipedia:$2 language|"$3" talen.]]',
 	'wminc-code-retired' => 'Deze taalcode is gewijzigd en verwijst niet meer naar de oorspronkelijke taal.',
 	'wminc-listusers-testwiki' => 'U bekijkt gebruikers die hun testwiki-instelling op $1 hebben gezet.',
-	'wminc-search-nocreate-nopref' => 'U zocht naar "$1". Stel uw [[Special:Preferences|testwikivoorkeur]] in zodat we u kunnen zeggen welke pagina u kunt aanmaken!',
-	'wminc-search-nocreate-suggest' => 'U zocht naar "$1". U kunt een pagina in uw testwiki aanmaken op <b>[[$2]]</b>!',
+	'wminc-search-nocreate-nopref' => 'U hebt gezocht naar "$1". Stel uw [[Special:Preferences|testwikivoorkeur]] in zodat we u kunnen aangeven welke pagina u kunt aanmaken.',
+	'wminc-search-nocreate-suggest' => 'U hebt gezocht naar "$1". U kunt een pagina in uw testwiki aanmaken op <b>[[$2]]</b>.',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -2088,6 +2091,8 @@ $messages['ru'] = array(
 	'wminc-code-collective' => 'Код «$1» относится не к конкретному языку, а к группе из нескольких языков, под общим названием [[wikipedia:$2 language|«$3»]].',
 	'wminc-code-retired' => 'Этот код языка был изменён и больше не ссылается на определённый язык.',
 	'wminc-listusers-testwiki' => 'Вы просматриваете участников, которые установили в настройку тестовой вики $1.',
+	'wminc-search-nocreate-nopref' => 'Вы искали «$1». Пожалуйста, задайте свои [[Special:Preferences|персональные настройки тестовой вики]], чтобы мы могли подсказать вам, какие страницы вы можете создавать!',
+	'wminc-search-nocreate-suggest' => 'Вы искали «$1». Вы можете создать в своей вики страницу <b>[[$2]]</b>!',
 );
 
 /** Rusyn (Русиньскый)
