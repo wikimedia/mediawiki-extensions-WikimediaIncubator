@@ -16,7 +16,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '4.5',
+	'version' => '4.4',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -149,8 +149,3 @@ $wgAutoloadClasses['ListUsersTestWiki'] = $dir . 'ListUsersTestWiki.php';
 $wgHooks['SpecialListusersHeaderForm'][] = 'ListUsersTestWiki::onSpecialListusersHeaderForm';
 $wgHooks['SpecialListusersQueryInfo'][] = 'ListUsersTestWiki::onSpecialListusersQueryInfo';
 $wgHooks['SpecialListusersHeader'][] = 'ListUsersTestWiki::onSpecialListusersHeader';
-
-/* Search in test wiki */
-$wgHooks['SpecialSearchCreateLink'][] = 'IncubatorTest::onSpecialSearchCreateLink';
-$wgHooks['SpecialSearchPowerBox'][] = 'IncubatorTest::onSpecialSearchPowerBox';
-$wgHooks['SpecialSearchSetupEngine'][] = 'IncubatorTest::onSpecialSearchSetupEngine';

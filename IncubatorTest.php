@@ -35,7 +35,7 @@ class IncubatorTest {
 		$prefinsert[$wmincPref . '-code'] = array(
 			'type' => 'text',
 			'section' => 'personal/i18n',
-			'label-message' => 'wminc-testwiki-code',
+			'label-message' => 'wminc-testwiki',
 			'id' => $wmincPref . '-code',
 			'maxlength' => (int)$wmincLangCodeLength,
 			'size' => (int)$wmincLangCodeLength,
@@ -692,62 +692,6 @@ class IncubatorTest {
 			return true; # Not for info pages (prefix == title)
 		}
 		$pageLang = $prefix['lang'];
-		return true;
-	}
-
-	/**
-	 * Search: Adapt the default message to show a more descriptive one,
-	 * along with an adapted link.
-	 * @return true
-	 */
-	public static function onSpecialSearchCreateLink( $title, &$params ) {
-		if( $title->isKnown() ) {
-			return true;
-		}
-		global $wmincProjectSite, $wmincTestWikiNamespaces;
-		$prefix = self::displayPrefix();
-
-		$newNs = $title->getNamespace();
-		$newTitle = $title->getText();
-		if( $prefix == $wmincProjectSite['short'] ) {
-			$newNs = NS_PROJECT;
-		} else {
-			if( !in_array( $title->getNamespace(), $wmincTestWikiNamespaces ) ) {
-				$newNs = $wmincTestWikiNamespaces[0]; # no "valid" NS, should be main NS
-			}
-			$newTitle = $prefix . '/' . $newTitle;
-		}
-
-		$t = Title::newFromText( $newTitle, $newNs );
-		if( $t->isKnown() ) {
-			# use the default message if the suggested title exists
-			$params[0] = 'searchmenu-exists';
-			$params[1] = wfEscapeWikiText( $t->getPrefixedText() );
-			return true;
-		}
-		$params[] = wfEscapeWikiText( $t->getPrefixedText() );
-		$params[0] = $prefix ? 'wminc-search-nocreate-suggest' :'wminc-search-nocreate-nopref';
-		return true;
-	}
-
-	/**
-	 * Search: Add an input form to enter a test wiki prefix.
-	 * @return true
-	 */
-	public static function onSpecialSearchPowerBox( &$showSections, $term, $opts ) {
-		$showSections['testwiki'] = Xml::label( wfMsg( 'wminc-testwiki' ), 'testwiki' ) . ' ' .
-			Xml::input( 'testwiki', 20, self::displayPrefix(), array( 'id' => 'testwiki' ) );
-		return true;
-	}
-
-	/**
-	 * Search: Search by default in the test wiki of the user's preference (or url &testwiki).
-	 * @return true
-	 */
-	public static function onSpecialSearchSetupEngine( $search, $profile, $engine ) {
-		if( !isset( $search->prefix ) || !$search->prefix ) {
-			$search->prefix = self::displayPrefix();
-		}
 		return true;
 	}
 
