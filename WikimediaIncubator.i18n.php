@@ -2507,6 +2507,7 @@ $messages['uk'] = array(
 	'wminc-manual' => 'Інструкція',
 	'wminc-listwikis' => 'Перелік вікіпроектів',
 	'wminc-testwiki' => 'Тестова вікі:',
+	'wminc-testwiki-code' => 'Мова тестової вікі:',
 	'wminc-testwiki-none' => 'Жодна або всі',
 	'wminc-recentchanges-all' => 'Усі останні зміни',
 	'wminc-prefinfo-language' => 'Мова інтерфейсу (залежить від мови тестової вікі)',
@@ -2534,6 +2535,8 @@ $messages['uk'] = array(
 	'wminc-code-collective' => 'Код "$1" відноситься не до конкретної мови, а до декількох, об\'єднаних під загальною назвою [[wikipedia:$2 language|"$3"]].',
 	'wminc-code-retired' => 'Цей код мови було змінено, код більше не посилається на конкретну мову.',
 	'wminc-listusers-testwiki' => 'Ви переглядаєте користувачів, які встановили налаштування тестової вікі  $1.',
+	'wminc-search-nocreate-nopref' => 'Ви шукали "$1". Будь ласка, задайте власні [[Special:Preferences|налаштування тестової вікі]], аби ми могли підказати, які сторінки ви можете створити!',
+	'wminc-search-nocreate-suggest' => 'Ви шукали "$1". Можете створити сторінку <b>[[$2]]</b>!',
 );
 
 /** Veps (Vepsan kel')

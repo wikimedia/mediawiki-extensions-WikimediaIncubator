@@ -414,6 +414,12 @@ $messages['nl'] = array(
 $messages['pl'] = array(
 	'wminc-infopage-enter' => 'przejdź do strony głównej',
 	'wminc-unknownlang' => '(nieznany język o kodzie „$1“)',
+	'wminc-infopage-createmainpage' => 'Wpisz „Strona główna“ w tym języku',
+	'wminc-infopage-contribute' => 'Jeśli znasz ten język zachęcamy Cię do wzięcia udziału w tworzeniu tej wiki!',
+	'wminc-infopage-status-imported' => 'Do inkubatora wiki zaimportowano treść z $1 po tym jak wiki została zamknięta.',
+	'wminc-infopage-status-closedsister' => 'Ta domena podrzędna została zamknięta. Przejdź pod adres <b>$2</b> jeśli chcesz współtworzyć tę wiki.',
+	'wminc-infopage-status-created' => 'Projekt został zatwierdzony przez komisję językową i jest już dostępny pod adresem $1.',
+	'wminc-infopage-status-beforeincubator' => 'Ten projekt został utworzony zanim został uruchomiony Inkubator Wikimedia i jest dostępny pod adresem $1.',
 );
 
 /** Portuguese (Português)
@@ -521,9 +527,26 @@ $messages['sq'] = array(
 
 /** Ukrainian (Українська)
  * @author Andrijko Z.
+ * @author Dim Grits
  */
 $messages['uk'] = array(
+	'wminc-infopage-enter' => 'до Головної сторінки',
+	'wminc-unknownlang' => '(Невідома мова з кодом "$1")',
+	'wminc-infopage-welcome' => 'Ласкаво просимо до Інкубатора Вікімедіа. [[{{MediaWiki:Aboutpage}}|Інформація]] про цей проект Фонду Вікімедіа',
+	'wminc-infopage-missingwiki-text' => '$1 ще не має розділу даною мовою.',
+	'wminc-infopage-option-startwiki' => 'Якщо ви бажаєте започаткувати цей вікіпроект,
+можете [{{fullurl:{{FULLPAGENAME}}|action=edit}} створити сторінку] та дотримуватись порад [[{{MediaWiki:Wminc-manual-url}}|нашої інструкції]].',
+	'wminc-infopage-option-startsister' => 'Якщо ви хочете започаткувати цей вікіпроект, ви можете звернутися до <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Ви можете пошукати серед [http://www.$1.org існуючих мовних розділів $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Ви можете пошукати існуючі проекти цією мовою:',
+	'wminc-infopage-option-sisterprojects-other' => 'Ви можете пошукати інші проекти цією мовою:',
+	'wminc-infopage-option-multilingual' => 'Ви можете перейти до багатомовних вікіпроектів:',
+	'wminc-infopage-createmainpage' => 'Введіть фразу «Головна сторінка» на цій мові:',
 	'wminc-infopage-contribute' => 'Якщо ви розумієте цю мову, ви можете внести свій вклад!',
+	'wminc-infopage-status-imported' => 'Ця вікі була перенесена до Інкубатору з $1 після її закриття.',
+	'wminc-infopage-status-closedsister' => 'Цей піддомен було закрито. Перейти до <b>$2</b>, щоб зробити внесок до цієї вікі.',
+	'wminc-infopage-status-created' => 'Цей проект було схвалено мовним комітетом і тепер він доступний на $1.',
+	'wminc-infopage-status-beforeincubator' => 'Цей проект було створено до існування Інкубатора Вікімедіа, доступний $1.',
 );
 
 /** Vietnamese (Tiếng Việt)
