@@ -425,6 +425,7 @@ $messages['pl'] = array(
 /** Portuguese (Português)
  * @author Carla404
  * @author Hamilton Abreu
+ * @author SandroHc
  */
 $messages['pt'] = array(
 	'wminc-infopage-enter' => 'ir para a Página principal',
@@ -433,6 +434,7 @@ $messages['pt'] = array(
 	'wminc-infopage-missingwiki-text' => 'Ainda não existe um projecto $1 nesta língua.',
 	'wminc-infopage-option-startwiki' => 'Se pretende iniciar esta wiki,
 pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{MediaWiki:Wminc-manual-url}}|manual]].',
+	'wminc-infopage-option-startsister' => 'Se queres começar esta wiki, podes ir a <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Pode pesquisar as [http://www.$1.org edições de $1 nas línguas existentes].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Pode pesquisar os projectos existentes nesta língua:',
 	'wminc-infopage-option-sisterprojects-other' => 'Pode pesquisar outros projectos nesta língua:',
@@ -440,6 +442,7 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 	'wminc-infopage-createmainpage' => 'Introduza o termo "Página principal" nesta língua:',
 	'wminc-infopage-contribute' => 'Se conhece esta língua, está convidado a colaborar!',
 	'wminc-infopage-status-imported' => 'Esta wiki da Incubadora foi importada de $1 após a wiki ter sido fechada.',
+	'wminc-infopage-status-closedsister' => 'Este subdomínio foi fechado. Vá a <b>$2</b> para contribuír nesta wiki.',
 	'wminc-infopage-status-created' => 'Este projecto foi aprovado pelo comité linguístico e está agora disponível em $1.',
 	'wminc-infopage-status-beforeincubator' => 'Este projecto foi criado antes do início da Incubadora Wikimedia e está disponível em $1.',
 );

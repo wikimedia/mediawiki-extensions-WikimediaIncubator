@@ -370,7 +370,7 @@ $messages['be-tarask'] = array(
 	'wminc-viewuserlang-user' => 'Імя ўдзельніка:',
 	'wminc-viewuserlang-go' => 'Перайсьці',
 	'wminc-userdoesnotexist' => 'Удзельнік «$1» не існуе.',
-	'wminc-ip' => '"$1" — гэта IP-адрэса.',
+	'wminc-ip' => '«$1» — IP-адрас.',
 	'right-viewuserlang' => 'прагляд мовы ўдзельніка і тэставаньне вікі',
 	'group-test-sysop' => 'Адміністратары тэставай вікі',
 	'group-test-sysop-member' => 'адміністратар тэставай вікі',
@@ -378,7 +378,7 @@ $messages['be-tarask'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 мова|«$3» мова]] зьяўляецца [[wikipedia:ISO 639 macrolanguage|макрамовай]], якая ўтрымлівае наступную колькасьць моваў:',
 	'wminc-code-collective' => 'Код «$1» адносіцца не да пэўнай мовы, а да набору моваў, а менавіта да [[wikipedia:$2 language|«$3»]].',
 	'wminc-code-retired' => 'Гэты код мовы быў зьменены і болей не датычыцца арыгінальнай мовы.',
-	'wminc-listusers-testwiki' => 'Вы праглядаеце ўдзельнікаў, якія ў сваёй тэставай вікі абралі наладку $1.',
+	'wminc-listusers-testwiki' => 'Вы праглядаеце ўдзельнікаў, якія ў сваёй тэставай вікі выбралі наладу $1.',
 );
 
 /** Bulgarian (Български)
@@ -1912,6 +1912,7 @@ $messages['ps'] = array(
  * @author Lijealso
  * @author Malafaya
  * @author MetalBrasil
+ * @author SandroHc
  * @author Waldir
  */
 $messages['pt'] = array(
@@ -1919,6 +1920,7 @@ $messages['pt'] = array(
 	'wminc-manual' => 'Manual',
 	'wminc-listwikis' => 'Lista de wikis',
 	'wminc-testwiki' => 'Wiki de testes:',
+	'wminc-testwiki-code' => 'Língua da wiki de teste:',
 	'wminc-testwiki-none' => 'Nenhum/Tudo',
 	'wminc-recentchanges-all' => 'Todas as mudanças recentes',
 	'wminc-prefinfo-language' => 'A língua da interface - independente da língua da sua wiki de testes',
@@ -1946,6 +1948,8 @@ $messages['pt'] = array(
 	'wminc-code-collective' => 'O código "$1" não se refere a uma língua específica, mas sim a um conjunto de línguas, nomeadamente as [[wikipedia:$2 language|línguas "$3"]].',
 	'wminc-code-retired' => 'O código de língua foi alterado e já não se refere à língua original.',
 	'wminc-listusers-testwiki' => 'Você está a visualizar os usuários que tem suas preferências de test wiki a $1.',
+	'wminc-search-nocreate-nopref' => 'Tu procuras-te "$1". Por favor, coloca a tua [[Special:Preferences|preferência de wiki de testes]] para nós podermos dizer-te que página podes criar!',
+	'wminc-search-nocreate-suggest' => 'Tu procuras-te "$1". Podes criar uma página na tua wiki em <b>[[$2]]</b>!',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
