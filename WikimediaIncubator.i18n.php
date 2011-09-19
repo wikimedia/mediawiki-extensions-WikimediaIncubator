@@ -929,6 +929,7 @@ $messages['frp'] = array(
 	'wminc-manual' => 'Manuâl',
 	'wminc-listwikis' => 'Lista des vouiquis',
 	'wminc-testwiki' => 'Vouiqui d’èprôva :',
+	'wminc-testwiki-code' => 'Lengoua du vouiqui d’èprôva :',
 	'wminc-testwiki-none' => 'Nion / tôs',
 	'wminc-recentchanges-all' => 'Tôs los dèrriérs changements',
 	'wminc-prefinfo-language' => 'Voutra lengoua d’entèrface - endèpendenta de cela de voutron vouiqui d’èprôva',
@@ -1441,6 +1442,7 @@ $messages['lb'] = array(
 	'wminc-manual' => 'Handbuch',
 	'wminc-listwikis' => 'Lëscht vun de Wikien',
 	'wminc-testwiki' => 'Test-Wiki:',
+	'wminc-testwiki-code' => 'Sprooch vun der Testwiki:',
 	'wminc-testwiki-none' => 'Keen/All',
 	'wminc-recentchanges-all' => 'All rezent Ännerungen',
 	'wminc-prefinfo-language' => 'Sprooch vun ärem Interface - onofhängeg vun Ärer Test-Wiki',
@@ -1456,6 +1458,8 @@ $messages['lb'] = array(
 	'wminc-userdoesnotexist' => "De Benotzer ''$1'' gëtt et net.",
 	'wminc-ip' => '"$1" ass eng IP-Adress.',
 	'right-viewuserlang' => 'Benotzersprooch an Test-Wiki weisen',
+	'group-test-sysop' => 'Adminstrateure vun der Testwiki',
+	'group-test-sysop-member' => 'Adminstrateur vun der Testwiki',
 	'wminc-code-retired' => "Dëse Sproochcode gouf geännert a bezitt sech net méi op d'Original-Sprooch.",
 );
 
