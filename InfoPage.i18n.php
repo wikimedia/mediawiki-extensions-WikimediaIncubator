@@ -269,6 +269,29 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear esta páxina] e seguir [[{{
 	'wminc-infopage-status-beforeincubator' => 'Este proxecto foi creado antes cá Incubadora da Wikimedia e está dispoñible en $1.',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'wminc-infopage-enter' => 'אל הדף הראשי',
+	'wminc-unknownlang' => '(שפה לא ידועה עם הקוד "$1")',
+	'wminc-infopage-welcome' => 'ברוכים הבאים לאינקובטור של ויקימדיה, מיזם של קרן ויקימדיה ([[{{MediaWiki:Aboutpage}}|אודות]])',
+	'wminc-infopage-missingwiki-text' => 'מיזם $1 בשפה הזאת טרם נוצר.',
+	'wminc-infopage-option-startwiki' => 'אם אתם רוצים להתחיל את הוויקי הזה,
+אתם יכולים [{{fullurl:{{FULLPAGENAME}}|action=edit}} ליצור דף] ולעקום אחר [[{{MediaWiki:Wminc-manual-url}}|ספר ההוראות שלנו]].',
+	'wminc-infopage-option-startsister' => 'אם אתם רוצים להתחיל את הוויקי הזה, תוכלו ללכת ל־<b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'אפשר לחפש [http://www.$1.org מהדורות לשוניות קיימות של $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'אפשר לחפש מיזמים קיימים בשפה הזאת:',
+	'wminc-infopage-option-sisterprojects-other' => 'אפשר לחפש מיזמים אחרים בשפה הזאת:',
+	'wminc-infopage-option-multilingual' => 'אפשר ללכת לוויקי רב־לשוני:',
+	'wminc-infopage-createmainpage' => 'כתבו את המילה "דף ראשי" בשפתכם:',
+	'wminc-infopage-contribute' => 'אם אתם יודעים את השפה הזאת, אנו מפצירים בכם לתרום למיזם!',
+	'wminc-infopage-status-imported' => 'ויקי האינקובטור הזה יובא מ{{GRAMMAR:תחילית|$1}} אחרי שהוויקי ההוא נסגר.',
+	'wminc-infopage-status-closedsister' => 'התת־מתחם הזה נסגר. לכו אל <b>$2</b> כדי לתרום לוויקי הזה.',
+	'wminc-infopage-status-created' => 'הוועדה הלשונית אישרה את המיזם הזה ואפשר למצוא אותו ב{{GRAMMAR:תחילית|$1}}.',
+	'wminc-infopage-status-beforeincubator' => 'המיזם הזה נוצר לפני שהוקם האינקובטור של ויקימדיה והוא זמין ב{{GRAMMAR:תחילית|$1}}.',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -533,6 +556,24 @@ lahko [{{fullurl:{{FULLPAGENAME}}|action=edit}} ustvarite stran] in sledite [[{{
  */
 $messages['sq'] = array(
 	'wminc-infopage-contribute' => 'Nëse e dini këtë gjuhë, jeni të inkurajuar të kontribuoni!',
+);
+
+/** Swedish (Svenska)
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'wminc-infopage-enter' => 'gå till huvudsidan',
+	'wminc-unknownlang' => '(okänt språk med koden "$1")',
+	'wminc-infopage-welcome' => 'Välkommen till Wikimedia Incubator, ett projekt av Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Om]])',
+	'wminc-infopage-option-languages-existing' => 'Du kan söka efter [http://www.$1.org befintliga språkversioner av $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Du kan söka efter befintliga projekt på detta språk:',
+	'wminc-infopage-option-sisterprojects-other' => 'Du kan söka efter andra projekt på detta språk:',
+	'wminc-infopage-option-multilingual' => 'Du kan gå till en flerspråkig wiki:',
+	'wminc-infopage-contribute' => 'Om du kan detta språk, uppmuntras du att bidra!',
+	'wminc-infopage-status-imported' => 'Denna Incubator-wiki har importerats från $1 efter det att wikin stängdes.',
+	'wminc-infopage-status-closedsister' => 'Denna underdomän har stängts. Gå till <b>$2</b> för att bidra till denna wiki.',
+	'wminc-infopage-status-created' => 'Detta projekt har godkänts av språkkommittén och finns nu på $1.',
+	'wminc-infopage-status-beforeincubator' => 'Detta projekt skapades före Wikimedia Incubator startade och finns på $1.',
 );
 
 /** Ukrainian (Українська)

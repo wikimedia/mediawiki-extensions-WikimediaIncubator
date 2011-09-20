@@ -1056,6 +1056,7 @@ $messages['he'] = array(
 	'wminc-manual' => 'ספר הוראות',
 	'wminc-listwikis' => 'רשימת אתרי ויקי',
 	'wminc-testwiki' => 'אתר ויקי ניסיוני:',
+	'wminc-testwiki-code' => 'שפת ויקי הבדיקה:',
 	'wminc-testwiki-none' => 'הכול/לא כלום',
 	'wminc-recentchanges-all' => 'כל השינויים האחרונים',
 	'wminc-prefinfo-language' => 'שפת הממשק שלכם – בלתי תלויה באתר הוויקי הניסיוני שלכם',
@@ -1083,6 +1084,8 @@ $messages['he'] = array(
 	'wminc-code-collective' => 'הקוד "$1" לא מתייחס לשפה מסוימת, אלא לאוסף שפות, [[wikipedia:$2 language|"$3"]].',
 	'wminc-code-retired' => 'קוד השפה הזה השתנה וכבר אינו מתייחס לשפה המקורית.',
 	'wminc-listusers-testwiki' => 'זוהי רשימת משתמשים שבחרו ב־$1 בתור ויקי הבדיקה שלהם.',
+	'wminc-search-nocreate-nopref' => 'חיפשתם "$1". אנא הגדירו את [[Special:Preferences|העדפות ויקי הבדיקות שלכם]] כדי שנוכל לומר לכם איזה דף אתם יכולים ליצור!',
+	'wminc-search-nocreate-suggest' => 'חיפשתם "$1". אפשר ליצור דף בוויקי שלכם ב־<b>[[$2]]</b>!',
 );
 
 /** Hiligaynon (Ilonggo)
