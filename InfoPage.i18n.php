@@ -388,7 +388,18 @@ $messages['mk'] = array(
  * @author Praveenp
  */
 $messages['ml'] = array(
+	'wminc-infopage-enter' => 'പ്രധാന താളിലേയ്ക്ക് പോവുക',
+	'wminc-unknownlang' => '("$1" എന്ന കോഡോടു കൂടിയ അപരിചിതമായ ഭാഷ)',
+	'wminc-infopage-missingwiki-text' => 'ഈ ഭാഷയിൽ $1 നിലവിലില്ല.',
+	'wminc-infopage-option-startwiki' => 'താങ്കൾക്ക് ഈ വിക്കി തുടങ്ങണമെന്നുണ്ടെങ്കിൽ [{{fullurl:{{FULLPAGENAME}}|action=edit}} താൾ സൃഷ്ടിച്ച ശേഷം] [[{{MediaWiki:Wminc-manual-url}}|ഞങ്ങളുടെ വഴികാട്ടി]] പിന്തുടരുക.',
+	'wminc-infopage-option-startsister' => 'താങ്കൾക്ക് ഈ വിക്കി തുടങ്ങണമെന്നുണ്ടെങ്കിൽ, <b>[$2 $1]</b> എന്ന താളിൽ ചെല്ലുക.',
+	'wminc-infopage-option-languages-existing' => '[http://www.$1.org $1 പദ്ധതിയുടെ നിലവിലുള്ള ഭാഷാപതിപ്പുകൾ] താങ്കൾക്ക് തിരയാവുന്നതാണ്.',
+	'wminc-infopage-option-sisterprojects-existing' => 'ഈ ഭാഷയിൽ നിലവിലുള്ള സംരംഭങ്ങൾ താങ്കൾക്ക് തിരയാവുന്നതാണ്:',
+	'wminc-infopage-option-sisterprojects-other' => 'ഈ ഭാഷയിൽ നിലവിലുള്ള ഇതര സംരംഭങ്ങൾ താങ്കൾക്ക് തിരയാവുന്നതാണ്:',
+	'wminc-infopage-option-multilingual' => 'താങ്കൾക്ക് ബഹുഭാഷാവിക്കിയിലേയ്ക്ക് പോകാവുന്നതാണ്:',
 	'wminc-infopage-createmainpage' => 'ഈ ഭാഷയിൽ "പ്രധാന താൾ" എന്നതിനു സമാനമായ പദം നൽകുക:',
+	'wminc-infopage-contribute' => 'താങ്കൾക്ക് ഈ ഭാഷ അറിയാമെങ്കിൽ, അതിൽ സംഭാവന ചെയ്യാൻ താത്പര്യപ്പെടുന്നു!',
+	'wminc-infopage-status-created' => 'ഈ സംരംഭം ഭാഷാ കമ്മിറ്റി അംഗീകരിച്ചിരിക്കുന്നു, അതിപ്പോൾ $1 എന്നു ലഭ്യമാണ്.',
 );
 
 /** Malay (Bahasa Melayu)

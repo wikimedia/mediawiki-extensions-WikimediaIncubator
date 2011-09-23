@@ -1598,6 +1598,7 @@ $messages['ml'] = array(
 	'wminc-manual' => 'സഹായഗ്രന്ഥം',
 	'wminc-listwikis' => 'വിക്കികളുടെ പട്ടിക',
 	'wminc-testwiki' => 'പരീക്ഷണ വിക്കി:',
+	'wminc-testwiki-code' => 'പരീക്ഷണ വിക്കിയുടെ ഭാഷ:',
 	'wminc-testwiki-none' => 'ഒന്നുമില്ല/എല്ലാം',
 	'wminc-recentchanges-all' => 'എല്ലാ സമീപകാല മാറ്റങ്ങളും',
 	'wminc-prefinfo-language' => 'താങ്കളുടെ സമ്പർക്കമുഖ ഭാഷ - താങ്കളുടെ പരീക്ഷണ വിക്കിയിൽ നിന്ന് സ്വതന്ത്രം',
