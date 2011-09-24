@@ -115,6 +115,13 @@ $messages['be-tarask'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Гэты праект быў створаны перад пачаткам функцыянаваньня Інкубатара фундацыі «Вікімэдыя» і ён даступны на $1.',
 );
 
+/** Breton (Brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'wminc-infopage-enter' => "mont d'ar Bajenn Degemer",
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author MF-Warburg

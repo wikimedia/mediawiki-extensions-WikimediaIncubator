@@ -426,9 +426,12 @@ $messages['bn'] = array(
 
 /** Breton (Brezhoneg)
  * @author Fulup
+ * @author Y-M D
  */
 $messages['br'] = array(
 	'wminc-desc' => 'Reizhiad testiñ wiki evit Wikimedia Incubator',
+	'wminc-manual' => 'Dre zorn',
+	'wminc-listwikis' => 'Roll ar wikioù',
 	'wminc-testwiki' => 'Wiki testiñ :',
 	'wminc-testwiki-none' => 'Hini ebet / An holl',
 	'wminc-recentchanges-all' => 'An holl gemmoù diwezhañ',
