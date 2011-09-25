@@ -360,6 +360,15 @@ $messages['lb'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Dëse Projet gouf ugeluecht ier et Wikimedia Incubator gouf an ass op $1 disponibel.',
 );
 
+/** Limburgish (Limburgs)
+ * @author Ooswesthoesbes
+ */
+$messages['li'] = array(
+	'wminc-infopage-enter' => "gank achter g'm veurblaaje",
+	'wminc-unknownlang' => '(ónbekèndj spraok mid g\'r koeaj "$1")',
+	'wminc-infopage-welcome' => "Wèlkóm bie g'm Wikimedia Incubator, e perjèk dèr Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|mieër info]])",
+);
+
 /** Lithuanian (Lietuvių)
  * @author Matasg
  */
