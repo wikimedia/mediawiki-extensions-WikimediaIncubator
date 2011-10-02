@@ -322,8 +322,10 @@ class IncubatorTest {
 			$link = self::getSubdomain( $prefixdata['lang'],
 				$prefixdata['project'], ( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
 				str_replace( ' ', '_', $prefixdata['realtitle'] ) );
+			# faking external link to support prot-rel URLs
+			$link = "[$link ". self::makeExternalLinkText( $link ) . "]";
 			$result[] = array( 'wminc-error-wiki-exists', $link );
-			return false;
+			return $action == 'delete' ? true : false;
 		}
 
 		if( !self::shouldWeShowUnprefixedError( $title ) || $action != 'create' ) {
@@ -467,7 +469,6 @@ class IncubatorTest {
 		if( $prefix['error'] ) { # We are not on info pages
 			global $wmincSisterProjects;
 			$prefix2 = self::analyzePrefix( $title->getText(), false, true );
-			$linker = class_exists( 'DummyLinker' ) ? new DummyLinker : new Linker;
 			$p = isset( $prefix2['project' ] ) ? $prefix2['project'] : '';
 			if( self::getDBState( $prefix2 ) == 'existing' ) {
 				$link = self::getSubdomain( $prefix2['lang'], $p,
@@ -478,7 +479,7 @@ class IncubatorTest {
 					return true;
 				} else {
 					# Show a link to the existing wiki
-					$showLink = $linker->makeExternalLink( $link, $link );
+					$showLink = self::makeExternalLinkText( $link, true );
 					$wgOut->addHtml( '<div class="wminc-wiki-exists">' .
 						wfMsgHtml( 'wminc-error-wiki-exists', $showLink ) .
 					'</div>' );
@@ -487,7 +488,7 @@ class IncubatorTest {
 				# A sister project is not hosted here, so direct the user to the relevant wiki
 				$link = self::getSubdomain( $prefix2['lang'], $p,
 					( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
-					$showLink = $linker->makeExternalLink( $link, $link );
+					$showLink = self::makeExternalLinkText( $link, true );
 					$wgOut->addHtml( '<div class="wminc-wiki-sister">' .
 						wfMsgHtml( 'wminc-error-wiki-sister', $showLink ) .
 					'</div>' );
@@ -753,5 +754,16 @@ class IncubatorTest {
 
 	private static function preg_quote_slash( $str ) {
 		return preg_quote( $str, '/' );
+	}
+
+	/**
+	 * @param $url String
+	 * @param $callLinker Boolean Whether to call makeExternalLink()
+	 */
+	public static function makeExternalLinkText( $url, $callLinker = false ) {
+		# when displaying a URL, if it contains 'http://' or 'https://' it's ok to leave it,
+		# but for protocol-relative URLs, it's nicer to remove the '//'
+		$linktext = ltrim( $url, '/' );
+		return $callLinker ? Linker::makeExternalLink( $url, $linktext ) : $linktext;
 	}
 }
