@@ -166,7 +166,7 @@ class InfoPage {
 		$portalLink = Linker::makeExternalLink( $this->mPortal, $this->mProjectName );
 		if( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoLink = Linker::link(
-				Title::newFromText( IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix ) ),
+				IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix ),
 				wfMsgNoTrans( 'wminc-infopage-enter' ) );
 			$gotoMainPage = Html::rawElement( 'span',
 				array( 'class' => 'wminc-infopage-entertest' ),

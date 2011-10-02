@@ -574,12 +574,15 @@ class IncubatorTest {
 
 	/**
 	 * make "Wx/xxx/Main Page"
-	 * @return String
+	 * @param $langCode String: The language code
+	 * @param $prefix Null|String: the "Wx/xxx" prefix to add
+	 * @return Title
 	 */
 	public static function getMainPage( $langCode, $prefix = null ) {
 		# Take the "mainpage" msg in the given language
 		$msg = wfMsgExt( 'mainpage', array( 'language' => $langCode ) );
-		return $prefix !== null ? $prefix . '/' . $msg : $msg;
+		$mainpage = $prefix !== null ? $prefix . '/' . $msg : $msg;
+		return Title::newFromText( $mainpage );
 	}
 
 	/**
@@ -607,9 +610,7 @@ class IncubatorTest {
 			# pass through the &uselang parameter
 			$params['uselang'] = $uselang;
 		}
-		$mainpage = Title::newFromText(
-			self::getMainPage( $prefix['lang'], $prefix['prefix'] )
-		);
+		$mainpage = self::getMainPage( $prefix['lang'], $prefix['prefix'] );
 		if( $mainpage->exists() ) {
 			# Only redirect to the main page if that page exists
 			$wgOut->redirect( $mainpage->getFullURL( $params ) );
