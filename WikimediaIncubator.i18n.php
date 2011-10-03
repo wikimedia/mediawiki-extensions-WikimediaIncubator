@@ -894,6 +894,7 @@ $messages['fr'] = array(
 	'wminc-manual' => 'Manuel',
 	'wminc-listwikis' => 'Liste des wikis',
 	'wminc-testwiki' => 'Wiki de test :',
+	'wminc-testwiki-code' => 'Langue du wiki de test:',
 	'wminc-testwiki-none' => 'Aucun / tous',
 	'wminc-recentchanges-all' => 'Toutes les modifications récentes',
 	'wminc-prefinfo-language' => 'Votre langue d’interface - indépendante de celle de votre wiki de test',
@@ -921,6 +922,8 @@ $messages['fr'] = array(
 	'wminc-code-collective' => 'Le code « $1 » ne se réfère pas à une langue spécifique, mais à une collection de langues, en particulier les [[wikipedia:$2 language|langues « $3 »]]',
 	'wminc-code-retired' => 'Ce code de langue a été changé est ne fait plus référence à la langue d’origine.',
 	'wminc-listusers-testwiki' => 'Vous êtes en train de visualiser les utilisateurs qui ont mis leur préférence de wiki de test à $1.',
+	'wminc-search-nocreate-nopref' => 'Vous avez recherché "$1". Merci de régler vos [[Special:Preferences|préférences du wiki de test]] de manière à ce que nous puissions vous dire quelle page vous pouvez créer!',
+	'wminc-search-nocreate-suggest' => 'Vous avez recherche "$1". Vous pouvez créer une page dans votre wiki à <b>[[$2]]</b>!',
 );
 
 /** Franco-Provençal (Arpetan)
@@ -1764,7 +1767,7 @@ $messages['nl'] = array(
 	'wminc-userdoesnotexist' => 'De gebruiker "$1" bestaat niet.',
 	'wminc-ip' => '"$1" is een IP-adres.',
 	'right-viewuserlang' => 'Gebruikerstaal en testwiki bekijken',
-	'group-test-sysop' => 'Testwikibeheerders',
+	'group-test-sysop' => 'testwikibeheerders',
 	'group-test-sysop-member' => 'testwikibeheerder',
 	'grouppage-test-sysop' => 'Project:Testwikibeheerders',
 	'wminc-code-macrolanguage' => 'De [[wikipedia:$2 language|taal "$3"]] is een [[wikipedia:nl:Macrotaal|macrotaal]], die bestaat uit de volgende talen:',
@@ -2313,7 +2316,7 @@ $messages['sr-ec'] = array(
 	'wminc-testwiki' => 'Пробни вики:',
 	'wminc-testwiki-none' => 'Ништа/Све',
 	'wminc-viewuserlang-user' => 'Корисничко име:',
-	'wminc-viewuserlang-go' => 'Пређи',
+	'wminc-viewuserlang-go' => 'Иди',
 );
 
 /** Serbian Latin ekavian (‪Srpski (latinica)‬)
