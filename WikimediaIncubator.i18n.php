@@ -2657,6 +2657,7 @@ $messages['yue'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Anakmalaysia
+ * @author Bencmq
  * @author Hydra
  * @author Jimmy xu wrk
  * @author Liangent
@@ -2669,6 +2670,7 @@ $messages['zh-hans'] = array(
 	'wminc-manual' => '手动',
 	'wminc-listwikis' => 'Wiki列表',
 	'wminc-testwiki' => '测试维基：',
+	'wminc-testwiki-code' => '测试Wiki语言：',
 	'wminc-testwiki-none' => '无/所有',
 	'wminc-recentchanges-all' => '所有最近的更改',
 	'wminc-prefinfo-language' => '你的界面语言-从你的测试维基独立',
