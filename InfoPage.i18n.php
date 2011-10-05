@@ -406,6 +406,7 @@ $messages['mk'] = array(
 $messages['ml'] = array(
 	'wminc-infopage-enter' => 'പ്രധാന താളിലേയ്ക്ക് പോവുക',
 	'wminc-unknownlang' => '("$1" എന്ന കോഡോടു കൂടിയ അപരിചിതമായ ഭാഷ)',
+	'wminc-infopage-welcome' => 'വിക്കിമീഡിയ ഫൗണ്ടേഷൻ സംരംഭമായ വിക്കിമീഡിയ ഇൻകുബേറ്ററിലേയ്ക്ക് സ്വാഗതം ([[{{MediaWiki:Aboutpage}}|വിവരണം]])',
 	'wminc-infopage-missingwiki-text' => 'ഈ ഭാഷയിൽ $1 നിലവിലില്ല.',
 	'wminc-infopage-option-startwiki' => 'താങ്കൾക്ക് ഈ വിക്കി തുടങ്ങണമെന്നുണ്ടെങ്കിൽ [{{fullurl:{{FULLPAGENAME}}|action=edit}} താൾ സൃഷ്ടിച്ച ശേഷം] [[{{MediaWiki:Wminc-manual-url}}|ഞങ്ങളുടെ വഴികാട്ടി]] പിന്തുടരുക.',
 	'wminc-infopage-option-startsister' => 'താങ്കൾക്ക് ഈ വിക്കി തുടങ്ങണമെന്നുണ്ടെങ്കിൽ, <b>[$2 $1]</b> എന്ന താളിൽ ചെല്ലുക.',
@@ -415,7 +416,10 @@ $messages['ml'] = array(
 	'wminc-infopage-option-multilingual' => 'താങ്കൾക്ക് ബഹുഭാഷാവിക്കിയിലേയ്ക്ക് പോകാവുന്നതാണ്:',
 	'wminc-infopage-createmainpage' => 'ഈ ഭാഷയിൽ "പ്രധാന താൾ" എന്നതിനു സമാനമായ പദം നൽകുക:',
 	'wminc-infopage-contribute' => 'താങ്കൾക്ക് ഈ ഭാഷ അറിയാമെങ്കിൽ, അതിൽ സംഭാവന ചെയ്യാൻ താത്പര്യപ്പെടുന്നു!',
+	'wminc-infopage-status-imported' => 'ഈ ഇൻകുബേറ്റർ വിക്കി $1 എന്നതിൽ നിന്നും വിക്കി അടച്ചശേഷം ഇറക്കുമതി ചെയ്തതാണ്.',
+	'wminc-infopage-status-closedsister' => 'ഈ ഉപഡൊമൈൻ അടച്ചിരിക്കുന്നു. ഈ വിക്കിയിൽ സംഭാവന ചെയ്യാൻ <b>$2</b> എന്നതിലേയ്ക്ക് പോവുക.',
 	'wminc-infopage-status-created' => 'ഈ സംരംഭം ഭാഷാ കമ്മിറ്റി അംഗീകരിച്ചിരിക്കുന്നു, അതിപ്പോൾ $1 എന്നു ലഭ്യമാണ്.',
+	'wminc-infopage-status-beforeincubator' => 'ഈ പദ്ധതി, വിക്കിമീഡിയ ഇൻകുബേറ്റർ തുടങ്ങുന്നതിനു മുമ്പേയുള്ളതാണ്, അത് $1-ൽ ലഭ്യമാണ്.',
 );
 
 /** Malay (Bahasa Melayu)

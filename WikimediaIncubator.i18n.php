@@ -352,6 +352,7 @@ $messages['be-tarask'] = array(
 	'wminc-manual' => 'Інструкцыя',
 	'wminc-listwikis' => 'Сьпіс вікі',
 	'wminc-testwiki' => 'Тэставая вікі:',
+	'wminc-testwiki-code' => 'Мова тэставай вікі:',
 	'wminc-testwiki-none' => 'Ніякая/усе',
 	'wminc-recentchanges-all' => 'Усе апошнія зьмены',
 	'wminc-prefinfo-language' => 'Вашая мова інтэрфэйсу — незалежная ад мовы Вашай тэставай вікі',
@@ -379,6 +380,8 @@ $messages['be-tarask'] = array(
 	'wminc-code-collective' => 'Код «$1» адносіцца не да пэўнай мовы, а да набору моваў, а менавіта да [[wikipedia:$2 language|«$3»]].',
 	'wminc-code-retired' => 'Гэты код мовы быў зьменены і болей не датычыцца арыгінальнай мовы.',
 	'wminc-listusers-testwiki' => 'Вы праглядаеце ўдзельнікаў, якія ў сваёй тэставай вікі выбралі наладу $1.',
+	'wminc-search-nocreate-nopref' => 'Вы шукалі «$1». Калі ласка, устанавіце Вашыя [[Special:Preferences|налады тэставай вікі]], каб мы маглі сказаць Вам, якія старонкі Вы можаце ствараць!',
+	'wminc-search-nocreate-suggest' => 'Вы шукалі «$1». Вы можаце стварыць у {{GRAMMAR:месны|{{SITENAME}}}} старонку <b>[[$2]]</b>!',
 );
 
 /** Bulgarian (Български)
