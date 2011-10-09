@@ -70,6 +70,7 @@ $messages['en'] = array(
  * @author Nike
  * @author Purodha
  * @author SPQRobin
+ * @author Umherirrender
  * @author Yekrats
  */
 $messages['qqq'] = array(
@@ -105,9 +106,11 @@ For more information see: http://www.mediawiki.org/wiki/Extension:WikimediaIncub
 	'wminc-ip' => 'Used on Special:ViewUserLang which can only be used for logged in users. This error message is shown for IP addresses.',
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}
 The message says (in the long form): (This group has) "The ability to view the language and test wiki of a user". A user can set his language and test wiki through Special:Preferences.',
-	'group-test-sysop' => 'Name of the group of administrators of a specific test wiki on the Wikimedia Incubator.',
-	'group-test-sysop-member' => 'An administrator of a specific test wiki on the Wikimedia Incubator.',
-	'grouppage-test-sysop' => 'Do not change the "Project:" part!',
+	'group-test-sysop' => '{{doc-group|test-sysop}}
+Name of the group of administrators of a specific test wiki on the Wikimedia Incubator.',
+	'group-test-sysop-member' => '{{doc-group|test-sysop|member}}
+An administrator of a specific test wiki on the Wikimedia Incubator.',
+	'grouppage-test-sysop' => '{{doc-group|test-sysop|page}}',
 	'wminc-code-macrolanguage' => "* '''$1''' is the language code (not used by default)
 * '''$2''' is the language name in English
 * '''$3''' is the translated language name from CLDR, if available (otherwise, English)
@@ -2317,7 +2320,7 @@ $messages['sq'] = array(
  */
 $messages['sr-ec'] = array(
 	'wminc-testwiki' => 'Пробни вики:',
-	'wminc-testwiki-none' => 'Ништа/Све',
+	'wminc-testwiki-none' => 'Ништа/све',
 	'wminc-viewuserlang-user' => 'Корисничко име:',
 	'wminc-viewuserlang-go' => 'Иди',
 );

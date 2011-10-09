@@ -589,6 +589,25 @@ $messages['sq'] = array(
 	'wminc-infopage-contribute' => 'Nëse e dini këtë gjuhë, jeni të inkurajuar të kontribuoni!',
 );
 
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'wminc-logo-wikipedia' => 'Wikipedia-logo-v2-sr.svg',
+	'wminc-logo-wiktionary' => 'Wiktionary-logo-sr.svg',
+	'wminc-logo-wikibooks' => 'Wikibooks-logo-sr-noslogan.svg',
+	'wminc-logo-wikinews' => 'Wikinews-logo-sr.png',
+	'wminc-logo-wikiquote' => 'Wikiquote-logo-sr.svg',
+	'wminc-logo-wikisource' => 'Wikisource-logo-sr.png',
+	'wminc-logo-wikiversity' => 'Wikiversity-logo-en.svg',
+	'wminc-logo-meta-wiki' => 'Metawiki.svg',
+	'wminc-logo-wikimedia-commons' => 'Commons-logo-en.svg',
+	'wminc-logo-wikispecies' => 'WikiSpecies.svg',
+	'wminc-logo-mediawiki' => 'MediaWiki.svg',
+	'wminc-manual-url' => 'Help:Приручник',
+	'wminc-infopage-title' => '$1 $2',
+);
+
 /** Swedish (Svenska)
  * @author Lokal Profil
  */
