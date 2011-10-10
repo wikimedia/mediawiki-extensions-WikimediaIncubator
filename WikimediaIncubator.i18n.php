@@ -48,7 +48,7 @@ $messages['en'] = array(
 	# User groups
 	'right-viewuserlang' => 'View user language and test wiki',
 	'group-test-sysop' => 'Test wiki administrators',
-	'group-test-sysop-member' => 'test wiki administrator',
+	'group-test-sysop-member' => '{{GENDER:$1|test wiki administrator}}',
 	'grouppage-test-sysop' => 'Project:Test wiki administrators',
 
 	# Language codes
