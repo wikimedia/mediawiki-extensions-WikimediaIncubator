@@ -586,7 +586,7 @@ $messages['de'] = array(
 	'wminc-ip' => '„$1“ ist eine IP-Adresse.',
 	'right-viewuserlang' => 'Benutzersprache und Testwiki anschauen',
 	'group-test-sysop' => 'Testadministratoren',
-	'group-test-sysop-member' => 'Testadministrator',
+	'group-test-sysop-member' => '{{GENDER:$1|Testwikiadministrator|Testwikiadministratorin}}',
 	'grouppage-test-sysop' => 'Project:Testadministratoren',
 	'wminc-code-macrolanguage' => 'Die [[wikipedia:$2 language|Sprache „$3“]] ist eine [[wikipedia:de:Makrosprache_(ISO_639)|Makrosprache]], welche die folgenden Einzelsprachen enthält:',
 	'wminc-code-collective' => 'Der Code „$1“ bezieht sich nicht auf eine bestimmte Sprache, sondern auf eine Gruppe von Sprachen, namentlich die [[wikipedia:$2 language|Sprachen „$3“]].',
@@ -1001,7 +1001,7 @@ $messages['gl'] = array(
 	'wminc-ip' => '"$1" é un enderezo IP.',
 	'right-viewuserlang' => 'Ver a lingua do usuario e o wiki de probas',
 	'group-test-sysop' => 'Administradores do wiki de probas',
-	'group-test-sysop-member' => 'administrador do wiki de probas',
+	'group-test-sysop-member' => '{{GENDER:$1|administrador|administradora}} do wiki de probas',
 	'grouppage-test-sysop' => 'Project:Administradores do wiki de probas',
 	'wminc-code-macrolanguage' => 'A [[wikipedia:$2 language|lingua "$3"]] é unha [[wikipedia:ISO 639 macrolanguage|macrolingua]], composta polas seguintes linguas:',
 	'wminc-code-collective' => 'O código "$1" non se refire a unha lingua específica, senón a un conxunto de linguas, en particular, as [[wikipedia:$2 language|linguas "$3"]].',
@@ -1090,7 +1090,7 @@ $messages['he'] = array(
 	'wminc-ip' => '„$1” היא כתובת IP.',
 	'right-viewuserlang' => 'צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הניסיוני]]',
 	'group-test-sysop' => 'מפעילי ויקי לבדיקה',
-	'group-test-sysop-member' => 'מפעיל ויקי לבדיקה',
+	'group-test-sysop-member' => '{{GENDER:$1|מפעיל|מפעילת}} ויקי לבדיקה',
 	'grouppage-test-sysop' => 'Project:מפעילי ויקי לבדיקה',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|השפה "$3"]] היא [[wikipedia:ISO 639 macrolanguage|מקרו־שפה]], שמורכבת מהשפות הבאות:',
 	'wminc-code-collective' => 'הקוד "$1" לא מתייחס לשפה מסוימת, אלא לאוסף שפות, [[wikipedia:$2 language|"$3"]].',
@@ -1884,7 +1884,7 @@ $messages['pl'] = array(
 	'wminc-ip' => '„$1“ to adres IP.',
 	'right-viewuserlang' => 'Podgląd języka użytkownika oraz testowej wiki',
 	'group-test-sysop' => 'Administratorzy testowej wiki',
-	'group-test-sysop-member' => 'administrator testowej wiki',
+	'group-test-sysop-member' => '{{GENDER:$1|administrator|administratorka}} testowej wiki',
 	'grouppage-test-sysop' => 'Project:Administratorzy testowej wiki',
 	'wminc-code-macrolanguage' => '[[Wikipedia:$2 language|Język $3]] jest [[wikipedia:ISO 639 macrolanguage|makrojęzykiem]], zawierającym następujące warianty języka:',
 	'wminc-code-collective' => 'Kod „$1“ nie odnosi się do jednego języka, a do kolekcji języków – [[wikipedia:$2 language|$3]].',
@@ -2501,7 +2501,7 @@ $messages['tr'] = array(
 	'right-viewuserlang' => 'Kullanıcı dilini ve test vikisini gör',
 );
 
-/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+/** Tatar (Cyrillic script) (Татарча)
  * @author Ajdar
  */
 $messages['tt-cyrl'] = array(
