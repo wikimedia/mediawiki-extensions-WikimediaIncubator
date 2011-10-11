@@ -383,6 +383,7 @@ $messages['mk'] = array(
 	'wminc-infopage-enter' => 'оди на Главна страница',
 	'wminc-unknownlang' => '(непознат јазик со код „$1“)',
 	'wminc-logo-wikipedia' => 'Wikipedia-logo-v2-mk.svg',
+	'wminc-manual-url' => 'Help:Упатство',
 	'wminc-infopage-welcome' => 'Добредојдовте на Инкубаторот на Викимедија - проект на Фондацијата Викимедија ([[{{MediaWiki:Aboutpage}}|За проектот]])',
 	'wminc-infopage-missingwiki-text' => 'На овој јазик сè уште не постои $1.',
 	'wminc-infopage-option-startwiki' => 'Ако сакате да го започнете ова вики,
