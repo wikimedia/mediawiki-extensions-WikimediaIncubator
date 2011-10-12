@@ -922,7 +922,7 @@ $messages['fr'] = array(
 	'wminc-ip' => '"$1" est une adresse IP.',
 	'right-viewuserlang' => 'Voir la langue de l’utilisateur et le wiki de test',
 	'group-test-sysop' => 'Administrateurs du wiki de test',
-	'group-test-sysop-member' => 'administrateur du wiki de test',
+	'group-test-sysop-member' => '{{GENDER:$1|administrateur du wiki de test}}',
 	'grouppage-test-sysop' => 'Project:Test wiki - Administrateurs',
 	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 language|langue « $3 »]] est une [[wikipedia:fr:macro-langue|macro-langue]], comprenant les langues suivantes :',
 	'wminc-code-collective' => 'Le code « $1 » ne se réfère pas à une langue spécifique, mais à une collection de langues, en particulier les [[wikipedia:$2 language|langues « $3 »]]',
@@ -1216,7 +1216,7 @@ $messages['ia'] = array(
 	'wminc-ip' => '"$1" es un adresse IP.',
 	'right-viewuserlang' => 'Vider le lingua e wiki de test de usatores',
 	'group-test-sysop' => 'Administratores del wiki de test',
-	'group-test-sysop-member' => 'administrator del wiki de test',
+	'group-test-sysop-member' => '{{GENDER:$1|administrator|administratrice}} del wiki de test',
 	'grouppage-test-sysop' => 'Project:Administratores del wiki de test',
 	'wminc-code-macrolanguage' => 'Le [[wikipedia:$2 language|lingua "$3"]] es un [[wikipedia:ISO 639 macrolanguage|macrolingua]] que se compone del sequente linguas membros:',
 	'wminc-code-collective' => 'Le codice "$1" non refere a un lingua specific, ma a un collection de linguas, a saper le [[wikipedia:$2 language|linguas "$3"]].',
@@ -2100,6 +2100,7 @@ $messages['roa-tara'] = array(
 );
 
 /** Russian (Русский)
+ * @author Adata80
  * @author Alexandr Efremov
  * @author Ferrer
  * @author Kaganer
@@ -2135,7 +2136,7 @@ $messages['ru'] = array(
 	'wminc-ip' => '«$1» не является IP-адресом.',
 	'right-viewuserlang' => 'просматривать языковые настройки участника и его пробную вики',
 	'group-test-sysop' => 'Администраторы тестовой вики',
-	'group-test-sysop-member' => 'администратор тестовой вики',
+	'group-test-sysop-member' => '{{GENDER:$1|Администратор тестовой wiki}}',
 	'grouppage-test-sysop' => 'Project:Администраторы тестовой вики',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Язык «$3»]] считается [[wikipedia:ISO 639 macrolanguage|макроязыком]], состоящим из следующих языков:',
 	'wminc-code-collective' => 'Код «$1» относится не к конкретному языку, а к группе из нескольких языков, под общим названием [[wikipedia:$2 language|«$3»]].',
@@ -2627,7 +2628,7 @@ $messages['vi'] = array(
 	'wminc-ip' => '“$1” là một địa chỉ IP.',
 	'right-viewuserlang' => 'Xem ngôn ngữ và wiki thử của người dùng',
 	'group-test-sysop' => 'Bảo quản viên tại wiki thử nghiệm',
-	'group-test-sysop-member' => 'bảo quản viên tại wiki thử nghiệm',
+	'group-test-sysop-member' => '{{GENDER:$1}}bảo quản viên tại wiki thử nghiệm',
 	'grouppage-test-sysop' => 'Project:Bảo quản viên tại wiki thử nghiệm',
 	'wminc-code-macrolanguage' => '[[Wikipedia:$2 language|Tiếng “$3”]] là một [[Wikipedia:ISO 639 macrolanguage|ngôn ngữ vĩ mô]] bao gồm các ngôn ngữ này:',
 	'wminc-code-collective' => 'Mã “$1” không phải chỉ đến một ngôn ngữ riêng mà chỉ đến nhóm ngôn ngữ [[wikipedia:$2 language|tiếng “$3”]].',
