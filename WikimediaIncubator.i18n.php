@@ -717,7 +717,7 @@ $messages['eo'] = array(
 	'wminc-ip' => '"$1" estas IP-adreso.',
 	'right-viewuserlang' => 'Vidi uzulan lingvon kaj testvikion',
 	'group-test-sysop' => 'Administrantoj de la test vikio',
-	'group-test-sysop-member' => 'administranto de la testa vikio',
+	'group-test-sysop-member' => '{{GENDER:$1|administranto de la testa vikio|administrantino de la testa vikio}}',
 	'grouppage-test-sysop' => 'Project:Test wiki - Administrantoj de la testa vikio',
 	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 lingvo|lingvo "$3"]] estas [[wikipedia:ISO 639 makrolingvo|makrolingvo]], enhavanta la jenajn membraj lingvoj:',
 	'wminc-code-collective' => 'La lingvo-kodo "$1" ne referencas specifan lingvo, sed aro da lingvoj, ĉefe la [[wikipedia:$2 language|"$3" lingvoj]].',
@@ -2347,6 +2347,7 @@ $messages['su'] = array(
 
 /** Swedish (Svenska)
  * @author Boivie
+ * @author Diupwijk
  * @author Gabbe.g
  * @author Lokal Profil
  * @author Najami
@@ -2359,6 +2360,7 @@ $messages['sv'] = array(
 	'wminc-manual' => 'Manuell',
 	'wminc-listwikis' => 'Lista över wikier',
 	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-code' => 'Testwiki-språk',
 	'wminc-testwiki-none' => 'Ingen/Alla',
 	'wminc-recentchanges-all' => 'Alla de senaste ändringarna',
 	'wminc-prefinfo-language' => 'Ditt gränssnittsspråk - oavhängigt från din testwiki',
@@ -2380,7 +2382,7 @@ $messages['sv'] = array(
 	'wminc-ip' => '"$1" är en IP-adress.',
 	'right-viewuserlang' => 'Visa användarspråk och testwiki',
 	'group-test-sysop' => 'Testwiki-administratörer',
-	'group-test-sysop-member' => 'testwiki-administratör',
+	'group-test-sysop-member' => '{{GENDER:$1|testwiki-administratör}}',
 	'grouppage-test-sysop' => 'Project:Testwiki-administratörer',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Språket "$3"]] är en [[wikipedia:ISO 639 macrolanguage|makrospråk]], som består av följande medlemsspråk:',
 	'wminc-code-collective' => 'Koden "$1" refererar inte till ett visst språk, utan en samling av språk, nämligen [[wikipedia:$2 language|"$3"-språken]].',
