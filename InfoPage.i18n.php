@@ -299,6 +299,13 @@ $messages['he'] = array(
 	'wminc-infopage-status-beforeincubator' => 'המיזם הזה נוצר לפני שהוקם האינקובטור של ויקימדיה והוא זמין ב{{GRAMMAR:תחילית|$1}}.',
 );
 
+/** Hungarian (Magyar)
+ * @author Xbspiro
+ */
+$messages['hu'] = array(
+	'wminc-infopage-enter' => 'Tovább',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
@@ -382,8 +389,6 @@ $messages['lt'] = array(
 $messages['mk'] = array(
 	'wminc-infopage-enter' => 'оди на Главна страница',
 	'wminc-unknownlang' => '(непознат јазик со код „$1“)',
-	'wminc-logo-wikipedia' => 'Wikipedia-logo-v2-mk.svg',
-	'wminc-manual-url' => 'Help:Упатство',
 	'wminc-infopage-welcome' => 'Добредојдовте на Инкубаторот на Викимедија - проект на Фондацијата Викимедија ([[{{MediaWiki:Aboutpage}}|За проектот]])',
 	'wminc-infopage-missingwiki-text' => 'На овој јазик сè уште не постои $1.',
 	'wminc-infopage-option-startwiki' => 'Ако сакате да го започнете ова вики,
@@ -594,18 +599,6 @@ $messages['sq'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
-	'wminc-logo-wikipedia' => 'Wikipedia-logo-v2-sr.svg',
-	'wminc-logo-wiktionary' => 'Wiktionary-logo-sr.svg',
-	'wminc-logo-wikibooks' => 'Wikibooks-logo-sr-noslogan.svg',
-	'wminc-logo-wikinews' => 'Wikinews-logo-sr.png',
-	'wminc-logo-wikiquote' => 'Wikiquote-logo-sr.svg',
-	'wminc-logo-wikisource' => 'Wikisource-logo-sr.png',
-	'wminc-logo-wikiversity' => 'Wikiversity-logo-en.svg',
-	'wminc-logo-meta-wiki' => 'Metawiki.svg',
-	'wminc-logo-wikimedia-commons' => 'Commons-logo-en.svg',
-	'wminc-logo-wikispecies' => 'WikiSpecies.svg',
-	'wminc-logo-mediawiki' => 'MediaWiki.svg',
-	'wminc-manual-url' => 'Help:Приручник',
 	'wminc-infopage-title' => '$1 $2',
 );
 

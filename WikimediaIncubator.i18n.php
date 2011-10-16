@@ -536,6 +536,7 @@ $messages['da'] = array(
 	'wminc-manual' => 'Håndbog',
 	'wminc-listwikis' => 'Liste over wikier',
 	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-code' => 'Testwiki-sprog:',
 	'wminc-testwiki-none' => 'Ingen/Alle',
 	'wminc-recentchanges-all' => 'Alle de seneste ændringer',
 	'wminc-prefinfo-language' => 'Dit brugerfladesprog - uafhængigt af din testwiki',
@@ -547,7 +548,7 @@ $messages['da'] = array(
 	'wminc-ip' => '"$1" er en IP-adresse.',
 	'right-viewuserlang' => 'Vis brugersprog og testwiki',
 	'group-test-sysop' => 'Testwiki-administratorer',
-	'group-test-sysop-member' => 'testwiki-administrator',
+	'group-test-sysop-member' => '{{GENDER:$1|testwiki-administrator}}',
 	'grouppage-test-sysop' => 'Project:Testwiki-administratorer',
 	'wminc-code-retired' => 'Denne sprogkode er blevet ændret og henviser ikke længere til det oprindelige sprog.',
 );
@@ -1024,11 +1025,15 @@ $messages['grc'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
 	'wminc-desc' => 'Teschtwiki-Syschtem fir dr Wikimedia Incubator',
+	'wminc-manual' => 'Handbuech',
+	'wminc-listwikis' => 'Lischt vu dr Wiki',
 	'wminc-testwiki' => 'Teschtwiki:',
+	'wminc-testwiki-code' => 'Sprooch vum Teschtwiki:',
 	'wminc-testwiki-none' => 'Keis/Alli',
 	'wminc-prefinfo-language' => 'Sproch vu Dyyre Benutzeroberflächi - nit abhängig vum Teschtwiki',
 	'wminc-prefinfo-code' => 'Dr ISO-639-Sprochcode',
@@ -1039,7 +1044,11 @@ $messages['gsw'] = array(
 	'wminc-viewuserlang' => 'Benutzersproch un Teschtwiki aaluege',
 	'wminc-viewuserlang-user' => 'Benutzername:',
 	'wminc-viewuserlang-go' => 'Gang ane',
+	'wminc-userdoesnotexist' => 'Dr Benutzer „$1“ git s nit.',
+	'wminc-ip' => '„$1“ isch e IP-Adräss.',
 	'right-viewuserlang' => 'D Benutzersproch und s Teschtwiki aaluege',
+	'group-test-sysop' => 'Test-Wiki-Ammanne',
+	'group-test-sysop-member' => '{{GENDER:$1|Testwikiammann|Testwikiamtsfrou}}',
 );
 
 /** Gujarati (ગુજરાતી)
@@ -2078,6 +2087,7 @@ $messages['roa-tara'] = array(
 	'wminc-manual' => 'Manuale',
 	'wminc-listwikis' => 'Elenghe de le Uicchi',
 	'wminc-testwiki' => 'Test de Uicchi:',
+	'wminc-testwiki-code' => "Lènghe d'a uicchi de test:",
 	'wminc-testwiki-none' => 'Nisciune/Tutte',
 	'wminc-recentchanges-all' => "Tutte l'urteme cangiaminde",
 	'wminc-prefinfo-language' => "L'inderfacce indipendende de lènghe da 'u teste tue de Uicchi",
@@ -2095,7 +2105,7 @@ $messages['roa-tara'] = array(
 	'wminc-ip' => '"$1" jè \'n\'indirizze IP.',
 	'right-viewuserlang' => "Vide 'a lènghe de l'utende e teste Uicchi",
 	'group-test-sysop' => 'Test amministrature de uicchi',
-	'group-test-sysop-member' => 'test amministrature de uicchi',
+	'group-test-sysop-member' => "{{GENDER:$1|amministratore d'a uicchi de test}}",
 	'grouppage-test-sysop' => 'Project:Test amministrature de uicchi',
 );
 
