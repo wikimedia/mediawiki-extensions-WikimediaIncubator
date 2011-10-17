@@ -1483,7 +1483,7 @@ $messages['lb'] = array(
 	'wminc-ip' => '"$1" ass eng IP-Adress.',
 	'right-viewuserlang' => 'Benotzersprooch an Test-Wiki weisen',
 	'group-test-sysop' => 'Adminstrateure vun der Testwiki',
-	'group-test-sysop-member' => 'Adminstrateur vun der Testwiki',
+	'group-test-sysop-member' => '{{GENDER:$1|Adminstrateur|Administratrice}} vun der Testwiki',
 	'wminc-code-retired' => "Dëse Sproochcode gouf geännert a bezitt sech net méi op d'Original-Sprooch.",
 );
 
