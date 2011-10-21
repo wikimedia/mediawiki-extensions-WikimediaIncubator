@@ -2223,6 +2223,35 @@ $messages['sc'] = array(
 	'wminc-viewuserlang-go' => 'Bae',
 );
 
+/** Samogitian (Žemaitėška)
+ * @author Hugo.arg
+ */
+$messages['sgs'] = array(
+	'wminc-desc' => 'Wiki testasvėma sėstema Vikimedėjės inkubatoriō',
+	'wminc-manual' => 'Žėnīns',
+	'wminc-listwikis' => 'Viki sārošos',
+	'wminc-testwiki' => 'Testavėma wiki:',
+	'wminc-testwiki-code' => 'Testavėma wiki kalba:',
+	'wminc-testwiki-none' => 'Anėvėins/Vėsė',
+	'wminc-recentchanges-all' => 'Vėsė vielībė̄jė pakeitėmā',
+	'wminc-prefinfo-language' => 'Tamstas paskīruos kalba - neprėklausuomā nu Tamstas testavėma wiki',
+	'wminc-prefinfo-code' => 'ISO 639 kalbuos kuods',
+	'wminc-prefinfo-project' => 'Pasirinkat Wikimedia pruojekta (inkobatorė opcėjė īr nauduotuojam katrėi dėrb bendrus darbus)',
+	'wminc-prefinfo-error' => 'Tamsta pasėrinkuot pruojekta, katros netor kalbuos kuoda.',
+	'wminc-error-move-unprefixed' => 'Klaida: Poslapis, katra nuorat pervadintė [[{{MediaWiki:Helppage}}|netor prīšdielė aba ons īr bluogs]]!',
+	'wminc-error-wronglangcode' => "'''Klaida:''' Tas poslapis tor [[{{MediaWiki:Helppage}}|bluoga kalbuos kuoda]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Klaida:''' Tas poslapis [[{{MediaWiki:Helppage}}|netor prīšdielė]]!",
+	'wminc-error-unprefixed-suggest' => "'''Klaida:''' Tas poslapis [[{{MediaWiki:Helppage}}|netor prīšdielė]]! Tamsta galat ana sokortė čiuonās: [[:$1]].",
+	'randombytest' => 'Bikuoks poslapis ėš testavėma wiki',
+	'wminc-viewuserlang-user' => 'Nauduotuojė vards:',
+	'wminc-viewuserlang-go' => 'Ēk',
+	'wminc-userdoesnotexist' => 'Nauduotuojė "$1" nier.',
+	'wminc-ip' => '" $1 " īr IP adresos.',
+	'right-viewuserlang' => 'Veizietė nauduotuojė kalba ė testavėma wiki',
+	'grouppage-test-sysop' => 'Project: Testavėma wiki admėnėstratuorē',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 kalba|"$3" kalba]] īr [[wikipedia:ISO 639 makrokalba|makrokalba]], katra sodara šėtas kalbas:',
+);
+
 /** Tachelhit (Tašlḥiyt)
  * @author Dalinanir
  */
