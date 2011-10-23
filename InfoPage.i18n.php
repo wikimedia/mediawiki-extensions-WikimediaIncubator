@@ -116,10 +116,12 @@ $messages['be-tarask'] = array(
 );
 
 /** Breton (Brezhoneg)
+ * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
 	'wminc-infopage-enter' => "mont d'ar Bajenn Degemer",
+	'wminc-infopage-missingwiki-text' => "N'eus ket a $1 er yezh-mañ.",
 );
 
 /** German (Deutsch)

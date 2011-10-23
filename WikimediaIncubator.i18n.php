@@ -439,6 +439,7 @@ $messages['br'] = array(
 	'wminc-manual' => 'Dre zorn',
 	'wminc-listwikis' => 'Roll ar wikioù',
 	'wminc-testwiki' => 'Wiki testiñ :',
+	'wminc-testwiki-code' => 'Yezh ar wiki amprouiñ :',
 	'wminc-testwiki-none' => 'Hini ebet / An holl',
 	'wminc-recentchanges-all' => 'An holl gemmoù diwezhañ',
 	'wminc-prefinfo-language' => "Yezh hoc'h etrefas - distag diouzh hini ho wiki testiñ",
@@ -446,15 +447,16 @@ $messages['br'] = array(
 	'wminc-prefinfo-project' => 'Diuzit ar raktres Wikimedia (miret eo an dibarzh Incubator evit an implijerien a gas da benn ul labour dre vras)',
 	'wminc-prefinfo-error' => "Diuzet hoc'h eus ur raktres zo ezhomm ur c'hod yezh evitañ.",
 	'wminc-error-move-unprefixed' => "Fazi : N'eus [[{{MediaWiki:Helppage}}|rakger ebet pe fall eo rakger]] ar bajenn emaoc'h o klask dilec'hiañ !",
-	'wminc-error-wronglangcode' => "'''Fazi :''' Ur [[{{MediaWiki:Helppage}}|c'hod yezh fall]] \"\$1\" zo d'ar bajenn emaoc'h o klask degas kemmoù enni !",
-	'wminc-error-unprefixed' => "'''Fazi :''' N'eus [[{{MediaWiki:Helppage}}|rakger ebet]] d'ar bajenn emaoc'h o klask degas kemmoù enni !",
-	'wminc-error-unprefixed-suggest' => "'''Fazi :''' N'eus [[{{MediaWiki:Helppage}}|rakger ebet]] d'ar bajenn emaoc'h o klask degas kemmoù enni ! Gallout a rit  krouiñ ur bajenn war [[:$1]].",
+	'wminc-error-wronglangcode' => "'''Fazi :''' Ur [[{{MediaWiki:Helppage}}|c'hod yezh fall]] \"\$1\" zo er bajenn-mañ !",
+	'wminc-error-unprefixed' => "!'''Fazi :''' N'eus [[{{MediaWiki:Helppage}}|rakger ebet]] d'ar bajenn-mañ !",
+	'wminc-error-unprefixed-suggest' => "'''Fazi :''' N'eus [[{{MediaWiki:Helppage}}|rakger ebet]] d'ar bajenn-mañ ! Gallout a rit  krouiñ ur bajenn e [[:$1]].",
 	'randombytest' => 'Pajenn dargouezhek gant ar wiki amprouiñ',
 	'randombytest-nopages' => "N'eus pajenn ebet en ho wiki amprouiñ, en esaouenn anv : $1.",
 	'wminc-viewuserlang' => 'Gwelet yezh an implijer hag e wiki testiñ',
 	'wminc-viewuserlang-user' => 'Anv implijer :',
 	'wminc-viewuserlang-go' => 'Mont',
 	'wminc-userdoesnotexist' => 'N\'eus ket eus an implijer "$1".',
+	'wminc-ip' => 'Ur chomlec\'h IP eo "$1"',
 	'right-viewuserlang' => 'Gwelet yezh an implijer hag ar wiki testiñ',
 );
 
@@ -1485,6 +1487,7 @@ $messages['lb'] = array(
 	'group-test-sysop' => 'Adminstrateure vun der Testwiki',
 	'group-test-sysop-member' => '{{GENDER:$1|Adminstrateur|Administratrice}} vun der Testwiki',
 	'wminc-code-retired' => "Dëse Sproochcode gouf geännert a bezitt sech net méi op d'Original-Sprooch.",
+	'wminc-search-nocreate-suggest' => 'Dir hutt no "$1" gesicht. Dir kënnt eng Säit ënner <b>[[$2]]</b> an Ärer Wiki uleeën!',
 );
 
 /** Limburgish (Limburgs)
