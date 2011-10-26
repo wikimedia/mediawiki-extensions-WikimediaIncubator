@@ -2526,13 +2526,16 @@ $messages['tl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Emperyan
  * @author Joseph
  * @author Karduelis
  * @author Vito Genovese
  */
 $messages['tr'] = array(
 	'wminc-desc' => 'Vikimedya İnkübatör için test viki sistemi',
+	'wminc-listwikis' => 'Vikilerin listesi',
 	'wminc-testwiki' => 'Test viki:',
+	'wminc-testwiki-code' => 'Denenecek viki dili:',
 	'wminc-testwiki-none' => 'Hiçbiri/Tümü',
 	'wminc-prefinfo-language' => 'Arayüz diliniz - test vikinizden bağımsız',
 	'wminc-prefinfo-code' => 'ISO 639 dil kodu',

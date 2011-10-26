@@ -622,6 +622,13 @@ $messages['sv'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Detta projekt skapades före Wikimedia Incubator startade och finns på $1.',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'wminc-infopage-enter' => 'Ana sayfaya git',
+);
+
 /** Ukrainian (Українська)
  * @author Andrijko Z.
  * @author Dim Grits
