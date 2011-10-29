@@ -1889,6 +1889,7 @@ $messages['pl'] = array(
 	'wminc-manual' => 'Podręcznik',
 	'wminc-listwikis' => 'Spis wiki',
 	'wminc-testwiki' => 'Testowa wiki',
+	'wminc-testwiki-code' => 'Język testowej wiki',
 	'wminc-testwiki-none' => 'Żadna lub wszystkie',
 	'wminc-recentchanges-all' => 'Wszystkie ostatnie zmiany',
 	'wminc-prefinfo-language' => 'Język interfejsu (niezależny od języka testowej wiki)',
