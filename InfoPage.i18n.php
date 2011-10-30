@@ -55,6 +55,10 @@ you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[
  */
 $messages['qqq'] = array(
 	'wminc-infopage-enter' => 'Text of a link to the Main Page of a test wiki at Incubator.',
+	'wminc-infopage-title' => '{{optional}}
+* $1 is the project, e.g. "Wikipedia" or "Wiktionary"
+* $2 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it\'s in English.
+Here you can change the title as it appears on e.g. http://incubator.wikimedia.org/wiki/Wn/en. You can change it to e.g. "$1 in $2".',
 	'wminc-infopage-welcome' => 'Do not change <tt><nowiki>{{MediaWiki:Aboutpage}}</nowiki></tt>.',
 	'wminc-infopage-missingwiki-text' => "'''$1''' is a project: Wikipedia/Wiktionary/...",
 	'wminc-infopage-option-startsister' => '$2 is a link to either Wikisource or Wikiversity, and $1 is that project name.',
