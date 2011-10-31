@@ -126,6 +126,8 @@ $messages['be-tarask'] = array(
 $messages['br'] = array(
 	'wminc-infopage-enter' => "mont d'ar Bajenn Degemer",
 	'wminc-infopage-missingwiki-text' => "N'eus ket a $1 er yezh-mañ.",
+	'wminc-infopage-option-multilingual' => "Gallout a rit mont d'ur wiki liesyezhek :",
+	'wminc-infopage-createmainpage' => 'Merkit ar ger "Pajenn degemer" er yezh-mañ :',
 );
 
 /** German (Deutsch)
