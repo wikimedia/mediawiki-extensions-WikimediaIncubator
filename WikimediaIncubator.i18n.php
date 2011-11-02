@@ -1501,6 +1501,7 @@ $messages['lb'] = array(
 	'group-test-sysop' => 'Adminstrateure vun der Testwiki',
 	'group-test-sysop-member' => '{{GENDER:$1|Adminstrateur|Administratrice}} vun der Testwiki',
 	'wminc-code-retired' => "Dëse Sproochcode gouf geännert a bezitt sech net méi op d'Original-Sprooch.",
+	'wminc-listusers-testwiki' => 'Dir gesitt Benotzer déi hir Test-Wiki Astellung op $1 gesat hunn',
 	'wminc-search-nocreate-suggest' => 'Dir hutt no "$1" gesicht. Dir kënnt eng Säit ënner <b>[[$2]]</b> an Ärer Wiki uleeën!',
 );
 
