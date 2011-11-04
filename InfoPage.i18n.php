@@ -442,6 +442,7 @@ $messages['ml'] = array(
 $messages['ms'] = array(
 	'wminc-infopage-enter' => 'pergi ke Laman Utama',
 	'wminc-unknownlang' => '(bahasa yang tidak diketahui dengan kod "$1")',
+	'wminc-infopage-title' => '$1 $2',
 	'wminc-infopage-welcome' => 'Selamat datang ke Wikimedia Incubator, satu projek Yayasan Wikimedia ([[{{MediaWiki:Aboutpage}}|Perihal]])',
 	'wminc-infopage-missingwiki-text' => '$1 dalam bahasa ini belum wujud.',
 	'wminc-infopage-option-startwiki' => 'Jika anda mahu memulakan wiki ini,
