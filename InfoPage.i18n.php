@@ -365,6 +365,7 @@ $messages['lb'] = array(
 	'wminc-infopage-enter' => "Gitt op d'Haaptsäit",
 	'wminc-unknownlang' => '(onbekannte Sprooch mam Code "$1")',
 	'wminc-infopage-missingwiki-text' => '$1 gëtt et an dëser Sprooch nach net',
+	'wminc-infopage-option-startsister' => 'Wann Dir dës Wiki ufänke wëllt, da gitt w.e.g. op <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Dir kënnt no [http://www.$1.org Sproochversiounen, déi et vun $1 gëtt, sichen].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Dir kënnt no Projeten an dëser Sprooch sichen (déi et scho gëtt):',
 	'wminc-infopage-option-sisterprojects-other' => 'Dir kënnt no anere Projeten an dëser Sprooch sichen:',
