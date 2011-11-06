@@ -228,6 +228,7 @@ $messages['anp'] = array(
  * @author Meno25
  * @author Orango
  * @author OsamaK
+ * @author روخو
  * @author زكريا
  */
 $messages['ar'] = array(
@@ -235,6 +236,7 @@ $messages['ar'] = array(
 	'wminc-manual' => 'دليل',
 	'wminc-listwikis' => 'قائمة الويكيات',
 	'wminc-testwiki' => 'ويكي الاختبار:',
+	'wminc-testwiki-code' => 'اختبر لغة الويكي',
 	'wminc-testwiki-none' => 'لا شيء/الكل',
 	'wminc-recentchanges-all' => 'كل التغييرات الحديثة',
 	'wminc-prefinfo-language' => 'لغة واجهتك - مستقلة عن ويكي الاختبار',
