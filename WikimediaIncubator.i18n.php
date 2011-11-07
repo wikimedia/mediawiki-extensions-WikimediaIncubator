@@ -2551,10 +2551,12 @@ $messages['tl'] = array(
  */
 $messages['tr'] = array(
 	'wminc-desc' => 'Vikimedya İnkübatör için test viki sistemi',
+	'wminc-manual' => 'Kılavuz',
 	'wminc-listwikis' => 'Vikilerin listesi',
 	'wminc-testwiki' => 'Test viki:',
 	'wminc-testwiki-code' => 'Denenecek viki dili:',
 	'wminc-testwiki-none' => 'Hiçbiri/Tümü',
+	'wminc-recentchanges-all' => 'Tüm son değişiklikler',
 	'wminc-prefinfo-language' => 'Arayüz diliniz - test vikinizden bağımsız',
 	'wminc-prefinfo-code' => 'ISO 639 dil kodu',
 	'wminc-prefinfo-project' => 'Vikimedya projesini seçin (İnkübatör seçeneği genel çalışma yapan kullanıcılar için)',
@@ -2564,7 +2566,12 @@ $messages['tr'] = array(
 	'wminc-viewuserlang' => 'Kullanıcı dili ve test vikisine bak',
 	'wminc-viewuserlang-user' => 'Kullanıcı adı:',
 	'wminc-viewuserlang-go' => 'Git',
+	'wminc-userdoesnotexist' => '"$1" kullanıcısı mevcut değil.',
+	'wminc-ip' => '" $1 " bir IP adresidir.',
 	'right-viewuserlang' => 'Kullanıcı dilini ve test vikisini gör',
+	'group-test-sysop' => 'Test Viki hizmetlisi',
+	'group-test-sysop-member' => '{{GENDER:$1|test viki hizmetlisi}}',
+	'grouppage-test-sysop' => 'Project:Test viki hizmetlisi',
 );
 
 /** Tatar (Cyrillic script) (Татарча)
