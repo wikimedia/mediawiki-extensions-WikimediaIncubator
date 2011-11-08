@@ -2294,6 +2294,7 @@ $messages['shi'] = array(
 
 /** Sinhala (සිංහල)
  * @author Calcey
+ * @author Singhalawap
  */
 $messages['si'] = array(
 	'wminc-desc' => 'විකි මීඩියා ආසීනකාරකය සඳහා විකි පද්ධතිය පරීක්ෂා කරන්න',
@@ -2308,6 +2309,8 @@ $messages['si'] = array(
 	'wminc-viewuserlang' => 'පරිශීලක භාෂාව බලා විකිය පරීක්ෂා කරන්න.',
 	'wminc-viewuserlang-user' => 'පරිශීලක නාමය:',
 	'wminc-viewuserlang-go' => 'යන්න',
+	'wminc-userdoesnotexist' => '↓ "$1"  පරිශීලක ගිණුම නොපවතියි.',
+	'wminc-ip' => '"$1" IP ලිපිනයකි.',
 	'right-viewuserlang' => ' පරිශීලක භාෂාව හා විකි පරීක්ෂාව බලන්න.',
 );
 
