@@ -66,6 +66,7 @@ $wgGroupPermissions['test-sysop']['deletedhistory'] = true;
 $wgGroupPermissions['test-sysop']['block'] = true;
 $wgGroupPermissions['test-sysop']['blockemail'] = true;
 $wgGroupPermissions['test-sysop']['rollback'] = true;
+$wgGroupPermissions['test-sysop']['suppressrevision'] = true;
 $wgAddGroups['bureaucrat'][] = 'test-sysop';
 $wgRemoveGroups['bureaucrat'][] = 'test-sysop';
 
