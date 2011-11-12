@@ -460,6 +460,7 @@ $messages['br'] = array(
 	'wminc-userdoesnotexist' => 'N\'eus ket eus an implijer "$1".',
 	'wminc-ip' => 'Ur chomlec\'h IP eo "$1"',
 	'right-viewuserlang' => 'Gwelet yezh an implijer hag ar wiki testiñ',
+	'group-test-sysop' => 'Merourien ar wiki arnod',
 );
 
 /** Bosnian (Bosanski)

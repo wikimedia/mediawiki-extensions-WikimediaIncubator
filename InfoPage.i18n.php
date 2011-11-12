@@ -125,7 +125,10 @@ $messages['be-tarask'] = array(
  */
 $messages['br'] = array(
 	'wminc-infopage-enter' => "mont d'ar Bajenn Degemer",
+	'wminc-unknownlang' => '(yezh dianav dezhi ar c\'hod "$1")',
 	'wminc-infopage-missingwiki-text' => "N'eus ket a $1 er yezh-mañ.",
+	'wminc-infopage-option-startwiki' => "Mar fell deoc'h sevel ar wiki-mañ,
+e c'hallit [{{fullurl:{{FULLPAGENAME}}|action=edit}} kouiñ ar bajenn] ha heuliañ [[{{MediaWiki:Wminc-manual-url}}|hon dornlevr]].",
 	'wminc-infopage-option-multilingual' => "Gallout a rit mont d'ur wiki liesyezhek :",
 	'wminc-infopage-createmainpage' => 'Merkit ar ger "Pajenn degemer" er yezh-mañ :',
 );
