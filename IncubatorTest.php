@@ -309,6 +309,10 @@ class IncubatorTest {
 	 * @return Boolean
 	 */
 	static function onGetUserPermissionsErrors( $title, $user, $action, &$result ) {
+		if ( $action == 'read' ) {
+			return true;
+		}
+
 		$titletext = $title->getText();
 		$prefixdata = self::analyzePrefix( $titletext );
 
