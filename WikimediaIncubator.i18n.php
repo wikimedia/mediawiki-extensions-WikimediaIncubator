@@ -437,7 +437,7 @@ $messages['bn'] = array(
  * @author Y-M D
  */
 $messages['br'] = array(
-	'wminc-desc' => 'Reizhiad testiñ wiki evit Wikimedia Incubator',
+	'wminc-desc' => 'Reizhiad amprouiñ wiki evit Wikimedia Incubator',
 	'wminc-manual' => 'Dre zorn',
 	'wminc-listwikis' => 'Roll ar wikioù',
 	'wminc-testwiki' => 'Wiki testiñ :',
@@ -450,7 +450,7 @@ $messages['br'] = array(
 	'wminc-prefinfo-error' => "Diuzet hoc'h eus ur raktres zo ezhomm ur c'hod yezh evitañ.",
 	'wminc-error-move-unprefixed' => "Fazi : N'eus [[{{MediaWiki:Helppage}}|rakger ebet pe fall eo rakger]] ar bajenn emaoc'h o klask dilec'hiañ !",
 	'wminc-error-wronglangcode' => "'''Fazi :''' Ur [[{{MediaWiki:Helppage}}|c'hod yezh fall]] \"\$1\" zo er bajenn-mañ !",
-	'wminc-error-unprefixed' => "!'''Fazi :''' N'eus [[{{MediaWiki:Helppage}}|rakger ebet]] d'ar bajenn-mañ !",
+	'wminc-error-unprefixed' => "'''Fazi :''' N'eus [[{{MediaWiki:Helppage}}|rakger ebet]] d'ar bajenn-mañ !",
 	'wminc-error-unprefixed-suggest' => "'''Fazi :''' N'eus [[{{MediaWiki:Helppage}}|rakger ebet]] d'ar bajenn-mañ ! Gallout a rit  krouiñ ur bajenn e [[:$1]].",
 	'randombytest' => 'Pajenn dargouezhek gant ar wiki amprouiñ',
 	'randombytest-nopages' => "N'eus pajenn ebet en ho wiki amprouiñ, en esaouenn anv : $1.",

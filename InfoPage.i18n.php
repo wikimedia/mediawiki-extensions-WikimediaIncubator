@@ -126,11 +126,20 @@ $messages['be-tarask'] = array(
 $messages['br'] = array(
 	'wminc-infopage-enter' => "mont d'ar Bajenn Degemer",
 	'wminc-unknownlang' => '(yezh dianav dezhi ar c\'hod "$1")',
+	'wminc-infopage-welcome' => 'Degemer mat er Wikimedia Incubator, ur raktres eus Diazezadur Wikimedia ([[{{MediaWiki:Aboutpage}}|Diwar-benn]])',
 	'wminc-infopage-missingwiki-text' => "N'eus ket a $1 er yezh-mañ.",
 	'wminc-infopage-option-startwiki' => "Mar fell deoc'h sevel ar wiki-mañ,
 e c'hallit [{{fullurl:{{FULLPAGENAME}}|action=edit}} kouiñ ar bajenn] ha heuliañ [[{{MediaWiki:Wminc-manual-url}}|hon dornlevr]].",
+	'wminc-infopage-option-startsister' => "Mar fell deoc'h boulc'hañ ar wiki-mañ e c'hallit mont da <b>[$2 $1]</b>.",
+	'wminc-infopage-option-languages-existing' => 'Gallout a rit klask [http://www.$1.org stummoù yezh zo anezho eus $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Gallout a rit klask raktresoù zo anezho er yezh-mañ :',
+	'wminc-infopage-option-sisterprojects-other' => 'Gallout a rit klask raktresoù all er yezh-mañ :',
 	'wminc-infopage-option-multilingual' => "Gallout a rit mont d'ur wiki liesyezhek :",
 	'wminc-infopage-createmainpage' => 'Merkit ar ger "Pajenn degemer" er yezh-mañ :',
+	'wminc-infopage-contribute' => "Mard anavezit ar yezh-mañ e vroudomp ac'hanoc'h da gemer perzh !",
+	'wminc-infopage-status-imported' => "Enporzhiet eo bet ar rakwiki-mañ eus $1 p'eo bet serret ar wiki.",
+	'wminc-infopage-status-closedsister' => 'Serr eo an isdomani-mañ. Mont da <b>$2</b> evit kemer perzh er wiki-mañ.',
+	'wminc-infopage-status-created' => "Aprouet eo bet ar raktres-mañ gant ar c'huzul yezh hag ez a en-dro bremañ war $1.",
 );
 
 /** German (Deutsch)
