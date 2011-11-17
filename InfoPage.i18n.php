@@ -558,12 +558,14 @@ $messages['nl'] = array(
 );
 
 /** Polish (Polski)
+ * @author Bartek50003
  * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
 	'wminc-infopage-enter' => 'przejdź do strony głównej',
 	'wminc-unknownlang' => '(nieznany język o kodzie „$1“)',
+	'wminc-infopage-welcome' => 'Witaj w Wikimedia Incubator, projekcie Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|About]])',
 	'wminc-infopage-createmainpage' => 'Wpisz „Strona główna“ w tym języku',
 	'wminc-infopage-contribute' => 'Jeśli znasz ten język zachęcamy Cię do wzięcia udziału w tworzeniu tej wiki!',
 	'wminc-infopage-status-imported' => 'Do inkubatora wiki zaimportowano treść z $1 po tym jak wiki została zamknięta.',
@@ -694,7 +696,24 @@ $messages['sq'] = array(
  * @author Rancher
  */
 $messages['sr-ec'] = array(
+	'wminc-infopage-enter' => 'иди на Главну страну',
+	'wminc-unknownlang' => '(непознат језик с кодом „$1“)',
 	'wminc-infopage-title' => '$1 $2',
+	'wminc-infopage-welcome' => 'Добро дошли на Викимедијин Инкубатор — пројекат Задужбине Викимедија ([[{{MediaWiki:Aboutpage}}|О пројекту]])',
+	'wminc-infopage-missingwiki-text' => 'На овом језику још не постоји $1.',
+	'wminc-infopage-option-startwiki' => 'Ако желите да започнете овај вики,
+онда можете да [{{fullurl:{{FULLPAGENAME}}|action=edit}} направите страницу] и да погледате [[{{MediaWiki:Wminc-manual-url}}|наш приручник]].',
+	'wminc-infopage-option-startsister' => 'Ако желите да започнете овај вики, идите на <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Можете да претражите [http://www.$1.org постојећа језичка издања пројекта $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Можете да претражите постојеће пројекте на овом језику:',
+	'wminc-infopage-option-sisterprojects-other' => 'Можете да претражите друге пројекте на овом језику:',
+	'wminc-infopage-option-multilingual' => 'Можете да одете на вишејезички вики:',
+	'wminc-infopage-createmainpage' => 'Унесите реч „Главна страна“ на овом језику:',
+	'wminc-infopage-contribute' => 'Ако познајете овај језик, препоручујемо вам да учествујете!',
+	'wminc-infopage-status-imported' => 'Овај вики Инкубатор је увезен из $1, по затварању викија.',
+	'wminc-infopage-status-closedsister' => 'Овај поддомен је затворен. Идите на <b>$2</b> да учествујете на овом викију.',
+	'wminc-infopage-status-created' => 'Овај пројекат је одобрен од језичког одбора и сада је доступан на $1.',
+	'wminc-infopage-status-beforeincubator' => 'Овај пројекат је направљен пре почетка рада Викимедијиног Инкубатора и доступан је на $1.',
 );
 
 /** Swedish (Svenska)
@@ -718,6 +737,13 @@ $messages['sv'] = array(
 	'wminc-infopage-status-closedsister' => 'Denna underdomän har stängts. Gå till <b>$2</b> för att bidra till denna wiki.',
 	'wminc-infopage-status-created' => 'Detta projekt har godkänts av språkkommittén och finns nu på $1.',
 	'wminc-infopage-status-beforeincubator' => 'Detta projekt skapades före Wikimedia Incubator startade och finns på $1.',
+);
+
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'wminc-infopage-enter' => 'bá Pájina Mahuluk',
 );
 
 /** Turkish (Türkçe)
