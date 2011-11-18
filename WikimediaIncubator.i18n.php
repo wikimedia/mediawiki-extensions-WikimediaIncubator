@@ -1452,6 +1452,14 @@ $messages['ja'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|$3語]]は[[wikipedia:ISO 639 macrolanguage|マクロランゲージ]]で、以下に挙げた言語グループに属しています。',
 );
 
+/** Jamaican Creole English (Patois)
+ * @author Hazard-SJ
+ */
+$messages['jam'] = array(
+	'randombytest' => 'Random piej by tess wiki',
+	'wminc-userdoesnotexist' => 'Di yusa "$1" no hexist.',
+);
+
 /** Javanese (Basa Jawa)
  * @author Pras
  */
