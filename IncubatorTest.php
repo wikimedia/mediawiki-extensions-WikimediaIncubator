@@ -415,7 +415,11 @@ class IncubatorTest {
 		} elseif( !$prefix || $prefix['error'] ) {
 			return false; # shouldn't be, but you never know
 		}
-		global $wmincProjectDatabases;
+		global $wmincProjectDatabases, $wgDummyLanguageCodes;
+		$redirectcode = array_search( $prefix['lang'], $wgDummyLanguageCodes );
+		if( $redirectcode ) {
+			$prefix['lang'] = $redirectcode;
+		}
 		return str_replace('-', '_', $prefix['lang'] ) .
 			$wmincProjectDatabases[$prefix['project']];
 	}
