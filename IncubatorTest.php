@@ -309,7 +309,7 @@ class IncubatorTest {
 	 * @return Boolean
 	 */
 	static function onGetUserPermissionsErrors( $title, $user, $action, &$result ) {
-		$notAllowedActions = in_array( array( 'edit', 'createpage' ) );
+		$notAllowedActions = in_array( $action, array( 'edit', 'createpage' ) );
 
 		$titletext = $title->getText();
 		$prefixdata = self::analyzePrefix( $titletext );
