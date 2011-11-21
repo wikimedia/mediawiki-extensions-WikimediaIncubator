@@ -309,8 +309,6 @@ class IncubatorTest {
 	 * @return Boolean
 	 */
 	static function onGetUserPermissionsErrors( $title, $user, $action, &$result ) {
-		$notAllowedActions = in_array( $action, array( 'edit', 'createpage' ) );
-
 		$titletext = $title->getText();
 		$prefixdata = self::analyzePrefix( $titletext );
 
@@ -327,7 +325,7 @@ class IncubatorTest {
 			# faking external link to support prot-rel URLs
 			$link = "[$link ". self::makeExternalLinkText( $link ) . "]";
 			$result[] = array( 'wminc-error-wiki-exists', $link );
-			return $notAllowedActions ? false : true;
+			return $action != 'edit';
 		}
 
 		if( !self::shouldWeShowUnprefixedError( $title ) || $action != 'create' ) {
@@ -346,7 +344,7 @@ class IncubatorTest {
 			$error = 'wminc-error-unprefixed';
 		}
 		$result = $error;
-		return $notAllowedActions ? false : true;
+		return $action != 'edit';
 	}
 
 	/**
