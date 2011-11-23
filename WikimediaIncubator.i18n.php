@@ -124,7 +124,7 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-search-nocreate-suggest' => 'Used on Special:Search. $1 is the search term, and $2 is the prefixed form of $1.',
 );
 
-/** Adyghe (Cyrillic) ()
+/** адыгэбзэ (адыгэбзэ)
  * @author Celekan
  */
 $messages['ady-cyrl'] = array(
@@ -1567,7 +1567,7 @@ $messages['ksh'] = array(
 	'wminc-search-nocreate-suggest' => 'Do has noh „$1“ jesöhk. Do kanns en Dingem Versöhkswiki en Sigg onger <b>[[$2]]</b> aanlääje.',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -2345,7 +2345,7 @@ $messages['rue'] = array(
 	'wminc-listusers-testwiki' => 'Перезерате хоснователїв, котры наставили їх тест вікі наставлїня на $1.',
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $messages['sa'] = array(
 	'wminc-manual' => 'शास्त्र',
 	'wminc-listwikis' => 'विकयः सूचि',
@@ -2404,7 +2404,7 @@ $messages['sgs'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 kalba|"$3" kalba]] īr [[wikipedia:ISO 639 makrokalba|makrokalba]], katra sodara šėtas kalbas:',
 );
 
-/** Tachelhit (Tašlḥiyt)
+/** Tachelhit (Tašlḥiyt/ⵜⴰⵛⵍⵃⵉⵜ)
  * @author Dalinanir
  */
 $messages['shi'] = array(
@@ -2550,7 +2550,7 @@ $messages['sr-ec'] = array(
 	'wminc-search-nocreate-suggest' => 'Тражите појам „$1“. Можете да направите страницу на вашем викију на <b>[[$2]]</b>.',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -2662,7 +2662,7 @@ $messages['tet'] = array(
 	'wminc-userdoesnotexist' => 'Uza-na\'in "$1" la iha.',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -2672,7 +2672,7 @@ $messages['tg-cyrl'] = array(
 	'wminc-viewuserlang-go' => 'Рав',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -2770,7 +2770,7 @@ $messages['tt-cyrl'] = array(
 	'grouppage-test-sysop' => 'Project:Тикшерелүче вики идарәчеләре',
 );
 
-/** ئۇيغۇرچە (ئۇيغۇرچە)
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */
 $messages['ug-arab'] = array(
