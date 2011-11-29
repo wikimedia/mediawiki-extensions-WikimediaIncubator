@@ -230,7 +230,7 @@ puedes [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la página] y seguir [[{{
 	'wminc-infopage-status-imported' => 'Este wiki de la Incubadora se importó desde $1 después de que el wiki fuera cerrado.',
 	'wminc-infopage-status-closedsister' => 'Este subdominio se cerró. Ir a <b>$2</b> para contribuir a este wiki.',
 	'wminc-infopage-status-created' => 'Este proyecto ha sido aprobado por el Comité de idiomas y ahora está disponible en $1.',
-	'wminc-infopage-status-beforeincubator' => 'Este proyecto fue creado antes de que la Incubadora de Wikimedia incubadora comenzara y está disponible en $1.',
+	'wminc-infopage-status-beforeincubator' => 'Este proyecto fue creado antes de que la Incubadora de Wikimedia comenzara y está disponible en $1.',
 );
 
 /** Persian (فارسی)
@@ -317,7 +317,7 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear esta páxina] e seguir [[{{
 	'wminc-infopage-status-imported' => 'Este wiki da Incubadora foi importado desde $1 despois de que o wiki pechase.',
 	'wminc-infopage-status-closedsister' => 'Este subdominio foi pechado. Vaia a <b>$2</b> para contribuír neste wiki.',
 	'wminc-infopage-status-created' => 'Este proxecto foi aprobado polo comité de linguas e agora está dispoñible en $1.',
-	'wminc-infopage-status-beforeincubator' => 'Este proxecto foi creado antes cá Incubadora da Wikimedia e está dispoñible en $1.',
+	'wminc-infopage-status-beforeincubator' => 'Este proxecto foi creado antes ca a Incubadora da Wikimedia e está dispoñible en $1.',
 );
 
 /** Hebrew (עברית)
