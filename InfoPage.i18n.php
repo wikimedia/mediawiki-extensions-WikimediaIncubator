@@ -751,6 +751,16 @@ $messages['tet'] = array(
  */
 $messages['tr'] = array(
 	'wminc-infopage-enter' => 'Ana sayfaya git',
+	'wminc-unknownlang' => '("$1" bilinmeyen bir dil kodu)',
+	'wminc-infopage-welcome' => "Bir Wikimedia Vakfı projesi olan Wikimedia Incubator'e hoş geldiniz. ([[{{MediaWiki:Aboutpage}}|Hakkında]])",
+	'wminc-infopage-missingwiki-text' => '$1, bu dilde henüz mevcut değil.',
+	'wminc-infopage-option-startsister' => 'Bu vikiyi başlatmak istiyorsanız, <b>[$2 $1]</b> gidebilirsiniz.',
+	'wminc-infopage-option-languages-existing' => '[http://www.$1.org Mevcut dil sürümü $1] için arama yapabilirsiniz.',
+	'wminc-infopage-option-sisterprojects-existing' => 'Bu dilde diğer projeler için arama yapabilirsiniz:',
+	'wminc-infopage-option-sisterprojects-other' => 'Bu dilde diğer projeler için arama yapabilirsiniz:',
+	'wminc-infopage-createmainpage' => 'Bu dilde "Ana Sayfa" sözcüğünü girin:',
+	'wminc-infopage-contribute' => 'Eğer bu dili biliyorsanız, sizi katkıda bulunmaya davet ediyoruz!',
+	'wminc-infopage-status-closedsister' => "Bu alt etki alanı kapatılmıştır. Bu vikiye katkıda bulunmak için <b>$2</b>'ye/ya gidin.",
 );
 
 /** Ukrainian (Українська)

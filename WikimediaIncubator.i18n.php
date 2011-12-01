@@ -2729,6 +2729,7 @@ $messages['tr'] = array(
 	'wminc-prefinfo-code' => 'ISO 639 dil kodu',
 	'wminc-prefinfo-project' => 'Vikimedya projesini seçin (İnkübatör seçeneği genel çalışma yapan kullanıcılar için)',
 	'wminc-prefinfo-error' => 'Bir dil kodu gereken bir proje seçtiniz.',
+	'wminc-error-move-unprefixed' => 'Hata: Taşımaya çalıştığınız sayfa [[{{MediaWiki:Helppage}}|öneksiz ya da yanlış bir öneki var]]!',
 	'randombytest' => 'Test vikisinden rastgele sayfa',
 	'randombytest-nopages' => 'Test vikinizdeki $1 isim alanında herhangi bir sayfa bulunmuyor.',
 	'wminc-viewuserlang' => 'Kullanıcı dili ve test vikisine bak',
