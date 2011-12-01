@@ -39,7 +39,7 @@ class InfoPage {
 		$this->mLangNames = IncubatorTest::getLanguageNames();
 		$this->mLangName = ( isset( $this->mLangNames[$this->mLangCode] ) ?
 			$this->mLangNames[$this->mLangCode] : wfMsg( 'wminc-unknownlang', $this->mLangCode ) );
-		$this->mFormatTitle = wfMsgHtml( 'wminc-infopage-title', $this->mProjectName, $this->mLangName );
+		$this->mFormatTitle = wfMsgHtml( 'wminc-infopage-title-' . $this->mProjectCode, $this->mLangName );
 		return;
 	}
 
@@ -97,7 +97,7 @@ class InfoPage {
 		if( !is_array( $wmincMultilingualProjects ) ) { return; }
 		foreach( $wmincMultilingualProjects as $url => $name ) {
 			$list[$url] = '<li>' . $this->makeLogo( $name, true,
-				75, null, 'http://'.$url.'/') . '</li>';
+				75, null, '//'.$url.'/') . '</li>';
 		}
 		return '<ul class="wminc-infopage-multilingualprojects">' .
 			implode( '', $list ) . '</ul>';

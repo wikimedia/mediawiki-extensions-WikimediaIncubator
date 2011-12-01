@@ -25,7 +25,13 @@ $messages['en'] = array(
 	'wminc-logo-wikispecies' => 'WikiSpecies.svg', # only translate if necessary
 	'wminc-logo-mediawiki' => 'MediaWiki.svg', # only translate if necessary
 	'wminc-manual-url' => 'Help:Manual', # only translate if necessary
-	'wminc-infopage-title' => '$1 $2', # only translate if necessary
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionary $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversity $1',
 	'wminc-infopage-welcome' => 'Welcome to the Wikimedia Incubator, a project of the Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|About]])',
 
 	'wminc-infopage-missingwiki-text' => 'A $1 in this language does not yet exist.',
@@ -55,10 +61,13 @@ you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[
  */
 $messages['qqq'] = array(
 	'wminc-infopage-enter' => 'Text of a link to the Main Page of a test wiki at Incubator.',
-	'wminc-infopage-title' => '{{optional}}
-* $1 is the project, e.g. "Wikipedia" or "Wiktionary"
-* $2 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it\'s in English.
-Here you can change the title as it appears on e.g. http://incubator.wikimedia.org/wiki/Wn/en. You can change it to e.g. "$1 in $2".',
+	'wminc-infopage-title-p' => 'This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it\'s in English.',
+	'wminc-infopage-title-b' => 'This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it\'s in English.',
+	'wminc-infopage-title-t' => 'This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it\'s in English.',
+	'wminc-infopage-title-q' => 'This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it\'s in English.',
+	'wminc-infopage-title-n' => 'This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it\'s in English.',
+	'wminc-infopage-title-s' => 'This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it\'s in English.',
+	'wminc-infopage-title-v' => 'This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it\'s in English.',
 	'wminc-infopage-welcome' => 'Do not change <tt><nowiki>{{MediaWiki:Aboutpage}}</nowiki></tt>.',
 	'wminc-infopage-missingwiki-text' => "'''$1''' is a project: Wikipedia/Wiktionary/...",
 	'wminc-infopage-option-startwiki' => 'Do not change <code><nowiki>{{fullurl:{{FULLPAGENAME}}|action=edit}}</nowiki></code> or <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>',

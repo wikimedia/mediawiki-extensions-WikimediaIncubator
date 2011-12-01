@@ -17,7 +17,7 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
 	'version' => '4.5',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
+	'url' => '//www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
 
