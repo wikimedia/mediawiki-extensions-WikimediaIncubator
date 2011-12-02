@@ -16,6 +16,9 @@ class SpecialViewUserLang extends SpecialPage {
 		parent::__construct( 'ViewUserLang', 'viewuserlang' );
 	}
 
+	/**
+	 * @return String
+	 */
 	function getDescription() { return wfMsg( 'wminc-viewuserlang' ); }
 
 	/**
@@ -70,7 +73,8 @@ class SpecialViewUserLang extends SpecialPage {
 		global $wgOut, $wmincPref, $wmincProjectSite;
 		if( User::isIP( $target ) ) {
 			# show error if it is an IP address
-			return $wgOut->addHTML( Xml::span( wfMsg( 'wminc-ip', $target ), 'error' ) );
+			$wgOut->addHTML( Xml::span( wfMsg( 'wminc-ip', $target ), 'error' ) );
+			return;
 		}
 		$user = User::newFromName( $target );
 		$name = $user->getName();
@@ -79,7 +83,8 @@ class SpecialViewUserLang extends SpecialPage {
 		$linker = class_exists( 'DummyLinker' ) ? new DummyLinker : new Linker;
 		if ( $user == null || $id == 0 ) {
 			# show error if a user with that name does not exist
-			return $wgOut->addHTML( Xml::span( wfMsg( 'wminc-userdoesnotexist', $target ), 'error' ) );
+			$wgOut->addHTML( Xml::span( wfMsg( 'wminc-userdoesnotexist', $target ), 'error' ) );
+			return;
 		}
 		$userproject = $user->getOption( $wmincPref . '-project' );
 		$userproject = ( $userproject ? $userproject : 'none' );

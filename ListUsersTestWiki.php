@@ -14,7 +14,7 @@ class ListUsersTestWiki {
 		if( $input == strtolower( $wmincProjectSite['name'] ) || $input == strtolower( $wmincProjectSite['short'] ) ) {
 			return $wmincProjectSite;
 		}
-		return;
+		return null;
 	}
 
 	/**
@@ -31,13 +31,20 @@ class ListUsersTestWiki {
 
 	/**
 	 * Show a message that you are viewing a list of users of a certain test wiki
+	 * @param $pager
+	 * @param $out
+	 * @return bool
 	 */
 	static function onSpecialListusersHeader( $pager, &$out ) {
-		if( $project = self::getProjectInput() ) {
+		$project = self::getProjectInput();
+		if( $project ) {
 			$out .= wfMsgWikiHtml( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' );
-		} elseif( $testwiki = IncubatorTest::getUrlParam() ) {
-			$link = Linker::linkKnown( Title::newFromText( $testwiki['prefix'] ) );
-			$out .= wfMsgWikiHtml( 'wminc-listusers-testwiki', $link );
+		} else {
+			$testwiki = IncubatorTest::getUrlParam();
+			if ( $testwiki ) {
+				$link = Linker::linkKnown( Title::newFromText( $testwiki['prefix'] ) );
+				$out .= wfMsgWikiHtml( 'wminc-listusers-testwiki', $link );
+			}
 		}
 		return true;
 	}

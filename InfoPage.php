@@ -19,6 +19,11 @@
  */
 
 class InfoPage {
+
+	/**
+	 * @param $title Title
+	 * @param $prefixdata
+	 */
 	public function __construct( $title, $prefixdata ) {
 		global $wmincProjects, $wmincSisterProjects;
 		$this->mTitle = $title;
@@ -54,9 +59,9 @@ class InfoPage {
 		$useUrl = $url ? $url : IncubatorTest::getSubdomain( 'www', IncubatorTest::getProject( $project, false, true ) );
 		if ( !$imageobj ) { # image not found
 			if( !$clickable ) {
-				return $logo;
+				return $logo; // FIXME: $logo is undefined
 			}
-			return Linker::makeExternalLink( $useUrl, $project, false ); 
+			return Linker::makeExternalLink( $useUrl, $project, false );
 		}
 		if( $clickable ) {
 			$args['link-url'] = $useUrl;
@@ -79,6 +84,7 @@ class InfoPage {
 	public function listOtherProjects() {
 		global $wmincProjects, $wmincSisterProjects;
 		$otherProjects = $wmincProjects + $wmincSisterProjects;
+		$listOtherProjects = array();
 		foreach( $otherProjects as $code => $name ) {
 			$listOtherProjects[$code] = '<li>' . $this->makeLogo( $name, true,
 				75, null, IncubatorTest::getSubdomain( $this->mLangCode, $code ) ) . '</li>';
@@ -94,7 +100,8 @@ class InfoPage {
 	 */
 	public function listMultilingualProjects() {
 		global $wmincMultilingualProjects;
-		if( !is_array( $wmincMultilingualProjects ) ) { return; }
+		if( !is_array( $wmincMultilingualProjects ) ) { return ''; }
+		$list = array();
 		foreach( $wmincMultilingualProjects as $url => $name ) {
 			$list[$url] = '<li>' . $this->makeLogo( $name, true,
 				75, null, '//'.$url.'/') . '</li>';
@@ -136,7 +143,7 @@ class InfoPage {
 			array( 'class' => 'wminc-infopage-status' ),
 			wfMsgWikiHtml( 'wminc-infopage-missingwiki-text',
 			$this->mProjectName, $this->mLangName )
-		) . 
+		) .
 		Html::rawElement( 'ul', array( 'class' => 'wminc-infopage-options' ),
 			Html::rawElement( 'li', null,
 				wfMsgExt( $this->mIsSister ? 'wminc-infopage-option-startsister' : 'wminc-infopage-option-startwiki',

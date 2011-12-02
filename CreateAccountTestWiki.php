@@ -12,6 +12,11 @@
  */
 
 class AutoTestWiki {
+
+	/**
+	 * @param $template UsercreateTemplate|UserloginTemplate
+	 * @return bool
+	 */
 	public static function onUserCreateForm( $template ) {
 		global $wgRequest, $wmincProjects;
 		$projectvalue = strtolower( $wgRequest->getVal( 'testwikiproject', '' ) );
@@ -25,6 +30,10 @@ class AutoTestWiki {
 		return true;
 	}
 
+	/**
+	 * @param $user User
+	 * @return bool
+	 */
 	public static function onAddNewAccount( $user ) {
 		global $wgRequest, $wmincProjects, $wmincPref;
 		$projectvalue = $wgRequest->getVal( 'testwiki-project' );

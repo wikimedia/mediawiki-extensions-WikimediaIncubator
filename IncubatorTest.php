@@ -13,7 +13,9 @@ class IncubatorTest {
 
 	/**
 	 * Add preferences
-	 * @return True
+	 * @param $user User
+	 * @param $preferences array
+	 * @return true
 	 */
 	static function onGetPreferences( $user, &$preferences ) {
 		global $wmincPref, $wmincProjects, $wmincProjectSite,
@@ -52,6 +54,8 @@ class IncubatorTest {
 
 	/**
 	 * For the preferences above
+	 * @param $input
+	 * @param $alldata
 	 * @return String or true
 	 */
 	static function validateCodePreference( $input, $alldata ) {
@@ -135,14 +139,14 @@ class IncubatorTest {
 
 	/**
 	 * This returns simply true or false based on analyzePrefix().
+	 * @param $title Title
+	 * @param $onlyprefix bool
 	 * @return Boolean
 	 */
 	static function validatePrefix( $title, $onlyprefix = false ) {
 		$data = self::analyzePrefix( $title, $onlyprefix );
-		if( !$data['error'] ) { return true; }
-		return false;
+		return !$data['error'];
 	}
-
 
 	/**
 	 * Get &testwiki=wx/xx and validate that prefix.
@@ -197,6 +201,10 @@ class IncubatorTest {
 
 	/**
 	 * Returns a simple boolean based on getProject()
+	 * @param $project string
+	 * @param $returnName bool
+	 * @param $returnName bool
+	 * @param $includeSister bool
 	 * @return Bool
 	 */
 	static function isContentProject( $project = '', $returnName = false, $includeSister = false ) {
@@ -400,7 +408,7 @@ class IncubatorTest {
 		}
 		return true; # Should work now
 	}
-	
+
 	/**
 	 * Given an incubator testwiki prefix, get the database name of the
 	 * corresponding wiki, whether it exists or not
@@ -527,7 +535,7 @@ class IncubatorTest {
 			$wgOut->addHtml( $infopage->showExistingWiki() );
 		} elseif( $dbstate == 'closed' ) {
 			$infopage->mSubStatus = 'imported';
-			$wgOut->addHtml( $infopage->showIncubatingWiki() );	
+			$wgOut->addHtml( $infopage->showIncubatingWiki() );
 		} else {
 			$wgOut->addHtml( $infopage->showMissingWiki() );
 		}
