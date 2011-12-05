@@ -1613,6 +1613,7 @@ $messages['lb'] = array(
 	'right-viewuserlang' => 'Benotzersprooch an Test-Wiki weisen',
 	'group-test-sysop' => 'Adminstrateure vun der Testwiki',
 	'group-test-sysop-member' => '{{GENDER:$1|Adminstrateur|Administratrice}} vun der Testwiki',
+	'wminc-code-collective' => 'De Code "$1" bezitt sech net op eng bestëmmte Sprooch, mä op eng Grupp vu Sproochen, an zwar op [[wikipedia:$2 language|"$3"-Sproochen]].',
 	'wminc-code-retired' => "Dëse Sproochcode gouf geännert a bezitt sech net méi op d'Original-Sprooch.",
 	'wminc-listusers-testwiki' => 'Dir gesitt Benotzer déi hir Test-Wiki Astellung op $1 gesat hunn',
 	'wminc-search-nocreate-suggest' => 'Dir hutt no "$1" gesicht. Dir kënnt eng Säit ënner <b>[[$2]]</b> an Ärer Wiki uleeën!',

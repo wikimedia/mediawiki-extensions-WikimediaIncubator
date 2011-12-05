@@ -159,6 +159,13 @@ $messages['be-tarask'] = array(
 $messages['br'] = array(
 	'wminc-infopage-enter' => "mont d'ar Bajenn Degemer",
 	'wminc-unknownlang' => '(yezh dianav dezhi ar c\'hod "$1")',
+	'wminc-infopage-title-p' => 'Wikipedia e $1',
+	'wminc-infopage-title-b' => 'Wikilevrioù e $1',
+	'wminc-infopage-title-t' => 'Wikeriadur e $1',
+	'wminc-infopage-title-q' => 'Wikiarroud e $1',
+	'wminc-infopage-title-n' => 'Wikikeloù e $1',
+	'wminc-infopage-title-s' => 'Wikimammenn e $1',
+	'wminc-infopage-title-v' => 'Wikiskol-veur e $1',
 	'wminc-infopage-welcome' => 'Degemer mat er Wikimedia Incubator, ur raktres eus Diazezadur Wikimedia ([[{{MediaWiki:Aboutpage}}|Diwar-benn]])',
 	'wminc-infopage-missingwiki-text' => "N'eus ket a $1 er yezh-mañ.",
 	'wminc-infopage-option-startwiki' => "Mar fell deoc'h sevel ar wiki-mañ,
@@ -173,6 +180,7 @@ e c'hallit [{{fullurl:{{FULLPAGENAME}}|action=edit}} kouiñ ar bajenn] ha heulia
 	'wminc-infopage-status-imported' => "Enporzhiet eo bet ar rakwiki-mañ eus $1 p'eo bet serret ar wiki.",
 	'wminc-infopage-status-closedsister' => 'Serr eo an isdomani-mañ. Mont da <b>$2</b> evit kemer perzh er wiki-mañ.',
 	'wminc-infopage-status-created' => "Aprouet eo bet ar raktres-mañ gant ar c'huzul yezh hag ez a en-dro bremañ war $1.",
+	'wminc-infopage-status-beforeincubator' => "Savet e oa bet ar raktres-mañ a-raok na loc'hfe gorerez Wikimedia hag hegerz eo war $1.",
 );
 
 /** German (Deutsch)
@@ -271,12 +279,20 @@ $messages['fa'] = array(
 );
 
 /** French (Français)
+ * @author Crochet.david
  * @author Hashar
  * @author Seb35
  */
 $messages['fr'] = array(
 	'wminc-infopage-enter' => 'aller à la page principale',
 	'wminc-unknownlang' => '(langue inconnue avec le code « $1 »)',
+	'wminc-infopage-title-p' => 'Wikipédia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionnaire $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversité $1',
 	'wminc-infopage-welcome' => 'Bienvenue sur l’Incubateur Wikimedia, un projet de la Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|à propos]])',
 	'wminc-infopage-missingwiki-text' => '$1 dans cette langue n’existe pas.',
 	'wminc-infopage-option-startwiki' => 'Si vous voulez démarrer ce wiki, vous pouvez [{{fullurl:{{FULLPAGENAME}}|action=edit}} créer cette page] et suivre [[{{MediaWiki:Wminc-manual-url}}|notre manuel]].',
@@ -320,6 +336,12 @@ $messages['gl'] = array(
 	'wminc-infopage-enter' => 'ir á páxina principal',
 	'wminc-unknownlang' => '(lingua descoñecida co código "$1")',
 	'wminc-infopage-title-p' => 'Wikipedia en $1',
+	'wminc-infopage-title-b' => 'Wikibooks en $1',
+	'wminc-infopage-title-t' => 'Wiktionary en $1',
+	'wminc-infopage-title-q' => 'Wikiquote en $1',
+	'wminc-infopage-title-n' => 'Wikinews en $1',
+	'wminc-infopage-title-s' => 'Wikisource en $1',
+	'wminc-infopage-title-v' => 'Wikiversity en $1',
 	'wminc-infopage-welcome' => 'Benvido á Incubadora da Wikimedia, un proxecto da Fundación Wikimedia ([[{{MediaWiki:Aboutpage}}|acerca de]])',
 	'wminc-infopage-missingwiki-text' => 'Aínda non existe $1 nesta lingua.',
 	'wminc-infopage-option-startwiki' => 'Se quere comezar este wiki,
@@ -464,6 +486,8 @@ $messages['lb'] = array(
 	'wminc-infopage-option-multilingual' => 'Dir kënnt op eng méisproocheg Wiki goen:',
 	'wminc-infopage-createmainpage' => 'Gitt d\'Wuert "Haaptsäit" fir dës Sprooch an:',
 	'wminc-infopage-contribute' => 'Wann Dir dës Sprooch beherrscht, sidd Dir häerzlech wëllkomm fir matzemaachen!',
+	'wminc-infopage-status-imported' => "Dës Incubator-Wiki gouf vun $1 importéiert wéi d'Wiki zougemaach gouf.",
+	'wminc-infopage-status-closedsister' => 'Dës Subdomain gouf zougemaach. Gitt op <b>$2</b> fir un dëser Wiki matzeschaffen.',
 	'wminc-infopage-status-created' => 'Dëse Projet gouf vum Sproochecomité akzeptéiert an ass elo op $1 disponibel.',
 	'wminc-infopage-status-beforeincubator' => 'Dëse Projet gouf ugeluecht ier et Wikimedia Incubator gouf an ass op $1 disponibel.',
 );
@@ -847,6 +871,13 @@ $messages['uk'] = array(
 $messages['vi'] = array(
 	'wminc-infopage-enter' => 'đi đến Trang Chính',
 	'wminc-unknownlang' => '(ngôn ngữ không rõ với mã “$1”)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionary $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversity $1',
 	'wminc-infopage-welcome' => 'Hoan nghênh bạn đến với Wikimedia Incubator, một dự án của Quỹ Wikimedia ([[{{MediaWiki:Aboutpage}}|Giới thiệu]])',
 	'wminc-infopage-missingwiki-text' => '$1 chưa có sẵn trong ngôn ngữ này.',
 	'wminc-infopage-option-startwiki' => 'Nếu bạn muốn bắt đầu xây dựng wiki này, [{{fullurl:{{FULLPAGENAME}}|action=edit}} tạo ra trang này] và thực hiện theo [[{{MediaWiki:Wminc-manual-url}}|sách hướng dẫn của chúng ta]].',
