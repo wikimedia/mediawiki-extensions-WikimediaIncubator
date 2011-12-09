@@ -904,6 +904,7 @@ $messages['fa'] = array(
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Crt
+ * @author Nike
  * @author Silvonen
  * @author Str4nd
  * @author Varusmies
@@ -914,7 +915,7 @@ $messages['fi'] = array(
 	'wminc-testwiki-none' => 'Ei lainkaan/Kaikki',
 	'wminc-prefinfo-language' => 'Käyttöliittymän kieli – riippumaton testiwikistäsi',
 	'wminc-prefinfo-code' => 'ISO 639 -kielikoodi',
-	'wminc-prefinfo-project' => 'Valitse Wikimedia-projekti (Hautomo-vaihtoehto on käyttäjille, jotka tekevät yleisluontoisia askareita)',
+	'wminc-prefinfo-project' => 'Valitse Wikimedia-projekti (Hautomo on käyttäjille, jotka tekevät yleisluontoisia askareita)',
 	'wminc-prefinfo-error' => 'Olet valinnut projektin, joka tarvitsee kielikoodin.',
 	'randombytest' => 'Satunnainen sivu testiwikistä',
 	'randombytest-nopages' => 'Testiwikisi nimiavaruudessa $1 ei ole sivuja.',
