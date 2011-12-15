@@ -697,7 +697,7 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 $messages['pt-br'] = array(
 	'wminc-infopage-enter' => 'Vá para a página principal',
 	'wminc-unknownlang' => '(língua desconhecida com código "$1")',
-	'wminc-infopage-welcome' => 'Bem vindo à Wikimedia Incubator, um projeto da Wikimedia Fundation ([[{{MediaWiki:Aboutpage}}|About]])',
+	'wminc-infopage-welcome' => 'Bem vindo à Wikimedia Incubator, um projeto da Wikimedia Fundation ([[{{MediaWiki:Aboutpage}}|Sobre]])',
 	'wminc-infopage-missingwiki-text' => 'Ainda não existe um projeto $1 nesta língua.',
 	'wminc-infopage-option-startwiki' => 'Se você quiser começar esta wiki, você pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir [[{{MediaWiki:Wminc-manual-url}}|nosso manual]].',
 	'wminc-infopage-option-startsister' => 'Se você quer começar esta wiki, você pode ir a <b>[$2 $1]</b>.',
