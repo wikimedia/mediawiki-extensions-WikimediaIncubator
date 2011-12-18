@@ -490,6 +490,12 @@ $messages['br'] = array(
 	'wminc-ip' => 'Ur chomlec\'h IP eo "$1"',
 	'right-viewuserlang' => 'Gwelet yezh an implijer hag ar wiki testiñ',
 	'group-test-sysop' => 'Merourien ar wiki arnod',
+	'group-test-sysop-member' => '{{GENDER:$1|merour|merourez}} ar wiki arnod',
+	'grouppage-test-sysop' => 'Project:Merourien wiki arnod',
+	'wminc-code-retired' => "Kemmet eo bet ar c'hod yezh-mañ. Ne ra ket dave d'ar yezh orin ken.",
+	'wminc-listusers-testwiki' => "O sellet ouzh roll an implijerien o deus dibabet $1 en o wiki arnod emaoc'h.",
+	'wminc-search-nocreate-nopref' => "Klasket hoc'h eus \"\$1\". Trugarez da gempenn [[Special:Preferences|penndibaboù ar wiki arnod]] evit ma c'hallfemp bezañ goeust da lavaret deoc'h pe bajenn a c'hallit krouiñ !",
+	'wminc-search-nocreate-suggest' => 'Klasket hoc\'h eus "$1". Ur bajenn a c\'hallit krouiñ en ho wiki e <b>[[$2]]</b> !',
 );
 
 /** Bosnian (Bosanski)
@@ -1683,7 +1689,7 @@ $messages['lt'] = array(
 	'right-viewuserlang' => 'Žiūrėti naudotojo kalbą ir testavimo wiki',
 	'group-test-sysop' => 'Bandyti wiki administratorius',
 	'group-test-sysop-member' => 'bandyti wiki administratorių',
-	'grouppage-test-sysop' => 'Projektas: Test wiki administrators',
+	'grouppage-test-sysop' => 'Project:Test wiki administrators',
 	'wminc-code-retired' => 'Šios kalbos kodas buvo pakeistas ir nebėra nuoroda į originalo kalba.',
 	'wminc-listusers-testwiki' => 'Jūs matote naudotojams, kurie nustatė bandymo Wiki pirmenybę $1.',
 );

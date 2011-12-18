@@ -465,9 +465,32 @@ tu pote [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear le pagina] e sequer [[{{
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Nemo bis
  */
 $messages['it'] = array(
 	'wminc-infopage-enter' => 'vai alla pagina principale',
+	'wminc-unknownlang' => '(lingua ignota, codice "$1")',
+	'wminc-infopage-title-p' => 'Wikipedia in $1',
+	'wminc-infopage-title-b' => 'Wikibooks in $1',
+	'wminc-infopage-title-t' => 'Wiktionary in $1',
+	'wminc-infopage-title-q' => 'Wikiquote in $1',
+	'wminc-infopage-title-n' => 'Wikinews in $1',
+	'wminc-infopage-title-s' => 'Wikisource in $1',
+	'wminc-infopage-title-v' => 'Wikiversity in $1',
+	'wminc-infopage-welcome' => 'Benvenuto nel Wikimedia Incubator, un progetto della Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|informazioni]])',
+	'wminc-infopage-missingwiki-text' => '$1 in questa lingua non esiste ancora.',
+	'wminc-infopage-option-startwiki' => 'Se vuoi cominciare questo wiki, puoi [{{fullurl:{{FULLPAGENAME}}|action=edit}} creare la pagina] e seguire [[{{MediaWiki:Wminc-manual-url}}|il manuale]].',
+	'wminc-infopage-option-startsister' => 'Se vuoi cominciare questo wiki, puoi andare in <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Puoi fare una ricerca nelle [http://www.$1.org versioni linguistiche di $1 esistenti].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Puoi cercare nei progetti esistenti in questa lingua:',
+	'wminc-infopage-option-sisterprojects-other' => 'Puoi cercare altri progetti in questa lingua:',
+	'wminc-infopage-option-multilingual' => 'Puoi andare in un wiki multilingue:',
+	'wminc-infopage-createmainpage' => 'Inserisci la traduzione di "Pagina principale" in questa lingua:',
+	'wminc-infopage-contribute' => 'Se conosci questa lingua, sei invitato a contribuire!',
+	'wminc-infopage-status-imported' => 'Questo wiki di Incubator è stato importato da $1 dopo che il wiki era stato chiuso.',
+	'wminc-infopage-status-closedsister' => 'Questo sottodominio è stato chiuso. Vai a <b>$2</b> per partecipare a questo wiki.',
+	'wminc-infopage-status-created' => "Questo progetto è stato approvato dal language committee ed è ora disponibile all'indirizzo $1",
+	'wminc-infopage-status-beforeincubator' => "Questo progetto è stato creato prima della nascita di Wikimedia Incubator ed è disponibile all'indirizzo $1.",
 );
 
 /** Korean (한국어)
