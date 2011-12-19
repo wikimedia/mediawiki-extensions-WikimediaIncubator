@@ -1417,6 +1417,7 @@ $messages['it'] = array(
 	'wminc-viewuserlang-user' => 'Nome utente:',
 	'wminc-viewuserlang-go' => 'Vai',
 	'wminc-userdoesnotexist' => 'L\'utente "$1" non esiste.',
+	'wminc-ip' => '"$1" è un indirizzo IP.',
 	'right-viewuserlang' => 'Visualizza il linguaggio utente e prova il wiki',
 	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 language|lingua "$3"]] è una [[wikipedia:ISO 639 macrolanguage|macrolingua]], composta dalle seguenti lingue:',
 	'wminc-code-retired' => 'Questo codice lingua è stato modificato e non si riferisce più alla lingua originale.',
