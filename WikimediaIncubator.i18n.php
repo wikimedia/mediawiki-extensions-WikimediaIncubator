@@ -2647,6 +2647,14 @@ $messages['szl'] = array(
 	'right-viewuserlang' => 'Uobocz zajta używacza a testowo wiki',
 );
 
+/** Tulu (ತುಳು)
+ * @author VASANTH S.N.
+ */
+$messages['tcy'] = array(
+	'wminc-listwikis' => 'ವಿಕಿ ಪೀಡಿಯಾಲೆನ ತಖ್ತೆ',
+	'wminc-testwiki' => 'ಪ್ರಯೋಗಡುಪ್ಪಿನ ವಿಕಿ',
+);
+
 /** Telugu (తెలుగు)
  * @author Kiranmayee
  * @author Veeven
