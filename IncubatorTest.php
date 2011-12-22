@@ -666,7 +666,7 @@ class IncubatorTest {
 	static function fnTestWikiLogo( &$out ) {
 		$setLogo = self::shouldWeSetCustomLogo( $out->getTitle() );
 		if( !$setLogo ) {
-			return false;
+			return true;
 		}
 		global $wgLogo;
 		$prefixForPageTitle = str_replace( '/', '-', strtolower( $setLogo['prefix'] ) );
@@ -683,7 +683,7 @@ class IncubatorTest {
 				$wgLogo = $thumb->getUrl();
 				return true;
 			}
-			return false;
+			return true;
 		}
 		# Use MediaWiki:Incubator-logo-wx-xx(x)
 		$thumb = $file->transform( array( 'width' => 135, 'height' => 135 ) );
