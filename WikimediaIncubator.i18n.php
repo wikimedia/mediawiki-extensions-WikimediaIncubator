@@ -49,7 +49,7 @@ $messages['en'] = array(
 	'right-viewuserlang' => 'View user language and test wiki',
 	'group-test-sysop' => 'Test wiki administrators',
 	'group-test-sysop-member' => '{{GENDER:$1|test wiki administrator}}',
-	'grouppage-test-sysop' => 'Project:Test wiki administrators',
+	'grouppage-test-sysop' => '{{ns:project}}:Test wiki administrators',
 
 	# Language codes
 	'wminc-code-macrolanguage' => 'The [[wikipedia:$2 language|"$3" language]] is a [[wikipedia:ISO 639 macrolanguage|macrolanguage]], consisting of the following member languages:',
