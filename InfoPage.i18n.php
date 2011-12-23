@@ -83,6 +83,20 @@ $messages['qqq'] = array(
 	'wminc-infopage-status-beforeincubator' => "'''$1''' is a URL to the existing wiki.",
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'wminc-unknownlang' => '(onbekende taal met kode "$1")',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikiboeke $1',
+	'wminc-infopage-title-t' => 'Wiktionary $1',
+	'wminc-infopage-title-q' => 'Wikiaanhalings $1',
+	'wminc-infopage-title-n' => 'Wikinuus $1',
+	'wminc-infopage-title-s' => 'Wikibron $1',
+	'wminc-infopage-title-v' => 'Wikiversity $1',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -552,6 +566,14 @@ $messages['lt'] = array(
 	'wminc-infopage-contribute' => 'Jei suprantate, ar kalbate šią kalba, esate kviečiama(s) prisidėti!',
 );
 
+/** Latvian (Latviešu)
+ * @author GreenZeb
+ */
+$messages['lv'] = array(
+	'wminc-infopage-title-p' => 'Vikipēdija $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
@@ -737,21 +759,37 @@ $messages['pt-br'] = array(
 );
 
 /** Romanian (Română)
+ * @author Firilacroco
  * @author Minisarm
  */
 $messages['ro'] = array(
 	'wminc-infopage-enter' => 'mergi la Pagina principală',
 	'wminc-unknownlang' => '(limbă necunoscută asociată codului „$1”)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikimanuale $1',
+	'wminc-infopage-title-t' => 'Wikționar $1',
+	'wminc-infopage-title-q' => 'Wikicitat $1',
+	'wminc-infopage-title-n' => 'Wikiștiri $1',
+	'wminc-infopage-title-s' => 'Wikisursă $1',
+	'wminc-infopage-title-v' => 'Wikiversitate $1',
 	'wminc-infopage-missingwiki-text' => '$1 în această limbă nu există.',
 );
 
 /** Russian (Русский)
  * @author Amdf
+ * @author Eugrus
  * @author Kaganer
  */
 $messages['ru'] = array(
 	'wminc-infopage-enter' => 'перейти на заглавную страницу',
 	'wminc-unknownlang' => '(неизвестный язык с кодом «$1»)',
+	'wminc-infopage-title-p' => 'Википедия $1',
+	'wminc-infopage-title-b' => 'Викиучебник $1',
+	'wminc-infopage-title-t' => 'Викисловарь $1',
+	'wminc-infopage-title-q' => 'Викицитатник $1',
+	'wminc-infopage-title-n' => 'Викиновости $1',
+	'wminc-infopage-title-s' => 'Викитека $1',
+	'wminc-infopage-title-v' => 'Викиверситет $1',
 	'wminc-infopage-welcome' => 'Добро пожаловать в Инкубатор Викимедиа, проект Фонда Викимедиа ([[{{MediaWiki:Aboutpage}}|о проекте]])',
 	'wminc-infopage-missingwiki-text' => 'У $1 еще ​​нет раздела на этом языке.',
 	'wminc-infopage-option-startwiki' => 'Если вы хотите начать этот вики-проект,
@@ -819,7 +857,6 @@ $messages['sq'] = array(
 $messages['sr-ec'] = array(
 	'wminc-infopage-enter' => 'иди на Главну страну',
 	'wminc-unknownlang' => '(непознат језик с кодом „$1“)',
-	'wminc-infopage-title' => '$1 $2',
 	'wminc-infopage-welcome' => 'Добро дошли на Викимедијин Инкубатор — пројекат Задужбине Викимедија ([[{{MediaWiki:Aboutpage}}|О пројекту]])',
 	'wminc-infopage-missingwiki-text' => 'На овом језику још не постоји $1.',
 	'wminc-infopage-option-startwiki' => 'Ако желите да започнете овај вики,
@@ -835,6 +872,27 @@ $messages['sr-ec'] = array(
 	'wminc-infopage-status-closedsister' => 'Овај поддомен је затворен. Идите на <b>$2</b> да учествујете на овом викију.',
 	'wminc-infopage-status-created' => 'Овај пројекат је одобрен од језичког одбора и сада је доступан на $1.',
 	'wminc-infopage-status-beforeincubator' => 'Овај пројекат је направљен пре почетка рада Викимедијиног Инкубатора и доступан је на $1.',
+);
+
+/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+$messages['sr-el'] = array(
+	'wminc-infopage-enter' => 'idi na Glavnu stranu',
+	'wminc-unknownlang' => '(nepoznat jezik s kodom „$1“)',
+	'wminc-infopage-welcome' => 'Dobro došli na Vikimedijin Inkubator — projekat Zadužbine Vikimedija ([[{{MediaWiki:Aboutpage}}|O projektu]])',
+	'wminc-infopage-missingwiki-text' => 'Na ovom jeziku još ne postoji $1.',
+	'wminc-infopage-option-startwiki' => 'Ako želite da započnete ovaj viki,
+onda možete da [{{fullurl:{{FULLPAGENAME}}|action=edit}} napravite stranicu] i da pogledate [[{{MediaWiki:Wminc-manual-url}}|naš priručnik]].',
+	'wminc-infopage-option-startsister' => 'Ako želite da započnete ovaj viki, idite na <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Možete da pretražite [//www.$1.org postojeća jezička izdanja projekta $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Možete da pretražite postojeće projekte na ovom jeziku:',
+	'wminc-infopage-option-sisterprojects-other' => 'Možete da pretražite druge projekte na ovom jeziku:',
+	'wminc-infopage-option-multilingual' => 'Možete da odete na višejezički viki:',
+	'wminc-infopage-createmainpage' => 'Unesite reč „Glavna strana“ na ovom jeziku:',
+	'wminc-infopage-contribute' => 'Ako poznajete ovaj jezik, preporučujemo vam da učestvujete!',
+	'wminc-infopage-status-imported' => 'Ovaj viki Inkubator je uvezen iz $1, po zatvaranju vikija.',
+	'wminc-infopage-status-closedsister' => 'Ovaj poddomen je zatvoren. Idite na <b>$2</b> da učestvujete na ovom vikiju.',
+	'wminc-infopage-status-created' => 'Ovaj projekat je odobren od jezičkog odbora i sada je dostupan na $1.',
+	'wminc-infopage-status-beforeincubator' => 'Ovaj projekat je napravljen pre početka rada Vikimedijinog Inkubatora i dostupan je na $1.',
 );
 
 /** Swedish (Svenska)
@@ -947,8 +1005,28 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Dalt
+ * @author Liangent
  */
 $messages['zh-hans'] = array(
+	'wminc-infopage-title-p' => '$1维基百科',
+	'wminc-infopage-title-b' => '$1维基教科书',
+	'wminc-infopage-title-t' => '$1维基词典',
+	'wminc-infopage-title-q' => '$1维基语录',
+	'wminc-infopage-title-n' => '$1维基新闻',
+	'wminc-infopage-title-s' => '$1维基文库',
+	'wminc-infopage-title-v' => '$1维基学院',
 	'wminc-infopage-contribute' => '如果您会这门语言，欢迎您做出贡献！',
+);
+
+/** Traditional Chinese (‪中文(繁體)‬) */
+$messages['zh-hant'] = array(
+	'wminc-infopage-title-p' => '$1維基百科',
+	'wminc-infopage-title-b' => '$1維基教科書',
+	'wminc-infopage-title-t' => '$1維基詞典',
+	'wminc-infopage-title-q' => '$1維基語錄',
+	'wminc-infopage-title-n' => '$1維基新聞',
+	'wminc-infopage-title-s' => '$1維基文庫',
+	'wminc-infopage-title-v' => '$1維基學院',
+	'wminc-infopage-contribute' => '如果您會這門語言，歡迎您做出貢獻！',
 );
 
