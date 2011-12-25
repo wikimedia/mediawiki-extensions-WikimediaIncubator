@@ -292,6 +292,29 @@ $messages['fa'] = array(
 	'wminc-infopage-status-beforeincubator' => 'این پروژه قبل از شروع ویکی‌رشد، ایجاد شده است و در نشانی $1 در دسترس است.',
 );
 
+/** Finnish (Suomi)
+ * @author Nedergard
+ * @author Nike
+ */
+$messages['fi'] = array(
+	'wminc-infopage-enter' => 'siirry etusivulle',
+	'wminc-unknownlang' => '(tuntematon kieli, jonka koodi on ”$1”)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikikirjasto $1',
+	'wminc-infopage-title-t' => 'Wikisanakirja $1',
+	'wminc-infopage-title-q' => 'Wikisitaatit $1',
+	'wminc-infopage-title-n' => 'Wikiuutiset $1',
+	'wminc-infopage-title-s' => 'Wikiaineisto $1',
+	'wminc-infopage-title-v' => 'Wikiopisto $1',
+	'wminc-infopage-missingwiki-text' => '$1-hanketta ei ole vielä tällä kielellä.',
+	'wminc-infopage-option-startwiki' => 'Jos haluat aloittaa tämän wikin, voit [{{fullurl:{{FULLPAGENAME}}|action=edit}} luoda sivun] ja seurata [[{{MediaWiki:Wminc-manual-url}}|käsikirjamme ohjeita]].',
+	'wminc-infopage-option-startsister' => 'Jos haluat aloittaa tämän wikin, voit mennä sivulle <b>[$2 $1]</b>.',
+	'wminc-infopage-option-sisterprojects-existing' => 'Voit etsiä nykyisiä hankkeita tällä kielellä:',
+	'wminc-infopage-option-sisterprojects-other' => 'Voit etsiä muita hankkeita tällä kielellä:',
+	'wminc-infopage-option-multilingual' => 'Voit siirtyä monikieliseen wikiin:',
+	'wminc-infopage-contribute' => 'Jos osaat tätä kieltä, muokkaa rohkeasti!',
+);
+
 /** French (Français)
  * @author Crochet.david
  * @author Hashar
@@ -693,6 +716,14 @@ $messages['nl'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Dit project is gemaakt voordat Wikimedia Incubator begon en is beschikbaar op $1.',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
+ */
+$messages['or'] = array(
+	'wminc-infopage-enter' => 'ପ୍ରଧାନ ପୃଷ୍ଠାକୁ ଯିବେ',
+	'wminc-infopage-title-p' => 'ଉଇକିପିଡ଼ିଆ $1',
+);
+
 /** Polish (Polski)
  * @author Bartek50003
  * @author Sp5uhe
@@ -812,6 +843,13 @@ $messages['ru'] = array(
  */
 $messages['rue'] = array(
 	'wminc-infopage-contribute' => 'Кідь розумієте тот язык, рекомендуєме, жебы сьте приспівали!',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'wminc-infopage-enter' => 'මුල් පිටුව වෙත යන්න',
 );
 
 /** Slovenian (Slovenščina)
@@ -1004,10 +1042,13 @@ $messages['vi'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Anakmalaysia
  * @author Dalt
  * @author Liangent
  */
 $messages['zh-hans'] = array(
+	'wminc-infopage-enter' => '转至主页',
+	'wminc-unknownlang' => '（具有“$1”代码的未明语言）',
 	'wminc-infopage-title-p' => '$1维基百科',
 	'wminc-infopage-title-b' => '$1维基教科书',
 	'wminc-infopage-title-t' => '$1维基词典',
@@ -1015,7 +1056,21 @@ $messages['zh-hans'] = array(
 	'wminc-infopage-title-n' => '$1维基新闻',
 	'wminc-infopage-title-s' => '$1维基文库',
 	'wminc-infopage-title-v' => '$1维基学院',
+	'wminc-infopage-welcome' => '欢迎来到维基孵育场，维基媒体基金会各有项目之一
+（[[{{MediaWiki:Aboutpage}}|关于我们]]）',
+	'wminc-infopage-missingwiki-text' => '这种语言的$1尚未存在。',
+	'wminc-infopage-option-startwiki' => '若想创建这个维基项目，您可以[{{fullurl:{{FULLPAGENAME}}|action=edit}} 创建该页面]并按照我们所提供的[[{{MediaWiki:Wminc-manual-url}}|手册]]。',
+	'wminc-infopage-option-startsister' => '若想创建这个维基项目，请转到<b>[$2 $1]</b>。',
+	'wminc-infopage-option-languages-existing' => '您可以搜索[//www.$1.org $1所现有的语言版本]。',
+	'wminc-infopage-option-sisterprojects-existing' => '您可以在这种语言搜索现有项目：',
+	'wminc-infopage-option-sisterprojects-other' => '您可以在这种语言搜索其他项目：',
+	'wminc-infopage-option-multilingual' => '您可以转到一个多语种的维基项目：',
+	'wminc-infopage-createmainpage' => '输入“主页”此词在这种语言的翻译：',
 	'wminc-infopage-contribute' => '如果您会这门语言，欢迎您做出贡献！',
+	'wminc-infopage-status-imported' => '该维基项目关闭后，这个孵育场维基已从$1导入。',
+	'wminc-infopage-status-closedsister' => '此子域名已关闭。请转到<b>$2</b>为此维基项目作出贡献。',
+	'wminc-infopage-status-created' => '此项目已经受语言委员会批准，现已在$1可以使用。',
+	'wminc-infopage-status-beforeincubator' => '此项目已在维基孵育场开场之前创建，而在$1可以使用。',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
