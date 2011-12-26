@@ -120,6 +120,19 @@ pues [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la páxina] y siguir [[{{Me
 	'wminc-infopage-status-beforeincubator' => 'Esti proyeutu se creó enantes que principiara Wikimedia Incubator y ta disponible en $1.',
 );
 
+/** Bashkir (Башҡортса)
+ * @author Haqmar
+ */
+$messages['ba'] = array(
+	'wminc-infopage-title-p' => 'Википедия $1',
+	'wminc-infopage-title-b' => 'Викикитаптар $1',
+	'wminc-infopage-title-t' => 'Викиһүҙлек $1',
+	'wminc-infopage-title-q' => 'Викиөҙөмтә $1',
+	'wminc-infopage-title-n' => 'Викияңылыҡтар $1',
+	'wminc-infopage-title-s' => 'Викитека $1',
+	'wminc-infopage-title-v' => 'Викиверситет $1',
+);
+
 /** Bavarian (Boarisch)
  * @author Mucalexx
  */
@@ -271,6 +284,20 @@ puedes [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la página] y seguir [[{{
 	'wminc-infopage-status-beforeincubator' => 'Este proyecto fue creado antes de que la Incubadora de Wikimedia comenzara y está disponible en $1.',
 );
 
+/** Estonian (Eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'wminc-unknownlang' => '(tundmatu keel koodiga "$1")',
+	'wminc-infopage-option-sisterprojects-existing' => 'Saad otsida olemasolevaid samakeelseid projekte:',
+	'wminc-infopage-option-sisterprojects-other' => 'Saad otsida teisi samakeelseid projekte:',
+	'wminc-infopage-option-multilingual' => 'Saad minna mitmekeelsetesse vikidesse:',
+	'wminc-infopage-createmainpage' => 'Sisesta sõna "Esileht" selles keeles:',
+	'wminc-infopage-contribute' => 'Kui oskad seda keelt, on sinu kaastöö oodatud!',
+	'wminc-infopage-status-created' => 'Keelekomitee on selle projekti heaks kiitnud ja see on nüüd saadaval asukohas $1.',
+	'wminc-infopage-status-beforeincubator' => 'Selle projektiga alustati enne Wikimedia Incubatori avamist ja see on saadaval asukohas $1.',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  */
@@ -295,6 +322,7 @@ $messages['fa'] = array(
 /** Finnish (Suomi)
  * @author Nedergard
  * @author Nike
+ * @author Olli
  */
 $messages['fi'] = array(
 	'wminc-infopage-enter' => 'siirry etusivulle',
@@ -306,13 +334,20 @@ $messages['fi'] = array(
 	'wminc-infopage-title-n' => 'Wikiuutiset $1',
 	'wminc-infopage-title-s' => 'Wikiaineisto $1',
 	'wminc-infopage-title-v' => 'Wikiopisto $1',
+	'wminc-infopage-welcome' => 'Tervetuloa Wikimedia Incubatoriin, Wikimedia Foundationin projektiin ([[{{MediaWiki:Aboutpage}}|tietoja]])',
 	'wminc-infopage-missingwiki-text' => '$1-hanketta ei ole vielä tällä kielellä.',
 	'wminc-infopage-option-startwiki' => 'Jos haluat aloittaa tämän wikin, voit [{{fullurl:{{FULLPAGENAME}}|action=edit}} luoda sivun] ja seurata [[{{MediaWiki:Wminc-manual-url}}|käsikirjamme ohjeita]].',
 	'wminc-infopage-option-startsister' => 'Jos haluat aloittaa tämän wikin, voit mennä sivulle <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Voit etsiä [//www.$1.org sivuston $1 muita kieliversioita].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Voit etsiä nykyisiä hankkeita tällä kielellä:',
 	'wminc-infopage-option-sisterprojects-other' => 'Voit etsiä muita hankkeita tällä kielellä:',
 	'wminc-infopage-option-multilingual' => 'Voit siirtyä monikieliseen wikiin:',
+	'wminc-infopage-createmainpage' => 'Syötä sana "Etusivu" tällä kielellä:',
 	'wminc-infopage-contribute' => 'Jos osaat tätä kieltä, muokkaa rohkeasti!',
+	'wminc-infopage-status-imported' => 'Tämä Incubator-wiki on tuotu osoitteesta $1, kun wiki suljettiin.',
+	'wminc-infopage-status-closedsister' => 'Tämä alidomain suljettiin. Siirry osoitteeseen <b>$2</b> muokataksesi wikiä.',
+	'wminc-infopage-status-created' => 'Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.',
+	'wminc-infopage-status-beforeincubator' => 'Tämä projekti luotiin, ennen kuin Wikimedia Incubator käynnistettiin ja se on saatavilla osoitteessa $1.',
 );
 
 /** French (Français)
@@ -741,6 +776,19 @@ $messages['pl'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Ten projekt został utworzony zanim został uruchomiony Inkubator Wikimedia i jest dostępny pod adresem $1.',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'wminc-infopage-enter' => 'آرنی مخ ته ورتلل',
+	'wminc-infopage-title-p' => '$1 ويکيپېډيا',
+	'wminc-infopage-title-b' => '$1 ويکيتابونه',
+	'wminc-infopage-title-t' => '$1 ويکيسيند',
+	'wminc-infopage-title-n' => '$1 ويکيخبرونه',
+	'wminc-infopage-title-v' => '$1 ويکيپوهنتون',
+	'wminc-infopage-option-multilingual' => 'تاسې يوې څوژبنيزې ويکي ته ورتللی شی:',
+);
+
 /** Portuguese (Português)
  * @author Carla404
  * @author Hamilton Abreu
@@ -804,6 +852,37 @@ $messages['ro'] = array(
 	'wminc-infopage-title-s' => 'Wikisursă $1',
 	'wminc-infopage-title-v' => 'Wikiversitate $1',
 	'wminc-infopage-missingwiki-text' => '$1 în această limbă nu există.',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ * @author Reder
+ */
+$messages['roa-tara'] = array(
+	'wminc-infopage-enter' => "scè ad 'a Pagene Prengepále",
+	'wminc-unknownlang' => '(lènga scanosciute c\'u codece "$1")',
+	'wminc-infopage-title-p' => 'Uicchipèdie $1',
+	'wminc-infopage-title-b' => 'Uicchibooks $1',
+	'wminc-infopage-title-t' => 'Uicchitionary $1',
+	'wminc-infopage-title-q' => 'Uicchiquote $1',
+	'wminc-infopage-title-n' => 'Uicchinews $1',
+	'wminc-infopage-title-s' => 'Uicchisource $1',
+	'wminc-infopage-title-v' => 'Uicchiversity $1',
+	'wminc-infopage-welcome' => "Bovègne sus a Uicchimèdie Incubatore, 'nu pruggette d'a Funnazione Uicchimèdie ([[{{MediaWiki:Aboutpage}}|About]])",
+	'wminc-infopage-missingwiki-text' => "'Nu $1 jndre 'stà lènga non ge 'stè angore.",
+	'wminc-infopage-option-startwiki' => "Ce vuè ccrejà 'stà uicchi,
+puè [{{fullurl:{{FULLPAGENAME}}|action=edit}} ccrejà 'a pagene] e seguì [[{{MediaWiki:Wminc-manual-url}}|'u manuale nuèstre]].",
+	'wminc-infopage-option-startsister' => "Ce vuè ccrejà 'stà uicchi, puè scè a <b>[$2 $1]</b>.",
+	'wminc-infopage-option-languages-existing' => "Tu puè acchijà pe' le [//www.$1.org versione lènguisteche esistende de $1].",
+	'wminc-infopage-option-sisterprojects-existing' => "Tu puè acchijà pe' le pruggette esistende jndre 'stà lènga:",
+	'wminc-infopage-option-sisterprojects-other' => "Tu puè acchijà pe' l'otre pruggette jndre 'stà lènga:",
+	'wminc-infopage-option-multilingual' => "Puè scè jndre 'na uicchi multelènghe:",
+	'wminc-infopage-createmainpage' => 'Sckaffe \'a parole "Pagene Prengepále" jndre \'stà lènga:',
+	'wminc-infopage-contribute' => "Ce tu canosce 'stà lènga, sìnde 'ngoraggiate a condrebbuì!",
+	'wminc-infopage-status-imported' => "Quèste uicchi de l'Incubatore ha state 'mbortade da $1 nnande c'a uicchi ha state chiuse.",
+	'wminc-infopage-status-closedsister' => "'Stù subdominie jè state chiuse. Scè a <b>$2</b> pe' conrebbuì a 'stà uicchi.",
+	'wminc-infopage-status-created' => "'Stù pruggette ha state approvate da 'u language committee e mò se pòte acchijà sus a $1.",
+	'wminc-infopage-status-beforeincubator' => "'Stù pruggette jè state ccrejète apprìme ca Uicchimèdie Incubatore accumenzasse a fatijà e jè disponibbele sus a $1.",
 );
 
 /** Russian (Русский)

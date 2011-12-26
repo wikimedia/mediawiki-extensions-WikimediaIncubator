@@ -912,26 +912,48 @@ $messages['fa'] = array(
 /** Finnish (Suomi)
  * @author Cimon Avaro
  * @author Crt
+ * @author Nedergard
  * @author Nike
+ * @author Olli
  * @author Silvonen
  * @author Str4nd
  * @author Varusmies
  */
 $messages['fi'] = array(
 	'wminc-desc' => 'Testiwiki-järjestelmä Wikimedia-hautomoa varten',
+	'wminc-manual' => 'Ohje',
+	'wminc-listwikis' => 'Wikiluettelo',
 	'wminc-testwiki' => 'Testiwiki:',
+	'wminc-testwiki-code' => 'Testiwikin kieli:',
 	'wminc-testwiki-none' => 'Ei lainkaan/Kaikki',
+	'wminc-recentchanges-all' => 'Kaikki viimeisimmät muutokset',
 	'wminc-prefinfo-language' => 'Käyttöliittymän kieli – riippumaton testiwikistäsi',
 	'wminc-prefinfo-code' => 'ISO 639 -kielikoodi',
 	'wminc-prefinfo-project' => 'Valitse Wikimedia-projekti (Hautomo on käyttäjille, jotka tekevät yleisluontoisia askareita)',
 	'wminc-prefinfo-error' => 'Olet valinnut projektin, joka tarvitsee kielikoodin.',
+	'wminc-error-move-unprefixed' => 'Virhe: Sivulla, jota yrität siirtää [[{{MediaWiki:Helppage}}|ei ole etuliitettä tai se on väärin]]!',
+	'wminc-error-wronglangcode' => "'''Virhe:''' Tällä sivulla on [[{{MediaWiki:Helppage}}|väärä kielikoodi]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Virhe:''' Tällä sivulla [[{{MediaWiki:Helppage}}|ei ole etuliitettä]]!",
+	'wminc-error-unprefixed-suggest' => "'''Virhe:''' Tällä sivulla [[{{MediaWiki:Helppage}}|ei ole etuliitettä]]! Voit luoda sivun napsauttamalla: [[:$1]].",
+	'wminc-error-wiki-exists' => 'Tämä wiki on jo olemassa. Se löytyy osoitteesta $1. Jos wiki luotiin äskettäin, odota muutamia tunteja tai päiviä, kunnes kaikki sisältö on tuotu.',
+	'wminc-error-wiki-sister' => 'Tämä sivu kuuluu projektiin, jonka tiedotot eivät sijaitse tällä palvelimella. Siirry osoitteeseen $1 löytääksesi wikin.',
 	'randombytest' => 'Satunnainen sivu testiwikistä',
 	'randombytest-nopages' => 'Testiwikisi nimiavaruudessa $1 ei ole sivuja.',
 	'wminc-viewuserlang' => 'Hae esiin käyttäjän kieli ja testiwiki',
 	'wminc-viewuserlang-user' => 'Käyttäjätunnus:',
 	'wminc-viewuserlang-go' => 'Siirry',
+	'wminc-userdoesnotexist' => 'Käyttäjää "$1" ei ole olemassa.',
 	'wminc-ip' => '$1 on IP-osoite.',
 	'right-viewuserlang' => 'Tarkastella käyttäjän kieltä ja testiwikiä',
+	'group-test-sysop' => 'testiwikin ylläpitäjät',
+	'group-test-sysop-member' => '{{GENDER:$1|testiwikin ylläpitäjä}}',
+	'grouppage-test-sysop' => '{{ns:project}}:Testiwikin ylläpitäjät',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Kielellä "$3"]] on [[wikipedia:ISO 639 macrolanguage|makrokieli]], joka koostuu seuraavista jäsenkielistä:',
+	'wminc-code-collective' => 'Koodi "$1" ei viittaa tiettyyn kieleen, vaan kielikokoelmaan nimeltä [[wikipedia:$2 language|"$3" kielet]].',
+	'wminc-code-retired' => 'Tämä kielikoodi on muutettu, ja se ei enää viittaa alkuperäiseen kieleen.',
+	'wminc-listusers-testwiki' => 'Katselet käyttäjiä, jotka ovat asettaneet testiwikinsä asetukseksi $1.',
+	'wminc-search-nocreate-nopref' => 'Etsit hakusanalla "$1". Aseta [[Special:Preferences|testiwikin asetukset]], jotta voimme kertoa sinulle minkä sivun voit luoda!',
+	'wminc-search-nocreate-suggest' => 'Etsit hakusanalla "$1". Voit luoda sivun wikissäsi napsauttamalla <b>[[$2]]</b>!',
 );
 
 /** French (Français)
@@ -2125,9 +2147,14 @@ $messages['pnt'] = array(
 $messages['ps'] = array(
 	'wminc-listwikis' => 'د ويکي ګانو لړليک',
 	'wminc-testwiki' => 'د آزمېښت ويکي:',
+	'wminc-testwiki-code' => 'د ويکي ژبه آزمويل:',
 	'wminc-testwiki-none' => 'هېڅ/ټول',
+	'wminc-recentchanges-all' => 'ټول وروستي بدلونونه',
+	'wminc-prefinfo-code' => 'د ISO 639 ژبې کوډ',
 	'wminc-viewuserlang-user' => 'کارن-نوم:',
 	'wminc-viewuserlang-go' => 'ورځه',
+	'wminc-userdoesnotexist' => 'د $1 په نوم کارن نشته.',
+	'wminc-ip' => '"$1" يوه آی پي پته ده.',
 );
 
 /** Portuguese (Português)
@@ -2398,6 +2425,13 @@ $messages['sc'] = array(
 	'wminc-testwiki-none' => 'Nudda/Totu',
 	'wminc-viewuserlang-user' => 'Nùmene usuàriu:',
 	'wminc-viewuserlang-go' => 'Bae',
+);
+
+/** Sicilian (Sicilianu)
+ * @author Aushulz
+ */
+$messages['scn'] = array(
+	'wminc-viewuserlang-go' => "Va'",
 );
 
 /** Samogitian (Žemaitėška)
@@ -3009,6 +3043,8 @@ $messages['zh-hans'] = array(
 	'wminc-code-collective' => '代码“$1”并不是一种语言，而是一系列语言的集合，即[[wikipedia:$2 language|$3语言]]。',
 	'wminc-code-retired' => '该语言代码已更改，并且不再指向原来的语言。',
 	'wminc-listusers-testwiki' => '您正在查看将测试维基首选项设置为$1的用户。',
+	'wminc-search-nocreate-nopref' => '您在寻找“$1”。请更改您的[[Special:Preferences|测试维基参数设置]]，以便我们可以告诉您适合创建的页面种类！',
+	'wminc-search-nocreate-suggest' => '您在寻找“$1”。您可以转到<b>[[$2]]</b>以在您的维基项目中创建新一个页！',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
