@@ -120,6 +120,19 @@ pues [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la páxina] y siguir [[{{Me
 	'wminc-infopage-status-beforeincubator' => 'Esti proyeutu se creó enantes que principiara Wikimedia Incubator y ta disponible en $1.',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'wminc-infopage-title-p' => 'Vikipediya $1',
+	'wminc-infopage-title-b' => 'Vikikitab $1',
+	'wminc-infopage-title-t' => 'Vikilüğət $1',
+	'wminc-infopage-title-q' => 'Vikisitat $1',
+	'wminc-infopage-title-n' => 'Vikixəbər $1',
+	'wminc-infopage-title-s' => 'Vikimənbə $1',
+	'wminc-infopage-title-v' => 'Vikiversitet $1',
+);
+
 /** Bashkir (Башҡортса)
  * @author Haqmar
  */
@@ -263,10 +276,18 @@ können Sie [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und g
  * @author Diotime
  * @author Drini
  * @author Fitoschido
+ * @author Imre
  */
 $messages['es'] = array(
 	'wminc-infopage-enter' => 'ir a la página principal',
 	'wminc-unknownlang' => '(idioma desconocido con código «$1»)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikilibros $1',
+	'wminc-infopage-title-t' => 'Wikcionario $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinoticias $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversidad $1',
 	'wminc-infopage-welcome' => 'Bienvenidos a la Incubadora de Wikimedia, un proyecto de la Fundación Wikimedia ([[{{MediaWiki:Aboutpage}}|Acerca de]])',
 	'wminc-infopage-missingwiki-text' => 'Un $1 en este idioma todavía no existe.',
 	'wminc-infopage-option-startwiki' => 'Si deseas comenzar este wiki,
@@ -929,6 +950,14 @@ $messages['rue'] = array(
  */
 $messages['si'] = array(
 	'wminc-infopage-enter' => 'මුල් පිටුව වෙත යන්න',
+	'wminc-unknownlang' => '("$1" කේතය සමඟ හදුනා නොගත් භාෂාව)',
+	'wminc-infopage-title-p' => 'විකිපීඩියා $1',
+	'wminc-infopage-title-b' => 'විකිපොත් $1',
+	'wminc-infopage-title-t' => 'විකිෂනරි $1',
+	'wminc-infopage-title-q' => 'විකීඋදෘත $1',
+	'wminc-infopage-title-n' => 'විකිපුවත් $1',
+	'wminc-infopage-title-s' => 'විකිමුලාශ්‍ර $1',
+	'wminc-infopage-title-v' => 'විකිවර්සිටි $1',
 );
 
 /** Slovenian (Slovenščina)
@@ -1141,7 +1170,7 @@ $messages['zh-hans'] = array(
 	'wminc-infopage-option-startwiki' => '若想创建这个维基项目，您可以[{{fullurl:{{FULLPAGENAME}}|action=edit}} 创建该页面]并按照我们所提供的[[{{MediaWiki:Wminc-manual-url}}|手册]]。',
 	'wminc-infopage-option-startsister' => '若想创建这个维基项目，请转到<b>[$2 $1]</b>。',
 	'wminc-infopage-option-languages-existing' => '您可以搜索[//www.$1.org $1所现有的语言版本]。',
-	'wminc-infopage-option-sisterprojects-existing' => '您可以在这种语言搜索现有项目：',
+	'wminc-infopage-option-sisterprojects-existing' => '您可以在这种语言中搜索现有项目：',
 	'wminc-infopage-option-sisterprojects-other' => '您可以在这种语言搜索其他项目：',
 	'wminc-infopage-option-multilingual' => '您可以转到一个多语种的维基项目：',
 	'wminc-infopage-createmainpage' => '输入“主页”此词在这种语言的翻译：',
@@ -1152,8 +1181,12 @@ $messages['zh-hans'] = array(
 	'wminc-infopage-status-beforeincubator' => '此项目已在维基孵育场开场之前创建，而在$1可以使用。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Anakmalaysia
+ */
 $messages['zh-hant'] = array(
+	'wminc-infopage-enter' => '轉到主頁',
+	'wminc-unknownlang' => '（具有“$1”代碼的未明語言）',
 	'wminc-infopage-title-p' => '$1維基百科',
 	'wminc-infopage-title-b' => '$1維基教科書',
 	'wminc-infopage-title-t' => '$1維基詞典',
@@ -1161,6 +1194,19 @@ $messages['zh-hant'] = array(
 	'wminc-infopage-title-n' => '$1維基新聞',
 	'wminc-infopage-title-s' => '$1維基文庫',
 	'wminc-infopage-title-v' => '$1維基學院',
+	'wminc-infopage-welcome' => '歡迎來到維基孵育場，維基媒體基金會各有項目之一
+（[[{{MediaWiki:Aboutpage}}|關於我們]]）',
+	'wminc-infopage-missingwiki-text' => '這種語言的$1尚未存在。',
+	'wminc-infopage-option-startwiki' => '若想創建這個維基項目，您可以[{{fullurl:{{​​FULLPAGENAME}}|action=edit}} 創建該頁面]並按照我們所提供的[[{{MediaWiki:Wminc-manual-url}}|手冊]]。',
+	'wminc-infopage-option-startsister' => '若想創建這個維基項目，請轉到<b>[$2 $1]</b>。',
+	'wminc-infopage-option-languages-existing' => '您可以搜尋[//www.$1.org $1所現有的語言版本]。',
+	'wminc-infopage-option-sisterprojects-existing' => '您可以在這種語言中搜尋現有項目：',
+	'wminc-infopage-option-multilingual' => '您可以轉到一個多語種的維基項目：',
+	'wminc-infopage-createmainpage' => '輸入「主頁」此詞在這種語言的翻譯：',
 	'wminc-infopage-contribute' => '如果您會這門語言，歡迎您做出貢獻！',
+	'wminc-infopage-status-imported' => '該維基項目關閉後，這個孵育場維基已從$1導入。',
+	'wminc-infopage-status-closedsister' => '此子域名已關閉。請轉到<b>$2</b>為此維基項目作出貢獻。',
+	'wminc-infopage-status-created' => '此項目已經受語言委員會批准，現已在$1可以使用。',
+	'wminc-infopage-status-beforeincubator' => '此項目已在維基孵育場開場之前創建，而在$1可以使用。',
 );
 

@@ -638,6 +638,7 @@ $messages['de'] = array(
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Imre
  * @author Kghbln
  * @author MF-Warburg
  * @author Umherirrender
@@ -649,7 +650,9 @@ $messages['de-formal'] = array(
 	'wminc-error-unprefixed-suggest' => "'''Fehler:''' Diese Seite hat [[{{MediaWiki:Helppage}}|kein Präfix]]. Sie können unter [[:$1]] eine Seite anlegen.",
 	'wminc-error-wiki-sister' => 'Diese Seite gehört zu einem Projekt, das nicht hier gehostet ist. Gehen Sie bitte zu $1, um das Wiki zu finden.',
 	'randombytest-nopages' => 'Es befinden sich keine Seiten im Namensraum „$1“ Ihres Testwikis.',
+	'wminc-listusers-testwiki' => 'Sie sehen Benutzer, die ihre Testwikieinstellung auf $1 eingestellt haben.',
 	'wminc-search-nocreate-nopref' => 'Sie suchten nach „$1“. Bitte legen Sie die [[Special:Preferences|Einstellungen für Ihr Testwiki]] fest, damit wir Ihnen mitteilen können, welche Seite Sie erstellen können.',
+	'wminc-search-nocreate-suggest' => 'Sie suchten nach „$1“. Sie können in Ihrem Testwiki eine Seite unter <b>[[$2]]</b> erstellen.',
 );
 
 /** Zazaki (Zazaki)
@@ -1726,9 +1729,11 @@ $messages['lt'] = array(
 );
 
 /** Latvian (Latviešu)
+ * @author Papuass
  * @author Xil
  */
 $messages['lv'] = array(
+	'wminc-manual' => 'Rokasgrāmata',
 	'wminc-testwiki' => 'Testa projekts:',
 	'wminc-prefinfo-language' => 'Tava interfeisa valoda - nav saistīta ar testa projektu, kurā tu piedalies',
 	'wminc-prefinfo-code' => 'ISO 639 valodas kods',
@@ -1737,6 +1742,7 @@ $messages['lv'] = array(
 	'wminc-viewuserlang' => 'Sameklēt lietotāja valodu un testa projektu',
 	'wminc-viewuserlang-user' => 'Lietotājvārds:',
 	'wminc-viewuserlang-go' => 'Aiziet!',
+	'wminc-ip' => '"$1" ir IP adrese.',
 	'right-viewuserlang' => 'Apskatīt lietotāja valodu un testa projektu',
 );
 
@@ -2485,11 +2491,16 @@ $messages['shi'] = array(
 /** Sinhala (සිංහල)
  * @author Calcey
  * @author Singhalawap
+ * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
 	'wminc-desc' => 'විකි මීඩියා ආසීනකාරකය සඳහා විකි පද්ධතිය පරීක්ෂා කරන්න',
+	'wminc-manual' => 'අත්පොත',
+	'wminc-listwikis' => 'විකියන් ලැයිස්තුව',
 	'wminc-testwiki' => 'විකිය පරීක්ෂා කරන්න:',
+	'wminc-testwiki-code' => 'පරීක්ෂක විකි භාෂාව:',
 	'wminc-testwiki-none' => 'කිසිවක් නොවේ/සියල්ලම',
+	'wminc-recentchanges-all' => 'සියලුම මෑත වෙනස්වීම්',
 	'wminc-prefinfo-language' => 'ඔබේ අතුරු මුහුණත් භාෂාව - ඔබේ විකි පරීක්ෂාවෙන් ස්වායත්ත වේ',
 	'wminc-prefinfo-code' => 'ISO  639 භාෂා කේතය',
 	'wminc-prefinfo-project' => 'විකි මීඩියා ව්‍යාපෘතිය තෝරන්න.(ආසීනකාරක තොරාගැනීම සාමාන්‍ය කාර්යයන් කරන පරිශීලකයන් සඳහා වේ)',
@@ -2741,7 +2752,9 @@ $messages['tcy'] = array(
  */
 $messages['te'] = array(
 	'wminc-desc' => 'వికీమీడియా ఇంక్యుబేటర్ కొరకు పరీక్షా వికీ సిస్టం',
+	'wminc-listwikis' => 'వికీల జాబితా',
 	'wminc-testwiki' => 'పరీక్షా వికీ:',
+	'wminc-testwiki-code' => 'పరీక్షా వికీ భాష:',
 	'wminc-testwiki-none' => 'ఏమికాదు/అన్నీ',
 	'wminc-prefinfo-code' => 'ISO 639 భాష కోడు',
 	'wminc-prefinfo-error' => 'భాష కోడు కావాల్సిన ఒక ప్రాజెక్టును మీరు ఎన్నుకున్నారు.',
@@ -3083,11 +3096,12 @@ $messages['zh-hant'] = array(
 	'wminc-ip' => '「$1」是一個IP地址。',
 	'right-viewuserlang' => '檢視使用者語言和測試 wiki',
 	'group-test-sysop' => '測試維基管理員',
-	'group-test-sysop-member' => '測試維基管理員',
+	'group-test-sysop-member' => '{{GENDER:$1|測試維基管理員}}',
 	'grouppage-test-sysop' => '{{ns:project}}:測試維基管理員',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|$3]]是[[wikipedia:ISO 639 macrolanguage|宏語言]]之一，由以下成員語言組成：',
 	'wminc-code-collective' => '代碼「$1」並不指一種語言，而指一系列語言的集合，即[[wikipedia:$2 language|$3語言]]。',
 	'wminc-code-retired' => '此語言代碼已更改，並且不再指向原來的語言。',
 	'wminc-listusers-testwiki' => '您正在查看將測試維基首選項設置為$1的用戶。',
+	'wminc-search-nocreate-nopref' => '您在尋找「$1」。請更改您的[[Special:Preferences|測試維基參數設定]]，以便我們可以告訴您適合創建的頁面種類！',
 );
 
