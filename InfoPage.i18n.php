@@ -483,10 +483,12 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Ansumang
  * @author Vibhijain
  */
 $messages['hi'] = array(
 	'wminc-infopage-enter' => 'मुख्य पृष्ठ पर जाएँ',
+	'wminc-infopage-title-p' => 'विकिपीड़िया $1',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -958,6 +960,8 @@ $messages['si'] = array(
 	'wminc-infopage-title-n' => 'විකිපුවත් $1',
 	'wminc-infopage-title-s' => 'විකිමුලාශ්‍ර $1',
 	'wminc-infopage-title-v' => 'විකිවර්සිටි $1',
+	'wminc-infopage-option-startsister' => 'ඔබට මෙම විකිය ඇරඹීමට අවශ්‍ය නම්, ඔබට <b>[$2 $1]</b>වෙත යා හැකියි.',
+	'wminc-infopage-option-multilingual' => 'ඔබට බහුභාෂාමය විකියකට යා හැකියි:',
 );
 
 /** Slovenian (Slovenščina)

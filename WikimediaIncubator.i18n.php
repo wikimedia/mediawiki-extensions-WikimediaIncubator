@@ -656,9 +656,11 @@ $messages['de-formal'] = array(
 );
 
 /** Zazaki (Zazaki)
+ * @author Erdemaslancan
  * @author Mirzali
  */
 $messages['diq'] = array(
+	'wminc-prefinfo-language' => 'Temay zuwani- test wiki ra xoseri ya.',
 	'wminc-viewuserlang-user' => 'Namey karberi:',
 	'wminc-viewuserlang-go' => 'Şo',
 );
@@ -1196,6 +1198,7 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Ansumang
  * @author Vibhijain
  */
 $messages['hi'] = array(
@@ -1218,7 +1221,7 @@ $messages['hi'] = array(
 	'randombytest' => 'परीक्षण विकि द्वारा यादृच्छिक पृष्ठ',
 	'randombytest-nopages' => 'आपकी परीक्षण विकी में, नामस्थान: $1, पर कोई पृष्ठ नहीं हैं।',
 	'wminc-viewuserlang' => 'उपयोगकर्ता भाषा और परीक्षण विकि देखे',
-	'wminc-viewuserlang-user' => 'प्रयोक्तानाम:',
+	'wminc-viewuserlang-user' => 'सदस्यनाम:',
 	'wminc-viewuserlang-go' => 'जाइए',
 	'wminc-userdoesnotexist' => 'उपयोगकर्ता " $1 " मौजूद नहीं है।',
 	'wminc-ip' => '" $1 " एक आईपी पता है।',
@@ -2597,8 +2600,8 @@ $messages['sr-ec'] = array(
 	'wminc-prefinfo-error' => 'Изабрали сте пројекат који захтева језички код.',
 	'wminc-error-move-unprefixed' => 'Грешка: страница коју желите да преместите [[{{MediaWiki:Helppage}}|нема предметка или је он погрешан]].',
 	'wminc-error-wronglangcode' => "'''Грешка:''' страница садржи [[{{MediaWiki:Helppage}}|погрешан језички код]] „$1“.",
-	'wminc-error-unprefixed' => "'''Грешка:''' страница [[{{MediaWiki:Helppage}}|нема предметак]].",
-	'wminc-error-unprefixed-suggest' => "'''Грешка:''' страница [[{{MediaWiki:Helppage}}|нема предметак]]. Можете да направите страницу на [[:$1]].",
+	'wminc-error-unprefixed' => "'''Грешка:''' страница [[{{MediaWiki:Helppage}}|нема префикс]].",
+	'wminc-error-unprefixed-suggest' => "'''Грешка:''' страница [[{{MediaWiki:Helppage}}|нема префикс]]. Можете да направите страницу на [[:$1]].",
 	'wminc-error-wiki-exists' => 'Овај вики већ постоји. Страницу можете наћи на $1. Ако је вики недавно направљен, сачекајте неколико сати или дана док се не увезе сав садржај.',
 	'wminc-error-wiki-sister' => 'Ова страница припада пројекту који се не покреће одавде. Идите на $1 да пронађете вики.',
 	'randombytest' => 'Случајна страница од пробног викија',
@@ -2759,7 +2762,7 @@ $messages['te'] = array(
 	'wminc-prefinfo-code' => 'ISO 639 భాష కోడు',
 	'wminc-prefinfo-error' => 'భాష కోడు కావాల్సిన ఒక ప్రాజెక్టును మీరు ఎన్నుకున్నారు.',
 	'randombytest' => 'పరీక్షా వికీ ద్వారా ఒక యాధృచిక పేజి',
-	'wminc-viewuserlang-user' => 'వాడుకరిపేరు:',
+	'wminc-viewuserlang-user' => 'వాడుకరి పేరు:',
 	'wminc-viewuserlang-go' => 'వెళ్ళు',
 	'right-viewuserlang' => 'వాడుకరి భాషను చూడగలగడం మరియు వికీని పరీక్షించడం',
 );
