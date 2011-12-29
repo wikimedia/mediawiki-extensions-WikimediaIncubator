@@ -1711,11 +1711,13 @@ $messages['lt'] = array(
 	'wminc-desc' => 'Wiki testasvimo sistema Vikimedija Inkubatoriui',
 	'wminc-listwikis' => 'Wiki, sąrašas',
 	'wminc-testwiki' => 'Testavimo wiki:',
+	'wminc-testwiki-code' => 'Bandymo viki kalba:',
 	'wminc-testwiki-none' => 'Nei vienas/Visi',
 	'wminc-recentchanges-all' => 'Visi naujausi pakeitimai',
 	'wminc-prefinfo-language' => 'Jūsų sąsajos kalba - nepriklausomai nuo jūsų testavimo wiki',
 	'wminc-prefinfo-code' => 'ISO 639 kalbos kodas',
 	'wminc-prefinfo-error' => 'Jūs pasirinkote projektą, kuriam reikia kalbos kodo.',
+	'wminc-error-wiki-exists' => 'Ši viki jau egzistuoja.  Jus galite rasti šį puslapį $1. Jei viki buvo neseniai sukurta, prašome  palaukti kelias valandas ar dienas kol bus importuotas visas tūrinis.',
 	'wminc-error-wiki-sister' => 'Šis puslapis priklauso projektui, kuris nepatalpintas čia. Prašome grįžti į $1 , kad rasti wiki .',
 	'randombytest' => 'Atsitiktinis puslapis iš testavimo wiki',
 	'wminc-viewuserlang' => 'Ieškoti vartotojo kalbos ir testavimo wiki',
@@ -2053,7 +2055,12 @@ $messages['oc'] = array(
  */
 $messages['or'] = array(
 	'wminc-listwikis' => 'ଉଇକି ଗୋଠର ତାଲିକା',
+	'wminc-testwiki' => 'ଟେଷ୍ଟ ଉଇକି:',
+	'wminc-testwiki-code' => 'ଟେଷ୍ଟ ଉଇକି ଭାଷା:',
+	'wminc-recentchanges-all' => 'ସବୁ ନଗଦ ବଦଳ',
 	'wminc-viewuserlang-user' => 'ବ୍ୟବହାରକାରୀଙ୍କ ନାମ:',
+	'group-test-sysop-member' => '{{GENDER:$1|ଟେଷ୍ଟ ଉଇକି ପରିଛା}}',
+	'grouppage-test-sysop' => '{{ns:project}}:ଟେଷ୍ଟ ଉଇକି ପରିଛାଗଣ',
 );
 
 /** Deitsch (Deitsch)
@@ -2508,6 +2515,8 @@ $messages['si'] = array(
 	'wminc-prefinfo-code' => 'ISO  639 භාෂා කේතය',
 	'wminc-prefinfo-project' => 'විකි මීඩියා ව්‍යාපෘතිය තෝරන්න.(ආසීනකාරක තොරාගැනීම සාමාන්‍ය කාර්යයන් කරන පරිශීලකයන් සඳහා වේ)',
 	'wminc-prefinfo-error' => 'භාෂා කේතයක් අවශ්‍ය වන ව්‍යාපෘතියක් ඔබ විසින්  තෝරා ගෙන ඇත.',
+	'wminc-error-unprefixed' => "'''දෝෂය:''' මෙම පිටුව [[{{MediaWiki:Helppage}}|උපසර්ග කොට නොමැත]]!",
+	'wminc-error-unprefixed-suggest' => "'''දෝෂය:''' මෙම පිටුව [[{{MediaWiki:Helppage}}|උපසර්ග කොට නොමැත]]! ඔබට [[:$1]] හීදී පිටුවක් තැනිය හැක.",
 	'randombytest' => 'විකි පරීක්ෂාවකින් සසම්භාවී පිවුවක්',
 	'randombytest-nopages' => '$1 නාම අවකාශය තුළ,ඔබේ විකි පරීක්ෂාවේ කිසිදු පිටුවක් නොමැත.',
 	'wminc-viewuserlang' => 'පරිශීලක භාෂාව බලා විකිය පරීක්ෂා කරන්න.',
@@ -2516,6 +2525,9 @@ $messages['si'] = array(
 	'wminc-userdoesnotexist' => '↓ "$1"  පරිශීලක ගිණුම නොපවතියි.',
 	'wminc-ip' => '"$1" IP ලිපිනයකි.',
 	'right-viewuserlang' => ' පරිශීලක භාෂාව හා විකි පරීක්ෂාව බලන්න.',
+	'group-test-sysop' => 'පරීක්ෂක විකි පරිපාලකවරු',
+	'group-test-sysop-member' => '{{GENDER:$1|පරීක්ෂක විකි පරිපාලක}}',
+	'grouppage-test-sysop' => '{{ns:project}}:පරීක්ෂක විකි පරිපාලකවරු',
 );
 
 /** Slovak (Slovenčina)

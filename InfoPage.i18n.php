@@ -223,6 +223,13 @@ e c'hallit [{{fullurl:{{FULLPAGENAME}}|action=edit}} kouiñ ar bajenn] ha heulia
 	'wminc-infopage-status-beforeincubator' => "Savet e oa bet ar raktres-mañ a-raok na loc'hfe gorerez Wikimedia hag hegerz eo war $1.",
 );
 
+/** Czech (Česky)
+ * @author Koo6
+ */
+$messages['cs'] = array(
+	'wminc-infopage-option-startsister' => 'Chcete-li začít tuto wiki, můžete jít na <b>[ $2  $1 ] </b>.',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author MF-Warburg
@@ -641,9 +648,23 @@ $messages['li'] = array(
 );
 
 /** Lithuanian (Lietuvių)
+ * @author Eitvys200
  * @author Matasg
  */
 $messages['lt'] = array(
+	'wminc-infopage-enter' => 'eiti į Pagrindinį Puslapį',
+	'wminc-unknownlang' => '(nežinoma kalba su kodu "$1")',
+	'wminc-infopage-title-p' => 'Vikipedija $1',
+	'wminc-infopage-title-b' => 'Viki knygos $1',
+	'wminc-infopage-title-t' => 'Viki žodynas $1',
+	'wminc-infopage-title-q' => 'Viki citatos $1',
+	'wminc-infopage-title-n' => 'Viki naujienos $1',
+	'wminc-infopage-title-s' => 'Viki šaltiniai $1',
+	'wminc-infopage-welcome' => 'Sveiki atvykę i Wikipedia Incubator, Wikipedia fondo projektą ([[{{MediaWiki:Aboutpage}}|Apie]])',
+	'wminc-infopage-missingwiki-text' => '$1 šia kalba dar neegzistuoja.',
+	'wminc-infopage-option-startsister' => 'Jei norite pradėti šia wiki, galite eiti į <b>[$2 $1] </b>.',
+	'wminc-infopage-option-sisterprojects-existing' => 'Jūs galite ieškoti egzistuojančiu projektų, šia kalba:',
+	'wminc-infopage-option-sisterprojects-other' => 'Jūs galite ieškoti kitų projektų, šia kalba:',
 	'wminc-infopage-contribute' => 'Jei suprantate, ar kalbate šią kalba, esate kviečiama(s) prisidėti!',
 );
 
@@ -960,8 +981,16 @@ $messages['si'] = array(
 	'wminc-infopage-title-n' => 'විකිපුවත් $1',
 	'wminc-infopage-title-s' => 'විකිමුලාශ්‍ර $1',
 	'wminc-infopage-title-v' => 'විකිවර්සිටි $1',
+	'wminc-infopage-welcome' => 'විකිමාධ්‍ය ඉන්කිව්බේටර වෙත පිළිගනිමු, විකිමාධ්‍ය පදනමෙහි ව්‍යාපෘතියකි ([[{{MediaWiki:Aboutpage}}|පිලිබඳ]])',
+	'wminc-infopage-missingwiki-text' => 'මෙම භාෂාවෙහි තිබෙන $1 තවම නොපවතියි.',
 	'wminc-infopage-option-startsister' => 'ඔබට මෙම විකිය ඇරඹීමට අවශ්‍ය නම්, ඔබට <b>[$2 $1]</b>වෙත යා හැකියි.',
+	'wminc-infopage-option-languages-existing' => 'ඔබ හට [//www.$1.org $1 හී දැනටමත් පවත්නා භාෂා අනුවාදයන්] සඳහා ගවේෂණය කල හැක.',
+	'wminc-infopage-option-sisterprojects-existing' => 'මෙම භාෂාවෙහි දැනටමත් පවතින ව්‍යාපෘතියන් ඔබට ගවේශනය කල හැක:',
+	'wminc-infopage-option-sisterprojects-other' => 'මෙම භාෂාවෙහි වෙනත් ව්‍යාපෘතියන් ඔබට ගවේශනය කල හැක:',
 	'wminc-infopage-option-multilingual' => 'ඔබට බහුභාෂාමය විකියකට යා හැකියි:',
+	'wminc-infopage-createmainpage' => "මෙම භාෂාවෙහිදී ''මුල් පිටුව'' යන වචනය යොදන්න:",
+	'wminc-infopage-contribute' => 'ඔබ මෙම භාෂාව ගැන දන්නවානම්, දායකත්වය ලබා දීමට ඔබට අපි අනුබල දෙනවා!',
+	'wminc-infopage-status-closedsister' => 'මෙම උපවසම වසා ඇත. මෙම විකියට දායකවීමට <b>$2</b> වෙත යන්න.',
 );
 
 /** Slovenian (Slovenščina)
