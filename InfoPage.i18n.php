@@ -415,6 +415,13 @@ $messages['fr'] = array(
 $messages['frp'] = array(
 	'wminc-infopage-enter' => 'alar a la pâge principâla',
 	'wminc-unknownlang' => '(lengoua encognua avouéc lo code « $1 »)',
+	'wminc-infopage-title-p' => 'Vouiquipèdia $1',
+	'wminc-infopage-title-b' => 'Vouiquilévros $1',
+	'wminc-infopage-title-t' => 'Vouiccionèro $1',
+	'wminc-infopage-title-q' => 'Vouiquicitacions $1',
+	'wminc-infopage-title-n' => 'Vouiquinovèles $1',
+	'wminc-infopage-title-s' => 'Vouiquisôrsa $1',
+	'wminc-infopage-title-v' => 'Vouiquivèrsitât $1',
 	'wminc-infopage-welcome' => 'Benvegnua sur la Covosa Wikimedia, un projèt de la Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|A propôs]])',
 	'wminc-infopage-missingwiki-text' => '$1 dens cela lengoua ègziste pas.',
 	'wminc-infopage-option-startwiki' => 'Se vos voléd emmodar cél vouiqui,
@@ -983,6 +990,8 @@ $messages['si'] = array(
 	'wminc-infopage-title-v' => 'විකිවර්සිටි $1',
 	'wminc-infopage-welcome' => 'විකිමාධ්‍ය ඉන්කිව්බේටර වෙත පිළිගනිමු, විකිමාධ්‍ය පදනමෙහි ව්‍යාපෘතියකි ([[{{MediaWiki:Aboutpage}}|පිලිබඳ]])',
 	'wminc-infopage-missingwiki-text' => 'මෙම භාෂාවෙහි තිබෙන $1 තවම නොපවතියි.',
+	'wminc-infopage-option-startwiki' => 'ඔබට මෙම විකිය ආරම්භ කිරීමට අවශ්‍යනම්,
+[{{fullurl:{{FULLPAGENAME}}|action=edit}} පිටුව තනා] [[{{MediaWiki:Wminc-manual-url}}|අපගේ අත්පොත]]  අනුගමනය කල හැක.',
 	'wminc-infopage-option-startsister' => 'ඔබට මෙම විකිය ඇරඹීමට අවශ්‍ය නම්, ඔබට <b>[$2 $1]</b>වෙත යා හැකියි.',
 	'wminc-infopage-option-languages-existing' => 'ඔබ හට [//www.$1.org $1 හී දැනටමත් පවත්නා භාෂා අනුවාදයන්] සඳහා ගවේෂණය කල හැක.',
 	'wminc-infopage-option-sisterprojects-existing' => 'මෙම භාෂාවෙහි දැනටමත් පවතින ව්‍යාපෘතියන් ඔබට ගවේශනය කල හැක:',
@@ -990,7 +999,10 @@ $messages['si'] = array(
 	'wminc-infopage-option-multilingual' => 'ඔබට බහුභාෂාමය විකියකට යා හැකියි:',
 	'wminc-infopage-createmainpage' => "මෙම භාෂාවෙහිදී ''මුල් පිටුව'' යන වචනය යොදන්න:",
 	'wminc-infopage-contribute' => 'ඔබ මෙම භාෂාව ගැන දන්නවානම්, දායකත්වය ලබා දීමට ඔබට අපි අනුබල දෙනවා!',
+	'wminc-infopage-status-imported' => 'විකිය වැසීමෙන් පසුව මෙම ඉන්කිව්බේටර විකිය $1 වෙතින් ආයාත කර ඇත.',
 	'wminc-infopage-status-closedsister' => 'මෙම උපවසම වසා ඇත. මෙම විකියට දායකවීමට <b>$2</b> වෙත යන්න.',
+	'wminc-infopage-status-created' => 'භාෂා කමිටුව විසින් මෙම ව්‍යාපෘතිය අනුමත කල අතර $1 හීදී ලබාගත හැක.',
+	'wminc-infopage-status-beforeincubator' => 'මෙම ව්‍යාපෘතිය තැනී ඇත්තේ විකිමාධ්‍ය ඉන්කිව්බේටරය ආරම්භ කිරීමට පෙර වන අතර $1 හීදී ලබා ගත හැක.',
 );
 
 /** Slovenian (Slovenščina)

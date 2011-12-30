@@ -2515,6 +2515,7 @@ $messages['si'] = array(
 	'wminc-prefinfo-code' => 'ISO  639 භාෂා කේතය',
 	'wminc-prefinfo-project' => 'විකි මීඩියා ව්‍යාපෘතිය තෝරන්න.(ආසීනකාරක තොරාගැනීම සාමාන්‍ය කාර්යයන් කරන පරිශීලකයන් සඳහා වේ)',
 	'wminc-prefinfo-error' => 'භාෂා කේතයක් අවශ්‍ය වන ව්‍යාපෘතියක් ඔබ විසින්  තෝරා ගෙන ඇත.',
+	'wminc-error-wronglangcode' => "'''දෝෂය:''' මෙම පිටුවෙහි [[{{MediaWiki:Helppage}}|වැරදි භාෂා කේතය]] \"\$1\" අඩංගු වේ!",
 	'wminc-error-unprefixed' => "'''දෝෂය:''' මෙම පිටුව [[{{MediaWiki:Helppage}}|උපසර්ග කොට නොමැත]]!",
 	'wminc-error-unprefixed-suggest' => "'''දෝෂය:''' මෙම පිටුව [[{{MediaWiki:Helppage}}|උපසර්ග කොට නොමැත]]! ඔබට [[:$1]] හීදී පිටුවක් තැනිය හැක.",
 	'randombytest' => 'විකි පරීක්ෂාවකින් සසම්භාවී පිවුවක්',
@@ -2599,7 +2600,7 @@ $messages['sq'] = array(
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
-	'wminc-desc' => 'Пробни вики систем за Викимедијин Инкубатор',
+	'wminc-desc' => 'Пробни вики-систем за Викимедијин инкубатор',
 	'wminc-manual' => 'Приручник',
 	'wminc-listwikis' => 'Списак викија',
 	'wminc-testwiki' => 'Пробни вики:',
@@ -2607,7 +2608,7 @@ $messages['sr-ec'] = array(
 	'wminc-testwiki-none' => 'Ништа/све',
 	'wminc-recentchanges-all' => 'Све скорашње измене',
 	'wminc-prefinfo-language' => 'Језик корисничког окружења — независно од вашег пробног викија',
-	'wminc-prefinfo-code' => 'Језички код ISO 639',
+	'wminc-prefinfo-code' => 'Језички ISO 639 код',
 	'wminc-prefinfo-project' => 'Изаберите пројекат (могућност за Инкубатор је за кориснике који обављају опште задатке)',
 	'wminc-prefinfo-error' => 'Изабрали сте пројекат који захтева језички код.',
 	'wminc-error-move-unprefixed' => 'Грешка: страница коју желите да преместите [[{{MediaWiki:Helppage}}|нема предметка или је он погрешан]].',
