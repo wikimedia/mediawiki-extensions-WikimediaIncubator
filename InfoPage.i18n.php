@@ -279,6 +279,20 @@ können Sie [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und g
 	'wminc-infopage-status-closedsister' => 'Diese Subdomain wurde geschlossen. Gehen Sie zu <b>$2</b>, um zu diesem Wiki beizutragen.',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'wminc-infopage-title-p' => 'Vikipedio $1',
+	'wminc-infopage-title-b' => 'Vikilibroj $1',
+	'wminc-infopage-title-t' => 'Vikivortaro $1',
+	'wminc-infopage-title-q' => 'Vikicitaro $1',
+	'wminc-infopage-title-n' => 'Vikinovaĵoj $1',
+	'wminc-infopage-title-s' => 'Vikifontaro $1',
+	'wminc-infopage-title-v' => 'Vikiversitio $1',
+	'wminc-infopage-missingwiki-text' => '$1 en ĉi tiu linvo ne jam ekzistas.',
+);
+
 /** Spanish (Español)
  * @author Diotime
  * @author Drini
@@ -362,7 +376,7 @@ $messages['fi'] = array(
 	'wminc-infopage-title-n' => 'Wikiuutiset $1',
 	'wminc-infopage-title-s' => 'Wikiaineisto $1',
 	'wminc-infopage-title-v' => 'Wikiopisto $1',
-	'wminc-infopage-welcome' => 'Tervetuloa Wikimedia Incubatoriin, Wikimedia Foundationin projektiin ([[{{MediaWiki:Aboutpage}}|tietoja]])',
+	'wminc-infopage-welcome' => 'Tervetuloa Wikimedia Hautomoon, Wikimedia Foundationin projektiin ([[{{MediaWiki:Aboutpage}}|tietoja]])',
 	'wminc-infopage-missingwiki-text' => '$1-hanketta ei ole vielä tällä kielellä.',
 	'wminc-infopage-option-startwiki' => 'Jos haluat aloittaa tämän wikin, voit [{{fullurl:{{FULLPAGENAME}}|action=edit}} luoda sivun] ja seurata [[{{MediaWiki:Wminc-manual-url}}|käsikirjamme ohjeita]].',
 	'wminc-infopage-option-startsister' => 'Jos haluat aloittaa tämän wikin, voit mennä sivulle <b>[$2 $1]</b>.',
@@ -373,9 +387,9 @@ $messages['fi'] = array(
 	'wminc-infopage-createmainpage' => 'Syötä sana "Etusivu" tällä kielellä:',
 	'wminc-infopage-contribute' => 'Jos osaat tätä kieltä, muokkaa rohkeasti!',
 	'wminc-infopage-status-imported' => 'Tämä Incubator-wiki on tuotu osoitteesta $1, kun wiki suljettiin.',
-	'wminc-infopage-status-closedsister' => 'Tämä alidomain suljettiin. Siirry osoitteeseen <b>$2</b> muokataksesi wikiä.',
+	'wminc-infopage-status-closedsister' => 'Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <b>$2</b> muokataksesi wikiä.',
 	'wminc-infopage-status-created' => 'Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.',
-	'wminc-infopage-status-beforeincubator' => 'Tämä projekti luotiin, ennen kuin Wikimedia Incubator käynnistettiin ja se on saatavilla osoitteessa $1.',
+	'wminc-infopage-status-beforeincubator' => 'Tämä projekti luotiin ennen kuin Wikimedia Incubator käynnistettiin ja se on saatavilla osoitteessa $1.',
 );
 
 /** French (Français)
@@ -536,10 +550,34 @@ móžeš [{{fullurl:{{FULLPAGENAME}}|action=edit}} stronu wutworić] a po [[{{Me
 );
 
 /** Hungarian (Magyar)
+ * @author Dj
  * @author Xbspiro
  */
 $messages['hu'] = array(
 	'wminc-infopage-enter' => 'Tovább',
+	'wminc-unknownlang' => '(ismeretlen nyelvkód „$1”)',
+	'wminc-infopage-title-p' => '$1 Wikipédia',
+	'wminc-infopage-title-b' => '$1 Wikikönyvek',
+	'wminc-infopage-title-t' => '$1 Wikiszótár',
+	'wminc-infopage-title-q' => '$1 Wikidézet',
+	'wminc-infopage-title-n' => '$1 Wikihírek',
+	'wminc-infopage-title-s' => '$1 Wikiforrás',
+	'wminc-infopage-title-v' => '$1 Wikiegyetem',
+	'wminc-infopage-welcome' => 'Üdvözöljük a Wikimédia Inkubátorban, amely a Wikimédia Alapítvány projektje ([[{{MediaWiki:Aboutpage}}|Névjegy]])',
+	'wminc-infopage-missingwiki-text' => '$1 nem létezik ezen a nyelven.',
+	'wminc-infopage-option-startwiki' => 'Ha el akarod kezdeni ezt a wikit,
+[{{fullurl:{{FULLPAGENAME}}|action=edit}} hozd létre az oldalt] és kövesd a [[{{MediaWiki:Wminc-manual-url}}|felhasználói kézikönyvet]].',
+	'wminc-infopage-option-startsister' => 'Ha el akarod kezdeni ezt a wikit, menj ide: <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Keresheted [//www.$1.org $1 létező nyelvi változatát].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Kereshetsz létező projekteket ezen a nyelven:',
+	'wminc-infopage-option-sisterprojects-other' => 'Kereshetsz más projekteket ezen a nyelven:',
+	'wminc-infopage-option-multilingual' => 'Mehetsz egy többnyelvű wikibe:',
+	'wminc-infopage-createmainpage' => 'Add meg a „Főoldal” nevét ezen a nyelven:',
+	'wminc-infopage-contribute' => 'Ha ismered ezt a nyelvet, akkor bátran működj közre a szerkesztésben!',
+	'wminc-infopage-status-imported' => 'Ez az Inkubátor wiki innen lett importálva, miután lezárásra került: $1.',
+	'wminc-infopage-status-closedsister' => 'Ez az aldomén lezárva. Az alábbi helyen tudsz közreműködni: <b>$2</b>.',
+	'wminc-infopage-status-created' => 'Ez a projekt a nyelvi bizottság által elfogadásra került és most hozzáférhető itt: $1.',
+	'wminc-infopage-status-beforeincubator' => 'Ez a projekt a Wikimedia Inkubátor előtt indult és elérhet itt: $1.',
 );
 
 /** Interlingua (Interlingua)
