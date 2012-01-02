@@ -2125,6 +2125,7 @@ $messages['pms'] = array(
 	'wminc-manual' => 'Manual',
 	'wminc-listwikis' => 'Lista ëd wiki',
 	'wminc-testwiki' => 'Preuva wiki:',
+	'wminc-testwiki-code' => 'Lenga dla wiki ëd preuva:',
 	'wminc-testwiki-none' => 'Gnun/Tùit',
 	'wminc-recentchanges-all' => "Tute j'ùltime modìfiche",
 	'wminc-prefinfo-language' => "Toa lenga d'antërfacia - andipendenta da toa wiki ëd preuva",
@@ -2146,12 +2147,14 @@ $messages['pms'] = array(
 	'wminc-ip' => '"$1" a l\'é n\'adrëssa IP.',
 	'right-viewuserlang' => "Visualisa lenga dl'utent e wiki ëd preuva",
 	'group-test-sysop' => 'Aministrator ëd la wiki ëd preuva',
-	'group-test-sysop-member' => 'aministrator ëd la wiki ëd preuva',
+	'group-test-sysop-member' => '{{GENDER:$1|aministrator ëd la wiki ëd preuva}}',
 	'grouppage-test-sysop' => '{{ns:project}}:Aministrator ëd la wiki ëd preuva',
 	'wminc-code-macrolanguage' => "La [[wikipedia:$2 language|lenga «$3»]] a l'é na [[wikipedia:ISO 639 macrolenga|macrolenga]], ch'a consist ëd le lenghe sì-dapress:",
 	'wminc-code-collective' => 'Ël còdes «$1» as riferiss pa a na lenga spessìfica, ma a na colession ëd lenghe, visadì le [[wikipedia:$2 language|lenghe «$3»]].',
 	'wminc-code-retired' => "Cost còdes ëd lenga a l'é stàit cangià e as arferiss pa pi a la lenga originaria.",
 	'wminc-listusers-testwiki' => "A l'é an camin ch'a vëd j'utent ch'a l'han ampostà ij sò gust ëd wiki ëd preuva a $1.",
+	'wminc-search-nocreate-nopref' => 'It l\'has sercà "$1". Për piasì ampòsta ij [[Special:Preferences|tò gust dla wiki ëd preuva]] parèj i podoma dite che pagina it peule creé!',
+	'wminc-search-nocreate-suggest' => 'It l\'has sercà "$1". It peule creé na pagina an toa wiki a <b>[[$2]]</b>!',
 );
 
 /** Pontic (Ποντιακά)
@@ -2765,6 +2768,21 @@ $messages['szl'] = array(
 	'wminc-viewuserlang-go' => 'Pokoż',
 	'wminc-userdoesnotexist' => 'Ńyma używacza ze mjanym "$1"',
 	'right-viewuserlang' => 'Uobocz zajta używacza a testowo wiki',
+);
+
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'wminc-manual' => 'கைமுறை',
+	'wminc-listwikis' => 'விக்கிகளின் பட்டியல்',
+	'wminc-testwiki' => 'சோதனை விக்கி:',
+	'wminc-testwiki-code' => 'சோதனை விக்கி மொழி:',
+	'wminc-testwiki-none' => 'ஏதுமில்லை/எல்லாம்',
+	'wminc-recentchanges-all' => 'எல்லா சமீபத்திய மாற்றங்களும்',
+	'wminc-prefinfo-code' => 'ISO 639 மொழி குறியீடு',
+	'wminc-prefinfo-error' => 'நீங்கள் தேர்ந்தெடுத்த திட்டத்திற்கு மொழி குறியீடு தேவைப்படுகிறது .',
+	'wminc-viewuserlang-go' => 'செல்',
 );
 
 /** Tulu (ತುಳು)

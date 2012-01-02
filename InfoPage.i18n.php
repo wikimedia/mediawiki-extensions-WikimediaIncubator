@@ -225,9 +225,10 @@ e c'hallit [{{fullurl:{{FULLPAGENAME}}|action=edit}} kouiñ ar bajenn] ha heulia
 
 /** Czech (Česky)
  * @author Koo6
+ * @author Mormegil
  */
 $messages['cs'] = array(
-	'wminc-infopage-option-startsister' => 'Chcete-li začít tuto wiki, můžete jít na <b>[ $2  $1 ] </b>.',
+	'wminc-infopage-option-startsister' => 'Chcete-li začít tuto wiki, můžete jít na <b>[$2 {{grammar:4sg|$1}}]</b>.',
 );
 
 /** German (Deutsch)
@@ -283,6 +284,7 @@ können Sie [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und g
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'wminc-unknownlang' => '(nekonata lingvo kun kodo "$1")',
 	'wminc-infopage-title-p' => 'Vikipedio $1',
 	'wminc-infopage-title-b' => 'Vikilibroj $1',
 	'wminc-infopage-title-t' => 'Vikivortaro $1',
@@ -291,6 +293,9 @@ $messages['eo'] = array(
 	'wminc-infopage-title-s' => 'Vikifontaro $1',
 	'wminc-infopage-title-v' => 'Vikiversitio $1',
 	'wminc-infopage-missingwiki-text' => '$1 en ĉi tiu linvo ne jam ekzistas.',
+	'wminc-infopage-option-sisterprojects-other' => 'Vi povas serĉi aliajn projektojn en ĉi tiu lingvo:',
+	'wminc-infopage-createmainpage' => 'Eniru la vorton "Ĉefpaĝon" laŭ ĉi tiu lingvo:',
+	'wminc-infopage-contribute' => 'Se vi scipovas ĉi tiun lingvon, vi estas kuraĝigita por kontribui!',
 );
 
 /** Spanish (Español)
@@ -817,13 +822,13 @@ anda boleh [{{fullurl:{{FULLPAGENAME}}|action=edit}} mencipta lamannya] dan meng
 $messages['nl'] = array(
 	'wminc-infopage-enter' => 'ga naar de Hoofdpagina',
 	'wminc-unknownlang' => '(onbekende taal met code "$1")',
-	'wminc-infopage-title-p' => 'Wikipedia $1',
-	'wminc-infopage-title-b' => 'Wikibooks $1',
-	'wminc-infopage-title-t' => 'Wiktionary $1',
-	'wminc-infopage-title-q' => 'Wikiquote $1',
-	'wminc-infopage-title-n' => 'Wikinews $1',
-	'wminc-infopage-title-s' => 'Wikisource $1',
-	'wminc-infopage-title-v' => 'Wikiversity $1',
+	'wminc-infopage-title-p' => 'Wikipedia in het $1',
+	'wminc-infopage-title-b' => 'Wikibooks in het $1',
+	'wminc-infopage-title-t' => 'Wikiwoordenboek in het $1',
+	'wminc-infopage-title-q' => 'Wikiquote in het $1',
+	'wminc-infopage-title-n' => 'Wikinews in het $1',
+	'wminc-infopage-title-s' => 'Wikisource in het $1',
+	'wminc-infopage-title-v' => 'Wikiversity in het $1',
 	'wminc-infopage-welcome' => 'Welkom bij de Wikimedia Incubator, een project van de Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Meer info]])',
 	'wminc-infopage-missingwiki-text' => 'Een $1 in deze taal bestaat nog niet.',
 	'wminc-infopage-option-startwiki' => 'Als u deze wiki wilt starten, kunt u [{{fullurl:{{FULLPAGENAME}}|action=edit}} de pagina aanmaken] en [[{{MediaWiki:Wminc-manual-url}}|onze handleiding]] volgen.',
@@ -863,6 +868,36 @@ $messages['pl'] = array(
 	'wminc-infopage-status-closedsister' => 'Ta domena podrzędna została zamknięta. Przejdź pod adres <b>$2</b> jeśli chcesz współtworzyć tę wiki.',
 	'wminc-infopage-status-created' => 'Projekt został zatwierdzony przez komisję językową i jest już dostępny pod adresem $1.',
 	'wminc-infopage-status-beforeincubator' => 'Ten projekt został utworzony zanim został uruchomiony Inkubator Wikimedia i jest dostępny pod adresem $1.',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'wminc-infopage-enter' => 'và a la Pagina Prinsipal',
+	'wminc-unknownlang' => '(lenga pa conossùa con còdes "$1")',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionary $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversity $1',
+	'wminc-infopage-welcome' => "Bin ëvnù a l'Incubator ëd Wikimedia, un proget ëd la Fondassion Wikimedia ([[{{MediaWiki:Aboutpage}}|A propòsit]])",
+	'wminc-infopage-missingwiki-text' => "Un $1 an sta lenga a esist pa anco'.",
+	'wminc-infopage-option-startwiki' => "S'it veule ancaminé sta wiki,
+it peule [{{fullurl:{{FULLPAGENAME}}|action=edit}} creé la pagina] e seguì [[{{MediaWiki:Wminc-manual-url}}|nòst manual]].",
+	'wminc-infopage-option-startsister' => "S'it veule ancaminé sta wiki, it peule andé a <b>[$2 $1]</b>.",
+	'wminc-infopage-option-languages-existing' => "It peule serché [//www.$1.org j'edission esistente an lenga ëd $1].",
+	'wminc-infopage-option-sisterprojects-existing' => 'It peule serché proget esistent an sta lenga:',
+	'wminc-infopage-option-sisterprojects-other' => 'It peule serché autr proget an sta lenga:',
+	'wminc-infopage-option-multilingual' => 'It peule andé a na wiki multilenga:',
+	'wminc-infopage-createmainpage' => 'Anseriss la paròla "Pagina Prinsipal" an sta lenga:',
+	'wminc-infopage-contribute' => "S'it conòsse sta lenga, it ses ancragià a contribuì!",
+	'wminc-infopage-status-imported' => "Sta wiki Incubator a l'é stàita amportà da $1 d'apress che sta wiki a l'é stàita sarà.",
+	'wminc-infopage-status-closedsister' => "Sto sotdomini a l'é stàit sarà. Và a <b>$2</b> për contribuì a sta wiki.",
+	'wminc-infopage-status-created' => "Sto proget a l'é stàit aprovà dal comità dle lenghe e a l'é adess disponìbil a $1.",
+	'wminc-infopage-status-beforeincubator' => "Sto proget a l'é staàit creà prima che l'Incubator ëd Wikipedia a partèissa e a l'é disponìbil a $1.",
 );
 
 /** Pashto (پښتو)
@@ -1145,6 +1180,19 @@ $messages['sv'] = array(
 	'wminc-infopage-status-closedsister' => 'Denna underdomän har stängts. Gå till <b>$2</b> för att bidra till denna wiki.',
 	'wminc-infopage-status-created' => 'Detta projekt har godkänts av språkkommittén och finns nu på $1.',
 	'wminc-infopage-status-beforeincubator' => 'Detta projekt skapades före Wikimedia Incubator startade och finns på $1.',
+);
+
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'wminc-infopage-title-p' => 'விக்கிப்பீடியா $1',
+	'wminc-infopage-title-b' => 'விக்கிபுத்தகங்கள் $1',
+	'wminc-infopage-title-t' => 'விக்சனரி$1',
+	'wminc-infopage-title-q' => 'விக்கிமேற்கோள்$1',
+	'wminc-infopage-title-n' => 'விக்கிசெய்திகள் $1',
+	'wminc-infopage-title-s' => 'விக்கிமூலம் $1',
+	'wminc-infopage-missingwiki-text' => 'A  $1  இந்த மொழியில் இதுவரை இல்லை.',
 );
 
 /** Tetum (Tetun)
