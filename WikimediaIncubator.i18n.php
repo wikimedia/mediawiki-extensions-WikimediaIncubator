@@ -2420,10 +2420,13 @@ $messages['rue'] = array(
 	'wminc-listusers-testwiki' => 'Перезерате хоснователїв, котры наставили їх тест вікі наставлїня на $1.',
 );
 
-/** Sanskrit (संस्कृतम्) */
+/** Sanskrit (संस्कृतम्)
+ * @author Ansumang
+ */
 $messages['sa'] = array(
 	'wminc-manual' => 'शास्त्र',
 	'wminc-listwikis' => 'विकयः सूचि',
+	'wminc-viewuserlang-user' => 'योजकनामन्:',
 );
 
 /** Sakha (Саха тыла)
@@ -3150,5 +3153,6 @@ $messages['zh-hant'] = array(
 	'wminc-code-retired' => '此語言代碼已更改，並且不再指向原來的語言。',
 	'wminc-listusers-testwiki' => '您正在查看將測試維基首選項設置為$1的用戶。',
 	'wminc-search-nocreate-nopref' => '您在尋找「$1」。請更改您的[[Special:Preferences|測試維基參數設定]]，以便我們可以告訴您適合創建的頁面種類！',
+	'wminc-search-nocreate-suggest' => '您在尋找“$1”。您可以轉到<b>[[$2]]</b>以在您的維基項目中創新一個頁面！',
 );
 

@@ -1048,6 +1048,13 @@ $messages['rue'] = array(
 	'wminc-infopage-contribute' => 'Кідь розумієте тот язык, рекомендуєме, жебы сьте приспівали!',
 );
 
+/** Sanskrit (संस्कृतम्)
+ * @author Ansumang
+ */
+$messages['sa'] = array(
+	'wminc-infopage-title-p' => 'विकिपीड़िया $1',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
@@ -1332,6 +1339,7 @@ $messages['zh-hant'] = array(
 	'wminc-infopage-option-startsister' => '若想創建這個維基項目，請轉到<b>[$2 $1]</b>。',
 	'wminc-infopage-option-languages-existing' => '您可以搜尋[//www.$1.org $1所現有的語言版本]。',
 	'wminc-infopage-option-sisterprojects-existing' => '您可以在這種語言中搜尋現有項目：',
+	'wminc-infopage-option-sisterprojects-other' => '您可以在這種語言中搜尋其他項目：',
 	'wminc-infopage-option-multilingual' => '您可以轉到一個多語種的維基項目：',
 	'wminc-infopage-createmainpage' => '輸入「主頁」此詞在這種語言的翻譯：',
 	'wminc-infopage-contribute' => '如果您會這門語言，歡迎您做出貢獻！',
