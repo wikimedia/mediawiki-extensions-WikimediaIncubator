@@ -171,10 +171,18 @@ kåst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} dé Seiten erstön] und noch 
  * @author EugeneZelenko
  * @author Jim-by
  * @author Renessaince
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'wminc-infopage-enter' => 'перайсьці на Галоўную старонку',
 	'wminc-unknownlang' => '(невядомая мова з кодам «$1»)',
+	'wminc-infopage-title-p' => 'Вікіпэдыя $1',
+	'wminc-infopage-title-b' => 'Вікікнігі $1',
+	'wminc-infopage-title-t' => 'Вікіслоўнік $1',
+	'wminc-infopage-title-q' => 'Вікіцытаты $1',
+	'wminc-infopage-title-n' => 'Вікінавіны $1',
+	'wminc-infopage-title-s' => 'Вікікрыніцы $1',
+	'wminc-infopage-title-v' => 'Віківэрсытэт $1',
 	'wminc-infopage-welcome' => 'Вітаем у Інкубатары Вікімэдыя, праекце Фундацыі «Вікімэдыя» ([[{{MediaWiki:Aboutpage}}|Падрабязьней]])',
 	'wminc-infopage-missingwiki-text' => '$1 на гэтай мове яшчэ не існуе.',
 	'wminc-infopage-option-startwiki' => 'Калі Вы жадаеце распачаць гэтую вікі,
