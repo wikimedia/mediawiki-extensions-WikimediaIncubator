@@ -814,6 +814,7 @@ $messages['es'] = array(
 	'wminc-code-retired' => 'Este código de idioma ha cambiado o ya no se refiere al idioma original.',
 	'wminc-listusers-testwiki' => 'Estás mirando la lista de usuarios que han seleccionado su opción de wiki de pruebas a $1.',
 	'wminc-search-nocreate-nopref' => 'Hizo una búsqueda de "$1". ¡Configure sus [[Special:Preferences|preferencias del wiki de pruebas]] de forma que podamos decirle qué la página que puede crear!',
+	'wminc-search-nocreate-suggest' => 'Buscaste "$1". Puedes crear una página en tu wiki en <b>[[$2]]</b>!',
 );
 
 /** Estonian (Eesti)
@@ -1092,6 +1093,7 @@ $messages['gl'] = array(
  * @author Omnipaedista
  */
 $messages['grc'] = array(
+	'wminc-manual' => 'χειροκίνητος',
 	'wminc-testwiki' => 'Βίκι δοκιμή:',
 	'wminc-testwiki-none' => 'Οὐδέν/Ἅπαντα',
 	'wminc-prefinfo-code' => 'Ὁ κῶδιξ γλώσσης ISO 639',

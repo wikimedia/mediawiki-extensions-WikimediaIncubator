@@ -288,6 +288,20 @@ können Sie [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und g
 	'wminc-infopage-status-closedsister' => 'Diese Subdomain wurde geschlossen. Gehen Sie zu <b>$2</b>, um zu diesem Wiki beizutragen.',
 );
 
+/** Greek (Ελληνικά)
+ * @author Crazymadlover
+ */
+$messages['el'] = array(
+	'wminc-infopage-enter' => 'Πηγαίνετε στην κύρια σελίδα',
+	'wminc-infopage-title-p' => 'Βικιπαίδεια $1',
+	'wminc-infopage-title-b' => 'Βικιβιβλία $1',
+	'wminc-infopage-title-t' => 'Βικιλεξικό $1',
+	'wminc-infopage-title-q' => 'Βικιφθέγματα $1',
+	'wminc-infopage-title-n' => 'Βικινέα $1',
+	'wminc-infopage-title-s' => 'Βικιθήκη $1',
+	'wminc-infopage-title-v' => 'Βικιεπιστήμιο $1',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
@@ -491,6 +505,19 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear esta páxina] e seguir [[{{
 	'wminc-infopage-status-closedsister' => 'Este subdominio foi pechado. Vaia a <b>$2</b> para contribuír neste wiki.',
 	'wminc-infopage-status-created' => 'Este proxecto foi aprobado polo comité de linguas e agora está dispoñible en $1.',
 	'wminc-infopage-status-beforeincubator' => 'Este proxecto foi creado antes ca a Incubadora da Wikimedia e está dispoñible en $1.',
+);
+
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Crazymadlover
+ */
+$messages['grc'] = array(
+	'wminc-infopage-title-p' => 'Βικιπαιδεία $1',
+	'wminc-infopage-title-b' => 'Βικιβιβλία $1',
+	'wminc-infopage-title-t' => 'Βικιλεξικόν $1',
+	'wminc-infopage-title-q' => 'Βικιφθέγματα $1',
+	'wminc-infopage-title-n' => 'Βικιεπίκαιρα $1',
+	'wminc-infopage-title-s' => 'Βικιθήκη $1',
+	'wminc-infopage-title-v' => 'Βικιεπιστήμιον $1',
 );
 
 /** Hebrew (עברית)
