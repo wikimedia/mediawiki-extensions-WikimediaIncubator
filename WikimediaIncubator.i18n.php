@@ -879,6 +879,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Huji
+ * @author MehranVB
  * @author Mjbmr
  * @author Sahim
  */
@@ -2155,8 +2156,8 @@ $messages['pms'] = array(
 	'wminc-code-collective' => 'Ël còdes «$1» as riferiss pa a na lenga spessìfica, ma a na colession ëd lenghe, visadì le [[wikipedia:$2 language|lenghe «$3»]].',
 	'wminc-code-retired' => "Cost còdes ëd lenga a l'é stàit cangià e as arferiss pa pi a la lenga originaria.",
 	'wminc-listusers-testwiki' => "A l'é an camin ch'a vëd j'utent ch'a l'han ampostà ij sò gust ëd wiki ëd preuva a $1.",
-	'wminc-search-nocreate-nopref' => 'It l\'has sercà "$1". Për piasì ampòsta ij [[Special:Preferences|tò gust dla wiki ëd preuva]] parèj i podoma dite che pagina it peule creé!',
-	'wminc-search-nocreate-suggest' => 'It l\'has sercà "$1". It peule creé na pagina an toa wiki a <b>[[$2]]</b>!',
+	'wminc-search-nocreate-nopref' => "A l'ha arsercà «$1». Për piasì, ch'a ampòsta ij [[Special:Preferences|sò gust dla wiki ëd preuva]] parèj i podoma dije che pàgina a peul creé!",
+	'wminc-search-nocreate-suggest' => "A l'ha arsercà «$1». A peul creé na pàgina an soa wiki a <b>[[$2]]</b>!",
 );
 
 /** Pontic (Ποντιακά)

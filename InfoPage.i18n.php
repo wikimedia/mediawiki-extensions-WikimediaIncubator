@@ -906,10 +906,11 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'wminc-infopage-enter' => 'và a la Pagina Prinsipal',
+	'wminc-infopage-enter' => 'andé a la pàgina Prinsipal',
 	'wminc-unknownlang' => '(lenga pa conossùa con còdes "$1")',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikibooks $1',
@@ -919,20 +920,20 @@ $messages['pms'] = array(
 	'wminc-infopage-title-s' => 'Wikisource $1',
 	'wminc-infopage-title-v' => 'Wikiversity $1',
 	'wminc-infopage-welcome' => "Bin ëvnù a l'Incubator ëd Wikimedia, un proget ëd la Fondassion Wikimedia ([[{{MediaWiki:Aboutpage}}|A propòsit]])",
-	'wminc-infopage-missingwiki-text' => "Un $1 an sta lenga a esist pa anco'.",
-	'wminc-infopage-option-startwiki' => "S'it veule ancaminé sta wiki,
-it peule [{{fullurl:{{FULLPAGENAME}}|action=edit}} creé la pagina] e seguì [[{{MediaWiki:Wminc-manual-url}}|nòst manual]].",
+	'wminc-infopage-missingwiki-text' => 'Un $1 an costa lenga a esist ancor nen.',
+	'wminc-infopage-option-startwiki' => "S'a veule ancaminé costa wiki,
+a peul [{{fullurl:{{FULLPAGENAME}}|action=edit}} creé la pàgina] e andeje dapress a [[{{MediaWiki:Wminc-manual-url}}|nòstr manual]].",
 	'wminc-infopage-option-startsister' => "S'it veule ancaminé sta wiki, it peule andé a <b>[$2 $1]</b>.",
 	'wminc-infopage-option-languages-existing' => "It peule serché [//www.$1.org j'edission esistente an lenga ëd $1].",
-	'wminc-infopage-option-sisterprojects-existing' => 'It peule serché proget esistent an sta lenga:',
-	'wminc-infopage-option-sisterprojects-other' => 'It peule serché autr proget an sta lenga:',
+	'wminc-infopage-option-sisterprojects-existing' => 'A peul sërché dij proget esistent an costa lenga:',
+	'wminc-infopage-option-sisterprojects-other' => "A peul sërché d'àutri proget an costa lenga:",
 	'wminc-infopage-option-multilingual' => 'It peule andé a na wiki multilenga:',
-	'wminc-infopage-createmainpage' => 'Anseriss la paròla "Pagina Prinsipal" an sta lenga:',
-	'wminc-infopage-contribute' => "S'it conòsse sta lenga, it ses ancragià a contribuì!",
-	'wminc-infopage-status-imported' => "Sta wiki Incubator a l'é stàita amportà da $1 d'apress che sta wiki a l'é stàita sarà.",
-	'wminc-infopage-status-closedsister' => "Sto sotdomini a l'é stàit sarà. Và a <b>$2</b> për contribuì a sta wiki.",
-	'wminc-infopage-status-created' => "Sto proget a l'é stàit aprovà dal comità dle lenghe e a l'é adess disponìbil a $1.",
-	'wminc-infopage-status-beforeincubator' => "Sto proget a l'é staàit creà prima che l'Incubator ëd Wikipedia a partèissa e a l'é disponìbil a $1.",
+	'wminc-infopage-createmainpage' => "Ch'a anserissa le paròle «Pàgina Prinsipal» an costa lenga:",
+	'wminc-infopage-contribute' => "S'a conòss costa lenga, a l'é ancoragià a contribuì!",
+	'wminc-infopage-status-imported' => "Costa wiki Incubator a l'é stàita amportà da $1 apress che la wiki a l'é stàita sarà.",
+	'wminc-infopage-status-closedsister' => "Ës sot-domini a l'é stàit sarà. Ch'a vada a <b>$2</b> për contribuì a costa wiki.",
+	'wminc-infopage-status-created' => "Ës proget a l'é stàit aprovà dal comità lenghìstich e a l'é adess disponìbil a $1.",
+	'wminc-infopage-status-beforeincubator' => "Ës proget a l'é stàit creà prima che l'Incubator ëd Wikipedia a partèissa e a l'é disponìbil a $1.",
 );
 
 /** Pashto (پښتو)
