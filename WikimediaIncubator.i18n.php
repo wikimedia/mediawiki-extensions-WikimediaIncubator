@@ -2272,6 +2272,25 @@ $messages['pt-br'] = array(
 	'wminc-search-nocreate-suggest' => 'Você procura por "$1 ". Você pode criar uma página na sua wiki em <b>[[$2]]</b>!',
 );
 
+/** Runa shimi (Runa shimi)
+ * @author Sylvain2803
+ */
+$messages['qug'] = array(
+	'wminc-manual' => 'Yachachik kamu',
+	'wminc-listwikis' => 'Tukuy wikikuna',
+	'wminc-testwiki' => 'Nara wiñachishka wiki',
+	'wminc-testwiki-code' => 'Nara wiñachishka wikipak shimi:',
+	'wminc-testwiki-none' => 'Nishuk/Tukuykuna',
+	'wminc-recentchanges-all' => 'Tukuy mushuk killkaykuna',
+	'wminc-prefinfo-language' => "Kikinpak ''interface'' shimi (shina kakpi, mana kikinpak wikipak shimi shina kanka)",
+	'wminc-prefinfo-code' => 'ISO 639 shimi yupay',
+	'wminc-prefinfo-project' => "Maykan Wikimedia proyectota nipay (maypipash llankanata munakpi, ''Incubator''-ta churapay)",
+	'wminc-prefinfo-error' => 'Chay proyectota akllashkamanta, shimi yupayta charanami kapanki',
+	'wminc-error-move-unprefixed' => 'Maykanpash pankaman chayta apakuna munapanki, chay pankaka [[{{MediaWiki:Helppage}}|nalli prefixota charinchu]]!',
+	'wminc-error-wronglangcode' => "'''Pantay:''' chay pankaka shuk [[{{MediaWiki:Helppage}}|pandashka shimi yupayta]] charinmi (\"\$1\")!",
+	'wminc-error-unprefixed' => "'''Pantay:''' Kay pankaka [[{{MediaWiki:Helppage}}|prefixota illan]]!",
+);
+
 /** Romanian (Română)
  * @author Emily
  * @author Firilacroco
@@ -3047,6 +3066,7 @@ $messages['vi'] = array(
  */
 $messages['yi'] = array(
 	'wminc-testwiki' => 'פרווו וויקי',
+	'wminc-testwiki-code' => 'פרואוו וויקי שפראך:',
 	'wminc-testwiki-none' => 'קיינע/אלע',
 	'wminc-viewuserlang-user' => 'באַניצער נאָמען:',
 	'wminc-viewuserlang-go' => 'גיין',

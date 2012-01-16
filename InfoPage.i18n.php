@@ -1323,6 +1323,13 @@ $messages['vi'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Dự án này được tạo trước khi Wikimedia Incubator mở cửa và hiện có sẵn tại $1.',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'wminc-infopage-title-p' => 'וויקיפעדיע $1',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Anakmalaysia
  * @author Dalt
