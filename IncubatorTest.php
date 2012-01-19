@@ -268,11 +268,6 @@ class IncubatorTest {
 		return true;
 	}
 
-	static function magicWord( &$magicWords, $langCode ) {
-		$magicWords['usertestwiki'] = array( 0, 'USERTESTWIKI' );
-		return true;
-	}
-
 	static function magicWordValue( &$parser, &$cache, &$magicWordId, &$ret ) {
 		if( !self::displayPrefix() ) {
 			$ret = 'none';

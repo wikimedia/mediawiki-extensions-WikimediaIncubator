@@ -16,7 +16,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => 'SPQRobin',
-	'version' => '4.5',
+	'version' => '4.6',
 	'url' => '//www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -72,6 +72,7 @@ $wgRemoveGroups['bureaucrat'][] = 'test-sysop';
 
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 $wgExtensionMessagesFiles['WikimediaIncubatorAlias'] = $dir . 'WikimediaIncubator.alias.php';
+$wgExtensionMessagesFiles['WikimediaIncubatorMagic'] = $dir . 'WikimediaIncubator.i18n.magic.php';
 
 /* Special:ViewUserLang */
 $wgAutoloadClasses['SpecialViewUserLang'] = $dir . 'SpecialViewUserLang.php';
@@ -86,7 +87,6 @@ $wgGroupPermissions['sysop']['viewuserlang'] = true;
 $wgAutoloadClasses['IncubatorTest'] = $dir . 'IncubatorTest.php';
 $wgHooks['GetPreferences'][] = 'IncubatorTest::onGetPreferences';
 $wgHooks['MagicWordwgVariableIDs'][] = 'IncubatorTest::magicWordVariable';
-$wgHooks['LanguageGetMagic'][] = 'IncubatorTest::magicWord';
 $wgHooks['ParserGetVariableValueSwitch'][] = 'IncubatorTest::magicWordValue';
 
 /* Special:MyMainPage (depending on your test wiki preference) */
