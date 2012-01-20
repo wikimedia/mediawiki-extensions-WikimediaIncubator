@@ -1204,6 +1204,7 @@ $messages['he'] = array(
 /** Hindi (हिन्दी)
  * @author Ansumang
  * @author Vibhijain
+ * @author रोहित रावत
  */
 $messages['hi'] = array(
 	'wminc-desc' => 'विकीमीडिया ऊष्मानियंत्रक के लिए विकि प्रणाली का परीक्षण',
@@ -1220,6 +1221,7 @@ $messages['hi'] = array(
 	'wminc-error-move-unprefixed' => 'त्रुटि: को पृष्ठ का आप स्थान - परिवर्तन करने की कोशिश कर रहे है, वह [[{{MediaWiki:Helppage}}|अउपसर्गित है या एक गलत उपसर्ग है]]!',
 	'wminc-error-wronglangcode' => "''' त्रुटि: ''' इस पृष्ठ में एक [[{{MediaWiki:Helppage}}|गलत भाषा कोड]] शामिल हैं \"\$1\"!",
 	'wminc-error-unprefixed' => "''' त्रुटि: ''' यह पृष्ठ [[{{MediaWiki:Helppage}}|अउपसर्गित]] है!",
+	'wminc-error-unprefixed-suggest' => "' ' त्रुटि: ' ' यह पृष्ठ [[{{MediaWiki:Helppage}} |अनउपसर्गित]] है! आप [[: $1 ]] पर एक पृष्ठ बना सकते हैं।",
 	'wminc-error-wiki-exists' => 'यह विकि पहले से मौजूद है। आप $1 पर इस पृष्ठ को पा सकते हैं। यदि विकी हाल ही में बनाई गई है, कृपया सभी सामग्री आयात किए जाने तक कुछ घंटे या दिन प्रतीक्षा करें।',
 	'wminc-error-wiki-sister' => 'यह पृष्ठ एक परियोजना को संबंध रखता है जो कि यहाँ होस्ट नहीं होती। कृपया विकि जाने के लिए $1  पर जाए।',
 	'randombytest' => 'परीक्षण विकि द्वारा यादृच्छिक पृष्ठ',
@@ -1233,7 +1235,9 @@ $messages['hi'] = array(
 	'group-test-sysop' => 'परीक्षण विकी प्रबंधक',
 	'group-test-sysop-member' => '{{GENDER:$1|परीक्षण विकि प्रबंधक}}',
 	'grouppage-test-sysop' => '{{ns:project}}:परीक्षण विकी प्रबंधक',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|"$3" भाषा]] एक [[wikipedia:ISO 639 macrolanguage|वृहत्भाषा]] है, जो निम्नलिखित भाषाओं से युक्त है:',
 	'wminc-code-retired' => 'यह भाषा कोड बदल दिया गया है और अब मूल भाषा को संदर्भित नहीं करता है।',
+	'wminc-listusers-testwiki' => 'आप उन प्रयोक्ताओं को देख रहे हैं जिन्होंने अपनी परिक्षण विकी वरीयता $1 निर्धारित की है।',
 );
 
 /** Hiligaynon (Ilonggo)
