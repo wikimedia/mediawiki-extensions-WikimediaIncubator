@@ -1981,6 +1981,33 @@ $messages['nds-nl'] = array(
 	'wminc-viewuserlang-go' => 'Zeuken',
 );
 
+/** Nepali (नेपाली)
+ * @author RajeshPandey
+ */
+$messages['ne'] = array(
+	'wminc-desc' => 'विकीमीडिया इनक्युबेटर को लागि विकि प्रणाली को परीक्षण',
+	'wminc-manual' => 'मद्दत',
+	'wminc-listwikis' => 'विकिहरूको सूची',
+	'wminc-testwiki' => 'परीक्षण विकी',
+	'wminc-testwiki-code' => 'परीक्षण विकी भाषा:',
+	'wminc-testwiki-none' => 'कुनै पनि होइन/सबै',
+	'wminc-recentchanges-all' => 'सबै नयाँ परिवर्तनहरू',
+	'wminc-prefinfo-language' => 'तपाईंको इन्टरफेस भाषा - तपाईंको परीक्षण विकी संग संबन्ध नभएको',
+	'wminc-prefinfo-code' => 'आइ.एस.ओ. ६३९ को भाषा संकेतांक',
+	'wminc-prefinfo-project' => 'विकिमीडिया परियोजना को चयन गर्नुहोस (इन्क्युबेटर को विकल्प साधारण काम गर्ने उपयोगकर्ताहरु को लागि मात्र हो)',
+	'wminc-prefinfo-error' => 'तपाईंले चयन गरेको परियोजना को लागि भाषा कोड चाहिन्छ।',
+	'wminc-error-move-unprefixed' => 'त्रुटि: तपाईंले स्थान - परिवर्तन गर्न खोजेको पृष्ठ  [[{{MediaWiki:Helppage}}|अउपसर्गित छ या यो एक गलत उपसर्ग हो]]!',
+	'wminc-error-wronglangcode' => "''' त्रुटि: ''' यस पृष्ठ मा रहेको \"\$1\" एक [[{{MediaWiki:Helppage}}|गलत भाषा कोड]]  हो!",
+	'wminc-error-unprefixed' => "''' त्रुटि:''' यो पृष्ठ मा [[{{MediaWiki:Helppage}}|उपसर्ग]] छैन!",
+	'wminc-error-unprefixed-suggest' => "'''त्रुटि:''' यो पृष्ठ मा [[{{MediaWiki:Helppage}}|उपसर्ग]] छैन! तपाइले [[:$1]] मा एक पृष्ठ बनाउन सक्नुहुन्छ।",
+	'wminc-error-wiki-exists' => 'यो विकि पहिल्यै देखि रहेको छ। तपाईं यस पृष्ठलाइ $1 मा पाउन सक्नुहुन्छ। यदि यो विकी हालै मा बनाइएको भए, कृपया सबै सामाग्री आयात भएर सकिने समय सम्म केहि घन्टा या दिनसम्म प्रतीक्षा गर्नुहोला।',
+	'wminc-error-wiki-sister' => 'यो पृष्ठ एक परियोजना संग सम्बन्ध राख्दछ जुन कि यहाँ होस्ट गरिएको छैन। कृपया यो विकिमा जान को लागि $1 मा जानुहोला।',
+	'randombytest' => 'परीक्षण विकि को कुनै यौटा पृष्ठ',
+	'randombytest-nopages' => 'तपाईंको परीक्षण विकीको नामस्थान: $1 मा कुनै पनि पृष्ठ छैनन्।',
+	'wminc-viewuserlang' => 'प्रयोगकर्ता भाषा र परीक्षण विकि खोज्नुहोस',
+	'wminc-viewuserlang-user' => 'प्रयोगकर्ता :',
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author SPQRobin
