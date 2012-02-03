@@ -357,14 +357,24 @@ puedes [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la página] y seguir [[{{
  * @author Pikne
  */
 $messages['et'] = array(
+	'wminc-infopage-enter' => 'mine esilehele',
 	'wminc-unknownlang' => '(tundmatu keel koodiga "$1")',
+	'wminc-infopage-title-s' => '{{ucfirst:$1}} Vikitekstid',
+	'wminc-infopage-welcome' => 'Tere tulemast Wikimedia Inkubaatorisse. Tegu on Wikimedia Foundationi projektiga ([[{{MediaWiki:Aboutpage}}|teave]]).',
+	'wminc-infopage-missingwiki-text' => '$1-projekt puudub seni selles keeles.',
+	'wminc-infopage-option-startwiki' => 'Kui soovid vikit alustada,
+saad [{{fullurl:{{FULLPAGENAME}}|action=edit}} lehekülje luua] ja järgida [[{{MediaWiki:Wminc-manual-url}}|meie juhendit]].',
+	'wminc-infopage-option-startsister' => 'Kui soovid seda vikit alustada, tee seda leheküljel <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Saad otsida [//www.$1.org $1-projekti olemasolevaid keeleversioone].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Saad otsida olemasolevaid samakeelseid projekte:',
 	'wminc-infopage-option-sisterprojects-other' => 'Saad otsida teisi samakeelseid projekte:',
 	'wminc-infopage-option-multilingual' => 'Saad minna mitmekeelsetesse vikidesse:',
 	'wminc-infopage-createmainpage' => 'Sisesta sõna "Esileht" selles keeles:',
 	'wminc-infopage-contribute' => 'Kui oskad seda keelt, on sinu kaastöö oodatud!',
+	'wminc-infopage-status-imported' => 'See inkubaatori viki on pärast selle sulgemist imporditud asukohast $1.',
+	'wminc-infopage-status-closedsister' => 'See alamdomeen suleti. Sellele vikile saad kaastööd teha asukohas <b>$2</b>.',
 	'wminc-infopage-status-created' => 'Keelekomitee on selle projekti heaks kiitnud ja see on nüüd saadaval asukohas $1.',
-	'wminc-infopage-status-beforeincubator' => 'Selle projektiga alustati enne Wikimedia Incubatori avamist ja see on saadaval asukohas $1.',
+	'wminc-infopage-status-beforeincubator' => 'Selle projektiga alustati enne Wikimedia Inkubaatori avamist ja see on saadaval asukohas $1.',
 );
 
 /** Persian (فارسی)

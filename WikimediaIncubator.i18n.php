@@ -822,7 +822,7 @@ $messages['es'] = array(
  * @author Pikne
  */
 $messages['et'] = array(
-	'wminc-desc' => 'Katsevikide süsteem Wikimedia Incubatori jaoks',
+	'wminc-desc' => 'Katsevikide süsteem Wikimedia Inkubaatori jaoks',
 	'wminc-manual' => 'Käsiraamat',
 	'wminc-listwikis' => 'Vikide nimekiri',
 	'wminc-testwiki' => 'Katseviki:',
