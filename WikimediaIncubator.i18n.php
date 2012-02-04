@@ -853,6 +853,9 @@ $messages['et'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|$3 keel]] on [[wikipedia:ISO 639 macrolanguage|makrokeel]], mis koosneb järgmistest keeltest:',
 	'wminc-code-collective' => 'Keelekood "$1" ei viita kindlale keelele, vaid järgmisele keelterühmale: [[wikipedia:$2 language|$3 keeled]].',
 	'wminc-code-retired' => 'Seda keelekoodi on muudetud ja see ei viita enam esialgsele keelele.',
+	'wminc-listusers-testwiki' => 'Vaatad kasutajaid, kes on oma katsevikiks määranud $1.',
+	'wminc-search-nocreate-nopref' => 'Otsisid märksõna "$1". Palun määra oma [[Special:Preferences|katseviki eelistus]], et saaksime sulle näidata, millist lehekülge alustada.',
+	'wminc-search-nocreate-suggest' => 'Otsisid märksõna "$1". Enda vikis saad lehekülge alustada asukohas <b>[[$2]]</b>!',
 );
 
 /** Basque (Euskara)
