@@ -718,12 +718,12 @@ class IncubatorTest {
 
 		$newNs = $title->getNamespace();
 		$newTitle = $title->getText();
-		if( $prefix == $wmincProjectSite['short'] ) {
+		if( !in_array( $title->getNamespace(), $wmincTestWikiNamespaces ) ) {
+			# namespace not affected by the prefix system: show normal msg
+			return true;
+		} elseif( $prefix == $wmincProjectSite['short'] ) {
 			$newNs = NS_PROJECT;
 		} else {
-			if( !in_array( $title->getNamespace(), $wmincTestWikiNamespaces ) ) {
-				$newNs = $wmincTestWikiNamespaces[0]; # no "valid" NS, should be main NS
-			}
 			$newTitle = $prefix . '/' . $newTitle;
 		}
 
