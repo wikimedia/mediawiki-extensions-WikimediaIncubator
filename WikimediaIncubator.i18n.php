@@ -333,10 +333,18 @@ $messages['az'] = array(
 	'wminc-manual' => 'Əl ilə',
 	'wminc-listwikis' => 'Vikilərin siyahısı',
 	'wminc-testwiki' => 'Test viki:',
+	'wminc-testwiki-code' => 'Test viki dili:',
 	'wminc-testwiki-none' => 'Heç biri/Hamısı',
+	'wminc-recentchanges-all' => 'Bütün son dəyişikliklər',
+	'wminc-prefinfo-code' => 'ISO 639 dil kodu',
+	'randombytest' => 'Test vikisindən təsadüfi səhifə',
 	'wminc-viewuserlang-user' => 'İstifadəçi adı:',
 	'wminc-viewuserlang-go' => 'Keç',
 	'wminc-userdoesnotexist' => 'İstifadəçi "$1" mövcud deyil',
+	'wminc-ip' => '"$1" bir IP ünvanıdır.',
+	'right-viewuserlang' => 'İstifadəçi dilini və test vikisini gör',
+	'group-test-sysop' => 'Test viki idarəçiləri',
+	'grouppage-test-sysop' => '{{ns:project}}:Test viki idarəçisi',
 );
 
 /** Bavarian (Boarisch)
@@ -2928,6 +2936,7 @@ $messages['tl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Cekli829
  * @author Emperyan
  * @author Joseph
  * @author Karduelis
@@ -2952,7 +2961,7 @@ $messages['tr'] = array(
 	'wminc-viewuserlang-user' => 'Kullanıcı adı:',
 	'wminc-viewuserlang-go' => 'Git',
 	'wminc-userdoesnotexist' => '"$1" kullanıcısı mevcut değil.',
-	'wminc-ip' => '" $1 " bir IP adresidir.',
+	'wminc-ip' => '"$1" bir IP adresidir.',
 	'right-viewuserlang' => 'Kullanıcı dilini ve test vikisini gör',
 	'group-test-sysop' => 'Test Viki hizmetlisi',
 	'group-test-sysop-member' => '{{GENDER:$1|test viki hizmetlisi}}',

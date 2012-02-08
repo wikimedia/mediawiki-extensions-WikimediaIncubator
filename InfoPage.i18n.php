@@ -124,6 +124,7 @@ pues [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la páxina] y siguir [[{{Me
  * @author Cekli829
  */
 $messages['az'] = array(
+	'wminc-infopage-enter' => 'Ana Səhifəyə get',
 	'wminc-infopage-title-p' => 'Vikipediya $1',
 	'wminc-infopage-title-b' => 'Vikikitab $1',
 	'wminc-infopage-title-t' => 'Vikilüğət $1',
