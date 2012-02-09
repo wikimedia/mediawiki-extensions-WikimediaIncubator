@@ -540,23 +540,27 @@ class IncubatorTest {
 	}
 
 	/**
-	 * When creating a new info page, help the user by prefilling it
+	 * - Redirect action=edit&redlink=1 to the normal page
+	 * - When creating a new info page, help the user by prefilling it
 	 * @return True
 	 */
 	public static function onEditFormPreloadText( &$text, &$title ) {
 		$pagetitle = $title->getText();
-		$prefix = IncubatorTest::analyzePrefix( $pagetitle, true /* only info page */ );
+		$prefix = IncubatorTest::analyzePrefix( $pagetitle, true /* only info page */, true /* also sister projects */ );
 		if( $prefix['error'] || $title->getNamespace() != NS_MAIN ) {
 			return true;
 		}
-		global $wgRequest, $wgOut;
+		global $wgRequest, $wgOut, $wmincSisterProjects;
 		if ( $wgRequest->getBool( 'redlink' ) ) {
 			# The edit page was reached via a red link.
 			# Redirect to the article page and let them click the edit tab if
 			# they really want to create this info page.
 			$wgOut->redirect( $title->getFullUrl() );
 		}
-		$text = wfMsgNoTrans( 'wminc-infopage-prefill', $prefix['prefix'] );
+		# Prefill when &action=edit, but not for sister projects
+		if( !array_key_exists( $prefix['project'], $wmincSisterProjects ) ) {
+			$text = wfMessage( 'wminc-infopage-prefill', $prefix['prefix'] )->plain();
+		}
 		return true;
 	}
 

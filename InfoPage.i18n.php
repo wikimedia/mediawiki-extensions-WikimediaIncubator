@@ -12,7 +12,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'wminc-infopage-enter' => 'go to the Main Page',
-	'wminc-unknownlang' => '(unknown language with code "$1")',
+	'wminc-unknownlang' => '(unknown language code)',
 	'wminc-logo-wikipedia' => 'Wikipedia-logo-v2-en.svg', # only translate if necessary
 	'wminc-logo-wiktionary' => 'Wiktionary-logo-en.svg', # only translate if necessary
 	'wminc-logo-wikibooks' => 'Wikibooks-logo-en-noslogan.svg', # only translate if necessary

@@ -42,9 +42,14 @@ class InfoPage {
 		$this->mSubStatus = '';
 		$this->mThisLangData = array( 'type' => 'valid' ); # For later code check feature
 		$this->mLangNames = IncubatorTest::getLanguageNames();
-		$this->mLangName = ( isset( $this->mLangNames[$this->mLangCode] ) ?
-			$this->mLangNames[$this->mLangCode] : wfMsg( 'wminc-unknownlang', $this->mLangCode ) );
-		$this->mFormatTitle = wfMsgHtml( 'wminc-infopage-title-' . $this->mProjectCode, $this->mLangName );
+		$this->mLangName = isset( $this->mLangNames[$this->mLangCode] ) ?
+			$this->mLangNames[$this->mLangCode] : null;
+		$titleParam = $this->mLangName ? $this->mLangName : '"' . $this->mLangCode . '"'; # Name, else code
+		$this->mFormatTitle = wfMessage( 'wminc-infopage-title-' . $this->mProjectCode, $titleParam )->escaped();
+		if( !$this->mLangName ) {
+			# Unknown language, add short note to title
+			$this->mFormatTitle .= ' ' . wfMessage( 'wminc-unknownlang', $this->mLangCode )->escaped();
+		}
 		return;
 	}
 
