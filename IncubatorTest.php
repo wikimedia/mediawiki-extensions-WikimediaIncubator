@@ -26,7 +26,7 @@ class IncubatorTest {
 		$prefinsert[$wmincPref . '-project'] = array(
 			'type' => 'select',
 			'options' =>
-				array( wfMsg( 'wminc-testwiki-none' ) => 'none' ) +
+				array( wfMessage( 'wminc-testwiki-none' )->plain() => 'none' ) +
 				array_flip( $wmincProjects ) +
 				array( $wmincProjectSite['name'] => $wmincProjectSite['short'] ),
 			'section' => 'personal/i18n',
@@ -66,7 +66,7 @@ class IncubatorTest {
 			array_key_exists( $alldata[$wmincPref.'-project'], $wmincProjects ) &&
 			!$input ) {
 			return Xml::element( 'span', array( 'class' => 'error' ),
-				wfMsg( 'wminc-prefinfo-error' ) );
+				wfMessage( 'wminc-prefinfo-error' )->plain() );
 		} else {
 			return true;
 		}
@@ -358,7 +358,7 @@ class IncubatorTest {
 	static function checkPrefixMovePermissions( $oldtitle, $newtitle, $user, &$error ) {
 		if( self::shouldWeShowUnprefixedError( $newtitle ) ) {
 			# there should be an error with the new page title
-			$error = wfMsgWikiHtml( 'wminc-error-move-unprefixed' );
+			$error = wfMessage( 'wminc-error-move-unprefixed' )->parse();
 			return false;
 		}
 		return true;
@@ -374,9 +374,9 @@ class IncubatorTest {
 		global $wgUser;
 		if ( $wgUser->isAllowed( 'viewuserlang' ) ) {
 			$user = $nt->getText();
-			$links[] = $wgUser->getSkin()->link(
+			$links[] = Linker::link(
 				SpecialPage::getTitleFor( 'ViewUserLang', $user ),
-				wfMsgHtml( 'wminc-viewuserlang' )
+				wfMessage( 'wminc-viewuserlang' )->escaped()
 			);
 		}
 		return true;
@@ -488,7 +488,7 @@ class IncubatorTest {
 					# Show a link to the existing wiki
 					$showLink = self::makeExternalLinkText( $link, true );
 					$wgOut->addHtml( '<div class="wminc-wiki-exists">' .
-						wfMsgHtml( 'wminc-error-wiki-exists', $showLink ) .
+						wfMessage( 'wminc-error-wiki-exists' )->rawParams( $showLink )->escaped() .
 					'</div>' );
 				}
 			} elseif( array_key_exists( $p, $wmincSisterProjects ) ) {
@@ -497,7 +497,7 @@ class IncubatorTest {
 					( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
 					$showLink = self::makeExternalLinkText( $link, true );
 					$wgOut->addHtml( '<div class="wminc-wiki-sister">' .
-						wfMsgHtml( 'wminc-error-wiki-sister', $showLink ) .
+						wfMessage( 'wminc-error-wiki-sister' )->rawParams( $showLink )->escaped() .
 					'</div>' );
 			} elseif ( self::shouldWeShowUnprefixedError( $title ) ) {
 				# Unprefixed pages
@@ -508,7 +508,7 @@ class IncubatorTest {
 					$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
 					# Suggest to create a prefixed page
 					$wgOut->addHtml( '<div class="wminc-unprefixed-suggest">' .
-						wfMsgWikiHtml( 'wminc-error-unprefixed-suggest', $suggest ) .
+						wfMessage( 'wminc-error-unprefixed-suggest', $suggest )->parseAsBlock() .
 					'</div>' );
 				} else {
 					$wgOut->addWikiMsg( 'wminc-error-unprefixed' );
@@ -535,7 +535,7 @@ class IncubatorTest {
 			$wgOut->addHtml( $infopage->showMissingWiki() );
 		}
 		# Set the page title from "Wx/xyz - Incubator" to "Wikiproject Language - Incubator"
-		$wgOut->setHTMLTitle( wfMsg( 'pagetitle', $infopage->mFormatTitle ) );
+		$wgOut->setHTMLTitle( wfMessage( 'pagetitle', $infopage->mFormatTitle )->text() );
 		return true;
 	}
 
@@ -591,7 +591,7 @@ class IncubatorTest {
 	 */
 	public static function getMainPage( $langCode, $prefix = null ) {
 		# Take the "mainpage" msg in the given language
-		$msg = wfMsgExt( 'mainpage', array( 'language' => $langCode ) );
+		$msg = wfMessage( 'mainpage' )->inLanguage( $langCode )->plain();
 		$mainpage = $prefix !== null ? $prefix . '/' . $msg : $msg;
 		return Title::newFromText( $mainpage );
 	}
@@ -669,14 +669,14 @@ class IncubatorTest {
 		}
 		global $wgLogo;
 		$prefixForPageTitle = str_replace( '/', '-', strtolower( $setLogo['prefix'] ) );
-		$file = wfFindFile( wfMsgForContentNoTrans( 'Incubator-logo-' . $prefixForPageTitle ) );
+		$file = wfFindFile( wfMessage( 'Incubator-logo-' . $prefixForPageTitle )->inContentLanguage()->plain() );
 		if( !$file ) {
 			# if MediaWiki:Incubator-logo-wx-xx(x) doesn't exist,
 			# try a general, default logo for that project
 			global $wmincProjects;
 			$project = $setLogo['project'];
 			$projectForFile = str_replace( ' ', '-', strtolower( $wmincProjects[$project] ) );
-			$imageobj = wfFindFile( wfMsg( 'wminc-logo-' . $projectForFile ) );
+			$imageobj = wfFindFile( wfMessage( 'wminc-logo-' . $projectForFile )->plain() );
 			if( $imageobj ) {
 				$thumb = $imageobj->transform( array( 'width' => 135, 'height' => 135 ) );
 				$wgLogo = $thumb->getUrl();
@@ -748,7 +748,7 @@ class IncubatorTest {
 	 * @return true
 	 */
 	public static function onSpecialSearchPowerBox( &$showSections, $term, $opts ) {
-		$showSections['testwiki'] = Xml::label( wfMsg( 'wminc-testwiki' ), 'testwiki' ) . ' ' .
+		$showSections['testwiki'] = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
 			Xml::input( 'testwiki', 20, self::displayPrefix(), array( 'id' => 'testwiki' ) );
 		return true;
 	}

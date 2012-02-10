@@ -51,9 +51,9 @@ class TestWikiRC {
 		list( $projectvalue, $codevalue ) = self::getValues();
 		$opts->consumeValue( 'rc-testwiki-project' );
 		$opts->consumeValue( 'rc-testwiki-code' );
-		$label = Xml::label( wfMsg( 'wminc-testwiki' ), 'rc-testwiki' );
+		$label = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'rc-testwiki' );
 		$select = new XmlSelect( 'rc-testwiki-project', 'rc-testwiki-project', $projectvalue );
-		$select->addOption( wfMsg( 'wminc-testwiki-none' ), 'none' );
+		$select->addOption( wfMessage( 'wminc-testwiki-none' )->text(), 'none' );
 		foreach( $wmincProjects as $prefix => $name ) {
 			$select->addOption( $name, $prefix );
 		}

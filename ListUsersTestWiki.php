@@ -24,7 +24,7 @@ class ListUsersTestWiki {
 		$testwiki = IncubatorTest::getUrlParam();
 		$project = self::getProjectInput();
 		$input = $project ? $project['name'] : ( $testwiki ? $testwiki['prefix'] : null );
-		$out .= Xml::label( wfMsg( 'wminc-testwiki' ), 'testwiki' ) . ' ' .
+		$out .= Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
 			Xml::input( 'testwiki', 20, $input, array( 'id' => 'testwiki' ) ) . '<br />';
 		return true;
 	}
@@ -38,12 +38,12 @@ class ListUsersTestWiki {
 	static function onSpecialListusersHeader( $pager, &$out ) {
 		$project = self::getProjectInput();
 		if( $project ) {
-			$out .= wfMsgWikiHtml( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' );
+			$out .= wfMessage( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parse();
 		} else {
 			$testwiki = IncubatorTest::getUrlParam();
 			if ( $testwiki ) {
 				$link = Linker::linkKnown( Title::newFromText( $testwiki['prefix'] ) );
-				$out .= wfMsgWikiHtml( 'wminc-listusers-testwiki', $link );
+				$out .= wfMessage( 'wminc-listusers-testwiki', $link )->parse();
 			}
 		}
 		return true;

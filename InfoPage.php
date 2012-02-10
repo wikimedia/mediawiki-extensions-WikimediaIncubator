@@ -60,7 +60,7 @@ class InfoPage {
 	 */
 	public function makeLogo( $project, $clickable = true, $width = 25, $height = '', $url = '', $args = array() ) {
 		$projectForFile = preg_replace('/ /', '-', strtolower( $project ) );
-		$imageobj = wfFindFile( wfMsg( 'wminc-logo-' . $projectForFile ) );
+		$imageobj = wfFindFile( wfMessage( 'wminc-logo-' . $projectForFile )->plain() );
 		$useUrl = $url ? $url : IncubatorTest::getSubdomain( 'www', IncubatorTest::getProject( $project, false, true ) );
 		if ( !$imageobj ) { # image not found
 			if( !$clickable ) {
@@ -120,7 +120,7 @@ class InfoPage {
 	 */
 	public function showWelcome() {
 		return Html::rawElement( 'div', array( 'class' => 'wminc-infopage-welcome' ),
-			wfMsgWikiHtml( 'wminc-infopage-welcome' ) );
+			wfMessage( 'wminc-infopage-welcome' )->parseAsBlock() );
 	}
 
 	/**
@@ -146,21 +146,21 @@ class InfoPage {
 	public function showMissingWiki() {
 		$content = Html::rawElement( 'div',
 			array( 'class' => 'wminc-infopage-status' ),
-			wfMsgWikiHtml( 'wminc-infopage-missingwiki-text',
-			$this->mProjectName, $this->mLangName )
+			wfMessage( 'wminc-infopage-missingwiki-text',
+			$this->mProjectName, $this->mLangName )->parseAsBlock()
 		) .
 		Html::rawElement( 'ul', array( 'class' => 'wminc-infopage-options' ),
 			Html::rawElement( 'li', null,
-				wfMsgExt( $this->mIsSister ? 'wminc-infopage-option-startsister' : 'wminc-infopage-option-startwiki',
-					array( 'parseinline' ), $this->mProjectName, $this->mPortal ) ) .
+				wfMessage( $this->mIsSister ? 'wminc-infopage-option-startsister' : 'wminc-infopage-option-startwiki',
+					$this->mProjectName, $this->mPortal )->parse() ) .
 			Html::rawElement( 'li', null,
-				wfMsgExt( 'wminc-infopage-option-languages-existing',
-					array( 'parseinline' ), $this->mProjectName ) ) .
+				wfMessage( 'wminc-infopage-option-languages-existing',
+					$this->mProjectName )->parse() ) .
 			Html::rawElement( 'li', null,
-				wfMsgExt( 'wminc-infopage-option-sisterprojects-existing',
-					array( 'parseinline' ) ) . $this->listOtherProjects() ) .
+				wfMessage( 'wminc-infopage-option-sisterprojects-existing' )->parse() .
+				$this->listOtherProjects() ) .
 			Html::rawElement( 'li', null,
-				wfMsgExt( 'wminc-infopage-option-multilingual', array( 'parseinline' ) ) .
+				wfMessage( 'wminc-infopage-option-multilingual' )->parse() .
 				$this->listMultilingualProjects() )
 		);
 		return $this->StandardInfoPage( $this->showWelcome(), '', $content );
@@ -179,7 +179,7 @@ class InfoPage {
 		if( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoLink = Linker::link(
 				IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix ),
-				wfMsgNoTrans( 'wminc-infopage-enter' ) );
+				wfMessage( 'wminc-infopage-enter' )->plain() );
 			$gotoMainPage = Html::rawElement( 'span',
 				array( 'class' => 'wminc-infopage-entertest' ),
 				$wgLang->getArrow() . ' ' . ( $this->mIsSister ? $portalLink : $gotoLink ) );
@@ -187,11 +187,11 @@ class InfoPage {
 		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = IncubatorTest::makeExternalLinkText( $subdomain, true );
 		$content = Html::rawElement( 'div', array( 'class' => 'wminc-infopage-status' ),
-			wfMsgWikiHtml( 'wminc-infopage-status-' . $substatus, $subdomainLink, $portalLink ) );
+			wfMessage( 'wminc-infopage-status-' . $substatus )->rawParams( $subdomainLink, $portalLink )->parseAsBlock() );
 		if( $this->mSubStatus != 'approved' && $this->mThisLangData['type'] != 'invalid' ) {
 			$content .= Html::element( 'div',
 				array( 'class' => 'wminc-infopage-contribute' ),
-				wfMsg( 'wminc-infopage-contribute' ) );
+				wfMessage( 'wminc-infopage-contribute' )->plain() );
 		}
 		return $this->StandardInfoPage( '', $gotoMainPage, $content );
 	}
@@ -212,11 +212,11 @@ class InfoPage {
 		}
 		$content = Html::rawElement( 'div',
 			array( 'class' => 'wminc-infopage-status' ),
-			wfMsgWikiHtml( 'wminc-infopage-status-' . $this->mSubStatus, $subdomainLink )
+			wfMessage( 'wminc-infopage-status-' . $this->mSubStatus )->rawParams( $subdomainLink )->parseAsBlock()
 		) . Html::rawElement( 'ul', array( 'class' => 'wminc-infopage-options' ),
-			Html::rawElement( 'li', null, wfMsgWikiHtml( 'wminc-infopage-option-sisterprojects-other' ) .
+			Html::rawElement( 'li', null, wfMessage( 'wminc-infopage-option-sisterprojects-other' )->parseAsBlock() .
 				$this->listOtherProjects() ) .
-			Html::rawElement( 'li', null, wfMsgWikiHtml( 'wminc-infopage-option-multilingual' ) .
+			Html::rawElement( 'li', null, wfMessage( 'wminc-infopage-option-multilingual' )->parseAsBlock() .
 				$this->listMultilingualProjects() )
 		);
 		return $this->StandardInfoPage( $this->showWelcome(), $gotoSubdomain, $content );
