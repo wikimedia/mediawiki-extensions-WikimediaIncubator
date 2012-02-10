@@ -57,10 +57,12 @@ you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[
 );
 
 /** Message documentation (Message documentation)
+ * @author Kghbln
  * @author SPQRobin
  */
 $messages['qqq'] = array(
 	'wminc-infopage-enter' => 'Text of a link to the Main Page of a test wiki at Incubator.',
+	'wminc-unknownlang' => "Added after the title ''Wiki[project] \"code\"'' when no language name is found for the language code.",
 	'wminc-infopage-title-p' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-b' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-t' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
@@ -87,7 +89,8 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
-	'wminc-unknownlang' => '(onbekende taal met kode "$1")',
+	'wminc-infopage-enter' => 'gaan na die Hoofbladsy',
+	'wminc-unknownlang' => '(onbekende taalkode)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikiboeke $1',
 	'wminc-infopage-title-t' => 'Wiktionary $1',
@@ -247,7 +250,7 @@ $messages['cs'] = array(
  */
 $messages['de'] = array(
 	'wminc-infopage-enter' => 'Geh zur Haupseite',
-	'wminc-unknownlang' => '(unbekannte Sprache mit Code „$1“)',
+	'wminc-unknownlang' => '(unbekannter Sprachecode)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikibooks $1',
 	'wminc-infopage-title-t' => 'Wiktionary $1',
@@ -406,13 +409,14 @@ $messages['fa'] = array(
 );
 
 /** Finnish (Suomi)
+ * @author Crt
  * @author Nedergard
  * @author Nike
  * @author Olli
  */
 $messages['fi'] = array(
 	'wminc-infopage-enter' => 'siirry etusivulle',
-	'wminc-unknownlang' => '(tuntematon kieli, jonka koodi on ”$1”)',
+	'wminc-unknownlang' => '(tuntematon kielikoodi)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikikirjasto $1',
 	'wminc-infopage-title-t' => 'Wikisanakirja $1',
@@ -438,12 +442,13 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Crochet.david
+ * @author Gomoko
  * @author Hashar
  * @author Seb35
  */
 $messages['fr'] = array(
 	'wminc-infopage-enter' => 'aller à la page principale',
-	'wminc-unknownlang' => '(langue inconnue avec le code « $1 »)',
+	'wminc-unknownlang' => '(code de langue inconnu)',
 	'wminc-infopage-title-p' => 'Wikipédia $1',
 	'wminc-infopage-title-b' => 'Wikibooks $1',
 	'wminc-infopage-title-t' => 'Wiktionnaire $1',
@@ -499,7 +504,7 @@ vos pouede [{{fullurl:{{FULLPAGENAME}}|action=edit}} fâre la pâge] et pués si
  */
 $messages['gl'] = array(
 	'wminc-infopage-enter' => 'ir á páxina principal',
-	'wminc-unknownlang' => '(lingua descoñecida co código "$1")',
+	'wminc-unknownlang' => '(código de lingua descoñecido)',
 	'wminc-infopage-title-p' => 'Wikipedia en $1',
 	'wminc-infopage-title-b' => 'Wikibooks en $1',
 	'wminc-infopage-title-t' => 'Wiktionary en $1',
@@ -581,7 +586,7 @@ $messages['hi'] = array(
  */
 $messages['hsb'] = array(
 	'wminc-infopage-enter' => 'dźi k hłownej stronje',
-	'wminc-unknownlang' => '(njeznata rěč z kodom "$1")',
+	'wminc-unknownlang' => '(njeznaty rěčny kod)',
 	'wminc-infopage-title-p' => 'Wikipedija $1',
 	'wminc-infopage-title-b' => 'Wikiknihi $1',
 	'wminc-infopage-title-t' => 'Wikisłownik $1',
@@ -612,7 +617,7 @@ móžeš [{{fullurl:{{FULLPAGENAME}}|action=edit}} stronu wutworić] a po [[{{Me
  */
 $messages['hu'] = array(
 	'wminc-infopage-enter' => 'Tovább',
-	'wminc-unknownlang' => '(ismeretlen nyelvkód „$1”)',
+	'wminc-unknownlang' => '(ismeretlen nyelvkód)',
 	'wminc-infopage-title-p' => '$1 Wikipédia',
 	'wminc-infopage-title-b' => '$1 Wikikönyvek',
 	'wminc-infopage-title-t' => '$1 Wikiszótár',
@@ -642,7 +647,7 @@ $messages['hu'] = array(
  */
 $messages['ia'] = array(
 	'wminc-infopage-enter' => 'vader al pagina principal',
-	'wminc-unknownlang' => '(lingua incognite con codice "$1")',
+	'wminc-unknownlang' => '(codice de lingua incognite)',
 	'wminc-infopage-title-p' => 'Wikipedia in $1',
 	'wminc-infopage-title-b' => 'Wikibooks in $1',
 	'wminc-infopage-title-t' => 'Wiktionary in $1',
@@ -673,7 +678,7 @@ tu pote [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear le pagina] e sequer [[{{
  */
 $messages['it'] = array(
 	'wminc-infopage-enter' => 'vai alla pagina principale',
-	'wminc-unknownlang' => '(lingua ignota, codice "$1")',
+	'wminc-unknownlang' => '(codice lingua sconosciuto)',
 	'wminc-infopage-title-p' => 'Wikipedia in $1',
 	'wminc-infopage-title-b' => 'Wikibooks in $1',
 	'wminc-infopage-title-t' => 'Wiktionary in $1',
@@ -783,7 +788,7 @@ $messages['lv'] = array(
  */
 $messages['mk'] = array(
 	'wminc-infopage-enter' => 'оди на Главна страница',
-	'wminc-unknownlang' => '(непознат јазик со код „$1“)',
+	'wminc-unknownlang' => '(непознат јазичен код)',
 	'wminc-infopage-title-p' => 'Википедија $1',
 	'wminc-infopage-title-b' => 'Викикниги $1',
 	'wminc-infopage-title-t' => 'Викиречник $1',
@@ -873,7 +878,7 @@ anda boleh [{{fullurl:{{FULLPAGENAME}}|action=edit}} mencipta lamannya] dan meng
  */
 $messages['nl'] = array(
 	'wminc-infopage-enter' => 'ga naar de Hoofdpagina',
-	'wminc-unknownlang' => '(onbekende taal met code "$1")',
+	'wminc-unknownlang' => '(onbekende taalcode)',
 	'wminc-infopage-title-p' => 'Wikipedia in het $1',
 	'wminc-infopage-title-b' => 'Wikibooks in het $1',
 	'wminc-infopage-title-t' => 'Wikiwoordenboek in het $1',
@@ -907,12 +912,13 @@ $messages['or'] = array(
 
 /** Polish (Polski)
  * @author Bartek50003
+ * @author BeginaFelicysym
  * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
 	'wminc-infopage-enter' => 'przejdź do strony głównej',
-	'wminc-unknownlang' => '(nieznany język o kodzie „$1“)',
+	'wminc-unknownlang' => '(nieznany kod języka)',
 	'wminc-infopage-welcome' => 'Witaj w Inkubatorze Wikimedia, projekcie Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|o inkubatorze]])',
 	'wminc-infopage-createmainpage' => 'Wpisz „Strona główna“ w tym języku',
 	'wminc-infopage-contribute' => 'Jeśli znasz ten język zachęcamy Cię do wzięcia udziału w tworzeniu tej wiki!',
@@ -1020,7 +1026,7 @@ $messages['pt-br'] = array(
  */
 $messages['ro'] = array(
 	'wminc-infopage-enter' => 'mergi la Pagina principală',
-	'wminc-unknownlang' => '(limbă necunoscută asociată codului „$1”)',
+	'wminc-unknownlang' => '(cod de limbă necunoscut)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikimanuale $1',
 	'wminc-infopage-title-t' => 'Wikționar $1',
