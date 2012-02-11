@@ -728,9 +728,10 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'wminc-infopage-enter' => "Gitt op d'Haaptsäit",
-	'wminc-unknownlang' => '(onbekannte Sprooch mam Code "$1")',
+	'wminc-unknownlang' => '(onbekannte Sprooch-Code)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionnaire $1',
 	'wminc-infopage-missingwiki-text' => '$1 gëtt et an dëser Sprooch nach net',
 	'wminc-infopage-option-startsister' => 'Wann Dir dës Wiki ufänke wëllt, da gitt w.e.g. op <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Dir kënnt no [//www.$1.org Sproochversiounen, déi et vun $1 gëtt, sichen].',
@@ -847,7 +848,7 @@ $messages['ml'] = array(
  */
 $messages['ms'] = array(
 	'wminc-infopage-enter' => 'pergi ke Laman Utama',
-	'wminc-unknownlang' => '(bahasa yang tidak diketahui dengan kod "$1")',
+	'wminc-unknownlang' => '(kod bahasa tidak dikenali)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikibuku $1',
 	'wminc-infopage-title-t' => 'Wikikamus $1',
@@ -1387,10 +1388,11 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Anakmalaysia
+ * @author Oapbtommy
  */
 $messages['zh-hant'] = array(
 	'wminc-infopage-enter' => '轉到主頁',
-	'wminc-unknownlang' => '（具有“$1”代碼的未明語言）',
+	'wminc-unknownlang' => '（未知的語言代碼）',
 	'wminc-infopage-title-p' => '$1維基百科',
 	'wminc-infopage-title-b' => '$1維基教科書',
 	'wminc-infopage-title-t' => '$1維基詞典',
