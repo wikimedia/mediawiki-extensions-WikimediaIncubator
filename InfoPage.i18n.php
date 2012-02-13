@@ -105,7 +105,14 @@ $messages['af'] = array(
  */
 $messages['ast'] = array(
 	'wminc-infopage-enter' => 'dir a la páxina principal',
-	'wminc-unknownlang' => '(llingua desconocida con códigu "$1")',
+	'wminc-unknownlang' => '(códigu de llingua desconocíu)',
+	'wminc-infopage-title-p' => 'Uiquipedia en $1',
+	'wminc-infopage-title-b' => 'Uiquillibros en $1',
+	'wminc-infopage-title-t' => 'Uiccionariu en $1',
+	'wminc-infopage-title-q' => 'Uiquicites en $1',
+	'wminc-infopage-title-n' => 'Wikinews en $1',
+	'wminc-infopage-title-s' => 'Wikisource en $1',
+	'wminc-infopage-title-v' => 'Wikiversity en $1',
 	'wminc-infopage-welcome' => 'Bienveníos a Wikimedia Incubator, un proyeutu de la Fundación Wikimedia ([[{{MediaWiki:Aboutpage}}|Tocante a...]])',
 	'wminc-infopage-missingwiki-text' => 'Inda nun esiste $1 nesta llingua.',
 	'wminc-infopage-option-startwiki' => 'Si quies principiar esta wiki,
@@ -179,7 +186,7 @@ kåst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} dé Seiten erstön] und noch 
  */
 $messages['be-tarask'] = array(
 	'wminc-infopage-enter' => 'перайсьці на Галоўную старонку',
-	'wminc-unknownlang' => '(невядомая мова з кодам «$1»)',
+	'wminc-unknownlang' => '(невядомы код мовы)',
 	'wminc-infopage-title-p' => 'Вікіпэдыя $1',
 	'wminc-infopage-title-b' => 'ВікіКнігі $1',
 	'wminc-infopage-title-t' => 'ВікіСлоўнік $1',
@@ -210,7 +217,7 @@ $messages['be-tarask'] = array(
  */
 $messages['br'] = array(
 	'wminc-infopage-enter' => "mont d'ar Bajenn Degemer",
-	'wminc-unknownlang' => '(yezh dianav dezhi ar c\'hod "$1")',
+	'wminc-unknownlang' => '(kod yezh dianav)',
 	'wminc-infopage-title-p' => 'Wikipedia e $1',
 	'wminc-infopage-title-b' => 'Wikilevrioù e $1',
 	'wminc-infopage-title-t' => 'Wikeriadur e $1',
