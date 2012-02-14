@@ -1157,7 +1157,7 @@ $messages['si'] = array(
  */
 $messages['sl'] = array(
 	'wminc-infopage-enter' => 'pojdi na glavno stran',
-	'wminc-unknownlang' => '(neznan jezik s kodo »$1«)',
+	'wminc-unknownlang' => '(neznana koda jezika)',
 	'wminc-infopage-title-p' => 'Wikipedija $1',
 	'wminc-infopage-title-b' => 'Wikiknjige $1',
 	'wminc-infopage-title-t' => 'Wikislovar $1',
@@ -1194,7 +1194,7 @@ $messages['sq'] = array(
  */
 $messages['sr-ec'] = array(
 	'wminc-infopage-enter' => 'иди на Главну страну',
-	'wminc-unknownlang' => '(непознат језик с кодом „$1“)',
+	'wminc-unknownlang' => '(непознат језички код)',
 	'wminc-infopage-welcome' => 'Добро дошли на Викимедијин Инкубатор — пројекат Задужбине Викимедија ([[{{MediaWiki:Aboutpage}}|О пројекту]])',
 	'wminc-infopage-missingwiki-text' => 'На овом језику још не постоји $1.',
 	'wminc-infopage-option-startwiki' => 'Ако желите да започнете овај вики,
