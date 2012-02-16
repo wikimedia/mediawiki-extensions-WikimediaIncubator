@@ -554,7 +554,7 @@ $messages['grc'] = array(
  */
 $messages['he'] = array(
 	'wminc-infopage-enter' => 'אל הדף הראשי',
-	'wminc-unknownlang' => '(שפה לא ידועה עם הקוד "$1")',
+	'wminc-unknownlang' => '(קוד שפה לא ידוע)',
 	'wminc-infopage-title-p' => 'ויקיפדיה ב$1',
 	'wminc-infopage-title-b' => 'ויקיספר ב$1',
 	'wminc-infopage-title-t' => 'ויקימילון ב$1',
@@ -1123,11 +1123,12 @@ $messages['sa'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
 	'wminc-infopage-enter' => 'මුල් පිටුව වෙත යන්න',
-	'wminc-unknownlang' => '("$1" කේතය සමඟ හදුනා නොගත් භාෂාව)',
+	'wminc-unknownlang' => '"$1" කේතය යොදා ඇති හදුනා නොගත් භාෂාව',
 	'wminc-infopage-title-p' => 'විකිපීඩියා $1',
 	'wminc-infopage-title-b' => 'විකිපොත් $1',
 	'wminc-infopage-title-t' => 'විකිෂනරි $1',
