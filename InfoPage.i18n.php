@@ -332,6 +332,7 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Diotime
  * @author Drini
  * @author Fitoschido
@@ -339,7 +340,7 @@ $messages['eo'] = array(
  */
 $messages['es'] = array(
 	'wminc-infopage-enter' => 'ir a la página principal',
-	'wminc-unknownlang' => '(idioma desconocido con código «$1»)',
+	'wminc-unknownlang' => '(código de idioma desconocido)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikilibros $1',
 	'wminc-infopage-title-t' => 'Wikcionario $1',
@@ -369,7 +370,7 @@ puedes [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la página] y seguir [[{{
  */
 $messages['et'] = array(
 	'wminc-infopage-enter' => 'mine esilehele',
-	'wminc-unknownlang' => '(tundmatu keel koodiga "$1")',
+	'wminc-unknownlang' => '(tundmatu keelekood)',
 	'wminc-infopage-title-p' => '$1 Vikipeedia',
 	'wminc-infopage-title-b' => '$1 Vikiõpikud',
 	'wminc-infopage-title-t' => '$1 Vikisõnastik',
@@ -1051,7 +1052,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'wminc-infopage-enter' => "scè ad 'a Pagene Prengepále",
-	'wminc-unknownlang' => '(lènga scanosciute c\'u codece "$1")',
+	'wminc-unknownlang' => "(codece d'a lènghe scanosciute)",
 	'wminc-infopage-title-p' => 'Uicchipèdie $1',
 	'wminc-infopage-title-b' => 'Uicchibooks $1',
 	'wminc-infopage-title-t' => 'Uicchitionary $1',
