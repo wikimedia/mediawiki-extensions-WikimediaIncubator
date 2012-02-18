@@ -67,9 +67,8 @@ class IncubatorTest {
 			!$input ) {
 			return Xml::element( 'span', array( 'class' => 'error' ),
 				wfMessage( 'wminc-prefinfo-error' )->plain() );
-		} else {
-			return true;
 		}
+		return true;
 	}
 
 	/**
@@ -269,11 +268,8 @@ class IncubatorTest {
 	}
 
 	static function magicWordValue( &$parser, &$cache, &$magicWordId, &$ret ) {
-		if( !self::displayPrefix() ) {
-			$ret = 'none';
-		} else {
-			$ret = self::displayPrefix();
-		}
+		$p = self::displayPrefix();
+		$ret = $p ? $p : 'none';
 		return true;
 	}
 
@@ -331,7 +327,7 @@ class IncubatorTest {
 			return $action != 'edit';
 		}
 
-		if( !self::shouldWeShowUnprefixedError( $title ) || $action != 'create' ) {
+		if( !self::shouldWeShowUnprefixedError( $title ) || $action != 'edit' || $title->exists() ) {
 			# only check if needed & if on page creation
 			return true;
 		} elseif( $prefixdata['error'] == 'invalidlangcode' ) {
@@ -374,22 +370,12 @@ class IncubatorTest {
 		global $wgUser;
 		if ( $wgUser->isAllowed( 'viewuserlang' ) ) {
 			$user = $nt->getText();
-			$links[] = Linker::link(
+			$links[] = Linker::linkKnown(
 				SpecialPage::getTitleFor( 'ViewUserLang', $user ),
 				wfMessage( 'wminc-viewuserlang' )->escaped()
 			);
 		}
 		return true;
-	}
-
-	/**
-	 * This loads language names. Also from CLDR if that extension is found.
-	 * @return Array with language names
-	 */
-	static public function getLanguageNames( $code = null ) {
-		global $wgLang;
-		$langcode = ( $code ? $code : $wgLang->getCode() );
-		return Language::getTranslatedLanguageNames( $langcode );
 	}
 
 	/**

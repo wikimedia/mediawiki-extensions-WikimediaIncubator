@@ -25,7 +25,7 @@ class InfoPage {
 	 * @param $prefixdata
 	 */
 	public function __construct( $title, $prefixdata ) {
-		global $wmincProjects, $wmincSisterProjects;
+		global $wmincProjects, $wmincSisterProjects, $wgLang;
 		$this->mTitle = $title;
 		$this->mPrefix = $prefixdata['prefix'];
 		$this->mLangCode = $prefixdata['lang'];
@@ -41,7 +41,7 @@ class InfoPage {
 		$this->mDBStatus = '';
 		$this->mSubStatus = '';
 		$this->mThisLangData = array( 'type' => 'valid' ); # For later code check feature
-		$this->mLangNames = IncubatorTest::getLanguageNames();
+		$this->mLangNames = Language::getTranslatedLanguageNames( $wgLang->getCode() );
 		$this->mLangName = isset( $this->mLangNames[$this->mLangCode] ) ?
 			$this->mLangNames[$this->mLangCode] : null;
 		$titleParam = $this->mLangName ? $this->mLangName : '"' . $this->mLangCode . '"'; # Name, else code
