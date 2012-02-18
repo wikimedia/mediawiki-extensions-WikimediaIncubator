@@ -396,11 +396,18 @@ saad [{{fullurl:{{FULLPAGENAME}}|action=edit}} lehekülje luua] ja järgida [[{{
 );
 
 /** Persian (فارسی)
+ * @author Huji
  * @author Mjbmr
  */
 $messages['fa'] = array(
 	'wminc-infopage-enter' => 'رفتن به صفحهٔ اصلی',
-	'wminc-unknownlang' => '(کد زبان ناشناخته: «$1»)',
+	'wminc-unknownlang' => '(کد زبان ناشناخته)',
+	'wminc-infopage-title-b' => 'ویکی‌نسک $1',
+	'wminc-infopage-title-t' => 'ویکی‌واژه $1',
+	'wminc-infopage-title-q' => 'ویکی‌گفتاورد $1',
+	'wminc-infopage-title-n' => 'ویکی‌خبر $1',
+	'wminc-infopage-title-s' => 'ویکی‌نبشته $1',
+	'wminc-infopage-title-v' => 'ویکی‌دانشگاه $1',
 	'wminc-infopage-welcome' => 'به ویکی‌رشد، پروژه‌ای از بنیاد ویکی‌مدیا خوش‌آمدید ([[{{MediaWiki:Aboutpage}}|درباره]])',
 	'wminc-infopage-missingwiki-text' => 'یک $1 از این زبان، هنوز وجود ندارد.',
 	'wminc-infopage-option-startwiki' => 'اگر شما می‌خواهید این ویکی را شروع کنید،
