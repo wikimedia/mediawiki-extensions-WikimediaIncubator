@@ -29,10 +29,12 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		$languageQuery = $this->getRequest()->getText( 'searchlanguage', isset( $subpage[1] ) ? $subpage[1] : '' );
 
 		# Show form
+		$uselang = $this->getRequest()->getVal( 'uselang' );
 		$this->getOutput()->addHTML(
 			Xml::fieldset( wfMessage( 'wminc-searchwiki' )->plain(),
 			Html::rawElement( 'form', array( 'method' => 'get', 'action' => $wgScript, 'id' => 'wminc-searchwiki-form' ),
 				Html::hidden( 'title', SpecialPage::getTitleFor( 'SearchWiki' ) ) .
+				( $uselang ? Html::hidden( 'uselang', $uselang ) : '' ) .
 				'<p>' . Xml::label( wfMessage( 'wminc-searchwiki-selectproject' )->text(), 'wminc-searchproject' ) .
 					' ' . $this->makeProjectSelector( $projectQuery ) . '</p>' .
 				'<p>' . Xml::inputLabel( wfMessage( 'wminc-searchwiki-inputlanguage' )->text(), 'searchlanguage',
@@ -91,7 +93,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		}
 
 		if( count( $results ) === 1 ) {
-			self::gotoWiki( $matchProject, key( $results ) );
+			$this->gotoWiki( $matchProject, key( $results ) );
 		} elseif( count( $results ) < 1 ) {
 			$noresult = Html::element( 'p', array( 'class' => 'error' ), wfMessage( 'wminc-searchwiki-noresults' )->text() );
 			return $this->getOutput()->addHTML( $noresult );
@@ -108,8 +110,9 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	protected function goToWiki( $project, $lang ) {
 		$lang = self::getRootCode( $lang );
 		$status = IncubatorTest::getDBState( array( 'project' => $project, 'lang' => $lang, 'error' => null ) );
+		$infopageParams = array( 'goto' => 'mainpage', 'uselang' => $this->getRequest()->getVal( 'uselang' ) );
 		$url = $status == 'existing' ? IncubatorTest::getSubdomain( $lang, $project ) :
-			Title::newFromText( 'W' . $project . '/' . $lang )->getFullURL( array( 'goto' => 'mainpage' ) );
+			Title::newFromText( 'W' . $project . '/' . $lang )->getFullURL( $infopageParams );
 		$this->getOutput()->redirect( $url );
 	}
 
