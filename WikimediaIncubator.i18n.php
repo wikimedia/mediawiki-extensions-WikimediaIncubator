@@ -62,6 +62,21 @@ $messages['en'] = array(
 	# Search
 	'wminc-search-nocreate-nopref' => 'You searched for "$1". Please set your [[Special:Preferences|test wiki preference]] so we can tell you which page you can create!',
 	'wminc-search-nocreate-suggest' => 'You searched for "$1". You can create a page in your wiki at <b>[[$2]]</b>!',
+
+	# SearchWiki
+	'wminc-searchwiki' => 'Search wiki',
+	'wminc-searchwiki-noproject' => 'You did not select a project.',
+	'wminc-searchwiki-noresults' => 'No results. You can search by language codes, native names and names in your interface language or English.',
+	'wminc-searchwiki-selectproject' => 'Search for:',
+	'wminc-searchwiki-inputlanguage' => 'In language:',
+	'wminc-searchwiki-go' => 'Go',
+	'wminc-searchwiki-multiplematches' => 'Your search matches the following languages:',
+	'wminc-searchwiki-match-langcode' => '"$1" is an ISO 639 language code for $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 is the name of a language.',
+	'wminc-searchwiki-match-englishname' => '"$1" is the name for $2 in English.',
+	'wminc-searchwiki-match-nativename' => '"$1" is the name for $2 in that language.',
+	'wminc-searchwiki-goto' => '<b>$1</b> ($2)',
+	'wminc-searchwiki-gotoinfopage' => 'info page',
 );
 
 /** Message documentation (Message documentation)
@@ -122,6 +137,18 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-listusers-testwiki' => 'Used on [[Special:ListUsers]]. $1 is either "Incubator" or a link to pages like "Wx/xyz".',
 	'wminc-search-nocreate-nopref' => 'Used on Special:Search. $1 is the search term.',
 	'wminc-search-nocreate-suggest' => 'Used on Special:Search. $1 is the search term, and $2 is the prefixed form of $1.',
+	'wminc-searchwiki' => 'Title of Special:SearchWiki, to search for a wiki in a specific language',
+	'wminc-searchwiki-noproject' => 'Error message',
+	'wminc-searchwiki-noresults' => 'Error message',
+	'wminc-searchwiki-selectproject' => 'Followed by a dropdown menu with projects (Wikipedia, Wiktionary, ...)',
+	'wminc-searchwiki-inputlanguage' => 'Followed by an input box where you can enter a language name or code',
+	'wminc-searchwiki-go' => 'Submit button',
+	'wminc-searchwiki-multiplematches' => 'Followed by a list of matches when there are multiple matches',
+	'wminc-searchwiki-match-langcode' => '$1 is the input; $2 is its language name in the user interface language',
+	'wminc-searchwiki-match-userlangname' => '$1 is the input; $2 is its language name in the user interface language',
+	'wminc-searchwiki-match-englishname' => '$1 is the input; $2 is its language name in the user interface language',
+	'wminc-searchwiki-match-nativename' => '$1 is the input; $2 is its language name in the user interface language',
+	'wminc-searchwiki-gotoinfopage' => 'Link text to go to the Wx/xyz info page',
 );
 
 /** адыгэбзэ (адыгэбзэ)

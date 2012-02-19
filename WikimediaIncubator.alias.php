@@ -13,4 +13,5 @@ $specialPageAliases['en'] = array(
 	'ViewUserLang' => array( 'ViewUserLang' ),
 	'MyMainPage' => array( 'MyMainPage' ),
 	'RandomByTest' => array( 'RandomByTest' ),
+	'SearchWiki' => array( 'SearchWiki' ),
 );
