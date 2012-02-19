@@ -137,7 +137,7 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-listusers-testwiki' => 'Used on [[Special:ListUsers]]. $1 is either "Incubator" or a link to pages like "Wx/xyz".',
 	'wminc-search-nocreate-nopref' => 'Used on Special:Search. $1 is the search term.',
 	'wminc-search-nocreate-suggest' => 'Used on Special:Search. $1 is the search term, and $2 is the prefixed form of $1.',
-	'wminc-searchwiki' => 'Title of Special:SearchWiki, to search for a wiki in a specific language',
+	'wminc-searchwiki' => 'Title of Special:SearchWiki, to search *for* a wiki in a specific language (and *not* to search for pages!)',
 	'wminc-searchwiki-noproject' => 'Error message',
 	'wminc-searchwiki-noresults' => 'Error message',
 	'wminc-searchwiki-selectproject' => 'Followed by a dropdown menu with projects (Wikipedia, Wiktionary, ...)',
@@ -148,6 +148,7 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-searchwiki-match-userlangname' => '$1 is the input; $2 is its language name in the user interface language',
 	'wminc-searchwiki-match-englishname' => '$1 is the input; $2 is its language name in the user interface language',
 	'wminc-searchwiki-match-nativename' => '$1 is the input; $2 is its language name in the user interface language',
+	'wminc-searchwiki-goto' => '{{optional}}',
 	'wminc-searchwiki-gotoinfopage' => 'Link text to go to the Wx/xyz info page',
 );
 
@@ -670,6 +671,18 @@ $messages['de'] = array(
 	'wminc-listusers-testwiki' => 'Du siehst Benutzer, die ihre Testwikieinstellung auf $1 eingestellt haben.',
 	'wminc-search-nocreate-nopref' => 'Du suchtest nach „$1“. Bitte lege die [[Special:Preferences|Einstellungen für Dein Testwiki]] fest, damit wir dir mitteilen können, welche Seite du erstellen kannst.',
 	'wminc-search-nocreate-suggest' => 'Du suchtest nach „$1“. Du kannst in Deinem Testwiki eine Seite unter <b>[[$2]]</b> erstellen.',
+	'wminc-searchwiki' => 'Nach einem Wiki suchen',
+	'wminc-searchwiki-noproject' => 'Du hast kein Projekt ausgewählt.',
+	'wminc-searchwiki-noresults' => 'Keine Ergebnisse. Du kannst nach Sprachcodes, muttersprachlichen Bezeichnungen sowie Bezeichnungen in deiner Sprache oder in Englisch suchen.',
+	'wminc-searchwiki-selectproject' => 'Suchen nach:',
+	'wminc-searchwiki-inputlanguage' => 'In der Sprache:',
+	'wminc-searchwiki-go' => 'Los',
+	'wminc-searchwiki-multiplematches' => 'Die Suche ergab Treffer bei den folgenden Sprachen:',
+	'wminc-searchwiki-match-langcode' => '„$1“ ist ein ISO-639-Sprachcode für $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 ist die Bezeichnung einer Sprache.',
+	'wminc-searchwiki-match-englishname' => '„$1“ ist die Bezeichnung für $2 in englischer Sprache.',
+	'wminc-searchwiki-match-nativename' => '„$1“ ist die Bezeichnung für $2 in dieser Sprache.',
+	'wminc-searchwiki-gotoinfopage' => 'Infoseite',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -688,6 +701,8 @@ $messages['de-formal'] = array(
 	'wminc-listusers-testwiki' => 'Sie sehen Benutzer, die ihre Testwikieinstellung auf $1 eingestellt haben.',
 	'wminc-search-nocreate-nopref' => 'Sie suchten nach „$1“. Bitte legen Sie die [[Special:Preferences|Einstellungen für Ihr Testwiki]] fest, damit wir Ihnen mitteilen können, welche Seite Sie erstellen können.',
 	'wminc-search-nocreate-suggest' => 'Sie suchten nach „$1“. Sie können in Ihrem Testwiki eine Seite unter <b>[[$2]]</b> erstellen.',
+	'wminc-searchwiki-noproject' => 'Sie haben kein Projekt ausgewählt.',
+	'wminc-searchwiki-noresults' => 'Keine Ergebnisse. Sie können nach Sprachcodes, muttersprachlichen Bezeichnungen sowie Bezeichnungen in Ihrer Sprache oder in Englisch suchen.',
 );
 
 /** Zazaki (Zazaki)
@@ -1125,6 +1140,18 @@ $messages['gl'] = array(
 	'wminc-listusers-testwiki' => 'Está ollando os usuarios que estableceron as súas preferencias do wiki de probas en $1.',
 	'wminc-search-nocreate-nopref' => 'Fixo unha procura de "$1". Defina as súas [[Special:Preferences|preferencias do wiki de probas]] de xeito que poidamos dicirlle a páxina que pode crear!',
 	'wminc-search-nocreate-suggest' => 'Fixo unha procura de "$1". Pode crear unha páxina no wiki en "<b>[[$2]]</b>"!',
+	'wminc-searchwiki' => 'Procurar un wiki',
+	'wminc-searchwiki-noproject' => 'Non seleccionou proxecto ningún.',
+	'wminc-searchwiki-noresults' => 'Non houbo resultados. Pode procurar segundo códigos de lingua, nomes nativos e nomes na lingua da interface ou en inglés.',
+	'wminc-searchwiki-selectproject' => 'Buscar:',
+	'wminc-searchwiki-inputlanguage' => 'En lingua:',
+	'wminc-searchwiki-go' => 'Ir',
+	'wminc-searchwiki-multiplematches' => 'A procura coincide coas seguintes linguas:',
+	'wminc-searchwiki-match-langcode' => '"$1" é o código de lingua ISO 639 de $2.',
+	'wminc-searchwiki-match-userlangname' => '"$1" é o nome dunha lingua.',
+	'wminc-searchwiki-match-englishname' => '"$1" é o nome de "$2" en inglés.',
+	'wminc-searchwiki-match-nativename' => '"$1" é o nome de "$2" nesa lingua.',
+	'wminc-searchwiki-gotoinfopage' => 'páxina de información',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -1237,6 +1264,18 @@ $messages['he'] = array(
 	'wminc-listusers-testwiki' => 'זוהי רשימת משתמשים שבחרו ב־$1 בתור ויקי הבדיקה שלהם.',
 	'wminc-search-nocreate-nopref' => 'חיפשתם "$1". אנא הגדירו את [[Special:Preferences|העדפות ויקי הבדיקות שלכם]] כדי שנוכל לומר לכם איזה דף אתם יכולים ליצור!',
 	'wminc-search-nocreate-suggest' => 'חיפשתם "$1". אפשר ליצור דף בוויקי שלכם ב־<b>[[$2]]</b>!',
+	'wminc-searchwiki' => 'חיפוש ויקי',
+	'wminc-searchwiki-noproject' => 'לא בחרת מיזם.',
+	'wminc-searchwiki-noresults' => 'אין תוצאות. אפשר לחפש לפי קודי שפה, שמות ילידיים ושמות בשפת הממשק שלך או באנגלית.',
+	'wminc-searchwiki-selectproject' => 'לחפש:',
+	'wminc-searchwiki-inputlanguage' => 'בשפה:',
+	'wminc-searchwiki-go' => 'קדימה',
+	'wminc-searchwiki-multiplematches' => 'החיפוש שלך תואם לשפות הבאות:',
+	'wminc-searchwiki-match-langcode' => '"$1" זה קוד שפה לפי ISO 639 עבור $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 זה שם של שפה.',
+	'wminc-searchwiki-match-englishname' => '"$1" זה השם של $2 באנגלית.',
+	'wminc-searchwiki-match-nativename' => '"$1" זה השם של $2 באותה השפה.',
+	'wminc-searchwiki-gotoinfopage' => 'דף מידע',
 );
 
 /** Hindi (हिन्दी)
@@ -1358,6 +1397,18 @@ $messages['hsb'] = array(
 	'wminc-listusers-testwiki' => 'Widźiš wužiwarjow, kotřiž su swoje nastajenje testoweho wikija na $1 nastajili.',
 	'wminc-search-nocreate-nopref' => 'Sy za "$1" pytał. Prošu staj swoje [[Special:Preferences|nastajenje testoweho wikija]], zo bychmy ći zdźělili, kotru stronu móžeš wutworić!',
 	'wminc-search-nocreate-suggest' => 'Sy za "$1" pytał. Móžeš stronu w swojim wikiju pod <b>[[$2]]</b> wutworić!',
+	'wminc-searchwiki' => 'Za wikipytać',
+	'wminc-searchwiki-noproject' => 'Njejsy projekt wubrał.',
+	'wminc-searchwiki-noresults' => 'Žane wuslědki. Móžeš po rěčnych kodach, maćernorěčnych mjenach a mjenach w rěči swojeho wužiwarskeho powjercha abo w jendźelšćinje pytać.',
+	'wminc-searchwiki-selectproject' => 'Pytać za:',
+	'wminc-searchwiki-inputlanguage' => 'W rěči:',
+	'wminc-searchwiki-go' => 'Pytać',
+	'wminc-searchwiki-multiplematches' => 'Wuslědki pytanja wotpowěduja slědowacym rěčam:',
+	'wminc-searchwiki-match-langcode' => '"$1" je rěčny kod ISO 639 za $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 je mjeno rěče.',
+	'wminc-searchwiki-match-englishname' => '"$1" je mjeno za $2 jendźelsce.',
+	'wminc-searchwiki-match-nativename' => '"$1" je mjeno za $2 w tej rěči.',
+	'wminc-searchwiki-gotoinfopage' => 'Infostrona',
 );
 
 /** Hungarian (Magyar)
@@ -1432,6 +1483,18 @@ $messages['ia'] = array(
 	'wminc-listusers-testwiki' => 'Tu vide le usatores que ha mittite lor preferentias de wiki de test a $1.',
 	'wminc-search-nocreate-nopref' => 'Tu cercava "$1". Per favor specifica tu [[Special:Preferences|preferentias de wiki de test]] de sorta que nos pote dicer te le pagina que tu pote crear!',
 	'wminc-search-nocreate-suggest' => 'Tu cercava "$1". Tu pote crear un pagina in tu wiki a <b>[[$2]]</b>!',
+	'wminc-searchwiki' => 'Cercar un wiki',
+	'wminc-searchwiki-noproject' => 'Tu non seligeva un projecto.',
+	'wminc-searchwiki-noresults' => 'Nulle resultato. Es possibile cercar per codice de lingua, nomine native, e nomine in interlingua o in anglese.',
+	'wminc-searchwiki-selectproject' => 'Cercar:',
+	'wminc-searchwiki-inputlanguage' => 'In lingua:',
+	'wminc-searchwiki-go' => 'Va',
+	'wminc-searchwiki-multiplematches' => 'Le recerca corresponde al sequente linguas:',
+	'wminc-searchwiki-match-langcode' => '"$1" es un codice de lingua ISO 639 pro $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 es le nomine de un lingua.',
+	'wminc-searchwiki-match-englishname' => '"$1" es le nomine de $2 in anglese.',
+	'wminc-searchwiki-match-nativename' => '"$1" es le nomine de $2 in iste lingua.',
+	'wminc-searchwiki-gotoinfopage' => 'information',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1859,6 +1922,18 @@ $messages['mk'] = array(
 	'wminc-listusers-testwiki' => 'Гледате корисници кои пробното вики го наместиле на $1.',
 	'wminc-search-nocreate-nopref' => 'Го баравте поимот „$1“. Задајте го [[Special:Preferences|нагодувањето на пробното вики]] за да ви соопштиме која страница можете да ја создадете!',
 	'wminc-search-nocreate-suggest' => 'Го баравте поимот „$1“. Можете да создадете страница во вашето вики на <b>[[$2]]</b>!',
+	'wminc-searchwiki' => 'Пребарај вики',
+	'wminc-searchwiki-noproject' => 'Не избравте проект.',
+	'wminc-searchwiki-noresults' => 'Нема резултати. Можете да пребарувате по јазични кодови, изворни имиња и имињата на вашиот јазик (или англиски).',
+	'wminc-searchwiki-selectproject' => 'Пребарај:',
+	'wminc-searchwiki-inputlanguage' => 'На следниов јазик:',
+	'wminc-searchwiki-go' => 'Оди',
+	'wminc-searchwiki-multiplematches' => 'Пребараното одговара на следниве јазици:',
+	'wminc-searchwiki-match-langcode' => '„$1“ е јазичен код на $2 според ISO 639.',
+	'wminc-searchwiki-match-userlangname' => '$1 е име на јазик.',
+	'wminc-searchwiki-match-englishname' => '„$1“ е името на $2 на англиски.',
+	'wminc-searchwiki-match-nativename' => '„$1“ е името на $2 на тој јазик.',
+	'wminc-searchwiki-gotoinfopage' => 'инфостраница',
 );
 
 /** Malayalam (മലയാളം)
@@ -2086,6 +2161,18 @@ $messages['nl'] = array(
 	'wminc-listusers-testwiki' => 'U bekijkt gebruikers die hun testwiki-instelling op $1 hebben gezet.',
 	'wminc-search-nocreate-nopref' => 'U hebt gezocht naar "$1". Stel uw [[Special:Preferences|testwikivoorkeur]] in zodat we u kunnen aangeven welke pagina u kunt aanmaken.',
 	'wminc-search-nocreate-suggest' => 'U hebt gezocht naar "$1". U kunt een pagina in uw testwiki aanmaken op <b>[[$2]]</b>.',
+	'wminc-searchwiki' => 'Een wiki zoeken',
+	'wminc-searchwiki-noproject' => 'U heeft geen project geselecteerd.',
+	'wminc-searchwiki-noresults' => 'Geen resultaten. U kunt zoeken op taalcodes, autoniemen en namen in uw interfacetaal of in het Engels.',
+	'wminc-searchwiki-selectproject' => 'Zoeken naar:',
+	'wminc-searchwiki-inputlanguage' => 'In taal:',
+	'wminc-searchwiki-go' => 'OK',
+	'wminc-searchwiki-multiplematches' => 'Uw zoekopdracht komt overeen met de volgende talen:',
+	'wminc-searchwiki-match-langcode' => '"$1" is een ISO 639-taalcode voor $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 is de naam van een taal.',
+	'wminc-searchwiki-match-englishname' => '"$1" is de naam voor $2 in het Engels.',
+	'wminc-searchwiki-match-nativename' => '"$1" is de naam voor $2 in die taal.',
+	'wminc-searchwiki-gotoinfopage' => 'infopagina',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
