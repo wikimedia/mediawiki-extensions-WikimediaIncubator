@@ -77,18 +77,19 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 		$lcLanguageQuery = strtolower( $languageQuery );
 		# The more important, the more below, because they override earlier codes
-		$validCodes = array_keys( Language::getLanguageNames() );
+		$validCodes = array_keys( Language::getTranslatedLanguageNames( 'en' ) );
 		if( in_array( $lcLanguageQuery, $validCodes ) ) {
 			$builtinCode = Language::factory( $lcLanguageQuery )->getCode();
 			$results[$builtinCode] = 'langcode'; # Match language code
 		}
-		if( $codeByEnglishName = array_search( $lcLanguageQuery, array_map( 'strtolower', $this->mEnglishNames ) ) ) {
+		$lcLanguageQuery = self::strip( $languageQuery );
+		if( $codeByEnglishName = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mEnglishNames ) ) ) {
 			$results[$codeByEnglishName] = 'englishname'; # Match name in English
 		}
-		if( $codeUserLang = array_search( $lcLanguageQuery, array_map( 'strtolower', $this->mNamesUserLang ) ) ) {
+		if( $codeUserLang = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mNamesUserLang ) ) ) {
 			$results[$codeUserLang] = 'userlangname'; # Match name in user language
 		}
-		if( $codeByNativeName = array_search( $lcLanguageQuery, array_map( 'strtolower', $this->mNativeNames ) ) ) {
+		if( $codeByNativeName = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mNativeNames ) ) ) {
 			$results[$codeByNativeName] = 'nativename'; # Match native name 
 		}
 
@@ -100,6 +101,15 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		} elseif( count( $results ) > 1 ) {
 			self::showMultipleResults( $matchProject, $languageQuery, $results );
 		}
+	}
+
+	/**
+	 * Improve search by increasing the chance of matches
+	 */
+	protected function strip( $str ) {
+		$str = strtolower( trim( $str ) );
+		$replace = array( ' ' => '', '-' => '' );
+		return str_replace( array_keys( $replace ), array_values( $replace ), $str );
 	}
 
 	/**
