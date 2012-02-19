@@ -64,7 +64,7 @@ $messages['en'] = array(
 	'wminc-search-nocreate-suggest' => 'You searched for "$1". You can create a page in your wiki at <b>[[$2]]</b>!',
 
 	# SearchWiki
-	'wminc-searchwiki' => 'Search wiki',
+	'wminc-searchwiki' => 'Search for a wiki',
 	'wminc-searchwiki-noproject' => 'You did not select a project.',
 	'wminc-searchwiki-noresults' => 'No results. You can search by language codes, native names and names in your interface language or English.',
 	'wminc-searchwiki-selectproject' => 'Search for:',
