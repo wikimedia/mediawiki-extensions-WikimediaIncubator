@@ -452,6 +452,18 @@ $messages['be-tarask'] = array(
 	'wminc-listusers-testwiki' => 'Вы праглядаеце ўдзельнікаў, якія ў сваёй тэставай вікі выбралі наладу $1.',
 	'wminc-search-nocreate-nopref' => 'Вы шукалі «$1». Калі ласка, устанавіце Вашыя [[Special:Preferences|налады тэставай вікі]], каб мы маглі сказаць Вам, якія старонкі Вы можаце ствараць!',
 	'wminc-search-nocreate-suggest' => 'Вы шукалі «$1». Вы можаце стварыць у {{GRAMMAR:месны|{{SITENAME}}}} старонку <b>[[$2]]</b>!',
+	'wminc-searchwiki' => 'Пошук вікі',
+	'wminc-searchwiki-noproject' => 'Вы ня выбралі праект.',
+	'wminc-searchwiki-noresults' => 'Нічога ня знойдзена. Можна шукаць па коду мовы, уласнай назьве мовы, яе назьве на бягучай мове інтэрфэйсу, або на ангельскай.',
+	'wminc-searchwiki-selectproject' => 'Шукаць праект:',
+	'wminc-searchwiki-inputlanguage' => 'На мове:',
+	'wminc-searchwiki-go' => 'Перайсьці',
+	'wminc-searchwiki-multiplematches' => 'На ваш пошукавы запыт пасуюць наступныя мовы:',
+	'wminc-searchwiki-match-langcode' => '«$1» — код для мовы $2 паводле ISO 639.',
+	'wminc-searchwiki-match-userlangname' => '$1 — гэта назва мовы.',
+	'wminc-searchwiki-match-englishname' => '«$1» — назва мовы $2 на ангельскай.',
+	'wminc-searchwiki-match-nativename' => '«$1» — назва мовы $2 на той мове.',
+	'wminc-searchwiki-gotoinfopage' => 'старонка даведкі',
 );
 
 /** Bulgarian (Български)
@@ -1024,6 +1036,7 @@ $messages['fi'] = array(
  * @author PieRRoMaN
  * @author Seb35
  * @author Sylvain2803
+ * @author Tpt
  * @author Urhixidur
  */
 $messages['fr'] = array(
@@ -1061,6 +1074,18 @@ $messages['fr'] = array(
 	'wminc-listusers-testwiki' => 'Vous êtes en train de visualiser les utilisateurs qui ont mis leur préférence de wiki de test à $1.',
 	'wminc-search-nocreate-nopref' => 'Vous avez recherché "$1". Merci de régler vos [[Special:Preferences|préférences du wiki de test]] de manière à ce que nous puissions vous dire quelle page vous pouvez créer!',
 	'wminc-search-nocreate-suggest' => 'Vous avez recherche "$1". Vous pouvez créer une page dans votre wiki à <b>[[$2]]</b>!',
+	'wminc-searchwiki' => "Recherche d'un wiki",
+	'wminc-searchwiki-noproject' => "Vous n'avez pas sélectionné de projet.",
+	'wminc-searchwiki-noresults' => "Aucun résultat. Vous pouvez rechercher par code de langue, par nom d'origine et par nom dans la langue de votre interface ou en anglais.",
+	'wminc-searchwiki-selectproject' => 'Rechercher:',
+	'wminc-searchwiki-inputlanguage' => 'En langue:',
+	'wminc-searchwiki-go' => 'Aller',
+	'wminc-searchwiki-multiplematches' => 'Votre recherche correspond aux langues suivantes:',
+	'wminc-searchwiki-match-langcode' => '"$1" est un code de langue ISO 639 pour $2.',
+	'wminc-searchwiki-match-userlangname' => "$1 est le nom d'une langue.",
+	'wminc-searchwiki-match-englishname' => '« $1 » est le nom de  $2  en anglais.',
+	'wminc-searchwiki-match-nativename' => '« $1 » est le nom de  $2  dans cette langue.',
+	'wminc-searchwiki-gotoinfopage' => "page d'information",
 );
 
 /** Franco-Provençal (Arpetan)
@@ -1485,7 +1510,7 @@ $messages['ia'] = array(
 	'wminc-search-nocreate-suggest' => 'Tu cercava "$1". Tu pote crear un pagina in tu wiki a <b>[[$2]]</b>!',
 	'wminc-searchwiki' => 'Cercar un wiki',
 	'wminc-searchwiki-noproject' => 'Tu non seligeva un projecto.',
-	'wminc-searchwiki-noresults' => 'Nulle resultato. Es possibile cercar per codice de lingua, nomine native, e nomine in interlingua o in anglese.',
+	'wminc-searchwiki-noresults' => 'Nulle resultato. Es possibile cercar per codice de lingua, per nomine native, e per nomine in le tue lingua de interfacie o in anglese.',
 	'wminc-searchwiki-selectproject' => 'Cercar:',
 	'wminc-searchwiki-inputlanguage' => 'In lingua:',
 	'wminc-searchwiki-go' => 'Va',
@@ -1566,7 +1591,7 @@ $messages['it'] = array(
 	'wminc-ip' => '"$1" è un indirizzo IP.',
 	'right-viewuserlang' => 'Visualizza il linguaggio utente e prova il wiki',
 	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 language|lingua "$3"]] è una [[wikipedia:ISO 639 macrolanguage|macrolingua]], composta dalle seguenti lingue:',
-	'wminc-code-collective' => 'Il codice "$1" non fa riferimento a un linguaggio specifico, ma a un insieme di lingue, vedi [[wikipedia:$2  language|"$3"]].',
+	'wminc-code-collective' => 'Il codice "$1" non fa riferimento a un linguaggio specifico, ma a un insieme di lingue, vedi [[wikipedia:$2 language|lingue "$3"]].',
 	'wminc-code-retired' => 'Questo codice lingua è stato modificato e non si riferisce più alla lingua originale.',
 	'wminc-search-nocreate-suggest' => 'Hai effettuato una ricerca per "$1". Si può creare una pagina nella tua wiki a <b>[[$2]]</b>!',
 );
@@ -2529,16 +2554,16 @@ $messages['ru'] = array(
 	'wminc-manual' => 'Руководство',
 	'wminc-listwikis' => 'список наших проектов',
 	'wminc-testwiki' => 'Пробная вики:',
-	'wminc-testwiki-code' => 'Язык проверочной вики:',
+	'wminc-testwiki-code' => 'Язык пробной вики:',
 	'wminc-testwiki-none' => 'Нет/все',
 	'wminc-recentchanges-all' => 'Все недавние правки',
 	'wminc-prefinfo-language' => 'Ваш язык интерфейса не зависит от вашей пробной вики',
 	'wminc-prefinfo-code' => 'Код языка по ISO 639',
 	'wminc-prefinfo-project' => 'Выбор проекта Викимедиа (выберите Инкубатор, если занимаетесь общими вопросами)',
 	'wminc-prefinfo-error' => 'Вы выбрали проект, для которого необходимо указать код языка.',
-	'wminc-error-move-unprefixed' => 'Ошибка. Страница, в которую вы пытаетесь переименовать [[{{MediaWiki:Helppage}}|имеет ошибочный префикс или не имеет его вообще]]!',
-	'wminc-error-wronglangcode' => "''' Ошибка.''' Страница содержит [[{{MediaWiki:Helppage}}|неправильный код языка]] «$1»!",
-	'wminc-error-unprefixed' => "''' Ошибка.''' Эта страница [[{{MediaWiki:Helppage}}|не имеет префикса]]!",
+	'wminc-error-move-unprefixed' => 'Ошибка. Страница, в которую вы пытаетесь переименовать, [[{{MediaWiki:Helppage}}|имеет ошибочный префикс или не имеет его вообще]]!',
+	'wminc-error-wronglangcode' => "'''Ошибка.''' Страница содержит [[{{MediaWiki:Helppage}}|неправильный код языка]] «$1»!",
+	'wminc-error-unprefixed' => "'''Ошибка.''' Эта страница [[{{MediaWiki:Helppage}}|не имеет префикса]]!",
 	'wminc-error-unprefixed-suggest' => "'''Ошибка.''' Эта страница [[{{MediaWiki:Helppage}}|не имеет префикса]]! Вы можете создать страницу [[:$1]].",
 	'wminc-error-wiki-exists' => 'Эта вики уже существует. Вы можете найти эту страницу на $1. Если вики была создана недавно, пожалуйста, подождите несколько часов или дней, пока все содержимое импортируется.',
 	'wminc-error-wiki-sister' => 'Эта страница относится к проекту, который здесь не располагается. Пожалуйста, перейдите на $1, чтобы найти вики.',
@@ -2550,15 +2575,27 @@ $messages['ru'] = array(
 	'wminc-userdoesnotexist' => 'Участник «$1» не существует',
 	'wminc-ip' => '«$1» не является IP-адресом.',
 	'right-viewuserlang' => 'просматривать языковые настройки участника и его пробную вики',
-	'group-test-sysop' => 'Администраторы тестовой вики',
-	'group-test-sysop-member' => '{{GENDER:$1|Администратор тестовой wiki}}',
-	'grouppage-test-sysop' => '{{ns:project}}:Администраторы тестовой вики',
+	'group-test-sysop' => 'Администраторы пробной вики',
+	'group-test-sysop-member' => '{{GENDER:$1|Администратор пробной вики}}',
+	'grouppage-test-sysop' => '{{ns:project}}:Администраторы пробной вики',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Язык «$3»]] считается [[wikipedia:ISO 639 macrolanguage|макроязыком]], состоящим из следующих языков:',
 	'wminc-code-collective' => 'Код «$1» относится не к конкретному языку, а к группе из нескольких языков, под общим названием [[wikipedia:$2 language|«$3»]].',
 	'wminc-code-retired' => 'Этот код языка был изменён и больше не ссылается на определённый язык.',
-	'wminc-listusers-testwiki' => 'Вы просматриваете участников, которые установили в настройку тестовой вики $1.',
-	'wminc-search-nocreate-nopref' => 'Вы искали «$1». Пожалуйста, задайте свои [[Special:Preferences|персональные настройки тестовой вики]], чтобы мы могли подсказать вам, какие страницы вы можете создавать!',
+	'wminc-listusers-testwiki' => 'Вы просматриваете список участников, в персональных настройках которых в качестве пробной вики указан проект $1.',
+	'wminc-search-nocreate-nopref' => 'Вы искали «$1». Пожалуйста, задайте свои [[Special:Preferences|персональные настройки пробной вики]], чтобы мы могли подсказать вам, какие страницы вы можете создавать!',
 	'wminc-search-nocreate-suggest' => 'Вы искали «$1». Вы можете создать в своей вики страницу <b>[[$2]]</b>!',
+	'wminc-searchwiki' => 'Поиск по вики',
+	'wminc-searchwiki-noproject' => 'Вы не выбрали проект.',
+	'wminc-searchwiki-noresults' => 'Нет результатов. Вы можете искать коды языков, исходные названия и названия на своём языке интерфейса или на английском.',
+	'wminc-searchwiki-selectproject' => 'Поиск по:',
+	'wminc-searchwiki-inputlanguage' => 'по языку:',
+	'wminc-searchwiki-go' => 'Перейти',
+	'wminc-searchwiki-multiplematches' => 'Вашему запросу соответствуют следующие языки:',
+	'wminc-searchwiki-match-langcode' => '«$1» — это код ISO 639 для языка «$2».',
+	'wminc-searchwiki-match-userlangname' => '$1— название языка.',
+	'wminc-searchwiki-match-englishname' => '«$1» — английское название языка «$2».',
+	'wminc-searchwiki-match-nativename' => '«$1» — самоназвание языка «$2».',
+	'wminc-searchwiki-gotoinfopage' => 'страница информации',
 );
 
 /** Rusyn (Русиньскый)
