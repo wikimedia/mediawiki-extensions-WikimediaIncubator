@@ -836,6 +836,7 @@ $messages['eo'] = array(
 
 /** Spanish (Español)
  * @author Antur
+ * @author Armando-Martin
  * @author Crazymadlover
  * @author Drini
  * @author Fitoschido
@@ -877,6 +878,18 @@ $messages['es'] = array(
 	'wminc-listusers-testwiki' => 'Estás mirando la lista de usuarios que han seleccionado su opción de wiki de pruebas a $1.',
 	'wminc-search-nocreate-nopref' => 'Hizo una búsqueda de "$1". ¡Configure sus [[Special:Preferences|preferencias del wiki de pruebas]] de forma que podamos decirle qué la página que puede crear!',
 	'wminc-search-nocreate-suggest' => 'Buscaste "$1". Puedes crear una página en tu wiki en <b>[[$2]]</b>!',
+	'wminc-searchwiki' => 'Búsqueda de un wiki',
+	'wminc-searchwiki-noproject' => 'No ha seleccionado un proyecto.',
+	'wminc-searchwiki-noresults' => 'No hay resultados. Puede buscar por códigos de idioma, nombres nativos y nombres en el idioma de su interfaz o en inglés.',
+	'wminc-searchwiki-selectproject' => 'Buscar por:',
+	'wminc-searchwiki-inputlanguage' => 'En idioma:',
+	'wminc-searchwiki-go' => 'Ir',
+	'wminc-searchwiki-multiplematches' => 'Su búsqueda coincide en los siguientes idiomas:',
+	'wminc-searchwiki-match-langcode' => '"$1" es un código de idioma ISO 639 para  $2 .',
+	'wminc-searchwiki-match-userlangname' => '$1 es el nombre de un idioma.',
+	'wminc-searchwiki-match-englishname' => '"$1" es el nombre de $2 en inglés.',
+	'wminc-searchwiki-match-nativename' => '"$1" es el nombre de $2 en ese idioma.',
+	'wminc-searchwiki-gotoinfopage' => 'página de información',
 );
 
 /** Estonian (Eesti)
@@ -2064,6 +2077,18 @@ $messages['ms'] = array(
 	'wminc-listusers-testwiki' => 'Anda sedang melihat pengguna-pengguna yang menetapkan keutamaan wiki ujian mereka kepada $1.',
 	'wminc-search-nocreate-nopref' => 'Anda mencari "$1". Sila tetapkan [[Special:Preferences|keutamaan wiki ujian]] anda supaya kami boleh memberitahu anda laman yang mana boleh anda buat!',
 	'wminc-search-nocreate-suggest' => 'Anda mencari "$1". Anda boleh membuat laman dalam wiki anda di <b>[[$2]]</b>!',
+	'wminc-searchwiki' => 'Cari sesebuah wiki',
+	'wminc-searchwiki-noproject' => 'Anda tidak memilih projek.',
+	'wminc-searchwiki-noresults' => 'Tiada hasil. Anda boleh mencari mengikut kod bahasa, nama asli dan nama dalam bahasa Melayu atau bahasa Inggeris.',
+	'wminc-searchwiki-selectproject' => 'Cari:',
+	'wminc-searchwiki-inputlanguage' => 'Dalam bahasa:',
+	'wminc-searchwiki-go' => 'Pergi',
+	'wminc-searchwiki-multiplematches' => 'Pencarian anda berpadan dengan bahasa-bahasa yang berikut:',
+	'wminc-searchwiki-match-langcode' => '"$1" ialah kod bahasa ISO 639 untuk $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 ialah nama bahasa.',
+	'wminc-searchwiki-match-englishname' => '"$1" ialah nama $2 dalam bahasa Melayu.',
+	'wminc-searchwiki-match-nativename' => '"$1" ialah nama $2 dalam bahasa itu.',
+	'wminc-searchwiki-gotoinfopage' => 'laman maklumat',
 );
 
 /** Maltese (Malti)
