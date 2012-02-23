@@ -834,7 +834,7 @@ $messages['mk'] = array(
  */
 $messages['ml'] = array(
 	'wminc-infopage-enter' => 'പ്രധാന താളിലേയ്ക്ക് പോവുക',
-	'wminc-unknownlang' => '("$1" എന്ന കോഡോടു കൂടിയ അപരിചിതമായ ഭാഷ)',
+	'wminc-unknownlang' => '(അപരിചിതമായ ഭാഷാ കോഡ്)',
 	'wminc-infopage-title-p' => 'വിക്കിപീഡിയ $1',
 	'wminc-infopage-title-b' => 'വിക്കിപാഠശാല $1',
 	'wminc-infopage-title-t' => 'വിക്കിനിഘണ്ടു $1',
@@ -1339,7 +1339,7 @@ $messages['uk'] = array(
  */
 $messages['vi'] = array(
 	'wminc-infopage-enter' => 'đi đến Trang Chính',
-	'wminc-unknownlang' => '(ngôn ngữ không rõ với mã “$1”)',
+	'wminc-unknownlang' => '(ngôn ngữ không rõ)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikibooks $1',
 	'wminc-infopage-title-t' => 'Wiktionary $1',

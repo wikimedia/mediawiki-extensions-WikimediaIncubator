@@ -1811,6 +1811,11 @@ $messages['lb'] = array(
 	'wminc-code-retired' => "Dëse Sproochcode gouf geännert a bezitt sech net méi op d'Original-Sprooch.",
 	'wminc-listusers-testwiki' => 'Dir gesitt Benotzer déi hir Test-Wiki Astellung op $1 gesat hunn',
 	'wminc-search-nocreate-suggest' => 'Dir hutt no "$1" gesicht. Dir kënnt eng Säit ënner <b>[[$2]]</b> an Ärer Wiki uleeën!',
+	'wminc-searchwiki' => 'No enger Wiki sichen',
+	'wminc-searchwiki-noproject' => 'Dir hutt kee Projet erausgesicht.',
+	'wminc-searchwiki-inputlanguage' => 'An der Sprooch:',
+	'wminc-searchwiki-go' => 'Lass',
+	'wminc-searchwiki-gotoinfopage' => 'Info-Säit',
 );
 
 /** Limburgish (Limburgs)
@@ -2011,6 +2016,17 @@ $messages['ml'] = array(
 	'wminc-code-collective' => '"$1" എന്ന കോഡ് ഒരു പ്രത്യേക ഭാഷയെ പ്രതിനിധീകരിക്കുന്നില്ല, മറിച്ച് [[wikipedia:$2 language|"$3" ഭാഷകൾ]] എന്ന ഒരു കൂട്ടം ഭാഷകളാണ്.',
 	'wminc-code-retired' => 'ഈ ഭാഷാ കോഡ് മാറിയിരിക്കുന്നു, യഥാർത്ഥ ഭാഷയെ അത് പ്രതിനിധീകരിക്കുന്നില്ല.',
 	'wminc-listusers-testwiki' => 'തങ്ങളുടെ പരീക്ഷണവിക്കി ക്രമീകരണങ്ങൾ $1 ആയി സജ്ജീകരിച്ചിട്ടുള്ള ഉപയോക്താക്കളെയാണ് താങ്കൾ കാണുന്നത്.',
+	'wminc-searchwiki' => 'വിക്കിയ്ക്കായി തിരയുക',
+	'wminc-searchwiki-noproject' => 'താങ്കളൊരു പദ്ധതി തിരഞ്ഞെടുത്തിട്ടില്ല.',
+	'wminc-searchwiki-selectproject' => 'ഇതു കണ്ടെത്തുക:',
+	'wminc-searchwiki-inputlanguage' => 'ഭാഷ:',
+	'wminc-searchwiki-go' => 'പോകൂ',
+	'wminc-searchwiki-multiplematches' => 'ഇനിക്കൊടുക്കുന്ന ഭാഷകളിൽ ഒത്തുപോകുന്നവ തിരയുക:',
+	'wminc-searchwiki-match-langcode' => '"$1" എന്നത് $2 എന്നതിന്റെ  ISO 639 കോഡ് ആണ്  .',
+	'wminc-searchwiki-match-userlangname' => '$1 എന്നത് ഒരു ഭാഷയുടെ പേരാണ്.',
+	'wminc-searchwiki-match-englishname' => '$2 എന്നതിന്റെ മലയാളം പേരാണ് "$1".',
+	'wminc-searchwiki-match-nativename' => '"$1" എന്നത് ആ ഭാഷയിൽ $2 എന്നതിന്റെ പേരാണ്.',
+	'wminc-searchwiki-gotoinfopage' => 'വിവരണ താൾ',
 );
 
 /** Mongolian (Монгол)
@@ -3278,6 +3294,18 @@ $messages['vi'] = array(
 	'wminc-listusers-testwiki' => 'Đây là danh sách những thành viên đã đặt tùy chọn wiki thử nghiệm là $1.',
 	'wminc-search-nocreate-nopref' => 'Bạn đã tìm kiếm cho “$1”. Xin vui lòng đặt [[Special:Preferences|tùy chọn wiki thử nghiệm]] để cho chúng tôi có thể cho biết bạn có thể tạo ra trang mới ở đâu!',
 	'wminc-search-nocreate-suggest' => "Bạn đã tìm kiếm cho “$1”. Bạn có thể tạo ra trang mới trong wiki thử nghiệm của bạn tại “'''[[$2]]'''”!",
+	'wminc-searchwiki' => 'Tìm wiki',
+	'wminc-searchwiki-noproject' => 'Bạn chưa chọn một dự án.',
+	'wminc-searchwiki-noresults' => 'Không có kết quả. Bạn có thể tìm kiếm theo mã ngôn ngữ, tên tự xưng, và tên trong ngôn ngữ giao diện hoặc tiếng Anh.',
+	'wminc-searchwiki-selectproject' => 'Tìm:',
+	'wminc-searchwiki-inputlanguage' => 'Ngôn ngữ:',
+	'wminc-searchwiki-go' => 'Tìm kiếm',
+	'wminc-searchwiki-multiplematches' => 'Truy vấn của bạn trùng với các ngôn ngữ sau:',
+	'wminc-searchwiki-match-langcode' => '“$1” là mã ngôn ngữ ISO 639 của $2.',
+	'wminc-searchwiki-match-userlangname' => '“$1” là một tên ngôn ngữ.',
+	'wminc-searchwiki-match-englishname' => '“$1” là tên của $2 trong tiếng Anh.',
+	'wminc-searchwiki-match-nativename' => '“$1” là tên của $2 trong ngôn ngữ đó.',
+	'wminc-searchwiki-gotoinfopage' => 'trang thông tin',
 );
 
 /** Yiddish (ייִדיש)
