@@ -642,6 +642,7 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Geitost
  * @author Imre
  * @author Kghbln
  * @author MF-Warburg
@@ -685,7 +686,7 @@ $messages['de'] = array(
 	'wminc-search-nocreate-suggest' => 'Du suchtest nach „$1“. Du kannst in Deinem Testwiki eine Seite unter <b>[[$2]]</b> erstellen.',
 	'wminc-searchwiki' => 'Nach einem Wiki suchen',
 	'wminc-searchwiki-noproject' => 'Du hast kein Projekt ausgewählt.',
-	'wminc-searchwiki-noresults' => 'Keine Ergebnisse. Du kannst nach Sprachcodes, muttersprachlichen Bezeichnungen sowie Bezeichnungen in deiner Sprache oder in Englisch suchen.',
+	'wminc-searchwiki-noresults' => 'Keine Ergebnisse. Du kannst nach Sprachcodes, muttersprachlichen Bezeichnungen sowie Bezeichnungen in deiner voreingestellten Sprache oder in Englisch suchen.',
 	'wminc-searchwiki-selectproject' => 'Suchen nach:',
 	'wminc-searchwiki-inputlanguage' => 'In der Sprache:',
 	'wminc-searchwiki-go' => 'Los',
@@ -698,6 +699,7 @@ $messages['de'] = array(
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Geitost
  * @author Imre
  * @author Kghbln
  * @author MF-Warburg
@@ -714,7 +716,7 @@ $messages['de-formal'] = array(
 	'wminc-search-nocreate-nopref' => 'Sie suchten nach „$1“. Bitte legen Sie die [[Special:Preferences|Einstellungen für Ihr Testwiki]] fest, damit wir Ihnen mitteilen können, welche Seite Sie erstellen können.',
 	'wminc-search-nocreate-suggest' => 'Sie suchten nach „$1“. Sie können in Ihrem Testwiki eine Seite unter <b>[[$2]]</b> erstellen.',
 	'wminc-searchwiki-noproject' => 'Sie haben kein Projekt ausgewählt.',
-	'wminc-searchwiki-noresults' => 'Keine Ergebnisse. Sie können nach Sprachcodes, muttersprachlichen Bezeichnungen sowie Bezeichnungen in Ihrer Sprache oder in Englisch suchen.',
+	'wminc-searchwiki-noresults' => 'Keine Ergebnisse. Sie können nach Sprachcodes, muttersprachlichen Bezeichnungen sowie Bezeichnungen in Ihrer voreingestellten Sprache oder in Englisch suchen.',
 );
 
 /** Zazaki (Zazaki)
