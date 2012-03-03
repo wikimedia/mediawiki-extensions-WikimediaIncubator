@@ -160,26 +160,6 @@ $messages['ady-cyrl'] = array(
 	'wminc-viewuserlang' => 'Нэбгырэм ибзэм еплъий плъэк1у Викир',
 );
 
-/** Moroccan Spoken Arabic (Maġribi)
- * @author Enzoreg
- * @author زكريا
- */
-$messages['ary'] = array(
-	'wminc-desc' => 'L-Wiki dyal t-tést le Wikimédya Incubator',
-	'wminc-testwiki' => "L-Wiki dyal 't-tést :",
-	'wminc-testwiki-none' => 'Ḫṫa ḫaja / Kol ċi',
-	'wminc-prefinfo-language' => "Loġṫ wajihṫek - mesṫaqela men 't-tést dyal l-Wiki dyalek",
-	'wminc-prefinfo-code' => 'L-kod ISO 639 dyal l-loġa',
-	'wminc-prefinfo-project' => 'Ĥṫar l-meċroĝ Wikimédya (l-opsyon Incubator mĥeṣeṣa le mosṫeĥdimin li ka iṣaybo ĥedma ĝama)',
-	'wminc-prefinfo-error' => 'Ĥṫariṫi meċroĝ li ka iḫṫaj l-kod dyal l-loġa.',
-	'randombytest' => "Ṣefḫa ĝel l-Lah men l-Wiki dyal 't-tést",
-	'randombytest-nopages' => "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
-	'wminc-viewuserlang' => "Ha hiya loġaṫ l-mosṫeĥdim o l-Wiki dyal 't-tést dyalo",
-	'wminc-viewuserlang-user' => 'smiṫ l-mosṫĥdim:',
-	'wminc-viewuserlang-go' => 'Sir',
-	'right-viewuserlang' => "Ċof loġṫ l-mosṫeĥdim o l-Wiki dyal 't-tést",
-);
-
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
@@ -302,6 +282,26 @@ $messages['arc'] = array(
 	'wminc-testwiki-none' => 'ܠܐ ܡܕܡ/ܟܠ',
 	'wminc-viewuserlang-user' => 'ܫܡܐ ܕܡܦܠܚܢܐ:',
 	'wminc-viewuserlang-go' => 'ܙܠ',
+);
+
+/** Moroccan Spoken Arabic (Maġribi)
+ * @author Enzoreg
+ * @author زكريا
+ */
+$messages['ary'] = array(
+	'wminc-desc' => 'L-Wiki dyal t-tést le Wikimédya Incubator',
+	'wminc-testwiki' => "L-Wiki dyal 't-tést :",
+	'wminc-testwiki-none' => 'Ḫṫa ḫaja / Kol ċi',
+	'wminc-prefinfo-language' => "Loġṫ wajihṫek - mesṫaqela men 't-tést dyal l-Wiki dyalek",
+	'wminc-prefinfo-code' => 'L-kod ISO 639 dyal l-loġa',
+	'wminc-prefinfo-project' => 'Ĥṫar l-meċroĝ Wikimédya (l-opsyon Incubator mĥeṣeṣa le mosṫeĥdimin li ka iṣaybo ĥedma ĝama)',
+	'wminc-prefinfo-error' => 'Ĥṫariṫi meċroĝ li ka iḫṫaj l-kod dyal l-loġa.',
+	'randombytest' => "Ṣefḫa ĝel l-Lah men l-Wiki dyal 't-tést",
+	'randombytest-nopages' => "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
+	'wminc-viewuserlang' => "Ha hiya loġaṫ l-mosṫeĥdim o l-Wiki dyal 't-tést dyalo",
+	'wminc-viewuserlang-user' => 'smiṫ l-mosṫĥdim:',
+	'wminc-viewuserlang-go' => 'Sir',
+	'right-viewuserlang' => "Ċof loġṫ l-mosṫeĥdim o l-Wiki dyal 't-tést",
 );
 
 /** Egyptian Spoken Arabic (مصرى)
@@ -2230,7 +2230,7 @@ $messages['nl'] = array(
 	'wminc-search-nocreate-nopref' => 'U hebt gezocht naar "$1". Stel uw [[Special:Preferences|testwikivoorkeur]] in zodat we u kunnen aangeven welke pagina u kunt aanmaken.',
 	'wminc-search-nocreate-suggest' => 'U hebt gezocht naar "$1". U kunt een pagina in uw testwiki aanmaken op <b>[[$2]]</b>.',
 	'wminc-searchwiki' => 'Een wiki zoeken',
-	'wminc-searchwiki-noproject' => 'U heeft geen project geselecteerd.',
+	'wminc-searchwiki-noproject' => 'U hebt geen project geselecteerd.',
 	'wminc-searchwiki-noresults' => 'Geen resultaten. U kunt zoeken op taalcodes, autoniemen en namen in uw interfacetaal of in het Engels.',
 	'wminc-searchwiki-selectproject' => 'Zoeken naar:',
 	'wminc-searchwiki-inputlanguage' => 'In taal:',

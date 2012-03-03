@@ -950,7 +950,7 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'wminc-infopage-enter' => 'andé a la pàgina Prinsipal',
-	'wminc-unknownlang' => '(lenga pa conossùa con còdes "$1")',
+	'wminc-unknownlang' => '(còdes ëd lenga pa conossù)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikibooks $1',
 	'wminc-infopage-title-t' => 'Wiktionary $1',
@@ -1287,10 +1287,11 @@ $messages['tet'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Suelnur
  */
 $messages['tr'] = array(
 	'wminc-infopage-enter' => 'Ana sayfaya git',
-	'wminc-unknownlang' => '("$1" bilinmeyen bir dil kodu)',
+	'wminc-unknownlang' => '(bilinmeyen dil kodu)',
 	'wminc-infopage-title-p' => 'Vikipedi $1',
 	'wminc-infopage-title-b' => 'Vikikitap $1',
 	'wminc-infopage-title-t' => 'Vikisözlük $1',
