@@ -85,6 +85,7 @@ $messages['en'] = array(
  * @author Nike
  * @author Purodha
  * @author SPQRobin
+ * @author Siebrand
  * @author Umherirrender
  * @author Yekrats
  */
@@ -144,10 +145,18 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-searchwiki-inputlanguage' => 'Followed by an input box where you can enter a language name or code',
 	'wminc-searchwiki-go' => 'Submit button',
 	'wminc-searchwiki-multiplematches' => 'Followed by a list of matches when there are multiple matches',
-	'wminc-searchwiki-match-langcode' => '$1 is the input; $2 is its language name in the user interface language',
-	'wminc-searchwiki-match-userlangname' => '$1 is the input; $2 is its language name in the user interface language',
-	'wminc-searchwiki-match-englishname' => '$1 is the input; $2 is its language name in the user interface language',
-	'wminc-searchwiki-match-nativename' => '$1 is the input; $2 is its language name in the user interface language',
+	'wminc-searchwiki-match-langcode' => 'Parameters:
+* $1 is the input;
+* $2 is its language name in the user interface language',
+	'wminc-searchwiki-match-userlangname' => 'Parameters:
+* $1 is the input;
+* $2 is its language name in the user interface language.',
+	'wminc-searchwiki-match-englishname' => 'Parameters:
+* $1 is the input;
+* $2 is its language name in the user interface language.',
+	'wminc-searchwiki-match-nativename' => 'Parameters:
+* $1 is the input;
+* $2 is its language name in the user interface language.',
 	'wminc-searchwiki-goto' => '{{optional}}',
 	'wminc-searchwiki-gotoinfopage' => 'Link text to go to the Wx/xyz info page',
 );
@@ -2240,7 +2249,7 @@ $messages['nl'] = array(
 	'wminc-searchwiki-match-userlangname' => '$1 is de naam van een taal.',
 	'wminc-searchwiki-match-englishname' => '"$1" is de naam voor $2 in het Engels.',
 	'wminc-searchwiki-match-nativename' => '"$1" is de naam voor $2 in die taal.',
-	'wminc-searchwiki-gotoinfopage' => 'infopagina',
+	'wminc-searchwiki-gotoinfopage' => 'informatiepagina',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
