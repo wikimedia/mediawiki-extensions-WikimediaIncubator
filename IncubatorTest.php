@@ -681,7 +681,7 @@ class IncubatorTest {
 	 * Info pages are in the user language, they're localised
 	 */
 	static function onPageContentLanguage( $title, &$pageLang ) {
-		global $wmincTestWikiNamespaces, $wgOut;
+		global $wmincTestWikiNamespaces, $wgLang;
 		$prefix = self::analyzePrefix( $title->getText(), /* onlyInfoPage*/ false );
 		if( $prefix['error'] || !in_array( $title->getNamespace(),
 			$wmincTestWikiNamespaces ) ) {
