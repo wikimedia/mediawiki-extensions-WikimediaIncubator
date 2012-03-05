@@ -968,17 +968,20 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Huji
+ * @author Mehran
  * @author MehranVB
  * @author Mjbmr
  * @author Sahim
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'wminc-desc' => 'سامانهٔ ویکی آزمایشی برای ویکی‌رشد ویکی‌مدیا',
 	'wminc-manual' => 'راهنمای کاربر',
 	'wminc-listwikis' => 'فهرست ویکی‌ها',
 	'wminc-testwiki' => 'ویکی آزمایشی:',
+	'wminc-testwiki-code' => 'امتحان‌کردن زبان ویکی:',
 	'wminc-testwiki-none' => 'هیچ‌کدام/همه',
-	'wminc-recentchanges-all' => 'همه تغییرات اخیر',
+	'wminc-recentchanges-all' => 'همهٔ تغییرات اخیر',
 	'wminc-prefinfo-language' => 'زبان رابط کاربری شما - مستقل از ویکی آزمایشی شما',
 	'wminc-prefinfo-code' => 'کد زبان ایزو ۶۳۹',
 	'wminc-prefinfo-project' => 'پروژه ویکی‌مدیا را انتخاب کنید (گزینه ویکی‌رشد برای کاربرانی که کار عمومی انجام می‌دهند)',
@@ -1004,6 +1007,11 @@ $messages['fa'] = array(
 	'wminc-code-collective' => 'کد "$1" به زبان خاصی ارجاع نمی‌دهد، ولی به مجموعه‌ای از زبان‌ها ارجاع می‌دهد، یعنی [[wikipedia:$2 language|زبان‌های «$3»]].',
 	'wminc-code-retired' => 'کد زبان تغییر کرده است و دیگر به زبان اصلی ارجاع نمی‌دهد.',
 	'wminc-listusers-testwiki' => 'شما در حال مشاهدهٔ کاربرانی هستید که ترجیح ویکی آزمایشی خود به $1 تنظیم کرده‌اند.',
+	'wminc-searchwiki' => 'جستجو برای یک ویکی',
+	'wminc-searchwiki-selectproject' => 'جستجو برای:',
+	'wminc-searchwiki-inputlanguage' => 'به زبان:',
+	'wminc-searchwiki-go' => 'برو',
+	'wminc-searchwiki-gotoinfopage' => 'صفحهٔ اطلاعات',
 );
 
 /** Finnish (Suomi)
@@ -1712,9 +1720,14 @@ $messages['km'] = array(
 
 /** Kannada (ಕನ್ನಡ)
  * @author Nayvik
+ * @author VASANTH S.N.
  */
 $messages['kn'] = array(
+	'wminc-manual' => 'ಕೈಪಿಡಿ',
+	'wminc-viewuserlang-user' => 'ಬಳಕೆದಾರ ಹೆಸರು:',
 	'wminc-viewuserlang-go' => 'ಹೋಗು',
+	'wminc-searchwiki-selectproject' => 'ಹುಡುಕಿ',
+	'wminc-searchwiki-go' => 'ಹೋಗು',
 );
 
 /** Korean (한국어)
