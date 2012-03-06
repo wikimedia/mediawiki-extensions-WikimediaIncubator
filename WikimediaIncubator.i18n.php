@@ -169,6 +169,58 @@ $messages['ady-cyrl'] = array(
 	'wminc-viewuserlang' => 'Нэбгырэм ибзэм еплъий плъэк1у Викир',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'wminc-desc' => 'Wikimedia Incubator tana wiki chhinna',
+	'wminc-manual' => 'Kaihhruaina',
+	'wminc-listwikis' => 'Wiki zawng zawng',
+	'wminc-testwiki' => 'Wiki chhinna',
+	'wminc-testwiki-code' => 'Wiki chhinna tawng',
+	'wminc-testwiki-none' => 'Pakhatmah/A vaiin',
+	'wminc-recentchanges-all' => 'Tun hnaia tihdanglam thar zawng zawng',
+	'wminc-prefinfo-language' => 'Hmanna tawng - i chhinna wiki ni kher lo',
+	'wminc-prefinfo-code' => 'ISO-639 tawng thurûk (code)',
+	'wminc-prefinfo-project' => 'Wikimedia beihpui thlang rawh le (Incubator hi chu vantlang hna thawk tan chauhva thlan theih )',
+	'wminc-prefinfo-error' => 'Tawng thurûk(language code) mamawh beihpui i thlang',
+	'wminc-error-move-unprefixed' => 'I kal tumna phek [[{{MediaWiki:Helppage}}]] hi thuhmabet nei lo a nih loh vek pawhin thuhmabet dik lo hmang a ni.',
+	'wminc-error-wronglangcode' => "'''Dik lo: tihsual palh''' He phêk hian [[{{MediaWiki:Helppage}}|tawng thurûk dik lo]] \"\$1\"!",
+	'wminc-error-unprefixed' => "'''Tihsual palh a awm!''' He phek hi [[{{MediaWiki:Helppage}}|thuhmabet nei lo ]] a ni!",
+	'wminc-error-unprefixed-suggest' => "'''Dik lo''' He phek hi [[{{MediaWiki:Helppage}}|thuhmabet nei lo a ni]]! He phek hi [[:$1]]-ah hian i siam thei ang.",
+	'wminc-error-wiki-exists' => 'He wiki hi a awm tawh. He phek hi $1-ah i en thei ang. He wiki hi siam thar a nih chuan darkar hnih-khat vel emaw ni hnih khat, a chhunga awm zawng zawng lak luh a nih hma chu nghâk hram ang che.',
+	'wminc-error-wiki-sister' => 'He phek hi heta enkawl loh beihpui a ni. Khawngaihin $1-ah he wiki hi en turin kal hram ang che.',
+	'randombytest' => 'Wiki chhinna phêk kahpah',
+	'randombytest-nopages' => 'I wiki chhinna-ah hian phêk a awm lo, he hminghmun (namespace): $1-ah hian.',
+	'wminc-viewuserlang' => 'Hmangtu tawng leh wiki chhinna en rawh.',
+	'wminc-viewuserlang-user' => 'Hmangtu hming:',
+	'wminc-viewuserlang-go' => 'Kal rawh le',
+	'wminc-userdoesnotexist' => 'Hmangtu "$1" a awm lo tlat.',
+	'wminc-ip' => '"$1" hi chenhmun-IP (IP address) a ni.',
+	'right-viewuserlang' => 'Hmangtu  ţawng leh wiki chhinna en rawh.',
+	'group-test-sysop' => 'Wiki chhinna roreltute',
+	'group-test-sysop-member' => '{{GENDER:$1|wiki chhinna roreltute}}',
+	'grouppage-test-sysop' => '{{ns:project}}:Wiki chhinna rorelture',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2  ţawng|"$3"  ţawng]] hi [[wikipedia:ISO 639  ţawnglian(macrolanguage)| ţawnglian(macrolanguage)]] a ni a, a hnuaia  ţawngte khu a huam:',
+	'wminc-code-collective' => 'Thurûk "$1" hian  ţawng bîk kawh nei lovin  ţawng huho, hêng: [[wikipedia:$2 language|"$3"  ţawngte]] te hi a kâwk.',
+	'wminc-code-retired' => 'He  ţawng thurûk (code) hi thlâk tawh a ni a, a ţawng hlui pangngai a kâwk lo.',
+	'wminc-listusers-testwiki' => 'Wiki chhinna $1-a thlâk tawh hmangtuteho i en mek a ni.',
+	'wminc-search-nocreate-nopref' => '"$1" hi i zawng a ni awm a. I [[Special:Preferences|wiki chhinna duhdàn]] siamrem la, tichuan i phêk siam theih kan lo hrilh ang che!',
+	'wminc-search-nocreate-suggest' => '"$1" hi i zawng a ni awm a. I wiki <b>[[$2]]</b>-ah hian a phêk i siam thei ang.',
+	'wminc-searchwiki' => 'Wiki zawng rawh',
+	'wminc-searchwiki-noproject' => 'Beihpui (project) thlan i nei lo.',
+	'wminc-searchwiki-noresults' => 'Hmuh tùr a awm lo tlat;  ţawng thurûk leh an hnam hming leh i hmanna  ţawng hming emaw sap  ţawngin emaw i zawng thei ang.',
+	'wminc-searchwiki-selectproject' => 'Hei hi zawng rawh:',
+	'wminc-searchwiki-inputlanguage' => 'He  ţawng hian:',
+	'wminc-searchwiki-go' => 'Kal rawh le',
+	'wminc-searchwiki-multiplematches' => 'I thil zawn hian hêng  ţawngte hi a mil:',
+	'wminc-searchwiki-match-langcode' => '"$1" hi $2 tana ISO 639  ţawng thurûk a ni.',
+	'wminc-searchwiki-match-userlangname' => '$1 hi  ţawng hming a ni.',
+	'wminc-searchwiki-match-englishname' => '"$1" hi Sap  ţawnga $2 hming a ni.',
+	'wminc-searchwiki-match-nativename' => '"$1" hi chu  ţawnga $2 an sawina a ni.',
+	'wminc-searchwiki-gotoinfopage' => 'Hriattirna phêk',
+);
+
 /** Achinese (Acèh)
  * @author Fadli Idris
  */
@@ -1837,8 +1889,13 @@ $messages['lb'] = array(
 	'wminc-search-nocreate-suggest' => 'Dir hutt no "$1" gesicht. Dir kënnt eng Säit ënner <b>[[$2]]</b> an Ärer Wiki uleeën!',
 	'wminc-searchwiki' => 'No enger Wiki sichen',
 	'wminc-searchwiki-noproject' => 'Dir hutt kee Projet erausgesicht.',
+	'wminc-searchwiki-selectproject' => 'Sichen no:',
 	'wminc-searchwiki-inputlanguage' => 'An der Sprooch:',
 	'wminc-searchwiki-go' => 'Lass',
+	'wminc-searchwiki-match-langcode' => '"$1" ass en ISO 639 Sproochcode fir $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 ass den Numm vun enger Sprooch.',
+	'wminc-searchwiki-match-englishname' => '"$1" ass den Numm fir $2 op Englesch.',
+	'wminc-searchwiki-match-nativename' => '"$1" ass den Numm fir $2 an där Sprooch.',
 	'wminc-searchwiki-gotoinfopage' => 'Info-Säit',
 );
 
