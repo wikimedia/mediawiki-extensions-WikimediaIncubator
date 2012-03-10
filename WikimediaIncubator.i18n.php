@@ -51,6 +51,9 @@ $messages['en'] = array(
 	'group-test-sysop-member' => '{{GENDER:$1|test wiki administrator}}',
 	'grouppage-test-sysop' => '{{ns:project}}:Test wiki administrators',
 
+	'group-test-sysop.css' => '/* CSS placed here will affect test wiki administrators only */', # only translate this message to other languages if you have to change it
+	'group-test-sysop.js'  => '/* JS placed here will affect test wiki administrators only */', # only translate this message to other languages if you have to change it
+
 	# Language codes
 	'wminc-code-macrolanguage' => 'The [[wikipedia:$2 language|"$3" language]] is a [[wikipedia:ISO 639 macrolanguage|macrolanguage]], consisting of the following member languages:',
 	'wminc-code-collective' => 'The code "$1" does not refer to a specific language, but to a collection of languages, namely the [[wikipedia:$2 language|"$3" languages]].',
