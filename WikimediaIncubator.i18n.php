@@ -130,6 +130,8 @@ Name of the group of administrators of a specific test wiki on the Wikimedia Inc
 	'group-test-sysop-member' => '{{doc-group|test-sysop|member}}
 An administrator of a specific test wiki on the Wikimedia Incubator.',
 	'grouppage-test-sysop' => '{{doc-group|test-sysop|page}}',
+	'group-test-sysop.css' => '{{doc-group|test-sysop|css}}',
+	'group-test-sysop.js' => '{{doc-group|test-sysop|js}}',
 	'wminc-code-macrolanguage' => "* '''$1''' is the language code (not used by default)
 * '''$2''' is the language name in English
 * '''$3''' is the translated language name from CLDR, if available (otherwise, English)
@@ -2386,6 +2388,7 @@ $messages['pdc'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Leinad
  * @author Sp5uhe
  * @author ToSter
@@ -2423,6 +2426,8 @@ $messages['pl'] = array(
 	'wminc-code-collective' => 'Kod „$1“ nie odnosi się do jednego języka, a do kolekcji języków – [[wikipedia:$2 language|$3]].',
 	'wminc-code-retired' => 'Ten kod języka został zmieniony i nie odnosi się do wcześniej przypisanego mu języka.',
 	'wminc-listusers-testwiki' => 'Przeglądasz użytkowników, którzy ustawili w swoich preferencjach testową wiki na $1.',
+	'wminc-searchwiki-selectproject' => 'Wyszukaj:',
+	'wminc-searchwiki-multiplematches' => 'Wyszukiwania pasuje do następujących języków:',
 );
 
 /** Piedmontese (Piemontèis)
