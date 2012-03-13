@@ -85,35 +85,6 @@ $messages['qqq'] = array(
 	'wminc-infopage-status-beforeincubator' => "'''$1''' is a URL to the existing wiki.",
 );
 
-/** Lushai (Mizo ţawng)
- * @author RMizo
- */
-$messages['lus'] = array(
-	'wminc-infopage-enter' => 'Phekpuiah kal rawh',
-	'wminc-unknownlang' => '(ţawng thurûk hriat loh)',
-	'wminc-infopage-title-p' => 'Wikizémpui $1',
-	'wminc-infopage-title-b' => 'Wikilehkhabute $1',
-	'wminc-infopage-title-t' => 'Wikifiahbu $1',
-	'wminc-infopage-title-q' => 'Wikithusawi $1',
-	'wminc-infopage-title-n' => 'Wikichanchinthar $1',
-	'wminc-infopage-title-s' => 'Wikihnar $1',
-	'wminc-infopage-title-v' => 'Wikizirnarunsang $1',
-	'wminc-infopage-welcome' => 'Wikimedia Inmunna hmunah kan lo lawm takzet a che; hei hiWikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Chungchang]]) hna-hmachhawp pakhat a ni.',
-	'wminc-infopage-missingwiki-text' => 'He ţawng hian $1 hi a la awm hrih lo.',
-	'wminc-infopage-option-startwiki' => 'He wiki hi i ţan duh chuan, hemi phêk hi [{{fullurl:{{FULLPAGENAME}}|action=edit}} i siam ] thei ang; kan [[{{MediaWiki:Wminc-manual-url}}|kaihhruaina]] hi i zui dawn nia.',
-	'wminc-infopage-option-startsister' => 'He wiki bu hi i ţan duh a nih chuan <b>[$2 $1]</b>-ah hian i kal thei ang.',
-	'wminc-infopage-option-languages-existing' => '[//www.$1.org $1 awmsana ţawng] i zawng thei ang.',
-	'wminc-infopage-option-sisterprojects-existing' => 'He ţawnga hna-hmachhawp awmsa hi i zawng thei ang:',
-	'wminc-infopage-option-sisterprojects-other' => 'He ţawnga hna-hmachhawp awm dang i zawng thei ang:',
-	'wminc-infopage-option-multilingual' => 'Ţawng-ze-tin wiki-ah i kal thei ang:',
-	'wminc-infopage-createmainpage' => 'He ţawnga "Phekpui" an tihna ziak rawh:',
-	'wminc-infopage-contribute' => 'He ţawng hi i hriat chuan kut thawh ve ngei tùra duh i ni!',
-	'wminc-infopage-status-imported' => 'He Inmunna wiki hi $1 aţanga a wiki an khar hnua lakluh a ni.',
-	'wminc-infopage-status-closedsister' => 'He rambungpéng hi khar a ni tawh. He wiki-a kut thawh ve tur hian <b>$2</b>-ah hian kal rawh.',
-	'wminc-infopage-status-created' => 'He hna-hmachhawp hi ţawng ngaihtuahtu pawlin a pawmpui tawh a, $1-ah hian tunah a awm mék.',
-	'wminc-infopage-status-beforeincubator' => 'He hna-hmachhawp hi Wikimedia Inmunna inţan hmaa siam tawh a ni a, $1-ah en theihin a awm.',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -818,6 +789,35 @@ $messages['lt'] = array(
 	'wminc-infopage-option-sisterprojects-existing' => 'Jūs galite ieškoti egzistuojančiu projektų, šia kalba:',
 	'wminc-infopage-option-sisterprojects-other' => 'Jūs galite ieškoti kitų projektų, šia kalba:',
 	'wminc-infopage-contribute' => 'Jei suprantate, ar kalbate šią kalba, esate kviečiama(s) prisidėti!',
+);
+
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'wminc-infopage-enter' => 'Phekpuiah kal rawh',
+	'wminc-unknownlang' => '(ţawng thurûk hriat loh)',
+	'wminc-infopage-title-p' => 'Wikizémpui $1',
+	'wminc-infopage-title-b' => 'Wikilehkhabute $1',
+	'wminc-infopage-title-t' => 'Wikifiahbu $1',
+	'wminc-infopage-title-q' => 'Wikithusawi $1',
+	'wminc-infopage-title-n' => 'Wikichinthar $1',
+	'wminc-infopage-title-s' => 'Wikihnar $1',
+	'wminc-infopage-title-v' => 'Wikizirnarunsang $1',
+	'wminc-infopage-welcome' => 'Wikimedia Inmunna hmunah kan lo lawm takzet a che; hei hi Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Chungchang]]) hna-hmachhawp pakhat a ni.',
+	'wminc-infopage-missingwiki-text' => 'He ţawng hian $1 hi a la awm hrih lo.',
+	'wminc-infopage-option-startwiki' => 'He wiki hi i ţan duh chuan, hemi phêk hi [{{fullurl:{{FULLPAGENAME}}|action=edit}} i siam ] thei ang; kan [[{{MediaWiki:Wminc-manual-url}}|kaihhruaina]] hi i zui dawn nia.',
+	'wminc-infopage-option-startsister' => 'He wiki bu hi i ţan duh a nih chuan <b>[$2 $1]</b>-ah hian i kal thei ang.',
+	'wminc-infopage-option-languages-existing' => '[//www.$1.org $1 awmsana ţawng] i zawng thei ang.',
+	'wminc-infopage-option-sisterprojects-existing' => 'He ţawnga hna-hmachhawp awmsa hi i zawng thei ang:',
+	'wminc-infopage-option-sisterprojects-other' => 'He ţawnga hna-hmachhawp awm dang i zawng thei ang:',
+	'wminc-infopage-option-multilingual' => 'Ţawng-ze-tin wiki-ah i kal thei ang:',
+	'wminc-infopage-createmainpage' => 'He ţawnga "Phekpui" an tihna hi ziak rawh:',
+	'wminc-infopage-contribute' => 'He ţawng hi i thiam chuan i kut thawh ve ngei tùra duh i ni!',
+	'wminc-infopage-status-imported' => 'He Inmunna wiki hi $1 aţanga a wiki an khar hnua lakluh a ni.',
+	'wminc-infopage-status-closedsister' => 'He rambungpéng hi khar a ni tawh. He wiki-a kut thawh ve tur hian <b>$2</b>-ah hian kal rawh.',
+	'wminc-infopage-status-created' => 'He hna-hmachhawp hi ţawng ngaihtuahtu pawlin a pawmpui tawh a, $1-ah hian tunah a awm mék.',
+	'wminc-infopage-status-beforeincubator' => 'He hna-hmachhawp hi Wikimedia Inmunna inţan hmaa siam tawh a ni a, $1-ah en theihin a awm.',
 );
 
 /** Latvian (Latviešu)
