@@ -27,10 +27,11 @@ $messages['en'] = array(
 	'wminc-prefinfo-error' => 'You selected a project that needs a language code.',
 
 	# Editing/creating pages errors
-	'wminc-error-move-unprefixed' => "Error: The page you are trying to move to [[{{MediaWiki:Helppage}}|is unprefixed or has a wrong prefix]]!",
-	'wminc-error-wronglangcode' => "'''Error:''' This page contains a [[{{MediaWiki:Helppage}}|wrong language code]] \"$1\"!",
-	'wminc-error-unprefixed' => "'''Error:''' This page is [[{{MediaWiki:Helppage}}|unprefixed]]!",
-	'wminc-error-unprefixed-suggest' => "'''Error:''' This page is [[{{MediaWiki:Helppage}}|unprefixed]]! You can create a page at [[:$1]].",
+	'wminc-error-help' => 'Help:Contents',
+	'wminc-error-move-unprefixed' => "Error: The page you are trying to move to [[{{MediaWiki:Wminc-error-help}}|is unprefixed or has a wrong prefix]]!",
+	'wminc-error-wronglangcode' => "'''Error:''' This page contains a [[{{MediaWiki:Wminc-error-help}}|wrong language code]] \"$1\"!",
+	'wminc-error-unprefixed' => "'''Error:''' This page is [[{{MediaWiki:Wminc-error-help}}|unprefixed]]!",
+	'wminc-error-unprefixed-suggest' => "'''Error:''' This page is [[{{MediaWiki:Wminc-error-help}}|unprefixed]]! You can create a page at [[:$1]].",
 	'wminc-error-wiki-exists' => 'This wiki already exists. You can find this page on $1. If the wiki was recently created, please wait a few hours or days until all content is imported.',
 	'wminc-error-wiki-sister' => 'This page belongs to a project that is not hosted here. Please go to $1 to find the wiki.',
 
