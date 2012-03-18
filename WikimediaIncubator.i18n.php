@@ -3429,6 +3429,7 @@ $messages['yue'] = array(
  * @author Hydra
  * @author Jimmy xu wrk
  * @author Liangent
+ * @author Linforest
  * @author PhiLiP
  * @author Shinjiman
  * @author Xiaomingyan
@@ -3468,6 +3469,18 @@ $messages['zh-hans'] = array(
 	'wminc-listusers-testwiki' => '您正在查看将测试维基首选项设置为$1的用户。',
 	'wminc-search-nocreate-nopref' => '您在寻找“$1”。请更改您的[[Special:Preferences|测试维基参数设置]]，以便我们可以告诉您适合创建的页面种类！',
 	'wminc-search-nocreate-suggest' => '您在寻找“$1”。您可以转到<b>[[$2]]</b>以在您的维基项目中创建新一个页！',
+	'wminc-searchwiki' => '搜索一个维基站点',
+	'wminc-searchwiki-noproject' => '您没有选择一个项目。',
+	'wminc-searchwiki-noresults' => '没有结果。您可以按照语言代码、 原生名称和采用您的界面语言或英语的名称进行搜索。',
+	'wminc-searchwiki-selectproject' => '搜索：',
+	'wminc-searchwiki-inputlanguage' => '采用语言：',
+	'wminc-searchwiki-go' => '转到',
+	'wminc-searchwiki-multiplematches' => '您的搜索与下列语言相匹配：',
+	'wminc-searchwiki-match-langcode' => '"$1"是$2的 ISO 639 语言代码',
+	'wminc-searchwiki-match-userlangname' => '$1是语言名称。',
+	'wminc-searchwiki-match-englishname' => '"$1"是$2的英文名称。',
+	'wminc-searchwiki-match-nativename' => '"$1"是$2在该语言中的名称。',
+	'wminc-searchwiki-gotoinfopage' => '信息页面',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
