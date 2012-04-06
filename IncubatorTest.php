@@ -586,23 +586,23 @@ class IncubatorTest {
 	 * Redirect if &goto=mainpage on info pages
 	 * @return True
 	 */
-	public static function onArticleFromTitle( &$title, &$article ) {
-		global $wgRequest, $wgOut;
+	public static function onMediaWikiPerformAction( $output, $page, $title, $user, $request ) {
 		$prefix = IncubatorTest::analyzePrefix( $title->getText(), true );
-		if( $prefix['error'] || $wgRequest->getVal('goto') != 'mainpage' ) {
+		if( $prefix['error'] || $request->getVal( 'goto' ) != 'mainpage' ) {
 			return true;
 		}
+
 		$dbstate = self::getDBState( $prefix );
 		if( !$dbstate ) {
 			return true;
 		}
 		if( $dbstate == 'existing' ) {
 			# redirect to the existing lang.wikiproject.org if it exists
-			$wgOut->redirect( self::getSubdomain( $prefix['lang'], $prefix['project'] ) );
-			return true;
+			$output->redirect( self::getSubdomain( $prefix['lang'], $prefix['project'] ) );
+			return false;
 		}
 		$params['redirectfrom'] = 'infopage';
-		$uselang = $wgRequest->getVal( 'uselang' );
+		$uselang = $request->getVal( 'uselang' );
 		if( $uselang ) {
 			# pass through the &uselang parameter
 			$params['uselang'] = $uselang;
@@ -610,7 +610,8 @@ class IncubatorTest {
 		$mainpage = self::getMainPage( $prefix['lang'], $prefix['prefix'] );
 		if( $mainpage->exists() ) {
 			# Only redirect to the main page if that page exists
-			$wgOut->redirect( $mainpage->getFullURL( $params ) );
+			$output->redirect( $mainpage->getFullURL( $params ) );
+			return false;
 		}
 		return true;
 	}
