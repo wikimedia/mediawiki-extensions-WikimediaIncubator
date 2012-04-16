@@ -130,6 +130,29 @@ pues [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la páxina] y siguir [[{{Me
 	'wminc-infopage-status-beforeincubator' => 'Esti proyeutu se creó enantes que principiara Wikimedia Incubator y ta disponible en $1.',
 );
 
+/** Kotava (Kotava)
+ * @author Wikimistusik
+ */
+$messages['avk'] = array(
+	'wminc-infopage-enter' => 'Fira va telu bupu',
+	'wminc-unknownlang' => '(megrupena avabeksa)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionary $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversity $1',
+	'wminc-infopage-option-sisterprojects-existing' => 'Va tis abdumimaks koe bata ava rotaneyal',
+	'wminc-infopage-option-sisterprojects-other' => 'Va ar abdumimaks koe bata ava rotaneyal',
+	'wminc-infopage-option-multilingual' => 'Va jonavafi wiki rofil',
+	'wminc-infopage-createmainpage' => 'Va "Emudexo" ravlem ke bata ava bazel :',
+	'wminc-infopage-contribute' => 'Ede va bata ava ul, gu webera zo bristul !',
+	'wminc-infopage-status-imported' => 'Bati Incubator wiki mal $1 kaiki budera va wiki zo kobureyer.',
+	'wminc-infopage-status-created' => 'Bat abdumimaks gan avaneda su zo vanovar nume dene $1 vere tir roderaykan.',
+	'wminc-infopage-status-beforeincubator' => 'Bat abdumimaks abdi bokara va Wikimedia Incubator zo reduyur nume dene $1 tir roderaykan.',
+);
+
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
  */
@@ -717,6 +740,22 @@ $messages['it'] = array(
 	'wminc-infopage-status-beforeincubator' => "Questo progetto è stato creato prima della nascita di Wikimedia Incubator ed è disponibile all'indirizzo $1.",
 );
 
+/** Khowar (کھوار)
+ * @author Rachitrali
+ */
+$messages['khw'] = array(
+	'wminc-infopage-enter' => 'آویلو صفحا بوغے',
+	'wminc-unknownlang' => 'نامعلوم زبانو کوڈ',
+	'wminc-infopage-title-p' => '$1 ویکیپیڈیا',
+	'wminc-infopage-title-b' => '$1 ویکی کتاب',
+	'wminc-infopage-title-t' => '$1 وکشنری',
+	'wminc-infopage-title-q' => '$1 ویکی اقتباس',
+	'wminc-infopage-title-n' => 'ویکی خبار $1',
+	'wminc-infopage-title-s' => 'ویکی سورس $1',
+	'wminc-infopage-title-v' => 'ویکی یونیورسٹی $1',
+	'wminc-infopage-welcome' => 'ویکیپیڈیا اینکوبیٹرا رحمت عزیز چترالی پساتے خوشان گیور ریران, ویکی میڈیا فاونڈیشن اوچے کھوار اکیڈمیو ای کھوار پروجیکٹ ([[{{MediaWiki:Aboutpage}}|About]])',
+);
+
 /** Korean (한국어)
  * @author Albamhandae
  */
@@ -1043,12 +1082,21 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 );
 
 /** Brazilian Portuguese (Português do Brasil)
+ * @author Jaideraf
  * @author MetalBrasil
  * @author Pedroca cerebral
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'wminc-infopage-enter' => 'Vá para a página principal',
-	'wminc-unknownlang' => '(língua desconhecida com código "$1")',
+	'wminc-unknownlang' => '(código de idioma desconhecido)',
+	'wminc-infopage-title-p' => 'Wikipédia em $1',
+	'wminc-infopage-title-b' => 'Wikilivros em $1',
+	'wminc-infopage-title-t' => 'Wikcionário em $1',
+	'wminc-infopage-title-q' => 'Wikiquote em $1',
+	'wminc-infopage-title-n' => 'Wikinotícias em $1',
+	'wminc-infopage-title-s' => 'Wikisource em $1',
+	'wminc-infopage-title-v' => 'Wikiversidade em $1',
 	'wminc-infopage-welcome' => 'Bem vindo à Wikimedia Incubator, um projeto da Wikimedia Fundation ([[{{MediaWiki:Aboutpage}}|Sobre]])',
 	'wminc-infopage-missingwiki-text' => 'Ainda não existe um projeto $1 nesta língua.',
 	'wminc-infopage-option-startwiki' => 'Se você quiser começar esta wiki, você pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir [[{{MediaWiki:Wminc-manual-url}}|nosso manual]].',
@@ -1059,7 +1107,7 @@ $messages['pt-br'] = array(
 	'wminc-infopage-option-multilingual' => 'Você pode ir a uma wiki multilíngue.',
 	'wminc-infopage-createmainpage' => 'Digite a palavra "Página principal" nesta língua.',
 	'wminc-infopage-contribute' => 'Se você conhece esta língua, você é convidado a contribuir!',
-	'wminc-infopage-status-imported' => 'Essa Incubator wiki foi importada de $1 depois que a wiki foi fechada.',
+	'wminc-infopage-status-imported' => 'Esse Incubator wiki foi importado de $1 depois que o wiki foi fechado.',
 	'wminc-infopage-status-closedsister' => 'Este subdomínio foi fechado. Vá a <b>$2</b> para contribuir nesta wiki.',
 	'wminc-infopage-status-created' => 'Esse projeto foi aprovado pela comitê linguístico e agora é avaliável em $1.',
 	'wminc-infopage-status-beforeincubator' => 'Esse projeto foi criado antes do inicio da Wikimedia Incubator e está avaliável em $1.',

@@ -370,6 +370,58 @@ $messages['ast'] = array(
 	'wminc-search-nocreate-suggest' => 'Ficisti una gueta de "$1". Pues crear una páxina na to wiki en "<b>[[$2]]</b>"!',
 );
 
+/** Kotava (Kotava)
+ * @author Wikimistusik
+ */
+$messages['avk'] = array(
+	'wminc-desc' => 'Weslara va wiki bolk tori Wikimedia Incubator',
+	'wminc-manual' => 'Kost',
+	'wminc-listwikis' => 'Vexala dem wiki',
+	'wminc-testwiki' => 'Weslara va wiki',
+	'wminc-testwiki-code' => 'Weslara va wiki ava',
+	'wminc-testwiki-none' => 'Mek / Kot',
+	'wminc-recentchanges-all' => 'Noeltaf betakseem',
+	'wminc-prefinfo-language' => 'Rinafa walasikifa ava - meruptesa va rinafi weslarafi wiki',
+	'wminc-prefinfo-code' => 'ISO 639 avabeksa',
+	'wminc-prefinfo-project' => 'Va Wikimedia abdumimaks rebal (Incubator ikatcuks tir tori giwebes favesik)',
+	'wminc-prefinfo-error' => 'Va abdumimaks olegas va avabeksa su rebal.',
+	'wminc-error-move-unprefixed' => 'ROKLA: Lagarrundanu bu van [[{{MediaWiki:Wminc-error-help}}|tir ostiskafu ik ostajakirafu]] !',
+	'wminc-error-wronglangcode' => "'''ROKLA :''' Batu bu va \"\$1\" [[{{MediaWiki:Wminc-error-help}}|avabeksaja]] ruldar !",
+	'wminc-error-unprefixed' => "'''ROKLA :''' Batu bu tir [[{{MediaWiki:Wminc-error-help}}|ostiskafu]]!",
+	'wminc-error-unprefixed-suggest' => "'''ROKLA :''' Batu bu tir [[{{MediaWiki:Wminc-error-help}}|ostiskafu]]! Va bu dene [[:$1]] roredul.",
+	'wminc-error-wiki-exists' => 'Bati wiki ixam krulder. Va batu bu dene $1 rotrasil. Ede bati wiki sure zo redur, vay kali koburera va varaf cek konakbartivon ok konakvielon kel.',
+	'wminc-error-wiki-sister' => 'Batu bu va arlize janden abdumimaks pasur. Vay ta trasira va wiki va $1 zomel.',
+	'randombytest' => 'Xuyavafu bu mal weslara va wiki',
+	'randombytest-nopages' => 'Meku bu dene rinafi wiki, koe yoltxo : $1.',
+	'wminc-viewuserlang' => 'Va favesikafa ava dizvel aze va wiki weslal',
+	'wminc-viewuserlang-user' => 'Favesikyolt :',
+	'wminc-viewuserlang-go' => 'Skú !',
+	'wminc-userdoesnotexist' => '"$1" favesik me tir.',
+	'wminc-ip' => '"$1" tir IP mane.',
+	'right-viewuserlang' => 'Wira va ava ke favesik is weslara va wiki',
+	'group-test-sysop' => 'Ristusik va weslarafi wiki',
+	'group-test-sysop-member' => '{{GENDER:$1ristusik va weslarafi wiki}}',
+	'grouppage-test-sysop' => '{{ns:project}}:ristusik va weslarafi wiki',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2ava|"$3" ava]] tir [[wikipedia:ISO 639 veyava|veyava]], nitesa va vlevefa bewafa ava :',
+	'wminc-code-collective' => '"$1" avabeksa va aptafa ava vols doda dem ava, yoltkirafa gu [[wikipedia:$2 language|"$3" languages]] vuester.',
+	'wminc-code-retired' => 'Bata avabeksa al zo betar nume va xantafa ava mea vuester.',
+	'wminc-listusers-testwiki' => 'Va favesik plekuyus va abdualbaks ton $1 dun wil.',
+	'wminc-search-nocreate-nopref' => 'Va "$1" aneyayal. Vay va [[Special:Preferences|abdualbaks va weslara va wiki]] plekul, batinde va toku roredunu bu pu rin rokalit !',
+	'wminc-search-nocreate-suggest' => 'Va "$1" su aneyal. Va bu ko rinafi wiki dene <b>[[$2]] roredul</b>!',
+	'wminc-searchwiki' => 'Aneyara va wiki',
+	'wminc-searchwiki-noproject' => 'Va mek abdumimaks su rebal',
+	'wminc-searchwiki-noresults' => 'Mek trasiks. Kare avabeksa rotaneyal, va omavaf yolt ik yolt koe rinafa walasikifa ava ik Englava.',
+	'wminc-searchwiki-selectproject' => 'Aneyara va',
+	'wminc-searchwiki-inputlanguage' => 'Koe ava :',
+	'wminc-searchwiki-go' => 'Skú !',
+	'wminc-searchwiki-multiplematches' => 'Va erk koe bata ava aneyal :',
+	'wminc-searchwiki-match-langcode' => '"$1" tir ISO 639 avabeksa ke $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 tir avayolt.',
+	'wminc-searchwiki-match-englishname' => '"$1" tir yolt ke $2 englavon.',
+	'wminc-searchwiki-match-nativename' => '"$1" tir yolt ke $2 koe bata ava.',
+	'wminc-searchwiki-gotoinfopage' => 'Givabu',
+);
+
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
  */
@@ -1633,6 +1685,7 @@ $messages['it'] = array(
 	'wminc-code-collective' => 'Il codice "$1" non fa riferimento a un linguaggio specifico, ma a un insieme di lingue, vedi [[wikipedia:$2 language|lingue "$3"]].',
 	'wminc-code-retired' => 'Questo codice lingua è stato modificato e non si riferisce più alla lingua originale.',
 	'wminc-search-nocreate-suggest' => 'Hai effettuato una ricerca per "$1". Si può creare una pagina nella tua wiki a <b>[[$2]]</b>!',
+	'wminc-searchwiki-go' => 'Vai',
 );
 
 /** Japanese (日本語)
