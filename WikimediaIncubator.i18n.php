@@ -1692,6 +1692,7 @@ $messages['it'] = array(
  * @author Aotake
  * @author Fryed-peach
  * @author Marine-Blue
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -1723,12 +1724,19 @@ $messages['ja'] = array(
 	'group-test-sysop' => '試験版ウィキ管理者',
 	'group-test-sysop-member' => '{{GENDER:$1|試験版ウィキ管理者}}',
 	'grouppage-test-sysop' => '{{ns:project}}:試験版ウィキ管理者',
+	'group-test-sysop.css' => '/* テスト wiki 管理者のみに影響する CSS をここに記述 */',
+	'group-test-sysop.js' => '/* テスト wiki 管理者のみに影響する JS をここに記述 */',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|$3]]は[[wikipedia:ISO 639 macrolanguage|マクロランゲージ]]で、下記の言語から構成されます。',
 	'wminc-code-collective' => 'コード "$1" は特定の言語を指すわけではなく、言語の集合、すなわち[[wikipedia:$2 language|$3群]]を指します。',
 	'wminc-code-retired' => 'この言語コードには変更があり、元の言語を指さないようになりました。',
 	'wminc-listusers-testwiki' => 'あなたは試験版ウィキの設定を $1 にしている利用者を表示しています。',
 	'wminc-search-nocreate-nopref' => 'あなたは「$1」を検索しました。どのページを作成できるのか、あなたに知らせられるように[[Special:Preferences|試験版ウィキの設定]]を行ってください。',
 	'wminc-search-nocreate-suggest' => 'あなたは「$1」を検索しました。あなたはこのウィキで<b>[[$2]]</b>を作成できます。',
+	'wminc-searchwiki' => 'wiki を検索',
+	'wminc-searchwiki-noproject' => 'プロジェクトを選択しませんでした。',
+	'wminc-searchwiki-selectproject' => '検索対象:',
+	'wminc-searchwiki-inputlanguage' => '以下の言語で:',
+	'wminc-searchwiki-gotoinfopage' => '情報ページ',
 );
 
 /** Jamaican Creole English (Patois)

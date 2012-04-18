@@ -740,6 +740,13 @@ $messages['it'] = array(
 	'wminc-infopage-status-beforeincubator' => "Questo progetto è stato creato prima della nascita di Wikimedia Incubator ed è disponibile all'indirizzo $1.",
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'wminc-unknownlang' => '(不明な言語コード)',
+);
+
 /** Khowar (کھوار)
  * @author Rachitrali
  */
@@ -1082,10 +1089,10 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 );
 
 /** Brazilian Portuguese (Português do Brasil)
+ * @author 555
  * @author Jaideraf
  * @author MetalBrasil
  * @author Pedroca cerebral
- * @author 555
  */
 $messages['pt-br'] = array(
 	'wminc-infopage-enter' => 'Vá para a página principal',
