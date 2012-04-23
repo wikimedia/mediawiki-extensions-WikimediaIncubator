@@ -2187,6 +2187,7 @@ $messages['mn'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Shantanoo
  * @author संतोष दहिवळ
  */
 $messages['mr'] = array(
@@ -2198,7 +2199,7 @@ $messages['mr'] = array(
 	'wminc-testwiki-none' => 'काही नाहि/सर्व',
 	'wminc-recentchanges-all' => 'सर्व अलीकडील बदल',
 	'wminc-prefinfo-code' => 'आय.एस.ओ. ६३९ भाषा संकेतोक',
-	'wminc-prefinfo-project' => 'विकिमीडिया सहप्रकल्प निवडा (उष्णयंत्र पर्याय सामान्य काम करणार्या वापरकर्त्यांसाठी आहे.)',
+	'wminc-prefinfo-project' => 'विकिमीडिया प्रकल्प निवडा (उबवण पात्र पर्याय सामान्य काम करणाऱ्या सदस्यांसाठी आहे)',
 	'wminc-prefinfo-error' => 'आपण निवडलेल्या प्रकल्पाला भाषा संकेतांकाची जरूरी आहे.',
 );
 
