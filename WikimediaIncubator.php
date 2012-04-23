@@ -15,7 +15,7 @@ if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWik
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
-	'author' => 'SPQRobin',
+	'author' => array( 'SPQRobin', 'Hydriz'),
 	'version' => '5.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
