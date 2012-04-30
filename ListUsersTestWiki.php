@@ -38,12 +38,12 @@ class ListUsersTestWiki {
 	static function onSpecialListusersHeader( $pager, &$out ) {
 		$project = self::getProjectInput();
 		if( $project ) {
-			$out .= wfMessage( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parse();
+			$out .= wfMessage( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parseAsBlock();
 		} else {
 			$testwiki = IncubatorTest::getUrlParam();
 			if ( $testwiki ) {
 				$link = Linker::linkKnown( Title::newFromText( $testwiki['prefix'] ) );
-				$out .= wfMessage( 'wminc-listusers-testwiki', $link )->parse();
+				$out .= wfMessage( 'wminc-listusers-testwiki' )->rawParams( $link )->parseAsBlock();
 			}
 		}
 		return true;
