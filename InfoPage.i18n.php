@@ -744,7 +744,26 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'wminc-infopage-enter' => 'メインページに戻る',
 	'wminc-unknownlang' => '(不明な言語コード)',
+	'wminc-infopage-title-p' => 'ウィキペディア$1',
+	'wminc-infopage-title-b' => 'ウィキブックス$1',
+	'wminc-infopage-title-t' => 'ウィクショナリー$1',
+	'wminc-infopage-title-q' => 'ウィキクォート$1',
+	'wminc-infopage-title-n' => 'ウィキニュース$1',
+	'wminc-infopage-title-s' => 'ウィキソース$1',
+	'wminc-infopage-title-v' => 'ウィキバーシティ$1',
+	'wminc-infopage-welcome' => 'ウィキペディアインキュベーターにようこそ。これはウィキメディア財団([[{{MediaWiki:Aboutpage}}|About]])のプロジェクトです',
+	'wminc-infopage-missingwiki-text' => 'この言語の$1はまだありません。',
+	'wminc-infopage-option-startwiki' => 'このウィキを開始したい場合は、
+[{{fullurl:{{FULLPAGENAME}}|action=edit}} ページを作成]し、[[{{MediaWiki:Wminc-manual-url}}|マニュアル]]に従ってください。',
+	'wminc-infopage-option-languages-existing' => '[//www.$1.org 既存の言語版の$1]を検索できます。',
+	'wminc-infopage-option-multilingual' => '多言語のウィキを利用できます：',
+	'wminc-infopage-createmainpage' => '"Main Page" をこの言語で入力してください：',
+	'wminc-infopage-contribute' => 'この言語を知っている場合は、貢献することをお勧めします！',
+	'wminc-infopage-status-imported' => 'このインキュベーターウィキは、ウィキの閉鎖後に $1 から取り込まれました。',
+	'wminc-infopage-status-closedsister' => 'このサブドメインは閉鎖されました。このウィキに貢献するにはこちら：<b>$2</b>',
+	'wminc-infopage-status-beforeincubator' => 'このプロジェクトはウィキメディアインキュベーターの開始以前に作成されました。$1 で利用できます。',
 );
 
 /** Khowar (کھوار)

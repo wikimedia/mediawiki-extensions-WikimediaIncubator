@@ -612,6 +612,8 @@ $messages['br'] = array(
 	'wminc-listusers-testwiki' => "O sellet ouzh roll an implijerien o deus dibabet $1 en o wiki arnod emaoc'h.",
 	'wminc-search-nocreate-nopref' => "Klasket hoc'h eus \"\$1\". Trugarez da gempenn [[Special:Preferences|penndibaboù ar wiki arnod]] evit ma c'hallfemp bezañ goeust da lavaret deoc'h pe bajenn a c'hallit krouiñ !",
 	'wminc-search-nocreate-suggest' => 'Klasket hoc\'h eus "$1". Ur bajenn a c\'hallit krouiñ en ho wiki e <b>[[$2]]</b> !',
+	'wminc-searchwiki-selectproject' => 'Klask :',
+	'wminc-searchwiki-go' => 'Mont',
 );
 
 /** Bosnian (Bosanski)
@@ -1696,7 +1698,7 @@ $messages['it'] = array(
  * @author 青子守歌
  */
 $messages['ja'] = array(
-	'wminc-desc' => 'ウィキメディア・インキュベーター用の試験版ウィキシステム',
+	'wminc-desc' => 'ウィキメディアインキュベーター用の試験版ウィキシステム',
 	'wminc-manual' => 'マニュアル',
 	'wminc-listwikis' => 'ウィキの一覧',
 	'wminc-testwiki' => '試験版ウィキ:',
@@ -1720,7 +1722,7 @@ $messages['ja'] = array(
 	'wminc-viewuserlang-go' => '表示',
 	'wminc-userdoesnotexist' => '利用者アカウント「$1」は存在しません。',
 	'wminc-ip' => '「$1」はIPアドレスです。',
-	'right-viewuserlang' => '利用者言語と試験版ウィキを見る',
+	'right-viewuserlang' => '利用者の言語と試験版ウィキを閲覧',
 	'group-test-sysop' => '試験版ウィキ管理者',
 	'group-test-sysop-member' => '{{GENDER:$1|試験版ウィキ管理者}}',
 	'grouppage-test-sysop' => '{{ns:project}}:試験版ウィキ管理者',
@@ -1734,8 +1736,15 @@ $messages['ja'] = array(
 	'wminc-search-nocreate-suggest' => 'あなたは「$1」を検索しました。あなたはこのウィキで<b>[[$2]]</b>を作成できます。',
 	'wminc-searchwiki' => 'wiki を検索',
 	'wminc-searchwiki-noproject' => 'プロジェクトを選択しませんでした。',
+	'wminc-searchwiki-noresults' => '結果はありません。言語コード、ネイティブ名、あなたのインターフェイス言語での名前、英語のいずれかで検索できます。',
 	'wminc-searchwiki-selectproject' => '検索対象:',
 	'wminc-searchwiki-inputlanguage' => '以下の言語で:',
+	'wminc-searchwiki-go' => '実行',
+	'wminc-searchwiki-multiplematches' => '検索の結果、以下の言語に一致しました：',
+	'wminc-searchwiki-match-langcode' => '"$1" は、$2 の ISO 639 言語コードです。',
+	'wminc-searchwiki-match-userlangname' => '$1 は言語名です。',
+	'wminc-searchwiki-match-englishname' => '"$1" は $2 の英語での名前です。',
+	'wminc-searchwiki-match-nativename' => '"$1" は $2 のその言語での名前です。',
 	'wminc-searchwiki-gotoinfopage' => '情報ページ',
 );
 
@@ -2165,6 +2174,7 @@ $messages['ml'] = array(
 	'wminc-code-collective' => '"$1" എന്ന കോഡ് ഒരു പ്രത്യേക ഭാഷയെ പ്രതിനിധീകരിക്കുന്നില്ല, മറിച്ച് [[wikipedia:$2 language|"$3" ഭാഷകൾ]] എന്ന ഒരു കൂട്ടം ഭാഷകളാണ്.',
 	'wminc-code-retired' => 'ഈ ഭാഷാ കോഡ് മാറിയിരിക്കുന്നു, യഥാർത്ഥ ഭാഷയെ അത് പ്രതിനിധീകരിക്കുന്നില്ല.',
 	'wminc-listusers-testwiki' => 'തങ്ങളുടെ പരീക്ഷണവിക്കി ക്രമീകരണങ്ങൾ $1 ആയി സജ്ജീകരിച്ചിട്ടുള്ള ഉപയോക്താക്കളെയാണ് താങ്കൾ കാണുന്നത്.',
+	'wminc-search-nocreate-suggest' => 'താങ്കൾ തിരഞ്ഞത് "$1" എന്നതിനാണ്. താങ്കളുടെ വിക്കിയിൽ <b>[[$2]]</b> എന്ന താൾ താങ്കൾക്ക് സൃഷ്ടിക്കാവുന്നതാണ്!',
 	'wminc-searchwiki' => 'വിക്കിയ്ക്കായി തിരയുക',
 	'wminc-searchwiki-noproject' => 'താങ്കളൊരു പദ്ധതി തിരഞ്ഞെടുത്തിട്ടില്ല.',
 	'wminc-searchwiki-selectproject' => 'ഇതു കണ്ടെത്തുക:',
@@ -3465,11 +3475,15 @@ $messages['vi'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'wminc-listwikis' => 'ליסטע פון וויקיס',
 	'wminc-testwiki' => 'פרווו וויקי',
 	'wminc-testwiki-code' => 'פרואוו וויקי שפראך:',
 	'wminc-testwiki-none' => 'קיינע/אלע',
+	'wminc-recentchanges-all' => 'אלע לעצטיקע ענדערונגען',
 	'wminc-viewuserlang-user' => 'באַניצער נאָמען:',
 	'wminc-viewuserlang-go' => 'גיין',
+	'wminc-userdoesnotexist' => 'נישט פאראן קיין באניצער "$1".',
+	'wminc-ip' => '"$1" איז אן IP אדרעס.',
 );
 
 /** Cantonese (粵語)
