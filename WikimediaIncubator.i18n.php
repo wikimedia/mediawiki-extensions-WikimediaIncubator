@@ -1657,12 +1657,14 @@ $messages['ig'] = array(
  * @author HalphaZ
  * @author Melos
  * @author OrbiliusMagister
+ * @author Ximo17
  */
 $messages['it'] = array(
 	'wminc-desc' => 'Sistema wiki di test per Wikimedia Incubator',
 	'wminc-manual' => 'Guida',
 	'wminc-listwikis' => 'Elenco di wiki',
 	'wminc-testwiki' => 'Test wiki:',
+	'wminc-testwiki-code' => 'Lingua del wiki di prova:',
 	'wminc-testwiki-none' => 'Nessuno/Tutti',
 	'wminc-recentchanges-all' => 'Tutte le modifiche recenti',
 	'wminc-prefinfo-language' => "La lingua dell'interfaccia - indipendente dal tuo wiki di test",
@@ -1683,11 +1685,19 @@ $messages['it'] = array(
 	'wminc-userdoesnotexist' => 'L\'utente "$1" non esiste.',
 	'wminc-ip' => '"$1" è un indirizzo IP.',
 	'right-viewuserlang' => 'Visualizza il linguaggio utente e prova il wiki',
+	'group-test-sysop' => 'Amministratori del wiki di prova',
+	'group-test-sysop-member' => '{{GENDER:$1|amministratore|amministratrice|amministratore/trice}} del wiki di prova',
+	'grouppage-test-sysop' => '{{ns:project}}:Amministratori del wiki di prova',
 	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 language|lingua "$3"]] è una [[wikipedia:ISO 639 macrolanguage|macrolingua]], composta dalle seguenti lingue:',
 	'wminc-code-collective' => 'Il codice "$1" non fa riferimento a un linguaggio specifico, ma a un insieme di lingue, vedi [[wikipedia:$2 language|lingue "$3"]].',
 	'wminc-code-retired' => 'Questo codice lingua è stato modificato e non si riferisce più alla lingua originale.',
+	'wminc-listusers-testwiki' => 'Stai vedendo gli utenti che hanno impostato la preferenza del wiki di prova su $1.',
+	'wminc-search-nocreate-nopref' => 'Hai effettuato una ricerca per "$1". Si prega di impostare le [[Special:Preferences|preferenze del wiki di prova]] così possiamo dirti quale pagina puoi creare!',
 	'wminc-search-nocreate-suggest' => 'Hai effettuato una ricerca per "$1". Si può creare una pagina nella tua wiki a <b>[[$2]]</b>!',
+	'wminc-searchwiki-noproject' => 'Non è stato selezionato alcun progetto.',
+	'wminc-searchwiki-noresults' => "Nessun risultato. È possibile cercare per codici di lingua, nomi originari e nomi nella vostra lingua d'interfaccia o in inglese.",
 	'wminc-searchwiki-go' => 'Vai',
+	'wminc-searchwiki-multiplematches' => 'La tua ricerca ha trovato le seguenti lingue:',
 );
 
 /** Japanese (日本語)
