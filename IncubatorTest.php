@@ -87,13 +87,12 @@ class IncubatorTest {
 
 	/**
 	 * This validates a full prefix in a given title.
-	 * Do not include namespaces!
 	 * It gives an array with the project and language code, containing
 	 * the key 'error' if it is invalid.
 	 * Use validatePrefix() if you just want true or false.
-	 * Use displayPrefixedTitle() to make a prefix page title!
+	 * Use displayPrefixedTitle() to make a prefix page title.
 	 *
-	 * @param $title String The given title (often $wgTitle->getText() )
+	 * @param $input Title|String The title to check (if string, don't include namespace)
 	 * @param $onlyInfoPage Bool Whether to validate only the prefix, or
 	 * also allow other text within the page title (Wx/xxx vs Wx/xxx/Text)
 	 * @param $allowSister Bool Whether to allow sister projects when checking
@@ -101,8 +100,21 @@ class IncubatorTest {
 	 * @return Array with 'error' or 'project', 'lang', 'prefix' and
 	 *					optionally 'realtitle'
 	 */
-	static function analyzePrefix( $title, $onlyInfoPage = false, $allowSister = false ) {
+	static function analyzePrefix( $input, $onlyInfoPage = false, $allowSister = false ) {
 		$data = array( 'error' => null );
+		if( is_object( $input ) ) {
+			global $wmincTestWikiNamespaces;
+			$title = $input->getText();
+			if( !in_array( $input->getNamespace(), $wmincTestWikiNamespaces ) ) {
+				return array( 'error' => 'notestwikinamespace' );
+			}
+			if( $onlyInfoPage && $input->getNamespace() != NS_MAIN ) {
+				# Info pages are only in the main NS
+				return array( 'error' => 'nomainnamespace' );
+			}
+		} else {
+			$title = $input;
+		}
 		# split title into parts
 		$titleparts = explode( '/', $title );
 		if( !is_array( $titleparts ) || !isset( $titleparts[1] ) ) {
@@ -612,6 +624,21 @@ class IncubatorTest {
 			# Only redirect to the main page if that page exists
 			$output->redirect( $mainpage->getFullURL( $params ) );
 			return false;
+		}
+		return true;
+	}
+
+	/**
+	 * Valid Wx/xyz info pages should be considered as existing pages
+	 * Note: TitleIsAlwaysKnown hook exists since 1.20
+	 * @param $title Title
+	 * @param $isKnown
+	 * @return Boolean
+	 */
+	 public static function onTitleIsAlwaysKnown( $title, &$isKnown ) {
+		$prefix = self::analyzePrefix( $title, true, true );
+		if( !$prefix['error'] ) {
+			$isKnown = true;
 		}
 		return true;
 	}

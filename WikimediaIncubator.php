@@ -132,6 +132,7 @@ $wgExtensionMessagesFiles['InfoPage'] = $dir . 'InfoPage.i18n.php';
 $wgHooks['ShowMissingArticle'][] = 'IncubatorTest::onShowMissingArticle';
 $wgHooks['EditFormPreloadText'][] = 'IncubatorTest::onEditFormPreloadText';
 $wgHooks['MediaWikiPerformAction'][] = 'IncubatorTest::onMediaWikiPerformAction';
+$wgHooks['TitleIsAlwaysKnown'][] = 'IncubatorTest::onTitleIsAlwaysKnown';
 
 $wgResourceModules['WikimediaIncubator.InfoPage'] = array(
 	'styles' => 'InfoPage.css',
