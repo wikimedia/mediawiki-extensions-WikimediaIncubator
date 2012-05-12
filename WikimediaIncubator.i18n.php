@@ -168,7 +168,7 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-searchwiki-gotoinfopage' => 'Link text to go to the Wx/xyz info page',
 );
 
-/** адыгэбзэ (адыгэбзэ)
+/** Адыгэбзэ (Адыгэбзэ)
  * @author Celekan
  */
 $messages['ady-cyrl'] = array(
@@ -368,6 +368,18 @@ $messages['ast'] = array(
 	'wminc-listusers-testwiki' => "Tas viendo la llista d'usuarios que seleicionaron la preferencia $1 pa la so wiki de pruebes.",
 	'wminc-search-nocreate-nopref' => 'Ficisti una gueta de "$1". ¡Configura les tos [[Special:Preferences|preferencies de la wiki de pruebes]] de manera que podamos dicite qué páxina pues crear!',
 	'wminc-search-nocreate-suggest' => 'Ficisti una gueta de "$1". Pues crear una páxina na to wiki en "<b>[[$2]]</b>"!',
+	'wminc-searchwiki' => 'Guetar una wiki',
+	'wminc-searchwiki-noproject' => 'Nun seleicionasti dengún proyeutu.',
+	'wminc-searchwiki-noresults' => "Nun hai resultaos. Pues guetar por códigos de llingua, nomes nativos y nomes na llingua de la to interfaz o n'inglés.",
+	'wminc-searchwiki-selectproject' => 'Buscar:',
+	'wminc-searchwiki-inputlanguage' => 'Na llingua:',
+	'wminc-searchwiki-go' => 'Dir',
+	'wminc-searchwiki-multiplematches' => 'La gueta casa coles llingües siguientes:',
+	'wminc-searchwiki-match-langcode' => '"$1" ye\'l códigu de llingua ISO 639 pa $2.',
+	'wminc-searchwiki-match-userlangname' => "$1 ye'l nome d'una llingua.",
+	'wminc-searchwiki-match-englishname' => '"$1" ye\'l nome de $2 n\'inglés.',
+	'wminc-searchwiki-match-nativename' => '"$1" ye\'l nome de "$2" nesa llingua.',
+	'wminc-searchwiki-gotoinfopage' => "páxina d'información",
 );
 
 /** Kotava (Kotava)
@@ -794,9 +806,28 @@ $messages['de-formal'] = array(
  * @author Mirzali
  */
 $messages['diq'] = array(
+	'wminc-manual' => 'Rehber',
+	'wminc-listwikis' => 'Listey wikiyan',
+	'wminc-testwiki' => 'Test wiki:',
+	'wminc-testwiki-code' => 'Zuwano ke bıcerbneyo:',
+	'wminc-testwiki-none' => 'Teba nê/Pêron',
+	'wminc-recentchanges-all' => 'Vurnayışê peyêni pêro',
 	'wminc-prefinfo-language' => 'Temay zuwani- test wiki ra xoseri ya.',
+	'wminc-prefinfo-code' => "Kodê ISO 639'i",
 	'wminc-viewuserlang-user' => 'Namey karberi:',
 	'wminc-viewuserlang-go' => 'Şo',
+	'wminc-ip' => '"$1" jew IP adresiyo.',
+	'wminc-searchwiki' => 'Wikidı cıgeyrê',
+	'wminc-searchwiki-noproject' => 'Xorê proce me weçinê.',
+	'wminc-searchwiki-selectproject' => 'Bıgeyrê:',
+	'wminc-searchwiki-inputlanguage' => 'Zuwanê cı:',
+	'wminc-searchwiki-go' => 'Şo',
+	'wminc-searchwiki-multiplematches' => 'Şımayê kanci zuwandı geyrenê çi:',
+	'wminc-searchwiki-match-langcode' => '"$1" zuwan kodê ISO 639  $2\'o.',
+	'wminc-searchwiki-match-userlangname' => "$1' eno/ena zuwandeyo.",
+	'wminc-searchwiki-match-englishname' => 'Namey "$1"\'i zuwando bindı $2 zazakiyo.',
+	'wminc-searchwiki-match-nativename' => 'Namay "$1"\'i zuwando bindı $2\'o(a)',
+	'wminc-searchwiki-gotoinfopage' => 'Peyaya destegi',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -1884,12 +1915,13 @@ $messages['ku-latn'] = array(
 /** Cornish (Kernowek)
  * @author Kernoweger
  * @author Kw-Moon
+ * @author Nrowe
  */
 $messages['kw'] = array(
 	'wminc-testwiki-none' => 'Nagonen/Oll',
-	'wminc-prefinfo-code' => 'Coden ISO 639 an yeth',
-	'wminc-viewuserlang-user' => 'Hanow-usyer:',
-	'wminc-viewuserlang-go' => 'Ke',
+	'wminc-prefinfo-code' => 'Koden ISO 639 an yeth',
+	'wminc-viewuserlang-user' => 'Hanow usyer:',
+	'wminc-viewuserlang-go' => 'Mos',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -2127,6 +2159,8 @@ $messages['mk'] = array(
 	'group-test-sysop' => 'Администратори на пробно вики',
 	'group-test-sysop-member' => '{{GENDER:$1|администратор на пробно вики}}',
 	'grouppage-test-sysop' => '{{ns:project}}:Администратори на пробни викија',
+	'group-test-sysop.css' => '/* Тука поставениот CSS ќе се применува само врз администраторите на пробно вики */',
+	'group-test-sysop.js' => '/* Тука поставениот JS ќе се применува само врз администраторите на пробно вики */',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Јазикот „$3“]] е [[wikipedia:ISO 639 macrolanguage|макројазик]], кој се состои од следниве јазици:',
 	'wminc-code-collective' => 'Кодот „$1“ не се однесува на поединечен јазик, туку на збирот јазици наречен [[wikipedia:$2 language|„$3“ јазици]].',
 	'wminc-code-retired' => 'Овој јазичен код е изменет и повеќе не се однесува на првоназначениот јазик.',
@@ -2471,6 +2505,13 @@ $messages['pdc'] = array(
 	'wminc-viewuserlang-go' => 'Hole',
 );
 
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'wminc-searchwiki-inputlanguage' => 'Inde Schbrooch:',
+);
+
 /** Polish (Polski)
  * @author BeginaFelicysym
  * @author Leinad
@@ -2510,8 +2551,17 @@ $messages['pl'] = array(
 	'wminc-code-collective' => 'Kod „$1“ nie odnosi się do jednego języka, a do kolekcji języków – [[wikipedia:$2 language|$3]].',
 	'wminc-code-retired' => 'Ten kod języka został zmieniony i nie odnosi się do wcześniej przypisanego mu języka.',
 	'wminc-listusers-testwiki' => 'Przeglądasz użytkowników, którzy ustawili w swoich preferencjach testową wiki na $1.',
+	'wminc-searchwiki-noproject' => 'Nie wybrano projektu.',
+	'wminc-searchwiki-noresults' => 'Brak wyników. Można wyszukiwać według kodów języka, macierzystych nazw w języku interfejsu lub angielskim.',
 	'wminc-searchwiki-selectproject' => 'Wyszukaj:',
+	'wminc-searchwiki-inputlanguage' => 'W języku:',
+	'wminc-searchwiki-go' => 'Przejdź',
 	'wminc-searchwiki-multiplematches' => 'Wyszukiwania pasuje do następujących języków:',
+	'wminc-searchwiki-match-langcode' => '" $1 " jest kodem języka: $2 w standardzie ISO 639.',
+	'wminc-searchwiki-match-userlangname' => '$1 jest nazwą języka.',
+	'wminc-searchwiki-match-englishname' => '" $1 " jest nazwą  $2  w języku angielskim.',
+	'wminc-searchwiki-match-nativename' => '" $1 " jest nazwą  $2  w tym języku.',
+	'wminc-searchwiki-gotoinfopage' => 'strony informacyjnej',
 );
 
 /** Piedmontese (Piemontèis)
@@ -2627,6 +2677,7 @@ $messages['pt'] = array(
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
+ * @author Jaideraf
  * @author MetalBrasil
  * @author Pedroca cerebral
  */
@@ -2646,8 +2697,8 @@ $messages['pt-br'] = array(
 	'wminc-error-wronglangcode' => "'''Erro:''' Esta página contém um [[{{MediaWiki:Wminc-error-help}}|código de linguagem errado]] \"\$1\"!",
 	'wminc-error-unprefixed' => "'''Erro:''' Esta página é [[{{MediaWiki:Wminc-error-help}}|aprefixada]]!",
 	'wminc-error-unprefixed-suggest' => "'''Erro:''' Esta página é [[{{MediaWiki:Wminc-error-help}}|aprefixada]]! Você pode criar uma página em [[:$1]].",
-	'wminc-error-wiki-exists' => 'Esta wiki já existe. Encontra esta página em $1. Se a wiki foi criada recentemente, aguarde algumas horas ou dias até que todo o conteúdo seja importado.',
-	'wminc-error-wiki-sister' => 'Essa página pertence a um projeto que não está hospedado aqui. Por favor, vá para $1 para achar a wiki.',
+	'wminc-error-wiki-exists' => 'Este wiki já existe. Encontre esta página em $1. Se o wiki foi criado recentemente, aguarde algumas horas ou dias até que todo o conteúdo seja importado.',
+	'wminc-error-wiki-sister' => 'Essa página pertence a um projeto que não está hospedado aqui. Por favor, vá para $1 para achar o wiki.',
 	'randombytest' => 'Página aleatória da wiki de testes',
 	'randombytest-nopages' => 'Não há páginas em sua wiki de testes no domínio: $1',
 	'wminc-viewuserlang' => 'Procurar idioma do utilizador e wiki de teste',
@@ -3036,6 +3087,18 @@ $messages['sl'] = array(
 	'wminc-listusers-testwiki' => 'Ogledujete si uporabnike, ki so nastavili svojo nastavitev preizkusnega wikija na $1.',
 	'wminc-search-nocreate-nopref' => 'Iskali ste »$1«. Prosimo, nastavite svoje [[Special:Preferences|nastavitve preizkusnega wikija]], tako da vam lahko povemo, katere strani lahko ustvarite!',
 	'wminc-search-nocreate-suggest' => 'Iskali ste »$1«. Ustvarite lahko stran v vašem wikiju na <b>[[$2]]</b>!',
+	'wminc-searchwiki' => 'Iskanje wikija',
+	'wminc-searchwiki-noproject' => 'Niste izbrali projekta.',
+	'wminc-searchwiki-noresults' => 'Ni zadetkov. Iščete lahko po kodah jezika, lokalnih imenih in imenih v vašem jeziku vmesnika ali angleščini.',
+	'wminc-searchwiki-selectproject' => 'Išči:',
+	'wminc-searchwiki-inputlanguage' => 'V jeziku:',
+	'wminc-searchwiki-go' => 'Pojdi',
+	'wminc-searchwiki-multiplematches' => 'Vaše iskanje se ujema z naslednjimi jeziki:',
+	'wminc-searchwiki-match-langcode' => '»$1« je koda jezika ISO 639 za jezik $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 je ime jezika.',
+	'wminc-searchwiki-match-englishname' => '»$1« je ime jezika $2 v angleščini.',
+	'wminc-searchwiki-match-nativename' => '»$1« je ime jezika $2 v tem jeziku.',
+	'wminc-searchwiki-gotoinfopage' => 'stran z informacijami',
 );
 
 /** Albanian (Shqip) */
@@ -3261,7 +3324,7 @@ $messages['tg-cyrl'] = array(
 	'wminc-viewuserlang-go' => 'Рав',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -3416,7 +3479,7 @@ $messages['uk'] = array(
 	'wminc-search-nocreate-suggest' => 'Ви шукали "$1". Можете створити сторінку <b>[[$2]]</b>!',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
