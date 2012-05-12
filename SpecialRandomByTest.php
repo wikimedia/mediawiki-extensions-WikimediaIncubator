@@ -10,8 +10,8 @@
 
 class SpecialRandomByTest extends RandomPage {
 	public function __construct() {
-		global $wgUser, $wgRequest, $wmincPref, $wmincProjectSite;
-		$target = $wgRequest->getVal( 'testwiki' );
+		global $wmincPref, $wmincProjectSite;
+		$target = $this->getRequest()->getVal( 'testwiki' );
 		$target = IncubatorTest::analyzePrefix( $target );
 		$project = isset( $target['project'] ) ? $target['project'] : '';
 		$lang = isset( $target['lang'] ) ? $target['lang'] : '';
@@ -19,7 +19,7 @@ class SpecialRandomByTest extends RandomPage {
 			$dbr = wfGetDB( DB_SLAVE );
 			$this->extra[] = 'page_title' .
 				$dbr->buildLike( IncubatorTest::displayPrefix( $project, $lang ) . '/', $dbr->anyString() );
-		} elseif( $wgUser->getOption($wmincPref . '-project') == $wmincProjectSite['short'] ) {
+		} elseif( $this->getUser()->getOption( $wmincPref . '-project' ) == $wmincProjectSite['short'] ) {
 			# project or help namespace
 			$this->extra['page_namespace'] = array( 4, 12 );
 		}

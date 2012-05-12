@@ -16,15 +16,12 @@ class SpecialMyMainPage extends UnlistedSpecialPage {
 	}
 
 	public function execute( $par ) {
-		global $wgOut;
-
 		$title = '';
 		$params = array();
 
 		if( IncubatorTest::isContentProject() ) {
-			global $wgRequest;
 			$title = Title::newFromText( IncubatorTest::displayPrefix() );
-			if( $wgRequest->getVal( 'goto' ) != 'infopage' ) {
+			if( $this->getRequest()->getVal( 'goto' ) != 'infopage' ) {
 				$params['goto'] = 'mainpage';
 			}
 			$url = IncubatorTest::getUrlParam();
@@ -38,6 +35,6 @@ class SpecialMyMainPage extends UnlistedSpecialPage {
 			$title = Title::newMainPage();
 		}
 
-		$wgOut->redirect( $title->getLocalURL( $params ) );
+		$this->getOutput()->redirect( $title->getLocalURL( $params ) );
 	}
 }
