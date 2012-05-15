@@ -26,16 +26,14 @@ class SpecialViewUserLang extends SpecialPage {
 	 * @param $subpage Mixed: parameter passed to the page or null
 	 */
 	public function execute( $subpage ) {
-		global $wgRequest, $wgUser;
-
 		$this->setHeaders();
 
-		if ( !$wgUser->isAllowed( 'viewuserlang' ) ) {
+		if ( !$this->getUser()->isAllowed( 'viewuserlang' ) ) {
 			$this->displayRestrictionError();
 			return;
 		}
 
-		$target = $wgRequest->getText( 'target', $subpage );
+		$target = $this->getRequest()->getText( 'target', $subpage );
 
 		$this->showForm( $target );
 
@@ -49,9 +47,9 @@ class SpecialViewUserLang extends SpecialPage {
 	 * @param $target Mixed: user whose language and test wiki we're about to look up
 	 */
 	function showForm( $target ) {
-		global $wgScript, $wgOut;
+		global $wgScript;
 
-		$wgOut->addHTML(
+		$this->getOutput()->addHTML(
 			Xml::fieldset( wfMessage( 'wminc-viewuserlang' )->plain() ) .
 			Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) ) .
 			Html::hidden( 'title', $this->getTitle()->getPrefixedText() ) .
@@ -70,19 +68,19 @@ class SpecialViewUserLang extends SpecialPage {
 	 * @param $target Mixed: user whose language and test wiki we're looking up
 	 */
 	function showInfo( $target ) {
-		global $wgOut, $wmincPref, $wmincProjectSite;
-		if( User::isIP( $target ) ) {
-			# show error if it is an IP address
-			$wgOut->addHTML( Xml::span( wfMessage( 'wminc-ip', $target )->text(), 'error' ) );
+		global $wmincPref, $wmincProjectSite;
+		$user = User::newFromName( $target );
+		if( User::isIP( $target ) || !$user ) {
+			# show error if it is an IP address, or another error occurs
+			$this->getOutput()->addHTML( Xml::span( wfMessage( 'wminc-ip', $target )->text(), 'error' ) );
 			return;
 		}
-		$user = User::newFromName( $target );
 		$name = $user->getName();
 		$id = $user->getId();
-		$langNames = Language::getLanguageNames();
+		$langNames = Language::fetchLanguageNames( $this->getLanguage()->getCode() );
 		if ( $user == null || $id == 0 ) {
 			# show error if a user with that name does not exist
-			$wgOut->addHTML( Xml::span( wfMessage( 'wminc-userdoesnotexist', $target )->text(), 'error' ) );
+			$this->getOutput()->addHTML( Xml::span( wfMessage( 'wminc-userdoesnotexist', $target )->text(), 'error' ) );
 			return;
 		}
 		$userproject = $user->getOption( $wmincPref . '-project' );
@@ -96,7 +94,7 @@ class SpecialViewUserLang extends SpecialPage {
 		} else {
 			$testwiki = wfMessage( 'wminc-testwiki-none' )->escaped();
 		}
-		$wgOut->addHtml(
+		$this->getOutput()->addHtml(
 			Xml::openElement( 'ul' ) .
 			'<li>' . wfMessage( 'username' )->escaped() . ' ' .
 				Linker::userLink( $id, $name ) . Linker::userToolLinks( $id, $name, true ) . '</li>' .
