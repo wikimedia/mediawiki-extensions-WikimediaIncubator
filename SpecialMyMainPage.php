@@ -19,6 +19,7 @@ class SpecialMyMainPage extends UnlistedSpecialPage {
 		$title = '';
 		$params = array();
 
+		# Build Wx/xyz?goto=mainpage[&testwiki=]
 		if( IncubatorTest::isContentProject() ) {
 			$title = Title::newFromText( IncubatorTest::displayPrefix() );
 			if( $this->getRequest()->getVal( 'goto' ) != 'infopage' ) {

@@ -102,7 +102,7 @@ class IncubatorTest {
 	 */
 	static function analyzePrefix( $input, $onlyInfoPage = false, $allowSister = false ) {
 		$data = array( 'error' => null );
-		if( is_object( $input ) ) {
+		if( $input instanceof Title ) {
 			global $wmincTestWikiNamespaces;
 			$title = $input->getText();
 			if( !in_array( $input->getNamespace(), $wmincTestWikiNamespaces ) ) {
@@ -649,7 +649,7 @@ class IncubatorTest {
 	 * @return false or Array from analyzePrefix()
 	 */
 	static function shouldWeSetCustomLogo( $title ) {
-		$prefix = IncubatorTest::analyzePrefix( $title->getText() );
+		$prefix = IncubatorTest::analyzePrefix( $title );
 
 		# Maybe do later something like if( isContentProject() && 'recentchanges' ) { return true; }
 
@@ -659,11 +659,6 @@ class IncubatorTest {
 		}
 		# display the custom logo only if &testwiki=wx/xx or the user's pref is set to the current test wiki
 		if( self::displayPrefix() != $prefix['prefix'] ) {
-			return false;
-		}
-		global $wmincTestWikiNamespaces;
-		# return if the page is not in one of the test wiki namespaces
-		if( !in_array( $title->getNamespace(), (array)$wmincTestWikiNamespaces ) ) {
 			return false;
 		}
 		return $prefix;
@@ -723,6 +718,8 @@ class IncubatorTest {
 	/**
 	 * Search: Adapt the default message to show a more descriptive one,
 	 * along with an adapted link.
+	 * @param $title Title
+	 * @param $params array
 	 * @return true
 	 */
 	public static function onSpecialSearchCreateLink( $title, &$params ) {
