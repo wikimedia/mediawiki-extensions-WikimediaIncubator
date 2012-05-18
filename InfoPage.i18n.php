@@ -50,6 +50,7 @@ you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[
 }}', # do not translate
 	'wminc-infopage-contribute' => 'If you know this language, you are encouraged to contribute!',
 
+	'wminc-infopage-status-open' => 'This is an open wiki of Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'This Incubator wiki has been imported from $1 after the wiki was closed.',
 	'wminc-infopage-status-closedsister' => 'This subdomain was closed. Go to <b>$2</b> to contribute to this wiki.',
 	'wminc-infopage-status-created' => 'This project has been approved by the language committee and is now available at $1.',

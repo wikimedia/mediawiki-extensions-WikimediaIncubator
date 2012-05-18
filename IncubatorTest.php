@@ -529,6 +529,9 @@ class IncubatorTest {
 		} elseif( $dbstate == 'closed' ) {
 			$infopage->mSubStatus = 'imported';
 			$wgOut->addHtml( $infopage->showIncubatingWiki() );
+		} elseif( self::getMainPage( $prefix['lang'], $prefix['prefix'] )->exists() ) {
+			$infopage->mSubStatus = 'open';
+			$wgOut->addHtml( $infopage->showIncubatingWiki() );
 		} else {
 			$wgOut->addHtml( $infopage->showMissingWiki() );
 		}
@@ -591,7 +594,16 @@ class IncubatorTest {
 		# Take the "mainpage" msg in the given language
 		$msg = wfMessage( 'mainpage' )->inLanguage( $langCode )->plain();
 		$mainpage = $prefix !== null ? $prefix . '/' . $msg : $msg;
-		return Title::newFromText( $mainpage );
+		$title = Title::newFromText( $mainpage );
+		if( $title->exists() ) {
+			return $title; # If it exists, use it
+		}
+		$mainpage = $prefix !== null ? $prefix . '/Main_Page' : 'Main_Page';
+		$title2 = Title::newFromText( $mainpage );
+		if( $title2->exists() ) {
+			return $title2; # Try the English "Main Page"
+		}
+		return $title; # Nothing exists, use the original again
 	}
 
 	/**
