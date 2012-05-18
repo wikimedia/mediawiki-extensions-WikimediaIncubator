@@ -538,25 +538,12 @@ class IncubatorTest {
 	}
 
 	/**
-	 * - Redirect action=edit&redlink=1 to the normal page
-	 * - When creating a new info page, help the user by prefilling it
+	 * When creating a new info page, help the user by prefilling it
 	 * @return True
 	 */
 	public static function onEditFormPreloadText( &$text, &$title ) {
-		$pagetitle = $title->getText();
-		$prefix = IncubatorTest::analyzePrefix( $pagetitle, true /* only info page */, true /* also sister projects */ );
-		if( $prefix['error'] || $title->getNamespace() != NS_MAIN ) {
-			return true;
-		}
-		global $wgRequest, $wgOut, $wmincSisterProjects;
-		if ( $wgRequest->getBool( 'redlink' ) ) {
-			# The edit page was reached via a red link.
-			# Redirect to the article page and let them click the edit tab if
-			# they really want to create this info page.
-			$wgOut->redirect( $title->getFullUrl() );
-		}
-		# Prefill when &action=edit, but not for sister projects
-		if( !array_key_exists( $prefix['project'], $wmincSisterProjects ) ) {
+		$prefix = self::analyzePrefix( $title, true /* only info page */, false /* no sister projects */ );
+		if( !$prefix['error'] ) {
 			$text = wfMessage( 'wminc-infopage-prefill', $prefix['prefix'] )->plain();
 		}
 		return true;
@@ -599,7 +586,7 @@ class IncubatorTest {
 	 * @return True
 	 */
 	public static function onMediaWikiPerformAction( $output, $page, $title, $user, $request ) {
-		$prefix = IncubatorTest::analyzePrefix( $title->getText(), true );
+		$prefix = IncubatorTest::analyzePrefix( $title, true );
 		if( $prefix['error'] || $request->getVal( 'goto' ) != 'mainpage' ) {
 			return true;
 		}
@@ -635,7 +622,7 @@ class IncubatorTest {
 	 * @param $isKnown
 	 * @return Boolean
 	 */
-	 public static function onTitleIsAlwaysKnown( $title, &$isKnown ) {
+	public static function onTitleIsAlwaysKnown( $title, &$isKnown ) {
 		$prefix = self::analyzePrefix( $title, true, true );
 		if( !$prefix['error'] ) {
 			$isKnown = true;
