@@ -702,16 +702,15 @@ class IncubatorTest {
 	/**
 	 * Make the page content language depend on the test wiki
 	 * Info pages are in the user language, they're localised
+	 * @return true
 	 */
 	static function onPageContentLanguage( $title, &$pageLang ) {
-		global $wmincTestWikiNamespaces, $wgLang;
-		$prefix = self::analyzePrefix( $title->getText(), /* onlyInfoPage*/ false );
-		if( $prefix['error'] || !in_array( $title->getNamespace(),
-			$wmincTestWikiNamespaces ) ) {
-			return true;
+		global $wgLang;
+		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
+		if( !$prefix['error'] ) {
+			$pageLang = self::validatePrefix( $title, true ) ?
+				$wgLang : Language::factory( $prefix['lang'] );
 		}
-		$pageLang = $prefix['prefix'] == $title->getText() ?
-			$wgLang : Language::factory( $prefix['lang'] );
 		return true;
 	}
 
