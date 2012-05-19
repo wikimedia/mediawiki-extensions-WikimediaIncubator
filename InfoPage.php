@@ -179,7 +179,7 @@ class InfoPage {
 		if( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoLink = Linker::link(
 				IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix ),
-				wfMessage( 'wminc-infopage-enter' )->plain() );
+				wfMessage( 'wminc-infopage-enter' )->escaped() );
 			$gotoMainPage = Html::rawElement( 'span',
 				array( 'class' => 'wminc-infopage-entertest' ),
 				$wgLang->getArrow() . ' ' . ( $this->mIsSister ? $portalLink : $gotoLink ) );
