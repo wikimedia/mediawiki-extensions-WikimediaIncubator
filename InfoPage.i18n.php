@@ -55,6 +55,8 @@ you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[
 	'wminc-infopage-status-closedsister' => 'This subdomain was closed. Go to <b>$2</b> to contribute to this wiki.',
 	'wminc-infopage-status-created' => 'This project has been approved by the language committee and is now available at $1.',
 	'wminc-infopage-status-beforeincubator' => 'This project was created before Wikimedia Incubator started and is available at $1.',
+
+	'wminc-infopage-error' => 'Error: {{#infopage}} can only be used on prefixed pages.',
 );
 
 /** Message documentation (Message documentation)

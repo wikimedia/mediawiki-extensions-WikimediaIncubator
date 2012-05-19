@@ -33,9 +33,6 @@ class InfoPage {
 		$allProjects = array_merge( $wmincProjects, $wmincSisterProjects );
 		$this->mProjectName = isset( $allProjects[$this->mProjectCode] ) ?
 			$allProjects[$this->mProjectCode] : '';
-		if( isset( $prefixdata['error'] ) || $title->getNamespace() != NS_MAIN ) {
-			return;
-		}
 		$this->mPortal = IncubatorTest::getSubdomain( 'www', $this->mProjectCode );
 		$this->mIsSister = array_key_exists( $this->mProjectCode, $wmincSisterProjects );
 		$this->mDBStatus = '';
@@ -127,8 +124,7 @@ class InfoPage {
 	 * @return String: the core HTML for the info page
 	 */
 	public function StandardInfoPage( $beforetitle, $aftertitle, $content ) {
-		global $wgLang, $wgOut;
-		$wgOut->addModuleStyles( 'WikimediaIncubator.InfoPage' );
+		global $wgLang;
 		return Html::rawElement( 'div', array( 'class' => 'wminc-infopage plainlinks',
 			'lang' => $wgLang->getCode(), 'dir' => $wgLang->getDir() ),
 			$beforetitle .

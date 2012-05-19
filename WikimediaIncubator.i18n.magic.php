@@ -7,4 +7,5 @@ $magicWords = array();
 
 $magicWords['en'] = array(
 	'usertestwiki' => array( 0, 'USERTESTWIKI' ),
+	'infopage' => array( 0, 'infopage' ),
 );
