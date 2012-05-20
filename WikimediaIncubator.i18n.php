@@ -168,6 +168,14 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-searchwiki-gotoinfopage' => 'Link text to go to the Wx/xyz info page',
 );
 
+/** Tati (Tati)
+ * @author Erdemaslancan
+ */
+$messages['ttt'] = array(
+	'wminc-viewuserlang-go' => 'Buşu',
+	'wminc-searchwiki-go' => 'Buşu',
+);
+
 /** Адыгэбзэ (Адыгэбзэ)
  * @author Celekan
  */
@@ -817,10 +825,13 @@ $messages['diq'] = array(
 	'wminc-viewuserlang-user' => 'Namey karberi:',
 	'wminc-viewuserlang-go' => 'Şo',
 	'wminc-ip' => '"$1" jew IP adresiyo.',
+	'group-test-sysop' => 'Hizmetkare Test Viki',
+	'group-test-sysop-member' => '{{GENDER:$1|Hizmetkare Test Wiki}}',
+	'grouppage-test-sysop' => '{{ns:project}}:Hizmetkare test wiki',
 	'wminc-searchwiki' => 'Wikidı cıgeyrê',
 	'wminc-searchwiki-noproject' => 'Xorê proce me weçinê.',
 	'wminc-searchwiki-selectproject' => 'Bıgeyrê:',
-	'wminc-searchwiki-inputlanguage' => 'Zuwanê cı:',
+	'wminc-searchwiki-inputlanguage' => 'Zıwanê cı:',
 	'wminc-searchwiki-go' => 'Şo',
 	'wminc-searchwiki-multiplematches' => 'Şımayê kanci zuwandı geyrenê çi:',
 	'wminc-searchwiki-match-langcode' => '"$1" zuwan kodê ISO 639  $2\'o.',
@@ -1725,10 +1736,18 @@ $messages['it'] = array(
 	'wminc-listusers-testwiki' => 'Stai vedendo gli utenti che hanno impostato la preferenza del wiki di prova su $1.',
 	'wminc-search-nocreate-nopref' => 'Hai effettuato una ricerca per "$1". Si prega di impostare le [[Special:Preferences|preferenze del wiki di prova]] così possiamo dirti quale pagina puoi creare!',
 	'wminc-search-nocreate-suggest' => 'Hai effettuato una ricerca per "$1". Si può creare una pagina nella tua wiki a <b>[[$2]]</b>!',
+	'wminc-searchwiki' => 'Cerca un wiki',
 	'wminc-searchwiki-noproject' => 'Non è stato selezionato alcun progetto.',
 	'wminc-searchwiki-noresults' => "Nessun risultato. È possibile cercare per codici di lingua, nomi originari e nomi nella vostra lingua d'interfaccia o in inglese.",
+	'wminc-searchwiki-selectproject' => 'Cerca per:',
+	'wminc-searchwiki-inputlanguage' => 'Nella lingua:',
 	'wminc-searchwiki-go' => 'Vai',
 	'wminc-searchwiki-multiplematches' => 'La tua ricerca ha trovato le seguenti lingue:',
+	'wminc-searchwiki-match-langcode' => '"$1" è un codice linguistico ISO 639 per $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 è il nome di una lingua.',
+	'wminc-searchwiki-match-englishname' => '"$1" è il nome di $2 in inglese.',
+	'wminc-searchwiki-match-nativename' => '"$1"è il nome di $2 in quella lingua.',
+	'wminc-searchwiki-gotoinfopage' => 'informazioni pagina',
 );
 
 /** Japanese (日本語)
@@ -2221,6 +2240,7 @@ $messages['ml'] = array(
 	'wminc-search-nocreate-suggest' => 'താങ്കൾ തിരഞ്ഞത് "$1" എന്നതിനാണ്. താങ്കളുടെ വിക്കിയിൽ <b>[[$2]]</b> എന്ന താൾ താങ്കൾക്ക് സൃഷ്ടിക്കാവുന്നതാണ്!',
 	'wminc-searchwiki' => 'വിക്കിയ്ക്കായി തിരയുക',
 	'wminc-searchwiki-noproject' => 'താങ്കളൊരു പദ്ധതി തിരഞ്ഞെടുത്തിട്ടില്ല.',
+	'wminc-searchwiki-noresults' => 'ഫലങ്ങൾ ലഭ്യമല്ല. താങ്കൾക്ക് ഭാഷാ കോഡ് ഉപയോഗിച്ചോ, താങ്കളുടെ സമ്പർക്കമുഖ ഭാഷയിലോ ഇംഗ്ലീഷിലോ ഉള്ള പ്രാദേശിക നാമങ്ങൾ ഉപയോഗിച്ചോ തിരയാവുന്നതാണ്.',
 	'wminc-searchwiki-selectproject' => 'ഇതു കണ്ടെത്തുക:',
 	'wminc-searchwiki-inputlanguage' => 'ഭാഷ:',
 	'wminc-searchwiki-go' => 'പോകൂ',
