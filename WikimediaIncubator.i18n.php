@@ -84,6 +84,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Chaojoker
  * @author EugeneZelenko
  * @author Fryed-peach
  * @author Nike
@@ -113,7 +114,7 @@ $messages['qqq'] = array(
 	'wminc-error-unprefixed-suggest' => '* $1 is a new page title based on the page title the user is currently trying to edit. E.g. "Test" would become "Wx/xx/Test".
 * Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>',
 	'wminc-error-wiki-exists' => "'''$1''' is a URL to the existing wiki.",
-	'wminc-error-wiki-sister' => '$1 is a link to either Wikisource or Wikiversity.',
+	'wminc-error-wiki-sister' => '$1-ը հղվում է Վիքիդարանին կամ Վիքիլսարանին։',
 	'randombytest' => '[[Special:Special:RandomByTest]] goes to a random page in a incubator wiki. 
 For more information see: http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'wminc-viewuserlang' => 'Title of a special page to look up the language and test wiki of a user. See [[:File:Incubator-testwiki-viewuserlang.jpg]].',
@@ -3516,7 +3517,7 @@ $messages['vep'] = array(
  * @author Vinhtantran
  */
 $messages['vi'] = array(
-	'wminc-desc' => 'Hệ thống wiki thử nghiệm của Wikimedia Incubator',
+	'wminc-desc' => 'Hệ thống wiki thử nghiệm của Vườn ươm Wikimedia',
 	'wminc-manual' => 'Hướng dẫn',
 	'wminc-listwikis' => 'Danh sách các wiki',
 	'wminc-testwiki' => 'Wiki thử:',
@@ -3525,7 +3526,7 @@ $messages['vi'] = array(
 	'wminc-recentchanges-all' => 'Mọi thay đổi gần đây',
 	'wminc-prefinfo-language' => 'Ngôn ngữ giao diện của bạn – có thể khác với wiki thử',
 	'wminc-prefinfo-code' => 'Mã ngôn ngữ ISO 639',
-	'wminc-prefinfo-project' => 'Hãy chọn dự án Wikimedia (hay Incubator để làm việc chung)',
+	'wminc-prefinfo-project' => 'Hãy chọn dự án Wikimedia (hay Vườn ươm để làm việc chung)',
 	'wminc-prefinfo-error' => 'Bạn đã chọn một dự án bắt phải có mã ngôn ngữ.',
 	'wminc-error-move-unprefixed' => 'Lỗi: Tên mới của trang [[{{MediaWiki:Wminc-error-help}}|thiếu tiền tố hoặc có tiền tố sai]]!',
 	'wminc-error-wronglangcode' => "'''Lỗi:''' Trang này có [[{{MediaWiki:Wminc-error-help}}|mã ngôn ngữ sai]] “$1”!",
