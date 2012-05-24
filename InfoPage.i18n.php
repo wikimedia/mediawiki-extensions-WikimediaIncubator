@@ -126,6 +126,7 @@ pues [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la páxina] y siguir [[{{Me
 	'wminc-infopage-option-multilingual' => 'Pues dir a una wiki multillingüe:',
 	'wminc-infopage-createmainpage' => 'Escribi les pallabres "Páxina principal" nesta llingua:',
 	'wminc-infopage-contribute' => '¡Si entiendes esta llingua, te afalamos a que collabores!',
+	'wminc-infopage-status-open' => 'Esta ye una wiki abierta de Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => "Esta wiki d'Incubator s'importó de $1 dempués de que la wiki zarrara.",
 	'wminc-infopage-status-closedsister' => 'Esti subdominiu se zarró. Visita <b>$2</b> pa collaborar nesta wiki.',
 	'wminc-infopage-status-created' => "Esti proyeutu s'aprobó pol comité de llingües y agora ta disponible en $1.",
@@ -452,6 +453,7 @@ $messages['fa'] = array(
 
 /** Finnish (Suomi)
  * @author Crt
+ * @author Linnea
  * @author Nedergard
  * @author Nike
  * @author Olli
@@ -476,6 +478,7 @@ $messages['fi'] = array(
 	'wminc-infopage-option-multilingual' => 'Voit siirtyä monikieliseen wikiin:',
 	'wminc-infopage-createmainpage' => 'Syötä sana "Etusivu" tällä kielellä:',
 	'wminc-infopage-contribute' => 'Jos osaat tätä kieltä, muokkaa rohkeasti!',
+	'wminc-infopage-status-open' => 'Tämä on Wikimedia Hautomon avoin wiki.',
 	'wminc-infopage-status-imported' => 'Tämä Incubator-wiki on tuotu osoitteesta $1, kun wiki suljettiin.',
 	'wminc-infopage-status-closedsister' => 'Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <b>$2</b> muokataksesi wikiä.',
 	'wminc-infopage-status-created' => 'Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.',
@@ -648,6 +651,7 @@ móžeš [{{fullurl:{{FULLPAGENAME}}|action=edit}} stronu wutworić] a po [[{{Me
 	'wminc-infopage-option-multilingual' => 'Móžeš k wjacerěčnemu wikijej hić:',
 	'wminc-infopage-createmainpage' => 'Zapodaj wuraz za "Hłowna strona" w tutej rěči:',
 	'wminc-infopage-contribute' => 'Jeli tutu rěč wobknježiš, budź witany a čiń sobu!',
+	'wminc-infopage-status-open' => 'To je wotewrjeny wiki na Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Tutón wiki inkubatora je so z $1 importował, po tym zo bě so wiki začinił.',
 	'wminc-infopage-status-closedsister' => 'Tuta poddomena je so začiniła. Dźi k <b>$2</b>, zo by k tutomu wikijej přinošował.',
 	'wminc-infopage-status-created' => 'Tutón projekt je so wot rěčneho komiteja schwalił a steji nětko pod $1 k dispoziciji.',
