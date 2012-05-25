@@ -702,6 +702,11 @@ $messages['cs'] = array(
 	'wminc-viewuserlang-user' => 'Uživatelské jméno:',
 	'wminc-viewuserlang-go' => 'Přejít',
 	'right-viewuserlang' => 'Prohlížení uživatelského jazyka a testovací wiki',
+	'wminc-searchwiki-multiplematches' => 'Vašemu hledání odpovídají následující jazyky:',
+	'wminc-searchwiki-match-langcode' => '„$1“ je kód pro jazyk $2 podle ISO 639.',
+	'wminc-searchwiki-match-userlangname' => '$1 je název jazyka.',
+	'wminc-searchwiki-match-englishname' => '„$1“ je anglický název pro jazyk $2.',
+	'wminc-searchwiki-match-nativename' => '„$1“ je název pro jazyk $2 v tomto jazyce.',
 );
 
 /** Danish (Dansk)
