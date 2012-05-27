@@ -326,6 +326,37 @@ können Sie [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und g
 	'wminc-infopage-status-closedsister' => 'Diese Subdomain wurde geschlossen. Gehen Sie zu <b>$2</b>, um zu diesem Wiki beizutragen.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'wminc-infopage-enter' => 'Şo Pela Seri',
+	'wminc-unknownlang' => '(No kodê zıwani nêşınasiye)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikikıtabo $1',
+	'wminc-infopage-title-t' => 'Wikiqısebendo $1',
+	'wminc-infopage-title-q' => 'Wikiqıseyo $1',
+	'wminc-infopage-title-n' => 'Wikixebera $1',
+	'wminc-infopage-title-s' => 'Wikiçımeyo $1',
+	'wminc-infopage-title-v' => 'Wikiversiteya $1',
+	'wminc-infopage-welcome' => 'Şıma xeyr ameyê Wikimedia Incubatori. No ([[{{MediaWiki:Aboutpage}}|Haq dê]]) proceyan de Weqıf da Wikimediyao.',
+	'wminc-infopage-missingwiki-text' => '$1, hewna na zıwan de çınya.',
+	'wminc-infopage-option-startwiki' => 'Şımayê wazenê ke ena wikiyer dest pêkerê,
+Şıma senê ena [{{fullurl:{{FULLPAGENAME}}|action=edit}} pela vırazê] u [[{{MediaWiki:Wminc-manual-url}}|Xo manuel]] peşti bıdê.',
+	'wminc-infopage-option-startsister' => 'Şıma qayılê ke ena wiki dest pêkerê se şırê tiya <b>[$2 $1]</b>',
+	'wminc-infopage-option-languages-existing' => 'Qan dê [//www.$1.org zıwan versiyon dê $1 ] re cı geyrayış şenê bıkerê',
+	'wminc-infopage-option-sisterprojects-existing' => 'Eno zıwan de şıma şenê proceyanê bina bıvinê',
+	'wminc-infopage-option-sisterprojects-other' => 'Eno zıwan de şıma şenê proceyanê bina bıvinê',
+	'wminc-infopage-option-multilingual' => 'Şıma şenê şırê şarzıwanan de wiki:',
+	'wminc-infopage-createmainpage' => 'Ena zıwan de metnê "Pela Seri" defiye de',
+	'wminc-infopage-contribute' => 'Şıma enê zıwani zanê se, mayê şıma iştıraxin rê dawet kem !',
+	'wminc-infopage-status-open' => 'Wikimedia Incubator dı ena wikiyer akerê.',
+	'wminc-infopage-status-imported' => 'Ena Incubator wiki tesdiq nêbiya $1 ra yok gêriyaya.',
+	'wminc-infopage-status-closedsister' => 'Bın domainê enay racneyayo. Qan dê iştıraxa şırê <b>$2</b>',
+	'wminc-infopage-status-created' => "Komitey zıwani ena proca kerda tesdiq u pelada $1'dı esta.",
+	'wminc-infopage-status-beforeincubator' => "Dest pêkerdışê ena procer Wikimedia Incubator dı veror vıraziyayo u pela da $1'dı esto.",
+);
+
 /** Greek (Ελληνικά)
  * @author Crazymadlover
  */
@@ -487,6 +518,7 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Crochet.david
+ * @author DavidL
  * @author Gomoko
  * @author Hashar
  * @author Seb35
@@ -511,6 +543,7 @@ $messages['fr'] = array(
 	'wminc-infopage-option-multilingual' => 'Vous pouvez aller vers un wiki multilingue :',
 	'wminc-infopage-createmainpage' => 'Entrez le mot « Page principale » dans votre langue :',
 	'wminc-infopage-contribute' => 'Si vous parlez cette langue, vous êtes invités à contribuer !',
+	'wminc-infopage-status-open' => "Il s'agit d'un wiki ouvert de Wikimedia Incubator.",
 	'wminc-infopage-status-imported' => 'Ce wiki Incubateur a été importé depuis $1 après que le wiki ait été fermé.',
 	'wminc-infopage-status-closedsister' => 'Ce sous-domaine a été fermé. Veuillez vous rendre sur <b>$2</b> pour contribuer à ce wiki.',
 	'wminc-infopage-status-created' => 'Ce projet a été approuvé par le comité linguistique et est maintenant disponible sur $1.',
@@ -612,6 +645,7 @@ $messages['he'] = array(
 	'wminc-infopage-option-multilingual' => 'אפשר ללכת לוויקי רב־לשוני:',
 	'wminc-infopage-createmainpage' => 'כתבו את המילה "דף ראשי" בשפתכם:',
 	'wminc-infopage-contribute' => 'אם אתם יודעים את השפה הזאת, אנו מפצירים בכם לתרום למיזם!',
+	'wminc-infopage-status-open' => 'זהו ויקי פתוח באינקובטור של ויקימדיה.',
 	'wminc-infopage-status-imported' => 'ויקי האינקובטור הזה יובא מ{{GRAMMAR:תחילית|$1}} אחרי שהוויקי ההוא נסגר.',
 	'wminc-infopage-status-closedsister' => 'התת־מתחם הזה נסגר. לכו אל <b>$2</b> כדי לתרום לוויקי הזה.',
 	'wminc-infopage-status-created' => 'הוועדה הלשונית אישרה את המיזם הזה ואפשר למצוא אותו ב{{GRAMMAR:תחילית|$1}}.',
