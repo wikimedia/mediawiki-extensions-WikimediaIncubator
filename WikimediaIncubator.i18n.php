@@ -1865,6 +1865,8 @@ $messages['jv'] = array(
  */
 $messages['ka'] = array(
 	'wminc-recentchanges-all' => 'ყველა ბოლო ცვლილება',
+	'wminc-viewuserlang-user' => 'მომხმარებლის სახელი:',
+	'wminc-ip' => '"$1" IP-მომხმარებელია.',
 );
 
 /** Khmer (ភាសាខ្មែរ)
