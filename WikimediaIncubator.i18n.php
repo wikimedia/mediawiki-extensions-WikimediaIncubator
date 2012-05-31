@@ -633,8 +633,11 @@ $messages['br'] = array(
 	'wminc-listusers-testwiki' => "O sellet ouzh roll an implijerien o deus dibabet $1 en o wiki arnod emaoc'h.",
 	'wminc-search-nocreate-nopref' => "Klasket hoc'h eus \"\$1\". Trugarez da gempenn [[Special:Preferences|penndibaboù ar wiki arnod]] evit ma c'hallfemp bezañ goeust da lavaret deoc'h pe bajenn a c'hallit krouiñ !",
 	'wminc-search-nocreate-suggest' => 'Klasket hoc\'h eus "$1". Ur bajenn a c\'hallit krouiñ en ho wiki e <b>[[$2]]</b> !',
+	'wminc-searchwiki' => 'Klask ur wiki bennak',
 	'wminc-searchwiki-selectproject' => 'Klask :',
+	'wminc-searchwiki-inputlanguage' => 'Er yezh:',
 	'wminc-searchwiki-go' => 'Mont',
+	'wminc-searchwiki-gotoinfopage' => 'Pajenn gelaouiñ',
 );
 
 /** Bosnian (Bosanski)
@@ -1899,6 +1902,7 @@ $messages['kn'] = array(
 /** Korean (한국어)
  * @author Kwj2772
  * @author Pakman
+ * @author 아라
  */
 $messages['ko'] = array(
 	'wminc-desc' => '위키미디어 인큐베이터의 테스트 위키 시스템',
@@ -1906,6 +1910,11 @@ $messages['ko'] = array(
 	'wminc-viewuserlang' => '사용자 언어와 테스트 위키 찾기',
 	'wminc-viewuserlang-user' => '사용자이름:',
 	'wminc-viewuserlang-go' => '찾기',
+	'group-test-sysop' => '테스트 위키 관리자',
+	'group-test-sysop-member' => '{{GENDER:$1|테스트 위키 관리자}}',
+	'grouppage-test-sysop' => '{{ns:project}}:테스트 위키 관리자',
+	'group-test-sysop.css' => '/* 이 CSS 설정은 테스트 위키 관리자에만 적용됩니다 */',
+	'group-test-sysop.js' => '/* 이 자바스크립트 설정은 테스트 위키 관리자에만 적용됩니다 */',
 );
 
 /** Komi-Permyak (Перем Коми)
