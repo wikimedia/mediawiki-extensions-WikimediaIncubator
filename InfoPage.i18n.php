@@ -61,6 +61,7 @@ you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[
  * @author Chaojoker
  * @author Kghbln
  * @author SPQRobin
+ * @author Whym
  */
 $messages['qqq'] = array(
 	'wminc-infopage-enter' => 'Text of a link to the Main Page of a test wiki at Incubator.',
@@ -75,7 +76,7 @@ $messages['qqq'] = array(
 	'wminc-infopage-welcome' => 'Do not change <tt><nowiki>{{MediaWiki:Aboutpage}}</nowiki></tt>.',
 	'wminc-infopage-missingwiki-text' => "'''$1''' is a project: Wikipedia/Wiktionary/...",
 	'wminc-infopage-option-startwiki' => 'Do not change <code><nowiki>{{fullurl:{{FULLPAGENAME}}|action=edit}}</nowiki></code> or <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>',
-	'wminc-infopage-option-startsister' => '$2-ը հղվում է Վիքիդարանին կամ Վիքիլսարանին, և $1-ն այդ նախագծի անունն է։',
+	'wminc-infopage-option-startsister' => '$2 is a link to either Wikisource or Wikiversity, and $1 is that project name.',
 	'wminc-infopage-option-languages-existing' => "'''$1''' is the project name (Wikipedia, Wikinews, ...).",
 	'wminc-infopage-option-sisterprojects-existing' => 'Followed by clickable logos of projects Wikipedia, Wiktionary, Wikibooks, ...',
 	'wminc-infopage-option-sisterprojects-other' => 'Followed by clickable logos of projects Wikipedia, Wiktionary, Wikibooks, ...',
@@ -1264,6 +1265,7 @@ $messages['ru'] = array(
 	'wminc-infopage-option-multilingual' => 'Вы можете перейти к многоязычным вики-проектам:',
 	'wminc-infopage-createmainpage' => 'Введите на этом языке выражение, означающее «Заглавная страница»:',
 	'wminc-infopage-contribute' => 'Если вы понимаете этот язык, вы можете внести свой вклад!',
+	'wminc-infopage-status-open' => 'Это открытая вики в Инкубаторе Викимедиа.',
 	'wminc-infopage-status-imported' => 'Эта вики была импортирована в Инкубатор из проекта «$1» после его закрытия.',
 	'wminc-infopage-status-closedsister' => 'Этот поддомен был закрыт. Перейти к <b>$2</b>, чтобы сделать свой вклад в эту вики.',
 	'wminc-infopage-status-created' => 'Этот проект был одобрен Языковым комитетом и теперь доступен по адресу $1 .',

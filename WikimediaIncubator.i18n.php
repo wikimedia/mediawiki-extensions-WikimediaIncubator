@@ -93,6 +93,7 @@ $messages['en'] = array(
  * @author SPQRobin
  * @author Siebrand
  * @author Umherirrender
+ * @author Whym
  * @author Yekrats
  */
 $messages['qqq'] = array(
@@ -114,7 +115,7 @@ $messages['qqq'] = array(
 	'wminc-error-unprefixed-suggest' => '* $1 is a new page title based on the page title the user is currently trying to edit. E.g. "Test" would become "Wx/xx/Test".
 * Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>',
 	'wminc-error-wiki-exists' => "'''$1''' is a URL to the existing wiki.",
-	'wminc-error-wiki-sister' => '$1-ը հղվում է Վիքիդարանին կամ Վիքիլսարանին։',
+	'wminc-error-wiki-sister' => '$1 is a link to either Wikisource or Wikiversity.',
 	'randombytest' => '[[Special:Special:RandomByTest]] goes to a random page in a incubator wiki. 
 For more information see: http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'wminc-viewuserlang' => 'Title of a special page to look up the language and test wiki of a user. See [[:File:Incubator-testwiki-viewuserlang.jpg]].',
@@ -634,6 +635,7 @@ $messages['br'] = array(
 	'wminc-search-nocreate-nopref' => "Klasket hoc'h eus \"\$1\". Trugarez da gempenn [[Special:Preferences|penndibaboù ar wiki arnod]] evit ma c'hallfemp bezañ goeust da lavaret deoc'h pe bajenn a c'hallit krouiñ !",
 	'wminc-search-nocreate-suggest' => 'Klasket hoc\'h eus "$1". Ur bajenn a c\'hallit krouiñ en ho wiki e <b>[[$2]]</b> !',
 	'wminc-searchwiki' => 'Klask ur wiki bennak',
+	'wminc-searchwiki-noproject' => "N'hoc'h eus diuzet raktres ebet.",
 	'wminc-searchwiki-selectproject' => 'Klask :',
 	'wminc-searchwiki-inputlanguage' => 'Er yezh:',
 	'wminc-searchwiki-go' => 'Mont',
