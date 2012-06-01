@@ -41,7 +41,7 @@ class InfoPage {
 		$this->mDBStatus = '';
 		$this->mSubStatus = '';
 		$this->mThisLangData = array( 'type' => 'valid' ); # For later code check feature
-		$this->mLangNames = Language::getTranslatedLanguageNames( $wgLang->getCode() );
+		$this->mLangNames = Language::fetchLanguageNames( $wgLang->getCode(), 'all' );
 		$this->mLangName = isset( $this->mLangNames[$this->mLangCode] ) ?
 			$this->mLangNames[$this->mLangCode] : null;
 		$titleParam = $this->mLangName ? $this->mLangName : '"' . $this->mLangCode . '"'; # Name, else code
