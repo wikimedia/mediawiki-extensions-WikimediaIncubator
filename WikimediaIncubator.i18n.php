@@ -599,7 +599,7 @@ $messages['bn'] = array(
 	'right-viewuserlang' => 'ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখাও',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -688,7 +688,7 @@ $messages['ckb'] = array(
 	'wminc-viewuserlang-go' => 'بڕۆ',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Kuvaly
  * @author Matěj Grabovský
  * @author Mormegil

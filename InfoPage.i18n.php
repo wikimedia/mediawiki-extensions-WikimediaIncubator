@@ -391,7 +391,7 @@ $messages['eo'] = array(
 	'wminc-infopage-contribute' => 'Se vi scipovas ĉi tiun lingvon, vi estas kuraĝigita por kontribui!',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Diotime
  * @author Drini
@@ -484,7 +484,7 @@ $messages['fa'] = array(
 	'wminc-infopage-status-beforeincubator' => 'این پروژه قبل از شروع ویکی‌رشد، ایجاد شده است و در نشانی $1 در دسترس است.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Linnea
  * @author Nedergard
@@ -518,7 +518,7 @@ $messages['fi'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Tämä projekti luotiin ennen kuin Wikimedia Incubator käynnistettiin ja se on saatavilla osoitteessa $1.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author DavidL
  * @author Gomoko
@@ -1240,7 +1240,7 @@ puè [{{fullurl:{{FULLPAGENAME}}|action=edit}} ccrejà 'a pagene] e seguì [[{{M
 	'wminc-infopage-status-beforeincubator' => "'Stù pruggette jè state ccrejète apprìme ca Uicchimèdie Incubatore accumenzasse a fatijà e jè disponibbele sus a $1.",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Amdf
  * @author Eugrus
  * @author Kaganer
