@@ -232,6 +232,7 @@ $messages['be-tarask'] = array(
 	'wminc-infopage-option-multilingual' => 'Вы можаце перайсьці ў шматмоўную вікі:',
 	'wminc-infopage-createmainpage' => 'Увядзіце словы «Галоўная старонка» на гэтай мове:',
 	'wminc-infopage-contribute' => 'Калі Вы ведаеце гэтую мову, Вы можаце рабіць унёсак!',
+	'wminc-infopage-status-open' => 'Гэта адкрытая вікі ў Інкубатары Вікімэдыі.',
 	'wminc-infopage-status-imported' => 'Гэтая вікі ў інкубатары была імпартаваная з $1 пасьля таго, як вікі была закрытая.',
 	'wminc-infopage-status-closedsister' => 'Гэты паддамэн закрыты. Перайдзіце на <b>$2</b>, каб напісаць у гэтую вікі.',
 	'wminc-infopage-status-created' => 'Гэты праект быў зацьверджаны моўным камітэтам, і цяпер ён даступны на $1.',
