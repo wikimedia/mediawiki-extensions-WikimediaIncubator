@@ -1398,6 +1398,15 @@ $messages['gsw'] = array(
 	'wminc-listusers-testwiki' => 'Du gseesch Benutzer, wo ihri Teschtwiki-Yystellige uff $1 yygstellt hen.',
 	'wminc-search-nocreate-nopref' => 'Du hesch nooch „$1“ gsuecht. Bitte due d [[Special:Preferences|Yystellige für dyn Teschtwiki]] festlege, demit mer dir chönne mitteile, welli Syte du chasch erstelle.',
 	'wminc-search-nocreate-suggest' => 'Du hesch nooch „$1“ gsuecht. Du chasch in dym Teschtwiki e Syte unter <b>[[$2]]</b> erstelle.',
+	'wminc-searchwiki-selectproject' => 'Sueche no:',
+	'wminc-searchwiki-inputlanguage' => 'In de Sprooch:',
+	'wminc-searchwiki-go' => 'Gang',
+	'wminc-searchwiki-multiplematches' => 'Dyni Suechyygab het in dänne Sprooche en Dräffer ergee:',
+	'wminc-searchwiki-match-langcode' => '„$1“ isch e ISO-639-Sproochchürzel für $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 isch d Bezeichnig vunere Sprooch.',
+	'wminc-searchwiki-match-englishname' => '„$1“ isch d Bezeichnig für $2 uff Änglisch.',
+	'wminc-searchwiki-match-nativename' => '„$1“ isch d Bezeichnig für $2 in dere Sprooch.',
+	'wminc-searchwiki-gotoinfopage' => 'Infosyte',
 );
 
 /** Gujarati (ગુજરાતી)

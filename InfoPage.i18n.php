@@ -623,6 +623,21 @@ $messages['grc'] = array(
 	'wminc-infopage-title-v' => 'Βικιεπιστήμιον $1',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Chlämens
+ */
+$messages['gsw'] = array(
+	'wminc-infopage-enter' => 'Gang uff d Hauptsyte',
+	'wminc-unknownlang' => '(unbekannts Sproochechürzel)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionary $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversity $1',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
