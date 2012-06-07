@@ -639,6 +639,10 @@ $messages['br'] = array(
 	'wminc-searchwiki-selectproject' => 'Klask :',
 	'wminc-searchwiki-inputlanguage' => 'Er yezh:',
 	'wminc-searchwiki-go' => 'Mont',
+	'wminc-searchwiki-match-langcode' => '"$1" zo ur c\'hod ISO 639 evit $2.',
+	'wminc-searchwiki-match-userlangname' => 'Anv ur yezh eo $1.',
+	'wminc-searchwiki-match-englishname' => '"$1" eo anv $2 e saozneg.',
+	'wminc-searchwiki-match-nativename' => '"$1" eo anv $2 er yezh-se.',
 	'wminc-searchwiki-gotoinfopage' => 'Pajenn gelaouiñ',
 );
 
