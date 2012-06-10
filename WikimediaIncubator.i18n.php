@@ -857,6 +857,8 @@ $messages['diq'] = array(
 	'group-test-sysop' => 'Hizmetkare Test Viki',
 	'group-test-sysop-member' => '{{GENDER:$1|Hizmetkare Test Wiki}}',
 	'grouppage-test-sysop' => '{{ns:project}}:Hizmetkare test wiki',
+	'group-test-sysop.css' => '/* Heruna CSS kewtışi tenya Xizmetkari şeni */',
+	'group-test-sysop.js' => '/* Heruna JS kewtışi tenya Xizmetkari şeni */',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Zıwanê "$3" ]] literatur dı [[wikipedia:ISO 639 macrolanguage|herazıwano]], cêr dı xorê zewna zıwan bewni re:',
 	'wminc-code-collective' => 'Kodê zıwan dê "$1" teba mana nêdano, feqet koleksiyonê zıwani, zek vacım [[wikipedia:$2 language|zıwano "$3"]]o.',
 	'wminc-code-retired' => 'Ena koda zıwani vurneyaya yana orcinal zıwani referans nêgêna.',
@@ -874,6 +876,7 @@ $messages['diq'] = array(
 	'wminc-searchwiki-match-userlangname' => "$1' eno/ena zuwandeyo.",
 	'wminc-searchwiki-match-englishname' => 'Namey "$1"\'i zuwando bindı $2 zazakiyo.',
 	'wminc-searchwiki-match-nativename' => 'Namay "$1"\'i zuwando bindı $2\'o(a)',
+	'wminc-searchwiki-goto' => '<b>$1</b> ($2)',
 	'wminc-searchwiki-gotoinfopage' => 'Peyaya destegi',
 );
 
