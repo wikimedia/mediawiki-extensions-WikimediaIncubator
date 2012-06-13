@@ -45,9 +45,9 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 		# Search
 		if ( $projectQuery || $languageQuery ) {
-			$this->mNamesUserLang = Language::getTranslatedLanguageNames( $this->getLanguage()->getCode() );
-			$this->mEnglishNames = Language::getTranslatedLanguageNames( 'en' );
-			$this->mNativeNames = Language::getLanguageNames( false );
+			$this->mNamesUserLang = Language::fetchLanguageNames( $this->getLanguage()->getCode(), 'all' );
+			$this->mEnglishNames = Language::fetchLanguageNames( 'en', 'all' );
+			$this->mNativeNames = Language::fetchLanguageNames( null, 'all' );
 			$this->doSearch( $projectQuery, $languageQuery );
 		}
 	}
@@ -77,7 +77,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 		$lcLanguageQuery = strtolower( $languageQuery );
 		# The more important, the more below, because they override earlier codes
-		$validCodes = array_keys( Language::getTranslatedLanguageNames( 'en' ) );
+		$validCodes = array_keys( Language::fetchLanguageNames( 'en', 'all' ) );
 		if( in_array( $lcLanguageQuery, $validCodes ) ) {
 			$builtinCode = Language::factory( $lcLanguageQuery )->getCode();
 			$results[$builtinCode] = 'langcode'; # Match language code
