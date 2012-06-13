@@ -1985,6 +1985,7 @@ $messages['ku-latn'] = array(
 	'wminc-prefinfo-code' => 'Koda ISO 639 a ziman',
 	'wminc-viewuserlang-user' => 'Navê bikarhêner:',
 	'wminc-viewuserlang-go' => 'Biçe',
+	'wminc-searchwiki-go' => 'Biçe',
 );
 
 /** Cornish (Kernowek)
