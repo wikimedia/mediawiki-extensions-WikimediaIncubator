@@ -103,7 +103,7 @@ $messages['af'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity $1',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -157,7 +157,7 @@ $messages['avk'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Bat abdumimaks abdi bokara va Wikimedia Incubator zo reduyur nume dene $1 tir roderaykan.',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -239,7 +239,7 @@ $messages['be-tarask'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Гэты праект быў створаны перад пачаткам функцыянаваньня Інкубатара фундацыі «Вікімэдыя» і ён даступны на $1.',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -270,7 +270,7 @@ e c'hallit [{{fullurl:{{FULLPAGENAME}}|action=edit}} kouiñ ar bajenn] ha heulia
 	'wminc-infopage-status-beforeincubator' => "Savet e oa bet ar raktres-mañ a-raok na loc'hfe gorerez Wikimedia hag hegerz eo war $1.",
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Koo6
  * @author Mormegil
  */
@@ -426,7 +426,7 @@ puedes [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la página] y seguir [[{{
 	'wminc-infopage-status-beforeincubator' => 'Este proyecto fue creado antes de que la Incubadora de Wikimedia comenzara y está disponible en $1.',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  */
 $messages['et'] = array(
@@ -552,7 +552,7 @@ $messages['fr'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Ce projet a été créé avant que l’Incubateur Wikimedia ait été lancé et est disponible sur $1.',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -709,7 +709,7 @@ móžeš [{{fullurl:{{FULLPAGENAME}}|action=edit}} stronu wutworić] a po [[{{Me
 	'wminc-infopage-status-beforeincubator' => 'Tutón projekt je so wutworił, prjedy hač inkubator Wikimedije je so startował a steji pod $1 k dispoziciji.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  * @author Xbspiro
  */
@@ -740,7 +740,7 @@ $messages['hu'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Ez a projekt a Wikimedia Inkubátor előtt indult és elérhet itt: $1.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -771,7 +771,7 @@ tu pote [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear le pagina] e sequer [[{{
 	'wminc-infopage-status-beforeincubator' => 'Iste projecto ha essite create ante le comenciamento de Wikimedia Incubator e es disponibile a $1.',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Nemo bis
  */
@@ -897,7 +897,7 @@ $messages['li'] = array(
 	'wminc-infopage-welcome' => "Wèlkóm bie g'm Wikimedia Incubator, e perjèk dèr Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|mieër info]])",
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Matasg
  */
@@ -948,7 +948,7 @@ $messages['lus'] = array(
 	'wminc-infopage-status-beforeincubator' => 'He hna-hmachhawp hi Wikimedia Inmunna inţan hmaa siam tawh a ni a, $1-ah en theihin a awm.',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  */
 $messages['lv'] = array(
@@ -956,7 +956,7 @@ $messages['lv'] = array(
 	'wminc-infopage-title-b' => 'Wikibooks $1',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1087,7 +1087,7 @@ $messages['or'] = array(
 	'wminc-infopage-title-p' => 'ଉଇକିପିଡ଼ିଆ $1',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Bartek50003
  * @author BeginaFelicysym
  * @author Sp5uhe
@@ -1150,7 +1150,7 @@ $messages['ps'] = array(
 	'wminc-infopage-option-multilingual' => 'تاسې يوې څوژبنيزې ويکي ته ورتللی شی:',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Carla404
  * @author Hamilton Abreu
  * @author SandroHc
@@ -1175,7 +1175,7 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 	'wminc-infopage-status-beforeincubator' => 'Este projecto foi criado antes do início da Incubadora Wikimedia e está disponível em $1.',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Jaideraf
  * @author MetalBrasil
@@ -1207,7 +1207,7 @@ $messages['pt-br'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Esse projeto foi criado antes do inicio da Wikimedia Incubator e está avaliável em $1.',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author Minisarm
  */
@@ -1224,7 +1224,7 @@ $messages['ro'] = array(
 	'wminc-infopage-missingwiki-text' => '$1 în această limbă nu există.',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  * @author Reder
  */
@@ -1333,7 +1333,7 @@ $messages['si'] = array(
 	'wminc-infopage-status-beforeincubator' => 'මෙම ව්‍යාපෘතිය තැනී ඇත්තේ විකිමාධ්‍ය ඉන්කිව්බේටරය ආරම්භ කිරීමට පෙර වන අතර $1 හීදී ලබා ගත හැක.',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1364,14 +1364,14 @@ lahko [{{fullurl:{{FULLPAGENAME}}|action=edit}} ustvarite stran] in sledite [[{{
 	'wminc-infopage-status-beforeincubator' => 'Projekt je nastal pred zagonom Wikimediinega Inkubatorja in je na voljo na $1.',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Olsi
  */
 $messages['sq'] = array(
 	'wminc-infopage-contribute' => 'Nëse e dini këtë gjuhë, jeni të inkurajuar të kontribuoni!',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -1394,7 +1394,7 @@ $messages['sr-ec'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Овај пројекат је направљен пре почетка рада Викимедијиног Инкубатора и доступан је на $1.',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'wminc-infopage-enter' => 'idi na Glavnu stranu',
 	'wminc-unknownlang' => '(nepoznat jezik s kodom „$1“)',
@@ -1415,7 +1415,7 @@ onda možete da [{{fullurl:{{FULLPAGENAME}}|action=edit}} napravite stranicu] i 
 	'wminc-infopage-status-beforeincubator' => 'Ovaj projekat je napravljen pre početka rada Vikimedijinog Inkubatora i dostupan je na $1.',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lokal Profil
  * @author Warrakkk
  */
@@ -1451,7 +1451,7 @@ $messages['ta'] = array(
 	'wminc-infopage-missingwiki-text' => 'A  $1  இந்த மொழியில் இதுவரை இல்லை.',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1483,7 +1483,7 @@ $messages['tr'] = array(
 	'wminc-infopage-status-closedsister' => "Bu alt etki alanı kapatılmıştır. Bu vikiye katkıda bulunmak için <b>$2</b>'ye/ya gidin.",
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Andrijko Z.
  * @author Dim Grits
  */
@@ -1545,7 +1545,7 @@ $messages['yi'] = array(
 	'wminc-infopage-title-p' => 'וויקיפעדיע $1',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Anakmalaysia
  * @author Dalt
  * @author Liangent
@@ -1577,7 +1577,7 @@ $messages['zh-hans'] = array(
 	'wminc-infopage-status-beforeincubator' => '此项目已在维基孵育场开场之前创建，而在$1可以使用。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  * @author Oapbtommy
  */

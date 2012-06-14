@@ -340,7 +340,7 @@ $messages['arz'] = array(
 	'wminc-viewuserlang-go' => 'روح',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -444,7 +444,7 @@ $messages['avk'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'Givabu',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -556,7 +556,7 @@ $messages['be-tarask'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'старонка даведкі',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
  * @author Stanqo
@@ -646,7 +646,7 @@ $messages['br'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'Pajenn gelaouiñ',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -666,7 +666,7 @@ $messages['bs'] = array(
 	'right-viewuserlang' => 'Pregledavanje korisničkog jezika i probne wiki',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  * @author SMP
  * @author Solde
@@ -679,7 +679,7 @@ $messages['ca'] = array(
 	'right-viewuserlang' => "Veure l'idioma i el wiki de prova",
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Marmzok
  */
 $messages['ckb'] = array(
@@ -718,7 +718,7 @@ $messages['cs'] = array(
 	'wminc-searchwiki-match-nativename' => '„$1“ je název pro jazyk $2 v tomto jazyce.',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  * @author Froztbyte
  * @author Masz
@@ -918,7 +918,7 @@ $messages['dtp'] = array(
 	'right-viewuserlang' => 'Intaai woyoboros momomoguno om wiki pogumbalan',
 );
 
-/** Ewe (Eʋegbe) */
+/** Ewe (eʋegbe) */
 $messages['ee'] = array(
 	'wminc-viewuserlang-go' => 'Yi',
 );
@@ -987,7 +987,7 @@ $messages['eo'] = array(
 	'wminc-listusers-testwiki' => 'Vi rigardas uzantojn kiu agordas vikian preferon al $1.',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Antur
  * @author Armando-Martin
  * @author Crazymadlover
@@ -1045,7 +1045,7 @@ $messages['es'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'página de información',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  */
@@ -1086,7 +1086,7 @@ $messages['et'] = array(
 	'wminc-search-nocreate-suggest' => 'Otsisid märksõna "$1". Enda vikis saad lehekülge alustada asukohas <b>[[$2]]</b>!',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  */
@@ -1156,7 +1156,7 @@ $messages['fa'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'صفحهٔ اطلاعات',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
  * @author Nedergard
@@ -1203,7 +1203,7 @@ $messages['fi'] = array(
 	'wminc-search-nocreate-suggest' => 'Etsit hakusanalla "$1". Voit luoda sivun wikissäsi napsauttamalla <b>[[$2]]</b>!',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Gomoko
  * @author IAlex
@@ -1262,7 +1262,7 @@ $messages['fr'] = array(
 	'wminc-searchwiki-gotoinfopage' => "page d'information",
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -1544,7 +1544,7 @@ $messages['hil'] = array(
 	'right-viewuserlang' => 'Tan-awon user lengwahe kag pagtilaw wiki',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Bugoslav
  * @author Ex13
  * @author Tivek
@@ -1619,7 +1619,7 @@ $messages['hsb'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'Infostrona',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Bdamokos
  * @author Dj
  * @author Glanthor Reviol
@@ -1653,7 +1653,7 @@ $messages['hu'] = array(
 	'wminc-search-nocreate-suggest' => 'Erre kerestél rá: „$1”. Létrehozhatsz egy lapot a wikidben itt: <b>[[$2]]</b>.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -1738,7 +1738,7 @@ $messages['ig'] = array(
 	'wminc-viewuserlang-go' => 'Gá',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Annayram
  * @author Beta16
  * @author Darth Kule
@@ -1988,7 +1988,7 @@ $messages['ku-latn'] = array(
 	'wminc-searchwiki-go' => 'Biçe',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kernoweger
  * @author Kw-Moon
  * @author Nrowe
@@ -2082,7 +2082,7 @@ $messages['li'] = array(
 	'wminc-search-nocreate-suggest' => 'Doe haes gezóch achter "$1". Doe kins \'n paasj in dienem teswikieë aanmaken óp <b>[[$2]]</b>.',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Hugo.arg
  */
@@ -2164,7 +2164,7 @@ $messages['lus'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'Hriattirna phêk',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Papuass
  * @author Xil
  */
@@ -2203,7 +2203,7 @@ $messages['mg'] = array(
 	'wminc-viewuserlang-go' => 'Andana',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -2309,7 +2309,7 @@ $messages['ml'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'വിവരണ താൾ',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -2522,7 +2522,7 @@ $messages['nl'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'informatiepagina',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  */
 $messages['nn'] = array(
@@ -2541,7 +2541,7 @@ $messages['nn'] = array(
 	'right-viewuserlang' => 'Vis brukarspråk og testwiki',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -2589,7 +2589,7 @@ $messages['pfl'] = array(
 	'wminc-searchwiki-inputlanguage' => 'Inde Schbrooch:',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Leinad
  * @author Sp5uhe
@@ -2708,7 +2708,7 @@ $messages['ps'] = array(
 	'wminc-ip' => '"$1" يوه آی پي پته ده.',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Lijealso
  * @author Malafaya
@@ -2753,7 +2753,7 @@ $messages['pt'] = array(
 	'wminc-search-nocreate-suggest' => 'Tu procuras-te "$1". Podes criar uma página na tua wiki em <b>[[$2]]</b>!',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
@@ -2817,7 +2817,7 @@ $messages['qug'] = array(
 	'wminc-error-unprefixed' => "'''Pantay:''' Kay pankaka [[{{MediaWiki:Wminc-error-help}}|prefixota illan]]!",
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Emily
  * @author Firilacroco
  * @author KlaudiuMihaila
@@ -2854,7 +2854,7 @@ $messages['ro'] = array(
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Limba „$3”]] este o [[wikipedia:ro:ISO 639 macrolimbă|macrolimbă]], incluzând următoarele limbi:',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -2884,7 +2884,7 @@ $messages['roa-tara'] = array(
 	'grouppage-test-sysop' => '{{ns:project}}:Test amministrature de uicchi',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Adata80
  * @author Alexandr Efremov
  * @author Ferrer
@@ -2989,7 +2989,7 @@ $messages['sa'] = array(
 	'wminc-viewuserlang-user' => 'योजकनामन्:',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -3004,7 +3004,7 @@ $messages['sah'] = array(
 	'wminc-viewuserlang-go' => 'Бул',
 );
 
-/** Sardinian (Sardu)
+/** Sardinian (sardu)
  * @author Andria
  */
 $messages['sc'] = array(
@@ -3013,7 +3013,7 @@ $messages['sc'] = array(
 	'wminc-viewuserlang-go' => 'Bae',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Aushulz
  */
 $messages['scn'] = array(
@@ -3110,7 +3110,7 @@ $messages['si'] = array(
 	'wminc-search-nocreate-suggest' => '"$1" සඳහා ඔබ සොයන ලදී. <b>[[$2]]</b> හීදී ඔබට ඔබේ විකියේ පිටුවක් තැනිය හැක!',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -3129,7 +3129,7 @@ $messages['sk'] = array(
 	'right-viewuserlang' => 'Zobraziť jazyk používateľa a testovaciu wiki',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -3181,12 +3181,12 @@ $messages['sl'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'stran z informacijami',
 );
 
-/** Albanian (Shqip) */
+/** Albanian (shqip) */
 $messages['sq'] = array(
 	'wminc-listwikis' => 'Lista e projekteve',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -3227,7 +3227,7 @@ $messages['sr-ec'] = array(
 	'wminc-search-nocreate-suggest' => 'Тражите појам „$1“. Можете да направите страницу на вашем викију на <b>[[$2]]</b>.',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -3276,7 +3276,7 @@ $messages['su'] = array(
 	'wminc-prefinfo-error' => 'Anjeun milih proyék anu merlukeun sandi basa.',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author Diupwijk
  * @author Gabbe.g
@@ -3386,7 +3386,7 @@ $messages['te'] = array(
 	'right-viewuserlang' => 'వాడుకరి భాషను చూడగలగడం మరియు వికీని పరీక్షించడం',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -3394,7 +3394,7 @@ $messages['tet'] = array(
 	'wminc-userdoesnotexist' => 'Uza-na\'in "$1" la iha.',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -3404,7 +3404,7 @@ $messages['tg-cyrl'] = array(
 	'wminc-viewuserlang-go' => 'Рав',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -3476,7 +3476,7 @@ $messages['tr'] = array(
 	'grouppage-test-sysop' => '{{ns:project}}:Test viki hizmetlisi',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ajdar
  */
 $messages['tt-cyrl'] = array(
@@ -3517,7 +3517,7 @@ $messages['ug-arab'] = array(
 	'wminc-viewuserlang-go' => 'يۆتكەل',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Aleksandrit
  * @author Dim Grits
@@ -3653,7 +3653,7 @@ $messages['yue'] = array(
 	'wminc-viewuserlang' => '睇用戶語言同測試wiki',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Anakmalaysia
  * @author Bencmq
  * @author Hydra
@@ -3713,7 +3713,7 @@ $messages['zh-hans'] = array(
 	'wminc-searchwiki-gotoinfopage' => '信息页面',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  * @author Horacewai2
  * @author Liangent
