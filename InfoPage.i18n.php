@@ -103,6 +103,21 @@ $messages['af'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity $1',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'wminc-infopage-enter' => 'বেটুপাতলৈ যাওক',
+	'wminc-unknownlang' => '(অজ্ঞাত ভাষা কোড)',
+	'wminc-infopage-title-p' => 'ৱিকিপিডিয়া',
+	'wminc-infopage-title-b' => 'ৱিকিপ্ৰন্থ $1',
+	'wminc-infopage-title-t' => 'ৱিকি অভিধান $1',
+	'wminc-infopage-title-q' => 'ৱিকি উক্তি $1',
+	'wminc-infopage-title-n' => 'ৱিকিসংবাদ $1',
+	'wminc-infopage-title-s' => 'ৱিকি উত্স $1',
+	'wminc-infopage-title-v' => 'ৱিকি বিশ্ববিদ্যালয় $1',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
