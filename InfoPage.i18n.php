@@ -299,7 +299,7 @@ $messages['cs'] = array(
  * @author Polletfa
  */
 $messages['de'] = array(
-	'wminc-infopage-enter' => 'Geh zur Haupseite',
+	'wminc-infopage-enter' => 'Geh zur Hauptseite',
 	'wminc-unknownlang' => '(unbekannter Sprachecode)',
 	'wminc-infopage-title-p' => 'Wikipedia $1',
 	'wminc-infopage-title-b' => 'Wikibooks $1',
