@@ -162,3 +162,7 @@ $wgHooks['SpecialSearchSetupEngine'][] = 'IncubatorTest::onSpecialSearchSetupEng
 /* Search for a wiki in a language */
 $wgAutoloadClasses['SpecialSearchWiki'] = $dir . 'SpecialSearchWiki.php';
 $wgSpecialPages['SearchWiki'] = 'SpecialSearchWiki';
+
+/* IncubatorFirstSteps */
+$wgAutoloadClasses['SpecialIncubatorFirstSteps'] = $dir . 'SpecialIncubatorFirstSteps.php';
+$wgSpecialPages['IncubatorFirstSteps'] = 'SpecialIncubatorFirstSteps';

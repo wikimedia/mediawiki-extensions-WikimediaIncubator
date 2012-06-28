@@ -82,6 +82,30 @@ $messages['en'] = array(
 	'wminc-searchwiki-match-nativename' => '"$1" is the name for $2 in that language.',
 	'wminc-searchwiki-goto' => '<b>$1</b> ($2)',
 	'wminc-searchwiki-gotoinfopage' => 'info page',
+
+	# Special:IncubatorFirstSteps
+	'wminc-fs-pagetitle' => 'Getting started wizard - $1',
+	'wminc-fs-langselect-title' => 'Select language',
+	'wminc-fs-signup-title' => 'Sign up',
+	'wminc-fs-settings-title' => 'Set your wiki preference',
+	'wminc-fs-userpage-title' => 'Create your userpage',
+	'wminc-fs-startwiki-title' => 'Start your wiki',
+	'wminc-fs-pagetitle-done' => ' - done!',
+	'wminc-fs-intro' => "Welcome to the {{SITENAME}} first steps wizard. You will be guided through the process of starting a new wiki.",
+	'wminc-fs-langselect' => 'Proceed in $1 or $2',
+	'wminc-fs-langselect-langs' => 'en,ar,de,eo,fr,es,id,it,ja,nl,pl,pt-br,ru,tr,zh', # do not translate
+	'wminc-fs-signup-text' => 'If you already have a user account, please [$1 log in]. If you do not have one yet, please [$2 create a user account].
+It is not required but strongly recommended and only takes a few seconds to create.',
+	'wminc-fs-settings-image' => '[[File:Incubator wiki preference.png|thumb|350px]]', # do not translate
+	'wminc-fs-settings-text' => 'Please now go to [[Special:Preferences|your preferences]] and change your test wiki setting.
+At the right you see the relevant options you have on that page. The first one is your interface language, which you have chosen in the first step, but you can still change it.
+The second one is the project you want to contribute to and the third one is the language code of the project you want to contribute to.
+If you don\'t know the code, please consult our [[{{MediaWiki:Wminc-manual-url}}|manual]] or ask for [[{{MediaWiki:Portal-url}}|help]].',
+	'wminc-fs-userpage-text' => 'Please now create your userpage $1 with some basic info about yourself. You can also see a link to it at the top of this page.',
+	'wminc-fs-globaluser-text' => 'Your user account is local. It is recommended to make it global via $1 so you can use it on any Wikimedia wiki.',
+	'wminc-fs-startwiki-text' => 'The prefix of your wiki is $1. You can create the wiki\'s Main Page at $2.',
+	'wminc-fs-startwiki-exists-text' => 'The prefix of your wiki is $1. The Main Page is at $2. You can now collaborate with other speakers of this language to build a community!
+If you want to create a page, just type in the name in the search box above, and follow the link you will see.',
 );
 
 /** Message documentation (Message documentation)
@@ -170,6 +194,19 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 * $2 is its language name in the user interface language.',
 	'wminc-searchwiki-goto' => '{{optional}}',
 	'wminc-searchwiki-gotoinfopage' => 'Link text to go to the Wx/xyz info page',
+	'wminc-fs-pagetitle' => '$1 is the step (one of the wminc-fs-*-title messages)',
+	'wminc-fs-langselect-title' => 'Title: select the preferred interface language',
+	'wminc-fs-signup-title' => 'Title: create an account',
+	'wminc-fs-settings-title' => 'Title of the explanation to set the right test wiki preference',
+	'wminc-fs-userpage-title' => 'Create your userpage',
+	'wminc-fs-startwiki-title' => 'Start your wiki',
+	'wminc-fs-pagetitle-done' => 'added to the title if that step is completed',
+	'wminc-fs-langselect' => '$1 is the current language, $2 is a list of alternative (clickable) languages',
+	'wminc-fs-signup-text' => '$1 is the link to log in, $2 to create an account',
+	'wminc-fs-userpage-text' => '$1 is a link to the user page',
+	'wminc-fs-globaluser-text' => '$1 is a link to Special:MergeAccount',
+	'wminc-fs-startwiki-text' => '$1 is the prefix (Wx/xyz), $2 is a link to its main page (Wx/xyz/Main_Page)',
+	'wminc-fs-startwiki-exists-text' => '$1 is the prefix (Wx/xyz), $2 is a link to its main page (Wx/xyz/Main_Page)',
 );
 
 /** Tati (Tati)
