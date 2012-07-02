@@ -1926,13 +1926,16 @@ $messages['ko'] = array(
 	'wminc-desc' => '위키미디어 인큐베이터의 테스트 위키 시스템',
 	'wminc-prefinfo-code' => 'ISO 639 언어 코드',
 	'wminc-viewuserlang' => '사용자 언어와 테스트 위키 찾기',
-	'wminc-viewuserlang-user' => '사용자이름:',
+	'wminc-viewuserlang-user' => '사용자 이름:',
 	'wminc-viewuserlang-go' => '찾기',
 	'group-test-sysop' => '테스트 위키 관리자',
 	'group-test-sysop-member' => '{{GENDER:$1|테스트 위키 관리자}}',
 	'grouppage-test-sysop' => '{{ns:project}}:테스트 위키 관리자',
 	'group-test-sysop.css' => '/* 이 CSS 설정은 테스트 위키 관리자에만 적용됩니다 */',
 	'group-test-sysop.js' => '/* 이 자바스크립트 설정은 테스트 위키 관리자에만 적용됩니다 */',
+	'wminc-searchwiki' => '위키에서 찾기',
+	'wminc-searchwiki-go' => '찾기',
+	'wminc-searchwiki-gotoinfopage' => '정보 문서',
 );
 
 /** Komi-Permyak (Перем Коми)
@@ -2294,6 +2297,7 @@ $messages['ml'] = array(
 	'wminc-code-collective' => '"$1" എന്ന കോഡ് ഒരു പ്രത്യേക ഭാഷയെ പ്രതിനിധീകരിക്കുന്നില്ല, മറിച്ച് [[wikipedia:$2 language|"$3" ഭാഷകൾ]] എന്ന ഒരു കൂട്ടം ഭാഷകളാണ്.',
 	'wminc-code-retired' => 'ഈ ഭാഷാ കോഡ് മാറിയിരിക്കുന്നു, യഥാർത്ഥ ഭാഷയെ അത് പ്രതിനിധീകരിക്കുന്നില്ല.',
 	'wminc-listusers-testwiki' => 'തങ്ങളുടെ പരീക്ഷണവിക്കി ക്രമീകരണങ്ങൾ $1 ആയി സജ്ജീകരിച്ചിട്ടുള്ള ഉപയോക്താക്കളെയാണ് താങ്കൾ കാണുന്നത്.',
+	'wminc-search-nocreate-nopref' => 'താങ്കൾ തിരഞ്ഞത് "$1" എന്ന പദമാണ്. താങ്കളുടെ [[Special:Preferences|പരീക്ഷണ വിക്കി മുൻഗണനകൾ]] സജ്ജീകരിക്കുകയാണെങ്കിൽ, ഏതേതു താളുകളാണ് താങ്കൾക്ക് സൃഷ്ടിക്കാനാവുക എന്ന് ഞങ്ങൾക്ക് പറയാനാകും!',
 	'wminc-search-nocreate-suggest' => 'താങ്കൾ തിരഞ്ഞത് "$1" എന്നതിനാണ്. താങ്കളുടെ വിക്കിയിൽ <b>[[$2]]</b> എന്ന താൾ താങ്കൾക്ക് സൃഷ്ടിക്കാവുന്നതാണ്!',
 	'wminc-searchwiki' => 'വിക്കിയ്ക്കായി തിരയുക',
 	'wminc-searchwiki-noproject' => 'താങ്കളൊരു പദ്ധതി തിരഞ്ഞെടുത്തിട്ടില്ല.',
@@ -3441,6 +3445,18 @@ $messages['tl'] = array(
 	'wminc-viewuserlang-go' => 'Gawin',
 	'wminc-userdoesnotexist' => 'Hindi umiiral ang tagagamit na si "$1".',
 	'right-viewuserlang' => 'Tingnan ang wika ng tagagamit at wiking sinusubukan',
+	'wminc-searchwiki' => 'Maghanap ng isang wiki',
+	'wminc-searchwiki-noproject' => 'Hindi ka pumili ng isang proyekto.',
+	'wminc-searchwiki-noresults' => 'Walang mga resulta. Makapaghahanap ka ayon sa mga kodigo ng wika, katutubong mga pangalan at mga pangalang nasa wika ng iyong ugnayang-mukha o Ingles.',
+	'wminc-searchwiki-selectproject' => 'Hanapin ang:',
+	'wminc-searchwiki-inputlanguage' => 'Nasa wikang:',
+	'wminc-searchwiki-go' => 'Gawin',
+	'wminc-searchwiki-multiplematches' => 'Ang paghahanap mo ay tumutugma sa sumusunod na mga wika:',
+	'wminc-searchwiki-match-langcode' => 'Ang "$1" ay isang kodigo ng wika ng ISO 639 para sa $2.',
+	'wminc-searchwiki-match-userlangname' => 'Ang $1 ay ang pangalan ng isang wika.',
+	'wminc-searchwiki-match-englishname' => 'Ang "$1" ay ang pangalan para sa $2 sa Ingles.',
+	'wminc-searchwiki-match-nativename' => 'Ang "$1" ay ang pangalan para sa $2 sa wikang iyan.',
+	'wminc-searchwiki-gotoinfopage' => 'pahina ng kabatiran',
 );
 
 /** Turkish (Türkçe)

@@ -88,6 +88,7 @@ $messages['qqq'] = array(
 	'wminc-infopage-status-closedsister' => 'Used for closed Wikisources or Wikiversities. $2 is a link to either project.',
 	'wminc-infopage-status-created' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-status-beforeincubator' => "'''$1''' is a URL to the existing wiki.",
+	'wminc-infopage-error' => 'Error message shown when trying to use <tt>{{#infopage:}}</tt> on a non-prefixed page (i.e. pages not starting with a Wx/xyz/ prefix).',
 );
 
 /** Afrikaans (Afrikaans)
@@ -326,6 +327,7 @@ kannst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und gem
 	'wminc-infopage-status-closedsister' => 'Diese Subdomain wurde geschlossen. Geh zu <b>$2</b>, um zu diesem Wiki beizutragen.',
 	'wminc-infopage-status-created' => 'Dieses Projekt wurde vom Sprachkomitee genehmigt und ist nun unter $1 verfügbar..',
 	'wminc-infopage-status-beforeincubator' => 'Dieses Projekt wurde erstellt, bevor es den Wikimedia Incubator gab und ist unter $1 verfügbar.',
+	'wminc-infopage-error' => 'Fehler: {{#infopage}} kann nur auf Seiten, die über ein Präfix verfügen, verwendet werden.',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -374,6 +376,32 @@ $messages['diq'] = array(
 	'wminc-infopage-status-closedsister' => 'Bın domainê enay racneyayo. Qan dê iştıraxa şırê <b>$2</b>',
 	'wminc-infopage-status-created' => "Komitey zıwani ena proca kerda tesdiq u pelada $1'dı esta.",
 	'wminc-infopage-status-beforeincubator' => "Dest pêkerdışê ena procer Wikimedia Incubator dı veror vıraziyayo u pela da $1'dı esto.",
+);
+
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'wminc-infopage-enter' => 'źi ku głownemu bokoju',
+	'wminc-unknownlang' => '(njeznaty rěcny kod)',
+	'wminc-infopage-title-p' => 'Wikipedija $1',
+	'wminc-infopage-title-b' => 'Wikiknigły $1',
+	'wminc-infopage-title-t' => 'Wikisłownik $1',
+	'wminc-infopage-title-q' => 'Wikicitat $1',
+	'wminc-infopage-title-n' => 'Wikinowosći $1',
+	'wminc-infopage-title-s' => 'Wikižrědło $1',
+	'wminc-infopage-title-v' => 'Wikiwersita $1',
+	'wminc-infopage-missingwiki-text' => '$1 hyšći njeeksistěrujo w toś tej rěcy.',
+	'wminc-infopage-option-startsister' => 'Jolic coš toś ten wiki startowaś, móžoš k <b>[$2 $1]</b> hyś.',
+	'wminc-infopage-option-languages-existing' => 'Móžoš za [//www.$1.org eksistěrujucymi rěcnymi wudaśami projekta $1] pytaś.',
+	'wminc-infopage-option-sisterprojects-existing' => 'Móžoš za eksistěrujucymi projektami w toś tej rěcy pytaś:',
+	'wminc-infopage-option-sisterprojects-other' => 'Móžoš za drugimi projektami w toś tej rěcy pytaś:',
+	'wminc-infopage-option-multilingual' => 'Móžoš k wěcejrěcnemu wikijeju hyś:',
+	'wminc-infopage-createmainpage' => 'Zapódaj wuraz za "Głowny bok" w toś tej rěcy:',
+	'wminc-infopage-contribute' => 'Jolic wumějoš toś tu rěc, buź witany a cyń sobu!',
+	'wminc-infopage-status-open' => 'To jo wótwórjony wiki na Wikimedia Incubator.',
+	'wminc-infopage-status-imported' => 'Toś ten wiki inkubatora jo se z $1 importěrował, za tym až jo se wiki zacynił.',
+	'wminc-infopage-error' => 'Zmólka: {{#infopage}} dajo se jano na bokach wužywaś, kótarež maju prefiks.',
 );
 
 /** Greek (Ελληνικά)
@@ -596,7 +624,7 @@ vos pouede [{{fullurl:{{FULLPAGENAME}}|action=edit}} fâre la pâge] et pués si
 	'wminc-infopage-status-beforeincubator' => 'Ceti projèt at étâ fêt aprés que la Covosa Wikimedia èye étâ lanciê et est disponiblo dessus $1.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -625,6 +653,7 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear esta páxina] e seguir [[{{
 	'wminc-infopage-status-closedsister' => 'Este subdominio foi pechado. Vaia a <b>$2</b> para contribuír neste wiki.',
 	'wminc-infopage-status-created' => 'Este proxecto foi aprobado polo comité de linguas e agora está dispoñible en $1.',
 	'wminc-infopage-status-beforeincubator' => 'Este proxecto foi creado antes ca a Incubadora da Wikimedia e está dispoñible en $1.',
+	'wminc-infopage-error' => 'Erro: {{#infopage}} pódese utilizar unicamente nas páxinas con prefixo.',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -695,7 +724,7 @@ $messages['hi'] = array(
 	'wminc-infopage-title-p' => 'विकिपीड़िया $1',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -724,6 +753,7 @@ móžeš [{{fullurl:{{FULLPAGENAME}}|action=edit}} stronu wutworić] a po [[{{Me
 	'wminc-infopage-status-closedsister' => 'Tuta poddomena je so začiniła. Dźi k <b>$2</b>, zo by k tutomu wikijej přinošował.',
 	'wminc-infopage-status-created' => 'Tutón projekt je so wot rěčneho komiteja schwalił a steji nětko pod $1 k dispoziciji.',
 	'wminc-infopage-status-beforeincubator' => 'Tutón projekt je so wutworił, prjedy hač inkubator Wikimedije je so startował a steji pod $1 k dispoziciji.',
+	'wminc-infopage-error' => 'Zmylk: {{#infopage}} da so jenož na stronach wužiwać, kotrež prefiks maja.',
 );
 
 /** Hungarian (magyar)
@@ -1094,6 +1124,7 @@ $messages['nl'] = array(
 	'wminc-infopage-status-closedsister' => 'Dit subdomein is gesloten. Ga naar <b>$2</b> om bij te dragen aan deze wiki.',
 	'wminc-infopage-status-created' => 'Dit project werd goedgekeurd door het taalcomité en is nu beschikbaar op $1.',
 	'wminc-infopage-status-beforeincubator' => 'Dit project is gemaakt voordat Wikimedia Incubator begon en is beschikbaar op $1.',
+	'wminc-infopage-error' => "Fout: {{#infopage}} kan alleen gebruikt worden in pagina's met een voorvoegsel.",
 );
 
 /** Oriya (ଓଡ଼ିଆ)
@@ -1473,6 +1504,23 @@ $messages['ta'] = array(
  */
 $messages['tet'] = array(
 	'wminc-infopage-enter' => 'bá Pájina Mahuluk',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'wminc-infopage-enter' => 'pumunta sa Pangunahing Pahina',
+	'wminc-unknownlang' => '(hindi nalalamang kodigo ng wika)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionary $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversity $1',
+	'wminc-infopage-welcome' => 'Maligayang pagdating sa Palimliman ng Wikimedia, isang proyekto Pundasyon ng Wikimedia ([[{{MediaWiki:Aboutpage}}|Patungkol]])',
+	'wminc-infopage-missingwiki-text' => 'Ang $1 na nasa ganitong wika ay hindi pa umiiral.',
 );
 
 /** Turkish (Türkçe)
