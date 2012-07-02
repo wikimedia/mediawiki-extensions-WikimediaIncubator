@@ -5,7 +5,8 @@ if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWik
  * for a test wiki system (i.e. incubated wikis inside one actual wiki)
  * mainly intended for the Wikimedia Incubator
  *
- * MediaWiki 1.18 or higher required
+ * The development of this extension is closely tied to MediaWiki trunk.
+ * It may not work with previous MediaWiki versions.
  *
  * @file
  * @ingroup Extensions
@@ -16,7 +17,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => array( 'SPQRobin', 'Hydriz' ),
-	'version' => '5.0',
+	'version' => '5.1',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -133,6 +134,7 @@ $wgHooks['ShowMissingArticle'][] = 'IncubatorTest::onShowMissingArticle';
 $wgHooks['EditFormPreloadText'][] = 'IncubatorTest::onEditFormPreloadText';
 $wgHooks['MediaWikiPerformAction'][] = 'IncubatorTest::onMediaWikiPerformAction';
 $wgHooks['TitleIsAlwaysKnown'][] = 'IncubatorTest::onTitleIsAlwaysKnown';
+$wgHooks['ParserFirstCallInit'][] = 'IncubatorTest::onParserFirstCallInit';
 
 $wgResourceModules['WikimediaIncubator.InfoPage'] = array(
 	'styles' => 'InfoPage.css',

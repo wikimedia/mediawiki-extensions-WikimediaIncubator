@@ -521,6 +521,7 @@ class IncubatorTest {
 		if( $title->getNamespace() != NS_MAIN ) {
 			return true; # not for other namespaces
 		}
+		$wgOut->addModuleStyles( 'WikimediaIncubator.InfoPage' );
 		$infopage = new InfoPage( $title, $prefix );
 		$infopage->mDbStatus = $dbstate = self::getDBState( $prefix );
 		if( $dbstate == 'existing' ) {
@@ -538,6 +539,37 @@ class IncubatorTest {
 		# Set the page title from "Wx/xyz - Incubator" to "Wikiproject Language - Incubator"
 		$wgOut->setHTMLTitle( wfMessage( 'pagetitle', $infopage->mFormatTitle )->text() );
 		return true;
+	}
+
+	public static function onParserFirstCallInit( &$parser ) {
+		$parser->setFunctionHook( 'infopage', 'IncubatorTest::renderParserFunction' );
+		return true;
+	}
+
+	/**
+	 * #infopage parser function
+	 * @return array
+	 */
+	public static function renderParserFunction( &$parser, $status = 'default' ) {
+		$title = $parser->getTitle();
+		$prefix = IncubatorTest::analyzePrefix( $title );
+		if( $prefix['error'] ) {
+			return '<span class="error">' .
+				wfMessage( 'wminc-infopage-error' )->plain() . '</span>';
+		}
+		$infopage = new InfoPage( $title, $prefix );
+		if( $status ) {
+			$infopage->mSubStatus = $status;
+		}
+
+		$parser->getOutput()->addModuleStyles( 'WikimediaIncubator.InfoPage' );
+		$parser->getOptions()->getUserLangObj(); # we have to split the cache by language
+		$parser->getOutput()->setTitleText( $infopage->mFormatTitle ); # sets <h1> & <title>
+
+		$return = in_array( $status, array( 'created', 'beforeincubator' ) ) ?
+			$infopage->showExistingWiki() : $infopage->showIncubatingWiki();
+
+		return array( $return, 'noparse' => true, 'nowiki' => true, 'isHTML' => true );
 	}
 
 	/**
