@@ -469,6 +469,7 @@ puedes [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la página] y seguir [[{{
 	'wminc-infopage-status-closedsister' => 'Este subdominio se cerró. Ir a <b>$2</b> para contribuir a este wiki.',
 	'wminc-infopage-status-created' => 'Este proyecto ha sido aprobado por el Comité de idiomas y ahora está disponible en $1.',
 	'wminc-infopage-status-beforeincubator' => 'Este proyecto fue creado antes de que la Incubadora de Wikimedia comenzara y está disponible en $1.',
+	'wminc-infopage-error' => 'Error: {{#infopage}} sólo puede utilizarse en las páginas con prefijo.',
 );
 
 /** Estonian (eesti)
@@ -847,6 +848,7 @@ $messages['it'] = array(
 	'wminc-infopage-status-closedsister' => 'Questo sottodominio è stato chiuso. Vai a <b>$2</b> per partecipare a questo wiki.',
 	'wminc-infopage-status-created' => "Questo progetto è stato approvato dal language committee ed è ora disponibile all'indirizzo $1",
 	'wminc-infopage-status-beforeincubator' => "Questo progetto è stato creato prima della nascita di Wikimedia Incubator ed è disponibile all'indirizzo $1.",
+	'wminc-infopage-error' => 'Errore: {{#infopage}} può essere utilizzato solo su pagine con prefisso.',
 );
 
 /** Japanese (日本語)
@@ -1032,6 +1034,7 @@ $messages['mk'] = array(
 	'wminc-infopage-status-closedsister' => 'Овој поддомен е затворен. Појдете на <b>$2</b> за да учествувате на ова вики.',
 	'wminc-infopage-status-created' => 'Овој проект е одобрен од јазичната комисија и сега е достапен на $1.',
 	'wminc-infopage-status-beforeincubator' => 'Овој проект е создаден пред започнувањето на Инкубаторот на Викимедија и е достапен на $1.',
+	'wminc-infopage-error' => 'Грешка: {{#infopage}} може да се користи само на префиксирани страници.',
 );
 
 /** Malayalam (മലയാളം)
@@ -1183,6 +1186,7 @@ a peul [{{fullurl:{{FULLPAGENAME}}|action=edit}} creé la pàgina] e andeje dapr
 	'wminc-infopage-status-closedsister' => "Ës sot-domini a l'é stàit sarà. Ch'a vada a <b>$2</b> për contribuì a costa wiki.",
 	'wminc-infopage-status-created' => "Ës proget a l'é stàit aprovà dal comità lenghìstich e a l'é adess disponìbil a $1.",
 	'wminc-infopage-status-beforeincubator' => "Ës proget a l'é stàit creà prima che l'Incubator ëd Wikipedia a partèissa e a l'é disponìbil a $1.",
+	'wminc-infopage-error' => 'Eror: {{#infopage}} a peul mach esse dovrà dzora a pagine prefissà..',
 );
 
 /** Pashto (پښتو)
