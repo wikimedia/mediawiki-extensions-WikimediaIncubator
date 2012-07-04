@@ -817,6 +817,7 @@ tu pote [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear le pagina] e sequer [[{{
 	'wminc-infopage-status-closedsister' => 'Iste subdominio ha essite claudite. Vade a <b>$2</b> pro contribuer a iste wiki.',
 	'wminc-infopage-status-created' => 'Iste projecto ha essite approbate per le comité linguistic e es ora disponibile a $1.',
 	'wminc-infopage-status-beforeincubator' => 'Iste projecto ha essite create ante le comenciamento de Wikimedia Incubator e es disponibile a $1.',
+	'wminc-infopage-error' => 'Error: {{#infopage}} pote esser usate solmente in paginas con prefixo.',
 );
 
 /** Italian (italiano)
@@ -1186,7 +1187,7 @@ a peul [{{fullurl:{{FULLPAGENAME}}|action=edit}} creé la pàgina] e andeje dapr
 	'wminc-infopage-status-closedsister' => "Ës sot-domini a l'é stàit sarà. Ch'a vada a <b>$2</b> për contribuì a costa wiki.",
 	'wminc-infopage-status-created' => "Ës proget a l'é stàit aprovà dal comità lenghìstich e a l'é adess disponìbil a $1.",
 	'wminc-infopage-status-beforeincubator' => "Ës proget a l'é stàit creà prima che l'Incubator ëd Wikipedia a partèissa e a l'é disponìbil a $1.",
-	'wminc-infopage-error' => 'Eror: {{#infopage}} a peul mach esse dovrà dzora a pagine prefissà..',
+	'wminc-infopage-error' => 'Eror: {{#infopage}} a peul mach esse dovrà dzora a dle pàgine prefissà..',
 );
 
 /** Pashto (پښتو)

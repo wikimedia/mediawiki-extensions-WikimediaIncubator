@@ -340,6 +340,15 @@ $messages['arz'] = array(
 	'wminc-viewuserlang-go' => 'روح',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'wminc-viewuserlang-user' => 'সদস্য নাম:',
+	'wminc-viewuserlang-go' => 'যাওক',
+	'wminc-searchwiki-go' => 'যাওক',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
@@ -1924,17 +1933,48 @@ $messages['kn'] = array(
  */
 $messages['ko'] = array(
 	'wminc-desc' => '위키미디어 인큐베이터의 테스트 위키 시스템',
+	'wminc-manual' => '사용법',
+	'wminc-listwikis' => '위키 목록',
+	'wminc-testwiki' => '테스트 위키:',
+	'wminc-testwiki-code' => '테스트 위키 언어:',
+	'wminc-testwiki-none' => '없음/모두',
+	'wminc-recentchanges-all' => '모든 최근 바뀜',
+	'wminc-prefinfo-language' => '당신의 인터페이스 언어 - 테스트 위키에서 독립',
 	'wminc-prefinfo-code' => 'ISO 639 언어 코드',
+	'wminc-prefinfo-project' => '위키미디어 프로젝트 선택 (인큐베이터 옵션은 일반적인 작업을 하는 사용자를 위한 것입니다)',
+	'wminc-prefinfo-error' => '언어 코드가 필요한 프로젝트를 선택했습니다.',
+	'wminc-error-move-unprefixed' => '오류: 이동하려고 하는 문서가 [[{{MediaWiki:Wminc-error-help}}|접두어나 없거나 잘못된 접두어로 되어있습니다]]!',
+	'wminc-error-wronglangcode' => "'''오류:''' 이 문서는 [[{{MediaWiki:Wminc-error-help}}|잘못된 \"\$1\" 언어 코드]]를 포함합니다!",
+	'wminc-error-unprefixed' => "'''오류:''' 이 문서는 [[{{MediaWiki:Wminc-error-help}}|접두어가 없습니다]]!",
+	'wminc-error-unprefixed-suggest' => "'''오류:''' 이 문서는 [[{{MediaWiki:Wminc-error-help}}|접두어가 없습니다]]! [[:$1]]에 문서를 만들 수 있습니다.",
+	'wminc-error-wiki-exists' => '이 위키가 이미 있습니다. $1에서 이 문서를 찾을 수 있습니다. 위키를 최근에 만들었다면 모든 내용을 가져올 때까지 몇 시간 또는 며칠을 기다리세요.',
+	'wminc-error-wiki-sister' => '이 문서는 여기에 호스트하지 않는 프로젝트에 속합니다. 위키를 찾으려면 $1(으)로 가세요.',
+	'randombytest' => '테스트 위키에 의한 임의 문서',
+	'randombytest-nopages' => '당신의 테스트 위키에는 이름공간에 문서가 없습니다: $1.',
 	'wminc-viewuserlang' => '사용자 언어와 테스트 위키 찾기',
 	'wminc-viewuserlang-user' => '사용자 이름:',
 	'wminc-viewuserlang-go' => '찾기',
+	'wminc-userdoesnotexist' => '"$1" 사용자는 존재하지 않습니다.',
+	'wminc-ip' => '"$1"(은)는 IP 주소입니다.',
+	'right-viewuserlang' => '사용자 언어와 테스트 위키 보기',
 	'group-test-sysop' => '테스트 위키 관리자',
 	'group-test-sysop-member' => '{{GENDER:$1|테스트 위키 관리자}}',
 	'grouppage-test-sysop' => '{{ns:project}}:테스트 위키 관리자',
 	'group-test-sysop.css' => '/* 이 CSS 설정은 테스트 위키 관리자에만 적용됩니다 */',
 	'group-test-sysop.js' => '/* 이 자바스크립트 설정은 테스트 위키 관리자에만 적용됩니다 */',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|"$3" 언어]]는 다음과 같은 멤버 언어로 구성된 [[wikipedia:ISO 639 macrolanguage|매크로 언어]]입니다:',
+	'wminc-code-collective' => '"$1" 코드는 특정 언어를 참고하지만 언어의 모음집인 [[wikipedia:$2 language|"$3" 언어]]로 하지 않습니다.',
 	'wminc-searchwiki' => '위키에서 찾기',
+	'wminc-searchwiki-noproject' => '프로젝트를 선택하지 않았습니다.',
+	'wminc-searchwiki-noresults' => '결과가 없습니다. 언어 코드, 기본 이름과 당신의 인터페이스 언어 이름이나 영어 이름으로 검색할 수 있습니다.',
+	'wminc-searchwiki-selectproject' => '찾을 대상:',
+	'wminc-searchwiki-inputlanguage' => '언어:',
 	'wminc-searchwiki-go' => '찾기',
+	'wminc-searchwiki-multiplematches' => '검색어는 다음 언어와 일치합니다:',
+	'wminc-searchwiki-match-langcode' => '"$1"(은)는 $2에 대한 ISO 639 언어 코드입니다.',
+	'wminc-searchwiki-match-userlangname' => '$1(은)는 언어 이름입니다.',
+	'wminc-searchwiki-match-englishname' => '"$1"(은)는 영어에서 $2에 대한 이름입니다.',
+	'wminc-searchwiki-match-nativename' => '"$1"(은)는 해당 언어에서 $2에 대한 이름입니다.',
 	'wminc-searchwiki-gotoinfopage' => '정보 문서',
 );
 
