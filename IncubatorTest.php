@@ -28,7 +28,7 @@ class IncubatorTest {
 			'options' =>
 				array( wfMessage( 'wminc-testwiki-none' )->plain() => 'none' ) +
 				array_flip( $wmincProjects ) +
-				array( $wmincProjectSite['name'] => $wmincProjectSite['short'] ),
+				array( wfMessage( 'wminc-testwiki-site' )->plain() => $wmincProjectSite['short'] ),
 			'section' => 'personal/i18n',
 			'label-message' => 'wminc-testwiki',
 			'id' => $wmincPref . '-project',
