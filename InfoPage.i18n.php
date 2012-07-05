@@ -223,7 +223,7 @@ kåst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} dé Seiten erstön] und noch 
 	'wminc-infopage-status-beforeincubator' => "Dés Prójekt is erstöd worn, bevurs 'n Wikimedia Incubator geem hod und is unter $1 vafiagbor.",
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Renessaince
@@ -255,6 +255,7 @@ $messages['be-tarask'] = array(
 	'wminc-infopage-status-closedsister' => 'Гэты паддамэн закрыты. Перайдзіце на <b>$2</b>, каб напісаць у гэтую вікі.',
 	'wminc-infopage-status-created' => 'Гэты праект быў зацьверджаны моўным камітэтам, і цяпер ён даступны на $1.',
 	'wminc-infopage-status-beforeincubator' => 'Гэты праект быў створаны перад пачаткам функцыянаваньня Інкубатара фундацыі «Вікімэдыя» і ён даступны на $1.',
+	'wminc-infopage-error' => 'Памылка: {{#infopage}} можна выкарыстоўваць толькі на старонках з прэфіксам.',
 );
 
 /** Breton (brezhoneg)
@@ -1066,6 +1067,7 @@ $messages['ml'] = array(
 	'wminc-infopage-status-closedsister' => 'ഈ ഉപഡൊമൈൻ അടച്ചിരിക്കുന്നു. ഈ വിക്കിയിൽ സംഭാവന ചെയ്യാൻ <b>$2</b> എന്നതിലേയ്ക്ക് പോവുക.',
 	'wminc-infopage-status-created' => 'ഈ സംരംഭം ഭാഷാ കമ്മിറ്റി അംഗീകരിച്ചിരിക്കുന്നു, അതിപ്പോൾ $1 എന്നു ലഭ്യമാണ്.',
 	'wminc-infopage-status-beforeincubator' => 'ഈ പദ്ധതി, വിക്കിമീഡിയ ഇൻകുബേറ്റർ തുടങ്ങുന്നതിനു മുമ്പേയുള്ളതാണ്, അത് $1-ൽ ലഭ്യമാണ്.',
+	'wminc-infopage-error' => 'പിഴവ്: പൂർവ്വപദമുള്ള താളുകളിൽ മാത്രമേ {{#infopage}} ഉപയോഗിക്കാൻ കഴിയുകയുള്ളു.',
 );
 
 /** Malay (Bahasa Melayu)
@@ -1097,6 +1099,7 @@ anda boleh [{{fullurl:{{FULLPAGENAME}}|action=edit}} mencipta lamannya] dan meng
 	'wminc-infopage-status-closedsister' => 'Subdomain ini ditutup. Pergi ke <b>$2</b> untuk menyumbang kepada wiki ini.',
 	'wminc-infopage-status-created' => 'Projek ini telah diluluskan oleh jawatankuasa bahasa dan kini boleh didapati di $1.',
 	'wminc-infopage-status-beforeincubator' => 'Projek ini dibuka sebelum Wikimedia Incubator dimulakan, dan boleh didapati di $1.',
+	'wminc-infopage-error' => 'Ralat: {{#infopage}} boleh digunakan di laman-laman berawalan sahaja.',
 );
 
 /** Dutch (Nederlands)
@@ -1606,6 +1609,7 @@ $messages['vi'] = array(
 	'wminc-infopage-status-closedsister' => 'Tên miền phụ này đã bị đóng cửa. Hãy ghé vào <b>$2</b> để đóng góp vào wiki này.',
 	'wminc-infopage-status-created' => 'Dự án đã được ủy ban ngôn ngữ chấp thuận và hiện có sẵn tại $1.',
 	'wminc-infopage-status-beforeincubator' => 'Dự án này được tạo trước khi Vườn ươm Wikimedia mở cửa và hiện có sẵn tại $1.',
+	'wminc-infopage-error' => 'Lỗi: Chỉ có thể sử dụng {{#infopage}} tại các trang có tiền tố.',
 );
 
 /** Yiddish (ייִדיש)
