@@ -597,6 +597,7 @@ $messages['fr'] = array(
 	'wminc-infopage-status-closedsister' => 'Ce sous-domaine a été fermé. Veuillez vous rendre sur <b>$2</b> pour contribuer à ce wiki.',
 	'wminc-infopage-status-created' => 'Ce projet a été approuvé par le comité linguistique et est maintenant disponible sur $1.',
 	'wminc-infopage-status-beforeincubator' => 'Ce projet a été créé avant que l’Incubateur Wikimedia ait été lancé et est disponible sur $1.',
+	'wminc-infopage-error' => 'Erreur: {{#infopage}} ne peut être utilisé que sur des pages préfixées.',
 );
 
 /** Franco-Provençal (arpetan)
@@ -1152,6 +1153,7 @@ $messages['pl'] = array(
 	'wminc-infopage-enter' => 'przejdź do strony głównej',
 	'wminc-unknownlang' => '(nieznany kod języka)',
 	'wminc-infopage-welcome' => 'Witaj w Inkubatorze Wikimedia, projekcie Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|o inkubatorze]])',
+	'wminc-infopage-option-sisterprojects-existing' => 'Możesz szukać istniejących projektów w tym języku:',
 	'wminc-infopage-createmainpage' => 'Wpisz „Strona główna“ w tym języku',
 	'wminc-infopage-contribute' => 'Jeśli znasz ten język zachęcamy Cię do wzięcia udziału w tworzeniu tej wiki!',
 	'wminc-infopage-status-imported' => 'Do inkubatora wiki zaimportowano treść z $1 po tym jak wiki została zamknięta.',
