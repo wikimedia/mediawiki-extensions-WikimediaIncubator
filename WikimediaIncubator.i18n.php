@@ -2131,6 +2131,7 @@ $messages['li'] = array(
  */
 $messages['lt'] = array(
 	'wminc-desc' => 'Wiki testasvimo sistema Vikimedija Inkubatoriui',
+	'wminc-manual' => 'Instrukcija',
 	'wminc-listwikis' => 'Wiki, sąrašas',
 	'wminc-testwiki' => 'Testavimo wiki:',
 	'wminc-testwiki-code' => 'Bandymo viki kalba:',
@@ -2153,6 +2154,11 @@ $messages['lt'] = array(
 	'grouppage-test-sysop' => '{{ns:project}}:Test wiki administrators',
 	'wminc-code-retired' => 'Šios kalbos kodas buvo pakeistas ir nebėra nuoroda į originalo kalba.',
 	'wminc-listusers-testwiki' => 'Jūs matote naudotojams, kurie nustatė bandymo Wiki pirmenybę $1.',
+	'wminc-searchwiki-selectproject' => 'Ieškoti:',
+	'wminc-searchwiki-inputlanguage' => 'Kalba:',
+	'wminc-searchwiki-go' => 'Eiti',
+	'wminc-searchwiki-multiplematches' => 'Jūsų paieška atitinka šias kalbas:',
+	'wminc-searchwiki-gotoinfopage' => 'informacijos puslapis',
 );
 
 /** Lushai (Mizo ţawng)
