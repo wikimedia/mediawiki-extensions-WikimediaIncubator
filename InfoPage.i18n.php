@@ -497,10 +497,12 @@ saad [{{fullurl:{{FULLPAGENAME}}|action=edit}} lehekülje luua] ja järgida [[{{
 	'wminc-infopage-option-multilingual' => 'Saad minna mitmekeelsetesse vikidesse:',
 	'wminc-infopage-createmainpage' => 'Sisesta sõna "Esileht" selles keeles:',
 	'wminc-infopage-contribute' => 'Kui oskad seda keelt, on sinu kaastöö oodatud!',
+	'wminc-infopage-status-open' => 'See on avatud viki Wikimedia Inkubaatoris.',
 	'wminc-infopage-status-imported' => 'See inkubaatori viki on pärast selle sulgemist imporditud asukohast $1.',
 	'wminc-infopage-status-closedsister' => 'See alamdomeen suleti. Sellele vikile saad kaastööd teha asukohas <b>$2</b>.',
 	'wminc-infopage-status-created' => 'Keelekomitee on selle projekti heaks kiitnud ja see on nüüd saadaval asukohas $1.',
 	'wminc-infopage-status-beforeincubator' => 'Selle projektiga alustati enne Wikimedia Inkubaatori avamist ja see on saadaval asukohas $1.',
+	'wminc-infopage-error' => 'Tõrge: {{#infopage}} on kasutatav ainult eesliitega lehekülgedel.',
 );
 
 /** Persian (فارسی)
