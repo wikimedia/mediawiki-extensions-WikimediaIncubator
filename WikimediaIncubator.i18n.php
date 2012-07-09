@@ -2019,6 +2019,7 @@ $messages['ksh'] = array(
 	'wminc-code-collective' => 'Dat Köözel „$1“ es nit för en bestemmpte Shprooch, söndern för en Sammlong vun Shprooche, nämmlesch de [[wikipedia:$2 language|$3 Shprooche]].',
 	'wminc-code-retired' => 'Dat Köözel fö di Shprooch wood jeändert un deiht nit mieh för di Shprooch.',
 	'wminc-search-nocreate-suggest' => 'Do has noh „$1“ jesöhk. Do kanns en Dingem Versöhkswiki en Sigg onger <b>[[$2]]</b> aanlääje.',
+	'wminc-searchwiki-go' => 'Lohß jonn!',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
