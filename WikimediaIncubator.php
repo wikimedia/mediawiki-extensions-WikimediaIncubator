@@ -40,10 +40,10 @@ $wmincSisterProjects = array(
 	'v' => 'Wikiversity',
 );
 $wmincMultilingualProjects = array(
-	'meta.wikimedia.org' => 'Meta-Wiki',
-	'commons.wikimedia.org' => 'Wikimedia Commons',
-	'species.wikimedia.org' => 'Wikispecies',
-	'mediawiki.org' => 'MediaWiki',
+	'meta' => 'Meta-Wiki',
+	'commons' => 'Wikimedia Commons',
+	'species' => 'Wikispecies',
+	'mediawiki' => 'MediaWiki',
 );
 $wmincProjectSite = array(
 	'name' => 'Incubator',
