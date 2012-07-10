@@ -1422,6 +1422,7 @@ lahko [{{fullurl:{{FULLPAGENAME}}|action=edit}} ustvarite stran] in sledite [[{{
 	'wminc-infopage-status-closedsister' => 'Poddomena je zaprta. Pojdite na <b>$2</b>, da prispevate k temu wikiju.',
 	'wminc-infopage-status-created' => 'Projekt je odobril  jezikovni odbor in je sedaj na voljo na $1.',
 	'wminc-infopage-status-beforeincubator' => 'Projekt je nastal pred zagonom Wikimediinega Inkubatorja in je na voljo na $1.',
+	'wminc-infopage-error' => 'Napaka: {{#infopage}} se lahko uporablja samo na straneh s predpono.',
 );
 
 /** Albanian (shqip)
