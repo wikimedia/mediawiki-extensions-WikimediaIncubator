@@ -2639,7 +2639,7 @@ $messages['or'] = array(
 	'wminc-testwiki-code' => 'ଟେଷ୍ଟ ଉଇକି ଭାଷା:',
 	'wminc-recentchanges-all' => 'ସବୁ ନଗଦ ବଦଳ',
 	'wminc-viewuserlang-user' => 'ବ୍ୟବହାରକାରୀଙ୍କ ନାମ:',
-	'group-test-sysop-member' => '{{GENDER:$1|ଟେଷ୍ଟ ଉଇକି ପରିଛା}}',
+	'group-test-sysop-member' => '{{GENDER:$1|ଟେଷ୍ଟ ଉଇକି ପରିଚାଳକ}}',
 	'grouppage-test-sysop' => '{{ns:project}}:ଟେଷ୍ଟ ଉଇକି ପରିଛାଗଣ',
 );
 
