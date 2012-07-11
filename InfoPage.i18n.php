@@ -189,7 +189,7 @@ $messages['az'] = array(
 	'wminc-infopage-title-v' => 'Vikiversitet $1',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Haqmar
  */
 $messages['ba'] = array(
@@ -718,6 +718,7 @@ $messages['he'] = array(
 	'wminc-infopage-status-closedsister' => 'התת־מתחם הזה נסגר. לכו אל <b>$2</b> כדי לתרום לוויקי הזה.',
 	'wminc-infopage-status-created' => 'הוועדה הלשונית אישרה את המיזם הזה ואפשר למצוא אותו ב{{GRAMMAR:תחילית|$1}}.',
 	'wminc-infopage-status-beforeincubator' => 'המיזם הזה נוצר לפני שהוקם האינקובטור של ויקימדיה והוא זמין ב{{GRAMMAR:תחילית|$1}}.',
+	'wminc-infopage-error' => 'שגיאה: אפשר להשתמש ב־<span di="ltr">{{#infopage}}</span> רק בדפים עם תחילית.',
 );
 
 /** Hindi (हिन्दी)
@@ -1105,6 +1106,33 @@ anda boleh [{{fullurl:{{FULLPAGENAME}}|action=edit}} mencipta lamannya] dan meng
 	'wminc-infopage-error' => 'Ralat: {{#infopage}} boleh digunakan di laman-laman berawalan sahaja.',
 );
 
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+$messages['nb'] = array(
+	'wminc-infopage-enter' => 'gå til hovedsiden',
+	'wminc-unknownlang' => '(ukjent språk med koden «$1»)',
+	'wminc-infopage-title-p' => 'Wikipedia på $1',
+	'wminc-infopage-title-b' => 'Wikibøker på $1',
+	'wminc-infopage-title-t' => 'Wiktionary på $1',
+	'wminc-infopage-title-q' => 'Wikiquote på $1',
+	'wminc-infopage-title-n' => 'Wikinytt på $1',
+	'wminc-infopage-title-s' => 'Wikikilden på $1',
+	'wminc-infopage-title-v' => 'Wikiversity på $1',
+	'wminc-infopage-welcome' => 'Velkommen til Wikimedia Incubator, et Wikimedia Foundation-prosjekt ([[{{MediaWiki:Aboutpage}}|om]])',
+	'wminc-infopage-missingwiki-text' => '$1 på dette språket finnes ikke ennå.',
+	'wminc-infopage-option-startwiki' => 'Om du ønsker å starte denne wikien kan du [{{fullurl:{{FULLPAGENAME}}|action=edit}} opprette siden] og følge [[{{Mediawiki:Wminc-manual-url}}|manualen vår]].',
+	'wminc-infopage-option-startsister' => 'Om du ønsker å starte denne wikien kan du gå til <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Du kan søke etter [//www.$1.org eksisterende språkutgaver av $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Du kan søke etter eksisterende prosjekter på dette språket:',
+	'wminc-infopage-option-sisterprojects-other' => 'Du kan søke etter andre prosjekter på dette språket:',
+	'wminc-infopage-option-multilingual' => 'Du kan gå til en flerspråklig wiki:',
+	'wminc-infopage-createmainpage' => 'Skriv inn ordet «Hovedside» på dette språket:',
+	'wminc-infopage-contribute' => 'Om du kan dette språket må du gjerne bidra!',
+	'wminc-infopage-status-imported' => 'Denne Incubator-wikien har blitt importert fra $1 etter at wikien ble stengt.',
+	'wminc-infopage-status-closedsister' => 'Dette underdomenet har blitt stengt. Gå til <b>$1</b> for å bidra på denne wikien.',
+	'wminc-infopage-status-created' => 'Dette prosjektet har blitt godkjent av språkkomiteen, og er nå tilgjengelig på $1.',
+	'wminc-infopage-status-beforeincubator' => 'Dette prosjektet ble opprettet før Wikimedia Incubator startet, og er tilgjengelig på $1.',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -1348,7 +1376,7 @@ $messages['ru'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Этот проект, созданный до запуска Инкубатора Викимедиа, доступен по адресу $1.',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(

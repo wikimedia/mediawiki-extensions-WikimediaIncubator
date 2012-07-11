@@ -509,7 +509,7 @@ $messages['bar'] = array(
 	'wminc-code-retired' => "Der Sproochcode is gänderd worn und beziagt sé nimmer auf d' urspryngliche Sprooch.",
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Renessaince
@@ -889,7 +889,7 @@ $messages['diq'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'Peyaya destegi',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -1310,7 +1310,7 @@ $messages['frp'] = array(
 	'wminc-listusers-testwiki' => 'Vos éte aprés vêre los usanciérs qu’ont betâs lor prèference de vouiqui d’èprôva a $1.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -1576,7 +1576,7 @@ $messages['hr'] = array(
 	'right-viewuserlang' => 'Pogledaj suradnikov jezik i testni wiki',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -2446,7 +2446,7 @@ $messages['mt'] = array(
 	'wminc-viewuserlang-go' => 'Mur',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -2454,26 +2454,45 @@ $messages['myv'] = array(
 	'wminc-viewuserlang-user' => 'Сёрмадыцянь леметь:',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Audun
- * @author Jon Harald Søby
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
 	'wminc-desc' => 'Testwikisystem for Wikimedia Incubator',
+	'wminc-manual' => 'Manual',
+	'wminc-listwikis' => 'Liste over wikier',
 	'wminc-testwiki' => 'Testwiki:',
+	'wminc-testwiki-code' => 'Testwikispråk:',
 	'wminc-testwiki-none' => 'Ingen/Alle',
+	'wminc-recentchanges-all' => 'Alle nylige endringer',
 	'wminc-prefinfo-language' => 'Ditt grensesnittspråk - uavhengig av din testwiki',
 	'wminc-prefinfo-code' => 'ISO 639-språkkoden',
 	'wminc-prefinfo-project' => 'Velg Wikimedia-prosjektet (alternativet Incubator er for brukere som gjør generelt arbeid)',
 	'wminc-prefinfo-error' => 'Du valgte et prosjekt som krever en språkkode.',
+	'wminc-error-move-unprefixed' => 'Feil: Siden du prøvde å flytte til [[{{MediaWiki:Wminc-error-help}}|har ingen eller feil prefiks]]!',
+	'wminc-error-wronglangcode' => "'''Feil:''' Denne siden inneholder en [[{{MediaWiki:Wminc-error-help}}|gal språkkode]] «$1»!",
+	'wminc-error-unprefixed' => "'''Feil:''' Denne siden har [[{{MediaWiki:Wminc-error-help}}|ingen prefiks]]!",
+	'wminc-error-unprefixed-suggest' => "'''Feil:''' Denne siden har [[{{Mediawiki:Helppage}}|ingen prefiks]]! Du kan opprette en side på [[:$1]].",
+	'wminc-error-wiki-exists' => 'Denne wikien finnes allerede. Du kan finne denne siden på $1. Om wikien ble opprettet nylig, vent noen timer eller dager til alt innholdet er importert.',
+	'wminc-error-wiki-sister' => 'Denne siden hører til et prosjekt som ikke ligger her. Gå til $1 for å finne wikien.',
 	'randombytest' => 'Tilfeldig side fra testwiki',
 	'randombytest-nopages' => 'Det er ingen sider i din testwiki, i navnerommet: $1.',
 	'wminc-viewuserlang' => 'Slå opp brukerspråk og testwiki',
 	'wminc-viewuserlang-user' => 'Brukernavn:',
 	'wminc-viewuserlang-go' => 'Gå',
 	'wminc-userdoesnotexist' => 'Brukeren «$1» finnes ikke.',
+	'wminc-ip' => '«$1» er en IP-adresse.',
 	'right-viewuserlang' => 'Vis brukerspråk og testwiki',
+	'group-test-sysop' => 'Testwikiadministratorer',
+	'group-test-sysop-member' => '{{GENDER:$1|testwikiadministrator}}',
+	'grouppage-test-sysop' => '{{ns:project}}:Testwikiadministratorer',
+	'wminc-code-macrolanguage' => 'Språket [[wikipedia:$2 language|«$3»]] er et [[wikipedia:ISO 639 macrolanguage|makrospråk]] som består av følgende enkeltspråk:',
+	'wminc-code-collective' => 'Koden «$1» refererer ikke til et spesifikt språk, men til en samling av språk, nemlig [[wikipedia:$2 language|«$3-språkene»]].',
+	'wminc-code-retired' => 'Denne språkkoden har blitt endret, og refererer ikke lenger til det opprinnelige språket.',
+	'wminc-listusers-testwiki' => 'Du ser brukere som har satt testwikiinnstillingene sine til $1.',
+	'wminc-search-nocreate-nopref' => 'Du søkte etter «$1». Vennligst sett [[Special:Preferences|testwikiinnstillingene dine]] så vi kan si hvilken side du kan opprette!',
+	'wminc-search-nocreate-suggest' => 'Du søkte etter «$1». Du kan opprette en side på din wiki på <b>[[$2]]</b>!',
 );
 
 /** Nedersaksisch (Nedersaksisch)
@@ -2994,7 +3013,7 @@ $messages['ru'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'страница информации',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
@@ -3071,7 +3090,7 @@ $messages['scn'] = array(
 	'wminc-viewuserlang-go' => "Va'",
 );
 
-/** Samogitian (Žemaitėška)
+/** Samogitian (žemaitėška)
  * @author Hugo.arg
  */
 $messages['sgs'] = array(
@@ -3375,7 +3394,7 @@ $messages['sv'] = array(
 	'wminc-search-nocreate-suggest' => 'Du sökte på "$1". Du kan skapa en sida i din wiki på <b>[[$2]]</b>!',
 );
 
-/** Silesian (Ślůnski)
+/** Silesian (ślůnski)
  * @author Britscher
  * @author Ozi64
  */
@@ -3622,7 +3641,7 @@ $messages['uk'] = array(
 	'wminc-search-nocreate-suggest' => 'Ви шукали "$1". Можете створити сторінку <b>[[$2]]</b>!',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
