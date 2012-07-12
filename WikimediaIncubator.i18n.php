@@ -18,12 +18,13 @@ $messages['en'] = array(
 	'wminc-testwiki' => 'Test wiki:',
 	'wminc-testwiki-code' => 'Test wiki language:',
 	'wminc-testwiki-none' => 'None/All',
+	'wminc-testwiki-site' => '(Maintenance)',
 	'wminc-recentchanges-all' => 'All recent changes',
 
 	# Preferences
 	'wminc-prefinfo-language' => 'Your interface language - independent from your test wiki',
-	'wminc-prefinfo-code' => 'The ISO 639 language code',
-	'wminc-prefinfo-project' => 'Select the Wikimedia project (Incubator option is for users who do general work)',
+	'wminc-prefinfo-code' => 'The ISO 639 code of the language you are working on here',
+	'wminc-prefinfo-project' => 'Select the Wikimedia project you are working on here',
 	'wminc-prefinfo-error' => 'You selected a project that needs a language code.',
 
 	# Editing/creating pages errors
@@ -104,6 +105,7 @@ $messages['qqq'] = array(
 	'wminc-testwiki-code' => 'Used on Special:Preferences as the label for entering the language code of the test wiki.',
 	'wminc-testwiki-none' => "* Used on Special:Preferences when the user didn't select a test wiki preference (yet).
 * Used on Special:RecentChanges to show normal recent changes display.",
+	'wminc-testwiki-site' => 'Used on Special:Preferences as an option for users not working on a specific test wiki',
 	'wminc-recentchanges-all' => 'Used in the sidebar for a link to Special:RecentChanges (with default view of all changes).',
 	'wminc-prefinfo-language' => 'See [[:File:Incubator-testwiki-preference.jpg]]. Extra clarification for the (normal) language selection.',
 	'wminc-prefinfo-code' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
