@@ -377,6 +377,7 @@ $messages['diq'] = array(
 	'wminc-infopage-status-closedsister' => 'Bın domainê enay racneyayo. Qan dê iştıraxa şırê <b>$2</b>',
 	'wminc-infopage-status-created' => "Komitey zıwani ena proca kerda tesdiq u pelada $1'dı esta.",
 	'wminc-infopage-status-beforeincubator' => "Dest pêkerdışê ena procer Wikimedia Incubator dı veror vıraziyayo u pela da $1'dı esto.",
+	'wminc-infopage-error' => 'Xırab: peley veroleya ho ke {{#infopage}} dı karênê.',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -392,7 +393,10 @@ $messages['dsb'] = array(
 	'wminc-infopage-title-n' => 'Wikinowosći $1',
 	'wminc-infopage-title-s' => 'Wikižrědło $1',
 	'wminc-infopage-title-v' => 'Wikiwersita $1',
+	'wminc-infopage-welcome' => 'Witaj do inkubatora Wikimedije, projekt załožby Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Wó]])',
 	'wminc-infopage-missingwiki-text' => '$1 hyšći njeeksistěrujo w toś tej rěcy.',
+	'wminc-infopage-option-startwiki' => 'Jolic coš toś ten wiki startowaś,
+móžoš [{{fullurl:{{FULLPAGENAME}}|action=edit}} bok napóraś] a pó [[{{MediaWiki:Wminc-manual-url}}|našym rozpokazanju]] póstupowaś.',
 	'wminc-infopage-option-startsister' => 'Jolic coš toś ten wiki startowaś, móžoš k <b>[$2 $1]</b> hyś.',
 	'wminc-infopage-option-languages-existing' => 'Móžoš za [//www.$1.org eksistěrujucymi rěcnymi wudaśami projekta $1] pytaś.',
 	'wminc-infopage-option-sisterprojects-existing' => 'Móžoš za eksistěrujucymi projektami w toś tej rěcy pytaś:',
@@ -402,6 +406,9 @@ $messages['dsb'] = array(
 	'wminc-infopage-contribute' => 'Jolic wumějoš toś tu rěc, buź witany a cyń sobu!',
 	'wminc-infopage-status-open' => 'To jo wótwórjony wiki na Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Toś ten wiki inkubatora jo se z $1 importěrował, za tym až jo se wiki zacynił.',
+	'wminc-infopage-status-closedsister' => 'Toś ta póddomena jo se zacyniła. Źi k <b>$2</b>, aby k toś tomu wikijeju pśinosował.',
+	'wminc-infopage-status-created' => 'Toś ten projekt jo se wót rěcnego komiteja pśizwólił a stoj něnto pód $1 k dispoziciji.',
+	'wminc-infopage-status-beforeincubator' => 'Toś ten projekt jo se napórał, nježli až Wikimedia Incubator jo se startował a stoj pód $1 k dispoziciji.',
 	'wminc-infopage-error' => 'Zmólka: {{#infopage}} dajo se jano na bokach wužywaś, kótarež maju prefiks.',
 );
 
