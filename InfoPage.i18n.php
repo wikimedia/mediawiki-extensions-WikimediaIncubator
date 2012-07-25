@@ -57,6 +57,7 @@ you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[
 	'wminc-infopage-status-beforeincubator' => 'This project was created before Wikimedia Incubator started and is available at $1.',
 
 	'wminc-infopage-error' => 'Error: {{#infopage}} can only be used on prefixed pages.',
+	'wminc-infopage-links' => '', # do not translate
 );
 
 /** Message documentation (Message documentation)
@@ -89,6 +90,13 @@ $messages['qqq'] = array(
 	'wminc-infopage-status-created' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-status-beforeincubator' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-error' => 'Error message shown when trying to use <tt>{{#infopage:}}</tt> on a non-prefixed page (i.e. pages not starting with a Wx/xyz/ prefix).',
+	'wminc-infopage-links' => '{{Ignore}} This message is used to add links on info pages of test wikis. Parameters:
+* $1 is the status (e.g. open)
+* $2 is the prefix (e.g. Wp/xyz)
+* $3 the project code (e.g. p)
+* $4 the project name (e.g. Wikipedia)
+* $5 the language code (e.g. xyz)
+* $6 the localized language name', # do not translate
 );
 
 /** Afrikaans (Afrikaans)

@@ -189,6 +189,17 @@ class InfoPage {
 				array( 'class' => 'wminc-infopage-contribute' ),
 				wfMessage( 'wminc-infopage-contribute' )->plain() );
 		}
+		$content .= Html::rawElement( 'div', array( 'class' => 'wminc-infopage-links' ),
+			# custom links and other stuff
+			wfMessage( 'wminc-infopage-links',
+				$this->mSubStatus, $this->mPrefix,
+				$this->mProjectCode, $this->mProjectName,
+				$this->mLangCode, $this->mLangName
+			)->inContentLanguage()->parse()
+		);
+		$content .= Html::rawElement( 'ul', array( 'class' => 'wminc-infopage-options' ),
+			Html::rawElement( 'li', null, wfMessage( 'wminc-infopage-option-sisterprojects-other' )->parseAsBlock() .
+			$this->listOtherProjects() ) );
 		return $this->StandardInfoPage( '', $gotoMainPage, $content );
 	}
 
