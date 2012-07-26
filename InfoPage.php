@@ -196,7 +196,7 @@ class InfoPage {
 	 * @return String
 	 */
 	public function showExistingWiki() {
-		global $wgLang;
+		global $wgLang, $wmincSisterProjects;
 		$created = isset( $this->mCreated ) ? $this->mCreated : ''; # for future use
 		$bug = isset( $this->mBug ) ? $this->mBug : ''; # for future use
 		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectCode );
@@ -206,9 +206,13 @@ class InfoPage {
 				array( 'class' => 'wminc-infopage-entertest' ),
 				$wgLang->getArrow() . ' ' . $subdomainLink );
 		}
+		$msgname = 'wminc-infopage-status-' . $this->mSubStatus; // wminc-infopage-status-beforeincubator
+		if( $this->mSubStatus === 'beforeincubator' && isset( $wmincSisterProjects[$this->mProjectCode] ) ) {
+			$msgname = 'wminc-infopage-status-beforeincubator-sister';
+		}
 		$content = Html::rawElement( 'div',
 			array( 'class' => 'wminc-infopage-status' ),
-			wfMessage( 'wminc-infopage-status-' . $this->mSubStatus )->rawParams( $subdomainLink )->parseAsBlock()
+			wfMessage( $msgname )->rawParams( $subdomainLink )->parseAsBlock()
 		) . Html::rawElement( 'ul', array( 'class' => 'wminc-infopage-options' ),
 			Html::rawElement( 'li', null, wfMessage( 'wminc-infopage-option-sisterprojects-other' )->parseAsBlock() .
 				$this->listOtherProjects() ) .

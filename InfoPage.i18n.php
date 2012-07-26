@@ -55,6 +55,7 @@ you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[
 	'wminc-infopage-status-closedsister' => 'This subdomain was closed. Go to <b>$2</b> to contribute to this wiki.',
 	'wminc-infopage-status-created' => 'This project has been approved by the language committee and is now available at $1.',
 	'wminc-infopage-status-beforeincubator' => 'This project was created before Wikimedia Incubator started and is available at $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'This project is available at $1.',
 
 	'wminc-infopage-error' => 'Error: {{#infopage}} can only be used on prefixed pages.',
 );
@@ -88,6 +89,7 @@ $messages['qqq'] = array(
 	'wminc-infopage-status-closedsister' => 'Used for closed Wikisources or Wikiversities. $2 is a link to either project.',
 	'wminc-infopage-status-created' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-status-beforeincubator' => "'''$1''' is a URL to the existing wiki.",
+	'wminc-infopage-status-beforeincubator-sister' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-error' => 'Error message shown when trying to use <tt>{{#infopage:}}</tt> on a non-prefixed page (i.e. pages not starting with a Wx/xyz/ prefix).',
 );
 
