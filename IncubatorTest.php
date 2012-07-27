@@ -462,65 +462,66 @@ class IncubatorTest {
 	 * @return True
 	 */
 	static function onShowMissingArticle( $article ) {
-		global $wgOut, $wmincTestWikiNamespaces;
 		$title = $article->getTitle();
-		$prefix = self::analyzePrefix( $title->getText(),
-			true /* only info pages */, true /* allow sister projects */ );
-
-		if( !in_array( $title->getNamespace(), $wmincTestWikiNamespaces ) ) {
+		$prefix = self::analyzePrefix( $title, true /* only info pages */,
+			true /* also sister projects */ );
+		if( !$prefix['error'] ) {
+			self::onShowMissingArticleForInfoPages( $article, $prefix );
 			return true;
 		}
 
-		if( $prefix['error'] ) { # We are not on info pages
-			global $wmincSisterProjects;
-			$prefix2 = self::analyzePrefix( $title->getText(), false, true );
-			$p = isset( $prefix2['project' ] ) ? $prefix2['project'] : '';
-			if( self::getDBState( $prefix2 ) == 'existing' ) {
-				$link = self::getSubdomain( $prefix2['lang'], $p,
-					( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
-				if( self::displayPrefix() == $prefix2['prefix'] ) {
-					# Redirect to the existing wiki if the user has this wiki as preference
-					$wgOut->redirect( $link );
-					return true;
-				} else {
-					# Show a link to the existing wiki
-					$showLink = self::makeExternalLinkText( $link, true );
-					$wgOut->addHtml( '<div class="wminc-wiki-exists">' .
-						wfMessage( 'wminc-error-wiki-exists' )->rawParams( $showLink )->escaped() .
-					'</div>' );
-				}
-			} elseif( array_key_exists( $p, $wmincSisterProjects ) ) {
-				# A sister project is not hosted here, so direct the user to the relevant wiki
-				$link = self::getSubdomain( $prefix2['lang'], $p,
-					( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
-					$showLink = self::makeExternalLinkText( $link, true );
-					$wgOut->addHtml( '<div class="wminc-wiki-sister">' .
-						wfMessage( 'wminc-error-wiki-sister' )->rawParams( $showLink )->escaped() .
-					'</div>' );
-			} elseif ( self::shouldWeShowUnprefixedError( $title ) ) {
-				# Unprefixed pages
-				if( self::isContentProject() ) {
-					# If the user has a test wiki pref, suggest a page title with prefix
-					$suggesttitle = isset( $prefix2['realtitle'] ) ?
-						$prefix2['realtitle'] : $title->getText();
-					$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
-					# Suggest to create a prefixed page
-					$wgOut->addHtml( '<div class="wminc-unprefixed-suggest">' .
-						wfMessage( 'wminc-error-unprefixed-suggest', $suggest )->parseAsBlock() .
-					'</div>' );
-				} else {
-					$wgOut->addWikiMsg( 'wminc-error-unprefixed' );
-				}
+		global $wgOut, $wmincSisterProjects;
+		$prefix2 = self::analyzePrefix( $title, false, true );
+		$p = isset( $prefix2['project' ] ) ? $prefix2['project'] : '';
+		if( self::getDBState( $prefix2 ) == 'existing' ) {
+			$link = self::getSubdomain( $prefix2['lang'], $p,
+				( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
+			if( self::displayPrefix() == $prefix2['prefix'] ) {
+				# Redirect to the existing wiki if the user has this wiki as preference
+				$wgOut->redirect( $link );
+				return true;
+			} else {
+				# Show a link to the existing wiki
+				$showLink = self::makeExternalLinkText( $link, true );
+				$wgOut->addHtml( '<div class="wminc-wiki-exists">' .
+					wfMessage( 'wminc-error-wiki-exists' )->rawParams( $showLink )->escaped() .
+				'</div>' );
 			}
-			return true;
+		} elseif( array_key_exists( $p, $wmincSisterProjects ) ) {
+			# A sister project is not hosted here, so direct the user to the relevant wiki
+			$link = self::getSubdomain( $prefix2['lang'], $p,
+				( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
+				$showLink = self::makeExternalLinkText( $link, true );
+				$wgOut->addHtml( '<div class="wminc-wiki-sister">' .
+					wfMessage( 'wminc-error-wiki-sister' )->rawParams( $showLink )->escaped() .
+				'</div>' );
+		} elseif ( self::shouldWeShowUnprefixedError( $title ) ) {
+			# Unprefixed pages
+			if( self::isContentProject() ) {
+				# If the user has a test wiki pref, suggest a page title with prefix
+				$suggesttitle = isset( $prefix2['realtitle'] ) ?
+					$prefix2['realtitle'] : $title->getText();
+				$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
+				# Suggest to create a prefixed page
+				$wgOut->addHtml( '<div class="wminc-unprefixed-suggest">' .
+					wfMessage( 'wminc-error-unprefixed-suggest', $suggest )->parseAsBlock() .
+				'</div>' );
+			} else {
+				$wgOut->addWikiMsg( 'wminc-error-unprefixed' );
+			}
 		}
+		return true;
+	}
 
-		# At this point we should be on info pages ("Wx/xx[x]" pages)
-		# So use the InfoPage class to show a nice welcome page
-		# depending on whether it belongs to an existing, closed or missing wiki
-		if( $title->getNamespace() != NS_MAIN ) {
-			return true; # not for other namespaces
-		}
+	/*
+	 * Use the InfoPage class to show a nice welcome page
+	 * depending on whether it belongs to an existing, closed or missing wiki
+	 * @param $article Article
+	 * @param $prefix array
+	 */
+	static function onShowMissingArticleForInfoPages( $article, $prefix ) {
+		global $wgOut;
+		$title = $article->getTitle();
 		$wgOut->addModuleStyles( 'WikimediaIncubator.InfoPage' );
 		$infopage = new InfoPage( $title, $prefix );
 		$infopage->mDbStatus = $dbstate = self::getDBState( $prefix );
@@ -538,7 +539,6 @@ class IncubatorTest {
 		}
 		# Set the page title from "Wx/xyz - Incubator" to "Wikiproject Language - Incubator"
 		$wgOut->setHTMLTitle( wfMessage( 'pagetitle', $infopage->mFormatTitle )->text() );
-		return true;
 	}
 
 	public static function onParserFirstCallInit( &$parser ) {
