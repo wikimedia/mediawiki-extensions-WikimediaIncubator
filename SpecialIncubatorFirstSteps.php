@@ -71,10 +71,24 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 			return;
 		}
 
-		# Make a list of selectable languages, based on codes in a MediaWiki message
-		$getLangCodes = explode( ',', $getLangCodes );
+		# Make a list of selectable languages, based on language codes
+		# in a MediaWiki message and on the browser language(s)
+		$getLangCodes = array_flip( explode( ',', $getLangCodes ) );
 		$names = Language::fetchLanguageNames();
-		foreach( $getLangCodes as $code ) {
+		$names_keys = array_keys( $names );
+		$browserLanguages = array_keys( $this->getRequest()->getAcceptLang() );
+
+		foreach( $browserLanguages as $browserLanguage ) {
+			if( in_array( $browserLanguage, $names_keys ) ) {
+				// add the language to the list if it is supported in MediaWiki
+				$getLangCodes[$browserLanguage] = true;
+			}
+		}
+
+		ksort( $getLangCodes ); // sorting by language code is not ideal, but well
+
+		$showLanguages = array();
+		foreach( $getLangCodes as $code => $nothing ) {
 			$code = trim( $code );
 			if ( !isset( $names[$code] ) || $code === $currentLangCode ) {
 				# language code not recognised, or is current interface language
