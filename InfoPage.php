@@ -172,9 +172,12 @@ class InfoPage {
 			$substatus = 'closedsister';
 		}
 		$portalLink = Linker::makeExternalLink( $this->mPortal, $this->mProjectName );
+		$mainpage = isset( $this->mOptions['mainpage'] ) ?
+			Title::newFromText( $this->mPrefix . '/' . $this->mOptions['mainpage'] ) :
+			IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix );
 		if( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoLink = Linker::link(
-				IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix ),
+				$mainpage,
 				wfMessage( 'wminc-infopage-enter' )->escaped() );
 			$gotoMainPage = Html::rawElement( 'span',
 				array( 'class' => 'wminc-infopage-entertest' ),

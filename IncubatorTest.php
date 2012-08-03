@@ -550,7 +550,7 @@ class IncubatorTest {
 	 * #infopage parser function
 	 * @return array
 	 */
-	public static function renderParserFunction( &$parser, $status = 'default' ) {
+	public static function renderParserFunction( &$parser ) {
 		$title = $parser->getTitle();
 		$prefix = IncubatorTest::analyzePrefix( $title );
 		if( $prefix['error'] ) {
@@ -558,15 +558,29 @@ class IncubatorTest {
 				wfMessage( 'wminc-infopage-error' )->plain() . '</span>';
 		}
 		$infopage = new InfoPage( $title, $prefix );
-		if( $status ) {
-			$infopage->mSubStatus = $status;
+		$infopage->mOptions = array(
+			'status' => 'open',
+			# other (optional) options: mainpage
+		);
+
+		$parseOptions = func_get_args();
+		array_shift( $parseOptions ); # not $parser
+		foreach( $parseOptions as $parseOption ) {
+			if ( strpos( $parseOption, '=' ) === false ) {
+				continue;
+			}
+			list( $key, $value ) = explode( '=', $parseOption, 2 );
+			$key = strtolower( trim( $key ) );
+			$infopage->mOptions[$key] = trim( $value );
 		}
+
+		$infopage->mSubStatus = $infopage->mOptions['status'];
 
 		$parser->getOutput()->addModuleStyles( 'WikimediaIncubator.InfoPage' );
 		$parser->getOptions()->getUserLangObj(); # we have to split the cache by language
 		$parser->getOutput()->setTitleText( $infopage->mFormatTitle ); # sets <h1> & <title>
 
-		$return = in_array( $status, array( 'created', 'beforeincubator' ) ) ?
+		$return = in_array( $infopage->mSubStatus, array( 'created', 'beforeincubator' ) ) ?
 			$infopage->showExistingWiki() : $infopage->showIncubatingWiki();
 
 		return array( $return, 'noparse' => true, 'nowiki' => true, 'isHTML' => true );
