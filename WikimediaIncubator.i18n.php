@@ -201,13 +201,17 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-fs-userpage-title' => 'Create your userpage',
 	'wminc-fs-startwiki-title' => 'Start your wiki',
 	'wminc-fs-pagetitle-done' => 'added to the title if that step is completed',
-	'wminc-fs-langselect' => '$1 is the current language, $2 is a list of alternative (clickable) languages',
+	'wminc-fs-langselect' => 'Parameters:
+* $1 is the current language
+* $2 is a list of alternative (clickable) languages.',
 	'wminc-fs-signup-text' => '$1 is the link to log in, $2 to create an account',
 	'wminc-fs-settings-text' => '"At the right you can see" refers to an image being shown at the right side of the page. For RTL languages this is at the right as well (until bug 38351 is solved, then it will be correctly at the left).',
 	'wminc-fs-userpage-text' => '$1 is a link to the user page',
 	'wminc-fs-globaluser-text' => '$1 is a link to Special:MergeAccount',
 	'wminc-fs-startwiki-text' => '$1 is the prefix (Wx/xyz), $2 is a link to its main page (Wx/xyz/Main_Page)',
-	'wminc-fs-startwiki-exists-text' => '$1 is the prefix (Wx/xyz), $2 is a link to its main page (Wx/xyz/Main_Page)',
+	'wminc-fs-startwiki-exists-text' => 'Parameters:
+* $1 is the prefix (Wx/xyz),
+* $2 is a link to its main page (Wx/xyz/Main_Page).',
 );
 
 /** Tati (Tati)
@@ -1974,10 +1978,11 @@ $messages['it'] = array(
 	'wminc-testwiki' => 'Test wiki:',
 	'wminc-testwiki-code' => 'Lingua del wiki di prova:',
 	'wminc-testwiki-none' => 'Nessuno/Tutti',
+	'wminc-testwiki-site' => '(Manutenzione)',
 	'wminc-recentchanges-all' => 'Tutte le modifiche recenti',
 	'wminc-prefinfo-language' => "La lingua dell'interfaccia - indipendente dal tuo wiki di test",
-	'wminc-prefinfo-code' => 'Il codice ISO 639 per la lingua',
-	'wminc-prefinfo-project' => "Seleziona il progetto Wikimedia (l'opzione Incubator è per gli utentu che fanno del lavoro generale)",
+	'wminc-prefinfo-code' => 'Il codice ISO 639 per la lingua su cui vuoi lavorare qui',
+	'wminc-prefinfo-project' => 'Seleziona il progetto Wikimedia su cui vuoi lavorare qui',
 	'wminc-prefinfo-error' => 'Hai selezionato un progetto che ha bisogno di un codice di linguaggio',
 	'wminc-error-move-unprefixed' => 'Errore: La pagina che stai cercando di spostare a [[{{MediaWiki:Wminc-error-help}}|è senza prefisso o ha un prefisso sbagliato]]!',
 	'wminc-error-wronglangcode' => "'''Errore:''' Questa pagina contiene un [[{{MediaWiki:Wminc-error-help}}|codice lingua errato]] \"\$1\"!",
@@ -2014,6 +2019,15 @@ $messages['it'] = array(
 	'wminc-searchwiki-match-englishname' => '"$1" è il nome di $2 in inglese.',
 	'wminc-searchwiki-match-nativename' => '"$1"è il nome di $2 in quella lingua.',
 	'wminc-searchwiki-gotoinfopage' => 'informazioni pagina',
+	'wminc-fs-pagetitle' => 'Percorso guidato per i primi passi - $1',
+	'wminc-fs-langselect-title' => 'Seleziona lingua',
+	'wminc-fs-signup-title' => 'Registrati',
+	'wminc-fs-settings-title' => 'Imposta la preferenze per il wiki',
+	'wminc-fs-userpage-title' => 'Crea la tua pagina utente',
+	'wminc-fs-startwiki-title' => 'Avvia il tuo wiki',
+	'wminc-fs-pagetitle-done' => '- fatto!',
+	'wminc-fs-globaluser-text' => 'Il tuo account utente è locale. Si consiglia di renderlo globale tramite $1 in modo da poterlo utilizzare su qualsiasi wiki di Wikimedia.',
+	'wminc-fs-startwiki-text' => 'Il prefisso del tuo wiki è $1. È possibile creare la pagina principale del wiki su $2.',
 );
 
 /** Japanese (日本語)
@@ -2201,6 +2215,7 @@ $messages['ko'] = array(
 	'wminc-fs-langselect' => '$1 또는 $2에서 진행',
 	'wminc-fs-signup-text' => '사용자 계정이 이미 있다면 [$1 로그인]하세요. 아직 계정이 없다면, [$2 사용자 계정을 만드세요].
 필요하지는 않지만 만드는 것이 좋으며 만드는 데에 몇 초 걸리지 않습니다.',
+	'wminc-fs-userpage-text' => '지금 자신에 대한 몇 가지 기본 정보를 사용하여 $1 사용자 토론을 만드세요. 또한 이 문서의 위에 이에 대한 링크를 볼 수 있습니다.',
 	'wminc-fs-startwiki-text' => '위키의 접두어는 $1입니다. $2에서 위키의 대문을 만들 수 있습니다.',
 );
 
@@ -2886,17 +2901,19 @@ $messages['nl'] = array(
 	'wminc-fs-userpage-title' => 'Uw gebruikerspagina aanmaken',
 	'wminc-fs-startwiki-title' => 'Uw wiki starten',
 	'wminc-fs-pagetitle-done' => ' - afgerond!',
-	'wminc-fs-intro' => 'Welkom bij de wizard van {{SITENAME}} om u op weg te helpen. U wordt hieronder geleid doorheen het proces om een nieuwe wiki te starten.',
-	'wminc-fs-langselect' => 'Voortgaan in het $1 of $2',
-	'wminc-fs-signup-text' => 'Als u al een gebruikersaccount hebt, [$1 meld u dan aan]. Als u er nog geen hebt, [$2 maak er dan een aan].
+	'wminc-fs-intro' => 'Welkom bij de wizard van {{SITENAME}} om u op weg te helpen. Hieronder wordt u door het proces heengeleid om een nieuwe wiki te starten.',
+	'wminc-fs-langselect' => 'Doorgaan in het $1 of $2',
+	'wminc-fs-signup-text' => 'Als u al een gebruiker hebt, [$1 meld u dan aan]. Als u er nog geen hebt, [$2 maak er dan een aan].
 Het is niet verplicht maar wordt sterk aanbevolen en duurt slechts enkele seconden.',
 	'wminc-fs-settings-text' => 'Ga nu naar [[Special:Preferences|uw voorkeuren]] en wijzig uw testwiki-instellingen.
-Rechts ziet u de relevante opties die u op die pagina hebt. De eerste is uw interfacetaal, die u als eerste stap hebt gekozen, maar nog altijd kunt veranderen. De tweede is het project waaraan u wilt bijdragen en de derde is de taalcode van de taal waaraan u wilt bijdragen. Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|handleiding]] of [[{{MediaWiki:Portal-url}}|vraag om hulp]].',
-	'wminc-fs-userpage-text' => 'Maak nu uw gebruikerspagina $1 aan met wat info over uzelf. U kunt ook een verwijzing ernaar zien bovenaan deze pagina.',
-	'wminc-fs-globaluser-text' => 'Uw gebruikersaccount is lokaal. Het is aanbevolen om het globaal te maken via $1 zodat u het op elke Wikimedia-wiki kunt gebruiken.',
+Rechts ziet u de relevante opties die u op die pagina hebt. De eerste is uw interfacetaal, die u als eerste stap hebt gekozen, maar nog altijd kunt veranderen.
+De tweede is het project waaraan u wilt bijdragen en de derde is de taalcode van de taal waaraan u wilt bijdragen.
+Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|handleiding]] of [[{{MediaWiki:Portal-url}}|vraag om hulp]].',
+	'wminc-fs-userpage-text' => 'Maak nu uw gebruikerspagina $1 aan met wat gegevens over uzelf. U ziet bovenaan deze pagina ook een verwijzing naar die pagina.',
+	'wminc-fs-globaluser-text' => 'Uw gebruiker is lokaal. Het is aanbevolen om deze globaal te maken via $1 zodat u deze voor elke Wikimediawiki kunt gebruiken.',
 	'wminc-fs-startwiki-text' => 'Het voorvoegsel van uw wiki is $1. U kunt de Hoofdpagina van de wiki aanmaken op $2.',
 	'wminc-fs-startwiki-exists-text' => 'Het voorvoegsel van uw wiki is $1. De Hoofdpagina is te vinden op $2. U kunt nu samenwerken met andere sprekers van deze talen om een gemeenschap op te bouwen!
-Als u een pagina wil aanmaken, typ gewoon de naam in het zoekvak bovenaan, en volg de link die u zult zien.',
+Als u een pagina wil aanmaken, typ gewoon de naam in het zoekvak bovenaan, en volg de verwijzing die u ziet.',
 );
 
 /** Norwegian Nynorsk (‪norsk (nynorsk)‬)

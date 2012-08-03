@@ -94,13 +94,6 @@ $messages['qqq'] = array(
 	'wminc-infopage-status-beforeincubator' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-status-beforeincubator-sister' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-error' => 'Error message shown when trying to use <tt>{{#infopage:}}</tt> on a non-prefixed page (i.e. pages not starting with a Wx/xyz/ prefix).',
-	'wminc-infopage-links' => '{{Ignore}} This message is used to add links on info pages of test wikis. Parameters:
-* $1 is the status (e.g. open)
-* $2 is the prefix (e.g. Wp/xyz)
-* $3 the project code (e.g. p)
-* $4 the project name (e.g. Wikipedia)
-* $5 the language code (e.g. xyz)
-* $6 the localized language name', # do not translate
 );
 
 /** Afrikaans (Afrikaans)
@@ -312,6 +305,7 @@ $messages['cs'] = array(
 /** German (Deutsch)
  * @author Kghbln
  * @author MF-Warburg
+ * @author Metalhead64
  * @author Polletfa
  */
 $messages['de'] = array(
@@ -338,8 +332,10 @@ kannst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und gem
 	'wminc-infopage-status-open' => 'Dies ist ein für Bearbeitungen offenes Wiki auf Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Dieses Wiki des Incubators wurde von $1 importiert, nachdem es geschlossen wurde.',
 	'wminc-infopage-status-closedsister' => 'Diese Subdomain wurde geschlossen. Geh zu <b>$2</b>, um zu diesem Wiki beizutragen.',
+	'wminc-infopage-status-approved' => 'Dieses Incubator-Wiki wurde vom [[meta:Language committee/de|Sprachkomitee]] genehmigt und wird bald erstellt werden.',
 	'wminc-infopage-status-created' => 'Dieses Projekt wurde vom Sprachkomitee genehmigt und ist nun unter $1 verfügbar..',
 	'wminc-infopage-status-beforeincubator' => 'Dieses Projekt wurde erstellt, bevor es den Wikimedia Incubator gab und ist unter $1 verfügbar.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Dieses Projekt ist unter $1 verfügbar.',
 	'wminc-infopage-error' => 'Fehler: {{#infopage}} kann nur auf Seiten, die über ein Präfix verfügen, verwendet werden.',
 );
 
@@ -487,8 +483,10 @@ puedes [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la página] y seguir [[{{
 	'wminc-infopage-status-open' => 'Este es un wiki abierto de Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Este wiki de la Incubadora se importó desde $1 después de que el wiki fuera cerrado.',
 	'wminc-infopage-status-closedsister' => 'Este subdominio se cerró. Ir a <b>$2</b> para contribuir a este wiki.',
+	'wminc-infopage-status-approved' => 'Esta incubadora de wiki ha sido aprobada por el [[meta:Special:MyLanguage/Language_committee|comité de idioma]] y será creada pronto.',
 	'wminc-infopage-status-created' => 'Este proyecto ha sido aprobado por el Comité de idiomas y ahora está disponible en $1.',
 	'wminc-infopage-status-beforeincubator' => 'Este proyecto fue creado antes de que la Incubadora de Wikimedia comenzara y está disponible en $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Este proyecto está disponible en $1.',
 	'wminc-infopage-error' => 'Error: {{#infopage}} sólo puede utilizarse en las páginas con prefijo.',
 );
 
@@ -675,8 +673,10 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear esta páxina] e seguir [[{{
 	'wminc-infopage-status-open' => 'Este é un wiki aberto da Incubadora da Wikimedia.',
 	'wminc-infopage-status-imported' => 'Este wiki da Incubadora foi importado desde $1 despois de que o wiki pechase.',
 	'wminc-infopage-status-closedsister' => 'Este subdominio foi pechado. Vaia a <b>$2</b> para contribuír neste wiki.',
-	'wminc-infopage-status-created' => 'Este proxecto foi aprobado polo comité de linguas e agora está dispoñible en $1.',
+	'wminc-infopage-status-approved' => 'O [[meta:Special:MyLanguage/Language_committee|comité de linguas]] aprobou este wiki da Incubadora. Axiña ha estar dispoñible.',
+	'wminc-infopage-status-created' => 'O comité de linguas aprobou este proxecto. Agora está dispoñible en $1.',
 	'wminc-infopage-status-beforeincubator' => 'Este proxecto foi creado antes ca a Incubadora da Wikimedia e está dispoñible en $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Este proxecto está dispoñible en $1.',
 	'wminc-infopage-error' => 'Erro: {{#infopage}} pódese utilizar unicamente nas páxinas con prefixo.',
 );
 
@@ -776,8 +776,10 @@ móžeš [{{fullurl:{{FULLPAGENAME}}|action=edit}} stronu wutworić] a po [[{{Me
 	'wminc-infopage-status-open' => 'To je wotewrjeny wiki na Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Tutón wiki inkubatora je so z $1 importował, po tym zo bě so wiki začinił.',
 	'wminc-infopage-status-closedsister' => 'Tuta poddomena je so začiniła. Dźi k <b>$2</b>, zo by k tutomu wikijej přinošował.',
+	'wminc-infopage-status-approved' => 'Tutón Inkubatorowy wiki je so wot [[meta:Special:MyLanguage/Language_committee|rěčneho komiteja]] schwalił a budźe so bórze wutworjeć.',
 	'wminc-infopage-status-created' => 'Tutón projekt je so wot rěčneho komiteja schwalił a steji nětko pod $1 k dispoziciji.',
 	'wminc-infopage-status-beforeincubator' => 'Tutón projekt je so wutworił, prjedy hač inkubator Wikimedije je so startował a steji pod $1 k dispoziciji.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Tutón projekt steji pod $1 k dispoziciji.',
 	'wminc-infopage-error' => 'Zmylk: {{#infopage}} da so jenož na stronach wužiwać, kotrež prefiks maja.',
 );
 
@@ -839,8 +841,10 @@ tu pote [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear le pagina] e sequer [[{{
 	'wminc-infopage-status-open' => 'Isto es un wiki aperte de Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Iste wiki incubator ha essite importate ex $1 post le clausura del wiki.',
 	'wminc-infopage-status-closedsister' => 'Iste subdominio ha essite claudite. Vade a <b>$2</b> pro contribuer a iste wiki.',
+	'wminc-infopage-status-approved' => 'Iste wiki incubator ha essite approbate per le [[meta:Special:MyLanguage/Language_committee|comité de linguas]] e essera create tosto.',
 	'wminc-infopage-status-created' => 'Iste projecto ha essite approbate per le comité linguistic e es ora disponibile a $1.',
 	'wminc-infopage-status-beforeincubator' => 'Iste projecto ha essite create ante le comenciamento de Wikimedia Incubator e es disponibile a $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Iste projecto es disponibile a $1.',
 	'wminc-infopage-error' => 'Error: {{#infopage}} pote esser usate solmente in paginas con prefixo.',
 );
 
@@ -920,9 +924,37 @@ $messages['khw'] = array(
 
 /** Korean (한국어)
  * @author Albamhandae
+ * @author 아라
  */
 $messages['ko'] = array(
+	'wminc-infopage-enter' => '대문으로 가기',
+	'wminc-unknownlang' => '(알 수 없는 언어 코드)',
+	'wminc-infopage-title-p' => '위키백과 $1',
+	'wminc-infopage-title-b' => '위키책 $1',
+	'wminc-infopage-title-t' => '위키낱말사전 $1',
+	'wminc-infopage-title-q' => '위키인용집 $1',
+	'wminc-infopage-title-n' => '위키뉴스 $1',
+	'wminc-infopage-title-s' => '위키문헌 $1',
+	'wminc-infopage-title-v' => '위키배움터 $1',
+	'wminc-infopage-welcome' => '위키미디어 재단의 프로젝트인 위키미디어 인큐베이터에 환영합니다 ([[{{MediaWiki:Aboutpage}}|정보]])',
+	'wminc-infopage-missingwiki-text' => '이 언어에서 $1 프로젝트가 아직 존재하지 않습니다.',
+	'wminc-infopage-option-startwiki' => '이 위키를 시작하기를 원한다면,
+[{{fullurl:{{FULLPAGENAME}}|action=edit}} 문서를 만들고] [[{{MediaWiki:Wminc-manual-url}}|매뉴얼]]을 따를 수 있습니다.',
+	'wminc-infopage-option-startsister' => '이 위키를 시작하기를 원한다면, <b>[$2 $1]</b>로 갈 수 있습니다.',
+	'wminc-infopage-option-languages-existing' => '[//www.$1.org $1의 기존 언어 편집자]에 대해 찾을 수 있습니다.',
+	'wminc-infopage-option-sisterprojects-existing' => '이 언어에서 기존 프로젝트에 대해 찾을 수 있습니다:',
+	'wminc-infopage-option-sisterprojects-other' => '이 언어에서 기타 프로젝트에 대해 찾을 수 있습니다:',
+	'wminc-infopage-option-multilingual' => '다국어 위키로 갈 수 있습니다:',
+	'wminc-infopage-createmainpage' => '이 언어에서 "Main Page"에 대한 단어를 입력하세요:',
 	'wminc-infopage-contribute' => '이 시험판에 쓰여진 언어를 아신다면, 기여를 부탁드립니다!',
+	'wminc-infopage-status-open' => '이는 위키미디어 인큐베이터의 열린 위키입니다.',
+	'wminc-infopage-status-imported' => '위키를 닫은 후 이 인큐베이터 위키는 $1에서 가져왔습니다.',
+	'wminc-infopage-status-closedsister' => '이 서브도메인은 닫혔습니다. 이 위키에 기여하려면 <b>$2</b>로 가세요.',
+	'wminc-infopage-status-approved' => '이 인큐베이터는 [[meta:Special:MyLanguage/Language_committee|언어 위원회]]에 의해 승인하였고 곧 만들어질 것입니다.',
+	'wminc-infopage-status-created' => '이 프로젝트는 언어 위원회의 승인을 받았으며 지금 $1에 존재합니다.',
+	'wminc-infopage-status-beforeincubator' => '이 프로젝트는 위키미디어 인큐베이터가 시작하지 전에 만들었으며 $1에 존재합니다.',
+	'wminc-infopage-status-beforeincubator-sister' => '이 프로젝트는 $1에 존재합니다.',
+	'wminc-infopage-error' => '오류: {{#infopage}} 문서는 접두어 문서로만 사용할 수 있습니다.',
 );
 
 /** Colognian (Ripoarisch)
@@ -1057,8 +1089,10 @@ $messages['mk'] = array(
 	'wminc-infopage-status-open' => 'Ова е отворено вики на Викимедииниот Инкубатор.',
 	'wminc-infopage-status-imported' => 'Ова вики на Инкубаторот е увезено од $1, по затворањето на викито.',
 	'wminc-infopage-status-closedsister' => 'Овој поддомен е затворен. Појдете на <b>$2</b> за да учествувате на ова вики.',
+	'wminc-infopage-status-approved' => 'Ова инкубаторско вики е одобрено од [[meta:Special:MyLanguage/Language_committee|јазичниот комитет]] и наскоро ќе биде создадено.',
 	'wminc-infopage-status-created' => 'Овој проект е одобрен од јазичната комисија и сега е достапен на $1.',
 	'wminc-infopage-status-beforeincubator' => 'Овој проект е создаден пред започнувањето на Инкубаторот на Викимедија и е достапен на $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Проектот е достапен на $1.',
 	'wminc-infopage-error' => 'Грешка: {{#infopage}} може да се користи само на префиксирани страници.',
 );
 
@@ -1120,8 +1154,10 @@ anda boleh [{{fullurl:{{FULLPAGENAME}}|action=edit}} mencipta lamannya] dan meng
 	'wminc-infopage-status-open' => 'Ini merupakan wiki terbuka Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Wiki Incubator ini telah diimport dari $1 setelah wiki itu ditutup.',
 	'wminc-infopage-status-closedsister' => 'Subdomain ini ditutup. Pergi ke <b>$2</b> untuk menyumbang kepada wiki ini.',
+	'wminc-infopage-status-approved' => 'Wiki Incubator ini telah diluluskan oleh [[meta:Special:MyLanguage/Language_committee|jawatankuasa bahasa]] dan akan dibuka tidak lama lagi.',
 	'wminc-infopage-status-created' => 'Projek ini telah diluluskan oleh jawatankuasa bahasa dan kini boleh didapati di $1.',
 	'wminc-infopage-status-beforeincubator' => 'Projek ini dibuka sebelum Wikimedia Incubator dimulakan, dan boleh didapati di $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Projek ini terdapat di $1.',
 	'wminc-infopage-error' => 'Ralat: {{#infopage}} boleh digunakan di laman-laman berawalan sahaja.',
 );
 
@@ -1581,6 +1617,23 @@ $messages['tl'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity $1',
 	'wminc-infopage-welcome' => 'Maligayang pagdating sa Palimliman ng Wikimedia, isang proyekto Pundasyon ng Wikimedia ([[{{MediaWiki:Aboutpage}}|Patungkol]])',
 	'wminc-infopage-missingwiki-text' => 'Ang $1 na nasa ganitong wika ay hindi pa umiiral.',
+	'wminc-infopage-option-startwiki' => 'Kung nais mong simulan ang wiking ito,
+maaari mong [{{fullurl:{{FULLPAGENAME}}|action=edit}} likhain ang] at sundin ang [[{{MediaWiki:Wminc-manual-url}}|aming panggabay]].',
+	'wminc-infopage-option-startsister' => 'Kung nais mong simulan ang wiking ito, maaari kang magpunta sa <b>[$2 $1]</b>.',
+	'wminc-infopage-option-languages-existing' => 'Maaari mong hanapin ang [//www.$1.org umiiral na mga edisyon ng wika ng $1].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Makapaghahanap ka ng umiiral na mga proyektong nasa ganitong wika:',
+	'wminc-infopage-option-sisterprojects-other' => 'Makapaghahanap ka ng iba pang mga proyektong nasa ganitong wika:',
+	'wminc-infopage-option-multilingual' => 'Makakapunta ka sa isang wiki na maramihan ang mga wika:',
+	'wminc-infopage-createmainpage' => 'Ipasok ang salitang "Pangunahing Pahina" sa wikang ito:',
+	'wminc-infopage-contribute' => 'Kung alam mo ang wikang ito, hinihimok kang mag-ambag!',
+	'wminc-infopage-status-open' => 'Isa itong bukas na wiki ng Pamisaan ng Wikimedia.',
+	'wminc-infopage-status-imported' => 'Ang wiking Pamisaan na ito ay inangkat magmula sa $1 pagkaraang maisara ang wiki.',
+	'wminc-infopage-status-closedsister' => 'Ang kabahaging nasasakupang ito ay naisara na. Magpunta sa <b>$2</b> upang makapag-ambag sa wiking ito.',
+	'wminc-infopage-status-approved' => 'Ang wiking Limliman na ito ay pinayagan na ng [[meta:Special:MyLanguage/Language_committee|lupon ng wika]] at lilikhain na pagdaka.',
+	'wminc-infopage-status-created' => 'Ang proyektong ito ay napayagan na ng lupon ng wika at makukuha na ngayon doon sa $1.',
+	'wminc-infopage-status-beforeincubator' => 'Ang proyektong ito ay nalikha bago magsimula ang Limliman ng Wikimedia at makukuha roon sa $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Ang proyektong ito ay makukuha roon sa $1.',
+	'wminc-infopage-error' => 'Kamalian: Ang {{#infopage}} ay magagamit lamang sa mga pahinang may unlapi.',
 );
 
 /** Turkish (Türkçe)
