@@ -205,7 +205,7 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 * $1 is the current language
 * $2 is a list of alternative (clickable) languages.',
 	'wminc-fs-signup-text' => '$1 is the link to log in, $2 to create an account',
-	'wminc-fs-settings-text' => '"At the right you can see" refers to an image being shown at the right side of the page. For RTL languages this is at the right as well (until bug 38351 is solved, then it will be correctly at the left).',
+	'wminc-fs-settings-text' => '"At the right you can see..." refers to an image being shown at the right side of the page. For RTL languages this is at the left.',
 	'wminc-fs-userpage-text' => '$1 is a link to the user page',
 	'wminc-fs-globaluser-text' => '$1 is a link to Special:MergeAccount',
 	'wminc-fs-startwiki-text' => '$1 is the prefix (Wx/xyz), $2 is a link to its main page (Wx/xyz/Main_Page)',
@@ -927,8 +927,8 @@ $messages['diq'] = array(
 	'wminc-testwiki-none' => 'Teba nê/Pêron',
 	'wminc-recentchanges-all' => 'Vurnayışê peyêni pêro',
 	'wminc-prefinfo-language' => 'Temay zuwani- test wiki ra xoseri ya.',
-	'wminc-prefinfo-code' => "Kodê ISO 639'i",
-	'wminc-prefinfo-project' => 'Xorê proceyê de Wikimedia weçinê  (Incubator karberê ke tede gurweyênê qan dê ênano)',
+	'wminc-prefinfo-code' => "Kodê ISO 639'i zıwan dê xo bıgurweynê",
+	'wminc-prefinfo-project' => 'Xo rê proceyê de Wikimedia weçinê u bıgurweynê newke',
 	'wminc-prefinfo-error' => 'Proceyo ke şıma mor kerdo kodê zıwaniyao.',
 	'wminc-error-move-unprefixed' => 'Xırab: Pelaya ke şımayê kenê ahulnê [[{{MediaWiki:Wminc-error-help}}|veroley cı esto yana zi bêveroleyo]]!',
 	'wminc-error-wronglangcode' => "'''Xırab:''' Miyanê pela da \"\$1\"'i dı [[{{MediaWiki:Wminc-error-help}}|zıwan kodiyo xırab ]] esto!",
@@ -3538,8 +3538,8 @@ $messages['sl'] = array(
 	'wminc-testwiki-none' => 'Nič/Vse',
 	'wminc-recentchanges-all' => 'Vse zadnje spremembe',
 	'wminc-prefinfo-language' => 'Vaš jezik vmesnika – neodvisen od vašega preizkusnega wikija',
-	'wminc-prefinfo-code' => 'Koda jezika ISO 639',
-	'wminc-prefinfo-project' => 'Izberite projekt Wikimedie (možnost Incubator je namenjena uporabnikom, ki opravljajo splošna dela)',
+	'wminc-prefinfo-code' => 'Koda jezika ISO 639, v katerem delate tukaj',
+	'wminc-prefinfo-project' => 'Izberite projekt Wikimedie, na katerem tukaj delate',
 	'wminc-prefinfo-error' => 'Izbrali ste projekt, ki zahteva kodo jezika.',
 	'wminc-error-move-unprefixed' => 'Napaka: Stran, na katero skušate prestaviti, [[{{MediaWiki:Wminc-error-help}}|nima predpone ali ima napačno predpono]]!',
 	'wminc-error-wronglangcode' => "'''Napaka:''' Stran vsebuje [[{{MediaWiki:Wminc-error-help}}|napačno kodo jezika]] »$1«!",
@@ -3893,6 +3893,13 @@ Kung hindi mo alam ang kodigo, paki sumangguni sa aming [[{{MediaWiki:Wminc-manu
 	'wminc-fs-startwiki-text' => 'Ang unlapi ng wiki mo ay $1. Malilikha mo ang Pangunahing Pahina ng wiki roon sa $2.',
 	'wminc-fs-startwiki-exists-text' => 'Ang unlapi ng wiki mo ay $1. Ang Pangunahing Pahina ay naroon sa $2. Maaari ka nang makipagtulungan sa iba pang mga tagapagsalita ng wikang ito upang makabuo ng isang pamayanan!
 Kung nais mong lumikha ng isang pahina, tipahin lamang ang pangalan sa loob ng kahong panghanap na nasa itaas, at sundan ang kawing na makikita mo.',
+);
+
+/** толышә зывон (толышә зывон)
+ * @author Erdemaslancan
+ */
+$messages['tly'] = array(
+	'wminc-searchwiki-go' => 'Давардеј',
 );
 
 /** Turkish (Türkçe)

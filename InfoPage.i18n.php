@@ -332,7 +332,7 @@ kannst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und gem
 	'wminc-infopage-status-open' => 'Dies ist ein für Bearbeitungen offenes Wiki auf Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Dieses Wiki des Incubators wurde von $1 importiert, nachdem es geschlossen wurde.',
 	'wminc-infopage-status-closedsister' => 'Diese Subdomain wurde geschlossen. Geh zu <b>$2</b>, um zu diesem Wiki beizutragen.',
-	'wminc-infopage-status-approved' => 'Dieses Incubator-Wiki wurde vom [[meta:Language committee/de|Sprachkomitee]] genehmigt und wird bald erstellt werden.',
+	'wminc-infopage-status-approved' => 'Dieses Incubator-Wiki wurde vom [[meta:Special:MyLanguage/Language_committee|Sprachkomitee]] genehmigt und wird bald erstellt werden.',
 	'wminc-infopage-status-created' => 'Dieses Projekt wurde vom Sprachkomitee genehmigt und ist nun unter $1 verfügbar..',
 	'wminc-infopage-status-beforeincubator' => 'Dieses Projekt wurde erstellt, bevor es den Wikimedia Incubator gab und ist unter $1 verfügbar.',
 	'wminc-infopage-status-beforeincubator-sister' => 'Dieses Projekt ist unter $1 verfügbar.',
@@ -1215,8 +1215,10 @@ $messages['nl'] = array(
 	'wminc-infopage-status-open' => 'Dit is een open wiki van Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Deze Incubator-wiki werd geïmporteerd van $1 nadat die wiki is gesloten.',
 	'wminc-infopage-status-closedsister' => 'Dit subdomein is gesloten. Ga naar <b>$2</b> om bij te dragen aan deze wiki.',
+	'wminc-infopage-status-approved' => 'Deze Incubatorwiki is goedgekeurd door de [[meta:Special:MyLanguage/Language_committee|taalcommissie]] en wordt binnenkort aangemaakt.',
 	'wminc-infopage-status-created' => 'Dit project werd goedgekeurd door het taalcomité en is nu beschikbaar op $1.',
 	'wminc-infopage-status-beforeincubator' => 'Dit project is gemaakt voordat Wikimedia Incubator begon en is beschikbaar op $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Dit project is beschikbaar op $1.',
 	'wminc-infopage-error' => "Fout: {{#infopage}} kan alleen gebruikt worden in pagina's met een voorvoegsel.",
 );
 
