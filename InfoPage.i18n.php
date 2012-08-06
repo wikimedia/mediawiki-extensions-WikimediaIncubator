@@ -260,6 +260,7 @@ $messages['be-tarask'] = array(
 	'wminc-infopage-status-closedsister' => 'Гэты паддамэн закрыты. Перайдзіце на <b>$2</b>, каб напісаць у гэтую вікі.',
 	'wminc-infopage-status-created' => 'Гэты праект быў зацьверджаны моўным камітэтам, і цяпер ён даступны на $1.',
 	'wminc-infopage-status-beforeincubator' => 'Гэты праект быў створаны перад пачаткам функцыянаваньня Інкубатара фундацыі «Вікімэдыя» і ён даступны на $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Гэты праект даступны па адрасе $1.',
 	'wminc-infopage-error' => 'Памылка: {{#infopage}} можна выкарыстоўваць толькі на старонках з прэфіксам.',
 );
 
