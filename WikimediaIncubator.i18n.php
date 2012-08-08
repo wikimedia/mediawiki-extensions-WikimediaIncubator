@@ -1815,9 +1815,13 @@ $messages['hsb'] = array(
 	'wminc-fs-pagetitle-done' => ' - sčinjene!',
 	'wminc-fs-intro' => 'Witaj k startowemu asistentej {{GRAMMAR:genitiw|{{SITENAME}}}}. Budźe će přez proces startowanja noweho wikija wjesć.',
 	'wminc-fs-langselect' => 'W $1 abo $2 dale činić',
+	'wminc-fs-signup-text' => 'Jeli maš hižo wužiwarske konto, prošu [$1 přizjew so]. Jeli hišće nimaš žane konto, prošu [$2 załož wužiwarske konto].
+Wono trěbne njeje, ale doporuča so naležnje a traje jenož por sekundow, zo by jo załožiło.',
 	'wminc-fs-userpage-text' => 'Prošu wutwor wužiwarsku stronu $1 z něšto informacijemi wo sebi. Móžeš tež wotkaz k njej horjeka na stronje widźeć.',
 	'wminc-fs-globaluser-text' => 'Twoje wužiwarske konto je lokalne. Poruča so jo přez $1 globalne činić, zo by móhł jo na kóždym wikiju Wikimedije wužiwać.',
 	'wminc-fs-startwiki-text' => '$1 je prefiks twojeho wikija. Móžeš hłownu stronu wikija na $2 wutworić.',
+	'wminc-fs-startwiki-exists-text' => 'Prefiks twojeho wikija je $1. Hłowna strona je na $2. Móžeš nětko z druhimi rěčnikami tuteje rěče hromadźe dźěłać, zo by zhromadźenstwo tworił!
+Jeli chceš stronu wutworić, zapisaj jenož mjeno horjeka do pytanskeho pola a slěduj wotkazej, kotryž budźeš widźeć.',
 );
 
 /** Hungarian (magyar)
