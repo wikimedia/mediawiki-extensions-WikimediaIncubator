@@ -38,9 +38,9 @@ class InfoPage {
 		$this->mDBStatus = '';
 		$this->mSubStatus = '';
 		$this->mThisLangData = array( 'type' => 'valid' ); # For later code check feature
-		$this->mLangNames = Language::fetchLanguageNames( $wgLang->getCode(), 'all' );
-		$this->mLangName = isset( $this->mLangNames[$this->mLangCode] ) ?
-			$this->mLangNames[$this->mLangCode] : null;
+		$name = Language::fetchLanguageName( $this->mLangCode, $wgLang->getCode(), 'all' );
+		$this->mLangName = $name ? $name :
+			Language::fetchLanguageName( $this->mLangCode, 'en', 'all' );
 		$titleParam = $this->mLangName ? $this->mLangName : '"' . $this->mLangCode . '"'; # Name, else code
 		$this->mFormatTitle = wfMessage( 'wminc-infopage-title-' . $this->mProjectCode, $titleParam )->escaped();
 		if( !$this->mLangName ) {
