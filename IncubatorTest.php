@@ -580,8 +580,14 @@ class IncubatorTest {
 		$parser->getOptions()->getUserLangObj(); # we have to split the cache by language
 		$parser->getOutput()->setTitleText( $infopage->mFormatTitle ); # sets <h1> & <title>
 
-		$return = in_array( $infopage->mSubStatus, array( 'created', 'beforeincubator' ) ) ?
-			$infopage->showExistingWiki() : $infopage->showIncubatingWiki();
+		if( in_array( $infopage->mSubStatus, array( 'created', 'beforeincubator' ) ) ) {
+			$return = $infopage->showExistingWiki();
+		} elseif( self::getMainPage( $prefix['lang'], $prefix['prefix'] )->exists() ) {
+			$return = $infopage->showIncubatingWiki();
+		} else {
+			// open wiki, no test wiki main page => missing
+			$return = $infopage->showMissingWiki();
+		}
 
 		return array( $return, 'noparse' => true, 'nowiki' => true, 'isHTML' => true );
 	}

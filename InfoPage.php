@@ -140,6 +140,12 @@ class InfoPage {
 	 * @return String
 	 */
 	public function showMissingWiki() {
+		global $wgRequest;
+		$link = SpecialPage::getTitleFor( 'IncubatorFirstSteps' );
+		$query = array( 'testwiki' => $this->mPrefix,
+			'uselang' => $wgRequest->getVal( 'uselang' ) );
+		$steps = $link->getFullUrl( $query );
+
 		$content = Html::rawElement( 'div',
 			array( 'class' => 'wminc-infopage-status' ),
 			wfMessage( 'wminc-infopage-missingwiki-text',
@@ -148,7 +154,7 @@ class InfoPage {
 		Html::rawElement( 'ul', array( 'class' => 'wminc-infopage-options' ),
 			Html::rawElement( 'li', null,
 				wfMessage( $this->mIsSister ? 'wminc-infopage-option-startsister' : 'wminc-infopage-option-startwiki',
-					$this->mProjectName, $this->mPortal )->parse() ) .
+					$this->mProjectName, $this->mPortal, $steps )->parse() ) .
 			Html::rawElement( 'li', null,
 				wfMessage( 'wminc-infopage-option-languages-existing',
 					$this->mProjectName )->parse() ) .

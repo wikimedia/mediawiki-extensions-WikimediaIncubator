@@ -103,7 +103,7 @@ The second one is the project you want to contribute to and the third one is the
 If you don\'t know the code, please consult our [[{{MediaWiki:Wminc-manual-url}}|manual]] or ask for [[{{MediaWiki:Portal-url}}|help]].',
 	'wminc-fs-userpage-text' => 'Please now create your userpage $1 with some basic info about yourself. You can also see a link to it at the top of this page.',
 	'wminc-fs-globaluser-text' => 'Your user account is local. It is recommended to make it global via $1 so you can use it on any Wikimedia wiki.',
-	'wminc-fs-startwiki-text' => 'The prefix of your wiki is $1. You can create the wiki\'s Main Page at $2.',
+	'wminc-fs-startwiki-text' => 'The prefix of your wiki is <b>$1</b>. You can start the wiki by creating the wiki\'s Main Page at <b>$2</b>.',
 	'wminc-fs-startwiki-exists-text' => 'The prefix of your wiki is $1. The Main Page is at $2. You can now collaborate with other speakers of this language to build a community!
 If you want to create a page, just type in the name in the search box above, and follow the link you will see.',
 );
