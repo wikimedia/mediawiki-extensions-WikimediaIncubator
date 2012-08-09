@@ -1319,6 +1319,7 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 	'wminc-infopage-status-closedsister' => 'Este subdomínio foi fechado. Vá a <b>$2</b> para contribuír nesta wiki.',
 	'wminc-infopage-status-created' => 'Este projecto foi aprovado pelo comité linguístico e está agora disponível em $1.',
 	'wminc-infopage-status-beforeincubator' => 'Este projecto foi criado antes do início da Incubadora Wikimedia e está disponível em $1.',
+	'wminc-infopage-error' => 'Erro: {{#infopage}} só pode ser usada em páginas com prefixos.',
 );
 
 /** Brazilian Portuguese (português do Brasil)

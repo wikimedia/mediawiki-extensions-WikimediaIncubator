@@ -1242,6 +1242,26 @@ $messages['et'] = array(
 	'wminc-searchwiki-match-englishname' => '"$1" on $2 keele ingliskeelne nimetus.',
 	'wminc-searchwiki-match-nativename' => '"$1" on $2 keele nimetus selles keeles.',
 	'wminc-searchwiki-gotoinfopage' => 'teabeleht',
+	'wminc-fs-pagetitle' => 'Alustamisviisard – $1',
+	'wminc-fs-langselect-title' => 'Keele valimine',
+	'wminc-fs-signup-title' => 'Registreerumine',
+	'wminc-fs-settings-title' => 'Vikieelistuste määramine',
+	'wminc-fs-userpage-title' => 'Kasutajalehekülje loomine',
+	'wminc-fs-startwiki-title' => 'Vikiga alustamine',
+	'wminc-fs-pagetitle-done' => '– valmis!',
+	'wminc-fs-intro' => 'Tere tulemast võrgukoha {{SITENAME}} alustusviisardisse. Sind juhendatakse uue viki alustamise juures.',
+	'wminc-fs-langselect' => 'Jätka $1 keeles või mõnes järgmistest keeltest: $2',
+	'wminc-fs-signup-text' => 'Kui sul juba on kasutajakonto, [$1 logi palun sisse]. Kui sul pole seda veel, [$2 loo palun endale kasutajakonto].
+Konto loomist ei nõuta, aga see on ülimalt soovitatav ja võtab vaid mõne sekundi.',
+	'wminc-fs-settings-text' => 'Palun mine nüüd [[Special:Preferences|eelistuste leheküljele]] ja vali oma katseviki säte.
+Paremal näed asjakohaseid suvandeid, mida sellel leheküljel valida. Esimene on liidese keel, mille valisid esimeses etapis ja mida saad soovi korral muuta.
+Teine on projekt, millele soovid kaastööd teha ja kolmas on keelekood, mis vastab keelele, milles projektile kaastööd soovid teha.
+Kui sa ei tea koodi, uuri palun meie [[{{MediaWiki:Wminc-manual-url}}|juhendit]] või [[{{MediaWiki:Portal-url}}|küsi abi]].',
+	'wminc-fs-userpage-text' => 'Nüüd alusta palun oma kasutajalehekülge $1, kus võiks olla sinu kohta kirjas mõned põhiandmed. Lingi kasutajaleheküljele leiad ka selle lehekülje ülaservast.',
+	'wminc-fs-globaluser-text' => 'Sul on kohalik kasutajakonto. Soovitatav on luua leheküljel $1 ühendkonto, et saaksid kasutada seda kõigis Wikimedia vikides.',
+	'wminc-fs-startwiki-text' => 'Sinu viki eesliide on $1. Viki esilehe saad luua asukohas $2.',
+	'wminc-fs-startwiki-exists-text' => 'Sinu viki eesliide on $1. Viki esileht on asukohas $2. Saad nüüd teiste selle keele kõnelejatega koostööd teha, et luua kaastööliskond!
+Kui soovid lehekülge luua, sisesta pealkiri lihtsalt ülalolevale otsiribale ja järgi linki, mida näed.',
 );
 
 /** Basque (euskara)
@@ -1281,6 +1301,7 @@ $messages['fa'] = array(
 	'wminc-testwiki' => 'ویکی آزمایشی:',
 	'wminc-testwiki-code' => 'امتحان‌کردن زبان ویکی:',
 	'wminc-testwiki-none' => 'هیچ‌کدام/همه',
+	'wminc-testwiki-site' => '(نگهداری)',
 	'wminc-recentchanges-all' => 'همهٔ تغییرات اخیر',
 	'wminc-prefinfo-language' => 'زبان رابط کاربری شما - مستقل از ویکی آزمایشی شما',
 	'wminc-prefinfo-code' => 'کد زبان ایزو ۶۳۹',
@@ -1312,6 +1333,10 @@ $messages['fa'] = array(
 	'wminc-searchwiki-inputlanguage' => 'به زبان:',
 	'wminc-searchwiki-go' => 'برو',
 	'wminc-searchwiki-gotoinfopage' => 'صفحهٔ اطلاعات',
+	'wminc-fs-langselect-title' => 'انتخاب زبان',
+	'wminc-fs-signup-title' => 'ثبت نام',
+	'wminc-fs-startwiki-title' => 'آغاز ویکی‌تان',
+	'wminc-fs-pagetitle-done' => ' - انجام شد!',
 );
 
 /** Finnish (suomi)
@@ -1367,6 +1392,7 @@ $messages['fi'] = array(
  * @author IAlex
  * @author PieRRoMaN
  * @author Seb35
+ * @author Shirayuki
  * @author Sylvain2803
  * @author Tpt
  * @author Urhixidur
@@ -1419,6 +1445,7 @@ $messages['fr'] = array(
 	'wminc-searchwiki-match-englishname' => '« $1 » est le nom de  $2  en anglais.',
 	'wminc-searchwiki-match-nativename' => '« $1 » est le nom de  $2  dans cette langue.',
 	'wminc-searchwiki-gotoinfopage' => "page d'information",
+	'wminc-fs-pagetitle' => 'Guide de démarrage - $1',
 	'wminc-fs-langselect-title' => 'Sélectionner la langue',
 	'wminc-fs-signup-title' => 'Créer un compte',
 	'wminc-fs-settings-title' => 'Définir vos préférences du wiki',
@@ -2030,8 +2057,17 @@ $messages['it'] = array(
 	'wminc-fs-userpage-title' => 'Crea la tua pagina utente',
 	'wminc-fs-startwiki-title' => 'Avvia il tuo wiki',
 	'wminc-fs-pagetitle-done' => '- fatto!',
+	'wminc-fs-intro' => 'Benvenuto nel percorso guidato per i primi passi di {{SITENAME}}.  Sarai guidato nel processo di avvio di un nuovo wiki.',
+	'wminc-fs-langselect' => 'Continuare in $1 o $2',
+	'wminc-fs-signup-text' => "Se si dispone già di un account [$1 effettuare l'accesso]. Se non se ne ha ancora uno, [$2 creare un account]. Non è necessario farlo ma è fortemente consigliato e ci vogliono solo pochi secondi per crearlo.",
+	'wminc-fs-settings-text' => 'Andare nelle [[Special:Preferences|proprie preferenze]] e cambiare le impostazioni del wiki di test.
+Sulla destra sono visibili le opzioni più importanti presenti in quella pagina. La prima è la lingua della propria interfaccia, che è stata scelta nel primo passo ma è ancora possibile cambiare.
+La seconda è il progetto a cui si vuole contribuire e la terza è il codice linguistico del progetto a cui si vuole contribuire.
+Se non si conosce il codice, consultare il [[{{MediaWiki:Wminc-manual-url}}|manuale]] o chiedere [[{{MediaWiki:Portal-url}}|aiuto]].',
+	'wminc-fs-userpage-text' => 'Creare la propria pagina utente $1 con alcune informazioni personali essenziali. È presente un link a essa anche nella parte superiore di questa pagina.',
 	'wminc-fs-globaluser-text' => 'Il tuo account utente è locale. Si consiglia di renderlo globale tramite $1 in modo da poterlo utilizzare su qualsiasi wiki di Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Il prefisso del tuo wiki è $1. È possibile creare la pagina principale del wiki su $2.',
+	'wminc-fs-startwiki-exists-text' => 'Il prefisso del tuo wiki è $1. La pagina principale è a $2. Ora si può collaborare con le altre persone che parlano questa lingua per creare una comunità. Se si desidera creare una pagina è sufficiente scriverne il nome nella casella di ricerca qui sopra e seguire il collegamento che sarà visibile.',
 );
 
 /** Japanese (日本語)
@@ -2119,11 +2155,28 @@ $messages['jv'] = array(
 
 /** Georgian (ქართული)
  * @author BRUTE
+ * @author David1010
  */
 $messages['ka'] = array(
+	'wminc-testwiki' => 'ტესტური ვიკი:',
+	'wminc-testwiki-code' => 'ტესტური ვიკის ენა:',
+	'wminc-testwiki-none' => 'არა/ყველა',
 	'wminc-recentchanges-all' => 'ყველა ბოლო ცვლილება',
 	'wminc-viewuserlang-user' => 'მომხმარებლის სახელი:',
+	'wminc-viewuserlang-go' => 'მიდი',
 	'wminc-ip' => '"$1" IP-მომხმარებელია.',
+	'group-test-sysop' => 'ტესტური ვიკის ადმინისტრატორები',
+	'group-test-sysop-member' => '{{GENDER:$1|ტესტური ვიკის ადმინისტრატორი}}',
+	'grouppage-test-sysop' => '{{ns:project}}:ტესტური ვიკის ადმინისტრატორები',
+	'wminc-searchwiki' => 'ვიკიში ძიება',
+	'wminc-searchwiki-selectproject' => 'ძიება:',
+	'wminc-searchwiki-inputlanguage' => 'ენის მიხედვით:',
+	'wminc-searchwiki-go' => 'მიდი',
+	'wminc-searchwiki-gotoinfopage' => 'საინფორმაციო გვერდი',
+	'wminc-fs-langselect-title' => 'აირჩიეთ ენა',
+	'wminc-fs-signup-title' => 'დარეგისტრირდით',
+	'wminc-fs-startwiki-title' => 'დაიწყეთ თქვენი ვიკი',
+	'wminc-fs-pagetitle-done' => ' - გაკეთდა!',
 );
 
 /** Khmer (ភាសាខ្មែរ)
@@ -3104,6 +3157,8 @@ $messages['ps'] = array(
 	'wminc-viewuserlang-go' => 'ورځه',
 	'wminc-userdoesnotexist' => 'د $1 په نوم کارن نشته.',
 	'wminc-ip' => '"$1" يوه آی پي پته ده.',
+	'wminc-fs-langselect-title' => 'ژبه ټاکل',
+	'wminc-fs-pagetitle-done' => ' - ترسره شو!',
 );
 
 /** Portuguese (português)
@@ -3225,15 +3280,17 @@ $messages['ro'] = array(
 	'wminc-desc' => 'Sistemul wiki de testare pentru Wikimedia Incubator',
 	'wminc-manual' => 'Manual de utilizare',
 	'wminc-listwikis' => 'Listă de wikiuri',
-	'wminc-testwiki' => 'Wikia test:',
+	'wminc-testwiki' => 'Wiki de test:',
+	'wminc-testwiki-code' => 'Limba wikiului de test:',
 	'wminc-testwiki-none' => 'Niciunul/Toți',
+	'wminc-testwiki-site' => '(Întreținere)',
 	'wminc-recentchanges-all' => 'Toate modificările recente',
-	'wminc-prefinfo-language' => 'Limba interfeței dumneavoastră - independentă de wikia test',
-	'wminc-prefinfo-code' => 'Limbajul cod ISO 639',
-	'wminc-prefinfo-project' => 'Selectați proiectul Wikimedia (opțiunea Incubator este pentru utilizatori care fac muncă generală)',
-	'wminc-prefinfo-error' => 'Ați selectat un proiect care are nevoie de un cod al limbajului.',
+	'wminc-prefinfo-language' => 'Limba interfeței dumneavoastră – independentă de wikiul de test',
+	'wminc-prefinfo-code' => 'Codul ISO 639 al limbii cu care lucrați aici',
+	'wminc-prefinfo-project' => 'Selectați proiectul Wikimedia la care lucrați aici',
+	'wminc-prefinfo-error' => 'Ați selectat un proiect care are nevoie de un cod de limbă.',
 	'wminc-error-move-unprefixed' => 'Eroare: Pagina pe care încercați să o redenumiți [[{{MediaWiki:Wminc-error-help}}|este fără prefix sau are un prefix greșit]]!',
-	'wminc-error-wronglangcode' => "'''Eroare:''' Această pagină conține un [[{{MediaWiki:Wminc-error-help}}|cod de limbă greșit]] „$1”!",
+	'wminc-error-wronglangcode' => "'''Eroare:''' Această pagină conține un [[{{MediaWiki:Wminc-error-help}}|cod de limbă greșit]]: „$1”!",
 	'wminc-error-unprefixed' => "'''Eroare:''' Această pagină este [[{{MediaWiki:Wminc-error-help}}|fără prefix]]!",
 	'wminc-error-unprefixed-suggest' => "'''Eroare:''' Această pagină este [[{{MediaWiki:Wminc-error-help}}|fără prefix]]! Puteți crea o pagină la [[:$1]].",
 	'wminc-error-wiki-exists' => 'Acest wiki există deja. Puteți găsi această pagină pe $1. Dacă acest wiki a fost creat recent, așteptați câteva ore sau zile până când tot conținutul este importat.',
@@ -3250,6 +3307,10 @@ $messages['ro'] = array(
 	'group-test-sysop-member' => '{{GENDER:$1|administrator de wiki destinat testelor}}',
 	'grouppage-test-sysop' => '{{ns:project}}:Administratori wiki de încercare',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Limba „$3”]] este o [[wikipedia:ro:ISO 639 macrolimbă|macrolimbă]], incluzând următoarele limbi:',
+	'wminc-searchwiki-selectproject' => 'Căutați:',
+	'wminc-searchwiki-inputlanguage' => 'În limba:',
+	'wminc-searchwiki-go' => 'Mergeți',
+	'wminc-fs-signup-title' => 'Înregistrare',
 );
 
 /** tarandíne (tarandíne)
@@ -3509,6 +3570,10 @@ $messages['si'] = array(
 	'wminc-listusers-testwiki' => 'ඔබ නරඹමින් සිටින්නේ  $1 වෙත ඔවුන්ගේ පරීක්ෂක විකි අභිරුචිය සකසා ඇති පරිශීලකයන් වේ.',
 	'wminc-search-nocreate-nopref' => '"$1" සඳහා ඔබ සොයන ලදී. කරුණාකර ඔබේ [[Special:Preferences|පරීක්ෂක විකි අභිරුචිය]] සකසන්න එවිට ඔබට තැනිය හැක්කේ කුමන පිටුවද කියා අපට කිව හැක!',
 	'wminc-search-nocreate-suggest' => '"$1" සඳහා ඔබ සොයන ලදී. <b>[[$2]]</b> හීදී ඔබට ඔබේ විකියේ පිටුවක් තැනිය හැක!',
+	'wminc-searchwiki-go' => 'යන්න',
+	'wminc-searchwiki-gotoinfopage' => 'තොරතුරු පිටුව',
+	'wminc-fs-langselect-title' => 'භාෂාව තෝරන්න',
+	'wminc-fs-pagetitle-done' => ' - හරි!',
 );
 
 /** Slovak (slovenčina)
@@ -4182,6 +4247,7 @@ $messages['zh-hans'] = array(
  * @author Liangent
  * @author Mark85296341
  * @author Shinjiman
+ * @author Simon Shek
  * @author Waihorace
  * @author Wrightbus
  */
@@ -4192,6 +4258,7 @@ $messages['zh-hant'] = array(
 	'wminc-testwiki' => '測試 wiki:',
 	'wminc-testwiki-code' => '測試Wiki語言：',
 	'wminc-testwiki-none' => '無/所有',
+	'wminc-testwiki-site' => '（維修）',
 	'wminc-recentchanges-all' => '所有最近的更改',
 	'wminc-prefinfo-language' => '您的介面語言 - 在您的測試 wiki 中為獨立的',
 	'wminc-prefinfo-code' => 'ISO 639 語言代碼',
@@ -4220,5 +4287,11 @@ $messages['zh-hant'] = array(
 	'wminc-listusers-testwiki' => '您正在查看將測試維基首選項設置為$1的用戶。',
 	'wminc-search-nocreate-nopref' => '您在尋找「$1」。請更改您的[[Special:Preferences|測試維基參數設定]]，以便我們可以告訴您適合創建的頁面種類！',
 	'wminc-search-nocreate-suggest' => '您在尋找“$1”。您可以轉到<b>[[$2]]</b>以在您的維基項目中創新一個頁面！',
+	'wminc-searchwiki-noproject' => '您沒有選擇一個項目。',
+	'wminc-searchwiki-noresults' => '沒有結果。您可以按語言代碼、該語言、您的介面語言、或英語進行搜索。',
+	'wminc-searchwiki-selectproject' => '尋找：',
+	'wminc-searchwiki-match-userlangname' => '$1是語言名稱。',
+	'wminc-fs-langselect-title' => '選擇語言',
+	'wminc-fs-pagetitle-done' => ' - 完成！',
 );
 
