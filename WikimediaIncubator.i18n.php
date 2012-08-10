@@ -1659,6 +1659,7 @@ $messages['he'] = array(
 	'wminc-testwiki' => 'אתר ויקי ניסיוני:',
 	'wminc-testwiki-code' => 'שפת ויקי הבדיקה:',
 	'wminc-testwiki-none' => 'הכול/לא כלום',
+	'wminc-testwiki-site' => '(תחזוקה)',
 	'wminc-recentchanges-all' => 'כל השינויים האחרונים',
 	'wminc-prefinfo-language' => 'שפת הממשק שלכם – בלתי תלויה באתר הוויקי הניסיוני שלכם',
 	'wminc-prefinfo-code' => 'קוד השפה לפי ISO 639',
@@ -1699,6 +1700,14 @@ $messages['he'] = array(
 	'wminc-searchwiki-match-englishname' => '"$1" זה השם של $2 באנגלית.',
 	'wminc-searchwiki-match-nativename' => '"$1" זה השם של $2 באותה השפה.',
 	'wminc-searchwiki-gotoinfopage' => 'דף מידע',
+	'wminc-fs-pagetitle' => 'אשף תחילת העבודה - $1',
+	'wminc-fs-langselect-title' => 'נא לבחור בשפה',
+	'wminc-fs-signup-title' => 'הרשמה',
+	'wminc-fs-settings-title' => 'הגדרת העדפות הוויקי שלך',
+	'wminc-fs-userpage-title' => 'יצירת עמוד המשתמש שלך',
+	'wminc-fs-startwiki-title' => 'הפעלת ויקי משלך',
+	'wminc-fs-pagetitle-done' => ' - בוצע!',
+	'wminc-fs-intro' => 'ברוך בואך לאשף השלבים הראשונים בוויקי {{SITENAME}}. האשף ידריך אותך במהלך פתיחת ויקי חדש.',
 );
 
 /** Hindi (हिन्दी)
@@ -2757,10 +2766,11 @@ $messages['ms'] = array(
 	'wminc-testwiki' => 'Wiki ujian:',
 	'wminc-testwiki-code' => 'Bahasa wiki ujian:',
 	'wminc-testwiki-none' => 'Tiada/Semua',
+	'wminc-testwiki-site' => '(Penyelenggaraan)',
 	'wminc-recentchanges-all' => 'Semua perubahan terkini',
 	'wminc-prefinfo-language' => 'Bahasa antaramuka anda - bebas dari wiki ujian anda',
-	'wminc-prefinfo-code' => 'Kod bahasa ISO 639',
-	'wminc-prefinfo-project' => 'Pilih projek Wikimedia (pilihan Incubator ialah bagi pengguna yang membuat kerja umum)',
+	'wminc-prefinfo-code' => 'Kod ISO 639 untuk bahasa yang anda usahakan di sini',
+	'wminc-prefinfo-project' => 'Pilih projek Wikimedia yang anda usahakan di sini',
 	'wminc-prefinfo-error' => 'Anda memilih projek yang memerlukan kod bahasa.',
 	'wminc-error-move-unprefixed' => 'Ralat: Laman yang anda cuba pindahkan itu [[{{MediaWiki:Wminc-error-help}}|tiada awalan atau tersalah awalan]]!',
 	'wminc-error-wronglangcode' => "'''Ralat:''' Laman ini mengandungi [[{{MediaWiki:Wminc-error-help}}|kod bahasa yang salah]] \"\$1\"!",
@@ -2797,6 +2807,26 @@ $messages['ms'] = array(
 	'wminc-searchwiki-match-englishname' => '"$1" ialah nama $2 dalam bahasa Melayu.',
 	'wminc-searchwiki-match-nativename' => '"$1" ialah nama $2 dalam bahasa itu.',
 	'wminc-searchwiki-gotoinfopage' => 'laman maklumat',
+	'wminc-fs-pagetitle' => 'Pendeta permulaan - $1',
+	'wminc-fs-langselect-title' => 'Pilih bahasa',
+	'wminc-fs-signup-title' => 'Daftar diri',
+	'wminc-fs-settings-title' => 'Laraskan keutamaan wiki anda',
+	'wminc-fs-userpage-title' => 'Cipta laman pengguna anda',
+	'wminc-fs-startwiki-title' => 'Lancarkan wiki anda',
+	'wminc-fs-pagetitle-done' => '- siap!',
+	'wminc-fs-intro' => 'Selamat datang ke pendeta permulaan {{SITENAME}}. Anda akan dibimbing sepanjang proses pembukaan wiki baru.',
+	'wminc-fs-langselect' => 'Teruskan dalam $1 atau $2',
+	'wminc-fs-signup-text' => 'Jika anda sudah pun memiliki akaun pengguna, sila [$1 log masuk]. Jika belum, sila [$2 buka akaun pengguna].
+Anda tidak diwajibkan tetapi amat disaran supaya membuka akaun, dan proses pembukaan akaun ini hanya memakan masa beberapa saat.',
+	'wminc-fs-settings-text' => 'Sila pergi ke [[Special:Preferences|keutamaan anda]] sekarang, dan ubah tetapan wiki ujian anda.
+Di sebelah kanan halaman itu, anda boleh melihat pilihan-pilihan yang bersesuaian dengan anda. Yang pertama ialah bahasa antara muka yang telah anda pilih dalam langkah pertama, tetapi anda masih boleh menukarnya.
+Yang kedua ialah projek yang ingin anda usahakan, dan yang ketiga ialah kod bahasa bagi projek yang anda ingin usahakan itu.
+Jika anda tidak tahu akan kodnya, sila rujuk [[{{MediaWiki:Wminc-manual-url}}|manual]] kami atau minta [[{{MediaWiki:Portal-url}}|tolong]].',
+	'wminc-fs-userpage-text' => 'Sila wujudkan halaman pengguna anda $1 sekarang dengan maklumat asas tentang diri anda. Anda juga boleh melihat pautan kepadanya di bahagian atas halaman ini.',
+	'wminc-fs-globaluser-text' => 'Akaun pengguna anda adalah setempat. Anda disaran agar menjadikannya sejagat melalui $1 supaya anda boleh menggunakannya di mana-mana wiki Wikimedia.',
+	'wminc-fs-startwiki-text' => 'Awalan wiki anda ialah $1. Anda boleh membuat Halaman Utama wiki ini di $2.',
+	'wminc-fs-startwiki-exists-text' => 'Awalan wiki anda ialah $1. Halaman Utama berada di $2. Kini, anda boleh bekerjasama dengan penutur-penutur bahasa ini yang lain untuk membina komuniti!
+Jika anda hendak membuka halaman baru, taipkan sahaja namanya dalam ruangan carian di atas, kemudian ikuti pautan yang akan dipaparkan.',
 );
 
 /** Maltese (Malti)
@@ -3307,10 +3337,17 @@ $messages['ro'] = array(
 	'group-test-sysop-member' => '{{GENDER:$1|administrator de wiki destinat testelor}}',
 	'grouppage-test-sysop' => '{{ns:project}}:Administratori wiki de încercare',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Limba „$3”]] este o [[wikipedia:ro:ISO 639 macrolimbă|macrolimbă]], incluzând următoarele limbi:',
-	'wminc-searchwiki-selectproject' => 'Căutați:',
+	'wminc-searchwiki-selectproject' => 'De căutat:',
 	'wminc-searchwiki-inputlanguage' => 'În limba:',
-	'wminc-searchwiki-go' => 'Mergeți',
+	'wminc-searchwiki-go' => 'Du-te',
+	'wminc-searchwiki-multiplematches' => 'Căutarea dumneavoastră corespunde următoarelor limbi:',
+	'wminc-searchwiki-match-langcode' => '„$1” este un cod de limbă ISO 639 pentru $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 este numele unei limbi.',
+	'wminc-searchwiki-match-englishname' => '„$1” este numele limbii $2 în engleză.',
+	'wminc-searchwiki-match-nativename' => '„$1” este numele limbii $2 în respectiva limbă.',
+	'wminc-fs-langselect-title' => 'Selectare limbă',
 	'wminc-fs-signup-title' => 'Înregistrare',
+	'wminc-fs-pagetitle-done' => ' – realizat!',
 );
 
 /** tarandíne (tarandíne)
@@ -3824,6 +3861,14 @@ $messages['ta'] = array(
 	'wminc-prefinfo-code' => 'ISO 639 மொழி குறியீடு',
 	'wminc-prefinfo-error' => 'நீங்கள் தேர்ந்தெடுத்த திட்டத்திற்கு மொழி குறியீடு தேவைப்படுகிறது .',
 	'wminc-viewuserlang-go' => 'செல்',
+	'wminc-searchwiki-inputlanguage' => 'இந்த மொழியில்:',
+	'wminc-searchwiki-go' => 'செல்',
+	'wminc-fs-langselect-title' => 'மொழியைத் தேர்ந்தெடு',
+	'wminc-fs-signup-title' => 'பதிவுசெய்',
+	'wminc-fs-settings-title' => 'உங்கள் விக்கி விருப்பங்களை அமை',
+	'wminc-fs-userpage-title' => 'உங்கள் பயனர் பக்கத்தை உருவாக்கவும்',
+	'wminc-fs-startwiki-title' => 'உங்கள் விக்கியைத் தொடங்கவும்',
+	'wminc-fs-pagetitle-done' => ' - ஆச்சு!',
 );
 
 /** Tulu (ತುಳು)

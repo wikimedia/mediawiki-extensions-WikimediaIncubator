@@ -586,6 +586,7 @@ $messages['fi'] = array(
 );
 
 /** French (français)
+ * @author Brunoperel
  * @author Crochet.david
  * @author DavidL
  * @author Gomoko
@@ -617,6 +618,7 @@ $messages['fr'] = array(
 	'wminc-infopage-status-closedsister' => 'Ce sous-domaine a été fermé. Veuillez vous rendre sur <b>$2</b> pour contribuer à ce wiki.',
 	'wminc-infopage-status-created' => 'Ce projet a été approuvé par le comité linguistique et est maintenant disponible sur $1.',
 	'wminc-infopage-status-beforeincubator' => 'Ce projet a été créé avant que l’Incubateur Wikimedia ait été lancé et est disponible sur $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Ce projet est disponible sur $1 .',
 	'wminc-infopage-error' => 'Erreur: {{#infopage}} ne peut être utilisé que sur des pages préfixées.',
 );
 
@@ -851,6 +853,7 @@ tu pote [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear le pagina] e sequer [[{{
 
 /** Italian (italiano)
  * @author Beta16
+ * @author Darth Kule
  * @author Nemo bis
  */
 $messages['it'] = array(
@@ -876,8 +879,10 @@ $messages['it'] = array(
 	'wminc-infopage-status-open' => 'Questo è un wiki aperto di Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Questo wiki di Incubator è stato importato da $1 dopo che il wiki era stato chiuso.',
 	'wminc-infopage-status-closedsister' => 'Questo sottodominio è stato chiuso. Vai a <b>$2</b> per partecipare a questo wiki.',
+	'wminc-infopage-status-approved' => 'Questo wiki di Incubator è stato approvato dal [[meta:Special:MyLanguage/Language_committee|comitato linguistico]] e sarà creato presto.',
 	'wminc-infopage-status-created' => "Questo progetto è stato approvato dal language committee ed è ora disponibile all'indirizzo $1",
 	'wminc-infopage-status-beforeincubator' => "Questo progetto è stato creato prima della nascita di Wikimedia Incubator ed è disponibile all'indirizzo $1.",
+	'wminc-infopage-status-beforeincubator-sister' => "Questo progetto è disponibile all'indirizzo $1.",
 	'wminc-infopage-error' => 'Errore: {{#infopage}} può essere utilizzato solo su pagine con prefisso.',
 );
 
@@ -1357,6 +1362,7 @@ $messages['pt-br'] = array(
 /** Romanian (română)
  * @author Firilacroco
  * @author Minisarm
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'wminc-infopage-enter' => 'mergi la Pagina principală',
@@ -1369,6 +1375,8 @@ $messages['ro'] = array(
 	'wminc-infopage-title-s' => 'Wikisursă $1',
 	'wminc-infopage-title-v' => 'Wikiversitate $1',
 	'wminc-infopage-missingwiki-text' => '$1 în această limbă nu există.',
+	'wminc-infopage-option-multilingual' => 'Poți merge pe un wiki multilingvistic:',
+	'wminc-infopage-status-beforeincubator-sister' => 'Acest proiect este disponibil la $1.',
 );
 
 /** tarandíne (tarandíne)
