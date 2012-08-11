@@ -1049,6 +1049,7 @@ $messages['ee'] = array(
 
 /** Greek (Ελληνικά)
  * @author Crazymadlover
+ * @author Geraki
  * @author Omnipaedista
  * @author ZaDiak
  */
@@ -1063,7 +1064,7 @@ $messages['el'] = array(
 	'wminc-prefinfo-code' => 'Ο κωδικός γλώσσας ISO 639',
 	'wminc-prefinfo-project' => 'Επιλογή του εγχειρήματος Wikimedia (η επιλογή Incubator είναι για όσους χρήστες κάνουν γενική δουλειά)',
 	'wminc-prefinfo-error' => 'Επιλέξατε ένα σχέδιο που χρειάζεται ένα κωδικό γλώσσας.',
-	'randombytest' => 'Τυχαία σελίδα βάσει του δοκιμαστικού βίκι',
+	'randombytest' => 'Τυχαία σελίδα από το δοκιμαστικό wiki',
 	'randombytest-nopages' => 'Δεν υπάρχουν σελίδες στο wiki δοκιμής σας, στις περιοχές ονομάτων: $1.',
 	'wminc-viewuserlang' => 'Ανατρέξτε στη γλώσσα χρήστη και στο δοκιμαστικό βίκι',
 	'wminc-viewuserlang-user' => 'Όνομα χρήστη:',
@@ -3208,8 +3209,8 @@ $messages['pt'] = array(
 	'wminc-testwiki-none' => 'Nenhum/Tudo',
 	'wminc-recentchanges-all' => 'Todas as mudanças recentes',
 	'wminc-prefinfo-language' => 'A língua da interface - independente da língua da sua wiki de testes',
-	'wminc-prefinfo-code' => 'O código de língua ISO 639',
-	'wminc-prefinfo-project' => 'Seleccione o projeto Wikimedia (a opção Incubadora é para utilizadores que fazem trabalho geral)',
+	'wminc-prefinfo-code' => 'O código ISO 639 da língua em que está a trabalhar',
+	'wminc-prefinfo-project' => 'Seleccione o projecto Wikimedia em que está a trabalhar',
 	'wminc-prefinfo-error' => 'Seleccionou um projecto que necessita de um código de língua.',
 	'wminc-error-move-unprefixed' => 'Erro: A página de destino [[{{MediaWiki:Wminc-error-help}}|não tem prefixo ou tem um prefixo incorrecto]]!',
 	'wminc-error-wronglangcode' => "'''Erro:''' A página contém um [[{{MediaWiki:Wminc-error-help}}|código de língua incorrecto]]: \"\$1\"!",

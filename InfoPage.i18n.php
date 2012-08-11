@@ -740,7 +740,7 @@ $messages['he'] = array(
 	'wminc-infopage-status-closedsister' => 'התת־מתחם הזה נסגר. לכו אל <b>$2</b> כדי לתרום לוויקי הזה.',
 	'wminc-infopage-status-created' => 'הוועדה הלשונית אישרה את המיזם הזה ואפשר למצוא אותו ב{{GRAMMAR:תחילית|$1}}.',
 	'wminc-infopage-status-beforeincubator' => 'המיזם הזה נוצר לפני שהוקם האינקובטור של ויקימדיה והוא זמין ב{{GRAMMAR:תחילית|$1}}.',
-	'wminc-infopage-error' => 'שגיאה: אפשר להשתמש ב־<span di="ltr">{{#infopage}}</span> רק בדפים עם תחילית.',
+	'wminc-infopage-error' => 'שגיאה: אפשר להשתמש ב־<span dir="ltr">{{#infopage}}</span> רק בדפים עם תחילית.',
 );
 
 /** Hindi (हिन्दी)
@@ -968,13 +968,32 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'wminc-infopage-enter' => 'jangk op de Houpsigg',
-	'wminc-unknownlang' => '(en onbikannte Schprooch met dämm Köözel „$1“)',
+	'wminc-unknownlang' => '(Schprooche-Köözel onbikannt)',
+	'wminc-infopage-title-p' => 'Wikkipedija op $1',
+	'wminc-infopage-title-b' => 'Bööscherwiki op $1',
+	'wminc-infopage-title-t' => 'Wikiwööterbooch op $1',
+	'wminc-infopage-title-q' => 'Zitaatewiki op $1',
+	'wminc-infopage-title-n' => 'Neujeschkeitewiki op $1',
+	'wminc-infopage-title-s' => 'Quällewiki op $1',
+	'wminc-infopage-title-v' => 'Wikiväsitääd op $1',
 	'wminc-infopage-welcome' => 'Wellkumme em Wikimedia Inkubator, enem Projäk vun der [[{{MediaWiki:Aboutpage}}|Wikimedija Schteftong]]',
-	'wminc-infopage-missingwiki-text' => '{{ucfirst:{{GRAMMAR:en|$1}}}} en dä Schprooch jidd et noch nit.
+	'wminc-infopage-missingwiki-text' => '{{ucfirst:{{GRAMMAR:e|$1}}}} en dä Schprooch jidd et noch nit.
 ',
+	'wminc-infopage-option-startwiki' => 'Wann De met heh dämm Wiki loßlääje wells,
+kanns De [{{fullurl:{{FULLPAGENAME}}|action=edit}} di Sigg aanlääje] un Desch dobei aan [[{{MediaWiki:Wminc-manual-url}}|ons Aanleidong]] halle.',
+	'wminc-infopage-option-startsister' => 'Wann de met heh däm Wiki aanfange wells, kanns De noh <b>[$2 $1]</b> jonn.',
+	'wminc-infopage-option-languages-existing' => 'Do kanns noh [//www.$1.org Schprooche_Ußjaabe {{GRAMMAR:vum|{{ucfirst:$1}}}} söhke].',
+	'wminc-infopage-option-sisterprojects-existing' => 'Do kanns noh Projäkte en heh dä Schprooch söhke, di et ald jitt:',
+	'wminc-infopage-option-sisterprojects-other' => 'Do kanns noh ander Projäkte en heh dä Schprooch söhke:',
 	'wminc-infopage-option-multilingual' => 'Do kann noh enem Wiki en etlijje Schprooche jonn:',
 	'wminc-infopage-createmainpage' => 'Jif dat Woot för „Houpsigg“ en dä Shprooch en:',
 	'wminc-infopage-contribute' => 'Wann De di Shprooch kanns, dann bes De opjeroofe, beizedraare!',
+	'wminc-infopage-status-open' => 'Dat heh es e offe Wiki om Wikimeedija <i lang="en">Incubator</i>.',
+	'wminc-infopage-status-imported' => 'Dat Wiki heh es en der Wikimeedija <i lang="en">Incubator</i> vun $1 empotteet woode, nohdämm et doh zohjemaat woode wohr.',
+	'wminc-infopage-status-closedsister' => 'Di Ongerdomäjn es zohjemaat. Jangk noh <b>$2</b>, öm en dämm Wiki heh jät ze donn.',
+	'wminc-infopage-status-created' => 'at Projäk heh wood vum Sprooche_Kummitee aanjenumme un es jäz onger $1 ze fenge.',
+	'wminc-infopage-status-beforeincubator' => 'Dat Projäk wood ald bejunne, ih dat et dä Wikimedia <i lang="en">Incubator</i> joov, un et es op $1 ze fenge.',
+	'wminc-infopage-error' => 'Fähler: {{#infopage}} kam_mer bloß op Sigge bruche, di e Köözel als Vörsaz han.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
