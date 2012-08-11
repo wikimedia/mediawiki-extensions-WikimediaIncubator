@@ -912,6 +912,21 @@ $messages['ja'] = array(
 	'wminc-infopage-status-beforeincubator' => 'このプロジェクトはウィキメディアインキュベーターの開始以前に作成されました。$1 で利用できます。',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'wminc-infopage-enter' => 'მთავარ გვერდზე გადასვლა',
+	'wminc-unknownlang' => '(უცნობი ენის კოდი)',
+	'wminc-infopage-title-p' => 'ვიკიპედია $1',
+	'wminc-infopage-title-b' => 'ვიკიწიგნები $1',
+	'wminc-infopage-title-t' => 'ვიქსიკონი $1',
+	'wminc-infopage-title-q' => 'ვიკიციტატა $1',
+	'wminc-infopage-title-n' => 'ვიკისიახლენი $1',
+	'wminc-infopage-title-s' => 'ვიკიწყარო $1',
+	'wminc-infopage-title-v' => 'ვიკივერსიტეტი $1',
+);
+
 /** Khowar (کھوار)
  * @author Rachitrali
  */
@@ -1624,6 +1639,14 @@ $messages['ta'] = array(
 	'wminc-infopage-title-n' => 'விக்கிசெய்திகள் $1',
 	'wminc-infopage-title-s' => 'விக்கிமூலம் $1',
 	'wminc-infopage-missingwiki-text' => 'A  $1  இந்த மொழியில் இதுவரை இல்லை.',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'wminc-infopage-title-p' => 'వికీపీడియా $1',
+	'wminc-infopage-title-t' => 'విక్షనరీ $1',
 );
 
 /** Tetum (tetun)
