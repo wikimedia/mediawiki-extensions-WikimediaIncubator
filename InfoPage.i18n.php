@@ -738,8 +738,10 @@ $messages['he'] = array(
 	'wminc-infopage-status-open' => 'זהו ויקי פתוח באינקובטור של ויקימדיה.',
 	'wminc-infopage-status-imported' => 'ויקי האינקובטור הזה יובא מ{{GRAMMAR:תחילית|$1}} אחרי שהוויקי ההוא נסגר.',
 	'wminc-infopage-status-closedsister' => 'התת־מתחם הזה נסגר. לכו אל <b>$2</b> כדי לתרום לוויקי הזה.',
+	'wminc-infopage-status-approved' => 'הוויקי הזה, שנמצא עכשיו באינקובטור, אושר על־ידי [[meta:Special:MyLanguage/Language_committee|הוועדה הלשונית]] וייווצר בקרוב.',
 	'wminc-infopage-status-created' => 'הוועדה הלשונית אישרה את המיזם הזה ואפשר למצוא אותו ב{{GRAMMAR:תחילית|$1}}.',
 	'wminc-infopage-status-beforeincubator' => 'המיזם הזה נוצר לפני שהוקם האינקובטור של ויקימדיה והוא זמין ב{{GRAMMAR:תחילית|$1}}.',
+	'wminc-infopage-status-beforeincubator-sister' => 'המיזם הזה זמין בדף $1.',
 	'wminc-infopage-error' => 'שגיאה: אפשר להשתמש ב־<span dir="ltr">{{#infopage}}</span> רק בדפים עם תחילית.',
 );
 
@@ -1330,6 +1332,7 @@ $messages['ps'] = array(
 	'wminc-infopage-title-p' => '$1 ويکيپېډيا',
 	'wminc-infopage-title-b' => '$1 ويکيتابونه',
 	'wminc-infopage-title-t' => '$1 ويکيسيند',
+	'wminc-infopage-title-q' => 'ويکيوراشه $1',
 	'wminc-infopage-title-n' => '$1 ويکيخبرونه',
 	'wminc-infopage-title-v' => '$1 ويکيپوهنتون',
 	'wminc-infopage-option-multilingual' => 'تاسې يوې څوژبنيزې ويکي ته ورتللی شی:',
