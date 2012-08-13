@@ -3853,6 +3853,18 @@ $messages['sv'] = array(
 	'wminc-listusers-testwiki' => 'Du visar användare som har ställt in sina testwiki-inställningar på $1.',
 	'wminc-search-nocreate-nopref' => 'Du sökte på "$1". Vänligen ange dina [[Special:Preferences|inställningar för testwiki]] så att vi kan tala om vilken sida du kan skapa!',
 	'wminc-search-nocreate-suggest' => 'Du sökte på "$1". Du kan skapa en sida i din wiki på <b>[[$2]]</b>!',
+	'wminc-searchwiki-selectproject' => 'Sök efter:',
+	'wminc-searchwiki-inputlanguage' => 'På språk:',
+	'wminc-searchwiki-go' => 'Gå',
+	'wminc-searchwiki-multiplematches' => 'Din sökning matchar följande språk:',
+	'wminc-searchwiki-gotoinfopage' => 'infosida',
+	'wminc-fs-pagetitle' => 'Guide för att komma igång - $1',
+	'wminc-fs-langselect-title' => 'Välj språk',
+	'wminc-fs-signup-title' => 'Registrera',
+	'wminc-fs-settings-title' => 'Ställ in dina wiki-inställningar',
+	'wminc-fs-userpage-title' => 'Skapa din användarsida',
+	'wminc-fs-startwiki-title' => 'Starta din wiki',
+	'wminc-fs-pagetitle-done' => ' – klart!',
 );
 
 /** Silesian (ślůnski)
