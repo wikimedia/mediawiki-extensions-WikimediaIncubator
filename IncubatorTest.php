@@ -391,6 +391,40 @@ class IncubatorTest {
 	}
 
 	/**
+	 * Convenience function to access $wgConf->get()
+	 * @param $setting String: the setting to call
+	 * @param $lang String: the language code
+	 * @param $project String: the project code or name
+	 * @return Mixed: the setting from $wgConf->settings
+	 */
+	public static function getConf( $setting, $lang, $project ) {
+		if( !self::canWeCheckDB() ) {
+			return false;
+		}
+		global $wmincProjectDatabases, $wgConf;
+		$wgConf->loadFullData();
+		$lang = strtolower( $lang );
+		$langHyphen = str_replace( '_', '-', $lang );
+		$langUnderscore = str_replace( '-', '_', $lang );
+		$projectName = self::getProject( $project, true, true );
+		$projectCode = self::getProject( $project, false, true );
+		if( !$projectCode ) {
+			global $wmincMultilingualProjects;
+			$projectCode = array_search( $project, $wmincMultilingualProjects );
+		}
+		$site = strtolower( $projectName );
+		$params = array(
+			'lang' => $langHyphen,
+			'site' => $site,
+			# I don't see any other way than to hardcode it here (from: CommonSettings.php)
+			'stdlogo' => "//upload.wikimedia.org/$site/$langHyphen/b/bc/Wiki.png",
+		);
+		$dbSuffix = isset( $wmincProjectDatabases[$projectCode] ) ?
+			$wmincProjectDatabases[$projectCode] : $site;
+		return $wgConf->get( $setting, $langUnderscore . $dbSuffix, $dbSuffix, $params );
+	}
+
+	/**
 	 * Do we know the databases of the existing wikis?
 	 * @return Boolean
 	 */
@@ -415,12 +449,15 @@ class IncubatorTest {
 			return false; # shouldn't be, but you never know
 		}
 		global $wmincProjectDatabases, $wgDummyLanguageCodes;
+		$dbLang = str_replace('-', '_', $prefix['lang'] );
+		$project = $prefix['project'];
+		$dbProject = isset( $wmincProjectDatabases[$project] ) ?
+			$wmincProjectDatabases[$project] : $project;
 		$redirectcode = array_search( $prefix['lang'], $wgDummyLanguageCodes );
 		if( $redirectcode ) {
 			$prefix['lang'] = $redirectcode;
 		}
-		return str_replace('-', '_', $prefix['lang'] ) .
-			$wmincProjectDatabases[$prefix['project']];
+		return strtolower( $dbLang . $dbProject );
 	}
 
 	/**
@@ -607,20 +644,14 @@ class IncubatorTest {
 	/**
 	 * This forms a URL based on the language and project.
 	 * @param $lang String Language code
-	 * @param $project String Project code
+	 * @param $project String Project code or name
 	 * @param $title String Page name
 	 * @return String
 	 */
-	public static function getSubdomain( $lang, $projectCode, $title = '' ) {
-		global $wgConf, $wmincProjectDatabases, $wgArticlePath;
-		$projectName = strtolower( $wmincProjectDatabases[$projectCode] );
-		# Imitate analyzePrefix() array :p
-		$prefix = array( 'error' => null, 'lang' => $lang, 'project' => $projectCode );
-		$wgConf->loadFullData();
-		return $wgConf->get( 'wgServer',
-			self::getDB( $prefix ), $projectName,
-			array( 'lang' => str_replace( '_', '-', $lang ), 'site' => $projectName )
-		) . ( $title ? str_replace( '$1', $title, $wgArticlePath ) : '' );
+	public static function getSubdomain( $lang, $project, $title = '' ) {
+		global $wgArticlePath;
+		return self::getConf( 'wgServer', $lang, $project ) .
+			( $title ? str_replace( '$1', $title, $wgArticlePath ) : '' );
 	}
 
 	/**
@@ -729,24 +760,16 @@ class IncubatorTest {
 		}
 		global $wgLogo;
 		$prefixForPageTitle = str_replace( '/', '-', strtolower( $setLogo['prefix'] ) );
-		$file = wfFindFile( wfMessage( 'Incubator-logo-' . $prefixForPageTitle )->inContentLanguage()->plain() );
-		if( !$file ) {
+		$logoMsg = wfMessage( 'Incubator-logo-' . $prefixForPageTitle )->inContentLanguage()->plain();
+		$file = wfFindFile( Title::newFromText( $logoMsg, NS_FILE ) );
+		if( $file ) {
+			$thumb = $file->transform( array( 'width' => 135, 'height' => 135 ) );
+			$wgLogo = $thumb->getUrl();
+		} else {
 			# if MediaWiki:Incubator-logo-wx-xx(x) doesn't exist,
-			# try a general, default logo for that project
-			global $wmincProjects;
-			$project = $setLogo['project'];
-			$projectForFile = str_replace( ' ', '-', strtolower( $wmincProjects[$project] ) );
-			$imageobj = wfFindFile( wfMessage( 'wminc-logo-' . $projectForFile )->plain() );
-			if( $imageobj ) {
-				$thumb = $imageobj->transform( array( 'width' => 135, 'height' => 135 ) );
-				$wgLogo = $thumb->getUrl();
-				return true;
-			}
-			return true;
+			# take a general, default logo for that project
+			$wgLogo = IncubatorTest::getConf( 'wgLogo', 'en', $setLogo['project'] );
 		}
-		# Use MediaWiki:Incubator-logo-wx-xx(x)
-		$thumb = $file->transform( array( 'width' => 135, 'height' => 135 ) );
-		$wgLogo = $thumb->getUrl();
 		return true;
 	}
 

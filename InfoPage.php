@@ -52,31 +52,33 @@ class InfoPage {
 
 	/**
 	 * Small convenience function to display a (clickable) logo
-	 * @param $project Project name
+	 * @param $project String: Project code
+	 * @param $clickable Boolean
+	 * @param $params Array
+	 * @param $url String
+	 * @param $lang String
+	 * @param $mul Boolean
 	 * @return String
 	 */
-	public function makeLogo( $project, $clickable = true, $width = 25, $height = '', $url = '', $args = array() ) {
-		$projectForFile = preg_replace('/ /', '-', strtolower( $project ) );
-		$imageobj = wfFindFile( wfMessage( 'wminc-logo-' . $projectForFile )->plain() );
-		$useUrl = $url ? $url : IncubatorTest::getSubdomain( 'www', IncubatorTest::getProject( $project, false, true ) );
-		if ( !$imageobj ) { # image not found
-			if( !$clickable ) {
-				return $logo; // FIXME: $logo is undefined
-			}
-			return Linker::makeExternalLink( $useUrl, $project, false );
+	public function makeLogo( $project, $clickable = true, $params = array(), $url = null, $lang = null, $mul = false ) {
+		$lang = $lang ? $lang : $this->mLangCode;
+		if( !$mul ) { // for non-multilingual wikis
+			$getDbStatus = IncubatorTest::getDBState(
+				array( 'error' => null, 'lang' => $lang, 'project' => $project )
+			);
+			$lang = $getDbStatus == 'missing' ? 'en' : $lang;
+			$params['title'] = IncubatorTest::getProject( $project, true, true );
 		}
+		$params['src'] = IncubatorTest::getConf( 'wgLogo', $lang, $project );
+		$params['alt'] = "$project ($lang)";
+		$img = Html::element( 'img', $params );
 		if( $clickable ) {
-			$args['link-url'] = $useUrl;
-		} else {
-			$args['no-link'] = true;
+			if( $url === null ) {
+				$url = IncubatorTest::getSubdomain( 'www', $project );
+			}
+			return Html::rawElement( 'a', array( 'href' => $url ), $img );
 		}
-		$handlerParams['width'] = $width;
-		if( $height ) {
-			$handlerParams['height'] = $height;
-		}
-		return Linker::makeImageLink2( $this->mTitle, $imageobj,
-			array( 'alt' => $project, 'caption' => $project ) + $args, $handlerParams
-		);
+		return $img;
 	}
 
 	/**
@@ -86,12 +88,12 @@ class InfoPage {
 	public function listOtherProjects() {
 		global $wmincProjects, $wmincSisterProjects;
 		$otherProjects = $wmincProjects + $wmincSisterProjects;
+		unset( $otherProjects[$this->mProjectCode] );
 		$listOtherProjects = array();
 		foreach( $otherProjects as $code => $name ) {
-			$listOtherProjects[$code] = '<li>' . $this->makeLogo( $name, true,
-				75, null, IncubatorTest::getSubdomain( $this->mLangCode, $code ) ) . '</li>';
+			$listOtherProjects[$code] = '<li>' . $this->makeLogo( $code, true,
+				array( 'width' => 75 ), IncubatorTest::getSubdomain( $this->mLangCode, $code ) ) . '</li>';
 		}
-		unset( $listOtherProjects[$this->mProjectCode] );
 		return '<ul class="wminc-infopage-otherprojects">' .
 			implode( '', $listOtherProjects ) . '</ul>';
 	}
@@ -101,12 +103,15 @@ class InfoPage {
 	 *					(Meta, Commons, ...)
 	 */
 	public function listMultilingualProjects() {
-		global $wmincMultilingualProjects;
+		global $wmincMultilingualProjects, $wmincProjects;
 		if( !is_array( $wmincMultilingualProjects ) ) { return ''; }
 		$list = array();
-		foreach( $wmincMultilingualProjects as $url => $name ) {
-			$list[$url] = '<li>' . $this->makeLogo( $name, true,
-				75, null, '//'.$url.'/') . '</li>';
+		foreach( $wmincMultilingualProjects as $key => $name ) {
+			# multilingual projects are listed under wikipedia
+			$fakeProject = key( $wmincProjects );
+			$url = IncubatorTest::getSubdomain( $key, $fakeProject );
+			$list[$url] = '<li>' . $this->makeLogo( $fakeProject, true,
+				array( 'width' => 75 ), $url, $key, true ) . '</li>';
 		}
 		return '<ul class="wminc-infopage-multilingualprojects">' .
 			implode( '', $list ) . '</ul>';
@@ -129,7 +134,7 @@ class InfoPage {
 			'lang' => $wgLang->getCode(), 'dir' => $wgLang->getDir() ),
 			$beforetitle .
 			Html::rawElement( 'div', array( 'class' => 'wminc-infopage-logo' ),
-				$this->makeLogo( $this->mProjectName, true, 175 )
+				$this->makeLogo( $this->mProjectCode )
 			) .
 			Html::rawElement( 'div', array( 'class' => 'wminc-infopage-title' ),
 				$this->mFormatTitle . $aftertitle ) .
