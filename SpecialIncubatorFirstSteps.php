@@ -85,6 +85,12 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 			}
 		}
 
+		# add the language of the "testwiki" URL param if set
+		$urlTestWiki = IncubatorTest::getUrlParam();
+		if( $urlTestWiki ) {
+			$getLangCodes[$urlTestWiki['lang']] = true;
+		}
+
 		ksort( $getLangCodes ); // sorting by language code is not ideal, but well
 
 		$showLanguages = array();
@@ -94,8 +100,10 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 				# language code not recognised, or is current interface language
 				continue;
 			}
+			$linkParams = array( 'uselang' => $code,
+				'testwiki' => $this->getRequest()->getVal( 'testwiki' ) );
 			$showLanguages[] = Linker::linkKnown( $this->getTitle(),
-				$names[$code], array(), array( 'uselang' => $code ) );
+				$names[$code], array(), $linkParams );
 		}
 
 		# Show list
@@ -124,6 +132,12 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$link = SpecialPage::getTitleFor( 'Userlogin' );
 		$query = array( 'returnto' => $this->getTitle(),
 			'uselang' => $this->getRequest()->getVal( 'uselang' ) );
+		$urlTestWiki = IncubatorTest::getUrlParam();
+		if( $urlTestWiki ) {
+			// set preferences automatically, based on the "testwiki" URL param
+			$query['testwikiproject'] = $urlTestWiki['project'];
+			$query['testwikicode'] = $urlTestWiki['lang'];
+		}
 		$login = $link->getFullUrl( $query );
 		$signup = $link->getFullUrl( $query + array( 'type' => 'signup' ) );
 
@@ -203,7 +217,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$prefix = Linker::linkKnown( Title::newFromText( $this->wikiprefix['prefix'] ) );
 		$link = Linker::link( $mainpage, $mainpage->getText() );
 		$this->getOutput()->addHtml( $this->msg( $mainpage->exists() ?
-			'wminc-fs-startwiki-exists-text' : 'wminc-fs-startwiki-text' )->rawParams( $prefix, $link )->escaped() );
+			'wminc-fs-startwiki-exists-text' : 'wminc-fs-startwiki-text' )->rawParams( $prefix, $link )->parse() );
 
 		return $step_msg;
 	}

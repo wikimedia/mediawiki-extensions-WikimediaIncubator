@@ -35,8 +35,8 @@ $messages['en'] = array(
 	'wminc-infopage-welcome' => 'Welcome to the Wikimedia Incubator, a project of the Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|About]])',
 
 	'wminc-infopage-missingwiki-text' => 'A $1 in this language does not yet exist.',
-	'wminc-infopage-option-startwiki' => 'If you want to start this wiki,
-you can [{{fullurl:{{FULLPAGENAME}}|action=edit}} create the page] and follow [[{{MediaWiki:Wminc-manual-url}}|our manual]].',
+	'wminc-infopage-option-startwiki' => 'If you want to start this wiki, please follow
+\'\'\'[$3 these steps]\'\'\' and [[{{MediaWiki:Wminc-manual-url}}|our manual]].',
 	'wminc-infopage-option-startsister' => 'If you want to start this wiki, you can go to <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'You can search for [//www.$1.org existing language editions of $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'You can search for existing projects in this language:',
@@ -80,7 +80,7 @@ $messages['qqq'] = array(
 	'wminc-infopage-title-v' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-welcome' => 'Do not change <tt><nowiki>{{MediaWiki:Aboutpage}}</nowiki></tt>.',
 	'wminc-infopage-missingwiki-text' => "'''$1''' is a project: Wikipedia/Wiktionary/...",
-	'wminc-infopage-option-startwiki' => 'Do not change <code><nowiki>{{fullurl:{{FULLPAGENAME}}|action=edit}}</nowiki></code> or <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>',
+	'wminc-infopage-option-startwiki' => 'Do not change <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>! $3 is a URL to Special:IncubatorFirstSteps.',
 	'wminc-infopage-option-startsister' => '$2 is a link to either Wikisource or Wikiversity, and $1 is that project name.',
 	'wminc-infopage-option-languages-existing' => "'''$1''' is the project name (Wikipedia, Wikinews, ...).",
 	'wminc-infopage-option-sisterprojects-existing' => 'Followed by clickable logos of projects Wikipedia, Wiktionary, Wikibooks, ...',
