@@ -2294,6 +2294,7 @@ $messages['ko'] = array(
 	'wminc-fs-signup-text' => '사용자 계정이 이미 있다면 [$1 로그인]하세요. 아직 계정이 없다면, [$2 사용자 계정을 만드세요].
 필요하지는 않지만 만드는 것이 좋으며 만드는 데에 몇 초 걸리지 않습니다.',
 	'wminc-fs-userpage-text' => '지금 자신에 대한 몇 가지 기본 정보를 사용하여 $1 사용자 토론을 만드세요. 또한 이 문서의 위에 이에 대한 링크를 볼 수 있습니다.',
+	'wminc-fs-globaluser-text' => '사용자 계정이 로컬 계정입니다. 모든 위키미디어 위키에 사용할 수 있도록 $1을 통해 계정을 통합하는 것을 권장합니다.',
 	'wminc-fs-startwiki-text' => '위키의 접두어는 $1입니다. $2에서 위키의 대문을 만들 수 있습니다.',
 );
 
@@ -3891,6 +3892,7 @@ $messages['szl'] = array(
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  * @author Shanmugamp7
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'wminc-manual' => 'கைமுறை',
@@ -3901,6 +3903,7 @@ $messages['ta'] = array(
 	'wminc-recentchanges-all' => 'எல்லா சமீபத்திய மாற்றங்களும்',
 	'wminc-prefinfo-code' => 'ISO 639 மொழி குறியீடு',
 	'wminc-prefinfo-error' => 'நீங்கள் தேர்ந்தெடுத்த திட்டத்திற்கு மொழி குறியீடு தேவைப்படுகிறது .',
+	'randombytest' => 'சோதனை விக்கியின் தற்போக்குப் பக்கம்',
 	'wminc-viewuserlang-user' => 'பயனர் பெயர்:',
 	'wminc-viewuserlang-go' => 'செல்',
 	'wminc-userdoesnotexist' => ' "$1"  என்னும் பயனர் யாரும் இல்லை',
@@ -3910,9 +3913,11 @@ $messages['ta'] = array(
 	'group-test-sysop-member' => '{{GENDER:$1|சோதனை விக்கி நிர்வாகி}}',
 	'grouppage-test-sysop' => '{{ns:project}}:சோதனை விக்கி நிர்வாகிகள்',
 	'wminc-searchwiki' => 'விக்கி ஒன்றைத் தேடு.',
+	'wminc-searchwiki-noproject' => 'நீங்கள் ஒரு திட்டத்தைத் தெரிவு செய்யவில்லை.',
 	'wminc-searchwiki-selectproject' => 'இதை தேடு:',
 	'wminc-searchwiki-inputlanguage' => 'இந்த மொழியில்:',
 	'wminc-searchwiki-go' => 'செல்',
+	'wminc-searchwiki-match-userlangname' => '$1 என்பது ஒரு மொழியின் பெயராகும்.',
 	'wminc-searchwiki-gotoinfopage' => 'தகவல் பக்கம்',
 	'wminc-fs-langselect-title' => 'மொழியைத் தேர்ந்தெடு',
 	'wminc-fs-signup-title' => 'பதிவுசெய்',

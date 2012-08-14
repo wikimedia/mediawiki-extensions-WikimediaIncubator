@@ -321,8 +321,8 @@ $messages['de'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity $1',
 	'wminc-infopage-welcome' => 'Willkommen beim Wikimedia Incubator, einem Projekt der Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Über]])',
 	'wminc-infopage-missingwiki-text' => 'Ein $1 in dieser Sprache ist noch nicht vorhanden.',
-	'wminc-infopage-option-startwiki' => 'Sofern du dieses Wiki starten möchtest,
-kannst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und gemäß [[{{MediaWiki:Wminc-manual-url}}|unserer Anleitung]] vorgehen.',
+	'wminc-infopage-option-startwiki' => "Sofern du dieses Wiki starten möchtest, folge bitte
+'''[$3 diesen Schritten]''' und [[{{MediaWiki:Wminc-manual-url}}|unserer Anleitung]].",
 	'wminc-infopage-option-startsister' => 'Sofern du dieses Wiki starten möchtest, geh zu <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Du kannst auf [//www.$1.org nach vorhandenen Sprachausgaben von $1] suchen.',
 	'wminc-infopage-option-sisterprojects-existing' => 'Du kannst nach vorhandenen Projekten in dieser Sprache suchen:',
@@ -927,6 +927,15 @@ $messages['ka'] = array(
 	'wminc-infopage-title-n' => 'ვიკისიახლენი $1',
 	'wminc-infopage-title-s' => 'ვიკიწყარო $1',
 	'wminc-infopage-title-v' => 'ვიკივერსიტეტი $1',
+	'wminc-infopage-welcome' => 'კეთილი იყოს თქვენი მობრძანება ვიკიმედიის ინკუბატორში, ფონდი ვიკიმედიის პროექტი ([[{{MediaWiki:Aboutpage}}|პროექტის შესახებ]])',
+	'wminc-infopage-option-startwiki' => 'თუ თქვენ გსურთ დაიწყოთ ეს ვიკი,
+თქვენ შეგიძლიათ [{{fullurl:{{FULLPAGENAME}}|action=edit}} შექმნათ გვერდი] და მიჰყვეთ [[{{MediaWiki:Wminc-manual-url}}|ჩვენ სახელმძღვანელოს]].',
+	'wminc-infopage-option-startsister' => 'თუ თქვენ გსურთ ამ ვიკის დაწყება, თქვენ სეგიძლიათ გადახვიდეთ <b>[ $2  $1 ] </b>-თან.',
+	'wminc-infopage-option-languages-existing' => 'თქვენ შეგიძლიათ მოძებნოთ [//www.$1.org არსებული ენობრივი განყოფილებები $1-თვის].',
+	'wminc-infopage-option-sisterprojects-existing' => 'თქვენ შეგიძლიათ მოძებნოთ არსებული პროექტები ამ ენაზე:',
+	'wminc-infopage-option-sisterprojects-other' => 'თქვენ შეგიძლიათ მოძებნოთ სხვა პროექტები ამ ენაზე:',
+	'wminc-infopage-option-multilingual' => 'თქვენ შეგიძლიათ გადახვიდეთ მრავალენოვან ვიკი-პროექტებზე:',
+	'wminc-infopage-createmainpage' => 'შეიყვანეთ სიტყვა „მთავარი გვერდი“ ამ ენაზე:',
 );
 
 /** Khowar (کھوار)
@@ -1432,8 +1441,8 @@ $messages['roa-tara'] = array(
 	'wminc-infopage-title-v' => 'Uicchiversity $1',
 	'wminc-infopage-welcome' => "Bovègne sus a Uicchimèdie Incubatore, 'nu pruggette d'a Funnazione Uicchimèdie ([[{{MediaWiki:Aboutpage}}|About]])",
 	'wminc-infopage-missingwiki-text' => "'Nu $1 jndre 'stà lènga non ge 'stè angore.",
-	'wminc-infopage-option-startwiki' => "Ce vuè ccrejà 'stà uicchi,
-puè [{{fullurl:{{FULLPAGENAME}}|action=edit}} ccrejà 'a pagene] e seguì [[{{MediaWiki:Wminc-manual-url}}|'u manuale nuèstre]].",
+	'wminc-infopage-option-startwiki' => "Ce vuè ccrejà 'stà uicchi, pe piacere vide 
+'''[$3 ste passe]''' e [[{{MediaWiki:Wminc-manual-url}}|'u manuale nuèstre]].",
 	'wminc-infopage-option-startsister' => "Ce vuè ccrejà 'stà uicchi, puè scè a <b>[$2 $1]</b>.",
 	'wminc-infopage-option-languages-existing' => "Tu puè acchijà pe' le [//www.$1.org versione lènguisteche esistende de $1].",
 	'wminc-infopage-option-sisterprojects-existing' => "Tu puè acchijà pe' le pruggette esistende jndre 'stà lènga:",
@@ -1441,6 +1450,7 @@ puè [{{fullurl:{{FULLPAGENAME}}|action=edit}} ccrejà 'a pagene] e seguì [[{{M
 	'wminc-infopage-option-multilingual' => "Puè scè jndre 'na uicchi multelènghe:",
 	'wminc-infopage-createmainpage' => 'Sckaffe \'a parole "Pagene Prengepále" jndre \'stà lènga:',
 	'wminc-infopage-contribute' => "Ce tu canosce 'stà lènga, sìnde 'ngoraggiate a condrebbuì!",
+	'wminc-infopage-status-open' => "Queste jè 'na Uicchi aperte sus a UicchiMedia Ingubatore.",
 	'wminc-infopage-status-imported' => "Quèste uicchi de l'Incubatore ha state 'mbortade da $1 nnande c'a uicchi ha state chiuse.",
 	'wminc-infopage-status-closedsister' => "'Stù subdominie jè state chiuse. Scè a <b>$2</b> pe' conrebbuì a 'stà uicchi.",
 	'wminc-infopage-status-created' => "'Stù pruggette ha state approvate da 'u language committee e mò se pòte acchijà sus a $1.",
