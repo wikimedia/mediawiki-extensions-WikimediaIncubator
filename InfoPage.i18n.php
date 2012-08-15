@@ -111,6 +111,21 @@ $messages['af'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity $1',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'wminc-infopage-enter' => 'اذهب إلى الصفحة الرئيسية',
+	'wminc-unknownlang' => '(كود لغة غير معروف)',
+	'wminc-infopage-title-p' => 'ويكيبيديا $1',
+	'wminc-infopage-title-b' => 'ويكي الكتب $1',
+	'wminc-infopage-title-t' => 'ويكاموس $1',
+	'wminc-infopage-title-q' => 'ويكي الاقتباس $1',
+	'wminc-infopage-title-n' => 'ويكي الأخبار $1',
+	'wminc-infopage-title-s' => 'ويكي مصدر $1',
+	'wminc-infopage-title-v' => 'ويكي الجامعة $1',
+);
+
 /** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
@@ -345,8 +360,8 @@ $messages['de'] = array(
  * @author Polletfa
  */
 $messages['de-formal'] = array(
-	'wminc-infopage-option-startwiki' => 'Sofern Sie dieses Wiki starten möchten,
-können Sie [{{fullurl:{{FULLPAGENAME}}|action=edit}} die Seite erstellen] und gemäß [[{{MediaWiki:Wminc-manual-url}}|unserer Anleitung]] vorgehen.',
+	'wminc-infopage-option-startwiki' => "Sofern Sie dieses Wiki starten möchten, folgen Sie bitte
+'''[$3 diesen Schritten]''' und [[{{MediaWiki:Wminc-manual-url}}|unserer Anleitung]].",
 	'wminc-infopage-option-startsister' => 'Sofern Sie dieses Wiki starten möchten, gehen Sie zu <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Sie können auf [//www.$1.org nach vorhandenen Sprachausgaben von $1] suchen.',
 	'wminc-infopage-option-sisterprojects-existing' => 'Sie können nach vorhandenen Projekten in dieser Sprache suchen:',
@@ -373,7 +388,7 @@ $messages['diq'] = array(
 	'wminc-infopage-welcome' => 'Şıma xeyr ameyê Wikimedia Incubatori. No ([[{{MediaWiki:Aboutpage}}|Haq dê]]) proceyan de Weqıf da Wikimediyao.',
 	'wminc-infopage-missingwiki-text' => '$1, hewna na zıwan de çınya.',
 	'wminc-infopage-option-startwiki' => 'Şımayê wazenê ke ena wikiyer dest pêkerê,
-Şıma senê ena [{{fullurl:{{FULLPAGENAME}}|action=edit}} pela vırazê] u [[{{MediaWiki:Wminc-manual-url}}|Xo manuel]] peşti bıdê.',
+Şıma senê pela  $3 [{{fullurl:{{FULLPAGENAME}}|action=edit}} vırazê] u [[{{MediaWiki:Wminc-manual-url}}|xo manuel]] peşti bıdê.',
 	'wminc-infopage-option-startsister' => 'Şıma qayılê ke ena wiki dest pêkerê se şırê tiya <b>[$2 $1]</b>',
 	'wminc-infopage-option-languages-existing' => 'Qan dê [//www.$1.org zıwan versiyon dê $1 ] re cı geyrayış şenê bıkerê',
 	'wminc-infopage-option-sisterprojects-existing' => 'Eno zıwan de şıma şenê proceyanê bina bıvinê',
@@ -404,8 +419,8 @@ $messages['dsb'] = array(
 	'wminc-infopage-title-v' => 'Wikiwersita $1',
 	'wminc-infopage-welcome' => 'Witaj do inkubatora Wikimedije, projekt załožby Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Wó]])',
 	'wminc-infopage-missingwiki-text' => '$1 hyšći njeeksistěrujo w toś tej rěcy.',
-	'wminc-infopage-option-startwiki' => 'Jolic coš toś ten wiki startowaś,
-móžoš [{{fullurl:{{FULLPAGENAME}}|action=edit}} bok napóraś] a pó [[{{MediaWiki:Wminc-manual-url}}|našym rozpokazanju]] póstupowaś.',
+	'wminc-infopage-option-startwiki' => "Jolic coš toś ten wiki startowaś,
+pšosym slěduj '''[$3 toś te kšace]''' a [[{{MediaWiki:Wminc-manual-url}}|našo rozpokazanje]].",
 	'wminc-infopage-option-startsister' => 'Jolic coš toś ten wiki startowaś, móžoš k <b>[$2 $1]</b> hyś.',
 	'wminc-infopage-option-languages-existing' => 'Móžoš za [//www.$1.org eksistěrujucymi rěcnymi wudaśami projekta $1] pytaś.',
 	'wminc-infopage-option-sisterprojects-existing' => 'Móžoš za eksistěrujucymi projektami w toś tej rěcy pytaś:',
@@ -416,8 +431,10 @@ móžoš [{{fullurl:{{FULLPAGENAME}}|action=edit}} bok napóraś] a pó [[{{Medi
 	'wminc-infopage-status-open' => 'To jo wótwórjony wiki na Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Toś ten wiki inkubatora jo se z $1 importěrował, za tym až jo se wiki zacynił.',
 	'wminc-infopage-status-closedsister' => 'Toś ta póddomena jo se zacyniła. Źi k <b>$2</b>, aby k toś tomu wikijeju pśinosował.',
+	'wminc-infopage-status-approved' => 'Toś ten Inkubatorowy wiki jo se wót [[meta:Special:MyLanguage/Language_committee|rěcnego komiteja]] pśizwolił a buźo se skóro napóraś.',
 	'wminc-infopage-status-created' => 'Toś ten projekt jo se wót rěcnego komiteja pśizwólił a stoj něnto pód $1 k dispoziciji.',
 	'wminc-infopage-status-beforeincubator' => 'Toś ten projekt jo se napórał, nježli až Wikimedia Incubator jo se startował a stoj pód $1 k dispoziciji.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Toś ten projekt stoj pód $1 k dispoziciji.',
 	'wminc-infopage-error' => 'Zmólka: {{#infopage}} dajo se jano na bokach wužywaś, kótarež maju prefiks.',
 );
 
@@ -627,7 +644,7 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'wminc-infopage-enter' => 'alar a la pâge principâla',
-	'wminc-unknownlang' => '(lengoua encognua avouéc lo code « $1 »)',
+	'wminc-unknownlang' => '(code lengoua encognu)',
 	'wminc-infopage-title-p' => 'Vouiquipèdia $1',
 	'wminc-infopage-title-b' => 'Vouiquilévros $1',
 	'wminc-infopage-title-t' => 'Vouiccionèro $1',
@@ -726,8 +743,8 @@ $messages['he'] = array(
 	'wminc-infopage-title-v' => 'ויקיברסיטה ב{{GRAMMAR:תחילית|$1}}',
 	'wminc-infopage-welcome' => 'ברוכים הבאים לאינקובטור של ויקימדיה, מיזם של קרן ויקימדיה ([[{{MediaWiki:Aboutpage}}|אודות]])',
 	'wminc-infopage-missingwiki-text' => 'מיזם $1 בשפה הזאת טרם נוצר.',
-	'wminc-infopage-option-startwiki' => 'אם אתם רוצים להתחיל את הוויקי הזה,
-אתם יכולים [{{fullurl:{{FULLPAGENAME}}|action=edit}} ליצור דף] ולעקוב אחר [[{{MediaWiki:Wminc-manual-url}}|ספר ההוראות שלנו]].',
+	'wminc-infopage-option-startwiki' => "אם אתם רוצים להתחיל את הוויקי הזה, נא לבצע את מה שכתוב
+ב'''[$3 הצעדים האלה]''' וב[[{{MediaWiki:Wminc-manual-url}}|ספר ההוראות שלנו]].",
 	'wminc-infopage-option-startsister' => 'אם אתם רוצים להתחיל את הוויקי הזה, תוכלו ללכת ל־<b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'אפשר לחפש [//www.$1.org מהדורות לשוניות קיימות של $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'אפשר לחפש מיזמים קיימים בשפה הזאת:',
@@ -769,8 +786,8 @@ $messages['hsb'] = array(
 	'wminc-infopage-title-v' => 'Wikiwersita $1',
 	'wminc-infopage-welcome' => 'Witaj do inkubatora Wikimedije, projekt załožby Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Wo]])',
 	'wminc-infopage-missingwiki-text' => '$1 w tutej rěči hišće njeeksistuje.',
-	'wminc-infopage-option-startwiki' => 'Jeli chceš tutón wiki startować,
-móžeš [{{fullurl:{{FULLPAGENAME}}|action=edit}} stronu wutworić] a po [[{{MediaWiki:Wminc-manual-url}}|našim nawodźe]] postupować.',
+	'wminc-infopage-option-startwiki' => "Jeli chceš tutón wiki startować,
+prošu slěduj '''[$3 tute kroki]''' a [[{{MediaWiki:Wminc-manual-url}}|naš nawod]].",
 	'wminc-infopage-option-startsister' => 'Jeli chceš tutón wiki startować, móžeš k <b>[$2 $1]</b> hić.',
 	'wminc-infopage-option-languages-existing' => 'Móžeš za [//www.$1.org eksistowacymi rěčnymi wudaćemi projekta $1] pytać.',
 	'wminc-infopage-option-sisterprojects-existing' => 'Móžeš za eksistowacymi projektami w tutej rěči pytać:',
@@ -870,7 +887,7 @@ $messages['it'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity in $1',
 	'wminc-infopage-welcome' => 'Benvenuto nel Wikimedia Incubator, un progetto della Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|informazioni]])',
 	'wminc-infopage-missingwiki-text' => '$1 in questa lingua non esiste ancora.',
-	'wminc-infopage-option-startwiki' => 'Se vuoi cominciare questo wiki, puoi [{{fullurl:{{FULLPAGENAME}}|action=edit}} creare la pagina] e seguire [[{{MediaWiki:Wminc-manual-url}}|il manuale]].',
+	'wminc-infopage-option-startwiki' => "Se si desidera cominciare questo wiki, si prega di seguire '''[$3 questi passi]''' e [[{{MediaWiki:Wminc-manual-url}}|il manuale]].",
 	'wminc-infopage-option-startsister' => 'Se vuoi cominciare questo wiki, puoi andare in <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Puoi fare una ricerca nelle [//www.$1.org versioni linguistiche di $1 esistenti].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Puoi cercare nei progetti esistenti in questa lingua:',
@@ -903,8 +920,7 @@ $messages['ja'] = array(
 	'wminc-infopage-title-v' => 'ウィキバーシティ$1',
 	'wminc-infopage-welcome' => 'ウィキペディアインキュベーターにようこそ。これはウィキメディア財団([[{{MediaWiki:Aboutpage}}|About]])のプロジェクトです',
 	'wminc-infopage-missingwiki-text' => 'この言語の$1はまだありません。',
-	'wminc-infopage-option-startwiki' => 'このウィキを開始したい場合は、
-[{{fullurl:{{FULLPAGENAME}}|action=edit}} ページを作成]し、[[{{MediaWiki:Wminc-manual-url}}|マニュアル]]に従ってください。',
+	'wminc-infopage-option-startwiki' => "このウィキを開始したい場合は、'''[$3 これらの手順]'''と[[{{MediaWiki:Wminc-manual-url}}|マニュアル]]に従ってください。",
 	'wminc-infopage-option-languages-existing' => '[//www.$1.org 既存の言語版の$1]を検索できます。',
 	'wminc-infopage-option-multilingual' => '多言語のウィキを利用できます：',
 	'wminc-infopage-createmainpage' => '"Main Page" をこの言語で入力してください：',
@@ -1128,8 +1144,8 @@ $messages['mk'] = array(
 	'wminc-infopage-title-v' => 'Викиверзитет $1',
 	'wminc-infopage-welcome' => 'Добредојдовте на Инкубаторот на Викимедија - проект на Фондацијата Викимедија ([[{{MediaWiki:Aboutpage}}|За проектот]])',
 	'wminc-infopage-missingwiki-text' => 'На овој јазик сè уште не постои $1.',
-	'wminc-infopage-option-startwiki' => 'Ако сакате да го започнете ова вики,
-тогаш можете да ја [{{fullurl:{{FULLPAGENAME}}|action=edit}} создадете страницата] и да го проследите [[{{MediaWiki:Wminc-manual-url}}|нашиот прирачник]].',
+	'wminc-infopage-option-startwiki' => "Ако сакате да го отпочнете ова вики, проследете ги
+'''[$3 овие чекори]''' и [[{{MediaWiki:Wminc-manual-url}}|нашето упатство]].",
 	'wminc-infopage-option-startsister' => 'Ако сакате да го започнете ова вики, појдете на <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Можете да ги пребарате [//www.$1.org постоечките јазични изданија на $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Можете да ги пребарате постоечките проекти на овој јазик:',
@@ -1255,7 +1271,7 @@ $messages['nl'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity in het $1',
 	'wminc-infopage-welcome' => 'Welkom bij de Wikimedia Incubator, een project van de Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Meer info]])',
 	'wminc-infopage-missingwiki-text' => 'Een $1 in deze taal bestaat nog niet.',
-	'wminc-infopage-option-startwiki' => 'Als u deze wiki wilt starten, kunt u [{{fullurl:{{FULLPAGENAME}}|action=edit}} de pagina aanmaken] en [[{{MediaWiki:Wminc-manual-url}}|onze handleiding]] volgen.',
+	'wminc-infopage-option-startwiki' => "Als u deze wiki wilt starten, volg dan '''[$3 deze stappen]''' en [[{{MediaWiki:Wminc-manual-url}}|onze handleiding]].",
 	'wminc-infopage-option-startsister' => 'Als u deze wiki wilt starten, kunt u naar <b>[$2 $1]</b> gaan.',
 	'wminc-infopage-option-languages-existing' => 'U kunt naar [//www.$1.org bestaande taalversies van $1] zoeken.',
 	'wminc-infopage-option-sisterprojects-existing' => 'U kunt naar bestaande projecten in deze taal zoeken:',
@@ -1687,8 +1703,8 @@ $messages['tl'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity $1',
 	'wminc-infopage-welcome' => 'Maligayang pagdating sa Palimliman ng Wikimedia, isang proyekto Pundasyon ng Wikimedia ([[{{MediaWiki:Aboutpage}}|Patungkol]])',
 	'wminc-infopage-missingwiki-text' => 'Ang $1 na nasa ganitong wika ay hindi pa umiiral.',
-	'wminc-infopage-option-startwiki' => 'Kung nais mong simulan ang wiking ito,
-maaari mong [{{fullurl:{{FULLPAGENAME}}|action=edit}} likhain ang] at sundin ang [[{{MediaWiki:Wminc-manual-url}}|aming panggabay]].',
+	'wminc-infopage-option-startwiki' => "Kung nais mong simulan ang wiking ito, paki sundin ang 
+'''[$3 ang aming mga hakbang]''' at ang [[{{MediaWiki:Wminc-manual-url}}|aming patnubay]].",
 	'wminc-infopage-option-startsister' => 'Kung nais mong simulan ang wiking ito, maaari kang magpunta sa <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Maaari mong hanapin ang [//www.$1.org umiiral na mga edisyon ng wika ng $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Makapaghahanap ka ng umiiral na mga proyektong nasa ganitong wika:',
@@ -1734,14 +1750,15 @@ $messages['tr'] = array(
 /** Ukrainian (українська)
  * @author Andrijko Z.
  * @author Dim Grits
+ * @author Тест
  */
 $messages['uk'] = array(
 	'wminc-infopage-enter' => 'до Головної сторінки',
 	'wminc-unknownlang' => '(Невідома мова з кодом "$1")',
 	'wminc-infopage-welcome' => 'Ласкаво просимо до Інкубатора Вікімедіа. [[{{MediaWiki:Aboutpage}}|Інформація]] про цей проект Фонду Вікімедіа',
 	'wminc-infopage-missingwiki-text' => '$1 ще не має розділу даною мовою.',
-	'wminc-infopage-option-startwiki' => 'Якщо ви бажаєте започаткувати цей вікіпроект,
-можете [{{fullurl:{{FULLPAGENAME}}|action=edit}} створити сторінку] та дотримуватись порад [[{{MediaWiki:Wminc-manual-url}}|нашої інструкції]].',
+	'wminc-infopage-option-startwiki' => "Якщо ви бажаєте започаткувати цей вікіпроект, будь ласка зробіть
+'''[$3 ці кроки]''' та дотримуйтесь порад [[{{MediaWiki:Wminc-manual-url}}|нашої інструкції]].",
 	'wminc-infopage-option-startsister' => 'Якщо ви хочете започаткувати цей вікіпроект, ви можете звернутися до <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Ви можете пошукати серед [//www.$1.org існуючих мовних розділів $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Ви можете пошукати існуючі проекти цією мовою:',

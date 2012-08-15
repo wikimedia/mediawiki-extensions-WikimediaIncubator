@@ -1268,6 +1268,7 @@ Kui soovid lehekülge luua, sisesta pealkiri lihtsalt ülalolevale otsiribale ja
 /** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
+ * @author පසිඳු කාවින්ද
  */
 $messages['eu'] = array(
 	'wminc-desc' => 'Wikimedia Incubatorrerako wiki proba sistema',
@@ -1285,6 +1286,7 @@ $messages['eu'] = array(
 	'wminc-viewuserlang-user' => 'Erabiltzaile izena:',
 	'wminc-viewuserlang-go' => 'Joan',
 	'right-viewuserlang' => 'Ikusi lankide hizkuntza eta wiki testa',
+	'wminc-searchwiki-go' => 'Joan',
 );
 
 /** Persian (فارسی)
@@ -1466,6 +1468,7 @@ $messages['frp'] = array(
 	'wminc-testwiki' => 'Vouiqui d’èprôva :',
 	'wminc-testwiki-code' => 'Lengoua du vouiqui d’èprôva :',
 	'wminc-testwiki-none' => 'Nion / tôs',
+	'wminc-testwiki-site' => '(Mantegnence)',
 	'wminc-recentchanges-all' => 'Tôs los dèrriérs changements',
 	'wminc-prefinfo-language' => 'Voutra lengoua d’entèrface - endèpendenta de cela de voutron vouiqui d’èprôva',
 	'wminc-prefinfo-code' => 'Lo code ISO 639 de la lengoua',
@@ -1492,6 +1495,16 @@ $messages['frp'] = array(
 	'wminc-code-collective' => 'Lo code « $1 » regârde pas una lengoua spècefica, mas una colèccion de lengoues, en particuliér les [[wikipedia:$2 language|lengoues « $3 »]].',
 	'wminc-code-retired' => 'Ceti code lengoua at étâ changiê et fât pas més refèrence a la lengoua d’origina.',
 	'wminc-listusers-testwiki' => 'Vos éte aprés vêre los usanciérs qu’ont betâs lor prèference de vouiqui d’èprôva a $1.',
+	'wminc-searchwiki' => 'Rechèrche d’un vouiqui',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'wminc-viewuserlang-user' => 'Ainm úsáideora:',
+	'wminc-viewuserlang-go' => 'Gabh',
+	'wminc-searchwiki-go' => 'Gabh',
 );
 
 /** Galician (galego)
@@ -2179,6 +2192,7 @@ $messages['jv'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'wminc-manual' => 'დოკუმენტაცია',
 	'wminc-testwiki' => 'ტესტური ვიკი:',
 	'wminc-testwiki-code' => 'ტესტური ვიკის ენა:',
 	'wminc-testwiki-none' => 'არა/ყველა',
