@@ -1249,7 +1249,7 @@ $messages['et'] = array(
 	'wminc-fs-settings-title' => 'Vikieelistuste määramine',
 	'wminc-fs-userpage-title' => 'Kasutajalehekülje loomine',
 	'wminc-fs-startwiki-title' => 'Vikiga alustamine',
-	'wminc-fs-pagetitle-done' => '– valmis!',
+	'wminc-fs-pagetitle-done' => ' – valmis!',
 	'wminc-fs-intro' => 'Tere tulemast võrgukoha {{SITENAME}} alustusviisardisse. Sind juhendatakse uue viki alustamise juures.',
 	'wminc-fs-langselect' => 'Jätka $1 keeles või mõnes järgmistest keeltest: $2',
 	'wminc-fs-signup-text' => 'Kui sul juba on kasutajakonto, [$1 logi palun sisse]. Kui sul pole seda veel, [$2 loo palun endale kasutajakonto].
@@ -1343,6 +1343,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Beluga
  * @author Cimon Avaro
  * @author Crt
  * @author Nedergard
@@ -1387,6 +1388,11 @@ $messages['fi'] = array(
 	'wminc-listusers-testwiki' => 'Katselet käyttäjiä, jotka ovat asettaneet testiwikinsä asetukseksi $1.',
 	'wminc-search-nocreate-nopref' => 'Etsit hakusanalla "$1". Aseta [[Special:Preferences|testiwikin asetukset]], jotta voimme kertoa sinulle minkä sivun voit luoda!',
 	'wminc-search-nocreate-suggest' => 'Etsit hakusanalla "$1". Voit luoda sivun wikissäsi napsauttamalla <b>[[$2]]</b>!',
+	'wminc-searchwiki-selectproject' => 'Etsi seuraavaa:',
+	'wminc-searchwiki-inputlanguage' => 'Kielellä:',
+	'wminc-searchwiki-go' => 'Siirry',
+	'wminc-fs-signup-title' => 'Rekisteröidy',
+	'wminc-fs-pagetitle-done' => ' - valmis!',
 );
 
 /** French (français)
@@ -1496,6 +1502,20 @@ $messages['frp'] = array(
 	'wminc-code-retired' => 'Ceti code lengoua at étâ changiê et fât pas més refèrence a la lengoua d’origina.',
 	'wminc-listusers-testwiki' => 'Vos éte aprés vêre los usanciérs qu’ont betâs lor prèference de vouiqui d’èprôva a $1.',
 	'wminc-searchwiki' => 'Rechèrche d’un vouiqui',
+	'wminc-searchwiki-inputlanguage' => 'En lengoua :',
+	'wminc-searchwiki-go' => 'Alar trovar',
+	'wminc-searchwiki-match-langcode' => '« $1 » est un code lengoua ISO 639 por $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 est lo nom d’una lengoua.',
+	'wminc-searchwiki-match-englishname' => '« $1 » est lo nom de $2 en anglès.',
+	'wminc-searchwiki-match-nativename' => '« $1 » est lo nom de $2 dens cela lengoua.',
+	'wminc-searchwiki-gotoinfopage' => 'pâge d’enformacion',
+	'wminc-fs-pagetitle' => 'Guido d’emmodâ - $1',
+	'wminc-fs-langselect-title' => 'Chouèsir la lengoua',
+	'wminc-fs-signup-title' => 'Enscrîde-vos',
+	'wminc-fs-settings-title' => 'Dèfenir voutres prèferences du vouiqui',
+	'wminc-fs-userpage-title' => 'Fâre voutra pâge utilisator',
+	'wminc-fs-startwiki-title' => 'Emmodar voutron vouiqui',
+	'wminc-fs-pagetitle-done' => ' - fêt !',
 );
 
 /** Irish (Gaeilge)
@@ -3882,6 +3902,23 @@ $messages['sv'] = array(
 	'wminc-fs-pagetitle-done' => ' – klart!',
 );
 
+/** Swahili (Kiswahili)
+ * @author Kwisha
+ */
+$messages['sw'] = array(
+	'wminc-listwikis' => 'Orodha ya Wiki',
+	'wminc-recentchanges-all' => 'Mabadiliko yote ya juzi',
+	'wminc-viewuserlang-user' => 'Jina la mtumiaji:',
+	'wminc-viewuserlang-go' => 'Nenda',
+	'wminc-searchwiki-inputlanguage' => 'Katika lugha:',
+	'wminc-searchwiki-go' => 'Nenda',
+	'wminc-fs-langselect-title' => 'Chagua lugha',
+	'wminc-fs-signup-title' => 'Jisajili',
+	'wminc-fs-userpage-title' => 'Umba ukurasa wako wa mtumiaji',
+	'wminc-fs-startwiki-title' => 'Anza Wiki yako',
+	'wminc-fs-pagetitle-done' => '- imefanyika!',
+);
+
 /** Silesian (ślůnski)
  * @author Britscher
  * @author Ozi64
@@ -4275,6 +4312,7 @@ $messages['vi'] = array(
 
 /** Yiddish (ייִדיש)
  * @author פוילישער
+ * @author පසිඳු කාවින්ද
  */
 $messages['yi'] = array(
 	'wminc-listwikis' => 'ליסטע פון וויקיס',
@@ -4286,6 +4324,7 @@ $messages['yi'] = array(
 	'wminc-viewuserlang-go' => 'גיין',
 	'wminc-userdoesnotexist' => 'נישט פאראן קיין באניצער "$1".',
 	'wminc-ip' => '"$1" איז אן IP אדרעס.',
+	'wminc-searchwiki-go' => 'גיין',
 );
 
 /** Cantonese (粵語)

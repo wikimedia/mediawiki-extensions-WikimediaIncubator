@@ -523,8 +523,8 @@ $messages['et'] = array(
 	'wminc-infopage-title-v' => '$1 Vikiülikool',
 	'wminc-infopage-welcome' => 'Tere tulemast Wikimedia Inkubaatorisse. Tegu on Wikimedia Foundationi projektiga ([[{{MediaWiki:Aboutpage}}|teave]]).',
 	'wminc-infopage-missingwiki-text' => '$1-projekt puudub seni selles keeles.',
-	'wminc-infopage-option-startwiki' => 'Kui soovid vikit alustada,
-saad [{{fullurl:{{FULLPAGENAME}}|action=edit}} lehekülje luua] ja järgida [[{{MediaWiki:Wminc-manual-url}}|meie juhendit]].',
+	'wminc-infopage-option-startwiki' => "Kui soovid vikit alustada, läbi
+'''[$3 need etapid]''' ja järgi [[{{MediaWiki:Wminc-manual-url}}|meie juhendit]].",
 	'wminc-infopage-option-startsister' => 'Kui soovid seda vikit alustada, tee seda leheküljel <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Saad otsida [//www.$1.org $1-projekti olemasolevaid keeleversioone].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Saad otsida olemasolevaid samakeelseid projekte:',
@@ -535,8 +535,10 @@ saad [{{fullurl:{{FULLPAGENAME}}|action=edit}} lehekülje luua] ja järgida [[{{
 	'wminc-infopage-status-open' => 'See on avatud viki Wikimedia Inkubaatoris.',
 	'wminc-infopage-status-imported' => 'See inkubaatori viki on pärast selle sulgemist imporditud asukohast $1.',
 	'wminc-infopage-status-closedsister' => 'See alamdomeen suleti. Sellele vikile saad kaastööd teha asukohas <b>$2</b>.',
+	'wminc-infopage-status-approved' => '[[meta:Special:MyLanguage/Language_committee|Keelekomitee]] on selle Inkubaatori-viki heaks kiitnud ja see luuakse peatselt.',
 	'wminc-infopage-status-created' => 'Keelekomitee on selle projekti heaks kiitnud ja see on nüüd saadaval asukohas $1.',
 	'wminc-infopage-status-beforeincubator' => 'Selle projektiga alustati enne Wikimedia Inkubaatori avamist ja see on saadaval asukohas $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'See projekt on saadaval asukohas $1.',
 	'wminc-infopage-error' => 'Tõrge: {{#infopage}} on kasutatav ainult eesliitega lehekülgedel.',
 );
 
@@ -986,8 +988,8 @@ $messages['ko'] = array(
 	'wminc-infopage-title-v' => '위키배움터 $1',
 	'wminc-infopage-welcome' => '위키미디어 재단의 프로젝트인 위키미디어 인큐베이터에 환영합니다 ([[{{MediaWiki:Aboutpage}}|정보]])',
 	'wminc-infopage-missingwiki-text' => '이 언어에서 $1 프로젝트가 아직 존재하지 않습니다.',
-	'wminc-infopage-option-startwiki' => '이 위키를 시작하기를 원한다면,
-[{{fullurl:{{FULLPAGENAME}}|action=edit}} 문서를 만들고] [[{{MediaWiki:Wminc-manual-url}}|매뉴얼]]을 따를 수 있습니다.',
+	'wminc-infopage-option-startwiki' => "이 위키를 시작하기를 원한다면,
+'''[$3 다음 단계]'''와 [[{{MediaWiki:Wminc-manual-url}}|매뉴얼]]을 따르세요.",
 	'wminc-infopage-option-startsister' => '이 위키를 시작하기를 원한다면, <b>[$2 $1]</b>로 갈 수 있습니다.',
 	'wminc-infopage-option-languages-existing' => '[//www.$1.org $1의 기존 언어 편집자]에 대해 찾을 수 있습니다.',
 	'wminc-infopage-option-sisterprojects-existing' => '이 언어에서 기존 프로젝트에 대해 찾을 수 있습니다:',
