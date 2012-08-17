@@ -156,8 +156,7 @@ $messages['ast'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity en $1',
 	'wminc-infopage-welcome' => 'Bienveníos a Wikimedia Incubator, un proyeutu de la Fundación Wikimedia ([[{{MediaWiki:Aboutpage}}|Tocante a...]])',
 	'wminc-infopage-missingwiki-text' => 'Inda nun esiste $1 nesta llingua.',
-	'wminc-infopage-option-startwiki' => 'Si quies principiar esta wiki,
-pues [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la páxina] y siguir [[{{MediaWiki:Wminc-manual-url}}|el nuesu manual]].',
+	'wminc-infopage-option-startwiki' => "Si quies principiar esta wiki, sigui '''[$3 estos pasos]''' ya'l [[{{MediaWiki:Wminc-manual-url}}|nuesu manual]].",
 	'wminc-infopage-option-startsister' => 'Si quies principiar esta wiki, pues dir a <b>[$1 en $2]</b>.',
 	'wminc-infopage-option-languages-existing' => "Pues guetar les [//www.$1.org ediciones de les llingües nes qu'esiste $1].",
 	'wminc-infopage-option-sisterprojects-existing' => 'Pues guetar proyeutos esistentes nesta llingua:',
@@ -168,8 +167,11 @@ pues [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la páxina] y siguir [[{{Me
 	'wminc-infopage-status-open' => 'Esta ye una wiki abierta de Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => "Esta wiki d'Incubator s'importó de $1 dempués de que la wiki zarrara.",
 	'wminc-infopage-status-closedsister' => 'Esti subdominiu se zarró. Visita <b>$2</b> pa collaborar nesta wiki.',
+	'wminc-infopage-status-approved' => 'El [[meta:Special:MyLanguage/Language_committee|comité de llingües]] aprobó esta wiki de Incubadora y se creará aína.',
 	'wminc-infopage-status-created' => "Esti proyeutu s'aprobó pol comité de llingües y agora ta disponible en $1.",
 	'wminc-infopage-status-beforeincubator' => 'Esti proyeutu se creó enantes que principiara Wikimedia Incubator y ta disponible en $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Esti proyeutu ta disponible en $1.',
+	'wminc-infopage-error' => 'Error: {{#infopage}} sólo se pue utilizar nes páxines con prefixu.',
 );
 
 /** Kotava (Kotava)

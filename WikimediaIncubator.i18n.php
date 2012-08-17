@@ -925,6 +925,7 @@ $messages['diq'] = array(
 	'wminc-testwiki' => 'Test wiki:',
 	'wminc-testwiki-code' => 'Zuwano ke bıcerbneyo:',
 	'wminc-testwiki-none' => 'Teba nê/Pêron',
+	'wminc-testwiki-site' => '(Weynayış)',
 	'wminc-recentchanges-all' => 'Vurnayışê peyêni pêro',
 	'wminc-prefinfo-language' => 'Temay zuwani- test wiki ra xoseri ya.',
 	'wminc-prefinfo-code' => "Kodê ISO 639'i zıwan dê xo bıgurweynê",
@@ -968,6 +969,14 @@ $messages['diq'] = array(
 	'wminc-searchwiki-match-nativename' => 'Namay "$1"\'i zuwando bindı $2\'o(a)',
 	'wminc-searchwiki-goto' => '<b>$1</b> ($2)',
 	'wminc-searchwiki-gotoinfopage' => 'Peyaya destegi',
+	'wminc-fs-pagetitle' => 'Seherbaze dest peke - $1',
+	'wminc-fs-langselect-title' => 'Zıwan weçine',
+	'wminc-fs-signup-title' => 'Qeyd bı',
+	'wminc-fs-settings-title' => 'Tercihe wiki daşıma',
+	'wminc-fs-userpage-title' => 'Pela karberi vıraze',
+	'wminc-fs-startwiki-title' => 'Wikiya xo dest pekeri',
+	'wminc-fs-pagetitle-done' => '- tamam!',
+	'wminc-fs-langselect' => 'Ya raveri $1 yana raveri $2',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -4243,6 +4252,21 @@ $messages['uk'] = array(
 	'wminc-listusers-testwiki' => 'Ви переглядаєте користувачів, які встановили налаштування тестової вікі  $1.',
 	'wminc-search-nocreate-nopref' => 'Ви шукали "$1". Будь ласка, задайте власні [[Special:Preferences|налаштування тестової вікі]], аби ми могли підказати, які сторінки ви можете створити!',
 	'wminc-search-nocreate-suggest' => 'Ви шукали "$1". Можете створити сторінку <b>[[$2]]</b>!',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'wminc-manual' => 'دستی',
+	'wminc-testwiki-site' => '(بحالی)',
+	'wminc-recentchanges-all' => 'سب سے حالیہ تبدیلیاں',
+	'wminc-viewuserlang-user' => 'صارف کا نام:',
+	'wminc-viewuserlang-go' => 'جانا',
+	'wminc-searchwiki-go' => 'جانا',
+	'wminc-searchwiki-gotoinfopage' => 'معلومات کے صفحہ',
+	'wminc-fs-langselect-title' => 'زبان کا انتخاب کریں',
+	'wminc-fs-signup-title' => 'سائن اپ کریں',
 );
 
 /** Veps (vepsän kel’)
