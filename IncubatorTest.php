@@ -43,6 +43,7 @@ class IncubatorTest {
 			'size' => (int)$wmincLangCodeLength,
 			'help-message' => 'wminc-prefinfo-code',
 			'validation-callback' => array( 'IncubatorTest', 'validateCodePreference' ),
+			'filter-callback' => array( 'IncubatorTest', 'filterCodePreference' ),
 		);
 
 		$wgDefaultUserOptions[$wmincPref . '-project'] = 'none';
@@ -59,17 +60,27 @@ class IncubatorTest {
 	 * @return String or true
 	 */
 	static function validateCodePreference( $input, $alldata ) {
-		global $wmincPref, $wmincProjects;
+		global $wmincPref;
 		# If the user selected a project that NEEDS a language code,
-		# but the user DID NOT enter a language code, give an error
+		# but the user DID NOT enter a valid language code, give an error
+		$filteredInput = self::filterCodePreference( $input );
 		if ( isset( $alldata[$wmincPref.'-project'] ) &&
-			array_key_exists( $alldata[$wmincPref.'-project'], $wmincProjects ) &&
-			!$input ) {
+			self::isContentProject( $alldata[$wmincPref.'-project'] ) &&
+			!self::validateLanguageCode( $filteredInput ) ) {
 			return Xml::element( 'span', array( 'class' => 'error' ),
 				wfMessage( 'wminc-prefinfo-error' )->plain() );
 		}
 		return true;
 	}
+
+	/**
+	 * For the preferences above
+	 * @param $input
+	 * @return String or true
+	 */
+	 static function filterCodePreference( $input ) {
+		 return trim( strtolower( $input ) );
+	 }
 
 	/**
 	 * This validates a given language code.
