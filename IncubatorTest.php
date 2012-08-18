@@ -41,7 +41,9 @@ class IncubatorTest {
 			'id' => $wmincPref . '-code',
 			'maxlength' => (int)$wmincLangCodeLength,
 			'size' => (int)$wmincLangCodeLength,
-			'help-message' => 'wminc-prefinfo-code',
+			'help' => wfMessage( 'wminc-prefinfo-code' )->parse() .
+				self::getTestWikiLanguages(),
+			'list' => 'wminc-testwiki-codelist',
 			'validation-callback' => array( 'IncubatorTest', 'validateCodePreference' ),
 			'filter-callback' => array( 'IncubatorTest', 'filterCodePreference' ),
 		);
@@ -51,6 +53,22 @@ class IncubatorTest {
 		$preferences = wfArrayInsertAfter( $preferences, $prefinsert, 'language' );
 
 		return true;
+	}
+
+	/**
+	 * Add a datalist with languages in MediaWiki,
+	 * to suggest common language codes
+	 * @return string HTML
+	 */
+	static function getTestWikiLanguages() {
+		$list = Language::fetchLanguageNames( null, 'all' );
+		$t = '<datalist id="wminc-testwiki-codelist">' . "\n";
+		foreach( $list as $code => $name ) {
+			$t .= Xml::element( 'option', array( 'value' => $code ),
+				$code . ' - ' . $name ) . "\n";
+		}
+		$t .= '</datalist>';
+		return $t;
 	}
 
 	/**
