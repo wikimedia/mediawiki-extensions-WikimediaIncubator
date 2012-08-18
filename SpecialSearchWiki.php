@@ -63,12 +63,18 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		return $select->getHTML();
 	}
 
+	/**
+	 * @param $projectQuery
+	 * @param $languageQuery
+	 */
 	protected function doSearch( $projectQuery, $languageQuery ) {
 		## Match project ##
 		if ( isset( $this->mProjects[$projectQuery] ) ) {
-			$matchProject = $projectQuery; # searched with a project code (select box)
+			# searched with a project code (select box)
+			$matchProject = $projectQuery;
 		} elseif ( $projectCode = array_search( $projectQuery, $this->mProjects ) ) {
-			$matchProject = $projectCode; # searched with a project name
+			# searched with a project name
+			$matchProject = $projectCode;
 		} else {
 			return $this->getOutput()->addWikiMsg( 'wminc-searchwiki-noproject' );
 		}
@@ -96,7 +102,8 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		if ( count( $results ) === 1 ) {
 			$this->gotoWiki( $matchProject, key( $results ) );
 		} elseif ( count( $results ) < 1 ) {
-			$noresult = Html::element( 'p', array( 'class' => 'error' ), wfMessage( 'wminc-searchwiki-noresults' )->text() );
+			$noresult = Html::element( 'p', array( 'class' => 'error' ),
+				wfMessage( 'wminc-searchwiki-noresults' )->text() );
 			return $this->getOutput()->addHTML( $noresult );
 		} elseif ( count( $results ) > 1 ) {
 			self::showMultipleResults( $matchProject, $languageQuery, $results );
@@ -105,6 +112,8 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 	/**
 	 * Improve search by increasing the chance of matches
+	 * @param $str String
+	 * @return String
 	 */
 	protected function strip( $str ) {
 		$str = strtolower( trim( $str ) );
@@ -119,28 +128,50 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 */
 	protected function goToWiki( $project, $lang ) {
 		$lang = self::getRootCode( $lang );
-		$status = IncubatorTest::getDBState( array( 'project' => $project, 'lang' => $lang, 'error' => null ) );
-		$infopageParams = array( 'goto' => 'mainpage', 'uselang' => $this->getRequest()->getVal( 'uselang' ) );
+		$dbarray = array( 'project' => $project, 'lang' => $lang, 'error' => null );
+		$status = IncubatorTest::getDBState( $dbarray );
+		$infopageParams = array(
+			'goto' => 'mainpage',
+			'uselang' => $this->getRequest()->getVal( 'uselang' )
+		);
 		$url = $status == 'existing' ? IncubatorTest::getSubdomain( $lang, $project ) :
 			Title::newFromText( 'W' . $project . '/' . $lang )->getFullURL( $infopageParams );
 		$this->getOutput()->redirect( $url );
 	}
 
+	/**
+	 * @param $code String
+	 * @return String
+	 */
 	protected function getRootCode( $code ) {
 		# e.g. ks-arab -> ks
 		$stripLangTags = array( '-arab', '-latn', '-cyrl', '-deva', '-cans', '-grek' );
 		return str_replace( $stripLangTags, '', $code );
 	}
 
+	/**
+	 * @param $project
+	 * @param $languageQuery
+	 * @param $results
+	 */
 	protected function showMultipleResults( $project, $languageQuery, $results ) {
 		$this->getOutput()->addHTML( '<div id="wminc-searchwiki-results">' .
-			Xml::element( 'p', array(), wfMessage( 'wminc-searchwiki-multiplematches' )->text() ) . '<ul>' );
+			Xml::element( 'p', array(),
+				wfMessage( 'wminc-searchwiki-multiplematches' )->text() ) .
+			'<ul>'
+		);
 		foreach ( $results as $resultCode => $resultType ) {
 			$langName = $this->mNamesUserLang[$resultCode];
-			$infopage = Title::newFromText( IncubatorTest::displayPrefix( $project, $resultCode, true ) );
-			$linkInfoPage = Linker::linkKnown( $infopage, wfMessage( 'wminc-searchwiki-gotoinfopage' )->text() );
-			$linkMainPage = Linker::linkKnown( $infopage, wfMessage( 'wminc-infopage-title-' . $project, $langName )->text(),
-			array(), array( 'goto' => 'mainpage' ) );
+			$infopage = Title::newFromText(
+				IncubatorTest::displayPrefix( $project, $resultCode, true )
+			);
+			$linkInfoPage = Linker::linkKnown( $infopage,
+				wfMessage( 'wminc-searchwiki-gotoinfopage' )->text()
+			);
+			$linkMainPage = Linker::linkKnown( $infopage,
+				wfMessage( 'wminc-infopage-title-' . $project, $langName )->text(),
+				array(), array( 'goto' => 'mainpage' )
+			);
 			# wminc-searchwiki-match-langcode, wminc-searchwiki-match-englishname,
 			# wminc-searchwiki-match-userlangname, wminc-searchwiki-match-nativename
 			$this->getOutput()->addHTML( '<li>' .
