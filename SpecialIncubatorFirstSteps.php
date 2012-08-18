@@ -78,8 +78,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$names_keys = array_keys( $names );
 		$browserLanguages = array_keys( $this->getRequest()->getAcceptLang() );
 
-		foreach( $browserLanguages as $browserLanguage ) {
-			if( in_array( $browserLanguage, $names_keys ) ) {
+		foreach ( $browserLanguages as $browserLanguage ) {
+			if ( in_array( $browserLanguage, $names_keys ) ) {
 				// add the language to the list if it is supported in MediaWiki
 				$getLangCodes[$browserLanguage] = true;
 			}
@@ -87,14 +87,14 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 		# add the language of the "testwiki" URL param if set
 		$urlTestWiki = IncubatorTest::getUrlParam();
-		if( $urlTestWiki ) {
+		if ( $urlTestWiki ) {
 			$getLangCodes[$urlTestWiki['lang']] = true;
 		}
 
 		ksort( $getLangCodes ); // sorting by language code is not ideal, but well
 
 		$showLanguages = array();
-		foreach( $getLangCodes as $code => $nothing ) {
+		foreach ( $getLangCodes as $code => $nothing ) {
 			$code = trim( $code );
 			if ( !isset( $names[$code] ) || $code === $currentLangCode ) {
 				# language code not recognised, or is current interface language
@@ -133,7 +133,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$query = array( 'returnto' => $this->getTitle(),
 			'uselang' => $this->getRequest()->getVal( 'uselang' ) );
 		$urlTestWiki = IncubatorTest::getUrlParam();
-		if( $urlTestWiki ) {
+		if ( $urlTestWiki ) {
 			// set preferences automatically, based on the "testwiki" URL param
 			$query['testwikiproject'] = $urlTestWiki['project'];
 			$query['testwikicode'] = $urlTestWiki['lang'];

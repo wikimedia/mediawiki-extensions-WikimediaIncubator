@@ -33,7 +33,7 @@ class TestWikiRC {
 			// If project site is selected, display all changes except test wiki changes
 			$dbr = wfGetDB( DB_SLAVE );
 			$conds[] = 'rc_title NOT ' . $dbr->buildLike( 'W', $dbr->anyChar(), '/', $dbr->anyString() );
-		} elseif( IncubatorTest::validatePrefix( $prefix, true ) ) {
+		} elseif ( IncubatorTest::validatePrefix( $prefix, true ) ) {
 			// Else, display changes to the selected test wiki in the appropriate namespaces
 			$dbr = wfGetDB( DB_SLAVE );
 			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
@@ -54,7 +54,7 @@ class TestWikiRC {
 		$label = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'rc-testwiki' );
 		$select = new XmlSelect( 'rc-testwiki-project', 'rc-testwiki-project', $projectvalue );
 		$select->addOption( wfMessage( 'wminc-testwiki-none' )->text(), 'none' );
-		foreach( $wmincProjects as $prefix => $name ) {
+		foreach ( $wmincProjects as $prefix => $name ) {
 			$select->addOption( $name, $prefix );
 		}
 		$select->addOption( $wmincProjectSite['name'], $wmincProjectSite['short'] );

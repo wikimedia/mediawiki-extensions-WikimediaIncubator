@@ -37,7 +37,7 @@ class ListUsersTestWiki {
 	 */
 	static function onSpecialListusersHeader( $pager, &$out ) {
 		$project = self::getProjectInput();
-		if( $project ) {
+		if ( $project ) {
 			$out .= wfMessage( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parseAsBlock();
 		} else {
 			$testwiki = IncubatorTest::getUrlParam();
@@ -55,7 +55,7 @@ class ListUsersTestWiki {
 	static function onSpecialListusersQueryInfo( $pager, &$query ) {
 		$testwiki = IncubatorTest::getUrlParam();
 		$project = self::getProjectInput();
-		if( !$project && !$testwiki ) {
+		if ( !$project && !$testwiki ) {
 			return true; # no input or invalid input
 		}
 		global $wmincPref;
@@ -64,7 +64,7 @@ class ListUsersTestWiki {
 			'p1.up_property' => "$wmincPref-project",
 			'p1.up_value' => $project ? $project['short'] : $testwiki['project']
 		) );
-		if( $project ) {
+		if ( $project ) {
 			return true; # project site doesn't need language code = returning
 		}
 		$query['tables']['p2'] = 'user_properties';

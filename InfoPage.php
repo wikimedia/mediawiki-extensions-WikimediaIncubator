@@ -43,7 +43,7 @@ class InfoPage {
 			Language::fetchLanguageName( $this->mLangCode, 'en', 'all' );
 		$titleParam = $this->mLangName ? $this->mLangName : '"' . $this->mLangCode . '"'; # Name, else code
 		$this->mFormatTitle = wfMessage( 'wminc-infopage-title-' . $this->mProjectCode, $titleParam )->escaped();
-		if( !$this->mLangName ) {
+		if ( !$this->mLangName ) {
 			# Unknown language, add short note to title
 			$this->mFormatTitle .= ' ' . wfMessage( 'wminc-unknownlang', $this->mLangCode )->escaped();
 		}
@@ -62,7 +62,7 @@ class InfoPage {
 	 */
 	public function makeLogo( $project, $clickable = true, $params = array(), $url = null, $lang = null, $mul = false ) {
 		$lang = $lang ? $lang : $this->mLangCode;
-		if( !$mul ) { // for non-multilingual wikis
+		if ( !$mul ) { // for non-multilingual wikis
 			$getDbStatus = IncubatorTest::getDBState(
 				array( 'error' => null, 'lang' => $lang, 'project' => $project )
 			);
@@ -72,8 +72,8 @@ class InfoPage {
 		$params['src'] = IncubatorTest::getConf( 'wgLogo', $lang, $project );
 		$params['alt'] = "$project ($lang)";
 		$img = Html::element( 'img', $params );
-		if( $clickable ) {
-			if( $url === null ) {
+		if ( $clickable ) {
+			if ( $url === null ) {
 				$url = IncubatorTest::getSubdomain( 'www', $project );
 			}
 			return Html::rawElement( 'a', array( 'href' => $url ), $img );
@@ -90,7 +90,7 @@ class InfoPage {
 		$otherProjects = $wmincProjects + $wmincSisterProjects;
 		unset( $otherProjects[$this->mProjectCode] );
 		$listOtherProjects = array();
-		foreach( $otherProjects as $code => $name ) {
+		foreach ( $otherProjects as $code => $name ) {
 			$listOtherProjects[$code] = '<li>' . $this->makeLogo( $code, true,
 				array( 'width' => 75 ), IncubatorTest::getSubdomain( $this->mLangCode, $code ) ) . '</li>';
 		}
@@ -104,9 +104,9 @@ class InfoPage {
 	 */
 	public function listMultilingualProjects() {
 		global $wmincMultilingualProjects, $wmincProjects;
-		if( !is_array( $wmincMultilingualProjects ) ) { return ''; }
+		if ( !is_array( $wmincMultilingualProjects ) ) { return ''; }
 		$list = array();
-		foreach( $wmincMultilingualProjects as $key => $name ) {
+		foreach ( $wmincMultilingualProjects as $key => $name ) {
 			# multilingual projects are listed under wikipedia
 			$fakeProject = key( $wmincProjects );
 			$url = IncubatorTest::getSubdomain( $key, $fakeProject );
@@ -179,14 +179,14 @@ class InfoPage {
 	public function showIncubatingWiki() {
 		global $wgLang;
 		$substatus = $this->mSubStatus;
-		if( $substatus == 'imported' && $this->mIsSister ) {
+		if ( $substatus == 'imported' && $this->mIsSister ) {
 			$substatus = 'closedsister';
 		}
 		$portalLink = Linker::makeExternalLink( $this->mPortal, $this->mProjectName );
 		$mainpage = isset( $this->mOptions['mainpage'] ) ?
 			Title::newFromText( $this->mPrefix . '/' . $this->mOptions['mainpage'] ) :
 			IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix );
-		if( $this->mThisLangData['type'] != 'invalid' ) {
+		if ( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoLink = Linker::link(
 				$mainpage,
 				wfMessage( 'wminc-infopage-enter' )->escaped() );
@@ -198,7 +198,7 @@ class InfoPage {
 		$subdomainLink = IncubatorTest::makeExternalLinkText( $subdomain, true );
 		$content = Html::rawElement( 'div', array( 'class' => 'wminc-infopage-status' ),
 			wfMessage( 'wminc-infopage-status-' . $substatus )->rawParams( $subdomainLink, $portalLink )->parseAsBlock() );
-		if( $this->mSubStatus != 'approved' && $this->mThisLangData['type'] != 'invalid' ) {
+		if ( $this->mSubStatus != 'approved' && $this->mThisLangData['type'] != 'invalid' ) {
 			$content .= Html::element( 'div',
 				array( 'class' => 'wminc-infopage-contribute' ),
 				wfMessage( 'wminc-infopage-contribute' )->plain() );
@@ -226,13 +226,13 @@ class InfoPage {
 		$bug = isset( $this->mBug ) ? $this->mBug : ''; # for future use
 		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = IncubatorTest::makeExternalLinkText( $subdomain, true );
-		if( $this->mThisLangData['type'] != 'invalid' ) {
+		if ( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoSubdomain = Html::rawElement( 'span',
 				array( 'class' => 'wminc-infopage-entertest' ),
 				$wgLang->getArrow() . ' ' . $subdomainLink );
 		}
 		$msgname = 'wminc-infopage-status-' . $this->mSubStatus; // wminc-infopage-status-beforeincubator
-		if( $this->mSubStatus === 'beforeincubator' && isset( $wmincSisterProjects[$this->mProjectCode] ) ) {
+		if ( $this->mSubStatus === 'beforeincubator' && isset( $wmincSisterProjects[$this->mProjectCode] ) ) {
 			$msgname = 'wminc-infopage-status-beforeincubator-sister';
 		}
 		$content = Html::rawElement( 'div',

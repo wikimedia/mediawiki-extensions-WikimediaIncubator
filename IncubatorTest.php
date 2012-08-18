@@ -89,8 +89,8 @@ class IncubatorTest {
 	 */
 	static function validateLanguageCode( $code ) {
 		global $wmincLangCodeLength;
-		if( strlen( $code ) > $wmincLangCodeLength ) { return false; }
-		if( $code == 'be-x-old' ) {
+		if ( strlen( $code ) > $wmincLangCodeLength ) { return false; }
+		if ( $code == 'be-x-old' ) {
 			return true; # one exception... waiting to be renamed to be-tarask
 		}
 		return (bool) preg_match( '/^[a-z][a-z][a-z]?(-[a-z]+)?$/', $code );
@@ -113,13 +113,13 @@ class IncubatorTest {
 	 */
 	static function analyzePrefix( $input, $onlyInfoPage = false, $allowSister = false ) {
 		$data = array( 'error' => null );
-		if( $input instanceof Title ) {
+		if ( $input instanceof Title ) {
 			global $wmincTestWikiNamespaces;
 			$title = $input->getText();
-			if( !in_array( $input->getNamespace(), $wmincTestWikiNamespaces ) ) {
+			if ( !in_array( $input->getNamespace(), $wmincTestWikiNamespaces ) ) {
 				return array( 'error' => 'notestwikinamespace' );
 			}
-			if( $onlyInfoPage && $input->getNamespace() != NS_MAIN ) {
+			if ( $onlyInfoPage && $input->getNamespace() != NS_MAIN ) {
 				# Info pages are only in the main NS
 				return array( 'error' => 'nomainnamespace' );
 			}
@@ -128,30 +128,30 @@ class IncubatorTest {
 		}
 		# split title into parts
 		$titleparts = explode( '/', $title );
-		if( !is_array( $titleparts ) || !isset( $titleparts[1] ) ) {
+		if ( !is_array( $titleparts ) || !isset( $titleparts[1] ) ) {
 			$data['error'] = 'noslash';
 		} else {
 			$data['project'] = ( isset( $titleparts[0][1] ) ? $titleparts[0][1] : '' ); # get the x from Wx/...
 			$data['lang'] = $titleparts[1]; # language code
 			$data['prefix'] = 'W'.$data['project'].'/'.$data['lang'];
 			# check language code
-			if( !self::validateLanguageCode( $data['lang'] ) ) {
+			if ( !self::validateLanguageCode( $data['lang'] ) ) {
 				$data['error'] = 'invalidlangcode';
 			}
 		}
 		global $wmincProjects, $wmincSisterProjects;
 		$listProjects = array_map( array( __CLASS__, 'preg_quote_slash' ), array_keys( $wmincProjects ) );
-		if( $allowSister && is_array( $wmincSisterProjects ) ) {
+		if ( $allowSister && is_array( $wmincSisterProjects ) ) {
 			# join the project codes with those of the sister projects
 			$listSister = array_map( array( __CLASS__, 'preg_quote_slash' ), array_keys( $wmincSisterProjects ) );
 			$listProjects = array_merge( $listProjects, $listSister );
 		}
 		$listProjects = implode( '|', $listProjects );
-		if( !preg_match( '/^W['.$listProjects.']\/[a-z-]+' .
+		if ( !preg_match( '/^W['.$listProjects.']\/[a-z-]+' .
 			($onlyInfoPage ? '$/' : '(\/.+)?$/' ), $title ) ) {
 			$data['error'] = 'invalidprefix';
 		}
-		if( !$onlyInfoPage && $data['error'] != 'invalidprefix' ) { # there is a Page_title
+		if ( !$onlyInfoPage && $data['error'] != 'invalidprefix' ) { # there is a Page_title
 			$prefixn = strlen( $data['prefix'].'/' ); # number of chars in prefix
 			# get Page_title from Wx/xx/Page_title
 			$data['realtitle'] = substr( $title, $prefixn );
@@ -178,11 +178,11 @@ class IncubatorTest {
 	static function getUrlParam() {
 		global $wgRequest;
 		$urlParam = $wgRequest->getVal( 'testwiki' );
-		if( !$urlParam ) {
+		if ( !$urlParam ) {
 			return false;
 		}
 		$val = self::analyzePrefix( ucfirst( $urlParam ), true );
-		if( $val['error'] || !isset( $val['project'] ) || !isset( $val['lang'] )
+		if ( $val['error'] || !isset( $val['project'] ) || !isset( $val['lang'] )
 			|| !$val['project'] || !$val['lang'] ) {
 			return false;
 		}
@@ -202,18 +202,18 @@ class IncubatorTest {
 	static function getProject( $project = '', $returnName = false, $includeSister = false ) {
 		global $wgUser, $wmincPref, $wmincProjects, $wmincSisterProjects;
 		$url = self::getUrlParam();
-		if( $project ) {
+		if ( $project ) {
 			$r = $project; # Precedence to given value
-		} elseif( $url ) {
+		} elseif ( $url ) {
 			$r = $url['project']; # Otherwise URL &testwiki= if set
 		} else {
 			$r = $wgUser->getOption( $wmincPref . '-project' ); # Defaults to preference
 		}
 		$projects = $includeSister ? array_merge( $wmincProjects, $wmincSisterProjects ) : $wmincProjects;
-		if( array_key_exists( $r, $projects ) ) {
+		if ( array_key_exists( $r, $projects ) ) {
 			# If a code is given, return what is wanted
 			return $returnName ? $projects[$r] : $r;
-		} elseif( array_search( $r, $projects ) ) {
+		} elseif ( array_search( $r, $projects ) ) {
 			# If a name is given, return what is wanted
 			return $returnName ? $r : array_search( $r, $projects );
 		}
@@ -240,7 +240,7 @@ class IncubatorTest {
 	 */
 	static function displayPrefix( $project = '', $code = '', $allowSister = false ) {
 		global $wmincSisterProjects;
-		if( $project && $code ) {
+		if ( $project && $code ) {
 			$projectvalue = $project;
 			$codevalue = $code;
 		} else {
@@ -268,7 +268,7 @@ class IncubatorTest {
 	 */
 	static function displayPrefixedTitle( $title, $ns = 0 ) {
 		global $wgLang, $wmincTestWikiNamespaces;
-		if( in_array( $ns, $wmincTestWikiNamespaces ) ) {
+		if ( in_array( $ns, $wmincTestWikiNamespaces ) ) {
 			/* Standard namespace as defined by
 			* $wmincTestWikiNamespaces, so use format:
 			* TITLE + NS => NS:Wx/xxx/TITLE
@@ -306,16 +306,16 @@ class IncubatorTest {
 		$prefixdata = self::analyzePrefix( $title->getText() );
 		$ns = $title->getNamespace();
 		$categories = array_map( array( __CLASS__, 'preg_quote_slash' ), $wmincPseudoCategoryNSes );
-		if( !$prefixdata['error'] ) {
+		if ( !$prefixdata['error'] ) {
 			# no error in prefix -> no error to show
 			return false;
-		} elseif( self::displayPrefix() == $wmincProjectSite['short'] ) {
+		} elseif ( self::displayPrefix() == $wmincProjectSite['short'] ) {
 			# If user has "project" (Incubator) as test wiki preference, it isn't needed to check
 			return false;
-		} elseif( !in_array( $ns, $wmincTestWikiNamespaces ) ) {
+		} elseif ( !in_array( $ns, $wmincTestWikiNamespaces ) ) {
 			# OK if it's not in one of the content namespaces
 			return false;
-		} elseif( ( $ns == NS_CATEGORY || $ns == NS_CATEGORY_TALK ) &&
+		} elseif ( ( $ns == NS_CATEGORY || $ns == NS_CATEGORY_TALK ) &&
 			preg_match( '/^(' . implode( '|', $categories ) .'):.+$/', $title->getText() ) ) {
 			# whitelisted unprefixed categories
 			return false;
@@ -334,8 +334,8 @@ class IncubatorTest {
 		$titletext = $title->getText();
 		$prefixdata = self::analyzePrefix( $titletext );
 
-		if( self::getDBState( $prefixdata ) == 'existing' ) {
-			if( $prefixdata['prefix'] == $titletext &&
+		if ( self::getDBState( $prefixdata ) == 'existing' ) {
+			if ( $prefixdata['prefix'] == $titletext &&
 				( $title->exists() || $user->isAllowed( 'editinterface' ) ) ) {
 				# if it's an info page, allow if the page exists or the user has 'editinterface' right
 				return true;
@@ -350,10 +350,10 @@ class IncubatorTest {
 			return $action != 'edit';
 		}
 
-		if( !self::shouldWeShowUnprefixedError( $title ) || $action != 'edit' || $title->exists() ) {
+		if ( !self::shouldWeShowUnprefixedError( $title ) || $action != 'edit' || $title->exists() ) {
 			# only check if needed & if on page creation
 			return true;
-		} elseif( $prefixdata['error'] == 'invalidlangcode' ) {
+		} elseif ( $prefixdata['error'] == 'invalidlangcode' ) {
 			$error[] = array( 'wminc-error-wronglangcode', $prefixdata['lang'] );
 		} elseif ( self::isContentProject() ) {
 			# If the user has a test wiki pref, suggest a page title with prefix
@@ -375,7 +375,7 @@ class IncubatorTest {
 	 * @return Boolean
 	 */
 	static function checkPrefixMovePermissions( $oldtitle, $newtitle, $user, &$error ) {
-		if( self::shouldWeShowUnprefixedError( $newtitle ) ) {
+		if ( self::shouldWeShowUnprefixedError( $newtitle ) ) {
 			# there should be an error with the new page title
 			$error = wfMessage( 'wminc-error-move-unprefixed' )->parse();
 			return false;
@@ -409,7 +409,7 @@ class IncubatorTest {
 	 * @return Mixed: the setting from $wgConf->settings
 	 */
 	public static function getConf( $setting, $lang, $project ) {
-		if( !self::canWeCheckDB() ) {
+		if ( !self::canWeCheckDB() ) {
 			return false;
 		}
 		global $wmincProjectDatabases, $wgConf;
@@ -419,7 +419,7 @@ class IncubatorTest {
 		$langUnderscore = str_replace( '-', '_', $lang );
 		$projectName = self::getProject( $project, true, true );
 		$projectCode = self::getProject( $project, false, true );
-		if( !$projectCode ) {
+		if ( !$projectCode ) {
 			global $wmincMultilingualProjects;
 			$projectCode = array_search( $project, $wmincMultilingualProjects );
 		}
@@ -441,7 +441,7 @@ class IncubatorTest {
 	 */
 	static function canWeCheckDB() {
 		global $wmincExistingWikis, $wmincProjectDatabases;
-		if( !is_array( $wmincProjectDatabases ) || !is_array( $wmincExistingWikis ) ) {
+		if ( !is_array( $wmincProjectDatabases ) || !is_array( $wmincExistingWikis ) ) {
 			return false; # We don't know the databases
 		}
 		return true; # Should work now
@@ -454,9 +454,9 @@ class IncubatorTest {
 	 * @return false or string
 	 */
 	static function getDB( $prefix ) {
-		if( !self::canWeCheckDB() ) {
+		if ( !self::canWeCheckDB() ) {
 			return false;
-		} elseif( !$prefix || $prefix['error'] ) {
+		} elseif ( !$prefix || $prefix['error'] ) {
 			return false; # shouldn't be, but you never know
 		}
 		global $wmincProjectDatabases, $wgDummyLanguageCodes;
@@ -465,7 +465,7 @@ class IncubatorTest {
 		$dbProject = isset( $wmincProjectDatabases[$project] ) ?
 			$wmincProjectDatabases[$project] : $project;
 		$redirectcode = array_search( $prefix['lang'], $wgDummyLanguageCodes );
-		if( $redirectcode ) {
+		if ( $redirectcode ) {
 			$prefix['lang'] = $redirectcode;
 		}
 		return strtolower( $dbLang . $dbProject );
@@ -476,7 +476,7 @@ class IncubatorTest {
 	 */
 	static function getDBClosedWikis() {
 		global $wmincClosedWikis;
-		if( !self::canWeCheckDB() || !$wmincClosedWikis ) {
+		if ( !self::canWeCheckDB() || !$wmincClosedWikis ) {
 			return false;
 		}
 		# Is probably a file, but it might be that an array is given
@@ -490,14 +490,14 @@ class IncubatorTest {
 	 */
 	static function getDBState( $prefix ) {
 		$db = self::getDB( $prefix );
-		if( !$db ) {
+		if ( !$db ) {
 			return false;
 		}
 		global $wmincExistingWikis;
 		$closed = self::getDBClosedWikis();
-		if( !in_array( $db, $wmincExistingWikis ) ) {
+		if ( !in_array( $db, $wmincExistingWikis ) ) {
 			return 'missing'; # not in the list
-		} elseif( is_array( $closed ) && in_array( $db, $closed ) ) {
+		} elseif ( is_array( $closed ) && in_array( $db, $closed ) ) {
 			return 'closed'; # in the list of closed wikis
 		}
 		return 'existing';
@@ -513,7 +513,7 @@ class IncubatorTest {
 		$title = $article->getTitle();
 		$prefix = self::analyzePrefix( $title, true /* only info pages */,
 			true /* also sister projects */ );
-		if( !$prefix['error'] ) {
+		if ( !$prefix['error'] ) {
 			self::onShowMissingArticleForInfoPages( $article, $prefix );
 			return true;
 		}
@@ -521,10 +521,10 @@ class IncubatorTest {
 		global $wgOut, $wmincSisterProjects;
 		$prefix2 = self::analyzePrefix( $title, false, true );
 		$p = isset( $prefix2['project' ] ) ? $prefix2['project'] : '';
-		if( self::getDBState( $prefix2 ) == 'existing' ) {
+		if ( self::getDBState( $prefix2 ) == 'existing' ) {
 			$link = self::getSubdomain( $prefix2['lang'], $p,
 				( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
-			if( self::displayPrefix() == $prefix2['prefix'] ) {
+			if ( self::displayPrefix() == $prefix2['prefix'] ) {
 				# Redirect to the existing wiki if the user has this wiki as preference
 				$wgOut->redirect( $link );
 				return true;
@@ -535,7 +535,7 @@ class IncubatorTest {
 					wfMessage( 'wminc-error-wiki-exists' )->rawParams( $showLink )->escaped() .
 				'</div>' );
 			}
-		} elseif( array_key_exists( $p, $wmincSisterProjects ) ) {
+		} elseif ( array_key_exists( $p, $wmincSisterProjects ) ) {
 			# A sister project is not hosted here, so direct the user to the relevant wiki
 			$link = self::getSubdomain( $prefix2['lang'], $p,
 				( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
@@ -545,7 +545,7 @@ class IncubatorTest {
 				'</div>' );
 		} elseif ( self::shouldWeShowUnprefixedError( $title ) ) {
 			# Unprefixed pages
-			if( self::isContentProject() ) {
+			if ( self::isContentProject() ) {
 				# If the user has a test wiki pref, suggest a page title with prefix
 				$suggesttitle = isset( $prefix2['realtitle'] ) ?
 					$prefix2['realtitle'] : $title->getText();
@@ -573,13 +573,13 @@ class IncubatorTest {
 		$wgOut->addModuleStyles( 'WikimediaIncubator.InfoPage' );
 		$infopage = new InfoPage( $title, $prefix );
 		$infopage->mDbStatus = $dbstate = self::getDBState( $prefix );
-		if( $dbstate == 'existing' ) {
+		if ( $dbstate == 'existing' ) {
 			$infopage->mSubStatus = 'beforeincubator';
 			$wgOut->addHtml( $infopage->showExistingWiki() );
-		} elseif( $dbstate == 'closed' ) {
+		} elseif ( $dbstate == 'closed' ) {
 			$infopage->mSubStatus = 'imported';
 			$wgOut->addHtml( $infopage->showIncubatingWiki() );
-		} elseif( self::getMainPage( $prefix['lang'], $prefix['prefix'] )->exists() ) {
+		} elseif ( self::getMainPage( $prefix['lang'], $prefix['prefix'] )->exists() ) {
 			$infopage->mSubStatus = 'open';
 			$wgOut->addHtml( $infopage->showIncubatingWiki() );
 		} else {
@@ -601,7 +601,7 @@ class IncubatorTest {
 	public static function renderParserFunction( &$parser ) {
 		$title = $parser->getTitle();
 		$prefix = IncubatorTest::analyzePrefix( $title );
-		if( $prefix['error'] ) {
+		if ( $prefix['error'] ) {
 			return '<span class="error">' .
 				wfMessage( 'wminc-infopage-error' )->plain() . '</span>';
 		}
@@ -613,7 +613,7 @@ class IncubatorTest {
 
 		$parseOptions = func_get_args();
 		array_shift( $parseOptions ); # not $parser
-		foreach( $parseOptions as $parseOption ) {
+		foreach ( $parseOptions as $parseOption ) {
 			if ( strpos( $parseOption, '=' ) === false ) {
 				continue;
 			}
@@ -628,9 +628,9 @@ class IncubatorTest {
 		$parser->getOptions()->getUserLangObj(); # we have to split the cache by language
 		$parser->getOutput()->setTitleText( $infopage->mFormatTitle ); # sets <h1> & <title>
 
-		if( in_array( $infopage->mSubStatus, array( 'created', 'beforeincubator' ) ) ) {
+		if ( in_array( $infopage->mSubStatus, array( 'created', 'beforeincubator' ) ) ) {
 			$return = $infopage->showExistingWiki();
-		} elseif( self::getMainPage( $prefix['lang'], $prefix['prefix'] )->exists() ) {
+		} elseif ( self::getMainPage( $prefix['lang'], $prefix['prefix'] )->exists() ) {
 			$return = $infopage->showIncubatingWiki();
 		} else {
 			// open wiki, no test wiki main page => missing
@@ -646,7 +646,7 @@ class IncubatorTest {
 	 */
 	public static function onEditFormPreloadText( &$text, &$title ) {
 		$prefix = self::analyzePrefix( $title, true /* only info page */, false /* no sister projects */ );
-		if( !$prefix['error'] ) {
+		if ( !$prefix['error'] ) {
 			$text = wfMessage( 'wminc-infopage-prefill', $prefix['prefix'] )->plain();
 		}
 		return true;
@@ -676,12 +676,12 @@ class IncubatorTest {
 		$msg = wfMessage( 'mainpage' )->inLanguage( $langCode )->plain();
 		$mainpage = $prefix !== null ? $prefix . '/' . $msg : $msg;
 		$title = Title::newFromText( $mainpage );
-		if( $title->exists() ) {
+		if ( $title->exists() ) {
 			return $title; # If it exists, use it
 		}
 		$mainpage = $prefix !== null ? $prefix . '/Main_Page' : 'Main_Page';
 		$title2 = Title::newFromText( $mainpage );
-		if( $title2->exists() ) {
+		if ( $title2->exists() ) {
 			return $title2; # Try the English "Main Page"
 		}
 		return $title; # Nothing exists, use the original again
@@ -693,27 +693,27 @@ class IncubatorTest {
 	 */
 	public static function onMediaWikiPerformAction( $output, $page, $title, $user, $request ) {
 		$prefix = IncubatorTest::analyzePrefix( $title, true );
-		if( $prefix['error'] || $request->getVal( 'goto' ) != 'mainpage' ) {
+		if ( $prefix['error'] || $request->getVal( 'goto' ) != 'mainpage' ) {
 			return true;
 		}
 
 		$dbstate = self::getDBState( $prefix );
-		if( !$dbstate ) {
+		if ( !$dbstate ) {
 			return true;
 		}
-		if( $dbstate == 'existing' ) {
+		if ( $dbstate == 'existing' ) {
 			# redirect to the existing lang.wikiproject.org if it exists
 			$output->redirect( self::getSubdomain( $prefix['lang'], $prefix['project'] ) );
 			return false;
 		}
 		$params['redirectfrom'] = 'infopage';
 		$uselang = $request->getVal( 'uselang' );
-		if( $uselang ) {
+		if ( $uselang ) {
 			# pass through the &uselang parameter
 			$params['uselang'] = $uselang;
 		}
 		$mainpage = self::getMainPage( $prefix['lang'], $prefix['prefix'] );
-		if( $mainpage->exists() ) {
+		if ( $mainpage->exists() ) {
 			# Only redirect to the main page if that page exists
 			$output->redirect( $mainpage->getFullURL( $params ) );
 			return false;
@@ -730,7 +730,7 @@ class IncubatorTest {
 	 */
 	public static function onTitleIsAlwaysKnown( $title, &$isKnown ) {
 		$prefix = self::analyzePrefix( $title, true, true );
-		if( !$prefix['error'] ) {
+		if ( !$prefix['error'] ) {
 			$isKnown = true;
 		}
 		return true;
@@ -744,14 +744,14 @@ class IncubatorTest {
 	static function shouldWeSetCustomLogo( $title ) {
 		$prefix = IncubatorTest::analyzePrefix( $title );
 
-		# Maybe do later something like if( isContentProject() && 'recentchanges' ) { return true; }
+		# Maybe do later something like if ( isContentProject() && 'recentchanges' ) { return true; }
 
 		# return if the page does not have a valid prefix (info page is considered valid)
-		if( $prefix['error'] ) {
+		if ( $prefix['error'] ) {
 			return false;
 		}
 		# display the custom logo only if &testwiki=wx/xx or the user's pref is set to the current test wiki
-		if( self::displayPrefix() != $prefix['prefix'] ) {
+		if ( self::displayPrefix() != $prefix['prefix'] ) {
 			return false;
 		}
 		return $prefix;
@@ -766,14 +766,14 @@ class IncubatorTest {
 	 */
 	static function fnTestWikiLogo( &$out ) {
 		$setLogo = self::shouldWeSetCustomLogo( $out->getTitle() );
-		if( !$setLogo ) {
+		if ( !$setLogo ) {
 			return true;
 		}
 		global $wgLogo;
 		$prefixForPageTitle = str_replace( '/', '-', strtolower( $setLogo['prefix'] ) );
 		$logoMsg = wfMessage( 'Incubator-logo-' . $prefixForPageTitle )->inContentLanguage()->plain();
 		$file = wfFindFile( Title::newFromText( $logoMsg, NS_FILE ) );
-		if( $file ) {
+		if ( $file ) {
 			$thumb = $file->transform( array( 'width' => 135, 'height' => 135 ) );
 			$wgLogo = $thumb->getUrl();
 		} else {
@@ -792,7 +792,7 @@ class IncubatorTest {
 	static function onPageContentLanguage( $title, &$pageLang ) {
 		global $wgLang;
 		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
-		if( !$prefix['error'] ) {
+		if ( !$prefix['error'] ) {
 			$pageLang = self::validatePrefix( $title, true ) ?
 				$wgLang : Language::factory( $prefix['lang'] );
 		}
@@ -807,7 +807,7 @@ class IncubatorTest {
 	 * @return true
 	 */
 	public static function onSpecialSearchCreateLink( $title, &$params ) {
-		if( $title->isKnown() ) {
+		if ( $title->isKnown() ) {
 			return true;
 		}
 		global $wmincProjectSite, $wmincTestWikiNamespaces;
@@ -815,17 +815,17 @@ class IncubatorTest {
 
 		$newNs = $title->getNamespace();
 		$newTitle = $title->getText();
-		if( !in_array( $title->getNamespace(), $wmincTestWikiNamespaces ) ) {
+		if ( !in_array( $title->getNamespace(), $wmincTestWikiNamespaces ) ) {
 			# namespace not affected by the prefix system: show normal msg
 			return true;
-		} elseif( $prefix == $wmincProjectSite['short'] ) {
+		} elseif ( $prefix == $wmincProjectSite['short'] ) {
 			$newNs = NS_PROJECT;
 		} else {
 			$newTitle = $prefix . '/' . $newTitle;
 		}
 
 		$t = Title::newFromText( $newTitle, $newNs );
-		if( $t->isKnown() ) {
+		if ( $t->isKnown() ) {
 			# use the default message if the suggested title exists
 			$params[0] = 'searchmenu-exists';
 			$params[1] = wfEscapeWikiText( $t->getPrefixedText() );
@@ -851,7 +851,7 @@ class IncubatorTest {
 	 * @return true
 	 */
 	public static function onSpecialSearchSetupEngine( $search, $profile, $engine ) {
-		if( !isset( $search->prefix ) || !$search->prefix ) {
+		if ( !isset( $search->prefix ) || !$search->prefix ) {
 			$search->prefix = self::displayPrefix();
 		}
 		return true;

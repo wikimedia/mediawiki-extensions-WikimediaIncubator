@@ -22,7 +22,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		$this->mProjects = array_merge( $wmincProjects, $wmincSisterProjects );
 
 		# Queries
-		if( $subpage ) {
+		if ( $subpage ) {
 			$subpage = explode( '/', $subpage );
 		}
 		$projectQuery = $this->getRequest()->getText( 'searchproject', isset( $subpage[0] ) ? $subpage[0] : '' );
@@ -65,9 +65,9 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 	protected function doSearch( $projectQuery, $languageQuery ) {
 		## Match project ##
-		if( isset( $this->mProjects[$projectQuery] ) ) {
+		if ( isset( $this->mProjects[$projectQuery] ) ) {
 			$matchProject = $projectQuery; # searched with a project code (select box)
-		} elseif( $projectCode = array_search( $projectQuery, $this->mProjects ) ) {
+		} elseif ( $projectCode = array_search( $projectQuery, $this->mProjects ) ) {
 			$matchProject = $projectCode; # searched with a project name
 		} else {
 			return $this->getOutput()->addWikiMsg( 'wminc-searchwiki-noproject' );
@@ -78,27 +78,27 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		$lcLanguageQuery = strtolower( $languageQuery );
 		# The more important, the more below, because they override earlier codes
 		$validCodes = array_keys( Language::fetchLanguageNames( 'en', 'all' ) );
-		if( in_array( $lcLanguageQuery, $validCodes ) ) {
+		if ( in_array( $lcLanguageQuery, $validCodes ) ) {
 			$builtinCode = Language::factory( $lcLanguageQuery )->getCode();
 			$results[$builtinCode] = 'langcode'; # Match language code
 		}
 		$lcLanguageQuery = self::strip( $languageQuery );
-		if( $codeByEnglishName = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mEnglishNames ) ) ) {
+		if ( $codeByEnglishName = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mEnglishNames ) ) ) {
 			$results[$codeByEnglishName] = 'englishname'; # Match name in English
 		}
-		if( $codeUserLang = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mNamesUserLang ) ) ) {
+		if ( $codeUserLang = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mNamesUserLang ) ) ) {
 			$results[$codeUserLang] = 'userlangname'; # Match name in user language
 		}
-		if( $codeByNativeName = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mNativeNames ) ) ) {
+		if ( $codeByNativeName = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mNativeNames ) ) ) {
 			$results[$codeByNativeName] = 'nativename'; # Match native name 
 		}
 
-		if( count( $results ) === 1 ) {
+		if ( count( $results ) === 1 ) {
 			$this->gotoWiki( $matchProject, key( $results ) );
-		} elseif( count( $results ) < 1 ) {
+		} elseif ( count( $results ) < 1 ) {
 			$noresult = Html::element( 'p', array( 'class' => 'error' ), wfMessage( 'wminc-searchwiki-noresults' )->text() );
 			return $this->getOutput()->addHTML( $noresult );
-		} elseif( count( $results ) > 1 ) {
+		} elseif ( count( $results ) > 1 ) {
 			self::showMultipleResults( $matchProject, $languageQuery, $results );
 		}
 	}
@@ -135,7 +135,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	protected function showMultipleResults( $project, $languageQuery, $results ) {
 		$this->getOutput()->addHTML( '<div id="wminc-searchwiki-results">' .
 			Xml::element( 'p', array(), wfMessage( 'wminc-searchwiki-multiplematches' )->text() ) . '<ul>' );
-		foreach( $results as $resultCode => $resultType ) {
+		foreach ( $results as $resultCode => $resultType ) {
 			$langName = $this->mNamesUserLang[$resultCode];
 			$infopage = Title::newFromText( IncubatorTest::displayPrefix( $project, $resultCode, true ) );
 			$linkInfoPage = Linker::linkKnown( $infopage, wfMessage( 'wminc-searchwiki-gotoinfopage' )->text() );

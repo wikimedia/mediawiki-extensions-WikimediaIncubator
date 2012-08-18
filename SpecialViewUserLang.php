@@ -70,7 +70,7 @@ class SpecialViewUserLang extends SpecialPage {
 	function showInfo( $target ) {
 		global $wmincPref, $wmincProjectSite;
 		$user = User::newFromName( $target );
-		if( User::isIP( $target ) || !$user ) {
+		if ( User::isIP( $target ) || !$user ) {
 			# show error if it is an IP address, or another error occurs
 			$this->getOutput()->addHTML( Xml::span( wfMessage( 'wminc-ip', $target )->text(), 'error' ) );
 			return;
