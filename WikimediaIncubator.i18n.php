@@ -232,10 +232,11 @@ $messages['ady-cyrl'] = array(
 
 /** Achinese (Acèh)
  * @author Fadli Idris
+ * @author Si Gam Acèh
  */
 $messages['ace'] = array(
 	'wminc-desc' => 'Sistem cuba wiki keu Wikimedia Incubator',
-	'wminc-viewuserlang' => 'Kaleun bahsa pengguna dan cuba wiki',
+	'wminc-viewuserlang' => 'Kalon bahsa ureueng nguy ngon wiki neuujoe',
 );
 
 /** Afrikaans (Afrikaans)
@@ -669,6 +670,7 @@ $messages['br'] = array(
 	'wminc-testwiki' => 'Wiki testiñ :',
 	'wminc-testwiki-code' => 'Yezh ar wiki amprouiñ :',
 	'wminc-testwiki-none' => 'Hini ebet / An holl',
+	'wminc-testwiki-site' => "(Trezalc'h)",
 	'wminc-recentchanges-all' => 'An holl gemmoù diwezhañ',
 	'wminc-prefinfo-language' => "Yezh hoc'h etrefas - distag diouzh hini ho wiki testiñ",
 	'wminc-prefinfo-code' => 'Kod ISO 639 ar yezh',
@@ -703,6 +705,13 @@ $messages['br'] = array(
 	'wminc-searchwiki-match-englishname' => '"$1" eo anv $2 e saozneg.',
 	'wminc-searchwiki-match-nativename' => '"$1" eo anv $2 er yezh-se.',
 	'wminc-searchwiki-gotoinfopage' => 'Pajenn gelaouiñ',
+	'wminc-fs-pagetitle' => "Heñcher loc'hañ - $1",
+	'wminc-fs-langselect-title' => 'Dibab ar yezh',
+	'wminc-fs-signup-title' => 'En em enskrivañ',
+	'wminc-fs-settings-title' => 'Termeniñ ho penndibaboù evit ar wiki',
+	'wminc-fs-userpage-title' => 'Krouiñ ho fajenn implijer',
+	'wminc-fs-startwiki-title' => 'Kregiñ gant ho wiki',
+	'wminc-fs-pagetitle-done' => ' - graet !',
 );
 
 /** Bosnian (bosanski)
@@ -2149,7 +2158,7 @@ $messages['ja'] = array(
 	'wminc-testwiki-none' => 'なし/すべて',
 	'wminc-recentchanges-all' => '最近の更新をすべて表示',
 	'wminc-prefinfo-language' => 'あなたのインターフェイス言語 (あなたの試験版ウィキとは独立しています)',
-	'wminc-prefinfo-code' => 'ISO 639 言語コード',
+	'wminc-prefinfo-code' => '自分が作業している言語の ISO 639 コード',
 	'wminc-prefinfo-project' => 'ウィキメディア・プロジェクトを選択する (「Incubator」オプションは全般的な作業を行う利用者のためのものです)',
 	'wminc-prefinfo-error' => 'あなたが選択したプロジェクトは言語コードが必要です。',
 	'wminc-error-move-unprefixed' => 'エラー: あなたが移動しようとしているページは[[{{MediaWiki:Wminc-error-help}}|接頭辞を誤っています]]!',
@@ -2189,6 +2198,12 @@ $messages['ja'] = array(
 	'wminc-searchwiki-match-englishname' => '"$1" は $2 の英語での名前です。',
 	'wminc-searchwiki-match-nativename' => '"$1" は $2 のその言語での名前です。',
 	'wminc-searchwiki-gotoinfopage' => '情報ページ',
+	'wminc-fs-pagetitle' => '開始準備ウィザード - $1',
+	'wminc-fs-langselect-title' => '言語を選択',
+	'wminc-fs-signup-title' => '利用者登録',
+	'wminc-fs-userpage-title' => '自分の利用者ページを作成',
+	'wminc-fs-startwiki-title' => '自分のウィキを開始',
+	'wminc-fs-pagetitle-done' => ' - 完了!',
 );
 
 /** Jamaican Creole English (Patois)
@@ -3398,6 +3413,7 @@ $messages['ro'] = array(
 	'group-test-sysop-member' => '{{GENDER:$1|administrator de wiki destinat testelor}}',
 	'grouppage-test-sysop' => '{{ns:project}}:Administratori wiki de încercare',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Limba „$3”]] este o [[wikipedia:ro:ISO 639 macrolimbă|macrolimbă]], incluzând următoarele limbi:',
+	'wminc-searchwiki-noproject' => 'Nu ați selectat un proiect.',
 	'wminc-searchwiki-selectproject' => 'De căutat:',
 	'wminc-searchwiki-inputlanguage' => 'În limba:',
 	'wminc-searchwiki-go' => 'Du-te',
@@ -4292,10 +4308,11 @@ $messages['vi'] = array(
 	'wminc-testwiki' => 'Wiki thử:',
 	'wminc-testwiki-code' => 'Ngôn ngữ wiki thử nghiệm:',
 	'wminc-testwiki-none' => 'Không có / tất cả',
+	'wminc-testwiki-site' => '(Bảo trì)',
 	'wminc-recentchanges-all' => 'Mọi thay đổi gần đây',
 	'wminc-prefinfo-language' => 'Ngôn ngữ giao diện của bạn – có thể khác với wiki thử',
-	'wminc-prefinfo-code' => 'Mã ngôn ngữ ISO 639',
-	'wminc-prefinfo-project' => 'Hãy chọn dự án Wikimedia (hay Vườn ươm để làm việc chung)',
+	'wminc-prefinfo-code' => 'Mã ISO 639 của ngôn ngữ tại đây mà bạn đang đóng góp vào',
+	'wminc-prefinfo-project' => 'Chọn dự án Wikimedia tại đây mà bạn đang đóng góp vào',
 	'wminc-prefinfo-error' => 'Bạn đã chọn một dự án bắt phải có mã ngôn ngữ.',
 	'wminc-error-move-unprefixed' => 'Lỗi: Tên mới của trang [[{{MediaWiki:Wminc-error-help}}|thiếu tiền tố hoặc có tiền tố sai]]!',
 	'wminc-error-wronglangcode' => "'''Lỗi:''' Trang này có [[{{MediaWiki:Wminc-error-help}}|mã ngôn ngữ sai]] “$1”!",
@@ -4332,6 +4349,13 @@ $messages['vi'] = array(
 	'wminc-searchwiki-match-englishname' => '“$1” là tên của $2 trong tiếng Anh.',
 	'wminc-searchwiki-match-nativename' => '“$1” là tên của $2 trong ngôn ngữ đó.',
 	'wminc-searchwiki-gotoinfopage' => 'trang thông tin',
+	'wminc-fs-pagetitle' => 'Trình Thuật sĩ Bắt đầu – $1',
+	'wminc-fs-langselect-title' => 'Chọn ngôn ngữ',
+	'wminc-fs-signup-title' => 'Đăng ký',
+	'wminc-fs-settings-title' => 'Đặt các tùy chọn wiki của bạn',
+	'wminc-fs-userpage-title' => 'Tạo trang cá nhân của bạn',
+	'wminc-fs-startwiki-title' => 'Bắt đầu wiki mới',
+	'wminc-fs-pagetitle-done' => ' – xong!',
 );
 
 /** Yiddish (ייִדיש)

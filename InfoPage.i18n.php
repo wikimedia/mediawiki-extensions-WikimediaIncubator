@@ -613,6 +613,7 @@ $messages['fi'] = array(
  * @author Gomoko
  * @author Hashar
  * @author Seb35
+ * @author Tititou36
  */
 $messages['fr'] = array(
 	'wminc-infopage-enter' => 'aller à la page principale',
@@ -626,7 +627,8 @@ $messages['fr'] = array(
 	'wminc-infopage-title-v' => 'Wikiversité en $1',
 	'wminc-infopage-welcome' => 'Bienvenue sur l’Incubateur Wikimedia, un projet de la Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|à propos]])',
 	'wminc-infopage-missingwiki-text' => '$1 dans cette langue n’existe pas.',
-	'wminc-infopage-option-startwiki' => 'Si vous voulez démarrer ce wiki, vous pouvez [{{fullurl:{{FULLPAGENAME}}|action=edit}} créer cette page] et suivre [[{{MediaWiki:Wminc-manual-url}}|notre manuel]].',
+	'wminc-infopage-option-startwiki' => "Si vous voulez démarrer ce wiki, merci de suivre
+'''[$3 ces étapes]''' et [[{{MediaWiki:Wminc-manual-url}}|notre manuel]].",
 	'wminc-infopage-option-startsister' => 'Si vous voulez commencer ce wiki, vous pouvez vous rendre sur <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Vous pouvez chercher des [//www.$1.org versions linguistiques existantes de $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Vous pouvez chercher des projets existants dans cette langue :',
@@ -685,8 +687,8 @@ $messages['gl'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity en $1',
 	'wminc-infopage-welcome' => 'Benvido á Incubadora da Wikimedia, un proxecto da Fundación Wikimedia ([[{{MediaWiki:Aboutpage}}|acerca de]])',
 	'wminc-infopage-missingwiki-text' => 'Aínda non existe $1 nesta lingua.',
-	'wminc-infopage-option-startwiki' => 'Se quere comezar este wiki,
-pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear esta páxina] e seguir [[{{MediaWiki:Wminc-manual-url}}|o noso manual]].',
+	'wminc-infopage-option-startwiki' => "Se quere comezar este wiki, siga
+'''[$3 estes pasos]''' e mais [[{{MediaWiki:Wminc-manual-url}}|o noso manual]].",
 	'wminc-infopage-option-startsister' => 'Se quere comezar este wiki, pode ir a <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Pode ollar [//www.$1.org as linguas nas que hai $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Pode ollar os proxectos que hai nesta lingua:',
@@ -1213,8 +1215,8 @@ $messages['ms'] = array(
 	'wminc-infopage-title-v' => 'Wikiversiti $1',
 	'wminc-infopage-welcome' => 'Selamat datang ke Wikimedia Incubator, satu projek Yayasan Wikimedia ([[{{MediaWiki:Aboutpage}}|Perihal]])',
 	'wminc-infopage-missingwiki-text' => '$1 dalam bahasa ini belum wujud.',
-	'wminc-infopage-option-startwiki' => 'Jika anda mahu memulakan wiki ini,
-anda boleh [{{fullurl:{{FULLPAGENAME}}|action=edit}} mencipta lamannya] dan mengikuti [[{{MediaWiki:Wminc-manual-url}}|panduan kami]].',
+	'wminc-infopage-option-startwiki' => "Jika anda mahu membuka wiki ini,
+sila ikut '''[$3 langkah-langkah ini]''' dan [[{{MediaWiki:Wminc-manual-url}}|panduan kami]].",
 	'wminc-infopage-option-startsister' => 'Jika anda ingin membuka wiki ini, anda boleh pergi ke <b>[$2 $1]</b>.',
 	'wminc-infopage-option-languages-existing' => 'Anda boleh mencari [//www.$1.org edisi-edisi bahasa sedia ada bagi $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Anda boleh mencari projek-projek yang sedia ada dalam bahasa ini:',
