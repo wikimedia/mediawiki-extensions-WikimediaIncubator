@@ -66,7 +66,7 @@ $messages['en'] = array(
 
 	# Search
 	'wminc-search-nocreate-nopref' => 'You searched for "$1". Please set your [[Special:Preferences|test wiki preference]] so we can tell you which page you can create!',
-	'wminc-search-nocreate-suggest' => 'You searched for "$1". You can create a page in your wiki at <b>[[$2]]</b>!',
+	'wminc-search-nocreate-suggest' => 'You searched for "$1". You can create a page in your wiki at <strong>[[$2]]</strong>!',
 
 	# SearchWiki
 	'wminc-searchwiki' => 'Search for a wiki',
@@ -80,7 +80,7 @@ $messages['en'] = array(
 	'wminc-searchwiki-match-userlangname' => '$1 is the name of a language.',
 	'wminc-searchwiki-match-englishname' => '"$1" is the name for $2 in English.',
 	'wminc-searchwiki-match-nativename' => '"$1" is the name for $2 in that language.',
-	'wminc-searchwiki-goto' => '<b>$1</b> ($2)',
+	'wminc-searchwiki-goto' => '<strong>$1</strong> ($2)',
 	'wminc-searchwiki-gotoinfopage' => 'info page',
 
 	# Special:IncubatorFirstSteps
@@ -103,7 +103,7 @@ The second one is the project you want to contribute to and the third one is the
 If you don\'t know the code, please consult our [[{{MediaWiki:Wminc-manual-url}}|manual]] or ask for [[{{MediaWiki:Portal-url}}|help]].',
 	'wminc-fs-userpage-text' => 'Please now create your userpage $1 with some basic info about yourself. You can also see a link to it at the top of this page.',
 	'wminc-fs-globaluser-text' => 'Your user account is local. It is recommended to make it global via $1 so you can use it on any Wikimedia wiki.',
-	'wminc-fs-startwiki-text' => 'The prefix of your wiki is <b>$1</b>. You can start the wiki by creating the wiki\'s Main Page at <b>$2</b>.',
+	'wminc-fs-startwiki-text' => 'The prefix of your wiki is <strong>$1</strong>. You can start the wiki by creating the wiki\'s Main Page at <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'The prefix of your wiki is $1. The Main Page is at $2. You can now collaborate with other speakers of this language to build a community!
 If you want to create a page, just type in the name in the search box above, and follow the link you will see.',
 );

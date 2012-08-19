@@ -37,7 +37,7 @@ $messages['en'] = array(
 	'wminc-infopage-missingwiki-text' => 'A $1 in this language does not yet exist.',
 	'wminc-infopage-option-startwiki' => 'If you want to start this wiki, please follow
 \'\'\'[$3 these steps]\'\'\' and [[{{MediaWiki:Wminc-manual-url}}|our manual]].',
-	'wminc-infopage-option-startsister' => 'If you want to start this wiki, you can go to <b>[$2 $1]</b>.',
+	'wminc-infopage-option-startsister' => 'If you want to start this wiki, you can go to <strong>[$2 $1]</strong>.',
 	'wminc-infopage-option-languages-existing' => 'You can search for [//www.$1.org existing language editions of $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'You can search for existing projects in this language:',
 	'wminc-infopage-option-sisterprojects-other' => 'You can search for other projects in this language:',
@@ -52,7 +52,7 @@ $messages['en'] = array(
 
 	'wminc-infopage-status-open' => 'This is an open wiki of Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'This Incubator wiki has been imported from $1 after the wiki was closed.',
-	'wminc-infopage-status-closedsister' => 'This subdomain was closed. Go to <b>$2</b> to contribute to this wiki.',
+	'wminc-infopage-status-closedsister' => 'This subdomain was closed. Go to <strong>$2</strong> to contribute to this wiki.',
 	'wminc-infopage-status-approved' => 'This Incubator wiki has been approved by the [[meta:Special:MyLanguage/Language_committee|language committee]] and will be created soon.',
 	'wminc-infopage-status-created' => 'This project has been approved by the language committee and is now available at $1.',
 	'wminc-infopage-status-beforeincubator' => 'This project was created before Wikimedia Incubator started and is available at $1.',
