@@ -2159,7 +2159,7 @@ $messages['ja'] = array(
 	'wminc-recentchanges-all' => '最近の更新をすべて表示',
 	'wminc-prefinfo-language' => 'あなたのインターフェイス言語 (あなたの試験版ウィキとは独立しています)',
 	'wminc-prefinfo-code' => '自分が作業している言語の ISO 639 コード',
-	'wminc-prefinfo-project' => 'ウィキメディア・プロジェクトを選択する (「Incubator」オプションは全般的な作業を行う利用者のためのものです)',
+	'wminc-prefinfo-project' => 'ここで作業しているウィキメディアプロジェクトを選択',
 	'wminc-prefinfo-error' => 'あなたが選択したプロジェクトは言語コードが必要です。',
 	'wminc-error-move-unprefixed' => 'エラー: あなたが移動しようとしているページは[[{{MediaWiki:Wminc-error-help}}|接頭辞を誤っています]]!',
 	'wminc-error-wronglangcode' => 'エラー: このページには[[{{MediaWiki:Wminc-error-help}}|正しくない言語コード]] 「$1」が含まれています。',
@@ -3422,8 +3422,10 @@ $messages['ro'] = array(
 	'wminc-searchwiki-match-userlangname' => '$1 este numele unei limbi.',
 	'wminc-searchwiki-match-englishname' => '„$1” este numele limbii $2 în engleză.',
 	'wminc-searchwiki-match-nativename' => '„$1” este numele limbii $2 în respectiva limbă.',
+	'wminc-searchwiki-gotoinfopage' => 'pagină informativă',
 	'wminc-fs-langselect-title' => 'Selectare limbă',
 	'wminc-fs-signup-title' => 'Înregistrare',
+	'wminc-fs-userpage-title' => 'Creați-vă pagina de utilizator',
 	'wminc-fs-pagetitle-done' => ' – realizat!',
 );
 

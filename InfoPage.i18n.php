@@ -491,8 +491,8 @@ $messages['es'] = array(
 	'wminc-infopage-title-v' => 'Wikiversidad $1',
 	'wminc-infopage-welcome' => 'Bienvenidos a la Incubadora de Wikimedia, un proyecto de la Fundación Wikimedia ([[{{MediaWiki:Aboutpage}}|Acerca de]])',
 	'wminc-infopage-missingwiki-text' => 'Un $1 en este idioma todavía no existe.',
-	'wminc-infopage-option-startwiki' => 'Si deseas comenzar este wiki,
-puedes [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear la página] y seguir [[{{MediaWiki:Wminc-manual-url}}|nuestro manual]].',
+	'wminc-infopage-option-startwiki' => "Si deseas comenzar este wiki,
+sigue '''[$3 estos pasos]''' y [[{{MediaWiki:Wminc-manual-url}}|nuestro manual]].",
 	'wminc-infopage-option-startsister' => 'Si deseas iniciar esta wiki, puedes ir a <strong>[$2 $1].</strong>',
 	'wminc-infopage-option-languages-existing' => 'Puede buscar [//www.$1.org ediciones existentes en el idioma $1 ].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Puedes buscar proyectos existentes en este idioma:',
@@ -931,9 +931,11 @@ $messages['ja'] = array(
 	'wminc-infopage-option-multilingual' => '多言語のウィキを利用できます：',
 	'wminc-infopage-createmainpage' => '"Main Page" をこの言語で入力してください：',
 	'wminc-infopage-contribute' => 'この言語を知っている場合は、貢献することをお勧めします！',
+	'wminc-infopage-status-open' => 'これはウィキメディアインキュベーターのオープンなウィキです。',
 	'wminc-infopage-status-imported' => 'このインキュベーターウィキは、ウィキの閉鎖後に $1 から取り込まれました。',
-	'wminc-infopage-status-closedsister' => 'このサブドメインは閉鎖されました。このウィキに貢献するにはこちら：<strong>$2</strong>',
+	'wminc-infopage-status-closedsister' => 'このサブドメインは閉鎖されました。このウィキに貢献するにはこちら: <strong>$2</strong>',
 	'wminc-infopage-status-beforeincubator' => 'このプロジェクトはウィキメディアインキュベーターの開始以前に作成されました。$1 で利用できます。',
+	'wminc-infopage-status-beforeincubator-sister' => 'このプロジェクトは $1 で利用できます。',
 );
 
 /** Georgian (ქართული)
