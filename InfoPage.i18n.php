@@ -614,9 +614,10 @@ $messages['fi'] = array(
  * @author Hashar
  * @author Seb35
  * @author Tititou36
+ * @author Urhixidur
  */
 $messages['fr'] = array(
-	'wminc-infopage-enter' => 'aller à la page principale',
+	'wminc-infopage-enter' => 'aller à la page d’accueil',
 	'wminc-unknownlang' => '(code de langue inconnu)',
 	'wminc-infopage-title-p' => 'Wikipédia en $1',
 	'wminc-infopage-title-b' => 'Wikibooks en $1',
@@ -626,7 +627,7 @@ $messages['fr'] = array(
 	'wminc-infopage-title-s' => 'Wikisource en $1',
 	'wminc-infopage-title-v' => 'Wikiversité en $1',
 	'wminc-infopage-welcome' => 'Bienvenue sur l’Incubateur Wikimedia, un projet de la Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|à propos]])',
-	'wminc-infopage-missingwiki-text' => '$1 dans cette langue n’existe pas.',
+	'wminc-infopage-missingwiki-text' => '$1 n’existe pas encore dans cette langue.',
 	'wminc-infopage-option-startwiki' => "Si vous voulez démarrer ce wiki, merci de suivre
 '''[$3 ces étapes]''' et [[{{MediaWiki:Wminc-manual-url}}|notre manuel]].",
 	'wminc-infopage-option-startsister' => 'Si vous voulez commencer ce wiki, vous pouvez vous rendre sur <strong>[$2 $1]</strong>.',
@@ -634,13 +635,14 @@ $messages['fr'] = array(
 	'wminc-infopage-option-sisterprojects-existing' => 'Vous pouvez chercher des projets existants dans cette langue :',
 	'wminc-infopage-option-sisterprojects-other' => 'Vous pouvez chercher d’autres projets dans cette langue :',
 	'wminc-infopage-option-multilingual' => 'Vous pouvez aller vers un wiki multilingue :',
-	'wminc-infopage-createmainpage' => 'Entrez le mot « Page principale » dans votre langue :',
+	'wminc-infopage-createmainpage' => 'Saisissez l’expression « Page d’accueil » dans cette langue :',
 	'wminc-infopage-contribute' => 'Si vous parlez cette langue, vous êtes invités à contribuer !',
-	'wminc-infopage-status-open' => "Il s'agit d'un wiki ouvert de Wikimedia Incubator.",
+	'wminc-infopage-status-open' => 'Il s’agit d’un wiki ouvert de l’Incubateur Wikimedia.',
 	'wminc-infopage-status-imported' => 'Ce wiki Incubateur a été importé depuis $1 après que le wiki ait été fermé.',
 	'wminc-infopage-status-closedsister' => 'Ce sous-domaine a été fermé. Veuillez vous rendre sur <strong>$2</strong> pour contribuer à ce wiki.',
+	'wminc-infopage-status-approved' => 'Ce wiki incubateur a été approuvé par le [[meta:Special:MyLanguage/Language_committee|Comité linguistique]] et sera bientôt créé.',
 	'wminc-infopage-status-created' => 'Ce projet a été approuvé par le comité linguistique et est maintenant disponible sur $1.',
-	'wminc-infopage-status-beforeincubator' => 'Ce projet a été créé avant que l’Incubateur Wikimedia ait été lancé et est disponible sur $1.',
+	'wminc-infopage-status-beforeincubator' => 'Ce projet, disponible sur $1, a été créé avant que l’Incubateur Wikimedia ait été lancé.',
 	'wminc-infopage-status-beforeincubator-sister' => 'Ce projet est disponible sur $1 .',
 	'wminc-infopage-error' => 'Erreur: {{#infopage}} ne peut être utilisé que sur des pages préfixées.',
 );
@@ -1445,7 +1447,7 @@ $messages['ro'] = array(
 	'wminc-infopage-title-s' => 'Wikisursă $1',
 	'wminc-infopage-title-v' => 'Wikiversitate $1',
 	'wminc-infopage-missingwiki-text' => '$1 în această limbă nu există.',
-	'wminc-infopage-option-multilingual' => 'Poți merge pe un wiki multilingvistic:',
+	'wminc-infopage-option-multilingual' => 'Puteți merge pe un wiki multilingvistic:',
 	'wminc-infopage-status-beforeincubator-sister' => 'Acest proiect este disponibil la $1.',
 );
 
