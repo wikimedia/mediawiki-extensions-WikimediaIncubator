@@ -871,4 +871,13 @@ class IncubatorTest {
 		$linktext = ltrim( $url, '/' );
 		return $callLinker ? Linker::makeExternalLink( $url, $linktext ) : $linktext;
 	}
+
+	/**
+	 * @param $files
+	 * @return true
+	 */
+	public static function onUnitTestsList( array &$files ) {
+		$files[] = dirname( __FILE__ ) . '/IncubatorUnitTests.php';
+		return true;
+	}
 }

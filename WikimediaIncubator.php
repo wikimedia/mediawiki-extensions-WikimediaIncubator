@@ -166,3 +166,6 @@ $wgSpecialPages['SearchWiki'] = 'SpecialSearchWiki';
 /* IncubatorFirstSteps */
 $wgAutoloadClasses['SpecialIncubatorFirstSteps'] = $dir . 'SpecialIncubatorFirstSteps.php';
 $wgSpecialPages['IncubatorFirstSteps'] = 'SpecialIncubatorFirstSteps';
+
+/* Tests */
+$wgHooks['UnitTestsList'][] = 'IncubatorTest::onUnitTestsList';
