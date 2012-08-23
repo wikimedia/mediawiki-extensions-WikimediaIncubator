@@ -592,7 +592,7 @@ $messages['fi'] = array(
 	'wminc-infopage-welcome' => 'Tervetuloa Wikimedia Hautomoon, Wikimedia Foundationin projektiin ([[{{MediaWiki:Aboutpage}}|tietoja]])',
 	'wminc-infopage-missingwiki-text' => '$1-hanketta ei ole vielä tällä kielellä.',
 	'wminc-infopage-option-startwiki' => 'Jos haluat aloittaa tämän wikin, voit [{{fullurl:{{FULLPAGENAME}}|action=edit}} luoda sivun] ja seurata [[{{MediaWiki:Wminc-manual-url}}|käsikirjamme ohjeita]].',
-	'wminc-infopage-option-startsister' => 'Jos haluat aloittaa tämän wikin, voit mennä sivulle <strong>[$2 $1]</strong>.',
+	'wminc-infopage-option-startsister' => 'Jos haluat aloittaa tämän wikin, mene sivulle <strong>[$2 $1]</strong>.',
 	'wminc-infopage-option-languages-existing' => 'Voit etsiä [//www.$1.org sivuston $1 muita kieliversioita].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Voit etsiä nykyisiä hankkeita tällä kielellä:',
 	'wminc-infopage-option-sisterprojects-other' => 'Voit etsiä muita hankkeita tällä kielellä:',
@@ -601,7 +601,7 @@ $messages['fi'] = array(
 	'wminc-infopage-contribute' => 'Jos osaat tätä kieltä, muokkaa rohkeasti!',
 	'wminc-infopage-status-open' => 'Tämä on Wikimedia Hautomon avoin wiki.',
 	'wminc-infopage-status-imported' => 'Tämä Incubator-wiki on tuotu osoitteesta $1, kun wiki suljettiin.',
-	'wminc-infopage-status-closedsister' => 'Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <strong>$2</strong> muokataksesi wikiä.',
+	'wminc-infopage-status-closedsister' => 'Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <strong>$2</strong>, jos haluat muokata wikiä.',
 	'wminc-infopage-status-created' => 'Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.',
 	'wminc-infopage-status-beforeincubator' => 'Tämä projekti luotiin ennen kuin Wikimedia Incubator käynnistettiin ja se on saatavilla osoitteessa $1.',
 );
