@@ -3940,13 +3940,14 @@ $messages['sv'] = array(
 
 /** Swahili (Kiswahili)
  * @author Kwisha
+ * @author Lloffiwr
  */
 $messages['sw'] = array(
 	'wminc-listwikis' => 'Orodha ya Wiki',
 	'wminc-recentchanges-all' => 'Mabadiliko yote ya juzi',
 	'wminc-viewuserlang-user' => 'Jina la mtumiaji:',
 	'wminc-viewuserlang-go' => 'Nenda',
-	'wminc-searchwiki-inputlanguage' => 'Katika lugha:',
+	'wminc-searchwiki-inputlanguage' => 'Kwa lugha ya:',
 	'wminc-searchwiki-go' => 'Nenda',
 	'wminc-fs-langselect-title' => 'Chagua lugha',
 	'wminc-fs-signup-title' => 'Jisajili',
