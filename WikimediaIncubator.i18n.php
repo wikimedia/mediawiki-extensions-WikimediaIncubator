@@ -1925,6 +1925,10 @@ $messages['hsb'] = array(
 	'wminc-fs-langselect' => 'W $1 abo $2 dale činić',
 	'wminc-fs-signup-text' => 'Jeli maš hižo wužiwarske konto, prošu [$1 přizjew so]. Jeli hišće nimaš žane konto, prošu [$2 załož wužiwarske konto].
 Wono trěbne njeje, ale doporuča so naležnje a traje jenož por sekundow, zo by jo załožiło.',
+	'wminc-fs-settings-text' => 'Prošu dźi nětko k [[Special:Preferences|swojim nastajenjam]] a změń nastajenje swojeho testoweho wikija.
+Naprawo widźiš relewantne opcije, kotrež maš na tej stronje. Prěnja je twoja rěč za wužiwarski powjerch, kotruž sy w prěnim kroku wubrał, ale móžeš ju hišće změnić.
+Druha je projekt, ke kotremuž chceš přinošować, a třeća je rěčny kod projekta, ke kotremuž chceš přinošować.
+Jeli kod njewěš, skonsultuj našu [[{{MediaWiki:Wminc-manual-url}}|přiručku]] abo poproš wo [[{{MediaWiki:Portal-url}}|pomoc]].',
 	'wminc-fs-userpage-text' => 'Prošu wutwor wužiwarsku stronu $1 z něšto informacijemi wo sebi. Móžeš tež wotkaz k njej horjeka na stronje widźeć.',
 	'wminc-fs-globaluser-text' => 'Twoje wužiwarske konto je lokalne. Poruča so jo přez $1 globalne činić, zo by móhł jo na kóždym wikiju Wikimedije wužiwać.',
 	'wminc-fs-startwiki-text' => '$1 je prefiks twojeho wikija. Móžeš hłownu stronu wikija na $2 wutworić.',
