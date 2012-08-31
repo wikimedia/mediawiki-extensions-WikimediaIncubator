@@ -857,7 +857,7 @@ $messages['de'] = array(
 	'wminc-code-retired' => 'Dieser Sprachcode wurde geändert und bezieht sich nicht mehr auf die ursprüngliche Sprache.',
 	'wminc-listusers-testwiki' => 'Du siehst Benutzer, die ihre Testwikieinstellung auf $1 eingestellt haben.',
 	'wminc-search-nocreate-nopref' => 'Du suchtest nach „$1“. Bitte lege die [[Special:Preferences|Einstellungen für Dein Testwiki]] fest, damit wir dir mitteilen können, welche Seite du erstellen kannst.',
-	'wminc-search-nocreate-suggest' => 'Du suchtest nach „$1“. Du kannst in Deinem Testwiki eine Seite unter <strong>[[$2]]</strong> erstellen.',
+	'wminc-search-nocreate-suggest' => 'Du suchtest nach „$1“. Du kannst in deinem Testwiki eine Seite unter <strong>[[$2]]</strong> erstellen.',
 	'wminc-searchwiki' => 'Nach einem Wiki suchen',
 	'wminc-searchwiki-noproject' => 'Du hast kein Projekt ausgewählt.',
 	'wminc-searchwiki-noresults' => 'Keine Ergebnisse. Du kannst nach Sprachcodes, muttersprachlichen Bezeichnungen sowie Bezeichnungen in deiner voreingestellten Sprache oder in Englisch suchen.',
@@ -918,7 +918,7 @@ Die zweite Option ist das Projekt, zu dem Sie beitragen wollen, und die dritte s
 Wenn Sie den Code nicht kennen, ziehen Sie bitte unser [[{{MediaWiki:Wminc-manual-url}}|Handbuch]] zu Rate oder [[{{MediaWiki:Portal-url}}|fragen Sie nach]].',
 	'wminc-fs-userpage-text' => 'Bitte erstellen Sie jetzt Ihre Benutzerseite $1 mit einigen grundlegenden Informationen über sich selbst. Sie finden hierzu auch einen Link oben auf dieser Seite.',
 	'wminc-fs-globaluser-text' => 'Sie haben ein lokales Benutzerkonto. Es wird empfohlen, es über $1 zu einem globalen Benutzerkonto zu machen, so dass Sie es auf jedem Wikimedia-Wiki benutzen können.',
-	'wminc-fs-startwiki-text' => 'Das Präfix Ihres Wikis ist $1. Sie können die Hauptseite unter $2 erstellen.',
+	'wminc-fs-startwiki-text' => 'Das Präfix Ihres Wikis ist <strong>$1</strong>. Sie können das Wiki mit dem Erstellen der Hauptseite unter <strong>$2</strong> starten.',
 	'wminc-fs-startwiki-exists-text' => 'Das Präfix Ihres Wikis lautet $1. Die Hauptseite befindet sich auf $2. Sie können jetzt mit anderen Sprechern dieser Sprache zusammenarbeiten, um eine Community aufzubauen!
 Wenn Sie eine Seite erstellen möchten, geben Sie einfach den Seitennamen in das Suchfeld oben ein und folgen Sie dem Link, der erscheint.',
 );
@@ -1634,7 +1634,7 @@ A segunda é o proxecto no que quere contribuír e a terceira é o código de li
 Se non sabe o código, consulte o noso [[{{MediaWiki:Wminc-manual-url}}|manual]] ou pida [[{{MediaWiki:Portal-url}}|axuda]].',
 	'wminc-fs-userpage-text' => 'Agora cree a súa páxina de usuario $1 con algunha información básica sobre vostede. Tamén pode ollar unha ligazón ata ela na parte superior desta páxina.',
 	'wminc-fs-globaluser-text' => 'A súa conta de usuario é local. Recoméndase facela global a través de $1 de xeito que poida utilizala en calquera wiki da Wikimedia.',
-	'wminc-fs-startwiki-text' => 'O prefixo do seu wiki é $1. Pode crear a páxina principal do wiki en $2.',
+	'wminc-fs-startwiki-text' => 'O prefixo do seu wiki é <strong>$1</strong>. Pode comezar o seu wiki creando a páxina principal en <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'O prefixo do seu wiki é $1. A páxina principal está en $2. Agora pode colaborar con outros falantes desta lingua para construír unha comunidade!
 Se quere crear unha páxina, escriba o nome na caixa de procuras superior e siga a ligazón que aparecerá.',
 );
@@ -2161,7 +2161,7 @@ La seconda è il progetto a cui si vuole contribuire e la terza è il codice lin
 Se non si conosce il codice, consultare il [[{{MediaWiki:Wminc-manual-url}}|manuale]] o chiedere [[{{MediaWiki:Portal-url}}|aiuto]].',
 	'wminc-fs-userpage-text' => 'Creare la propria pagina utente $1 con alcune informazioni personali essenziali. È presente un link a essa anche nella parte superiore di questa pagina.',
 	'wminc-fs-globaluser-text' => 'Il tuo account utente è locale. Si consiglia di renderlo globale tramite $1 in modo da poterlo utilizzare su qualsiasi wiki di Wikimedia.',
-	'wminc-fs-startwiki-text' => 'Il prefisso del tuo wiki è $1. È possibile creare la pagina principale del wiki su $2.',
+	'wminc-fs-startwiki-text' => 'Il prefisso del tuo wiki è <strong>$1</strong>. È possibile avviare il wiki creando la pagina principale del wiki su <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'Il prefisso del tuo wiki è $1. La pagina principale è a $2. Ora si può collaborare con le altre persone che parlano questa lingua per creare una comunità. Se si desidera creare una pagina è sufficiente scriverne il nome nella casella di ricerca qui sopra e seguire il collegamento che sarà visibile.',
 );
 
@@ -2208,7 +2208,7 @@ $messages['ja'] = array(
 	'wminc-code-retired' => 'この言語コードには変更があり、元の言語を指さないようになりました。',
 	'wminc-listusers-testwiki' => 'あなたは試験版ウィキの設定を $1 にしている利用者を表示しています。',
 	'wminc-search-nocreate-nopref' => 'あなたは「$1」を検索しました。どのページを作成できるのか、あなたに知らせられるように[[Special:Preferences|試験版ウィキの設定]]を行ってください。',
-	'wminc-search-nocreate-suggest' => 'あなたは「$1」を検索しました。あなたはこのウィキで<strong>[[$2]]</strong>を作成できます。',
+	'wminc-search-nocreate-suggest' => '「$1」を検索しました。<strong>[[$2]]</strong> で、このウィキにページを作成できます。',
 	'wminc-searchwiki' => 'wiki を検索',
 	'wminc-searchwiki-noproject' => 'プロジェクトを選択しませんでした。',
 	'wminc-searchwiki-noresults' => '結果はありません。言語コード、ネイティブ名、あなたのインターフェイス言語での名前、英語のいずれかで検索できます。',
@@ -2220,6 +2220,7 @@ $messages['ja'] = array(
 	'wminc-searchwiki-match-userlangname' => '$1 は言語名です。',
 	'wminc-searchwiki-match-englishname' => '"$1" は $2 の英語での名前です。',
 	'wminc-searchwiki-match-nativename' => '"$1" は $2 のその言語での名前です。',
+	'wminc-searchwiki-goto' => '<strong>$1</strong> ($2)',
 	'wminc-searchwiki-gotoinfopage' => '情報ページ',
 	'wminc-fs-pagetitle' => '開始準備ウィザード - $1',
 	'wminc-fs-langselect-title' => '言語を選択',
@@ -2227,6 +2228,7 @@ $messages['ja'] = array(
 	'wminc-fs-userpage-title' => '自分の利用者ページを作成',
 	'wminc-fs-startwiki-title' => '自分のウィキを開始',
 	'wminc-fs-pagetitle-done' => ' - 完了!',
+	'wminc-fs-globaluser-text' => 'あなたの利用者アカウントはローカルです。$1でグローバルにして、ウィキメディアのあらゆるウィキで使用できるようにすることをお勧めします。',
 );
 
 /** Jamaican Creole English (Patois)
@@ -2376,7 +2378,7 @@ $messages['ko'] = array(
 필요하지는 않지만 만드는 것이 좋으며 만드는 데에 몇 초 걸리지 않습니다.',
 	'wminc-fs-userpage-text' => '지금 자신에 대한 몇 가지 기본 정보를 사용하여 $1 사용자 토론을 만드세요. 또한 이 문서의 위에 이에 대한 링크를 볼 수 있습니다.',
 	'wminc-fs-globaluser-text' => '사용자 계정이 로컬 계정입니다. 모든 위키미디어 위키에 사용할 수 있도록 $1을 통해 계정을 통합하는 것을 권장합니다.',
-	'wminc-fs-startwiki-text' => '위키의 접두어는 $1입니다. $2에서 위키의 대문을 만들 수 있습니다.',
+	'wminc-fs-startwiki-text' => '위키의 접두어는 <strong>$1</strong>입니다. <strong>$2</strong>에서 위키의 대문 만들기로 위키를 시작할 수 있습니다.',
 );
 
 /** Komi-Permyak (Перем Коми)
@@ -2757,7 +2759,7 @@ $messages['mk'] = array(
 Ако не го знаете кодот, консултирајте го [[{{MediaWiki:Wminc-manual-url}}|прирачникот]] или побарајте [[{{MediaWiki:Portal-url}}|помош]].',
 	'wminc-fs-userpage-text' => 'Сега создајте си ја корисничката страница $1 и внесете основни информации за вас. На врвот од страницата ќе забележите и врска до неа.',
 	'wminc-fs-globaluser-text' => 'Корисничката сметка ви е локална. Се препорачува да ја глобализирате преку $1 за да можете да ја користите на сите викија на Викимедија.',
-	'wminc-fs-startwiki-text' => 'Префиксот на вашето вики гласи $1. Главната страница можете да ја создадете на $2.',
+	'wminc-fs-startwiki-text' => 'Префиксот на вашето вики гласи <strong>$1</strong>. Отпочнете го викито со создавање на Главната страница на <strong>$2</strong>..',
 	'wminc-fs-startwiki-exists-text' => 'Префиксот на вашето вики гласи $1. Главната страница се наоѓа на $2. Сега можете да соработувате со други говорници на овој јазик и така да создадете заедница!
 Ако сакате да создадете страница, само внесете го името во полето за пребарување (погоре), и стиснете на врската што ќе ви се прикаже.',
 );
