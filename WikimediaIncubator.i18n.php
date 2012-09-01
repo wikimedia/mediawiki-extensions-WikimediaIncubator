@@ -1416,7 +1416,7 @@ $messages['fi'] = array(
 	'wminc-code-retired' => 'Tämä kielikoodi on muutettu, ja se ei enää viittaa alkuperäiseen kieleen.',
 	'wminc-listusers-testwiki' => 'Katselet käyttäjiä, jotka ovat asettaneet testiwikinsä asetukseksi $1.',
 	'wminc-search-nocreate-nopref' => 'Etsit hakusanalla "$1". Aseta [[Special:Preferences|testiwikin asetukset]], jotta voimme kertoa sinulle minkä sivun voit luoda!',
-	'wminc-search-nocreate-suggest' => 'Etsit hakusanalla "$1". Voit luoda sivun wikissäsi napsauttamalla <strong>[[$2]]</strong>!',
+	'wminc-search-nocreate-suggest' => 'Etsit hakusanalla ”$1”. Voit luoda sivun <strong>[[$2]]</strong> tähän wikiin!',
 	'wminc-searchwiki-selectproject' => 'Etsi seuraavaa:',
 	'wminc-searchwiki-inputlanguage' => 'Kielellä:',
 	'wminc-searchwiki-go' => 'Siirry',
@@ -3033,18 +3033,18 @@ $messages['ne'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'wminc-desc' => 'Testwiki-systeem voor Wikimedia Incubator',
+	'wminc-desc' => 'Testwikisysteem voor Wikimedia Incubator',
 	'wminc-manual' => 'Handleiding',
 	'wminc-listwikis' => "Lijst met wiki's",
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-code' => 'Testwikitaal:',
-	'wminc-testwiki-none' => 'Geen/alles',
+	'wminc-testwiki-none' => 'Geen/alle',
 	'wminc-testwiki-site' => '(Onderhoud)',
 	'wminc-recentchanges-all' => 'Alle recente wijzigingen',
 	'wminc-prefinfo-language' => 'Uw interfacetaal - onafhankelijk van uw testwiki',
 	'wminc-prefinfo-code' => 'De ISO 639-code van de taal waar u hier aan werkt',
 	'wminc-prefinfo-project' => 'Selecteer het Wikimedia-project waar u aan werkt',
-	'wminc-prefinfo-error' => 'U selecteerde een project dat een taalcode nodig heeft.',
+	'wminc-prefinfo-error' => 'U hebt een project geselecteerd dat een taalcode nodig heeft.',
 	'wminc-error-move-unprefixed' => 'Fout: De doelpagina waarnaar u probeert te hernoemen [[{{MediaWiki:Wminc-error-help}}|heeft geen of een verkeerd voorvoegsel]]!',
 	'wminc-error-wronglangcode' => "'''Fout:''' Deze pagina bevat een [[{{MediaWiki:Wminc-error-help}}|verkeerde taalcode]] \"\$1\".",
 	'wminc-error-unprefixed' => "'''Fout:''' Deze pagina heeft [[{{MediaWiki:Wminc-error-help}}|geen voorvoegsel]]!",
@@ -3097,7 +3097,7 @@ De tweede is het project waaraan u wilt bijdragen en de derde is de taalcode van
 Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|handleiding]] of [[{{MediaWiki:Portal-url}}|vraag om hulp]].',
 	'wminc-fs-userpage-text' => 'Maak nu uw gebruikerspagina $1 aan met wat gegevens over uzelf. U ziet bovenaan deze pagina ook een verwijzing naar die pagina.',
 	'wminc-fs-globaluser-text' => 'Uw gebruiker is lokaal. Het is aanbevolen om deze globaal te maken via $1 zodat u deze voor elke Wikimediawiki kunt gebruiken.',
-	'wminc-fs-startwiki-text' => 'Het voorvoegsel van uw wiki is $1. U kunt de Hoofdpagina van de wiki aanmaken op $2.',
+	'wminc-fs-startwiki-text' => 'Het voorvoegsel van uw wiki is <strong>$1</strong>. U kunt de wiki beginnen door de hoofdpagina van de wiki aan te maken op <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'Het voorvoegsel van uw wiki is $1. De Hoofdpagina is te vinden op $2. U kunt nu samenwerken met andere sprekers van deze talen om een gemeenschap op te bouwen!
 Als u een pagina wil aanmaken, typ gewoon de naam in het zoekvak bovenaan, en volg de verwijzing die u ziet.',
 );
