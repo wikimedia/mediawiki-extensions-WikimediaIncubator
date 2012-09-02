@@ -1342,8 +1342,8 @@ $messages['pms'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity $1',
 	'wminc-infopage-welcome' => "Bin ëvnù a l'Incubator ëd Wikimedia, un proget ëd la Fondassion Wikimedia ([[{{MediaWiki:Aboutpage}}|A propòsit]])",
 	'wminc-infopage-missingwiki-text' => 'Un $1 an costa lenga a esist ancor nen.',
-	'wminc-infopage-option-startwiki' => "S'a veule ancaminé costa wiki,
-a peul [{{fullurl:{{FULLPAGENAME}}|action=edit}} creé la pàgina] e andeje dapress a [[{{MediaWiki:Wminc-manual-url}}|nòstr manual]].",
+	'wminc-infopage-option-startwiki' => "S'a veule ancaminé costa wiki, për piasì và dré a
+'''[$3 sti pass]''' e a [[{{MediaWiki:Wminc-manual-url}}|nòstr manual]].",
 	'wminc-infopage-option-startsister' => "S'it veule ancaminé sta wiki, it peule andé a <strong>[$2 $1]</strong>.",
 	'wminc-infopage-option-languages-existing' => "It peule serché [//www.$1.org j'edission esistente an lenga ëd $1].",
 	'wminc-infopage-option-sisterprojects-existing' => 'A peul sërché dij proget esistent an costa lenga:',
@@ -1354,8 +1354,10 @@ a peul [{{fullurl:{{FULLPAGENAME}}|action=edit}} creé la pàgina] e andeje dapr
 	'wminc-infopage-status-open' => "Costa a l'é na wiki duverta ëd l'Incubator ëd Wikimedia.",
 	'wminc-infopage-status-imported' => "Costa wiki Incubator a l'é stàita amportà da $1 apress che la wiki a l'é stàita sarà.",
 	'wminc-infopage-status-closedsister' => "Ës sot-domini a l'é stàit sarà. Ch'a vada a <strong>$2</strong> për contribuì a costa wiki.",
+	'wminc-infopage-status-approved' => "Sta wiki d'Incubator a 'é staita aprovà dal [[meta:Special:MyLanguage/Language_committee|language committee]] e a sarà creà prest.",
 	'wminc-infopage-status-created' => "Ës proget a l'é stàit aprovà dal comità lenghìstich e a l'é adess disponìbil a $1.",
 	'wminc-infopage-status-beforeincubator' => "Ës proget a l'é stàit creà prima che l'Incubator ëd Wikipedia a partèissa e a l'é disponìbil a $1.",
+	'wminc-infopage-status-beforeincubator-sister' => "Sto proget a l'é disponìbil a $1.",
 	'wminc-infopage-error' => 'Eror: {{#infopage}} a peul mach esse dovrà dzora a dle pàgine prefissà..',
 );
 
