@@ -4384,6 +4384,11 @@ $messages['vi'] = array(
 	'wminc-fs-userpage-title' => 'Tạo trang cá nhân của bạn',
 	'wminc-fs-startwiki-title' => 'Bắt đầu wiki mới',
 	'wminc-fs-pagetitle-done' => ' – xong!',
+	'wminc-fs-intro' => 'Hoan nghênh, trình thuật sĩ bước đầu của {{SITENAME}} sẽ hướng dẫn bạn bắt đầu xây dựng một wiki mới.',
+	'wminc-fs-langselect' => 'Tiếp tục trong $1 hoặc $2',
+	'wminc-fs-signup-text' => 'Nếu bạn đã có tài khoản, xin vui lòng [$1 đăng nhập]. Nếu chưa có, xin vui lòng [$2 mở tài khoản mới].
+Bạn không nhất thiết phải đăng ký nhưng rất khuyên khích dành một chút xíu để mở tài khoản mới.',
+	'wminc-fs-startwiki-text' => 'Tiền tố của wiki là <strong>$1</strong>. Hãy bắt đầu wiki này với một Trang Chính tại <strong>$2</strong>.',
 );
 
 /** Yiddish (ייִדיש)
