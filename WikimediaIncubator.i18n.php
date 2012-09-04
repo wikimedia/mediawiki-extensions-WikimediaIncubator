@@ -4170,7 +4170,7 @@ Ang pangalawa ay ang proyektong nais mong pag-ambagan at ang pangatlo ay ang kod
 Kung hindi mo alam ang kodigo, paki sumangguni sa aming [[{{MediaWiki:Wminc-manual-url}}|pamatnubay]] o humingi ng [[{{MediaWiki:Portal-url}}|tulong]].',
 	'wminc-fs-userpage-text' => 'Paki likhain na ngayon ang iyong pahina ng tagagamit na $1 na mayroong saligang kabatiran hinggil sa sarili mo. Matitingnan mo rin ang isang kawing na papunta rito na nasa itaas ng pahinang ito.',
 	'wminc-fs-globaluser-text' => 'Katutubo ang iyong akawnt ng tagagamit. Iminumungkahi na gawin itong pangglobo sa mamagitan ng $1 upang magamit mo ito sa anumang wiki ng Wikimedia.',
-	'wminc-fs-startwiki-text' => 'Ang unlapi ng wiki mo ay $1. Malilikha mo ang Pangunahing Pahina ng wiki roon sa $2.',
+	'wminc-fs-startwiki-text' => 'Ang unlapi ng wiki mo ay <strong>$1</strong>. Masisimulan mo ang wiki sa pamamagitan ng paglikha ng Pangunahing Pahina ng wiki roon sa <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'Ang unlapi ng wiki mo ay $1. Ang Pangunahing Pahina ay naroon sa $2. Maaari ka nang makipagtulungan sa iba pang mga tagapagsalita ng wikang ito upang makabuo ng isang pamayanan!
 Kung nais mong lumikha ng isang pahina, tipahin lamang ang pangalan sa loob ng kahong panghanap na nasa itaas, at sundan ang kawing na makikita mo.',
 );
@@ -4388,7 +4388,11 @@ $messages['vi'] = array(
 	'wminc-fs-langselect' => 'Tiếp tục trong $1 hoặc $2',
 	'wminc-fs-signup-text' => 'Nếu bạn đã có tài khoản, xin vui lòng [$1 đăng nhập]. Nếu chưa có, xin vui lòng [$2 mở tài khoản mới].
 Bạn không nhất thiết phải đăng ký nhưng rất khuyên khích dành một chút xíu để mở tài khoản mới.',
+	'wminc-fs-userpage-text' => 'Hãy tạo trang cá nhân $1 để chia sẻ những thông tin cơ bản về chính bạn. Một liên kết ở đầu trang này cũng dẫn đến trang cá nhân.',
+	'wminc-fs-globaluser-text' => 'Bạn đang sử dụng một tài khoản địa phương. Gợi ý bạn làm nó thành một tài khoản toàn cầu tại $1 để cho có thể sử dụng nó tại bất cứ wiki nào trực thuộc Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Tiền tố của wiki là <strong>$1</strong>. Hãy bắt đầu wiki này với một Trang Chính tại <strong>$2</strong>.',
+	'wminc-fs-startwiki-exists-text' => 'Tiền tố của wiki là $1, và Trang Chính có sẵn tại $2. Bây giờ bạn có thể cộng tác với những người khác cũng nói ngôn ngữ này để xây dựng một cộng đồng!
+Để tạo ra trang mới, chỉ việc nhập tên trang vào hộp tìm kiếm ở trên và theo dõi liên kết xuất hiện.',
 );
 
 /** Yiddish (ייִדיש)
