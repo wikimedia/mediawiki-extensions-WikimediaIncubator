@@ -4388,6 +4388,10 @@ $messages['vi'] = array(
 	'wminc-fs-langselect' => 'Tiếp tục trong $1 hoặc $2',
 	'wminc-fs-signup-text' => 'Nếu bạn đã có tài khoản, xin vui lòng [$1 đăng nhập]. Nếu chưa có, xin vui lòng [$2 mở tài khoản mới].
 Bạn không nhất thiết phải đăng ký nhưng rất khuyên khích dành một chút xíu để mở tài khoản mới.',
+	'wminc-fs-settings-text' => 'Bây giờ xin vui lòng mở [[Special:Preferences|Tùy chọn]] để thay đổi wiki thử nghiệm của bạn.
+Ở bên phải có các tùy chọn có liên quan tại trang đó. Cái đầu tiên là ngôn ngữ giao diện mà bạn đã lựa chọn nhưng lúc nào có thể thay đổi.
+Cái thứ hai là dự án để đóng góp vào, và sau đó là mã ngôn ngữ của dự án để đóng góp vào.
+Nếu bạn không biết mã ngôn ngữ, hãy tham khảo [[{{MediaWiki:Wminc-manual-url}}|hướng dẫn]] hoặc [[{{MediaWiki:Portal-url}}|yêu cầu trợ giúp]].',
 	'wminc-fs-userpage-text' => 'Hãy tạo trang cá nhân $1 để chia sẻ những thông tin cơ bản về chính bạn. Một liên kết ở đầu trang này cũng dẫn đến trang cá nhân.',
 	'wminc-fs-globaluser-text' => 'Bạn đang sử dụng một tài khoản địa phương. Gợi ý bạn làm nó thành một tài khoản toàn cầu tại $1 để cho có thể sử dụng nó tại bất cứ wiki nào trực thuộc Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Tiền tố của wiki là <strong>$1</strong>. Hãy bắt đầu wiki này với một Trang Chính tại <strong>$2</strong>.',
