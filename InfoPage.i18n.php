@@ -1579,8 +1579,8 @@ $messages['sl'] = array(
 	'wminc-infopage-title-v' => 'Wikiverza $1',
 	'wminc-infopage-welcome' => 'Dobrodošli na Wikimediinem Inkubatorju, projektu Fundacije Wikimedia ([[{{MediaWiki:Aboutpage}}|O projektu]])',
 	'wminc-infopage-missingwiki-text' => '$1 v tem jeziku še ne obstaja.',
-	'wminc-infopage-option-startwiki' => 'Če želite zagnati ta wiki,
-lahko [{{fullurl:{{FULLPAGENAME}}|action=edit}} ustvarite stran] in sledite [[{{MediaWiki:Wminc-manual-url}}|našemu priročniku]].',
+	'wminc-infopage-option-startwiki' => "Če želite zagnati wiki, sledite
+'''[$3 tem korakom]''' and [[{{MediaWiki:Wminc-manual-url}}|našemu priročniku]].",
 	'wminc-infopage-option-startsister' => 'Če želite zagnati ta wiki, pojdite na <strong>[$2 $1]</strong>.',
 	'wminc-infopage-option-languages-existing' => 'Iščete lahko [//www.$1.org obstoječe jezikovne izdaje $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Iščete lahko obstoječe projekte v tem jeziku:',
@@ -1591,8 +1591,10 @@ lahko [{{fullurl:{{FULLPAGENAME}}|action=edit}} ustvarite stran] in sledite [[{{
 	'wminc-infopage-status-open' => 'To je odprti wiki Inkubatorja Wikimedie.',
 	'wminc-infopage-status-imported' => 'Ta wiki Inkubatorja je bil uvožen iz $1 po zaprtju wikija.',
 	'wminc-infopage-status-closedsister' => 'Poddomena je zaprta. Pojdite na <strong>$2</strong>, da prispevate k temu wikiju.',
+	'wminc-infopage-status-approved' => 'Wiki Inkubatorja je odobril [[meta:Special:MyLanguage/Language_committee|jezikovni odbor]] in bo kmalu ustvarjen.',
 	'wminc-infopage-status-created' => 'Projekt je odobril  jezikovni odbor in je sedaj na voljo na $1.',
 	'wminc-infopage-status-beforeincubator' => 'Projekt je nastal pred zagonom Wikimediinega Inkubatorja in je na voljo na $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Projekt je na voljo na $1.',
 	'wminc-infopage-error' => 'Napaka: {{#infopage}} se lahko uporablja samo na straneh s predpono.',
 );
 
