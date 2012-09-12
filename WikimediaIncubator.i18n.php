@@ -2929,7 +2929,7 @@ Yang kedua ialah projek yang ingin anda usahakan, dan yang ketiga ialah kod baha
 Jika anda tidak tahu akan kodnya, sila rujuk [[{{MediaWiki:Wminc-manual-url}}|manual]] kami atau minta [[{{MediaWiki:Portal-url}}|tolong]].',
 	'wminc-fs-userpage-text' => 'Sila wujudkan halaman pengguna anda $1 sekarang dengan maklumat asas tentang diri anda. Anda juga boleh melihat pautan kepadanya di bahagian atas halaman ini.',
 	'wminc-fs-globaluser-text' => 'Akaun pengguna anda adalah setempat. Anda disaran agar menjadikannya sejagat melalui $1 supaya anda boleh menggunakannya di mana-mana wiki Wikimedia.',
-	'wminc-fs-startwiki-text' => 'Awalan wiki anda ialah $1. Anda boleh membuat Halaman Utama wiki ini di $2.',
+	'wminc-fs-startwiki-text' => 'Awalan wiki anda ialah <strong>$1</strong>. Anda boleh membuat Halaman Utama wiki ini di <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'Awalan wiki anda ialah $1. Halaman Utama berada di $2. Kini, anda boleh bekerjasama dengan penutur-penutur bahasa ini yang lain untuk membina komuniti!
 Jika anda hendak membuka halaman baru, taipkan sahaja namanya dalam ruangan carian di atas, kemudian ikuti pautan yang akan dipaparkan.',
 );
