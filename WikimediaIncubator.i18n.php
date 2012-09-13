@@ -3292,11 +3292,13 @@ $messages['ps'] = array(
 	'wminc-viewuserlang-go' => 'ورځه',
 	'wminc-userdoesnotexist' => 'د $1 په نوم کارن نشته.',
 	'wminc-ip' => '"$1" يوه آی پي پته ده.',
+	'wminc-searchwiki' => 'د يو ويکي پلټنه',
 	'wminc-searchwiki-selectproject' => 'پلټنه د:',
 	'wminc-searchwiki-inputlanguage' => 'په ژبې د:',
 	'wminc-searchwiki-go' => 'ورځه',
 	'wminc-searchwiki-gotoinfopage' => 'د مخ مالومات',
 	'wminc-fs-langselect-title' => 'ژبه ټاکل',
+	'wminc-fs-startwiki-title' => 'ويکي مو پيل کړۍ',
 	'wminc-fs-pagetitle-done' => ' - ترسره شو!',
 );
 

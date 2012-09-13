@@ -404,6 +404,7 @@ $messages['diq'] = array(
 	'wminc-infopage-status-closedsister' => 'Bın domainê enay racneyayo. Qan dê iştıraxa şırê <strong>$2</strong>',
 	'wminc-infopage-status-created' => "Komitey zıwani ena proca kerda tesdiq u pelada $1'dı esta.",
 	'wminc-infopage-status-beforeincubator' => "Dest pêkerdışê ena procer Wikimedia Incubator dı veror vıraziyayo u pela da $1'dı esto.",
+	'wminc-infopage-status-beforeincubator-sister' => 'Procey $1 esto.',
 	'wminc-infopage-error' => 'Xırab: peley veroleya ho ke {{#infopage}} dı karênê.',
 );
 
