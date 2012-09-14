@@ -956,8 +956,8 @@ $messages['ka'] = array(
 	'wminc-infopage-title-s' => 'ვიკიწყარო $1',
 	'wminc-infopage-title-v' => 'ვიკივერსიტეტი $1',
 	'wminc-infopage-welcome' => 'კეთილი იყოს თქვენი მობრძანება ვიკიმედიის ინკუბატორში, ფონდი ვიკიმედიის პროექტი ([[{{MediaWiki:Aboutpage}}|პროექტის შესახებ]])',
-	'wminc-infopage-option-startwiki' => 'თუ თქვენ გსურთ დაიწყოთ ეს ვიკი,
-თქვენ შეგიძლიათ [{{fullurl:{{FULLPAGENAME}}|action=edit}} შექმნათ გვერდი] და მიჰყვეთ [[{{MediaWiki:Wminc-manual-url}}|ჩვენ სახელმძღვანელოს]].',
+	'wminc-infopage-option-startwiki' => "თუ თქვენ გსურთ დაიწყოთ ეს ვიკი, გთხოვთ შეასრულოთ
+'''[$3 შემდეგი ნაბიჯები]''' და მიჰყვეთ [[{{MediaWiki:Wminc-manual-url}}|ჩვენ სახელმძღვანელოს]].",
 	'wminc-infopage-option-startsister' => 'თუ თქვენ გსურთ ამ ვიკის დაწყება, თქვენ სეგიძლიათ გადახვიდეთ <strong>[ $2  $1 ] </strong>-თან.',
 	'wminc-infopage-option-languages-existing' => 'თქვენ შეგიძლიათ მოძებნოთ [//www.$1.org არსებული ენობრივი განყოფილებები $1-თვის].',
 	'wminc-infopage-option-sisterprojects-existing' => 'თქვენ შეგიძლიათ მოძებნოთ არსებული პროექტები ამ ენაზე:',
