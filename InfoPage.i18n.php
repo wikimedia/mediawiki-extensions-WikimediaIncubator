@@ -931,6 +931,7 @@ $messages['ja'] = array(
 	'wminc-infopage-welcome' => 'ウィキペディアインキュベーターにようこそ。これはウィキメディア財団([[{{MediaWiki:Aboutpage}}|About]])のプロジェクトです',
 	'wminc-infopage-missingwiki-text' => 'この言語の$1はまだありません。',
 	'wminc-infopage-option-startwiki' => "このウィキを開始したい場合は、'''[$3 これらの手順]'''と[[{{MediaWiki:Wminc-manual-url}}|マニュアル]]に従ってください。",
+	'wminc-infopage-option-startsister' => 'このウィキを開始したい場合は、<strong>[$2 $1]</strong> に移動してください。',
 	'wminc-infopage-option-languages-existing' => '[//www.$1.org 既存の言語版の$1]を検索できます。',
 	'wminc-infopage-option-multilingual' => '多言語のウィキを利用できます：',
 	'wminc-infopage-createmainpage' => '"Main Page" をこの言語で入力してください：',
@@ -1033,8 +1034,7 @@ $messages['ksh'] = array(
 	'wminc-infopage-welcome' => 'Wellkumme em Wikimedia Inkubator, enem Projäk vun der [[{{MediaWiki:Aboutpage}}|Wikimedija Schteftong]]',
 	'wminc-infopage-missingwiki-text' => '{{ucfirst:{{GRAMMAR:e|$1}}}} en dä Schprooch jidd et noch nit.
 ',
-	'wminc-infopage-option-startwiki' => 'Wann De met heh dämm Wiki loßlääje wells,
-kanns De [{{fullurl:{{FULLPAGENAME}}|action=edit}} di Sigg aanlääje] un Desch dobei aan [[{{MediaWiki:Wminc-manual-url}}|ons Aanleidong]] halle.',
+	'wminc-infopage-option-startwiki' => 'Wann De met heh dämm Wiki loßlääje wells, donn Desch aan [$3 di Schredde] un aan [[{{MediaWiki:Wminc-manual-url}}|ons Aanleidong]] hallde.',
 	'wminc-infopage-option-startsister' => 'Wann de met heh däm Wiki aanfange wells, kanns De noh <strong>[$2 $1]</strong> jonn.',
 	'wminc-infopage-option-languages-existing' => 'Do kanns noh [//www.$1.org Schprooche_Ußjaabe {{GRAMMAR:vum|{{ucfirst:$1}}}} söhke].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Do kanns noh Projäkte en heh dä Schprooch söhke, di et ald jitt:',
@@ -1045,8 +1045,10 @@ kanns De [{{fullurl:{{FULLPAGENAME}}|action=edit}} di Sigg aanlääje] un Desch 
 	'wminc-infopage-status-open' => 'Dat heh es e offe Wiki om Wikimeedija <i lang="en">Incubator</i>.',
 	'wminc-infopage-status-imported' => 'Dat Wiki heh es en der Wikimeedija <i lang="en">Incubator</i> vun $1 empotteet woode, nohdämm et doh zohjemaat woode wohr.',
 	'wminc-infopage-status-closedsister' => 'Di Ongerdomäjn es zohjemaat. Jangk noh <strong>$2</strong>, öm en dämm Wiki heh jät ze donn.',
+	'wminc-infopage-status-approved' => 'Heh dat Wiki es vum [[meta:Special:MyLanguage/Language_committee|Schprochekummittee]] jenehmeasch un sull no bahl aanjelaat wääde.',
 	'wminc-infopage-status-created' => 'at Projäk heh wood vum Sprooche_Kummitee aanjenumme un es jäz onger $1 ze fenge.',
 	'wminc-infopage-status-beforeincubator' => 'Dat Projäk wood ald bejunne, ih dat et dä Wikimedia <i lang="en">Incubator</i> joov, un et es op $1 ze fenge.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Heh dat Projäk es onger $1 ze fenge.',
 	'wminc-infopage-error' => 'Fähler: {{#infopage}} kam_mer bloß op Sigge bruche, di e Köözel als Vörsaz han.',
 );
 

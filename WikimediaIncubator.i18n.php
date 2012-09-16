@@ -2225,6 +2225,7 @@ $messages['ja'] = array(
 	'wminc-fs-pagetitle' => '開始準備ウィザード - $1',
 	'wminc-fs-langselect-title' => '言語を選択',
 	'wminc-fs-signup-title' => '利用者登録',
+	'wminc-fs-settings-title' => 'ウィキの設定の変更',
 	'wminc-fs-userpage-title' => '自分の利用者ページを作成',
 	'wminc-fs-startwiki-title' => '自分のウィキを開始',
 	'wminc-fs-pagetitle-done' => ' - 完了!',
