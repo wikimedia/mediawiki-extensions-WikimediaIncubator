@@ -68,6 +68,7 @@ $wgGroupPermissions['test-sysop']['block'] = true;
 $wgGroupPermissions['test-sysop']['blockemail'] = true;
 $wgGroupPermissions['test-sysop']['rollback'] = true;
 $wgGroupPermissions['test-sysop']['suppressredirect'] = true;
+$wgGroupPermissions['test-sysop']['autopatrol'] = true;
 $wgAddGroups['bureaucrat'][] = 'test-sysop';
 $wgRemoveGroups['bureaucrat'][] = 'test-sysop';
 
