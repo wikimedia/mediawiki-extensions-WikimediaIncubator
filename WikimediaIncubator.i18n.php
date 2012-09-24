@@ -1420,6 +1420,7 @@ $messages['fi'] = array(
 	'wminc-searchwiki-selectproject' => 'Etsi seuraavaa:',
 	'wminc-searchwiki-inputlanguage' => 'Kielellä:',
 	'wminc-searchwiki-go' => 'Siirry',
+	'wminc-fs-langselect-title' => 'Valitse kieli',
 	'wminc-fs-signup-title' => 'Rekisteröidy',
 	'wminc-fs-pagetitle-done' => ' - valmis!',
 );
