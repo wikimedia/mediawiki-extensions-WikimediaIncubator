@@ -4327,6 +4327,13 @@ $messages['ur'] = array(
 	'wminc-fs-signup-title' => 'سائن اپ کریں',
 );
 
+/** Uzbek (oʻzbekcha)
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'wminc-searchwiki-gotoinfopage' => "ma'lumot sahifasi",
+);
+
 /** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
