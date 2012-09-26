@@ -1391,8 +1391,8 @@ $messages['fi'] = array(
 	'wminc-testwiki-none' => 'Ei lainkaan/Kaikki',
 	'wminc-recentchanges-all' => 'Kaikki viimeisimmät muutokset',
 	'wminc-prefinfo-language' => 'Käyttöliittymän kieli – riippumaton testiwikistäsi',
-	'wminc-prefinfo-code' => 'ISO 639 -kielikoodi',
-	'wminc-prefinfo-project' => 'Valitse Wikimedia-projekti (Hautomo on käyttäjille, jotka tekevät yleisluontoisia askareita)',
+	'wminc-prefinfo-code' => 'Käyttämäsi kielen ISO 639 -kielikoodi',
+	'wminc-prefinfo-project' => 'Valitse Wikimedia-projekti, jota työstät täällä',
 	'wminc-prefinfo-error' => 'Olet valinnut projektin, joka tarvitsee kielikoodin.',
 	'wminc-error-move-unprefixed' => 'Virhe: Sivulla, jota yrität siirtää [[{{MediaWiki:Wminc-error-help}}|ei ole etuliitettä tai etuliite on väärin]]!',
 	'wminc-error-wronglangcode' => "'''Virhe:''' Tällä sivulla on [[{{MediaWiki:Wminc-error-help}}|väärä kielikoodi]] \"\$1\"!",
@@ -1420,8 +1420,10 @@ $messages['fi'] = array(
 	'wminc-searchwiki-selectproject' => 'Etsi seuraavaa:',
 	'wminc-searchwiki-inputlanguage' => 'Kielellä:',
 	'wminc-searchwiki-go' => 'Siirry',
+	'wminc-fs-pagetitle' => 'Ohjattu aloitustoiminto – $1',
 	'wminc-fs-langselect-title' => 'Valitse kieli',
 	'wminc-fs-signup-title' => 'Rekisteröidy',
+	'wminc-fs-startwiki-title' => 'Aloita wiki',
 	'wminc-fs-pagetitle-done' => ' - valmis!',
 );
 
@@ -4519,7 +4521,7 @@ $messages['zh-hans'] = array(
 	'wminc-fs-pagetitle-done' => ' - 完成！',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  * @author Horacewai2
  * @author Liangent
@@ -4539,8 +4541,8 @@ $messages['zh-hant'] = array(
 	'wminc-testwiki-site' => '（維修）',
 	'wminc-recentchanges-all' => '所有最近的更改',
 	'wminc-prefinfo-language' => '您的介面語言 - 在您的測試 wiki 中為獨立的',
-	'wminc-prefinfo-code' => 'ISO 639 語言代碼',
-	'wminc-prefinfo-project' => '選擇維基媒體計劃 （孵育場選項用作一般用途）',
+	'wminc-prefinfo-code' => '您正在操作的語言的ISO 639語言代碼',
+	'wminc-prefinfo-project' => '選擇您正在操作的維基媒體項目',
 	'wminc-prefinfo-error' => '您已選擇一個需要語言代碼的計畫。',
 	'wminc-error-move-unprefixed' => '錯誤：您想要移動頁面到的目的地[[{{MediaWiki:Wminc-error-help}}|沒有前綴或有錯誤的前綴]]！',
 	'wminc-error-wronglangcode' => "'''錯誤'''：此頁面包含了[[{{MediaWiki:Wminc-error-help}}|錯誤的語言代碼]]「$1」!",
@@ -4565,11 +4567,24 @@ $messages['zh-hant'] = array(
 	'wminc-listusers-testwiki' => '您正在查看將測試維基首選項設置為$1的用戶。',
 	'wminc-search-nocreate-nopref' => '您在尋找「$1」。請更改您的[[Special:Preferences|測試維基參數設定]]，以便我們可以告訴您適合創建的頁面種類！',
 	'wminc-search-nocreate-suggest' => '您在尋找“$1”。您可以轉到<strong>[[$2]]</strong>以在您的維基項目中創新一個頁面！',
+	'wminc-searchwiki' => '搜索一個維基站點',
 	'wminc-searchwiki-noproject' => '您沒有選擇一個項目。',
 	'wminc-searchwiki-noresults' => '沒有結果。您可以按語言代碼、該語言、您的介面語言、或英語進行搜索。',
 	'wminc-searchwiki-selectproject' => '尋找：',
+	'wminc-searchwiki-inputlanguage' => '採用語言：',
+	'wminc-searchwiki-go' => '轉到',
+	'wminc-searchwiki-multiplematches' => '您的搜索與下列語言相匹配：',
+	'wminc-searchwiki-match-langcode' => '"$1"是$2的 ISO 639 語言代碼',
 	'wminc-searchwiki-match-userlangname' => '$1是語言名稱。',
+	'wminc-searchwiki-match-englishname' => '"$1"是$2的英文名稱。',
+	'wminc-searchwiki-match-nativename' => '"$1"是$2在該語言中的名稱。',
+	'wminc-searchwiki-gotoinfopage' => '信息頁面',
+	'wminc-fs-pagetitle' => '入門嚮導 - $1',
 	'wminc-fs-langselect-title' => '選擇語言',
+	'wminc-fs-signup-title' => '註冊',
+	'wminc-fs-settings-title' => '設置您的wiki首選項',
+	'wminc-fs-userpage-title' => '創建您的用戶頁',
+	'wminc-fs-startwiki-title' => '開始使用您的wiki',
 	'wminc-fs-pagetitle-done' => ' - 完成！',
 );
 

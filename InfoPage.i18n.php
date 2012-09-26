@@ -1631,10 +1631,10 @@ $messages['sr-ec'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Овај пројекат је направљен пре почетка рада Викимедијиног Инкубатора и доступан је на $1.',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'wminc-infopage-enter' => 'idi na Glavnu stranu',
-	'wminc-unknownlang' => '(nepoznat jezik s kodom „$1“)',
+	'wminc-unknownlang' => '(nepoznat jezički kod)',
 	'wminc-infopage-welcome' => 'Dobro došli na Vikimedijin Inkubator — projekat Zadužbine Vikimedija ([[{{MediaWiki:Aboutpage}}|O projektu]])',
 	'wminc-infopage-missingwiki-text' => 'Na ovom jeziku još ne postoji $1.',
 	'wminc-infopage-option-startwiki' => 'Ako želite da započnete ovaj viki,
@@ -1831,14 +1831,14 @@ $messages['yi'] = array(
 	'wminc-infopage-title-p' => 'וויקיפעדיע $1',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
  * @author Dalt
  * @author Liangent
  */
 $messages['zh-hans'] = array(
 	'wminc-infopage-enter' => '转至主页',
-	'wminc-unknownlang' => '（具有“$1”代码的未明语言）',
+	'wminc-unknownlang' => '（未知的语言代码）',
 	'wminc-infopage-title-p' => '$1维基百科',
 	'wminc-infopage-title-b' => '$1维基教科书',
 	'wminc-infopage-title-t' => '$1维基词典',
