@@ -3293,7 +3293,7 @@ $messages['ps'] = array(
 	'wminc-testwiki-code' => 'د ويکي ژبه آزمويل:',
 	'wminc-testwiki-none' => 'هېڅ/ټول',
 	'wminc-recentchanges-all' => 'ټول وروستي بدلونونه',
-	'wminc-prefinfo-code' => 'د ISO 639 ژبې کوډ',
+	'wminc-prefinfo-code' => 'ستاسې د ژبې ISO 639 کوډ چې تاسې پرې دلته کار کوۍ',
 	'wminc-viewuserlang-user' => 'کارن-نوم:',
 	'wminc-viewuserlang-go' => 'ورځه',
 	'wminc-userdoesnotexist' => 'د $1 په نوم کارن نشته.',
@@ -3304,6 +3304,7 @@ $messages['ps'] = array(
 	'wminc-searchwiki-go' => 'ورځه',
 	'wminc-searchwiki-gotoinfopage' => 'د مخ مالومات',
 	'wminc-fs-langselect-title' => 'ژبه ټاکل',
+	'wminc-fs-signup-title' => 'نومليکل',
 	'wminc-fs-startwiki-title' => 'ويکي مو پيل کړۍ',
 	'wminc-fs-pagetitle-done' => ' - ترسره شو!',
 );
