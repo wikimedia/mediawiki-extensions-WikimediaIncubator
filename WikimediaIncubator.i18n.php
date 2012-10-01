@@ -560,7 +560,7 @@ $messages['bar'] = array(
 	'wminc-code-retired' => "Der Sproochcode is gänderd worn und beziagt sé nimmer auf d' urspryngliche Sprooch.",
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Renessaince
@@ -574,10 +574,11 @@ $messages['be-tarask'] = array(
 	'wminc-testwiki' => 'Тэставая вікі:',
 	'wminc-testwiki-code' => 'Мова тэставай вікі:',
 	'wminc-testwiki-none' => 'Ніякая/усе',
+	'wminc-testwiki-site' => '(тэхнічныя працы)',
 	'wminc-recentchanges-all' => 'Усе апошнія зьмены',
 	'wminc-prefinfo-language' => 'Вашая мова інтэрфэйсу — незалежная ад мовы Вашай тэставай вікі',
-	'wminc-prefinfo-code' => 'Код мовы ISO 639',
-	'wminc-prefinfo-project' => 'Выберыце праект фундацыі «Вікімэдыя» (выберыце варыянт Інкубатар, калі займаецеся агульнай працай)',
+	'wminc-prefinfo-code' => 'Код мовы ISO 639, над якой вы працуеце тут',
+	'wminc-prefinfo-project' => 'Выберыце праект Вікімэдыі, над якім вы працуеце тут',
 	'wminc-prefinfo-error' => 'Вы выбралі праект, які патрабуе код мовы.',
 	'wminc-error-move-unprefixed' => 'Памылка: старонка, якую Вы спрабуеце перанесьці [[{{MediaWiki:Wminc-error-help}}|ня мае прэфіксу ці мае няслушны прэфікс]]!',
 	'wminc-error-wronglangcode' => "'''Памылка:''' гэтая старонка утрымлівае [[{{MediaWiki:Wminc-error-help}}|няслушны код мовы]] «$1»!",
