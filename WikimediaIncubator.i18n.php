@@ -892,7 +892,7 @@ Wenn du den Code nicht kennst, ziehe bitte unser [[{{MediaWiki:Wminc-manual-url}
 Wenn du eine Seite erstellen möchtest, gib einfach den Seitennamen in das Suchfeld oben ein und folge dem Link, der erscheint.',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Geitost
  * @author Imre
  * @author Kghbln
@@ -2466,7 +2466,7 @@ Als Drettes kütt dat Köözel för di Schprooch vun däm Projäk, woh De dren s
 wann dät Közel nit weiß, loor en em [[{{MediaWiki:Wminc-manual-url}}|Handbooch]] noh udder frooch noh [[{{MediaWiki:Portal-url}}|Hölp]].',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -2956,7 +2956,7 @@ $messages['myv'] = array(
 	'wminc-viewuserlang-user' => 'Сёрмадыцянь леметь:',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Audun
  * @author Nghtwlkr
  */
@@ -3115,7 +3115,7 @@ Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|han
 Als u een pagina wil aanmaken, typ gewoon de naam in het zoekvak bovenaan, en volg de verwijzing die u ziet.',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  */
 $messages['nn'] = array(
@@ -3822,7 +3822,7 @@ $messages['sq'] = array(
 	'wminc-listwikis' => 'Lista e projekteve',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -3863,7 +3863,7 @@ $messages['sr-ec'] = array(
 	'wminc-search-nocreate-suggest' => 'Тражите појам „$1“. Можете да направите страницу на вашем викију на <strong>[[$2]]</strong>.',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -4455,7 +4455,7 @@ $messages['yue'] = array(
 	'wminc-viewuserlang' => '睇用戶語言同測試wiki',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
  * @author Bencmq
  * @author Hydra
