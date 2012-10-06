@@ -4336,6 +4336,7 @@ $messages['ur'] = array(
  */
 $messages['uz'] = array(
 	'wminc-searchwiki-gotoinfopage' => "ma'lumot sahifasi",
+	'wminc-fs-pagetitle' => "Boshlang'ich o'rganish dasturi - $1",
 );
 
 /** Veps (vepsän kel’)
