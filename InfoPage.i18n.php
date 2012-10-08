@@ -1569,6 +1569,7 @@ $messages['si'] = array(
 
 /** Slovenian (slovenščina)
  * @author Dbc334
+ * @author Eleassar
  */
 $messages['sl'] = array(
 	'wminc-infopage-enter' => 'pojdi na glavno stran',
@@ -1595,8 +1596,8 @@ $messages['sl'] = array(
 	'wminc-infopage-status-imported' => 'Ta wiki Inkubatorja je bil uvožen iz $1 po zaprtju wikija.',
 	'wminc-infopage-status-closedsister' => 'Poddomena je zaprta. Pojdite na <strong>$2</strong>, da prispevate k temu wikiju.',
 	'wminc-infopage-status-approved' => 'Wiki Inkubatorja je odobril [[meta:Special:MyLanguage/Language_committee|jezikovni odbor]] in bo kmalu ustvarjen.',
-	'wminc-infopage-status-created' => 'Projekt je odobril  jezikovni odbor in je sedaj na voljo na $1.',
-	'wminc-infopage-status-beforeincubator' => 'Projekt je nastal pred zagonom Wikimediinega Inkubatorja in je na voljo na $1.',
+	'wminc-infopage-status-created' => 'Projekt je odobril jezikovni odbor in je odslej na razpolago na naslovu $1.',
+	'wminc-infopage-status-beforeincubator' => 'Projekt je nastal pred zagonom Wikimedijinega Inkubatorja in je na razpolago na naslovu $1.',
 	'wminc-infopage-status-beforeincubator-sister' => 'Projekt je na voljo na $1.',
 	'wminc-infopage-error' => 'Napaka: {{#infopage}} se lahko uporablja samo na straneh s predpono.',
 );
