@@ -139,6 +139,7 @@ $messages['as'] = array(
 	'wminc-infopage-title-n' => 'ৱিকিসংবাদ $1',
 	'wminc-infopage-title-s' => 'ৱিকি উত্স $1',
 	'wminc-infopage-title-v' => 'ৱিকি বিশ্ববিদ্যালয় $1',
+	'wminc-infopage-welcome' => 'ৱিকিমিডিয়া ইনকিউবেটৰলৈ আপোনাক আদৰিছোঁ। ই ৱিকিমিডিয়া ফাউণ্ডেশ্যনৰ এটা সহযোগী প্ৰকল্প ([[{{MediaWiki:Aboutpage}}|সবিশেষ]])।',
 );
 
 /** Asturian (asturianu)
