@@ -1585,7 +1585,7 @@ $messages['sl'] = array(
 	'wminc-infopage-welcome' => 'Dobrodošli na Wikimediinem Inkubatorju, projektu Fundacije Wikimedia ([[{{MediaWiki:Aboutpage}}|O projektu]])',
 	'wminc-infopage-missingwiki-text' => '$1 v tem jeziku še ne obstaja.',
 	'wminc-infopage-option-startwiki' => "Če želite zagnati wiki, sledite
-'''[$3 tem korakom]''' and [[{{MediaWiki:Wminc-manual-url}}|našemu priročniku]].",
+'''[$3 tem korakom]''' in [[{{MediaWiki:Wminc-manual-url}}|našemu priročniku]].",
 	'wminc-infopage-option-startsister' => 'Če želite zagnati ta wiki, pojdite na <strong>[$2 $1]</strong>.',
 	'wminc-infopage-option-languages-existing' => 'Iščete lahko [//www.$1.org obstoječe jezikovne izdaje $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Iščete lahko obstoječe projekte v tem jeziku:',
