@@ -2425,7 +2425,7 @@ $messages['ksh'] = array(
 	'wminc-recentchanges-all' => 'All de {{LCFIRST:{{int:recentchanges}}}}',
 	'wminc-prefinfo-language' => 'Ding Shprooch för däm Wiki sing Bovverfläsch un et Wiki ze bedeene — hät nix met Dingem Versöhkß-Wiki singe Shprooch ze donn',
 	'wminc-prefinfo-code' => 'Dat Köözel för di Shprooch noh dä Norrem ISO 639',
-	'wminc-prefinfo-project' => 'Donn dat Projäk ußwähle — „Incubator“ is för Lück met alljemein Werk.',
+	'wminc-prefinfo-project' => 'Donn dat Projäk ußwähle woh De heh draan metwerks',
 	'wminc-prefinfo-error' => 'Bei dämm Projäk moß och e Köözel för de Shprooch aanjejovve wääde.',
 	'wminc-error-move-unprefixed' => 'Dat es jeiht nit: Dä neue Name för di Sigg hät [[{{MediaWiki:Wminc-error-help}}|kei udder e verkeeht Köözel]] am Aanfang!',
 	'wminc-error-wronglangcode' => "'''Dat es jeiht nit:''' Di Sigg häd [[{{MediaWiki:Wminc-error-help}}|e verkeeht Köözel för de Shprooch]], dat es: „$1“",
@@ -2464,18 +2464,35 @@ $messages['ksh'] = array(
 	'wminc-searchwiki-match-englishname' => '„$1“ es der Naame för $2 en Änglesch.',
 	'wminc-searchwiki-match-nativename' => '„$1“ es der Naame för $2 en dä Schprooch.',
 	'wminc-searchwiki-gotoinfopage' => 'Sigg met Enfommazjuhne',
+	'wminc-fs-pagetitle' => 'En de Jäng kumme - $1',
 	'wminc-fs-langselect-title' => 'En Schprooch ußwähle',
 	'wminc-fs-signup-title' => 'Aanmälde',
 	'wminc-fs-settings-title' => 'Don Din Enschtällonge för et Wiki faßlääje',
 	'wminc-fs-userpage-title' => 'Don Ding Metmaachersigg aanlääje',
 	'wminc-fs-startwiki-title' => 'Fang met Dingem Wiki aan',
 	'wminc-fs-pagetitle-done' => ' - jedonn!',
+	'wminc-fs-intro' => 'Wellkumme bei Dimge eezde Schredde op {{GRAMMAR|3{{SITENAME}}}}.
+Mer hälpe Der, en_neu Wiki opzemaache.',
+	'wminc-fs-langselect' => 'Maach wigger op $1 udder $2',
+	'wminc-fs-signup-text' => 'Wann De ald ene Zohjang als ene Met,aacher häß, bes esu jood un [$1 donn Desch enlogge].
+Wann De noch keine häß, [$2 lääsch eine aan].
+Dat es kein Flesch, ävver schwer ze ämfähle, un et dohrt bloos e paa Sekonde.',
 	'wminc-fs-settings-text' => 'Jangk jäds_op [[Special:Preferences|Ding Enschtällonge]] un änder Ding Versöhks-Wiki.
 Wat De op dä Sigg han kanns, sühs De aam Rand.
 Et eezde es de Schprooch, di et Wiki met Der kalle sull, di De ald usjesöhk häs, ävver heh kanns De se norr_ens ändere.
 Et zweite es dat Projäk, woh De draan metmaache wells.
 Als Drettes kütt dat Köözel för di Schprooch vun däm Projäk, woh De dren schriive un jät beidraare wells.
 wann dät Közel nit weiß, loor en em [[{{MediaWiki:Wminc-manual-url}}|Handbooch]] noh udder frooch noh [[{{MediaWiki:Portal-url}}|Hölp]].',
+	'wminc-fs-userpage-text' => 'Nu bes esu jood un donn Ding Metmaachersigg $1 aanlääje un donn e paar Aanjaabe övver Desch doh drop. Do häs och ene Lengk doh drop aam bövverschte Ängk vun heh dä Sigg.',
+	'wminc-fs-globaluser-text' => 'Denge Zohjang als ene metmaacher jelt bloß heh em Wiki.
+Et künnt ävver en joode idee sin, dä övver $1 alljemein ze maache.
+Donoh kanns De_n op alle Wikis vun de Wikimedia Schteftong bruche.',
+	'wminc-fs-startwiki-text' => 'Dä Vörsaz för Ding Wiki es <strong>$1</strong>.
+Do kanns met dämm Wiki loßlääje, endämm dat De däm sing Houpsigg aanlääß op <strong>$2</strong>.',
+	'wminc-fs-startwiki-exists-text' => 'Dä Vörsaz för Ding Wiki es <strong>$1</strong>.
+Däm sing Houpsigg es op <strong>$2</strong>.
+Do kann jäz met Andere zesamme werke, di Ding Schprooch künne un en Jemeinschaff opboue.
+Wann De en Sigg aanlääje wells, jif einfach dä iere Naame en däm Söhkfäld bovve en un kleck dä Lengk, dä De dann kreß.',
 );
 
 /** Kurdish (Latin script) (Kurdî (latînî)‎)
