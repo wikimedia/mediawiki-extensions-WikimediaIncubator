@@ -2197,7 +2197,6 @@ $messages['ja'] = array(
 	'wminc-prefinfo-code' => '自分が作業している言語の ISO 639 コード',
 	'wminc-prefinfo-project' => 'ここで作業しているウィキメディアプロジェクトを選択',
 	'wminc-prefinfo-error' => 'あなたが選択したプロジェクトは言語コードが必要です。',
-	'wminc-error-help' => 'Help:目次',
 	'wminc-error-move-unprefixed' => 'エラー: あなたが移動しようとしているページは[[{{MediaWiki:Wminc-error-help}}|接頭辞を誤っています]]!',
 	'wminc-error-wronglangcode' => 'エラー: このページには[[{{MediaWiki:Wminc-error-help}}|正しくない言語コード]] 「$1」が含まれています。',
 	'wminc-error-unprefixed' => "'''エラー:''' このページには[[{{MediaWiki:Wminc-error-help}}|接頭辞がありません]]!",
