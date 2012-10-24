@@ -33,6 +33,7 @@ $wmincProjects = array(
 	't' => 'Wiktionary',
 	'q' => 'Wikiquote',
 	'n' => 'Wikinews',
+	'y' => 'Wikivoyage',
 );
 # Sister projects is here defined as projects that are not on Incubator
 $wmincSisterProjects = array(
