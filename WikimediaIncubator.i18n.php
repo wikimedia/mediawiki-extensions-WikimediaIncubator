@@ -2637,7 +2637,7 @@ $messages['lt'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'informacijos puslapis',
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author RMizo
  */
 $messages['lus'] = array(
