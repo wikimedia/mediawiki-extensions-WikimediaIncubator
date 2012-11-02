@@ -386,7 +386,7 @@ $messages['diq'] = array(
 	'wminc-infopage-title-n' => 'Wikixebera $1',
 	'wminc-infopage-title-s' => 'Wikiçımeyo $1',
 	'wminc-infopage-title-v' => 'Wikiversiteya $1',
-	'wminc-infopage-title-y' => 'Wikigeyrayen $1',
+	'wminc-infopage-title-y' => 'Wikigeyrayış $1',
 	'wminc-infopage-welcome' => 'Şıma xeyr ameyê Wikimedia Incubatori. No ([[{{MediaWiki:Aboutpage}}|Haq dê]]) proceyan de Weqıf da Wikimediyao.',
 	'wminc-infopage-missingwiki-text' => '$1, hewna na zıwan de çınya.',
 	'wminc-infopage-option-startwiki' => 'Şımayê wazenê ke ena wikiyer dest pêkerê,
@@ -1778,12 +1778,21 @@ $messages['tr'] = array(
 
 /** Ukrainian (українська)
  * @author Andrijko Z.
+ * @author Base
  * @author Dim Grits
  * @author Тест
  */
 $messages['uk'] = array(
 	'wminc-infopage-enter' => 'до Головної сторінки',
-	'wminc-unknownlang' => '(Невідома мова з кодом "$1")', # Fuzzy
+	'wminc-unknownlang' => '(невідомий код мови)',
+	'wminc-infopage-title-p' => 'Вікіпедія мовою «$1»',
+	'wminc-infopage-title-b' => 'Вікіпідручник мовою «$1»',
+	'wminc-infopage-title-t' => 'Вікісловник мовою «$1»',
+	'wminc-infopage-title-q' => 'Вікіцитати мовою «$1»',
+	'wminc-infopage-title-n' => 'Вікіновини мовою «$1»',
+	'wminc-infopage-title-s' => 'Вікіджерела мовою «$1»',
+	'wminc-infopage-title-v' => 'Віківерситет мовою «$1»',
+	'wminc-infopage-title-y' => 'Віківояж мовою «$1»',
 	'wminc-infopage-welcome' => 'Ласкаво просимо до Інкубатора Вікімедіа. [[{{MediaWiki:Aboutpage}}|Інформація]] про цей проект Фонду Вікімедіа',
 	'wminc-infopage-missingwiki-text' => '$1 ще не має розділу даною мовою.',
 	'wminc-infopage-option-startwiki' => "Якщо ви бажаєте започаткувати цей вікіпроект, будь ласка зробіть
@@ -1795,10 +1804,14 @@ $messages['uk'] = array(
 	'wminc-infopage-option-multilingual' => 'Ви можете перейти до багатомовних вікіпроектів:',
 	'wminc-infopage-createmainpage' => 'Введіть фразу «Головна сторінка» на цій мові:',
 	'wminc-infopage-contribute' => 'Якщо ви розумієте цю мову, ви можете внести свій вклад!',
+	'wminc-infopage-status-open' => 'Це відкрита вікі в Інкубаторі Вікімедіа.',
 	'wminc-infopage-status-imported' => 'Ця вікі була перенесена до Інкубатору з $1 після її закриття.',
 	'wminc-infopage-status-closedsister' => 'Цей піддомен було закрито. Перейти до <strong>$2</strong>, щоб зробити внесок до цієї вікі.',
+	'wminc-infopage-status-approved' => 'Ця інкубаторна вікі була затверджена [[meta:Special:MyLanguage/Language_committee|мовним комітетом]] і буде скоро створена.',
 	'wminc-infopage-status-created' => 'Цей проект було схвалено мовним комітетом і тепер він доступний на $1.',
 	'wminc-infopage-status-beforeincubator' => 'Цей проект було створено до існування Інкубатора Вікімедіа, доступний $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Цей проект доступний за адресою $1.',
+	'wminc-infopage-error' => 'Помилка: {{#infopage}} може використовуватись лише на сторінках із префіксом.',
 );
 
 /** Vietnamese (Tiếng Việt)
@@ -1815,6 +1828,7 @@ $messages['vi'] = array(
 	'wminc-infopage-title-n' => 'Wikinews $1',
 	'wminc-infopage-title-s' => 'Wikisource $1',
 	'wminc-infopage-title-v' => 'Wikiversity $1',
+	'wminc-infopage-title-y' => 'Wikivoyage $1',
 	'wminc-infopage-welcome' => 'Hoan nghênh bạn đến với Vườn ươm Wikimedia, một dự án của Quỹ Wikimedia ([[{{MediaWiki:Aboutpage}}|Giới thiệu]])',
 	'wminc-infopage-missingwiki-text' => '$1 chưa có sẵn trong ngôn ngữ này.',
 	'wminc-infopage-option-startwiki' => "Nếu bạn muốn bắt đầu xây dựng wiki này, xin vui lòng tiến hành '''[$3 các bước này]''' và thực hiện theo [[{{MediaWiki:Wminc-manual-url}}|sách hướng dẫn của chúng ta]].",
