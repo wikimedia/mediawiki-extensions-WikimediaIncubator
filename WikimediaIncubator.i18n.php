@@ -1440,6 +1440,7 @@ $messages['fi'] = array(
 /** French (français)
  * @author Crochet.david
  * @author Gomoko
+ * @author Hello71
  * @author IAlex
  * @author PieRRoMaN
  * @author Seb35
@@ -1509,7 +1510,7 @@ $messages['fr'] = array(
 	'wminc-fs-settings-text' => 'Maintenant allez à [[Special:Preferences|vos préférences]] et modifiez votre choix de wiki de test. !N !À droite, vous voyez les options pertinentes que vous avez sur cette page. La première est votre langue d’interface, que vous avez choisie lors de la première étape, mais que vous pouvez encore modifier. !N !La seconde est le projet auquel vous souhaitez contribuer, et la troisième est le code de langue de ce projet. !N !Si vous ne connaissez pas le code, consultez notre [[{{MediaWiki:Wminc-manual-url}}|manuel]] ou demandez de [[{{MediaWiki:Portal-url}}|l’aide]].',
 	'wminc-fs-userpage-text' => 'Veuillez maintenant créer votre page d’utilisateur $1 avec quelques informations vous décrivant. Un lien vers votre page d’utilisateur se trouve en haut de cette page.',
 	'wminc-fs-globaluser-text' => 'Votre compte d’utilisateur est local. Il est recommandé d’en faire un compte global grâce à $1, ce qui vous permettra de l’utiliser sur tous les wikis de Wikimedia.',
-	'wminc-fs-startwiki-text' => 'Le préfixe de votre wiki est <strong>$1</strong>. Vous pouvez démarrer le wiki en créant sa page d’accueil à <strong>$2</strong>.', # Fuzzy
+	'wminc-fs-startwiki-text' => 'Le préfixe de votre wiki est <strong>$1</strong>. Vous pouvez démarrer le wiki en créant sa page d’accueil à <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'Le préfixe de votre wiki est $1. La page d’accueil se trouve à $2. Maintenant, vous pouvez collaborer avec d’autres locuteurs de cette langue et bâtir une communauté ! !N !Si vous souhaitez créer une page, tapez simplement son nom dans la boîte de recherche ci-dessus et cliquez sur le lien que vous verrez.',
 );
 
@@ -3941,6 +3942,7 @@ $messages['su'] = array(
 
 /** Swedish (svenska)
  * @author Boivie
+ * @author Cybjit
  * @author Diupwijk
  * @author Gabbe.g
  * @author Lokal Profil
@@ -3959,8 +3961,8 @@ $messages['sv'] = array(
 	'wminc-testwiki-none' => 'Ingen/Alla',
 	'wminc-recentchanges-all' => 'Alla de senaste ändringarna',
 	'wminc-prefinfo-language' => 'Ditt gränssnittsspråk - oavhängigt från din testwiki',
-	'wminc-prefinfo-code' => 'ISO 639-språkkoden', # Fuzzy
-	'wminc-prefinfo-project' => 'Välj Wikimediaprojekt (alternativet Incubator för användare som gör allmänt arbete)', # Fuzzy
+	'wminc-prefinfo-code' => 'ISO 639-språkkoden för det språk du arbetar på här',
+	'wminc-prefinfo-project' => 'Välj här vilket Wikimediaprojekt du arbetar på',
 	'wminc-prefinfo-error' => 'Du valde ett projekt som kräver en språkkod.',
 	'wminc-error-move-unprefixed' => 'Fel: Sidan du försöker flytta [[{{MediaWiki:Wminc-error-help}}|är oprefigerad eller har ett felaktigt prefix]]!',
 	'wminc-error-wronglangcode' => "'''Fel:''' Denna sida innehåller ett [[{{MediaWiki:Wminc-error-help}}|felaktig språkkod]] \"\$1\"!",

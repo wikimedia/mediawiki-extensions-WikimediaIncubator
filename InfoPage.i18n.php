@@ -1291,6 +1291,7 @@ $messages['nl'] = array(
 	'wminc-infopage-title-n' => 'Wikinews in het $1',
 	'wminc-infopage-title-s' => 'Wikisource in het $1',
 	'wminc-infopage-title-v' => 'Wikiversity in het $1',
+	'wminc-infopage-title-y' => 'Wikivoyage in het $1',
 	'wminc-infopage-welcome' => 'Welkom bij de Wikimedia Incubator, een project van de Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Meer info]])',
 	'wminc-infopage-missingwiki-text' => 'Een $1 in deze taal bestaat nog niet.',
 	'wminc-infopage-option-startwiki' => "Als u deze wiki wilt starten, volg dan '''[$3 deze stappen]''' en [[{{MediaWiki:Wminc-manual-url}}|onze handleiding]].",
