@@ -444,6 +444,7 @@ pšosym slěduj '''[$3 toś te kšace]''' a [[{{MediaWiki:Wminc-manual-url}}|na�
 
 /** Greek (Ελληνικά)
  * @author Crazymadlover
+ * @author Glavkos
  */
 $messages['el'] = array(
 	'wminc-infopage-enter' => 'Πηγαίνετε στην κύρια σελίδα',
@@ -454,6 +455,8 @@ $messages['el'] = array(
 	'wminc-infopage-title-n' => 'Βικινέα $1',
 	'wminc-infopage-title-s' => 'Βικιθήκη $1',
 	'wminc-infopage-title-v' => 'Βικιεπιστήμιο $1',
+	'wminc-infopage-title-y' => 'Βικιταξίδι $1',
+	'wminc-infopage-welcome' => 'Καλώς ήλθατε στον Επωαστήρα του Wikimedia, ένα εγχείρημα του Ιδρύματος Wikimedia ([[{{MediaWiki:Aboutpage}}|Σχετικά]])',
 );
 
 /** Esperanto (Esperanto)
@@ -629,6 +632,7 @@ $messages['fr'] = array(
 	'wminc-infopage-title-n' => 'Wikinews en $1',
 	'wminc-infopage-title-s' => 'Wikisource en $1',
 	'wminc-infopage-title-v' => 'Wikiversité en $1',
+	'wminc-infopage-title-y' => 'Wikivoyage $1',
 	'wminc-infopage-welcome' => 'Bienvenue sur l’Incubateur Wikimedia, un projet de la Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|à propos]])',
 	'wminc-infopage-missingwiki-text' => '$1 n’existe pas encore dans cette langue.',
 	'wminc-infopage-option-startwiki' => "Si vous voulez démarrer ce wiki, merci de suivre
