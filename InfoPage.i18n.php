@@ -757,6 +757,7 @@ $messages['he'] = array(
 	'wminc-infopage-title-n' => 'ויקיחדשות ב{{GRAMMAR:תחילית|$1}}',
 	'wminc-infopage-title-s' => 'ויקיטקסט ב{{GRAMMAR:תחילית|$1}}',
 	'wminc-infopage-title-v' => 'ויקיברסיטה ב{{GRAMMAR:תחילית|$1}}',
+	'wminc-infopage-title-y' => 'ויקימסע ב$1',
 	'wminc-infopage-welcome' => 'ברוכים הבאים לאינקובטור של ויקימדיה, מיזם של קרן ויקימדיה ([[{{MediaWiki:Aboutpage}}|אודות]])',
 	'wminc-infopage-missingwiki-text' => 'מיזם $1 בשפה הזאת טרם נוצר.',
 	'wminc-infopage-option-startwiki' => "אם אתם רוצים להתחיל את הוויקי הזה, נא לבצע את מה שכתוב
