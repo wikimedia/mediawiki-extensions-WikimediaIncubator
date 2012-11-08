@@ -1782,6 +1782,17 @@ $messages['tr'] = array(
 	'wminc-infopage-status-closedsister' => "Bu alt etki alanı kapatılmıştır. Bu vikiye katkıda bulunmak için <strong>$2</strong>'ye/ya gidin.",
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'wminc-infopage-enter' => 'ⴷⴷⵓ ⵖⵔ ⵜⴰⵙⵏⴰ ⵜⴰⵎⵣⵡⴰⵔⵓⵜ',
+	'wminc-infopage-title-p' => 'ⵡⵉⴽⵉⴱⵉⴷⵢⴰ $1',
+	'wminc-infopage-title-b' => 'ⵡⵉⴽⵉⴷⵍⵉⵙⵏ $1',
+	'wminc-infopage-title-t' => 'ⵡⵉⴽⵉⵎⴰⵡⴰⵍ $1',
+	'wminc-infopage-title-n' => 'ⵡⵉⴽⵉⵏⵖⵎⵉⵙⵏ $1',
+);
+
 /** Ukrainian (українська)
  * @author Andrijko Z.
  * @author Base

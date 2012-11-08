@@ -4298,6 +4298,16 @@ $messages['ttt'] = array(
 	'wminc-searchwiki-go' => 'Buşu',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'wminc-listwikis' => 'ⵓⵎⵓⵖ ⵏ ⵡⵉⴽⵉ',
+	'wminc-recentchanges-all' => 'ⵎⴰⵕⵕ ⵉⵎⴱⴷⴷⵍⵏ ⵉⵏⴳⴳⵓⵔⴰ',
+	'wminc-viewuserlang-go' => 'ⴷⴷⵓ',
+	'wminc-searchwiki-go' => 'ⴷⴷⵓ',
+);
+
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
  */
