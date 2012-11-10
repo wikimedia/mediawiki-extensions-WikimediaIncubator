@@ -45,6 +45,7 @@ $wmincMultilingualProjects = array(
 	'commons' => 'Wikimedia Commons',
 	'species' => 'Wikispecies',
 	'mediawiki' => 'MediaWiki',
+	'wikidata' => 'Wikidata',
 );
 $wmincProjectSite = array(
 	'name' => 'Incubator',
