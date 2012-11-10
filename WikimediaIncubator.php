@@ -125,6 +125,7 @@ $wmincProjectDatabases = array(
 	'n' => 'wikinews',
 	's' => 'wikisource',
 	'v' => 'wikiversity',
+	'y' => 'wikivoyage',
 );
 # set this to an array or file of closed wikis (like SiteMatrix $wgSiteMatrixClosedSites)
 $wmincClosedWikis = false;
