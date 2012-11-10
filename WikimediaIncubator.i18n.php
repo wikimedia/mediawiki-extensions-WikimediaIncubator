@@ -4303,6 +4303,8 @@ $messages['ttt'] = array(
  */
 $messages['tzm'] = array(
 	'wminc-listwikis' => 'ⵓⵎⵓⵖ ⵏ ⵡⵉⴽⵉ',
+	'wminc-testwiki' => 'Test wiki:',
+	'wminc-testwiki-none' => 'ⴰⵎⵢⴰ/ⵎⴰⵕⵕⴰ',
 	'wminc-recentchanges-all' => 'ⵎⴰⵕⵕ ⵉⵎⴱⴷⴷⵍⵏ ⵉⵏⴳⴳⵓⵔⴰ',
 	'wminc-viewuserlang-go' => 'ⴷⴷⵓ',
 	'wminc-searchwiki-go' => 'ⴷⴷⵓ',
