@@ -746,6 +746,7 @@ $messages['gsw'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author חיים
  */
 $messages['he'] = array(
 	'wminc-infopage-enter' => 'אל הדף הראשי',
@@ -766,7 +767,7 @@ $messages['he'] = array(
 	'wminc-infopage-option-languages-existing' => 'אפשר לחפש [//www.$1.org מהדורות לשוניות קיימות של $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'אפשר לחפש מיזמים קיימים בשפה הזאת:',
 	'wminc-infopage-option-sisterprojects-other' => 'אפשר לחפש מיזמים אחרים בשפה הזאת:',
-	'wminc-infopage-option-multilingual' => 'אפשר ללכת לוויקי רב־לשוני:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'לחלופין, באפשרותך לעבור אל ויקי רב לשוני:',
 	'wminc-infopage-createmainpage' => 'כתבו את המילה "דף ראשי" בשפתכם:',
 	'wminc-infopage-contribute' => 'אם אתם יודעים את השפה הזאת, אנו מפצירים בכם לתרום למיזם!',
 	'wminc-infopage-status-open' => 'זהו ויקי פתוח באינקובטור של ויקימדיה.',
@@ -943,9 +944,11 @@ $messages['ja'] = array(
 	'wminc-infopage-option-startwiki' => "このウィキを開始したい場合は、'''[$3 これらの手順]'''と[[{{MediaWiki:Wminc-manual-url}}|マニュアル]]に従ってください。",
 	'wminc-infopage-option-startsister' => 'このウィキを開始したい場合は、<strong>[$2 $1]</strong> に移動してください。',
 	'wminc-infopage-option-languages-existing' => '[//www.$1.org 既存の言語版の$1]を検索できます。',
-	'wminc-infopage-option-multilingual' => '多言語のウィキを利用できます：',
-	'wminc-infopage-createmainpage' => '"Main Page" をこの言語で入力してください：',
-	'wminc-infopage-contribute' => 'この言語を知っている場合は、貢献することをお勧めします！',
+	'wminc-infopage-option-sisterprojects-existing' => 'この言語の既存のプロジェクトを検索できます:',
+	'wminc-infopage-option-sisterprojects-other' => 'この言語の他のプロジェクトを検索できます:',
+	'wminc-infopage-option-multilingual' => '多言語のウィキも利用できます:',
+	'wminc-infopage-createmainpage' => '「Main Page」をこの言語で入力してください:',
+	'wminc-infopage-contribute' => 'この言語を知っている場合は、貢献することをお勧めします!',
 	'wminc-infopage-status-open' => 'これはウィキメディアインキュベーターのオープンなウィキです。',
 	'wminc-infopage-status-imported' => 'このインキュベーターウィキは、ウィキの閉鎖後に $1 から取り込まれました。',
 	'wminc-infopage-status-closedsister' => 'このサブドメインは閉鎖されました。このウィキに貢献するにはこちら: <strong>$2</strong>',
@@ -1016,7 +1019,7 @@ $messages['ko'] = array(
 	'wminc-infopage-option-languages-existing' => '[//www.$1.org $1의 기존 언어 편집자]에 대해 찾을 수 있습니다.',
 	'wminc-infopage-option-sisterprojects-existing' => '이 언어에서 기존 프로젝트에 대해 찾을 수 있습니다:',
 	'wminc-infopage-option-sisterprojects-other' => '이 언어에서 기타 프로젝트에 대해 찾을 수 있습니다:',
-	'wminc-infopage-option-multilingual' => '다국어 위키로 갈 수 있습니다:',
+	'wminc-infopage-option-multilingual' => '또는 다국어 위키로 갈 수 있습니다:',
 	'wminc-infopage-createmainpage' => '이 언어에서 "Main Page"에 대한 단어를 입력하세요:',
 	'wminc-infopage-contribute' => '이 시험판에 쓰여진 언어를 아신다면, 기여를 부탁드립니다!',
 	'wminc-infopage-status-open' => '이는 위키미디어 인큐베이터의 열린 위키입니다.',
@@ -1176,7 +1179,7 @@ $messages['mk'] = array(
 	'wminc-infopage-option-languages-existing' => 'Можете да ги пребарате [//www.$1.org постоечките јазични изданија на $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Можете да ги пребарате постоечките проекти на овој јазик:',
 	'wminc-infopage-option-sisterprojects-other' => 'Можете да пребарате други проекти на овој јазик:',
-	'wminc-infopage-option-multilingual' => 'Можете да појдете на повеќејазично вики:',
+	'wminc-infopage-option-multilingual' => 'Или пак можете да појдете на повеќејазично вики:',
 	'wminc-infopage-createmainpage' => 'Внесете го зборот „Главна страница“ на овој јазик:',
 	'wminc-infopage-contribute' => 'Ако имате познавања од овој јазик, ви препорачуваме да учествувате!',
 	'wminc-infopage-status-open' => 'Ова е отворено вики на Викимедииниот Инкубатор.',
