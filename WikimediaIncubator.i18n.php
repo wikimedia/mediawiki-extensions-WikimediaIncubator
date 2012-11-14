@@ -4335,8 +4335,16 @@ $messages['tzm'] = array(
 	'wminc-testwiki' => 'Test wiki:',
 	'wminc-testwiki-none' => 'ⴰⵎⵢⴰ/ⵎⴰⵕⵕⴰ',
 	'wminc-recentchanges-all' => 'ⵎⴰⵕⵕ ⵉⵎⴱⴷⴷⵍⵏ ⵉⵏⴳⴳⵓⵔⴰ',
+	'wminc-viewuserlang-user' => 'ⴰⵙⵙⴰⵖ ⵓⵎⴷⴰⵏ:',
 	'wminc-viewuserlang-go' => 'ⴷⴷⵓ',
+	'wminc-userdoesnotexist' => 'ⴰⵎⴷⴰⵏ (user) "$1" ⵓⵔ ⵉⵍⵍⴰ.',
+	'wminc-ip' => '"$1" is an ⴰⵣⵡⵉⵍ ⵏ IP.',
+	'wminc-searchwiki-selectproject' => 'ⴰⵔⵣⵣⵓ ⵅⴼ:',
+	'wminc-searchwiki-inputlanguage' => 'ⵙ ⵜⵓⵜⵍⴰⵢⵜ:',
 	'wminc-searchwiki-go' => 'ⴷⴷⵓ',
+	'wminc-searchwiki-gotoinfopage' => 'ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵜⴰⵙⵏⴰ',
+	'wminc-fs-langselect-title' => 'ⵙⵜⵉ ⵜⵓⵜⵍⴰⵢⵜ',
+	'wminc-fs-signup-title' => 'ⴰⵙⵓⵙⵔ',
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
