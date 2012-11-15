@@ -12,14 +12,26 @@
 class IncubatorTest {
 
 	/**
+	 * Add default preference
+	 * @param $defOpt Array
+	 * @return true
+	 */
+	static public function onUserGetDefaultOptions( &$defOpt ) {
+		global $wmincPref;
+
+		$defOpt[$wmincPref . '-project'] = 'none';
+
+		return true;
+	}
+
+	/**
 	 * Add preferences
 	 * @param $user User
 	 * @param $preferences array
 	 * @return true
 	 */
 	static function onGetPreferences( $user, &$preferences ) {
-		global $wmincPref, $wmincProjects, $wmincProjectSite,
-			$wmincLangCodeLength, $wgDefaultUserOptions;
+		global $wmincPref, $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
 
 		$preferences['language']['help-message'] = 'wminc-prefinfo-language';
 
@@ -47,8 +59,6 @@ class IncubatorTest {
 			'validation-callback' => array( 'IncubatorTest', 'validateCodePreference' ),
 			'filter-callback' => array( 'IncubatorTest', 'filterCodePreference' ),
 		);
-
-		$wgDefaultUserOptions[$wmincPref . '-project'] = 'none';
 
 		$preferences = wfArrayInsertAfter( $preferences, $prefinsert, 'language' );
 

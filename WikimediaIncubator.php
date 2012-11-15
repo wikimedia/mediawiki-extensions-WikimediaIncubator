@@ -24,7 +24,7 @@ $wgExtensionCredits['other'][] = array(
 
 /* General (globals and/or configuration) */
 $wmincPref = 'incubatortestwiki'; // Name of the preference
-$dir = dirname( __FILE__ ) . '/';
+$dir = __DIR__ . '/';
 
 # only one-letter codes can be used for projects
 $wmincProjects = array(
@@ -90,6 +90,7 @@ $wgGroupPermissions['sysop']['viewuserlang'] = true;
 /* TestWiki preference */
 $wgAutoloadClasses['IncubatorTest'] = $dir . 'IncubatorTest.php';
 $wgHooks['GetPreferences'][] = 'IncubatorTest::onGetPreferences';
+$wgHooks['UserGetDefaultOptions'][] = 'IncubatorTest::onUserGetDefaultOptions';
 $wgHooks['MagicWordwgVariableIDs'][] = 'IncubatorTest::magicWordVariable';
 $wgHooks['ParserGetVariableValueSwitch'][] = 'IncubatorTest::magicWordValue';
 
