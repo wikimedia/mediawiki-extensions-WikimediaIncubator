@@ -364,11 +364,11 @@ $messages['de'] = array(
 	'wminc-infopage-title-v' => 'Wikiversity $1',
 	'wminc-infopage-title-y' => 'Wikivoyage in $1',
 	'wminc-infopage-welcome' => 'Willkommen beim Wikimedia Incubator, einem Projekt der Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Über]])',
-	'wminc-infopage-missingwiki-text' => 'Ein $1 in dieser Sprache ist noch nicht vorhanden.',
+	'wminc-infopage-missingwiki-text' => 'Ein $1-Projekt in dieser Sprache ist noch nicht vorhanden.',
 	'wminc-infopage-option-startwiki' => "Sofern du dieses Wiki starten möchtest, folge bitte
 '''[$3 diesen Schritten]''' und [[{{MediaWiki:Wminc-manual-url}}|unserer Anleitung]].",
 	'wminc-infopage-option-startsister' => 'Sofern du dieses Wiki starten möchtest, geh zu <strong>[$2 $1]</strong>.',
-	'wminc-infopage-option-languages-existing' => 'Du kannst auf [//www.$1.org nach vorhandenen Sprachausgaben von $1] suchen.',
+	'wminc-infopage-option-languages-existing' => 'Du kannst nach [//www.$1.org vorhandenen Sprachausgaben von $1] suchen.',
 	'wminc-infopage-option-sisterprojects-existing' => 'Du kannst nach vorhandenen Projekten in dieser Sprache suchen:',
 	'wminc-infopage-option-sisterprojects-other' => 'Du kannst nach anderen Projekten in dieser Sprache suchen:',
 	'wminc-infopage-option-multilingual' => 'Alternativ kannst du zu einem mehrsprachigen Wiki gehen:',
