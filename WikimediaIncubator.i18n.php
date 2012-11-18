@@ -533,6 +533,40 @@ $messages['az'] = array(
 	'grouppage-test-sysop' => '{{ns:project}}:Test viki idarəçisi',
 );
 
+/** تورکجه (تورکجه)
+ * @author Ebrahimi-amir
+ */
+$messages['azb'] = array(
+	'wminc-desc' => 'Wikimedia Incubator اوچون تست ویکی سیستمی',
+	'wminc-manual' => 'درسلیک',
+	'wminc-listwikis' => 'ویکی‌لرین لیستی',
+	'wminc-testwiki' => 'تست ویکی:',
+	'wminc-testwiki-code' => 'تست ویکی دیلی:',
+	'wminc-testwiki-none' => 'هئچ بیریسی/بوتون',
+	'wminc-recentchanges-all' => 'بوتون سون دَییشیکلر',
+	'wminc-prefinfo-language' => 'سیزین قابیق صحیفه دیلینیز - سیزین تست ویکی‌نیزه باغلی‌دیر',
+	'wminc-viewuserlang-user' => 'ایستیفاده‌چی‌آدی:',
+	'wminc-viewuserlang-go' => 'گئت',
+	'wminc-userdoesnotexist' => '"$1" آدلی ایستیفاده‌چی یوخدور',
+	'wminc-ip' => '"$1" بیر آی-پی عونوانی‌دیر',
+	'right-viewuserlang' => 'ایستیفاده‌چی‌نین دیلینه و تست ویکی‌سینه باخ',
+	'group-test-sysop' => 'تست ویکی ایداره‌چیلری',
+	'group-test-sysop-member' => '{{GENDER:$1|تست ویکی ایداره‌چی‌سی}}',
+	'grouppage-test-sysop' => '{{ns:project}}:تست ویکی ایداره‌چیلری',
+	'wminc-searchwiki-noproject' => 'سیز هئچ بیر پروژه سئچمه‌ییب‌سیز.',
+	'wminc-searchwiki-selectproject' => 'آختار:',
+	'wminc-searchwiki-inputlanguage' => 'دیلده:',
+	'wminc-searchwiki-go' => 'گئت',
+	'wminc-searchwiki-match-userlangname' => '$1 بیر دیل آدی‌دیر.',
+	'wminc-searchwiki-match-englishname' => '"$1"اینگیلیسجه‌ده $2ون آدی‌دیر.',
+	'wminc-searchwiki-match-nativename' => '"$1" او دیلده $2-ون آدی‌دیر.',
+	'wminc-searchwiki-gotoinfopage' => 'بیلگی صحیفه‌سی',
+	'wminc-fs-langselect-title' => 'دیل سئچمه‌سی',
+	'wminc-fs-userpage-title' => 'ایستیفاده‌چی صحیفه‌نیزی یارادین',
+	'wminc-fs-startwiki-title' => 'اوز ویکی‌نیزی باشلایین',
+	'wminc-fs-pagetitle-done' => ' - ائدیلدی!',
+);
+
 /** Bavarian (Boarisch)
  * @author Man77
  * @author Mucalexx
