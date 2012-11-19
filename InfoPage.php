@@ -33,7 +33,7 @@ class InfoPage {
 		$allProjects = array_merge( $wmincProjects, $wmincSisterProjects );
 		$this->mProjectName = isset( $allProjects[$this->mProjectCode] ) ?
 			$allProjects[$this->mProjectCode] : '';
-		$this->mPortal = IncubatorTest::getSubdomain( 'www', $this->mProjectCode );
+		$this->mPortal = WikimediaIncubator::getSubdomain( 'www', $this->mProjectCode );
 		$this->mIsSister = array_key_exists( $this->mProjectCode, $wmincSisterProjects );
 		$this->mDBStatus = '';
 		$this->mSubStatus = '';
@@ -63,18 +63,18 @@ class InfoPage {
 	public function makeLogo( $project, $clickable = true, $params = array(), $url = null, $lang = null, $mul = false ) {
 		$lang = $lang ? $lang : $this->mLangCode;
 		if ( !$mul ) { // for non-multilingual wikis
-			$getDbStatus = IncubatorTest::getDBState(
+			$getDbStatus = WikimediaIncubator::getDBState(
 				array( 'error' => null, 'lang' => $lang, 'project' => $project )
 			);
 			$lang = $getDbStatus == 'missing' ? 'en' : $lang;
-			$params['title'] = IncubatorTest::getProject( $project, true, true );
+			$params['title'] = WikimediaIncubator::getProject( $project, true, true );
 		}
-		$params['src'] = IncubatorTest::getConf( 'wgLogo', $lang, $project );
+		$params['src'] = WikimediaIncubator::getConf( 'wgLogo', $lang, $project );
 		$params['alt'] = "$project ($lang)";
 		$img = Html::element( 'img', $params );
 		if ( $clickable ) {
 			if ( $url === null ) {
-				$url = IncubatorTest::getSubdomain( 'www', $project );
+				$url = WikimediaIncubator::getSubdomain( 'www', $project );
 			}
 			return Html::rawElement( 'a', array( 'href' => $url ), $img );
 		}
@@ -92,7 +92,7 @@ class InfoPage {
 		$listOtherProjects = array();
 		foreach ( $otherProjects as $code => $name ) {
 			$listOtherProjects[$code] = '<li>' . $this->makeLogo( $code, true,
-				array( 'width' => 75 ), IncubatorTest::getSubdomain( $this->mLangCode, $code ) ) . '</li>';
+				array( 'width' => 75 ), WikimediaIncubator::getSubdomain( $this->mLangCode, $code ) ) . '</li>';
 		}
 		return '<ul class="wminc-infopage-otherprojects">' .
 			implode( '', $listOtherProjects ) . '</ul>';
@@ -109,7 +109,7 @@ class InfoPage {
 		foreach ( $wmincMultilingualProjects as $key => $name ) {
 			# multilingual projects are listed under wikipedia
 			$fakeProject = key( $wmincProjects );
-			$url = IncubatorTest::getSubdomain( $key, $fakeProject );
+			$url = WikimediaIncubator::getSubdomain( $key, $fakeProject );
 			$list[$url] = '<li>' . $this->makeLogo( $fakeProject, true,
 				array( 'width' => 75 ), $url, $key, true ) . '</li>';
 		}
@@ -185,7 +185,7 @@ class InfoPage {
 		$portalLink = Linker::makeExternalLink( $this->mPortal, $this->mProjectName );
 		$mainpage = isset( $this->mOptions['mainpage'] ) ?
 			Title::newFromText( $this->mPrefix . '/' . $this->mOptions['mainpage'] ) :
-			IncubatorTest::getMainPage( $this->mLangCode, $this->mPrefix );
+			WikimediaIncubator::getMainPage( $this->mLangCode, $this->mPrefix );
 		if ( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoLink = Linker::link(
 				$mainpage,
@@ -194,8 +194,8 @@ class InfoPage {
 				array( 'class' => 'wminc-infopage-entertest' ),
 				$wgLang->getArrow() . ' ' . ( $this->mIsSister ? $portalLink : $gotoLink ) );
 		}
-		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectCode );
-		$subdomainLink = IncubatorTest::makeExternalLinkText( $subdomain, true );
+		$subdomain = WikimediaIncubator::getSubdomain( $this->mLangCode, $this->mProjectCode );
+		$subdomainLink = WikimediaIncubator::makeExternalLinkText( $subdomain, true );
 		$content = Html::rawElement( 'div', array( 'class' => 'wminc-infopage-status' ),
 			wfMessage( 'wminc-infopage-status-' . $substatus )->rawParams( $subdomainLink, $portalLink )->parseAsBlock() );
 		if ( $this->mSubStatus != 'approved' && $this->mThisLangData['type'] != 'invalid' ) {
@@ -224,8 +224,8 @@ class InfoPage {
 		global $wgLang, $wmincSisterProjects;
 		$created = isset( $this->mCreated ) ? $this->mCreated : ''; # for future use
 		$bug = isset( $this->mBug ) ? $this->mBug : ''; # for future use
-		$subdomain = IncubatorTest::getSubdomain( $this->mLangCode, $this->mProjectCode );
-		$subdomainLink = IncubatorTest::makeExternalLinkText( $subdomain, true );
+		$subdomain = WikimediaIncubator::getSubdomain( $this->mLangCode, $this->mProjectCode );
+		$subdomainLink = WikimediaIncubator::makeExternalLinkText( $subdomain, true );
 		if ( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoSubdomain = Html::rawElement( 'span',
 				array( 'class' => 'wminc-infopage-entertest' ),

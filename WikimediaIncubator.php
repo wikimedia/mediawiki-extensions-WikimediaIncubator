@@ -17,7 +17,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => array( 'SPQRobin', 'Hydriz' ),
-	'version' => '5.1',
+	'version' => '5.2',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -83,24 +83,24 @@ $wgAutoloadClasses['SpecialViewUserLang'] = $dir . 'SpecialViewUserLang.php';
 $wgSpecialPages['ViewUserLang'] = 'SpecialViewUserLang';
 $wgSpecialPageGroups['ViewUserLang'] = 'users';
 $wgAvailableRights[] = 'viewuserlang';
-$wgHooks['ContributionsToolLinks'][] = 'IncubatorTest::efLoadViewUserLangLink';
+$wgHooks['ContributionsToolLinks'][] = 'WikimediaIncubator::efLoadViewUserLangLink';
 $wgGroupPermissions['*']['viewuserlang'] = false;
 $wgGroupPermissions['sysop']['viewuserlang'] = true;
 
 /* TestWiki preference */
-$wgAutoloadClasses['IncubatorTest'] = $dir . 'IncubatorTest.php';
-$wgHooks['GetPreferences'][] = 'IncubatorTest::onGetPreferences';
-$wgHooks['UserGetDefaultOptions'][] = 'IncubatorTest::onUserGetDefaultOptions';
-$wgHooks['MagicWordwgVariableIDs'][] = 'IncubatorTest::magicWordVariable';
-$wgHooks['ParserGetVariableValueSwitch'][] = 'IncubatorTest::magicWordValue';
+$wgAutoloadClasses['WikimediaIncubator'] = $dir . 'WikimediaIncubator.class.php';
+$wgHooks['GetPreferences'][] = 'WikimediaIncubator::onGetPreferences';
+$wgHooks['UserGetDefaultOptions'][] = 'WikimediaIncubator::onUserGetDefaultOptions';
+$wgHooks['MagicWordwgVariableIDs'][] = 'WikimediaIncubator::magicWordVariable';
+$wgHooks['ParserGetVariableValueSwitch'][] = 'WikimediaIncubator::magicWordValue';
 
 /* Special:MyMainPage (depending on your test wiki preference) */
 $wgAutoloadClasses['SpecialMyMainPage'] = $dir . 'SpecialMyMainPage.php';
 $wgSpecialPages['MyMainPage'] = 'SpecialMyMainPage';
 
 /* Create/move page permissions */
-$wgHooks['getUserPermissionsErrors'][] = 'IncubatorTest::onGetUserPermissionsErrors';
-$wgHooks['AbortMove'][] = 'IncubatorTest::checkPrefixMovePermissions';
+$wgHooks['getUserPermissionsErrors'][] = 'WikimediaIncubator::onGetUserPermissionsErrors';
+$wgHooks['AbortMove'][] = 'WikimediaIncubator::checkPrefixMovePermissions';
 
 /* Recent Changes */
 $wgAutoloadClasses['TestWikiRC'] = $dir . 'TestWikiRC.php';
@@ -135,11 +135,11 @@ $wmincClosedWikis = false;
 /* Wx/xx[x] info page */
 $wgAutoloadClasses['InfoPage'] = $dir . 'InfoPage.php';
 $wgExtensionMessagesFiles['InfoPage'] = $dir . 'InfoPage.i18n.php';
-$wgHooks['ShowMissingArticle'][] = 'IncubatorTest::onShowMissingArticle';
-$wgHooks['EditFormPreloadText'][] = 'IncubatorTest::onEditFormPreloadText';
-$wgHooks['MediaWikiPerformAction'][] = 'IncubatorTest::onMediaWikiPerformAction';
-$wgHooks['TitleIsAlwaysKnown'][] = 'IncubatorTest::onTitleIsAlwaysKnown';
-$wgHooks['ParserFirstCallInit'][] = 'IncubatorTest::onParserFirstCallInit';
+$wgHooks['ShowMissingArticle'][] = 'WikimediaIncubator::onShowMissingArticle';
+$wgHooks['EditFormPreloadText'][] = 'WikimediaIncubator::onEditFormPreloadText';
+$wgHooks['MediaWikiPerformAction'][] = 'WikimediaIncubator::onMediaWikiPerformAction';
+$wgHooks['TitleIsAlwaysKnown'][] = 'WikimediaIncubator::onTitleIsAlwaysKnown';
+$wgHooks['ParserFirstCallInit'][] = 'WikimediaIncubator::onParserFirstCallInit';
 
 $wgResourceModules['WikimediaIncubator.InfoPage'] = array(
 	'styles' => 'InfoPage.css',
@@ -148,10 +148,10 @@ $wgResourceModules['WikimediaIncubator.InfoPage'] = array(
 );
 
 /* Possibility to set a logo per test wiki */
-$wgHooks['BeforePageDisplay'][] = 'IncubatorTest::fnTestWikiLogo';
+$wgHooks['BeforePageDisplay'][] = 'WikimediaIncubator::fnTestWikiLogo';
 
 /* Set page content language depending on the prefix */
-$wgHooks['PageContentLanguage'][] = 'IncubatorTest::onPageContentLanguage';
+$wgHooks['PageContentLanguage'][] = 'WikimediaIncubator::onPageContentLanguage';
 
 /* List of users */
 $wgAutoloadClasses['ListUsersTestWiki'] = $dir . 'ListUsersTestWiki.php';
@@ -160,9 +160,9 @@ $wgHooks['SpecialListusersQueryInfo'][] = 'ListUsersTestWiki::onSpecialListusers
 $wgHooks['SpecialListusersHeader'][] = 'ListUsersTestWiki::onSpecialListusersHeader';
 
 /* Search in test wiki */
-$wgHooks['SpecialSearchCreateLink'][] = 'IncubatorTest::onSpecialSearchCreateLink';
-$wgHooks['SpecialSearchPowerBox'][] = 'IncubatorTest::onSpecialSearchPowerBox';
-$wgHooks['SpecialSearchSetupEngine'][] = 'IncubatorTest::onSpecialSearchSetupEngine';
+$wgHooks['SpecialSearchCreateLink'][] = 'WikimediaIncubator::onSpecialSearchCreateLink';
+$wgHooks['SpecialSearchPowerBox'][] = 'WikimediaIncubator::onSpecialSearchPowerBox';
+$wgHooks['SpecialSearchSetupEngine'][] = 'WikimediaIncubator::onSpecialSearchSetupEngine';
 
 /* Search for a wiki in a language */
 $wgAutoloadClasses['SpecialSearchWiki'] = $dir . 'SpecialSearchWiki.php';
@@ -173,4 +173,4 @@ $wgAutoloadClasses['SpecialIncubatorFirstSteps'] = $dir . 'SpecialIncubatorFirst
 $wgSpecialPages['IncubatorFirstSteps'] = 'SpecialIncubatorFirstSteps';
 
 /* Tests */
-$wgHooks['UnitTestsList'][] = 'IncubatorTest::onUnitTestsList';
+$wgHooks['UnitTestsList'][] = 'WikimediaIncubator::onUnitTestsList';

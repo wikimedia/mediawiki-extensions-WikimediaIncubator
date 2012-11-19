@@ -129,12 +129,12 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	protected function goToWiki( $project, $lang ) {
 		$lang = self::getRootCode( $lang );
 		$dbarray = array( 'project' => $project, 'lang' => $lang, 'error' => null );
-		$status = IncubatorTest::getDBState( $dbarray );
+		$status = WikimediaIncubator::getDBState( $dbarray );
 		$infopageParams = array(
 			'goto' => 'mainpage',
 			'uselang' => $this->getRequest()->getVal( 'uselang' )
 		);
-		$url = $status == 'existing' ? IncubatorTest::getSubdomain( $lang, $project ) :
+		$url = $status == 'existing' ? WikimediaIncubator::getSubdomain( $lang, $project ) :
 			Title::newFromText( 'W' . $project . '/' . $lang )->getFullURL( $infopageParams );
 		$this->getOutput()->redirect( $url );
 	}
@@ -163,7 +163,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		foreach ( $results as $resultCode => $resultType ) {
 			$langName = $this->mNamesUserLang[$resultCode];
 			$infopage = Title::newFromText(
-				IncubatorTest::displayPrefix( $project, $resultCode, true )
+				WikimediaIncubator::displayPrefix( $project, $resultCode, true )
 			);
 			$linkInfoPage = Linker::linkKnown( $infopage,
 				wfMessage( 'wminc-searchwiki-gotoinfopage' )->text()

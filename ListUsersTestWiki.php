@@ -21,7 +21,7 @@ class ListUsersTestWiki {
 	 * Input form
 	 */
 	static function onSpecialListusersHeaderForm( $pager, &$out ) {
-		$testwiki = IncubatorTest::getUrlParam();
+		$testwiki = WikimediaIncubator::getUrlParam();
 		$project = self::getProjectInput();
 		$input = $project ? $project['name'] : ( $testwiki ? $testwiki['prefix'] : null );
 		$out .= Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
@@ -40,7 +40,7 @@ class ListUsersTestWiki {
 		if ( $project ) {
 			$out .= wfMessage( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parseAsBlock();
 		} else {
-			$testwiki = IncubatorTest::getUrlParam();
+			$testwiki = WikimediaIncubator::getUrlParam();
 			if ( $testwiki ) {
 				$link = Linker::linkKnown( Title::newFromText( $testwiki['prefix'] ) );
 				$out .= wfMessage( 'wminc-listusers-testwiki' )->rawParams( $link )->parseAsBlock();
@@ -53,7 +53,7 @@ class ListUsersTestWiki {
 	 * Query
 	 */
 	static function onSpecialListusersQueryInfo( $pager, &$query ) {
-		$testwiki = IncubatorTest::getUrlParam();
+		$testwiki = WikimediaIncubator::getUrlParam();
 		$project = self::getProjectInput();
 		if ( !$project && !$testwiki ) {
 			return true; # no input or invalid input

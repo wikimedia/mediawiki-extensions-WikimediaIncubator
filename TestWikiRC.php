@@ -10,7 +10,7 @@
 class TestWikiRC {
 	static function getValues() {
 		global $wgUser, $wmincPref, $wgRequest;
-		$url = IncubatorTest::getUrlParam();
+		$url = WikimediaIncubator::getUrlParam();
 		$projectvalue = $url ? $url['project'] : $wgUser->getOption( $wmincPref . '-project' );
 		$codevalue = $url ? $url['lang'] : $wgUser->getOption( $wmincPref . '-code' );
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $projectvalue ) );
@@ -21,7 +21,7 @@ class TestWikiRC {
 	static function onRcQuery( &$conds, &$tables, &$join_conds, $opts ) {
 		global $wmincProjectSite, $wmincTestWikiNamespaces;
 		list( $projectvalue, $codevalue ) = self::getValues();
-		$prefix = IncubatorTest::displayPrefix( $projectvalue, $codevalue );
+		$prefix = WikimediaIncubator::displayPrefix( $projectvalue, $codevalue );
 		$opts->add( 'rc-testwiki-project', false );
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
 		$opts->add( 'rc-testwiki-code', false );
@@ -33,7 +33,7 @@ class TestWikiRC {
 			// If project site is selected, display all changes except test wiki changes
 			$dbr = wfGetDB( DB_SLAVE );
 			$conds[] = 'rc_title NOT ' . $dbr->buildLike( 'W', $dbr->anyChar(), '/', $dbr->anyString() );
-		} elseif ( IncubatorTest::validatePrefix( $prefix, true ) ) {
+		} elseif ( WikimediaIncubator::validatePrefix( $prefix, true ) ) {
 			// Else, display changes to the selected test wiki in the appropriate namespaces
 			$dbr = wfGetDB( DB_SLAVE );
 			$conds['rc_namespace'] = $wmincTestWikiNamespaces;

@@ -2,9 +2,9 @@
 
 class IncubatorUnitTests extends MediaWikiTestCase {
 	function testValidateLanguageCode() {
-		$this->assertTrue( IncubatorTest::validateLanguageCode( 'aa' ),
+		$this->assertTrue( WikimediaIncubator::validateLanguageCode( 'aa' ),
 			'Valid language code aa' );
-		$this->assertFalse( IncubatorTest::validateLanguageCode( 'aaaa' ),
+		$this->assertFalse( WikimediaIncubator::validateLanguageCode( 'aaaa' ),
 			'Invalid language code aaaa' );
 	}
 
@@ -20,7 +20,7 @@ class IncubatorUnitTests extends MediaWikiTestCase {
 			$title = Title::newFromText( $testPage );
 			$function = $outcome ? 'assertTrue' : 'assertFalse';
 			$this->$function(
-				IncubatorTest::shouldWeShowUnprefixedError( $title ),
+				WikimediaIncubator::shouldWeShowUnprefixedError( $title ),
 				$testPage . ' is ' . ( $outcome ? 'prefixed' : 'unprefixed' )
 			);
 		}

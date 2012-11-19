@@ -9,7 +9,7 @@
  * @author Robin Pepermans (SPQRobin)
  */
 
-class IncubatorTest {
+class WikimediaIncubator {
 
 	/**
 	 * Add default preference
@@ -56,8 +56,8 @@ class IncubatorTest {
 			'help' => wfMessage( 'wminc-prefinfo-code' )->parse() .
 				self::getTestWikiLanguages(),
 			'list' => 'wminc-testwiki-codelist',
-			'validation-callback' => array( 'IncubatorTest', 'validateCodePreference' ),
-			'filter-callback' => array( 'IncubatorTest', 'filterCodePreference' ),
+			'validation-callback' => array( 'WikimediaIncubator', 'validateCodePreference' ),
+			'filter-callback' => array( 'WikimediaIncubator', 'filterCodePreference' ),
 		);
 
 		$preferences = wfArrayInsertAfter( $preferences, $prefinsert, 'language' );
@@ -355,7 +355,7 @@ class IncubatorTest {
 	 * This does several things:
 	 * Disables editing pages belonging to existing wikis (+ shows message)
 	 * Disables creating an unprefixed page (+ shows error message)
-	 * See also: IncubatorTest::onShowMissingArticle()
+	 * See also: WikimediaIncubator::onShowMissingArticle()
 	 * @return Boolean
 	 */
 	static function onGetUserPermissionsErrors( $title, $user, $action, &$result ) {
@@ -478,7 +478,7 @@ class IncubatorTest {
 	/**
 	 * Given an incubator testwiki prefix, get the database name of the
 	 * corresponding wiki, whether it exists or not
-	 * @param $prefix Array from IncubatorTest::analyzePrefix();
+	 * @param $prefix Array from WikimediaIncubator::analyzePrefix();
 	 * @return false or string
 	 */
 	static function getDB( $prefix ) {
@@ -513,7 +513,7 @@ class IncubatorTest {
 	}
 
 	/**
-	 * @param $prefix Array from IncubatorTest::analyzePrefix();
+	 * @param $prefix Array from WikimediaIncubator::analyzePrefix();
 	 * @return false or string 'existing' 'closed' 'missing'
 	 */
 	static function getDBState( $prefix ) {
@@ -534,7 +534,7 @@ class IncubatorTest {
 	/**
 	 * If existing wiki: show message or redirect if &testwiki is set to that
 	 * Missing article on Wx/xx info pages: show welcome page
-	 * See also: IncubatorTest::onGetUserPermissionsErrors()
+	 * See also: WikimediaIncubator::onGetUserPermissionsErrors()
 	 * @return True
 	 */
 	static function onShowMissingArticle( $article ) {
@@ -618,7 +618,7 @@ class IncubatorTest {
 	}
 
 	public static function onParserFirstCallInit( &$parser ) {
-		$parser->setFunctionHook( 'infopage', 'IncubatorTest::renderParserFunction' );
+		$parser->setFunctionHook( 'infopage', 'WikimediaIncubator::renderParserFunction' );
 		return true;
 	}
 
@@ -628,7 +628,7 @@ class IncubatorTest {
 	 */
 	public static function renderParserFunction( &$parser ) {
 		$title = $parser->getTitle();
-		$prefix = IncubatorTest::analyzePrefix( $title );
+		$prefix = self::analyzePrefix( $title );
 		if ( $prefix['error'] ) {
 			return '<span class="error">' .
 				wfMessage( 'wminc-infopage-error' )->plain() . '</span>';
@@ -720,7 +720,7 @@ class IncubatorTest {
 	 * @return True
 	 */
 	public static function onMediaWikiPerformAction( $output, $page, $title, $user, $request ) {
-		$prefix = IncubatorTest::analyzePrefix( $title, true );
+		$prefix = self::analyzePrefix( $title, true );
 		if ( $prefix['error'] || $request->getVal( 'goto' ) != 'mainpage' ) {
 			return true;
 		}
@@ -770,7 +770,7 @@ class IncubatorTest {
 	 * @return false or Array from analyzePrefix()
 	 */
 	static function shouldWeSetCustomLogo( $title ) {
-		$prefix = IncubatorTest::analyzePrefix( $title );
+		$prefix = self::analyzePrefix( $title );
 
 		# Maybe do later something like if ( isContentProject() && 'recentchanges' ) { return true; }
 
@@ -807,7 +807,7 @@ class IncubatorTest {
 		} else {
 			# if MediaWiki:Incubator-logo-wx-xx(x) doesn't exist,
 			# take a general, default logo for that project
-			$wgLogo = IncubatorTest::getConf( 'wgLogo', 'en', $setLogo['project'] );
+			$wgLogo = self::getConf( 'wgLogo', 'en', $setLogo['project'] );
 		}
 		return true;
 	}

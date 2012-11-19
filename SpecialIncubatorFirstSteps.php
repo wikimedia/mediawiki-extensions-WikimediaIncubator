@@ -27,7 +27,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	 * @param $params
 	 */
 	public function execute( $params ) {
-		$this->wikiprefix = IncubatorTest::analyzePrefix( IncubatorTest::displayPrefix() );
+		$this->wikiprefix = WikimediaIncubator::analyzePrefix( WikimediaIncubator::displayPrefix() );
 
 		$this->getOutput()->addWikiMsg( 'wminc-fs-intro' );
 		$step = false;
@@ -86,7 +86,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		}
 
 		# add the language of the "testwiki" URL param if set
-		$urlTestWiki = IncubatorTest::getUrlParam();
+		$urlTestWiki = WikimediaIncubator::getUrlParam();
 		if ( $urlTestWiki ) {
 			$getLangCodes[$urlTestWiki['lang']] = true;
 		}
@@ -132,7 +132,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$link = SpecialPage::getTitleFor( 'Userlogin' );
 		$query = array( 'returnto' => $this->getTitle(),
 			'uselang' => $this->getRequest()->getVal( 'uselang' ) );
-		$urlTestWiki = IncubatorTest::getUrlParam();
+		$urlTestWiki = WikimediaIncubator::getUrlParam();
 		if ( $urlTestWiki ) {
 			// set preferences automatically, based on the "testwiki" URL param
 			$query['testwikiproject'] = $urlTestWiki['project'];
@@ -211,7 +211,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		}
 		$this->showHeader( $step_msg, false, false );
 
-		$mainpage = IncubatorTest::getMainPage(
+		$mainpage = WikimediaIncubator::getMainPage(
 			$this->wikiprefix['lang'], $this->wikiprefix['prefix'] );
 
 		$prefix = Linker::linkKnown( Title::newFromText( $this->wikiprefix['prefix'] ) );
