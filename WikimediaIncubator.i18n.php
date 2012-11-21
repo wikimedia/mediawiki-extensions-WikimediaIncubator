@@ -535,6 +535,7 @@ $messages['az'] = array(
 
 /** تورکجه (تورکجه)
  * @author Ebrahimi-amir
+ * @author Mousa
  */
 $messages['azb'] = array(
 	'wminc-desc' => 'Wikimedia Incubator اوچون تست ویکی سیستمی',
@@ -545,7 +546,7 @@ $messages['azb'] = array(
 	'wminc-testwiki-none' => 'هئچ بیریسی/بوتون',
 	'wminc-recentchanges-all' => 'بوتون سون دَییشیکلر',
 	'wminc-prefinfo-language' => 'سیزین قابیق صحیفه دیلینیز - سیزین تست ویکی‌نیزه باغلی‌دیر',
-	'wminc-viewuserlang-user' => 'ایستیفاده‌چی‌آدی:',
+	'wminc-viewuserlang-user' => 'ایستیفاده‌چی آدی:',
 	'wminc-viewuserlang-go' => 'گئت',
 	'wminc-userdoesnotexist' => '"$1" آدلی ایستیفاده‌چی یوخدور',
 	'wminc-ip' => '"$1" بیر آی-پی عونوانی‌دیر',
@@ -2043,6 +2044,18 @@ Jeli kod njewěš, skonsultuj našu [[{{MediaWiki:Wminc-manual-url}}|přiručku]
 	'wminc-fs-startwiki-text' => '<strong>$1</strong> je prefiks twojeho wikija. Móžeš wiki startować, wutworjejo hłownu stronu wikija na <strong>$2</string>.',
 	'wminc-fs-startwiki-exists-text' => 'Prefiks twojeho wikija je $1. Hłowna strona je na $2. Móžeš nětko z druhimi rěčnikami tuteje rěče hromadźe dźěłać, zo by zhromadźenstwo tworił!
 Jeli chceš stronu wutworić, zapisaj jenož mjeno horjeka do pytanskeho pola a slěduj wotkazej, kotryž budźeš widźeć.',
+);
+
+/** 湘语 (湘语)
+ * @author YulouCN
+ */
+$messages['hsn'] = array(
+	'wminc-recentchanges-all' => '近日全部亇增改',
+	'wminc-viewuserlang-user' => '賬號名',
+	'wminc-viewuserlang-go' => '遞交',
+	'wminc-userdoesnotexist' => '冇得"$1"嗰隻賬號',
+	'wminc-fs-langselect-title' => '選言語',
+	'wminc-fs-pagetitle-done' => '搞好噠！',
 );
 
 /** Hungarian (magyar)

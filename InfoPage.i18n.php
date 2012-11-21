@@ -854,6 +854,19 @@ prošu slěduj '''[$3 tute kroki]''' a [[{{MediaWiki:Wminc-manual-url}}|naš naw
 	'wminc-infopage-error' => 'Zmylk: {{#infopage}} da so jenož na stronach wužiwać, kotrež prefiks maja.',
 );
 
+/** 湘语 (湘语)
+ * @author YulouCN
+ */
+$messages['hsn'] = array(
+	'wminc-infopage-title-p' => '維基百科 $1',
+	'wminc-infopage-title-b' => '維基課本 $1',
+	'wminc-infopage-title-t' => '維基詞典 $1',
+	'wminc-infopage-title-q' => '維基語錄 $1',
+	'wminc-infopage-title-n' => '維基要聞 $1',
+	'wminc-infopage-title-s' => '維基藏書樓 $1',
+	'wminc-infopage-title-v' => '維基學堂 $1',
+);
+
 /** Hungarian (magyar)
  * @author Dj
  * @author Xbspiro
@@ -1337,7 +1350,7 @@ $messages['nl'] = array(
 	'wminc-infopage-option-languages-existing' => 'U kunt naar [//www.$1.org bestaande taalversies van $1] zoeken.',
 	'wminc-infopage-option-sisterprojects-existing' => 'U kunt naar bestaande projecten in deze taal zoeken:',
 	'wminc-infopage-option-sisterprojects-other' => 'U kunt naar andere projecten in deze taal zoeken:',
-	'wminc-infopage-option-multilingual' => 'U kunt naar een meertalige wiki gaan:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'U kunt ook naar een meertalige wiki gaan:',
 	'wminc-infopage-createmainpage' => 'Geef het woord "Hoofdpagina" op in deze taal:',
 	'wminc-infopage-contribute' => 'Als u deze taal kent, wordt u aangemoedigd om bij te dragen!',
 	'wminc-infopage-status-open' => 'Dit is een open wiki van Wikimedia Incubator.',
