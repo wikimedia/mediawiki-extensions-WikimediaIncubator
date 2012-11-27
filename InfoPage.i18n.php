@@ -969,6 +969,7 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Penn Station
  * @author Shirayuki
  */
 $messages['ja'] = array(
@@ -981,7 +982,7 @@ $messages['ja'] = array(
 	'wminc-infopage-title-n' => 'ウィキニュース$1',
 	'wminc-infopage-title-s' => 'ウィキソース$1',
 	'wminc-infopage-title-v' => 'ウィキバーシティ$1',
-	'wminc-infopage-title-y' => 'ウィキボヤージュ$1',
+	'wminc-infopage-title-y' => 'Wikivoyage$1',
 	'wminc-infopage-welcome' => 'ウィキペディアインキュベーターにようこそ。これはウィキメディア財団([[{{MediaWiki:Aboutpage}}|About]])のプロジェクトです',
 	'wminc-infopage-missingwiki-text' => 'この言語の$1はまだありません。',
 	'wminc-infopage-option-startwiki' => "このウィキを開始したい場合は、'''[$3 これらの手順]'''と[[{{MediaWiki:Wminc-manual-url}}|マニュアル]]に従ってください。",
