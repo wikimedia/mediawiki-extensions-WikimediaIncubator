@@ -533,7 +533,7 @@ $messages['az'] = array(
 	'grouppage-test-sysop' => '{{ns:project}}:Test viki idarəçisi',
 );
 
-/** تورکجه (تورکجه)
+/** South Azerbaijani (تورکجه)
  * @author Ebrahimi-amir
  * @author Mousa
  */
