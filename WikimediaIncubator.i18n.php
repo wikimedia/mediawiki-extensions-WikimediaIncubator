@@ -4461,6 +4461,7 @@ $messages['ug-arab'] = array(
 /** Ukrainian (українська)
  * @author AS
  * @author Aleksandrit
+ * @author Base
  * @author Dim Grits
  */
 $messages['uk'] = array(
@@ -4470,10 +4471,11 @@ $messages['uk'] = array(
 	'wminc-testwiki' => 'Тестова вікі:',
 	'wminc-testwiki-code' => 'Мова тестової вікі:',
 	'wminc-testwiki-none' => 'Жодна або всі',
+	'wminc-testwiki-site' => '(технічне обслуговування)',
 	'wminc-recentchanges-all' => 'Усі останні зміни',
 	'wminc-prefinfo-language' => 'Мова інтерфейсу (залежить від мови тестової вікі)',
-	'wminc-prefinfo-code' => 'Код мови згідно з ISO 639', # Fuzzy
-	'wminc-prefinfo-project' => 'Оберіть проект Вікімедіа (варіант Інкубатор для тих, хто займається загальними питаннями)', # Fuzzy
+	'wminc-prefinfo-code' => 'Код мови згідно з ISO 639 над якою Ви тут працюєте',
+	'wminc-prefinfo-project' => 'Оберіть проект Вікімедіа, над яким Ви тут працюєте',
 	'wminc-prefinfo-error' => 'Ви обрали проект, для якого необхідно вказати код мови.',
 	'wminc-error-move-unprefixed' => 'Помилка: Сторінка на яку ви намагаєтеся перейти [[{{MediaWiki:Wminc-error-help}}|немає префікса або він помилковий]]!',
 	'wminc-error-wronglangcode' => "'''Помилка:''' ця сторінка містить [[{{MediaWiki:Wminc-error-help}}|неправильний код мови]] \"\$1\"!",
@@ -4490,7 +4492,7 @@ $messages['uk'] = array(
 	'wminc-ip' => '"$1" не є IP-адресою.',
 	'right-viewuserlang' => 'Переглядати мовні налаштування користувача і його тестову вікі',
 	'group-test-sysop' => 'Адміністратори тестової вікі',
-	'group-test-sysop-member' => 'Адміністратор тестової вікі', # Fuzzy
+	'group-test-sysop-member' => '{{GENDER:$1|адміністратор|адміністраторка}} тестової вікі',
 	'grouppage-test-sysop' => '{{ns:project}}:Адміністратори тестової вікі',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|"$3" мова]] є [[wikipedia:ISO 639 macrolanguage|макромовою]], що складається з наступних мов:',
 	'wminc-code-collective' => 'Код "$1" відноситься не до конкретної мови, а до декількох, об\'єднаних під загальною назвою [[wikipedia:$2 language|"$3"]].',
@@ -4498,6 +4500,17 @@ $messages['uk'] = array(
 	'wminc-listusers-testwiki' => 'Ви переглядаєте користувачів, які встановили налаштування тестової вікі  $1.',
 	'wminc-search-nocreate-nopref' => 'Ви шукали "$1". Будь ласка, задайте власні [[Special:Preferences|налаштування тестової вікі]], аби ми могли підказати, які сторінки ви можете створити!',
 	'wminc-search-nocreate-suggest' => 'Ви шукали "$1". Можете створити сторінку <strong>[[$2]]</strong>!',
+	'wminc-searchwiki' => 'Пошук по вікі',
+	'wminc-searchwiki-noproject' => 'Ви не обрали проект.',
+	'wminc-searchwiki-noresults' => 'Нема результатів. Ви можете шукати за кодами мов, самоназвами, назвами Вашою мовою інтерфесу або англійською.',
+	'wminc-searchwiki-selectproject' => 'Пошук по:',
+	'wminc-searchwiki-inputlanguage' => 'Мовою:',
+	'wminc-searchwiki-go' => 'Перейти',
+	'wminc-searchwiki-multiplematches' => 'Вашому пошуковому запиту відповідають наступні мови:',
+	'wminc-searchwiki-match-langcode' => '«$1» — це ISO 639 код мови $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 — назва мови.',
+	'wminc-searchwiki-match-englishname' => '«$1» — назва мовы $2 англійською.',
+	'wminc-searchwiki-match-nativename' => '«$1» — самоназва мови $2.',
 );
 
 /** Urdu (اردو)
