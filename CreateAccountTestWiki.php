@@ -17,7 +17,7 @@ class AutoTestWiki {
 	 * @param $template UsercreateTemplate|UserloginTemplate
 	 * @return bool
 	 */
-	public static function onUserCreateForm( $template ) {
+	public static function onUserCreateForm( &$template ) {
 		global $wgRequest, $wmincProjects;
 		$projectvalue = strtolower( $wgRequest->getVal( 'testwikiproject', '' ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'testwikicode', '' ) );
