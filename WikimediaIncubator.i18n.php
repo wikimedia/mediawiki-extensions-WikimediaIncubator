@@ -458,6 +458,10 @@ $messages['ast'] = array(
 	'wminc-fs-pagetitle' => 'Asistente pa los primeros pasos - $1',
 	'wminc-fs-langselect-title' => 'Escueyi llingua',
 	'wminc-fs-signup-title' => "Date d'alta",
+	'wminc-fs-settings-title' => 'Configurar les preferencies de wiki',
+	'wminc-fs-userpage-title' => "Crea la to páxina d'usuariu",
+	'wminc-fs-startwiki-title' => 'Comienza la to wiki',
+	'wminc-fs-pagetitle-done' => '- ¡fecho!',
 );
 
 /** Kotava (Kotava)
