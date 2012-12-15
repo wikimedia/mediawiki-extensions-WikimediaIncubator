@@ -1020,7 +1020,7 @@ $messages['ka'] = array(
 	'wminc-infopage-option-languages-existing' => 'თქვენ შეგიძლიათ მოძებნოთ [//www.$1.org არსებული ენობრივი განყოფილებები $1-თვის].',
 	'wminc-infopage-option-sisterprojects-existing' => 'თქვენ შეგიძლიათ მოძებნოთ არსებული პროექტები ამ ენაზე:',
 	'wminc-infopage-option-sisterprojects-other' => 'თქვენ შეგიძლიათ მოძებნოთ სხვა პროექტები ამ ენაზე:',
-	'wminc-infopage-option-multilingual' => 'თქვენ შეგიძლიათ გადახვიდეთ მრავალენოვან ვიკი-პროექტებზე:',
+	'wminc-infopage-option-multilingual' => 'გარდა ამისა, თქვენ შეგიძლიათ გადახვიდეთ მრავალენოვან ვიკი-პროექტებზე:',
 	'wminc-infopage-createmainpage' => 'შეიყვანეთ სიტყვა „მთავარი გვერდი“ ამ ენაზე:',
 );
 
