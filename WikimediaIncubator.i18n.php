@@ -4515,6 +4515,16 @@ $messages['uk'] = array(
 	'wminc-searchwiki-match-userlangname' => '$1 — назва мови.',
 	'wminc-searchwiki-match-englishname' => '«$1» — назва мовы $2 англійською.',
 	'wminc-searchwiki-match-nativename' => '«$1» — самоназва мови $2.',
+	'wminc-searchwiki-gotoinfopage' => 'інформаційна сторінка',
+	'wminc-fs-pagetitle' => 'Майстер початку роботи — $1',
+	'wminc-fs-langselect-title' => 'Оберіть мову',
+	'wminc-fs-signup-title' => 'Реєстрація',
+	'wminc-fs-settings-title' => 'Встановіть Вашу пріоритетну вікі',
+	'wminc-fs-userpage-title' => 'Створіть свою сторінку користувача',
+	'wminc-fs-startwiki-title' => 'Започаткуйте Вашу вікі',
+	'wminc-fs-pagetitle-done' => ' — готово!',
+	'wminc-fs-intro' => 'Вітаємо у майстрі перших кроків проекту {{SITENAME}}. Вас буде проведено через процес започаткування нової вікі.',
+	'wminc-fs-langselect' => 'Продовжити мовою $1 або $2',
 );
 
 /** Urdu (اردو)
