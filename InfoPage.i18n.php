@@ -1289,7 +1289,7 @@ sila ikut '''[$3 langkah-langkah ini]''' dan [[{{MediaWiki:Wminc-manual-url}}|pa
 	'wminc-infopage-option-languages-existing' => 'Anda boleh mencari [//www.$1.org edisi-edisi bahasa sedia ada bagi $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Anda boleh mencari projek-projek yang sedia ada dalam bahasa ini:',
 	'wminc-infopage-option-sisterprojects-other' => 'Anda boleh mencari projek-projek lain dalam bahasa ini:',
-	'wminc-infopage-option-multilingual' => 'Anda boleh pergi ke wiki berbilang bahasa:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'Ataupun anda boleh pergi ke wiki berbilang bahasa:',
 	'wminc-infopage-createmainpage' => 'Isikan perkataan "Laman Utama" dalam bahasa ini:',
 	'wminc-infopage-contribute' => 'Jika anda fasih dalam bahasa ini, anda dialu-alukan untuk menyumbang!',
 	'wminc-infopage-status-open' => 'Ini merupakan wiki terbuka Wikimedia Incubator.',
