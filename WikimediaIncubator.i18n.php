@@ -558,6 +558,7 @@ $messages['azb'] = array(
 	'group-test-sysop' => 'تست ویکی ایداره‌چیلری',
 	'group-test-sysop-member' => '{{GENDER:$1|تست ویکی ایداره‌چی‌سی}}',
 	'grouppage-test-sysop' => '{{ns:project}}:تست ویکی ایداره‌چیلری',
+	'wminc-searchwiki' => 'ویکی‌ اوچون آختار',
 	'wminc-searchwiki-noproject' => 'سیز هئچ بیر پروژه سئچمه‌ییب‌سیز.',
 	'wminc-searchwiki-selectproject' => 'آختار:',
 	'wminc-searchwiki-inputlanguage' => 'دیلده:',
