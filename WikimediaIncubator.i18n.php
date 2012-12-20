@@ -538,6 +538,7 @@ $messages['az'] = array(
 );
 
 /** South Azerbaijani (تورکجه)
+ * @author Arjanizary
  * @author Ebrahimi-amir
  * @author Mousa
  */
@@ -545,19 +546,20 @@ $messages['azb'] = array(
 	'wminc-desc' => 'Wikimedia Incubator اوچون تست ویکی سیستمی',
 	'wminc-manual' => 'درسلیک',
 	'wminc-listwikis' => 'ویکی‌لرین لیستی',
-	'wminc-testwiki' => 'تست ویکی:',
-	'wminc-testwiki-code' => 'تست ویکی دیلی:',
+	'wminc-testwiki' => 'تئست ویکی:',
+	'wminc-testwiki-code' => 'تئست ویکی دیلی:',
 	'wminc-testwiki-none' => 'هئچ بیریسی/بوتون',
 	'wminc-recentchanges-all' => 'بوتون سون دَییشیکلر',
-	'wminc-prefinfo-language' => 'سیزین قابیق صحیفه دیلینیز - سیزین تست ویکی‌نیزه باغلی‌دیر',
+	'wminc-prefinfo-language' => 'سیزین قابیق صحیفه دیلینیز - سیزین تئست ویکی‌نیزه باغلی‌دیر',
+	'wminc-error-unprefixed' => "'''خطا:''' بو صحیفه‌ [[{{MediaWiki:Wminc-error-help}}|اؤن اَکسیز]]دیر!",
 	'wminc-viewuserlang-user' => 'ایستیفاده‌چی آدی:',
 	'wminc-viewuserlang-go' => 'گئت',
 	'wminc-userdoesnotexist' => '"$1" آدلی ایستیفاده‌چی یوخدور',
 	'wminc-ip' => '"$1" بیر آی-پی عونوانی‌دیر',
-	'right-viewuserlang' => 'ایستیفاده‌چی‌نین دیلینه و تست ویکی‌سینه باخ',
-	'group-test-sysop' => 'تست ویکی ایداره‌چیلری',
-	'group-test-sysop-member' => '{{GENDER:$1|تست ویکی ایداره‌چی‌سی}}',
-	'grouppage-test-sysop' => '{{ns:project}}:تست ویکی ایداره‌چیلری',
+	'right-viewuserlang' => 'ایستیفاده‌چی‌نین دیلینه و تئست ویکی‌سینه باخ',
+	'group-test-sysop' => 'تئست ویکی ایداره‌چیلری',
+	'group-test-sysop-member' => '{{GENDER:$1|تئست ویکی ایداره‌چی‌سی}}',
+	'grouppage-test-sysop' => '{{ns:project}}:تئست ویکی ایداره‌چیلری',
 	'wminc-searchwiki' => 'ویکی‌ اوچون آختار',
 	'wminc-searchwiki-noproject' => 'سیز هئچ بیر پروژه سئچمه‌ییب‌سیز.',
 	'wminc-searchwiki-selectproject' => 'آختار:',
