@@ -932,6 +932,21 @@ tu pote [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear le pagina] e sequer [[{{
 	'wminc-infopage-error' => 'Error: {{#infopage}} pote esser usate solmente in paginas con prefixo.',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionary $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversity $1',
+	'wminc-infopage-title-y' => 'Wikivoyage $1',
+	'wminc-infopage-welcome' => 'Selamat datang di Wikimedia Incubator, sebuah proyek dari Wikimedia Foundation ([[{{MediaWiki:Aboutpage}} |Tentang]])', # Fuzzy
+);
+
 /** Italian (italiano)
  * @author Beta16
  * @author Darth Kule
@@ -1345,8 +1360,8 @@ $messages['nl'] = array(
 	'wminc-infopage-title-s' => 'Wikisource in het $1',
 	'wminc-infopage-title-v' => 'Wikiversity in het $1',
 	'wminc-infopage-title-y' => 'Wikivoyage in het $1',
-	'wminc-infopage-welcome' => 'Welkom bij de Wikimedia Incubator, een project van de Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Meer info]])',
-	'wminc-infopage-missingwiki-text' => 'Een $1 in deze taal bestaat nog niet.',
+	'wminc-infopage-welcome' => 'Welkom bij de Wikimedia Incubator, een project van de Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|meer informatie]])',
+	'wminc-infopage-missingwiki-text' => 'Het project $1 bestaat nog niet in deze taal.',
 	'wminc-infopage-option-startwiki' => "Als u deze wiki wilt starten, volg dan '''[$3 deze stappen]''' en [[{{MediaWiki:Wminc-manual-url}}|onze handleiding]].",
 	'wminc-infopage-option-startsister' => 'Als u deze wiki wilt starten, kunt u naar <strong>[$2 $1]</strong> gaan.',
 	'wminc-infopage-option-languages-existing' => 'U kunt naar [//www.$1.org bestaande taalversies van $1] zoeken.',
@@ -1354,13 +1369,13 @@ $messages['nl'] = array(
 	'wminc-infopage-option-sisterprojects-other' => 'U kunt naar andere projecten in deze taal zoeken:',
 	'wminc-infopage-option-multilingual' => 'U kunt ook naar een meertalige wiki gaan:',
 	'wminc-infopage-createmainpage' => 'Geef het woord "Hoofdpagina" op in deze taal:',
-	'wminc-infopage-contribute' => 'Als u deze taal kent, wordt u aangemoedigd om bij te dragen!',
+	'wminc-infopage-contribute' => 'Als u deze taal kent, draag dan bij!',
 	'wminc-infopage-status-open' => 'Dit is een open wiki van Wikimedia Incubator.',
-	'wminc-infopage-status-imported' => 'Deze Incubator-wiki werd geïmporteerd van $1 nadat die wiki is gesloten.',
+	'wminc-infopage-status-imported' => 'Deze Incubatorwiki is geïmporteerd van $1 nadat die wiki is gesloten.',
 	'wminc-infopage-status-closedsister' => 'Dit subdomein is gesloten. Ga naar <strong>$2</strong> om bij te dragen aan deze wiki.',
 	'wminc-infopage-status-approved' => 'Deze Incubatorwiki is goedgekeurd door de [[meta:Special:MyLanguage/Language_committee|taalcommissie]] en wordt binnenkort aangemaakt.',
-	'wminc-infopage-status-created' => 'Dit project werd goedgekeurd door het taalcomité en is nu beschikbaar op $1.',
-	'wminc-infopage-status-beforeincubator' => 'Dit project is gemaakt voordat Wikimedia Incubator begon en is beschikbaar op $1.',
+	'wminc-infopage-status-created' => 'Dit project is goedgekeurd door het taalcomité en is nu beschikbaar op $1.',
+	'wminc-infopage-status-beforeincubator' => 'Dit project is gemaakt voordat Wikimedia Incubator is opgericht en is beschikbaar op $1.',
 	'wminc-infopage-status-beforeincubator-sister' => 'Dit project is beschikbaar op $1.',
 	'wminc-infopage-error' => "Fout: {{#infopage}} kan alleen gebruikt worden in pagina's met een voorvoegsel.",
 );
@@ -1514,8 +1529,13 @@ $messages['ro'] = array(
 	'wminc-infopage-title-n' => 'Wikiștiri $1',
 	'wminc-infopage-title-s' => 'Wikisursă $1',
 	'wminc-infopage-title-v' => 'Wikiversitate $1',
+	'wminc-infopage-title-y' => 'Wikivoiaj $1',
 	'wminc-infopage-missingwiki-text' => '$1 în această limbă nu există.',
-	'wminc-infopage-option-multilingual' => 'Puteți merge pe un wiki multilingvistic:',
+	'wminc-infopage-option-startsister' => 'Dacă doriți să porniți acest wiki, puteți merge la <strong>[$2 $1]</strong>.',
+	'wminc-infopage-option-sisterprojects-existing' => 'Puteți căuta proiecte existente în această limbă:',
+	'wminc-infopage-option-sisterprojects-other' => 'Puteți căuta alte proiecte în această limbă:',
+	'wminc-infopage-option-multilingual' => 'Puteți merge pe un wiki multilingvistic:', # Fuzzy
+	'wminc-infopage-contribute' => 'Dacă cunoașteți această limbă, sunteți încurajat să contribuiți!',
 	'wminc-infopage-status-beforeincubator-sister' => 'Acest proiect este disponibil la $1.',
 );
 

@@ -3585,6 +3585,7 @@ $messages['qug'] = array(
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
+ * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'wminc-desc' => 'Sistemul wiki de testare pentru Wikimedia Incubator',
@@ -3617,6 +3618,7 @@ $messages['ro'] = array(
 	'group-test-sysop-member' => '{{GENDER:$1|administrator de wiki destinat testelor}}',
 	'grouppage-test-sysop' => '{{ns:project}}:Administratori wiki de încercare',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|Limba „$3”]] este o [[wikipedia:ro:ISO 639 macrolimbă|macrolimbă]], incluzând următoarele limbi:',
+	'wminc-searchwiki' => 'Caută un wiki',
 	'wminc-searchwiki-noproject' => 'Nu ați selectat un proiect.',
 	'wminc-searchwiki-selectproject' => 'De căutat:',
 	'wminc-searchwiki-inputlanguage' => 'În limba:',
@@ -3627,9 +3629,11 @@ $messages['ro'] = array(
 	'wminc-searchwiki-match-englishname' => '„$1” este numele limbii $2 în engleză.',
 	'wminc-searchwiki-match-nativename' => '„$1” este numele limbii $2 în respectiva limbă.',
 	'wminc-searchwiki-gotoinfopage' => 'pagină informativă',
+	'wminc-fs-pagetitle' => 'Ghidul primilor pași – $1',
 	'wminc-fs-langselect-title' => 'Selectare limbă',
 	'wminc-fs-signup-title' => 'Înregistrare',
 	'wminc-fs-userpage-title' => 'Creați-vă pagina de utilizator',
+	'wminc-fs-startwiki-title' => 'Creați-vă propriul wiki',
 	'wminc-fs-pagetitle-done' => ' – realizat!',
 );
 
