@@ -704,11 +704,12 @@ vos pouede [{{fullurl:{{FULLPAGENAME}}|action=edit}} fâre la pâge] et pués si
 	'wminc-infopage-option-languages-existing' => 'Vos pouede chèrchiér des [//www.$1.org vèrsions lengouistiques ègzistentes de $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Vos pouede chèrchiér des projèts ègzistents dens cela lengoua :',
 	'wminc-infopage-option-sisterprojects-other' => 'Vos pouede chèrchiér d’ôtros projèts dens cela lengoua :',
-	'wminc-infopage-option-multilingual' => 'Vos pouede alar vers un vouiqui multilingo :',
+	'wminc-infopage-option-multilingual' => 'Vos pouede alar vers un vouiqui multilingo :', # Fuzzy
 	'wminc-infopage-createmainpage' => 'Buchiéd lo mot « Pâge principâla » dens voutra lengoua :',
 	'wminc-infopage-status-imported' => 'Ceti vouiqui Covosa at étâ importâ dês $1 aprés que lo vouiqui èye étâ cllôs.',
 	'wminc-infopage-status-created' => 'Ceti projèt at étâ aprovâ per lo comitât lengouistico et est ora disponiblo dessus $1.',
 	'wminc-infopage-status-beforeincubator' => 'Ceti projèt at étâ fêt aprés que la Covosa Wikimedia èye étâ lanciê et est disponiblo dessus $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Ceti projèt est disponiblo dessus $1.',
 );
 
 /** Galician (galego)
@@ -1947,6 +1948,7 @@ $messages['yi'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
  * @author Dalt
+ * @author Hydra
  * @author Liangent
  */
 $messages['zh-hans'] = array(
@@ -1959,21 +1961,26 @@ $messages['zh-hans'] = array(
 	'wminc-infopage-title-n' => '$1维基新闻',
 	'wminc-infopage-title-s' => '$1维基文库',
 	'wminc-infopage-title-v' => '$1维基学院',
+	'wminc-infopage-title-y' => '$1维基导游',
 	'wminc-infopage-welcome' => '欢迎来到维基孵育场，维基媒体基金会各有项目之一
 （[[{{MediaWiki:Aboutpage}}|关于我们]]）',
 	'wminc-infopage-missingwiki-text' => '这种语言的$1尚未存在。',
-	'wminc-infopage-option-startwiki' => '若想创建这个维基项目，您可以[{{fullurl:{{FULLPAGENAME}}|action=edit}} 创建该页面]并按照我们所提供的[[{{MediaWiki:Wminc-manual-url}}|手册]]。', # Fuzzy
+	'wminc-infopage-option-startwiki' => "若想创建这个维基项目，请跟从'''[$3 这些步骤]'''并按照我们所提供的[[{{MediaWiki:Wminc-manual-url}}|手册]]。",
 	'wminc-infopage-option-startsister' => '若想创建这个维基项目，请转到<strong>[$2 $1]</strong>。',
 	'wminc-infopage-option-languages-existing' => '您可以搜索[//www.$1.org $1所现有的语言版本]。',
 	'wminc-infopage-option-sisterprojects-existing' => '您可以在这种语言中搜索现有项目：',
 	'wminc-infopage-option-sisterprojects-other' => '您可以在这种语言搜索其他项目：',
-	'wminc-infopage-option-multilingual' => '您可以转到一个多语种的维基项目：',
+	'wminc-infopage-option-multilingual' => '您可以另外转到一个多语种的维基项目：',
 	'wminc-infopage-createmainpage' => '输入“主页”此词在这种语言的翻译：',
 	'wminc-infopage-contribute' => '如果您会这门语言，欢迎您做出贡献！',
+	'wminc-infopage-status-open' => '这是维基孵育场的一个开放测试维基。',
 	'wminc-infopage-status-imported' => '该维基项目关闭后，这个孵育场维基已从$1导入。',
 	'wminc-infopage-status-closedsister' => '此子域名已关闭。请转到<strong>$2</strong>为此维基项目作出贡献。',
+	'wminc-infopage-status-approved' => '这个维基媒体孵育场的维基已被 [[meta:Special:MyLanguage/Language_committee|语言委员会]] 批准，此维基很快就会被创建了。',
 	'wminc-infopage-status-created' => '此项目已经受语言委员会批准，现已在$1可以使用。',
 	'wminc-infopage-status-beforeincubator' => '此项目已在维基孵育场开场之前创建，而在$1可以使用。',
+	'wminc-infopage-status-beforeincubator-sister' => '此项目现在是在 $1 。',
+	'wminc-infopage-error' => '错误：{{#infopage}} 只能在有字首的页面上利用。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
