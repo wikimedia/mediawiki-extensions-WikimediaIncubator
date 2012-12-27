@@ -207,6 +207,13 @@ $messages['az'] = array(
 	'wminc-infopage-title-v' => 'Vikiversitet $1',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author E THP
+ */
+$messages['azb'] = array(
+	'wminc-infopage-contribute' => 'اَیر بو دیلی بیلیرسینیز،سیزی بو دیل‌ده چالیشماقا دعوت ائدیریک !',
+);
+
 /** Bashkir (башҡортса)
  * @author Haqmar
  */
@@ -1113,7 +1120,7 @@ $messages['ksh'] = array(
 	'wminc-infopage-option-languages-existing' => 'Do kanns noh [//www.$1.org Schprooche_Ußjaabe {{GRAMMAR:vum|{{ucfirst:$1}}}} söhke].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Do kanns noh Projäkte en heh dä Schprooch söhke, di et ald jitt:',
 	'wminc-infopage-option-sisterprojects-other' => 'Do kanns noh ander Projäkte en heh dä Schprooch söhke:',
-	'wminc-infopage-option-multilingual' => 'Do kann noh enem Wiki en etlijje Schprooche jonn:',
+	'wminc-infopage-option-multilingual' => 'Do kanns ävver och noh enem Wiki en ätlijje Schprooche jonn:',
 	'wminc-infopage-createmainpage' => 'Jif dat Woot för „Houpsigg“ en dä Shprooch en:',
 	'wminc-infopage-contribute' => 'Wann De di Shprooch kanns, dann bes De opjeroofe, beizedraare!',
 	'wminc-infopage-status-open' => 'Dat heh es e offe Wiki om Wikimeedija <i lang="en">Incubator</i>.',
@@ -1642,13 +1649,14 @@ $messages['si'] = array(
 	'wminc-infopage-option-languages-existing' => 'ඔබ හට [//www.$1.org $1 හී දැනටමත් පවත්නා භාෂා අනුවාදයන්] සඳහා ගවේෂණය කල හැක.',
 	'wminc-infopage-option-sisterprojects-existing' => 'මෙම භාෂාවෙහි දැනටමත් පවතින ව්‍යාපෘතියන් ඔබට ගවේශනය කල හැක:',
 	'wminc-infopage-option-sisterprojects-other' => 'මෙම භාෂාවෙහි වෙනත් ව්‍යාපෘතියන් ඔබට ගවේශනය කල හැක:',
-	'wminc-infopage-option-multilingual' => 'ඔබට බහුභාෂාමය විකියකට යා හැකියි:',
+	'wminc-infopage-option-multilingual' => 'ඔබට බහුභාෂාමය විකියකට යා හැකියි:', # Fuzzy
 	'wminc-infopage-createmainpage' => "මෙම භාෂාවෙහිදී ''මුල් පිටුව'' යන වචනය යොදන්න:",
 	'wminc-infopage-contribute' => 'ඔබ මෙම භාෂාව ගැන දන්නවානම්, දායකත්වය ලබා දීමට ඔබට අපි අනුබල දෙනවා!',
 	'wminc-infopage-status-imported' => 'විකිය වැසීමෙන් පසුව මෙම ඉන්කිව්බේටර විකිය $1 වෙතින් ආයාත කර ඇත.',
 	'wminc-infopage-status-closedsister' => 'මෙම උපවසම වසා ඇත. මෙම විකියට දායකවීමට <strong>$2</strong> වෙත යන්න.',
 	'wminc-infopage-status-created' => 'භාෂා කමිටුව විසින් මෙම ව්‍යාපෘතිය අනුමත කල අතර $1 හීදී ලබාගත හැක.',
 	'wminc-infopage-status-beforeincubator' => 'මෙම ව්‍යාපෘතිය තැනී ඇත්තේ විකිමාධ්‍ය ඉන්කිව්බේටරය ආරම්භ කිරීමට පෙර වන අතර $1 හීදී ලබා ගත හැක.',
+	'wminc-infopage-status-beforeincubator-sister' => 'මෙම ව්‍යාපෘතිය $1 හීදී ලබා ගත හැක.',
 );
 
 /** Slovenian (slovenščina)

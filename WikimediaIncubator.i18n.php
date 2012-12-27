@@ -1484,6 +1484,7 @@ $messages['fa'] = array(
  * @author Silvonen
  * @author Str4nd
  * @author Varusmies
+ * @author VezonThunder
  */
 $messages['fi'] = array(
 	'wminc-desc' => 'Testiwiki-järjestelmä Wikimedia-hautomoa varten',
@@ -1492,6 +1493,7 @@ $messages['fi'] = array(
 	'wminc-testwiki' => 'Testiwiki:',
 	'wminc-testwiki-code' => 'Testiwikin kieli:',
 	'wminc-testwiki-none' => 'Ei lainkaan/Kaikki',
+	'wminc-testwiki-site' => '(Ylläpito)',
 	'wminc-recentchanges-all' => 'Kaikki viimeisimmät muutokset',
 	'wminc-prefinfo-language' => 'Käyttöliittymän kieli – riippumaton testiwikistäsi',
 	'wminc-prefinfo-code' => 'Käyttämäsi kielen ISO 639 -kielikoodi',
@@ -1520,14 +1522,38 @@ $messages['fi'] = array(
 	'wminc-listusers-testwiki' => 'Tarkastelet käyttäjiä, jotka ovat asettaneet testiwikinsä asetukseksi $1.',
 	'wminc-search-nocreate-nopref' => 'Etsit hakusanalla "$1". Aseta [[Special:Preferences|testiwikin asetukset]], jotta voimme kertoa sinulle minkä sivun voit luoda!',
 	'wminc-search-nocreate-suggest' => 'Etsit hakusanalla ”$1”. Voit luoda sivun <strong>[[$2]]</strong> tähän wikiin!',
+	'wminc-searchwiki' => 'Hae wikiä',
+	'wminc-searchwiki-noproject' => 'Et valinnut projektia.',
+	'wminc-searchwiki-noresults' => 'Ei tuloksia. Voit hakea kielikoodeja, omakielisiä nimiä tai nimiä käyttöliittymäkielelläsi tai englanniksi.',
 	'wminc-searchwiki-selectproject' => 'Etsi seuraavaa:',
 	'wminc-searchwiki-inputlanguage' => 'Kielellä:',
 	'wminc-searchwiki-go' => 'Siirry',
+	'wminc-searchwiki-multiplematches' => 'Hakusi vastaa seuraavia kieliä:',
+	'wminc-searchwiki-match-langcode' => '"$1" on kielen $2 ISO 639 -kielikoodi.',
+	'wminc-searchwiki-match-userlangname' => '$1 on kielen nimi.',
+	'wminc-searchwiki-match-englishname' => '"$1" on kielen $2 englanninkielinen nimi.',
+	'wminc-searchwiki-match-nativename' => '"$1" on kielen $2 nimi kyseisellä kielellä.',
+	'wminc-searchwiki-gotoinfopage' => 'tietosivu',
 	'wminc-fs-pagetitle' => 'Ohjattu aloitustoiminto – $1',
 	'wminc-fs-langselect-title' => 'Valitse kieli',
 	'wminc-fs-signup-title' => 'Rekisteröidy',
+	'wminc-fs-settings-title' => 'Aseta wikiasetuksesi',
+	'wminc-fs-userpage-title' => 'Luo käyttäjäsivu',
 	'wminc-fs-startwiki-title' => 'Aloita wiki',
 	'wminc-fs-pagetitle-done' => ' - valmis!',
+	'wminc-fs-intro' => 'Tervetuloa sivuston {{SITENAME}} ohjattuun aloitukseen. Sinut opastetaan uuden wikin aloittamisprosessin läpi.',
+	'wminc-fs-langselect' => 'Jatka kielellä $1 tai $2',
+	'wminc-fs-signup-text' => 'Jos sinulla jo on käyttäjätunnus, [$1 kirjaudu sisään]. Jos sinulla ei ole sellaista, [$2 luo käyttäjätunnus].
+Sitä ei vaadita, mutta sitä vahvasti suositellaan ja sen luomiseen kuluu vain muutama sekunti.',
+	'wminc-fs-settings-text' => 'Mene nyt [[Special:Preferences|asetuksiisi]] ja muuta testiwikiasetuksesi.
+Oikealla näet asiaan liittyvät vaihtoehdot, jotka sinulla on. Ensimmäinen on käyttöliittymän kieli, jonka olet valinnut ensimmäisessä kohdassa mutta jota voit yhä muuttaa.
+Toinen on projekti, johon haluat osallistua ja kolmas on sen projektin, johon haluat osallistua, kielikoodi.
+Jos et tiedä koodia, katso [[{{MediaWiki:Wminc-manual-url}}|käsikirjastamme]] tai [[{{MediaWiki:Portal-url}}|pyydä apua]].',
+	'wminc-fs-userpage-text' => 'Luo nyt käyttäjäsivusi $1 ja laita sinne perustietoja itsestäsi. Näet linkin siihen myös tämän sivun yläreunassa.',
+	'wminc-fs-globaluser-text' => 'Käyttäjätunnuksesi on paikallinen. On suositeltua tehdä siitä järjestelmänlaajuinen sivulla $1, jotta voit käyttää sitä missä tahansa Wikimedian wikissä.',
+	'wminc-fs-startwiki-text' => 'Wikisi etuliite on <strong>$1</strong>. Voit aloittaa wikin luomalla sen etusivun osoitteessa <strong>$2</strong>.',
+	'wminc-fs-startwiki-exists-text' => 'Wikisi etuliite on $1. Etusivu on osoitteessa $2. Voit nyt tehdä yhteistyötä toisten tämän kielen puhujien kanssa rakentaaksesi yhteisön!
+Jos haluat luoda sivun, kirjoita vain sen nimi hakulaatikkoon yläpuolella ja seuraa näkemääsi linkkiä.',
 );
 
 /** French (français)
@@ -2101,6 +2127,13 @@ $messages['hu'] = array(
 	'wminc-search-nocreate-suggest' => 'Erre kerestél rá: „$1”. Létrehozhatsz egy lapot a wikidben itt: <strong>[[$2]]</strong>.',
 );
 
+/** Armenian (Հայերեն)
+ * @author Vadgt
+ */
+$messages['hy'] = array(
+	'wminc-viewuserlang-go' => 'Անցնել',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
@@ -2649,6 +2682,14 @@ $messages['kw'] = array(
 	'wminc-prefinfo-code' => 'Koden ISO 639 an yeth', # Fuzzy
 	'wminc-viewuserlang-user' => 'Hanow usyer:',
 	'wminc-viewuserlang-go' => 'Mos',
+);
+
+/** Kirghiz (Кыргызча)
+ * @author Growingup
+ */
+$messages['ky'] = array(
+	'wminc-manual' => 'Колдонмо',
+	'wminc-testwiki-none' => 'Жок/баары',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -3679,6 +3720,7 @@ $messages['roa-tara'] = array(
  * @author Kaganer
  * @author Kv75
  * @author MaxSem
+ * @author Ole Yves
  * @author Renessaince
  * @author Александр Сигачёв
  */
@@ -3689,6 +3731,7 @@ $messages['ru'] = array(
 	'wminc-testwiki' => 'Пробная вики:',
 	'wminc-testwiki-code' => 'Язык пробной вики:',
 	'wminc-testwiki-none' => 'Нет/все',
+	'wminc-testwiki-site' => '(Техническое обслуживание)',
 	'wminc-recentchanges-all' => 'Все недавние правки',
 	'wminc-prefinfo-language' => 'Ваш язык интерфейса не зависит от вашей пробной вики',
 	'wminc-prefinfo-code' => 'Код языка по ISO 639', # Fuzzy
@@ -3729,6 +3772,26 @@ $messages['ru'] = array(
 	'wminc-searchwiki-match-englishname' => '«$1» — английское название языка «$2».',
 	'wminc-searchwiki-match-nativename' => '«$1» — самоназвание языка «$2».',
 	'wminc-searchwiki-gotoinfopage' => 'страница информации',
+	'wminc-fs-pagetitle' => 'Мастер начала работы — $1',
+	'wminc-fs-langselect-title' => 'Выберите язык',
+	'wminc-fs-signup-title' => 'Зарегистрироваться',
+	'wminc-fs-settings-title' => 'Установите свои настройки',
+	'wminc-fs-userpage-title' => 'Создайте свою страницу участника',
+	'wminc-fs-startwiki-title' => 'Начните свой вики-проект',
+	'wminc-fs-pagetitle-done' => '— готово!',
+	'wminc-fs-intro' => 'Добро пожаловать в мастер первых шагов в {{SITENAME}}. Вы пройдёте через процесс запуска нового вики-проекта.',
+	'wminc-fs-langselect' => 'Перейти в $1 или $2',
+	'wminc-fs-signup-text' => 'Если у вас уже есть учётная запись, пожалуйста, [$1 войдите в систему]. Если у вас её нет, [$2 создайте учётную запись].
+Это не требуется, но рекомендуется и занимает всего несколько секунд.',
+	'wminc-fs-settings-text' => 'Пожалуйста, перейдите на [[Special:Preferences|вашу страницу настроек]] и изменить настройки вашего тестового вики-проекта.
+Справа вы видите соответствующие опции, которые у вас есть на этой странице. Первый — это ваш язык интерфейса, который вы выбрали на первом шаге, но вы все еще можете его изменить.
+Второй — вики-проект, в который вы хотите внести свой вклад, а третий — код языка данного проекта.
+Если вы не знаете кода, обратитесь к нашей [[{{MediaWiki:Wminc-ручной-url}}|инструкции]] или попросите [[{{MediaWiki:Portal-url}}|помощи]].', # Fuzzy
+	'wminc-fs-userpage-text' => 'Теперь, пожалуйста, создайте свою страницу участника $1 с некоторыми основными сведениями о себе. Вы также можете увидеть ссылку на неё вверху этой страницы.',
+	'wminc-fs-globaluser-text' => 'Ваша учётная запись является локальной. Рекомендуется сделать её глобальной через $1 для того, чтобы вы могли использовать её в любом вики-проекте Фонда Викимедиа.',
+	'wminc-fs-startwiki-text' => 'Префикс вашего вики-проекта — <strong>$1</strong>. Вы можете начать вики-проект созданием главной страницы по адресу <strong>$2</strong>.',
+	'wminc-fs-startwiki-exists-text' => 'Префикс вашего вики-проекта — $1. Главная страница находится по адресу $2. Теперь вы можете вносить вклад с другими носителями данного языка для создания сообщества!
+Если вы хотите создать страницу, просто напишите название в поисковой строке, находящейся выше, и пройдите по ссылке, которую вы увидите.',
 );
 
 /** Rusyn (русиньскый)
