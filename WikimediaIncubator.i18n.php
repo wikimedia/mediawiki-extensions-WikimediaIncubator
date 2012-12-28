@@ -3444,6 +3444,7 @@ $messages['pl'] = array(
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
+ * @author පසිඳු කාවින්ද
  */
 $messages['pms'] = array(
 	'wminc-desc' => 'Preuva ël sistema ëd wiki për Wikimedia Incubator',
@@ -3480,6 +3481,7 @@ $messages['pms'] = array(
 	'wminc-listusers-testwiki' => "A l'é an camin ch'a vëd j'utent ch'a l'han ampostà ij sò gust ëd wiki ëd preuva a $1.",
 	'wminc-search-nocreate-nopref' => "A l'ha arsercà «$1». Për piasì, ch'a ampòsta ij [[Special:Preferences|sò gust dla wiki ëd preuva]] parèj i podoma dije che pàgina a peul creé!",
 	'wminc-search-nocreate-suggest' => "A l'ha arsercà «$1». A peul creé na pàgina an soa wiki a <strong>[[$2]]</strong>!",
+	'wminc-searchwiki-go' => 'Va',
 );
 
 /** Pontic (Ποντιακά)
@@ -3965,7 +3967,11 @@ $messages['si'] = array(
 	'wminc-searchwiki-selectproject' => 'මේ සඳහා සොයන්න:',
 	'wminc-searchwiki-inputlanguage' => 'භාෂාවෙහි:',
 	'wminc-searchwiki-go' => 'යන්න',
+	'wminc-searchwiki-multiplematches' => 'ඔබේ සෙවුමට පහත දැක්වෙන භාෂා ගැලපුණි:',
+	'wminc-searchwiki-match-langcode' => '"$1" යනු $2 සඳහා වූ ISO 639 භාෂා කේතයයි.',
 	'wminc-searchwiki-match-userlangname' => '$1 යනු භාෂාවක නමකි.',
+	'wminc-searchwiki-match-englishname' => '"$1" යනු $2 සඳහා ඉංග්‍රීසි භාෂාවෙන් ඇති නමයි.',
+	'wminc-searchwiki-match-nativename' => '"$1" යනු $2 සඳහා එම භාෂාවෙන් ඇති නමයි.',
 	'wminc-searchwiki-gotoinfopage' => 'තොරතුරු පිටුව',
 	'wminc-fs-pagetitle' => 'පටන් ගැනීමේ මායා අඳුන - $1',
 	'wminc-fs-langselect-title' => 'භාෂාව තෝරන්න',

@@ -209,9 +209,38 @@ $messages['az'] = array(
 
 /** South Azerbaijani (تورکجه)
  * @author E THP
+ * @author Mousa
  */
 $messages['azb'] = array(
-	'wminc-infopage-contribute' => 'اَیر بو دیلی بیلیرسینیز،سیزی بو دیل‌ده چالیشماقا دعوت ائدیریک !',
+	'wminc-infopage-enter' => 'آنا صحیفه‌یه گئدین',
+	'wminc-unknownlang' => '(بیلینمه‌ین دیل کودو)',
+	'wminc-infopage-title-p' => '$1 ویکی‌پئدیا',
+	'wminc-infopage-title-b' => '$1 ویکی‌کیتاب',
+	'wminc-infopage-title-t' => '$1 ویکی‌سؤزلوک',
+	'wminc-infopage-title-q' => '$1 ویکی‌سؤز',
+	'wminc-infopage-title-n' => '$1 ویکی‌خبر',
+	'wminc-infopage-title-s' => '$1 ویکی‌قایناق',
+	'wminc-infopage-title-v' => '$1 ویکی‌وئرسیته',
+	'wminc-infopage-title-y' => '$1 ویکی‌سفر',
+	'wminc-infopage-welcome' => 'ویکی‌مئدیا اینکوباتور، ویکی‌مئدیا تشکیلاتینین بیر پروژه‌سینه، خوش گلمیسینیز
+([[{{MediaWiki:Aboutpage}}|حاقیندا]])',
+	'wminc-infopage-missingwiki-text' => 'بو دیل‌ده بیر $1 هله یوخدور.',
+	'wminc-infopage-option-startwiki' => "اگر بو ویکی‌نین آچماغینی ایسته‌ییرسینیز، لوطفاً '''[$3 بو آددیملار]''' و [[{{MediaWiki:Wminc-manual-url}}|بیزیم درسلیگیمیز]]ی گئدین.",
+	'wminc-infopage-option-startsister' => 'اگر بو ویکی‌نین آچماغینی ایسته‌ییرسینیز، <strong>[$2 $1]</strong>-ه گئده بیلرسینیز.',
+	'wminc-infopage-option-languages-existing' => 'سیز [//www.$1.org $1-ین اولان دیل‌لری]نی آختارا بیلرسینیز.',
+	'wminc-infopage-option-sisterprojects-existing' => 'سیز بو دیل‌ده اولان پروژه‌لری آختارا بیلرسینیز:',
+	'wminc-infopage-option-sisterprojects-other' => 'سیز بو دیل‌ده اولان آیری پروژه‌لری آختارا بیلرسینیز:',
+	'wminc-infopage-option-multilingual' => 'یا دا، سیز بیر نئچه‌دیل‌لی ویکی‌یه گئده بیلرسینیز:',
+	'wminc-infopage-createmainpage' => 'بو دیل‌ده «آنا صحیفه‌نی» یازین:',
+	'wminc-infopage-contribute' => 'اگر بو دیلی بیلیرسینیز، سیزی بو دیل‌ده چالیشماقا دعوت ائدیریک!',
+	'wminc-infopage-status-open' => 'بو ویکی‌مئدیا اینکوباتورون بیر آچیق ویکی‌سی‌دیر.',
+	'wminc-infopage-status-imported' => 'بو اینکوباتور ویکی، $1 ویکی‌سی باغلاناندان سونرا، گتیریلیب‌دیر.',
+	'wminc-infopage-status-closedsister' => 'آلت‌دامنه باغلانیب‌دیر. بو ویکی‌ده چالیشماغا <strong>$2</strong>-ه گئدین.',
+	'wminc-infopage-status-approved' => 'بو اینوکوباتور ویکی [[meta:Special:MyLanguage/Language_committee|دیل کومیته‌سینده]] تأیید اولونوب‌دور و بو یاخیندا یارادیلاجاق‌دیر.',
+	'wminc-infopage-status-created' => 'بو پروژه دیل کومیته‌سینده تأیید اولونوب‌دور و $1-ده ال‌ده‌دیر.',
+	'wminc-infopage-status-beforeincubator' => 'بو پروژه ویکی‌مئدیا اینکوباتور یاراناندان قاباق باشلانیب‌دیر و $1-ده ال‌ده‌دیر.',
+	'wminc-infopage-status-beforeincubator-sister' => 'بو پروژه $1-ده ال‌ده‌دیر.',
+	'wminc-infopage-error' => 'خطا: {{#infopage}}-ی یالنیز اؤن‌اکلی صحیفه‌لرده ایشلتمک اولار.',
 );
 
 /** Bashkir (башҡортса)
@@ -1641,6 +1670,7 @@ $messages['si'] = array(
 	'wminc-infopage-title-n' => 'විකිපුවත් $1',
 	'wminc-infopage-title-s' => 'විකිමුලාශ්‍ර $1',
 	'wminc-infopage-title-v' => 'විකිවර්සිටි $1',
+	'wminc-infopage-title-y' => 'විකිවොයේජ් $1',
 	'wminc-infopage-welcome' => 'විකිමාධ්‍ය ඉන්කිව්බේටර වෙත පිළිගනිමු, විකිමාධ්‍ය පදනමෙහි ව්‍යාපෘතියකි ([[{{MediaWiki:Aboutpage}}|පිලිබඳ]])',
 	'wminc-infopage-missingwiki-text' => 'මෙම භාෂාවෙහි තිබෙන $1 තවම නොපවතියි.',
 	'wminc-infopage-option-startwiki' => 'ඔබට මෙම විකිය ආරම්භ කිරීමට අවශ්‍යනම්,
@@ -1891,16 +1921,16 @@ $messages['uk'] = array(
 	'wminc-infopage-title-v' => 'Віківерситет мовою «$1»',
 	'wminc-infopage-title-y' => 'Віківояж мовою «$1»',
 	'wminc-infopage-welcome' => 'Ласкаво просимо до Інкубатора Вікімедіа. [[{{MediaWiki:Aboutpage}}|Інформація]] про цей проект Фонду Вікімедіа',
-	'wminc-infopage-missingwiki-text' => '$1 ще не має розділу даною мовою.',
+	'wminc-infopage-missingwiki-text' => '$1 ще не має розділу цією мовою.',
 	'wminc-infopage-option-startwiki' => "Якщо ви бажаєте започаткувати цей вікіпроект, будь ласка зробіть
 '''[$3 ці кроки]''' та дотримуйтесь порад [[{{MediaWiki:Wminc-manual-url}}|нашої інструкції]].",
 	'wminc-infopage-option-startsister' => 'Якщо ви хочете започаткувати цей вікіпроект, ви можете звернутися до <strong>[$2 $1]</strong>.',
 	'wminc-infopage-option-languages-existing' => 'Ви можете пошукати серед [//www.$1.org існуючих мовних розділів $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Ви можете пошукати існуючі проекти цією мовою:',
 	'wminc-infopage-option-sisterprojects-other' => 'Ви можете пошукати інші проекти цією мовою:',
-	'wminc-infopage-option-multilingual' => 'Ви можете перейти до багатомовних вікіпроектів:',
+	'wminc-infopage-option-multilingual' => 'Ви можете перейти до багатомовних вікіпроектів:', # Fuzzy
 	'wminc-infopage-createmainpage' => 'Введіть фразу «Головна сторінка» на цій мові:',
-	'wminc-infopage-contribute' => 'Якщо ви розумієте цю мову, ви можете внести свій вклад!',
+	'wminc-infopage-contribute' => 'Якщо Ви володієте цією мовою, Ви можете зробити свій внесок!',
 	'wminc-infopage-status-open' => 'Це відкрита вікі в Інкубаторі Вікімедіа.',
 	'wminc-infopage-status-imported' => 'Ця вікі була перенесена до Інкубатору з $1 після її закриття.',
 	'wminc-infopage-status-closedsister' => 'Цей піддомен було закрито. Перейти до <strong>$2</strong>, щоб зробити внесок до цієї вікі.',
