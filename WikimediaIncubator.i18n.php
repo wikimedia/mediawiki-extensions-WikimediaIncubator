@@ -97,10 +97,10 @@ $messages['en'] = array(
 	'wminc-fs-signup-text' => 'If you already have a user account, please [$1 log in]. If you do not have one yet, please [$2 create a user account].
 It is not required but strongly recommended and only takes a few seconds to create.',
 	'wminc-fs-settings-image' => '[[File:Incubator wiki preference.png|thumb|350px]]', # do not translate
-	'wminc-fs-settings-text' => 'Please now go to [[Special:Preferences|your preferences]] and change your test wiki setting.
-At the right you see the relevant options you have on that page. The first one is your interface language, which you have chosen in the first step, but you can still change it.
+	'wminc-fs-settings-text' => 'Please now go to [[Special:Preferences#mw-htmlform-i18n|your preferences]] and change your test wiki setting.
+The first one is your interface language, which you have chosen in the first step, but you can still change it.
 The second one is the project you want to contribute to and the third one is the language code of the project you want to contribute to.
-If you don\'t know the code, please consult our [[{{MediaWiki:Wminc-manual-url}}|manual]] or ask for [[{{MediaWiki:Portal-url}}|help]].',
+If you do not know the code, please consult our [[{{MediaWiki:Wminc-manual-url}}|manual]] or ask for [[{{MediaWiki:Portal-url}}|help]].',
 	'wminc-fs-userpage-text' => 'Please now create your userpage $1 with some basic info about yourself. You can also see a link to it at the top of this page.',
 	'wminc-fs-globaluser-text' => 'Your user account is local. It is recommended to make it global via $1 so you can use it on any Wikimedia wiki.',
 	'wminc-fs-startwiki-text' => 'The prefix of your wiki is <strong>$1</strong>. You can start the wiki by creating the wiki\'s Main Page at <strong>$2</strong>.',
