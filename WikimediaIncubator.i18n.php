@@ -877,10 +877,10 @@ $messages['cs'] = array(
 	'wminc-fs-langselect' => 'Pokračovat v jazyce $1 nebo $2',
 	'wminc-fs-signup-text' => 'Pokud už máte uživatelský účet, [$1 přihlaste se]. Pokud ho ještě nemáte, můžete [$2 si ho založit].
 Není nezbytný, ale silně doporučený a založení trvá jen pár sekund.',
-	'wminc-fs-settings-text' => 'Nyní přejděte na [[Special:Preferences|uživatelské nastavení]] a upravte si nastavení své testovací wiki.
+	'wminc-fs-settings-text' => 'Nyní přejděte na [[Special:Preferences#mw-htmlform-i18n|uživatelské nastavení]] a upravte si nastavení své testovací wiki.
 Vpravo vidíte odpovídající volby, které na té stránce budete mít. První je jazyk rozhraní, který jste si zvolili v prvním kroku, ale i tak ho můžete změnit.
 Druhou je projekt, do kterého chcete přispívat, a třetí je kód jazyka projektu, do kterého chcete přispívat.
-Pokud kód neznáte, podívejte se do naší [[{{MediaWiki:Wminc-manual-url}}|příručky]] nebo požádejte o [[{{MediaWiki:Portal-url}}|pomoc]].',
+Pokud kód neznáte, podívejte se do naší [[{{MediaWiki:Wminc-manual-url}}|příručky]] nebo požádejte o [[{{MediaWiki:Portal-url}}|pomoc]].', # Fuzzy
 	'wminc-fs-userpage-text' => 'Nyní si prosím založte svou uživatelskou stránku $1 se základními informacemi o sobě. Odkaz na ni můžete vidět také navrchu této stránky.',
 	'wminc-fs-globaluser-text' => 'Váš uživatelský účet je lokální. Doporučujeme z něj udělat globální účet pomocí $1, abyste ho mohli používat na všech projektech Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Prefix vaší wiki je <strong>$1</strong>. Wiki můžete založit vytvořením Hlavní strany na <strong>$2</strong>.',
@@ -982,8 +982,8 @@ $messages['de'] = array(
 	'wminc-fs-intro' => 'Willkommen beim Startassistenten von {{SITENAME}}. Er wird dich beim Starten eines neuen Wikis begleiten.',
 	'wminc-fs-langselect' => 'Auf $1 oder $2 weitermachen',
 	'wminc-fs-signup-text' => 'Falls du bereits ein Benutzerkonto hast, [$1 melde dich bitte an]. Falls du noch keines besitzt, [$2 erstelle bitte eines]. Es ist nicht erforderlich, wird jedoch sehr empfohlen und das Erstellen dauert nur einige Sekunden.',
-	'wminc-fs-settings-text' => 'Bitte besuche jetzt [[Special:Preferences|deine Einstellungen]] und stelle deine Test-Wiki-Einstellungen ein.
-Rechts siehst du die entsprechenden Optionen, die du auf der Seite hast. Die erste ist die Sprache deiner Benutzeroberfläche, die du im ersten Schritt ausgewählt hast, du kannst sie aber immer verändern.
+	'wminc-fs-settings-text' => 'Bitte besuche jetzt [[Special:Preferences#mw-htmlform-i18n|deine Einstellungen]] und stelle deine Test-Wiki-Einstellungen ein.
+Die erste ist die Sprache deiner Benutzeroberfläche, die du im ersten Schritt ausgewählt hast, du kannst sie aber immer verändern.
 Die zweite Option ist das Projekt, zu dem du beitragen willst, und die dritte steht für den Sprachcode der Sprache, in der du zu diesem Projekt beitragen willst.
 Wenn du den Code nicht kennst, ziehe bitte unser [[{{MediaWiki:Wminc-manual-url}}|Handbuch]] zu Rate oder [[{{MediaWiki:Portal-url}}|frage nach]].',
 	'wminc-fs-userpage-text' => 'Bitte erstelle jetzt deine Benutzerseite $1 mit einigen grundlegenden Informationen über dich selbst. Du findest hierzu auch einen Link oben auf dieser Seite.',
@@ -1014,10 +1014,10 @@ $messages['de-formal'] = array(
 	'wminc-searchwiki-noproject' => 'Sie haben kein Projekt ausgewählt.',
 	'wminc-searchwiki-noresults' => 'Keine Ergebnisse. Sie können nach Sprachcodes, muttersprachlichen Bezeichnungen sowie Bezeichnungen in Ihrer voreingestellten Sprache oder in Englisch suchen.',
 	'wminc-fs-intro' => 'Willkommen beim Startassistenten von {{SITENAME}}. Er wird Sie beim Starten eines neuen Wikis begleiten.',
-	'wminc-fs-settings-text' => 'Bitte besuchen Sie jetzt [[Special:Preferences|Ihre Einstellungen]] und stellen Sie Ihre Test-Wiki-Einstellungen ein.
+	'wminc-fs-settings-text' => 'Bitte besuchen Sie jetzt [[Special:Preferences#mw-htmlform-i18n|Ihre Einstellungen]] und stellen Sie Ihre Test-Wiki-Einstellungen ein.
 Rechts sehen Sie die entsprechenden Optionen, die Sie auf der Seite haben. Die erste ist die Sprache Ihrer Benutzeroberfläche, die Sie im ersten Schritt ausgewählt haben, Sie können sie aber immer verändern.
 Die zweite Option ist das Projekt, zu dem Sie beitragen wollen, und die dritte steht für den Sprachcode der Sprache, in der Sie zu diesem Projekt beitragen wollen.
-Wenn Sie den Code nicht kennen, ziehen Sie bitte unser [[{{MediaWiki:Wminc-manual-url}}|Handbuch]] zu Rate oder [[{{MediaWiki:Portal-url}}|fragen Sie nach]].',
+Wenn Sie den Code nicht kennen, ziehen Sie bitte unser [[{{MediaWiki:Wminc-manual-url}}|Handbuch]] zu Rate oder [[{{MediaWiki:Portal-url}}|fragen Sie nach]].', # Fuzzy
 	'wminc-fs-userpage-text' => 'Bitte erstellen Sie jetzt Ihre Benutzerseite $1 mit einigen grundlegenden Informationen über sich selbst. Sie finden hierzu auch einen Link oben auf dieser Seite.',
 	'wminc-fs-globaluser-text' => 'Sie haben ein lokales Benutzerkonto. Es wird empfohlen, es über $1 zu einem globalen Benutzerkonto zu machen, so dass Sie es auf jedem Wikimedia-Wiki benutzen können.',
 	'wminc-fs-startwiki-text' => 'Das Präfix Ihres Wikis ist <strong>$1</strong>. Sie können das Wiki mit dem Erstellen der Hauptseite unter <strong>$2</strong> starten.',
@@ -1311,7 +1311,7 @@ $messages['es'] = array(
 	'wminc-fs-langselect' => 'Continuar en $1 o $2',
 	'wminc-fs-signup-text' => 'Si ya tienes una cuenta de usuario, por favor [$1 inicia sesión]. Si todavía no tienes una, por favor [$2 crea una cuenta de usuario].
 No es obligatorio pero es muy recomendable y sólo se tarda unos segundos en crearla.',
-	'wminc-fs-settings-text' => 'Ahora vaya a [[Special:Preferences|sus preferencias]] y cambie la configuración de su wiki de pruebas.
+	'wminc-fs-settings-text' => 'Ahora vaya a [[Special:Preferences#mw-htmlform-i18n|sus preferencias]] y cambie la configuración de su wiki de pruebas.
 A la derecha verá las opciones más importantes que tiene en esa página. La primera es el idioma de la interfaz, que eligió en el primer paso, pero todavía puede modificarla.
 La segunda es el proyecto al que quiere contribuir y la tercera es el código de idioma del proyecto al que quiere contribuir.
 Si no sabe el código, consulte nuestro [[{{MediaWiki:Wminc-manual-url}}|manual]] o pida [[{{MediaWiki:Portal-url}}|ayuda]].',
@@ -1385,7 +1385,7 @@ $messages['et'] = array(
 	'wminc-fs-langselect' => 'Jätka $1 keeles või mõnes järgmistest keeltest: $2',
 	'wminc-fs-signup-text' => 'Kui sul juba on kasutajakonto, [$1 logi palun sisse]. Kui sul pole seda veel, [$2 loo palun endale kasutajakonto].
 Konto loomist ei nõuta, aga see on ülimalt soovitatav ja võtab vaid mõne sekundi.',
-	'wminc-fs-settings-text' => 'Palun mine nüüd [[Special:Preferences|eelistuste leheküljele]] ja vali oma katseviki säte.
+	'wminc-fs-settings-text' => 'Palun mine nüüd [[Special:Preferences#mw-htmlform-i18n|eelistuste leheküljele]] ja vali oma katseviki säte.
 Paremal näed asjakohaseid suvandeid, mida sellel leheküljel valida. Esimene on liidese keel, mille valisid esimeses etapis ja mida saad soovi korral muuta.
 Teine on projekt, millele soovid kaastööd teha ja kolmas on keelekood, mis vastab keelele, milles projektile kaastööd soovid teha.
 Kui sa ei tea koodi, uuri palun meie [[{{MediaWiki:Wminc-manual-url}}|juhendit]] või [[{{MediaWiki:Portal-url}}|küsi abi]].',
@@ -1545,10 +1545,10 @@ $messages['fi'] = array(
 	'wminc-fs-langselect' => 'Jatka kielellä $1 tai $2',
 	'wminc-fs-signup-text' => 'Jos sinulla jo on käyttäjätunnus, [$1 kirjaudu sisään]. Jos sinulla ei ole sellaista, [$2 luo käyttäjätunnus].
 Sitä ei vaadita, mutta sitä vahvasti suositellaan ja sen luomiseen kuluu vain muutama sekunti.',
-	'wminc-fs-settings-text' => 'Mene nyt [[Special:Preferences|asetuksiisi]] ja muuta testiwikiasetuksesi.
+	'wminc-fs-settings-text' => 'Mene nyt [[Special:Preferences#mw-htmlform-i18n|asetuksiisi]] ja muuta testiwikiasetuksesi.
 Oikealla näet asiaan liittyvät vaihtoehdot, jotka sinulla on. Ensimmäinen on käyttöliittymän kieli, jonka olet valinnut ensimmäisessä kohdassa mutta jota voit yhä muuttaa.
 Toinen on projekti, johon haluat osallistua ja kolmas on sen projektin, johon haluat osallistua, kielikoodi.
-Jos et tiedä koodia, katso [[{{MediaWiki:Wminc-manual-url}}|käsikirjastamme]] tai [[{{MediaWiki:Portal-url}}|pyydä apua]].',
+Jos et tiedä koodia, katso [[{{MediaWiki:Wminc-manual-url}}|käsikirjastamme]] tai [[{{MediaWiki:Portal-url}}|pyydä apua]].', # Fuzzy
 	'wminc-fs-userpage-text' => 'Luo nyt käyttäjäsivusi $1 ja laita sinne perustietoja itsestäsi. Näet linkin siihen myös tämän sivun yläreunassa.',
 	'wminc-fs-globaluser-text' => 'Käyttäjätunnuksesi on paikallinen. On suositeltua tehdä siitä järjestelmänlaajuinen sivulla $1, jotta voit käyttää sitä missä tahansa Wikimedian wikissä.',
 	'wminc-fs-startwiki-text' => 'Wikisi etuliite on <strong>$1</strong>. Voit aloittaa wikin luomalla sen etusivun osoitteessa <strong>$2</strong>.',
@@ -1626,7 +1626,7 @@ $messages['fr'] = array(
 	'wminc-fs-intro' => 'Bienvenue dans l’Assistant premiers pas {{SITENAME}}. Vous serez guidé tout au long du processus de démarrage d’un nouveau wiki.',
 	'wminc-fs-langselect' => 'Procédez en $1 ou en $2',
 	'wminc-fs-signup-text' => 'Si vous avez déjà un compte d’utilisateur, veuillez [$1 vous connecter]. Si vous n’en avez pas encore, veuillez [$2 créer un compte utilisateur]. !N !Ce n’est pas requis mais c’est fortement recommandé et ne prend que quelques secondes à créer.',
-	'wminc-fs-settings-text' => 'Maintenant allez à [[Special:Preferences|vos préférences]] et modifiez votre choix de wiki de test. !N !À droite, vous voyez les options pertinentes que vous avez sur cette page. La première est votre langue d’interface, que vous avez choisie lors de la première étape, mais que vous pouvez encore modifier. !N !La seconde est le projet auquel vous souhaitez contribuer, et la troisième est le code de langue de ce projet. !N !Si vous ne connaissez pas le code, consultez notre [[{{MediaWiki:Wminc-manual-url}}|manuel]] ou demandez de [[{{MediaWiki:Portal-url}}|l’aide]].',
+	'wminc-fs-settings-text' => 'Maintenant allez à [[Special:Preferences#mw-htmlform-i18n|vos préférences]] et modifiez votre choix de wiki de test. !N !À droite, vous voyez les options pertinentes que vous avez sur cette page. La première est votre langue d’interface, que vous avez choisie lors de la première étape, mais que vous pouvez encore modifier. !N !La seconde est le projet auquel vous souhaitez contribuer, et la troisième est le code de langue de ce projet. !N !Si vous ne connaissez pas le code, consultez notre [[{{MediaWiki:Wminc-manual-url}}|manuel]] ou demandez de [[{{MediaWiki:Portal-url}}|l’aide]].', # Fuzzy
 	'wminc-fs-userpage-text' => 'Veuillez maintenant créer votre page d’utilisateur $1 avec quelques informations vous décrivant. Un lien vers votre page d’utilisateur se trouve en haut de cette page.',
 	'wminc-fs-globaluser-text' => 'Votre compte d’utilisateur est local. Il est recommandé d’en faire un compte global grâce à $1, ce qui vous permettra de l’utiliser sur tous les wikis de Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Le préfixe de votre wiki est <strong>$1</strong>. Vous pouvez démarrer le wiki en créant sa page d’accueil à <strong>$2</strong>.',
@@ -1763,7 +1763,7 @@ $messages['gl'] = array(
 	'wminc-fs-langselect' => 'Continuar en $1 ou $2',
 	'wminc-fs-signup-text' => 'Se xa ten unha conta de usuario, [$1 acceda ao sistema]. Se aínda non a ten, [$2 cree unha nova conta].
 Non é obrigatoria, pero recomendámoslle que a cree; facelo leva uns poucos segundos.',
-	'wminc-fs-settings-text' => 'Agora vaia ás [[Special:Preferences|súas preferencias]] e cambie a configuración do seu wiki de probas.
+	'wminc-fs-settings-text' => 'Agora vaia ás [[Special:Preferences#mw-htmlform-i18n|súas preferencias]] e cambie a configuración do seu wiki de probas.
 Á dereita pode ollar as opcións relevantes que ten nesa páxina. A primeira é a lingua da interface, que elixiu no primeiro paso, pero aínda pode modificala.
 A segunda é o proxecto no que quere contribuír e a terceira é o código de lignua do proxecto no que quere contribuír.
 Se non sabe o código, consulte o noso [[{{MediaWiki:Wminc-manual-url}}|manual]] ou pida [[{{MediaWiki:Portal-url}}|axuda]].',
@@ -1916,7 +1916,7 @@ $messages['he'] = array(
 	'wminc-fs-intro' => 'ברוך בואך לאשף השלבים הראשונים בוויקי {{SITENAME}}. האשף ידריך אותך במהלך פתיחת ויקי חדש.',
 	'wminc-fs-langselect' => 'להמשיך ב$1 או ב$2',
 	'wminc-fs-signup-text' => 'אם כבר יש לכם חשבון משתמש, נא [$1 להיכנס]. אם עוד אין לכם, נא [$2 ליצור חשבון משתמש]. זה לא נחוץ, אבל זה מומלץ מאוד וזה לוקח רק כמה שניות.',
-	'wminc-fs-settings-text' => 'עכשיו נא להיכנס לדף [[Special:Preferences|ההעדפות שלכם]] ולשנות את הגדרות הוויקי שלכם.
+	'wminc-fs-settings-text' => 'עכשיו נא להיכנס לדף [[Special:Preferences#mw-htmlform-i18n|ההעדפות שלכם]] ולשנות את הגדרות הוויקי שלכם.
 מצד שמאל אפשר לראות את האפשרויות הרלוונטיות באותו הדף. הראשונה היא שפת הממשק שבחרתם בצעד הראשון, אבל אפשר לשנות אותה שוב.
 השנייה היא המיזם שברצונכם לתרום לו והשלישית היא קוד השפה של המיזם שאתם רוצים לתרום לו.
 אם אינכם יודעים את הקוד, נא לבדוק ב[[{{MediaWiki:Wminc-manual-url}}|ספר ההוראות]] או לבקש [[{{MediaWiki:Portal-url}}|עזרה]].',
@@ -2070,7 +2070,7 @@ $messages['hsb'] = array(
 	'wminc-fs-langselect' => 'W $1 abo $2 dale činić',
 	'wminc-fs-signup-text' => 'Jeli maš hižo wužiwarske konto, prošu [$1 přizjew so]. Jeli hišće nimaš žane konto, prošu [$2 załož wužiwarske konto].
 Wono trěbne njeje, ale doporuča so naležnje a traje jenož por sekundow, zo by jo załožiło.',
-	'wminc-fs-settings-text' => 'Prošu dźi nětko k [[Special:Preferences|swojim nastajenjam]] a změń nastajenje swojeho testoweho wikija.
+	'wminc-fs-settings-text' => 'Prošu dźi nětko k [[Special:Preferences#mw-htmlform-i18n|swojim nastajenjam]] a změń nastajenje swojeho testoweho wikija.
 Naprawo widźiš relewantne opcije, kotrež maš na tej stronje. Prěnja je twoja rěč za wužiwarski powjerch, kotruž sy w prěnim kroku wubrał, ale móžeš ju hišće změnić.
 Druha je projekt, ke kotremuž chceš přinošować, a třeća je rěčny kod projekta, ke kotremuž chceš přinošować.
 Jeli kod njewěš, skonsultuj našu [[{{MediaWiki:Wminc-manual-url}}|přiručku]] abo poproš wo [[{{MediaWiki:Portal-url}}|pomoc]].',
@@ -2196,7 +2196,7 @@ $messages['ia'] = array(
 	'wminc-fs-langselect' => 'Continuar in $1 o $2',
 	'wminc-fs-signup-text' => 'Si tu jam possede un conto de usator, per favor [$1 aperi session]. Si tu non ancora ha un, per favor [$2 crea un conto].
 Isto non es obligatori ma es multo recommendate, e le creation del conto prende solmente alcun pauc secundas.',
-	'wminc-fs-settings-text' => 'Nunc, per favor vade al [[Special:Preferences|Preferentias]] pro fixar le configuration de tu wiki de test.
+	'wminc-fs-settings-text' => 'Nunc, per favor vade al [[Special:Preferences#mw-htmlform-i18n|Preferentias]] pro fixar le configuration de tu wiki de test.
 Al dextra tu vide le relevante optiones que tu ha in iste pagina. Le prime es tu lingua de interfacie, le qual tu seligeva in le prime passo, ma tu pote ancora cambiar lo.
 Le secunde es le projecto al qual tu vole contribuer e le tertie es le codice del lingua del mesme projecto.
 Si tu non cognosce le codice, per favor consulta nostre [[{{MediaWiki:Wminc-manual-url}}|manual]] o demanda [[{{MediaWiki:Portal-url}}|adjuta]].',
@@ -2309,7 +2309,7 @@ $messages['it'] = array(
 	'wminc-fs-intro' => 'Benvenuto nel percorso guidato per i primi passi di {{SITENAME}}.  Sarai guidato nel processo di avvio di un nuovo wiki.',
 	'wminc-fs-langselect' => 'Continuare in $1 o $2',
 	'wminc-fs-signup-text' => "Se si dispone già di un'utenza [$1 effettuare l'accesso]. Se non se ne ha ancora una, [$2 creare un'utenza]. Non è necessario farlo ma è fortemente consigliato e ci vogliono solo pochi secondi per crearla.",
-	'wminc-fs-settings-text' => 'Andare nelle [[Special:Preferences|proprie preferenze]] e cambiare le impostazioni del wiki di test.
+	'wminc-fs-settings-text' => 'Andare nelle [[Special:Preferences#mw-htmlform-i18n|proprie preferenze]] e cambiare le impostazioni del wiki di test.
 Sulla destra sono visibili le opzioni più importanti presenti in quella pagina. La prima è la lingua della propria interfaccia, che è stata scelta nel primo passo ma è ancora possibile cambiare.
 La seconda è il progetto a cui si vuole contribuire e la terza è il codice linguistico del progetto a cui si vuole contribuire.
 Se non si conosce il codice, consultare il [[{{MediaWiki:Wminc-manual-url}}|manuale]] o chiedere [[{{MediaWiki:Portal-url}}|aiuto]].',
@@ -2560,7 +2560,7 @@ $messages['ko'] = array(
 	'wminc-fs-langselect' => '$1 또는 $2에서 진행',
 	'wminc-fs-signup-text' => '사용자 계정이 이미 있다면 [$1 로그인]하세요. 아직 계정이 없다면, [$2 사용자 계정을 만드세요].
 필요하지는 않지만 만드는 것이 좋으며 만드는 데에 몇 초 걸리지 않습니다.',
-	'wminc-fs-settings-text' => '이제 [[Special:Preferences|사용자 환경 설정]]으로 가서 테스트 위키 설정을 바꾸시기 바랍니다.
+	'wminc-fs-settings-text' => '이제 [[Special:Preferences#mw-htmlform-i18n|사용자 환경 설정]]으로 가서 테스트 위키 설정을 바꾸시기 바랍니다.
 오른쪽에서 문서에 있는 관련 옵션을 참고하세요. 첫 번째는 첫 번째 단계에서 선택한 사용자 인터페이스 언어이지만 여전히 언어를 바꿀 수 있습니다.
 두 번째 단계는 기여하고 싶은 프로젝트이고 세 번째 단계는 기여하고 싶은 프로젝트의 언어 코드입니다.
 코드를 모른다면 [[{{MediaWiki:Wminc-manual-url}}|매뉴얼]]을 참조하거나 [[{{MediaWiki:Portal-url}}|도움말]]에 물어보시기 바랍니다.',
@@ -2644,12 +2644,12 @@ Mer hälpe Der, en_neu Wiki opzemaache.',
 	'wminc-fs-signup-text' => 'Wann De ald ene Zohjang als ene Met,aacher häß, bes esu jood un [$1 donn Desch enlogge].
 Wann De noch keine häß, [$2 lääsch eine aan].
 Dat es kein Flesch, ävver schwer ze ämfähle, un et dohrt bloos e paa Sekonde.',
-	'wminc-fs-settings-text' => 'Jangk jäds_op [[Special:Preferences|Ding Enschtällonge]] un änder Ding Versöhks-Wiki.
+	'wminc-fs-settings-text' => 'Jangk jäds_op [[Special:Preferences#mw-htmlform-i18n|Ding Enschtällonge]] un änder Ding Versöhks-Wiki.
 Wat De op dä Sigg han kanns, sühs De aam Rand.
 Et eezde es de Schprooch, di et Wiki met Der kalle sull, di De ald usjesöhk häs, ävver heh kanns De se norr_ens ändere.
 Et zweite es dat Projäk, woh De draan metmaache wells.
 Als Drettes kütt dat Köözel för di Schprooch vun däm Projäk, woh De dren schriive un jät beidraare wells.
-wann dät Közel nit weiß, loor en em [[{{MediaWiki:Wminc-manual-url}}|Handbooch]] noh udder frooch noh [[{{MediaWiki:Portal-url}}|Hölp]].',
+wann dät Közel nit weiß, loor en em [[{{MediaWiki:Wminc-manual-url}}|Handbooch]] noh udder frooch noh [[{{MediaWiki:Portal-url}}|Hölp]].', # Fuzzy
 	'wminc-fs-userpage-text' => 'Nu bes esu jood un donn Ding Metmaachersigg $1 aanlääje un donn e paar Aanjaabe övver Desch doh drop. Do häs och ene Lengk doh drop aam bövverschte Ängk vun heh dä Sigg.',
 	'wminc-fs-globaluser-text' => 'Denge Zohjang als ene metmaacher jelt bloß heh em Wiki.
 Et künnt ävver en joode idee sin, dä övver $1 alljemein ze maache.
@@ -2970,7 +2970,7 @@ $messages['mk'] = array(
 	'wminc-fs-langselect' => 'Продолжете на $1 или $2',
 	'wminc-fs-signup-text' => 'Доколку веќе имате корисничка сметка, тогаш [$1 најавете се]. Ако немате, [$2 направете си сметка].
 Имањето на сметка не е задолжително, но навистина се препорачува. Ќе ви земе само неколку секунди.',
-	'wminc-fs-settings-text' => 'Сега појдете на [[Special:Preferences|нагодувањата]] и сменете ги поставките на вашето пробно вики.
+	'wminc-fs-settings-text' => 'Сега појдете на [[Special:Preferences#mw-htmlform-i18n|вашите нагодувања]] и сменете ги поставките на вашето пробно вики.
 Од десната страна ќе ги видите релевантните можности за таа страница. Првата е за јазик на посредникот, што го одбравте во првиот чекор, но сега можете повторно да го измените.
 Втората е проектот кајшто сакате да учествувате, а третата е јазичниот код на проектот во кој ќе учествувате.
 Ако не го знаете кодот, консултирајте го [[{{MediaWiki:Wminc-manual-url}}|прирачникот]] или побарајте [[{{MediaWiki:Portal-url}}|помош]].',
@@ -3134,7 +3134,7 @@ $messages['ms'] = array(
 	'wminc-fs-langselect' => 'Teruskan dalam $1 atau $2',
 	'wminc-fs-signup-text' => 'Jika anda sudah pun memiliki akaun pengguna, sila [$1 log masuk]. Jika belum, sila [$2 buka akaun pengguna].
 Anda tidak diwajibkan tetapi amat disaran supaya membuka akaun, dan proses pembukaan akaun ini hanya memakan masa beberapa saat.',
-	'wminc-fs-settings-text' => 'Sila pergi ke [[Special:Preferences|keutamaan anda]] sekarang, dan ubah tetapan wiki ujian anda.
+	'wminc-fs-settings-text' => 'Sila pergi ke [[Special:Preferences#mw-htmlform-i18n|keutamaan anda]] sekarang, dan ubah tetapan wiki ujian anda.
 Di sebelah kanan halaman itu, anda boleh melihat pilihan-pilihan yang bersesuaian dengan anda. Yang pertama ialah bahasa antara muka yang telah anda pilih dalam langkah pertama, tetapi anda masih boleh menukarnya.
 Yang kedua ialah projek yang ingin anda usahakan, dan yang ketiga ialah kod bahasa bagi projek yang anda ingin usahakan itu.
 Jika anda tidak tahu akan kodnya, sila rujuk [[{{MediaWiki:Wminc-manual-url}}|manual]] kami atau minta [[{{MediaWiki:Portal-url}}|tolong]].',
@@ -3308,10 +3308,10 @@ $messages['nl'] = array(
 	'wminc-fs-langselect' => 'Doorgaan in het $1 of $2',
 	'wminc-fs-signup-text' => 'Als u al een gebruiker hebt, [$1 meld u dan aan]. Als u er nog geen hebt, [$2 maak er dan een aan].
 Het is niet verplicht maar wordt sterk aanbevolen en duurt slechts enkele seconden.',
-	'wminc-fs-settings-text' => 'Ga nu naar [[Special:Preferences|uw voorkeuren]] en wijzig uw testwiki-instellingen.
+	'wminc-fs-settings-text' => 'Ga nu naar [[Special:Preferences#mw-htmlform-i18n|uw voorkeuren]] en wijzig uw testwiki-instellingen.
 Rechts ziet u de relevante opties die u op die pagina hebt. De eerste is uw interfacetaal, die u als eerste stap hebt gekozen, maar nog altijd kunt veranderen.
 De tweede is het project waaraan u wilt bijdragen en de derde is de taalcode van de taal waaraan u wilt bijdragen.
-Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|handleiding]] of [[{{MediaWiki:Portal-url}}|vraag om hulp]].',
+Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|handleiding]] of [[{{MediaWiki:Portal-url}}|vraag om hulp]].', # Fuzzy
 	'wminc-fs-userpage-text' => 'Maak nu uw gebruikerspagina $1 aan met wat gegevens over uzelf. U ziet bovenaan deze pagina ook een verwijzing naar die pagina.',
 	'wminc-fs-globaluser-text' => 'Uw gebruiker is lokaal. Het is aanbevolen om deze globaal te maken via $1 zodat u deze voor elke Wikimediawiki kunt gebruiken.',
 	'wminc-fs-startwiki-text' => 'Het voorvoegsel van uw wiki is <strong>$1</strong>. U kunt de wiki beginnen door de hoofdpagina van de wiki aan te maken op <strong>$2</strong>.',
@@ -3453,10 +3453,11 @@ $messages['pms'] = array(
 	'wminc-testwiki' => 'Preuva wiki:',
 	'wminc-testwiki-code' => 'Lenga dla wiki ëd preuva:',
 	'wminc-testwiki-none' => 'Gnun/Tùit',
+	'wminc-testwiki-site' => '(Manutension)',
 	'wminc-recentchanges-all' => "Tute j'ùltime modìfiche",
 	'wminc-prefinfo-language' => "Toa lenga d'antërfacia - andipendenta da toa wiki ëd preuva",
-	'wminc-prefinfo-code' => 'Ël còdes ISO 639 dla lenga', # Fuzzy
-	'wminc-prefinfo-project' => "Selession-a ël proget Wikimedia (l'opsion Incubator a l'é për utent che a fan travaj general)", # Fuzzy
+	'wminc-prefinfo-code' => 'Ël còdes ISO 639 dla lenga anté it të stas travajand',
+	'wminc-prefinfo-project' => 'Selession-a ël proget Wikimedia anté it të stas travajand',
 	'wminc-prefinfo-error' => "It l'has selessionà un proget che a l'ha dbzògn d'un còdes ëd lenga.",
 	'wminc-error-move-unprefixed' => "Eror: La pàgina ch'a l'ha provà a tramudé a [[{{MediaWiki:Wminc-error-help}}|a l'ha pa 'd prefiss o a l'ha un prefiss cioch]]!",
 	'wminc-error-wronglangcode' => "'''Eror:''' Costa pàgina a conten un [[{{MediaWiki:Wminc-error-help}}|còdes ëd lenga cioch]] «$1»!",
@@ -3481,7 +3482,38 @@ $messages['pms'] = array(
 	'wminc-listusers-testwiki' => "A l'é an camin ch'a vëd j'utent ch'a l'han ampostà ij sò gust ëd wiki ëd preuva a $1.",
 	'wminc-search-nocreate-nopref' => "A l'ha arsercà «$1». Për piasì, ch'a ampòsta ij [[Special:Preferences|sò gust dla wiki ëd preuva]] parèj i podoma dije che pàgina a peul creé!",
 	'wminc-search-nocreate-suggest' => "A l'ha arsercà «$1». A peul creé na pàgina an soa wiki a <strong>[[$2]]</strong>!",
+	'wminc-searchwiki' => 'Serca na wiki',
+	'wminc-searchwiki-noproject' => "It l'has pa selessionà un proget.",
+	'wminc-searchwiki-noresults' => 'Gnun arzultà. It peule serché për còdes lenga, nòm nativ e nòm ant la lenga ëd toa antërfacia o an Anglèis.',
+	'wminc-searchwiki-selectproject' => 'Serca:',
+	'wminc-searchwiki-inputlanguage' => 'An lenga:',
 	'wminc-searchwiki-go' => 'Va',
+	'wminc-searchwiki-multiplematches' => 'Toa arserca a corispond a le lenghe sota:',
+	'wminc-searchwiki-match-langcode' => '"$1" a l\'é un còdes lenga ISO 639 për $2.',
+	'wminc-searchwiki-match-userlangname' => "$1 a l'é ëd nòm ëd na lenga.",
+	'wminc-searchwiki-match-englishname' => '"$1" a l\'é ël nòm për $2 an Anglèis.',
+	'wminc-searchwiki-match-nativename' => '"$1" a l\'é ël nòm për $2 an cola lenga.',
+	'wminc-searchwiki-gotoinfopage' => "pagina d'anformassion",
+	'wminc-fs-pagetitle' => 'Guida për parte - $1',
+	'wminc-fs-langselect-title' => 'Serne la lenga',
+	'wminc-fs-signup-title' => "Ch'as anscriva",
+	'wminc-fs-settings-title' => 'Ampòsta ij tò gust wiki',
+	'wminc-fs-userpage-title' => 'Crea toa pàgina utent',
+	'wminc-fs-startwiki-title' => 'Fà parte toa wiki',
+	'wminc-fs-pagetitle-done' => ' - fàit!',
+	'wminc-fs-intro' => 'Bin ëvnù a la guida dij prim pass ëd {{SITENAME}}. It saras guidà ant ël process ëd fé parte na wiki neuva.',
+	'wminc-fs-langselect' => 'Continua an $1 o $2',
+	'wminc-fs-signup-text' => "S'it l'has già un cont utent, për piasì [$1 intra]. S'it n'has pa anco' un, për piasì [$2 crea un cont utent].
+A l'é pa obligatòri ma motobin arcomandà e a pija mach pòch second a creelo.",
+	'wminc-fs-settings-text' => "Për piasì adess và a [[Special:Preferences#mw-htmlform-i18n|tò gust]] e cangia toa ampostassion ëd wiki ëd preuva.
+La prima a l'é toa lenga d'antërfacia, ch'it l'has sernù ant ël prim pass, ma it peulo anco' cangela.
+La sconda a l'é ël proget dont it veule contribuì e la tersa a l'é ël còdes ëd lenga dël proget dont it veule contribuì.
+S'it sas pa ël còdes, për piasì varda nòst [[{{MediaWiki:Wminc-manual-url}}|manual]] o ciama [[{{MediaWiki:Portal-url}}|agiut]].",
+	'wminc-fs-userpage-text' => 'Për piasì adess crea toa pagina utent $1 con quaich anformassion bas a propòsit ëd ti midem. It peule ëdcò vëdde un colegament a chila an testa a sta pagina.',
+	'wminc-fs-globaluser-text' => "Tò cont utent a l'é local. As arcomanda ëd rendlo global travers $1 parèj it peule dovrelo dzor minca wiki Wikimedia.",
+	'wminc-fs-startwiki-text' => "Ël prefiss ëd toa wiki a l'é <strong>$1</strong>. It peule ancaminé la wiki creand la Pagina Prinsipal dla wiki a <strong>$2</strong>.",
+	'wminc-fs-startwiki-exists-text' => "Ël prefiss ëd toa wiki a l'é $1. La Pagina Prinsipal a l'é a $2. It peule colaboré adess con àutri parlant dë sta lenga për fé na comunità!
+S'it veule creé na pagina, scriv ël nòm ant la casela d'arserca dzora, e và dré ël colegament ch'it vëddras.",
 );
 
 /** Pontic (Ποντιακά)
@@ -3785,7 +3817,7 @@ $messages['ru'] = array(
 	'wminc-fs-langselect' => 'Перейти в $1 или $2',
 	'wminc-fs-signup-text' => 'Если у вас уже есть учётная запись, пожалуйста, [$1 войдите в систему]. Если у вас её нет, [$2 создайте учётную запись].
 Это не требуется, но рекомендуется и занимает всего несколько секунд.',
-	'wminc-fs-settings-text' => 'Пожалуйста, перейдите на [[Special:Preferences|вашу страницу настроек]] и изменить настройки вашего тестового вики-проекта.
+	'wminc-fs-settings-text' => 'Пожалуйста, перейдите на [[Special:Preferences#mw-htmlform-i18n|вашу страницу настроек]] и изменить настройки вашего тестового вики-проекта.
 Справа вы видите соответствующие опции, которые у вас есть на этой странице. Первый — это ваш язык интерфейса, который вы выбрали на первом шаге, но вы все еще можете его изменить.
 Второй — вики-проект, в который вы хотите внести свой вклад, а третий — код языка данного проекта.
 Если вы не знаете кода, обратитесь к нашей [[{{MediaWiki:Wminc-ручной-url}}|инструкции]] или попросите [[{{MediaWiki:Portal-url}}|помощи]].', # Fuzzy
@@ -3980,6 +4012,7 @@ $messages['si'] = array(
 	'wminc-fs-userpage-title' => 'ඔබේ පරිශීලක පිටුව තනන්න',
 	'wminc-fs-startwiki-title' => 'ඔබේ විකිය අරඹන්න',
 	'wminc-fs-pagetitle-done' => ' - හරි!',
+	'wminc-fs-langselect' => '$1 හෝ $2 හී කරගෙන යන්න',
 );
 
 /** Slovak (slovenčina)
@@ -4420,10 +4453,10 @@ $messages['tl'] = array(
 	'wminc-fs-intro' => 'Maligayang pagdating sa masalamangkang unang mga hakbang ng {{SITENAME}}. Papatnubayan ka sa proseso ng pagsisimula ng isang bagong wiki.',
 	'wminc-fs-langselect' => 'Magpatuloy na nasa $1 o $2',
 	'wminc-fs-signup-text' => 'Kung mayroon ka nang isang akawnt ng tagagamit, paki [$1 lumagda]. Kung wala ka pang isa, paki [$2 lumikha ng isang akawnt ng tagagamit]. Hindi ito kinakailangan subalit mahigpit na iminumungkahi at gumugugol lamang ng isang mangilan-ngilang mga segundo upang malikha.',
-	'wminc-fs-settings-text' => 'Paki pumunta na ngayon sa [[Special:Preferences|mga kanaisan mo]] at baguhin ang iyong katakdaan para sa pangsubok na wiki.
+	'wminc-fs-settings-text' => 'Paki pumunta na ngayon sa [[Special:Preferences#mw-htmlform-i18n|mga kanaisan mo]] at baguhin ang iyong katakdaan para sa pangsubok na wiki.
 Sa kanan ay makikita mo ang kaukol na mga mapagpipilian na mayroon ka sa pahinang iyan. Ang una ay ang iyong wika ng ugnayang-mukha, na napili mo sa unang hakbang, subalit mababago mo pa ito.
 Ang pangalawa ay ang proyektong nais mong pag-ambagan at ang pangatlo ay ang kodigo ng wika ng proyektong nais mong ambagan.
-Kung hindi mo alam ang kodigo, paki sumangguni sa aming [[{{MediaWiki:Wminc-manual-url}}|pamatnubay]] o humingi ng [[{{MediaWiki:Portal-url}}|tulong]].',
+Kung hindi mo alam ang kodigo, paki sumangguni sa aming [[{{MediaWiki:Wminc-manual-url}}|pamatnubay]] o humingi ng [[{{MediaWiki:Portal-url}}|tulong]].', # Fuzzy
 	'wminc-fs-userpage-text' => 'Paki likhain na ngayon ang iyong pahina ng tagagamit na $1 na mayroong saligang kabatiran hinggil sa sarili mo. Matitingnan mo rin ang isang kawing na papunta rito na nasa itaas ng pahinang ito.',
 	'wminc-fs-globaluser-text' => 'Katutubo ang iyong akawnt ng tagagamit. Iminumungkahi na gawin itong pangglobo sa mamagitan ng $1 upang magamit mo ito sa anumang wiki ng Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Ang unlapi ng wiki mo ay <strong>$1</strong>. Masisimulan mo ang wiki sa pamamagitan ng paglikha ng Pangunahing Pahina ng wiki roon sa <strong>$2</strong>.',
@@ -4705,10 +4738,10 @@ $messages['vi'] = array(
 	'wminc-fs-langselect' => 'Tiếp tục trong $1 hoặc $2',
 	'wminc-fs-signup-text' => 'Nếu bạn đã có tài khoản, xin vui lòng [$1 đăng nhập]. Nếu chưa có, xin vui lòng [$2 mở tài khoản mới].
 Bạn không nhất thiết phải mở tài khoản nhưng rất khuyên khích dành một chút xíu để mở tài khoản mới.',
-	'wminc-fs-settings-text' => 'Bây giờ xin vui lòng mở [[Special:Preferences|Tùy chọn]] để thay đổi wiki thử nghiệm của bạn.
+	'wminc-fs-settings-text' => 'Bây giờ xin vui lòng mở [[Special:Preferences#mw-htmlform-i18n|Tùy chọn]] để thay đổi wiki thử nghiệm của bạn.
 Ở bên phải có các tùy chọn có liên quan tại trang đó. Cái đầu tiên là ngôn ngữ giao diện mà bạn đã lựa chọn nhưng lúc nào có thể thay đổi.
 Cái thứ hai là dự án để đóng góp vào, và sau đó là mã ngôn ngữ của dự án để đóng góp vào.
-Nếu bạn không biết mã ngôn ngữ, hãy tham khảo [[{{MediaWiki:Wminc-manual-url}}|hướng dẫn]] hoặc [[{{MediaWiki:Portal-url}}|yêu cầu trợ giúp]].',
+Nếu bạn không biết mã ngôn ngữ, hãy tham khảo [[{{MediaWiki:Wminc-manual-url}}|hướng dẫn]] hoặc [[{{MediaWiki:Portal-url}}|yêu cầu trợ giúp]].', # Fuzzy
 	'wminc-fs-userpage-text' => 'Hãy tạo trang cá nhân $1 để chia sẻ những thông tin cơ bản về chính bạn. Một liên kết ở đầu trang này cũng dẫn đến trang cá nhân.',
 	'wminc-fs-globaluser-text' => 'Bạn đang sử dụng một tài khoản địa phương. Gợi ý bạn làm nó thành một tài khoản toàn cầu tại $1 để cho có thể sử dụng nó tại bất cứ wiki nào trực thuộc Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Tiền tố của wiki là <strong>$1</strong>. Hãy bắt đầu wiki này với một Trang Chính tại <strong>$2</strong>.',

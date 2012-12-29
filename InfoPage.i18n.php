@@ -650,6 +650,7 @@ $messages['fa'] = array(
  * @author Nedergard
  * @author Nike
  * @author Olli
+ * @author VezonThunder
  */
 $messages['fi'] = array(
 	'wminc-infopage-enter' => 'siirry etusivulle',
@@ -668,7 +669,7 @@ $messages['fi'] = array(
 	'wminc-infopage-option-languages-existing' => 'Voit etsiä [//www.$1.org sivuston $1 muita kieliversioita].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Voit etsiä nykyisiä hankkeita tällä kielellä:',
 	'wminc-infopage-option-sisterprojects-other' => 'Voit etsiä muita hankkeita tällä kielellä:',
-	'wminc-infopage-option-multilingual' => 'Voit siirtyä monikieliseen wikiin:',
+	'wminc-infopage-option-multilingual' => 'Voit siirtyä monikieliseen wikiin:', # Fuzzy
 	'wminc-infopage-createmainpage' => 'Syötä sana "Etusivu" tällä kielellä:',
 	'wminc-infopage-contribute' => 'Jos osaat tätä kieltä, muokkaa rohkeasti!',
 	'wminc-infopage-status-open' => 'Tämä on Wikimedia Hautomon avoin wiki.',
@@ -676,6 +677,7 @@ $messages['fi'] = array(
 	'wminc-infopage-status-closedsister' => 'Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <strong>$2</strong>, jos haluat muokata wikiä.',
 	'wminc-infopage-status-created' => 'Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.',
 	'wminc-infopage-status-beforeincubator' => 'Tämä projekti luotiin ennen kuin Wikimedia Incubator käynnistettiin ja se on saatavilla osoitteessa $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Tämä projekti on saatavilla osoitteessa $1.',
 );
 
 /** French (français)
@@ -1599,7 +1601,7 @@ $messages['roa-tara'] = array(
 	'wminc-infopage-option-languages-existing' => "Tu puè acchijà pe' le [//www.$1.org versione lènguisteche esistende de $1].",
 	'wminc-infopage-option-sisterprojects-existing' => "Tu puè acchijà pe' le pruggette esistende jndre 'stà lènga:",
 	'wminc-infopage-option-sisterprojects-other' => "Tu puè acchijà pe' l'otre pruggette jndre 'stà lènga:",
-	'wminc-infopage-option-multilingual' => "Puè scè jndre 'na uicchi multelènghe:",
+	'wminc-infopage-option-multilingual' => "In alternative, puè scè jndre 'na uicchi multelènghe:",
 	'wminc-infopage-createmainpage' => 'Sckaffe \'a parole "Pagene Prengepále" jndre \'stà lènga:',
 	'wminc-infopage-contribute' => "Ce tu canosce 'stà lènga, sìnde 'ngoraggiate a condrebbuì!",
 	'wminc-infopage-status-open' => "Queste jè 'na Uicchi aperte sus a UicchiMedia Ingubatore.",
