@@ -1684,11 +1684,13 @@ $messages['si'] = array(
 	'wminc-infopage-option-multilingual' => 'ඔබට බහුභාෂාමය විකියකට යා හැකියි:', # Fuzzy
 	'wminc-infopage-createmainpage' => "මෙම භාෂාවෙහිදී ''මුල් පිටුව'' යන වචනය යොදන්න:",
 	'wminc-infopage-contribute' => 'ඔබ මෙම භාෂාව ගැන දන්නවානම්, දායකත්වය ලබා දීමට ඔබට අපි අනුබල දෙනවා!',
+	'wminc-infopage-status-open' => 'මෙය විකිමාධ්‍ය ඉන්කිව්බේටරයෙහි විවෘත විකියයි.',
 	'wminc-infopage-status-imported' => 'විකිය වැසීමෙන් පසුව මෙම ඉන්කිව්බේටර විකිය $1 වෙතින් ආයාත කර ඇත.',
 	'wminc-infopage-status-closedsister' => 'මෙම උපවසම වසා ඇත. මෙම විකියට දායකවීමට <strong>$2</strong> වෙත යන්න.',
 	'wminc-infopage-status-created' => 'භාෂා කමිටුව විසින් මෙම ව්‍යාපෘතිය අනුමත කල අතර $1 හීදී ලබාගත හැක.',
 	'wminc-infopage-status-beforeincubator' => 'මෙම ව්‍යාපෘතිය තැනී ඇත්තේ විකිමාධ්‍ය ඉන්කිව්බේටරය ආරම්භ කිරීමට පෙර වන අතර $1 හීදී ලබා ගත හැක.',
 	'wminc-infopage-status-beforeincubator-sister' => 'මෙම ව්‍යාපෘතිය $1 හීදී ලබා ගත හැක.',
+	'wminc-infopage-error' => 'දෝෂය: {{#infopage}} උපසර්ගමය පිටුවල පමණක් භාවිතා කල හැක.',
 );
 
 /** Slovenian (slovenščina)

@@ -3308,10 +3308,10 @@ $messages['nl'] = array(
 	'wminc-fs-langselect' => 'Doorgaan in het $1 of $2',
 	'wminc-fs-signup-text' => 'Als u al een gebruiker hebt, [$1 meld u dan aan]. Als u er nog geen hebt, [$2 maak er dan een aan].
 Het is niet verplicht maar wordt sterk aanbevolen en duurt slechts enkele seconden.',
-	'wminc-fs-settings-text' => 'Ga nu naar [[Special:Preferences#mw-htmlform-i18n|uw voorkeuren]] en wijzig uw testwiki-instellingen.
-Rechts ziet u de relevante opties die u op die pagina hebt. De eerste is uw interfacetaal, die u als eerste stap hebt gekozen, maar nog altijd kunt veranderen.
+	'wminc-fs-settings-text' => 'Ga nu naar [[Special:Preferences#mw-htmlform-i18n|uw voorkeuren]] en wijzig uw testwikiinstellingen.
+De eerste instelling is uw interfacetaal, die u als eerste stap hebt gekozen, maar nog altijd kunt veranderen.
 De tweede is het project waaraan u wilt bijdragen en de derde is de taalcode van de taal waaraan u wilt bijdragen.
-Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|handleiding]] of [[{{MediaWiki:Portal-url}}|vraag om hulp]].', # Fuzzy
+Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|handleiding]] of [[{{MediaWiki:Portal-url}}|vraag om hulp]].',
 	'wminc-fs-userpage-text' => 'Maak nu uw gebruikerspagina $1 aan met wat gegevens over uzelf. U ziet bovenaan deze pagina ook een verwijzing naar die pagina.',
 	'wminc-fs-globaluser-text' => 'Uw gebruiker is lokaal. Het is aanbevolen om deze globaal te maken via $1 zodat u deze voor elke Wikimediawiki kunt gebruiken.',
 	'wminc-fs-startwiki-text' => 'Het voorvoegsel van uw wiki is <strong>$1</strong>. U kunt de wiki beginnen door de hoofdpagina van de wiki aan te maken op <strong>$2</strong>.',
@@ -4738,10 +4738,10 @@ $messages['vi'] = array(
 	'wminc-fs-langselect' => 'Tiếp tục trong $1 hoặc $2',
 	'wminc-fs-signup-text' => 'Nếu bạn đã có tài khoản, xin vui lòng [$1 đăng nhập]. Nếu chưa có, xin vui lòng [$2 mở tài khoản mới].
 Bạn không nhất thiết phải mở tài khoản nhưng rất khuyên khích dành một chút xíu để mở tài khoản mới.',
-	'wminc-fs-settings-text' => 'Bây giờ xin vui lòng mở [[Special:Preferences#mw-htmlform-i18n|Tùy chọn]] để thay đổi wiki thử nghiệm của bạn.
-Ở bên phải có các tùy chọn có liên quan tại trang đó. Cái đầu tiên là ngôn ngữ giao diện mà bạn đã lựa chọn nhưng lúc nào có thể thay đổi.
-Cái thứ hai là dự án để đóng góp vào, và sau đó là mã ngôn ngữ của dự án để đóng góp vào.
-Nếu bạn không biết mã ngôn ngữ, hãy tham khảo [[{{MediaWiki:Wminc-manual-url}}|hướng dẫn]] hoặc [[{{MediaWiki:Portal-url}}|yêu cầu trợ giúp]].', # Fuzzy
+	'wminc-fs-settings-text' => 'Bây giờ xin vui lòng mở [[Special:Preferences#mw-htmlform-i18n|tùy chọn]] để thay đổi wiki thử nghiệm của bạn.
+Tùy chọn đầu tiên là ngôn ngữ giao diện mà bạn đã lựa chọn nhưng lúc nào có thể thay đổi.
+Tùy chọn thứ hai là dự án để đóng góp vào, và sau đó là mã ngôn ngữ của dự án để đóng góp vào.
+Nếu bạn không biết mã ngôn ngữ, hãy tham khảo [[{{MediaWiki:Wminc-manual-url}}|hướng dẫn]] hoặc [[{{MediaWiki:Portal-url}}|yêu cầu trợ giúp]].',
 	'wminc-fs-userpage-text' => 'Hãy tạo trang cá nhân $1 để chia sẻ những thông tin cơ bản về chính bạn. Một liên kết ở đầu trang này cũng dẫn đến trang cá nhân.',
 	'wminc-fs-globaluser-text' => 'Bạn đang sử dụng một tài khoản địa phương. Gợi ý bạn làm nó thành một tài khoản toàn cầu tại $1 để cho có thể sử dụng nó tại bất cứ wiki nào trực thuộc Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Tiền tố của wiki là <strong>$1</strong>. Hãy bắt đầu wiki này với một Trang Chính tại <strong>$2</strong>.',
