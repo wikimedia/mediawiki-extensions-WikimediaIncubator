@@ -1626,7 +1626,10 @@ $messages['fr'] = array(
 	'wminc-fs-intro' => 'Bienvenue dans l’Assistant premiers pas {{SITENAME}}. Vous serez guidé tout au long du processus de démarrage d’un nouveau wiki.',
 	'wminc-fs-langselect' => 'Procédez en $1 ou en $2',
 	'wminc-fs-signup-text' => 'Si vous avez déjà un compte d’utilisateur, veuillez [$1 vous connecter]. Si vous n’en avez pas encore, veuillez [$2 créer un compte utilisateur]. !N !Ce n’est pas requis mais c’est fortement recommandé et ne prend que quelques secondes à créer.',
-	'wminc-fs-settings-text' => 'Maintenant allez à [[Special:Preferences#mw-htmlform-i18n|vos préférences]] et modifiez votre choix de wiki de test. !N !À droite, vous voyez les options pertinentes que vous avez sur cette page. La première est votre langue d’interface, que vous avez choisie lors de la première étape, mais que vous pouvez encore modifier. !N !La seconde est le projet auquel vous souhaitez contribuer, et la troisième est le code de langue de ce projet. !N !Si vous ne connaissez pas le code, consultez notre [[{{MediaWiki:Wminc-manual-url}}|manuel]] ou demandez de [[{{MediaWiki:Portal-url}}|l’aide]].', # Fuzzy
+	'wminc-fs-settings-text' => 'Maintenant allez à [[Special:Preferences#mw-htmlform-i18n|vos préférences]] et modifiez vos choix de wiki de test.
+La première est votre langue d’interface, que vous avez choisie lors de la première étape, mais que vous pouvez encore modifier.
+La deuxième est le projet auquel vous souhaitez contribuer, et la troisième est le code de langue de ce projet.
+Si vous ne connaissez pas le code, consultez notre [[{{MediaWiki:Wminc-manual-url}}|manuel]] ou demandez de [[{{MediaWiki:Portal-url}}|l’aide]].',
 	'wminc-fs-userpage-text' => 'Veuillez maintenant créer votre page d’utilisateur $1 avec quelques informations vous décrivant. Un lien vers votre page d’utilisateur se trouve en haut de cette page.',
 	'wminc-fs-globaluser-text' => 'Votre compte d’utilisateur est local. Il est recommandé d’en faire un compte global grâce à $1, ce qui vous permettra de l’utiliser sur tous les wikis de Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Le préfixe de votre wiki est <strong>$1</strong>. Vous pouvez démarrer le wiki en créant sa page d’accueil à <strong>$2</strong>.',
@@ -1659,7 +1662,7 @@ $messages['frp'] = array(
 	'randombytest' => 'Pâge a l’hasârd per lo vouiqui d’èprôva',
 	'randombytest-nopages' => 'Voutron vouiqui d’èprôva contint gins de pâge dens l’èspâço de noms : $1.',
 	'wminc-viewuserlang' => 'Vêre la lengoua a l’usanciér et lo vouiqui d’èprôva',
-	'wminc-viewuserlang-user' => 'Nom d’usanciér :',
+	'wminc-viewuserlang-user' => 'Nom d’utilisator :',
 	'wminc-viewuserlang-go' => 'Alar trovar',
 	'wminc-userdoesnotexist' => 'L’usanciér « $1 » ègziste pas.',
 	'wminc-ip' => '« $1 » est una adrèce IP.',
@@ -3312,11 +3315,11 @@ Het is niet verplicht maar wordt sterk aanbevolen en duurt slechts enkele second
 De eerste instelling is uw interfacetaal, die u als eerste stap hebt gekozen, maar nog altijd kunt veranderen.
 De tweede is het project waaraan u wilt bijdragen en de derde is de taalcode van de taal waaraan u wilt bijdragen.
 Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|handleiding]] of [[{{MediaWiki:Portal-url}}|vraag om hulp]].',
-	'wminc-fs-userpage-text' => 'Maak nu uw gebruikerspagina $1 aan met wat gegevens over uzelf. U ziet bovenaan deze pagina ook een verwijzing naar die pagina.',
+	'wminc-fs-userpage-text' => 'Maak nu uw gebruikerspagina $1 aan met wat gegevens over uzelf. U ziet bovenaan deze pagina ook een koppeling naar die pagina.',
 	'wminc-fs-globaluser-text' => 'Uw gebruiker is lokaal. Het is aanbevolen om deze globaal te maken via $1 zodat u deze voor elke Wikimediawiki kunt gebruiken.',
 	'wminc-fs-startwiki-text' => 'Het voorvoegsel van uw wiki is <strong>$1</strong>. U kunt de wiki beginnen door de hoofdpagina van de wiki aan te maken op <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'Het voorvoegsel van uw wiki is $1. De Hoofdpagina is te vinden op $2. U kunt nu samenwerken met andere sprekers van deze talen om een gemeenschap op te bouwen!
-Als u een pagina wil aanmaken, typ gewoon de naam in het zoekvak bovenaan, en volg de verwijzing die u ziet.',
+Als u een pagina wil aanmaken, typ gewoon de naam in het zoekvak bovenaan, en volg de koppeling die u ziet.',
 );
 
 /** Norwegian Nynorsk (norsk (nynorsk)‎)
@@ -4564,6 +4567,7 @@ $messages['tzm'] = array(
  * @author Sahran
  */
 $messages['ug-arab'] = array(
+	'wminc-manual' => 'قولدا',
 	'wminc-testwiki' => 'wiki سىناش:',
 	'wminc-testwiki-none' => 'ھەممىسى/يوق',
 	'wminc-prefinfo-language' => 'سىزنىڭ كۆرۈنمە تىلىڭىز - wiki سىناشتىن مۇستەقىل تۇرىدۇ',
@@ -4571,6 +4575,11 @@ $messages['ug-arab'] = array(
 	'wminc-viewuserlang' => 'ئىشلەتكۈچى تىلىنى كۆرۈپ، wiki سىناش',
 	'wminc-viewuserlang-user' => 'ئىشلەتكۈچى ئاتى:',
 	'wminc-viewuserlang-go' => 'يۆتكەل',
+	'wminc-searchwiki-selectproject' => 'ئىزدە:',
+	'wminc-searchwiki-go' => 'يۆتكەل',
+	'wminc-fs-pagetitle' => 'باشلاش يېتەكچىسىگە ئېرىش - $1',
+	'wminc-fs-signup-title' => 'خەتلىتىش',
+	'wminc-fs-pagetitle-done' => ' - تامام!',
 );
 
 /** Ukrainian (українська)
