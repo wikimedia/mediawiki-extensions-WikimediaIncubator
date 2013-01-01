@@ -1642,7 +1642,7 @@ Si vous ne connaissez pas le code, consultez notre [[{{MediaWiki:Wminc-manual-ur
  */
 $messages['frp'] = array(
 	'wminc-desc' => 'Sistèmo de vouiqui d’èprôva por Wikimedia Covosa.',
-	'wminc-manual' => 'Manuâl',
+	'wminc-manual' => 'Manuèl',
 	'wminc-listwikis' => 'Lista des vouiquis',
 	'wminc-testwiki' => 'Vouiqui d’èprôva :',
 	'wminc-testwiki-code' => 'Lengoua du vouiqui d’èprôva :',
