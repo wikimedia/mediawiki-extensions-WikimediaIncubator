@@ -878,9 +878,9 @@ $messages['cs'] = array(
 	'wminc-fs-signup-text' => 'Pokud už máte uživatelský účet, [$1 přihlaste se]. Pokud ho ještě nemáte, můžete [$2 si ho založit].
 Není nezbytný, ale silně doporučený a založení trvá jen pár sekund.',
 	'wminc-fs-settings-text' => 'Nyní přejděte na [[Special:Preferences#mw-htmlform-i18n|uživatelské nastavení]] a upravte si nastavení své testovací wiki.
-Vpravo vidíte odpovídající volby, které na té stránce budete mít. První je jazyk rozhraní, který jste si zvolili v prvním kroku, ale i tak ho můžete změnit.
+První je jazyk rozhraní, který jste si zvolili v prvním kroku, ale i tak ho můžete změnit.
 Druhou je projekt, do kterého chcete přispívat, a třetí je kód jazyka projektu, do kterého chcete přispívat.
-Pokud kód neznáte, podívejte se do naší [[{{MediaWiki:Wminc-manual-url}}|příručky]] nebo požádejte o [[{{MediaWiki:Portal-url}}|pomoc]].', # Fuzzy
+Pokud kód neznáte, podívejte se do naší [[{{MediaWiki:Wminc-manual-url}}|příručky]] nebo požádejte o [[{{MediaWiki:Portal-url}}|pomoc]].',
 	'wminc-fs-userpage-text' => 'Nyní si prosím založte svou uživatelskou stránku $1 se základními informacemi o sobě. Odkaz na ni můžete vidět také navrchu této stránky.',
 	'wminc-fs-globaluser-text' => 'Váš uživatelský účet je lokální. Doporučujeme z něj udělat globální účet pomocí $1, abyste ho mohli používat na všech projektech Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Prefix vaší wiki je <strong>$1</strong>. Wiki můžete založit vytvořením Hlavní strany na <strong>$2</strong>.',
@@ -1767,7 +1767,7 @@ $messages['gl'] = array(
 	'wminc-fs-signup-text' => 'Se xa ten unha conta de usuario, [$1 acceda ao sistema]. Se aínda non a ten, [$2 cree unha nova conta].
 Non é obrigatoria, pero recomendámoslle que a cree; facelo leva uns poucos segundos.',
 	'wminc-fs-settings-text' => 'Agora vaia ás [[Special:Preferences#mw-htmlform-i18n|súas preferencias]] e cambie a configuración do seu wiki de probas.
-Á dereita pode ollar as opcións relevantes que ten nesa páxina. A primeira é a lingua da interface, que elixiu no primeiro paso, pero aínda pode modificala.
+A primeira é a lingua da interface, que elixiu no primeiro paso, pero aínda pode modificala.
 A segunda é o proxecto no que quere contribuír e a terceira é o código de lignua do proxecto no que quere contribuír.
 Se non sabe o código, consulte o noso [[{{MediaWiki:Wminc-manual-url}}|manual]] ou pida [[{{MediaWiki:Portal-url}}|axuda]].',
 	'wminc-fs-userpage-text' => 'Agora cree a súa páxina de usuario $1 con algunha información básica sobre vostede. Tamén pode ollar unha ligazón ata ela na parte superior desta páxina.',
@@ -3318,7 +3318,8 @@ Als u de code niet kent, raadpleeg dan onze [[{{MediaWiki:Wminc-manual-url}}|han
 	'wminc-fs-userpage-text' => 'Maak nu uw gebruikerspagina $1 aan met wat gegevens over uzelf. U ziet bovenaan deze pagina ook een koppeling naar die pagina.',
 	'wminc-fs-globaluser-text' => 'Uw gebruiker is lokaal. Het is aanbevolen om deze globaal te maken via $1 zodat u deze voor elke Wikimediawiki kunt gebruiken.',
 	'wminc-fs-startwiki-text' => 'Het voorvoegsel van uw wiki is <strong>$1</strong>. U kunt de wiki beginnen door de hoofdpagina van de wiki aan te maken op <strong>$2</strong>.',
-	'wminc-fs-startwiki-exists-text' => 'Het voorvoegsel van uw wiki is $1. De Hoofdpagina is te vinden op $2. U kunt nu samenwerken met andere sprekers van deze talen om een gemeenschap op te bouwen!
+	'wminc-fs-startwiki-exists-text' => 'Het voorvoegsel van uw wiki is $1.
+De Hoofdpagina is te vinden op $2. U kunt nu samenwerken met andere sprekers van deze talen om een gemeenschap op te bouwen!
 Als u een pagina wil aanmaken, typ gewoon de naam in het zoekvak bovenaan, en volg de koppeling die u ziet.',
 );
 
