@@ -180,7 +180,8 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-searchwiki-noresults' => 'Error message',
 	'wminc-searchwiki-selectproject' => 'Followed by a dropdown menu with projects (Wikipedia, Wiktionary, ...)',
 	'wminc-searchwiki-inputlanguage' => 'Followed by an input box where you can enter a language name or code',
-	'wminc-searchwiki-go' => 'Submit button',
+	'wminc-searchwiki-go' => 'Submit button.
+{{Identical|Go}}',
 	'wminc-searchwiki-multiplematches' => 'Followed by a list of matches when there are multiple matches',
 	'wminc-searchwiki-match-langcode' => 'Parameters:
 * $1 is the input;
