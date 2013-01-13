@@ -1250,6 +1250,7 @@ $messages['eo'] = array(
  * @author Crazymadlover
  * @author Drini
  * @author Fitoschido
+ * @author Savh
  * @author Translationista
  * @author Vivaelcelta
  */
@@ -1278,7 +1279,7 @@ $messages['es'] = array(
 	'wminc-viewuserlang-user' => 'Nombre de usuario:',
 	'wminc-viewuserlang-go' => 'Ir',
 	'wminc-userdoesnotexist' => 'El usuario «$1» no existe.',
-	'wminc-ip' => '"$1" es una dirección IP.',
+	'wminc-ip' => '«$1» es una dirección IP.',
 	'right-viewuserlang' => 'Ver idioma de usuario y prueba wiki',
 	'group-test-sysop' => 'Administradores de wiki de prueba',
 	'group-test-sysop-member' => '{{GENDER:$1|administrador|administradora}} del wiki de pruebas',
