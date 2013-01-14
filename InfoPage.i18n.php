@@ -1321,6 +1321,15 @@ $messages['ml'] = array(
 	'wminc-infopage-error' => 'പിഴവ്: പൂർവ്വപദമുള്ള താളുകളിൽ മാത്രമേ {{#infopage}} ഉപയോഗിക്കാൻ കഴിയുകയുള്ളു.',
 );
 
+/** Marathi (मराठी)
+ * @author संतोष दहिवळ
+ */
+$messages['mr'] = array(
+	'wminc-infopage-enter' => 'मुखपृष्ठाकडे जा',
+	'wminc-unknownlang' => '(अज्ञात भाषा संकेत)',
+	'wminc-infopage-title-y' => 'विकिपर्यटन $1',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  */
