@@ -4598,6 +4598,7 @@ $messages['ug-arab'] = array(
  * @author Aleksandrit
  * @author Base
  * @author Dim Grits
+ * @author RLuts
  */
 $messages['uk'] = array(
 	'wminc-desc' => 'Тестова вікі для Інкубатора Вікімедіа',
@@ -4656,6 +4657,8 @@ $messages['uk'] = array(
 	'wminc-fs-pagetitle-done' => ' — готово!',
 	'wminc-fs-intro' => 'Вітаємо у майстрі перших кроків проекту {{SITENAME}}. Вас буде проведено через процес започаткування нової вікі.',
 	'wminc-fs-langselect' => 'Продовжити мовою $1 або $2',
+	'wminc-fs-signup-text' => 'Якщо у вас вже є обліковий запис, будь ласка, [$1 увійдіть в систему]. Якщо ж у вас немає облікового запису, [$2 ви можете його створити].
+Реєстрація не є необхідною, але рекомендується і займе у вас всього декілька секунд.',
 );
 
 /** Urdu (اردو)
@@ -4763,7 +4766,7 @@ Tùy chọn đầu tiên là ngôn ngữ giao diện mà bạn đã lựa chọn
 Tùy chọn thứ hai là dự án để đóng góp vào, và sau đó là mã ngôn ngữ của dự án để đóng góp vào.
 Nếu bạn không biết mã ngôn ngữ, hãy tham khảo [[{{MediaWiki:Wminc-manual-url}}|hướng dẫn]] hoặc [[{{MediaWiki:Portal-url}}|yêu cầu trợ giúp]].',
 	'wminc-fs-userpage-text' => 'Hãy tạo trang cá nhân $1 để chia sẻ những thông tin cơ bản về chính bạn. Một liên kết ở đầu trang này cũng dẫn đến trang cá nhân.',
-	'wminc-fs-globaluser-text' => 'Bạn đang sử dụng một tài khoản địa phương. Gợi ý bạn làm nó thành một tài khoản toàn cầu tại $1 để cho có thể sử dụng nó tại bất cứ wiki nào trực thuộc Wikimedia.',
+	'wminc-fs-globaluser-text' => 'Bạn đang sử dụng một tài khoản địa phương. Gợi ý bạn làm nó thành một tài khoản toàn cục tại $1 để cho có thể sử dụng nó tại bất cứ wiki nào trực thuộc Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Tiền tố của wiki là <strong>$1</strong>. Hãy bắt đầu wiki này với một Trang Chính tại <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'Tiền tố của wiki là $1, và Trang Chính có sẵn tại $2. Bây giờ bạn có thể cộng tác với những người khác cũng nói ngôn ngữ này để xây dựng một cộng đồng!
 Để tạo ra trang mới, chỉ việc nhập tên trang vào hộp tìm kiếm ở trên và theo dõi liên kết xuất hiện.',

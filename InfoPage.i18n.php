@@ -1143,6 +1143,7 @@ $messages['ksh'] = array(
 	'wminc-infopage-title-n' => 'Neujeschkeitewiki op $1',
 	'wminc-infopage-title-s' => 'Quällewiki op $1',
 	'wminc-infopage-title-v' => 'Wikiväsitääd op $1',
+	'wminc-infopage-title-y' => 'Op-Jöck-Wiki op $1',
 	'wminc-infopage-welcome' => 'Wellkumme em Wikimedia Inkubator, enem Projäk vun der [[{{MediaWiki:Aboutpage}}|Wikimedija Schteftong]]',
 	'wminc-infopage-missingwiki-text' => '{{ucfirst:{{GRAMMAR:e|$1}}}} en dä Schprooch jidd et noch nit.
 ', # Fuzzy
