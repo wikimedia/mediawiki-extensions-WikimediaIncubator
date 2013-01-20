@@ -4488,6 +4488,7 @@ $messages['tly'] = array(
 /** Turkish (Türkçe)
  * @author Cekli829
  * @author Emperyan
+ * @author Incelemeelemani
  * @author Joseph
  * @author Karduelis
  * @author Vito Genovese
@@ -4499,10 +4500,11 @@ $messages['tr'] = array(
 	'wminc-testwiki' => 'Test viki:',
 	'wminc-testwiki-code' => 'Denenecek viki dili:',
 	'wminc-testwiki-none' => 'Hiçbiri/Tümü',
+	'wminc-testwiki-site' => '(Bakım)',
 	'wminc-recentchanges-all' => 'Tüm son değişiklikler',
 	'wminc-prefinfo-language' => 'Arayüz diliniz - test vikinizden bağımsız',
-	'wminc-prefinfo-code' => 'ISO 639 dil kodu', # Fuzzy
-	'wminc-prefinfo-project' => 'Vikimedya projesini seçin (İnkübatör seçeneği genel çalışma yapan kullanıcılar için)', # Fuzzy
+	'wminc-prefinfo-code' => 'Üzerinde çalıştığınız projeye ait ISO 639 dil kodunu buraya yazın.',
+	'wminc-prefinfo-project' => 'Burada üzerinde yoğun olarak çalıştığınız Wikimedia projesini seçin.',
 	'wminc-prefinfo-error' => 'Bir dil kodu gereken bir proje seçtiniz.',
 	'wminc-error-move-unprefixed' => 'Hata: Taşımaya çalıştığınız sayfa [[{{MediaWiki:Wminc-error-help}}|öneksiz ya da yanlış bir öneki var]]!',
 	'randombytest' => 'Test vikisinden rastgele sayfa',
@@ -4516,6 +4518,17 @@ $messages['tr'] = array(
 	'group-test-sysop' => 'Test Viki hizmetlisi',
 	'group-test-sysop-member' => '{{GENDER:$1|test viki hizmetlisi}}',
 	'grouppage-test-sysop' => '{{ns:project}}:Test viki hizmetlisi',
+	'wminc-searchwiki' => 'Bir wikide ara',
+	'wminc-searchwiki-selectproject' => 'Şunu ara:',
+	'wminc-searchwiki-inputlanguage' => 'Dilinizde:',
+	'wminc-searchwiki-go' => 'Git',
+	'wminc-searchwiki-gotoinfopage' => 'bilgi sayfası',
+	'wminc-fs-langselect-title' => 'Dil seçimi',
+	'wminc-fs-signup-title' => 'Kaydol',
+	'wminc-fs-settings-title' => 'Wiki tercihlerinizi ayarlayın',
+	'wminc-fs-userpage-title' => 'Kullanıcı sayfası oluşturma',
+	'wminc-fs-startwiki-title' => 'Wikinize başlayın',
+	'wminc-fs-pagetitle-done' => ' - tamam!',
 );
 
 /** Tatar (Cyrillic script) (татарча)
