@@ -1942,6 +1942,7 @@ $messages['tzm'] = array(
  * @author Andrijko Z.
  * @author Base
  * @author Dim Grits
+ * @author Ата
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1963,7 +1964,7 @@ $messages['uk'] = array(
 	'wminc-infopage-option-languages-existing' => 'Ви можете пошукати серед [//www.$1.org існуючих мовних розділів $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Ви можете пошукати існуючі проекти цією мовою:',
 	'wminc-infopage-option-sisterprojects-other' => 'Ви можете пошукати інші проекти цією мовою:',
-	'wminc-infopage-option-multilingual' => 'Ви можете перейти до багатомовних вікіпроектів:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'Крім того, Ви можете перейти до багатомовних вікіпроектів:',
 	'wminc-infopage-createmainpage' => 'Введіть фразу «Головна сторінка» на цій мові:',
 	'wminc-infopage-contribute' => 'Якщо Ви володієте цією мовою, Ви можете зробити свій внесок!',
 	'wminc-infopage-status-open' => 'Це відкрита вікі в Інкубаторі Вікімедіа.',
