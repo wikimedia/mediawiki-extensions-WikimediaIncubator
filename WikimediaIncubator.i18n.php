@@ -3215,7 +3215,7 @@ $messages['nb'] = array(
 	'wminc-search-nocreate-suggest' => 'Du søkte etter «$1». Du kan opprette en side på din wiki på <strong>[[$2]]</strong>!',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
