@@ -2474,13 +2474,18 @@ $messages['ka'] = array(
 );
 
 /** Khmer (ភាសាខ្មែរ)
+ * @author គីមស៊្រុន
  * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
 	'wminc-desc' => 'សាកល្បង​ប្រព័ន្ធ​វិគី​សម្រាប់​ Wikimedia Incubator',
-	'wminc-testwiki' => 'សាកល្បង​វីគី៖',
+	'wminc-listwikis' => 'បញ្ជីវិគី',
+	'wminc-testwiki' => 'ធ្វើតេស្ត​វីគី៖',
+	'wminc-testwiki-code' => 'ធ្វើតេស្តភាសាវិគី៖',
 	'wminc-testwiki-none' => 'គ្មាន​/ទាំងអស់​',
-	'wminc-prefinfo-code' => 'លេខ​កូដ​ភាសា​ ISO 639', # Fuzzy
+	'wminc-prefinfo-language' => 'ភាសាអន្តរមុខរបស់អ្នក (មិនទាក់ទងនឹងវិគីតេស្តរបស់អ្នកទេ)',
+	'wminc-prefinfo-code' => 'លេខ​កូដ​ ISO 639 របស់ភាសាដែលអ្នកកំពុងធ្វើការជាមួយនៅទីនេះ',
+	'wminc-prefinfo-project' => 'ជ្រើសរើសគំរោងវិគីមេឌាដែលអ្នកកំពុងធ្វើការជាមួយនៅទីនេះ',
 	'wminc-prefinfo-error' => 'អ្នក​បាន​ជ្រើសរើស​គម្រោង​មួយ​ដែល​ត្រូវការ​លេខ​កូដ​ភាសា​។',
 	'wminc-viewuserlang' => 'រក​មើល​ភាសា​អ្នក​ប្រើប្រាស់​និង​សាក​ល្បង​វិគី​',
 	'wminc-viewuserlang-user' => 'អ្នកប្រើប្រាស់​៖',
