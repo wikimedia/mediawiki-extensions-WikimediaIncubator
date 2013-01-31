@@ -890,6 +890,39 @@ Pokud kód neznáte, podívejte se do naší [[{{MediaWiki:Wminc-manual-url}}|p�
 Pokud chcete založit stránku, stačí napsat její název do vyhledávacího okénka výše a následovat zobrazený odkaz.',
 );
 
+/** Welsh (Cymraeg)
+ * @author Robin Owain
+ */
+$messages['cy'] = array(
+	'wminc-desc' => 'System profi wicis ar gyfer Wikimedia Incubator',
+	'wminc-manual' => 'Llawlyfr',
+	'wminc-listwikis' => 'Rhestr o wicis',
+	'wminc-testwiki' => 'Wici brawf',
+	'wminc-testwiki-code' => 'Iaith y wici brawf',
+	'wminc-testwiki-none' => 'Dim/Y cyfan',
+	'wminc-testwiki-site' => '(Gwaith cynnal)',
+	'wminc-recentchanges-all' => 'Yr holl newidiadau diweddar',
+	'wminc-prefinfo-language' => "Iaith eich rhyngwyneb - yn annibynol o'ch wici brawf",
+	'wminc-prefinfo-code' => 'Y Cod ISO 639 rydych yn gweithio arno yma',
+	'wminc-prefinfo-project' => "Dewisiwch y prosiect 'da chi'n gweithio arno yma",
+	'wminc-error-move-unprefixed' => "Gwall: 'Dyw'r dudalen 'da chi'n ceisio'i symud i [[{{MediaWiki:Wminc-error-help}}|heb gael y blaenllythrennau (prefix) cywir]]!",
+	'wminc-viewuserlang-user' => 'Enw Defnyddiwr',
+	'wminc-viewuserlang-go' => 'Ewch',
+	'wminc-userdoesnotexist' => '\'Dyw defnyddiwr "$1" ddim yn bodoli.',
+	'wminc-ip' => 'Mae "$1" yn gyfeiriad IP.',
+	'right-viewuserlang' => 'Cymerwch gip ar y wici brawf yn eich iaith chi',
+	'group-test-sysop' => 'Gweinyddwyr y wici brawf',
+	'group-test-sysop-member' => '{{GENDER:$1|gweinyddwr y wici brawf}}',
+	'wminc-searchwiki' => 'Chwilio am wici',
+	'wminc-searchwiki-selectproject' => 'Chwilio am:',
+	'wminc-searchwiki-inputlanguage' => 'Mewn iaith:',
+	'wminc-searchwiki-go' => 'Ewch!',
+	'wminc-searchwiki-gotoinfopage' => 'Tudalen wybodaeth',
+	'wminc-fs-langselect-title' => 'Dewisiwch iaith',
+	'wminc-fs-signup-title' => 'Mewngofnodwch',
+	'wminc-fs-pagetitle-done' => '- gorffennwyd!',
+);
+
 /** Danish (dansk)
  * @author Byrial
  * @author Froztbyte

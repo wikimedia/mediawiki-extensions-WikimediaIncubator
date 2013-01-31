@@ -382,6 +382,18 @@ $messages['cs'] = array(
 	'wminc-infopage-error' => 'Chyba: {{#infopage}} lze použít jen na stránkách s prefixem.',
 );
 
+/** Welsh (Cymraeg)
+ * @author Robin Owain
+ */
+$messages['cy'] = array(
+	'wminc-infopage-enter' => "ewch i'r Hafan",
+	'wminc-infopage-title-p' => 'Wicipedia', # Fuzzy
+	'wminc-infopage-title-b' => 'Wicilyfrau', # Fuzzy
+	'wminc-infopage-title-t' => 'Wiciadur', # Fuzzy
+	'wminc-infopage-title-s' => 'Wicidestun', # Fuzzy
+	'wminc-infopage-title-y' => 'Wicidaith', # Fuzzy
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author MF-Warburg
