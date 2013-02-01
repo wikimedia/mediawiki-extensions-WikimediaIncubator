@@ -917,6 +917,7 @@ $messages['cy'] = array(
 	'wminc-searchwiki-selectproject' => 'Chwilio am:',
 	'wminc-searchwiki-inputlanguage' => 'Mewn iaith:',
 	'wminc-searchwiki-go' => 'Ewch!',
+	'wminc-searchwiki-match-userlangname' => 'Mae $1 yn iaith',
 	'wminc-searchwiki-gotoinfopage' => 'Tudalen wybodaeth',
 	'wminc-fs-langselect-title' => 'Dewisiwch iaith',
 	'wminc-fs-signup-title' => 'Mewngofnodwch',

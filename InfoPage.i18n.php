@@ -1636,6 +1636,7 @@ $messages['roa-tara'] = array(
 	'wminc-infopage-title-n' => 'Uicchinews $1',
 	'wminc-infopage-title-s' => 'Uicchisource $1',
 	'wminc-infopage-title-v' => 'Uicchiversity $1',
+	'wminc-infopage-title-y' => 'Uicchivoyage $1',
 	'wminc-infopage-welcome' => "Bovègne sus a Uicchimèdie Incubatore, 'nu pruggette d'a Funnazione Uicchimèdie ([[{{MediaWiki:Aboutpage}}|About]])",
 	'wminc-infopage-missingwiki-text' => "'Nu $1 jndre 'stà lènga non ge 'stè angore.",
 	'wminc-infopage-option-startwiki' => "Ce vuè ccrejà 'stà uicchi, pe piacere vide 
@@ -1652,6 +1653,7 @@ $messages['roa-tara'] = array(
 	'wminc-infopage-status-closedsister' => "'Stù subdominie jè state chiuse. Scè a <strong>$2</strong> pe' conrebbuì a 'stà uicchi.",
 	'wminc-infopage-status-created' => "'Stù pruggette ha state approvate da 'u language committee e mò se pòte acchijà sus a $1.",
 	'wminc-infopage-status-beforeincubator' => "'Stù pruggette jè state ccrejète apprìme ca Uicchimèdie Incubatore accumenzasse a fatijà e jè disponibbele sus a $1.",
+	'wminc-infopage-status-beforeincubator-sister' => 'Stu proggette hjè disponibbile sus a $1.',
 );
 
 /** Russian (русский)
