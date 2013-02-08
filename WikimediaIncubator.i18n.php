@@ -3443,6 +3443,7 @@ $messages['pfl'] = array(
 /** Polish (polski)
  * @author BeginaFelicysym
  * @author Leinad
+ * @author Mateuszek045
  * @author Sp5uhe
  * @author ToSter
  */
@@ -3453,6 +3454,7 @@ $messages['pl'] = array(
 	'wminc-testwiki' => 'Testowa wiki',
 	'wminc-testwiki-code' => 'Język testowej wiki',
 	'wminc-testwiki-none' => 'Żadna lub wszystkie',
+	'wminc-testwiki-site' => '(Utrzymanie)',
 	'wminc-recentchanges-all' => 'Wszystkie ostatnie zmiany',
 	'wminc-prefinfo-language' => 'Język interfejsu (niezależny od języka testowej wiki)',
 	'wminc-prefinfo-code' => 'Kod języka według ISO 639', # Fuzzy
@@ -3493,6 +3495,13 @@ $messages['pl'] = array(
 	'wminc-searchwiki-match-englishname' => '" $1 " jest nazwą  $2  w języku angielskim.',
 	'wminc-searchwiki-match-nativename' => '" $1 " jest nazwą  $2  w tym języku.',
 	'wminc-searchwiki-gotoinfopage' => 'strony informacyjnej',
+	'wminc-fs-pagetitle' => 'Kreator pierwszych kroków – $1',
+	'wminc-fs-langselect-title' => 'Wybierz język',
+	'wminc-fs-signup-title' => 'Zarejestruj się',
+	'wminc-fs-settings-title' => 'Ustaw swoje preferencje',
+	'wminc-fs-userpage-title' => 'Stwórz swoją stronę użytkownika',
+	'wminc-fs-startwiki-title' => 'Uruchom swoją wiki',
+	'wminc-fs-pagetitle-done' => '- gotowe!',
 );
 
 /** Piedmontese (Piemontèis)
