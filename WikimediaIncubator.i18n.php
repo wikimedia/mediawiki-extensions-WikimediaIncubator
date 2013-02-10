@@ -4943,6 +4943,10 @@ $messages['zh-hans'] = array(
 	'wminc-fs-userpage-title' => '创建您的用户页',
 	'wminc-fs-startwiki-title' => '开始使用您的wiki',
 	'wminc-fs-pagetitle-done' => ' - 完成！',
+	'wminc-fs-intro' => '欢迎来到 {{SITENAME}} 第一步骤向导。您会被带领走过创建一个新的维基的过程。',
+	'wminc-fs-langselect' => '与$1或$2继续',
+	'wminc-fs-signup-text' => '如果您已经有个账户，请[$1 登入]。如果您还没有一个，请[$2 创建一个账户]。
+它不是一个条件，但我们很推荐，而且只需几秒钟的时间。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
