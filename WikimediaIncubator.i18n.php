@@ -200,7 +200,8 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-fs-pagetitle' => '$1 is the step (one of the wminc-fs-*-title messages)',
 	'wminc-fs-langselect-title' => 'Title: select the preferred interface language.
 {{Identical|Select language}}',
-	'wminc-fs-signup-title' => 'Title: create an account',
+	'wminc-fs-signup-title' => 'Title: create an account.
+{{Identical|Sign up}}',
 	'wminc-fs-settings-title' => 'Title of the explanation to set the right test wiki preference',
 	'wminc-fs-userpage-title' => 'Create your userpage',
 	'wminc-fs-startwiki-title' => 'Start your wiki',
