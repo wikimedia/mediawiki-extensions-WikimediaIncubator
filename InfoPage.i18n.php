@@ -1081,7 +1081,9 @@ $messages['ka'] = array(
 	'wminc-infopage-title-n' => 'ვიკისიახლენი $1',
 	'wminc-infopage-title-s' => 'ვიკიწყარო $1',
 	'wminc-infopage-title-v' => 'ვიკივერსიტეტი $1',
+	'wminc-infopage-title-y' => 'ვიკივოიაჟი $1',
 	'wminc-infopage-welcome' => 'კეთილი იყოს თქვენი მობრძანება ვიკიმედიის ინკუბატორში, ფონდი ვიკიმედიის პროექტი ([[{{MediaWiki:Aboutpage}}|პროექტის შესახებ]])',
+	'wminc-infopage-missingwiki-text' => '$1 ამ ენაზე ჯერ არ არსებობს.',
 	'wminc-infopage-option-startwiki' => "თუ თქვენ გსურთ დაიწყოთ ეს ვიკი, გთხოვთ შეასრულოთ
 '''[$3 შემდეგი ნაბიჯები]''' და მიჰყვეთ [[{{MediaWiki:Wminc-manual-url}}|ჩვენ სახელმძღვანელოს]].",
 	'wminc-infopage-option-startsister' => 'თუ თქვენ გსურთ ამ ვიკის დაწყება, თქვენ სეგიძლიათ გადახვიდეთ <strong>[ $2  $1 ] </strong>-თან.',
@@ -1090,6 +1092,14 @@ $messages['ka'] = array(
 	'wminc-infopage-option-sisterprojects-other' => 'თქვენ შეგიძლიათ მოძებნოთ სხვა პროექტები ამ ენაზე:',
 	'wminc-infopage-option-multilingual' => 'გარდა ამისა, თქვენ შეგიძლიათ გადახვიდეთ მრავალენოვან ვიკი-პროექტებზე:',
 	'wminc-infopage-createmainpage' => 'შეიყვანეთ სიტყვა „მთავარი გვერდი“ ამ ენაზე:',
+	'wminc-infopage-contribute' => 'თუ თქვენ გესმით ეს ენა, თქვენ შეგიძლიათ წვლილი შეიტანოთ მასში!',
+	'wminc-infopage-status-open' => 'ეს არის ღია ვიკი ვიკიმედიის ინკუბატორში.',
+	'wminc-infopage-status-imported' => 'ეს ვიკი გადმოტანილ იქნა ინკუბატორში პროექტიდან „$1“ მისი დახურვის შემდეგ.',
+	'wminc-infopage-status-closedsister' => 'ეს ქვედომენი დაიხურა. გადადით <strong>$2</strong>-ზე რათა შეიტანოთ თქვენი წვლილი ამ ვიკიში.',
+	'wminc-infopage-status-approved' => 'ეს ინკუბატორის ვიკი დაამტკიცა [[meta:Special:MyLanguage/Language_committee|ენის კომიტეტმა]] და ის მალე შეიქმნება.',
+	'wminc-infopage-status-created' => 'ეს პროექტი დაამტკიცა ენის კომიტეტმა და ახლა ის ხელმისაწვდომია მისამართზე $1.',
+	'wminc-infopage-status-beforeincubator' => 'ვიკიმედიის ინკუბატორის გაშვებამდე შექმნილი ეს პროექტი ხელმისაწვდომია მისამართზე $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'ეს პროექტი ხელმისაწვდომია მისამართზე $1.',
 );
 
 /** Khowar (کھوار)
@@ -1653,9 +1663,11 @@ $messages['roa-tara'] = array(
 	'wminc-infopage-status-open' => "Queste jè 'na Uicchi aperte sus a UicchiMedia Ingubatore.",
 	'wminc-infopage-status-imported' => "Quèste uicchi de l'Incubatore ha state 'mbortade da $1 nnande c'a uicchi ha state chiuse.",
 	'wminc-infopage-status-closedsister' => "'Stù subdominie jè state chiuse. Scè a <strong>$2</strong> pe' conrebbuì a 'stà uicchi.",
+	'wminc-infopage-status-approved' => "Quiste Ingubatore de uicchi ha state approvate da 'a [[meta:Special:MyLanguage/Language_committee|commissione de le lènghe]] e adda essere ccrejate subbite.",
 	'wminc-infopage-status-created' => "'Stù pruggette ha state approvate da 'u language committee e mò se pòte acchijà sus a $1.",
 	'wminc-infopage-status-beforeincubator' => "'Stù pruggette jè state ccrejète apprìme ca Uicchimèdie Incubatore accumenzasse a fatijà e jè disponibbele sus a $1.",
 	'wminc-infopage-status-beforeincubator-sister' => 'Stu proggette hjè disponibbile sus a $1.',
+	'wminc-infopage-error' => 'Errore: {{#infopage}} pò essere sulamende ausate sus a le pàggene cu prefisse.',
 );
 
 /** Russian (русский)
