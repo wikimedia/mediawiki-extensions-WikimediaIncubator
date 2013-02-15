@@ -3575,7 +3575,7 @@ La sconda a l'é ël proget dont a veul contribuì e la tersa a l'é ël còdes 
 S'a conòsss nen ël còdes, për piasì ch'a consulta nòstr [[{{MediaWiki:Wminc-manual-url}}|manual]] o ch'a ciama d'[[{{MediaWiki:Portal-url}}|agiut]].",
 	'wminc-fs-userpage-text' => "Për piasì, adess ch'a crea soa pàgina d'utent $1 con chèiche anformassion sempie a propòsit ëd chiel. A peul ëdcò trové na liura vers chila an cò ëd costa pàgina.",
 	'wminc-fs-globaluser-text' => "Sò cont d'utent a l'é local. As arcomanda ëd rendlo global a travers $1 parèj a peul dovrelo ansima a tute le wiki ëd Wikimedia.",
-	'wminc-fs-startwiki-text' => "Ël prefiss ëd toa wiki a l'é <strong>$1</strong>. It peule ancaminé la wiki creand la Pagina Prinsipal dla wiki a <strong>$2</strong>.",
+	'wminc-fs-startwiki-text' => "Ël prefiss ëd soa wiki a l'é <strong>$1</strong>. A peul ancaminé la wiki an creand la pàgina d'intrada dla wiki a <strong>$2</strong>.",
 	'wminc-fs-startwiki-exists-text' => "Ël prefiss ëd toa wiki a l'é $1. La Pagina Prinsipal a l'é a $2. It peule colaboré adess con àutri parlant dë sta lenga për fé na comunità!
 S'it veule creé na pagina, scriv ël nòm ant la casela d'arserca dzora, e và dré ël colegament ch'it vëddras.",
 );
@@ -4629,12 +4629,15 @@ $messages['tzm'] = array(
 	'wminc-viewuserlang-go' => 'ⴷⴷⵓ',
 	'wminc-userdoesnotexist' => 'ⴰⵎⴷⴰⵏ (user) "$1" ⵓⵔ ⵉⵍⵍⴰ.',
 	'wminc-ip' => '"$1" is an ⴰⵣⵡⵉⵍ ⵏ IP.',
+	'group-test-sysop-member' => 'ⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵡⵉⴽⵉ ⵜⴰⵔⵎⵉⵜ', # Fuzzy
+	'grouppage-test-sysop' => '{{ns:project}}:ⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵜⵙⵓⵖⵍⵜ',
 	'wminc-searchwiki-selectproject' => 'ⴰⵔⵣⵣⵓ ⵅⴼ:',
 	'wminc-searchwiki-inputlanguage' => 'ⵙ ⵜⵓⵜⵍⴰⵢⵜ:',
 	'wminc-searchwiki-go' => 'ⴷⴷⵓ',
 	'wminc-searchwiki-gotoinfopage' => 'ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵜⴰⵙⵏⴰ',
 	'wminc-fs-langselect-title' => 'ⵙⵜⵉ ⵜⵓⵜⵍⴰⵢⵜ',
 	'wminc-fs-signup-title' => 'ⴰⵙⵓⵙⵔ',
+	'wminc-fs-pagetitle-done' => ' - done!',
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
