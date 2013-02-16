@@ -127,10 +127,10 @@ $messages['qqq'] = array(
 	'wminc-manual' => 'As in "handbook" (a page with a step-by-step guide).',
 	'wminc-listwikis' => 'List of wikis that are in Wikimedia Incubator. Please keep it short as it is used in the sidebar.',
 	'wminc-testwiki' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
-	'wminc-testwiki-code' => 'Used on Special:Preferences as the label for entering the language code of the test wiki.',
-	'wminc-testwiki-none' => "* Used on Special:Preferences when the user didn't select a test wiki preference (yet).
-* Used on Special:RecentChanges to show normal recent changes display.",
-	'wminc-testwiki-site' => 'Used on Special:Preferences as an option for users not working on a specific test wiki',
+	'wminc-testwiki-code' => 'Used on [[Special:Preferences]] as the label for entering the language code of the test wiki.',
+	'wminc-testwiki-none' => "* Used on [[Special:Preferences]] when the user didn't select a test wiki preference (yet).
+* Used on [[Special:RecentChanges]] to show normal recent changes display.",
+	'wminc-testwiki-site' => 'Used on [[Special:Preferences]] as an option for users not working on a specific test wiki',
 	'wminc-recentchanges-all' => 'Used in the sidebar for a link to Special:RecentChanges (with default view of all changes).',
 	'wminc-prefinfo-language' => 'See [[:File:Incubator-testwiki-preference.jpg]]. Extra clarification for the (normal) language selection.',
 	'wminc-prefinfo-code' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
@@ -156,7 +156,7 @@ For more information see: http://www.mediawiki.org/wiki/Extension:WikimediaIncub
 	'wminc-userdoesnotexist' => 'Used on Special:ViewUserLang when the entered user does not exist.',
 	'wminc-ip' => 'Used on Special:ViewUserLang which can only be used for logged in users. This error message is shown for IP addresses.',
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}
-The message says (in the long form): (This group has) "The ability to view the language and test wiki of a user". A user can set his language and test wiki through Special:Preferences.',
+The message says (in the long form): (This group has) "The ability to view the language and test wiki of a user". A user can set his language and test wiki through [[Special:Preferences]].',
 	'group-test-sysop' => '{{doc-group|test-sysop}}
 Name of the group of administrators of a specific test wiki on the Wikimedia Incubator.',
 	'group-test-sysop-member' => '{{doc-group|test-sysop|member}}
@@ -3576,8 +3576,8 @@ S'a conòsss nen ël còdes, për piasì ch'a consulta nòstr [[{{MediaWiki:Wmin
 	'wminc-fs-userpage-text' => "Për piasì, adess ch'a crea soa pàgina d'utent $1 con chèiche anformassion sempie a propòsit ëd chiel. A peul ëdcò trové na liura vers chila an cò ëd costa pàgina.",
 	'wminc-fs-globaluser-text' => "Sò cont d'utent a l'é local. As arcomanda ëd rendlo global a travers $1 parèj a peul dovrelo ansima a tute le wiki ëd Wikimedia.",
 	'wminc-fs-startwiki-text' => "Ël prefiss ëd soa wiki a l'é <strong>$1</strong>. A peul ancaminé la wiki an creand la pàgina d'intrada dla wiki a <strong>$2</strong>.",
-	'wminc-fs-startwiki-exists-text' => "Ël prefiss ëd toa wiki a l'é $1. La Pagina Prinsipal a l'é a $2. It peule colaboré adess con àutri parlant dë sta lenga për fé na comunità!
-S'it veule creé na pagina, scriv ël nòm ant la casela d'arserca dzora, e và dré ël colegament ch'it vëddras.",
+	'wminc-fs-startwiki-exists-text' => "Ël prefiss ëd soa wiki a l'é $1. La pàgina d'intrada a l'é a $2. A peul colaboré adess con d'àutri parlant dë sta lenga për batì na comunità!
+S'a veul creé na pàgina, ch'a scriva ël nòm ant la casela d'arserca sì-dzora, e ch'a-j vada dapress a la liura ch'a vëdrà.",
 );
 
 /** Pontic (Ποντιακά)

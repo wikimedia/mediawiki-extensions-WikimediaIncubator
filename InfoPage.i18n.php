@@ -1841,12 +1841,21 @@ onda možete da [{{fullurl:{{FULLPAGENAME}}|action=edit}} napravite stranicu] i 
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author Lokal Profil
  * @author Warrakkk
  */
 $messages['sv'] = array(
 	'wminc-infopage-enter' => 'gå till huvudsidan',
-	'wminc-unknownlang' => '(okänt språk med koden "$1")', # Fuzzy
+	'wminc-unknownlang' => '(okänd språkkod)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
+	'wminc-infopage-title-t' => 'Wiktionary $1',
+	'wminc-infopage-title-q' => 'Wikiquote $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikisource $1',
+	'wminc-infopage-title-v' => 'Wikiversity $1',
+	'wminc-infopage-title-y' => 'Wikivoyage $1',
 	'wminc-infopage-welcome' => 'Välkommen till Wikimedia Incubator, ett projekt av Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Om]])',
 	'wminc-infopage-missingwiki-text' => 'En $1 på detta språk existerar inte ännu.',
 	'wminc-infopage-option-startwiki' => 'Om du vill starta denna wiki kan du [{{fullurl:{{FULLPAGENAME}}|action=edit}} skapa sidan] och följa [[{{MediaWiki:Wminc-manual-url}}|vår manual]].', # Fuzzy
@@ -1861,6 +1870,7 @@ $messages['sv'] = array(
 	'wminc-infopage-status-closedsister' => 'Denna underdomän har stängts. Gå till <strong>$2</strong> för att bidra till denna wiki.',
 	'wminc-infopage-status-created' => 'Detta projekt har godkänts av språkkommittén och finns nu på $1.',
 	'wminc-infopage-status-beforeincubator' => 'Detta projekt skapades före Wikimedia Incubator startade och finns på $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Detta projekt finns på  $1.',
 );
 
 /** Tamil (தமிழ்)
