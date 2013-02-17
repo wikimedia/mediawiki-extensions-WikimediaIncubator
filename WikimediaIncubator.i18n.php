@@ -131,17 +131,19 @@ $messages['qqq'] = array(
 	'wminc-testwiki-none' => "* Used on [[Special:Preferences]] when the user didn't select a test wiki preference (yet).
 * Used on [[Special:RecentChanges]] to show normal recent changes display.",
 	'wminc-testwiki-site' => 'Used on [[Special:Preferences]] as an option for users not working on a specific test wiki',
-	'wminc-recentchanges-all' => 'Used in the sidebar for a link to Special:RecentChanges (with default view of all changes).',
+	'wminc-recentchanges-all' => 'Used in the sidebar for a link to [[Special:RecentChanges]] (with default view of all changes).',
 	'wminc-prefinfo-language' => 'See [[:File:Incubator-testwiki-preference.jpg]]. Extra clarification for the (normal) language selection.',
 	'wminc-prefinfo-code' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-prefinfo-project' => 'Explanation for a dropdown box in your preferences, with options: "None/All", "Wikipedia", "Wikibooks", "Wikinews", etc... and "Incubator". See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-prefinfo-error' => 'See [[:File:Incubator-testwiki-preference.jpg]]. If the user selected a Wikimedia project but not a language code, this error message is shown.',
 	'wminc-error-help' => '{{Identical|HelpContent}}',
 	'wminc-error-move-unprefixed' => 'Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>',
-	'wminc-error-wronglangcode' => '* $1 is a language code.
-* Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>',
-	'wminc-error-unprefixed-suggest' => '* $1 is a new page title based on the page title the user is currently trying to edit. E.g. "Test" would become "Wx/xx/Test".
-* Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>',
+	'wminc-error-wronglangcode' => '{{doc-important|Do not change "<code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>".}}
+Parameters:
+* $1 - a language code',
+	'wminc-error-unprefixed-suggest' => '{{doc-important|Do not change "<code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>".}}
+Parameters:
+* $1 - a new page title based on the page title the user is currently trying to edit. e.g. "Test" would become "Wx/xx/Test".',
 	'wminc-error-wiki-exists' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-error-wiki-sister' => '$1 is a link to either Wikisource or Wikiversity.',
 	'randombytest' => '[[Special:Special:RandomByTest]] goes to a random page in a incubator wiki. 
@@ -173,8 +175,8 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 * '''$3''' is the translated language name from CLDR, if available (otherwise, English) 
 It is best '''not''' to change the link to the Wikipedia article about the language.",
 	'wminc-listusers-testwiki' => 'Used on [[Special:ListUsers]]. $1 is either "Incubator" or a link to pages like "Wx/xyz".',
-	'wminc-search-nocreate-nopref' => 'Used on Special:Search. $1 is the search term.',
-	'wminc-search-nocreate-suggest' => 'Used on Special:Search. $1 is the search term, and $2 is the prefixed form of $1.',
+	'wminc-search-nocreate-nopref' => 'Used on [[Special:Search]]. $1 is the search term.',
+	'wminc-search-nocreate-suggest' => 'Used on [[Special:Search]]. $1 is the search term, and $2 is the prefixed form of $1.',
 	'wminc-searchwiki' => 'Title of Special:SearchWiki, to search *for* a wiki in a specific language (and *not* to search for pages!)',
 	'wminc-searchwiki-noproject' => 'Error message',
 	'wminc-searchwiki-noresults' => 'Error message',
