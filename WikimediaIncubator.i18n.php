@@ -894,6 +894,7 @@ Pokud chcete založit stránku, stačí napsat její název do vyhledávacího o
 );
 
 /** Welsh (Cymraeg)
+ * @author Lloffiwr
  * @author Robin Owain
  */
 $messages['cy'] = array(
@@ -902,7 +903,7 @@ $messages['cy'] = array(
 	'wminc-listwikis' => 'Rhestr o wicis',
 	'wminc-testwiki' => 'Wici brawf',
 	'wminc-testwiki-code' => 'Iaith y wici brawf',
-	'wminc-testwiki-none' => 'Dim/Y cyfan',
+	'wminc-testwiki-none' => 'Dim/Y cwbl',
 	'wminc-testwiki-site' => '(Gwaith cynnal)',
 	'wminc-recentchanges-all' => 'Yr holl newidiadau diweddar',
 	'wminc-prefinfo-language' => "Iaith eich rhyngwyneb - yn annibynol o'ch wici brawf",
@@ -918,7 +919,7 @@ $messages['cy'] = array(
 	'group-test-sysop-member' => '{{GENDER:$1|gweinyddwr y wici brawf}}',
 	'wminc-searchwiki' => 'Chwilio am wici',
 	'wminc-searchwiki-selectproject' => 'Chwilio am:',
-	'wminc-searchwiki-inputlanguage' => 'Mewn iaith:',
+	'wminc-searchwiki-inputlanguage' => 'Yn yr iaith:',
 	'wminc-searchwiki-go' => 'Ewch!',
 	'wminc-searchwiki-match-userlangname' => 'Mae $1 yn iaith',
 	'wminc-searchwiki-gotoinfopage' => 'Tudalen wybodaeth',
