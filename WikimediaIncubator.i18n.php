@@ -123,7 +123,7 @@ If you want to create a page, just type in the name in the search box above, and
  * @author Yekrats
  */
 $messages['qqq'] = array(
-	'wminc-desc' => '{{desc}}',
+	'wminc-desc' => '{{desc|name=Wikimedia Incubator|url=http://www.mediawiki.org/wiki/Extension:WikimediaIncubator}}',
 	'wminc-manual' => 'As in "handbook" (a page with a step-by-step guide).',
 	'wminc-listwikis' => 'List of wikis that are in Wikimedia Incubator. Please keep it short as it is used in the sidebar.',
 	'wminc-testwiki' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
