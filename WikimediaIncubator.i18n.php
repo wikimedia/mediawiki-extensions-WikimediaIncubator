@@ -791,13 +791,18 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author Anskar
  * @author Paucabot
  * @author SMP
  * @author Solde
  */
 $messages['ca'] = array(
+	'wminc-desc' => 'Sistema de prova de wiki per Wikimedia Incubator',
+	'wminc-manual' => 'Manual',
+	'wminc-listwikis' => 'Llista de wikis',
+	'wminc-testwiki' => 'Wiki de prova:',
 	'wminc-testwiki-none' => 'Cap/Tots',
-	'wminc-prefinfo-code' => 'El codi de llengua ISO 639', # Fuzzy
+	'wminc-prefinfo-code' => 'El codi ISO 639 de la llengua amb la que estàs treballant aquí',
 	'wminc-viewuserlang-user' => "Nom d'usuari:",
 	'wminc-viewuserlang-go' => 'Vés-hi!',
 	'right-viewuserlang' => "Veure l'idioma i el wiki de prova",
