@@ -894,7 +894,7 @@ prošu slěduj '''[$3 tute kroki]''' a [[{{MediaWiki:Wminc-manual-url}}|naš naw
 	'wminc-infopage-option-languages-existing' => 'Móžeš za [//www.$1.org eksistowacymi rěčnymi wudaćemi projekta $1] pytać.',
 	'wminc-infopage-option-sisterprojects-existing' => 'Móžeš za eksistowacymi projektami w tutej rěči pytać:',
 	'wminc-infopage-option-sisterprojects-other' => 'Móžeš za druhimi projektami w tutej rěči pytać:',
-	'wminc-infopage-option-multilingual' => 'Móžeš k wjacerěčnemu wikijej hić:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'Alternatiwnje móžeš k wjacerěčnemu wikijej hić:',
 	'wminc-infopage-createmainpage' => 'Zapodaj wuraz za "Hłowna strona" w tutej rěči:',
 	'wminc-infopage-contribute' => 'Jeli tutu rěč wobknježiš, budź witany a čiń sobu!',
 	'wminc-infopage-status-open' => 'To je wotewrjeny wiki na Wikimedia Incubator.',
