@@ -467,6 +467,8 @@ $messages['ast'] = array(
 	'wminc-fs-userpage-title' => "Crea la to páxina d'usuariu",
 	'wminc-fs-startwiki-title' => 'Comienza la to wiki',
 	'wminc-fs-pagetitle-done' => '- ¡fecho!',
+	'wminc-fs-intro' => 'Bienveníu al asistente de primeros pasos de {{SITENAME}}. Esti guiará-y pel procesu de creación una nueva wiki.',
+	'wminc-fs-langselect' => 'Siguir en $1 o $2',
 );
 
 /** Kotava (Kotava)
