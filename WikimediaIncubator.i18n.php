@@ -148,6 +148,8 @@ Parameters:
 	'wminc-error-wiki-sister' => '$1 is a link to either Wikisource or Wikiversity.',
 	'randombytest' => '[[Special:Special:RandomByTest]] goes to a random page in a incubator wiki. 
 For more information see: http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
+	'randombytest-nopages' => 'Unused at this time. Parameters:
+* $1 - namespace name',
 	'wminc-viewuserlang' => 'Title of a special page to look up the language and test wiki of a user. See [[:File:Incubator-testwiki-viewuserlang.jpg]].',
 	'wminc-viewuserlang-user' => 'Label for the input.
 
