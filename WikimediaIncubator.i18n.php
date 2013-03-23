@@ -95,7 +95,7 @@ $messages['en'] = array(
 	'wminc-fs-langselect' => 'Proceed in $1 or $2',
 	'wminc-fs-langselect-langs' => 'en,ar,de,eo,fr,es,id,it,ja,nl,pl,pt-br,ru,tr,zh', # do not translate
 	'wminc-fs-signup-text' => 'If you already have a user account, please [$1 log in]. If you do not have one yet, please [$2 create a user account].
-It is not required but strongly recommended and only takes a few seconds to create.',
+It is not required, but strongly recommended, and only takes a few seconds to create.',
 	'wminc-fs-settings-image' => '[[File:Incubator wiki preference.png|thumb|350px]]', # do not translate
 	'wminc-fs-settings-text' => 'Please now go to [[Special:Preferences#mw-htmlform-i18n|your preferences]] and change your test wiki setting.
 The first one is your interface language, which you have chosen in the first step, but you can still change it.
