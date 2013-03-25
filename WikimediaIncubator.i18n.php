@@ -168,17 +168,21 @@ An administrator of a specific test wiki on the Wikimedia Incubator.',
 	'grouppage-test-sysop' => '{{doc-group|test-sysop|page}}',
 	'group-test-sysop.css' => '{{doc-group|test-sysop|css}}',
 	'group-test-sysop.js' => '{{doc-group|test-sysop|js}}',
-	'wminc-code-macrolanguage' => "* '''$1''' is the language code (not used by default)
-* '''$2''' is the language name in English
-* '''$3''' is the translated language name from CLDR, if available (otherwise, English)
+	'wminc-code-macrolanguage' => "Parameters:
+* $1 - the language code (not used by default)
+* $2 - the language name in English
+* $3 - the translated language name from CLDR, if available (otherwise, English)
 It is best '''not''' to change the link to the Wikipedia article about the language. The article about macrolanguage can be changed to point to a translated article.",
-	'wminc-code-collective' => "* '''$1''' is the language code
-* '''$2''' is the language name in English
-* '''$3''' is the translated language name from CLDR, if available (otherwise, English) 
+	'wminc-code-collective' => "Parameters:
+* $1 - the language code
+* $2 - the language name in English
+* $3 - the translated language name from CLDR, if available (otherwise, English) 
 It is best '''not''' to change the link to the Wikipedia article about the language.",
 	'wminc-listusers-testwiki' => 'Used on [[Special:ListUsers]]. $1 is either "Incubator" or a link to pages like "Wx/xyz".',
 	'wminc-search-nocreate-nopref' => 'Used on [[Special:Search]]. $1 is the search term.',
-	'wminc-search-nocreate-suggest' => 'Used on [[Special:Search]]. $1 is the search term, and $2 is the prefixed form of $1.',
+	'wminc-search-nocreate-suggest' => 'Used on [[Special:Search]]. Parameters:
+* $1 - the search term
+* $2 - the prefixed form of $1',
 	'wminc-searchwiki' => 'Title of Special:SearchWiki, to search *for* a wiki in a specific language (and *not* to search for pages!)',
 	'wminc-searchwiki-noproject' => 'Error message',
 	'wminc-searchwiki-noresults' => 'Error message',
@@ -211,18 +215,22 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-fs-startwiki-title' => 'Start your wiki',
 	'wminc-fs-pagetitle-done' => 'added to the title if that step is completed',
 	'wminc-fs-langselect' => 'Parameters:
-* $1 is the current language
-* $2 is a list of alternative (clickable) languages.',
+* $1 - the current language
+* $2 - a list of alternative (clickable) languages',
 	'wminc-fs-langselect-langs' => '{{Ignore}}',
-	'wminc-fs-signup-text' => '$1 is the link to log in, $2 to create an account',
+	'wminc-fs-signup-text' => 'Parameters:
+* $1 - the link to log in
+* $2 - the link to create an account',
 	'wminc-fs-settings-image' => '{{Ignore}}',
 	'wminc-fs-settings-text' => '"At the right you can see..." refers to an image being shown at the right side of the page. For RTL languages this is at the left.',
 	'wminc-fs-userpage-text' => '$1 is a link to the user page',
 	'wminc-fs-globaluser-text' => '$1 is a link to Special:MergeAccount',
-	'wminc-fs-startwiki-text' => '$1 is the prefix (Wx/xyz), $2 is a link to its main page (Wx/xyz/Main_Page)',
+	'wminc-fs-startwiki-text' => 'Parameters:
+* $1 - the prefix (Wx/xyz)
+* $2 - a link to its main page (Wx/xyz/Main_Page)',
 	'wminc-fs-startwiki-exists-text' => 'Parameters:
-* $1 is the prefix (Wx/xyz),
-* $2 is a link to its main page (Wx/xyz/Main_Page).',
+* $1 - the prefix (Wx/xyz)
+* $2 - a link to its main page (Wx/xyz/Main_Page)',
 );
 
 /** Achinese (Acèh)
@@ -1230,6 +1238,7 @@ $messages['ee'] = array(
 /** Greek (Ελληνικά)
  * @author Crazymadlover
  * @author Geraki
+ * @author Glavkos
  * @author Omnipaedista
  * @author ZaDiak
  */
@@ -1238,12 +1247,15 @@ $messages['el'] = array(
 	'wminc-manual' => 'Εγχειρίδιο',
 	'wminc-listwikis' => 'Λίστα των βίκι',
 	'wminc-testwiki' => 'Δοκιμαστικό wiki:',
+	'wminc-testwiki-code' => 'Δοκιμαστικό wiki γλώσσας:',
 	'wminc-testwiki-none' => 'Κανένα/Όλα',
+	'wminc-testwiki-site' => '(Συντήρηση)',
 	'wminc-recentchanges-all' => 'Όλες οι πρόσφατες αλλαγές',
 	'wminc-prefinfo-language' => 'Η γλώσσα συστήματος - ανεξάρτητη από το δοκιμαστικό σας βίκι',
-	'wminc-prefinfo-code' => 'Ο κωδικός γλώσσας ISO 639', # Fuzzy
-	'wminc-prefinfo-project' => 'Επιλογή του εγχειρήματος Wikimedia (η επιλογή Incubator είναι για όσους χρήστες κάνουν γενική δουλειά)', # Fuzzy
+	'wminc-prefinfo-code' => 'Ο κωδικός γλώσσας ISO 639 που θα δουλέψετε εδώ',
+	'wminc-prefinfo-project' => 'Επιλέξτε το εγχείρημα του Wikimedia πάνω στο οποία θα εργαστείτε εδώ',
 	'wminc-prefinfo-error' => 'Επιλέξατε ένα σχέδιο που χρειάζεται ένα κωδικό γλώσσας.',
+	'wminc-error-wiki-exists' => 'Το wiki αυτό υπάρχει ήδη. Μπορείς να βρεις αυτή τη σελίδα στο $1. Αν το wiki δημιουργήθηκε πρόσφατα, παρακαλώ να περιμένεις μερικές ώρες ή μέρες μέχρι το περιεχόμενο του να εισαχθεί.',
 	'randombytest' => 'Τυχαία σελίδα από το δοκιμαστικό wiki',
 	'randombytest-nopages' => 'Δεν υπάρχουν σελίδες στο wiki δοκιμής σας, στις περιοχές ονομάτων: $1.',
 	'wminc-viewuserlang' => 'Ανατρέξτε στη γλώσσα χρήστη και στο δοκιμαστικό βίκι',
@@ -1252,6 +1264,28 @@ $messages['el'] = array(
 	'wminc-userdoesnotexist' => 'Ο χρήστης "$1" δεν υπάρχει.',
 	'wminc-ip' => '"$1" είναι μια διεύθυνση IP.',
 	'right-viewuserlang' => 'Προβολή της γλώσσας χρήστη και του δοκιμαστικού βίκι',
+	'group-test-sysop' => 'Διαχειριστές δοκιμαστικού wiki',
+	'group-test-sysop-member' => '{{GENDER:$1|διαχειριστές δοκιμαστικού wiki}}',
+	'grouppage-test-sysop' => '{{ns:project}}: Διαχειριστές σου δοκιμαστικού wiki',
+	'wminc-searchwiki' => 'Αναζήτηση για ένα wiki',
+	'wminc-searchwiki-noproject' => 'Δεν επιλέξατε κάποιο εγχείρημα.',
+	'wminc-searchwiki-selectproject' => 'Αναζήτηση για:',
+	'wminc-searchwiki-inputlanguage' => 'Στη γλώσσα:',
+	'wminc-searchwiki-go' => 'Πηγαίνετε',
+	'wminc-searchwiki-multiplematches' => 'Η αναζήτηση σου ταιριάζει με τις ακόλουθες γλώσσες:',
+	'wminc-searchwiki-match-langcode' => '"$1" είναι ένας γλωσσικός κωδικός  ISO 639 για $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 είναι το όνομα μιας γλώσσας.',
+	'wminc-searchwiki-match-englishname' => '"$1" είναι το όνομα για το  $2 στα Αγγλικά.',
+	'wminc-searchwiki-match-nativename' => '"$1" είναι το όνομα για  $2 σε αυτή τη γλώσσα.',
+	'wminc-searchwiki-gotoinfopage' => 'ενημερωτική σελίδα',
+	'wminc-fs-langselect-title' => 'Επιλογή γλώσσας',
+	'wminc-fs-signup-title' => 'Εγγραφή',
+	'wminc-fs-settings-title' => 'Ορίσετε τις προτιμήσεις σας για το  wiki',
+	'wminc-fs-userpage-title' => 'Δημιουργία σελίδας χρήστη',
+	'wminc-fs-startwiki-title' => 'Ξεκινήστε το δικό σας wiki',
+	'wminc-fs-pagetitle-done' => ' - έγινε!',
+	'wminc-fs-langselect' => 'Προχωρήστε στο $1 ή $2',
+	'wminc-fs-globaluser-text' => 'Ο λογαριασμός χρήστη σας είναι τοπικός. Συνίσταται να κάνετε έναν καθολικό μέσω  $1 έτσι ώστε να μπορείτε να τον χρησιμοποιήσετε σε οποιοδήποτε wiki του Wikimedia.',
 );
 
 /** Esperanto (Esperanto)
@@ -2465,6 +2499,8 @@ $messages['ja'] = array(
 	'wminc-fs-userpage-title' => '自分の利用者ページを作成',
 	'wminc-fs-startwiki-title' => '自分のウィキを開始',
 	'wminc-fs-pagetitle-done' => ' - 完了!',
+	'wminc-fs-signup-text' => '利用者アカウントを持っている場合は[$1 ログイン]してください。持っていない場合は[$2 アカウント作成]をしてください。
+作成は必須ではありませんが強くお勧めします。短時間で作成できます。',
 	'wminc-fs-globaluser-text' => 'あなたの利用者アカウントはローカルです。$1でグローバルにして、ウィキメディアのあらゆるウィキで使用できるようにすることをお勧めします。',
 );
 
