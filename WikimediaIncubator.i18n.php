@@ -318,6 +318,7 @@ $messages['anp'] = array(
  * @author Meno25
  * @author Orango
  * @author OsamaK
+ * @author ترجمان05
  * @author روخو
  * @author زكريا
  */
@@ -328,6 +329,7 @@ $messages['ar'] = array(
 	'wminc-testwiki' => 'ويكي الاختبار:',
 	'wminc-testwiki-code' => 'اختبر لغة الويكي',
 	'wminc-testwiki-none' => 'لا شيء/الكل',
+	'wminc-testwiki-site' => '(الصيانة)',
 	'wminc-recentchanges-all' => 'كل التغييرات الحديثة',
 	'wminc-prefinfo-language' => 'لغة واجهتك - مستقلة عن ويكي الاختبار',
 	'wminc-prefinfo-code' => 'رمز ISO 639 للغة', # Fuzzy
@@ -354,6 +356,9 @@ $messages['ar'] = array(
 	'wminc-code-collective' => 'رمز "$1" لا يدل على لغة معينة، بل على مجموعة من اللغات، وهي [[wikipedia:$2 language|اللغات "$3"]].',
 	'wminc-code-retired' => 'رمز اللغة قد تغير أو لم يعد يرمز به إلى اللغة الأصلية.',
 	'wminc-listusers-testwiki' => 'ما تراه هو المستخدمون الذي عينوا تفضيل ويكي التجربة على $1',
+	'wminc-searchwiki-gotoinfopage' => 'صفحة معلومات',
+	'wminc-fs-langselect-title' => 'اختر اللغة',
+	'wminc-fs-userpage-title' => 'أنشئ صفحة المستخدم الخاصة بك',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
