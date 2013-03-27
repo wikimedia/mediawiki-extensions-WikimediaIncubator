@@ -146,11 +146,14 @@ Parameters:
 * $1 - a new page title based on the page title the user is currently trying to edit. e.g. "Test" would become "Wx/xx/Test".',
 	'wminc-error-wiki-exists' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-error-wiki-sister' => '$1 is a link to either Wikisource or Wikiversity.',
-	'randombytest' => '[[Special:Special:RandomByTest]] goes to a random page in a incubator wiki. 
-For more information see: http://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
+	'randombytest' => '{{doc-special|RandomByTest|unlisted=1}}
+The special page goes to a random page in a incubator wiki. 
+For more information see: [[mw:WikimediaIncubator]].',
 	'randombytest-nopages' => 'Unused at this time. Parameters:
 * $1 - namespace name',
-	'wminc-viewuserlang' => 'Title of a special page to look up the language and test wiki of a user. See [[:File:Incubator-testwiki-viewuserlang.jpg]].',
+	'wminc-viewuserlang' => '{{doc-special|ViewUserLang}}
+The special page enables to look up the language and test wiki of a user.
+See [[:File:Incubator-testwiki-viewuserlang.jpg]].',
 	'wminc-viewuserlang-user' => 'Label for the input.
 
 {{Identical|Username}}',
@@ -183,7 +186,8 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 	'wminc-search-nocreate-suggest' => 'Used on [[Special:Search]]. Parameters:
 * $1 - the search term
 * $2 - the prefixed form of $1',
-	'wminc-searchwiki' => 'Title of Special:SearchWiki, to search *for* a wiki in a specific language (and *not* to search for pages!)',
+	'wminc-searchwiki' => '{{doc-special|SearchWiki|unlisted=1}}
+The special page enables to search *for* a wiki in a specific language (and *not* to search for pages!)',
 	'wminc-searchwiki-noproject' => 'Error message',
 	'wminc-searchwiki-noresults' => 'Error message',
 	'wminc-searchwiki-selectproject' => 'Followed by a dropdown menu with projects (Wikipedia, Wiktionary, ...)',
@@ -1113,7 +1117,7 @@ $messages['diq'] = array(
 	'randombytest' => 'Test wiki ra pelaya ke raştamê',
 	'randombytest-nopages' => 'Test wiki dê şıma dı $1 nameya teba çınyo.',
 	'wminc-viewuserlang' => 'Zıwanê karberi u test wikiya cı bıvin',
-	'wminc-viewuserlang-user' => 'Namey karberi:',
+	'wminc-viewuserlang-user' => 'Nameyê karberi:',
 	'wminc-viewuserlang-go' => 'Şo',
 	'wminc-userdoesnotexist' => '"$1" dı karber çınyo.',
 	'wminc-ip' => '"$1" jew IP adresiyo.',
@@ -1144,7 +1148,7 @@ $messages['diq'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'Peyaya destegi',
 	'wminc-fs-pagetitle' => 'Seherbaze dest peke - $1',
 	'wminc-fs-langselect-title' => 'Zıwan weçine',
-	'wminc-fs-signup-title' => 'Qeyd bı',
+	'wminc-fs-signup-title' => 'Qeyd be',
 	'wminc-fs-settings-title' => 'Tercihe wiki daşıma',
 	'wminc-fs-userpage-title' => 'Pela karberi vıraze',
 	'wminc-fs-startwiki-title' => 'Wikiya xo dest pekeri',
