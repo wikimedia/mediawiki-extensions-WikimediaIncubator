@@ -56,6 +56,7 @@ $messages['en'] = array(
  * @author Chaojoker
  * @author Kghbln
  * @author SPQRobin
+ * @author Shirayuki
  * @author Umherirrender
  * @author Whym
  */
@@ -70,7 +71,9 @@ $messages['qqq'] = array(
 	'wminc-infopage-title-n' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-s' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-v' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
-	'wminc-infopage-title-y' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
+	'wminc-infopage-title-y' => "This is the main title of the info page. Parameters:
+* $1 - the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.
+{{Identical|Wikivoyage}}",
 	'wminc-infopage-welcome' => 'Do not change <tt><nowiki>{{MediaWiki:Aboutpage}}</nowiki></tt>.',
 	'wminc-infopage-missingwiki-text' => "'''$1''' is a project: Wikipedia/Wiktionary/...",
 	'wminc-infopage-option-startwiki' => 'Do not change <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>! $3 is a URL to Special:IncubatorFirstSteps.',
