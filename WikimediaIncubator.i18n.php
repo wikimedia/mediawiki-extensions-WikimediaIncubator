@@ -2957,10 +2957,11 @@ $messages['lus'] = array(
 	'wminc-testwiki' => 'Wiki chhinna',
 	'wminc-testwiki-code' => 'Wiki chhinna tawng',
 	'wminc-testwiki-none' => 'Pakhatmah/A vaiin',
+	'wminc-testwiki-site' => '(Vilvènna)',
 	'wminc-recentchanges-all' => 'Tun hnaia tihdanglam thar zawng zawng',
 	'wminc-prefinfo-language' => 'Hmanna ţawng - i chhinna wiki ni kher lo',
-	'wminc-prefinfo-code' => 'ISO-639 ţawng thurûk (code)', # Fuzzy
-	'wminc-prefinfo-project' => 'Wikimedia hna-hmachhawp thlang rawh le (Incubator hi chu vantlang hna thawk tan chauhva thlan theih )', # Fuzzy
+	'wminc-prefinfo-code' => 'Heta i thawh mékna ṭawng ISO-639 chhinchhiahna',
+	'wminc-prefinfo-project' => 'Heta i thawh mékna Wikimedia hmachhawp thlang rawh le',
 	'wminc-prefinfo-error' => 'Tawng thurûk(language code) mamawh hna-hmachhawp i thlang',
 	'wminc-error-move-unprefixed' => 'I kal tumna phek [[{{MediaWiki:Wminc-error-help}}]] hi thuhmabet nei lo a nih loh vek pawhin thuhmabet dik lo hmang a ni ang.',
 	'wminc-error-wronglangcode' => "'''Dik lo: tihsual palh''' He phêkah hian [[{{MediaWiki:Wminc-error-help}}|tawng thurûk dik lo]] a awm\"\$1\"!",
@@ -2989,7 +2990,7 @@ $messages['lus'] = array(
 	'wminc-searchwiki-noproject' => 'Hna-hmachhawp thlan i nei lo.',
 	'wminc-searchwiki-noresults' => 'Hmuh tùr a awm lo tlat;  ţawng thurûk leh an hnam hming leh i hmanna  ţawng hming emaw sap  ţawngin emaw i zawng thei ang.',
 	'wminc-searchwiki-selectproject' => 'Hei hi zawng rawh:',
-	'wminc-searchwiki-inputlanguage' => 'He  ţawng hian:',
+	'wminc-searchwiki-inputlanguage' => 'He  ṭawng hian:',
 	'wminc-searchwiki-go' => 'Khai le',
 	'wminc-searchwiki-multiplematches' => 'I thil zawn hian hêng  ţawngte hi a mil:',
 	'wminc-searchwiki-match-langcode' => '"$1" hi $2 tana ISO 639  ţawng thurûk a ni.',
@@ -2997,6 +2998,18 @@ $messages['lus'] = array(
 	'wminc-searchwiki-match-englishname' => '"$1" hi Sap  ţawnga $2 hming a ni.',
 	'wminc-searchwiki-match-nativename' => '"$1" hi chu  ţawnga $2 an sawina a ni.',
 	'wminc-searchwiki-gotoinfopage' => 'Hriattirna phêk',
+	'wminc-fs-pagetitle' => 'Bul ṭanna khawlrelh - $1',
+	'wminc-fs-langselect-title' => 'Ṭawng thlanna',
+	'wminc-fs-signup-title' => 'Inziahluhna',
+	'wminc-fs-settings-title' => 'I wiki duhdàna herremna',
+	'wminc-fs-userpage-title' => 'I hmangtu phêk siam rawh le',
+	'wminc-fs-startwiki-title' => 'I wiki ṭan rawh le',
+	'wminc-fs-pagetitle-done' => '- zo ta!',
+	'wminc-fs-intro' => '{{SITENAME}} bul ṭanna khawlrelhah kan lo lawm a che. Wiki thar siamna kawng tluanin kaihhruai i ni ang.',
+	'wminc-fs-langselect' => '$1 emaw $2 hmangin bei ṭan rawh le',
+	'wminc-fs-signup-text' => 'Hmangtu siangchan i neih tawh chuan khawingaihin [$1 lût la]. I la nei lo a nih erawh chuan [$2 siangchan thar siam rawl le].
+A ṭul kher lo nain siam ngei a ṭha khawp mai; mitkhap kar leka siam mai theih a ni.',
+	'wminc-fs-userpage-text' => 'I hmangtuphêk $1 chu i chanchin tlem ziakin siam rawh le. Hë phêk chungah hian i hmangtuphêka hruailuhna zawmna a awm bawk.',
 );
 
 /** Latvian (latviešu)
