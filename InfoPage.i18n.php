@@ -1489,11 +1489,20 @@ $messages['or'] = array(
  * @author Bartek50003
  * @author BeginaFelicysym
  * @author Sp5uhe
+ * @author WTM
  * @author Woytecr
  */
 $messages['pl'] = array(
 	'wminc-infopage-enter' => 'przejdź do strony głównej',
 	'wminc-unknownlang' => '(nieznany kod języka)',
+	'wminc-infopage-title-p' => 'Wikipedia $1',
+	'wminc-infopage-title-b' => 'Wikiksiążki $1',
+	'wminc-infopage-title-t' => 'Wikisłownik $1',
+	'wminc-infopage-title-q' => 'Wikicytaty $1',
+	'wminc-infopage-title-n' => 'Wikinews $1',
+	'wminc-infopage-title-s' => 'Wikiźródła $1',
+	'wminc-infopage-title-v' => 'Wikiwersytet $1',
+	'wminc-infopage-title-y' => 'Wikipodróże $1',
 	'wminc-infopage-welcome' => 'Witaj w Inkubatorze Wikimedia, projekcie Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|o inkubatorze]])',
 	'wminc-infopage-option-sisterprojects-existing' => 'Możesz szukać istniejących projektów w tym języku:',
 	'wminc-infopage-createmainpage' => 'Wpisz „Strona główna“ w tym języku',
@@ -1778,7 +1787,7 @@ $messages['sl'] = array(
 	'wminc-infopage-option-languages-existing' => 'Iščete lahko [//www.$1.org obstoječe jezikovne izdaje $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Iščete lahko obstoječe projekte v tem jeziku:',
 	'wminc-infopage-option-sisterprojects-other' => 'Iščete lahko druge projekte v tem jeziku:',
-	'wminc-infopage-option-multilingual' => 'Greste lahko na večjezikovni wiki:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'Lahko pa greste večjezikovni wiki:',
 	'wminc-infopage-createmainpage' => 'Vnesite besedi »Glavna stran« v tem jeziku:',
 	'wminc-infopage-contribute' => 'Če znate ta jezik, ste vabljeni k prispevanju!',
 	'wminc-infopage-status-open' => 'To je odprti wiki Inkubatorja Wikimedie.',
@@ -2040,7 +2049,7 @@ $messages['vi'] = array(
 	'wminc-infopage-option-languages-existing' => 'Bạn có thể tìm kiếm [//www.$1.org phiên bản ngôn ngữ hiện có của $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Bạn có thể tìm kiếm các dự án hiện có trong ngôn ngữ này:',
 	'wminc-infopage-option-sisterprojects-other' => 'Bạn có thể tìm kiếm các dự án khác dùng ngôn ngữ này:',
-	'wminc-infopage-option-multilingual' => 'Bạn có thể ghé vào một wiki đa ngôn ngữ:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'Hoặc bạn có thể ghé vào một wiki đa ngôn ngữ:',
 	'wminc-infopage-createmainpage' => 'Nhập từ “Trang Chính” trong ngôn ngữ này:',
 	'wminc-infopage-contribute' => 'Nếu bạn biết ngôn ngữ này, rất hoan nghênh bạn đóng góp cho nó!',
 	'wminc-infopage-status-open' => 'Đây là một wiki đang mở cửa trực thuộc Vườn ươm Wikimedia.',
