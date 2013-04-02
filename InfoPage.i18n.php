@@ -1040,6 +1040,7 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Penn Station
  * @author Shirayuki
  */
@@ -1067,8 +1068,11 @@ $messages['ja'] = array(
 	'wminc-infopage-status-open' => 'これはウィキメディアインキュベーターのオープンなウィキです。',
 	'wminc-infopage-status-imported' => 'このインキュベーターウィキは、ウィキの閉鎖後に $1 から取り込まれました。',
 	'wminc-infopage-status-closedsister' => 'このサブドメインは閉鎖されました。このウィキに貢献するにはこちら: <strong>$2</strong>',
+	'wminc-infopage-status-approved' => 'このインキュベーターウィキは[[meta:Special:MyLanguage/Language_committee|言語委員会]]によって承認されており、近いうちに作成されます。',
+	'wminc-infopage-status-created' => 'このプロジェクトは言語委員会によって承認されており、$1 でアクセスできます。',
 	'wminc-infopage-status-beforeincubator' => 'このプロジェクトはウィキメディアインキュベーターの開始以前に作成されました。$1 で利用できます。',
 	'wminc-infopage-status-beforeincubator-sister' => 'このプロジェクトは $1 で利用できます。',
+	'wminc-infopage-error' => 'エラー: {{#infopage}} は接頭辞付きのページでのみ使用できます。',
 );
 
 /** Georgian (ქართული)
