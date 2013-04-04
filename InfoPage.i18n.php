@@ -52,7 +52,10 @@ $messages['en'] = array(
 	'wminc-infopage-links' => '', # do not translate
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
+
+It might be easier to translate it as "translation guidelines" or "translation help".
+{{Identical|Message documentation}})
  * @author Chaojoker
  * @author Kghbln
  * @author SPQRobin
@@ -1026,7 +1029,7 @@ $messages['it'] = array(
 	'wminc-infopage-option-languages-existing' => 'Puoi fare una ricerca nelle [//www.$1.org versioni linguistiche di $1 esistenti].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Puoi cercare nei progetti esistenti in questa lingua:',
 	'wminc-infopage-option-sisterprojects-other' => 'Puoi cercare altri progetti in questa lingua:',
-	'wminc-infopage-option-multilingual' => 'Puoi andare in un wiki multilingue:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'In alternativa, puoi andare in un wiki multilingue:',
 	'wminc-infopage-createmainpage' => 'Inserisci la traduzione di "Pagina principale" in questa lingua:',
 	'wminc-infopage-contribute' => 'Se conosci questa lingua, sei invitato a contribuire!',
 	'wminc-infopage-status-open' => 'Questo è un wiki aperto di Wikimedia Incubator.',

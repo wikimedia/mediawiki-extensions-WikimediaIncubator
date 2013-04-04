@@ -108,7 +108,10 @@ If you do not know the code, please consult our [[{{MediaWiki:Wminc-manual-url}}
 If you want to create a page, just type in the name in the search box above, and follow the link you will see.',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
+
+It might be easier to translate it as "translation guidelines" or "translation help".
+{{Identical|Message documentation}})
  * @author Chaojoker
  * @author EugeneZelenko
  * @author Fryed-peach
