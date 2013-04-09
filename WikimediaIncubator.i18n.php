@@ -108,10 +108,7 @@ If you do not know the code, please consult our [[{{MediaWiki:Wminc-manual-url}}
 If you want to create a page, just type in the name in the search box above, and follow the link you will see.',
 );
 
-/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
-
-It might be easier to translate it as "translation guidelines" or "translation help".
-{{Identical|Message documentation}})
+/** Message documentation (Message documentation)
  * @author Chaojoker
  * @author EugeneZelenko
  * @author Fryed-peach
@@ -150,7 +147,7 @@ Parameters:
 	'wminc-error-wiki-exists' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-error-wiki-sister' => '$1 is a link to either Wikisource or Wikiversity.',
 	'randombytest' => '{{doc-special|RandomByTest|unlisted=1}}
-The special page goes to a random page in a incubator wiki. 
+The special page goes to a random page in an incubator wiki. 
 For more information see: [[mw:WikimediaIncubator]].',
 	'randombytest-nopages' => 'Unused at this time. Parameters:
 * $1 - namespace name',

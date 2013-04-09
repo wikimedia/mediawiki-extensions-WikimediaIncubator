@@ -1496,6 +1496,7 @@ $messages['or'] = array(
  * @author Bartek50003
  * @author BeginaFelicysym
  * @author Sp5uhe
+ * @author Ty221
  * @author WTM
  * @author Woytecr
  */
@@ -1511,6 +1512,7 @@ $messages['pl'] = array(
 	'wminc-infopage-title-v' => 'Wikiwersytet $1',
 	'wminc-infopage-title-y' => 'Wikipodróże $1',
 	'wminc-infopage-welcome' => 'Witaj w Inkubatorze Wikimedia, projekcie Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|o inkubatorze]])',
+	'wminc-infopage-missingwiki-text' => '$1 w tym języku jeszcze nie istnieje',
 	'wminc-infopage-option-sisterprojects-existing' => 'Możesz szukać istniejących projektów w tym języku:',
 	'wminc-infopage-createmainpage' => 'Wpisz „Strona główna“ w tym języku',
 	'wminc-infopage-contribute' => 'Jeśli znasz ten język zachęcamy Cię do wzięcia udziału w tworzeniu tej wiki!',
