@@ -488,6 +488,17 @@ $messages['ast'] = array(
 	'wminc-fs-pagetitle-done' => '- ¡fecho!',
 	'wminc-fs-intro' => 'Bienveníu al asistente de primeros pasos de {{SITENAME}}. Esti guiará-y pel procesu de creación una nueva wiki.',
 	'wminc-fs-langselect' => 'Siguir en $1 o $2',
+	'wminc-fs-signup-text' => "Si yá tien una cuenta d'usuariu, por favor [$1 anicie sesión]. Si entá nun tien una, por favor [$2 cree una cuenta d'usuariu].
+Nun ye obligatorio, pero encamientase, y tardase namái dellos segundos en creala.",
+	'wminc-fs-settings-text' => "Agora entre [[Special:Preferences#mw-htmlform-i18n|nes sos preferencies]] y camude la configuración de la wiki de pruebes.
+La primera ye l'idioma de la interfaz, qu'escoyera nel primer pasu, pero entá pue camudalu.
+La segunda ye'l proyeutu col que quier collaborar, y la tercera ye'l códigu d'idioma del proyeutu col que quier collaborar.
+Si nun sabe'l códigu, consulte'l nuesu [[{{MediaWiki:Wminc-manual-url}}|manual]] o pida [[{{MediaWiki:Portal-url}}|ayuda]].",
+	'wminc-fs-userpage-text' => "Agora cree la so páxina d'usuariu $1, con dalguna información básica sobro vusté. Tamién pue ver un enllaz a ella na parte superior d'esta páxina.",
+	'wminc-fs-globaluser-text' => "La so cuenta d'usuariu ye llocal. Recomiendase facela global usando $1 pa que pueda utilizala en cualquier wiki de Wikimedia.",
+	'wminc-fs-startwiki-text' => 'El prefixu de la wiki ye <strong>$1</strong>. Pue aniciar la wiki creando la portada de la mesma en <strong>$2</strong>.',
+	'wminc-fs-startwiki-exists-text' => "El prefixu de la wiki ye $1. La portada ta en $2. ¡Agora pue collaborar con otros falantes d'esti idioma para construir una comunidá!
+Si quier crear una páxina, sólo escriba'l nome nel cuadro de gueta d'arriba, y siga l'enllaz que verá.",
 );
 
 /** Kotava (Kotava)
