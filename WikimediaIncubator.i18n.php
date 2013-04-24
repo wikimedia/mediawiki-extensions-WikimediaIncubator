@@ -2959,6 +2959,7 @@ $messages['lt'] = array(
 );
 
 /** Mizo (Mizo ţawng)
+ * @author Mizofa
  * @author RMizo
  */
 $messages['lus'] = array(
@@ -2966,23 +2967,23 @@ $messages['lus'] = array(
 	'wminc-manual' => 'Kaihhruaina',
 	'wminc-listwikis' => 'Wiki zawng zawng',
 	'wminc-testwiki' => 'Wiki chhinna',
-	'wminc-testwiki-code' => 'Wiki chhinna tawng',
+	'wminc-testwiki-code' => 'Wiki chhinna ṭawng',
 	'wminc-testwiki-none' => 'Pakhatmah/A vaiin',
 	'wminc-testwiki-site' => '(Vilvènna)',
 	'wminc-recentchanges-all' => 'Tun hnaia tihdanglam thar zawng zawng',
 	'wminc-prefinfo-language' => 'Hmanna ţawng - i chhinna wiki ni kher lo',
 	'wminc-prefinfo-code' => 'Heta i thawh mékna ṭawng ISO-639 chhinchhiahna',
 	'wminc-prefinfo-project' => 'Heta i thawh mékna Wikimedia hmachhawp thlang rawh le',
-	'wminc-prefinfo-error' => 'Tawng thurûk(language code) mamawh hna-hmachhawp i thlang',
-	'wminc-error-move-unprefixed' => 'I kal tumna phek [[{{MediaWiki:Wminc-error-help}}]] hi thuhmabet nei lo a nih loh vek pawhin thuhmabet dik lo hmang a ni ang.',
-	'wminc-error-wronglangcode' => "'''Dik lo: tihsual palh''' He phêkah hian [[{{MediaWiki:Wminc-error-help}}|tawng thurûk dik lo]] a awm\"\$1\"!",
+	'wminc-prefinfo-error' => 'Ṭawng thurûk mamawh hna-hmachhawp i thlang',
+	'wminc-error-move-unprefixed' => 'I kal tumna phek [[{{MediaWiki:Wminc-error-help}}]] hi thuhmabet nei lo a nih loh vek pawhin thuhmabet dik lo hmang niin a lang!',
+	'wminc-error-wronglangcode' => "'''Dik lo: tihsual palh''' He phêkah hian [[{{MediaWiki:Wminc-error-help}}|ṭawng thurûk dik lo]] a awm\"\$1\"!",
 	'wminc-error-unprefixed' => "'''Tihsual palh a awm!''' He phek hi [[{{MediaWiki:Wminc-error-help}}|thuhmabet nei lo ]] a ni!",
 	'wminc-error-unprefixed-suggest' => "'''Dik lo:''' He phek hi [[{{MediaWiki:Wminc-error-help}}|thuhmabet nei lo a ni]]! He phek hi [[:$1]]-ah hian i siam thei ang.",
 	'wminc-error-wiki-exists' => 'He wiki hi a awm tawh. He phek hi $1-ah i en thei ang. He wiki hi siam thar a nih chuan darkar hnih-khat vel emaw ni hnih khat, a chhunga awm zawng zawng lak luh a nih hma chu nghâk hram phawt ang che.',
 	'wminc-error-wiki-sister' => 'He phek hi heta enkawl loh hna-hmachhawp a ni. Khawngaihin $1-ah he wiki hi en turin kal hram ang che.',
 	'randombytest' => 'Wiki chhinna phêk kahpah',
 	'randombytest-nopages' => 'I wiki chhinna-ah hian phêk a awm lo, he hminghmun (namespace): $1-ah hian.',
-	'wminc-viewuserlang' => 'Hmangtu tawng leh wiki chhinna en rawh.',
+	'wminc-viewuserlang' => 'Hmangtu ṭawng leh wiki chhinna en rawh.',
 	'wminc-viewuserlang-user' => 'Hmangtuhming:',
 	'wminc-viewuserlang-go' => 'Khai le',
 	'wminc-userdoesnotexist' => 'Hmangtu "$1" a awm lo tlat.',
