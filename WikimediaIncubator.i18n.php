@@ -4776,6 +4776,7 @@ $messages['ug-arab'] = array(
  * @author Base
  * @author Dim Grits
  * @author RLuts
+ * @author Ua2004
  * @author Ата
  */
 $messages['uk'] = array(
@@ -4816,7 +4817,7 @@ $messages['uk'] = array(
 	'wminc-listusers-testwiki' => 'Ви переглядаєте користувачів, які встановили налаштування тестової вікі  $1.',
 	'wminc-search-nocreate-nopref' => 'Ви шукали "$1". Будь ласка, задайте власні [[Special:Preferences|налаштування тестової вікі]], аби ми могли підказати, які сторінки ви можете створити!',
 	'wminc-search-nocreate-suggest' => 'Ви шукали "$1". Можете створити сторінку <strong>[[$2]]</strong>!',
-	'wminc-searchwiki' => 'Пошук по вікі',
+	'wminc-searchwiki' => 'Пошук у вікі',
 	'wminc-searchwiki-noproject' => 'Ви не обрали проект.',
 	'wminc-searchwiki-noresults' => 'Нема результатів. Ви можете шукати за кодами мов, самоназвами, назвами Вашою мовою інтерфесу або англійською.',
 	'wminc-searchwiki-selectproject' => 'Пошук по:',

@@ -269,15 +269,18 @@ $messages['azb'] = array(
 );
 
 /** Bashkir (башҡортса)
+ * @author Assele
  * @author Haqmar
  */
 $messages['ba'] = array(
+	'wminc-infopage-enter' => 'Баш биткә күсергә',
+	'wminc-unknownlang' => '(билдәһеҙ тел коды)',
 	'wminc-infopage-title-p' => 'Википедия $1',
 	'wminc-infopage-title-b' => 'Викикитаптар $1',
 	'wminc-infopage-title-t' => 'Викиһүҙлек $1',
 	'wminc-infopage-title-q' => 'Викиөҙөмтә $1',
 	'wminc-infopage-title-n' => 'Викияңылыҡтар $1',
-	'wminc-infopage-title-s' => 'Викитека $1',
+	'wminc-infopage-title-s' => 'Викикитапхана $1',
 	'wminc-infopage-title-v' => 'Викиверситет $1',
 );
 
