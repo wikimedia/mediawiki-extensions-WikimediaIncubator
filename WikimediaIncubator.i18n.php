@@ -3063,6 +3063,13 @@ $messages['mg'] = array(
 	'wminc-viewuserlang-go' => 'Andana',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'group-test-sysop-member' => '{{GENDER:$1|panguruih wiki uji cubo}}',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
