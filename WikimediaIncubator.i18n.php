@@ -3067,6 +3067,7 @@ $messages['mg'] = array(
  * @author Iwan Novirion
  */
 $messages['min'] = array(
+	'wminc-viewuserlang-go' => 'Tuju',
 	'group-test-sysop-member' => '{{GENDER:$1|panguruih wiki uji cubo}}',
 );
 
