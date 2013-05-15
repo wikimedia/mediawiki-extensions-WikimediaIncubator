@@ -840,6 +840,14 @@ $messages['ca'] = array(
 	'right-viewuserlang' => "Veure l'idioma i el wiki de prova",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'wminc-searchwiki' => 'Лаха вики чухула',
+	'wminc-searchwiki-selectproject' => 'Лаха оцу:',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Marmzok
  */
