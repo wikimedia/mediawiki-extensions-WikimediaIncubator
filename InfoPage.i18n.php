@@ -411,6 +411,7 @@ $messages['cs'] = array(
 );
 
 /** Welsh (Cymraeg)
+ * @author Lloffiwr
  * @author Robin Owain
  */
 $messages['cy'] = array(
@@ -418,7 +419,7 @@ $messages['cy'] = array(
 	'wminc-infopage-title-p' => 'Wicipedia', # Fuzzy
 	'wminc-infopage-title-b' => 'Wicilyfrau', # Fuzzy
 	'wminc-infopage-title-t' => 'Wiciadur', # Fuzzy
-	'wminc-infopage-title-s' => 'Wicidestun', # Fuzzy
+	'wminc-infopage-title-s' => 'Wicidestun $1',
 	'wminc-infopage-title-y' => 'Wicidaith', # Fuzzy
 );
 
@@ -1201,8 +1202,7 @@ $messages['ksh'] = array(
 	'wminc-infopage-title-v' => 'Wikiväsitääd op $1',
 	'wminc-infopage-title-y' => 'Op-Jöck-Wiki op $1',
 	'wminc-infopage-welcome' => 'Wellkumme em Wikimedia Inkubator, enem Projäk vun der [[{{MediaWiki:Aboutpage}}|Wikimedija Schteftong]]',
-	'wminc-infopage-missingwiki-text' => '{{ucfirst:{{GRAMMAR:e|$1}}}} en dä Schprooch jidd et noch nit.
-', # Fuzzy
+	'wminc-infopage-missingwiki-text' => '{{ucfirst:{{GRAMMAR:e|{{ucfirst:$1}}}}}} en dä Schprooch jidd et noch nit.', # Fuzzy
 	'wminc-infopage-option-startwiki' => 'Wann De met heh dämm Wiki loßlääje wells, donn Desch aan [$3 di Schredde] un aan [[{{MediaWiki:Wminc-manual-url}}|ons Aanleidong]] hallde.',
 	'wminc-infopage-option-startsister' => 'Wann de met heh däm Wiki aanfange wells, kanns De noh <strong>[$2 $1]</strong> jonn.',
 	'wminc-infopage-option-languages-existing' => 'Do kanns noh [//www.$1.org Schprooche_Ußjaabe {{GRAMMAR:vum|{{ucfirst:$1}}}} söhke].',
