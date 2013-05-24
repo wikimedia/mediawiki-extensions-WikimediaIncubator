@@ -1344,7 +1344,7 @@ $messages['mk'] = array(
 	'wminc-infopage-status-created' => 'Овој проект е одобрен од јазичната комисија и сега е достапен на $1.',
 	'wminc-infopage-status-beforeincubator' => 'Овој проект е создаден пред започнувањето на Инкубаторот на Викимедија и е достапен на $1.',
 	'wminc-infopage-status-beforeincubator-sister' => 'Проектот е достапен на $1.',
-	'wminc-infopage-error' => 'Грешка: {{#infopage}} може да се користи само на префиксирани страници.',
+	'wminc-infopage-error' => 'Грешка: {{#infopage}} може да се користи само на страници со претставки.',
 );
 
 /** Malayalam (മലയാളം)
@@ -2141,6 +2141,7 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
  * @author Oapbtommy
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'wminc-infopage-enter' => '轉到主頁',
@@ -2152,19 +2153,24 @@ $messages['zh-hant'] = array(
 	'wminc-infopage-title-n' => '$1維基新聞',
 	'wminc-infopage-title-s' => '$1維基文庫',
 	'wminc-infopage-title-v' => '$1維基學院',
+	'wminc-infopage-title-y' => '$1維基導遊',
 	'wminc-infopage-welcome' => '歡迎來到維基孵育場，維基媒體基金會各有項目之一
 （[[{{MediaWiki:Aboutpage}}|關於我們]]）',
 	'wminc-infopage-missingwiki-text' => '這種語言的$1尚未存在。',
-	'wminc-infopage-option-startwiki' => '若想創建這個維基項目，您可以[{{fullurl:{{​​FULLPAGENAME}}|action=edit}} 創建該頁面]並按照我們所提供的[[{{MediaWiki:Wminc-manual-url}}|手冊]]。', # Fuzzy
+	'wminc-infopage-option-startwiki' => "若想創建這個維基項目，請按照'''[$3 這些步驟]'''和[[{{MediaWiki:Wminc-manual-url}}|這本手冊]]。",
 	'wminc-infopage-option-startsister' => '若想創建這個維基項目，請轉到<strong>[$2 $1]</strong>。',
 	'wminc-infopage-option-languages-existing' => '您可以搜尋[//www.$1.org $1所現有的語言版本]。',
 	'wminc-infopage-option-sisterprojects-existing' => '您可以在這種語言中搜尋現有項目：',
 	'wminc-infopage-option-sisterprojects-other' => '您可以在這種語言中搜尋其他項目：',
-	'wminc-infopage-option-multilingual' => '您可以轉到一個多語種的維基項目：', # Fuzzy
+	'wminc-infopage-option-multilingual' => '或者您可以轉到一個多語種的維基項目：',
 	'wminc-infopage-createmainpage' => '輸入「主頁」此詞在這種語言的翻譯：',
 	'wminc-infopage-contribute' => '如果您會這門語言，歡迎您做出貢獻！',
+	'wminc-infopage-status-open' => '這是維基孵育場的一個開放測試維基。',
 	'wminc-infopage-status-imported' => '該維基項目關閉後，這個孵育場維基已從$1導入。',
 	'wminc-infopage-status-closedsister' => '此子域名已關閉。請轉到<strong>$2</strong>為此維基項目作出貢獻。',
+	'wminc-infopage-status-approved' => '這個維基媒體孵育場的維基已被[[meta:Special:MyLanguage/Language_committee|語言委員會]]批准，此維基很快就會被創建了。',
 	'wminc-infopage-status-created' => '此項目已經受語言委員會批准，現已在$1可以使用。',
 	'wminc-infopage-status-beforeincubator' => '此項目已在維基孵育場開場之前創建，而在$1可以使用。',
+	'wminc-infopage-status-beforeincubator-sister' => '此項目現在是在 $1 。',
+	'wminc-infopage-error' => '錯誤：{{#infopage}} 只能在有字首的頁面上利用。',
 );
