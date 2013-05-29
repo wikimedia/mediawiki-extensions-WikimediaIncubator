@@ -5146,4 +5146,5 @@ $messages['zh-hant'] = array(
 	'wminc-fs-userpage-title' => '創建您的用戶頁',
 	'wminc-fs-startwiki-title' => '開始使用您的wiki',
 	'wminc-fs-pagetitle-done' => ' - 完成！',
+	'wminc-fs-langselect' => '以$1或$2繼續',
 );
