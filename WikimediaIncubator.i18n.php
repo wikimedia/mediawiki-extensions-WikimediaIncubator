@@ -1590,6 +1590,7 @@ $messages['fa'] = array(
  * @author Beluga
  * @author Cimon Avaro
  * @author Crt
+ * @author Linnea
  * @author Nedergard
  * @author Nike
  * @author Olli
@@ -1658,9 +1659,9 @@ $messages['fi'] = array(
 	'wminc-fs-signup-text' => 'Jos sinulla jo on käyttäjätunnus, [$1 kirjaudu sisään]. Jos sinulla ei ole sellaista, [$2 luo käyttäjätunnus].
 Sitä ei vaadita, mutta sitä vahvasti suositellaan ja sen luomiseen kuluu vain muutama sekunti.',
 	'wminc-fs-settings-text' => 'Mene nyt [[Special:Preferences#mw-htmlform-i18n|asetuksiisi]] ja muuta testiwikiasetuksesi.
-Oikealla näet asiaan liittyvät vaihtoehdot, jotka sinulla on. Ensimmäinen on käyttöliittymän kieli, jonka olet valinnut ensimmäisessä kohdassa mutta jota voit yhä muuttaa.
-Toinen on projekti, johon haluat osallistua ja kolmas on sen projektin, johon haluat osallistua, kielikoodi.
-Jos et tiedä koodia, katso [[{{MediaWiki:Wminc-manual-url}}|käsikirjastamme]] tai [[{{MediaWiki:Portal-url}}|pyydä apua]].', # Fuzzy
+Ensimmäinen on käyttöliittymän kieli, jonka olet valinnut ensimmäisessä kohdassa, mutta voit yhä muuttaa sen.
+Toinen on projekti, johon haluat osallistua ja kolmas on kielikoodi projektiin, johon haluat osallistua.
+Jos et tiedä koodia, katso [[{{MediaWiki:Wminc-manual-url}}|käsikirjastamme]] tai [[{{MediaWiki:Portal-url}}|pyydä apua]].',
 	'wminc-fs-userpage-text' => 'Luo nyt käyttäjäsivusi $1 ja laita sinne perustietoja itsestäsi. Näet linkin siihen myös tämän sivun yläreunassa.',
 	'wminc-fs-globaluser-text' => 'Käyttäjätunnuksesi on paikallinen. On suositeltua tehdä siitä järjestelmänlaajuinen sivulla $1, jotta voit käyttää sitä missä tahansa Wikimedian wikissä.',
 	'wminc-fs-startwiki-text' => 'Wikisi etuliite on <strong>$1</strong>. Voit aloittaa wikin luomalla sen etusivun osoitteessa <strong>$2</strong>.',
@@ -3789,6 +3790,7 @@ $messages['pt'] = array(
  * @author Helder.wiki
  * @author Heldergeovane
  * @author Jaideraf
+ * @author Luckas
  * @author MetalBrasil
  * @author Pedroca cerebral
  */
@@ -3827,6 +3829,8 @@ $messages['pt-br'] = array(
 	'wminc-listusers-testwiki' => 'Você está visualizando os usuários que criaram sua preferência de teste para $1.',
 	'wminc-search-nocreate-nopref' => 'Você procura por "$1". Por favor, configure sua [[Special:Preferences|preferência de wiki de testes]] para nós podermos lhe dizer que página poderá criar!',
 	'wminc-search-nocreate-suggest' => 'Você procura por "$1 ". Você pode criar uma página na sua wiki em <strong>[[$2]]</strong>!',
+	'wminc-searchwiki-go' => 'Ir',
+	'wminc-fs-pagetitle-done' => ' - feito!',
 );
 
 /** Runa shimi (Runa shimi)
