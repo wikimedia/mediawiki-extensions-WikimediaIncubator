@@ -405,7 +405,7 @@ $messages['arz'] = array(
 	'wminc-viewuserlang-go' => 'روح',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -3342,7 +3342,7 @@ $messages['myv'] = array(
 	'wminc-viewuserlang-user' => 'Сёрмадыцянь леметь:',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Audun
  * @author Nghtwlkr
  */
@@ -3383,7 +3383,7 @@ $messages['nb'] = array(
 	'wminc-search-nocreate-suggest' => 'Du søkte etter «$1». Du kan opprette en side på din wiki på <strong>[[$2]]</strong>!',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -3502,7 +3502,7 @@ De Hoofdpagina is te vinden op $2. U kunt nu samenwerken met andere sprekers van
 Als u een pagina wil aanmaken, typ gewoon de naam in het zoekvak bovenaan, en volg de koppeling die u ziet.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Gunnernett
  */
 $messages['nn'] = array(
@@ -3540,7 +3540,7 @@ $messages['oc'] = array(
 	'right-viewuserlang' => 'Vejatz lenga de l’utilizaire e lo wiki de tèst',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  */
 $messages['or'] = array(

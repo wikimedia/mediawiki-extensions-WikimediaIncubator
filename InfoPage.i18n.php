@@ -52,10 +52,7 @@ $messages['en'] = array(
 	'wminc-infopage-links' => '', # do not translate
 );
 
-/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
-
-It might be easier to translate it as "translation guidelines" or "translation help".
-{{Identical|Message documentation}})
+/** Message documentation (Message documentation)
  * @author Chaojoker
  * @author Kghbln
  * @author SPQRobin
@@ -145,7 +142,7 @@ $messages['ar'] = array(
 	'wminc-infopage-title-v' => 'ويكي الجامعة $1',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -1443,7 +1440,7 @@ sila ikut '''[$3 langkah-langkah ini]''' dan [[{{MediaWiki:Wminc-manual-url}}|pa
 	'wminc-infopage-error' => 'Ralat: {{#infopage}} boleh digunakan di laman-laman berawalan sahaja.',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'wminc-infopage-enter' => 'gå til hovedsiden',
@@ -1506,7 +1503,7 @@ $messages['nl'] = array(
 	'wminc-infopage-error' => "Fout: {{#infopage}} kan alleen gebruikt worden in pagina's met een voorvoegsel.",
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  */
 $messages['or'] = array(
