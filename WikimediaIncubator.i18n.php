@@ -2830,9 +2830,9 @@ $messages['ku-latn'] = array(
  * @author Nrowe
  */
 $messages['kw'] = array(
-	'wminc-testwiki-none' => 'Nagonen/Oll',
-	'wminc-prefinfo-code' => 'Koden ISO 639 an yeth', # Fuzzy
-	'wminc-viewuserlang-user' => 'Hanow usyer:',
+	'wminc-testwiki-none' => 'Nagonan/Oll',
+	'wminc-prefinfo-code' => 'Koden ISO 639 an yeth esowgh owth oberi warnodho omma',
+	'wminc-viewuserlang-user' => 'Hanow devnydhyer:',
 	'wminc-viewuserlang-go' => 'Mos',
 );
 
