@@ -3938,7 +3938,11 @@ $messages['roa-tara'] = array(
 	'group-test-sysop' => 'Test amministrature de uicchi',
 	'group-test-sysop-member' => "{{GENDER:$1|amministratore d'a uicchi de test}}",
 	'grouppage-test-sysop' => '{{ns:project}}:Test amministrature de uicchi',
+	'wminc-searchwiki' => "Cirche pe 'na uicchi",
+	'wminc-searchwiki-selectproject' => 'Cirche pe:',
+	'wminc-searchwiki-inputlanguage' => "Jndr'à lènghe:",
 	'wminc-searchwiki-go' => 'Véje',
+	'wminc-fs-startwiki-title' => "Accuminze 'a uicchi toje",
 	'wminc-fs-pagetitle-done' => '- apposte!',
 );
 

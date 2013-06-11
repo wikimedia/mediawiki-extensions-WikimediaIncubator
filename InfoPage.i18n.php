@@ -413,11 +413,11 @@ $messages['cs'] = array(
  */
 $messages['cy'] = array(
 	'wminc-infopage-enter' => "ewch i'r Hafan",
-	'wminc-infopage-title-p' => 'Wicipedia', # Fuzzy
-	'wminc-infopage-title-b' => 'Wicilyfrau', # Fuzzy
-	'wminc-infopage-title-t' => 'Wiciadur', # Fuzzy
+	'wminc-infopage-title-p' => 'Wicipedia $1',
+	'wminc-infopage-title-b' => 'Wicilyfrau $1',
+	'wminc-infopage-title-t' => 'Wiciadur $1',
 	'wminc-infopage-title-s' => 'Wicidestun $1',
-	'wminc-infopage-title-y' => 'Wicidaith', # Fuzzy
+	'wminc-infopage-title-y' => 'Wicidaith $1',
 );
 
 /** German (Deutsch)
