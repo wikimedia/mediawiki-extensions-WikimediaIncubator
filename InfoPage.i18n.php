@@ -1594,11 +1594,12 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Carla404
  * @author Hamilton Abreu
+ * @author Malafaya
  * @author SandroHc
  */
 $messages['pt'] = array(
 	'wminc-infopage-enter' => 'ir para a Página principal',
-	'wminc-unknownlang' => '(língua desconhecida, com o código "$1")', # Fuzzy
+	'wminc-unknownlang' => '(código de língua desconhecido)',
 	'wminc-infopage-welcome' => 'Bem-vindo(a) Incubadora Wikimedia, um projecto da Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Sobre]])',
 	'wminc-infopage-missingwiki-text' => 'Ainda não existe um projecto $1 nesta língua.',
 	'wminc-infopage-option-startwiki' => 'Se pretende iniciar esta wiki,
