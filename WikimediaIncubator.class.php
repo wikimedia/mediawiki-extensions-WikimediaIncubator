@@ -860,7 +860,7 @@ class WikimediaIncubator {
 			return true;
 		}
 		$params[] = wfEscapeWikiText( $t->getPrefixedText() );
-		$params[0] = $prefix ? 'wminc-search-nocreate-suggest' :'wminc-search-nocreate-nopref';
+		$params[0] = $prefix && $prefix != 'none' ? 'wminc-search-nocreate-suggest' :'wminc-search-nocreate-nopref';
 		return true;
 	}
 
