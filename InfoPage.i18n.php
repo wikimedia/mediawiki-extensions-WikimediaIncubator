@@ -1885,6 +1885,7 @@ onda možete da [{{fullurl:{{FULLPAGENAME}}|action=edit}} napravite stranicu] i 
  * @author Ainali
  * @author Lokal Profil
  * @author Warrakkk
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'wminc-infopage-enter' => 'gå till huvudsidan',
@@ -1904,7 +1905,7 @@ $messages['sv'] = array(
 	'wminc-infopage-option-languages-existing' => 'Du kan söka efter [//www.$1.org befintliga språkversioner av $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Du kan söka efter befintliga projekt på detta språk:',
 	'wminc-infopage-option-sisterprojects-other' => 'Du kan söka efter andra projekt på detta språk:',
-	'wminc-infopage-option-multilingual' => 'Du kan gå till en flerspråkig wiki:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'Alternativt kan du gå till en flerspråkig wiki:',
 	'wminc-infopage-createmainpage' => 'Ange ordet "Huvudsida" i detta språk:',
 	'wminc-infopage-contribute' => 'Om du kan detta språk, uppmuntras du att bidra!',
 	'wminc-infopage-status-imported' => 'Denna Incubator-wiki har importerats från $1 efter det att wikin stängdes.',
