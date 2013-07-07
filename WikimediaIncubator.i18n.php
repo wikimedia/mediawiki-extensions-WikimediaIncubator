@@ -2887,6 +2887,7 @@ $messages['lb'] = array(
 	'wminc-fs-langselect-title' => 'Sprooch eraussichen',
 	'wminc-fs-signup-title' => 'Mellt Iech un',
 	'wminc-fs-settings-title' => 'Leet Är Wiki-Astellunge fest',
+	'wminc-fs-userpage-title' => 'Är Benotzersäit maachen',
 	'wminc-fs-startwiki-title' => 'Fänkt mat Ärer Wiki un',
 	'wminc-fs-pagetitle-done' => ' - fäerdeg!',
 );
