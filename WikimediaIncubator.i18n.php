@@ -3943,6 +3943,7 @@ $messages['roa-tara'] = array(
 	'wminc-prefinfo-code' => "'U codece ISO 639 d'a lènghe sus a 'u quale tu ste fatìe",
 	'wminc-prefinfo-project' => "Scacchie 'u proggette UicchiMedia sus a 'u quale tu vuè ccu fatìe",
 	'wminc-prefinfo-error' => "Tu è scacchiate 'nu proggette ca abbesogne de 'nu codece de lènghe.",
+	'wminc-error-move-unprefixed' => "Errore: 'A pàgene ca ste pruève a spustà [[{{MediaWiki:Wminc-error-help}}|non ge tène 'u prefisse o jè sbagliate]]!",
 	'wminc-error-unprefixed' => "'''Errore:''' Sta pàgene jè [[{{MediaWiki:Wminc-error-help}}|senza prefisse]]!",
 	'wminc-error-unprefixed-suggest' => "'''Errore:''' Sta pàgene jè [[{{MediaWiki:Wminc-error-help}}|senza prefisse]]! Tu puè ccreja 'na pàgene a [[:$1]].",
 	'randombytest' => 'Pàgene a uecchie pe testà Uicchi',
