@@ -844,6 +844,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'wminc-viewuserlang-user' => 'Декъашхон цӀе:',
 	'wminc-searchwiki' => 'Лаха вики чухула',
 	'wminc-searchwiki-selectproject' => 'Лаха оцу:',
 	'wminc-fs-langselect-title' => 'Харжа мотт',
