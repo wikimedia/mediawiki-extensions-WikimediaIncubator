@@ -3750,6 +3750,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Hamilton Abreu
  * @author Lijealso
+ * @author Luckas
  * @author Malafaya
  * @author MetalBrasil
  * @author SandroHc
@@ -3767,7 +3768,7 @@ $messages['pt'] = array(
 	'wminc-prefinfo-language' => 'A língua da interface - independente da língua da sua wiki de testes',
 	'wminc-prefinfo-code' => 'O código ISO 639 da língua em que está a trabalhar',
 	'wminc-prefinfo-project' => 'Seleccione o projecto Wikimedia em que está a trabalhar',
-	'wminc-prefinfo-error' => 'Seleccionou um projecto que necessita de um código de língua.',
+	'wminc-prefinfo-error' => 'Selecionou um projeto que necessita de um código de língua.',
 	'wminc-error-move-unprefixed' => 'Erro: A página de destino [[{{MediaWiki:Wminc-error-help}}|não tem prefixo ou tem um prefixo incorrecto]]!',
 	'wminc-error-wronglangcode' => "'''Erro:''' A página contém um [[{{MediaWiki:Wminc-error-help}}|código de língua incorrecto]]: \"\$1\"!",
 	'wminc-error-unprefixed' => "'''Erro:''' Esta página [[{{MediaWiki:Wminc-error-help}}|não tem prefixo]]!",
