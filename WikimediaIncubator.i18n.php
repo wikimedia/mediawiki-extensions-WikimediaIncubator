@@ -844,7 +844,8 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
-	'wminc-viewuserlang-user' => 'Декъашхон цӀе:',
+	'wminc-viewuserlang-user' => 'Декъашхочун цӀе:',
+	'wminc-viewuserlang-go' => 'Лаха',
 	'wminc-searchwiki' => 'Лаха вики чухула',
 	'wminc-searchwiki-selectproject' => 'Лаха оцу:',
 	'wminc-fs-langselect-title' => 'Харжа мотт',
@@ -5046,6 +5047,7 @@ $messages['yue'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author Anakmalaysia
  * @author Bencmq
+ * @author Byfserag
  * @author Hydra
  * @author Jimmy xu wrk
  * @author Liangent
@@ -5113,6 +5115,8 @@ $messages['zh-hans'] = array(
 	'wminc-fs-langselect' => '与$1或$2继续',
 	'wminc-fs-signup-text' => '如果您已经有个账户，请[$1 登入]。如果您还没有一个，请[$2 创建一个账户]。
 它不是一个条件，但我们很推荐，而且只需几秒钟的时间。',
+	'wminc-fs-userpage-text' => '现在，请创建您的用户页 $1 并填入自己的一些基本信息。您还可以看到一个链接在此页面的顶部。',
+	'wminc-fs-startwiki-text' => '您的维基的前缀是<strong>$1</strong>。您可以通过创建维基的主页面来启动维基<strong>$2</strong>。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
