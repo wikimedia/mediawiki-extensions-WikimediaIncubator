@@ -1884,6 +1884,7 @@ onda možete da [{{fullurl:{{FULLPAGENAME}}|action=edit}} napravite stranicu] i 
 
 /** Swedish (svenska)
  * @author Ainali
+ * @author Jopparn
  * @author Lokal Profil
  * @author Warrakkk
  * @author WikiPhoenix
@@ -1909,8 +1910,10 @@ $messages['sv'] = array(
 	'wminc-infopage-option-multilingual' => 'Alternativt kan du gå till en flerspråkig wiki:',
 	'wminc-infopage-createmainpage' => 'Ange ordet "Huvudsida" i detta språk:',
 	'wminc-infopage-contribute' => 'Om du kan detta språk, uppmuntras du att bidra!',
+	'wminc-infopage-status-open' => 'Detta är en öppen wiki av Wikimedia Incubator.',
 	'wminc-infopage-status-imported' => 'Denna Incubator-wiki har importerats från $1 efter det att wikin stängdes.',
 	'wminc-infopage-status-closedsister' => 'Denna underdomän har stängts. Gå till <strong>$2</strong> för att bidra till denna wiki.',
+	'wminc-infopage-status-approved' => 'Incubator-wikin har godkänts av [[meta:Special:MyLanguage/Language_committee|språkkommittén]] och kommer snart att skapas.',
 	'wminc-infopage-status-created' => 'Detta projekt har godkänts av språkkommittén och finns nu på $1.',
 	'wminc-infopage-status-beforeincubator' => 'Detta projekt skapades före Wikimedia Incubator startade och finns på $1.',
 	'wminc-infopage-status-beforeincubator-sister' => 'Detta projekt finns på  $1.',

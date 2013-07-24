@@ -4413,6 +4413,7 @@ $messages['su'] = array(
  * @author Cybjit
  * @author Diupwijk
  * @author Gabbe.g
+ * @author Jopparn
  * @author Lokal Profil
  * @author Najami
  * @author Ozp
@@ -4427,6 +4428,7 @@ $messages['sv'] = array(
 	'wminc-testwiki' => 'Testwiki:',
 	'wminc-testwiki-code' => 'Testwiki-språk',
 	'wminc-testwiki-none' => 'Ingen/Alla',
+	'wminc-testwiki-site' => '(Underhåll)',
 	'wminc-recentchanges-all' => 'Alla de senaste ändringarna',
 	'wminc-prefinfo-language' => 'Ditt gränssnittsspråk - oavhängigt från din testwiki',
 	'wminc-prefinfo-code' => 'ISO 639-språkkoden för det språk du arbetar på här',
@@ -4455,10 +4457,17 @@ $messages['sv'] = array(
 	'wminc-listusers-testwiki' => 'Du visar användare som har ställt in sina testwiki-inställningar på $1.',
 	'wminc-search-nocreate-nopref' => 'Du sökte på "$1". Vänligen ange dina [[Special:Preferences|inställningar för testwiki]] så att vi kan tala om vilken sida du kan skapa!',
 	'wminc-search-nocreate-suggest' => 'Du sökte på "$1". Du kan skapa en sida i din wiki på <strong>[[$2]]</strong>!',
+	'wminc-searchwiki' => 'Sök efter en wiki',
+	'wminc-searchwiki-noproject' => 'Du inte har valt ett projekt.',
+	'wminc-searchwiki-noresults' => 'Inga resultat. Du kan söka med språkkoder, inhemska namn och namn på ditt språk eller engelska.',
 	'wminc-searchwiki-selectproject' => 'Sök efter:',
 	'wminc-searchwiki-inputlanguage' => 'På språk:',
 	'wminc-searchwiki-go' => 'Gå',
 	'wminc-searchwiki-multiplematches' => 'Din sökning matchar följande språk:',
+	'wminc-searchwiki-match-langcode' => '"$1" är en ISO 639-språkkod för  $2.',
+	'wminc-searchwiki-match-userlangname' => '$1 är namnet på ett språk.',
+	'wminc-searchwiki-match-englishname' => '"$1" är namnet för $2 på engelska.',
+	'wminc-searchwiki-match-nativename' => '"$1" är namnet för $2 på det språket.',
 	'wminc-searchwiki-gotoinfopage' => 'infosida',
 	'wminc-fs-pagetitle' => 'Guide för att komma igång - $1',
 	'wminc-fs-langselect-title' => 'Välj språk',
@@ -4467,6 +4476,9 @@ $messages['sv'] = array(
 	'wminc-fs-userpage-title' => 'Skapa din användarsida',
 	'wminc-fs-startwiki-title' => 'Starta din wiki',
 	'wminc-fs-pagetitle-done' => ' – klart!',
+	'wminc-fs-langselect' => 'Gå vidare på $1 eller $2',
+	'wminc-fs-signup-text' => 'Om du redan har ett användarkonto, vänligen [$1 logga in]. Om du inte har ett ännu, vänligen [$2 skapa ett användarkonto].
+Det är inte nödvändigt, men rekommenderas starkt, och det bara tar några sekunder att skapa ett.',
 );
 
 /** Swahili (Kiswahili)
