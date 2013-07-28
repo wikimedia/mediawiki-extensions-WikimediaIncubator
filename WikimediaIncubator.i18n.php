@@ -3770,8 +3770,8 @@ $messages['pt'] = array(
 	'wminc-prefinfo-code' => 'O código ISO 639 da língua em que está a trabalhar',
 	'wminc-prefinfo-project' => 'Selecione o projeto Wikimedia em que está a trabalhar',
 	'wminc-prefinfo-error' => 'Selecionou um projeto que necessita de um código de língua.',
-	'wminc-error-move-unprefixed' => 'Erro: A página de destino [[{{MediaWiki:Wminc-error-help}}|não tem prefixo ou tem um prefixo incorrecto]]!',
-	'wminc-error-wronglangcode' => "'''Erro:''' A página contém um [[{{MediaWiki:Wminc-error-help}}|código de língua incorrecto]]: \"\$1\"!",
+	'wminc-error-move-unprefixed' => 'Erro: A página de destino [[{{MediaWiki:Wminc-error-help}}|não tem prefixo ou tem um prefixo incorreto]]!',
+	'wminc-error-wronglangcode' => "'''Erro:''' A página contém um [[{{MediaWiki:Wminc-error-help}}|código de língua incorreto]]: \"\$1\"!",
 	'wminc-error-unprefixed' => "'''Erro:''' Esta página [[{{MediaWiki:Wminc-error-help}}|não tem prefixo]]!",
 	'wminc-error-unprefixed-suggest' => "'''Erro:''' Esta página [[{{MediaWiki:Wminc-error-help}}|não tem prefixo]]! Pode criar uma página em [[:$1]].",
 	'wminc-error-wiki-exists' => 'Esta wiki já existe. Encontra esta página em $1. Se a wiki foi criada recentemente, aguarde algumas horas ou dias até que todo o conteúdo tenha sido importado.',
@@ -5064,6 +5064,7 @@ $messages['yue'] = array(
  * @author Jimmy xu wrk
  * @author Liangent
  * @author Linforest
+ * @author Liuxinyu970226
  * @author PhiLiP
  * @author Shinjiman
  * @author Xiaomingyan
@@ -5127,8 +5128,15 @@ $messages['zh-hans'] = array(
 	'wminc-fs-langselect' => '与$1或$2继续',
 	'wminc-fs-signup-text' => '如果您已经有个账户，请[$1 登入]。如果您还没有一个，请[$2 创建一个账户]。
 它不是一个条件，但我们很推荐，而且只需几秒钟的时间。',
+	'wminc-fs-settings-text' => '现在请至[[Special:Preferences#mw-htmlform-i18n|您的设置]]更改您的测试维基设置。
+第一个是您的界面语言，您选择的第一步，但您仍可以更改它。
+第二个是您想贡献的项目，另外第三个是您想贡献的项目的语言代码。
+如果您不知道代码，请查阅我们的[[{{MediaWiki:Wminc-manual-url}}|手册]]或前往[[{{MediaWiki:Portal-url}}|帮助]]询问。',
 	'wminc-fs-userpage-text' => '现在，请创建您的用户页 $1 并填入自己的一些基本信息。您还可以看到一个链接在此页面的顶部。',
+	'wminc-fs-globaluser-text' => '您使用的账户是本地账户。我们建议您通过$1获得全局账户以便在任何维基媒体站点登录。',
 	'wminc-fs-startwiki-text' => '您的维基的前缀是<strong>$1</strong>。您可以通过创建维基的主页面来启动维基<strong>$2</strong>。',
+	'wminc-fs-startwiki-exists-text' => '您的维基的前缀是$1。对应的主页位于$2。现在您可以与这种语言的其他使用者一起建立社群！
+如果您想创建页面，请在上方的搜索框中键入标题，并请注意您想看到的页面。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
