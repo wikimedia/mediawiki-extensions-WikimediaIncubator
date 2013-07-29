@@ -1607,15 +1607,15 @@ $messages['pt'] = array(
 pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{MediaWiki:Wminc-manual-url}}|manual]].', # Fuzzy
 	'wminc-infopage-option-startsister' => 'Se queres começar esta wiki, podes ir a <strong>[$2 $1]</strong>.',
 	'wminc-infopage-option-languages-existing' => 'Pode pesquisar as [//www.$1.org edições de $1 nas línguas existentes].',
-	'wminc-infopage-option-sisterprojects-existing' => 'Pode pesquisar os projectos existentes nesta língua:',
-	'wminc-infopage-option-sisterprojects-other' => 'Pode pesquisar outros projectos nesta língua:',
+	'wminc-infopage-option-sisterprojects-existing' => 'Pode pesquisar os projetos existentes nesta língua:',
+	'wminc-infopage-option-sisterprojects-other' => 'Pode pesquisar outros projetos nesta língua:',
 	'wminc-infopage-option-multilingual' => 'Pode visitar uma wiki multilingue:', # Fuzzy
 	'wminc-infopage-createmainpage' => 'Introduza o termo "Página principal" nesta língua:',
 	'wminc-infopage-contribute' => 'Se conhece esta língua, está convidado a colaborar!',
 	'wminc-infopage-status-imported' => 'Esta wiki da Incubadora foi importada de $1 após a wiki ter sido fechada.',
 	'wminc-infopage-status-closedsister' => 'Este subdomínio foi fechado. Vá a <strong>$2</strong> para contribuír nesta wiki.',
-	'wminc-infopage-status-created' => 'Este projecto foi aprovado pelo comité linguístico e está agora disponível em $1.',
-	'wminc-infopage-status-beforeincubator' => 'Este projecto foi criado antes do início da Incubadora Wikimedia e está disponível em $1.',
+	'wminc-infopage-status-created' => 'Este projeto foi aprovado pelo comitê linguístico e está agora disponível em $1.',
+	'wminc-infopage-status-beforeincubator' => 'Este projeto foi criado antes do início da Incubadora Wikimedia e está disponível em $1.',
 	'wminc-infopage-error' => 'Erro: {{#infopage}} só pode ser usada em páginas com prefixos.',
 );
 
