@@ -1150,6 +1150,7 @@ $messages['khw'] = array(
 
 /** Korean (한국어)
  * @author Albamhandae
+ * @author Hym411
  * @author 아라
  */
 $messages['ko'] = array(
@@ -1163,7 +1164,7 @@ $messages['ko'] = array(
 	'wminc-infopage-title-s' => '위키문헌 $1',
 	'wminc-infopage-title-v' => '위키배움터 $1',
 	'wminc-infopage-title-y' => '위키여행 $1',
-	'wminc-infopage-welcome' => '위키미디어 재단의 프로젝트인 위키미디어 인큐베이터에 환영합니다 ([[{{MediaWiki:Aboutpage}}|정보]])',
+	'wminc-infopage-welcome' => '위키미디어 재단의 프로젝트인 위키미디어 인큐베이터에 오신 것을 환영합니다 ([[{{MediaWiki:Aboutpage}}|소개]])',
 	'wminc-infopage-missingwiki-text' => '이 언어에서 $1 프로젝트가 아직 존재하지 않습니다.',
 	'wminc-infopage-option-startwiki' => "이 위키를 시작하기를 원한다면,
 '''[$3 다음 단계]'''와 [[{{MediaWiki:Wminc-manual-url}}|매뉴얼]]을 따르세요.",
@@ -1179,7 +1180,7 @@ $messages['ko'] = array(
 	'wminc-infopage-status-closedsister' => '이 서브도메인은 닫혔습니다. 이 위키에 기여하려면 <strong>$2</strong>로 가세요.',
 	'wminc-infopage-status-approved' => '이 인큐베이터는 [[meta:Special:MyLanguage/Language_committee|언어 위원회]]에 의해 승인하였고 곧 만들어질 것입니다.',
 	'wminc-infopage-status-created' => '이 프로젝트는 언어 위원회의 승인을 받았으며 지금 $1에 존재합니다.',
-	'wminc-infopage-status-beforeincubator' => '이 프로젝트는 위키미디어 인큐베이터가 시작하지 전에 만들었으며 $1에 존재합니다.',
+	'wminc-infopage-status-beforeincubator' => '이 프로젝트는 위키미디어 인큐베이터가 시작하기 전에 만들었으며 $1에 존재합니다.',
 	'wminc-infopage-status-beforeincubator-sister' => '이 프로젝트는 $1에 존재합니다.',
 	'wminc-infopage-error' => '오류: {{#infopage}} 문서는 접두어 문서로만 사용할 수 있습니다.',
 );
