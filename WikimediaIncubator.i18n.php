@@ -2400,6 +2400,7 @@ $messages['ig'] = array(
  * @author Gianfranco
  * @author HalphaZ
  * @author Melos
+ * @author Nemo bis
  * @author OrbiliusMagister
  * @author Ximo17
  */
@@ -2466,7 +2467,7 @@ Sulla destra sono visibili le opzioni più importanti presenti in quella pagina.
 La seconda è il progetto a cui si vuole contribuire e la terza è il codice linguistico del progetto a cui si vuole contribuire.
 Se non si conosce il codice, consultare il [[{{MediaWiki:Wminc-manual-url}}|manuale]] o chiedere [[{{MediaWiki:Portal-url}}|aiuto]].',
 	'wminc-fs-userpage-text' => 'Creare la propria pagina utente $1 con alcune informazioni personali essenziali. È presente un link a essa anche nella parte superiore di questa pagina.',
-	'wminc-fs-globaluser-text' => 'Il tuo account utente è locale. Si consiglia di renderlo globale tramite $1 in modo da poterlo utilizzare su qualsiasi wiki di Wikimedia.',
+	'wminc-fs-globaluser-text' => 'La tua utenza è locale. Si consiglia di renderla globale tramite $1 in modo da poterla usare su qualsiasi progetto Wikimedia.',
 	'wminc-fs-startwiki-text' => 'Il prefisso del tuo wiki è <strong>$1</strong>. È possibile avviare il wiki creando la pagina principale del wiki su <strong>$2</strong>.',
 	'wminc-fs-startwiki-exists-text' => 'Il prefisso del tuo wiki è $1. La pagina principale è a $2. Ora si può collaborare con le altre persone che parlano questa lingua per creare una comunità. Se si desidera creare una pagina è sufficiente scriverne il nome nella casella di ricerca qui sopra e seguire il collegamento che sarà visibile.',
 );
