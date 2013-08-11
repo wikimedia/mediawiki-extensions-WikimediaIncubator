@@ -3970,6 +3970,9 @@ $messages['roa-tara'] = array(
 	'wminc-searchwiki-selectproject' => 'Cirche pe:',
 	'wminc-searchwiki-inputlanguage' => "Jndr'à lènghe:",
 	'wminc-searchwiki-go' => 'Véje',
+	'wminc-searchwiki-match-langcode' => '"$1" jè \'nu codece de lènghe de l\'ISO 639 pe $2.',
+	'wminc-searchwiki-match-userlangname' => "$1 jè 'u nome de 'na lènghe.",
+	'wminc-searchwiki-match-englishname' => '"$1" jè \'u nome pe $2 jndr\'à \'u \'nglese.',
 	'wminc-fs-startwiki-title' => "Accuminze 'a uicchi toje",
 	'wminc-fs-pagetitle-done' => '- apposte!',
 );
