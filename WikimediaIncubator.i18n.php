@@ -969,6 +969,7 @@ $messages['cy'] = array(
 	'right-viewuserlang' => 'Cymerwch gip ar y wici brawf yn eich iaith chi',
 	'group-test-sysop' => 'Gweinyddwyr y wici brawf',
 	'group-test-sysop-member' => '{{GENDER:$1|gweinyddwr y wici brawf}}',
+	'grouppage-test-sysop' => '{{ns:project}}:Gweinyddwyr y wici brawf',
 	'wminc-searchwiki' => 'Chwilio am wici',
 	'wminc-searchwiki-selectproject' => 'Chwilio am:',
 	'wminc-searchwiki-inputlanguage' => 'Yn yr iaith:',
