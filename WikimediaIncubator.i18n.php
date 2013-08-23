@@ -844,6 +844,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'wminc-error-wiki-sister' => 'ХӀара агӀо ю кхузахь йоцу проектан. Дехар до, хӀокху $1 чугӀо вики каро.',
 	'wminc-viewuserlang-user' => 'Декъашхочун цӀе:',
 	'wminc-viewuserlang-go' => 'Лаха',
 	'wminc-searchwiki' => 'Лаха вики чухула',
