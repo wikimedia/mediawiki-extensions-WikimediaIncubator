@@ -168,10 +168,15 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 			$linkInfoPage = Linker::linkKnown( $infopage,
 				wfMessage( 'wminc-searchwiki-gotoinfopage' )->text()
 			);
+			# Give grep a chance to find the usages:
+			# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t,
+			# wminc-infopage-title-q, wminc-infopage-title-n, wminc-infopage-title-s,
+			# wminc-infopage-title-v, wminc-infopage-title-y
 			$linkMainPage = Linker::linkKnown( $infopage,
 				wfMessage( 'wminc-infopage-title-' . $project, $langName )->text(),
 				array(), array( 'goto' => 'mainpage' )
 			);
+			# Give grep a chance to find the usages:
 			# wminc-searchwiki-match-langcode, wminc-searchwiki-match-englishname,
 			# wminc-searchwiki-match-userlangname, wminc-searchwiki-match-nativename
 			$this->getOutput()->addHTML( '<li>' .

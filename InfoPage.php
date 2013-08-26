@@ -42,6 +42,9 @@ class InfoPage {
 		$this->mLangName = $name ? $name :
 			Language::fetchLanguageName( $this->mLangCode, 'en', 'all' );
 		$titleParam = $this->mLangName ? $this->mLangName : '"' . $this->mLangCode . '"'; # Name, else code
+		# Give grep a chance to find the usages:
+		# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t, wminc-infopage-title-q,
+		# wminc-infopage-title-n, wminc-infopage-title-s, wminc-infopage-title-v, wminc-infopage-title-y
 		$this->mFormatTitle = wfMessage( 'wminc-infopage-title-' . $this->mProjectCode, $titleParam )->escaped();
 		if ( !$this->mLangName ) {
 			# Unknown language, add short note to title
@@ -196,6 +199,9 @@ class InfoPage {
 		}
 		$subdomain = WikimediaIncubator::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = WikimediaIncubator::makeExternalLinkText( $subdomain, true );
+		# Give grep a chance to find the usages:
+		# wminc-infopage-status-open, wminc-infopage-status-imported, wminc-infopage-status-closedsister,
+		# wminc-infopage-status-approved, wminc-infopage-status-created, wminc-infopage-status-beforeincubator
 		$content = Html::rawElement( 'div', array( 'class' => 'wminc-infopage-status' ),
 			wfMessage( 'wminc-infopage-status-' . $substatus )->rawParams( $subdomainLink, $portalLink )->parseAsBlock() );
 		if ( $this->mSubStatus != 'approved' && $this->mThisLangData['type'] != 'invalid' ) {
@@ -231,6 +237,9 @@ class InfoPage {
 				array( 'class' => 'wminc-infopage-entertest' ),
 				$wgLang->getArrow() . ' ' . $subdomainLink );
 		}
+		# Give grep a chance to find the usages:
+		# wminc-infopage-status-open, wminc-infopage-status-imported, wminc-infopage-status-closedsister,
+		# wminc-infopage-status-approved, wminc-infopage-status-created, wminc-infopage-status-beforeincubator
 		$msgname = 'wminc-infopage-status-' . $this->mSubStatus; // wminc-infopage-status-beforeincubator
 		if ( $this->mSubStatus === 'beforeincubator' && isset( $wmincSisterProjects[$this->mProjectCode] ) ) {
 			$msgname = 'wminc-infopage-status-beforeincubator-sister';
