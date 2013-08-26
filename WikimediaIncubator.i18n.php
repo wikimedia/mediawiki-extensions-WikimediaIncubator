@@ -160,8 +160,16 @@ See [[:File:Incubator-testwiki-viewuserlang.jpg]].',
 	'wminc-viewuserlang-go' => "Text on the submit button to view the user's language and test wiki.
 
 {{Identical|Go}}",
-	'wminc-userdoesnotexist' => 'Used on Special:ViewUserLang when the entered user does not exist.',
-	'wminc-ip' => 'Used on Special:ViewUserLang which can only be used for logged in users. This error message is shown for IP addresses.',
+	'wminc-userdoesnotexist' => 'Used on [[Special:ViewUserLang]] when the entered user does not exist.
+
+Parameters:
+* $1 - username',
+	'wminc-ip' => 'Used on [[Special:ViewUserLang]] which can only be used for logged in users.
+
+This error message is shown for IP addresses.
+
+Parameters:
+* $1 - the specified IP address',
 	'right-viewuserlang' => '{{doc-right|viewuserlang}}
 The message says (in the long form): (This group has) "The ability to view the language and test wiki of a user". A user can set his language and test wiki through [[Special:Preferences]].',
 	'group-test-sysop' => '{{doc-group|test-sysop}}
@@ -207,7 +215,18 @@ The special page enables to search *for* a wiki in a specific language (and *not
 	'wminc-searchwiki-match-nativename' => 'Parameters:
 * $1 is the input;
 * $2 is its language name in the user interface language.',
-	'wminc-searchwiki-goto' => '{{optional}}',
+	'wminc-searchwiki-goto' => '{{optional}}
+Parameters:
+* $1 - a link which points to the main page. Its link text is {{msg-mw|Wminc-searchwiki-gotoinfopage}}.
+* $2 - a link which points to the info page. Its link text is any one of the following messages:
+** {{msg-mw|Wminc-infopage-title-p}}
+** {{msg-mw|Wminc-infopage-title-b}}
+** {{msg-mw|Wminc-infopage-title-t}}
+** {{msg-mw|Wminc-infopage-title-q}}
+** {{msg-mw|Wminc-infopage-title-n}}
+** {{msg-mw|Wminc-infopage-title-s}}
+** {{msg-mw|Wminc-infopage-title-v}}
+** {{msg-mw|Wminc-infopage-title-y}}',
 	'wminc-searchwiki-gotoinfopage' => 'Link text to go to the Wx/xyz info page',
 	'wminc-fs-pagetitle' => '$1 is the step (one of the wminc-fs-*-title messages)',
 	'wminc-fs-langselect-title' => 'Title: select the preferred interface language.
@@ -5073,6 +5092,7 @@ $messages['yue'] = array(
  * @author Liuxinyu970226
  * @author PhiLiP
  * @author Shinjiman
+ * @author TianyinLee
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
@@ -5089,7 +5109,7 @@ $messages['zh-hans'] = array(
 	'wminc-prefinfo-project' => '选择您正在操作的维基媒体项目',
 	'wminc-prefinfo-error' => '您选择了需要语言代码的项目。',
 	'wminc-error-move-unprefixed' => '错误：您要移动页面到的目的地 [[{{MediaWiki:Wminc-error-help}}|没有前缀或有错误的前缀]] ！',
-	'wminc-error-wronglangcode' => "'''错误：'''该页面包含了[[{{MediaWiki:Wminc-error-help}}|戳我的语言代码]] \"\$1\"!",
+	'wminc-error-wronglangcode' => "'''错误：'''该页面包含了[[{{MediaWiki:Wminc-error-help}}|错误的语言代码]] \"\$1\"!",
 	'wminc-error-unprefixed' => "'''错误：'''该页面[[{{MediaWiki:Wminc-error-help}}|的前缀无效]]！",
 	'wminc-error-unprefixed-suggest' => "'''错误'''：该页面[[{{MediaWiki:Wminc-error-help}}|的前缀无效]]！您可以在[[:$1]]创建页面。",
 	'wminc-error-wiki-exists' => '该wiki已经存在。您可以在$1找到该页面。如果该wiki是近期创建的，请耐心等待数小时至数日，以便所有内容都被导入。',
