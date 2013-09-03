@@ -179,8 +179,10 @@ An administrator of a specific test wiki on the Wikimedia Incubator.',
 	'grouppage-test-sysop' => '{{doc-group|test-sysop|page}}',
 	'group-test-sysop.css' => '{{doc-group|test-sysop|css}}',
 	'group-test-sysop.js' => '{{doc-group|test-sysop|js}}',
-	'wminc-code-macrolanguage' => "Parameters:
-* $1 - the language code (not used by default)
+	'wminc-code-macrolanguage' => "Unused at this time.
+
+Parameters:
+* $1 - (Unused) the language code (not used by default)
 * $2 - the language name in English
 * $3 - the translated language name from CLDR, if available (otherwise, English)
 It is best '''not''' to change the link to the Wikipedia article about the language. The article about macrolanguage can be changed to point to a translated article.",
@@ -2819,7 +2821,7 @@ $messages['ksh'] = array(
 	'wminc-fs-userpage-title' => 'Don Ding Metmaachersigg aanlääje',
 	'wminc-fs-startwiki-title' => 'Fang met Dingem Wiki aan',
 	'wminc-fs-pagetitle-done' => ' - jedonn!',
-	'wminc-fs-intro' => 'Wellkumme bei Dimge eezde Schredde op {{GRAMMAR|3{{SITENAME}}}}.
+	'wminc-fs-intro' => 'Wellkumme bei Dinge eezde Schredde op {{GRAMMAR:3|{{SITENAME}}}}.
 Mer hälpe Der, en_neu Wiki opzemaache.',
 	'wminc-fs-langselect' => 'Maach wigger op $1 udder $2',
 	'wminc-fs-signup-text' => 'Wann De ald ene Zohjang als ene Met,aacher häß, bes esu jood un [$1 donn Desch enlogge].
