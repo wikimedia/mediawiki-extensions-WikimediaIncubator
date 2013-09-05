@@ -145,7 +145,8 @@ Parameters:
 Parameters:
 * $1 - a new page title based on the page title the user is currently trying to edit. e.g. "Test" would become "Wx/xx/Test".',
 	'wminc-error-wiki-exists' => "'''$1''' is a URL to the existing wiki.",
-	'wminc-error-wiki-sister' => '$1 is a link to either Wikisource or Wikiversity.',
+	'wminc-error-wiki-sister' => 'Parameters:
+* $1 - a link which points to either Wikisource or Wikiversity.',
 	'randombytest' => '{{doc-special|RandomByTest|unlisted=1}}
 The special page goes to a random page in an incubator wiki. 
 For more information see: [[mw:WikimediaIncubator]].',
@@ -206,17 +207,21 @@ The special page enables to search *for* a wiki in a specific language (and *not
 {{Identical|Go}}',
 	'wminc-searchwiki-multiplematches' => 'Followed by a list of matches when there are multiple matches',
 	'wminc-searchwiki-match-langcode' => 'Parameters:
-* $1 is the input;
-* $2 is its language name in the user interface language',
+* $1 - the input
+* $2 - its language name in the user interface language
+{{Related|Wminc-searchwiki-match}}',
 	'wminc-searchwiki-match-userlangname' => 'Parameters:
-* $1 is the input;
-* $2 is its language name in the user interface language.',
+* $1 - the input
+* $2 - its language name in the user interface language
+{{Related|Wminc-searchwiki-match}}',
 	'wminc-searchwiki-match-englishname' => 'Parameters:
-* $1 is the input;
-* $2 is its language name in the user interface language.',
+* $1 - the input
+* $2 - its language name in the user interface language
+{{Related|Wminc-searchwiki-match}}',
 	'wminc-searchwiki-match-nativename' => 'Parameters:
-* $1 is the input;
-* $2 is its language name in the user interface language.',
+* $1 - the input
+* $2 - its language name in the user interface language
+{{Related|Wminc-searchwiki-match}}',
 	'wminc-searchwiki-goto' => '{{optional}}
 Parameters:
 * $1 - a link which points to the main page. Its link text is {{msg-mw|Wminc-searchwiki-gotoinfopage}}.
@@ -230,7 +235,13 @@ Parameters:
 ** {{msg-mw|Wminc-infopage-title-v}}
 ** {{msg-mw|Wminc-infopage-title-y}}',
 	'wminc-searchwiki-gotoinfopage' => 'Link text to go to the Wx/xyz info page',
-	'wminc-fs-pagetitle' => '$1 is the step (one of the wminc-fs-*-title messages)',
+	'wminc-fs-pagetitle' => 'Parameters:
+* $1 - the step; one of the following messages:
+** {{msg-mw|Wminc-fs-langselect-title}}
+** {{msg-mw|Wminc-fs-signup-title}}
+** {{msg-mw|Wminc-fs-settings-title}}
+** {{msg-mw|Wminc-fs-userpage-title}}
+** {{msg-mw|Wminc-fs-startwiki-title}}',
 	'wminc-fs-langselect-title' => 'Title: select the preferred interface language.
 {{Identical|Select language}}',
 	'wminc-fs-signup-title' => 'Title: create an account.
@@ -248,8 +259,10 @@ Parameters:
 * $2 - the link to create an account',
 	'wminc-fs-settings-image' => '{{Ignore}}',
 	'wminc-fs-settings-text' => '"At the right you can see..." refers to an image being shown at the right side of the page. For RTL languages this is at the left.',
-	'wminc-fs-userpage-text' => '$1 is a link to the user page',
-	'wminc-fs-globaluser-text' => '$1 is a link to Special:MergeAccount',
+	'wminc-fs-userpage-text' => 'Parameters:
+* $1 - a link which points to the userpage. Its link text is the username',
+	'wminc-fs-globaluser-text' => 'Used to recommend the user to make his account global. Parameters:
+* $1 - a link which points to [[Special:MergeAccount]]',
 	'wminc-fs-startwiki-text' => 'Parameters:
 * $1 - the prefix (Wx/xyz)
 * $2 - a link to its main page (Wx/xyz/Main_Page)',
@@ -3836,6 +3849,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  * @author Helder.wiki
  * @author Heldergeovane
@@ -3853,8 +3867,8 @@ $messages['pt-br'] = array(
 	'wminc-testwiki-none' => 'Nenhum/Tudo',
 	'wminc-recentchanges-all' => 'Todas as mudanças recentes',
 	'wminc-prefinfo-language' => 'Seu idioma de interface - independente do seu wiki de teste',
-	'wminc-prefinfo-code' => 'O código de língua ISO 639', # Fuzzy
-	'wminc-prefinfo-project' => 'Selecione o projeto Wikimedia (a opção Incubadora é para usuários que fazem trabalho geral)', # Fuzzy
+	'wminc-prefinfo-code' => 'O código ISO 639 da língua em que está a trabalhar',
+	'wminc-prefinfo-project' => 'Selecione o projeto Wikimedia em que está a trabalhar',
 	'wminc-prefinfo-error' => 'Você selecionou um projeto que necessita de um código de língua.',
 	'wminc-error-move-unprefixed' => 'Erro: A página que você está tentando mover para [[{{MediaWiki:Wminc-error-help}}|é aprefixada ou tem um prefixo incorreto]]!',
 	'wminc-error-wronglangcode' => "'''Erro:''' Esta página contém um [[{{MediaWiki:Wminc-error-help}}|código de linguagem errado]] \"\$1\"!",

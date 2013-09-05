@@ -76,8 +76,19 @@ $messages['qqq'] = array(
 {{Identical|Wikivoyage}}",
 	'wminc-infopage-welcome' => 'Do not change <tt><nowiki>{{MediaWiki:Aboutpage}}</nowiki></tt>.',
 	'wminc-infopage-missingwiki-text' => "'''$1''' is a project: Wikipedia/Wiktionary/...",
-	'wminc-infopage-option-startwiki' => 'Do not change <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>! $3 is a URL to Special:IncubatorFirstSteps.',
-	'wminc-infopage-option-startsister' => '$2 is a link to either Wikisource or Wikiversity, and $1 is that project name.',
+	'wminc-infopage-option-startwiki' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>!}}
+Parameters:
+* $1 - the project name of $2
+* $2 - a link which points to either Wikisource or Wikiversity
+* $3 - a URL which points to [[Special:IncubatorFirstSteps]]
+See also:
+* {{msg-mw|Wminc-infopage-option-startsister}} - if sister',
+	'wminc-infopage-option-startsister' => 'Parameters:
+* $1 - the project name of $2
+* $2 - a link which points to either Wikisource or Wikiversity
+* $3 - (Unused) a URL which points to [[Special:IncubatorFirstSteps]]
+See also:
+* {{msg-mw|Wminc-infopage-option-startwiki}} - if not sister',
 	'wminc-infopage-option-languages-existing' => "'''$1''' is the project name (Wikipedia, Wikinews, ...).",
 	'wminc-infopage-option-sisterprojects-existing' => 'Followed by clickable logos of projects Wikipedia, Wiktionary, Wikibooks, ...',
 	'wminc-infopage-option-sisterprojects-other' => 'Followed by clickable logos of projects Wikipedia, Wiktionary, Wikibooks, ...',
@@ -1621,6 +1632,7 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Jaideraf
  * @author MetalBrasil
  * @author Pedroca cerebral
@@ -1643,7 +1655,7 @@ $messages['pt-br'] = array(
 	'wminc-infopage-option-languages-existing' => 'Você pode pesquisar por [//www.$1.org edições de $1 línguas existentes].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Você pode pesquisar por projetos existentes nesta língua.',
 	'wminc-infopage-option-sisterprojects-other' => 'Você pode pesquisar por outros projetos nessa língua.',
-	'wminc-infopage-option-multilingual' => 'Você pode ir a uma wiki multilíngue.', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'Alternativamente, você pode ir a uma wiki multilíngue:',
 	'wminc-infopage-createmainpage' => 'Digite a palavra "Página principal" nesta língua.',
 	'wminc-infopage-contribute' => 'Se você conhece esta língua, você é convidado a contribuir!',
 	'wminc-infopage-status-imported' => 'Esse Incubator wiki foi importado de $1 depois que o wiki foi fechado.',
