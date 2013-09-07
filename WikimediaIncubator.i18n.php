@@ -3571,11 +3571,16 @@ $messages['nn'] = array(
  */
 $messages['oc'] = array(
 	'wminc-desc' => 'Sistèma de tèst de wiki per Wikimedia Incubator',
+	'wminc-manual' => 'Manual',
+	'wminc-listwikis' => 'Lista dels wikis',
 	'wminc-testwiki' => 'Wiki de tèst :',
+	'wminc-testwiki-code' => 'Lenga del wiki de tèst :',
 	'wminc-testwiki-none' => 'Pas cap / totes',
+	'wminc-testwiki-site' => '(Mantenença)',
+	'wminc-recentchanges-all' => 'Totes los darrièrs cambiaments',
 	'wminc-prefinfo-language' => "Vòstra lenga de l'interfàcia - independenta de vòstre wiki de tèst",
-	'wminc-prefinfo-code' => 'Lo còde ISO 639 de la lenga', # Fuzzy
-	'wminc-prefinfo-project' => "Seleccionatz lo projècte Wikimedia (l'opcion Incubator es destinada als utilizaires que fan un trabalh general)", # Fuzzy
+	'wminc-prefinfo-code' => 'Lo còde ISO 639 de la lenga sus la quala trabalhatz aicí',
+	'wminc-prefinfo-project' => 'Seleccionatz lo projècte Wikimedia sul qual trabalhatz aicí',
 	'wminc-prefinfo-error' => 'Avètz seleccionat un projècte que necessita un còde de lenga.',
 	'randombytest' => 'Pagina aleatòria pel wiki de tèst',
 	'randombytest-nopages' => "Vòstre wiki de tèst conten pas de pagina dins l'espaci de noms : $1.",
@@ -3583,6 +3588,14 @@ $messages['oc'] = array(
 	'wminc-viewuserlang-user' => "Nom d'utilizaire :",
 	'wminc-viewuserlang-go' => 'Anar',
 	'right-viewuserlang' => 'Vejatz lenga de l’utilizaire e lo wiki de tèst',
+	'group-test-sysop-member' => '{{GENDER:$1|administrator|administratritz}} del wiki de tèst',
+	'wminc-searchwiki' => 'Recèrca d’un wiki',
+	'wminc-searchwiki-noproject' => 'Avètz pas seleccionat cap de projècte.',
+	'wminc-searchwiki-selectproject' => 'Recercar :',
+	'wminc-searchwiki-inputlanguage' => 'Dins aquesta lenga :',
+	'wminc-searchwiki-go' => 'Anar',
+	'wminc-searchwiki-match-langcode' => '« $1 » es un còde de lenga ISO 639 per « $2 ».',
+	'wminc-searchwiki-match-userlangname' => '$1 es lo nom d’una lenga.',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

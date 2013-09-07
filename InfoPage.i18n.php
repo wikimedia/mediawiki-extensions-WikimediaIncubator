@@ -78,8 +78,8 @@ $messages['qqq'] = array(
 	'wminc-infopage-missingwiki-text' => "'''$1''' is a project: Wikipedia/Wiktionary/...",
 	'wminc-infopage-option-startwiki' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>!}}
 Parameters:
-* $1 - the project name of $2
-* $2 - a link which points to either Wikisource or Wikiversity
+* $1 - (Unused) the project name of $2
+* $2 - (Unused) a link which points to either Wikisource or Wikiversity
 * $3 - a URL which points to [[Special:IncubatorFirstSteps]]
 See also:
 * {{msg-mw|Wminc-infopage-option-startsister}} - if sister',
