@@ -212,7 +212,7 @@ The special page enables to search *for* a wiki in a specific language (and *not
 {{Related|Wminc-searchwiki-match}}',
 	'wminc-searchwiki-match-userlangname' => 'Parameters:
 * $1 - the input
-* $2 - its language name in the user interface language
+* $2 - (Unused) its language name in the user interface language
 {{Related|Wminc-searchwiki-match}}',
 	'wminc-searchwiki-match-englishname' => 'Parameters:
 * $1 - the input
@@ -3587,8 +3587,12 @@ $messages['oc'] = array(
 	'wminc-viewuserlang' => "Veire la lenga de l'utilizaire e son wiki de tèst",
 	'wminc-viewuserlang-user' => "Nom d'utilizaire :",
 	'wminc-viewuserlang-go' => 'Anar',
+	'wminc-userdoesnotexist' => "L'utilizaire « $1 » existís pas.",
+	'wminc-ip' => '« $1 » es una adreça IP.',
 	'right-viewuserlang' => 'Vejatz lenga de l’utilizaire e lo wiki de tèst',
+	'group-test-sysop' => 'Administrators del wiki de tèst',
 	'group-test-sysop-member' => '{{GENDER:$1|administrator|administratritz}} del wiki de tèst',
+	'grouppage-test-sysop' => '{{ns:project}}:Tèst wiki - Administrators',
 	'wminc-searchwiki' => 'Recèrca d’un wiki',
 	'wminc-searchwiki-noproject' => 'Avètz pas seleccionat cap de projècte.',
 	'wminc-searchwiki-selectproject' => 'Recercar :',
@@ -3596,6 +3600,15 @@ $messages['oc'] = array(
 	'wminc-searchwiki-go' => 'Anar',
 	'wminc-searchwiki-match-langcode' => '« $1 » es un còde de lenga ISO 639 per « $2 ».',
 	'wminc-searchwiki-match-userlangname' => '$1 es lo nom d’una lenga.',
+	'wminc-searchwiki-gotoinfopage' => 'pagina d’informacion',
+	'wminc-fs-pagetitle' => "Guida d'aviada - $1",
+	'wminc-fs-langselect-title' => 'Seleccionar la lenga',
+	'wminc-fs-signup-title' => 'Crear un compte',
+	'wminc-fs-settings-title' => 'Definir vòstras preferéncias del wiki',
+	'wminc-fs-userpage-title' => "Crear vòstra pagina d'utilizaire",
+	'wminc-fs-startwiki-title' => 'Aviar vòstre wiki',
+	'wminc-fs-pagetitle-done' => ' - fach !',
+	'wminc-fs-langselect' => 'Procedissètz en $1 o en $2',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
