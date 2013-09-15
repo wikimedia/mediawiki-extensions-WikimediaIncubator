@@ -63,7 +63,10 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'wminc-infopage-enter' => 'Text of a link to the Main Page of a test wiki at Incubator.',
 	'wminc-unknownlang' => "Added after the title ''Wiki[project] \"code\"'' when no language name is found for the language code.",
-	'wminc-manual-url' => '{{notranslate}}',
+	'wminc-manual-url' => '{{notranslate}}
+Used in:
+* {{msg-mw|Wminc-infopage-option-startwiki}}
+* {{msg-mw|Wminc-fs-settings-text}}',
 	'wminc-infopage-title-p' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-b' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-t' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
@@ -74,9 +77,12 @@ $messages['qqq'] = array(
 	'wminc-infopage-title-y' => "This is the main title of the info page. Parameters:
 * $1 - the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.
 {{Identical|Wikivoyage}}",
-	'wminc-infopage-welcome' => 'Do not change <tt><nowiki>{{MediaWiki:Aboutpage}}</nowiki></tt>.',
+	'wminc-infopage-welcome' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Aboutpage}}</nowiki></code>.}}
+Refers to {{msg-mw|Aboutpage}}.',
 	'wminc-infopage-missingwiki-text' => "'''$1''' is a project: Wikipedia/Wiktionary/...",
 	'wminc-infopage-option-startwiki' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>!}}
+Refers to {{msg-mw|Wminc-manual-url}}.
+
 Parameters:
 * $1 - (Unused) the project name of $2
 * $2 - (Unused) a link which points to either Wikisource or Wikiversity
@@ -101,7 +107,7 @@ See also:
 	'wminc-infopage-status-created' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-status-beforeincubator' => "'''$1''' is a URL to the existing wiki.",
 	'wminc-infopage-status-beforeincubator-sister' => "'''$1''' is a URL to the existing wiki.",
-	'wminc-infopage-error' => 'Error message shown when trying to use <tt>{{#infopage:}}</tt> on a non-prefixed page (i.e. pages not starting with a Wx/xyz/ prefix).',
+	'wminc-infopage-error' => 'Error message shown when trying to use <code>{{#infopage:}}</code> on a non-prefixed page (i.e. pages not starting with a Wx/xyz/ prefix).',
 );
 
 /** Afrikaans (Afrikaans)

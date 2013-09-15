@@ -136,12 +136,25 @@ $messages['qqq'] = array(
 	'wminc-prefinfo-code' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-prefinfo-project' => 'Explanation for a dropdown box in your preferences, with options: "None/All", "Wikipedia", "Wikibooks", "Wikinews", etc... and "Incubator". See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-prefinfo-error' => 'See [[:File:Incubator-testwiki-preference.jpg]]. If the user selected a Wikimedia project but not a language code, this error message is shown.',
-	'wminc-error-help' => '{{Identical|HelpContent}}',
-	'wminc-error-move-unprefixed' => 'Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>',
-	'wminc-error-wronglangcode' => '{{doc-important|Do not change "<code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>".}}
+	'wminc-error-help' => 'Used in:
+* {{msg-mw|Wminc-error-move-unprefixed}}
+* {{msg-mw|Wminc-error-wronglangcode}}
+* {{msg-mw|Wminc-error-unprefixed}}
+* {{msg-mw|Wminc-error-unprefixed-suggest}}
+{{Identical|HelpContent}}',
+	'wminc-error-move-unprefixed' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>.}}
+Refers to {{msg-mw|Wminc-error-help}}.',
+	'wminc-error-wronglangcode' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>.}}
+Refers to {{msg-mw|Wminc-error-help}}.
+
 Parameters:
 * $1 - a language code',
-	'wminc-error-unprefixed-suggest' => '{{doc-important|Do not change "<code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>".}}
+	'wminc-error-unprefixed' => 'Used as error message.
+
+Refers to {{msg-mw|Wminc-error-help}}.',
+	'wminc-error-unprefixed-suggest' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>.}}
+Refers to {{msg-mw|Wminc-error-help}}.
+
 Parameters:
 * $1 - a new page title based on the page title the user is currently trying to edit. e.g. "Test" would become "Wx/xx/Test".',
 	'wminc-error-wiki-exists' => "'''$1''' is a URL to the existing wiki.",
@@ -258,7 +271,9 @@ Parameters:
 * $1 - the link to log in
 * $2 - the link to create an account',
 	'wminc-fs-settings-image' => '{{Ignore}}',
-	'wminc-fs-settings-text' => '"At the right you can see..." refers to an image being shown at the right side of the page. For RTL languages this is at the left.',
+	'wminc-fs-settings-text' => '"At the right you can see..." refers to an image being shown at the right side of the page. For RTL languages this is at the left.
+
+Refers to {{msg-mw|Wminc-manual-url}} and {{msg-mw|Portal-url}}.',
 	'wminc-fs-userpage-text' => 'Parameters:
 * $1 - a link which points to the userpage. Its link text is the username',
 	'wminc-fs-globaluser-text' => 'Used to recommend the user to make his account global. Parameters:
