@@ -1735,6 +1735,7 @@ $messages['roa-tara'] = array(
  * @author Amdf
  * @author Eugrus
  * @author Kaganer
+ * @author Okras
  */
 $messages['ru'] = array(
 	'wminc-infopage-enter' => 'перейти на заглавную страницу',
@@ -1754,7 +1755,7 @@ $messages['ru'] = array(
 	'wminc-infopage-option-languages-existing' => 'Вы можете поискать [//www.$1.org существующие языковые разделы для $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Вы можете поискать существующие проекты на этом языке:',
 	'wminc-infopage-option-sisterprojects-other' => 'Вы можете поискать другие проекты на этом языке:',
-	'wminc-infopage-option-multilingual' => 'Вы можете перейти к многоязычным вики-проектам:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'Кроме того, вы можете перейти к многоязычным вики-проектам:',
 	'wminc-infopage-createmainpage' => 'Введите на этом языке выражение, означающее «Заглавная страница»:',
 	'wminc-infopage-contribute' => 'Если вы понимаете этот язык, вы можете внести свой вклад!',
 	'wminc-infopage-status-open' => 'Это открытая вики в Инкубаторе Викимедиа.',
@@ -1921,7 +1922,8 @@ $messages['sv'] = array(
 	'wminc-infopage-title-y' => 'Wikivoyage $1',
 	'wminc-infopage-welcome' => 'Välkommen till Wikimedia Incubator, ett projekt av Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Om]])',
 	'wminc-infopage-missingwiki-text' => 'En $1 på detta språk existerar inte ännu.',
-	'wminc-infopage-option-startwiki' => 'Om du vill starta denna wiki kan du [{{fullurl:{{FULLPAGENAME}}|action=edit}} skapa sidan] och följa [[{{MediaWiki:Wminc-manual-url}}|vår manual]].', # Fuzzy
+	'wminc-infopage-option-startwiki' => "Om du vill starta denna wiki, var god följ
+'''[$3 dessa steg]''' och [[{{MediaWiki:Wminc-manual-url}}|vår manual]].",
 	'wminc-infopage-option-startsister' => 'Om du vill starta denna wiki, kan du gå till <strong>[$2 $1]</strong>.',
 	'wminc-infopage-option-languages-existing' => 'Du kan söka efter [//www.$1.org befintliga språkversioner av $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Du kan söka efter befintliga projekt på detta språk:',
