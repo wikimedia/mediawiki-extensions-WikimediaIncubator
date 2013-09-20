@@ -1749,8 +1749,8 @@ $messages['ru'] = array(
 	'wminc-infopage-title-v' => 'Викиверситет на языке «$1»',
 	'wminc-infopage-welcome' => 'Добро пожаловать в Инкубатор Викимедиа, проект Фонда Викимедиа ([[{{MediaWiki:Aboutpage}}|о проекте]])',
 	'wminc-infopage-missingwiki-text' => 'У проекта «$1» еще ​​нет раздела на этом языке.',
-	'wminc-infopage-option-startwiki' => 'Если вы хотите начать такой вики-проект,
-вы можете [{{fullurl:{{FULLPAGENAME}}|action=edit}} создать страницу] и следовать [[{{MediaWiki:Wminc-manual-url}}|нашему руководству]].', # Fuzzy
+	'wminc-infopage-option-startwiki' => "Если вы хотите начать этот вики-проект,
+выполните '''[$3 эти действия]''' и следуйте [[{{MediaWiki:Wminc-manual-url}}|нашему руководству]].",
 	'wminc-infopage-option-startsister' => 'Если вы хотите начать этот вики-проект, вы можете перейти к <strong>[ $2  $1 ] </strong>.',
 	'wminc-infopage-option-languages-existing' => 'Вы можете поискать [//www.$1.org существующие языковые разделы для $1].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Вы можете поискать существующие проекты на этом языке:',
