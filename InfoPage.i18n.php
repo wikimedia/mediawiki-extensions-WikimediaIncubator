@@ -1197,7 +1197,7 @@ $messages['ko'] = array(
 	'wminc-infopage-status-closedsister' => '이 서브도메인은 닫혔습니다. 이 위키에 기여하려면 <strong>$2</strong>로 가세요.',
 	'wminc-infopage-status-approved' => '이 인큐베이터는 [[meta:Special:MyLanguage/Language_committee|언어 위원회]]에 의해 승인하였고 곧 만들어질 것입니다.',
 	'wminc-infopage-status-created' => '이 프로젝트는 언어 위원회의 승인을 받았으며 지금 $1에 존재합니다.',
-	'wminc-infopage-status-beforeincubator' => '이 프로젝트는 위키미디어 인큐베이터가 시작하기 전에 만들었으며 $1에 존재합니다.',
+	'wminc-infopage-status-beforeincubator' => '이 프로젝트는 위키미디어 인큐베이터가 시작하기 전에 만들어졌으며 $1에 존재합니다.',
 	'wminc-infopage-status-beforeincubator-sister' => '이 프로젝트는 $1에 존재합니다.',
 	'wminc-infopage-error' => '오류: {{#infopage}} 문서는 접두어 문서로만 사용할 수 있습니다.',
 );
@@ -1375,21 +1375,24 @@ $messages['ml'] = array(
 	'wminc-infopage-title-n' => 'വിക്കിവാർത്തകൾ $1',
 	'wminc-infopage-title-s' => 'വിക്കിഗ്രന്ഥശാല $1',
 	'wminc-infopage-title-v' => 'വിക്കിസർവ്വകലാശാല $1',
+	'wminc-infopage-title-y' => 'വിക്കിയാത്ര $1',
 	'wminc-infopage-welcome' => 'വിക്കിമീഡിയ ഫൗണ്ടേഷൻ സംരംഭമായ വിക്കിമീഡിയ ഇൻകുബേറ്ററിലേയ്ക്ക് സ്വാഗതം ([[{{MediaWiki:Aboutpage}}|വിവരണം]])',
 	'wminc-infopage-missingwiki-text' => 'ഈ ഭാഷയിൽ $1 നിലവിലില്ല.',
-	'wminc-infopage-option-startwiki' => 'താങ്കൾക്ക് ഈ വിക്കി തുടങ്ങണമെന്നുണ്ടെങ്കിൽ [{{fullurl:{{FULLPAGENAME}}|action=edit}} താൾ സൃഷ്ടിച്ച ശേഷം] [[{{MediaWiki:Wminc-manual-url}}|ഞങ്ങളുടെ വഴികാട്ടി]] പിന്തുടരുക.', # Fuzzy
+	'wminc-infopage-option-startwiki' => "താങ്കൾക്ക് ഈ വിക്കി തുടങ്ങണമെന്നുണ്ടെങ്കിൽ '''[$3 ഈ ഘട്ടങ്ങളും]''' [[{{MediaWiki:Wminc-manual-url}}|ഞങ്ങളുടെ വഴികാട്ടിയും]] പിന്തുടരുക.",
 	'wminc-infopage-option-startsister' => 'താങ്കൾക്ക് ഈ വിക്കി തുടങ്ങണമെന്നുണ്ടെങ്കിൽ, <strong>[$2 $1]</strong> എന്ന താളിൽ ചെല്ലുക.',
 	'wminc-infopage-option-languages-existing' => '[//www.$1.org $1 പദ്ധതിയുടെ നിലവിലുള്ള ഭാഷാപതിപ്പുകൾ] താങ്കൾക്ക് തിരയാവുന്നതാണ്.',
 	'wminc-infopage-option-sisterprojects-existing' => 'ഈ ഭാഷയിൽ നിലവിലുള്ള സംരംഭങ്ങൾ താങ്കൾക്ക് തിരയാവുന്നതാണ്:',
 	'wminc-infopage-option-sisterprojects-other' => 'ഈ ഭാഷയിൽ നിലവിലുള്ള ഇതര സംരംഭങ്ങൾ താങ്കൾക്ക് തിരയാവുന്നതാണ്:',
-	'wminc-infopage-option-multilingual' => 'താങ്കൾക്ക് ബഹുഭാഷാവിക്കിയിലേയ്ക്ക് പോകാവുന്നതാണ്:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'പകരമായി, താങ്കൾക്ക് ബഹുഭാഷാവിക്കിയിലേയ്ക്ക് പോകാവുന്നതാണ്:',
 	'wminc-infopage-createmainpage' => 'ഈ ഭാഷയിൽ "പ്രധാന താൾ" എന്നതിനു സമാനമായ പദം നൽകുക:',
 	'wminc-infopage-contribute' => 'താങ്കൾക്ക് ഈ ഭാഷ അറിയാമെങ്കിൽ, അതിൽ സംഭാവന ചെയ്യാൻ താത്പര്യപ്പെടുന്നു!',
 	'wminc-infopage-status-open' => 'ഇത് വിക്കിമീഡിയ ഇൻകുബേറ്ററിലുള്ള ഒരു വിക്കിയാണ്.',
 	'wminc-infopage-status-imported' => 'ഈ ഇൻകുബേറ്റർ വിക്കി $1 എന്നതിൽ നിന്നും വിക്കി അടച്ചശേഷം ഇറക്കുമതി ചെയ്തതാണ്.',
 	'wminc-infopage-status-closedsister' => 'ഈ ഉപഡൊമൈൻ അടച്ചിരിക്കുന്നു. ഈ വിക്കിയിൽ സംഭാവന ചെയ്യാൻ <strong>$2</strong> എന്നതിലേയ്ക്ക് പോവുക.',
+	'wminc-infopage-status-approved' => 'ഈ ഇൻകുബേറ്റർ വിക്കി [[meta:Special:MyLanguage/Language_committee|ഭാഷാ സമിതി]] അംഗീകരിച്ചിരിക്കുന്നു, ഉടൻ തന്നെ സൃഷ്ടിക്കപ്പെടുന്നതാണ്.',
 	'wminc-infopage-status-created' => 'ഈ സംരംഭം ഭാഷാ കമ്മിറ്റി അംഗീകരിച്ചിരിക്കുന്നു, അതിപ്പോൾ $1 എന്നു ലഭ്യമാണ്.',
 	'wminc-infopage-status-beforeincubator' => 'ഈ പദ്ധതി, വിക്കിമീഡിയ ഇൻകുബേറ്റർ തുടങ്ങുന്നതിനു മുമ്പേയുള്ളതാണ്, അത് $1-ൽ ലഭ്യമാണ്.',
+	'wminc-infopage-status-beforeincubator-sister' => 'ഈ പദ്ധതി ഇപ്പോൾ $1 എന്ന വിലാസത്തിൽ ലഭ്യമാണ്.',
 	'wminc-infopage-error' => 'പിഴവ്: പൂർവ്വപദമുള്ള താളുകളിൽ മാത്രമേ {{#infopage}} ഉപയോഗിക്കാൻ കഴിയുകയുള്ളു.',
 );
 
@@ -1747,6 +1750,7 @@ $messages['ru'] = array(
 	'wminc-infopage-title-n' => 'Викиновости на языке «$1»',
 	'wminc-infopage-title-s' => 'Викитека на языке «$1»',
 	'wminc-infopage-title-v' => 'Викиверситет на языке «$1»',
+	'wminc-infopage-title-y' => 'Викигид $1',
 	'wminc-infopage-welcome' => 'Добро пожаловать в Инкубатор Викимедиа, проект Фонда Викимедиа ([[{{MediaWiki:Aboutpage}}|о проекте]])',
 	'wminc-infopage-missingwiki-text' => 'У проекта «$1» еще ​​нет раздела на этом языке.',
 	'wminc-infopage-option-startwiki' => "Если вы хотите начать этот вики-проект,
@@ -1761,8 +1765,10 @@ $messages['ru'] = array(
 	'wminc-infopage-status-open' => 'Это открытая вики в Инкубаторе Викимедиа.',
 	'wminc-infopage-status-imported' => 'Эта вики была импортирована в Инкубатор из проекта «$1» после его закрытия.',
 	'wminc-infopage-status-closedsister' => 'Этот поддомен был закрыт. Перейти к <strong>$2</strong>, чтобы сделать свой вклад в эту вики.',
+	'wminc-infopage-status-approved' => 'Этот инкубатор был одобрен [[meta:Special:MyLanguage/Language_committee|языковым комитетом]] и будет вскоре создан.',
 	'wminc-infopage-status-created' => 'Этот проект был одобрен Языковым комитетом и теперь доступен по адресу $1 .',
 	'wminc-infopage-status-beforeincubator' => 'Этот проект, созданный до запуска Инкубатора Викимедиа, доступен по адресу $1.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Этот проект доступен в $1.',
 );
 
 /** Rusyn (русиньскый)
@@ -1938,6 +1944,7 @@ $messages['sv'] = array(
 	'wminc-infopage-status-created' => 'Detta projekt har godkänts av språkkommittén och finns nu på $1.',
 	'wminc-infopage-status-beforeincubator' => 'Detta projekt skapades före Wikimedia Incubator startade och finns på $1.',
 	'wminc-infopage-status-beforeincubator-sister' => 'Detta projekt finns på  $1.',
+	'wminc-infopage-error' => 'Fel: {{#infopage}} kan endast användas på sidor med prefix.',
 );
 
 /** Tamil (தமிழ்)

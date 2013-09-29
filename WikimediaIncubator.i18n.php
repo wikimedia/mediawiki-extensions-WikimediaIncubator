@@ -2029,6 +2029,7 @@ $messages['gu'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Guycn1
  * @author Rotemliss
  * @author YaronSh
  */
@@ -2062,6 +2063,8 @@ $messages['he'] = array(
 	'group-test-sysop' => 'מפעילי ויקי לבדיקה',
 	'group-test-sysop-member' => '{{GENDER:$1|מפעיל|מפעילת}} ויקי לבדיקה',
 	'grouppage-test-sysop' => '{{ns:project}}:מפעילי ויקי לבדיקה',
+	'group-test-sysop.css' => '/* הסגנונות הנכתבים כאן ישפיעו על מפעילי ויקי לבדיקה בלבד */',
+	'group-test-sysop.js' => '/* כל סקריפט JavaScript שנכתב כאן ירוץ עבור מפעילי ויקי לבדיקה בלבד */',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|השפה "$3"]] היא [[wikipedia:ISO 639 macrolanguage|מקרו־שפה]], שמורכבת מהשפות הבאות:',
 	'wminc-code-collective' => 'הקוד "$1" לא מתייחס לשפה מסוימת, אלא לאוסף שפות, [[wikipedia:$2 language|"$3"]].',
 	'wminc-code-retired' => 'קוד השפה הזה השתנה וכבר אינו מתייחס לשפה המקורית.',
@@ -3289,6 +3292,7 @@ $messages['mn'] = array(
 
 /** Marathi (मराठी)
  * @author Shantanoo
+ * @author V.narsikar
  * @author संतोष दहिवळ
  */
 $messages['mr'] = array(
@@ -3298,8 +3302,10 @@ $messages['mr'] = array(
 	'wminc-testwiki' => 'विकी परिक्षण',
 	'wminc-testwiki-code' => 'विकि भाषा परिक्षण',
 	'wminc-testwiki-none' => 'काही नाहि/सर्व',
+	'wminc-testwiki-site' => '(परिरक्षण)',
 	'wminc-recentchanges-all' => 'सर्व अलीकडील बदल',
-	'wminc-prefinfo-code' => 'आय.एस.ओ. ६३९ भाषा संकेतोक', # Fuzzy
+	'wminc-prefinfo-language' => 'आपली आंतरपृष्ठ भाषा - आपल्या चाचणी विकिपेक्षा स्वतंत्र',
+	'wminc-prefinfo-code' => 'आय.एस.ओ. ६३९ भाषा संकेतांक येथे ज्यावर आपण काम करीत आहात',
 	'wminc-prefinfo-project' => 'विकिमीडिया प्रकल्प निवडा (उबवण पात्र पर्याय सामान्य काम करणाऱ्या सदस्यांसाठी आहे)', # Fuzzy
 	'wminc-prefinfo-error' => 'आपण निवडलेल्या प्रकल्पाला भाषा संकेतांकाची जरूरी आहे.',
 	'wminc-viewuserlang' => 'सदस्यभाषा आणि टेस्टविकि दाखवा.',
