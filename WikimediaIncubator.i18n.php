@@ -3811,7 +3811,7 @@ $messages['pnt'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'wminc-listwikis' => 'د ويکي ګانو لړليک',
+	'wminc-listwikis' => 'د ويکي گانو لړليک',
 	'wminc-testwiki' => 'د آزمېښت ويکي:',
 	'wminc-testwiki-code' => 'د ويکي ژبه آزمويل:',
 	'wminc-testwiki-none' => 'هېڅ/ټول',
@@ -4560,7 +4560,7 @@ $messages['sv'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'infosida',
 	'wminc-fs-pagetitle' => 'Guide för att komma igång - $1',
 	'wminc-fs-langselect-title' => 'Välj språk',
-	'wminc-fs-signup-title' => 'Registrera',
+	'wminc-fs-signup-title' => 'Skapa ett konto',
 	'wminc-fs-settings-title' => 'Ställ in dina wiki-inställningar',
 	'wminc-fs-userpage-title' => 'Skapa din användarsida',
 	'wminc-fs-startwiki-title' => 'Starta din wiki',
