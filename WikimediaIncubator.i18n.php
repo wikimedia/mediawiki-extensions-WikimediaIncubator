@@ -5231,6 +5231,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Anakmalaysia
+ * @author Cwlin0416
  * @author Horacewai2
  * @author Liangent
  * @author Mark85296341
@@ -5276,7 +5277,7 @@ $messages['zh-hant'] = array(
 	'wminc-search-nocreate-nopref' => '您在尋找「$1」。請更改您的[[Special:Preferences|測試維基參數設定]]，以便我們可以告訴您適合創建的頁面種類！',
 	'wminc-search-nocreate-suggest' => '您在尋找“$1”。您可以轉到<strong>[[$2]]</strong>以在您的維基項目中創新一個頁面！',
 	'wminc-searchwiki' => '搜索一個維基站點',
-	'wminc-searchwiki-noproject' => '您沒有選擇一個項目。',
+	'wminc-searchwiki-noproject' => '您尚未選擇專案。',
 	'wminc-searchwiki-noresults' => '沒有結果。您可以按語言代碼、該語言、您的介面語言、或英語進行搜索。',
 	'wminc-searchwiki-selectproject' => '尋找：',
 	'wminc-searchwiki-inputlanguage' => '採用語言：',
