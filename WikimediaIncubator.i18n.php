@@ -2898,7 +2898,7 @@ $messages['kw'] = array(
 	'wminc-viewuserlang-go' => 'Mos',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Growingup
  */
 $messages['ky'] = array(
