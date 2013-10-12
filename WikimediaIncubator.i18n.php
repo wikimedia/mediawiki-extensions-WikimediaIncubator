@@ -1948,6 +1948,46 @@ Se non sabe o código, consulte o noso [[{{MediaWiki:Wminc-manual-url}}|manual]]
 Se quere crear unha páxina, escriba o nome na caixa de procuras superior e siga a ligazón que aparecerá.',
 );
 
+/** Goan Konkani (Latin script) (Konknni)
+ * @author The Discoverer
+ */
+$messages['gom-latn'] = array(
+	'wminc-desc' => 'Wikipedia Incubatora khatir wikichi poriksha',
+	'wminc-manual' => 'Hath-pustok',
+	'wminc-listwikis' => 'Wikinchi suchi',
+	'wminc-testwiki' => 'Porikshechi wiki:',
+	'wminc-testwiki-code' => 'Wiki porikshechi bhas',
+	'wminc-testwiki-none' => 'Ekui naka / Soglleo',
+	'wminc-recentchanges-all' => "Atach zal'lim bodlopam",
+	'wminc-prefinfo-language' => "Tuji 'interface'achi bhas - Tuji porikshechi wiki-kin veglli",
+	'wminc-prefinfo-code' => "Tu jea bhasacher kam kortai tachi 'ISO 639 code'[http://en.wikipedia.org/wiki/ISO 639]",
+	'wminc-prefinfo-project' => 'Tu hangasor khuimchea Wikimedia projectacher kam kortai?',
+	'wminc-prefinfo-error' => 'Tuven ji bhas vinchlai, taka ISO codeachi goroz asa',
+	'wminc-error-wronglangcode' => "'''Chotrai:''' Hea panacher asleli [[{{MediaWiki:Wminc-error-help}}|eka bhasechi ISO code]] sarkem na \"\$1\"",
+	'wminc-error-wiki-exists' => 'Hi wiki soddhea astitvant asa. Ti tuka hea panar mevteli: $1. Hi wiki atach suru zalea zalear thode horam vo thode dis rav soglleo panam ieunk.',
+	'wminc-error-wiki-sister' => 'Hem pan jea wikicher asa ti hanga na. Hea wikik hanga sod: $1',
+	'wminc-viewuserlang' => 'Vangddiachi bhas ani porixechi wiki sod',
+	'wminc-viewuserlang-user' => 'Vapurpeachem nanv:',
+	'wminc-viewuserlang-go' => 'Voch',
+	'wminc-userdoesnotexist' => '"$1" hea nanvacho vangddi na',
+	'wminc-ip' => '"$1" zaun asa ek internet pot\'to (IP address)',
+	'wminc-searchwiki' => 'Wiki sod',
+	'wminc-searchwiki-noproject' => 'Tuven project nivddunknai',
+	'wminc-searchwiki-selectproject' => 'Hem sod:',
+	'wminc-searchwiki-inputlanguage' => 'Hea bhasent:',
+	'wminc-searchwiki-go' => 'Voch',
+	'wminc-searchwiki-match-userlangname' => '$1 zaun asa ek bhasechem nanv.',
+	'wminc-searchwiki-match-englishname' => '"$1" zaun asa Ingles bhasen $2-chem nanv',
+	'wminc-searchwiki-match-nativename' => '"$1" zaun asa tea bhasen $2-chem nanv.',
+	'wminc-searchwiki-gotoinfopage' => 'mahiti pan',
+	'wminc-fs-langselect-title' => 'Tuji bhas',
+	'wminc-fs-signup-title' => 'Kont roch',
+	'wminc-fs-userpage-title' => 'Tuzo vangddichem pan roch',
+	'wminc-fs-startwiki-title' => 'Tuji wiki suru kor',
+	'wminc-fs-pagetitle-done' => '- zalem mure!',
+	'wminc-fs-langselect' => '$1 vo $2, hea bhasen fuddem voch',
+);
+
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author Crazymadlover
  * @author Omnipaedista
