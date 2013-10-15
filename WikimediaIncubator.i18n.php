@@ -1593,6 +1593,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Huji
  * @author Mehran
  * @author MehranVB
@@ -1613,10 +1614,10 @@ $messages['fa'] = array(
 	'wminc-prefinfo-code' => 'کد زبان ایزو ۶۳۹', # Fuzzy
 	'wminc-prefinfo-project' => 'پروژه ویکی‌مدیا را انتخاب کنید (گزینه ویکی‌رشد برای کاربرانی که کار عمومی انجام می‌دهند)', # Fuzzy
 	'wminc-prefinfo-error' => 'شما یک پروژه‌ای را انتخاب کرده‌اید که به یک کد زبان احتیاج دارد.',
-	'wminc-error-move-unprefixed' => 'خطا: صفحه‌ای که شما قصد انتقال آن را دارید [[{{MediaWiki:Wminc-error-help}}|فاقد پیشوند و یا دارای پیشوند نادرست]] می‌باشد!',
+	'wminc-error-move-unprefixed' => 'خطا: صفحه‌ای که شما قصد انتقال آن را دارید [[{{MediaWiki:Wminc-error-help}}|فاقد پیشوند و یا دارای پیشوند نادرست]] است!',
 	'wminc-error-wronglangcode' => "'''خطا:''' یک [[{{MediaWiki:Wminc-error-help}}|کد زبان نادرست]] در این صفحه به کار رفته‌است: «$1»",
-	'wminc-error-unprefixed' => "'''خطا:''' این صفحه [[{{MediaWiki:Wminc-error-help}}|فاقد پیشوند]] می‌باشد!",
-	'wminc-error-unprefixed-suggest' => "'''خطا:''' این صفحه [[{{MediaWiki:Wminc-error-help}}|فاقد پیشوند]] می‌باشد! شما می‌توانید یک صفحه در [[:$1]] ایجاد کنید.",
+	'wminc-error-unprefixed' => "'''خطا:''' این صفحه [[{{MediaWiki:Wminc-error-help}}|فاقد پیشوند]] است!",
+	'wminc-error-unprefixed-suggest' => "'''خطا:''' این صفحه [[{{MediaWiki:Wminc-error-help}}|فاقد پیشوند]] است! شما می‌توانید یک صفحه در [[:$1]] ایجاد کنید.",
 	'wminc-error-wiki-exists' => 'این ویکی در حال حاضر وجود دارد. شما می‌توانید این صفحه را در $1 پیدا کنید. اگر ویکی به تازگی ایجاد شده است، لطفاً چند ساعت یا چند روز صبر کنید تا تمامی محتوا وارد شوند.',
 	'wminc-error-wiki-sister' => 'این صفحه متعلق به پروژه‌ای است که در اینجا میزبانی نمی‌شود. لطفاً به $1 بروید و ویکی را پیدا کنید.',
 	'randombytest' => 'صفحه تصادفی بر اساس ویکی آزمایشی',
@@ -1630,7 +1631,7 @@ $messages['fa'] = array(
 	'group-test-sysop' => 'مدیران ویکی آزمایشی',
 	'group-test-sysop-member' => 'مدیر ویکی آزمایشی',
 	'grouppage-test-sysop' => '{{ns:project}}:مدیران ویکی آزمایشی',
-	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|زبان «$3»]] یک [[wikipedia:ISO 639 macrolanguage|زبان بزرگ]] می‌باشد، که ترکیبی از زبان‌های مقابل می‌باشد:',
+	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|زبان «$3»]] یک [[wikipedia:ISO 639 macrolanguage|زبان بزرگ]] است، که ترکیبی از زبان‌های مقابل است:',
 	'wminc-code-collective' => 'کد "$1" به زبان خاصی ارجاع نمی‌دهد، ولی به مجموعه‌ای از زبان‌ها ارجاع می‌دهد، یعنی [[wikipedia:$2 language|زبان‌های «$3»]].',
 	'wminc-code-retired' => 'کد زبان تغییر کرده است و دیگر به زبان اصلی ارجاع نمی‌دهد.',
 	'wminc-listusers-testwiki' => 'شما در حال مشاهدهٔ کاربرانی هستید که ترجیح ویکی آزمایشی خود به $1 تنظیم کرده‌اند.',
