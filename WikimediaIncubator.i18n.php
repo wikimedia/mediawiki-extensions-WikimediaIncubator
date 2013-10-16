@@ -4405,6 +4405,7 @@ $messages['sl'] = array(
 	'wminc-testwiki' => 'Preizkusni wiki:',
 	'wminc-testwiki-code' => 'Jezik preizkusnega wikija:',
 	'wminc-testwiki-none' => 'Nič/Vse',
+	'wminc-testwiki-site' => '(Vzdrževanje)',
 	'wminc-recentchanges-all' => 'Vse zadnje spremembe',
 	'wminc-prefinfo-language' => 'Vaš jezik vmesnika – neodvisen od vašega preizkusnega wikija',
 	'wminc-prefinfo-code' => 'Koda jezika ISO 639, v katerem delate tukaj',
@@ -4445,6 +4446,12 @@ $messages['sl'] = array(
 	'wminc-searchwiki-match-englishname' => '»$1« je ime jezika $2 v angleščini.',
 	'wminc-searchwiki-match-nativename' => '»$1« je ime jezika $2 v tem jeziku.',
 	'wminc-searchwiki-gotoinfopage' => 'stran z informacijami',
+	'wminc-fs-langselect-title' => 'Izberite jezik',
+	'wminc-fs-signup-title' => 'Registracija',
+	'wminc-fs-settings-title' => 'Določite svoje nastavitve wikija',
+	'wminc-fs-userpage-title' => 'Ustvarite svojo uporabniško stran',
+	'wminc-fs-startwiki-title' => 'Začnite svoj wiki',
+	'wminc-fs-pagetitle-done' => ' – končano!',
 );
 
 /** Albanian (shqip)
