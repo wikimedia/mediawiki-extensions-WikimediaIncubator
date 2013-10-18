@@ -2998,6 +2998,8 @@ $messages['lb'] = array(
 	'wminc-fs-userpage-title' => 'Är Benotzersäit maachen',
 	'wminc-fs-startwiki-title' => 'Fänkt mat Ärer Wiki un',
 	'wminc-fs-pagetitle-done' => ' - fäerdeg!',
+	'wminc-fs-signup-text' => 'Wann Dir schonn e Benotzerkont hutt da [$1 loggt Iech w.e.g. an]. Wann Dir nach keen hutt, da [$2 leet w.e.g. e Benotzerkont un].
+Et ass net obligatoresch, mä et gëtt staark recommandéiert, an et dauert nëmmen een Ament fir e Benotzerkont ze maachen.',
 );
 
 /** Limburgish (Limburgs)
