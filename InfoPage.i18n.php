@@ -1268,6 +1268,22 @@ $messages['li'] = array(
 	'wminc-infopage-welcome' => "Wèlkóm bie g'm Wikimedia Incubator, e perjèk dèr Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|mieër info]])",
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'wminc-infopage-enter' => 'رو د سرآسونه',
+	'wminc-unknownlang' => '(كد زون ناشناس)',
+	'wminc-infopage-title-p' => 'ويكی پديا $1',
+	'wminc-infopage-title-b' => 'ويكی كتاو $1',
+	'wminc-infopage-title-t' => 'ويكی زون نامه $1',
+	'wminc-infopage-title-q' => 'ويكی پورس $1',
+	'wminc-infopage-title-n' => 'ويكی خور$1',
+	'wminc-infopage-title-s' => 'ويكی سرچشمه $1',
+	'wminc-infopage-title-v' => 'ويكی دونسمن گه$1',
+	'wminc-infopage-title-y' => 'ويكی سفر $1',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Matasg
