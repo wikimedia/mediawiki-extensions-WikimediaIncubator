@@ -1990,6 +1990,7 @@ $messages['gom-latn'] = array(
 	'wminc-searchwiki-gotoinfopage' => 'mahiti pan',
 	'wminc-fs-langselect-title' => 'Tuji bhas',
 	'wminc-fs-signup-title' => 'Kont roch',
+	'wminc-fs-settings-title' => 'Tuji wikichi posonti tharai',
 	'wminc-fs-userpage-title' => 'Tuzo vangddichem pan roch',
 	'wminc-fs-startwiki-title' => 'Tuji wiki suru kor',
 	'wminc-fs-pagetitle-done' => '- zalem mure!',
