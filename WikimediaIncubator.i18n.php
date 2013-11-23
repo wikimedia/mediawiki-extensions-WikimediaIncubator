@@ -2809,7 +2809,7 @@ $messages['ko'] = array(
 	'randombytest-nopages' => '당신의 테스트 위키에는 이름공간에 문서가 없습니다: $1.',
 	'wminc-viewuserlang' => '사용자 언어와 테스트 위키 찾기',
 	'wminc-viewuserlang-user' => '사용자 이름:',
-	'wminc-viewuserlang-go' => '찾기',
+	'wminc-viewuserlang-go' => '보기',
 	'wminc-userdoesnotexist' => '"$1" 사용자는 존재하지 않습니다.',
 	'wminc-ip' => '"$1"(은)는 IP 주소입니다.',
 	'right-viewuserlang' => '사용자 언어와 테스트 위키 보기',
@@ -2824,10 +2824,10 @@ $messages['ko'] = array(
 	'wminc-listusers-testwiki' => '$1에서 테스트 위키 환경 설정으로 설정한 사용자를 보고 있습니다.',
 	'wminc-search-nocreate-nopref' => '"$1"에 대해 찾았습니다. 어떤 문서를 만들 수 있는지 우리가 말할 수 있도록 [[Special:Preferences|테스트 위키 환경 설정]]을 설정하세요!',
 	'wminc-search-nocreate-suggest' => '"$1"에 대해 찾았습니다. 위키에서 <strong>[[$2]]</strong> 문서를 만들 수 있습니다!',
-	'wminc-searchwiki' => '위키에서 찾기',
+	'wminc-searchwiki' => '위키 검색',
 	'wminc-searchwiki-noproject' => '프로젝트를 선택하지 않았습니다.',
 	'wminc-searchwiki-noresults' => '결과가 없습니다. 언어 코드, 기본 이름과 인터페이스 언어 이름이나 영어 이름으로 검색할 수 있습니다.',
-	'wminc-searchwiki-selectproject' => '찾을 대상:',
+	'wminc-searchwiki-selectproject' => '검색 대상:',
 	'wminc-searchwiki-inputlanguage' => '언어:',
 	'wminc-searchwiki-go' => '찾기',
 	'wminc-searchwiki-multiplematches' => '검색어는 다음 언어와 일치합니다:',
@@ -2854,8 +2854,8 @@ $messages['ko'] = array(
 	'wminc-fs-userpage-text' => '지금 자신에 대한 몇 가지 기본 정보를 사용하여 $1 사용자 토론을 만드세요. 또한 이 문서의 위에 이에 대한 링크를 볼 수 있습니다.',
 	'wminc-fs-globaluser-text' => '사용자 계정이 로컬 계정입니다. 모든 위키미디어 위키에 사용할 수 있도록 $1을 통해 계정을 통합하는 것을 권장합니다.',
 	'wminc-fs-startwiki-text' => '위키의 접두어는 <strong>$1</strong>입니다. <strong>$2</strong>에서 위키의 대문 만들기로 위키를 시작할 수 있습니다.',
-	'wminc-fs-startwiki-exists-text' => '위키 접두어는 $1입니다. 대문은 $2에 있습니다. 이제 커뮤니티를 구축하기 위해 이 언어의 다른 사용자와 함께 공동 작업을 할 수 있습니다!
-이 문서를 만들려면 위의 찾기 상자에 이름을 입력하고 보여지는 링크를 클릭하세요.',
+	'wminc-fs-startwiki-exists-text' => '위키 접두어는 $1입니다. 대문은 $2에 있습니다. 이제 공동체를 구축하기 위해 이 언어의 다른 사용자와 함께 공동 작업을 할 수 있습니다!
+이 문서를 만들려면 위의 검색 상자에 이름을 입력하고 보여지는 링크를 클릭하세요.',
 );
 
 /** Komi-Permyak (Перем Коми)
