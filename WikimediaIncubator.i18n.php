@@ -5249,7 +5249,7 @@ $messages['zh-hans'] = array(
 	'wminc-testwiki-code' => '测试维基语言：',
 	'wminc-testwiki-none' => '无/所有',
 	'wminc-testwiki-site' => '（维护）',
-	'wminc-recentchanges-all' => '所有最近的更改',
+	'wminc-recentchanges-all' => '所有最近更改',
 	'wminc-prefinfo-language' => '你的界面语言 - 独立自你的测试wiki',
 	'wminc-prefinfo-code' => '您正在操作的语言的ISO 639语言代码',
 	'wminc-prefinfo-project' => '选择您正在操作的维基媒体项目',
@@ -5321,6 +5321,7 @@ $messages['zh-hans'] = array(
  * @author Simon Shek
  * @author Waihorace
  * @author Wrightbus
+ * @author Xiaomingyan
  */
 $messages['zh-hant'] = array(
 	'wminc-desc' => '維基孵育場的測試 wiki 系統',
@@ -5330,7 +5331,7 @@ $messages['zh-hant'] = array(
 	'wminc-testwiki-code' => '測試Wiki語言：',
 	'wminc-testwiki-none' => '無/所有',
 	'wminc-testwiki-site' => '（維修）',
-	'wminc-recentchanges-all' => '所有最近的更改',
+	'wminc-recentchanges-all' => '所有最近更改',
 	'wminc-prefinfo-language' => '您的介面語言 - 在您的測試 wiki 中為獨立的',
 	'wminc-prefinfo-code' => '您正在操作的語言的ISO 639語言代碼',
 	'wminc-prefinfo-project' => '選擇您正在操作的維基媒體項目',
