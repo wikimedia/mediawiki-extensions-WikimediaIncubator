@@ -1173,6 +1173,7 @@ Wenn Sie eine Seite erstellen möchten, geben Sie einfach den Seitennamen in das
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Marmase
  * @author Mirzali
  */
 $messages['diq'] = array(
@@ -1183,7 +1184,7 @@ $messages['diq'] = array(
 	'wminc-testwiki-code' => 'Zuwano ke bıcerbneyo:',
 	'wminc-testwiki-none' => 'Teba nê/Pêron',
 	'wminc-testwiki-site' => '(Weynayış)',
-	'wminc-recentchanges-all' => 'Vurnayışê peyêni pêro',
+	'wminc-recentchanges-all' => 'Vırnayışé bahdoyéni péro',
 	'wminc-prefinfo-language' => 'Temay zuwani- test wiki ra xoseri ya.',
 	'wminc-prefinfo-code' => "Kodê ISO 639'i zıwan dê xo bıgurweynê",
 	'wminc-prefinfo-project' => 'Xo rê proceyê de Wikimedia weçinê u bıgurweynê newke',
