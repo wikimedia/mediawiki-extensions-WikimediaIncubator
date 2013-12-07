@@ -921,7 +921,7 @@ $messages['ckb'] = array(
 	'wminc-viewuserlang-go' => 'بڕۆ',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Kuvaly
  * @author Matěj Grabovský
  * @author Mormegil
@@ -2104,6 +2104,7 @@ $messages['gu'] = array(
 /** Hebrew (עברית)
  * @author Amire80
  * @author Guycn1
+ * @author Guycn2
  * @author Rotemliss
  * @author YaronSh
  */
