@@ -893,6 +893,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'wminc-manual' => 'Куьйгалла дар',
 	'wminc-testwiki-none' => 'ХӀахӀа/массо',
 	'wminc-error-wiki-sister' => 'ХӀара агӀо ю кхузахь йоцу проектан. Дехар до, хӀокху $1 чугӀо вики каро.',
 	'wminc-viewuserlang-user' => 'Декъашхочун цӀе:',

@@ -2031,6 +2031,7 @@ $messages['tl'] = array(
 
 /** Turkish (Türkçe)
  * @author Emperyan
+ * @author Joseph
  * @author Suelnur
  */
 $messages['tr'] = array(
@@ -2046,14 +2047,23 @@ $messages['tr'] = array(
 	'wminc-infopage-title-y' => '$1 Vikigezgin',
 	'wminc-infopage-welcome' => "Bir Wikimedia Vakfı projesi olan Wikimedia Incubator'e hoş geldiniz. ([[{{MediaWiki:Aboutpage}}|Hakkında]])",
 	'wminc-infopage-missingwiki-text' => '$1, bu dilde henüz mevcut değil.',
+	'wminc-infopage-option-startwiki' => "Eğer bu vikiyi başlatmak istiyorsanız, lütfen
+'''[$3 bu adımları]''' ve [[{{MediaWiki:Wminc-manual-url}}|el kitabımızı]] takip edin.",
 	'wminc-infopage-option-startsister' => 'Bu vikiyi başlatmak istiyorsanız, <strong>[$2 $1]</strong> gidebilirsiniz.',
 	'wminc-infopage-option-languages-existing' => '[//www.$1.org Mevcut dil sürümü $1] için arama yapabilirsiniz.',
 	'wminc-infopage-option-sisterprojects-existing' => 'Bu dilde diğer projeler için arama yapabilirsiniz:',
 	'wminc-infopage-option-sisterprojects-other' => 'Bu dilde diğer projeler için arama yapabilirsiniz:',
+	'wminc-infopage-option-multilingual' => 'Alternatif olarak, çok dilli bir vikiye gidebilirsiniz:',
 	'wminc-infopage-createmainpage' => 'Bu dilde "Ana Sayfa" sözcüğünü girin:',
 	'wminc-infopage-contribute' => 'Eğer bu dili biliyorsanız, sizi katkıda bulunmaya davet ediyoruz!',
 	'wminc-infopage-status-open' => "Bu viki Wikimedia Incubator'de açık bir vikidir.",
+	'wminc-infopage-status-imported' => 'Bu kuvöz vikisi, viki kapatıldıktan sonra $1 sayfasından içeri aktarıldı.',
 	'wminc-infopage-status-closedsister' => "Bu alt etki alanı kapatılmıştır. Bu vikiye katkıda bulunmak için <strong>$2</strong>'ye/ya gidin.",
+	'wminc-infopage-status-approved' => 'Bu kuvöz vikisi [[meta:Special:MyLanguage/Language_committee|dil komitesi]] tarafından onaylandı ve yakında oluşturulacak.',
+	'wminc-infopage-status-created' => 'Bu proje dil komitesi tarafından onaylandı ve $1 sayfasında mevcut.',
+	'wminc-infopage-status-beforeincubator' => 'Bu proje Wikimedia Kuvöz başlamadan önce oluşturuldu ve $1 sayfasında mevcut.',
+	'wminc-infopage-status-beforeincubator-sister' => 'Bu proje $1 sayfasında mevcut.',
+	'wminc-infopage-error' => 'Hata: {{#infopage}} sadece ön ekli sayfalarda kullanılabilir.',
 );
 
 /** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
