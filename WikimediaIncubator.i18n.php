@@ -66,7 +66,7 @@ $messages['en'] = array(
 
 	# Search
 	'wminc-search-nocreate-nopref' => 'You searched for "$1". Please set your [[Special:Preferences|test wiki preference]] so we can tell you which page you can create!',
-	'wminc-search-nocreate-suggest' => 'You searched for "$1". You can create a page in your wiki at <strong>[[$2]]</strong>!',
+	'wminc-search-nocreate-suggest' => 'You searched for "$1". You can create a page in your wiki at <strong>[[$3]]</strong>!',
 
 	# SearchWiki
 	'wminc-searchwiki' => 'Search for a wiki',
