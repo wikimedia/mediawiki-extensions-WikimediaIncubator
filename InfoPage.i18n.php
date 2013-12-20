@@ -2077,6 +2077,13 @@ $messages['tzm'] = array(
 	'wminc-infopage-title-n' => 'ⵡⵉⴽⵉⵏⵖⵎⵉⵙⵏ $1',
 );
 
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Tel'et
+ */
+$messages['ug-arab'] = array(
+	'wminc-infopage-title-t' => '$1 ۋىكىلۇغەت',
+);
+
 /** Ukrainian (українська)
  * @author Andrijko Z.
  * @author Base
