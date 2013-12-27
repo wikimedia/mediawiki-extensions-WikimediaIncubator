@@ -52,7 +52,7 @@ class SpecialViewUserLang extends SpecialPage {
 		$this->getOutput()->addHTML(
 			Xml::fieldset( wfMessage( 'wminc-viewuserlang' )->plain() ) .
 			Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) ) .
-			Html::hidden( 'title', $this->getTitle()->getPrefixedText() ) .
+			Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			"<p>" .
 				Xml::inputLabel( wfMessage( 'wminc-viewuserlang-user' )->text(), 'target', 'viewuserlang-username', 40, $target ) .
 				' ' .
