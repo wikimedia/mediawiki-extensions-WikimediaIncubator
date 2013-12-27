@@ -388,6 +388,13 @@ e c'hallit [{{fullurl:{{FULLPAGENAME}}|action=edit}} kouiñ ar bajenn] ha heulia
 	'wminc-infopage-status-beforeincubator' => "Savet e oa bet ar raktres-mañ a-raok na loc'hfe gorerez Wikimedia hag hegerz eo war $1.",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'wminc-infopage-title-p' => 'Википеди кхечу маттахь «$1»',
+);
+
 /** Czech (čeština)
  * @author Koo6
  * @author Mormegil
