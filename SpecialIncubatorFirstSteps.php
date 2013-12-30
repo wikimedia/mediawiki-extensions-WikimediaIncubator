@@ -102,7 +102,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 			}
 			$linkParams = array( 'uselang' => $code,
 				'testwiki' => $this->getRequest()->getVal( 'testwiki' ) );
-			$showLanguages[] = Linker::linkKnown( $this->getTitle(),
+			$showLanguages[] = Linker::linkKnown( $this->getPageTitle(),
 				$names[$code], array(), $linkParams );
 		}
 
@@ -130,7 +130,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 		# Login / create account links
 		$link = SpecialPage::getTitleFor( 'Userlogin' );
-		$query = array( 'returnto' => $this->getTitle(),
+		$query = array( 'returnto' => $this->getPageTitle(),
 			'uselang' => $this->getRequest()->getVal( 'uselang' ) );
 		$urlTestWiki = WikimediaIncubator::getUrlParam();
 		if ( $urlTestWiki ) {
