@@ -682,6 +682,7 @@ $messages['et'] = array(
  * @author Huji
  * @author Mjbmr
  * @author Pouyana
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'wminc-infopage-enter' => 'رفتن به صفحهٔ اصلی',
@@ -695,12 +696,12 @@ $messages['fa'] = array(
 	'wminc-infopage-title-y' => 'ویکی‌سفر $1',
 	'wminc-infopage-welcome' => 'به ویکی‌رشد، پروژه‌ای از بنیاد ویکی‌مدیا خوش‌آمدید ([[{{MediaWiki:Aboutpage}}|درباره]])',
 	'wminc-infopage-missingwiki-text' => 'یک $1 از این زبان، هنوز وجود ندارد.',
-	'wminc-infopage-option-startwiki' => 'اگر شما می‌خواهید این ویکی را شروع کنید،
-شما می‌توانید [{{fullurl:{{FULLPAGENAME}}|action=edit}} صفحه را ایجاد کنید] و از [[{{MediaWiki:Wminc-manual-url}}|راهنمای ما]] پیروی کنید.', # Fuzzy
+	'wminc-infopage-option-startwiki' => "اگر شما می‌خواهید این ویکی را شروع کنید،
+'''[$3 این مراحل]''' و [[{{MediaWiki:Wminc-manual-url}}|راهنمای ما]] پیروی کنید.",
 	'wminc-infopage-option-languages-existing' => 'شما می‌توانید به دنبال [//www.$1.org نسخه‌های زبان موجود از $1] بگردید.',
 	'wminc-infopage-option-sisterprojects-existing' => 'شما می‌توانید به دنبال پروژه‌های موجود از این زبان بگردید:',
 	'wminc-infopage-option-sisterprojects-other' => 'شما می‌توانید به دنبال پروژه‌های دیگر این زبان بگردید:',
-	'wminc-infopage-option-multilingual' => 'شما می‌توانید به ویکی چند زبانه بروید:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'همچنین، شما می‌توانید به ویکی چند زبانه بروید:',
 	'wminc-infopage-createmainpage' => 'کلمه «صفحهٔ اصلی» برای این زبان را وارد کنید:',
 	'wminc-infopage-contribute' => 'اگر شما این زبان را می‌دانید، شما به مشارکت در آن تشویق شده‌اید!',
 	'wminc-infopage-status-imported' => 'این ویکی در حال رشد پس از بسته شدن از نشانی $1 وارد شده است.',
