@@ -1039,6 +1039,7 @@ $messages['cy'] = array(
 
 /** Danish (dansk)
  * @author Byrial
+ * @author Christian List
  * @author Froztbyte
  * @author Masz
  * @author Peter Alberti
@@ -1052,7 +1053,7 @@ $messages['da'] = array(
 	'wminc-testwiki-none' => 'Ingen/Alle',
 	'wminc-recentchanges-all' => 'Alle de seneste ændringer',
 	'wminc-prefinfo-language' => 'Dit brugerfladesprog - uafhængigt af din testwiki',
-	'wminc-prefinfo-code' => 'ISO 639-sprogkode', # Fuzzy
+	'wminc-prefinfo-code' => 'ISO 639-koden for det sprog, du arbejder med her',
 	'randombytest-nopages' => 'Der er ikke nogen sider i din testwiki i navnerummet $1.',
 	'wminc-viewuserlang-user' => 'Brugernavn:',
 	'wminc-viewuserlang-go' => 'Gå',
@@ -1187,7 +1188,7 @@ $messages['diq'] = array(
 	'wminc-testwiki-code' => 'Zuwano ke bıcerbneyo:',
 	'wminc-testwiki-none' => 'Teba nê/Pêron',
 	'wminc-testwiki-site' => '(Weynayış)',
-	'wminc-recentchanges-all' => 'Vırnayışé bahdoyéni péro',
+	'wminc-recentchanges-all' => 'Vurnayışê peyêni pêro',
 	'wminc-prefinfo-language' => 'Temay zuwani- test wiki ra xoseri ya.',
 	'wminc-prefinfo-code' => "Kodê ISO 639'i zıwan dê xo bıgurweynê",
 	'wminc-prefinfo-project' => 'Xo rê proceyê de Wikimedia weçinê u bıgurweynê newke',
