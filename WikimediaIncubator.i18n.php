@@ -904,6 +904,7 @@ $messages['ce'] = array(
 	'wminc-searchwiki-selectproject' => 'Лаха оцу:',
 	'wminc-searchwiki-go' => 'Дехьа гӀо',
 	'wminc-fs-langselect-title' => 'Харжа мотт',
+	'wminc-fs-pagetitle-done' => '— кийчча ю!',
 	'wminc-fs-langselect' => 'Дехьа гӀо $1 я $2',
 	'wminc-fs-settings-text' => 'Дехар до [[Special:Preferences#mw-htmlform-i18n|хьай агӀона чу гӀой]] а проектан гӀирсан хийцамаш бар.
 Хьона бакъхьа гуш ю оьшуш йолу опци, хьан агӀона чохь йолу. ЦхьалгӀаниг — бу ахьа дуьххьара хаьржина хьан интерфейсан болуш болу мотт, амма хьан йиш ю хӀинца а и хийца.
@@ -3744,6 +3745,7 @@ $messages['pfl'] = array(
 
 /** Polish (polski)
  * @author BeginaFelicysym
+ * @author Chrumps
  * @author Leinad
  * @author Mateuszek045
  * @author Sp5uhe
@@ -3801,7 +3803,7 @@ $messages['pl'] = array(
 	'wminc-fs-langselect-title' => 'Wybierz język',
 	'wminc-fs-signup-title' => 'Zarejestruj się',
 	'wminc-fs-settings-title' => 'Ustaw swoje preferencje',
-	'wminc-fs-userpage-title' => 'Stwórz swoją stronę użytkownika',
+	'wminc-fs-userpage-title' => 'Utwórz swoją stronę użytkownika',
 	'wminc-fs-startwiki-title' => 'Uruchom swoją wiki',
 	'wminc-fs-pagetitle-done' => '- gotowe!',
 );
