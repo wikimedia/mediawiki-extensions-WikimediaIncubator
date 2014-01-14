@@ -55,7 +55,7 @@ $wmincTestWikiNamespaces = array(
 	NS_MAIN, NS_TALK,
 	NS_TEMPLATE, NS_TEMPLATE_TALK,
 	NS_CATEGORY, NS_CATEGORY_TALK,
-	NS_MODULE, NS_MODULE_TALK,
+	828, 829, //NS_MODULE, NS_MODULE_TALK,
 );
 $wmincLangCodeLength = 12; // can be changed if needed (depends on policy)
 // Pseudo category namespaces like "Category:Maintenance:Delete", for easy whitelisting and structure
