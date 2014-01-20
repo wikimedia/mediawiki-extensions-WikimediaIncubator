@@ -1817,6 +1817,15 @@ Si vous ne connaissez pas le code, consultez notre [[{{MediaWiki:Wminc-manual-ur
 	'wminc-fs-startwiki-exists-text' => 'Le préfixe de votre wiki est $1. La page d’accueil se trouve à $2. Maintenant, vous pouvez collaborer avec d’autres locuteurs de cette langue et bâtir une communauté ! !N !Si vous souhaitez créer une page, tapez simplement son nom dans la boîte de recherche ci-dessus et cliquez sur le lien que vous verrez.',
 );
 
+/** Cajun French (français cadien)
+ * @author Ebe123
+ */
+$messages['frc'] = array(
+	'wminc-manual' => 'Manuel',
+	'wminc-listwikis' => 'Liste des wikis',
+	'wminc-testwiki' => 'Test wiki :',
+);
+
 /** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
