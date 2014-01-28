@@ -206,10 +206,16 @@ It is best '''not''' to change the link to the Wikipedia article about the langu
 * $3 - the translated language name from CLDR, if available (otherwise, English) 
 It is best '''not''' to change the link to the Wikipedia article about the language.",
 	'wminc-listusers-testwiki' => 'Used on [[Special:ListUsers]]. $1 is either "Incubator" or a link to pages like "Wx/xyz".',
-	'wminc-search-nocreate-nopref' => 'Used on [[Special:Search]]. $1 is the search term.',
+	'wminc-search-nocreate-nopref' => 'Used on [[Special:Search]]. Parameters:
+* $1 - the search term
+See also:
+* {{msg-mw|Wminc-search-nocreate-suggest}}',
 	'wminc-search-nocreate-suggest' => 'Used on [[Special:Search]]. Parameters:
 * $1 - the search term
-* $2 - the prefixed form of $1',
+* $2 - (Unused)
+* $3 - the prefixed form of $1
+See also:
+* {{msg-mw|Wminc-search-nocreate-nopref}}',
 	'wminc-searchwiki' => '{{doc-special|SearchWiki|unlisted=1}}
 The special page enables to search *for* a wiki in a specific language (and *not* to search for pages!)',
 	'wminc-searchwiki-noproject' => 'Error message',
@@ -4353,6 +4359,13 @@ $messages['sgs'] = array(
 	'right-viewuserlang' => 'Veizietė nauduotuojė kalba ė testavėma wiki',
 	'grouppage-test-sysop' => '{{ns:project}}: Testavėma wiki admėnėstratuorē',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 kalba|"$3" kalba]] īr [[wikipedia:ISO 639 makrokalba|makrokalba]], katra sodara šėtas kalbas:',
+);
+
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
+ * @author Kolega2357
+ */
+$messages['sh'] = array(
+	'wminc-viewuserlang-user' => 'Korisničko ime:',
 );
 
 /** Tachelhit (Tašlḥiyt/ⵜⴰⵛⵍⵃⵉⵜ)
