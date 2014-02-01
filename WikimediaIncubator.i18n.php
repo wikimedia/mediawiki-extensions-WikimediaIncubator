@@ -4844,6 +4844,7 @@ $messages['tk'] = array(
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Jewel457
  */
 $messages['tl'] = array(
 	'wminc-desc' => 'Sistemang pangsubok ng wiki para sa Pisaan ng Wikimedia',
@@ -4882,7 +4883,7 @@ $messages['tl'] = array(
 	'wminc-code-retired' => 'Nabago na ang kodigo ng wikang ito at hindi na tumutukoy sa orihinal na wika.',
 	'wminc-listusers-testwiki' => 'Tinatanaw mo ang mga tagagamit na nagtakda sa kanilang nais sa wiking pangsubok upang maging $1.',
 	'wminc-search-nocreate-nopref' => 'Hinanap mo ang "$1". Paki itakda ang iyong [[Special:Preferences|kanaisan sa pangsubok na wiki]] upang masabi namin sa iyo kung aling pahina ang malilikha mo!',
-	'wminc-search-nocreate-suggest' => 'Naghanap ka ng "$1". Makakalikha ka ng isang pahina sa loob ng wiki mo roon sa <strong>[[$3]]</strong>!',
+	'wminc-search-nocreate-suggest' => 'Hinahanap mo ang "$1". Maaaring likhaing ang pahina sa iyong wiki sa <strong>[[$3]]</strong>!',
 	'wminc-searchwiki' => 'Maghanap ng isang wiki',
 	'wminc-searchwiki-noproject' => 'Hindi ka pumili ng isang proyekto.',
 	'wminc-searchwiki-noresults' => 'Walang mga resulta. Makapaghahanap ka ayon sa mga kodigo ng wika, katutubong mga pangalan at mga pangalang nasa wika ng iyong ugnayang-mukha o Ingles.',
