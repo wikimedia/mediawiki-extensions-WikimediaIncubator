@@ -374,6 +374,7 @@ $messages['anp'] = array(
 
 /** Arabic (العربية)
  * @author Ciphers
+ * @author Kuwaity26
  * @author Meno25
  * @author Orango
  * @author OsamaK
@@ -392,7 +393,7 @@ $messages['ar'] = array(
 	'wminc-recentchanges-all' => 'كل التغييرات الحديثة',
 	'wminc-prefinfo-language' => 'لغة واجهتك - مستقلة عن ويكي الاختبار',
 	'wminc-prefinfo-code' => 'رمز ISO 639 للغة', # Fuzzy
-	'wminc-prefinfo-project' => 'إختر مشروع ويكيميديا (خيار الحضانة هو للمستخدمين الذين يقومون بعمل عام)', # Fuzzy
+	'wminc-prefinfo-project' => 'اختر مشروع ويكيميديا الذي تعمل عليه هنا',
 	'wminc-prefinfo-error' => 'اخترت مشروعًا يختاج رمز لغة.',
 	'wminc-error-move-unprefixed' => 'خطأ: الصفحة التي تحاول نقلها هي [[{{MediaWiki:Wminc-error-help}}|بلا بادئة أو ببادئة خاطئة]]!',
 	'wminc-error-wronglangcode' => "'''خطأ:''' هذه الصفحة فيها [[{{MediaWiki:Wminc-error-help}}|رمز لغة خاطئ]] \"\$1\"!",
@@ -409,15 +410,24 @@ $messages['ar'] = array(
 	'wminc-ip' => '"$1" عنوان بروتوكول إنترنت.',
 	'right-viewuserlang' => 'رؤية لغة وويكي الاختبار الخاص بالمستخدم',
 	'group-test-sysop' => 'إداريو ويكي التجربة',
-	'group-test-sysop-member' => 'إداري ويكي التجربة', # Fuzzy
+	'group-test-sysop-member' => '{{GENDER:$1|إداري الويكي التجريبي}}',
 	'grouppage-test-sysop' => '{{ns:project}}:إداريون ويكي التجربة',
 	'wminc-code-macrolanguage' => '[[wikipedia:$2 language|اللغة "$3"]] [[wikipedia:ISO 639 macrolanguage|لغة كبرى]]، تشمل اللغات الصغرى التالية:',
 	'wminc-code-collective' => 'رمز "$1" لا يدل على لغة معينة، بل على مجموعة من اللغات، وهي [[wikipedia:$2 language|اللغات "$3"]].',
 	'wminc-code-retired' => 'رمز اللغة قد تغير أو لم يعد يرمز به إلى اللغة الأصلية.',
 	'wminc-listusers-testwiki' => 'ما تراه هو المستخدمون الذي عينوا تفضيل ويكي التجربة على $1',
+	'wminc-searchwiki' => 'ابحث عن ويكي',
+	'wminc-searchwiki-noproject' => 'لم تقم بتحديد مشروع.',
+	'wminc-searchwiki-selectproject' => 'ابحث عن:',
+	'wminc-searchwiki-inputlanguage' => 'في لغة:',
+	'wminc-searchwiki-go' => 'اذهب',
 	'wminc-searchwiki-gotoinfopage' => 'صفحة معلومات',
 	'wminc-fs-langselect-title' => 'اختر اللغة',
+	'wminc-fs-signup-title' => 'أنشئ حسابًا',
+	'wminc-fs-settings-title' => 'تعيين تفضيلاتك للويكي',
 	'wminc-fs-userpage-title' => 'أنشئ صفحة المستخدم الخاصة بك',
+	'wminc-fs-startwiki-title' => 'ابدأ الويكي الخاص بك',
+	'wminc-fs-pagetitle-done' => '- تمّ!',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
