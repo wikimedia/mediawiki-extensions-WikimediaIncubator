@@ -1772,6 +1772,7 @@ Jos haluat luoda sivun, kirjoita vain sen nimi hakulaatikkoon yläpuolella ja se
  * @author Sylvain2803
  * @author Tpt
  * @author Urhixidur
+ * @author Verdy p
  */
 $messages['fr'] = array(
 	'wminc-desc' => 'Système de test de wiki pour Wikimedia Incubator',
@@ -1803,6 +1804,8 @@ $messages['fr'] = array(
 	'group-test-sysop' => 'Administrateurs du wiki de test',
 	'group-test-sysop-member' => '{{GENDER:$1|administrateur|administratrice}} du wiki de test',
 	'grouppage-test-sysop' => '{{ns:project}}:Test wiki - Administrateurs',
+	'group-test-sysop.css' => '/* Le CSS placé ici n’affectera que les administrateurs du wiki de test */',
+	'group-test-sysop.js' => '/* Le Javascript placé ici n’affectera que les administrateurs du wiki de test */',
 	'wminc-code-macrolanguage' => 'La [[wikipedia:$2 language|langue « $3 »]] est une [[wikipedia:fr:macro-langue|macro-langue]], comprenant les langues suivantes :',
 	'wminc-code-collective' => 'Le code « $1 » ne se réfère pas à une langue spécifique, mais à une collection de langues, en particulier les [[wikipedia:$2 language|langues « $3 »]]',
 	'wminc-code-retired' => 'Ce code de langue a été changé est ne fait plus référence à la langue d’origine.',
