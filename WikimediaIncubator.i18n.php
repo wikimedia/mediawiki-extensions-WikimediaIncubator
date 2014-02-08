@@ -4023,6 +4023,7 @@ $messages['pt'] = array(
 /** Brazilian Portuguese (português do Brasil)
  * @author Cainamarques
  * @author Eduardo.mps
+ * @author Elival
  * @author Helder.wiki
  * @author Heldergeovane
  * @author Jaideraf
@@ -4064,7 +4065,7 @@ $messages['pt-br'] = array(
 	'wminc-code-retired' => 'Este código de idioma foi mudado e já não se refere à língua original.',
 	'wminc-listusers-testwiki' => 'Você está visualizando os usuários que criaram sua preferência de teste para $1.',
 	'wminc-search-nocreate-nopref' => 'Você procura por "$1". Por favor, configure sua [[Special:Preferences|preferência de wiki de testes]] para nós podermos lhe dizer que página poderá criar!',
-	'wminc-search-nocreate-suggest' => 'Você procura por "$1 ". Você pode criar uma página na sua wiki em <strong>[[$3]]</strong>!',
+	'wminc-search-nocreate-suggest' => 'Você procurou por "$1 ". Você pode criar uma página na sua wiki em <strong>[[$3]]</strong>!',
 	'wminc-searchwiki-go' => 'Ir',
 	'wminc-fs-pagetitle-done' => ' - feito!',
 );
