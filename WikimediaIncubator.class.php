@@ -843,12 +843,25 @@ class WikimediaIncubator {
 
 		$newNs = $title->getNamespace();
 		$newTitle = $title->getText();
+		$newTitleData = self::analyzePrefix( $newTitle, false, true );
 		if ( !in_array( $title->getNamespace(), $wmincTestWikiNamespaces ) ) {
 			# namespace not affected by the prefix system: show normal msg
 			return true;
 		} elseif ( $prefix == $wmincProjectSite['short'] ) {
 			$newNs = NS_PROJECT;
-		} else {
+		} elseif ( self::getDBState( $newTitleData ) == 'existing' ) {
+			# the wiki already exists
+			$link = self::getSubdomain(
+				$newTitleData['lang'], $newTitleData['project'],
+				( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
+				str_replace( ' ', '_', $newTitleData['realtitle'] )
+			);
+			$params[0] = 'wminc-error-wiki-exists';
+			$params[1] = "[$link ". self::makeExternalLinkText( $link ) . "]";
+			return true;
+		} elseif ( $newTitleData['error'] ) {
+			# only add a prefix to the title if there is no prefix
+			# ('error' by analyzePrefix)
 			$newTitle = $prefix . '/' . $newTitle;
 		}
 
