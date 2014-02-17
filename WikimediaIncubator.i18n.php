@@ -5396,6 +5396,7 @@ $messages['zh-hans'] = array(
  * @author Cwlin0416
  * @author Horacewai2
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Mark85296341
  * @author Shinjiman
  * @author Simon Shek
@@ -5458,5 +5459,12 @@ $messages['zh-hant'] = array(
 	'wminc-fs-userpage-title' => '創建您的用戶頁',
 	'wminc-fs-startwiki-title' => '開始使用您的wiki',
 	'wminc-fs-pagetitle-done' => ' - 完成！',
+	'wminc-fs-intro' => '歡迎來到{{SITENAME}}第一步嚮導。您將被逐步指引開始一個新wiki。',
 	'wminc-fs-langselect' => '以$1或$2繼續',
+	'wminc-fs-signup-text' => '如果您已經有一個用戶賬戶，請[$1 登錄]。如果您還沒有，請[$2 創建一個用戶賬戶]。這並非必須，但我們強烈建議您這樣做，並且只會消耗幾秒鐘。',
+	'wminc-fs-settings-text' => '現在請前往[[Special:Preferences#mw-htmlform-i18n|您的用戶設置]]頁並更改您的測試wiki設置。第一個是您的界面語言，您在第一步選擇的，但您仍可更改之。第二個是您要做出貢獻的專案，第三個是對應專案的語言代碼。如果您不知道代碼，請查閱[[{{MediaWiki:Wminc-manual-url}}|我們的手冊]]或[[{{MediaWiki:Portal-url}}|在此]]詢問。',
+	'wminc-fs-userpage-text' => '現在請創建您的用戶頁$1並寫一些關於您的簡要資訊。您也可以在本頁面頂部看見連接。',
+	'wminc-fs-globaluser-text' => '您使用的賬戶是本地賬戶。我們建議您通過$1獲得全域賬戶以便於任何維基媒體wiki登錄。',
+	'wminc-fs-startwiki-text' => '您wiki首碼是<strong>$1</strong>。您可於<strong>$2</strong>通過創建wiki主頁啟動之。',
+	'wminc-fs-startwiki-exists-text' => '您wiki首碼是$1。主頁位於$2。您現在可以與此語言之其他用戶組建一個社群協作了！如果您希望創建一個頁面，只需在搜尋框中輸入名稱，之後即可看見鏈接。',
 );
