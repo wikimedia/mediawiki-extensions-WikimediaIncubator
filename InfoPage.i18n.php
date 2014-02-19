@@ -67,7 +67,9 @@ $messages['qqq'] = array(
 Used in:
 * {{msg-mw|Wminc-infopage-option-startwiki}}
 * {{msg-mw|Wminc-fs-settings-text}}',
-	'wminc-infopage-title-p' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
+	'wminc-infopage-title-p' => "This is the main title of the info page. Parameters:
+* $1 - the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.
+{{Identical|Wikipedia}}",
 	'wminc-infopage-title-b' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-t' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-q' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
