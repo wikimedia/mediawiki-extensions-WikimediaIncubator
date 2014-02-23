@@ -110,6 +110,7 @@ If you want to create a page, just type in the name in the search box above, and
 
 /** Message documentation (Message documentation)
  * @author Chaojoker
+ * @author Ebe123
  * @author EugeneZelenko
  * @author Fryed-peach
  * @author Nike
@@ -133,7 +134,9 @@ $messages['qqq'] = array(
 	'wminc-testwiki-site' => 'Used on [[Special:Preferences]] as an option for users not working on a specific test wiki',
 	'wminc-recentchanges-all' => 'Used in the sidebar for a link to [[Special:RecentChanges]] (with default view of all changes).',
 	'wminc-prefinfo-language' => 'See [[:File:Incubator-testwiki-preference.jpg]]. Extra clarification for the (normal) language selection.',
-	'wminc-prefinfo-code' => 'See [[:File:Incubator-testwiki-preference.jpg]].',
+	'wminc-prefinfo-code' => 'Describes the input requested for the language of the test-wiki for the Preferences.
+
+See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-prefinfo-project' => 'Explanation for a dropdown box in your preferences, with options: "None/All", "Wikipedia", "Wikibooks", "Wikinews", etc... and "Incubator". See [[:File:Incubator-testwiki-preference.jpg]].',
 	'wminc-prefinfo-error' => 'See [[:File:Incubator-testwiki-preference.jpg]]. If the user selected a Wikimedia project but not a language code, this error message is shown.',
 	'wminc-error-help' => 'Used in:
@@ -1400,6 +1403,7 @@ $messages['el'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author Ebe123
  * @author KuboF
  * @author Yekrats
  */
@@ -1438,9 +1442,12 @@ $messages['eo'] = array(
 	'wminc-listusers-testwiki' => 'Vi rigardas uzantojn kiu agordas vikian preferon al $1.',
 	'wminc-searchwiki' => 'Serĉi vikion',
 	'wminc-searchwiki-noproject' => 'Vi elektis neniun projekton.',
+	'wminc-searchwiki-selectproject' => 'Serĉi',
 	'wminc-searchwiki-inputlanguage' => 'En lingvo:',
+	'wminc-searchwiki-go' => 'Ek',
 	'wminc-searchwiki-gotoinfopage' => 'informpaĝo',
 	'wminc-fs-langselect-title' => 'Elekti lingvon',
+	'wminc-fs-signup-title' => 'Registriĝi',
 	'wminc-fs-userpage-title' => 'Kreu vian uzantopaĝon',
 	'wminc-fs-pagetitle-done' => '- farita!',
 );

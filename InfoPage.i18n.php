@@ -54,6 +54,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Chaojoker
+ * @author Ebe123
  * @author Kghbln
  * @author SPQRobin
  * @author Shirayuki
@@ -98,7 +99,7 @@ See also:
 See also:
 * {{msg-mw|Wminc-infopage-option-startwiki}} - if not sister',
 	'wminc-infopage-option-languages-existing' => "'''$1''' is the project name (Wikipedia, Wikinews, ...).",
-	'wminc-infopage-option-sisterprojects-existing' => 'Followed by clickable logos of projects Wikipedia, Wiktionary, Wikibooks, ...',
+	'wminc-infopage-option-sisterprojects-existing' => 'Followed by clickable logos of content projects: Wikipedia, Wiktionary, Wikiquote, Wikinews, Wikivoyage, Wikisource, and Wikiversity.',
 	'wminc-infopage-option-sisterprojects-other' => 'Followed by clickable logos of projects Wikipedia, Wiktionary, Wikibooks, ...',
 	'wminc-infopage-option-multilingual' => 'Followed by clickable logos of Meta, Commons, Wikispecies, MediaWiki and Wikidata.',
 	'wminc-infopage-createmainpage' => 'Followed by an input box to enter the translation for "Main Page".',
@@ -590,10 +591,11 @@ $messages['el'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author Ebe123
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'wminc-unknownlang' => '(nekonata lingvo kun kodo "$1")', # Fuzzy
+	'wminc-unknownlang' => '(nekonata lingvo)',
 	'wminc-infopage-title-p' => 'Vikipedio $1',
 	'wminc-infopage-title-b' => 'Vikilibroj $1',
 	'wminc-infopage-title-t' => 'Vikivortaro $1',
@@ -601,10 +603,13 @@ $messages['eo'] = array(
 	'wminc-infopage-title-n' => 'Vikinovaĵoj $1',
 	'wminc-infopage-title-s' => 'Vikifontaro $1',
 	'wminc-infopage-title-v' => 'Vikiversitio $1',
+	'wminc-infopage-title-y' => 'Vikivojaĝo $1',
+	'wminc-infopage-welcome' => 'Bonvenon al la Vikimedia Kovilo, projekto de la Fondaĵo Vikimedio ([[{{MediaWiki:Aboutpage}}|Pri]])',
 	'wminc-infopage-missingwiki-text' => '$1 en ĉi tiu linvo ne jam ekzistas.',
 	'wminc-infopage-option-sisterprojects-other' => 'Vi povas serĉi aliajn projektojn en ĉi tiu lingvo:',
 	'wminc-infopage-createmainpage' => 'Eniru la vorton "Ĉefpaĝon" laŭ ĉi tiu lingvo:',
 	'wminc-infopage-contribute' => 'Se vi scipovas ĉi tiun lingvon, vi estas kuraĝigita por kontribui!',
+	'wminc-infopage-status-beforeincubator-sister' => 'Ĉi tio projekto estas havebla sur $1',
 );
 
 /** Spanish (español)
@@ -787,6 +792,14 @@ $messages['fr'] = array(
 	'wminc-infopage-status-beforeincubator' => 'Ce projet, disponible sur $1, a été créé avant que l’Incubateur Wikimedia ait été lancé.',
 	'wminc-infopage-status-beforeincubator-sister' => 'Ce projet est disponible sur $1 .',
 	'wminc-infopage-error' => 'Erreur: {{#infopage}} ne peut être utilisé que sur des pages préfixées.',
+);
+
+/** Cajun French (français cadien)
+ * @author Ebe123
+ */
+$messages['frc'] = array(
+	'wminc-infopage-title-p' => 'Wikipédia $1',
+	'wminc-infopage-title-b' => 'Wikibooks $1',
 );
 
 /** Franco-Provençal (arpetan)
