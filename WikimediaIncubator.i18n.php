@@ -1632,6 +1632,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Ebraminio
  * @author Huji
  * @author Mehran
@@ -1675,6 +1676,7 @@ $messages['fa'] = array(
 	'wminc-code-retired' => 'کد زبان تغییر کرده است و دیگر به زبان اصلی ارجاع نمی‌دهد.',
 	'wminc-listusers-testwiki' => 'شما در حال مشاهدهٔ کاربرانی هستید که ترجیح ویکی آزمایشی خود به $1 تنظیم کرده‌اند.',
 	'wminc-searchwiki' => 'جستجو برای یک ویکی',
+	'wminc-searchwiki-noproject' => 'شما پروژه‌ای را انتخاب نکردید.',
 	'wminc-searchwiki-selectproject' => 'جستجو برای:',
 	'wminc-searchwiki-inputlanguage' => 'به زبان:',
 	'wminc-searchwiki-go' => 'برو',
