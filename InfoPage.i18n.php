@@ -592,10 +592,11 @@ $messages['el'] = array(
 
 /** Esperanto (Esperanto)
  * @author Ebe123
+ * @author KuboF
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'wminc-unknownlang' => '(nekonata lingvo)',
+	'wminc-unknownlang' => '(nekonata lingvokodo)',
 	'wminc-infopage-title-p' => 'Vikipedio $1',
 	'wminc-infopage-title-b' => 'Vikilibroj $1',
 	'wminc-infopage-title-t' => 'Vikivortaro $1',
@@ -609,7 +610,7 @@ $messages['eo'] = array(
 	'wminc-infopage-option-sisterprojects-other' => 'Vi povas serĉi aliajn projektojn en ĉi tiu lingvo:',
 	'wminc-infopage-createmainpage' => 'Eniru la vorton "Ĉefpaĝon" laŭ ĉi tiu lingvo:',
 	'wminc-infopage-contribute' => 'Se vi scipovas ĉi tiun lingvon, vi estas kuraĝigita por kontribui!',
-	'wminc-infopage-status-beforeincubator-sister' => 'Ĉi tio projekto estas havebla sur $1',
+	'wminc-infopage-status-beforeincubator-sister' => 'Ĉi tiu projekto estas disponebla ĉe $1',
 );
 
 /** Spanish (español)
@@ -1674,7 +1675,7 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 	'wminc-infopage-contribute' => 'Se conhece esta língua, está convidado a colaborar!',
 	'wminc-infopage-status-imported' => 'Esta wiki da Incubadora foi importada de $1 após a wiki ter sido fechada.',
 	'wminc-infopage-status-closedsister' => 'Este subdomínio foi fechado. Vá a <strong>$2</strong> para contribuír nesta wiki.',
-	'wminc-infopage-status-created' => 'Este projeto foi aprovado pelo comitê linguístico e está agora disponível em $1.',
+	'wminc-infopage-status-created' => 'Este projeto foi aprovado pelo comité linguístico e está agora disponível em $1.',
 	'wminc-infopage-status-beforeincubator' => 'Este projeto foi criado antes do início da Incubadora Wikimedia e está disponível em $1.',
 	'wminc-infopage-error' => 'Erro: {{#infopage}} só pode ser usada em páginas com prefixos.',
 );
