@@ -1675,16 +1675,40 @@ $messages['fa'] = array(
 	'wminc-code-collective' => 'کد "$1" به زبان خاصی ارجاع نمی‌دهد، ولی به مجموعه‌ای از زبان‌ها ارجاع می‌دهد، یعنی [[wikipedia:$2 language|زبان‌های «$3»]].',
 	'wminc-code-retired' => 'کد زبان تغییر کرده است و دیگر به زبان اصلی ارجاع نمی‌دهد.',
 	'wminc-listusers-testwiki' => 'شما در حال مشاهدهٔ کاربرانی هستید که ترجیح ویکی آزمایشی خود به $1 تنظیم کرده‌اند.',
+	'wminc-search-nocreate-nopref' => 'شما برای "$1" جستجو کردید. لطفاً [[Special:Preferences|اولویت ویکی امتحانی]] خود را تنظیم کنید بنابراین ما می‌توانیم به شما صفحه‌ای را که می‌توانید ایجاد کنید را بگوییمǃ',
+	'wminc-search-nocreate-suggest' => 'شما برای "$1" جستجو کرده‌اید. شما می‌توانید یک صفحه در ویکی خود در <strong>[[$3]]</strong> ایجاد کنیدǃ',
 	'wminc-searchwiki' => 'جستجو برای یک ویکی',
 	'wminc-searchwiki-noproject' => 'شما پروژه‌ای را انتخاب نکردید.',
+	'wminc-searchwiki-noresults' => 'بدون نتیجه. شما می‌توانید توسط کدهای زبان، نام‌های مادری و نام‌ها در رابط زبان خود یا انگلیسی جستجو کنید.',
 	'wminc-searchwiki-selectproject' => 'جستجو برای:',
 	'wminc-searchwiki-inputlanguage' => 'به زبان:',
 	'wminc-searchwiki-go' => 'برو',
+	'wminc-searchwiki-multiplematches' => 'شما مطابقت‌های زبان‌های زیر را جستجو می‌کنیدː',
+	'wminc-searchwiki-match-langcode' => '"$1" یک کد زبان آی‌اس‌اُ ۶۳۹ برای $2 است.',
+	'wminc-searchwiki-match-userlangname' => '$1 نام یک زبان است.',
+	'wminc-searchwiki-match-englishname' => '" $1 " نامی برای $2 در زبان انگلیسی است.',
+	'wminc-searchwiki-match-nativename' => '" $1 " نامی برای $2 در آن زبان است.',
 	'wminc-searchwiki-gotoinfopage' => 'صفحهٔ اطلاعات',
+	'wminc-fs-pagetitle' => 'شروع شده ویزارد ـ $1',
 	'wminc-fs-langselect-title' => 'انتخاب زبان',
 	'wminc-fs-signup-title' => 'ثبت نام',
+	'wminc-fs-settings-title' => 'تنظیم اولویت ویکی شما',
+	'wminc-fs-userpage-title' => 'ایجاد صفحه کاربری شما',
 	'wminc-fs-startwiki-title' => 'آغاز ویکی‌تان',
 	'wminc-fs-pagetitle-done' => ' - انجام شد!',
+	'wminc-fs-intro' => 'به {{SITENAME}} اولین مرحله ویزارد خوش‌ آمدید. شما از طریق فرآیند شروع یک ویکی جدید هدایت خواهیدشد.',
+	'wminc-fs-langselect' => 'ادامه در $1 یا $2',
+	'wminc-fs-signup-text' => 'اکز شما در حال حاضر یک حساب کاربری دارید، لطفاً [$1 وارد شوید]. اگر هنوز ندارید، لطفاً [$2 یک حساب کاربری ایجاد کنید].
+نیاز نیست، اما به شدت توصیه شده، و فقط چند لحظه برای ایجاد آن طول می‌کشد.',
+	'wminc-fs-settings-text' => 'لطفاً به [[Special:Preferences#mw-htmlform-i18n|ترجیحاتتان بروید]] و تنظیمات ویکی آزماشی را تغییر دهید.
+اولی رابط زبانی‌است که شما در مرحلهٔ اول انتخاب کرده‌اید ولی هنوز می‌توانید آن را تغییر دهید.
+دونی پروژه‌ای است که می‌خواهید در آن مشارکت کتید و سومی زبان پروژه‌ای است که شما می‌خواهد در آن مشارکت کتید.
+اگر کد را نمی‌دانید، لطفاً با [[{{MediaWiki:Wminc-manual-url}}|راهنمای]] ما مشورت کنید و یا [[{{MediaWiki:Portal-url}}|کمک]] بخواهید.',
+	'wminc-fs-userpage-text' => 'لطفاً اکنون صفحه کاربری خود $1 را با برخی از اطلاعات اساسی درباره خود ایجاد کنید. شما همچنین می‌توانید یک لینک که در بالای این صفحه است را ببینید.',
+	'wminc-fs-globaluser-text' => 'حساب کاربری شما داخلی است. برای ایجاد جهانی آن از طریق $1 توصیه می‌شود بنابراین شما می‌توانید از آن در هر ویکی ویکی‌مدیا استفاده کنید.',
+	'wminc-fs-startwiki-text' => 'پیشوند ویکی شما <strong>$1</strong> است. شما می‌توانید ویکی را با ایجاد صفحه اصلی ویکی در <strong>$2</strong> شروع کنید.',
+	'wminc-fs-startwiki-exists-text' => 'پیشوند ویکی شما $1 است. صفحه اصلی در $2 است. شما اکنون می‌توانید با دیگر سخنگویان این زبان برای ساختن یک جامعه همکاری کنیدǃ
+اگر شما می‌خواهید یک صفحه ایجتد کنید، فقط در نام درجعبه جستجو بالا تایپ کنید، و لینکی که شما خواهید دید را دنبال کنید.',
 );
 
 /** Finnish (suomi)
@@ -4714,9 +4738,19 @@ $messages['sv'] = array(
 	'wminc-fs-userpage-title' => 'Skapa din användarsida',
 	'wminc-fs-startwiki-title' => 'Starta din wiki',
 	'wminc-fs-pagetitle-done' => ' – klart!',
+	'wminc-fs-intro' => 'Välkommen till {{SITENAME}}s första-steg-guide. Du kommer att guidas genom processen med att starta en ny wiki.',
 	'wminc-fs-langselect' => 'Gå vidare på $1 eller $2',
 	'wminc-fs-signup-text' => 'Om du redan har ett användarkonto, vänligen [$1 logga in]. Om du inte har ett ännu, vänligen [$2 skapa ett användarkonto].
 Det är inte nödvändigt, men rekommenderas starkt, och det bara tar några sekunder att skapa ett.',
+	'wminc-fs-settings-text' => 'Vänligen gå nu till [[Special:Preferences#mw-htmlform-i18n|dina inställningar]] och ändra dina testwiki-inställningar.
+Den första är ditt gränssnittsspråk, som du valde i det första steget, men du kan fortfarande ändra det.
+Den andra är projektet du vill bidra till och den tredje är språkkoden för projektet du vill bidra till.
+Om du inte kan koden, vänligen rådfråga vår [[{{MediaWiki:Wminc-manual-url}}|manual]] eller fråga om [[{{MediaWiki:Portal-url}}|hjälp]].',
+	'wminc-fs-userpage-text' => 'Vänligen skapa nu din användarsida $1 med lite grundläggande information om dig själv. Du hittar även en länk till den överst på denna sida.',
+	'wminc-fs-globaluser-text' => 'Ditt användarkonto är lokalt. Det är rekommenderat att göra den global via $1, då kan du använda den på alla Wikimedias wikis.',
+	'wminc-fs-startwiki-text' => 'Prefixet för din wiki är <strong>$1</strong>. Du kan starta wikin genom att skapa wikins Huvudsida på <strong>$2</strong>.',
+	'wminc-fs-startwiki-exists-text' => 'Prefixet för din wiki är $1. Huvudsidan är på $2. Du kan nu samarbeta med andra talare av detta språk för att bygga upp en gemenskap!
+Om du vill skapa en sida, skriv bara in namnet i sökrutan ovan och följ länken som visas.',
 );
 
 /** Swahili (Kiswahili)

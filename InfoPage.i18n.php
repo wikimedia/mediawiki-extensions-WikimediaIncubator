@@ -687,6 +687,7 @@ $messages['et'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Huji
  * @author Mjbmr
  * @author Pouyana
@@ -695,6 +696,7 @@ $messages['et'] = array(
 $messages['fa'] = array(
 	'wminc-infopage-enter' => 'رفتن به صفحهٔ اصلی',
 	'wminc-unknownlang' => '(کد زبان ناشناخته)',
+	'wminc-infopage-title-p' => 'ویکی‌پدیا $1',
 	'wminc-infopage-title-b' => 'ویکی‌نسک $1',
 	'wminc-infopage-title-t' => 'ویکی‌واژه $1',
 	'wminc-infopage-title-q' => 'ویکی‌گفتاورد $1',
@@ -706,15 +708,21 @@ $messages['fa'] = array(
 	'wminc-infopage-missingwiki-text' => 'یک $1 از این زبان، هنوز وجود ندارد.',
 	'wminc-infopage-option-startwiki' => "اگر شما می‌خواهید این ویکی را شروع کنید،
 '''[$3 این مراحل]''' و [[{{MediaWiki:Wminc-manual-url}}|راهنمای ما]] پیروی کنید.",
+	'wminc-infopage-option-startsister' => 'اگر می‌خواهید این ویکی را شروع کنید، شما می‌توانید به <strong>[$2 $1]</strong> بروید.',
 	'wminc-infopage-option-languages-existing' => 'شما می‌توانید به دنبال [//www.$1.org نسخه‌های زبان موجود از $1] بگردید.',
 	'wminc-infopage-option-sisterprojects-existing' => 'شما می‌توانید به دنبال پروژه‌های موجود از این زبان بگردید:',
 	'wminc-infopage-option-sisterprojects-other' => 'شما می‌توانید به دنبال پروژه‌های دیگر این زبان بگردید:',
 	'wminc-infopage-option-multilingual' => 'همچنین، شما می‌توانید به ویکی چند زبانه بروید:',
 	'wminc-infopage-createmainpage' => 'کلمه «صفحهٔ اصلی» برای این زبان را وارد کنید:',
 	'wminc-infopage-contribute' => 'اگر شما این زبان را می‌دانید، شما به مشارکت در آن تشویق شده‌اید!',
+	'wminc-infopage-status-open' => 'این یک ویکی باز اینکیوباتور ویکی‌مدیا است.',
 	'wminc-infopage-status-imported' => 'این ویکی در حال رشد پس از بسته شدن از نشانی $1 وارد شده است.',
+	'wminc-infopage-status-closedsister' => 'این دامنه بسته شد. برای همکاری در این ویکی به <strong> $2 </strong> بروید.',
+	'wminc-infopage-status-approved' => 'این ویکی اینکیوباتور توسط [[meta:Special:MyLanguage/Language_committee|language committee]] تأیید شده و به زودی ایجاد خواهد‌شد.',
 	'wminc-infopage-status-created' => 'این پروژه توسط کمیته زبان تصویب شده است و در نشانی $1 در دسترس است.',
 	'wminc-infopage-status-beforeincubator' => 'این پروژه قبل از شروع ویکی‌رشد، ایجاد شده است و در نشانی $1 در دسترس است.',
+	'wminc-infopage-status-beforeincubator-sister' => 'این پروژه در $1 در دسترس است.',
+	'wminc-infopage-error' => 'خطا: {{#infopage}} فقط در صفحات پیشوند می‌تواند مورد استفاده قرار گیرد.',
 );
 
 /** Finnish (suomi)
