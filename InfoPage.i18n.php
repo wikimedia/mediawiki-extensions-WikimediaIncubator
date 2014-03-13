@@ -325,6 +325,7 @@ kåst du [{{fullurl:{{FULLPAGENAME}}|action=edit}} dé Seiten erstön] und noch 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Red Winged Duck
  * @author Renessaince
  * @author Wizardist
  */
@@ -336,7 +337,7 @@ $messages['be-tarask'] = array(
 	'wminc-infopage-title-t' => 'ВікіСлоўнік $1',
 	'wminc-infopage-title-q' => 'ВікіЦытаты $1',
 	'wminc-infopage-title-n' => 'ВікіНавіны $1',
-	'wminc-infopage-title-s' => 'ВікіКрыніца $1',
+	'wminc-infopage-title-s' => 'Вікікрыніцы $1',
 	'wminc-infopage-title-v' => 'Віківэрсытэт $1',
 	'wminc-infopage-title-y' => '$1 Віківандроўка',
 	'wminc-infopage-welcome' => 'Вітаем у Інкубатары Вікімэдыя, праекце Фундацыі «Вікімэдыя» ([[{{MediaWiki:Aboutpage}}|Падрабязьней]])',
