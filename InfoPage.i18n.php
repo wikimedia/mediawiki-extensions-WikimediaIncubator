@@ -1664,6 +1664,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Carla404
  * @author Hamilton Abreu
+ * @author Imperadeiro98
  * @author Luckas
  * @author Malafaya
  * @author SandroHc
@@ -1679,7 +1680,7 @@ pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{M
 	'wminc-infopage-option-languages-existing' => 'Pode pesquisar as [//www.$1.org edições de $1 nas línguas existentes].',
 	'wminc-infopage-option-sisterprojects-existing' => 'Pode pesquisar os projetos existentes nesta língua:',
 	'wminc-infopage-option-sisterprojects-other' => 'Pode pesquisar outros projetos nesta língua:',
-	'wminc-infopage-option-multilingual' => 'Pode visitar uma wiki multilingue:', # Fuzzy
+	'wminc-infopage-option-multilingual' => 'Alternativamente, pode visitar uma wiki multilingue:',
 	'wminc-infopage-createmainpage' => 'Introduza o termo "Página principal" nesta língua:',
 	'wminc-infopage-contribute' => 'Se conhece esta língua, está convidado a colaborar!',
 	'wminc-infopage-status-imported' => 'Esta wiki da Incubadora foi importada de $1 após a wiki ter sido fechada.',
