@@ -73,9 +73,12 @@ Used in:
 {{Identical|Wikipedia}}",
 	'wminc-infopage-title-b' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-t' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
-	'wminc-infopage-title-q' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
+	'wminc-infopage-title-q' => "This is the main title of the info page. Parameters:
+* $1 - the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.
+{{Identical|Wikiquote}}",
 	'wminc-infopage-title-n' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
-	'wminc-infopage-title-s' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
+	'wminc-infopage-title-s' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.
+{{Identical|Wikisource}}",
 	'wminc-infopage-title-v' => "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
 	'wminc-infopage-title-y' => "This is the main title of the info page. Parameters:
 * $1 - the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.
