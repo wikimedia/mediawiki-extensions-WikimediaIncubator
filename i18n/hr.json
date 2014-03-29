@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bugoslav",
+            "Ex13",
+            "Tivek"
+        ]
+    },
+    "wminc-desc": "Testni wiki sustav za Wikimedia Incubator",
+    "wminc-testwiki": "Testni wiki:",
+    "wminc-testwiki-none": "Nijedno/Sve",
+    "wminc-recentchanges-all": "Sve nedavne promjene",
+    "wminc-prefinfo-language": "Vaš jezik sučelja - neovisno o Vašem testnom wikiju",
+    "wminc-prefinfo-code": "ISO 639 kôd jezika",
+    "wminc-prefinfo-project": "Odaberi Wikimedia projekt (opcija Inkubator je za suradnike koji rade opće poslove)",
+    "wminc-prefinfo-error": "Odabrali ste projekt koji zahtijeva kôd jezika.",
+    "randombytest": "Slučajna stranica prema testnom wikiju",
+    "randombytest-nopages": "Nema stranica u Vašem testnom wikiju, u imenskom prostoru: $1.",
+    "wminc-viewuserlang": "Potraži jezik i testni wiki suradnika",
+    "wminc-viewuserlang-user": "Suradničko ime:",
+    "wminc-viewuserlang-go": "Idi",
+    "wminc-userdoesnotexist": "Suradnik \"$1\" ne postoji.",
+    "right-viewuserlang": "Pogledaj suradnikov jezik i testni wiki"
+}

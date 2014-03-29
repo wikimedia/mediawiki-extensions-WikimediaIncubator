@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Умар"
+        ]
+    },
+    "wminc-manual": "Куьйгалла дар",
+    "wminc-testwiki-none": "ХӀахӀа/массо",
+    "wminc-error-wiki-sister": "ХӀара агӀо ю кхузахь йоцу проектан. Дехар до, хӀокху $1 чугӀо вики каро.",
+    "wminc-viewuserlang-user": "Декъашхочун цӀе:",
+    "wminc-viewuserlang-go": "Лаха",
+    "group-test-sysop": "Зуьйш йолу википедин куьйгалхо",
+    "grouppage-test-sysop": "{{ns:project}}:Зуьйш йолу википедин куьйгалхо",
+    "wminc-searchwiki": "Лаха вики чухула",
+    "wminc-searchwiki-selectproject": "Лаха оцу:",
+    "wminc-searchwiki-go": "Дехьа гӀо",
+    "wminc-fs-langselect-title": "Харжа мотт",
+    "wminc-fs-pagetitle-done": "— кийчча ю!",
+    "wminc-fs-langselect": "Дехьа гӀо $1 я $2",
+    "wminc-fs-settings-text": "Дехар до [[Special:Preferences#mw-htmlform-i18n|хьай агӀона чу гӀой]] а проектан гӀирсан хийцамаш бар.\nХьона бакъхьа гуш ю оьшуш йолу опци, хьан агӀона чохь йолу. ЦхьалгӀаниг — бу ахьа дуьххьара хаьржина хьан интерфейсан болуш болу мотт, амма хьан йиш ю хӀинца а и хийца.\nШолгӀа — вики-проект ю, хьо болх бан лууш волу/йолу, кхин кхолгӀниг ю — хӀокху проектан метта код.\nХьайна код хууш яцахь хьажа [[{{MediaWiki:Wminc-куьйга-url}}|кхуза]] я [[{{MediaWiki:Portal-url}}|гӀо деха]]."
+}

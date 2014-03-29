@@ -17,7 +17,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
 	'author' => array( 'SPQRobin', 'Hydriz' ),
-	'version' => '5.2',
+	'version' => '5.3.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
 );
@@ -75,6 +75,7 @@ $wgGroupPermissions['test-sysop']['autopatrol'] = true;
 $wgAddGroups['bureaucrat'][] = 'test-sysop';
 $wgRemoveGroups['bureaucrat'][] = 'test-sysop';
 
+$wgMessagesDirs['WikimediaIncubator'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 $wgExtensionMessagesFiles['WikimediaIncubatorAlias'] = $dir . 'WikimediaIncubator.alias.php';
 $wgExtensionMessagesFiles['WikimediaIncubatorMagic'] = $dir . 'WikimediaIncubator.i18n.magic.php';
@@ -120,7 +121,7 @@ $wgSpecialPages['RandomByTest'] = 'SpecialRandomByTest';
 /* support for automatic checking in a list of databases if a wiki exists */
 $wmincExistingWikis = $wgLocalDatabases;
 /* Stupid "wiki" referring to "wikipedia" in WMF config */
-$wmincProjectDatabases = array( 
+$wmincProjectDatabases = array(
 	'p' => 'wiki',
 	'b' => 'wikibooks',
 	't' => 'wiktionary',

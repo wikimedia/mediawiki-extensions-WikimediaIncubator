@@ -1,0 +1,33 @@
+{
+    "@metadata": {
+        "authors": [
+            "Shantanoo",
+            "V.narsikar",
+            "संतोष दहिवळ"
+        ]
+    },
+    "wminc-desc": "विकि प्रणालीवर विकिमीडिया उष्णयंत्रचे परिक्षण करा.",
+    "wminc-manual": "माहिती",
+    "wminc-listwikis": "विकिंची यादी",
+    "wminc-testwiki": "विकी परिक्षण",
+    "wminc-testwiki-code": "विकि भाषा परिक्षण",
+    "wminc-testwiki-none": "काही नाहि/सर्व",
+    "wminc-testwiki-site": "(परिरक्षण)",
+    "wminc-recentchanges-all": "सर्व अलीकडील बदल",
+    "wminc-prefinfo-language": "आपली आंतरपृष्ठ भाषा - आपल्या चाचणी विकिपेक्षा स्वतंत्र",
+    "wminc-prefinfo-code": "आय.एस.ओ. ६३९ भाषा संकेतांक येथे ज्यावर आपण काम करीत आहात",
+    "wminc-prefinfo-project": "विकिमीडिया प्रकल्प निवडा (उबवण पात्र पर्याय सामान्य काम करणाऱ्या सदस्यांसाठी आहे)",
+    "wminc-prefinfo-error": "आपण निवडलेल्या प्रकल्पाला भाषा संकेतांकाची जरूरी आहे.",
+    "wminc-viewuserlang": "सदस्यभाषा आणि टेस्टविकि दाखवा.",
+    "wminc-viewuserlang-user": "सदस्यनाव:",
+    "wminc-viewuserlang-go": "जा",
+    "wminc-userdoesnotexist": "सदस्य \"$1\" अस्तित्वात नाही.",
+    "wminc-ip": "\"$1\" हा अंकपत्ता आहे.",
+    "right-viewuserlang": "सदस्यभाषा आणि परिक्षण विकि दाखवा.",
+    "group-test-sysop": "परीक्षण विकी प्रबंधक",
+    "wminc-searchwiki-selectproject": "यासाठी शोधा:",
+    "wminc-searchwiki-inputlanguage": "भाषेत:",
+    "wminc-searchwiki-go": "जा",
+    "wminc-fs-userpage-title": "माझे सदस्यपान तयार करा.",
+    "wminc-fs-signup-text": "जर तुमचे सदस्य खाते असेल तर कृपया [$1 प्रवेश करा]. जर सदस्य खात्याची नोंदणी केलेली नसेल तर कृपया [$2 सदस्य खाते तयार करा].\nहे आवश्यक नसले तरी आपण काही सेकंदांचा वेळ यासाठी द्यावा असे सुचविण्यात येत आहे."
+}

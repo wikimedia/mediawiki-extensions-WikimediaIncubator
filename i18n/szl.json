@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Britscher",
+            "Ozi64"
+        ]
+    },
+    "wminc-desc": "Testowo wiki lo Inkubatůra Wikimedia",
+    "wminc-testwiki": "Testowo wiki",
+    "wminc-testwiki-none": "Żodno/Wszyjske",
+    "wminc-prefinfo-language": "Godka interface (ńyznoleżno na godce testowyj wiki)",
+    "wminc-prefinfo-code": "Kod godki podug ISO 639",
+    "wminc-prefinfo-project": "Uobjer projekt Wikimedia (uopcyjo uobjyrańo Inkubatůra je zuůnaczůno lo używaczůw, kere robjům uogůlne roboty)",
+    "wminc-prefinfo-error": "Uostoł uobrany projekt, przi kerym trza podać kod godki.",
+    "randombytest": "Losowo zajta testowyj wiki",
+    "randombytest-nopages": "We twojij testowyj wiki ńyma zajtůw we raumje mjan $1",
+    "wminc-viewuserlang": "Nojdowańy godki używacza a testowyj wiki",
+    "wminc-viewuserlang-user": "Mjano używacza:",
+    "wminc-viewuserlang-go": "Pokoż",
+    "wminc-userdoesnotexist": "Ńyma używacza ze mjanym \"$1\"",
+    "right-viewuserlang": "Uobocz zajta używacza a testowo wiki"
+}

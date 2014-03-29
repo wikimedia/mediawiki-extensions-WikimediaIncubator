@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Helix84"
+        ]
+    },
+    "wminc-desc": "Testovací wiki systém pre Inkubátor Wikimedia",
+    "wminc-testwiki": "Testovacia wiki:",
+    "wminc-testwiki-none": "Žiadna/všetky",
+    "wminc-prefinfo-language": "Jazyk vášho rozhrania - nezávisle od vašej testovacej wiki",
+    "wminc-prefinfo-code": "ISO 639 kód jazyka",
+    "wminc-prefinfo-project": "Vybrať projekt Wikimedia (voľba Inkubátor je pre používateľov, ktorí vykonávajú všeobecnú prácu)",
+    "wminc-prefinfo-error": "Vybrali ste projekt, ktorý potrebuje kód jazyka.",
+    "randombytest": "Náhodná stránka z testovacej wiki",
+    "randombytest-nopages": "Vo vašej testovacej wiki neexistujú stránky v mennom priestore $1.",
+    "wminc-viewuserlang": "Vyhľadať jazyk používateľa a testovaciu wiki",
+    "wminc-viewuserlang-user": "Používateľské meno:",
+    "wminc-viewuserlang-go": "Vykonať",
+    "right-viewuserlang": "Zobraziť jazyk používateľa a testovaciu wiki"
+}

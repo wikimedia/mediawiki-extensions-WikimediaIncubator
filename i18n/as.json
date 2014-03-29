@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bishnu Saikia"
+        ]
+    },
+    "wminc-desc": "ৱিকিমিডিয়া ইনকিউবেটৰৰ বাবে পৰীক্ষামূলক ৱিকি ব্যৱস্থা",
+    "wminc-listwikis": "ৱিকিসমূহৰ তালিকা",
+    "wminc-testwiki": "পৰীক্ষামূলক ৱিকি:",
+    "wminc-testwiki-code": "পৰীক্ষামূলক ৱিকি ভাষা:",
+    "wminc-testwiki-none": "একো নাই/সকলো",
+    "wminc-testwiki-site": "(পৰিচৰ্যা)",
+    "wminc-recentchanges-all": "সকলোবোৰ শেহতীয়া সালসলনি",
+    "wminc-viewuserlang-user": "সদস্য নাম:",
+    "wminc-viewuserlang-go": "যাওক",
+    "wminc-searchwiki-selectproject": "ৰ কাৰণে সন্ধান কৰক",
+    "wminc-searchwiki-inputlanguage": "যিকোনো ভাষাত:",
+    "wminc-searchwiki-go": "যাওক",
+    "wminc-searchwiki-gotoinfopage": "পৰিচিতি পৃষ্ঠা",
+    "wminc-fs-langselect-title": "ভাষা নির্বাচন:",
+    "wminc-fs-signup-title": "পঞ্জীয়ন কৰক",
+    "wminc-fs-userpage-title": "আপোনাৰ সদস্য পৃষ্ঠা সৃষ্টি কৰক",
+    "wminc-fs-pagetitle-done": " - কৰা হ’ল!"
+}

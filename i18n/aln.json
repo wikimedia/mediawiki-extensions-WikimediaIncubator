@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Mdupont"
+        ]
+    },
+    "wminc-desc": "Sistemi Test wiki për Wikimedia Inkubatori",
+    "wminc-testwiki": "wiki Test:",
+    "wminc-testwiki-none": "Asnjë / Të gjitha",
+    "wminc-prefinfo-language": "Gjuha juaj interface - të pavarur nga testin tuaj wiki",
+    "wminc-prefinfo-code": "Kodi i gjuhës ISO 639",
+    "wminc-prefinfo-project": "Zgjidhni projekti Wikimedia (opsion Inkubatori është për përdoruesit që bëjnë punë të përgjithshme)",
+    "wminc-prefinfo-error": "Ju zgjedhur një projekt që ka nevojë për një kod gjuhë.",
+    "randombytest": "faqe të rastësishme nga wiki provë",
+    "randombytest-nopages": "Nuk ka faqe në wiki në provim, në hapësirën: $1.",
+    "wminc-viewuserlang": "Kërkoni gjuhën e përdoruesit dhe wiki provë",
+    "wminc-viewuserlang-user": "Emri i përdoruesit:",
+    "wminc-viewuserlang-go": "Shkoj",
+    "right-viewuserlang": "Shikoni gjuhën përdoruesit dhe provë wiki"
+}

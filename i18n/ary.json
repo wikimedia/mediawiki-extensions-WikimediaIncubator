@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Enzoreg",
+            "زكريا"
+        ]
+    },
+    "wminc-desc": "L-Wiki dyal t-tést le Wikimédya Incubator",
+    "wminc-testwiki": "L-Wiki dyal 't-tést :",
+    "wminc-testwiki-none": "Ḫṫa ḫaja / Kol ċi",
+    "wminc-prefinfo-language": "Loġṫ wajihṫek - mesṫaqela men 't-tést dyal l-Wiki dyalek",
+    "wminc-prefinfo-code": "L-kod ISO 639 dyal l-loġa",
+    "wminc-prefinfo-project": "Ĥṫar l-meċroĝ Wikimédya (l-opsyon Incubator mĥeṣeṣa le mosṫeĥdimin li ka iṣaybo ĥedma ĝama)",
+    "wminc-prefinfo-error": "Ĥṫariṫi meċroĝ li ka iḫṫaj l-kod dyal l-loġa.",
+    "randombytest": "Ṣefḫa ĝel l-Lah men l-Wiki dyal 't-tést",
+    "randombytest-nopages": "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
+    "wminc-viewuserlang": "Ha hiya loġaṫ l-mosṫeĥdim o l-Wiki dyal 't-tést dyalo",
+    "wminc-viewuserlang-user": "smiṫ l-mosṫĥdim:",
+    "wminc-viewuserlang-go": "Sir",
+    "right-viewuserlang": "Ċof loġṫ l-mosṫeĥdim o l-Wiki dyal 't-tést"
+}

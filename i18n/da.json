@@ -1,0 +1,30 @@
+{
+    "@metadata": {
+        "authors": [
+            "Byrial",
+            "Christian List",
+            "Froztbyte",
+            "Masz",
+            "Peter Alberti"
+        ]
+    },
+    "wminc-desc": "Testwikisystem for Wikimedia Incubator",
+    "wminc-manual": "Håndbog",
+    "wminc-listwikis": "Liste over wikier",
+    "wminc-testwiki": "Testwiki:",
+    "wminc-testwiki-code": "Testwiki-sprog:",
+    "wminc-testwiki-none": "Ingen/Alle",
+    "wminc-recentchanges-all": "Alle de seneste ændringer",
+    "wminc-prefinfo-language": "Dit brugerfladesprog - uafhængigt af din testwiki",
+    "wminc-prefinfo-code": "ISO 639-koden for det sprog, du arbejder med her",
+    "randombytest-nopages": "Der er ikke nogen sider i din testwiki i navnerummet $1.",
+    "wminc-viewuserlang-user": "Brugernavn:",
+    "wminc-viewuserlang-go": "Gå",
+    "wminc-userdoesnotexist": "Brugeren \"$1\" findes ikke.",
+    "wminc-ip": "\"$1\" er en IP-adresse.",
+    "right-viewuserlang": "Vis brugersprog og testwiki",
+    "group-test-sysop": "Testwiki-administratorer",
+    "group-test-sysop-member": "{{GENDER:$1|testwiki-administrator}}",
+    "grouppage-test-sysop": "{{ns:project}}:Testwiki-administratorer",
+    "wminc-code-retired": "Denne sprogkode er blevet ændret og henviser ikke længere til det oprindelige sprog."
+}

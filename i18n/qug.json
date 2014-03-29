@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Sylvain2803"
+        ]
+    },
+    "wminc-manual": "Yachachik kamu",
+    "wminc-listwikis": "Tukuy wikikuna",
+    "wminc-testwiki": "Nara wiñachishka wiki",
+    "wminc-testwiki-code": "Nara wiñachishka wikipak shimi:",
+    "wminc-testwiki-none": "Nishuk/Tukuykuna",
+    "wminc-recentchanges-all": "Tukuy mushuk killkaykuna",
+    "wminc-prefinfo-language": "Kikinpak ''interface'' shimi (shina kakpi, mana kikinpak wikipak shimi shina kanka)",
+    "wminc-prefinfo-code": "ISO 639 shimi yupay",
+    "wminc-prefinfo-project": "Maykan Wikimedia proyectota nipay (maypipash llankanata munakpi, ''Incubator''-ta churapay)",
+    "wminc-prefinfo-error": "Chay proyectota akllashkamanta, shimi yupayta charanami kapanki",
+    "wminc-error-move-unprefixed": "Maykanpash pankaman chayta apakuna munapanki, chay pankaka [[{{MediaWiki:Wminc-error-help}}|nalli prefixota charinchu]]!",
+    "wminc-error-wronglangcode": "'''Pantay:''' chay pankaka shuk [[{{MediaWiki:Wminc-error-help}}|pandashka shimi yupayta]] charinmi (\"$1\")!",
+    "wminc-error-unprefixed": "'''Pantay:''' Kay pankaka [[{{MediaWiki:Wminc-error-help}}|prefixota illan]]!"
+}

@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bellayet"
+        ]
+    },
+    "wminc-desc": "উইকিমিডিয়া ইনকিউবেটরের জন্য পরীক্ষামূলক উইকি ব্যবস্থা",
+    "wminc-testwiki": "পরীক্ষামূলক উইকি:",
+    "wminc-testwiki-none": "কিছু না/সমস্ত",
+    "wminc-prefinfo-language": "আপনার ইন্টারফেস ভাষা - আপনার পরীক্ষামূলক উইকি হতে স্বাধীন",
+    "wminc-prefinfo-code": "ISO 639 ভাষা কোড",
+    "wminc-prefinfo-error": "আপনার নির্বাচিত প্রকল্পের ভাষার কোড প্রয়োজন।",
+    "randombytest": "পরীক্ষামূলক উইকির অজানা পাতা",
+    "wminc-viewuserlang": "ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখুন",
+    "wminc-viewuserlang-user": "ব্যবহারকারী নাম:",
+    "wminc-viewuserlang-go": "যাও",
+    "right-viewuserlang": "ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখাও"
+}

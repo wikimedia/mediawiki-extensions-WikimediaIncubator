@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bdamokos",
+            "Dj",
+            "Glanthor Reviol",
+            "Xbspiro"
+        ]
+    },
+    "wminc-desc": "Tesztwiki rendszer a Wikimédia Inkubátorhoz",
+    "wminc-manual": "Kézikönyv",
+    "wminc-listwikis": "Projektjeink listája",
+    "wminc-testwiki": "Tesztwiki:",
+    "wminc-testwiki-code": "Tesztwiki nyelv:",
+    "wminc-testwiki-none": "Egyik sem/Mind",
+    "wminc-recentchanges-all": "Minden friss változtatás",
+    "wminc-prefinfo-language": "A felhasználói felületed nyelve – független a teszt wikidtől",
+    "wminc-prefinfo-code": "Az ISO 639 szerinti nyelvkód. A fenti beállítás kiegészítése: a kettő együtt határozza meg, hogy melyik lesz az elsődleges tesztprojekted.",
+    "wminc-prefinfo-project": "Melyik tesztprojektben dolgozol elsődlegesen? Ennek kezdőlapja és friss változtatásainak listája az oldalmenüben külön is elérhető lesz.",
+    "wminc-prefinfo-error": "Olyan projektet választottál, amihez szükség van nyelvkódra.",
+    "wminc-error-move-unprefixed": "Hiba: A mozgatni próbált oldal [[{{MediaWiki:Wminc-error-help}}|nincs prefixelve, vagy rossz a prefix]].",
+    "wminc-error-wronglangcode": "'''Hiba:''' Ez a lap [[{{MediaWiki:Wminc-error-help}}|rossz nyelvi kódot tartalmaz]]: \"$1\".",
+    "randombytest": "Véletlen lap a tesztwikiből",
+    "randombytest-nopages": "Nincsenek lapok a tesztwikid $1 névterében.",
+    "wminc-viewuserlang": "Felhasználó nyelvének és a tesztwikinek a felkeresése",
+    "wminc-viewuserlang-user": "Felhasználói név:",
+    "wminc-viewuserlang-go": "Menj",
+    "wminc-userdoesnotexist": "Nem létezik „$1” nevű szerkesztő.",
+    "wminc-ip": "„$1” egy IP-cím.",
+    "right-viewuserlang": "felhasználó nyelv és tesztwiki megjelenítése",
+    "group-test-sysop": "Tesztwiki adminisztrátorok",
+    "group-test-sysop-member": "{{GENDER:$1|tesztwiki adminisztrátor}}",
+    "grouppage-test-sysop": "{{ns:project}}:Tesztwiki adminisztrátorok",
+    "wminc-search-nocreate-suggest": "Erre kerestél rá: „$1”. Létrehozhatsz egy lapot a wikidben itt: <strong>[[$3]]</strong>."
+}

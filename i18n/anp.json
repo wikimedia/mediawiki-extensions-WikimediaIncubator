@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Angpradesh"
+        ]
+    },
+    "wminc-desc": "विकीपीडिया इनक्यूबेटर केरॊ टेस्ट विकी सिस्टम",
+    "wminc-testwiki": "टेस्ट विकी",
+    "wminc-testwiki-none": "कुच्छु नै / सबेभॆ",
+    "wminc-prefinfo-language": "तोरॊ इंटरफेस भाषा - टेस्ट विकी सॆं अलग",
+    "wminc-prefinfo-code": "ISO 639 भाषा कोड",
+    "wminc-prefinfo-project": "विकीमीडिया प्रोजेक्ट केरॊ चयन करॊ (इनक्यूबेटर विकल्प सामान्य काम करै वाला लेली)",
+    "wminc-prefinfo-error": "अपनॆ एगॊ प्रोजेक्ट चुनलॆ छियै, जेकरा लेली भाषा कोड के जरूरत छै.",
+    "randombytest": "बेतरतीब पन्ना - प्रारंभिक विकी द्वारा.",
+    "randombytest-nopages": "तोरॊ प्रारंभिक विकी मॆं $1 नामॊ के जग्घॊ पॆ कोय पन्ना नै छौं.",
+    "wminc-viewuserlang": "भाषा उपयोगकर्ता आरू टेस्ट विकी सिस्टम कॆ देखॊ",
+    "wminc-viewuserlang-user": "उपयोगकर्ता",
+    "wminc-viewuserlang-go": "जा",
+    "right-viewuserlang": "देखॊ user language and test wiki"
+}
