@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "John Reid"
+        ]
+    },
+    "wminc-error-move-unprefixed": "<strong>Mistak:</strong> The page that ye'r ettlin tae muiv til [[{{MediaWiki:Wminc-error-help}}|is onprefixt or haes ae wrang prefix]].",
+    "wminc-error-wronglangcode": "<strong>Mistak:</strong> This page contains aen [[{{MediaWiki:Wminc-error-help}}|oncorrect leid code]] \"$1\".",
+    "wminc-error-unprefixed": "<strong>Mistak:</strong> This page is [[{{MediaWiki:Wminc-error-help}}|onprefixt]].",
+    "wminc-error-unprefixed-suggest": "<strong>Mistak:</strong> This page is [[{{MediaWiki:Wminc-error-help}}|onprefixt]]! Ye can cræft ae page at [[:$1]]."
+}
