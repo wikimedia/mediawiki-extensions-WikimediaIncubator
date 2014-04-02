@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Praveenp"
+        ]
+    },
+    "wminc-infopage-enter": "പ്രധാന താളിലേയ്ക്ക് പോവുക",
+    "wminc-unknownlang": "(അപരിചിതമായ ഭാഷാ കോഡ്)",
+    "wminc-infopage-title-p": "വിക്കിപീഡിയ $1",
+    "wminc-infopage-title-b": "വിക്കിപാഠശാല $1",
+    "wminc-infopage-title-t": "വിക്കിനിഘണ്ടു $1",
+    "wminc-infopage-title-q": "വിക്കിചൊല്ലുകൾ $1",
+    "wminc-infopage-title-n": "വിക്കിവാർത്തകൾ $1",
+    "wminc-infopage-title-s": "വിക്കിഗ്രന്ഥശാല $1",
+    "wminc-infopage-title-v": "വിക്കിസർവ്വകലാശാല $1",
+    "wminc-infopage-title-y": "വിക്കിയാത്ര $1",
+    "wminc-infopage-welcome": "വിക്കിമീഡിയ ഫൗണ്ടേഷൻ സംരംഭമായ വിക്കിമീഡിയ ഇൻകുബേറ്ററിലേയ്ക്ക് സ്വാഗതം ([[{{MediaWiki:Aboutpage}}|വിവരണം]])",
+    "wminc-infopage-missingwiki-text": "ഈ ഭാഷയിൽ $1 നിലവിലില്ല.",
+    "wminc-infopage-option-startwiki": "താങ്കൾക്ക് ഈ വിക്കി തുടങ്ങണമെന്നുണ്ടെങ്കിൽ '''[$3 ഈ ഘട്ടങ്ങളും]''' [[{{MediaWiki:Wminc-manual-url}}|ഞങ്ങളുടെ വഴികാട്ടിയും]] പിന്തുടരുക.",
+    "wminc-infopage-option-startsister": "താങ്കൾക്ക് ഈ വിക്കി തുടങ്ങണമെന്നുണ്ടെങ്കിൽ, <strong>[$2 $1]</strong> എന്ന താളിൽ ചെല്ലുക.",
+    "wminc-infopage-option-languages-existing": "[//www.$1.org $1 പദ്ധതിയുടെ നിലവിലുള്ള ഭാഷാപതിപ്പുകൾ] താങ്കൾക്ക് തിരയാവുന്നതാണ്.",
+    "wminc-infopage-option-sisterprojects-existing": "ഈ ഭാഷയിൽ നിലവിലുള്ള സംരംഭങ്ങൾ താങ്കൾക്ക് തിരയാവുന്നതാണ്:",
+    "wminc-infopage-option-sisterprojects-other": "ഈ ഭാഷയിൽ നിലവിലുള്ള ഇതര സംരംഭങ്ങൾ താങ്കൾക്ക് തിരയാവുന്നതാണ്:",
+    "wminc-infopage-option-multilingual": "പകരമായി, താങ്കൾക്ക് ബഹുഭാഷാവിക്കിയിലേയ്ക്ക് പോകാവുന്നതാണ്:",
+    "wminc-infopage-createmainpage": "ഈ ഭാഷയിൽ \"പ്രധാന താൾ\" എന്നതിനു സമാനമായ പദം നൽകുക:",
+    "wminc-infopage-contribute": "താങ്കൾക്ക് ഈ ഭാഷ അറിയാമെങ്കിൽ, അതിൽ സംഭാവന ചെയ്യാൻ താത്പര്യപ്പെടുന്നു!",
+    "wminc-infopage-status-open": "ഇത് വിക്കിമീഡിയ ഇൻകുബേറ്ററിലുള്ള ഒരു വിക്കിയാണ്.",
+    "wminc-infopage-status-imported": "ഈ ഇൻകുബേറ്റർ വിക്കി $1 എന്നതിൽ നിന്നും വിക്കി അടച്ചശേഷം ഇറക്കുമതി ചെയ്തതാണ്.",
+    "wminc-infopage-status-closedsister": "ഈ ഉപഡൊമൈൻ അടച്ചിരിക്കുന്നു. ഈ വിക്കിയിൽ സംഭാവന ചെയ്യാൻ <strong>$2</strong> എന്നതിലേയ്ക്ക് പോവുക.",
+    "wminc-infopage-status-approved": "ഈ ഇൻകുബേറ്റർ വിക്കി [[meta:Special:MyLanguage/Language_committee|ഭാഷാ സമിതി]] അംഗീകരിച്ചിരിക്കുന്നു, ഉടൻ തന്നെ സൃഷ്ടിക്കപ്പെടുന്നതാണ്.",
+    "wminc-infopage-status-created": "ഈ സംരംഭം ഭാഷാ കമ്മിറ്റി അംഗീകരിച്ചിരിക്കുന്നു, അതിപ്പോൾ $1 എന്നു ലഭ്യമാണ്.",
+    "wminc-infopage-status-beforeincubator": "ഈ പദ്ധതി, വിക്കിമീഡിയ ഇൻകുബേറ്റർ തുടങ്ങുന്നതിനു മുമ്പേയുള്ളതാണ്, അത് $1-ൽ ലഭ്യമാണ്.",
+    "wminc-infopage-status-beforeincubator-sister": "ഈ പദ്ധതി ഇപ്പോൾ $1 എന്ന വിലാസത്തിൽ ലഭ്യമാണ്.",
+    "wminc-infopage-error": "പിഴവ്: പൂർവ്വപദമുള്ള താളുകളിൽ മാത്രമേ {{#infopage}} ഉപയോഗിക്കാൻ കഴിയുകയുള്ളു."
+}

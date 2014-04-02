@@ -1,0 +1,34 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cainamarques",
+            "Jaideraf",
+            "MetalBrasil",
+            "Pedroca cerebral",
+            "555"
+        ]
+    },
+    "wminc-infopage-enter": "Vá para a página principal",
+    "wminc-unknownlang": "(código de idioma desconhecido)",
+    "wminc-infopage-title-p": "Wikipédia em $1",
+    "wminc-infopage-title-b": "Wikilivros em $1",
+    "wminc-infopage-title-t": "Wikcionário em $1",
+    "wminc-infopage-title-q": "Wikiquote em $1",
+    "wminc-infopage-title-n": "Wikinotícias em $1",
+    "wminc-infopage-title-s": "Wikisource em $1",
+    "wminc-infopage-title-v": "Wikiversidade em $1",
+    "wminc-infopage-welcome": "Bem vindo à Wikimedia Incubator, um projeto da Wikimedia Fundation ([[{{MediaWiki:Aboutpage}}|Sobre]])",
+    "wminc-infopage-missingwiki-text": "Ainda não existe um projeto $1 nesta língua.",
+    "wminc-infopage-option-startwiki": "Se você quiser começar esta wiki, você pode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir [[{{MediaWiki:Wminc-manual-url}}|nosso manual]].",
+    "wminc-infopage-option-startsister": "Se você quer começar esta wiki, você pode ir a <strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-languages-existing": "Você pode pesquisar por [//www.$1.org edições de $1 línguas existentes].",
+    "wminc-infopage-option-sisterprojects-existing": "Você pode pesquisar por projetos existentes nesta língua.",
+    "wminc-infopage-option-sisterprojects-other": "Você pode pesquisar por outros projetos nessa língua.",
+    "wminc-infopage-option-multilingual": "Alternativamente, você pode ir a uma wiki multilíngue:",
+    "wminc-infopage-createmainpage": "Digite a palavra \"Página principal\" nesta língua.",
+    "wminc-infopage-contribute": "Se você conhece esta língua, você é convidado a contribuir!",
+    "wminc-infopage-status-imported": "Esse Incubator wiki foi importado de $1 depois que o wiki foi fechado.",
+    "wminc-infopage-status-closedsister": "Este subdomínio foi fechado. Vá a <strong>$2</strong> para contribuir nesta wiki.",
+    "wminc-infopage-status-created": "Esse projeto foi aprovado pela comitê linguístico e agora é avaliável em $1.",
+    "wminc-infopage-status-beforeincubator": "Esse projeto foi criado antes do inicio da Wikimedia Incubator e está avaliável em $1."
+}

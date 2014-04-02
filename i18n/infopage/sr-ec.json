@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Rancher"
+        ]
+    },
+    "wminc-infopage-enter": "иди на Главну страну",
+    "wminc-unknownlang": "(непознат језички код)",
+    "wminc-infopage-welcome": "Добро дошли на Викимедијин Инкубатор — пројекат Задужбине Викимедија ([[{{MediaWiki:Aboutpage}}|О пројекту]])",
+    "wminc-infopage-missingwiki-text": "На овом језику још не постоји $1.",
+    "wminc-infopage-option-startwiki": "Ако желите да започнете овај вики,\nонда можете да [{{fullurl:{{FULLPAGENAME}}|action=edit}} направите страницу] и да погледате [[{{MediaWiki:Wminc-manual-url}}|наш приручник]].",
+    "wminc-infopage-option-startsister": "Ако желите да започнете овај вики, идите на <strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-languages-existing": "Можете да претражите [//www.$1.org постојећа језичка издања пројекта $1].",
+    "wminc-infopage-option-sisterprojects-existing": "Можете да претражите постојеће пројекте на овом језику:",
+    "wminc-infopage-option-sisterprojects-other": "Можете да претражите друге пројекте на овом језику:",
+    "wminc-infopage-option-multilingual": "Можете да одете на вишејезички вики:",
+    "wminc-infopage-createmainpage": "Унесите реч „Главна страна“ на овом језику:",
+    "wminc-infopage-contribute": "Ако познајете овај језик, препоручујемо вам да учествујете!",
+    "wminc-infopage-status-imported": "Овај вики Инкубатор је увезен из $1, по затварању викија.",
+    "wminc-infopage-status-closedsister": "Овај поддомен је затворен. Идите на <strong>$2</strong> да учествујете на овом викију.",
+    "wminc-infopage-status-created": "Овај пројекат је одобрен од језичког одбора и сада је доступан на $1.",
+    "wminc-infopage-status-beforeincubator": "Овај пројекат је направљен пре почетка рада Викимедијиног Инкубатора и доступан је на $1."
+}

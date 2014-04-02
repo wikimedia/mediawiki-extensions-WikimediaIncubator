@@ -1,0 +1,38 @@
+{
+    "@metadata": {
+        "authors": [
+            "Amdf",
+            "Eugrus",
+            "Kaganer",
+            "Okras"
+        ]
+    },
+    "wminc-infopage-enter": "перейти на заглавную страницу",
+    "wminc-unknownlang": "(неизвестный код языка)",
+    "wminc-infopage-title-p": "Википедия на языке «$1»",
+    "wminc-infopage-title-b": "Викиучебник на языке «$1»",
+    "wminc-infopage-title-t": "Викисловарь на языке «$1»",
+    "wminc-infopage-title-q": "Викицитатник на языке «$1»",
+    "wminc-infopage-title-n": "Викиновости на языке «$1»",
+    "wminc-infopage-title-s": "Викитека на языке «$1»",
+    "wminc-infopage-title-v": "Викиверситет на языке «$1»",
+    "wminc-infopage-title-y": "Викигид $1",
+    "wminc-infopage-welcome": "Добро пожаловать в Инкубатор Викимедиа, проект Фонда Викимедиа ([[{{MediaWiki:Aboutpage}}|о проекте]])",
+    "wminc-infopage-missingwiki-text": "У проекта «$1» еще ​​нет раздела на этом языке.",
+    "wminc-infopage-option-startwiki": "Если вы хотите начать этот вики-проект,\nвыполните '''[$3 эти действия]''' и следуйте [[{{MediaWiki:Wminc-manual-url}}|нашему руководству]].",
+    "wminc-infopage-option-startsister": "Если вы хотите начать этот вики-проект, вы можете перейти к <strong>[ $2  $1 ] </strong>.",
+    "wminc-infopage-option-languages-existing": "Вы можете поискать [//www.$1.org существующие языковые разделы для $1].",
+    "wminc-infopage-option-sisterprojects-existing": "Вы можете поискать существующие проекты на этом языке:",
+    "wminc-infopage-option-sisterprojects-other": "Вы можете поискать другие проекты на этом языке:",
+    "wminc-infopage-option-multilingual": "Кроме того, вы можете перейти к многоязычным вики-проектам:",
+    "wminc-infopage-createmainpage": "Введите на этом языке выражение, означающее «Заглавная страница»:",
+    "wminc-infopage-contribute": "Если вы понимаете этот язык, вы можете внести свой вклад!",
+    "wminc-infopage-status-open": "Это открытая вики в Инкубаторе Викимедиа.",
+    "wminc-infopage-status-imported": "Эта вики была импортирована в Инкубатор из проекта «$1» после его закрытия.",
+    "wminc-infopage-status-closedsister": "Этот поддомен был закрыт. Перейти к <strong>$2</strong>, чтобы сделать свой вклад в эту вики.",
+    "wminc-infopage-status-approved": "Этот инкубатор был одобрен [[meta:Special:MyLanguage/Language_committee|языковым комитетом]] и будет вскоре создан.",
+    "wminc-infopage-status-created": "Этот проект был одобрен Языковым комитетом и теперь доступен по адресу $1 .",
+    "wminc-infopage-status-beforeincubator": "Этот проект, созданный до запуска Инкубатора Викимедиа, доступен по адресу $1.",
+    "wminc-infopage-status-beforeincubator-sister": "Этот проект доступен в $1.",
+    "wminc-infopage-error": "Ошибка: {{#infopage}} может использоваться только на подстраницах."
+}

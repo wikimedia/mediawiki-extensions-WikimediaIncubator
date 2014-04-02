@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Naudefj"
+        ]
+    },
+    "wminc-infopage-enter": "gaan na die Hoofbladsy",
+    "wminc-unknownlang": "(onbekende taalkode)",
+    "wminc-infopage-title-p": "Wikipedia in $1",
+    "wminc-infopage-title-b": "Wikiboeke in $1",
+    "wminc-infopage-title-t": "Wiktionary in $1",
+    "wminc-infopage-title-q": "Wikiaanhalings in $1",
+    "wminc-infopage-title-n": "Wikinuus in $1",
+    "wminc-infopage-title-s": "Wikibron in $1",
+    "wminc-infopage-title-v": "Wikiversity in $1",
+    "wminc-infopage-title-y": "Wikivoyage in $1",
+    "wminc-infopage-welcome": "Welkom by die Wikimedia Inkubator, 'n projek van die Wikimedia-stigting ([[{{MediaWiki:Aboutpage}}|meer inligting]])",
+    "wminc-infopage-missingwiki-text": "$1 bestaan nog nie in hierdie taal nie.",
+    "wminc-infopage-option-startwiki": "As u hierdie wiki wil skep, volg asseblief '''[$3 hierdie stappe]''' en [[{{MediaWiki:Wminc-manual-url}}|ons handleiding]].",
+    "wminc-infopage-option-startsister": "As u hierdie wiki wil begin, kan u na <strong>[$2 $1]</strong> gaan.",
+    "wminc-infopage-option-languages-existing": "U kan na [//www.$1.org bestaande taalweergawes van $1] soek.",
+    "wminc-infopage-option-sisterprojects-existing": "U kan na bestaande projekte in hierdie taal soek:",
+    "wminc-infopage-option-sisterprojects-other": "U kan na ander projekte in hierdie taal soek:",
+    "wminc-infopage-option-multilingual": "U kan ook na 'n meertalige wiki gaan:",
+    "wminc-infopage-createmainpage": "Verskaf die woord \"Tuisblad\" in hierdie taal:",
+    "wminc-infopage-contribute": "As u hierdie taal ken, draag dan asseblief by!",
+    "wminc-infopage-status-open": "Hierdie is 'n open wiki van Wikimedia Inkubator.",
+    "wminc-infopage-status-imported": "Hierdie Inkubator-wiki is vanaf $1 geïmporteer nadat die wiki gesluit is.",
+    "wminc-infopage-status-closedsister": "Hierdie subdomein is gesluit. Gaan na <strong>$2</strong> om aan hierdie wiki by te dra.",
+    "wminc-infopage-status-approved": "Hierdie Inkubator-wiki is deur die [[meta:Special:MyLanguage/Language_committee|taalkomissie]] goedgekeur en sal binnekort geskep word.",
+    "wminc-infopage-status-created": "Die projek is deur die taalkomitee goedgekeur en is nou beskikbaar op $1.",
+    "wminc-infopage-status-beforeincubator": "Die projek is begin voordat Wikimedia Inkubator geskep is en is beskikbaar op $1.",
+    "wminc-infopage-status-beforeincubator-sister": "Die projek is beskikbaar op $1.",
+    "wminc-infopage-error": "Fout: {{#infopage}} kan slegs in bladsye met 'n voorvoegsel gebruik word."
+}

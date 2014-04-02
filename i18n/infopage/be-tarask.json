@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "EugeneZelenko",
+            "Jim-by",
+            "Red Winged Duck",
+            "Renessaince",
+            "Wizardist"
+        ]
+    },
+    "wminc-infopage-enter": "перайсьці на Галоўную старонку",
+    "wminc-unknownlang": "(невядомы код мовы)",
+    "wminc-infopage-title-p": "Вікіпэдыя $1",
+    "wminc-infopage-title-b": "ВікіКнігі $1",
+    "wminc-infopage-title-t": "ВікіСлоўнік $1",
+    "wminc-infopage-title-q": "ВікіЦытаты $1",
+    "wminc-infopage-title-n": "ВікіНавіны $1",
+    "wminc-infopage-title-s": "Вікікрыніцы $1",
+    "wminc-infopage-title-v": "Віківэрсытэт $1",
+    "wminc-infopage-title-y": "$1 Віківандроўка",
+    "wminc-infopage-welcome": "Вітаем у Інкубатары Вікімэдыя, праекце Фундацыі «Вікімэдыя» ([[{{MediaWiki:Aboutpage}}|Падрабязьней]])",
+    "wminc-infopage-missingwiki-text": "$1 на гэтай мове яшчэ не існуе.",
+    "wminc-infopage-option-startwiki": "Калі Вы жадаеце распачаць гэтую вікі, выканайце\n'''[$3 гэтыя крокі]''' і зьвяртайцеся да [[{{MediaWiki:Wminc-manual-url}}|нашых інструкцыяў]].",
+    "wminc-infopage-option-startsister": "Калі Вы хочаце пачаць гэтую вікі, перайдзіце на <strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-languages-existing": "Вы можаце пашукаць [//www.$1.org існуючыя моўныя варыянты $1].",
+    "wminc-infopage-option-sisterprojects-existing": "Вы можаце пашукаць існуючыя праекты на гэтай мове:",
+    "wminc-infopage-option-sisterprojects-other": "Вы можаце пашукаць іншыя праекты на гэтай мове:",
+    "wminc-infopage-option-multilingual": "Апроч таго, вы можаце перайсьці да шматмоўнай вікі:",
+    "wminc-infopage-createmainpage": "Увядзіце словы «Галоўная старонка» на гэтай мове:",
+    "wminc-infopage-contribute": "Калі Вы ведаеце гэтую мову, Вы можаце рабіць унёсак!",
+    "wminc-infopage-status-open": "Гэта адкрытая вікі ў Інкубатары Вікімэдыі.",
+    "wminc-infopage-status-imported": "Гэтая вікі ў інкубатары была імпартаваная з $1 пасьля таго, як вікі была закрытая.",
+    "wminc-infopage-status-closedsister": "Гэты паддамэн закрыты. Перайдзіце на <strong>$2</strong>, каб напісаць у гэтую вікі.",
+    "wminc-infopage-status-approved": "Гэты інкубатарны праект быў ухвалены [[meta:Special:MyLanguage/Language_committee|Моўным камітэтам]] і хутка будзе створаны.",
+    "wminc-infopage-status-created": "Гэты праект быў зацьверджаны моўным камітэтам, і цяпер ён даступны на $1.",
+    "wminc-infopage-status-beforeincubator": "Гэты праект быў створаны перад пачаткам функцыянаваньня Інкубатара фундацыі «Вікімэдыя» і ён даступны на $1.",
+    "wminc-infopage-status-beforeincubator-sister": "Гэты праект даступны па адрасе $1.",
+    "wminc-infopage-error": "Памылка: {{#infopage}} можна выкарыстоўваць толькі на старонках з прэфіксам."
+}

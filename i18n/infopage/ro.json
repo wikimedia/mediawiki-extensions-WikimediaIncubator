@@ -1,0 +1,26 @@
+{
+    "@metadata": {
+        "authors": [
+            "Firilacroco",
+            "Minisarm",
+            "Stelistcristi"
+        ]
+    },
+    "wminc-infopage-enter": "mergi la Pagina principală",
+    "wminc-unknownlang": "(cod de limbă necunoscut)",
+    "wminc-infopage-title-p": "Wikipedia $1",
+    "wminc-infopage-title-b": "Wikimanuale $1",
+    "wminc-infopage-title-t": "Wikționar $1",
+    "wminc-infopage-title-q": "Wikicitat $1",
+    "wminc-infopage-title-n": "Wikiștiri $1",
+    "wminc-infopage-title-s": "Wikisursă $1",
+    "wminc-infopage-title-v": "Wikiversitate $1",
+    "wminc-infopage-title-y": "Wikivoiaj $1",
+    "wminc-infopage-missingwiki-text": "$1 în această limbă nu există.",
+    "wminc-infopage-option-startsister": "Dacă doriți să porniți acest wiki, puteți merge la <strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-sisterprojects-existing": "Puteți căuta proiecte existente în această limbă:",
+    "wminc-infopage-option-sisterprojects-other": "Puteți căuta alte proiecte în această limbă:",
+    "wminc-infopage-option-multilingual": "Puteți merge pe un wiki multilingvistic:",
+    "wminc-infopage-contribute": "Dacă cunoașteți această limbă, sunteți încurajat să contribuiți!",
+    "wminc-infopage-status-beforeincubator-sister": "Acest proiect este disponibil la $1."
+}

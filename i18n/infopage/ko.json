@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "Albamhandae",
+            "Hym411",
+            "아라"
+        ]
+    },
+    "wminc-infopage-enter": "대문으로 가기",
+    "wminc-unknownlang": "(알 수 없는 언어 코드)",
+    "wminc-infopage-title-p": "위키백과 $1",
+    "wminc-infopage-title-b": "위키책 $1",
+    "wminc-infopage-title-t": "위키낱말사전 $1",
+    "wminc-infopage-title-q": "위키인용집 $1",
+    "wminc-infopage-title-n": "위키뉴스 $1",
+    "wminc-infopage-title-s": "위키문헌 $1",
+    "wminc-infopage-title-v": "위키배움터 $1",
+    "wminc-infopage-title-y": "위키여행 $1",
+    "wminc-infopage-welcome": "위키미디어 재단의 프로젝트인 위키미디어 인큐베이터에 오신 것을 환영합니다 ([[{{MediaWiki:Aboutpage}}|소개]])",
+    "wminc-infopage-missingwiki-text": "이 언어에서 $1 프로젝트가 아직 존재하지 않습니다.",
+    "wminc-infopage-option-startwiki": "이 위키를 시작하고자 한다면,\n'''[$3 다음 단계]'''와 [[{{MediaWiki:Wminc-manual-url}}|매뉴얼]]을 따르세요.",
+    "wminc-infopage-option-startsister": "이 위키를 시작하기를 원한다면, <strong>[$2 $1]</strong>로 갈 수 있습니다.",
+    "wminc-infopage-option-languages-existing": "[//www.$1.org $1의 기존 언어 편집자]에 대해 검색할 수 있습니다.",
+    "wminc-infopage-option-sisterprojects-existing": "이 언어의 기존 프로젝트를 찾을 수 있습니다:",
+    "wminc-infopage-option-sisterprojects-other": "이 언어에서 기타 프로젝트에 대해 검색할 수 있습니다:",
+    "wminc-infopage-option-multilingual": "또는 다국어 위키로 갈 수 있습니다:",
+    "wminc-infopage-createmainpage": "이 언어에서 \"Main Page\"에 대한 단어를 입력하세요:",
+    "wminc-infopage-contribute": "이 시험판에 쓰여진 언어를 아신다면, 기여를 부탁드립니다!",
+    "wminc-infopage-status-open": "위키미디어 인큐베이터의 열린 위키입니다.",
+    "wminc-infopage-status-imported": "이 인큐베이터 위키는 $1이 폐쇄된 후 $1에서 가져왔습니다.",
+    "wminc-infopage-status-closedsister": "이 서브도메인은 닫혔습니다. 이 위키에 기여하려면 <strong>$2</strong>로 가세요.",
+    "wminc-infopage-status-approved": "이 인큐베이터는 [[meta:Special:MyLanguage/Language_committee|언어 위원회]]에 의해 승인되었고 곧 만들어질 것입니다.",
+    "wminc-infopage-status-created": "이 프로젝트는 언어 위원회의 승인을 받았으며 지금 $1에 존재합니다.",
+    "wminc-infopage-status-beforeincubator": "이 프로젝트는 위키미디어 인큐베이터가 시작하기 전에 만들어졌으며 $1에 존재합니다.",
+    "wminc-infopage-status-beforeincubator-sister": "이 프로젝트는 $1에 존재합니다.",
+    "wminc-infopage-error": "오류: {{#infopage}} 문서는 접두어 문서로만 사용할 수 있습니다."
+}

@@ -1,0 +1,36 @@
+{
+    "@metadata": {
+        "authors": [
+            "Amire80",
+            "חיים"
+        ]
+    },
+    "wminc-infopage-enter": "אל הדף הראשי",
+    "wminc-unknownlang": "(קוד שפה לא ידוע)",
+    "wminc-infopage-title-p": "ויקיפדיה ב{{GRAMMAR:תחילית|$1}}",
+    "wminc-infopage-title-b": "ויקיספר ב{{GRAMMAR:תחילית|$1}}",
+    "wminc-infopage-title-t": "ויקימילון ב{{GRAMMAR:תחילית|$1}}",
+    "wminc-infopage-title-q": "ויקיציטוט ב{{GRAMMAR:תחילית|$1}}",
+    "wminc-infopage-title-n": "ויקיחדשות ב{{GRAMMAR:תחילית|$1}}",
+    "wminc-infopage-title-s": "ויקיטקסט ב{{GRAMMAR:תחילית|$1}}",
+    "wminc-infopage-title-v": "ויקיברסיטה ב{{GRAMMAR:תחילית|$1}}",
+    "wminc-infopage-title-y": "ויקימסע ב$1",
+    "wminc-infopage-welcome": "ברוכים הבאים לאינקובטור של ויקימדיה, מיזם של קרן ויקימדיה ([[{{MediaWiki:Aboutpage}}|אודות]])",
+    "wminc-infopage-missingwiki-text": "מיזם $1 בשפה הזאת טרם נוצר.",
+    "wminc-infopage-option-startwiki": "אם אתם רוצים להתחיל את הוויקי הזה, נא לבצע את מה שכתוב\nב'''[$3 הצעדים האלה]''' וב[[{{MediaWiki:Wminc-manual-url}}|ספר ההוראות שלנו]].",
+    "wminc-infopage-option-startsister": "אם אתם רוצים להתחיל את הוויקי הזה, תוכלו ללכת ל־<strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-languages-existing": "אפשר לחפש [//www.$1.org מהדורות לשוניות קיימות של $1].",
+    "wminc-infopage-option-sisterprojects-existing": "אפשר לחפש מיזמים קיימים בשפה הזאת:",
+    "wminc-infopage-option-sisterprojects-other": "אפשר לחפש מיזמים אחרים בשפה הזאת:",
+    "wminc-infopage-option-multilingual": "לחלופין, באפשרותך לעבור אל ויקי רב לשוני:",
+    "wminc-infopage-createmainpage": "כתבו את המילה \"דף ראשי\" בשפתכם:",
+    "wminc-infopage-contribute": "אם אתם יודעים את השפה הזאת, אנו מפצירים בכם לתרום למיזם!",
+    "wminc-infopage-status-open": "זהו ויקי פתוח באינקובטור של ויקימדיה.",
+    "wminc-infopage-status-imported": "ויקי האינקובטור הזה יובא מ{{GRAMMAR:תחילית|$1}} אחרי שהוויקי ההוא נסגר.",
+    "wminc-infopage-status-closedsister": "התת־מתחם הזה נסגר. לכו אל <strong>$2</strong> כדי לתרום לוויקי הזה.",
+    "wminc-infopage-status-approved": "הוויקי הזה, שנמצא עכשיו באינקובטור, אושר על־ידי [[meta:Special:MyLanguage/Language_committee|הוועדה הלשונית]] וייווצר בקרוב.",
+    "wminc-infopage-status-created": "הוועדה הלשונית אישרה את המיזם הזה ואפשר למצוא אותו ב{{GRAMMAR:תחילית|$1}}.",
+    "wminc-infopage-status-beforeincubator": "המיזם הזה נוצר לפני שהוקם האינקובטור של ויקימדיה והוא זמין ב{{GRAMMAR:תחילית|$1}}.",
+    "wminc-infopage-status-beforeincubator-sister": "המיזם הזה זמין בדף $1.",
+    "wminc-infopage-error": "שגיאה: אפשר להשתמש ב־<span dir=\"ltr\">{{#infopage}}</span> רק בדפים עם תחילית."
+}

@@ -1,0 +1,36 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kimkha",
+            "Minh Nguyen"
+        ]
+    },
+    "wminc-infopage-enter": "đi đến Trang Chính",
+    "wminc-unknownlang": "(ngôn ngữ không rõ)",
+    "wminc-infopage-title-p": "Wikipedia $1",
+    "wminc-infopage-title-b": "Wikibooks $1",
+    "wminc-infopage-title-t": "Wiktionary $1",
+    "wminc-infopage-title-q": "Wikiquote $1",
+    "wminc-infopage-title-n": "Wikinews $1",
+    "wminc-infopage-title-s": "Wikisource $1",
+    "wminc-infopage-title-v": "Wikiversity $1",
+    "wminc-infopage-title-y": "Wikivoyage $1",
+    "wminc-infopage-welcome": "Hoan nghênh bạn đến với Vườn ươm Wikimedia, một dự án của Quỹ Wikimedia ([[{{MediaWiki:Aboutpage}}|Giới thiệu]])",
+    "wminc-infopage-missingwiki-text": "$1 chưa có sẵn trong ngôn ngữ này.",
+    "wminc-infopage-option-startwiki": "Nếu bạn muốn bắt đầu xây dựng wiki này, xin vui lòng tiến hành '''[$3 các bước này]''' và thực hiện theo [[{{MediaWiki:Wminc-manual-url}}|sách hướng dẫn của chúng ta]].",
+    "wminc-infopage-option-startsister": "Để bắt đầu wiki này, hãy ghé vào <strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-languages-existing": "Bạn có thể tìm kiếm [//www.$1.org phiên bản ngôn ngữ hiện có của $1].",
+    "wminc-infopage-option-sisterprojects-existing": "Bạn có thể tìm kiếm các dự án hiện có trong ngôn ngữ này:",
+    "wminc-infopage-option-sisterprojects-other": "Bạn có thể tìm kiếm các dự án khác dùng ngôn ngữ này:",
+    "wminc-infopage-option-multilingual": "Hoặc bạn có thể ghé vào một wiki đa ngôn ngữ:",
+    "wminc-infopage-createmainpage": "Nhập từ “Trang Chính” trong ngôn ngữ này:",
+    "wminc-infopage-contribute": "Nếu bạn biết ngôn ngữ này, rất hoan nghênh bạn đóng góp cho nó!",
+    "wminc-infopage-status-open": "Đây là một wiki đang mở cửa trực thuộc Vườn ươm Wikimedia.",
+    "wminc-infopage-status-imported": "Wiki Vườn ươm này đã được nhập từ $1 sau khi wiki đó bị đóng cửa.",
+    "wminc-infopage-status-closedsister": "Tên miền phụ này đã bị đóng cửa. Hãy ghé vào <strong>$2</strong> để đóng góp vào wiki này.",
+    "wminc-infopage-status-approved": "Wiki Vườn ươm này đã được [[meta:Special:MyLanguage/Language_committee|ủy ban ngôn ngữ]] chấp nhận và sẽ được tạo ra không lâu.",
+    "wminc-infopage-status-created": "Dự án đã được ủy ban ngôn ngữ chấp thuận và hiện có sẵn tại $1.",
+    "wminc-infopage-status-beforeincubator": "Dự án này được tạo trước khi Vườn ươm Wikimedia mở cửa và hiện có sẵn tại $1.",
+    "wminc-infopage-status-beforeincubator-sister": "Dự án này có sẵn tại $1.",
+    "wminc-infopage-error": "Lỗi: Chỉ có thể sử dụng {{#infopage}} tại các trang có tiền tố."
+}

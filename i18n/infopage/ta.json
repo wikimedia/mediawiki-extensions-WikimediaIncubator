@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Shanmugamp7"
+        ]
+    },
+    "wminc-infopage-enter": "முதற் பக்கத்திற்குச் செல்லவும்",
+    "wminc-unknownlang": "(அறியாத மொழிக் குறியீடு)",
+    "wminc-infopage-title-p": "விக்கிப்பீடியா $1",
+    "wminc-infopage-title-b": "விக்கிபுத்தகங்கள் $1",
+    "wminc-infopage-title-t": "விக்சனரி$1",
+    "wminc-infopage-title-q": "விக்கிமேற்கோள்$1",
+    "wminc-infopage-title-n": "விக்கிசெய்திகள் $1",
+    "wminc-infopage-title-s": "விக்கிமூலம் $1",
+    "wminc-infopage-title-v": "விக்கிப்பல்கலைக்கழகம் $1",
+    "wminc-infopage-missingwiki-text": "A  $1  இந்த மொழியில் இதுவரை இல்லை."
+}

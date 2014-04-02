@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Eitvys200",
+            "Matasg"
+        ]
+    },
+    "wminc-infopage-enter": "eiti į Pagrindinį Puslapį",
+    "wminc-unknownlang": "(nežinoma kalba su kodu \"$1\")",
+    "wminc-infopage-title-p": "Vikipedija $1",
+    "wminc-infopage-title-b": "Viki knygos $1",
+    "wminc-infopage-title-t": "Viki žodynas $1",
+    "wminc-infopage-title-q": "Viki citatos $1",
+    "wminc-infopage-title-n": "Viki naujienos $1",
+    "wminc-infopage-title-s": "Viki šaltiniai $1",
+    "wminc-infopage-welcome": "Sveiki atvykę i Wikipedia Incubator, Wikipedia fondo projektą ([[{{MediaWiki:Aboutpage}}|Apie]])",
+    "wminc-infopage-missingwiki-text": "$1 šia kalba dar neegzistuoja.",
+    "wminc-infopage-option-startsister": "Jei norite pradėti šia wiki, galite eiti į <strong>[$2 $1] </strong>.",
+    "wminc-infopage-option-sisterprojects-existing": "Jūs galite ieškoti egzistuojančiu projektų, šia kalba:",
+    "wminc-infopage-option-sisterprojects-other": "Jūs galite ieškoti kitų projektų, šia kalba:",
+    "wminc-infopage-contribute": "Jei suprantate, ar kalbate šią kalba, esate kviečiama(s) prisidėti!"
+}

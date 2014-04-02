@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "Crt",
+            "Linnea",
+            "Nedergard",
+            "Nike",
+            "Olli",
+            "VezonThunder"
+        ]
+    },
+    "wminc-infopage-enter": "siirry etusivulle",
+    "wminc-unknownlang": "(tuntematon kielikoodi)",
+    "wminc-infopage-title-p": "Wikipedia $1",
+    "wminc-infopage-title-b": "Wikikirjasto $1",
+    "wminc-infopage-title-t": "Wikisanakirja $1",
+    "wminc-infopage-title-q": "Wikisitaatit $1",
+    "wminc-infopage-title-n": "Wikiuutiset $1",
+    "wminc-infopage-title-s": "Wikiaineisto $1",
+    "wminc-infopage-title-v": "Wikiopisto $1",
+    "wminc-infopage-welcome": "Tervetuloa Wikimedia Hautomoon, Wikimedia Foundationin projektiin ([[{{MediaWiki:Aboutpage}}|tietoja]])",
+    "wminc-infopage-missingwiki-text": "$1-hanketta ei ole vielä tällä kielellä.",
+    "wminc-infopage-option-startwiki": "Jos haluat aloittaa tämän wikin, voit [{{fullurl:{{FULLPAGENAME}}|action=edit}} luoda sivun] ja seurata [[{{MediaWiki:Wminc-manual-url}}|käsikirjamme ohjeita]].",
+    "wminc-infopage-option-startsister": "Jos haluat aloittaa tämän wikin, mene sivulle <strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-languages-existing": "Voit etsiä [//www.$1.org sivuston $1 muita kieliversioita].",
+    "wminc-infopage-option-sisterprojects-existing": "Voit etsiä nykyisiä hankkeita tällä kielellä:",
+    "wminc-infopage-option-sisterprojects-other": "Voit etsiä muita hankkeita tällä kielellä:",
+    "wminc-infopage-option-multilingual": "Voit siirtyä monikieliseen wikiin:",
+    "wminc-infopage-createmainpage": "Syötä sana \"Etusivu\" tällä kielellä:",
+    "wminc-infopage-contribute": "Jos osaat tätä kieltä, muokkaa rohkeasti!",
+    "wminc-infopage-status-open": "Tämä on Wikimedia Hautomon avoin wiki.",
+    "wminc-infopage-status-imported": "Tämä Incubator-wiki on tuotu osoitteesta $1, kun wiki suljettiin.",
+    "wminc-infopage-status-closedsister": "Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <strong>$2</strong>, jos haluat muokata wikiä.",
+    "wminc-infopage-status-created": "Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.",
+    "wminc-infopage-status-beforeincubator": "Tämä projekti luotiin ennen kuin Wikimedia Incubator käynnistettiin ja se on saatavilla osoitteessa $1.",
+    "wminc-infopage-status-beforeincubator-sister": "Tämä projekti on saatavilla osoitteessa $1."
+}

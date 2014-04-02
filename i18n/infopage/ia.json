@@ -1,0 +1,34 @@
+{
+    "@metadata": {
+        "authors": [
+            "McDutchie"
+        ]
+    },
+    "wminc-infopage-enter": "vader al pagina principal",
+    "wminc-unknownlang": "(codice de lingua incognite)",
+    "wminc-infopage-title-p": "Wikipedia in $1",
+    "wminc-infopage-title-b": "Wikibooks in $1",
+    "wminc-infopage-title-t": "Wiktionary in $1",
+    "wminc-infopage-title-q": "Wikiquote in $1",
+    "wminc-infopage-title-n": "Wikinews in $1",
+    "wminc-infopage-title-s": "Wikisource in $1",
+    "wminc-infopage-title-v": "Wikiversity in $1",
+    "wminc-infopage-welcome": "Benvenite a Wikimedia Incubator, un projecto del Fundation Wikimedia ([[{{MediaWiki:Aboutpage}}|a proposito]])",
+    "wminc-infopage-missingwiki-text": "Un $1 in iste lingua non existe ancora.",
+    "wminc-infopage-option-startwiki": "Si tu vole comenciar iste wiki,\ntu pote [{{fullurl:{{FULLPAGENAME}}|action=edit}} crear le pagina] e sequer [[{{MediaWiki:Wminc-manual-url}}|nostre manual]].",
+    "wminc-infopage-option-startsister": "Si tu vole comenciar iste wiki, tu pote vader a <strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-languages-existing": "Tu pote cercar [//www.$1.org existente editiones de lingua de $1].",
+    "wminc-infopage-option-sisterprojects-existing": "Tu pote cercar projectos existente in iste lingua:",
+    "wminc-infopage-option-sisterprojects-other": "Tu pote cercar altere projectos in iste lingua:",
+    "wminc-infopage-option-multilingual": "Tu pote vader a un wiki multilingue:",
+    "wminc-infopage-createmainpage": "Entra le parola(s) pro \"pagina principal\" in iste lingua:",
+    "wminc-infopage-contribute": "Si tu cognosce iste lingua, tu es incoragiate a contribuer!",
+    "wminc-infopage-status-open": "Isto es un wiki aperte de Wikimedia Incubator.",
+    "wminc-infopage-status-imported": "Iste wiki incubator ha essite importate ex $1 post le clausura del wiki.",
+    "wminc-infopage-status-closedsister": "Iste subdominio ha essite claudite. Vade a <strong>$2</strong> pro contribuer a iste wiki.",
+    "wminc-infopage-status-approved": "Iste wiki incubator ha essite approbate per le [[meta:Special:MyLanguage/Language_committee|comité de linguas]] e essera create tosto.",
+    "wminc-infopage-status-created": "Iste projecto ha essite approbate per le comité linguistic e es ora disponibile a $1.",
+    "wminc-infopage-status-beforeincubator": "Iste projecto ha essite create ante le comenciamento de Wikimedia Incubator e es disponibile a $1.",
+    "wminc-infopage-status-beforeincubator-sister": "Iste projecto es disponibile a $1.",
+    "wminc-infopage-error": "Error: {{#infopage}} pote esser usate solmente in paginas con prefixo."
+}

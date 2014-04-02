@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Meno25"
+        ]
+    },
+    "wminc-infopage-enter": "اذهب إلى الصفحة الرئيسية",
+    "wminc-unknownlang": "(كود لغة غير معروف)",
+    "wminc-infopage-title-p": "ويكيبيديا $1",
+    "wminc-infopage-title-b": "ويكي الكتب $1",
+    "wminc-infopage-title-t": "ويكاموس $1",
+    "wminc-infopage-title-q": "ويكي الاقتباس $1",
+    "wminc-infopage-title-n": "ويكي الأخبار $1",
+    "wminc-infopage-title-s": "ويكي مصدر $1",
+    "wminc-infopage-title-v": "ويكي الجامعة $1"
+}

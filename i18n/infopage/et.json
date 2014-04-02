@@ -1,0 +1,34 @@
+{
+    "@metadata": {
+        "authors": [
+            "Pikne"
+        ]
+    },
+    "wminc-infopage-enter": "mine esilehele",
+    "wminc-unknownlang": "(tundmatu keelekood)",
+    "wminc-infopage-title-p": "$1 Vikipeedia",
+    "wminc-infopage-title-b": "$1 Vikiõpikud",
+    "wminc-infopage-title-t": "$1 Vikisõnastik",
+    "wminc-infopage-title-q": "$1 Vikitsitaadid",
+    "wminc-infopage-title-n": "$1 Vikiuudised",
+    "wminc-infopage-title-s": "$1 Vikitekstid",
+    "wminc-infopage-title-v": "$1 Vikiülikool",
+    "wminc-infopage-welcome": "Tere tulemast Wikimedia Inkubaatorisse. Tegu on Wikimedia Foundationi projektiga ([[{{MediaWiki:Aboutpage}}|teave]]).",
+    "wminc-infopage-missingwiki-text": "$1-projekt puudub seni selles keeles.",
+    "wminc-infopage-option-startwiki": "Kui soovid vikit alustada, läbi\n'''[$3 need etapid]''' ja järgi [[{{MediaWiki:Wminc-manual-url}}|meie juhendit]].",
+    "wminc-infopage-option-startsister": "Kui soovid seda vikit alustada, tee seda leheküljel <strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-languages-existing": "Saad otsida [//www.$1.org $1-projekti olemasolevaid keeleversioone].",
+    "wminc-infopage-option-sisterprojects-existing": "Saad otsida olemasolevaid samakeelseid projekte:",
+    "wminc-infopage-option-sisterprojects-other": "Saad otsida teisi samakeelseid projekte:",
+    "wminc-infopage-option-multilingual": "Teise võimalusena saad minna mitmekeelsetesse vikidesse:",
+    "wminc-infopage-createmainpage": "Sisesta sõna \"Esileht\" selles keeles:",
+    "wminc-infopage-contribute": "Kui oskad seda keelt, on sinu kaastöö oodatud!",
+    "wminc-infopage-status-open": "See on avatud viki Wikimedia Inkubaatoris.",
+    "wminc-infopage-status-imported": "See inkubaatori viki on pärast selle sulgemist imporditud asukohast $1.",
+    "wminc-infopage-status-closedsister": "See alamdomeen suleti. Sellele vikile saad kaastööd teha asukohas <strong>$2</strong>.",
+    "wminc-infopage-status-approved": "[[meta:Special:MyLanguage/Language_committee|Keelekomitee]] on selle Inkubaatori-viki heaks kiitnud ja see luuakse peatselt.",
+    "wminc-infopage-status-created": "Keelekomitee on selle projekti heaks kiitnud ja see on nüüd saadaval asukohas $1.",
+    "wminc-infopage-status-beforeincubator": "Selle projektiga alustati enne Wikimedia Inkubaatori avamist ja see on saadaval asukohas $1.",
+    "wminc-infopage-status-beforeincubator-sister": "See projekt on saadaval asukohas $1.",
+    "wminc-infopage-error": "Tõrge: {{#infopage}} on kasutatav ainult eesliitega lehekülgedel."
+}

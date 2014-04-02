@@ -1,0 +1,35 @@
+{
+    "@metadata": {
+        "authors": [
+            "Purodha"
+        ]
+    },
+    "wminc-infopage-enter": "jangk op de Houpsigg",
+    "wminc-unknownlang": "(Schprooche-Köözel onbikannt)",
+    "wminc-infopage-title-p": "Wikkipedija op $1",
+    "wminc-infopage-title-b": "Bööscherwiki op $1",
+    "wminc-infopage-title-t": "Wikiwööterbooch op $1",
+    "wminc-infopage-title-q": "Zitaatewiki op $1",
+    "wminc-infopage-title-n": "Neujeschkeitewiki op $1",
+    "wminc-infopage-title-s": "Quällewiki op $1",
+    "wminc-infopage-title-v": "Wikiväsitääd op $1",
+    "wminc-infopage-title-y": "Op-Jöck-Wiki op $1",
+    "wminc-infopage-welcome": "Wellkumme em Wikimedia Inkubator, enem Projäk vun der [[{{MediaWiki:Aboutpage}}|Wikimedija Schteftong]]",
+    "wminc-infopage-missingwiki-text": "{{ucfirst:{{GRAMMAR:e|{{ucfirst:$1}}}}}} en dä Schprooch jidd et noch nit.",
+    "wminc-infopage-option-startwiki": "Wann De met heh dämm Wiki loßlääje wells, donn Desch aan [$3 di Schredde] un aan [[{{MediaWiki:Wminc-manual-url}}|ons Aanleidong]] hallde.",
+    "wminc-infopage-option-startsister": "Wann de met heh däm Wiki aanfange wells, kanns De noh <strong>[$2 $1]</strong> jonn.",
+    "wminc-infopage-option-languages-existing": "Do kanns noh [//www.$1.org Schprooche_Ußjaabe {{GRAMMAR:vum|{{ucfirst:$1}}}} söhke].",
+    "wminc-infopage-option-sisterprojects-existing": "Do kanns noh Projäkte en heh dä Schprooch söhke, di et ald jitt:",
+    "wminc-infopage-option-sisterprojects-other": "Do kanns noh ander Projäkte en heh dä Schprooch söhke:",
+    "wminc-infopage-option-multilingual": "Do kanns ävver och noh enem Wiki en ätlijje Schprooche jonn:",
+    "wminc-infopage-createmainpage": "Jif dat Woot för „Houpsigg“ en dä Shprooch en:",
+    "wminc-infopage-contribute": "Wann De di Shprooch kanns, dann bes De opjeroofe, beizedraare!",
+    "wminc-infopage-status-open": "Dat heh es e offe Wiki om Wikimeedija <i lang=\"en\">Incubator</i>.",
+    "wminc-infopage-status-imported": "Dat Wiki heh es en der Wikimeedija <i lang=\"en\">Incubator</i> vun $1 empotteet woode, nohdämm et doh zohjemaat woode wohr.",
+    "wminc-infopage-status-closedsister": "Di Ongerdomäjn es zohjemaat. Jangk noh <strong>$2</strong>, öm en dämm Wiki heh jät ze donn.",
+    "wminc-infopage-status-approved": "Heh dat Wiki es vum [[meta:Special:MyLanguage/Language_committee|Schprochekummittee]] jenehmeasch un sull no bahl aanjelaat wääde.",
+    "wminc-infopage-status-created": "at Projäk heh wood vum Sprooche_Kummitee aanjenumme un es jäz onger $1 ze fenge.",
+    "wminc-infopage-status-beforeincubator": "Dat Projäk wood ald bejunne, ih dat et dä Wikimedia <i lang=\"en\">Incubator</i> joov, un et es op $1 ze fenge.",
+    "wminc-infopage-status-beforeincubator-sister": "Heh dat Projäk es onger $1 ze fenge.",
+    "wminc-infopage-error": "Fähler: {{#infopage}} kam_mer bloß op Sigge bruche, di e Köözel als Vörsaz han."
+}

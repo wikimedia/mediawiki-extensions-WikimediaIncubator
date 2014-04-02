@@ -1,0 +1,34 @@
+{
+    "@metadata": {
+        "authors": [
+            "David1010"
+        ]
+    },
+    "wminc-infopage-enter": "მთავარ გვერდზე გადასვლა",
+    "wminc-unknownlang": "(უცნობი ენის კოდი)",
+    "wminc-infopage-title-p": "ვიკიპედია $1",
+    "wminc-infopage-title-b": "ვიკიწიგნები $1",
+    "wminc-infopage-title-t": "ვიქსიკონი $1",
+    "wminc-infopage-title-q": "ვიკიციტატა $1",
+    "wminc-infopage-title-n": "ვიკისიახლენი $1",
+    "wminc-infopage-title-s": "ვიკიწყარო $1",
+    "wminc-infopage-title-v": "ვიკივერსიტეტი $1",
+    "wminc-infopage-title-y": "ვიკივოიაჟი $1",
+    "wminc-infopage-welcome": "კეთილი იყოს თქვენი მობრძანება ვიკიმედიის ინკუბატორში, ფონდი ვიკიმედიის პროექტი ([[{{MediaWiki:Aboutpage}}|პროექტის შესახებ]])",
+    "wminc-infopage-missingwiki-text": "$1 ამ ენაზე ჯერ არ არსებობს.",
+    "wminc-infopage-option-startwiki": "თუ თქვენ გსურთ დაიწყოთ ეს ვიკი, გთხოვთ შეასრულოთ\n'''[$3 შემდეგი ნაბიჯები]''' და მიჰყვეთ [[{{MediaWiki:Wminc-manual-url}}|ჩვენ სახელმძღვანელოს]].",
+    "wminc-infopage-option-startsister": "თუ თქვენ გსურთ ამ ვიკის დაწყება, თქვენ სეგიძლიათ გადახვიდეთ <strong>[ $2  $1 ] </strong>-თან.",
+    "wminc-infopage-option-languages-existing": "თქვენ შეგიძლიათ მოძებნოთ [//www.$1.org არსებული ენობრივი განყოფილებები $1-თვის].",
+    "wminc-infopage-option-sisterprojects-existing": "თქვენ შეგიძლიათ მოძებნოთ არსებული პროექტები ამ ენაზე:",
+    "wminc-infopage-option-sisterprojects-other": "თქვენ შეგიძლიათ მოძებნოთ სხვა პროექტები ამ ენაზე:",
+    "wminc-infopage-option-multilingual": "გარდა ამისა, თქვენ შეგიძლიათ გადახვიდეთ მრავალენოვან ვიკი-პროექტებზე:",
+    "wminc-infopage-createmainpage": "შეიყვანეთ სიტყვა „მთავარი გვერდი“ ამ ენაზე:",
+    "wminc-infopage-contribute": "თუ თქვენ გესმით ეს ენა, თქვენ შეგიძლიათ წვლილი შეიტანოთ მასში!",
+    "wminc-infopage-status-open": "ეს არის ღია ვიკი ვიკიმედიის ინკუბატორში.",
+    "wminc-infopage-status-imported": "ეს ვიკი გადმოტანილ იქნა ინკუბატორში პროექტიდან „$1“ მისი დახურვის შემდეგ.",
+    "wminc-infopage-status-closedsister": "ეს ქვედომენი დაიხურა. გადადით <strong>$2</strong>-ზე რათა შეიტანოთ თქვენი წვლილი ამ ვიკიში.",
+    "wminc-infopage-status-approved": "ეს ინკუბატორის ვიკი დაამტკიცა [[meta:Special:MyLanguage/Language_committee|ენის კომიტეტმა]] და ის მალე შეიქმნება.",
+    "wminc-infopage-status-created": "ეს პროექტი დაამტკიცა ენის კომიტეტმა და ახლა ის ხელმისაწვდომია მისამართზე $1.",
+    "wminc-infopage-status-beforeincubator": "ვიკიმედიის ინკუბატორის გაშვებამდე შექმნილი ეს პროექტი ხელმისაწვდომია მისამართზე $1.",
+    "wminc-infopage-status-beforeincubator-sister": "ეს პროექტი ხელმისაწვდომია მისამართზე $1."
+}

@@ -1,0 +1,31 @@
+{
+    "@metadata": {
+        "authors": [
+            "Dj",
+            "Xbspiro"
+        ]
+    },
+    "wminc-infopage-enter": "Tovább",
+    "wminc-unknownlang": "(ismeretlen nyelvkód)",
+    "wminc-infopage-title-p": "$1 Wikipédia",
+    "wminc-infopage-title-b": "$1 Wikikönyvek",
+    "wminc-infopage-title-t": "$1 Wikiszótár",
+    "wminc-infopage-title-q": "$1 Wikidézet",
+    "wminc-infopage-title-n": "$1 Wikihírek",
+    "wminc-infopage-title-s": "$1 Wikiforrás",
+    "wminc-infopage-title-v": "$1 Wikiegyetem",
+    "wminc-infopage-welcome": "Üdvözöljük a Wikimédia Inkubátorban, amely a Wikimédia Alapítvány projektje ([[{{MediaWiki:Aboutpage}}|Névjegy]])",
+    "wminc-infopage-missingwiki-text": "$1 nem létezik ezen a nyelven.",
+    "wminc-infopage-option-startwiki": "Ha el akarod kezdeni ezt a wikit,\n[{{fullurl:{{FULLPAGENAME}}|action=edit}} hozd létre az oldalt] és kövesd a [[{{MediaWiki:Wminc-manual-url}}|felhasználói kézikönyvet]].",
+    "wminc-infopage-option-startsister": "Ha el akarod kezdeni ezt a wikit, menj ide: <strong>[$2 $1]</strong>.",
+    "wminc-infopage-option-languages-existing": "Keresheted [//www.$1.org $1 létező nyelvi változatát].",
+    "wminc-infopage-option-sisterprojects-existing": "Kereshetsz létező projekteket ezen a nyelven:",
+    "wminc-infopage-option-sisterprojects-other": "Kereshetsz más projekteket ezen a nyelven:",
+    "wminc-infopage-option-multilingual": "Mehetsz egy többnyelvű wikibe:",
+    "wminc-infopage-createmainpage": "Add meg a „Főoldal” nevét ezen a nyelven:",
+    "wminc-infopage-contribute": "Ha ismered ezt a nyelvet, akkor bátran működj közre a szerkesztésben!",
+    "wminc-infopage-status-imported": "Ez az Inkubátor wiki innen lett importálva, miután lezárásra került: $1.",
+    "wminc-infopage-status-closedsister": "Ez az aldomén lezárva. Az alábbi helyen tudsz közreműködni: <strong>$2</strong>.",
+    "wminc-infopage-status-created": "Ez a projekt a nyelvi bizottság által elfogadásra került és most hozzáférhető itt: $1.",
+    "wminc-infopage-status-beforeincubator": "Ez a projekt a Wikimedia Inkubátor előtt indult és elérhet itt: $1."
+}

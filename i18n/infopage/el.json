@@ -1,0 +1,18 @@
+{
+    "@metadata": {
+        "authors": [
+            "Crazymadlover",
+            "Glavkos"
+        ]
+    },
+    "wminc-infopage-enter": "Πηγαίνετε στην κύρια σελίδα",
+    "wminc-infopage-title-p": "Βικιπαίδεια $1",
+    "wminc-infopage-title-b": "Βικιβιβλία $1",
+    "wminc-infopage-title-t": "Βικιλεξικό $1",
+    "wminc-infopage-title-q": "Βικιφθέγματα $1",
+    "wminc-infopage-title-n": "Βικινέα $1",
+    "wminc-infopage-title-s": "Βικιθήκη $1",
+    "wminc-infopage-title-v": "Βικιεπιστήμιο $1",
+    "wminc-infopage-title-y": "Βικιταξίδια $1",
+    "wminc-infopage-welcome": "Καλώς ήλθατε στον Επωαστήρα του Wikimedia, ένα εγχείρημα του Ιδρύματος Wikimedia ([[{{MediaWiki:Aboutpage}}|Σχετικά]])"
+}
