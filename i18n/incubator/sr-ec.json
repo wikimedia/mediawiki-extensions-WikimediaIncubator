@@ -2,7 +2,8 @@
     "@metadata": {
         "authors": [
             "Rancher",
-            "Михајло Анђелковић"
+            "Михајло Анђелковић",
+            "Milicevic01"
         ]
     },
     "wminc-desc": "Пробни вики-систем за Викимедијин инкубатор",
@@ -17,7 +18,7 @@
     "wminc-prefinfo-project": "Изаберите пројекат (могућност за Инкубатор је за кориснике који обављају опште задатке)",
     "wminc-prefinfo-error": "Изабрали сте пројекат који захтева језички код.",
     "wminc-error-move-unprefixed": "Грешка: страница коју желите да преместите [[{{MediaWiki:Wminc-error-help}}|нема предметка или је он погрешан]].",
-    "wminc-error-wronglangcode": "'''Грешка:''' страница садржи [[{{MediaWiki:Wminc-error-help}}|погрешан језички код]] „$1“.",
+    "wminc-error-wronglangcode": "<strong>Грешка:</strong> страница садржи [[{{MediaWiki:Wminc-error-help}}|погрешан језички код]] „$1“.",
     "wminc-error-unprefixed": "'''Грешка:''' страница [[{{MediaWiki:Wminc-error-help}}|нема префикс]].",
     "wminc-error-unprefixed-suggest": "'''Грешка:''' страница [[{{MediaWiki:Wminc-error-help}}|нема префикс]]. Можете да направите страницу на [[:$1]].",
     "wminc-error-wiki-exists": "Овај вики већ постоји. Страницу можете наћи на $1. Ако је вики недавно направљен, сачекајте неколико сати или дана док се не увезе сав садржај.",
