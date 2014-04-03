@@ -136,8 +136,8 @@ $wmincClosedWikis = false;
 
 /* Wx/xx[x] info page */
 $wgAutoloadClasses['InfoPage'] = $dir . 'InfoPage.php';
-$wgMessagesDirs['InfoPage'] = __DIR__ . '/i18n/infopage';
-$wgExtensionMessagesFiles['InfoPage'] = $dir . 'InfoPage.i18n.php';
+$wgMessagesDirs['WikimediaIncubatorInfoPage'] = __DIR__ . '/i18n/infopage';
+$wgExtensionMessagesFiles['WikimediaIncubatorInfoPage'] = $dir . 'InfoPage.i18n.php';
 $wgHooks['ShowMissingArticle'][] = 'WikimediaIncubator::onShowMissingArticle';
 $wgHooks['EditFormPreloadText'][] = 'WikimediaIncubator::onEditFormPreloadText';
 $wgHooks['MediaWikiPerformAction'][] = 'WikimediaIncubator::onMediaWikiPerformAction';
