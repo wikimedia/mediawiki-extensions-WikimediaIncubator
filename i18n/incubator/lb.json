@@ -15,7 +15,7 @@
     "wminc-prefinfo-code": "Den ISO 639 Sprooche-Code vun der Sprooch an där Dir hei schafft",
     "wminc-prefinfo-project": "Wielt de Wikimediaprojet  un deem Dir hei schafft",
     "wminc-prefinfo-error": "Dir hutt e Projet gewielt deen e Sproochecode brauch.",
-    "wminc-error-wronglangcode": "'''Feeler:''' Op dëser Säit ass e [[{{MediaWiki:Wminc-error-help}}|falsche Sproochecode]] \"$1\"!",
+    "wminc-error-wronglangcode": "<strong>Feeler:</strong> Op dëser Säit ass e [[{{MediaWiki:Wminc-error-help}}|falsche Sproochecode]] \"$1\".",
     "randombytest": "Zoufallssäit duerch Test Wiki",
     "randombytest-nopages": "Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.",
     "wminc-viewuserlang": "Benotzersprooch an Test-Wiki nokucken",
