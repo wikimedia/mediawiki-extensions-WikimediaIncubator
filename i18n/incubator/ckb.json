@@ -1,13 +1,14 @@
 {
     "@metadata": {
         "authors": [
-            "Marmzok"
+            "Marmzok",
+            "Calak"
         ]
     },
     "wminc-testwiki": "تاقی‌کردنه‌وه‌ی ویکی:",
     "wminc-testwiki-none": "هیچیان\\هەموویان",
     "wminc-prefinfo-language": "ڕووکاری زمانی تۆ جیاوازه‌ له‌ تاقی کردنه‌وه‌ی ویکی",
-    "wminc-prefinfo-code": "کۆدی زمانی ISO 639",
+    "wminc-prefinfo-code": "کۆدی ISO 639ی زمانەکەی لێرە لەسەری کار دەکەی",
     "wminc-prefinfo-error": "پڕۆژەیەکت هەڵبژاردووه کە پێویستی بە کۆدی زمانە.",
     "wminc-viewuserlang-user": "ناوی بەکارهێنەری:",
     "wminc-viewuserlang-go": "بڕۆ"
