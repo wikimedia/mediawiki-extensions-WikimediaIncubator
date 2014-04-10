@@ -7,7 +7,8 @@
             "Malafaya",
             "MetalBrasil",
             "SandroHc",
-            "Waldir"
+            "Waldir",
+            "Imperadeiro98"
         ]
     },
     "wminc-desc": "Sistema de wikis de testes para a Incubadora Wikimedia",
@@ -22,7 +23,7 @@
     "wminc-prefinfo-code": "O código ISO 639 da língua em que está a trabalhar",
     "wminc-prefinfo-project": "Selecione o projeto Wikimedia em que está a trabalhar",
     "wminc-prefinfo-error": "Selecionou um projeto que necessita de um código de língua.",
-    "wminc-error-move-unprefixed": "Erro: A página de destino [[{{MediaWiki:Wminc-error-help}}|não tem prefixo ou tem um prefixo incorreto]]!",
+    "wminc-error-move-unprefixed": "<strong>Erro:</strong> A página que está a tentar mover para [[{{MediaWiki:Wminc-error-help}}|não tem prefixo ou tem um prefixo incorreto]].",
     "wminc-error-wronglangcode": "<strong>Erro:</strong> A página contém um [[{{MediaWiki:Wminc-error-help}}|código de língua incorreto]]: \"$1\".",
     "wminc-error-unprefixed": "<strong>Erro:</strong> Esta página [[{{MediaWiki:Wminc-error-help}}|não tem prefixo]].",
     "wminc-error-unprefixed-suggest": "<strong>Erro:</strong> Esta página [[{{MediaWiki:Wminc-error-help}}|não tem prefixo]]! Pode criar uma página em [[:$1]].",
