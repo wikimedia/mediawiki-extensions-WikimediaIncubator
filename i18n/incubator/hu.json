@@ -4,7 +4,8 @@
             "Bdamokos",
             "Dj",
             "Glanthor Reviol",
-            "Xbspiro"
+            "Xbspiro",
+            "Tacsipacsi"
         ]
     },
     "wminc-desc": "Tesztwiki rendszer a Wikimédia Inkubátorhoz",
@@ -31,5 +32,17 @@
     "group-test-sysop": "Tesztwiki adminisztrátorok",
     "group-test-sysop-member": "{{GENDER:$1|tesztwiki adminisztrátor}}",
     "grouppage-test-sysop": "{{ns:project}}:Tesztwiki adminisztrátorok",
-    "wminc-search-nocreate-suggest": "Erre kerestél rá: „$1”. Létrehozhatsz egy lapot a wikidben itt: <strong>[[$3]]</strong>."
+    "wminc-search-nocreate-suggest": "Erre kerestél rá: „$1”. Létrehozhatsz egy lapot a wikidben itt: <strong>[[$3]]</strong>.",
+    "wminc-searchwiki": "Keresés egy wikire",
+    "wminc-searchwiki-noproject": "Nem választottál projektet.",
+    "wminc-searchwiki-noresults": "Nincs találat. Kereshetsz nyelvkód, helyi név és felületnyelv szerinti/angol név alapján.",
+    "wminc-searchwiki-selectproject": "Keresés ebben:",
+    "wminc-searchwiki-inputlanguage": "Ilyen nyelven:",
+    "wminc-searchwiki-go": "Keresés",
+    "wminc-searchwiki-multiplematches": "A keresésed a következő nyelvekkel egyezik:",
+    "wminc-searchwiki-match-langcode": "\"$1\" $2 ISO 639-kódja.",
+    "wminc-searchwiki-match-userlangname": "$1 egy nyelv neve.",
+    "wminc-searchwiki-match-englishname": "\"$1\" $2 neve angolul",
+    "wminc-searchwiki-match-nativename": "\"$1\" $2 neve helyi nyelven.",
+    "wminc-searchwiki-gotoinfopage": "Információs oldal"
 }
