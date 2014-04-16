@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ibrahim"
-        ]
-    },
-    "wminc-testwiki": "Санҷиши вики:",
-    "wminc-testwiki-none": "Ҳеҷ/Ҳама",
-    "wminc-viewuserlang-user": "Номи корбарӣ:",
-    "wminc-viewuserlang-go": "Рав"
+	"@metadata": {
+		"authors": [
+			"Ibrahim"
+		]
+	},
+	"wminc-testwiki": "Санҷиши вики:",
+	"wminc-testwiki-none": "Ҳеҷ/Ҳама",
+	"wminc-viewuserlang-user": "Номи корбарӣ:",
+	"wminc-viewuserlang-go": "Рав"
 }

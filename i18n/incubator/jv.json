@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Pras"
-        ]
-    },
-    "wminc-desc": "Sistem pangujian wiki kanggo Inkubator Wikimedia",
-    "wminc-testwiki": "Wiki pangujian:",
-    "wminc-testwiki-none": "Ora ana/Kabèh",
-    "wminc-prefinfo-language": "Basa adu-rai panjenengan - indhepèndhen saka wiki pacoban panjenengan",
-    "wminc-prefinfo-code": "Kodhe basa ISO 639",
-    "wminc-prefinfo-project": "Pilih proyèk Wikimedia (pilihan inkubator iku kanggo para panganggo sing ngayahi kerja umum)",
-    "wminc-prefinfo-error": "Panjenengan milih sawijining proyèk sing mbutuhaké sawijining kodhe basa.",
-    "wminc-viewuserlang": "Golèki basa panganggo lan wiki pangujian",
-    "wminc-viewuserlang-user": "Jeneng panganggo:",
-    "wminc-viewuserlang-go": "Tumuju menyang",
-    "right-viewuserlang": "Pirsani basa panganggo lan wiki pacoban"
+	"@metadata": {
+		"authors": [
+			"Pras"
+		]
+	},
+	"wminc-desc": "Sistem pangujian wiki kanggo Inkubator Wikimedia",
+	"wminc-testwiki": "Wiki pangujian:",
+	"wminc-testwiki-none": "Ora ana/Kabèh",
+	"wminc-prefinfo-language": "Basa adu-rai panjenengan - indhepèndhen saka wiki pacoban panjenengan",
+	"wminc-prefinfo-code": "Kodhe basa ISO 639",
+	"wminc-prefinfo-project": "Pilih proyèk Wikimedia (pilihan inkubator iku kanggo para panganggo sing ngayahi kerja umum)",
+	"wminc-prefinfo-error": "Panjenengan milih sawijining proyèk sing mbutuhaké sawijining kodhe basa.",
+	"wminc-viewuserlang": "Golèki basa panganggo lan wiki pangujian",
+	"wminc-viewuserlang-user": "Jeneng panganggo:",
+	"wminc-viewuserlang-go": "Tumuju menyang",
+	"right-viewuserlang": "Pirsani basa panganggo lan wiki pacoban"
 }

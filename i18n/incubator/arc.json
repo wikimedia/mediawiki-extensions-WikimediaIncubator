@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Basharh"
-        ]
-    },
-    "wminc-testwiki": "ܘܝܩܝ ܢܣܝܘܢܐ:",
-    "wminc-testwiki-none": "ܠܐ ܡܕܡ/ܟܠ",
-    "wminc-viewuserlang-user": "ܫܡܐ ܕܡܦܠܚܢܐ:",
-    "wminc-viewuserlang-go": "ܙܠ"
+	"@metadata": {
+		"authors": [
+			"Basharh"
+		]
+	},
+	"wminc-testwiki": "ܘܝܩܝ ܢܣܝܘܢܐ:",
+	"wminc-testwiki-none": "ܠܐ ܡܕܡ/ܟܠ",
+	"wminc-viewuserlang-user": "ܫܡܐ ܕܡܦܠܚܢܐ:",
+	"wminc-viewuserlang-go": "ܙܠ"
 }

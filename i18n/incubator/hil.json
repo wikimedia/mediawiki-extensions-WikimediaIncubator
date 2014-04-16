@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Tagimata"
-        ]
-    },
-    "wminc-desc": "Testing nga sistema wiki para sa Wikimedia Inkyubeytor",
-    "wminc-testwiki": "Pagtilaw wiki:",
-    "wminc-testwiki-none": "Wala/Tanan",
-    "wminc-prefinfo-language": "Ang imo hambalanon nga interface - kahilwayan halin sa imo pagtilaw wiki",
-    "wminc-prefinfo-code": "Ang ISO 639 lengwahe koda",
-    "wminc-prefinfo-project": "Pilion ang Wikimedia proyekto (Inkyubeytor pilili-an ar para sa mga user nga nagahimo sang kabilugan nga obra)",
-    "wminc-prefinfo-error": "Ginpili mo nga proyekto nga naga kilanlan sang lengwahe koda.",
-    "randombytest": "Ginpalagpat-pagpili nga pahina sang test wiki",
-    "randombytest-nopages": "Wala sang mga pahina sa imo nga test wiki, sa may ngalanespasyo: $1.",
-    "wminc-viewuserlang": "Tan-awon ang user halamabalanon kag pagtilaw wiki",
-    "wminc-viewuserlang-user": "Usarngalan:",
-    "wminc-viewuserlang-go": "Lakat",
-    "right-viewuserlang": "Tan-awon user lengwahe kag pagtilaw wiki"
+	"@metadata": {
+		"authors": [
+			"Tagimata"
+		]
+	},
+	"wminc-desc": "Testing nga sistema wiki para sa Wikimedia Inkyubeytor",
+	"wminc-testwiki": "Pagtilaw wiki:",
+	"wminc-testwiki-none": "Wala/Tanan",
+	"wminc-prefinfo-language": "Ang imo hambalanon nga interface - kahilwayan halin sa imo pagtilaw wiki",
+	"wminc-prefinfo-code": "Ang ISO 639 lengwahe koda",
+	"wminc-prefinfo-project": "Pilion ang Wikimedia proyekto (Inkyubeytor pilili-an ar para sa mga user nga nagahimo sang kabilugan nga obra)",
+	"wminc-prefinfo-error": "Ginpili mo nga proyekto nga naga kilanlan sang lengwahe koda.",
+	"randombytest": "Ginpalagpat-pagpili nga pahina sang test wiki",
+	"randombytest-nopages": "Wala sang mga pahina sa imo nga test wiki, sa may ngalanespasyo: $1.",
+	"wminc-viewuserlang": "Tan-awon ang user halamabalanon kag pagtilaw wiki",
+	"wminc-viewuserlang-user": "Usarngalan:",
+	"wminc-viewuserlang-go": "Lakat",
+	"right-viewuserlang": "Tan-awon user lengwahe kag pagtilaw wiki"
 }

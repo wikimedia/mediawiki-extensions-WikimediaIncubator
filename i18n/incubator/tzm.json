@@ -1,24 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-            "Tifinaghes"
-        ]
-    },
-    "wminc-listwikis": "ⵓⵎⵓⵖ ⵏ ⵡⵉⴽⵉ",
-    "wminc-testwiki": "Test wiki:",
-    "wminc-testwiki-none": "ⴰⵎⵢⴰ/ⵎⴰⵕⵕⴰ",
-    "wminc-recentchanges-all": "ⵎⴰⵕⵕ ⵉⵎⴱⴷⴷⵍⵏ ⵉⵏⴳⴳⵓⵔⴰ",
-    "wminc-viewuserlang-user": "ⴰⵙⵙⴰⵖ ⵓⵎⴷⴰⵏ:",
-    "wminc-viewuserlang-go": "ⴷⴷⵓ",
-    "wminc-userdoesnotexist": "ⴰⵎⴷⴰⵏ (user) \"$1\" ⵓⵔ ⵉⵍⵍⴰ.",
-    "wminc-ip": "\"$1\" is an ⴰⵣⵡⵉⵍ ⵏ IP.",
-    "group-test-sysop-member": "ⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵡⵉⴽⵉ ⵜⴰⵔⵎⵉⵜ",
-    "grouppage-test-sysop": "{{ns:project}}:ⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵜⵙⵓⵖⵍⵜ",
-    "wminc-searchwiki-selectproject": "ⴰⵔⵣⵣⵓ ⵅⴼ:",
-    "wminc-searchwiki-inputlanguage": "ⵙ ⵜⵓⵜⵍⴰⵢⵜ:",
-    "wminc-searchwiki-go": "ⴷⴷⵓ",
-    "wminc-searchwiki-gotoinfopage": "ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵜⴰⵙⵏⴰ",
-    "wminc-fs-langselect-title": "ⵙⵜⵉ ⵜⵓⵜⵍⴰⵢⵜ",
-    "wminc-fs-signup-title": "ⴰⵙⵓⵙⵔ",
-    "wminc-fs-pagetitle-done": " - done!"
+	"@metadata": {
+		"authors": [
+			"Tifinaghes"
+		]
+	},
+	"wminc-listwikis": "ⵓⵎⵓⵖ ⵏ ⵡⵉⴽⵉ",
+	"wminc-testwiki": "Test wiki:",
+	"wminc-testwiki-none": "ⴰⵎⵢⴰ/ⵎⴰⵕⵕⴰ",
+	"wminc-recentchanges-all": "ⵎⴰⵕⵕ ⵉⵎⴱⴷⴷⵍⵏ ⵉⵏⴳⴳⵓⵔⴰ",
+	"wminc-viewuserlang-user": "ⴰⵙⵙⴰⵖ ⵓⵎⴷⴰⵏ:",
+	"wminc-viewuserlang-go": "ⴷⴷⵓ",
+	"wminc-userdoesnotexist": "ⴰⵎⴷⴰⵏ (user) \"$1\" ⵓⵔ ⵉⵍⵍⴰ.",
+	"wminc-ip": "\"$1\" is an ⴰⵣⵡⵉⵍ ⵏ IP.",
+	"group-test-sysop-member": "ⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵡⵉⴽⵉ ⵜⴰⵔⵎⵉⵜ",
+	"grouppage-test-sysop": "{{ns:project}}:ⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵜⵙⵓⵖⵍⵜ",
+	"wminc-searchwiki-selectproject": "ⴰⵔⵣⵣⵓ ⵅⴼ:",
+	"wminc-searchwiki-inputlanguage": "ⵙ ⵜⵓⵜⵍⴰⵢⵜ:",
+	"wminc-searchwiki-go": "ⴷⴷⵓ",
+	"wminc-searchwiki-gotoinfopage": "ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵜⴰⵙⵏⴰ",
+	"wminc-fs-langselect-title": "ⵙⵜⵉ ⵜⵓⵜⵍⴰⵢⵜ",
+	"wminc-fs-signup-title": "ⴰⵙⵓⵙⵔ",
+	"wminc-fs-pagetitle-done": " - done!"
 }

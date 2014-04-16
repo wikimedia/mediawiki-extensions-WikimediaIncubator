@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Farras"
-        ]
-    },
-    "wminc-infopage-title-p": "Wikipedia $1",
-    "wminc-infopage-title-b": "Wikibooks $1",
-    "wminc-infopage-title-t": "Wiktionary $1",
-    "wminc-infopage-title-q": "Wikiquote $1",
-    "wminc-infopage-title-n": "Wikinews $1",
-    "wminc-infopage-title-s": "Wikisource $1",
-    "wminc-infopage-title-v": "Wikiversity $1",
-    "wminc-infopage-title-y": "Wikivoyage $1",
-    "wminc-infopage-welcome": "Selamat datang di Wikimedia Incubator, sebuah proyek dari Wikimedia Foundation ([[{{MediaWiki:Aboutpage}} |Tentang]])"
+	"@metadata": {
+		"authors": [
+			"Farras"
+		]
+	},
+	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-b": "Wikibooks $1",
+	"wminc-infopage-title-t": "Wiktionary $1",
+	"wminc-infopage-title-q": "Wikiquote $1",
+	"wminc-infopage-title-n": "Wikinews $1",
+	"wminc-infopage-title-s": "Wikisource $1",
+	"wminc-infopage-title-v": "Wikiversity $1",
+	"wminc-infopage-title-y": "Wikivoyage $1",
+	"wminc-infopage-welcome": "Selamat datang di Wikimedia Incubator, sebuah proyek dari Wikimedia Foundation ([[{{MediaWiki:Aboutpage}} |Tentang]])"
 }

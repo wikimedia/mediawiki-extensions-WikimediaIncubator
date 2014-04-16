@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hanberke"
-        ]
-    },
-    "wminc-testwiki": "Test wiki:",
-    "wminc-viewuserlang-user": "Ulanyjy ady:",
-    "wminc-viewuserlang-go": "Git"
+	"@metadata": {
+		"authors": [
+			"Hanberke"
+		]
+	},
+	"wminc-testwiki": "Test wiki:",
+	"wminc-viewuserlang-user": "Ulanyjy ady:",
+	"wminc-viewuserlang-go": "Git"
 }

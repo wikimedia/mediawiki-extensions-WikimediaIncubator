@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rachitrali"
-        ]
-    },
-    "wminc-infopage-enter": "آویلو صفحا بوغے",
-    "wminc-unknownlang": "نامعلوم زبانو کوڈ",
-    "wminc-infopage-title-p": "$1 ویکیپیڈیا",
-    "wminc-infopage-title-b": "$1 ویکی کتاب",
-    "wminc-infopage-title-t": "$1 وکشنری",
-    "wminc-infopage-title-q": "$1 ویکی اقتباس",
-    "wminc-infopage-title-n": "ویکی خبار $1",
-    "wminc-infopage-title-s": "ویکی سورس $1",
-    "wminc-infopage-title-v": "ویکی یونیورسٹی $1",
-    "wminc-infopage-welcome": "ویکیپیڈیا اینکوبیٹرا رحمت عزیز چترالی پساتے خوشان گیور ریران, ویکی میڈیا فاونڈیشن اوچے کھوار اکیڈمیو ای کھوار پروجیکٹ ([[{{MediaWiki:Aboutpage}}|About]])"
+	"@metadata": {
+		"authors": [
+			"Rachitrali"
+		]
+	},
+	"wminc-infopage-enter": "آویلو صفحا بوغے",
+	"wminc-unknownlang": "نامعلوم زبانو کوڈ",
+	"wminc-infopage-title-p": "$1 ویکیپیڈیا",
+	"wminc-infopage-title-b": "$1 ویکی کتاب",
+	"wminc-infopage-title-t": "$1 وکشنری",
+	"wminc-infopage-title-q": "$1 ویکی اقتباس",
+	"wminc-infopage-title-n": "ویکی خبار $1",
+	"wminc-infopage-title-s": "ویکی سورس $1",
+	"wminc-infopage-title-v": "ویکی یونیورسٹی $1",
+	"wminc-infopage-welcome": "ویکیپیڈیا اینکوبیٹرا رحمت عزیز چترالی پساتے خوشان گیور ریران, ویکی میڈیا فاونڈیشن اوچے کھوار اکیڈمیو ای کھوار پروجیکٹ ([[{{MediaWiki:Aboutpage}}|About]])"
 }

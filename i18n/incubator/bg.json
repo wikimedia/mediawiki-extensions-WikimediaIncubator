@@ -1,27 +1,27 @@
 {
-    "@metadata": {
-        "authors": [
-            "DCLXVI",
-            "Spiritia",
-            "Stanqo"
-        ]
-    },
-    "wminc-desc": "Тестова уики система за Уикимедия Инкубатор",
-    "wminc-listwikis": "Списък уикита",
-    "wminc-testwiki": "Тестово уики:",
-    "wminc-testwiki-none": "Никои / Всички",
-    "wminc-recentchanges-all": "Всички последни промени",
-    "wminc-prefinfo-language": "Език на интерфейса (независим от езика на вашето тестово уики)",
-    "wminc-prefinfo-code": "Езиковият код според стандарта ISO 639",
-    "wminc-prefinfo-project": "Изберете проект на Уикимедия (Опцията инкубатор е за потребители, които извършват обща работа)",
-    "wminc-prefinfo-error": "Избрали сте проект, който се нуждае от езиков код.",
-    "randombytest": "Случайна страница от тестваното уики",
-    "randombytest-nopages": "В тестваното уики няма страници в именно пространство $1.",
-    "wminc-viewuserlang": "Справка за езика на потребителя и тестваното от него уики",
-    "wminc-viewuserlang-user": "Потребител:",
-    "wminc-viewuserlang-go": "Отваряне",
-    "wminc-userdoesnotexist": "Не съществува потребител \"$1\".",
-    "wminc-ip": "\"$1\" е IP-адрес.",
-    "right-viewuserlang": "Вижте езика на потребителя и езика на тестваното уики",
-    "wminc-code-retired": "Този езиков код е бил променен и повече не се отнася към оригиналния език."
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"Spiritia",
+			"Stanqo"
+		]
+	},
+	"wminc-desc": "Тестова уики система за Уикимедия Инкубатор",
+	"wminc-listwikis": "Списък уикита",
+	"wminc-testwiki": "Тестово уики:",
+	"wminc-testwiki-none": "Никои / Всички",
+	"wminc-recentchanges-all": "Всички последни промени",
+	"wminc-prefinfo-language": "Език на интерфейса (независим от езика на вашето тестово уики)",
+	"wminc-prefinfo-code": "Езиковият код според стандарта ISO 639",
+	"wminc-prefinfo-project": "Изберете проект на Уикимедия (Опцията инкубатор е за потребители, които извършват обща работа)",
+	"wminc-prefinfo-error": "Избрали сте проект, който се нуждае от езиков код.",
+	"randombytest": "Случайна страница от тестваното уики",
+	"randombytest-nopages": "В тестваното уики няма страници в именно пространство $1.",
+	"wminc-viewuserlang": "Справка за езика на потребителя и тестваното от него уики",
+	"wminc-viewuserlang-user": "Потребител:",
+	"wminc-viewuserlang-go": "Отваряне",
+	"wminc-userdoesnotexist": "Не съществува потребител \"$1\".",
+	"wminc-ip": "\"$1\" е IP-адрес.",
+	"right-viewuserlang": "Вижте езика на потребителя и езика на тестваното уики",
+	"wminc-code-retired": "Този езиков код е бил променен и повече не се отнася към оригиналния език."
 }

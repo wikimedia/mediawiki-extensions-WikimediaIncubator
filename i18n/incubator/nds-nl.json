@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": [
-            "Servien"
-        ]
-    },
-    "wminc-desc": "Testwikisysteem veur de Wikimedia Incubator",
-    "wminc-testwiki": "Testwiki:",
-    "wminc-testwiki-none": "Gien/alles",
-    "wminc-prefinfo-language": "De gebrukerstaal - onaofhankelik van joew testwiki",
-    "wminc-prefinfo-code": "De ISO 639-kode van de taal waoran jie hier warken",
-    "wminc-prefinfo-project": "Kies t Wikimedia-projekt waoran jie warken",
-    "wminc-prefinfo-error": "Je hebben ekeuzen veur n projekt waor da'j n taalkode veur neudig hebben.",
-    "wminc-viewuserlang": "Gebrukerstaal en testwiki opzeuken",
-    "wminc-viewuserlang-user": "Gebrukersnaam:",
-    "wminc-viewuserlang-go": "Zeuken"
+	"@metadata": {
+		"authors": [
+			"Servien"
+		]
+	},
+	"wminc-desc": "Testwikisysteem veur de Wikimedia Incubator",
+	"wminc-testwiki": "Testwiki:",
+	"wminc-testwiki-none": "Gien/alles",
+	"wminc-prefinfo-language": "De gebrukerstaal - onaofhankelik van joew testwiki",
+	"wminc-prefinfo-code": "De ISO 639-kode van de taal waoran jie hier warken",
+	"wminc-prefinfo-project": "Kies t Wikimedia-projekt waoran jie warken",
+	"wminc-prefinfo-error": "Je hebben ekeuzen veur n projekt waor da'j n taalkode veur neudig hebben.",
+	"wminc-viewuserlang": "Gebrukerstaal en testwiki opzeuken",
+	"wminc-viewuserlang-user": "Gebrukersnaam:",
+	"wminc-viewuserlang-go": "Zeuken"
 }

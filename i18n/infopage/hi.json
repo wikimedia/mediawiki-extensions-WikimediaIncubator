@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ansumang",
-            "Vibhijain"
-        ]
-    },
-    "wminc-infopage-enter": "मुख्य पृष्ठ पर जाएँ",
-    "wminc-infopage-title-p": "विकिपीड़िया $1"
+	"@metadata": {
+		"authors": [
+			"Ansumang",
+			"Vibhijain"
+		]
+	},
+	"wminc-infopage-enter": "मुख्य पृष्ठ पर जाएँ",
+	"wminc-infopage-title-p": "विकिपीड़िया $1"
 }

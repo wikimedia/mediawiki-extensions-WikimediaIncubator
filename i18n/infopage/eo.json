@@ -1,24 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ebe123",
-            "KuboF",
-            "Yekrats"
-        ]
-    },
-    "wminc-unknownlang": "(nekonata lingvokodo)",
-    "wminc-infopage-title-p": "Vikipedio $1",
-    "wminc-infopage-title-b": "Vikilibroj $1",
-    "wminc-infopage-title-t": "Vikivortaro $1",
-    "wminc-infopage-title-q": "Vikicitaro $1",
-    "wminc-infopage-title-n": "Vikinovaĵoj $1",
-    "wminc-infopage-title-s": "Vikifontaro $1",
-    "wminc-infopage-title-v": "Vikiversitio $1",
-    "wminc-infopage-title-y": "Vikivojaĝo $1",
-    "wminc-infopage-welcome": "Bonvenon al la Vikimedia Kovilo, projekto de la Fondaĵo Vikimedio ([[{{MediaWiki:Aboutpage}}|Pri]])",
-    "wminc-infopage-missingwiki-text": "$1 en ĉi tiu linvo ne jam ekzistas.",
-    "wminc-infopage-option-sisterprojects-other": "Vi povas serĉi aliajn projektojn en ĉi tiu lingvo:",
-    "wminc-infopage-createmainpage": "Eniru la vorton \"Ĉefpaĝon\" laŭ ĉi tiu lingvo:",
-    "wminc-infopage-contribute": "Se vi scipovas ĉi tiun lingvon, vi estas kuraĝigita por kontribui!",
-    "wminc-infopage-status-beforeincubator-sister": "Ĉi tiu projekto estas disponebla ĉe $1"
+	"@metadata": {
+		"authors": [
+			"Ebe123",
+			"KuboF",
+			"Yekrats"
+		]
+	},
+	"wminc-unknownlang": "(nekonata lingvokodo)",
+	"wminc-infopage-title-p": "Vikipedio $1",
+	"wminc-infopage-title-b": "Vikilibroj $1",
+	"wminc-infopage-title-t": "Vikivortaro $1",
+	"wminc-infopage-title-q": "Vikicitaro $1",
+	"wminc-infopage-title-n": "Vikinovaĵoj $1",
+	"wminc-infopage-title-s": "Vikifontaro $1",
+	"wminc-infopage-title-v": "Vikiversitio $1",
+	"wminc-infopage-title-y": "Vikivojaĝo $1",
+	"wminc-infopage-welcome": "Bonvenon al la Vikimedia Kovilo, projekto de la Fondaĵo Vikimedio ([[{{MediaWiki:Aboutpage}}|Pri]])",
+	"wminc-infopage-missingwiki-text": "$1 en ĉi tiu linvo ne jam ekzistas.",
+	"wminc-infopage-option-sisterprojects-other": "Vi povas serĉi aliajn projektojn en ĉi tiu lingvo:",
+	"wminc-infopage-createmainpage": "Eniru la vorton \"Ĉefpaĝon\" laŭ ĉi tiu lingvo:",
+	"wminc-infopage-contribute": "Se vi scipovas ĉi tiun lingvon, vi estas kuraĝigita por kontribui!",
+	"wminc-infopage-status-beforeincubator-sister": "Ĉi tiu projekto estas disponebla ĉe $1"
 }

@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shinjiman"
-        ]
-    },
-    "wminc-desc": "Wikimedia Incubator嘅測試wiki系統",
-    "wminc-testwiki": "測試wiki:",
-    "wminc-testwiki-none": "無/全部",
-    "wminc-prefinfo-language": "你嘅界面語言 - 響你嘅測試wiki獨立嘅",
-    "wminc-prefinfo-code": "ISO 639語言碼",
-    "wminc-prefinfo-project": "揀Wikimedia計劃 (Incubator選項用來做一般嘅嘢)",
-    "wminc-prefinfo-error": "你揀咗一個需要語言碼嘅計劃。",
-    "wminc-viewuserlang": "睇用戶語言同測試wiki"
+	"@metadata": {
+		"authors": [
+			"Shinjiman"
+		]
+	},
+	"wminc-desc": "Wikimedia Incubator嘅測試wiki系統",
+	"wminc-testwiki": "測試wiki:",
+	"wminc-testwiki-none": "無/全部",
+	"wminc-prefinfo-language": "你嘅界面語言 - 響你嘅測試wiki獨立嘅",
+	"wminc-prefinfo-code": "ISO 639語言碼",
+	"wminc-prefinfo-project": "揀Wikimedia計劃 (Incubator選項用來做一般嘅嘢)",
+	"wminc-prefinfo-error": "你揀咗一個需要語言碼嘅計劃。",
+	"wminc-viewuserlang": "睇用戶語言同測試wiki"
 }

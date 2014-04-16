@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Meno25"
-        ]
-    },
-    "wminc-testwiki": "ويكى تجربه:",
-    "wminc-testwiki-none": "ولاحاجه/كل",
-    "wminc-viewuserlang-user": "اسم اليوزر:",
-    "wminc-viewuserlang-go": "روح"
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"wminc-testwiki": "ويكى تجربه:",
+	"wminc-testwiki-none": "ولاحاجه/كل",
+	"wminc-viewuserlang-user": "اسم اليوزر:",
+	"wminc-viewuserlang-go": "روح"
 }

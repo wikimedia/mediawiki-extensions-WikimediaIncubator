@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "George Animal"
-        ]
-    },
-    "wminc-prefinfo-code": "Koda ISO 639 a ziman",
-    "wminc-viewuserlang-user": "Navê bikarhêner:",
-    "wminc-viewuserlang-go": "Biçe",
-    "wminc-searchwiki-go": "Biçe"
+	"@metadata": {
+		"authors": [
+			"George Animal"
+		]
+	},
+	"wminc-prefinfo-code": "Koda ISO 639 a ziman",
+	"wminc-viewuserlang-user": "Navê bikarhêner:",
+	"wminc-viewuserlang-go": "Biçe",
+	"wminc-searchwiki-go": "Biçe"
 }

@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "wminc-manual": "دستی",
-    "wminc-testwiki-site": "(بحالی)",
-    "wminc-recentchanges-all": "سب سے حالیہ تبدیلیاں",
-    "wminc-viewuserlang-user": "صارف کا نام:",
-    "wminc-viewuserlang-go": "جانا",
-    "wminc-searchwiki-go": "جانا",
-    "wminc-searchwiki-gotoinfopage": "معلومات کے صفحہ",
-    "wminc-fs-langselect-title": "زبان کا انتخاب کریں",
-    "wminc-fs-signup-title": "سائن اپ کریں"
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"wminc-manual": "دستی",
+	"wminc-testwiki-site": "(بحالی)",
+	"wminc-recentchanges-all": "سب سے حالیہ تبدیلیاں",
+	"wminc-viewuserlang-user": "صارف کا نام:",
+	"wminc-viewuserlang-go": "جانا",
+	"wminc-searchwiki-go": "جانا",
+	"wminc-searchwiki-gotoinfopage": "معلومات کے صفحہ",
+	"wminc-fs-langselect-title": "زبان کا انتخاب کریں",
+	"wminc-fs-signup-title": "سائن اپ کریں"
 }

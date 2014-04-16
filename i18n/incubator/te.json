@@ -1,25 +1,25 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kiranmayee",
-            "Veeven"
-        ]
-    },
-    "wminc-desc": "వికీమీడియా ఇంక్యుబేటర్ కొరకు పరీక్షా వికీ సిస్టం",
-    "wminc-listwikis": "వికీల జాబితా",
-    "wminc-testwiki": "పరీక్షా వికీ:",
-    "wminc-testwiki-code": "పరీక్షా వికీ భాష:",
-    "wminc-testwiki-none": "ఏమికాదు/అన్నీ",
-    "wminc-recentchanges-all": "అన్ని ఇటీవలి మార్పులు",
-    "wminc-prefinfo-code": "మీరు ఇక్కడ పనిచేస్తున్న భాష యొక్క ISO 639 సంకేతం",
-    "wminc-prefinfo-error": "భాష కోడు కావాల్సిన ఒక ప్రాజెక్టును మీరు ఎన్నుకున్నారు.",
-    "randombytest": "పరీక్షా వికీ ద్వారా ఒక యాధృచిక పేజి",
-    "wminc-viewuserlang-user": "వాడుకరి పేరు:",
-    "wminc-viewuserlang-go": "వెళ్ళు",
-    "wminc-userdoesnotexist": "వాడుకరి \"$1\" లేనే లేరు.",
-    "wminc-ip": "\"$1\" అనేది ఐపీ చిరునామా.",
-    "right-viewuserlang": "వాడుకరి భాషను చూడగలగడం మరియు వికీని పరీక్షించడం",
-    "wminc-searchwiki-inputlanguage": "ఈ భాషలో:",
-    "wminc-searchwiki-go": "వెళ్ళు",
-    "wminc-fs-pagetitle-done": " - పూర్తయ్యింది!"
+	"@metadata": {
+		"authors": [
+			"Kiranmayee",
+			"Veeven"
+		]
+	},
+	"wminc-desc": "వికీమీడియా ఇంక్యుబేటర్ కొరకు పరీక్షా వికీ సిస్టం",
+	"wminc-listwikis": "వికీల జాబితా",
+	"wminc-testwiki": "పరీక్షా వికీ:",
+	"wminc-testwiki-code": "పరీక్షా వికీ భాష:",
+	"wminc-testwiki-none": "ఏమికాదు/అన్నీ",
+	"wminc-recentchanges-all": "అన్ని ఇటీవలి మార్పులు",
+	"wminc-prefinfo-code": "మీరు ఇక్కడ పనిచేస్తున్న భాష యొక్క ISO 639 సంకేతం",
+	"wminc-prefinfo-error": "భాష కోడు కావాల్సిన ఒక ప్రాజెక్టును మీరు ఎన్నుకున్నారు.",
+	"randombytest": "పరీక్షా వికీ ద్వారా ఒక యాధృచిక పేజి",
+	"wminc-viewuserlang-user": "వాడుకరి పేరు:",
+	"wminc-viewuserlang-go": "వెళ్ళు",
+	"wminc-userdoesnotexist": "వాడుకరి \"$1\" లేనే లేరు.",
+	"wminc-ip": "\"$1\" అనేది ఐపీ చిరునామా.",
+	"right-viewuserlang": "వాడుకరి భాషను చూడగలగడం మరియు వికీని పరీక్షించడం",
+	"wminc-searchwiki-inputlanguage": "ఈ భాషలో:",
+	"wminc-searchwiki-go": "వెళ్ళు",
+	"wminc-fs-pagetitle-done": " - పూర్తయ్యింది!"
 }

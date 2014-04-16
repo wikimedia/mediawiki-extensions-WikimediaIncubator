@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "פוילישער",
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "wminc-listwikis": "ליסטע פון וויקיס",
-    "wminc-testwiki": "פרווו וויקי",
-    "wminc-testwiki-code": "פרואוו וויקי שפראך:",
-    "wminc-testwiki-none": "קיינע/אלע",
-    "wminc-recentchanges-all": "אלע לעצטיקע ענדערונגען",
-    "wminc-viewuserlang-user": "באַניצער נאָמען:",
-    "wminc-viewuserlang-go": "גיין",
-    "wminc-userdoesnotexist": "נישט פאראן קיין באניצער \"$1\".",
-    "wminc-ip": "\"$1\" איז אן IP אדרעס.",
-    "wminc-searchwiki-go": "גיין"
+	"@metadata": {
+		"authors": [
+			"פוילישער",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"wminc-listwikis": "ליסטע פון וויקיס",
+	"wminc-testwiki": "פרווו וויקי",
+	"wminc-testwiki-code": "פרואוו וויקי שפראך:",
+	"wminc-testwiki-none": "קיינע/אלע",
+	"wminc-recentchanges-all": "אלע לעצטיקע ענדערונגען",
+	"wminc-viewuserlang-user": "באַניצער נאָמען:",
+	"wminc-viewuserlang-go": "גיין",
+	"wminc-userdoesnotexist": "נישט פאראן קיין באניצער \"$1\".",
+	"wminc-ip": "\"$1\" איז אן IP אדרעס.",
+	"wminc-searchwiki-go": "גיין"
 }

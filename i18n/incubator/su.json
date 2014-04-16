@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kandar"
-        ]
-    },
-    "wminc-prefinfo-code": "Sandi basa ISO 639",
-    "wminc-prefinfo-project": "Pilih proyék Wikimédia (pilihan Inkubator pikeun pamaké nu ngahanca pagawéan umum)",
-    "wminc-prefinfo-error": "Anjeun milih proyék anu merlukeun sandi basa."
+	"@metadata": {
+		"authors": [
+			"Kandar"
+		]
+	},
+	"wminc-prefinfo-code": "Sandi basa ISO 639",
+	"wminc-prefinfo-project": "Pilih proyék Wikimédia (pilihan Inkubator pikeun pamaké nu ngahanca pagawéan umum)",
+	"wminc-prefinfo-error": "Anjeun milih proyék anu merlukeun sandi basa."
 }

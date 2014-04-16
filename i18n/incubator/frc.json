@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ebe123"
-        ]
-    },
-    "wminc-manual": "Manuel",
-    "wminc-listwikis": "Liste des wikis",
-    "wminc-testwiki": "Test wiki :"
+	"@metadata": {
+		"authors": [
+			"Ebe123"
+		]
+	},
+	"wminc-manual": "Manuel",
+	"wminc-listwikis": "Liste des wikis",
+	"wminc-testwiki": "Test wiki :"
 }

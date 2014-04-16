@@ -1,26 +1,26 @@
 {
-    "@metadata": {
-        "authors": [
-            "An13sa",
-            "Kobazulo",
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "wminc-desc": "Wikimedia Incubatorrerako wiki proba sistema",
-    "wminc-manual": "Eskuliburua",
-    "wminc-testwiki": "Probazko wikia:",
-    "wminc-testwiki-none": "Bat ere ez/Guztiak",
-    "wminc-testwiki-site": "(Mantenketa)",
-    "wminc-recentchanges-all": "Aldaketa berri guztiak",
-    "wminc-prefinfo-language": "Zure interfazearen hizkuntza - Wiki probatik independentea da",
-    "wminc-prefinfo-code": "Lanean ari zaren hizkuntzaren ISO 639 hizkuntza kodea",
-    "wminc-prefinfo-project": "Aukeratu lanean ari zaren Wikimedia proiektua",
-    "wminc-prefinfo-error": "Hizkuntza-kodea behar duen proiektua aukeratu duzu.",
-    "randombytest": "Wiiki testaren ausazko orria",
-    "randombytest-nopages": "Ez dago orrialderik zure proba wikian, $1 izen-tartearekin.",
-    "wminc-viewuserlang": "Lankidearen hizkuntza eta probazko wikia ikusi",
-    "wminc-viewuserlang-user": "Erabiltzaile izena:",
-    "wminc-viewuserlang-go": "Joan",
-    "right-viewuserlang": "Ikusi lankide hizkuntza eta wiki testa",
-    "wminc-searchwiki-go": "Joan"
+	"@metadata": {
+		"authors": [
+			"An13sa",
+			"Kobazulo",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"wminc-desc": "Wikimedia Incubatorrerako wiki proba sistema",
+	"wminc-manual": "Eskuliburua",
+	"wminc-testwiki": "Probazko wikia:",
+	"wminc-testwiki-none": "Bat ere ez/Guztiak",
+	"wminc-testwiki-site": "(Mantenketa)",
+	"wminc-recentchanges-all": "Aldaketa berri guztiak",
+	"wminc-prefinfo-language": "Zure interfazearen hizkuntza - Wiki probatik independentea da",
+	"wminc-prefinfo-code": "Lanean ari zaren hizkuntzaren ISO 639 hizkuntza kodea",
+	"wminc-prefinfo-project": "Aukeratu lanean ari zaren Wikimedia proiektua",
+	"wminc-prefinfo-error": "Hizkuntza-kodea behar duen proiektua aukeratu duzu.",
+	"randombytest": "Wiiki testaren ausazko orria",
+	"randombytest-nopages": "Ez dago orrialderik zure proba wikian, $1 izen-tartearekin.",
+	"wminc-viewuserlang": "Lankidearen hizkuntza eta probazko wikia ikusi",
+	"wminc-viewuserlang-user": "Erabiltzaile izena:",
+	"wminc-viewuserlang-go": "Joan",
+	"right-viewuserlang": "Ikusi lankide hizkuntza eta wiki testa",
+	"wminc-searchwiki-go": "Joan"
 }

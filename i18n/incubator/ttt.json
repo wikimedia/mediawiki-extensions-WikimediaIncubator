@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Erdemaslancan"
-        ]
-    },
-    "wminc-viewuserlang-go": "Buşu",
-    "wminc-searchwiki-go": "Buşu"
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan"
+		]
+	},
+	"wminc-viewuserlang-go": "Buşu",
+	"wminc-searchwiki-go": "Buşu"
 }

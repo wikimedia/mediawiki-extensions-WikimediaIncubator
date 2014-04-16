@@ -1,35 +1,35 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "wminc-infopage-enter": "оди на Главна страница",
-    "wminc-unknownlang": "(непознат јазичен код)",
-    "wminc-infopage-title-p": "Википедија $1",
-    "wminc-infopage-title-b": "Викикниги $1",
-    "wminc-infopage-title-t": "Викиречник $1",
-    "wminc-infopage-title-q": "Викицитат $1",
-    "wminc-infopage-title-n": "Викивести $1",
-    "wminc-infopage-title-s": "Викиизвор $1",
-    "wminc-infopage-title-v": "Викиверзитет $1",
-    "wminc-infopage-title-y": "Википатување $1",
-    "wminc-infopage-welcome": "Добредојдовте на Инкубаторот на Викимедија - проект на Фондацијата Викимедија ([[{{MediaWiki:Aboutpage}}|За проектот]])",
-    "wminc-infopage-missingwiki-text": "На овој јазик сè уште не постои $1.",
-    "wminc-infopage-option-startwiki": "Ако сакате да го отпочнете ова вики, проследете ги\n'''[$3 овие чекори]''' и [[{{MediaWiki:Wminc-manual-url}}|нашето упатство]].",
-    "wminc-infopage-option-startsister": "Ако сакате да го започнете ова вики, појдете на <strong>[$2 $1]</strong>.",
-    "wminc-infopage-option-languages-existing": "Можете да ги пребарате [//www.$1.org постоечките јазични изданија на $1].",
-    "wminc-infopage-option-sisterprojects-existing": "Можете да ги пребарате постоечките проекти на овој јазик:",
-    "wminc-infopage-option-sisterprojects-other": "Можете да пребарате други проекти на овој јазик:",
-    "wminc-infopage-option-multilingual": "Или пак можете да појдете на повеќејазично вики:",
-    "wminc-infopage-createmainpage": "Внесете го зборот „Главна страница“ на овој јазик:",
-    "wminc-infopage-contribute": "Ако имате познавања од овој јазик, ви препорачуваме да учествувате!",
-    "wminc-infopage-status-open": "Ова е отворено вики на Викимедииниот Инкубатор.",
-    "wminc-infopage-status-imported": "Ова вики на Инкубаторот е увезено од $1, по затворањето на викито.",
-    "wminc-infopage-status-closedsister": "Овој поддомен е затворен. Појдете на <strong>$2</strong> за да учествувате на ова вики.",
-    "wminc-infopage-status-approved": "Ова инкубаторско вики е одобрено од [[meta:Special:MyLanguage/Language_committee|јазичниот комитет]] и наскоро ќе биде создадено.",
-    "wminc-infopage-status-created": "Овој проект е одобрен од јазичната комисија и сега е достапен на $1.",
-    "wminc-infopage-status-beforeincubator": "Овој проект е создаден пред започнувањето на Инкубаторот на Викимедија и е достапен на $1.",
-    "wminc-infopage-status-beforeincubator-sister": "Проектот е достапен на $1.",
-    "wminc-infopage-error": "Грешка: {{#infopage}} може да се користи само на страници со претставки."
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"wminc-infopage-enter": "оди на Главна страница",
+	"wminc-unknownlang": "(непознат јазичен код)",
+	"wminc-infopage-title-p": "Википедија $1",
+	"wminc-infopage-title-b": "Викикниги $1",
+	"wminc-infopage-title-t": "Викиречник $1",
+	"wminc-infopage-title-q": "Викицитат $1",
+	"wminc-infopage-title-n": "Викивести $1",
+	"wminc-infopage-title-s": "Викиизвор $1",
+	"wminc-infopage-title-v": "Викиверзитет $1",
+	"wminc-infopage-title-y": "Википатување $1",
+	"wminc-infopage-welcome": "Добредојдовте на Инкубаторот на Викимедија - проект на Фондацијата Викимедија ([[{{MediaWiki:Aboutpage}}|За проектот]])",
+	"wminc-infopage-missingwiki-text": "На овој јазик сè уште не постои $1.",
+	"wminc-infopage-option-startwiki": "Ако сакате да го отпочнете ова вики, проследете ги\n'''[$3 овие чекори]''' и [[{{MediaWiki:Wminc-manual-url}}|нашето упатство]].",
+	"wminc-infopage-option-startsister": "Ако сакате да го започнете ова вики, појдете на <strong>[$2 $1]</strong>.",
+	"wminc-infopage-option-languages-existing": "Можете да ги пребарате [//www.$1.org постоечките јазични изданија на $1].",
+	"wminc-infopage-option-sisterprojects-existing": "Можете да ги пребарате постоечките проекти на овој јазик:",
+	"wminc-infopage-option-sisterprojects-other": "Можете да пребарате други проекти на овој јазик:",
+	"wminc-infopage-option-multilingual": "Или пак можете да појдете на повеќејазично вики:",
+	"wminc-infopage-createmainpage": "Внесете го зборот „Главна страница“ на овој јазик:",
+	"wminc-infopage-contribute": "Ако имате познавања од овој јазик, ви препорачуваме да учествувате!",
+	"wminc-infopage-status-open": "Ова е отворено вики на Викимедииниот Инкубатор.",
+	"wminc-infopage-status-imported": "Ова вики на Инкубаторот е увезено од $1, по затворањето на викито.",
+	"wminc-infopage-status-closedsister": "Овој поддомен е затворен. Појдете на <strong>$2</strong> за да учествувате на ова вики.",
+	"wminc-infopage-status-approved": "Ова инкубаторско вики е одобрено од [[meta:Special:MyLanguage/Language_committee|јазичниот комитет]] и наскоро ќе биде создадено.",
+	"wminc-infopage-status-created": "Овој проект е одобрен од јазичната комисија и сега е достапен на $1.",
+	"wminc-infopage-status-beforeincubator": "Овој проект е создаден пред започнувањето на Инкубаторот на Викимедија и е достапен на $1.",
+	"wminc-infopage-status-beforeincubator-sister": "Проектот е достапен на $1.",
+	"wminc-infopage-error": "Грешка: {{#infopage}} може да се користи само на страници со претставки."
 }

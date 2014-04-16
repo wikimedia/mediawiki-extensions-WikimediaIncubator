@@ -1,35 +1,35 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "wminc-infopage-enter": "ir á páxina principal",
-    "wminc-unknownlang": "(código de lingua descoñecido)",
-    "wminc-infopage-title-p": "Wikipedia en $1",
-    "wminc-infopage-title-b": "Wikibooks en $1",
-    "wminc-infopage-title-t": "Wiktionary en $1",
-    "wminc-infopage-title-q": "Wikiquote en $1",
-    "wminc-infopage-title-n": "Wikinews en $1",
-    "wminc-infopage-title-s": "Wikisource en $1",
-    "wminc-infopage-title-v": "Wikiversity en $1",
-    "wminc-infopage-title-y": "Wikivoyage en $1",
-    "wminc-infopage-welcome": "Benvido á Incubadora da Wikimedia, un proxecto da Fundación Wikimedia ([[{{MediaWiki:Aboutpage}}|acerca de]])",
-    "wminc-infopage-missingwiki-text": "Aínda non existe $1 nesta lingua.",
-    "wminc-infopage-option-startwiki": "Se quere comezar este wiki, siga\n'''[$3 estes pasos]''' e mais [[{{MediaWiki:Wminc-manual-url}}|o noso manual]].",
-    "wminc-infopage-option-startsister": "Se quere comezar este wiki, pode ir a <strong>[$2 $1]</strong>.",
-    "wminc-infopage-option-languages-existing": "Pode ollar [//www.$1.org as linguas nas que hai $1].",
-    "wminc-infopage-option-sisterprojects-existing": "Pode ollar os proxectos que hai nesta lingua:",
-    "wminc-infopage-option-sisterprojects-other": "Pode ollar outros proxectos que hai nesta lingua:",
-    "wminc-infopage-option-multilingual": "Como alternativa, pode ir a un wiki multilingüe:",
-    "wminc-infopage-createmainpage": "Escriba as palabras \"Páxina principal\" nesta lingua:",
-    "wminc-infopage-contribute": "Se coñece esta lingua, animámolo a contribuír!",
-    "wminc-infopage-status-open": "Este é un wiki aberto da Incubadora da Wikimedia.",
-    "wminc-infopage-status-imported": "Este wiki da Incubadora foi importado desde $1 despois de que o wiki pechase.",
-    "wminc-infopage-status-closedsister": "Este subdominio foi pechado. Vaia a <strong>$2</strong> para contribuír neste wiki.",
-    "wminc-infopage-status-approved": "O [[meta:Special:MyLanguage/Language_committee|comité de linguas]] aprobou este wiki da Incubadora. Axiña ha estar dispoñible.",
-    "wminc-infopage-status-created": "O comité de linguas aprobou este proxecto. Agora está dispoñible en $1.",
-    "wminc-infopage-status-beforeincubator": "Este proxecto foi creado antes ca a Incubadora da Wikimedia e está dispoñible en $1.",
-    "wminc-infopage-status-beforeincubator-sister": "Este proxecto está dispoñible en $1.",
-    "wminc-infopage-error": "Erro: {{#infopage}} pódese utilizar unicamente nas páxinas con prefixo."
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"wminc-infopage-enter": "ir á páxina principal",
+	"wminc-unknownlang": "(código de lingua descoñecido)",
+	"wminc-infopage-title-p": "Wikipedia en $1",
+	"wminc-infopage-title-b": "Wikibooks en $1",
+	"wminc-infopage-title-t": "Wiktionary en $1",
+	"wminc-infopage-title-q": "Wikiquote en $1",
+	"wminc-infopage-title-n": "Wikinews en $1",
+	"wminc-infopage-title-s": "Wikisource en $1",
+	"wminc-infopage-title-v": "Wikiversity en $1",
+	"wminc-infopage-title-y": "Wikivoyage en $1",
+	"wminc-infopage-welcome": "Benvido á Incubadora da Wikimedia, un proxecto da Fundación Wikimedia ([[{{MediaWiki:Aboutpage}}|acerca de]])",
+	"wminc-infopage-missingwiki-text": "Aínda non existe $1 nesta lingua.",
+	"wminc-infopage-option-startwiki": "Se quere comezar este wiki, siga\n'''[$3 estes pasos]''' e mais [[{{MediaWiki:Wminc-manual-url}}|o noso manual]].",
+	"wminc-infopage-option-startsister": "Se quere comezar este wiki, pode ir a <strong>[$2 $1]</strong>.",
+	"wminc-infopage-option-languages-existing": "Pode ollar [//www.$1.org as linguas nas que hai $1].",
+	"wminc-infopage-option-sisterprojects-existing": "Pode ollar os proxectos que hai nesta lingua:",
+	"wminc-infopage-option-sisterprojects-other": "Pode ollar outros proxectos que hai nesta lingua:",
+	"wminc-infopage-option-multilingual": "Como alternativa, pode ir a un wiki multilingüe:",
+	"wminc-infopage-createmainpage": "Escriba as palabras \"Páxina principal\" nesta lingua:",
+	"wminc-infopage-contribute": "Se coñece esta lingua, animámolo a contribuír!",
+	"wminc-infopage-status-open": "Este é un wiki aberto da Incubadora da Wikimedia.",
+	"wminc-infopage-status-imported": "Este wiki da Incubadora foi importado desde $1 despois de que o wiki pechase.",
+	"wminc-infopage-status-closedsister": "Este subdominio foi pechado. Vaia a <strong>$2</strong> para contribuír neste wiki.",
+	"wminc-infopage-status-approved": "O [[meta:Special:MyLanguage/Language_committee|comité de linguas]] aprobou este wiki da Incubadora. Axiña ha estar dispoñible.",
+	"wminc-infopage-status-created": "O comité de linguas aprobou este proxecto. Agora está dispoñible en $1.",
+	"wminc-infopage-status-beforeincubator": "Este proxecto foi creado antes ca a Incubadora da Wikimedia e está dispoñible en $1.",
+	"wminc-infopage-status-beforeincubator-sister": "Este proxecto está dispoñible en $1.",
+	"wminc-infopage-error": "Erro: {{#infopage}} pódese utilizar unicamente nas páxinas con prefixo."
 }

@@ -1,35 +1,35 @@
 {
-    "@metadata": {
-        "authors": [
-            "Singhalawap",
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "wminc-infopage-enter": "මුල් පිටුව වෙත යන්න",
-    "wminc-unknownlang": "\"$1\" කේතය යොදා ඇති හදුනා නොගත් භාෂාව",
-    "wminc-infopage-title-p": "විකිපීඩියා $1",
-    "wminc-infopage-title-b": "විකිපොත් $1",
-    "wminc-infopage-title-t": "විකිෂනරි $1",
-    "wminc-infopage-title-q": "විකීඋදෘත $1",
-    "wminc-infopage-title-n": "විකිපුවත් $1",
-    "wminc-infopage-title-s": "විකිමුලාශ්‍ර $1",
-    "wminc-infopage-title-v": "විකිවර්සිටි $1",
-    "wminc-infopage-title-y": "විකිවොයේජ් $1",
-    "wminc-infopage-welcome": "විකිමාධ්‍ය ඉන්කිව්බේටර වෙත පිළිගනිමු, විකිමාධ්‍ය පදනමෙහි ව්‍යාපෘතියකි ([[{{MediaWiki:Aboutpage}}|පිලිබඳ]])",
-    "wminc-infopage-missingwiki-text": "මෙම භාෂාවෙහි තිබෙන $1 තවම නොපවතියි.",
-    "wminc-infopage-option-startwiki": "ඔබට මෙම විකිය ආරම්භ කිරීමට අවශ්‍යනම්,\n[{{fullurl:{{FULLPAGENAME}}|action=edit}} පිටුව තනා] [[{{MediaWiki:Wminc-manual-url}}|අපගේ අත්පොත]]  අනුගමනය කල හැක.",
-    "wminc-infopage-option-startsister": "ඔබට මෙම විකිය ඇරඹීමට අවශ්‍ය නම්, ඔබට <strong>[$2 $1]</strong>වෙත යා හැකියි.",
-    "wminc-infopage-option-languages-existing": "ඔබ හට [//www.$1.org $1 හී දැනටමත් පවත්නා භාෂා අනුවාදයන්] සඳහා ගවේෂණය කල හැක.",
-    "wminc-infopage-option-sisterprojects-existing": "මෙම භාෂාවෙහි දැනටමත් පවතින ව්‍යාපෘතියන් ඔබට ගවේශනය කල හැක:",
-    "wminc-infopage-option-sisterprojects-other": "මෙම භාෂාවෙහි වෙනත් ව්‍යාපෘතියන් ඔබට ගවේශනය කල හැක:",
-    "wminc-infopage-option-multilingual": "ඔබට බහුභාෂාමය විකියකට යා හැකියි:",
-    "wminc-infopage-createmainpage": "මෙම භාෂාවෙහිදී ''මුල් පිටුව'' යන වචනය යොදන්න:",
-    "wminc-infopage-contribute": "ඔබ මෙම භාෂාව ගැන දන්නවානම්, දායකත්වය ලබා දීමට ඔබට අපි අනුබල දෙනවා!",
-    "wminc-infopage-status-open": "මෙය විකිමාධ්‍ය ඉන්කිව්බේටරයෙහි විවෘත විකියයි.",
-    "wminc-infopage-status-imported": "විකිය වැසීමෙන් පසුව මෙම ඉන්කිව්බේටර විකිය $1 වෙතින් ආයාත කර ඇත.",
-    "wminc-infopage-status-closedsister": "මෙම උපවසම වසා ඇත. මෙම විකියට දායකවීමට <strong>$2</strong> වෙත යන්න.",
-    "wminc-infopage-status-created": "භාෂා කමිටුව විසින් මෙම ව්‍යාපෘතිය අනුමත කල අතර $1 හීදී ලබාගත හැක.",
-    "wminc-infopage-status-beforeincubator": "මෙම ව්‍යාපෘතිය තැනී ඇත්තේ විකිමාධ්‍ය ඉන්කිව්බේටරය ආරම්භ කිරීමට පෙර වන අතර $1 හීදී ලබා ගත හැක.",
-    "wminc-infopage-status-beforeincubator-sister": "මෙම ව්‍යාපෘතිය $1 හීදී ලබා ගත හැක.",
-    "wminc-infopage-error": "දෝෂය: {{#infopage}} උපසර්ගමය පිටුවල පමණක් භාවිතා කල හැක."
+	"@metadata": {
+		"authors": [
+			"Singhalawap",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"wminc-infopage-enter": "මුල් පිටුව වෙත යන්න",
+	"wminc-unknownlang": "\"$1\" කේතය යොදා ඇති හදුනා නොගත් භාෂාව",
+	"wminc-infopage-title-p": "විකිපීඩියා $1",
+	"wminc-infopage-title-b": "විකිපොත් $1",
+	"wminc-infopage-title-t": "විකිෂනරි $1",
+	"wminc-infopage-title-q": "විකීඋදෘත $1",
+	"wminc-infopage-title-n": "විකිපුවත් $1",
+	"wminc-infopage-title-s": "විකිමුලාශ්‍ර $1",
+	"wminc-infopage-title-v": "විකිවර්සිටි $1",
+	"wminc-infopage-title-y": "විකිවොයේජ් $1",
+	"wminc-infopage-welcome": "විකිමාධ්‍ය ඉන්කිව්බේටර වෙත පිළිගනිමු, විකිමාධ්‍ය පදනමෙහි ව්‍යාපෘතියකි ([[{{MediaWiki:Aboutpage}}|පිලිබඳ]])",
+	"wminc-infopage-missingwiki-text": "මෙම භාෂාවෙහි තිබෙන $1 තවම නොපවතියි.",
+	"wminc-infopage-option-startwiki": "ඔබට මෙම විකිය ආරම්භ කිරීමට අවශ්‍යනම්,\n[{{fullurl:{{FULLPAGENAME}}|action=edit}} පිටුව තනා] [[{{MediaWiki:Wminc-manual-url}}|අපගේ අත්පොත]]  අනුගමනය කල හැක.",
+	"wminc-infopage-option-startsister": "ඔබට මෙම විකිය ඇරඹීමට අවශ්‍ය නම්, ඔබට <strong>[$2 $1]</strong>වෙත යා හැකියි.",
+	"wminc-infopage-option-languages-existing": "ඔබ හට [//www.$1.org $1 හී දැනටමත් පවත්නා භාෂා අනුවාදයන්] සඳහා ගවේෂණය කල හැක.",
+	"wminc-infopage-option-sisterprojects-existing": "මෙම භාෂාවෙහි දැනටමත් පවතින ව්‍යාපෘතියන් ඔබට ගවේශනය කල හැක:",
+	"wminc-infopage-option-sisterprojects-other": "මෙම භාෂාවෙහි වෙනත් ව්‍යාපෘතියන් ඔබට ගවේශනය කල හැක:",
+	"wminc-infopage-option-multilingual": "ඔබට බහුභාෂාමය විකියකට යා හැකියි:",
+	"wminc-infopage-createmainpage": "මෙම භාෂාවෙහිදී ''මුල් පිටුව'' යන වචනය යොදන්න:",
+	"wminc-infopage-contribute": "ඔබ මෙම භාෂාව ගැන දන්නවානම්, දායකත්වය ලබා දීමට ඔබට අපි අනුබල දෙනවා!",
+	"wminc-infopage-status-open": "මෙය විකිමාධ්‍ය ඉන්කිව්බේටරයෙහි විවෘත විකියයි.",
+	"wminc-infopage-status-imported": "විකිය වැසීමෙන් පසුව මෙම ඉන්කිව්බේටර විකිය $1 වෙතින් ආයාත කර ඇත.",
+	"wminc-infopage-status-closedsister": "මෙම උපවසම වසා ඇත. මෙම විකියට දායකවීමට <strong>$2</strong> වෙත යන්න.",
+	"wminc-infopage-status-created": "භාෂා කමිටුව විසින් මෙම ව්‍යාපෘතිය අනුමත කල අතර $1 හීදී ලබාගත හැක.",
+	"wminc-infopage-status-beforeincubator": "මෙම ව්‍යාපෘතිය තැනී ඇත්තේ විකිමාධ්‍ය ඉන්කිව්බේටරය ආරම්භ කිරීමට පෙර වන අතර $1 හීදී ලබා ගත හැක.",
+	"wminc-infopage-status-beforeincubator-sister": "මෙම ව්‍යාපෘතිය $1 හීදී ලබා ගත හැක.",
+	"wminc-infopage-error": "දෝෂය: {{#infopage}} උපසර්ගමය පිටුවල පමණක් භාවිතා කල හැක."
 }

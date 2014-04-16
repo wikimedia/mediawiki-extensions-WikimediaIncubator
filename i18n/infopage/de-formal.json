@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln",
-            "Polletfa"
-        ]
-    },
-    "wminc-infopage-option-startwiki": "Sofern Sie dieses Wiki starten möchten, folgen Sie bitte\n'''[$3 diesen Schritten]''' und [[{{MediaWiki:Wminc-manual-url}}|unserer Anleitung]].",
-    "wminc-infopage-option-startsister": "Sofern Sie dieses Wiki starten möchten, gehen Sie zu <strong>[$2 $1]</strong>.",
-    "wminc-infopage-option-languages-existing": "Sie können auf [//www.$1.org nach vorhandenen Sprachausgaben von $1] suchen.",
-    "wminc-infopage-option-sisterprojects-existing": "Sie können nach vorhandenen Projekten in dieser Sprache suchen:",
-    "wminc-infopage-option-sisterprojects-other": "Sie können nach anderen Projekten in dieser Sprache suchen:",
-    "wminc-infopage-option-multilingual": "Sie können ein mehrsprachiges Wiki aufsuchen:",
-    "wminc-infopage-createmainpage": "Geben Sie das Wort für „Hauptseite“ in dieser Sprache ein:",
-    "wminc-infopage-contribute": "Wenn Sie diese Sprache beherrschen, sind Sie herzlich willkommen, mitzumachen!",
-    "wminc-infopage-status-closedsister": "Diese Subdomain wurde geschlossen. Gehen Sie zu <strong>$2</strong>, um zu diesem Wiki beizutragen."
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Polletfa"
+		]
+	},
+	"wminc-infopage-option-startwiki": "Sofern Sie dieses Wiki starten möchten, folgen Sie bitte\n'''[$3 diesen Schritten]''' und [[{{MediaWiki:Wminc-manual-url}}|unserer Anleitung]].",
+	"wminc-infopage-option-startsister": "Sofern Sie dieses Wiki starten möchten, gehen Sie zu <strong>[$2 $1]</strong>.",
+	"wminc-infopage-option-languages-existing": "Sie können auf [//www.$1.org nach vorhandenen Sprachausgaben von $1] suchen.",
+	"wminc-infopage-option-sisterprojects-existing": "Sie können nach vorhandenen Projekten in dieser Sprache suchen:",
+	"wminc-infopage-option-sisterprojects-other": "Sie können nach anderen Projekten in dieser Sprache suchen:",
+	"wminc-infopage-option-multilingual": "Sie können ein mehrsprachiges Wiki aufsuchen:",
+	"wminc-infopage-createmainpage": "Geben Sie das Wort für „Hauptseite“ in dieser Sprache ein:",
+	"wminc-infopage-contribute": "Wenn Sie diese Sprache beherrschen, sind Sie herzlich willkommen, mitzumachen!",
+	"wminc-infopage-status-closedsister": "Diese Subdomain wurde geschlossen. Gehen Sie zu <strong>$2</strong>, um zu diesem Wiki beizutragen."
 }

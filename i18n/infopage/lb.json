@@ -1,24 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-            "Robby"
-        ]
-    },
-    "wminc-infopage-enter": "Gitt op d'Haaptsäit",
-    "wminc-unknownlang": "(onbekannte Sprooch-Code)",
-    "wminc-infopage-title-p": "Wikipedia $1",
-    "wminc-infopage-title-b": "Wikibooks $1",
-    "wminc-infopage-title-t": "Wiktionnaire $1",
-    "wminc-infopage-missingwiki-text": "$1 gëtt et an dëser Sprooch nach net",
-    "wminc-infopage-option-startsister": "Wann Dir dës Wiki ufänke wëllt, da gitt w.e.g. op <strong>[$2 $1]</strong>.",
-    "wminc-infopage-option-languages-existing": "Dir kënnt no [//www.$1.org Sproochversiounen, déi et vun $1 gëtt, sichen].",
-    "wminc-infopage-option-sisterprojects-existing": "Dir kënnt no Projeten an dëser Sprooch sichen (déi et scho gëtt):",
-    "wminc-infopage-option-sisterprojects-other": "Dir kënnt no anere Projeten an dëser Sprooch sichen:",
-    "wminc-infopage-option-multilingual": "Alternativ, kënnt Dir op eng méisproocheg Wiki goen:",
-    "wminc-infopage-createmainpage": "Gitt d'Wuert \"Haaptsäit\" fir dës Sprooch an:",
-    "wminc-infopage-contribute": "Wann Dir dës Sprooch beherrscht, sidd Dir häerzlech wëllkomm fir matzemaachen!",
-    "wminc-infopage-status-imported": "Dës Incubator-Wiki gouf vun $1 importéiert wéi d'Wiki zougemaach gouf.",
-    "wminc-infopage-status-closedsister": "Dës Subdomain gouf zougemaach. Gitt op <strong>$2</strong> fir un dëser Wiki matzeschaffen.",
-    "wminc-infopage-status-created": "Dëse Projet gouf vum Sproochecomité akzeptéiert an ass elo op $1 disponibel.",
-    "wminc-infopage-status-beforeincubator": "Dëse Projet gouf ugeluecht ier et Wikimedia Incubator gouf an ass op $1 disponibel."
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"wminc-infopage-enter": "Gitt op d'Haaptsäit",
+	"wminc-unknownlang": "(onbekannte Sprooch-Code)",
+	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-b": "Wikibooks $1",
+	"wminc-infopage-title-t": "Wiktionnaire $1",
+	"wminc-infopage-missingwiki-text": "$1 gëtt et an dëser Sprooch nach net",
+	"wminc-infopage-option-startsister": "Wann Dir dës Wiki ufänke wëllt, da gitt w.e.g. op <strong>[$2 $1]</strong>.",
+	"wminc-infopage-option-languages-existing": "Dir kënnt no [//www.$1.org Sproochversiounen, déi et vun $1 gëtt, sichen].",
+	"wminc-infopage-option-sisterprojects-existing": "Dir kënnt no Projeten an dëser Sprooch sichen (déi et scho gëtt):",
+	"wminc-infopage-option-sisterprojects-other": "Dir kënnt no anere Projeten an dëser Sprooch sichen:",
+	"wminc-infopage-option-multilingual": "Alternativ, kënnt Dir op eng méisproocheg Wiki goen:",
+	"wminc-infopage-createmainpage": "Gitt d'Wuert \"Haaptsäit\" fir dës Sprooch an:",
+	"wminc-infopage-contribute": "Wann Dir dës Sprooch beherrscht, sidd Dir häerzlech wëllkomm fir matzemaachen!",
+	"wminc-infopage-status-imported": "Dës Incubator-Wiki gouf vun $1 importéiert wéi d'Wiki zougemaach gouf.",
+	"wminc-infopage-status-closedsister": "Dës Subdomain gouf zougemaach. Gitt op <strong>$2</strong> fir un dëser Wiki matzeschaffen.",
+	"wminc-infopage-status-created": "Dëse Projet gouf vum Sproochecomité akzeptéiert an ass elo op $1 disponibel.",
+	"wminc-infopage-status-beforeincubator": "Dëse Projet gouf ugeluecht ier et Wikimedia Incubator gouf an ass op $1 disponibel."
 }
