@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"AnakngAraw",
-			"Jewel457"
+			"Jewel457",
+			"Jojit fb"
 		]
 	},
 	"wminc-desc": "Sistemang pangsubok ng wiki para sa Pisaan ng Wikimedia",
@@ -64,10 +65,10 @@
 	"wminc-fs-pagetitle-done": " - gawa na!",
 	"wminc-fs-intro": "Maligayang pagdating sa masalamangkang unang mga hakbang ng {{SITENAME}}. Papatnubayan ka sa proseso ng pagsisimula ng isang bagong wiki.",
 	"wminc-fs-langselect": "Magpatuloy na nasa $1 o $2",
-	"wminc-fs-signup-text": "Kung mayroon ka nang isang akawnt ng tagagamit, paki [$1 lumagda]. Kung wala ka pang isa, paki [$2 lumikha ng isang akawnt ng tagagamit]. Hindi ito kinakailangan subalit mahigpit na iminumungkahi at gumugugol lamang ng isang mangilan-ngilang mga segundo upang malikha.",
+	"wminc-fs-signup-text": "Kung mayroon ka nang isang account ng tagagamit, paki [$1 login]. Kung wala ka pang isa, paki [$2 likha ng isang account ng tagagamit]. Hindi ito kinakailangan subalit mahigpit na iminumungkahi at gumugugol lamang ng isang mangilan-ngilang mga segundo upang malikha.",
 	"wminc-fs-settings-text": "Paki pumunta na ngayon sa [[Special:Preferences#mw-htmlform-i18n|mga kanaisan mo]] at baguhin ang iyong katakdaan para sa pangsubok na wiki.\nSa kanan ay makikita mo ang kaukol na mga mapagpipilian na mayroon ka sa pahinang iyan. Ang una ay ang iyong wika ng ugnayang-mukha, na napili mo sa unang hakbang, subalit mababago mo pa ito.\nAng pangalawa ay ang proyektong nais mong pag-ambagan at ang pangatlo ay ang kodigo ng wika ng proyektong nais mong ambagan.\nKung hindi mo alam ang kodigo, paki sumangguni sa aming [[{{MediaWiki:Wminc-manual-url}}|pamatnubay]] o humingi ng [[{{MediaWiki:Portal-url}}|tulong]].",
 	"wminc-fs-userpage-text": "Paki likhain na ngayon ang iyong pahina ng tagagamit na $1 na mayroong saligang kabatiran hinggil sa sarili mo. Matitingnan mo rin ang isang kawing na papunta rito na nasa itaas ng pahinang ito.",
-	"wminc-fs-globaluser-text": "Katutubo ang iyong akawnt ng tagagamit. Iminumungkahi na gawin itong pangglobo sa mamagitan ng $1 upang magamit mo ito sa anumang wiki ng Wikimedia.",
+	"wminc-fs-globaluser-text": "Lokal ang iyong account ng tagagamit. Iminumungkahi na gawin itong pangdaigdigan sa mamagitan ng $1 upang magamit mo ito sa anumang wiki ng Wikimedia.",
 	"wminc-fs-startwiki-text": "Ang unlapi ng wiki mo ay <strong>$1</strong>. Masisimulan mo ang wiki sa pamamagitan ng paglikha ng Pangunahing Pahina ng wiki roon sa <strong>$2</strong>.",
 	"wminc-fs-startwiki-exists-text": "Ang unlapi ng wiki mo ay $1. Ang Pangunahing Pahina ay naroon sa $2. Maaari ka nang makipagtulungan sa iba pang mga tagapagsalita ng wikang ito upang makabuo ng isang pamayanan!\nKung nais mong lumikha ng isang pahina, tipahin lamang ang pangalan sa loob ng kahong panghanap na nasa itaas, at sundan ang kawing na makikita mo."
 }
