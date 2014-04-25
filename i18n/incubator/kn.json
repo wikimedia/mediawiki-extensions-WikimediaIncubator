@@ -6,8 +6,11 @@
 		]
 	},
 	"wminc-manual": "ಕೈಪಿಡಿ",
+	"wminc-listwikis": "ವಿಕಿಗಳ ಪಟ್ಟಿ",
+	"wminc-recentchanges-all": "ಎಲ್ಲಾ ಇತ್ತೀಚಿಗಿನ ಬದಲಾವಣೆಗಳು",
 	"wminc-viewuserlang-user": "ಬಳಕೆದಾರ ಹೆಸರು:",
 	"wminc-viewuserlang-go": "ಹೋಗು",
 	"wminc-searchwiki-selectproject": "ಹುಡುಕಿ",
-	"wminc-searchwiki-go": "ಹೋಗು"
+	"wminc-searchwiki-go": "ಹೋಗು",
+	"wminc-fs-langselect-title": "ಭಾಷೆಯ ಆಯ್ಕೆ"
 }
