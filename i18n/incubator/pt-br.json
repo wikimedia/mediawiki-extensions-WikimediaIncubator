@@ -31,7 +31,7 @@
 	"wminc-error-wiki-sister": "Essa página pertence a um projeto que não está hospedado aqui. Por favor, vá para $1 para achar o wiki.",
 	"randombytest": "Página aleatória da wiki de testes",
 	"randombytest-nopages": "Não há páginas em sua wiki de testes no domínio: $1",
-	"wminc-viewuserlang": "Procurar idioma do utilizador e wiki de teste",
+	"wminc-viewuserlang": "Procurar idioma do usuário e wiki de teste",
 	"wminc-viewuserlang-user": "Nome de usuário:",
 	"wminc-viewuserlang-go": "Ir",
 	"wminc-userdoesnotexist": "A conta de usuário \"$1\" não existe.",
