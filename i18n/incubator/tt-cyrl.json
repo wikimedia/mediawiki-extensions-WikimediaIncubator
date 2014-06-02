@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajdar"
+			"Ajdar",
+			"Marat-avgust"
 		]
 	},
 	"wminc-desc": "Викимедиа Инкубаторы өчен тикшерелмә вики-система",
 	"wminc-manual": "Әсбап",
 	"wminc-listwikis": "Викилар исемлеге",
 	"wminc-testwiki": "Тикшерелүче вики",
+	"wminc-testwiki-code": "Сынау вики исеме:",
 	"wminc-testwiki-none": "Юк/барысы да",
 	"wminc-recentchanges-all": "Барлык соңгы үзгәртүләр",
 	"wminc-prefinfo-language": "Сезнең интерфейс теле сезнең тикшерелүче викига бәйле түгел",
@@ -25,5 +27,18 @@
 	"wminc-userdoesnotexist": "\"$1\" дигән кулланучы юк",
 	"group-test-sysop": "Тикшерелүче вики идарәчеләре",
 	"group-test-sysop-member": "тикшерелүче вики идарәчесе",
-	"grouppage-test-sysop": "{{ns:project}}:Тикшерелүче вики идарәчеләре"
+	"grouppage-test-sysop": "{{ns:project}}:Тикшерелүче вики идарәчеләре",
+	"wminc-searchwiki": "Вики буенча эзләү",
+	"wminc-searchwiki-noproject": "Сез проектны сайламадыгыз",
+	"wminc-searchwiki-selectproject": "Эзләү:",
+	"wminc-searchwiki-inputlanguage": "тел буенча:",
+	"wminc-searchwiki-go": "Күчү",
+	"wminc-searchwiki-multiplematches": "Сезнең соравыгызга түбәндәге телләр туры килә:",
+	"wminc-searchwiki-match-langcode": "«$1» — «$2» тел өчен ISO 639 коды.",
+	"wminc-searchwiki-match-userlangname": "$1 — тел исеме",
+	"wminc-searchwiki-match-englishname": "«$1» — «$2» теленең инглиз исеме.",
+	"wminc-searchwiki-match-nativename": "«$1» — «$2» теленең үзаталышы.",
+	"wminc-searchwiki-gotoinfopage": "Мәгълүмат бите",
+	"wminc-fs-langselect-title": "Телне сайлау",
+	"wminc-fs-signup-title": "Теркәлү"
 }
