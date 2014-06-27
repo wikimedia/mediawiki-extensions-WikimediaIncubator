@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Man77",
-			"Mucalexx"
+			"Mucalexx",
+			"Matthias Klostermayr"
 		]
 	},
 	"wminc-desc": "Daméglécht Testwikis fyrn Wikimedia Incubator",
@@ -15,10 +16,10 @@
 	"wminc-prefinfo-code": "Da ISO-639-Sproochcode",
 	"wminc-prefinfo-project": "'s Wikimedia-Prójekt, ån dém du do orweidst (\"Incubator\" fyr Benutzer, dé oigmoane Aufgom ywernemmern)",
 	"wminc-prefinfo-error": "Bei dém Prójekt muass a Sproochcode ågeem wern!",
-	"wminc-error-move-unprefixed": "Feeler: Dé Seiten, dé du vaschiam wüst, hod [[{{MediaWiki:Wminc-error-help}}|koah óder a foischs Präfix]].",
-	"wminc-error-wronglangcode": "'''Feeler:''' Dé Seiten enthoit an [[{{MediaWiki:Wminc-error-help}}|foischen Sproochcode]]: „$1“.",
-	"wminc-error-unprefixed": "'''Feeler:''' Dé Seiten hod [[{{MediaWiki:Wminc-error-help}}|koan Präfix]].",
-	"wminc-error-unprefixed-suggest": "'''Feeler:''' Dé Seiten hod [[{{MediaWiki:Wminc-error-help}}|koan Präfix]]. Du kåst unter [[:$1]] a Seiten åléng.",
+	"wminc-error-move-unprefixed": "<strong>Faila:</strong> De Seitn, de wo du vaschiam wuist, hod [[{{MediaWiki:Wminc-error-help}}|koa oda a foischs Prefix]].",
+	"wminc-error-wronglangcode": "<strong>Faila:</strong> De Seitn enthoit an [[{{MediaWiki:Wminc-error-help}}|foischn Sprochcode]]: „$1“.",
+	"wminc-error-unprefixed": "<strong>Faila:</strong> De Seiten hod [[{{MediaWiki:Wminc-error-help}}|koa Präfix]].",
+	"wminc-error-unprefixed-suggest": "<strong>Faila:</strong> De Seiten hod [[{{MediaWiki:Wminc-error-help}}|koa Präfix]]. Du konst unta [[:$1]] a Seitn oleng.",
 	"wminc-error-wiki-exists": "Dés Wiki do gibts bereits schoh. Dé Seiten befindt sé auf $1. Wånns Wiki erst grod amoi erstöd worn is, bitt ma di um a por Stund Geduid, bis olle Inhoite durthih ywertrong worn san.",
 	"randombytest": "Zuafällige Seiten aus 'm Testwiki",
 	"randombytest-nopages": "Es befinden sé koane Seiten im Nåmensraum \"$1\" voh deim Testwiki.",
