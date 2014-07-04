@@ -6,7 +6,8 @@
 			"Leinad",
 			"Mateuszek045",
 			"Sp5uhe",
-			"ToSter"
+			"ToSter",
+			"Alan ffm"
 		]
 	},
 	"wminc-desc": "Testowa wiki dla Inkubatora Wikimedia",
@@ -22,9 +23,9 @@
 	"wminc-prefinfo-project": "Wybierz projekt Wikimedia, na którym będziesz pracować",
 	"wminc-prefinfo-error": "Został wybrany projekt, który wymaga podania kodu języka.",
 	"wminc-error-move-unprefixed": "Błąd – strona, którą próbujesz przenieść [[{{MediaWiki:Wminc-error-help}}|nie ma lub ma zły przedrostek]]!",
-	"wminc-error-wronglangcode": "'''Błąd''' – w treści strony odnaleziono [[{{MediaWiki:Wminc-error-help}}|błędny kod języka]] „$1“!",
-	"wminc-error-unprefixed": "'''Błąd''' – ta strona nie ma [[{{MediaWiki:Wminc-error-help}}|przedrostka]]!",
-	"wminc-error-unprefixed-suggest": "'''Błąd''' – ta strona nie ma [[{{MediaWiki:Wminc-error-help}}|przedrostka]]! Możesz utworzyć stronę [[:$1]].",
+	"wminc-error-wronglangcode": "<strong>Błąd:</strong> W treści strony odnaleziono [[{{MediaWiki:Wminc-error-help}}|błędny kod języka]] „$1“.",
+	"wminc-error-unprefixed": "<strong>Błąd:'''</strong> Ta strona nie ma [[{{MediaWiki:Wminc-error-help}}|przedrostka]].",
+	"wminc-error-unprefixed-suggest": "<strong>Błąd:</strong> Ta strona nie ma [[{{MediaWiki:Wminc-error-help}}|przedrostka]]! Możesz utworzyć stronę [[:$1]].",
 	"wminc-error-wiki-exists": "Taka wiki już istnieje. Możesz odnaleźć tę stronę na $1. Jeśli wiki została utworzona niedawno, poczekaj kilka godzin lub dni, aż cała zawartość zostanie zaimportowana.",
 	"wminc-error-wiki-sister": "Niniejsza strona znajduje się w projekcie, który nie znajduje się tutaj. Przejdź do $1, aby znaleźć właściwą wiki.",
 	"randombytest": "Losowa strona testowej wiki",
