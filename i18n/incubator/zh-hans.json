@@ -13,7 +13,9 @@
 			"Shinjiman",
 			"TianyinLee",
 			"Xiaomingyan",
-			"Mywood"
+			"Mywood",
+			"Duolaimi",
+			"Impersonator 1"
 		]
 	},
 	"wminc-desc": "维基孵育场测试维基系统",
@@ -66,7 +68,7 @@
 	"wminc-fs-pagetitle": "入门向导 - $1",
 	"wminc-fs-langselect-title": "选择语言",
 	"wminc-fs-signup-title": "注册",
-	"wminc-fs-settings-title": "设置您的维基首选项",
+	"wminc-fs-settings-title": "设定您的wiki设置",
 	"wminc-fs-userpage-title": "创建您的用户页",
 	"wminc-fs-startwiki-title": "开始使用您的维基",
 	"wminc-fs-pagetitle-done": " - 完成！",

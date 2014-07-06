@@ -7,7 +7,8 @@
 			"Liangent",
 			"Mywood",
 			"Impersonator 1",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Duolaimi"
 		]
 	},
 	"wminc-infopage-enter": "前往首页",
@@ -37,5 +38,5 @@
 	"wminc-infopage-status-created": "此项目已经受语言委员会批准，现已在$1可以使用。",
 	"wminc-infopage-status-beforeincubator": "此项目已在维基孵育场开场之前创建，而在$1可以使用。",
 	"wminc-infopage-status-beforeincubator-sister": "此项目现在是在 $1 。",
-	"wminc-infopage-error": "错误：{{#infopage}} 只能在有字首的页面上利用。"
+	"wminc-infopage-error": "错误：{{#infopage}}只能在有前缀的页面上使用。"
 }
