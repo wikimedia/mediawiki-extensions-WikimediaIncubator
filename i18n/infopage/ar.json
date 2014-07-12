@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meno25"
+			"Meno25",
+			"محمد عصام"
 		]
 	},
 	"wminc-infopage-enter": "اذهب إلى الصفحة الرئيسية",
@@ -12,5 +13,9 @@
 	"wminc-infopage-title-q": "ويكي الاقتباس $1",
 	"wminc-infopage-title-n": "ويكي الأخبار $1",
 	"wminc-infopage-title-s": "ويكي مصدر $1",
-	"wminc-infopage-title-v": "ويكي الجامعة $1"
+	"wminc-infopage-title-v": "ويكي الجامعة $1",
+	"wminc-infopage-title-y": "ويكي الرحلات $1",
+	"wminc-infopage-welcome": "مرحبا بكم في حاضنة ويكيميديا، أحد مشاريع مؤسسة ويكيميديا ([[{{MediaWiki:Aboutpage}}|عن]])",
+	"wminc-infopage-missingwiki-text": "$1 غير موجود في هذه اللغة حتى الآن.",
+	"wminc-infopage-option-startwiki": "إذا كنت تريد أن تبدأ هذه الويكي، الرجاء اتباع\n'''[$3 هذه الخطوات]''' و[[MediaWiki:Wminc-manual-url|دليلنا]]."
 }
