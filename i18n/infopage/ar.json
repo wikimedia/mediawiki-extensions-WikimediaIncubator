@@ -17,5 +17,5 @@
 	"wminc-infopage-title-y": "ويكي الرحلات $1",
 	"wminc-infopage-welcome": "مرحبا بكم في حاضنة ويكيميديا، أحد مشاريع مؤسسة ويكيميديا ([[{{MediaWiki:Aboutpage}}|عن]])",
 	"wminc-infopage-missingwiki-text": "$1 غير موجود في هذه اللغة حتى الآن.",
-	"wminc-infopage-option-startwiki": "إذا كنت تريد أن تبدأ هذه الويكي، الرجاء اتباع\n'''[$3 هذه الخطوات]''' و[[MediaWiki:Wminc-manual-url|دليلنا]]."
+	"wminc-infopage-option-startwiki": "إذا كنت تريد أن تبدأ هذه الويكي، الرجاء اتباع\n'''[$3 هذه الخطوات]''' و[[{{MediaWiki:Wminc-manual-url}}|دليلنا]]."
 }
