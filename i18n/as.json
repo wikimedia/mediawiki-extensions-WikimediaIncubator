@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia"
+		]
+	},
+	"wminc-desc": "ৱিকিমিডিয়া ইনকিউবেটৰৰ বাবে পৰীক্ষামূলক ৱিকি ব্যৱস্থা",
+	"wminc-listwikis": "ৱিকিসমূহৰ তালিকা",
+	"wminc-testwiki": "পৰীক্ষামূলক ৱিকি:",
+	"wminc-testwiki-code": "পৰীক্ষামূলক ৱিকি ভাষা:",
+	"wminc-testwiki-none": "একো নাই/সকলো",
+	"wminc-testwiki-site": "(পৰিচৰ্যা)",
+	"wminc-recentchanges-all": "সকলোবোৰ শেহতীয়া সালসলনি",
+	"wminc-viewuserlang-user": "সদস্য নাম:",
+	"wminc-viewuserlang-go": "যাওক",
+	"wminc-searchwiki-selectproject": "ৰ কাৰণে সন্ধান কৰক",
+	"wminc-searchwiki-inputlanguage": "যিকোনো ভাষাত:",
+	"wminc-searchwiki-go": "যাওক",
+	"wminc-searchwiki-gotoinfopage": "পৰিচিতি পৃষ্ঠা",
+	"wminc-fs-langselect-title": "ভাষা নির্বাচন:",
+	"wminc-fs-signup-title": "পঞ্জীয়ন কৰক",
+	"wminc-fs-userpage-title": "আপোনাৰ সদস্য পৃষ্ঠা সৃষ্টি কৰক",
+	"wminc-fs-pagetitle-done": " - কৰা হ’ল!",
+	"wminc-infopage-enter": "বেটুপাতলৈ যাওক",
+	"wminc-unknownlang": "(অজ্ঞাত ভাষা কোড)",
+	"wminc-infopage-title-p": "ৱিকিপিডিয়া",
+	"wminc-infopage-title-b": "ৱিকিপ্ৰন্থ $1",
+	"wminc-infopage-title-t": "ৱিকি অভিধান $1",
+	"wminc-infopage-title-q": "ৱিকি উক্তি $1",
+	"wminc-infopage-title-n": "ৱিকিসংবাদ $1",
+	"wminc-infopage-title-s": "ৱিকি উত্স $1",
+	"wminc-infopage-title-v": "ৱিকি বিশ্ববিদ্যালয় $1",
+	"wminc-infopage-welcome": "ৱিকিমিডিয়া ইনকিউবেটৰলৈ আপোনাক আদৰিছোঁ। ই ৱিকিমিডিয়া ফাউণ্ডেশ্যনৰ এটা সহযোগী প্ৰকল্প ([[{{MediaWiki:Aboutpage}}|সবিশেষ]])।"
+}

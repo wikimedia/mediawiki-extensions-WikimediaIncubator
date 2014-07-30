@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nayvik",
+			"VASANTH S.N."
+		]
+	},
+	"wminc-manual": "ಕೈಪಿಡಿ",
+	"wminc-listwikis": "ವಿಕಿಗಳ ಪಟ್ಟಿ",
+	"wminc-recentchanges-all": "ಎಲ್ಲಾ ಇತ್ತೀಚಿಗಿನ ಬದಲಾವಣೆಗಳು",
+	"wminc-viewuserlang-user": "ಬಳಕೆದಾರ ಹೆಸರು:",
+	"wminc-viewuserlang-go": "ಹೋಗು",
+	"wminc-searchwiki-selectproject": "ಹುಡುಕಿ",
+	"wminc-searchwiki-go": "ಹೋಗು",
+	"wminc-fs-langselect-title": "ಭಾಷೆಯ ಆಯ್ಕೆ",
+	"wminc-infopage-title-p": "ವಿಕಿಪೀಡಿಯ$1",
+	"wminc-infopage-title-b": "ವಿಕಿಪುಸ್ತಕ$1",
+	"wminc-infopage-title-t": "ವಿಕ್ಷನರಿ$1",
+	"wminc-infopage-title-q": "ವಿಕಿಕೋಟ್$1",
+	"wminc-infopage-title-n": "ವಿಕಿವಾರ್ತೆಗಳು$1",
+	"wminc-infopage-title-s": "ವಿಕಿಅಧಾರ$1",
+	"wminc-infopage-title-v": "ವಿಕಿವರ್ಸಿಟಿ$1",
+	"wminc-infopage-title-y": "ವಿಕಿವೊಯೇಜ್$1"
+}

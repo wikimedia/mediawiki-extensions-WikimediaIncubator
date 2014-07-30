@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ansumang",
+			"Vibhijain",
+			"रोहित रावत"
+		]
+	},
+	"wminc-desc": "विकीमीडिया ऊष्मानियंत्रक के लिए विकि प्रणाली का परीक्षण",
+	"wminc-manual": "मदद",
+	"wminc-listwikis": "विकियोंकी सूची",
+	"wminc-testwiki": "परीक्षण विकी",
+	"wminc-testwiki-code": "परीक्षण विकी भाषा",
+	"wminc-testwiki-none": "कोई नहीं/सब",
+	"wminc-recentchanges-all": "हाल के हुए सब परिवर्तन",
+	"wminc-prefinfo-language": "आपकी इंटरफ़ेस भाषा - आपकी परीक्षण विकी से स्वतंत्र",
+	"wminc-prefinfo-code": "ISO 639 भाषा कोड",
+	"wminc-prefinfo-project": "विकिमीडिया परियोजना का चयन करें (विकिमीडिया ऊष्मानियंत्रक विकल्प सामान्य कार्य कर रहे उपयोगकर्ताओं के लिए है)",
+	"wminc-prefinfo-error": "आपके द्वारा चयनित परियोजना को भाषा कोड की जरूरत है।",
+	"wminc-error-move-unprefixed": "त्रुटि: को पृष्ठ का आप स्थान - परिवर्तन करने की कोशिश कर रहे है, वह [[{{MediaWiki:Wminc-error-help}}|अउपसर्गित है या एक गलत उपसर्ग है]]!",
+	"wminc-error-wronglangcode": "''' त्रुटि: ''' इस पृष्ठ में एक [[{{MediaWiki:Wminc-error-help}}|गलत भाषा कोड]] शामिल हैं \"$1\"!",
+	"wminc-error-unprefixed": "''' त्रुटि: ''' यह पृष्ठ [[{{MediaWiki:Wminc-error-help}}|अउपसर्गित]] है!",
+	"wminc-error-unprefixed-suggest": "' ' त्रुटि: ' ' यह पृष्ठ [[{{MediaWiki:Wminc-error-help}} |अनउपसर्गित]] है! आप [[: $1 ]] पर एक पृष्ठ बना सकते हैं।",
+	"wminc-error-wiki-exists": "यह विकि पहले से मौजूद है। आप $1 पर इस पृष्ठ को पा सकते हैं। यदि विकी हाल ही में बनाई गई है, कृपया सभी सामग्री आयात किए जाने तक कुछ घंटे या दिन प्रतीक्षा करें।",
+	"wminc-error-wiki-sister": "यह पृष्ठ एक परियोजना को संबंध रखता है जो कि यहाँ होस्ट नहीं होती। कृपया विकि जाने के लिए $1  पर जाए।",
+	"randombytest": "परीक्षण विकि द्वारा यादृच्छिक पृष्ठ",
+	"randombytest-nopages": "आपकी परीक्षण विकी में, नामस्थान: $1, पर कोई पृष्ठ नहीं हैं।",
+	"wminc-viewuserlang": "उपयोगकर्ता भाषा और परीक्षण विकि देखे",
+	"wminc-viewuserlang-user": "सदस्यनाम:",
+	"wminc-viewuserlang-go": "जाइए",
+	"wminc-userdoesnotexist": "उपयोगकर्ता \" $1 \" मौजूद नहीं है।",
+	"wminc-ip": "\" $1 \" एक आईपी पता है।",
+	"right-viewuserlang": "उपयोगकर्ता भाषा और परीक्षण विकि देखे",
+	"group-test-sysop": "परीक्षण विकी प्रबंधक",
+	"group-test-sysop-member": "{{GENDER:$1|परीक्षण विकि प्रबंधक}}",
+	"grouppage-test-sysop": "{{ns:project}}:परीक्षण विकी प्रबंधक",
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" भाषा]] एक [[wikipedia:ISO 639 macrolanguage|वृहत्भाषा]] है, जो निम्नलिखित भाषाओं से युक्त है:",
+	"wminc-code-retired": "यह भाषा कोड बदल दिया गया है और अब मूल भाषा को संदर्भित नहीं करता है।",
+	"wminc-listusers-testwiki": "आप उन प्रयोक्ताओं को देख रहे हैं जिन्होंने अपनी परिक्षण विकी वरीयता $1 निर्धारित की है।",
+	"wminc-infopage-enter": "मुख्य पृष्ठ पर जाएँ",
+	"wminc-infopage-title-p": "विकिपीड़िया $1"
+}

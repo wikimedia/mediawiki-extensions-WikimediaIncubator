@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"wminc-listwikis": "د ويکي گانو لړليک",
+	"wminc-testwiki": "د آزمېښت ويکي:",
+	"wminc-testwiki-code": "د ويکي ژبه آزمويل:",
+	"wminc-testwiki-none": "هېڅ/ټول",
+	"wminc-recentchanges-all": "ټول وروستي بدلونونه",
+	"wminc-prefinfo-code": "ستاسې د ژبې ISO 639 کوډ چې تاسې پرې دلته کار کوۍ",
+	"wminc-viewuserlang-user": "کارن-نوم:",
+	"wminc-viewuserlang-go": "ورځه",
+	"wminc-userdoesnotexist": "د $1 په نوم کارن نشته.",
+	"wminc-ip": "\"$1\" يوه آی پي پته ده.",
+	"wminc-searchwiki": "د يو ويکي پلټنه",
+	"wminc-searchwiki-selectproject": "پلټنه د:",
+	"wminc-searchwiki-inputlanguage": "په ژبې د:",
+	"wminc-searchwiki-go": "ورځه",
+	"wminc-searchwiki-gotoinfopage": "د مخ مالومات",
+	"wminc-fs-langselect-title": "ژبه ټاکل",
+	"wminc-fs-signup-title": "نومليکل",
+	"wminc-fs-startwiki-title": "ويکي مو پيل کړۍ",
+	"wminc-fs-pagetitle-done": " - ترسره شو!",
+	"wminc-infopage-enter": "آرنی مخ ته ورتلل",
+	"wminc-infopage-title-p": "$1 ويکيپېډيا",
+	"wminc-infopage-title-b": "$1 ويکيتابونه",
+	"wminc-infopage-title-t": "$1 ويکيسيند",
+	"wminc-infopage-title-q": "ويکيوراشه $1",
+	"wminc-infopage-title-n": "$1 ويکيخبرونه",
+	"wminc-infopage-title-v": "$1 ويکيپوهنتون",
+	"wminc-infopage-option-multilingual": "تاسې يوې څوژبنيزې ويکي ته ورتللی شی:"
+}

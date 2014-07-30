@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"YulouCN"
+		]
+	},
+	"wminc-recentchanges-all": "近日全部亇增改",
+	"wminc-viewuserlang-user": "賬號名",
+	"wminc-viewuserlang-go": "遞交",
+	"wminc-userdoesnotexist": "冇得\"$1\"嗰隻賬號",
+	"wminc-fs-langselect-title": "選言語",
+	"wminc-fs-pagetitle-done": "搞好噠！",
+	"wminc-infopage-title-p": "維基百科 $1",
+	"wminc-infopage-title-b": "維基課本 $1",
+	"wminc-infopage-title-t": "維基詞典 $1",
+	"wminc-infopage-title-q": "維基語錄 $1",
+	"wminc-infopage-title-n": "維基要聞 $1",
+	"wminc-infopage-title-s": "維基藏書樓 $1",
+	"wminc-infopage-title-v": "維基學堂 $1"
+}

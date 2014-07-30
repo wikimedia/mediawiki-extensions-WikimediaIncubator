@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cekli829"
+		]
+	},
+	"wminc-manual": "Əl ilə",
+	"wminc-listwikis": "Vikilərin siyahısı",
+	"wminc-testwiki": "Test viki:",
+	"wminc-testwiki-code": "Test viki dili:",
+	"wminc-testwiki-none": "Heç biri/Hamısı",
+	"wminc-recentchanges-all": "Bütün son dəyişikliklər",
+	"wminc-prefinfo-code": "ISO 639 dil kodu",
+	"randombytest": "Test vikisindən təsadüfi səhifə",
+	"wminc-viewuserlang-user": "İstifadəçi adı:",
+	"wminc-viewuserlang-go": "Keç",
+	"wminc-userdoesnotexist": "İstifadəçi \"$1\" mövcud deyil",
+	"wminc-ip": "\"$1\" bir IP ünvanıdır.",
+	"right-viewuserlang": "İstifadəçi dilini və test vikisini gör",
+	"group-test-sysop": "Test viki idarəçiləri",
+	"grouppage-test-sysop": "{{ns:project}}:Test viki idarəçisi",
+	"wminc-infopage-enter": "Ana Səhifəyə get",
+	"wminc-infopage-title-p": "Vikipediya $1",
+	"wminc-infopage-title-b": "Vikikitab $1",
+	"wminc-infopage-title-t": "Vikilüğət $1",
+	"wminc-infopage-title-q": "Vikisitat $1",
+	"wminc-infopage-title-n": "Vikixəbər $1",
+	"wminc-infopage-title-s": "Vikimənbə $1",
+	"wminc-infopage-title-v": "Vikiversitet $1"
+}

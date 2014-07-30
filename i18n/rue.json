@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"wminc-desc": "Тестова вікі про Інкубатор Вікімедіа",
+	"wminc-manual": "Інштрукція",
+	"wminc-listwikis": "Список вікіпроєктів",
+	"wminc-testwiki": "Вікі про тестованя:",
+	"wminc-testwiki-none": "Ніч/Вшытко",
+	"wminc-recentchanges-all": "Вшыткы послїднї зміны",
+	"wminc-prefinfo-language": "Ваш язык інтерфейсу не залежыть од языка тестовой вікі",
+	"wminc-prefinfo-code": "Языковый код ISO 639",
+	"wminc-prefinfo-project": "Выбрати проєкт Вікімедія (варіант Інкубатор про тых, што ся занимають общов роботов)",
+	"wminc-prefinfo-error": "Выбрали сьте проєкт, котрый потребує код языка.",
+	"wminc-error-move-unprefixed": "<strong>Хыба:</strong> Сторінка на яку пробуєте переменовати на [[{{MediaWiki:Wminc-error-help}}|не мать префікс або мать планый префікс]].",
+	"wminc-error-wronglangcode": "<strong>Хыба:</strong> Тота сторінка обсягує [[{{MediaWiki:Wminc-error-help}}|неплатный код языка]] \"$1\".",
+	"wminc-error-unprefixed": "<strong>Хыва:</strong> Тота сторінка [[{{MediaWiki:Wminc-error-help}}|не обсягує префіксы]].",
+	"wminc-error-unprefixed-suggest": "<strong>Хыба:</strong> Тота сторінка [[{{MediaWiki:Wminc-error-help}}|не обсягує префікс]]! Можете створити сторінку [[:$1]].",
+	"wminc-error-wiki-exists": "Тота вікі уж екзістує. Тоту сторінку можете найти на $1. Кідь тота вікі была недавно створена, просиме почекайте пару годин або днїв докы цалый обсяг є імпортованый.",
+	"wminc-error-wiki-sister": "Тота сторінка належыть до проєкту, котрый не є гостованый ту. Просиме, ідьте до $1, жебы сьте тоту вікі нашли.",
+	"randombytest": "Трафункова сторінка з тестовой вікі",
+	"randombytest-nopages": "Во вашій тестовій вікі немає сторінок у просторі мен $1.",
+	"wminc-viewuserlang": "Выглядати язык тай тестову вікі хоснователя",
+	"wminc-viewuserlang-user": "Мено хоснователя:",
+	"wminc-viewuserlang-go": "Перейти",
+	"wminc-userdoesnotexist": "Хоснователь \"$1\" не єствує.",
+	"wminc-ip": "\"$1\" не є IP-адреса.",
+	"right-viewuserlang": "Відїти языковы наставлиня хоснователя і його тестову вікі",
+	"group-test-sysop": "Адміністраторы тестовой вікі",
+	"group-test-sysop-member": "Адміністратор тестовой вікі",
+	"grouppage-test-sysop": "{{ns:project}}:Адміністраторытестовой вікі",
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" язык]] є [[wikipedia:ISO 639 macrolanguage|макроязыком]], што ся складать з наступных языків:",
+	"wminc-code-collective": "Код \"$1\" ся не односить до конкретного языка, але до дакількох здруженых під назвов [[wikipedia:$2 language|\"$3\"]].",
+	"wminc-code-retired": "Тот код языка быв зміненый і веце не реферує на конкретный язык",
+	"wminc-listusers-testwiki": "Перезерате хоснователїв, котры наставили їх тест вікі наставлїня на $1.",
+	"wminc-infopage-contribute": "Кідь розумієте тот язык, рекомендуєме, жебы сьте приспівали!"
+}

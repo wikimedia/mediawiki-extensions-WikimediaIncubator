@@ -75,7 +75,7 @@ $wgGroupPermissions['test-sysop']['autopatrol'] = true;
 $wgAddGroups['bureaucrat'][] = 'test-sysop';
 $wgRemoveGroups['bureaucrat'][] = 'test-sysop';
 
-$wgMessagesDirs['WikimediaIncubator'] = __DIR__ . '/i18n/incubator';
+$wgMessagesDirs['WikimediaIncubator'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
 $wgExtensionMessagesFiles['WikimediaIncubatorAlias'] = $dir . 'WikimediaIncubator.alias.php';
 $wgExtensionMessagesFiles['WikimediaIncubatorMagic'] = $dir . 'WikimediaIncubator.i18n.magic.php';
@@ -136,8 +136,6 @@ $wmincClosedWikis = false;
 
 /* Wx/xx[x] info page */
 $wgAutoloadClasses['InfoPage'] = $dir . 'InfoPage.php';
-$wgMessagesDirs['WikimediaIncubatorInfoPage'] = __DIR__ . '/i18n/infopage';
-$wgExtensionMessagesFiles['WikimediaIncubatorInfoPage'] = $dir . 'InfoPage.i18n.php';
 $wgHooks['ShowMissingArticle'][] = 'WikimediaIncubator::onShowMissingArticle';
 $wgHooks['EditFormPreloadText'][] = 'WikimediaIncubator::onEditFormPreloadText';
 $wgHooks['MediaWikiPerformAction'][] = 'WikimediaIncubator::onMediaWikiPerformAction';

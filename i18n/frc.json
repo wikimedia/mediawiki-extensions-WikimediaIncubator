@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ebe123"
+		]
+	},
+	"wminc-manual": "Manuel",
+	"wminc-listwikis": "Liste des wikis",
+	"wminc-testwiki": "Test wiki :",
+	"wminc-infopage-title-p": "Wikipédia $1",
+	"wminc-infopage-title-b": "Wikibooks $1"
+}
