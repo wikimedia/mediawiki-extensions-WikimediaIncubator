@@ -74,6 +74,7 @@
 	"wminc-fs-startwiki-exists-text": "The prefix of your wiki is $1. The Main Page is at $2. You can now collaborate with other speakers of this language to build a community!\nIf you want to create a page, just type in the name in the search box above, and follow the link you will see.",
 	"wminc-infopage-enter": "go to the Main Page",
 	"wminc-unknownlang": "(unknown language code)",
+	"wminc-languagecode": "\"$1\"",
 	"wminc-manual-url": "Help:Manual",
 	"wminc-infopage-title-p": "Wikipedia $1",
 	"wminc-infopage-title-b": "Wikibooks $1",
