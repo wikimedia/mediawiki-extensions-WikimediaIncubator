@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andria"
+			"Andria",
+			"Taxandru"
 		]
 	},
 	"wminc-testwiki-none": "Nudda/Totu",
-	"wminc-viewuserlang-user": "Nùmene usuàriu:",
+	"wminc-viewuserlang-user": "Nùmene impitadore:",
 	"wminc-viewuserlang-go": "Bae"
 }

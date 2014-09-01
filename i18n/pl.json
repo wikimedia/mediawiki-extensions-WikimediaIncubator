@@ -26,7 +26,7 @@
 	"wminc-prefinfo-code": "Kod języka według ISO 639",
 	"wminc-prefinfo-project": "Wybierz projekt Wikimedia, na którym będziesz pracować",
 	"wminc-prefinfo-error": "Został wybrany projekt, który wymaga podania kodu języka.",
-	"wminc-error-move-unprefixed": "Błąd – strona, którą próbujesz przenieść [[{{MediaWiki:Wminc-error-help}}|nie ma lub ma zły przedrostek]]!",
+	"wminc-error-move-unprefixed": "<strong>Błąd</strong>: Strona, którą próbujesz przenieść [[{{MediaWiki:Wminc-error-help}}|nie ma lub ma zły przedrostek]].",
 	"wminc-error-wronglangcode": "<strong>Błąd:</strong> W treści strony odnaleziono [[{{MediaWiki:Wminc-error-help}}|błędny kod języka]] „$1“.",
 	"wminc-error-unprefixed": "<strong>Błąd:'''</strong> Ta strona nie ma [[{{MediaWiki:Wminc-error-help}}|przedrostka]].",
 	"wminc-error-unprefixed-suggest": "<strong>Błąd:</strong> Ta strona nie ma [[{{MediaWiki:Wminc-error-help}}|przedrostka]]! Możesz utworzyć stronę [[:$1]].",
@@ -68,6 +68,7 @@
 	"wminc-fs-userpage-title": "Utwórz swoją stronę użytkownika",
 	"wminc-fs-startwiki-title": "Uruchom swoją wiki",
 	"wminc-fs-pagetitle-done": "- gotowe!",
+	"wminc-fs-globaluser-text": "Twoje konto jest lokalne. Zaleca się, aby utworzyć konto uniwersalne za pomocą $1, dzięki czemu można będzie go używać w dowolnym projekcie Wikimedia.",
 	"wminc-infopage-enter": "przejdź do strony głównej",
 	"wminc-unknownlang": "(nieznany kod języka)",
 	"wminc-infopage-title-p": "Wikipedia $1",
@@ -86,5 +87,6 @@
 	"wminc-infopage-status-imported": "Do inkubatora wiki zaimportowano treść z $1 po tym jak wiki została zamknięta.",
 	"wminc-infopage-status-closedsister": "Ta domena podrzędna została zamknięta. Przejdź pod adres <strong>$2</strong> jeśli chcesz współtworzyć tę wiki.",
 	"wminc-infopage-status-created": "Projekt został zatwierdzony przez komisję językową i jest już dostępny pod adresem $1.",
-	"wminc-infopage-status-beforeincubator": "Ten projekt został utworzony zanim został uruchomiony Inkubator Wikimedia i jest dostępny pod adresem $1."
+	"wminc-infopage-status-beforeincubator": "Ten projekt został utworzony zanim został uruchomiony Inkubator Wikimedia i jest dostępny pod adresem $1.",
+	"wminc-infopage-status-beforeincubator-sister": "Ten projekt jest dostępny pod adresem $1."
 }
