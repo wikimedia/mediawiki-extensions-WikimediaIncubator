@@ -11,11 +11,12 @@
 			"Silvonen",
 			"Str4nd",
 			"Varusmies",
-			"VezonThunder"
+			"VezonThunder",
+			"Stryn"
 		]
 	},
 	"wminc-desc": "Testiwiki-järjestelmä Wikimedia-hautomoa varten",
-	"wminc-manual": "Ohje",
+	"wminc-manual": "Opas",
 	"wminc-listwikis": "Wikiluettelo",
 	"wminc-testwiki": "Testiwiki:",
 	"wminc-testwiki-code": "Testiwikin kieli:",
