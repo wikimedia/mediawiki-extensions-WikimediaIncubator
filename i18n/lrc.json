@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Hosseinblue"
 		]
 	},
+	"wminc-viewuserlang-go": "رؤ",
 	"wminc-infopage-enter": "رو د سرآسونه",
 	"wminc-unknownlang": "(كد زون ناشناس)",
 	"wminc-infopage-title-p": "ويكی پديا $1",
