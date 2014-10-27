@@ -397,15 +397,26 @@ class WikimediaIncubator {
 		return $action != 'edit';
 	}
 
+	public static function onMovePageIsValidMove( Title $oldTitle, Title $newTitle, Status $status ) {
+		if ( self::shouldWeShowUnprefixedError( $newTitle ) ) {
+			# there should be an error with the new page title
+			$status->fatal( 'wminc-error-move-unprefixed' );
+			return false;
+		}
+
+		return true;
+	}
+
 	/**
 	 * Return an error if the user wants to move
 	 * an existing page to an unprefixed title
 	 * @return Boolean
 	 */
 	static function checkPrefixMovePermissions( $oldtitle, $newtitle, $user, &$error ) {
-		if ( self::shouldWeShowUnprefixedError( $newtitle ) ) {
-			# there should be an error with the new page title
-			$error = wfMessage( 'wminc-error-move-unprefixed' )->parse();
+		$status = new Status();
+		self::onMovePageIsValidMove( $oldtitle, $newtitle, $status );
+		if ( !$status->isOK() ) {
+			$error = $status->getHTML();
 			return false;
 		}
 		return true;
