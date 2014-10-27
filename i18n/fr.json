@@ -15,7 +15,8 @@
 			"Tititou36",
 			"Tpt",
 			"Urhixidur",
-			"Verdy p"
+			"Verdy p",
+			"Ebe123"
 		]
 	},
 	"wminc-desc": "Système de test de wiki pour Wikimedia Incubator",
@@ -93,7 +94,7 @@
 	"wminc-infopage-title-v": "Wikiversité en $1",
 	"wminc-infopage-title-y": "Wikivoyage $1",
 	"wminc-infopage-welcome": "Bienvenue sur l’Incubateur Wikimedia, un projet de la Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|à propos]])",
-	"wminc-infopage-missingwiki-text": "$1 n’existe pas encore dans cette langue.",
+	"wminc-infopage-missingwiki-text": "Un $1 n’existe pas encore dans cette langue.",
 	"wminc-infopage-option-startwiki": "Si vous voulez démarrer ce wiki, merci de suivre\n'''[$3 ces étapes]''' et [[{{MediaWiki:Wminc-manual-url}}|notre manuel]].",
 	"wminc-infopage-option-startsister": "Si vous voulez commencer ce wiki, vous pouvez vous rendre sur <strong>[$2 $1]</strong>.",
 	"wminc-infopage-option-languages-existing": "Vous pouvez chercher des [//www.$1.org versions linguistiques existantes de $1].",

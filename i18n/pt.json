@@ -9,7 +9,8 @@
 			"MetalBrasil",
 			"SandroHc",
 			"Waldir",
-			"Imperadeiro98"
+			"Imperadeiro98",
+			"Vitorvicentevalente"
 		]
 	},
 	"wminc-desc": "Sistema de wikis de testes para a Incubadora Wikimedia",
@@ -67,7 +68,7 @@
 	"wminc-unknownlang": "(código de língua desconhecido)",
 	"wminc-infopage-welcome": "Bem-vindo(a) Incubadora Wikimedia, um projeto da Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Sobre]])",
 	"wminc-infopage-missingwiki-text": "Ainda não existe um projeto $1 nesta língua.",
-	"wminc-infopage-option-startwiki": "Se pretende iniciar esta wiki,\npode [{{fullurl:{{FULLPAGENAME}}|action=edit}} criar a página] e seguir o [[{{MediaWiki:Wminc-manual-url}}|manual]].",
+	"wminc-infopage-option-startwiki": "Se pretende iniciar esta wiki, siga '''[$3 estes passos]''' e o [[{{MediaWiki:Wminc-manual-url}}|nosso manual]].",
 	"wminc-infopage-option-startsister": "Se queres começar esta wiki, podes ir a <strong>[$2 $1]</strong>.",
 	"wminc-infopage-option-languages-existing": "Pode pesquisar as [//www.$1.org edições de $1 nas línguas existentes].",
 	"wminc-infopage-option-sisterprojects-existing": "Pode pesquisar os projetos existentes nesta língua:",
