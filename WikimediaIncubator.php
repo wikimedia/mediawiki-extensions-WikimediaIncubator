@@ -102,6 +102,7 @@ $wgSpecialPages['MyMainPage'] = 'SpecialMyMainPage';
 
 /* Create/move page permissions */
 $wgHooks['getUserPermissionsErrors'][] = 'WikimediaIncubator::onGetUserPermissionsErrors';
+$wgHooks['MovePageIsValidMove'][] = 'WikimediaIncubator::onMovePageIsValidMove';
 $wgHooks['AbortMove'][] = 'WikimediaIncubator::checkPrefixMovePermissions';
 
 /* Recent Changes */
