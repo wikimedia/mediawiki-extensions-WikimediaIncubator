@@ -14,7 +14,8 @@
 			"Siebrand",
 			"Umherirrender",
 			"Whym",
-			"Yekrats"
+			"Yekrats",
+			"Liuxinyu970226"
 		]
 	},
 	"wminc-desc": "{{desc|name=Wikimedia Incubator|url=http://www.mediawiki.org/wiki/Extension:WikimediaIncubator}}",
@@ -57,7 +58,7 @@
 	"wminc-searchwiki": "{{doc-special|SearchWiki|unlisted=1}}\nThe special page enables to search *for* a wiki in a specific language (and *not* to search for pages!)",
 	"wminc-searchwiki-noproject": "Error message",
 	"wminc-searchwiki-noresults": "Error message",
-	"wminc-searchwiki-selectproject": "Followed by a dropdown menu with projects (Wikipedia, Wiktionary, ...)",
+	"wminc-searchwiki-selectproject": "Followed by a dropdown menu with projects (Wikipedia, Wiktionary, ...)\n{{Identical|Search}}",
 	"wminc-searchwiki-inputlanguage": "Followed by an input box where you can enter a language name or code",
 	"wminc-searchwiki-go": "Submit button.\n{{Identical|Go}}",
 	"wminc-searchwiki-multiplematches": "Followed by a list of matches when there are multiple matches",
