@@ -22,7 +22,7 @@
 	"wminc-prefinfo-code": "여기에 작업하는 언어의 ISO 639 언어 코드",
 	"wminc-prefinfo-project": "여기에 작업하는 위키미디어 프로젝트 선택",
 	"wminc-prefinfo-error": "언어 코드가 필요한 프로젝트를 선택했습니다.",
-	"wminc-error-move-unprefixed": "<strong>오류</strong>: 이동하려고 하는 문서가 [[{{MediaWiki:Wminc-error-help}}|접두어나 없거나 잘못된 접두어로 되어있습니다]].",
+	"wminc-error-move-unprefixed": "<strong>오류</strong>: 옮기려고 하는 문서가 [[{{MediaWiki:Wminc-error-help}}|접두어나 없거나 잘못된 접두어로 되어있습니다]].",
 	"wminc-error-wronglangcode": "<strong>오류</strong>: 이 문서는 [[{{MediaWiki:Wminc-error-help}}|잘못된 \"$1\" 언어 코드]]를 포함합니다.",
 	"wminc-error-unprefixed": "<strong>오류</strong>: 이 문서는 [[{{MediaWiki:Wminc-error-help}}|접두어가 없습니다]].",
 	"wminc-error-unprefixed-suggest": "<strong>오류</strong>: 이 문서는 [[{{MediaWiki:Wminc-error-help}}|접두어가 없습니다]]! [[:$1]]에 문서를 만들 수 있습니다.",
