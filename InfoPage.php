@@ -41,7 +41,7 @@ class InfoPage {
 		$name = Language::fetchLanguageName( $this->mLangCode, $wgLang->getCode(), 'all' );
 		$this->mLangName = $name ? $name :
 			Language::fetchLanguageName( $this->mLangCode, 'en', 'all' );
-		$titleParam = $this->mLangName ? $this->mLangName : wfMessage( 'wminc-languagecode', $this->mLangCode )->text(); # Name, else code
+		$titleParam = $this->mLangName ? $this->mLangName : wfMessage( 'quotation-marks', $this->mLangCode )->text(); # Name, else code
 		# Give grep a chance to find the usages:
 		# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t, wminc-infopage-title-q,
 		# wminc-infopage-title-n, wminc-infopage-title-s, wminc-infopage-title-v, wminc-infopage-title-y
