@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michaello"
+			"Michaello",
+			"Milicevic01"
 		]
 	},
 	"wminc-desc": "Probni viki sistem za Vikimedijin Inkubator",
@@ -42,7 +43,7 @@
 	"wminc-unknownlang": "(nepoznat jezički kod)",
 	"wminc-infopage-welcome": "Dobro došli na Vikimedijin Inkubator — projekat Zadužbine Vikimedija ([[{{MediaWiki:Aboutpage}}|O projektu]])",
 	"wminc-infopage-missingwiki-text": "Na ovom jeziku još ne postoji $1.",
-	"wminc-infopage-option-startwiki": "Ako želite da započnete ovaj viki,\nonda možete da [{{fullurl:{{FULLPAGENAME}}|action=edit}} napravite stranicu] i da pogledate [[{{MediaWiki:Wminc-manual-url}}|naš priručnik]].",
+	"wminc-infopage-option-startwiki": "Ako želite da započnete ovaj viki, molimo pratite\n'''[$3 ove korake]''' i [[{{MediaWiki:Wminc-manual-url}}|naš priručnik]].",
 	"wminc-infopage-option-startsister": "Ako želite da započnete ovaj viki, idite na <strong>[$2 $1]</strong>.",
 	"wminc-infopage-option-languages-existing": "Možete da pretražite [//www.$1.org postojeća jezička izdanja projekta $1].",
 	"wminc-infopage-option-sisterprojects-existing": "Možete da pretražite postojeće projekte na ovom jeziku:",
