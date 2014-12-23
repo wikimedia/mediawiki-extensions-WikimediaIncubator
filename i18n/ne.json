@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"RajeshPandey"
+			"RajeshPandey",
+			"Nirmal Dulal"
 		]
 	},
 	"wminc-desc": "विकीमीडिया इनक्युबेटर को लागि विकि प्रणाली को परीक्षण",
@@ -24,5 +25,17 @@
 	"randombytest": "परीक्षण विकि को कुनै यौटा पृष्ठ",
 	"randombytest-nopages": "तपाईंको परीक्षण विकीको नामस्थान: $1 मा कुनै पनि पृष्ठ छैनन्।",
 	"wminc-viewuserlang": "प्रयोगकर्ता भाषा र परीक्षण विकि खोज्नुहोस",
-	"wminc-viewuserlang-user": "प्रयोगकर्ता :"
+	"wminc-viewuserlang-user": "प्रयोगकर्ता :",
+	"wminc-viewuserlang-go": "जानुहोस",
+	"wminc-userdoesnotexist": "$1 प्रयोगकर्ता अस्तित्वमा छैन ।",
+	"wminc-ip": "\"$1\" एक आइपी ठेगाना हो ।",
+	"right-viewuserlang": "प्रयोगकर्ता भाषा र परीक्षण विकि हेर्नुहोस्",
+	"group-test-sysop": "परीक्षण विकी प्रवन्धकहरू",
+	"group-test-sysop-member": "{{GENDER:$1|परीक्षण विकि प्रवन्धक}}",
+	"grouppage-test-sysop": "{{ns:project}}:परीक्षण विकी प्रवन्धकहरू",
+	"wminc-searchwiki": "विकी खोज्नुहोस्",
+	"wminc-searchwiki-noproject": "तपाइले कुनै आयोजना छनौट गर्नुभएन ।",
+	"wminc-searchwiki-selectproject": "खोज्नुहोस:",
+	"wminc-searchwiki-inputlanguage": "भाषा:",
+	"wminc-searchwiki-go": "जानुहोस्"
 }
