@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cekli829"
+			"Cekli829",
+			"Wertuose"
 		]
 	},
 	"wminc-manual": "Əl ilə",
@@ -10,7 +11,7 @@
 	"wminc-testwiki-code": "Test viki dili:",
 	"wminc-testwiki-none": "Heç biri/Hamısı",
 	"wminc-recentchanges-all": "Bütün son dəyişikliklər",
-	"wminc-prefinfo-code": "ISO 639 dil kodu",
+	"wminc-prefinfo-code": "Sizin burada istifadə etdiyiniz dilin ISO 639-dakı kodu",
 	"randombytest": "Test vikisindən təsadüfi səhifə",
 	"wminc-viewuserlang-user": "İstifadəçi adı:",
 	"wminc-viewuserlang-go": "Keç",
