@@ -3,11 +3,13 @@
 		"authors": [
 			"An13sa",
 			"Kobazulo",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Subi"
 		]
 	},
 	"wminc-desc": "Wikimedia Incubatorrerako wiki proba sistema",
 	"wminc-manual": "Eskuliburua",
+	"wminc-listwikis": "Wikien zerrenda",
 	"wminc-testwiki": "Probazko wikia:",
 	"wminc-testwiki-none": "Bat ere ez/Guztiak",
 	"wminc-testwiki-site": "(Mantenketa)",
