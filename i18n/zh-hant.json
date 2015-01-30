@@ -16,7 +16,7 @@
 			"LNDDYL"
 		]
 	},
-	"wminc-desc": "維基孵育場的測試 Wiki 系統",
+	"wminc-desc": "維基孵育場的測試 wiki 系統",
 	"wminc-manual": "操作手冊",
 	"wminc-listwikis": "Wiki 清單",
 	"wminc-testwiki": "測試 Wiki：",
@@ -88,7 +88,7 @@
 	"wminc-infopage-title-s": "$1維基文庫",
 	"wminc-infopage-title-v": "$1維基學院",
 	"wminc-infopage-title-y": "$1維基導遊",
-	"wminc-infopage-welcome": "歡迎來到維基孵育場，維基媒體基金會各有項目之一\n ([[{{MediaWiki:Aboutpage}}|關於我們]])",
+	"wminc-infopage-welcome": "歡迎來到維基孵育場，維基媒體基金會項目之一 ([[{{MediaWiki:Aboutpage}}|關於我們]])",
 	"wminc-infopage-missingwiki-text": "這種語言的 $1 尚未存在。",
 	"wminc-infopage-option-startwiki": "若想開始這個 wiki ，請按照'''[$3 這些步驟]'''與[[{{MediaWiki:Wminc-manual-url}}|我們的手冊]]。",
 	"wminc-infopage-option-startsister": "您若想開始這個 wiki ，請前往 <strong>[$2 $1]</strong> 。",
