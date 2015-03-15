@@ -15,6 +15,7 @@
 	"wminc-userdoesnotexist": "د $1 په نوم کارن نشته.",
 	"wminc-ip": "\"$1\" يوه آی پي پته ده.",
 	"wminc-searchwiki": "د يو ويکي پلټنه",
+	"wminc-searchwiki-noproject": "تاسې يوه پروژه نه ده ټاکلې.",
 	"wminc-searchwiki-selectproject": "پلټنه د:",
 	"wminc-searchwiki-inputlanguage": "په ژبې د:",
 	"wminc-searchwiki-go": "ورځه",
@@ -29,6 +30,8 @@
 	"wminc-infopage-title-t": "$1 ويکيسيند",
 	"wminc-infopage-title-q": "ويکيوراشه $1",
 	"wminc-infopage-title-n": "$1 ويکيخبرونه",
+	"wminc-infopage-title-s": "$1 ويکيسرچينه",
 	"wminc-infopage-title-v": "$1 ويکيپوهنتون",
+	"wminc-infopage-title-y": "$1 ويکييون",
 	"wminc-infopage-option-multilingual": "تاسې يوې څوژبنيزې ويکي ته ورتللی شی:"
 }
