@@ -144,6 +144,7 @@ $wgHooks['TitleIsAlwaysKnown'][] = 'WikimediaIncubator::onTitleIsAlwaysKnown';
 $wgHooks['ParserFirstCallInit'][] = 'WikimediaIncubator::onParserFirstCallInit';
 
 $wgResourceModules['WikimediaIncubator.InfoPage'] = array(
+	'position' => 'top',
 	'styles' => 'InfoPage.css',
 	'localBasePath' => dirname(__FILE__),
 	'remoteExtPath' => 'WikimediaIncubator',
