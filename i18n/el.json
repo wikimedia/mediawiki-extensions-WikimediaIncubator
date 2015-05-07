@@ -5,7 +5,8 @@
 			"Geraki",
 			"Glavkos",
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"Protnet"
 		]
 	},
 	"wminc-desc": "Δοκιμή του συστήματος βίκι για το Wikimedia Incubator",
@@ -30,7 +31,7 @@
 	"wminc-ip": "\"$1\" είναι μια διεύθυνση IP.",
 	"right-viewuserlang": "Προβολή της γλώσσας χρήστη και του δοκιμαστικού βίκι",
 	"group-test-sysop": "Διαχειριστές δοκιμαστικού wiki",
-	"group-test-sysop-member": "{{GENDER:$1|διαχειριστές δοκιμαστικού wiki}}",
+	"group-test-sysop-member": "{{GENDER:$1|διαχειριστής|διαχειρίστρια}} δοκιμαστικού wiki",
 	"grouppage-test-sysop": "{{ns:project}}: Διαχειριστές σου δοκιμαστικού wiki",
 	"wminc-searchwiki": "Αναζήτηση για ένα wiki",
 	"wminc-searchwiki-noproject": "Δεν επιλέξατε κάποιο εγχείρημα.",
