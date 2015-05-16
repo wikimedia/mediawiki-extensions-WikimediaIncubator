@@ -75,7 +75,6 @@ $wgAddGroups['bureaucrat'][] = 'test-sysop';
 $wgRemoveGroups['bureaucrat'][] = 'test-sysop';
 
 $wgMessagesDirs['WikimediaIncubator'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['WikimediaIncubator'] = __DIR__ . '/WikimediaIncubator.i18n.php';
 $wgExtensionMessagesFiles['WikimediaIncubatorAlias'] = __DIR__ . '/WikimediaIncubator.alias.php';
 $wgExtensionMessagesFiles['WikimediaIncubatorMagic'] = __DIR__ . '/WikimediaIncubator.i18n.magic.php';
 
