@@ -104,4 +104,8 @@ class SpecialViewUserLang extends SpecialPage {
 			Xml::closeElement( 'ul' )
 		);
 	}
+
+	protected function getGroupName() {
+		return 'users';
+	}
 }

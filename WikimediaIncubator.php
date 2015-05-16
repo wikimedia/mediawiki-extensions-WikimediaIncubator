@@ -83,7 +83,6 @@ $wgExtensionMessagesFiles['WikimediaIncubatorMagic'] = $dir . 'WikimediaIncubato
 /* Special:ViewUserLang */
 $wgAutoloadClasses['SpecialViewUserLang'] = $dir . 'SpecialViewUserLang.php';
 $wgSpecialPages['ViewUserLang'] = 'SpecialViewUserLang';
-$wgSpecialPageGroups['ViewUserLang'] = 'users';
 $wgAvailableRights[] = 'viewuserlang';
 $wgHooks['ContributionsToolLinks'][] = 'WikimediaIncubator::efLoadViewUserLangLink';
 $wgGroupPermissions['*']['viewuserlang'] = false;
