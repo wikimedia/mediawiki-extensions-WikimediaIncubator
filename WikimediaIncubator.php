@@ -24,7 +24,6 @@ $wgExtensionCredits['other'][] = array(
 
 /* General (globals and/or configuration) */
 $wmincPref = 'incubatortestwiki'; // Name of the preference
-$dir = __DIR__ . '/';
 
 # only one-letter codes can be used for projects
 $wmincProjects = array(
@@ -76,12 +75,12 @@ $wgAddGroups['bureaucrat'][] = 'test-sysop';
 $wgRemoveGroups['bureaucrat'][] = 'test-sysop';
 
 $wgMessagesDirs['WikimediaIncubator'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['WikimediaIncubator'] = $dir . 'WikimediaIncubator.i18n.php';
-$wgExtensionMessagesFiles['WikimediaIncubatorAlias'] = $dir . 'WikimediaIncubator.alias.php';
-$wgExtensionMessagesFiles['WikimediaIncubatorMagic'] = $dir . 'WikimediaIncubator.i18n.magic.php';
+$wgExtensionMessagesFiles['WikimediaIncubator'] = __DIR__ . '/WikimediaIncubator.i18n.php';
+$wgExtensionMessagesFiles['WikimediaIncubatorAlias'] = __DIR__ . '/WikimediaIncubator.alias.php';
+$wgExtensionMessagesFiles['WikimediaIncubatorMagic'] = __DIR__ . '/WikimediaIncubator.i18n.magic.php';
 
 /* Special:ViewUserLang */
-$wgAutoloadClasses['SpecialViewUserLang'] = $dir . 'SpecialViewUserLang.php';
+$wgAutoloadClasses['SpecialViewUserLang'] = __DIR__ . '/SpecialViewUserLang.php';
 $wgSpecialPages['ViewUserLang'] = 'SpecialViewUserLang';
 $wgSpecialPageGroups['ViewUserLang'] = 'users';
 $wgAvailableRights[] = 'viewuserlang';
@@ -90,14 +89,14 @@ $wgGroupPermissions['*']['viewuserlang'] = false;
 $wgGroupPermissions['sysop']['viewuserlang'] = true;
 
 /* TestWiki preference */
-$wgAutoloadClasses['WikimediaIncubator'] = $dir . 'WikimediaIncubator.class.php';
+$wgAutoloadClasses['WikimediaIncubator'] = __DIR__ . '/WikimediaIncubator.class.php';
 $wgHooks['GetPreferences'][] = 'WikimediaIncubator::onGetPreferences';
 $wgHooks['UserGetDefaultOptions'][] = 'WikimediaIncubator::onUserGetDefaultOptions';
 $wgHooks['MagicWordwgVariableIDs'][] = 'WikimediaIncubator::magicWordVariable';
 $wgHooks['ParserGetVariableValueSwitch'][] = 'WikimediaIncubator::magicWordValue';
 
 /* Special:MyMainPage (depending on your test wiki preference) */
-$wgAutoloadClasses['SpecialMyMainPage'] = $dir . 'SpecialMyMainPage.php';
+$wgAutoloadClasses['SpecialMyMainPage'] = __DIR__ . '/SpecialMyMainPage.php';
 $wgSpecialPages['MyMainPage'] = 'SpecialMyMainPage';
 
 /* Create/move page permissions */
@@ -106,17 +105,17 @@ $wgHooks['MovePageIsValidMove'][] = 'WikimediaIncubator::onMovePageIsValidMove';
 $wgHooks['AbortMove'][] = 'WikimediaIncubator::checkPrefixMovePermissions';
 
 /* Recent Changes */
-$wgAutoloadClasses['TestWikiRC'] = $dir . 'TestWikiRC.php';
+$wgAutoloadClasses['TestWikiRC'] = __DIR__ . '/TestWikiRC.php';
 $wgHooks['SpecialRecentChangesQuery'][] = 'TestWikiRC::onRcQuery';
 $wgHooks['SpecialRecentChangesPanel'][] = 'TestWikiRC::onRcForm';
 
 /* Automatic pref on account creation */
-$wgAutoloadClasses['AutoTestWiki'] = $dir . 'CreateAccountTestWiki.php';
+$wgAutoloadClasses['AutoTestWiki'] = __DIR__ . '/CreateAccountTestWiki.php';
 $wgHooks['UserCreateForm'][] = 'AutoTestWiki::onUserCreateForm';
 $wgHooks['AddNewAccount'][] = 'AutoTestWiki::onAddNewAccount';
 
 /* Random page by test */
-$wgAutoloadClasses['SpecialRandomByTest'] = $dir . 'SpecialRandomByTest.php';
+$wgAutoloadClasses['SpecialRandomByTest'] = __DIR__ . '/SpecialRandomByTest.php';
 $wgSpecialPages['RandomByTest'] = 'SpecialRandomByTest';
 
 /* support for automatic checking in a list of databases if a wiki exists */
@@ -136,7 +135,7 @@ $wmincProjectDatabases = array(
 $wmincClosedWikis = false;
 
 /* Wx/xx[x] info page */
-$wgAutoloadClasses['InfoPage'] = $dir . 'InfoPage.php';
+$wgAutoloadClasses['InfoPage'] = __DIR__ . '/InfoPage.php';
 $wgHooks['ShowMissingArticle'][] = 'WikimediaIncubator::onShowMissingArticle';
 $wgHooks['EditFormPreloadText'][] = 'WikimediaIncubator::onEditFormPreloadText';
 $wgHooks['MediaWikiPerformAction'][] = 'WikimediaIncubator::onMediaWikiPerformAction';
@@ -145,7 +144,7 @@ $wgHooks['ParserFirstCallInit'][] = 'WikimediaIncubator::onParserFirstCallInit';
 
 $wgResourceModules['WikimediaIncubator.InfoPage'] = array(
 	'styles' => 'InfoPage.css',
-	'localBasePath' => dirname(__FILE__),
+	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'WikimediaIncubator',
 );
 
@@ -156,7 +155,7 @@ $wgHooks['BeforePageDisplay'][] = 'WikimediaIncubator::fnTestWikiLogo';
 $wgHooks['PageContentLanguage'][] = 'WikimediaIncubator::onPageContentLanguage';
 
 /* List of users */
-$wgAutoloadClasses['ListUsersTestWiki'] = $dir . 'ListUsersTestWiki.php';
+$wgAutoloadClasses['ListUsersTestWiki'] = __DIR__ . '/ListUsersTestWiki.php';
 $wgHooks['SpecialListusersHeaderForm'][] = 'ListUsersTestWiki::onSpecialListusersHeaderForm';
 $wgHooks['SpecialListusersQueryInfo'][] = 'ListUsersTestWiki::onSpecialListusersQueryInfo';
 $wgHooks['SpecialListusersHeader'][] = 'ListUsersTestWiki::onSpecialListusersHeader';
@@ -167,11 +166,11 @@ $wgHooks['SpecialSearchPowerBox'][] = 'WikimediaIncubator::onSpecialSearchPowerB
 $wgHooks['SpecialSearchSetupEngine'][] = 'WikimediaIncubator::onSpecialSearchSetupEngine';
 
 /* Search for a wiki in a language */
-$wgAutoloadClasses['SpecialSearchWiki'] = $dir . 'SpecialSearchWiki.php';
+$wgAutoloadClasses['SpecialSearchWiki'] = __DIR__ . '/SpecialSearchWiki.php';
 $wgSpecialPages['SearchWiki'] = 'SpecialSearchWiki';
 
 /* IncubatorFirstSteps */
-$wgAutoloadClasses['SpecialIncubatorFirstSteps'] = $dir . 'SpecialIncubatorFirstSteps.php';
+$wgAutoloadClasses['SpecialIncubatorFirstSteps'] = __DIR__ . '/SpecialIncubatorFirstSteps.php';
 $wgSpecialPages['IncubatorFirstSteps'] = 'SpecialIncubatorFirstSteps';
 
 /* Tests */
