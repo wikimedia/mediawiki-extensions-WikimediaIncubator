@@ -1,18 +1,18 @@
 <?php
 /**
  * Implements the "info page" (Wx/xx pages)
-
-'missing' showMissingWiki()
-    A [Project] in this language does not yet exist.
-'incubator' showIncubatingWiki()
-    'open': This is a new Incubator wiki that is not yet verified by the language committee.
-    'eligible': This Incubator wiki has been marked as eligible by the language committee.
-    'imported': This Incubator wiki has been imported from xyz.wikiproject.org after that wiki was closed.
-    'approved': This Incubator wiki has been approved by the language committee and will soon be created.
-'existing' showExistingWiki()
-    'created': This project has been approved by the language committee and is now available at xyz.wikiproject.org.
-    'beforeincubator': This project was created before Wikimedia Incubator started and is available at xyz.wikiproject.org.
-
+ *
+ * 'missing' showMissingWiki()
+ *   A [Project] in this language does not yet exist.
+ * 'incubator' showIncubatingWiki()
+ *    'open': This is a new Incubator wiki that is not yet verified by the language committee.
+ *    'eligible': This Incubator wiki has been marked as eligible by the language committee.
+ *    'imported': This Incubator wiki has been imported from xyz.wikiproject.org after that wiki was closed.
+ *    'approved': This Incubator wiki has been approved by the language committee and will soon be created.
+ * 'existing' showExistingWiki()
+ *    'created': This project has been approved by the language committee and is now available at xyz.wikiproject.org.
+ *    'beforeincubator': This project was created before Wikimedia Incubator started and is available at xyz.wikiproject.org.
+ *
  * @file
  * @ingroup Extensions
  * @author Robin Pepermans (SPQRobin)

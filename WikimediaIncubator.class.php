@@ -16,7 +16,7 @@ class WikimediaIncubator {
 	 * @param $defOpt Array
 	 * @return true
 	 */
-	static public function onUserGetDefaultOptions( &$defOpt ) {
+	public static function onUserGetDefaultOptions( &$defOpt ) {
 		global $wmincPref;
 
 		$defOpt[$wmincPref . '-project'] = 'none';
