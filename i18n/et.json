@@ -87,7 +87,7 @@
 	"wminc-infopage-createmainpage": "Sisesta sõna \"Esileht\" selles keeles:",
 	"wminc-infopage-contribute": "Kui oskad seda keelt, on sinu kaastöö oodatud!",
 	"wminc-infopage-status-open": "See on avatud viki Wikimedia Inkubaatoris.",
-	"wminc-infopage-status-imported": "See inkubaatori viki on pärast selle sulgemist imporditud asukohast $1.",
+	"wminc-infopage-status-imported": "See inkubaatori viki on imporditud pärast sulgemist asukohast $1.",
 	"wminc-infopage-status-closedsister": "See alamdomeen suleti. Sellele vikile saad kaastööd teha asukohas <strong>$2</strong>.",
 	"wminc-infopage-status-approved": "[[meta:Special:MyLanguage/Language_committee|Keelekomitee]] on selle Inkubaatori-viki heaks kiitnud ja see luuakse peatselt.",
 	"wminc-infopage-status-created": "Keelekomitee on selle projekti heaks kiitnud ja see on nüüd saadaval asukohas $1.",

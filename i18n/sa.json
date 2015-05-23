@@ -1,11 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ansumang"
+			"Ansumang",
+			"NehalDaveND"
 		]
 	},
 	"wminc-manual": "शास्त्र",
 	"wminc-listwikis": "विकयः सूचि",
-	"wminc-viewuserlang-user": "योजकनामन्:",
+	"wminc-testwiki-none": "नैकं/सर्वं",
+	"wminc-viewuserlang-user": "प्रयोक्तृनाम :",
+	"wminc-viewuserlang-go": "गम्यताम्",
+	"wminc-userdoesnotexist": "\"$1\" योजकः न वर्तते ।",
+	"wminc-searchwiki-go": "गम्यताम्",
 	"wminc-infopage-title-p": "विकिपीड़िया $1"
 }
