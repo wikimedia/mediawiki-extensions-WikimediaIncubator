@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"RajeshPandey",
-			"Nirmal Dulal"
+			"Nirmal Dulal",
+			"NehalDaveND"
 		]
 	},
 	"wminc-desc": "विकीमीडिया इनक्युबेटर को लागि विकि प्रणाली को परीक्षण",
@@ -37,5 +38,6 @@
 	"wminc-searchwiki-noproject": "तपाइले कुनै आयोजना छनौट गर्नुभएन ।",
 	"wminc-searchwiki-selectproject": "खोज्नुहोस:",
 	"wminc-searchwiki-inputlanguage": "भाषा:",
-	"wminc-searchwiki-go": "जानुहोस्"
+	"wminc-searchwiki-go": "जानुहोस्",
+	"wminc-fs-signup-title": "साइन अप"
 }
