@@ -102,7 +102,7 @@
 	"wminc-infopage-createmainpage": "输入“主页”此词在这种语言的翻译：",
 	"wminc-infopage-contribute": "如果您会这门语言，欢迎您做出贡献！",
 	"wminc-infopage-status-open": "这是维基孵育场的一个开放测试维基。",
-	"wminc-infopage-status-imported": "该维基项目关闭后，这个孵育场维基已从$1导入。",
+	"wminc-infopage-status-imported": "此孵育场wiki是从$1在其关闭后导入的。",
 	"wminc-infopage-status-closedsister": "本子域名已关闭。请前往<strong>$2</strong>以向该wiki贡献。",
 	"wminc-infopage-status-approved": "这个维基媒体孵育场的维基已被 [[meta:Special:MyLanguage/Language_committee|语言委员会]] 批准，此维基很快就会被创建了。",
 	"wminc-infopage-status-created": "此项目已经受语言委员会批准，现已在$1可以使用。",
