@@ -98,7 +98,7 @@
 	"wminc-infopage-createmainpage": "Введите на этом языке выражение, означающее «Заглавная страница»:",
 	"wminc-infopage-contribute": "Если вы понимаете этот язык, вы можете внести свой вклад!",
 	"wminc-infopage-status-open": "Это открытая вики в Инкубаторе Викимедиа.",
-	"wminc-infopage-status-imported": "Эта вики была импортирована в Инкубатор из проекта «$1» после его закрытия.",
+	"wminc-infopage-status-imported": "Эта вики была импортирована в Инкубатор из $1 после её закрытия.",
 	"wminc-infopage-status-closedsister": "Этот поддомен был закрыт. Перейти к <strong>$2</strong>, чтобы сделать свой вклад в эту вики.",
 	"wminc-infopage-status-approved": "Этот инкубатор был одобрен [[meta:Special:MyLanguage/Language_committee|языковым комитетом]] и будет вскоре создан.",
 	"wminc-infopage-status-created": "Этот проект был одобрен Языковым комитетом и теперь доступен по адресу $1 .",
