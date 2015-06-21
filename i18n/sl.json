@@ -79,7 +79,7 @@
 	"wminc-infopage-createmainpage": "Vnesite besedi »Glavna stran« v tem jeziku:",
 	"wminc-infopage-contribute": "Če znate ta jezik, ste vabljeni k prispevanju!",
 	"wminc-infopage-status-open": "To je odprti wiki Inkubatorja Wikimedie.",
-	"wminc-infopage-status-imported": "Ta wiki Inkubatorja je bil uvožen iz $1 po zaprtju wikija.",
+	"wminc-infopage-status-imported": "Ta wiki Inkubatorja je bil po zaprtju uvožen iz $1.",
 	"wminc-infopage-status-closedsister": "Poddomena je zaprta. Pojdite na <strong>$2</strong>, da prispevate k temu wikiju.",
 	"wminc-infopage-status-approved": "Wiki Inkubatorja je odobril [[meta:Special:MyLanguage/Language_committee|jezikovni odbor]] in bo kmalu ustvarjen.",
 	"wminc-infopage-status-created": "Projekt je odobril jezikovni odbor in je odslej na razpolago na naslovu $1.",
