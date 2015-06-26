@@ -97,7 +97,7 @@
 	"wminc-infopage-createmainpage": "Введіть фразу «Головна сторінка» на цій мові:",
 	"wminc-infopage-contribute": "Якщо Ви володієте цією мовою, Ви можете зробити свій внесок!",
 	"wminc-infopage-status-open": "Це відкрита вікі в Інкубаторі Вікімедіа.",
-	"wminc-infopage-status-imported": "Ця вікі була перенесена до Інкубатору з $1 після її закриття.",
+	"wminc-infopage-status-imported": "Ця вікі була перенесена до Інкубатора з $1 після її закриття.",
 	"wminc-infopage-status-closedsister": "Цей піддомен було закрито. Перейти до <strong>$2</strong>, щоб зробити внесок до цієї вікі.",
 	"wminc-infopage-status-approved": "Ця інкубаторна вікі була затверджена [[meta:Special:MyLanguage/Language_committee|мовним комітетом]] і буде скоро створена.",
 	"wminc-infopage-status-created": "Цей проект було схвалено мовним комітетом і тепер він доступний на $1.",
