@@ -5,5 +5,9 @@
 		]
 	},
 	"wminc-listwikis": "कुल विकि",
-	"wminc-recentchanges-all": "नवा बदलाव"
+	"wminc-testwiki": "परीक्षण विकी",
+	"wminc-testwiki-code": "परीक्षण विकी भाषा:",
+	"wminc-recentchanges-all": "नवा बदलाव",
+	"wminc-prefinfo-language": "आप कय इंटरफ़ेस भाषा - आप कय परीक्षण विकी से स्वतंत्र",
+	"wminc-prefinfo-project": "विकिमीडिया परियोजना कय चयन करा जाय (विकिमीडिया ऊष्मानियंत्रक विकल्प सामान्य काम करय वाले उपयोगकर्तन् खत्तिर होय)"
 }
