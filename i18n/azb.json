@@ -4,7 +4,8 @@
 			"Arjanizary",
 			"E THP",
 			"Ebrahimi-amir",
-			"Mousa"
+			"Mousa",
+			"Koroğlu"
 		]
 	},
 	"wminc-desc": "Wikimedia Incubator اوچون تست ویکی سیستمی",
@@ -16,7 +17,7 @@
 	"wminc-recentchanges-all": "بوتون سون دَییشیکلر",
 	"wminc-prefinfo-language": "سیزین قابیق صحیفه دیلینیز - سیزین تئست ویکی‌نیزه باغلی‌دیر",
 	"wminc-error-unprefixed": "'''خطا:''' بو صحیفه‌ [[{{MediaWiki:Wminc-error-help}}|اؤن اَکسیز]]دیر!",
-	"wminc-viewuserlang-user": "ایستیفاده‌چی آدی:",
+	"wminc-viewuserlang-user": "ایشلدن آدی:",
 	"wminc-viewuserlang-go": "گئت",
 	"wminc-userdoesnotexist": "\"$1\" آدلی ایستیفاده‌چی یوخدور",
 	"wminc-ip": "\"$1\" بیر آی-پی عونوانی‌دیر",
@@ -34,7 +35,7 @@
 	"wminc-searchwiki-match-nativename": "\"$1\" او دیلده $2-ون آدی‌دیر.",
 	"wminc-searchwiki-gotoinfopage": "بیلگی صحیفه‌سی",
 	"wminc-fs-langselect-title": "دیل سئچمه‌سی",
-	"wminc-fs-userpage-title": "ایستیفاده‌چی صحیفه‌نیزی یارادین",
+	"wminc-fs-userpage-title": "ایشلدن صحیفه‌نیزی یارادین",
 	"wminc-fs-startwiki-title": "اوز ویکی‌نیزی باشلایین",
 	"wminc-fs-pagetitle-done": " - ائدیلدی!",
 	"wminc-infopage-enter": "آنا صحیفه‌یه گئدین",
