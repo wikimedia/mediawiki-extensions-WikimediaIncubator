@@ -33,7 +33,7 @@
 	"wminc-error-wiki-exists": "Esta wiki ya existe, puedes encontrarla en $1. Si la wiki es de reciente creación, por favor espera un par de días hasta que todo el contenido sea importado.",
 	"wminc-error-wiki-sister": "Esta página pertenece a un proyecto que no está hospedado aquí. Por favor acuda a $1 para encontrar la wiki.",
 	"randombytest": "Página aleatoria para probar wiki",
-	"randombytest-nopages": "No hay páginas en su wiki de prueba, en el espacio de nombres: $1.",
+	"randombytest-nopages": "No hay páginas en tu wiki de prueba, en el espacio de nombres: $1.",
 	"wminc-viewuserlang": "Buscar idioma y wiki de prueba del usuario",
 	"wminc-viewuserlang-user": "Nombre de usuario:",
 	"wminc-viewuserlang-go": "Ir",
