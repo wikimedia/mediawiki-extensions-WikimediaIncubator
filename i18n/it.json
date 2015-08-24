@@ -96,7 +96,7 @@
 	"wminc-infopage-createmainpage": "Inserisci la traduzione di \"Pagina principale\" in questa lingua:",
 	"wminc-infopage-contribute": "Se conosci questa lingua, sei invitato a contribuire!",
 	"wminc-infopage-status-open": "Questo è un wiki aperto di Wikimedia Incubator.",
-	"wminc-infopage-status-imported": "Questo wiki di Incubator è stato importato da $1 dopo che il wiki era stato chiuso.",
+	"wminc-infopage-status-imported": "Questo wiki di Incubator è stato importato da $1 dopo che è stato chiuso.",
 	"wminc-infopage-status-closedsister": "Questo sottodominio è stato chiuso. Vai a <strong>$2</strong> per partecipare a questo wiki.",
 	"wminc-infopage-status-approved": "Questo wiki di Incubator è stato approvato dal [[meta:Special:MyLanguage/Language_committee|comitato linguistico]] e sarà creato presto.",
 	"wminc-infopage-status-created": "Questo progetto è stato approvato dal language committee ed è ora disponibile all'indirizzo $1",
