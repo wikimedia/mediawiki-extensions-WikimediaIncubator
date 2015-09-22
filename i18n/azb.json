@@ -5,7 +5,8 @@
 			"E THP",
 			"Ebrahimi-amir",
 			"Mousa",
-			"Koroğlu"
+			"Koroğlu",
+			"Alp Er Tunqa"
 		]
 	},
 	"wminc-desc": "Wikimedia Incubator اوچون تست ویکی سیستمی",
@@ -33,7 +34,7 @@
 	"wminc-searchwiki-match-userlangname": "$1 بیر دیل آدی‌دیر.",
 	"wminc-searchwiki-match-englishname": "\"$1\"اینگیلیسجه‌ده $2ون آدی‌دیر.",
 	"wminc-searchwiki-match-nativename": "\"$1\" او دیلده $2-ون آدی‌دیر.",
-	"wminc-searchwiki-gotoinfopage": "بیلگی صحیفه‌سی",
+	"wminc-searchwiki-gotoinfopage": "بیلگی صفحه‌سی",
 	"wminc-fs-langselect-title": "دیل سئچمه‌سی",
 	"wminc-fs-userpage-title": "ایشلدن صفحه‌نیزی یارادین",
 	"wminc-fs-startwiki-title": "اوز ویکی‌نیزی باشلایین",
