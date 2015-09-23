@@ -39,7 +39,7 @@
 	"wminc-viewuserlang-user": "Имя участника:",
 	"wminc-viewuserlang-go": "Найти",
 	"wminc-userdoesnotexist": "Участник «$1» не существует",
-	"wminc-ip": "«$1» не является IP-адресом.",
+	"wminc-ip": "«$1» — не IP-адрес.",
 	"right-viewuserlang": "просматривать языковые настройки участника и его пробную вики",
 	"group-test-sysop": "Администраторы пробной вики",
 	"group-test-sysop-member": "{{GENDER:$1|Администратор пробной вики}}",
