@@ -2,8 +2,11 @@
 	"@metadata": {
 		"author": [
 			"Olsi"
+		],
+		"authors": [
+			"Kosovastar"
 		]
 	},
 	"wminc-listwikis": "Lista e projekteve",
-	"wminc-infopage-contribute": "Nëse e dini këtë gjuhë, jeni të inkurajuar të kontribuoni!"
+	"wminc-infopage-contribute": "Nëse e dini këtë gjuhë, jeni të inkurajuar për të kontribuar!"
 }
