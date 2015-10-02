@@ -5,5 +5,10 @@
 			"Sarvaturi"
 		]
 	},
-	"wminc-viewuserlang-go": "Vai"
+	"wminc-listwikis": "Elencu di wiki",
+	"wminc-recentchanges-all": "Tutti li canciamenti ricenti",
+	"wminc-viewuserlang-go": "Vai",
+	"wminc-searchwiki": "Arricerca un wiki",
+	"wminc-searchwiki-selectproject": "Arricerca pi:",
+	"wminc-searchwiki-inputlanguage": "Ntâ lingua:"
 }
