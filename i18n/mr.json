@@ -54,5 +54,5 @@
 	"wminc-infopage-status-imported": "ही इनक्यूबेटर विकि  $1 पासून विकि बंद केल्यानंतर आयात करण्यात आलेली आहे.",
 	"wminc-infopage-status-created": "या प्रकल्पाला भाषा समितीने मान्यता दिलेली असून आता हा प्रकल्प $1 येथे उपलब्ध आहे.",
 	"wminc-infopage-status-beforeincubator-sister": "हा प्रकल्प $1 येथे उपलब्ध आहे.",
-	"wminc-infopage-error": "त्रूटी: {{#infopage}} फक्त प्रीफिक्स पानांवर वापरू शकता."
+	"wminc-infopage-error": "त्रुटी: {{#infopage}} फक्त उपसर्ग-पानांवर वापरू शकता."
 }
