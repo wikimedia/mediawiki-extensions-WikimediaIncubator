@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ajdar",
-			"Marat-avgust"
+			"Marat-avgust",
+			"Ильнар"
 		]
 	},
 	"wminc-desc": "Викимедиа Инкубаторы өчен тикшерелмә вики-система",
@@ -14,11 +15,11 @@
 	"wminc-recentchanges-all": "Барлык соңгы үзгәртүләр",
 	"wminc-prefinfo-language": "Сезнең интерфейс теле сезнең тикшерелүче викига бәйле түгел",
 	"wminc-prefinfo-code": "Телнең ISO 639 буенча коды",
-	"wminc-prefinfo-project": "Викимедиа проектын сайлау (әгәр гомуми мәсьәләләр белән шөгыльләнсәгез, Инкубаторны сайлагыз)",
+	"wminc-prefinfo-project": "Әле эшләгән эш буенча Викимедиа проектын сайлау",
 	"wminc-prefinfo-error": "Сез тел кодын күрсәтү мәҗбүри булган проектны сайладыгыз.",
-	"wminc-error-move-unprefixed": "Хата. Сез күчерергә теләгән бит [[{{MediaWiki:Wminc-error-help}}|хаталы префикска ия яки аның префиксы бөтенләй юк]]!",
-	"wminc-error-wronglangcode": "'''Хата:''' Сез үзгәртергә теләгән биттә  [[{{MediaWiki:Wminc-error-help}}|дөрес булмаган тел коды бар]]",
-	"wminc-error-unprefixed": "'''Хата:''' Сез үзгәртергә теләгән битнең  [[{{MediaWiki:Wminc-error-help}}|префиксы юк]]!",
+	"wminc-error-move-unprefixed": "<strong>Хата:</strong> Сез күчерергә теләгән бит [[{{MediaWiki:Wminc-error-help}}|хаталы префикска ия яки аның префиксы бөтенләй юк]].",
+	"wminc-error-wronglangcode": "<strong>Хата:</strong> Әлеге биттә [[{{MediaWiki:Wminc-error-help}}|дөрес булмаган тел коды бар]] «$1».",
+	"wminc-error-unprefixed": "<strong>Хата:</strong> Элеге битнең [[{{MediaWiki:Wminc-error-help}}|префиксы юк]].",
 	"randombytest": "Тикшерелүче викиның очраклы мәкаләсе",
 	"randombytest-nopages": "Сезнең тикшерелүче викида $1 исемнәр аланындагы битләр юк",
 	"wminc-viewuserlang": "Кулланучының һәм аның тикшерелүче викиенең тел көйләнмәләрен эзләү",
@@ -26,7 +27,7 @@
 	"wminc-viewuserlang-go": "Табарга",
 	"wminc-userdoesnotexist": "\"$1\" дигән кулланучы юк",
 	"group-test-sysop": "Тикшерелүче вики идарәчеләре",
-	"group-test-sysop-member": "тикшерелүче вики идарәчесе",
+	"group-test-sysop-member": "{{GENDER:$1|Сынаулы вики идарәчесе}}",
 	"grouppage-test-sysop": "{{ns:project}}:Тикшерелүче вики идарәчеләре",
 	"wminc-searchwiki": "Вики буенча эзләү",
 	"wminc-searchwiki-noproject": "Сез проектны сайламадыгыз",
