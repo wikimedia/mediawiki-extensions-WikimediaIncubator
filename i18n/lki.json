@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hosseinblue"
+			"Hosseinblue",
+			"Arash71"
 		]
 	},
 	"wminc-desc": "دۀسگآ ویکی آزمائشی ئرا ویکی ترۀختی(رؤشد)ویکی مدیا",
@@ -11,13 +12,13 @@
 	"wminc-testwiki-code": ":آزمائش زوون ویکی",
 	"wminc-testwiki-none": "هؤیچ کام/کؤلّ",
 	"wminc-testwiki-site": "(ویریابین-نگهداری)",
-	"wminc-recentchanges-all": "کؤل ئآلا پالانۀل-کؤل تغییرۀل",
+	"wminc-recentchanges-all": "کۆل تغییرةل ایسکة",
 	"wminc-prefinfo-language": "زوون پئؤنی اکانتۀتان-جیا ئژ ویکی آزمایشیۀتان",
 	"wminc-prefinfo-code": " کؤدایزو ۶۳۹زوونئ گه ئۀ ائرۀ کارۀ رؤیۀ مۀکینئ",
 	"wminc-prefinfo-project": "پِرووژۀ ویکی مدیائ گه ئۀ ائرۀکارۀ رویۀ مَکِینئ انتخاب کۀن",
 	"wminc-prefinfo-error": "هؤمۀ پِرووژه تؤنئ گِرتئۀ گِه کِؤد زوون إگِرۀکَه-لازمه",
 	"wminc-error-move-unprefixed": "<strong>خۀطا:</strong> ولگه که مه هئز دینئ-جابجاکینئ [[{{MediaWiki:Wminc-error-help}}|پیشؤن نئرئ یا پیشؤن نادؤرسۀ]].",
-	"wminc-error-wronglangcode": "<strong>خۀطا:</strong> ئئ ولگه شامل[[{{MediaWiki:Wminc-error-help}}|کؤد زوون نادؤرسۀ]] \"$1\".",
+	"wminc-error-wronglangcode": "<strong>خۀطا:</strong> ئئ ولگه شامل[[{{MediaWiki:Wminc-error-help}}|کؤد زوون دؤرس نیة]] \"$1\".",
 	"wminc-error-unprefixed": "<strong>خۀطا:</strong> ئئ ولگۀ[[{{MediaWiki:Wminc-error-help}}|پئشوند نئرئ]].",
 	"wminc-error-unprefixed-suggest": "<strong>خّطا:</strong>ئئ ولگۀ [[{{MediaWiki:Wminc-error-help}}|پئشؤند نئرئ]]! مۀتؤنینو ولگه ئۀر[[:$1]]دؤرس کینؤ",
 	"wminc-error-wiki-exists": "ئئ ویکیۀ ایسۀ هۀسئ.هؤمۀ مۀتؤنینو ئئ ولگۀ ئۀ$1بکینۀ دی-پئا کینو.ئۀر ویکی تازۀ دؤرس بیۀ،بئ زۀمۀت چن سات یا چن رووژ بووسن تا کؤڵ هِنِلّۀئ بائ سۀر",
@@ -26,7 +27,7 @@
 	"randombytest-nopages": "هؤیچ ولگه ئۀر ویکی آزمائشی هومۀ نیۀ،ئۀ نؤم جا:$1",
 	"wminc-viewuserlang": "سئرکردن زوون ئؤ ویکی آزمائشی بهرۀگر-کاربر",
 	"wminc-viewuserlang-user": ":نؤم بهرۀگر-کاربر",
-	"wminc-viewuserlang-go": "بِچؤ",
+	"wminc-viewuserlang-go": "بِچۆ",
 	"wminc-userdoesnotexist": ".بهرۀگر-کاربر «$1» ئۀائرۀ نیۀسئ",
 	"wminc-ip": " .(ip)ئئ «$1» نیشانی آی پی کۀ",
 	"right-viewuserlang": "سئرکردن زوون ئؤ ویکی آزمائشی بۀرۀگر-کاربر",
@@ -39,7 +40,7 @@
 	"wminc-searchwiki-noresults": "نتیجۀ نیاشتئ.هؤمۀ متؤنینؤ ئه رئۀلی چوی:کؤدۀل زوون،نؤمۀل مادری-دائئ ونؤمۀل رابط زوون وژت یا انْگلیسی مِه نِی کینؤ-بگِئردینؤ",
 	"wminc-searchwiki-selectproject": ":مِه نِی کۀَ-بگئرد",
 	"wminc-searchwiki-inputlanguage": ":ئۀ زوون",
-	"wminc-searchwiki-go": "بِچؤ",
+	"wminc-searchwiki-go": "بِچۆ",
 	"wminc-searchwiki-multiplematches": ":زوون گئردین هؤمۀ ئئ زوونۀلۀ هایتئرۀ-مۀگِرئؤ وۀر",
 	"wminc-searchwiki-gotoinfopage": "دربارۀ ئئ ولگۀ",
 	"wminc-fs-langselect-title": "زوون انتخاب کۀ",
