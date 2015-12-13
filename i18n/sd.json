@@ -29,7 +29,7 @@
 	"wminc-viewuserlang-user": "يوزرنانءُ:",
 	"wminc-viewuserlang-go": "هلو",
 	"wminc-userdoesnotexist": "يوزر ''$1'' وجود نٿو رکي.",
-	"wminc-ip": "''$1'' هڪ آءِ پي پتو آهي.",
+	"wminc-ip": "''$1'' هڪ آءِپي پتو آهي.",
 	"right-viewuserlang": "يوزر جي ٻولي ۽ آزمائشي وڪي ڏسو",
 	"group-test-sysop": "آزمائشي وڪيءَ جا منتظم",
 	"group-test-sysop-member": "{{GENDER:$1|tآزمائشي وڪي جو منتظم}}",
