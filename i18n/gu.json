@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ashok modhvadia"
+			"Ashok modhvadia",
+			"Bhatakati aatma"
 		]
 	},
 	"wminc-desc": "વિકિમીડિયા ઇનક્યુબેટર માટે પરિક્ષણ વિકિ પ્રણાલી",
@@ -13,5 +14,6 @@
 	"wminc-prefinfo-error": "તમે પસંદ કરેલ યોજના માટે ભાષા સંજ્ઞા જરૂરી છે.",
 	"wminc-viewuserlang": "સભ્ય ભાષા અને પરિક્ષણ વિકિ જુઓ",
 	"wminc-viewuserlang-user": "સભ્યનામ:",
-	"wminc-viewuserlang-go": "જાઓ"
+	"wminc-viewuserlang-go": "જાઓ",
+	"wminc-infopage-title-q": "વિકિસૂક્તિ $1"
 }
