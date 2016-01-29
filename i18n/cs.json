@@ -4,7 +4,8 @@
 			"Koo6",
 			"Kuvaly",
 			"Matěj Grabovský",
-			"Mormegil"
+			"Mormegil",
+			"Matěj Suchánek"
 		]
 	},
 	"wminc-desc": "Testovací wiki systém pro Inkubátor Wikimedia",
@@ -63,7 +64,7 @@
 	"wminc-fs-userpage-title": "Založení uživatelské stránky",
 	"wminc-fs-startwiki-title": "Založení wiki",
 	"wminc-fs-pagetitle-done": " – hotovo!",
-	"wminc-fs-intro": "Vítejte v průvodci prvními kroky po {{gender:6sg|{{SITENAME}}}}. Provedeme vás prvními kroky založení nové wiki.",
+	"wminc-fs-intro": "Vítejte v průvodci prvními kroky po {{GRAMMAR:6sg|{{SITENAME}}}}. Provedeme vás prvními kroky založení nové wiki.",
 	"wminc-fs-langselect": "Pokračovat v jazyce $1 nebo $2",
 	"wminc-fs-signup-text": "Pokud už máte uživatelský účet, [$1 přihlaste se]. Pokud ho ještě nemáte, můžete [$2 si ho založit].\nNení nezbytný, ale silně doporučený a založení trvá jen pár sekund.",
 	"wminc-fs-settings-text": "Nyní přejděte na [[Special:Preferences#mw-htmlform-i18n|uživatelské nastavení]] a upravte si nastavení své testovací wiki.\nPrvní je jazyk rozhraní, který jste si zvolili v prvním kroku, ale i tak ho můžete změnit.\nDruhou je projekt, do kterého chcete přispívat, a třetí je kód jazyka projektu, do kterého chcete přispívat.\nPokud kód neznáte, podívejte se do naší [[{{MediaWiki:Wminc-manual-url}}|příručky]] nebo požádejte o [[{{MediaWiki:Portal-url}}|pomoc]].",
