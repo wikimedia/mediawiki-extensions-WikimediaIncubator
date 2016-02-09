@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gunnernett"
+			"Gunnernett",
+			"Njardarlogar"
 		]
 	},
 	"wminc-desc": "Testwikisystem for Wikimedia Incubator",
@@ -16,5 +17,6 @@
 	"wminc-viewuserlang": "Slå opp brukarspråk og testwiki",
 	"wminc-viewuserlang-user": "Brukarnamn:",
 	"wminc-viewuserlang-go": "Gå",
-	"right-viewuserlang": "Vis brukarspråk og testwiki"
+	"right-viewuserlang": "Vis brukarspråk og testwiki",
+	"wminc-fs-langselect-title": "Vel språk"
 }
