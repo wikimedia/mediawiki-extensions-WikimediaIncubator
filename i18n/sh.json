@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kolega2357"
+			"Kolega2357",
+			"Conquistador"
 		]
 	},
-	"wminc-viewuserlang-user": "Korisničko ime:"
+	"wminc-viewuserlang-user": "Korisničko ime:",
+	"wminc-infopage-enter": "idi na glavnu stranicu",
+	"wminc-infopage-createmainpage": "Unesite riječ \"Glavna stranica\" na ovom jeziku:"
 }
