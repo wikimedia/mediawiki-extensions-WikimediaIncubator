@@ -95,7 +95,7 @@
 	"wminc-infopage-title-q": "This is the main title of the info page. Parameters:\n* $1 - the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.\n{{Identical|Wikiquote}}",
 	"wminc-infopage-title-n": "This is the main title of the info page. Parameters:\n* $1 - the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.\n{{Identical|Wikinews}}",
 	"wminc-infopage-title-s": "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.\n{{Identical|Wikisource}}",
-	"wminc-infopage-title-v": "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.",
+	"wminc-infopage-title-v": "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.\n{{Identical|Wikiversity}}",
 	"wminc-infopage-title-y": "This is the main title of the info page. Parameters:\n* $1 - the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.\n{{Identical|Wikivoyage}}",
 	"wminc-infopage-welcome": "{{doc-important|Do not change <code><nowiki>{{MediaWiki:Aboutpage}}</nowiki></code>.}}\nRefers to {{msg-mw|Aboutpage}}.",
 	"wminc-infopage-missingwiki-text": "'''$1''' is a project: Wikipedia/Wiktionary/...",
