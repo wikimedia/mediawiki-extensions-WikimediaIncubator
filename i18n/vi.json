@@ -83,7 +83,7 @@
 	"wminc-infopage-title-y": "Wikivoyage $1",
 	"wminc-infopage-welcome": "Hoan nghênh bạn đến với Vườn ươm Wikimedia, một dự án của Quỹ Wikimedia ([[{{MediaWiki:Aboutpage}}|Giới thiệu]])",
 	"wminc-infopage-missingwiki-text": "$1 chưa có sẵn trong ngôn ngữ này.",
-	"wminc-infopage-option-startwiki": "Nếu bạn muốn bắt đầu xây dựng wiki này, xin vui lòng tiến hành '''[$3 các bước này]''' và thực hiện theo [[{{MediaWiki:Wminc-manual-url}}|sách hướng dẫn của chúng ta]].",
+	"wminc-infopage-option-startwiki": "Nếu bạn muốn bắt đầu xây dựng wiki này, xin vui lòng tiến hành '''[$3 các bước này]''' và làm theo [[{{MediaWiki:Wminc-manual-url}}|tài liệu hướng dẫn của chúng tôi]].",
 	"wminc-infopage-option-startsister": "Để bắt đầu wiki này, hãy ghé vào <strong>[$2 $1]</strong>.",
 	"wminc-infopage-option-languages-existing": "Bạn có thể tìm kiếm [//www.$1.org phiên bản ngôn ngữ hiện có của $1].",
 	"wminc-infopage-option-sisterprojects-existing": "Bạn có thể tìm kiếm các dự án hiện có trong ngôn ngữ này:",
