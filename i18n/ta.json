@@ -3,7 +3,8 @@
 		"authors": [
 			"Karthi.dr",
 			"Shanmugamp7",
-			"மதனாஹரன்"
+			"மதனாஹரன்",
+			"Maathavan"
 		]
 	},
 	"wminc-manual": "கைமுறை",
@@ -45,5 +46,6 @@
 	"wminc-infopage-title-n": "விக்கிசெய்திகள் $1",
 	"wminc-infopage-title-s": "விக்கிமூலம் $1",
 	"wminc-infopage-title-v": "விக்கிப்பல்கலைக்கழகம் $1",
+	"wminc-infopage-title-y": "விக்கிப்பயணம் $1",
 	"wminc-infopage-missingwiki-text": "A  $1  இந்த மொழியில் இதுவரை இல்லை."
 }
