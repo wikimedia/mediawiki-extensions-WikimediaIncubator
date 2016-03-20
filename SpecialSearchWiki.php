@@ -6,7 +6,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	}
 
 	function getDescription() {
-		return wfMessage( 'wminc-searchwiki' )->plain();
+		return $this->msg( 'wminc-searchwiki' )->plain();
 	}
 
 	/**
@@ -31,15 +31,15 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		# Show form
 		$uselang = $this->getRequest()->getVal( 'uselang' );
 		$this->getOutput()->addHTML(
-			Xml::fieldset( wfMessage( 'wminc-searchwiki' )->plain(),
+			Xml::fieldset( $this->msg( 'wminc-searchwiki' )->plain(),
 			Html::rawElement( 'form', array( 'method' => 'get', 'action' => $wgScript, 'id' => 'wminc-searchwiki-form' ),
 				Html::hidden( 'title', SpecialPage::getTitleFor( 'SearchWiki' ) ) .
 				( $uselang ? Html::hidden( 'uselang', $uselang ) : '' ) .
-				'<p>' . Xml::label( wfMessage( 'wminc-searchwiki-selectproject' )->text(), 'wminc-searchproject' ) .
+				'<p>' . Xml::label( $this->msg( 'wminc-searchwiki-selectproject' )->text(), 'wminc-searchproject' ) .
 					' ' . $this->makeProjectSelector( $projectQuery ) . '</p>' .
-				'<p>' . Xml::inputLabel( wfMessage( 'wminc-searchwiki-inputlanguage' )->text(), 'searchlanguage',
+				'<p>' . Xml::inputLabel( $this->msg( 'wminc-searchwiki-inputlanguage' )->text(), 'searchlanguage',
 				'wminc-searchlanguage', 30, $languageQuery ) . ' ' .
-				Xml::submitButton( wfMessage( 'wminc-searchwiki-go' )->text() ) . '</p>'
+				Xml::submitButton( $this->msg( 'wminc-searchwiki-go' )->text() ) . '</p>'
 			) )
 		);
 
@@ -103,10 +103,10 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 			$this->gotoWiki( $matchProject, key( $results ) );
 		} elseif ( count( $results ) < 1 ) {
 			$noresult = Html::element( 'p', array( 'class' => 'error' ),
-				wfMessage( 'wminc-searchwiki-noresults' )->text() );
+				$this->msg( 'wminc-searchwiki-noresults' )->text() );
 			return $this->getOutput()->addHTML( $noresult );
 		} elseif ( count( $results ) > 1 ) {
-			self::showMultipleResults( $matchProject, $languageQuery, $results );
+			$this->showMultipleResults( $matchProject, $languageQuery, $results );
 		}
 	}
 
@@ -127,7 +127,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 * @param $lang String: Language code
 	 */
 	protected function goToWiki( $project, $lang ) {
-		$lang = self::getRootCode( $lang );
+		$lang = $this->getRootCode( $lang );
 		$dbarray = array( 'project' => $project, 'lang' => $lang, 'error' => null );
 		$status = WikimediaIncubator::getDBState( $dbarray );
 		$infopageParams = array(
@@ -157,7 +157,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	protected function showMultipleResults( $project, $languageQuery, $results ) {
 		$this->getOutput()->addHTML( '<div id="wminc-searchwiki-results">' .
 			Xml::element( 'p', array(),
-				wfMessage( 'wminc-searchwiki-multiplematches' )->text() ) .
+				$this->msg( 'wminc-searchwiki-multiplematches' )->text() ) .
 			'<ul>'
 		);
 		foreach ( $results as $resultCode => $resultType ) {
@@ -166,24 +166,24 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 				WikimediaIncubator::displayPrefix( $project, $resultCode, true )
 			);
 			$linkInfoPage = Linker::linkKnown( $infopage,
-				wfMessage( 'wminc-searchwiki-gotoinfopage' )->text()
+				$this->msg( 'wminc-searchwiki-gotoinfopage' )->text()
 			);
 			# Give grep a chance to find the usages:
 			# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t,
 			# wminc-infopage-title-q, wminc-infopage-title-n, wminc-infopage-title-s,
 			# wminc-infopage-title-v, wminc-infopage-title-y
 			$linkMainPage = Linker::linkKnown( $infopage,
-				wfMessage( 'wminc-infopage-title-' . $project, $langName )->text(),
+				$this->msg( 'wminc-infopage-title-' . $project, $langName )->text(),
 				array(), array( 'goto' => 'mainpage' )
 			);
 			# Give grep a chance to find the usages:
 			# wminc-searchwiki-match-langcode, wminc-searchwiki-match-englishname,
 			# wminc-searchwiki-match-userlangname, wminc-searchwiki-match-nativename
 			$this->getOutput()->addHTML( '<li>' .
-				wfMessage( 'wminc-searchwiki-match-' . $resultType,
+				$this->msg( 'wminc-searchwiki-match-' . $resultType,
 					$languageQuery, $langName, $resultCode )->escaped() . ' ' .
 				$this->getLanguage()->getArrow() . ' ' .
-				wfMessage( 'wminc-searchwiki-goto', $linkMainPage, $linkInfoPage )->text() .
+				$this->msg( 'wminc-searchwiki-goto', $linkMainPage, $linkInfoPage )->text() .
 			'</li>' );
 		}
 		$this->getOutput()->addHTML( '</ul></div>' );

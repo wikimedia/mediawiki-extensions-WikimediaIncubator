@@ -19,7 +19,9 @@ class SpecialViewUserLang extends SpecialPage {
 	/**
 	 * @return String
 	 */
-	function getDescription() { return wfMessage( 'wminc-viewuserlang' )->plain(); }
+	function getDescription() {
+		return $this->msg( 'wminc-viewuserlang' )->plain();
+	}
 
 	/**
 	 * Show the special page
@@ -50,13 +52,13 @@ class SpecialViewUserLang extends SpecialPage {
 		global $wgScript;
 
 		$this->getOutput()->addHTML(
-			Xml::fieldset( wfMessage( 'wminc-viewuserlang' )->plain() ) .
+			Xml::fieldset( $this->msg( 'wminc-viewuserlang' )->plain() ) .
 			Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) ) .
 			Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			"<p>" .
-				Xml::inputLabel( wfMessage( 'wminc-viewuserlang-user' )->text(), 'target', 'viewuserlang-username', 40, $target ) .
+				Xml::inputLabel( $this->msg( 'wminc-viewuserlang-user' )->text(), 'target', 'viewuserlang-username', 40, $target ) .
 				' ' .
-				Xml::submitButton( wfMessage( 'wminc-viewuserlang-go' )->text() ) .
+				Xml::submitButton( $this->msg( 'wminc-viewuserlang-go' )->text() ) .
 			"</p>" .
 			Xml::closeElement( 'form' ) .
 			Xml::closeElement( 'fieldset' )
@@ -72,7 +74,7 @@ class SpecialViewUserLang extends SpecialPage {
 		$user = User::newFromName( $target );
 		if ( User::isIP( $target ) || !$user ) {
 			# show error if it is an IP address, or another error occurs
-			$this->getOutput()->addHTML( Xml::span( wfMessage( 'wminc-ip', $target )->text(), 'error' ) );
+			$this->getOutput()->addHTML( Xml::span( $this->msg( 'wminc-ip', $target )->text(), 'error' ) );
 			return;
 		}
 		$name = $user->getName();
@@ -80,7 +82,7 @@ class SpecialViewUserLang extends SpecialPage {
 		$langNames = Language::fetchLanguageNames( $this->getLanguage()->getCode() );
 		if ( $user == null || $id == 0 ) {
 			# show error if a user with that name does not exist
-			$this->getOutput()->addHTML( Xml::span( wfMessage( 'wminc-userdoesnotexist', $target )->text(), 'error' ) );
+			$this->getOutput()->addHTML( Xml::span( $this->msg( 'wminc-userdoesnotexist', $target )->text(), 'error' ) );
 			return;
 		}
 		$userproject = $user->getOption( $wmincPref . '-project' );
@@ -92,15 +94,15 @@ class SpecialViewUserLang extends SpecialPage {
 		} elseif ( $prefix == $wmincProjectSite['short'] ) {
 			$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
 		} else {
-			$testwiki = wfMessage( 'wminc-testwiki-none' )->escaped();
+			$testwiki = $this->msg( 'wminc-testwiki-none' )->escaped();
 		}
 		$this->getOutput()->addHtml(
 			Xml::openElement( 'ul' ) .
-			'<li>' . wfMessage( 'username' )->escaped() . ' ' .
+			'<li>' . $this->msg( 'username' )->escaped() . ' ' .
 				Linker::userLink( $id, $name ) . Linker::userToolLinks( $id, $name, true ) . '</li>' .
-			'<li>' . wfMessage( 'loginlanguagelabel', $langNames[$user->getOption( 'language' )] .
+			'<li>' . $this->msg( 'loginlanguagelabel', $langNames[$user->getOption( 'language' )] .
 				' (' . $user->getOption( 'language' ) . ')' )->escaped() . '</li>' .
-			'<li>' . wfMessage( 'wminc-testwiki' )->escaped() . ' ' . $testwiki . '</li>' .
+			'<li>' . $this->msg( 'wminc-testwiki' )->escaped() . ' ' . $testwiki . '</li>' .
 			Xml::closeElement( 'ul' )
 		);
 	}
