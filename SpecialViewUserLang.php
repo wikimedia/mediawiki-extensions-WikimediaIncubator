@@ -29,11 +29,7 @@ class SpecialViewUserLang extends SpecialPage {
 	 */
 	public function execute( $subpage ) {
 		$this->setHeaders();
-
-		if ( !$this->getUser()->isAllowed( 'viewuserlang' ) ) {
-			$this->displayRestrictionError();
-			return;
-		}
+		$this->checkPermissions();
 
 		$target = $this->getRequest()->getText( 'target', $subpage );
 
