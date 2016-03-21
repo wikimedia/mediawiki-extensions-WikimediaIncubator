@@ -17,16 +17,16 @@ class SpecialMyMainPage extends UnlistedSpecialPage {
 
 	public function execute( $par ) {
 		$title = '';
-		$params = array();
+		$params = [];
 
 		# Build Wx/xyz?goto=mainpage[&testwiki=]
 		if ( WikimediaIncubator::isContentProject() ) {
 			$title = Title::newFromText( WikimediaIncubator::displayPrefix() );
-			if( $this->getRequest()->getVal( 'goto' ) != 'infopage' ) {
+			if ( $this->getRequest()->getVal( 'goto' ) != 'infopage' ) {
 				$params['goto'] = 'mainpage';
 			}
 			$url = WikimediaIncubator::getUrlParam();
-			if( $url ) {
+			if ( $url ) {
 				$params['testwiki'] = $url['prefix'];
 			}
 		}

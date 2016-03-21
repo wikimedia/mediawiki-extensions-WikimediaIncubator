@@ -53,7 +53,7 @@ class SpecialViewUserLang extends SpecialPage {
 
 		$this->getOutput()->addHTML(
 			Xml::fieldset( $this->msg( 'wminc-viewuserlang' )->plain() ) .
-			Xml::openElement( 'form', array( 'method' => 'get', 'action' => $wgScript ) ) .
+			Xml::openElement( 'form', [ 'method' => 'get', 'action' => $wgScript ] ) .
 			Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			"<p>" .
 				Xml::inputLabel( $this->msg( 'wminc-viewuserlang-user' )->text(), 'target', 'viewuserlang-username', 40, $target ) .
@@ -117,12 +117,12 @@ class SpecialViewUserLang extends SpecialPage {
 	 */
 	public function prefixSearchSubpages( $search, $limit, $offset ) {
 		if ( !class_exists( 'UserNamePrefixSearch' ) ) { // check for version 1.27
-			return array();
+			return [];
 		}
 		$user = User::newFromName( $search );
 		if ( !$user ) {
 			// No prefix suggestion for invalid user
-			return array();
+			return [];
 		}
 		// Autocomplete subpage as user list - public to allow caching
 		return UserNamePrefixSearch::search( 'public', $search, $limit, $offset );

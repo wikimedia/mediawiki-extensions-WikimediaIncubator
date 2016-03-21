@@ -15,13 +15,13 @@ class SpecialRandomByTest extends RandomPage {
 		$target = WikimediaIncubator::analyzePrefix( $target );
 		$project = isset( $target['project'] ) ? $target['project'] : '';
 		$lang = isset( $target['lang'] ) ? $target['lang'] : '';
-		if( WikimediaIncubator::isContentProject() || ( $project && $lang ) ) {
+		if ( WikimediaIncubator::isContentProject() || ( $project && $lang ) ) {
 			$dbr = wfGetDB( DB_SLAVE );
 			$this->extra[] = 'page_title' .
 				$dbr->buildLike( WikimediaIncubator::displayPrefix( $project, $lang ) . '/', $dbr->anyString() );
-		} elseif( $this->getUser()->getOption( $wmincPref . '-project' ) == $wmincProjectSite['short'] ) {
+		} elseif ( $this->getUser()->getOption( $wmincPref . '-project' ) == $wmincProjectSite['short'] ) {
 			# project or help namespace
-			$this->extra['page_namespace'] = array( 4, 12 );
+			$this->extra['page_namespace'] = [ 4, 12 ];
 		}
 		parent::__construct( 'RandomByTest' );
 	}

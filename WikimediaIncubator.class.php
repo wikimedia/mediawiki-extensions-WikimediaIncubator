@@ -35,18 +35,18 @@ class WikimediaIncubator {
 
 		$preferences['language']['help-message'] = 'wminc-prefinfo-language';
 
-		$prefinsert[$wmincPref . '-project'] = array(
+		$prefinsert[$wmincPref . '-project'] = [
 			'type' => 'select',
 			'options' =>
-				array( wfMessage( 'wminc-testwiki-none' )->plain() => 'none' ) +
+				[ wfMessage( 'wminc-testwiki-none' )->plain() => 'none' ] +
 				array_flip( $wmincProjects ) +
-				array( wfMessage( 'wminc-testwiki-site' )->plain() => $wmincProjectSite['short'] ),
+				[ wfMessage( 'wminc-testwiki-site' )->plain() => $wmincProjectSite['short'] ],
 			'section' => 'personal/i18n',
 			'label-message' => 'wminc-testwiki',
 			'id' => $wmincPref . '-project',
 			'help-message' => 'wminc-prefinfo-project',
-		);
-		$prefinsert[$wmincPref . '-code'] = array(
+		];
+		$prefinsert[$wmincPref . '-code'] = [
 			'type' => 'text',
 			'section' => 'personal/i18n',
 			'label-message' => 'wminc-testwiki-code',
@@ -56,9 +56,9 @@ class WikimediaIncubator {
 			'help' => wfMessage( 'wminc-prefinfo-code' )->parse() .
 				self::getTestWikiLanguages(),
 			'list' => 'wminc-testwiki-codelist',
-			'validation-callback' => array( 'WikimediaIncubator', 'validateCodePreference' ),
-			'filter-callback' => array( 'WikimediaIncubator', 'filterCodePreference' ),
-		);
+			'validation-callback' => [ 'WikimediaIncubator', 'validateCodePreference' ],
+			'filter-callback' => [ 'WikimediaIncubator', 'filterCodePreference' ],
+		];
 
 		$preferences = wfArrayInsertAfter( $preferences, $prefinsert, 'language' );
 
@@ -73,8 +73,8 @@ class WikimediaIncubator {
 	static function getTestWikiLanguages() {
 		$list = Language::fetchLanguageNames( null, 'all' );
 		$t = '<datalist id="wminc-testwiki-codelist">' . "\n";
-		foreach( $list as $code => $name ) {
-			$t .= Xml::element( 'option', array( 'value' => $code ),
+		foreach ( $list as $code => $name ) {
+			$t .= Xml::element( 'option', [ 'value' => $code ],
 				$code . ' - ' . $name ) . "\n";
 		}
 		$t .= '</datalist>';
@@ -92,10 +92,11 @@ class WikimediaIncubator {
 		# If the user selected a project that NEEDS a language code,
 		# but the user DID NOT enter a valid language code, give an error
 		$filteredInput = self::filterCodePreference( $input );
-		if ( isset( $alldata[$wmincPref.'-project'] ) &&
-			self::isContentProject( $alldata[$wmincPref.'-project'] ) &&
-			!self::validateLanguageCode( $filteredInput ) ) {
-			return Xml::element( 'span', array( 'class' => 'error' ),
+		if ( isset( $alldata[$wmincPref . '-project'] )
+			&& self::isContentProject( $alldata[$wmincPref . '-project'] )
+			&& !self::validateLanguageCode( $filteredInput )
+		) {
+			return Xml::element( 'span', [ 'class' => 'error' ],
 				wfMessage( 'wminc-prefinfo-error' )->plain() );
 		}
 		return true;
@@ -117,11 +118,13 @@ class WikimediaIncubator {
 	 */
 	static function validateLanguageCode( $code ) {
 		global $wmincLangCodeLength;
-		if ( strlen( $code ) > $wmincLangCodeLength ) { return false; }
+		if ( strlen( $code ) > $wmincLangCodeLength ) {
+			return false;
+		}
 		if ( $code == 'be-x-old' ) {
 			return true; # one exception... waiting to be renamed to be-tarask
 		}
-		return (bool) preg_match( '/^[a-z][a-z][a-z]?(-[a-z]+)?$/', $code );
+		return (bool)preg_match( '/^[a-z][a-z][a-z]?(-[a-z]+)?$/', $code );
 	}
 
 	/**
@@ -140,16 +143,16 @@ class WikimediaIncubator {
 	 *					optionally 'realtitle'
 	 */
 	static function analyzePrefix( $input, $onlyInfoPage = false, $allowSister = false ) {
-		$data = array( 'error' => null );
+		$data = [ 'error' => null ];
 		if ( $input instanceof Title ) {
 			global $wmincTestWikiNamespaces;
 			$title = $input->getText();
 			if ( !in_array( $input->getNamespace(), $wmincTestWikiNamespaces ) ) {
-				return array( 'error' => 'notestwikinamespace' );
+				return [ 'error' => 'notestwikinamespace' ];
 			}
 			if ( $onlyInfoPage && $input->getNamespace() != NS_MAIN ) {
 				# Info pages are only in the main NS
-				return array( 'error' => 'nomainnamespace' );
+				return [ 'error' => 'nomainnamespace' ];
 			}
 		} else {
 			$title = $input;
@@ -161,26 +164,26 @@ class WikimediaIncubator {
 		} else {
 			$data['project'] = ( isset( $titleparts[0][1] ) ? $titleparts[0][1] : '' ); # get the x from Wx/...
 			$data['lang'] = $titleparts[1]; # language code
-			$data['prefix'] = 'W'.$data['project'].'/'.$data['lang'];
+			$data['prefix'] = 'W' . $data['project'] . '/' . $data['lang'];
 			# check language code
 			if ( !self::validateLanguageCode( $data['lang'] ) ) {
 				$data['error'] = 'invalidlangcode';
 			}
 		}
 		global $wmincProjects, $wmincSisterProjects;
-		$listProjects = array_map( array( __CLASS__, 'preg_quote_slash' ), array_keys( $wmincProjects ) );
+		$listProjects = array_map( [ __CLASS__, 'preg_quote_slash' ], array_keys( $wmincProjects ) );
 		if ( $allowSister && is_array( $wmincSisterProjects ) ) {
 			# join the project codes with those of the sister projects
-			$listSister = array_map( array( __CLASS__, 'preg_quote_slash' ), array_keys( $wmincSisterProjects ) );
+			$listSister = array_map( [ __CLASS__, 'preg_quote_slash' ], array_keys( $wmincSisterProjects ) );
 			$listProjects = array_merge( $listProjects, $listSister );
 		}
 		$listProjects = implode( '|', $listProjects );
-		if ( !preg_match( '/^W['.$listProjects.']\/[a-z-]+' .
-			($onlyInfoPage ? '$/' : '(\/.+)?$/' ), $title ) ) {
+		if ( !preg_match( '/^W[' . $listProjects . ']\/[a-z-]+' .
+			( $onlyInfoPage ? '$/' : '(\/.+)?$/' ), $title ) ) {
 			$data['error'] = 'invalidprefix';
 		}
 		if ( !$onlyInfoPage && $data['error'] != 'invalidprefix' ) { # there is a Page_title
-			$prefixn = strlen( $data['prefix'].'/' ); # number of chars in prefix
+			$prefixn = strlen( $data['prefix'] . '/' ); # number of chars in prefix
 			# get Page_title from Wx/xx/Page_title
 			$data['realtitle'] = substr( $title, $prefixn );
 		}
@@ -274,8 +277,8 @@ class WikimediaIncubator {
 		} else {
 			global $wgUser, $wmincPref;
 			$url = self::getUrlParam();
-			$projectvalue = ( $url ? $url['project'] : $wgUser->getOption($wmincPref . '-project') );
-			$codevalue = ( $url ? $url['lang'] : $wgUser->getOption($wmincPref . '-code') );
+			$projectvalue = ( $url ? $url['project'] : $wgUser->getOption( $wmincPref . '-project' ) );
+			$codevalue = ( $url ? $url['lang'] : $wgUser->getOption( $wmincPref . '-code' ) );
 		}
 		$sister = (bool)( $allowSister && isset( $wmincSisterProjects[$projectvalue] ) );
 		if ( self::isContentProject( $projectvalue ) || $sister ) {
@@ -307,7 +310,7 @@ class WikimediaIncubator {
 			* TITLE + NS => Wx/xxx/NS:TITLE
 			* (with localized namespace name)
 			*/
-			$title = Title::makeTitleSafe( NULL, self::displayPrefix() . '/' .
+			$title = Title::makeTitleSafe( null, self::displayPrefix() . '/' .
 				$wgLang->getNsText( $ns ) . ':' . $title );
 		}
 		return $title;
@@ -333,7 +336,7 @@ class WikimediaIncubator {
 		global $wmincTestWikiNamespaces, $wmincProjectSite, $wmincPseudoCategoryNSes;
 		$prefixdata = self::analyzePrefix( $title->getText() );
 		$ns = $title->getNamespace();
-		$categories = array_map( array( __CLASS__, 'preg_quote_slash' ), $wmincPseudoCategoryNSes );
+		$categories = array_map( [ __CLASS__, 'preg_quote_slash' ], $wmincPseudoCategoryNSes );
 		if ( !$prefixdata['error'] ) {
 			# no error in prefix -> no error to show
 			return false;
@@ -344,7 +347,7 @@ class WikimediaIncubator {
 			# OK if it's not in one of the content namespaces
 			return false;
 		} elseif ( ( $ns == NS_CATEGORY || $ns == NS_CATEGORY_TALK ) &&
-			preg_match( '/^(' . implode( '|', $categories ) .'):.+$/', $title->getText() ) ) {
+			preg_match( '/^(' . implode( '|', $categories ) . '):.+$/', $title->getText() ) ) {
 			# whitelisted unprefixed categories
 			return false;
 		}
@@ -373,8 +376,8 @@ class WikimediaIncubator {
 				$prefixdata['project'], ( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
 				str_replace( ' ', '_', $prefixdata['realtitle'] ) );
 			# faking external link to support prot-rel URLs
-			$link = "[$link ". self::makeExternalLinkText( $link ) . "]";
-			$result[] = array( 'wminc-error-wiki-exists', $link );
+			$link = "[$link " . self::makeExternalLinkText( $link ) . "]";
+			$result[] = [ 'wminc-error-wiki-exists', $link ];
 			return $action != 'edit';
 		}
 
@@ -382,14 +385,14 @@ class WikimediaIncubator {
 			# only check if needed & if on page creation
 			return true;
 		} elseif ( $prefixdata['error'] == 'invalidlangcode' ) {
-			$error[] = array( 'wminc-error-wronglangcode', $prefixdata['lang'] );
+			$error[] = [ 'wminc-error-wronglangcode', $prefixdata['lang'] ];
 		} elseif ( self::isContentProject() ) {
 			# If the user has a test wiki pref, suggest a page title with prefix
 			$suggesttitle = isset( $prefixdata['realtitle'] ) ?
 				$prefixdata['realtitle'] : $titletext;
 			$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
 			# Suggest to create a prefixed page
-			$error[] = array( 'wminc-error-unprefixed-suggest', $suggest );
+			$error[] = [ 'wminc-error-unprefixed-suggest', $suggest ];
 		} else {
 			$error = 'wminc-error-unprefixed';
 		}
@@ -463,12 +466,12 @@ class WikimediaIncubator {
 			$projectCode = array_search( $project, $wmincMultilingualProjects );
 		}
 		$site = strtolower( $projectName );
-		$params = array(
+		$params = [
 			'lang' => $langHyphen,
 			'site' => $site,
 			# I don't see any other way than to hardcode it here (from: CommonSettings.php)
 			'stdlogo' => "//upload.wikimedia.org/$site/$langHyphen/b/bc/Wiki.png",
-		);
+		];
 		$dbSuffix = isset( $wmincProjectDatabases[$projectCode] ) ?
 			$wmincProjectDatabases[$projectCode] : $site;
 		return $wgConf->get( $setting, $langUnderscore . $dbSuffix, $dbSuffix, $params );
@@ -499,7 +502,7 @@ class WikimediaIncubator {
 			return false; # shouldn't be, but you never know
 		}
 		global $wmincProjectDatabases, $wgDummyLanguageCodes;
-		$dbLang = str_replace('-', '_', $prefix['lang'] );
+		$dbLang = str_replace( '-', '_', $prefix['lang'] );
 		$project = $prefix['project'];
 		$dbProject = isset( $wmincProjectDatabases[$project] ) ?
 			$wmincProjectDatabases[$project] : $project;
@@ -645,10 +648,10 @@ class WikimediaIncubator {
 				wfMessage( 'wminc-infopage-error' )->plain() . '</span>';
 		}
 		$infopage = new InfoPage( $title, $prefix );
-		$infopage->mOptions = array(
+		$infopage->mOptions = [
 			'status' => 'open',
 			# other (optional) options: mainpage
-		);
+		];
 
 		$parseOptions = func_get_args();
 		array_shift( $parseOptions ); # not $parser
@@ -667,7 +670,7 @@ class WikimediaIncubator {
 		$parser->getOptions()->getUserLangObj(); # we have to split the cache by language
 		$parser->getOutput()->setTitleText( $infopage->mFormatTitle ); # sets <h1> & <title>
 
-		if ( in_array( $infopage->mSubStatus, array( 'created', 'beforeincubator' ) ) ) {
+		if ( in_array( $infopage->mSubStatus, [ 'created', 'beforeincubator' ] ) ) {
 			$return = $infopage->showExistingWiki();
 		} elseif ( self::getMainPage( $prefix['lang'], $prefix['prefix'] )->exists() ) {
 			$return = $infopage->showIncubatingWiki();
@@ -676,7 +679,7 @@ class WikimediaIncubator {
 			$return = $infopage->showMissingWiki();
 		}
 
-		return array( $return, 'noparse' => true, 'nowiki' => true, 'isHTML' => true );
+		return [ $return, 'noparse' => true, 'nowiki' => true, 'isHTML' => true ];
 	}
 
 	/**
@@ -813,7 +816,7 @@ class WikimediaIncubator {
 		$logoMsg = wfMessage( 'Incubator-logo-' . $prefixForPageTitle )->inContentLanguage()->plain();
 		$file = wfFindFile( Title::newFromText( $logoMsg, NS_FILE ) );
 		if ( $file ) {
-			$thumb = $file->transform( array( 'width' => 135, 'height' => 135 ) );
+			$thumb = $file->transform( [ 'width' => 135, 'height' => 135 ] );
 			$wgLogo = $thumb->getUrl();
 		} else {
 			# if MediaWiki:Incubator-logo-wx-xx(x) doesn't exist,
@@ -868,7 +871,7 @@ class WikimediaIncubator {
 				str_replace( ' ', '_', $newTitleData['realtitle'] )
 			);
 			$params[0] = 'wminc-error-wiki-exists';
-			$params[1] = "[$link ". self::makeExternalLinkText( $link ) . "]";
+			$params[1] = "[$link " . self::makeExternalLinkText( $link ) . "]";
 			return true;
 		} elseif ( $newTitleData['error'] ) {
 			# only add a prefix to the title if there is no prefix
@@ -884,7 +887,7 @@ class WikimediaIncubator {
 			return true;
 		}
 		$params[] = wfEscapeWikiText( $t->getPrefixedText() );
-		$params[0] = $prefix && $prefix != 'none' ? 'wminc-search-nocreate-suggest' :'wminc-search-nocreate-nopref';
+		$params[0] = $prefix && $prefix != 'none' ? 'wminc-search-nocreate-suggest' : 'wminc-search-nocreate-nopref';
 		return true;
 	}
 
@@ -894,7 +897,7 @@ class WikimediaIncubator {
 	 */
 	public static function onSpecialSearchPowerBox( &$showSections, $term, $opts ) {
 		$showSections['testwiki'] = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
-			Xml::input( 'testwiki', 20, self::displayPrefix(), array( 'id' => 'testwiki' ) );
+			Xml::input( 'testwiki', 20, self::displayPrefix(), [ 'id' => 'testwiki' ] );
 		return true;
 	}
 
@@ -929,7 +932,7 @@ class WikimediaIncubator {
 	 * @return true
 	 */
 	public static function onUnitTestsList( array &$files ) {
-		$files[] = dirname( __FILE__ ) . '/IncubatorUnitTests.php';
+		$files[] = __DIR__ . '/IncubatorUnitTests.php';
 		return true;
 	}
 }

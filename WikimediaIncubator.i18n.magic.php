@@ -3,9 +3,9 @@
  * Internationalization file for magic words.
  */
 
-$magicWords = array();
+$magicWords = [];
 
-$magicWords['en'] = array(
-	'usertestwiki' => array( 0, 'USERTESTWIKI' ),
-	'infopage' => array( 0, 'infopage' ),
-);
+$magicWords['en'] = [
+	'usertestwiki' => [ 0, 'USERTESTWIKI' ],
+	'infopage' => [ 0, 'infopage' ],
+];
