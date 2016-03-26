@@ -23,8 +23,8 @@ class AutoTestWiki {
 		$codevalue = strtolower( $wgRequest->getVal( 'testwikicode', '' ) );
 		if ( WikimediaIncubator::validateLanguageCode( $codevalue ) && isset( $wmincProjects[$projectvalue] ) ) {
 			$template->set( 'header',
-				Html::hidden('testwiki-project', $projectvalue).
-				Html::hidden('testwiki-code', $codevalue)
+				Html::hidden( 'testwiki-project', $projectvalue ) .
+				Html::hidden( 'testwiki-code', $codevalue )
 			);
 		}
 		return true;

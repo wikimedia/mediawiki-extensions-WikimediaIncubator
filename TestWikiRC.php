@@ -15,7 +15,7 @@ class TestWikiRC {
 		$codevalue = $url ? $url['lang'] : $wgUser->getOption( $wmincPref . '-code' );
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $projectvalue ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $codevalue ) );
-		return array( $projectvalue, $codevalue );
+		return [ $projectvalue, $codevalue ];
 	}
 
 	static function onRcQuery( &$conds, &$tables, &$join_conds, $opts ) {
@@ -47,7 +47,7 @@ class TestWikiRC {
 
 	static function onRcForm( &$items, $opts ) {
 		global $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
-		
+
 		list( $projectvalue, $codevalue ) = self::getValues();
 		$opts->consumeValue( 'rc-testwiki-project' );
 		$opts->consumeValue( 'rc-testwiki-code' );
@@ -59,8 +59,8 @@ class TestWikiRC {
 		}
 		$select->addOption( $wmincProjectSite['name'], $wmincProjectSite['short'] );
 		$langcode = Xml::input( 'rc-testwiki-code', (int)$wmincLangCodeLength, $codevalue,
-			array( 'id' => 'rc-testwiki-code', 'maxlength' => (int)$wmincLangCodeLength ) );
-		$items['testwiki'] = array( $label, $select->getHTML() . ' ' . $langcode );
+			[ 'id' => 'rc-testwiki-code', 'maxlength' => (int)$wmincLangCodeLength ] );
+		$items['testwiki'] = [ $label, $select->getHTML() . ' ' . $langcode ];
 		return true;
 	}
 }

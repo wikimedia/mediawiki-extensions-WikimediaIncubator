@@ -32,7 +32,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		$uselang = $this->getRequest()->getVal( 'uselang' );
 		$this->getOutput()->addHTML(
 			Xml::fieldset( $this->msg( 'wminc-searchwiki' )->plain(),
-			Html::rawElement( 'form', array( 'method' => 'get', 'action' => $wgScript, 'id' => 'wminc-searchwiki-form' ),
+			Html::rawElement( 'form', [ 'method' => 'get', 'action' => $wgScript, 'id' => 'wminc-searchwiki-form' ],
 				Html::hidden( 'title', SpecialPage::getTitleFor( 'SearchWiki' ) ) .
 				( $uselang ? Html::hidden( 'uselang', $uselang ) : '' ) .
 				'<p>' . Xml::label( $this->msg( 'wminc-searchwiki-selectproject' )->text(), 'wminc-searchproject' ) .
@@ -78,8 +78,8 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		} else {
 			return $this->getOutput()->addWikiMsg( 'wminc-searchwiki-noproject' );
 		}
-		
-		$results = array();
+
+		$results = [];
 
 		$lcLanguageQuery = strtolower( $languageQuery );
 		# The more important, the more below, because they override earlier codes
@@ -96,13 +96,13 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 			$results[$codeUserLang] = 'userlangname'; # Match name in user language
 		}
 		if ( $codeByNativeName = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mNativeNames ) ) ) {
-			$results[$codeByNativeName] = 'nativename'; # Match native name 
+			$results[$codeByNativeName] = 'nativename'; # Match native name
 		}
 
 		if ( count( $results ) === 1 ) {
 			$this->gotoWiki( $matchProject, key( $results ) );
 		} elseif ( count( $results ) < 1 ) {
-			$noresult = Html::element( 'p', array( 'class' => 'error' ),
+			$noresult = Html::element( 'p', [ 'class' => 'error' ],
 				$this->msg( 'wminc-searchwiki-noresults' )->text() );
 			return $this->getOutput()->addHTML( $noresult );
 		} elseif ( count( $results ) > 1 ) {
@@ -117,7 +117,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 */
 	protected function strip( $str ) {
 		$str = strtolower( trim( $str ) );
-		$replace = array( ' ' => '', '-' => '' );
+		$replace = [ ' ' => '', '-' => '' ];
 		return str_replace( array_keys( $replace ), array_values( $replace ), $str );
 	}
 
@@ -128,12 +128,12 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 */
 	protected function goToWiki( $project, $lang ) {
 		$lang = $this->getRootCode( $lang );
-		$dbarray = array( 'project' => $project, 'lang' => $lang, 'error' => null );
+		$dbarray = [ 'project' => $project, 'lang' => $lang, 'error' => null ];
 		$status = WikimediaIncubator::getDBState( $dbarray );
-		$infopageParams = array(
+		$infopageParams = [
 			'goto' => 'mainpage',
 			'uselang' => $this->getRequest()->getVal( 'uselang' )
-		);
+		];
 		$url = $status == 'existing' ? WikimediaIncubator::getSubdomain( $lang, $project ) :
 			Title::newFromText( 'W' . $project . '/' . $lang )->getFullURL( $infopageParams );
 		$this->getOutput()->redirect( $url );
@@ -145,7 +145,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 */
 	protected function getRootCode( $code ) {
 		# e.g. ks-arab -> ks
-		$stripLangTags = array( '-arab', '-latn', '-cyrl', '-deva', '-cans', '-grek' );
+		$stripLangTags = [ '-arab', '-latn', '-cyrl', '-deva', '-cans', '-grek' ];
 		return str_replace( $stripLangTags, '', $code );
 	}
 
@@ -156,7 +156,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 */
 	protected function showMultipleResults( $project, $languageQuery, $results ) {
 		$this->getOutput()->addHTML( '<div id="wminc-searchwiki-results">' .
-			Xml::element( 'p', array(),
+			Xml::element( 'p', [],
 				$this->msg( 'wminc-searchwiki-multiplematches' )->text() ) .
 			'<ul>'
 		);
@@ -174,7 +174,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 			# wminc-infopage-title-v, wminc-infopage-title-y
 			$linkMainPage = Linker::linkKnown( $infopage,
 				$this->msg( 'wminc-infopage-title-' . $project, $langName )->text(),
-				array(), array( 'goto' => 'mainpage' )
+				[], [ 'goto' => 'mainpage' ]
 			);
 			# Give grep a chance to find the usages:
 			# wminc-searchwiki-match-langcode, wminc-searchwiki-match-englishname,

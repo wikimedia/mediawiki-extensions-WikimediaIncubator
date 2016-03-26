@@ -9,14 +9,14 @@ class IncubatorUnitTests extends MediaWikiTestCase {
 	}
 
 	function testShouldWeShowUnprefixedError() {
-		$testPages = array(
+		$testPages = [
 			'Bl/urb' => true,
 			'Talk:Bl/urb' => true,
 			'Template:Bl/urb' => true,
 			'Wt/da/Test' => false,
 			'File:Blurb.png' => false,
-		);
-		foreach( $testPages as $testPage => $outcome ) {
+		];
+		foreach ( $testPages as $testPage => $outcome ) {
 			$title = Title::newFromText( $testPage );
 			$function = $outcome ? 'assertTrue' : 'assertFalse';
 			$this->$function(

@@ -1,5 +1,7 @@
 <?php
-if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" ); }
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
+}
 /**
  * An extension that adds features (such as a preference, recent changes, ...)
  * for a test wiki system (i.e. incubated wikis inside one actual wiki)
@@ -13,54 +15,54 @@ if ( !defined( 'MEDIAWIKI' ) ) { die( "This file is an extension to the MediaWik
  * @author Robin Pepermans (SPQRobin)
  */
 
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'Wikimedia Incubator',
-	'author' => array( 'SPQRobin', 'Hydriz' ),
+	'author' => [ 'SPQRobin', 'Hydriz' ],
 	'version' => '5.3.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WikimediaIncubator',
 	'descriptionmsg' => 'wminc-desc',
-);
+];
 
 /* General (globals and/or configuration) */
 $wmincPref = 'incubatortestwiki'; // Name of the preference
 
 # only one-letter codes can be used for projects
-$wmincProjects = array(
+$wmincProjects = [
 	'p' => 'Wikipedia',
 	'b' => 'Wikibooks',
 	't' => 'Wiktionary',
 	'q' => 'Wikiquote',
 	'n' => 'Wikinews',
 	'y' => 'Wikivoyage',
-);
+];
 # Sister projects is here defined as projects that are not on Incubator
-$wmincSisterProjects = array(
+$wmincSisterProjects = [
 	's' => 'Wikisource',
 	'v' => 'Wikiversity',
-);
-$wmincMultilingualProjects = array(
+];
+$wmincMultilingualProjects = [
 	'meta' => 'Meta-Wiki',
 	'commons' => 'Wikimedia Commons',
 	'species' => 'Wikispecies',
 	'mediawiki' => 'MediaWiki',
 	'wikidata' => 'Wikidata',
-);
-$wmincProjectSite = array(
+];
+$wmincProjectSite = [
 	'name' => 'Incubator',
 	'short' => 'inc',
-);
-$wmincTestWikiNamespaces = array(
+];
+$wmincTestWikiNamespaces = [
 	NS_MAIN, NS_TALK,
 	NS_TEMPLATE, NS_TEMPLATE_TALK,
 	NS_CATEGORY, NS_CATEGORY_TALK,
-	828, 829, //NS_MODULE, NS_MODULE_TALK,
-);
+	828, 829, // NS_MODULE, NS_MODULE_TALK,
+];
 $wmincLangCodeLength = 12; // can be changed if needed (depends on policy)
 // Pseudo category namespaces like "Category:Maintenance:Delete", for easy whitelisting and structure
-$wmincPseudoCategoryNSes = array(
+$wmincPseudoCategoryNSes = [
 	'Incubator', 'Help', 'Users', 'Maintenance', 'Files',
-);
+];
 
 /* Test wiki admin user group */
 $wgGroupPermissions['test-sysop']['delete'] = true;
@@ -119,7 +121,7 @@ $wgSpecialPages['RandomByTest'] = 'SpecialRandomByTest';
 /* support for automatic checking in a list of databases if a wiki exists */
 $wmincExistingWikis = $wgLocalDatabases;
 /* Stupid "wiki" referring to "wikipedia" in WMF config */
-$wmincProjectDatabases = array(
+$wmincProjectDatabases = [
 	'p' => 'wiki',
 	'b' => 'wikibooks',
 	't' => 'wiktionary',
@@ -128,7 +130,7 @@ $wmincProjectDatabases = array(
 	's' => 'wikisource',
 	'v' => 'wikiversity',
 	'y' => 'wikivoyage',
-);
+];
 # set this to an array or file of closed wikis (like SiteMatrix $wgSiteMatrixClosedSites)
 $wmincClosedWikis = false;
 
@@ -140,12 +142,12 @@ $wgHooks['MediaWikiPerformAction'][] = 'WikimediaIncubator::onMediaWikiPerformAc
 $wgHooks['TitleIsAlwaysKnown'][] = 'WikimediaIncubator::onTitleIsAlwaysKnown';
 $wgHooks['ParserFirstCallInit'][] = 'WikimediaIncubator::onParserFirstCallInit';
 
-$wgResourceModules['WikimediaIncubator.InfoPage'] = array(
+$wgResourceModules['WikimediaIncubator.InfoPage'] = [
 	'position' => 'top',
 	'styles' => 'InfoPage.css',
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'WikimediaIncubator',
-);
+];
 
 /* Possibility to set a logo per test wiki */
 $wgHooks['BeforePageDisplay'][] = 'WikimediaIncubator::fnTestWikiLogo';

@@ -6,13 +6,13 @@
  * @ingroup Extensions
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'IncubatorFirstSteps' => array( 'IncubatorFirstSteps' ),
-	'ViewUserLang' => array( 'ViewUserLang' ),
-	'MyMainPage' => array( 'MyMainPage' ),
-	'RandomByTest' => array( 'RandomByTest' ),
-	'SearchWiki' => array( 'SearchWiki' ),
-);
+$specialPageAliases['en'] = [
+	'IncubatorFirstSteps' => [ 'IncubatorFirstSteps' ],
+	'ViewUserLang' => [ 'ViewUserLang' ],
+	'MyMainPage' => [ 'MyMainPage' ],
+	'RandomByTest' => [ 'RandomByTest' ],
+	'SearchWiki' => [ 'SearchWiki' ],
+];

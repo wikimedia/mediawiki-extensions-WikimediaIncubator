@@ -32,7 +32,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$this->getOutput()->addWikiMsg( 'wminc-fs-intro' );
 		$step = false;
 
-		$this->addLanguageSelector( );
+		$this->addLanguageSelector();
 
 		$step = $this->showSignup( $step );
 		$step = $this->showTestwikiSetting( $step );
@@ -49,7 +49,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	 * @param $done bool
 	 */
 	protected function showHeader( $msg, $opaque = true, $done = false ) {
-		$attrs = array();
+		$attrs = [];
 		if ( $opaque ) {
 			$attrs['class'] = 'mw-special-incubatorfirststeps-header';
 		}
@@ -93,17 +93,17 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 		ksort( $getLangCodes ); // sorting by language code is not ideal, but well
 
-		$showLanguages = array();
+		$showLanguages = [];
 		foreach ( $getLangCodes as $code => $nothing ) {
 			$code = trim( $code );
 			if ( !isset( $names[$code] ) || $code === $currentLangCode ) {
 				# language code not recognised, or is current interface language
 				continue;
 			}
-			$linkParams = array( 'uselang' => $code,
-				'testwiki' => $this->getRequest()->getVal( 'testwiki' ) );
+			$linkParams = [ 'uselang' => $code,
+				'testwiki' => $this->getRequest()->getVal( 'testwiki' ) ];
 			$showLanguages[] = Linker::linkKnown( $this->getPageTitle(),
-				$names[$code], array(), $linkParams );
+				$names[$code], [], $linkParams );
 		}
 
 		# Show list
@@ -130,8 +130,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 		# Login / create account links
 		$link = SpecialPage::getTitleFor( 'Userlogin' );
-		$query = array( 'returnto' => $this->getPageTitle(),
-			'uselang' => $this->getRequest()->getVal( 'uselang' ) );
+		$query = [ 'returnto' => $this->getPageTitle(),
+			'uselang' => $this->getRequest()->getVal( 'uselang' ) ];
 		$urlTestWiki = WikimediaIncubator::getUrlParam();
 		if ( $urlTestWiki ) {
 			// set preferences automatically, based on the "testwiki" URL param
@@ -139,7 +139,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 			$query['testwikicode'] = $urlTestWiki['lang'];
 		}
 		$login = $link->getFullUrl( $query );
-		$signup = $link->getFullUrl( $query + array( 'type' => 'signup' ) );
+		$signup = $link->getFullUrl( $query + [ 'type' => 'signup' ] );
 
 		$this->getOutput()->addWikiMsg( 'wminc-fs-signup-text', $login, $signup );
 
