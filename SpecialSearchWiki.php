@@ -28,20 +28,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		$projectQuery = $this->getRequest()->getText( 'searchproject', isset( $subpage[0] ) ? $subpage[0] : '' );
 		$languageQuery = $this->getRequest()->getText( 'searchlanguage', isset( $subpage[1] ) ? $subpage[1] : '' );
 
-		# Show form
-		$uselang = $this->getRequest()->getVal( 'uselang' );
-		$this->getOutput()->addHTML(
-			Xml::fieldset( $this->msg( 'wminc-searchwiki' )->plain(),
-			Html::rawElement( 'form', [ 'method' => 'get', 'action' => $wgScript, 'id' => 'wminc-searchwiki-form' ],
-				Html::hidden( 'title', SpecialPage::getTitleFor( 'SearchWiki' ) ) .
-				( $uselang ? Html::hidden( 'uselang', $uselang ) : '' ) .
-				'<p>' . Xml::label( $this->msg( 'wminc-searchwiki-selectproject' )->text(), 'wminc-searchproject' ) .
-					' ' . $this->makeProjectSelector( $projectQuery ) . '</p>' .
-				'<p>' . Xml::inputLabel( $this->msg( 'wminc-searchwiki-inputlanguage' )->text(), 'searchlanguage',
-				'wminc-searchlanguage', 30, $languageQuery ) . ' ' .
-				Xml::submitButton( $this->msg( 'wminc-searchwiki-go' )->text() ) . '</p>'
-			) )
-		);
+		$this->showForm( $projectQuery, $languageQuery );
 
 		# Search
 		if ( $projectQuery || $languageQuery ) {
@@ -53,14 +40,40 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	}
 
 	/**
-	 * Make a <select> box with projects (Wikipedia, Wiktionary, ...)
-	 * @param $selected
-	 * @return string
+	 * Output the search form.
+	 * @param string $project Default value for project field
+	 * @param string $language Default value for language field
 	 */
-	protected function makeProjectSelector( $selected ) {
-		$select = new XmlSelect( 'searchproject', 'wminc-searchproject', $selected );
-		$select->addOptions( array_flip( $this->mProjects ) );
-		return $select->getHTML();
+	protected function showForm( $project, $language ) {
+		$form = HTMLForm::factory(
+			'table',
+			[
+				'Project' => [
+					'type' => 'select',
+					'name' => 'searchproject',
+					'id' => 'wminc-searchproject',
+					'options' => array_flip( $this->mProjects ),
+					'label-message' => 'wminc-searchwiki-selectproject',
+					'default' => $project,
+				],
+				'Language' => [
+					'type' => 'textwithbutton',
+					'name' => 'searchlanguage',
+					'id' => 'wminc-searchlanguage',
+					'size' => 30,
+					'label-message' => 'wminc-searchwiki-inputlanguage',
+					'buttondefault' => $this->msg( 'wminc-searchwiki-go' )->text(),
+					'default' => $language,
+				],
+			],
+			$this->getContext()
+		);
+		$form->setMethod( 'get' )
+			->setWrapperLegendMsg( 'wminc-searchwiki' )
+			->suppressDefaultSubmit()
+			->setId( 'wminc-searchwiki-form' )
+			->prepareForm()
+			->displayForm( false );
 	}
 
 	/**
