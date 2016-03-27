@@ -45,20 +45,22 @@ class SpecialViewUserLang extends SpecialPage {
 	 * @param $target Mixed: user whose language and test wiki we're about to look up
 	 */
 	function showForm( $target ) {
-		global $wgScript;
-
-		$this->getOutput()->addHTML(
-			Xml::fieldset( $this->msg( 'wminc-viewuserlang' )->plain() ) .
-			Xml::openElement( 'form', [ 'method' => 'get', 'action' => $wgScript ] ) .
-			Html::hidden( 'title', $this->getPageTitle()->getPrefixedText() ) .
-			"<p>" .
-				Xml::inputLabel( $this->msg( 'wminc-viewuserlang-user' )->text(), 'target', 'viewuserlang-username', 40, $target ) .
-				' ' .
-				Xml::submitButton( $this->msg( 'wminc-viewuserlang-go' )->text() ) .
-			"</p>" .
-			Xml::closeElement( 'form' ) .
-			Xml::closeElement( 'fieldset' )
+		$form = HTMLForm::factory( 'table',
+			[ 'Target' => [
+				'type' => 'user',
+				'name' => 'target',
+				'id' => 'viewuserlang-username',
+				'size' => 40,
+				'label-message' => 'wminc-viewuserlang-user',
+				'default' => $target,
+			] ],
+			$this->getContext()
 		);
+		$form->setMethod( 'get' )
+			->setWrapperLegendMsg( 'wminc-viewuserlang' )
+			->setSubmitTextMsg( 'wminc-viewuserlang-go' )
+			->prepareForm()
+			->displayForm( false );
 	}
 
 	/**
