@@ -46,7 +46,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 */
 	protected function showForm( $project, $language ) {
 		$form = HTMLForm::factory(
-			'table',
+			'ooui',
 			[
 				'Project' => [
 					'type' => 'select',
@@ -57,12 +57,12 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 					'default' => $project,
 				],
 				'Language' => [
-					'type' => 'textwithbutton',
+					'type' => 'combobox',
+					'options' => $this->getLanguageOptions(),
 					'name' => 'searchlanguage',
 					'id' => 'wminc-searchlanguage',
 					'size' => 30,
 					'label-message' => 'wminc-searchwiki-inputlanguage',
-					'buttondefault' => $this->msg( 'wminc-searchwiki-go' )->text(),
 					'default' => $language,
 				],
 			],
@@ -70,10 +70,27 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		);
 		$form->setMethod( 'get' )
 			->setWrapperLegendMsg( 'wminc-searchwiki' )
-			->suppressDefaultSubmit()
+			->setSubmitTextMsg( 'wminc-searchwiki-go' )
 			->setId( 'wminc-searchwiki-form' )
 			->prepareForm()
 			->displayForm( false );
+	}
+
+	/**
+	 * Get a list of supported languages for use by the language form field.
+	 * Code stolen from SpecialPageLanguage
+	 *
+	 * @return array
+	 */
+	private function getLanguageOptions() {
+		$userLang = $this->getLanguage()->getCode();
+		$languages = Language::fetchLanguageNames( $userLang, 'mwfile' );
+		ksort( $languages );
+		$options = [];
+		foreach ( $languages as $code => $name ) {
+			$options["$code - $name"] = $name;
+		}
+		return $options;
 	}
 
 	/**

@@ -45,7 +45,7 @@ class SpecialViewUserLang extends SpecialPage {
 	 * @param $target Mixed: user whose language and test wiki we're about to look up
 	 */
 	function showForm( $target ) {
-		$form = HTMLForm::factory( 'table',
+		$form = HTMLForm::factory( 'ooui',
 			[ 'Target' => [
 				'type' => 'user',
 				'name' => 'target',
