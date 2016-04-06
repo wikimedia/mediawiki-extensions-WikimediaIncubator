@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар"
+			"Умар",
+			"Adam-Yourist"
 		]
 	},
-	"wminc-recentchanges-all": "Деррига керда хувцамаш"
+	"wminc-recentchanges-all": "Деррига керда хувцамаш",
+	"wminc-searchwiki-selectproject": "Лахар укхаза:"
 }
