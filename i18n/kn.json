@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Nayvik",
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"రహ్మానుద్దీన్"
 		]
 	},
 	"wminc-manual": "ಕೈಪಿಡಿ",
 	"wminc-listwikis": "ವಿಕಿಗಳ ಪಟ್ಟಿ",
 	"wminc-recentchanges-all": "ಎಲ್ಲಾ ಇತ್ತೀಚಿಗಿನ ಬದಲಾವಣೆಗಳು",
-	"wminc-viewuserlang-user": "ಬಳಕೆದಾರ ಹೆಸರು:",
+	"wminc-viewuserlang-user": "ಬಳಕೆದಾರರ ಹೆಸರು:",
 	"wminc-viewuserlang-go": "ಹೋಗು",
 	"wminc-searchwiki-selectproject": "ಹುಡುಕಿ",
 	"wminc-searchwiki-go": "ಹೋಗು",
