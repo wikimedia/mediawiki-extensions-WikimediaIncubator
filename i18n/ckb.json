@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Marmzok",
-			"Calak"
+			"Calak",
+			"Sarchia"
 		]
 	},
 	"wminc-testwiki": "تاقی‌کردنه‌وه‌ی ویکی:",
@@ -11,5 +12,6 @@
 	"wminc-prefinfo-code": "کۆدی ISO 639ی زمانەکەی لێرە لەسەری کار دەکەی",
 	"wminc-prefinfo-error": "پڕۆژەیەکت هەڵبژاردووه کە پێویستی بە کۆدی زمانە.",
 	"wminc-viewuserlang-user": "ناوی بەکارهێنەری:",
-	"wminc-viewuserlang-go": "بڕۆ"
+	"wminc-viewuserlang-go": "بڕۆ",
+	"wminc-searchwiki-go": "بڕۆ"
 }
