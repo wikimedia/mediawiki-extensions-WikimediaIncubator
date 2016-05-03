@@ -106,7 +106,7 @@ $wgHooks['AbortMove'][] = 'WikimediaIncubator::checkPrefixMovePermissions';
 
 /* Recent Changes */
 $wgAutoloadClasses['TestWikiRC'] = __DIR__ . '/TestWikiRC.php';
-$wgHooks['SpecialRecentChangesQuery'][] = 'TestWikiRC::onRcQuery';
+$wgHooks['ChangesListSpecialPageQuery'][] = 'TestWikiRC::onRcQuery';
 $wgHooks['SpecialRecentChangesPanel'][] = 'TestWikiRC::onRcForm';
 
 /* Automatic pref on account creation */

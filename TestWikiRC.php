@@ -18,18 +18,35 @@ class TestWikiRC {
 		return [ $projectvalue, $codevalue ];
 	}
 
-	static function onRcQuery( &$conds, &$tables, &$join_conds, $opts ) {
+	/**
+	 * ChangesListSpecialPageQuery hook
+	 *
+	 * @param string $pageName
+	 * @param array $tables
+	 * @param array $fields
+	 * @param array $conds
+	 * @param array $query_options
+	 * @param array $join_conds
+	 * @param FormOptions $opts
+	 * @return bool true
+	 */
+	static function onRcQuery( $pageName, &$tables, &$fields, &$conds, &$query_options,
+		&$join_conds, FormOptions $opts
+	) {
 		global $wmincProjectSite, $wmincTestWikiNamespaces;
+
+		if ( $pageName !== 'Recentchanges' ) {
+			return true;
+		}
+
 		list( $projectvalue, $codevalue ) = self::getValues();
 		$prefix = WikimediaIncubator::displayPrefix( $projectvalue, $codevalue );
 		$opts->add( 'rc-testwiki-project', false );
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
 		$opts->add( 'rc-testwiki-code', false );
 		$opts->setValue( 'rc-testwiki-code', $codevalue );
-		if ( $projectvalue == 'none' || $projectvalue == '' ) {
-			// If "none" is selected, display normal recent changes
-			return true;
-		} elseif ( $projectvalue == $wmincProjectSite['short'] ) {
+
+		if ( $projectvalue == $wmincProjectSite['short'] ) {
 			// If project site is selected, display all changes except test wiki changes
 			$dbr = wfGetDB( DB_SLAVE );
 			$conds[] = 'rc_title NOT ' . $dbr->buildLike( 'W', $dbr->anyChar(), '/', $dbr->anyString() );
@@ -39,9 +56,9 @@ class TestWikiRC {
 			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
 			$conds[] = 'rc_title ' . $dbr->buildLike( $prefix . '/', $dbr->anyString() ) .
 			' OR rc_title = ' . $dbr->addQuotes( $prefix );
-		} else {
-			return true;
 		}
+		// If "none" is selected, display normal recent changes
+
 		return true;
 	}
 
