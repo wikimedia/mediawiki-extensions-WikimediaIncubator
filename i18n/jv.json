@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pras"
+			"Pras",
+			"NoiX180"
 		]
 	},
 	"wminc-desc": "Sistem pangujian wiki kanggo Inkubator Wikimedia",
@@ -14,5 +15,7 @@
 	"wminc-viewuserlang": "Golèki basa panganggo lan wiki pangujian",
 	"wminc-viewuserlang-user": "Jeneng panganggo:",
 	"wminc-viewuserlang-go": "Tumuju menyang",
-	"right-viewuserlang": "Pirsani basa panganggo lan wiki pacoban"
+	"right-viewuserlang": "Pirsani basa panganggo lan wiki pacoban",
+	"wminc-infopage-enter": "nyang Kaca Pokok",
+	"wminc-infopage-createmainpage": "Lebokaké tembung \"Kaca Utama\" ing basa iki:"
 }
