@@ -16,9 +16,22 @@ class WikimediaIncubator {
 	 */
 	public static function onRegistration() {
 		global $wmincExistingWikis, $wgLocalDatabases;
+		global $wgHooks, $wgDisableAuthManager, $wgAuthManagerAutoConfig;
 
 		if ( $wmincExistingWikis === null ) {
 			$wmincExistingWikis = $wgLocalDatabases;
+		}
+
+		if ( class_exists( MediaWiki\Auth\AuthManager::class ) && empty( $wgDisableAuthManager ) ) {
+			$wgAuthManagerAutoConfig['secondaryauth'] += [
+				WikimediaIncubatorSecondaryAuthenticationProvider::class => [
+					'class' => WikimediaIncubatorSecondaryAuthenticationProvider::class,
+					'sort' => 0, // non-UI secondaries should run early
+				]
+			];
+		} else {
+			$wgHooks['UserCreateForm'][] = 'AutoTestWiki::onUserCreateForm';
+			$wgHooks['AddNewAccount'][] = 'AutoTestWiki::onAddNewAccount';
 		}
 	}
 

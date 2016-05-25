@@ -122,7 +122,9 @@
 		"InfoPage": "InfoPage.php",
 		"ListUsersTestWiki": "ListUsersTestWiki.php",
 		"SpecialSearchWiki": "SpecialSearchWiki.php",
-		"SpecialIncubatorFirstSteps": "SpecialIncubatorFirstSteps.php"
+		"SpecialIncubatorFirstSteps": "SpecialIncubatorFirstSteps.php",
+		"WikimediaIncubatorAuthenticationRequest": "WikimediaIncubatorAuthenticationRequest.php",
+		"WikimediaIncubatorSecondaryAuthenticationProvider": "WikimediaIncubatorSecondaryAuthenticationProvider.php"
 	},
 	"ResourceModules": {
 		"WikimediaIncubator.InfoPage": {
@@ -146,8 +148,6 @@
 		"AbortMove": "WikimediaIncubator::checkPrefixMovePermissions",
 		"ChangesListSpecialPageQuery": "TestWikiRC::onRcQuery",
 		"SpecialRecentChangesPanel": "TestWikiRC::onRcForm",
-		"UserCreateForm": "AutoTestWiki::onUserCreateForm",
-		"AddNewAccount": "AutoTestWiki::onAddNewAccount",
 		"ShowMissingArticle": "WikimediaIncubator::onShowMissingArticle",
 		"EditFormPreloadText": "WikimediaIncubator::onEditFormPreloadText",
 		"MediaWikiPerformAction": "WikimediaIncubator::onMediaWikiPerformAction",
