@@ -12,6 +12,17 @@
 class WikimediaIncubator {
 
 	/**
+	 * Callback for extension registration
+	 */
+	public static function onRegistration() {
+		global $wmincExistingWikis, $wgLocalDatabases;
+
+		if ( $wmincExistingWikis === null ) {
+			$wmincExistingWikis = $wgLocalDatabases;
+		}
+	}
+
+	/**
 	 * Add default preference
 	 * @param $defOpt Array
 	 * @return true
