@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bellayet"
+			"Bellayet",
+			"Bodhisattwa"
 		]
 	},
 	"wminc-desc": "উইকিমিডিয়া ইনকিউবেটরের জন্য পরীক্ষামূলক উইকি ব্যবস্থা",
+	"wminc-listwikis": "উইকিসমূহের তালিকা",
 	"wminc-testwiki": "পরীক্ষামূলক উইকি:",
 	"wminc-testwiki-none": "কিছু না/সমস্ত",
+	"wminc-recentchanges-all": "সকল সাম্প্রতিক পরিবর্তনসমূহ",
 	"wminc-prefinfo-language": "আপনার ইন্টারফেস ভাষা - আপনার পরীক্ষামূলক উইকি হতে স্বাধীন",
 	"wminc-prefinfo-code": "ISO 639 ভাষা কোড",
 	"wminc-prefinfo-error": "আপনার নির্বাচিত প্রকল্পের ভাষার কোড প্রয়োজন।",
@@ -14,5 +17,22 @@
 	"wminc-viewuserlang": "ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখুন",
 	"wminc-viewuserlang-user": "ব্যবহারকারী নাম:",
 	"wminc-viewuserlang-go": "যাও",
-	"right-viewuserlang": "ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখাও"
+	"wminc-ip": "$1 একটি আইপি ঠিকানা।",
+	"right-viewuserlang": "ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখাও",
+	"wminc-searchwiki-noproject": "আপনি কোন প্রকল্প বাছেননি।",
+	"wminc-searchwiki-inputlanguage": "ভাষায়:",
+	"wminc-searchwiki-go": "যান",
+	"wminc-fs-langselect-title": "ভাষা নির্বাচন করুন",
+	"wminc-fs-signup-title": "নিবন্ধন",
+	"wminc-fs-userpage-title": "আপনার ব্যবহারকারী পাতা তৈরি করুন",
+	"wminc-fs-startwiki-title": "আপনার উইকি শুরু করুন",
+	"wminc-fs-pagetitle-done": " - সম্পন্ন!",
+	"wminc-infopage-title-p": "উইকিপিডিয়া $1",
+	"wminc-infopage-title-b": "উইকিবই $1",
+	"wminc-infopage-title-t": "উইকিঅভিধান $1",
+	"wminc-infopage-title-q": "উইকিউক্তি $1",
+	"wminc-infopage-title-n": "উইকিসংবাদ $1",
+	"wminc-infopage-title-s": "উইকিসংকলন $1",
+	"wminc-infopage-title-v": "উইকিবিশ্ববিদ্যালয় $1",
+	"wminc-infopage-title-y": "উইকিভ্রমণ $1"
 }
