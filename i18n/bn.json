@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bellayet",
-			"Bodhisattwa"
+			"Bodhisattwa",
+			"Aftabuzzaman"
 		]
 	},
 	"wminc-desc": "উইকিমিডিয়া ইনকিউবেটরের জন্য পরীক্ষামূলক উইকি ব্যবস্থা",
@@ -17,7 +18,7 @@
 	"wminc-viewuserlang": "ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখুন",
 	"wminc-viewuserlang-user": "ব্যবহারকারী নাম:",
 	"wminc-viewuserlang-go": "যাও",
-	"wminc-ip": "$1 একটি আইপি ঠিকানা।",
+	"wminc-ip": "\"$1\" একটি আইপি ঠিকানা।",
 	"right-viewuserlang": "ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখাও",
 	"wminc-searchwiki-noproject": "আপনি কোন প্রকল্প বাছেননি।",
 	"wminc-searchwiki-inputlanguage": "ভাষায়:",
