@@ -92,7 +92,7 @@
 	"wminc-infopage-createmainpage": "Nhập từ “Trang Chính” trong ngôn ngữ này:",
 	"wminc-infopage-contribute": "Nếu bạn biết ngôn ngữ này, rất hoan nghênh bạn đóng góp cho nó!",
 	"wminc-infopage-status-open": "Đây là một wiki đang mở cửa trực thuộc Vườn ươm Wikimedia.",
-	"wminc-infopage-status-imported": "Wiki Vườn ươm này đã được nhập từ $1 sau khi wiki đó bị đóng cửa.",
+	"wminc-infopage-status-imported": "Wiki Vườn ươm này được nhập từ $1 sau khi nó bị đóng cửa.",
 	"wminc-infopage-status-closedsister": "Tên miền phụ này đã bị đóng cửa. Hãy ghé vào <strong>$2</strong> để đóng góp vào wiki này.",
 	"wminc-infopage-status-approved": "Wiki Vườn ươm này đã được [[meta:Special:MyLanguage/Language_committee|ủy ban ngôn ngữ]] chấp nhận và sẽ được tạo ra không lâu.",
 	"wminc-infopage-status-created": "Dự án đã được ủy ban ngôn ngữ chấp thuận và hiện có sẵn tại $1.",
