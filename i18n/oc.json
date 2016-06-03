@@ -13,9 +13,9 @@
 	"wminc-testwiki-site": "(Mantenença)",
 	"wminc-recentchanges-all": "Totes los darrièrs cambiaments",
 	"wminc-prefinfo-language": "Vòstra lenga de l'interfàcia - independenta de vòstre wiki de tèst",
-	"wminc-prefinfo-code": "Lo còde ISO 639 de la lenga sus la quala trabalhatz aicí",
+	"wminc-prefinfo-code": "Lo còdi ISO 639 de la lenga sus la quala trabalhatz aicí",
 	"wminc-prefinfo-project": "Seleccionatz lo projècte Wikimedia sul qual trabalhatz aicí",
-	"wminc-prefinfo-error": "Avètz seleccionat un projècte que necessita un còde de lenga.",
+	"wminc-prefinfo-error": "Avètz seleccionat un projècte que necessita un còdi de lenga.",
 	"randombytest": "Pagina aleatòria pel wiki de tèst",
 	"randombytest-nopages": "Vòstre wiki de tèst conten pas de pagina dins l'espaci de noms : $1.",
 	"wminc-viewuserlang": "Veire la lenga de l'utilizaire e son wiki de tèst",
@@ -32,7 +32,7 @@
 	"wminc-searchwiki-selectproject": "Recercar :",
 	"wminc-searchwiki-inputlanguage": "Dins aquesta lenga :",
 	"wminc-searchwiki-go": "Anar",
-	"wminc-searchwiki-match-langcode": "« $1 » es un còde de lenga ISO 639 per « $2 ».",
+	"wminc-searchwiki-match-langcode": "« $1 » es un còdi de lenga ISO 639 per « $2 ».",
 	"wminc-searchwiki-match-userlangname": "$1 es lo nom d’una lenga.",
 	"wminc-searchwiki-gotoinfopage": "pagina d’informacion",
 	"wminc-fs-pagetitle": "Guida d'aviada - $1",
@@ -41,6 +41,6 @@
 	"wminc-fs-settings-title": "Definir vòstras preferéncias del wiki",
 	"wminc-fs-userpage-title": "Crear vòstra pagina d'utilizaire",
 	"wminc-fs-startwiki-title": "Aviar vòstre wiki",
-	"wminc-fs-pagetitle-done": " - fach !",
+	"wminc-fs-pagetitle-done": " - fait !",
 	"wminc-fs-langselect": "Procedissètz en $1 o en $2"
 }
