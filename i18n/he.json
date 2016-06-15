@@ -34,7 +34,7 @@
 	"wminc-viewuserlang-go": "הצגה",
 	"wminc-userdoesnotexist": "המשתמש \"$1\" אינו קיים.",
 	"wminc-ip": "„$1” היא כתובת IP.",
-	"right-viewuserlang": "צפייה ב[[Special:ViewUserLang|שפת המשתמש ואתר הוויקי הניסיוני]]",
+	"right-viewuserlang": "צפייה בשפת המשתמש ואתר הוויקי הניסיוני",
 	"group-test-sysop": "מפעילי ויקי לבדיקה",
 	"group-test-sysop-member": "{{GENDER:$1|מפעיל|מפעילת}} ויקי לבדיקה",
 	"grouppage-test-sysop": "{{ns:project}}:מפעילי ויקי לבדיקה",
