@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"唐吉訶德的侍從"
+		]
+	},
+	"wminc-infopage-title-p": "$1 Wikipedia",
+	"wminc-infopage-title-b": "$1 Wikibooks",
+	"wminc-infopage-title-q": "$1 Wikiquote",
+	"wminc-infopage-title-n": "$1 Wikinews",
+	"wminc-infopage-title-s": "$1 Wikisource",
+	"wminc-infopage-title-y": "$1 Wikivoyage"
+}
