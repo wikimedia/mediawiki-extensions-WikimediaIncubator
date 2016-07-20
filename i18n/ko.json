@@ -57,7 +57,7 @@
 	"wminc-searchwiki-multiplematches": "검색어는 다음 언어와 일치합니다:",
 	"wminc-searchwiki-match-langcode": "\"$1\"(은)는 $2에 대한 ISO 639 언어 코드입니다.",
 	"wminc-searchwiki-match-userlangname": "$1(은)는 언어 이름입니다.",
-	"wminc-searchwiki-match-englishname": "\"$1\"(은)는 영어에서 $2에 대한 이름입니다.",
+	"wminc-searchwiki-match-englishname": "\"$1\"은(는) 영어에서 $2에 대한 이름입니다.",
 	"wminc-searchwiki-match-nativename": "\"$1\"(은)는 해당 언어에서 $2에 대한 이름입니다.",
 	"wminc-searchwiki-gotoinfopage": "정보 문서",
 	"wminc-fs-pagetitle": "시작 마법사 - $1",
