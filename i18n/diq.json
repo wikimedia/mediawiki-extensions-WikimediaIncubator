@@ -3,7 +3,8 @@
 		"authors": [
 			"Erdemaslancan",
 			"Marmase",
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
 	"wminc-desc": "Qan dê Wikimedia Incubatori sistemê test wikiya",
@@ -63,7 +64,9 @@
 	"wminc-fs-userpage-title": "Pela karberi vıraze",
 	"wminc-fs-startwiki-title": "Wikiya xo dest pekeri",
 	"wminc-fs-pagetitle-done": "- tamam!",
+	"wminc-fs-intro": "{{SITENAME}} de gamanê sıfteyan rê şıma xeyr amey. Yu wikiya newinrê sergendi rê ma dê şıma rehberey bıkerê.",
 	"wminc-fs-langselect": "Ya raveri $1 yana raveri $2",
+	"wminc-fs-signup-text": "Degmesi hesabê karbera esto,  [$1 dekewnê de] eger ke çoniy ae[$2 ra heaabo newe xorê vırazê]. \nİcab bêkeno,  labelê hend zagmetın niyo çend saniyey ramoneo hesabo bewe akerdış.",
 	"wminc-infopage-enter": "Şo Pela Seri",
 	"wminc-unknownlang": "(No kodê zıwani nêşınasiye)",
 	"wminc-infopage-title-p": "Wikipedia $1",
