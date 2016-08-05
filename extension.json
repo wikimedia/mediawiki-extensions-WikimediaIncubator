@@ -160,8 +160,7 @@
 		"SpecialListusersHeader": "ListUsersTestWiki::onSpecialListusersHeader",
 		"SpecialSearchCreateLink": "WikimediaIncubator::onSpecialSearchCreateLink",
 		"SpecialSearchPowerBox": "WikimediaIncubator::onSpecialSearchPowerBox",
-		"SpecialSearchSetupEngine": "WikimediaIncubator::onSpecialSearchSetupEngine",
-		"UnitTestsList": "WikimediaIncubator::onUnitTestsList"
+		"SpecialSearchSetupEngine": "WikimediaIncubator::onSpecialSearchSetupEngine"
 	},
 	"manifest_version": 1
 }
