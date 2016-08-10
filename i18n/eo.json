@@ -3,7 +3,8 @@
 		"authors": [
 			"Ebe123",
 			"KuboF",
-			"Yekrats"
+			"Yekrats",
+			"Robin van der Vliet"
 		]
 	},
 	"wminc-desc": "Testa vikisistemo por Wikimedia-Inkubatoro",
@@ -32,7 +33,7 @@
 	"wminc-ip": "\"$1\" estas IP-adreso.",
 	"right-viewuserlang": "Vidi uzulan lingvon kaj testvikion",
 	"group-test-sysop": "Administrantoj de la test vikio",
-	"group-test-sysop-member": "{{GENDER:$1|administranto de la testa vikio|administrantino de la testa vikio}}",
+	"group-test-sysop-member": "{{GENDER:$1|administranto de la testa vikio}}",
 	"grouppage-test-sysop": "{{ns:project}}:Test wiki - Administrantoj de la testa vikio",
 	"wminc-code-macrolanguage": "La [[wikipedia:$2 lingvo|lingvo \"$3\"]] estas [[wikipedia:ISO 639 makrolingvo|makrolingvo]], enhavanta la jenajn membraj lingvoj:",
 	"wminc-code-collective": "La lingvo-kodo \"$1\" ne referencas specifan lingvo, sed aro da lingvoj, ĉefe la [[wikipedia:$2 language|\"$3\" lingvoj]].",
