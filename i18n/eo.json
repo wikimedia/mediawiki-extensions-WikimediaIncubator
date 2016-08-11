@@ -27,7 +27,7 @@
 	"randombytest": "Hazarda paĝo de testvikio",
 	"randombytest-nopages": "Mankas paĝoj en via testvikio en la nomspaco: $1.",
 	"wminc-viewuserlang": "Trarigardi uzulan lingvon kaj testi vikion",
-	"wminc-viewuserlang-user": "Salutnomo:",
+	"wminc-viewuserlang-user": "Uzantnomo:",
 	"wminc-viewuserlang-go": "Ek",
 	"wminc-userdoesnotexist": "La uzanto \"$1\" ne ekzistas.",
 	"wminc-ip": "\"$1\" estas IP-adreso.",
