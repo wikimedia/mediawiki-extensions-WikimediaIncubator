@@ -14,6 +14,7 @@
 	"wminc-testwiki": "Tesztwiki:",
 	"wminc-testwiki-code": "Tesztwiki nyelv:",
 	"wminc-testwiki-none": "Egyik sem/Mind",
+	"wminc-testwiki-site": "(Karbantartás)",
 	"wminc-recentchanges-all": "Minden friss változtatás",
 	"wminc-prefinfo-language": "A felhasználói felületed nyelve – független a teszt wikidtől",
 	"wminc-prefinfo-code": "Az ISO 639 szerinti nyelvkód. A fenti beállítás kiegészítése: a kettő együtt határozza meg, hogy melyik lesz az elsődleges tesztprojekted.",
