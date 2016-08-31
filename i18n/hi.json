@@ -4,7 +4,8 @@
 			"Ansumang",
 			"Vibhijain",
 			"रोहित रावत",
-			"Sfic"
+			"Sfic",
+			"राम प्रसाद जोशी"
 		]
 	},
 	"wminc-desc": "विकीमीडिया ऊष्मानियंत्रक के लिए विकि प्रणाली का परीक्षण",
@@ -21,7 +22,7 @@
 	"wminc-error-move-unprefixed": "त्रुटि: को पृष्ठ का आप स्थान - परिवर्तन करने की कोशिश कर रहे है, वह [[{{MediaWiki:Wminc-error-help}}|अउपसर्गित है या एक गलत उपसर्ग है]]!",
 	"wminc-error-wronglangcode": "''' त्रुटि: ''' इस पृष्ठ में एक [[{{MediaWiki:Wminc-error-help}}|गलत भाषा कोड]] शामिल हैं \"$1\"!",
 	"wminc-error-unprefixed": "''' त्रुटि: ''' यह पृष्ठ [[{{MediaWiki:Wminc-error-help}}|अउपसर्गित]] है!",
-	"wminc-error-unprefixed-suggest": "' ' त्रुटि: ' ' यह पृष्ठ [[{{MediaWiki:Wminc-error-help}} |अनउपसर्गित]] है! आप [[: $1 ]] पर एक पृष्ठ बना सकते हैं।",
+	"wminc-error-unprefixed-suggest": "<strong>त्रुटि:</strong> यह पृष्ठ [[{{MediaWiki:Wminc-error-help}} |अनउपसर्गित]] है! आप [[: $1 ]] पर एक पृष्ठ बना सकते हैं।",
 	"wminc-error-wiki-exists": "यह विकि पहले से मौजूद है। आप $1 पर इस पृष्ठ को पा सकते हैं। यदि विकी हाल ही में बनाई गई है, कृपया सभी सामग्री आयात किए जाने तक कुछ घंटे या दिन प्रतीक्षा करें।",
 	"wminc-error-wiki-sister": "यह पृष्ठ एक परियोजना को संबंध रखता है जो कि यहाँ होस्ट नहीं होती। कृपया विकि जाने के लिए $1  पर जाए।",
 	"randombytest": "परीक्षण विकि द्वारा यादृच्छिक पृष्ठ",

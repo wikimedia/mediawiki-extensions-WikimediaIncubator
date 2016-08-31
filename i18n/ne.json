@@ -3,7 +3,8 @@
 		"authors": [
 			"RajeshPandey",
 			"Nirmal Dulal",
-			"NehalDaveND"
+			"NehalDaveND",
+			"राम प्रसाद जोशी"
 		]
 	},
 	"wminc-desc": "विकीमीडिया इनक्युबेटर को लागि विकि प्रणाली को परीक्षण",
@@ -20,8 +21,8 @@
 	"wminc-error-move-unprefixed": "त्रुटि: तपाईंले स्थान - परिवर्तन गर्न खोजेको पृष्ठ  [[{{MediaWiki:Wminc-error-help}}|अउपसर्गित छ या यो एक गलत उपसर्ग हो]]!",
 	"wminc-error-wronglangcode": "''' त्रुटि: ''' यस पृष्ठ मा रहेको \"$1\" एक [[{{MediaWiki:Wminc-error-help}}|गलत भाषा कोड]]  हो!",
 	"wminc-error-unprefixed": "''' त्रुटि:''' यो पृष्ठ मा [[{{MediaWiki:Wminc-error-help}}|उपसर्ग]] छैन!",
-	"wminc-error-unprefixed-suggest": "'''त्रुटि:''' यो पृष्ठ मा [[{{MediaWiki:Wminc-error-help}}|उपसर्ग]] छैन! तपाइले [[:$1]] मा एक पृष्ठ बनाउन सक्नुहुन्छ।",
-	"wminc-error-wiki-exists": "यो विकि पहिल्यै देखि रहेको छ। तपाईं यस पृष्ठलाइ $1 मा पाउन सक्नुहुन्छ। यदि यो विकी हालै मा बनाइएको भए, कृपया सबै सामाग्री आयात भएर सकिने समय सम्म केहि घन्टा या दिनसम्म प्रतीक्षा गर्नुहोला।",
+	"wminc-error-unprefixed-suggest": "<strong>त्रुटि:</strong> यो पृष्ठ मा [[{{MediaWiki:Wminc-error-help}}|उपसर्ग]] छैन! तपाईं [[:$1]] मा एक पृष्ठ बनाउन सक्नुहुन्छ।",
+	"wminc-error-wiki-exists": "यो विकि पहिले देखि रहेको छ । तपाईं यस पृष्ठलाई $1 मा पाउन सक्नुहुन्छ । यदि यो विकी हालै मा बनाइएको भए, कृपया सबै सामाग्री आयात भएर सकिने समय सम्म केहि घण्टा या दिनसम्म प्रतीक्षा गर्नुहोला ।",
 	"wminc-error-wiki-sister": "यो पृष्ठ एक परियोजना संग सम्बन्ध राख्दछ जुन कि यहाँ होस्ट गरिएको छैन। कृपया यो विकिमा जान को लागि $1 मा जानुहोला।",
 	"randombytest": "परीक्षण विकि को कुनै यौटा पृष्ठ",
 	"randombytest-nopages": "तपाईंको परीक्षण विकीको नामस्थान: $1 मा कुनै पनि पृष्ठ छैनन्।",
@@ -35,7 +36,7 @@
 	"group-test-sysop-member": "{{GENDER:$1|परीक्षण विकि प्रवन्धक}}",
 	"grouppage-test-sysop": "{{ns:project}}:परीक्षण विकी प्रवन्धकहरू",
 	"wminc-searchwiki": "विकी खोज्नुहोस्",
-	"wminc-searchwiki-noproject": "तपाइले कुनै आयोजना छनौट गर्नुभएन ।",
+	"wminc-searchwiki-noproject": "तपाईंले कुनै आयोजना छनौट गर्नुभएन ।",
 	"wminc-searchwiki-selectproject": "खोज्नुहोस:",
 	"wminc-searchwiki-inputlanguage": "भाषा:",
 	"wminc-searchwiki-go": "जानुहोस्",
