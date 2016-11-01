@@ -60,7 +60,7 @@
 	"wminc-fs-userpage-title": "Criar a sua página de utilizador",
 	"wminc-fs-startwiki-title": "Comece o seu wiki",
 	"wminc-fs-pagetitle-done": "- feito!",
-	"wminc-fs-intro": "Bem-vindo ao assistente de primeiros passos de {{SITENAME}}. Você será guiado através do processo de começo de um novo wiki.",
+	"wminc-fs-intro": "Bem-vindo(a) ao assistente de primeiros passos da wiki {{SITENAME}}. Será guiado através do processo de criação de uma nova wiki.",
 	"wminc-fs-langselect": "Prosseguir em $1 ou $2",
 	"wminc-fs-globaluser-text": "A sua conta de utilizador é local. Recomenda-se que a torne global em $1 de modo a poder usá-la em qualquer wiki da Wikimedia.",
 	"wminc-fs-startwiki-text": "O prefixo do se wiki é <strong>$1</strong>. Pode começar o seu wiki criando a sua Página Principal em <strong>$2</strong>.",
