@@ -49,7 +49,7 @@
 	"wminc-search-nocreate-nopref": "Pesquisou \"$1\". Defina a sua [[Special:Preferences|preferência de wiki de testes]] para podermos dizer-lhe que página pode criar!",
 	"wminc-search-nocreate-suggest": "Pesquisou \"$1\". Pode criar uma página na sua wiki em <strong>[[$3]]</strong>!",
 	"wminc-searchwiki-inputlanguage": "Na língua:",
-	"wminc-searchwiki-go": "Ir",
+	"wminc-searchwiki-go": "Continuar",
 	"wminc-searchwiki-match-userlangname": "$1 é o nome de uma língua.",
 	"wminc-searchwiki-match-englishname": "\"$1\" é o nome para $2 em inglês.",
 	"wminc-searchwiki-match-nativename": "\"$1\" é o nome para $2 nessa língua.",
