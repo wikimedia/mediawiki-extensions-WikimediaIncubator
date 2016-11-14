@@ -9,8 +9,10 @@
 	"wminc-testwiki": ":ازمایشین ویکی",
 	"wminc-testwiki-code": ":ویکی‌ئی زبانئ امتحان کورتین",
 	"wminc-testwiki-none": "هیچ‌گوجام/موچ",
+	"wminc-recentchanges-all": "موچین آخیرئین تغیران",
 	"wminc-code-retired": "زبانئ کوڈ تغیر کورته و دیگه به اصلین زبانا ارجاع‌ئه نه‌دنت .",
 	"wminc-search-nocreate-suggest": "شما په \"$1\"ئی پدا گشته‌ئیت. شما توانێت که یک تاکدیمئ به وتي ویکی‌ئی <strong>[[$3]]</strong> تا جۆڑ بکنێتǃ",
 	"wminc-fs-pagetitle-done": "بوت!",
+	"wminc-infopage-enter": "بِه بُنیادین  تاکدیما شوتین",
 	"wminc-infopage-title-p": "$1‌ئی ویکی‌پیڈیا"
 }
