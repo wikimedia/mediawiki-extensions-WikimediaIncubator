@@ -7,7 +7,8 @@
 			"MF-Warburg",
 			"Metalhead64",
 			"Polletfa",
-			"Umherirrender"
+			"Umherirrender",
+			"Schniggendiller"
 		]
 	},
 	"wminc-desc": "Ermöglicht Testwikis für den Wikimedia Incubator",
@@ -73,7 +74,7 @@
 	"wminc-fs-startwiki-text": "Das Präfix deines Wikis ist <strong>$1</strong>. Du kannst das Wiki mit dem Erstellen der Hauptseite unter <strong>$2</strong> starten.",
 	"wminc-fs-startwiki-exists-text": "Das Präfix deines Wikis lautet $1. Die Hauptseite befindet sich auf $2. Du kannst jetzt mit anderen Sprechern dieser Sprache zusammenarbeiten, um eine Community aufzubauen!\nWenn du eine Seite erstellen möchtest, gib einfach den Seitennamen in das Suchfeld oben ein und folge dem Link, der erscheint.",
 	"wminc-infopage-enter": "Geh zur Hauptseite",
-	"wminc-unknownlang": "(unbekannter Sprachecode)",
+	"wminc-unknownlang": "(unbekannter Sprachcode)",
 	"wminc-infopage-title-p": "Wikipedia $1",
 	"wminc-infopage-title-b": "Wikibooks $1",
 	"wminc-infopage-title-t": "Wiktionary $1",
