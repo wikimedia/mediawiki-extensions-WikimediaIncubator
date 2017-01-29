@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Audun",
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"wminc-desc": "Testwikisystem for Wikimedia Incubator",
@@ -40,7 +41,7 @@
 	"wminc-search-nocreate-nopref": "Du søkte etter «$1». Vennligst sett [[Special:Preferences|testwikiinnstillingene dine]] så vi kan si hvilken side du kan opprette!",
 	"wminc-search-nocreate-suggest": "Du søkte etter «$1». Du kan opprette en side på din wiki på <strong>[[$3]]</strong>!",
 	"wminc-infopage-enter": "gå til hovedsiden",
-	"wminc-unknownlang": "(ukjent språk med koden «$1»)",
+	"wminc-unknownlang": "(ukjent språkkode)",
 	"wminc-infopage-title-p": "Wikipedia på $1",
 	"wminc-infopage-title-b": "Wikibøker på $1",
 	"wminc-infopage-title-t": "Wiktionary på $1",
@@ -50,7 +51,7 @@
 	"wminc-infopage-title-v": "Wikiversity på $1",
 	"wminc-infopage-welcome": "Velkommen til Wikimedia Incubator, et Wikimedia Foundation-prosjekt ([[{{MediaWiki:Aboutpage}}|om]])",
 	"wminc-infopage-missingwiki-text": "$1 på dette språket finnes ikke ennå.",
-	"wminc-infopage-option-startwiki": "Om du ønsker å starte denne wikien kan du [{{fullurl:{{FULLPAGENAME}}|action=edit}} opprette siden] og følge [[{{Mediawiki:Wminc-manual-url}}|manualen vår]].",
+	"wminc-infopage-option-startwiki": "Om du ønsker å starte denne wikien kan du følge '''[$3 disse stegene]''' og [[{{MediaWiki:Wminc-manual-url}}|manualen vår]].",
 	"wminc-infopage-option-startsister": "Om du ønsker å starte denne wikien kan du gå til <strong>[$2 $1]</strong>.",
 	"wminc-infopage-option-languages-existing": "Du kan søke etter [//www.$1.org eksisterende språkutgaver av $1].",
 	"wminc-infopage-option-sisterprojects-existing": "Du kan søke etter eksisterende prosjekter på dette språket:",
@@ -59,7 +60,7 @@
 	"wminc-infopage-createmainpage": "Skriv inn ordet «Hovedside» på dette språket:",
 	"wminc-infopage-contribute": "Om du kan dette språket må du gjerne bidra!",
 	"wminc-infopage-status-imported": "Denne Incubator-wikien har blitt importert fra $1 etter at wikien ble stengt.",
-	"wminc-infopage-status-closedsister": "Dette underdomenet har blitt stengt. Gå til <strong>$1</strong> for å bidra på denne wikien.",
+	"wminc-infopage-status-closedsister": "Dette underdomenet har blitt stengt. Gå til <strong>$2</strong> for å bidra på denne wikien.",
 	"wminc-infopage-status-created": "Dette prosjektet har blitt godkjent av språkkomiteen, og er nå tilgjengelig på $1.",
 	"wminc-infopage-status-beforeincubator": "Dette prosjektet ble opprettet før Wikimedia Incubator startet, og er tilgjengelig på $1."
 }

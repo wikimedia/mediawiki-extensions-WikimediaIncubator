@@ -16,7 +16,8 @@
 			"Tpt",
 			"Urhixidur",
 			"Verdy p",
-			"Ebe123"
+			"Ebe123",
+			"The RedBurn"
 		]
 	},
 	"wminc-desc": "Système de test de wiki pour Wikimedia Incubator",
@@ -74,7 +75,7 @@
 	"wminc-fs-settings-title": "Définir vos préférences du wiki",
 	"wminc-fs-userpage-title": "Créer votre page utilisateur",
 	"wminc-fs-startwiki-title": "Démarrer votre wiki",
-	"wminc-fs-pagetitle-done": " - fait !",
+	"wminc-fs-pagetitle-done": " - terminé !",
 	"wminc-fs-intro": "Bienvenue dans l’Assistant premiers pas {{SITENAME}}. Vous serez guidé tout au long du processus de démarrage d’un nouveau wiki.",
 	"wminc-fs-langselect": "Procédez en $1 ou en $2",
 	"wminc-fs-signup-text": "Si vous avez déjà un compte d’utilisateur, veuillez [$1 vous connecter]. Si vous n’en avez pas encore, veuillez [$2 créer un compte utilisateur]. !N !Ce n’est pas requis mais c’est fortement recommandé et ne prend que quelques secondes à créer.",
