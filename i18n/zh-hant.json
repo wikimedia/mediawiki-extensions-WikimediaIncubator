@@ -14,7 +14,8 @@
 			"Wrightbus",
 			"Xiaomingyan",
 			"LNDDYL",
-			"EagerLin"
+			"EagerLin",
+			"Wehwei"
 		]
 	},
 	"wminc-desc": "維基孵育場的測試 wiki 系統",
@@ -100,7 +101,7 @@
 	"wminc-infopage-createmainpage": "輸入 \"主頁\" 此詞在這種語言的翻譯：",
 	"wminc-infopage-contribute": "如果您會這門語言，歡迎您做出貢獻！",
 	"wminc-infopage-status-open": "這是維基孵育場的一個開放測試維基。",
-	"wminc-infopage-status-imported": "該維基項目關閉後，這個孵育場維基已從 $1 匯入。",
+	"wminc-infopage-status-imported": "這個維基孵育場是在 $1 關閉後，從其匯入的。",
 	"wminc-infopage-status-closedsister": "此子域名已關閉。請轉到<strong>$2</strong>為此維基項目作出貢獻。",
 	"wminc-infopage-status-approved": "這個維基媒體孵育場的維基已被[[meta:Special:MyLanguage/Language_committee|語言委員會]]批准，此維基很快就會被建立了。",
 	"wminc-infopage-status-created": "此項目已經受語言委員會批准，現已在 $1 可以使用。",
