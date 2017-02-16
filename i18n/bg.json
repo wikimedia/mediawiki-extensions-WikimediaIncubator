@@ -4,7 +4,8 @@
 			"DCLXVI",
 			"Spiritia",
 			"Stanqo",
-			"Лорд Бъмбъри"
+			"Лорд Бъмбъри",
+			"StanProg"
 		]
 	},
 	"wminc-desc": "Тестова уики система за Уикимедия Инкубатор",
@@ -25,5 +26,7 @@
 	"wminc-ip": "\"$1\" е IP-адрес.",
 	"right-viewuserlang": "Вижте езика на потребителя и езика на тестваното уики",
 	"wminc-code-retired": "Този езиков код е бил променен и повече не се отнася към оригиналния език.",
+	"wminc-searchwiki-inputlanguage": "На следния език:",
+	"wminc-fs-langselect-title": "Избор на език",
 	"wminc-fs-pagetitle-done": "– готово!"
 }
