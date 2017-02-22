@@ -12,7 +12,8 @@
 			"Str4nd",
 			"Varusmies",
 			"VezonThunder",
-			"Stryn"
+			"Stryn",
+			"Pyscowicz"
 		]
 	},
 	"wminc-desc": "Testiwiki-järjestelmä Wikimedia-hautomoa varten",
@@ -86,7 +87,7 @@
 	"wminc-infopage-title-n": "Wikiuutiset $1",
 	"wminc-infopage-title-s": "Wikiaineisto $1",
 	"wminc-infopage-title-v": "Wikiopisto $1",
-	"wminc-infopage-welcome": "Tervetuloa Wikimedia Hautomoon, Wikimedia Foundationin projektiin ([[{{MediaWiki:Aboutpage}}|tietoja]])",
+	"wminc-infopage-welcome": "Tervetuloa Wikimedia hautomoon, Wikimedia Foundationin projektiin ([[{{MediaWiki:Aboutpage}}|tietoja]])",
 	"wminc-infopage-missingwiki-text": "$1-hanketta ei ole vielä tällä kielellä.",
 	"wminc-infopage-option-startwiki": "Jos haluat aloittaa tämän wikin, voit [{{fullurl:{{FULLPAGENAME}}|action=edit}} luoda sivun] ja seurata [[{{MediaWiki:Wminc-manual-url}}|käsikirjamme ohjeita]].",
 	"wminc-infopage-option-startsister": "Jos haluat aloittaa tämän wikin, mene sivulle <strong>[$2 $1]</strong>.",
@@ -100,6 +101,6 @@
 	"wminc-infopage-status-imported": "Tämä Incubator-wiki on tuotu osoitteesta $1, kun wiki suljettiin.",
 	"wminc-infopage-status-closedsister": "Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <strong>$2</strong>, jos haluat muokata wikiä.",
 	"wminc-infopage-status-created": "Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.",
-	"wminc-infopage-status-beforeincubator": "Tämä projekti luotiin ennen kuin Wikimedia Incubator käynnistettiin ja se on saatavilla osoitteessa $1.",
+	"wminc-infopage-status-beforeincubator": "Tämä projekti luotiin ennen kuin Wikimedia hautomo käynnistettiin ja se on saatavilla osoitteessa $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Tämä projekti on saatavilla osoitteessa $1."
 }
