@@ -88,7 +88,7 @@ class SpecialViewUserLang extends SpecialPage {
 		$usercode = $user->getOption( $wmincPref . '-code' );
 		$prefix = WikimediaIncubator::displayPrefix( $userproject, $usercode ? $usercode : 'none' );
 		if ( WikimediaIncubator::isContentProject( $userproject ) ) {
-			$testwiki = Linker::link( Title::newFromText( $prefix ) );
+			$testwiki = $this->getLinkRenderer()->makeLink( Title::newFromText( $prefix ) );
 		} elseif ( $prefix == $wmincProjectSite['short'] ) {
 			$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
 		} else {

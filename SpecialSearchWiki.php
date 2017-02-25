@@ -190,19 +190,20 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 				$this->msg( 'wminc-searchwiki-multiplematches' )->text() ) .
 			'<ul>'
 		);
+		$linkRenderer = $this->getLinkRenderer();
 		foreach ( $results as $resultCode => $resultType ) {
 			$langName = $this->mNamesUserLang[$resultCode];
 			$infopage = Title::newFromText(
 				WikimediaIncubator::displayPrefix( $project, $resultCode, true )
 			);
-			$linkInfoPage = Linker::linkKnown( $infopage,
+			$linkInfoPage = $linkRenderer->makeKnownLink( $infopage,
 				$this->msg( 'wminc-searchwiki-gotoinfopage' )->text()
 			);
 			# Give grep a chance to find the usages:
 			# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t,
 			# wminc-infopage-title-q, wminc-infopage-title-n, wminc-infopage-title-s,
 			# wminc-infopage-title-v, wminc-infopage-title-y
-			$linkMainPage = Linker::linkKnown( $infopage,
+			$linkMainPage = $linkRenderer->makeKnownLink( $infopage,
 				$this->msg( 'wminc-infopage-title-' . $project, $langName )->text(),
 				[], [ 'goto' => 'mainpage' ]
 			);

@@ -453,18 +453,15 @@ class WikimediaIncubator {
 	 * Add a link to Special:ViewUserLang from Special:Contributions/USERNAME
 	 * if the user has 'viewuserlang' permission
 	 * Based on code from extension LookupUser made by Tim Starling
-	 * @return True
 	 */
-	static function efLoadViewUserLangLink( $id, $nt, &$links ) {
-		global $wgUser;
-		if ( $wgUser->isAllowed( 'viewuserlang' ) ) {
+	static function efLoadViewUserLangLink( $id, $nt, array &$links, SpecialPage $sp ) {
+		if ( $sp->getUser()->isAllowed( 'viewuserlang' ) ) {
 			$user = $nt->getText();
-			$links[] = Linker::linkKnown(
+			$links['viewuserlang'] = $sp->getLinkRenderer()->makeKnownLink(
 				SpecialPage::getTitleFor( 'ViewUserLang', $user ),
-				wfMessage( 'wminc-viewuserlang' )->escaped()
+				$sp->msg( 'wminc-viewuserlang' )->text()
 			);
 		}
-		return true;
 	}
 
 	/**

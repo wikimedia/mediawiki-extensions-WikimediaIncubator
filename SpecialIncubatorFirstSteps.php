@@ -94,6 +94,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		ksort( $getLangCodes ); // sorting by language code is not ideal, but well
 
 		$showLanguages = [];
+		$linkRenderer = $this->getLinkRenderer();
 		foreach ( $getLangCodes as $code => $nothing ) {
 			$code = trim( $code );
 			if ( !isset( $names[$code] ) || $code === $currentLangCode ) {
@@ -102,7 +103,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 			}
 			$linkParams = [ 'uselang' => $code,
 				'testwiki' => $this->getRequest()->getVal( 'testwiki' ) ];
-			$showLanguages[] = Linker::linkKnown( $this->getPageTitle(),
+			$showLanguages[] = $linkRenderer->makeKnownLink( $this->getPageTitle(),
 				$names[$code], [], $linkParams );
 		}
 
@@ -183,7 +184,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		}
 		$this->showHeader( $step_msg, false, false );
 
-		$link = Linker::link( $this->getUser()->getUserPage(), $this->getUser()->getName() );
+		$linkRenderer = $this->getLinkRenderer();
+		$link = $linkRenderer->makeLink( $this->getUser()->getUserPage(), $this->getUser()->getName() );
 		$this->getOutput()->addHtml( $this->msg( 'wminc-fs-userpage-text', $link )->plain() );
 
 		if ( class_exists( 'CentralAuthUser' ) ) {
@@ -214,8 +216,9 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$mainpage = WikimediaIncubator::getMainPage(
 			$this->wikiprefix['lang'], $this->wikiprefix['prefix'] );
 
-		$prefix = Linker::linkKnown( Title::newFromText( $this->wikiprefix['prefix'] ) );
-		$link = Linker::link( $mainpage, $mainpage->getText() );
+		$linkRenderer = $this->getLinkRenderer();
+		$prefix = $linkRenderer->makeKnownLink( Title::newFromText( $this->wikiprefix['prefix'] ) );
+		$link = $linkRenderer->makeLink( $mainpage, $mainpage->getText() );
 		$this->getOutput()->addHtml( $this->msg( $mainpage->exists() ?
 			'wminc-fs-startwiki-exists-text' : 'wminc-fs-startwiki-text' )->rawParams( $prefix, $link )->parse() );
 

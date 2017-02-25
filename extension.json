@@ -1,12 +1,15 @@
 {
 	"name": "Wikimedia Incubator",
-	"version": "5.3.1",
+	"version": "5.4.0",
 	"author": [
 		"SPQRobin",
 		"Hydriz"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaIncubator",
 	"descriptionmsg": "wminc-desc",
+	"requires": {
+		"MediaWiki": ">= 1.28.1"
+	},
 	"type": "other",
 	"config": {
 		"_prefix": "wminc",
