@@ -43,7 +43,7 @@
 	"wminc-search-nocreate-suggest": "Го баравте поимот „$1“. Можете да создадете страница во вашето вики на <strong>[[$3]]</strong>!",
 	"wminc-searchwiki": "Пребарај вики",
 	"wminc-searchwiki-noproject": "Не избравте проект.",
-	"wminc-searchwiki-noresults": "Нема резултати. Можете да пребарувате по јазични кодови, изворни имиња и имињата на вашиот јазик (или англиски).",
+	"wminc-searchwiki-noresults": "Нема исход. Можете да пребарувате по јазични кодови, изворни имиња и имињата на вашиот јазик (или на англиски).",
 	"wminc-searchwiki-selectproject": "Пребарај:",
 	"wminc-searchwiki-inputlanguage": "На следниов јазик:",
 	"wminc-searchwiki-go": "Дај",
