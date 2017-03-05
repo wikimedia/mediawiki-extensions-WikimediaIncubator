@@ -101,6 +101,6 @@
 	"wminc-infopage-status-imported": "Tämä Incubator-wiki on tuotu osoitteesta $1, kun wiki suljettiin.",
 	"wminc-infopage-status-closedsister": "Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <strong>$2</strong>, jos haluat muokata wikiä.",
 	"wminc-infopage-status-created": "Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.",
-	"wminc-infopage-status-beforeincubator": "Tämä projekti luotiin ennen kuin Wikimedia hautomo käynnistettiin ja se on saatavilla osoitteessa $1.",
+	"wminc-infopage-status-beforeincubator": "Tämä projekti luotiin ennen kuin Wikimedia-hautomo käynnistettiin, ja se on saatavilla osoitteessa $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Tämä projekti on saatavilla osoitteessa $1."
 }
