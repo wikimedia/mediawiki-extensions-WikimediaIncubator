@@ -87,6 +87,7 @@
 	"wminc-infopage-title-n": "Wikiuutiset $1",
 	"wminc-infopage-title-s": "Wikiaineisto $1",
 	"wminc-infopage-title-v": "Wikiopisto $1",
+	"wminc-infopage-title-y": "Wikimatkat $1",
 	"wminc-infopage-welcome": "Tervetuloa Wikimedia hautomoon, Wikimedia Foundationin projektiin ([[{{MediaWiki:Aboutpage}}|tietoja]])",
 	"wminc-infopage-missingwiki-text": "$1-hanketta ei ole vielä tällä kielellä.",
 	"wminc-infopage-option-startwiki": "Jos haluat aloittaa tämän wikin, voit [{{fullurl:{{FULLPAGENAME}}|action=edit}} luoda sivun] ja seurata [[{{MediaWiki:Wminc-manual-url}}|käsikirjamme ohjeita]].",
