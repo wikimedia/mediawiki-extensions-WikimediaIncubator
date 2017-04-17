@@ -99,7 +99,7 @@
 	"wminc-infopage-option-startsister": "如果您想要开启该wiki，您可以前往<strong>[$2 $1]</strong>。",
 	"wminc-infopage-option-languages-existing": "您可以搜索[//www.$1.org $1所现有的语言版本]。",
 	"wminc-infopage-option-sisterprojects-existing": "您可以在这种语言中搜索现有项目：",
-	"wminc-infopage-option-sisterprojects-other": "您可以在这种语言搜索其他项目：",
+	"wminc-infopage-option-sisterprojects-other": "您可以搜索这种语言的其他项目：",
 	"wminc-infopage-option-multilingual": "或者您也可以前往一个多语言wiki：",
 	"wminc-infopage-createmainpage": "输入“主页”此词在这种语言的翻译：",
 	"wminc-infopage-contribute": "如果您会这门语言，欢迎您做出贡献！",
