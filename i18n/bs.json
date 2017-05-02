@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
 	"wminc-desc": "Testiranje wiki sistema za Wikimedia Incubator",
@@ -9,8 +10,8 @@
 	"wminc-testwiki-none": "Ništa/Sve",
 	"wminc-recentchanges-all": "Sve nedavne izmjene",
 	"wminc-prefinfo-language": "Vaš jezik interfejsa - nezavisno od Vaše testirane wiki",
-	"wminc-prefinfo-code": "ISO 639 kod jezika",
-	"wminc-prefinfo-project": "Odaberite Wikimedia projekat (Opcija u inkubatoru za korisnike koje rade opći posao)",
+	"wminc-prefinfo-code": "ISO 639 kôd jezika na kojem ovdje radite",
+	"wminc-prefinfo-project": "Izaberite Wikimedijin projekt na kojem ovdje radite",
 	"wminc-prefinfo-error": "Odabrali ste projekat koji zahtijeva kod jezika.",
 	"randombytest": "Slučajna stranica od testirane wiki",
 	"randombytest-nopages": "Nema stranica u Vašoj probnoj wiki, u imenskom prostoru: $1.",
