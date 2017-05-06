@@ -26,5 +26,7 @@
 	"wminc-viewuserlang-go": "Joan",
 	"right-viewuserlang": "Ikusi lankide hizkuntza eta wiki testa",
 	"wminc-searchwiki-go": "Joan",
-	"wminc-fs-pagetitle-done": " - egina!"
+	"wminc-fs-pagetitle-done": " - egina!",
+	"wminc-infopage-enter": "joan orrialde nagusira",
+	"wminc-unknownlang": "(hizkuntza-kode ezezaguna)"
 }
