@@ -11,7 +11,9 @@ class ListUsersTestWiki {
 	static function getProjectInput() {
 		global $wmincProjectSite, $wgRequest;
 		$input = strtolower( $wgRequest->getVal( 'testwiki' ) );
-		if ( $input == strtolower( $wmincProjectSite['name'] ) || $input == strtolower( $wmincProjectSite['short'] ) ) {
+		if ( $input == strtolower( $wmincProjectSite['name'] )
+			|| $input == strtolower( $wmincProjectSite['short'] )
+		) {
 			return $wmincProjectSite;
 		}
 		return null;

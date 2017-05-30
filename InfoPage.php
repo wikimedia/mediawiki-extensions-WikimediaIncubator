@@ -7,11 +7,15 @@
  * 'incubator' showIncubatingWiki()
  *    'open': This is a new Incubator wiki that is not yet verified by the language committee.
  *    'eligible': This Incubator wiki has been marked as eligible by the language committee.
- *    'imported': This Incubator wiki has been imported from xyz.wikiproject.org after that wiki was closed.
- *    'approved': This Incubator wiki has been approved by the language committee and will soon be created.
+ *    'imported': This Incubator wiki has been imported from xyz.wikiproject.org after that wiki
+ *       was closed.
+ *    'approved': This Incubator wiki has been approved by the language committee and will soon
+ *       be created.
  * 'existing' showExistingWiki()
- *    'created': This project has been approved by the language committee and is now available at xyz.wikiproject.org.
- *    'beforeincubator': This project was created before Wikimedia Incubator started and is available at xyz.wikiproject.org.
+ *    'created': This project has been approved by the language committee and is now available at
+ *       xyz.wikiproject.org.
+ *    'beforeincubator': This project was created before Wikimedia Incubator started and is
+ *       available at xyz.wikiproject.org.
  *
  * @file
  * @ingroup Extensions
@@ -41,11 +45,14 @@ class InfoPage {
 		$name = Language::fetchLanguageName( $this->mLangCode, $wgLang->getCode(), 'all' );
 		$this->mLangName = $name ? $name :
 			Language::fetchLanguageName( $this->mLangCode, 'en', 'all' );
-		$titleParam = $this->mLangName ? $this->mLangName : wfMessage( 'quotation-marks', $this->mLangCode )->text(); # Name, else code
+		$titleParam = $this->mLangName ? $this->mLangName
+			: wfMessage( 'quotation-marks', $this->mLangCode )->text(); # Name, else code
 		# Give grep a chance to find the usages:
-		# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t, wminc-infopage-title-q,
-		# wminc-infopage-title-n, wminc-infopage-title-s, wminc-infopage-title-v, wminc-infopage-title-y
-		$this->mFormatTitle = wfMessage( 'wminc-infopage-title-' . $this->mProjectCode, $titleParam )->escaped();
+		# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t,
+		# wminc-infopage-title-q, wminc-infopage-title-n, wminc-infopage-title-s,
+		# wminc-infopage-title-v, wminc-infopage-title-y
+		$this->mFormatTitle = wfMessage( 'wminc-infopage-title-' . $this->mProjectCode,
+			$titleParam )->escaped();
 		if ( !$this->mLangName ) {
 			# Unknown language, add short note to title
 			$this->mFormatTitle .= ' ' . wfMessage( 'wminc-unknownlang', $this->mLangCode )->escaped();
@@ -63,7 +70,9 @@ class InfoPage {
 	 * @param $mul Boolean
 	 * @return String
 	 */
-	public function makeLogo( $project, $clickable = true, $params = [], $url = null, $lang = null, $mul = false ) {
+	public function makeLogo( $project, $clickable = true, $params = [],
+		$url = null, $lang = null, $mul = false
+	) {
 		$lang = $lang ? $lang : $this->mLangCode;
 		if ( !$mul ) { // for non-multilingual wikis
 			$getDbStatus = WikimediaIncubator::getDBState(
@@ -163,7 +172,8 @@ class InfoPage {
 		) .
 		Html::rawElement( 'ul', [ 'class' => 'wminc-infopage-options' ],
 			Html::rawElement( 'li', null,
-				wfMessage( $this->mIsSister ? 'wminc-infopage-option-startsister' : 'wminc-infopage-option-startwiki',
+				wfMessage( $this->mIsSister
+					? 'wminc-infopage-option-startsister' : 'wminc-infopage-option-startwiki',
 					$this->mProjectName, $this->mPortal, $steps )->parse() ) .
 			Html::rawElement( 'li', null,
 				wfMessage( 'wminc-infopage-option-languages-existing',
@@ -202,10 +212,13 @@ class InfoPage {
 		$subdomain = WikimediaIncubator::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = WikimediaIncubator::makeExternalLinkText( $subdomain, true );
 		# Give grep a chance to find the usages:
-		# wminc-infopage-status-open, wminc-infopage-status-imported, wminc-infopage-status-closedsister,
-		# wminc-infopage-status-approved, wminc-infopage-status-created, wminc-infopage-status-beforeincubator
+		# wminc-infopage-status-open, wminc-infopage-status-imported,
+		# wminc-infopage-status-closedsister, wminc-infopage-status-approved,
+		# wminc-infopage-status-created, wminc-infopage-status-beforeincubator
 		$content = Html::rawElement( 'div', [ 'class' => 'wminc-infopage-status' ],
-			wfMessage( 'wminc-infopage-status-' . $substatus )->rawParams( $subdomainLink, $portalLink )->parseAsBlock() );
+			wfMessage( 'wminc-infopage-status-' . $substatus )
+				->rawParams( $subdomainLink, $portalLink )->parseAsBlock()
+		);
 		if ( $this->mSubStatus != 'approved' && $this->mThisLangData['type'] != 'invalid' ) {
 			$content .= Html::element( 'div',
 				[ 'class' => 'wminc-infopage-contribute' ],
@@ -220,8 +233,8 @@ class InfoPage {
 			)->inContentLanguage()->parse()
 		);
 		$content .= Html::rawElement( 'ul', [ 'class' => 'wminc-infopage-options' ],
-			Html::rawElement( 'li', null, wfMessage( 'wminc-infopage-option-sisterprojects-other' )->parseAsBlock() .
-			$this->listOtherProjects() ) );
+			Html::rawElement( 'li', null, wfMessage( 'wminc-infopage-option-sisterprojects-other' )
+				->parseAsBlock() . $this->listOtherProjects() ) );
 		return $this->StandardInfoPage( '', $gotoMainPage, $content );
 	}
 
@@ -240,19 +253,24 @@ class InfoPage {
 				$wgLang->getArrow() . ' ' . $subdomainLink );
 		}
 		# Give grep a chance to find the usages:
-		# wminc-infopage-status-open, wminc-infopage-status-imported, wminc-infopage-status-closedsister,
-		# wminc-infopage-status-approved, wminc-infopage-status-created, wminc-infopage-status-beforeincubator
-		$msgname = 'wminc-infopage-status-' . $this->mSubStatus; // wminc-infopage-status-beforeincubator
-		if ( $this->mSubStatus === 'beforeincubator' && isset( $wmincSisterProjects[$this->mProjectCode] ) ) {
+		# wminc-infopage-status-open, wminc-infopage-status-imported,
+		# wminc-infopage-status-closedsister, wminc-infopage-status-approved,
+		# wminc-infopage-status-created, wminc-infopage-status-beforeincubator
+		$msgname = 'wminc-infopage-status-' . $this->mSubStatus;
+		if ( $this->mSubStatus === 'beforeincubator'
+			&& isset( $wmincSisterProjects[$this->mProjectCode] )
+		) {
 			$msgname = 'wminc-infopage-status-beforeincubator-sister';
 		}
 		$content = Html::rawElement( 'div',
 			[ 'class' => 'wminc-infopage-status' ],
 			wfMessage( $msgname )->rawParams( $subdomainLink )->parseAsBlock()
 		) . Html::rawElement( 'ul', [ 'class' => 'wminc-infopage-options' ],
-			Html::rawElement( 'li', null, wfMessage( 'wminc-infopage-option-sisterprojects-other' )->parseAsBlock() .
+			Html::rawElement( 'li', null,
+				wfMessage( 'wminc-infopage-option-sisterprojects-other' )->parseAsBlock() .
 				$this->listOtherProjects() ) .
-			Html::rawElement( 'li', null, wfMessage( 'wminc-infopage-option-multilingual' )->parseAsBlock() .
+			Html::rawElement( 'li', null,
+				wfMessage( 'wminc-infopage-option-multilingual' )->parseAsBlock() .
 				$this->listMultilingualProjects() )
 		);
 		return $this->StandardInfoPage( $this->showWelcome(), $gotoSubdomain, $content );

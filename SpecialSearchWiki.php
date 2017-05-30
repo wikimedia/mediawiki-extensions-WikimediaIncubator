@@ -14,7 +14,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 * @param $subpage Mixed: parameter passed to the page or null
 	 */
 	public function execute( $subpage ) {
-		global $wmincProjects, $wmincSisterProjects, $wgScript;
+		global $wmincProjects, $wmincSisterProjects;
 
 		$this->setHeaders();
 
@@ -25,8 +25,10 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		if ( $subpage ) {
 			$subpage = explode( '/', $subpage );
 		}
-		$projectQuery = $this->getRequest()->getText( 'searchproject', isset( $subpage[0] ) ? $subpage[0] : '' );
-		$languageQuery = $this->getRequest()->getText( 'searchlanguage', isset( $subpage[1] ) ? $subpage[1] : '' );
+		$projectQuery = $this->getRequest()->getText( 'searchproject',
+			isset( $subpage[0] ) ? $subpage[0] : '' );
+		$languageQuery = $this->getRequest()->getText( 'searchlanguage',
+			isset( $subpage[1] ) ? $subpage[1] : '' );
 
 		$this->showForm( $projectQuery, $languageQuery );
 
@@ -102,11 +104,14 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		if ( isset( $this->mProjects[$projectQuery] ) ) {
 			# searched with a project code (select box)
 			$matchProject = $projectQuery;
-		} elseif ( $projectCode = array_search( $projectQuery, $this->mProjects ) ) {
-			# searched with a project name
-			$matchProject = $projectCode;
 		} else {
-			return $this->getOutput()->addWikiMsg( 'wminc-searchwiki-noproject' );
+			$projectCode = array_search( $projectQuery, $this->mProjects );
+			if ( $projectCode ) {
+				# searched with a project name
+				$matchProject = $projectCode;
+			} else {
+				return $this->getOutput()->addWikiMsg( 'wminc-searchwiki-noproject' );
+			}
 		}
 
 		$results = [];
@@ -119,13 +124,25 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 			$results[$builtinCode] = 'langcode'; # Match language code
 		}
 		$lcLanguageQuery = self::strip( $languageQuery );
-		if ( $codeByEnglishName = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mEnglishNames ) ) ) {
+
+		$codeByEnglishName = array_search(
+			$lcLanguageQuery, array_map( 'self::strip', $this->mEnglishNames )
+		);
+		if ( $codeByEnglishName ) {
 			$results[$codeByEnglishName] = 'englishname'; # Match name in English
 		}
-		if ( $codeUserLang = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mNamesUserLang ) ) ) {
+
+		$codeUserLang = array_search(
+			$lcLanguageQuery, array_map( 'self::strip', $this->mNamesUserLang )
+		);
+		if ( $codeUserLang ) {
 			$results[$codeUserLang] = 'userlangname'; # Match name in user language
 		}
-		if ( $codeByNativeName = array_search( $lcLanguageQuery, array_map( 'self::strip', $this->mNativeNames ) ) ) {
+
+		$codeByNativeName = array_search(
+			$lcLanguageQuery, array_map( 'self::strip', $this->mNativeNames )
+		);
+		if ( $codeByNativeName ) {
 			$results[$codeByNativeName] = 'nativename'; # Match native name
 		}
 

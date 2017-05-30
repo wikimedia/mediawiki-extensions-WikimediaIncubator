@@ -193,7 +193,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 			$globalUser = new CentralAuthUser( $this->getUser()->getName() );
 			if ( !$globalUser->exists() ) {
 				$link = Linker::specialLink( 'mergeaccount' );
-				$this->getOutput()->addHtml( $this->msg( 'wminc-fs-globaluser-text' )->rawParams( $link )->escaped() );
+				$this->getOutput()->addHtml(
+					$this->msg( 'wminc-fs-globaluser-text' )->rawParams( $link )->escaped() );
 			}
 		}
 
@@ -220,7 +221,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$prefix = $linkRenderer->makeKnownLink( Title::newFromText( $this->wikiprefix['prefix'] ) );
 		$link = $linkRenderer->makeLink( $mainpage, $mainpage->getText() );
 		$this->getOutput()->addHtml( $this->msg( $mainpage->exists() ?
-			'wminc-fs-startwiki-exists-text' : 'wminc-fs-startwiki-text' )->rawParams( $prefix, $link )->parse() );
+			'wminc-fs-startwiki-exists-text' : 'wminc-fs-startwiki-text' )
+			->rawParams( $prefix, $link )->parse() );
 
 		return $step_msg;
 	}

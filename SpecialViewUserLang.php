@@ -80,7 +80,8 @@ class SpecialViewUserLang extends SpecialPage {
 		$langNames = Language::fetchLanguageNames( $this->getLanguage()->getCode() );
 		if ( $user == null || $id == 0 ) {
 			# show error if a user with that name does not exist
-			$this->getOutput()->addHTML( Xml::span( $this->msg( 'wminc-userdoesnotexist', $target )->text(), 'error' ) );
+			$this->getOutput()->addHTML( Xml::span(
+				$this->msg( 'wminc-userdoesnotexist', $target )->text(), 'error' ) );
 			return;
 		}
 		$userproject = $user->getOption( $wmincPref . '-project' );

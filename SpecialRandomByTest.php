@@ -18,8 +18,11 @@ class SpecialRandomByTest extends RandomPage {
 		if ( WikimediaIncubator::isContentProject() || ( $project && $lang ) ) {
 			$dbr = wfGetDB( DB_SLAVE );
 			$this->extra[] = 'page_title' .
-				$dbr->buildLike( WikimediaIncubator::displayPrefix( $project, $lang ) . '/', $dbr->anyString() );
-		} elseif ( $this->getUser()->getOption( $wmincPref . '-project' ) == $wmincProjectSite['short'] ) {
+				$dbr->buildLike( WikimediaIncubator::displayPrefix( $project, $lang ) .
+					'/', $dbr->anyString() );
+		} elseif (
+			$this->getUser()->getOption( $wmincPref . '-project' ) == $wmincProjectSite['short']
+		) {
 			# project or help namespace
 			$this->extra['page_namespace'] = [ 4, 12 ];
 		}

@@ -186,7 +186,8 @@ class WikimediaIncubator {
 		if ( !is_array( $titleparts ) || !isset( $titleparts[1] ) ) {
 			$data['error'] = 'noslash';
 		} else {
-			$data['project'] = ( isset( $titleparts[0][1] ) ? $titleparts[0][1] : '' ); # get the x from Wx/...
+			# get the x from Wx/...
+			$data['project'] = ( isset( $titleparts[0][1] ) ? $titleparts[0][1] : '' );
 			$data['lang'] = $titleparts[1]; # language code
 			$data['prefix'] = 'W' . $data['project'] . '/' . $data['lang'];
 			# check language code
@@ -708,7 +709,8 @@ class WikimediaIncubator {
 	 * @return True
 	 */
 	public static function onEditFormPreloadText( &$text, &$title ) {
-		$prefix = self::analyzePrefix( $title, true /* only info page */, false /* no sister projects */ );
+		$prefix = self::analyzePrefix( $title, true /* only info page */,
+			false /* no sister projects */ );
 		if ( !$prefix['error'] ) {
 			$text = wfMessage( 'wminc-infopage-prefill', $prefix['prefix'] )->plain();
 		}
@@ -813,7 +815,8 @@ class WikimediaIncubator {
 		if ( $prefix['error'] ) {
 			return false;
 		}
-		# display the custom logo only if &testwiki=wx/xx or the user's pref is set to the current test wiki
+		# display the custom logo only if &testwiki=wx/xx or
+		# the user's pref is set to the current test wiki
 		if ( self::displayPrefix() != $prefix['prefix'] ) {
 			return false;
 		}
@@ -908,7 +911,8 @@ class WikimediaIncubator {
 			return true;
 		}
 		$params[] = wfEscapeWikiText( $t->getPrefixedText() );
-		$params[0] = $prefix && $prefix != 'none' ? 'wminc-search-nocreate-suggest' : 'wminc-search-nocreate-nopref';
+		$params[0] = $prefix && $prefix != 'none'
+			? 'wminc-search-nocreate-suggest' : 'wminc-search-nocreate-nopref';
 		return true;
 	}
 
@@ -917,8 +921,8 @@ class WikimediaIncubator {
 	 * @return true
 	 */
 	public static function onSpecialSearchPowerBox( &$showSections, $term, $opts ) {
-		$showSections['testwiki'] = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
-			Xml::input( 'testwiki', 20, self::displayPrefix(), [ 'id' => 'testwiki' ] );
+		$showSections['testwiki'] = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' )
+			. ' ' . Xml::input( 'testwiki', 20, self::displayPrefix(), [ 'id' => 'testwiki' ] );
 		return true;
 	}
 
