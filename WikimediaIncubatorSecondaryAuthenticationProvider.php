@@ -13,8 +13,7 @@ use MediaWiki\Auth\AuthenticationResponse;
  * change their preferences (automatically is always better :p)
  */
 class WikimediaIncubatorSecondaryAuthenticationProvider
-	extends AbstractSecondaryAuthenticationProvider
-{
+	extends AbstractSecondaryAuthenticationProvider {
 
 	/**
 	 * @param array $params

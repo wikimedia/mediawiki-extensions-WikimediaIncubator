@@ -286,7 +286,7 @@ class WikimediaIncubator {
 	 * @return Bool
 	 */
 	static function isContentProject( $project = '', $returnName = false, $includeSister = false ) {
-		return (bool) self::getProject( $project, $returnName, $includeSister );
+		return (bool)self::getProject( $project, $returnName, $includeSister );
 	}
 
 	/**
