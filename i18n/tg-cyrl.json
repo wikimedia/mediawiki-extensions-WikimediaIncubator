@@ -1,11 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ibrahim"
+			"Ibrahim",
+			"ToJack"
 		]
 	},
 	"wminc-testwiki": "Санҷиши вики:",
 	"wminc-testwiki-none": "Ҳеҷ/Ҳама",
 	"wminc-viewuserlang-user": "Номи корбарӣ:",
-	"wminc-viewuserlang-go": "Рав"
+	"wminc-viewuserlang-go": "Рав",
+	"wminc-searchwiki-selectproject": "Ҷустан барои:",
+	"wminc-infopage-title-t": "Викилуғати $1",
+	"wminc-infopage-welcome": "Хуш омадед ба Инкубатори Викимедиа аз лоиҳаи Фондаи Викимедиа ([[{{MediaWiki:Aboutpage}}|бештар дар бораи лоиҳа]])"
 }
