@@ -10,6 +10,9 @@
 	"wminc-viewuserlang-user": "Номи корбарӣ:",
 	"wminc-viewuserlang-go": "Рав",
 	"wminc-searchwiki-selectproject": "Ҷустан барои:",
+	"wminc-infopage-title-p": "Википедиаи $1",
+	"wminc-infopage-title-b": "Викикитоби $1",
 	"wminc-infopage-title-t": "Викилуғати $1",
+	"wminc-infopage-title-v": "Викидонишгоҳи $1",
 	"wminc-infopage-welcome": "Хуш омадед ба Инкубатори Викимедиа аз лоиҳаи Фондаи Викимедиа ([[{{MediaWiki:Aboutpage}}|бештар дар бораи лоиҳа]])"
 }
