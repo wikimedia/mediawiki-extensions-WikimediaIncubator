@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ibrahim",
-			"ToJack"
+			"ToJack",
+			"Vashgird"
 		]
 	},
 	"wminc-testwiki": "Санҷиши вики:",
@@ -18,5 +19,5 @@
 	"wminc-infopage-title-s": "Викитекаи $1",
 	"wminc-infopage-title-v": "Викидонишгоҳи $1",
 	"wminc-infopage-title-y": "Викисафари $1",
-	"wminc-infopage-welcome": "Хуш омадед ба Инкубатори Викимедиа аз лоиҳаи Фондаи Викимедиа ([[{{MediaWiki:Aboutpage}}|бештар дар бораи лоиҳа]])"
+	"wminc-infopage-welcome": "Хуш омадед ба Рушди Викимедиа аз лоиҳаи Фондаи Викимедиа ([[{{MediaWiki:Aboutpage}}|бештар дар бораи лоиҳа]])"
 }
