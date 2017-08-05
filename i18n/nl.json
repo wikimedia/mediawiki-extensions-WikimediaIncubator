@@ -5,7 +5,8 @@
 			"SPQRobin",
 			"Siebrand",
 			"JurgenNL",
-			"Mainframe98"
+			"Mainframe98",
+			"Romaine"
 		]
 	},
 	"wminc-desc": "Testwikisysteem voor Wikimedia Incubator",
@@ -76,7 +77,7 @@
 	"wminc-infopage-title-b": "Wikibooks in het $1",
 	"wminc-infopage-title-t": "Wikiwoordenboek in het $1",
 	"wminc-infopage-title-q": "Wikiquote in het $1",
-	"wminc-infopage-title-n": "Wikinews in het $1",
+	"wminc-infopage-title-n": "Wikinieuws in het $1",
 	"wminc-infopage-title-s": "Wikisource in het $1",
 	"wminc-infopage-title-v": "Wikiversity in het $1",
 	"wminc-infopage-title-y": "Wikivoyage in het $1",
