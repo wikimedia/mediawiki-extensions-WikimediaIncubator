@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sahran",
-			"Tel'et"
+			"Tel'et",
+			"Uzdil"
 		]
 	},
 	"wminc-manual": "قولدا",
@@ -12,9 +13,9 @@
 	"wminc-prefinfo-code": "ISO 639 تىل كودى",
 	"wminc-viewuserlang": "ئىشلەتكۈچى تىلىنى كۆرۈپ، wiki سىناش",
 	"wminc-viewuserlang-user": "ئىشلەتكۈچى ئاتى:",
-	"wminc-viewuserlang-go": "يۆتكەل",
+	"wminc-viewuserlang-go": "يوللاش",
 	"wminc-searchwiki-selectproject": "ئىزدە:",
-	"wminc-searchwiki-go": "يۆتكەل",
+	"wminc-searchwiki-go": "يۆتكىلىش",
 	"wminc-fs-pagetitle": "باشلاش يېتەكچىسىگە ئېرىش - $1",
 	"wminc-fs-signup-title": "خەتلىتىش",
 	"wminc-fs-pagetitle-done": " - تامام!",
