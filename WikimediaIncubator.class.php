@@ -470,7 +470,7 @@ class WikimediaIncubator {
 	 * @param $setting String: the setting to call
 	 * @param $lang String: the language code
 	 * @param $project String: the project code or name
-	 * @return Mixed: the setting from $wgConf->settings
+	 * @return Mixed the setting from $wgConf->settings
 	 */
 	public static function getConf( $setting, $lang, $project ) {
 		if ( !self::canWeCheckDB() ) {

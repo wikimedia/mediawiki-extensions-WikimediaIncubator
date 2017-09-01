@@ -94,7 +94,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String: list of clickable logos of other projects
+	 * @return String list of clickable logos of other projects
 	 *					(Wikipedia, Wiktionary, ...)
 	 */
 	public function listOtherProjects() {
@@ -111,7 +111,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String: list of clickable logos of multilingual projects
+	 * @return String list of clickable logos of multilingual projects
 	 *					(Meta, Commons, ...)
 	 */
 	public function listMultilingualProjects() {
@@ -132,7 +132,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String: "Welcome to Incubator" message
+	 * @return String "Welcome to Incubator" message
 	 */
 	public function showWelcome() {
 		return Html::rawElement( 'div', [ 'class' => 'wminc-infopage-welcome' ],
@@ -140,7 +140,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String: the core HTML for the info page
+	 * @return String the core HTML for the info page
 	 */
 	public function StandardInfoPage( $beforetitle, $aftertitle, $content ) {
 		global $wgLang;
