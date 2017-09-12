@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"Baloch Khan"
 		]
 	},
 	"wminc-listwikis": "د ويکي گانو لړليک",
@@ -35,6 +36,6 @@
 	"wminc-infopage-title-n": "$1 ويکيخبرونه",
 	"wminc-infopage-title-s": "$1 ويکيسرچينه",
 	"wminc-infopage-title-v": "$1 ويکيپوهنتون",
-	"wminc-infopage-title-y": "$1 ويکييون",
+	"wminc-infopage-title-y": "$1 ويکيسفر",
 	"wminc-infopage-option-multilingual": "تاسې يوې څوژبنيزې ويکي ته ورتللی شی:"
 }
