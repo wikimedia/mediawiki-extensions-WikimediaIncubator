@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mehtab ahmed",
-			"Aursani"
+			"Aursani",
+			"Indus Asia"
 		]
 	},
 	"wminc-desc": "وڪيميڊيا انڪيوبيٽر لاءِ آزمائشي وڪي جو سرشتو",
@@ -26,11 +27,11 @@
 	"randombytest": "ائآزمائشي وڪي طرفان بي ترتيب صفحو",
 	"randombytest-nopages": "توهان جي آزمائشي وڪيءَ ۾ نانءُپولار $1 اندر ڪي بہ صفحا نہ آهن.",
 	"wminc-viewuserlang": "يوزر جي ٻولي ۽ آزمائشي وڪيءَ تي نگاھہ وجهو",
-	"wminc-viewuserlang-user": "واھپ-نانءُ:",
+	"wminc-viewuserlang-user": "واھپ (يوزر)-نانءُ:",
 	"wminc-viewuserlang-go": "هلو",
 	"wminc-userdoesnotexist": "يوزر ''$1'' وجود نٿو رکي.",
 	"wminc-ip": "''$1'' هڪ آءِپي پتو آهي.",
-	"right-viewuserlang": "واھپ جي ٻولي ۽ آزمائشي وڪي ڏسو",
+	"right-viewuserlang": "واھپ (يوزر) جي ٻولي ۽ آزمائشي وڪي ڏسو",
 	"group-test-sysop": "آزمائشي وڪيءَ جا منتظم",
 	"group-test-sysop-member": "{{GENDER:$1|tآزمائشي وڪي جو منتظم}}",
 	"grouppage-test-sysop": "{{ns:project}}:آزمائشي وڪي جو منصوبو",
@@ -56,7 +57,7 @@
 	"wminc-fs-langselect-title": "ٻولي چونڊيو",
 	"wminc-fs-signup-title": "سائن اپ ڪريو",
 	"wminc-fs-settings-title": "پنھنجون وڪي ترجيحون ترتيب ڪريو",
-	"wminc-fs-userpage-title": "پنهنجو واھپصفحو سرجيو",
+	"wminc-fs-userpage-title": "پنهنجو واھپ (يوزر) صفحو سرجيو",
 	"wminc-fs-startwiki-title": "پنهنجي وڪي شروع ڪريو",
 	"wminc-fs-pagetitle-done": "- ٿي ويو!",
 	"wminc-fs-langselect": "$1 يا $2 ۾ اڳتي وڌو",
