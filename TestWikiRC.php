@@ -48,11 +48,11 @@ class TestWikiRC {
 
 		if ( $projectvalue == $wmincProjectSite['short'] ) {
 			// If project site is selected, display all changes except test wiki changes
-			$dbr = wfGetDB( DB_SLAVE );
+			$dbr = wfGetDB( DB_REPLICA );
 			$conds[] = 'rc_title NOT ' . $dbr->buildLike( 'W', $dbr->anyChar(), '/', $dbr->anyString() );
 		} elseif ( WikimediaIncubator::validatePrefix( $prefix, true ) ) {
 			// Else, display changes to the selected test wiki in the appropriate namespaces
-			$dbr = wfGetDB( DB_SLAVE );
+			$dbr = wfGetDB( DB_REPLICA );
 			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
 			$conds[] = 'rc_title ' . $dbr->buildLike( $prefix . '/', $dbr->anyString() ) .
 			' OR rc_title = ' . $dbr->addQuotes( $prefix );

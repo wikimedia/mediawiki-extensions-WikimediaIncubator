@@ -16,7 +16,7 @@ class SpecialRandomByTest extends RandomPage {
 		$project = isset( $target['project'] ) ? $target['project'] : '';
 		$lang = isset( $target['lang'] ) ? $target['lang'] : '';
 		if ( WikimediaIncubator::isContentProject() || ( $project && $lang ) ) {
-			$dbr = wfGetDB( DB_SLAVE );
+			$dbr = wfGetDB( DB_REPLICA );
 			$this->extra[] = 'page_title' .
 				$dbr->buildLike( WikimediaIncubator::displayPrefix( $project, $lang ) .
 					'/', $dbr->anyString() );
