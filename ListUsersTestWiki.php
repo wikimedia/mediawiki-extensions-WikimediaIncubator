@@ -6,7 +6,7 @@
 class ListUsersTestWiki {
 	/**
 	 * If the &testwiki= parameter matches the project site (Incubator), return that
-	 * @return Array or null
+	 * @return Array|null
 	 */
 	static function getProjectInput() {
 		global $wmincProjectSite, $wgRequest;
@@ -33,8 +33,8 @@ class ListUsersTestWiki {
 
 	/**
 	 * Show a message that you are viewing a list of users of a certain test wiki
-	 * @param $pager
-	 * @param $out
+	 * @param Pager $pager
+	 * @param string &$out
 	 * @return bool
 	 */
 	static function onSpecialListusersHeader( $pager, &$out ) {

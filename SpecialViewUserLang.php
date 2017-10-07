@@ -25,7 +25,7 @@ class SpecialViewUserLang extends SpecialPage {
 
 	/**
 	 * Show the special page
-	 * @param $subpage Mixed: parameter passed to the page or null
+	 * @param string|null $subpage parameter passed to the page or null
 	 */
 	public function execute( $subpage ) {
 		$this->setHeaders();
@@ -42,7 +42,7 @@ class SpecialViewUserLang extends SpecialPage {
 
 	/**
 	 * Show the ViewUserLang form
-	 * @param $target Mixed: user whose language and test wiki we're about to look up
+	 * @param mixed $target user whose language and test wiki we're about to look up
 	 */
 	function showForm( $target ) {
 		$form = HTMLForm::factory( 'ooui',
@@ -65,7 +65,7 @@ class SpecialViewUserLang extends SpecialPage {
 
 	/**
 	 * Retrieves and shows the user language and test wiki
-	 * @param $target Mixed: user whose language and test wiki we're looking up
+	 * @param mixed $target user whose language and test wiki we're looking up
 	 */
 	function showInfo( $target ) {
 		global $wmincPref, $wmincProjectSite;

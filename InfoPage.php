@@ -25,8 +25,8 @@
 class InfoPage {
 
 	/**
-	 * @param $title Title
-	 * @param $prefixdata
+	 * @param Title $title
+	 * @param array $prefixdata
 	 */
 	public function __construct( $title, $prefixdata ) {
 		global $wmincProjects, $wmincSisterProjects, $wgLang;
@@ -62,12 +62,12 @@ class InfoPage {
 
 	/**
 	 * Small convenience function to display a (clickable) logo
-	 * @param $project String: Project code
-	 * @param $clickable Boolean
-	 * @param $params Array
-	 * @param $url String
-	 * @param $lang String
-	 * @param $mul Boolean
+	 * @param string $project Project code
+	 * @param bool $clickable
+	 * @param array $params
+	 * @param string $url
+	 * @param string $lang
+	 * @param bool $mul
 	 * @return String
 	 */
 	public function makeLogo( $project, $clickable = true, $params = [],

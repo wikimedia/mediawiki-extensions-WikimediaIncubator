@@ -11,7 +11,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 	/**
 	 * Show the special page
-	 * @param $subpage Mixed: parameter passed to the page or null
+	 * @param string|null $subpage parameter passed to the page or null
 	 */
 	public function execute( $subpage ) {
 		global $wmincProjects, $wmincSisterProjects;
@@ -96,8 +96,8 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	}
 
 	/**
-	 * @param $projectQuery
-	 * @param $languageQuery
+	 * @param string $projectQuery
+	 * @param string $languageQuery
 	 */
 	protected function doSearch( $projectQuery, $languageQuery ) {
 		## Match project ##
@@ -159,8 +159,8 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 	/**
 	 * Improve search by increasing the chance of matches
-	 * @param $str String
-	 * @return String
+	 * @param string $str
+	 * @return string
 	 */
 	protected function strip( $str ) {
 		$str = strtolower( trim( $str ) );
@@ -170,8 +170,8 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 	/**
 	 * Go directly to the wiki if it exists, else to the Incubator test wiki
-	 * @param $project String: project code
-	 * @param $lang String: Language code
+	 * @param string $project project code
+	 * @param string $lang Language code
 	 */
 	protected function goToWiki( $project, $lang ) {
 		$lang = $this->getRootCode( $lang );
@@ -187,7 +187,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	}
 
 	/**
-	 * @param $code String
+	 * @param string $code
 	 * @return String
 	 */
 	protected function getRootCode( $code ) {
@@ -197,9 +197,9 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	}
 
 	/**
-	 * @param $project
-	 * @param $languageQuery
-	 * @param $results
+	 * @param string $project
+	 * @param string $languageQuery
+	 * @param array $results
 	 */
 	protected function showMultipleResults( $project, $languageQuery, $results ) {
 		$this->getOutput()->addHTML( '<div id="wminc-searchwiki-results">' .

@@ -14,7 +14,7 @@
 class AutoTestWiki {
 
 	/**
-	 * @param $template UsercreateTemplate|UserloginTemplate
+	 * @param UsercreateTemplate|UserloginTemplate &$template
 	 * @return bool
 	 */
 	public static function onUserCreateForm( &$template ) {
@@ -33,7 +33,7 @@ class AutoTestWiki {
 	}
 
 	/**
-	 * @param $user User
+	 * @param User $user
 	 * @return bool
 	 */
 	public static function onAddNewAccount( $user ) {

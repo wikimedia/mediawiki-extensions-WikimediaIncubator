@@ -37,7 +37,7 @@ class WikimediaIncubator {
 
 	/**
 	 * Add default preference
-	 * @param $defOpt Array
+	 * @param array &$defOpt
 	 * @return true
 	 */
 	public static function onUserGetDefaultOptions( &$defOpt ) {
@@ -50,8 +50,8 @@ class WikimediaIncubator {
 
 	/**
 	 * Add preferences
-	 * @param $user User
-	 * @param $preferences array
+	 * @param User $user
+	 * @param array &$preferences
 	 * @return true
 	 */
 	static function onGetPreferences( $user, &$preferences ) {
@@ -107,9 +107,9 @@ class WikimediaIncubator {
 
 	/**
 	 * For the preferences above
-	 * @param $input
-	 * @param $alldata
-	 * @return String or true
+	 * @param string $input
+	 * @param string $alldata
+	 * @return string|true
 	 */
 	static function validateCodePreference( $input, $alldata ) {
 		global $wmincPref;
@@ -128,8 +128,8 @@ class WikimediaIncubator {
 
 	/**
 	 * For the preferences above
-	 * @param $input
-	 * @return String or true
+	 * @param string $input
+	 * @return string|true
 	 */
 	 static function filterCodePreference( $input ) {
 		 return trim( strtolower( $input ) );
@@ -138,7 +138,7 @@ class WikimediaIncubator {
 	/**
 	 * This validates a given language code.
 	 * Only "xx[x]" and "xx[x]-x[xxxxxxxx]" are allowed.
-	 * @return Boolean
+	 * @return bool
 	 */
 	static function validateLanguageCode( $code ) {
 		global $wmincLangCodeLength;
@@ -158,10 +158,10 @@ class WikimediaIncubator {
 	 * Use validatePrefix() if you just want true or false.
 	 * Use displayPrefixedTitle() to make a prefix page title.
 	 *
-	 * @param $input Title|String The title to check (if string, don't include namespace)
-	 * @param $onlyInfoPage Bool Whether to validate only the prefix, or
+	 * @param Title|string $input The title to check (if string, don't include namespace)
+	 * @param bool $onlyInfoPage Whether to validate only the prefix, or
 	 * also allow other text within the page title (Wx/xxx vs Wx/xxx/Text)
-	 * @param $allowSister Bool Whether to allow sister projects when checking
+	 * @param bool $allowSister Whether to allow sister projects when checking
 	 * for the project code.
 	 * @return Array with 'error' or 'project', 'lang', 'prefix' and
 	 *					optionally 'realtitle'
@@ -217,9 +217,9 @@ class WikimediaIncubator {
 
 	/**
 	 * This returns simply true or false based on analyzePrefix().
-	 * @param $title Title
-	 * @param $onlyprefix bool
-	 * @return Boolean
+	 * @param Title $title
+	 * @param bool $onlyprefix
+	 * @return bool
 	 */
 	static function validatePrefix( $title, $onlyprefix = false ) {
 		$data = self::analyzePrefix( $title, $onlyprefix );
@@ -250,10 +250,10 @@ class WikimediaIncubator {
 	 * Returns the project code or name if the given project code or name (or preference by default)
 	 * is one of the projects using the format Wx/xxx (as defined in $wmincProjects)
 	 * Returns false if it is not valid.
-	 * @param $project String The project code
-	 * @param $returnName Bool Whether to return the project name instead of the code
-	 * @param $includeSister Bool Whether to include sister projects
-	 * @return String or false
+	 * @param string $project The project code
+	 * @param bool $returnName Whether to return the project name instead of the code
+	 * @param bool $includeSister Whether to include sister projects
+	 * @return string|false
 	 */
 	static function getProject( $project = '', $returnName = false, $includeSister = false ) {
 		global $wgUser, $wmincPref, $wmincProjects, $wmincSisterProjects;
@@ -279,11 +279,10 @@ class WikimediaIncubator {
 
 	/**
 	 * Returns a simple boolean based on getProject()
-	 * @param $project string
-	 * @param $returnName bool
-	 * @param $returnName bool
-	 * @param $includeSister bool
-	 * @return Bool
+	 * @param string $project
+	 * @param bool $returnName
+	 * @param bool $includeSister
+	 * @return bool
 	 */
 	static function isContentProject( $project = '', $returnName = false, $includeSister = false ) {
 		return (bool)self::getProject( $project, $returnName, $includeSister );
@@ -319,8 +318,9 @@ class WikimediaIncubator {
 
 	/**
 	 * Makes a full prefixed title of a given page title and namespace
-	 * @param $ns Int numeric value of namespace
-	 * @return object Title
+	 * @param string $title
+	 * @param int $ns numeric value of namespace
+	 * @return Title
 	 */
 	static function displayPrefixedTitle( $title, $ns = 0 ) {
 		global $wgLang, $wmincTestWikiNamespaces;
@@ -354,8 +354,8 @@ class WikimediaIncubator {
 
 	/**
 	 * Whether we should show an error message that the page is unprefixed
-	 * @param $title Title object
-	 * @return Boolean
+	 * @param Title $title Title object
+	 * @return bool
 	 */
 	static function shouldWeShowUnprefixedError( $title ) {
 		global $wmincTestWikiNamespaces, $wmincProjectSite, $wmincPseudoCategoryNSes;
@@ -467,9 +467,9 @@ class WikimediaIncubator {
 
 	/**
 	 * Convenience function to access $wgConf->get()
-	 * @param $setting String: the setting to call
-	 * @param $lang String: the language code
-	 * @param $project String: the project code or name
+	 * @param string $setting the setting to call
+	 * @param string $lang the language code
+	 * @param string $project the project code or name
 	 * @return Mixed the setting from $wgConf->settings
 	 */
 	public static function getConf( $setting, $lang, $project ) {
@@ -514,8 +514,8 @@ class WikimediaIncubator {
 	/**
 	 * Given an incubator testwiki prefix, get the database name of the
 	 * corresponding wiki, whether it exists or not
-	 * @param $prefix Array from WikimediaIncubator::analyzePrefix();
-	 * @return false or string
+	 * @param array $prefix Array from WikimediaIncubator::analyzePrefix();
+	 * @return false|string
 	 */
 	static function getDB( $prefix ) {
 		if ( !self::canWeCheckDB() ) {
@@ -549,8 +549,8 @@ class WikimediaIncubator {
 	}
 
 	/**
-	 * @param $prefix Array from WikimediaIncubator::analyzePrefix();
-	 * @return false or string 'existing' 'closed' 'missing'
+	 * @param array $prefix Array from WikimediaIncubator::analyzePrefix();
+	 * @return false|string 'existing' 'closed' 'missing'
 	 */
 	static function getDBState( $prefix ) {
 		$db = self::getDB( $prefix );
@@ -625,11 +625,11 @@ class WikimediaIncubator {
 		return true;
 	}
 
-	/*
+	/**
 	 * Use the InfoPage class to show a nice welcome page
 	 * depending on whether it belongs to an existing, closed or missing wiki
-	 * @param $article Article
-	 * @param $prefix array
+	 * @param Article $article
+	 * @param array $prefix
 	 */
 	static function onShowMissingArticleForInfoPages( $article, $prefix ) {
 		global $wgOut;
@@ -719,10 +719,10 @@ class WikimediaIncubator {
 
 	/**
 	 * This forms a URL based on the language and project.
-	 * @param $lang String Language code
-	 * @param $project String Project code or name
-	 * @param $title String Page name
-	 * @return String
+	 * @param string $lang Language code
+	 * @param string $project Project code or name
+	 * @param string $title Page name
+	 * @return string
 	 */
 	public static function getSubdomain( $lang, $project, $title = '' ) {
 		global $wgArticlePath;
@@ -732,8 +732,8 @@ class WikimediaIncubator {
 
 	/**
 	 * make "Wx/xxx/Main Page"
-	 * @param $langCode String: The language code
-	 * @param $prefix Null|String: the "Wx/xxx" prefix to add
+	 * @param string $langCode The language code
+	 * @param Null|string $prefix the "Wx/xxx" prefix to add
 	 * @return Title
 	 */
 	public static function getMainPage( $langCode, $prefix = null ) {
@@ -789,9 +789,9 @@ class WikimediaIncubator {
 	/**
 	 * Valid Wx/xyz info pages should be considered as existing pages
 	 * Note: TitleIsAlwaysKnown hook exists since 1.20
-	 * @param $title Title
-	 * @param $isKnown
-	 * @return Boolean
+	 * @param Title $title
+	 * @param bool &$isKnown
+	 * @return bool
 	 */
 	public static function onTitleIsAlwaysKnown( $title, &$isKnown ) {
 		$prefix = self::analyzePrefix( $title, true, true );
@@ -803,8 +803,8 @@ class WikimediaIncubator {
 
 	/**
 	 * Whether we should use the feature of custom logos per project
-	 * @param $title Title object
-	 * @return false or Array from analyzePrefix()
+	 * @param Title $title Title object
+	 * @return false|array Array from analyzePrefix()
 	 */
 	static function shouldWeSetCustomLogo( $title ) {
 		$prefix = self::analyzePrefix( $title );
@@ -868,8 +868,8 @@ class WikimediaIncubator {
 	/**
 	 * Search: Adapt the default message to show a more descriptive one,
 	 * along with an adapted link.
-	 * @param $title Title
-	 * @param $params array
+	 * @param Title $title
+	 * @param array &$params
 	 * @return true
 	 */
 	public static function onSpecialSearchCreateLink( $title, &$params ) {
@@ -942,8 +942,8 @@ class WikimediaIncubator {
 	}
 
 	/**
-	 * @param $url String
-	 * @param $callLinker Boolean Whether to call makeExternalLink()
+	 * @param string $url
+	 * @param bool $callLinker Whether to call makeExternalLink()
 	 */
 	public static function makeExternalLinkText( $url, $callLinker = false ) {
 		# when displaying a URL, if it contains 'http://' or 'https://' it's ok to leave it,

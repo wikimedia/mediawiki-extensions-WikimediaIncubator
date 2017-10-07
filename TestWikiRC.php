@@ -22,11 +22,11 @@ class TestWikiRC {
 	 * ChangesListSpecialPageQuery hook
 	 *
 	 * @param string $pageName
-	 * @param array $tables
-	 * @param array $fields
-	 * @param array $conds
-	 * @param array $query_options
-	 * @param array $join_conds
+	 * @param array &$tables
+	 * @param array &$fields
+	 * @param array &$conds
+	 * @param array &$query_options
+	 * @param array &$join_conds
 	 * @param FormOptions $opts
 	 * @return bool true
 	 */

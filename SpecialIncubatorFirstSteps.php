@@ -24,7 +24,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param $params
+	 * @param string|null $params
 	 */
 	public function execute( $params ) {
 		$this->wikiprefix = WikimediaIncubator::analyzePrefix( WikimediaIncubator::displayPrefix() );
@@ -44,9 +44,9 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param $msg Message object
-	 * @param $opaque bool
-	 * @param $done bool
+	 * @param Message $msg Message object
+	 * @param bool $opaque
+	 * @param bool $done
 	 */
 	protected function showHeader( $msg, $opaque = true, $done = false ) {
 		$attrs = [];
@@ -115,7 +115,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param $step
+	 * @param string $step
 	 * @return string
 	 */
 	protected function showSignup( $step ) {
@@ -148,7 +148,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param $step
+	 * @param string $step
 	 * @return string
 	 */
 	protected function showTestwikiSetting( $step ) {
@@ -169,7 +169,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param $step
+	 * @param string $step
 	 * @return string
 	 */
 	protected function showUserpage( $step ) {
@@ -202,7 +202,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param $step
+	 * @param string $step
 	 * @return string
 	 */
 	protected function showStartWiki( $step ) {
