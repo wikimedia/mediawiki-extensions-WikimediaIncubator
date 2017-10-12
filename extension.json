@@ -121,7 +121,6 @@
 		"WikimediaIncubator": "WikimediaIncubator.class.php",
 		"SpecialMyMainPage": "SpecialMyMainPage.php",
 		"TestWikiRC": "TestWikiRC.php",
-		"AutoTestWiki": "CreateAccountTestWiki.php",
 		"SpecialRandomByTest": "SpecialRandomByTest.php",
 		"InfoPage": "InfoPage.php",
 		"ListUsersTestWiki": "ListUsersTestWiki.php",
@@ -139,6 +138,14 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
 		"remoteExtPath": "WikimediaIncubator"
+	},
+	"AuthManagerAutoConfig": {
+		"primaryauth": {
+			"WikimediaIncubatorSecondaryAuthenticationProvider": {
+				"class": "WikimediaIncubatorSecondaryAuthenticationProvider",
+				"sort": 0
+			}
+		}
 	},
 	"callback": "WikimediaIncubator::onRegistration",
 	"Hooks": {
