@@ -140,7 +140,7 @@
 		"remoteExtPath": "WikimediaIncubator"
 	},
 	"AuthManagerAutoConfig": {
-		"primaryauth": {
+		"secondaryauth": {
 			"WikimediaIncubatorSecondaryAuthenticationProvider": {
 				"class": "WikimediaIncubatorSecondaryAuthenticationProvider",
 				"sort": 0
