@@ -478,8 +478,6 @@ class WikimediaIncubator {
 		$params = [
 			'lang' => $langHyphen,
 			'site' => $site,
-			# I don't see any other way than to hardcode it here (from: CommonSettings.php)
-			'stdlogo' => "//upload.wikimedia.org/$site/$langHyphen/b/bc/Wiki.png",
 		];
 		$dbSuffix = isset( $wmincProjectDatabases[$projectCode] ) ?
 			$wmincProjectDatabases[$projectCode] : $site;
