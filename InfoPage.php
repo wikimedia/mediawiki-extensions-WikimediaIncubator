@@ -95,7 +95,7 @@ class InfoPage {
 
 	/**
 	 * @return String list of clickable logos of other projects
-	 *					(Wikipedia, Wiktionary, ...)
+	 * 					(Wikipedia, Wiktionary, ...)
 	 */
 	public function listOtherProjects() {
 		global $wmincProjects, $wmincSisterProjects;
@@ -112,7 +112,7 @@ class InfoPage {
 
 	/**
 	 * @return String list of clickable logos of multilingual projects
-	 *					(Meta, Commons, ...)
+	 * 					(Meta, Commons, ...)
 	 */
 	public function listMultilingualProjects() {
 		global $wmincMultilingualProjects, $wmincProjects;

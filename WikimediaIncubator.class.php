@@ -151,7 +151,7 @@ class WikimediaIncubator {
 	 * @param bool $allowSister Whether to allow sister projects when checking
 	 * for the project code.
 	 * @return Array with 'error' or 'project', 'lang', 'prefix' and
-	 *					optionally 'realtitle'
+	 * 					optionally 'realtitle'
 	 */
 	static function analyzePrefix( $input, $onlyInfoPage = false, $allowSister = false ) {
 		$data = [ 'error' => null ];
