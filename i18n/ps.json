@@ -16,6 +16,8 @@
 	"wminc-viewuserlang-go": "ورځه",
 	"wminc-userdoesnotexist": "د $1 په نوم کارن نشته.",
 	"wminc-ip": "\"$1\" يوه آی پي پته ده.",
+	"group-test-sysop": "ازمايښتي ويکي پازوالان",
+	"grouppage-test-sysop": "{{ns:project}}:ازمايښتي ويکي پازوالان",
 	"wminc-searchwiki": "د يو ويکي پلټنه",
 	"wminc-searchwiki-noproject": "تاسې يوه پروژه نه ده ټاکلې.",
 	"wminc-searchwiki-selectproject": "پلټنه د:",
