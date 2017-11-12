@@ -5,13 +5,25 @@
 			"Baloch Khan"
 		]
 	},
+	"wminc-desc": "ازموینيز سيسټم د ويکيمېډيا اېنکیوبېټر لپاره",
 	"wminc-manual": "لارښوونيز",
 	"wminc-listwikis": "د ويکي گانو لړليک",
 	"wminc-testwiki": "د آزمېښت ويکي:",
 	"wminc-testwiki-code": "د ويکي ژبه آزمويل:",
 	"wminc-testwiki-none": "هېڅ/ټول",
+	"wminc-testwiki-site": "(کتنه)",
 	"wminc-recentchanges-all": "ټول وروستي بدلونونه",
+	"wminc-prefinfo-language": "ستاسو د کتنې ژبه - ستاسو د ازموینيز ویکي څخه خپلواکه",
 	"wminc-prefinfo-code": "ستاسې د ژبې ISO 639 کوډ چې تاسې پرې دلته کار کوۍ",
+	"wminc-prefinfo-project": "د ويکيمېډيا هغه پروژه وټاکئ چې تاسو دلته کار پرې کوئ",
+	"wminc-prefinfo-error": "تاسو هغه پروژه انتخاب کړه چې د ژبې کوډ ته اړتیا لري.",
+	"wminc-error-move-unprefixed": "تيروتنه: هغه مخ چې تاسو یې د لیږد هڅه کوې [[{{MediaWiki:Wminc-error-help}}|غوښتنه وړاندې کول او یا ناسم وړاندېز]] دي!",
+	"wminc-error-wronglangcode": "'''تېروتنه:''' د يو [[{{MediaWiki:Wminc-error-help}}|ناسمي ژبې کوډ]] په دي مخ کې کارول شوي دي: «$1»",
+	"wminc-error-unprefixed": "<strong>تېروتنه:</strong> دا مخ [[{{MediaWiki:Wminc-error-help}}|بغير اډوانس]] دي.",
+	"wminc-error-unprefixed-suggest": "<strong>تېروتنه:</strong> دا مخ [[{{MediaWiki:Wminc-error-help}}|بغير اډوانس]] دي! تاسو کولای شی یو ليکنه په [[:$1]] کي جوړه کړې.",
+	"wminc-error-wiki-exists": "دا ويکي اوس مهال شتون لري. تاسو کولای شی دا مخ په $1 کي پيدا کړي. که ويکي تازه جوړه شوی وي، مهرباني وکړئ څو ساعته یا څو ورځې انتظار وکړئ تر څو ټولي منځپانګې رامنځته شي.",
+	"wminc-error-wiki-sister": "دا پاڼه په هغه پروژې پورې اړه لري چې دلته کوربه نه ده. مهرباني وکړئ و $1 ته ورسي او ويکي پيداکړي.",
+	"randombytest": "ناټاکلی مخ د ويکي امتحاني پر بنسټ",
 	"wminc-viewuserlang-user": "کارن-نوم:",
 	"wminc-viewuserlang-go": "ورځه",
 	"wminc-userdoesnotexist": "د $1 په نوم کارن نشته.",
@@ -42,5 +54,8 @@
 	"wminc-infopage-title-y": "$1 ويکيسفر",
 	"wminc-infopage-option-multilingual": "تاسې يوې څوژبنيزې ويکي ته ورتللی شی:",
 	"wminc-infopage-contribute": "که تاسو په دي ژبه پوهيږي، نو ستاسو نه غوښتنه کيږی چي په دغه پروژه کې بدلونونه راولي!",
-	"wminc-infopage-status-beforeincubator": "دا پروژه د اېنکیوبېټر څخه مخکې جوړه شوې وه، او اوس ورته په $1 کي لاسرسي کيږی."
+	"wminc-infopage-status-open": "دا د ويکيمېډيا اېنکیوبېټر يو خلاصه ويکي ده.",
+	"wminc-infopage-status-beforeincubator": "دا پروژه د اېنکیوبېټر څخه مخکې جوړه شوې وه، او اوس ورته په $1 کي لاسرسي کيږی.",
+	"wminc-infopage-status-beforeincubator-sister": "دي پروژې ته په $1 کي لاسرسي کيږی.",
+	"wminc-infopage-error": "تېروتنه: {{#infopage}} يوازې په مخفي مخونو کې کارول کیدی شي."
 }
