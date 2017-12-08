@@ -28,5 +28,6 @@
 	"wminc-code-retired": "Този езиков код е бил променен и повече не се отнася към оригиналния език.",
 	"wminc-searchwiki-inputlanguage": "На следния език:",
 	"wminc-fs-langselect-title": "Избор на език",
-	"wminc-fs-pagetitle-done": "– готово!"
+	"wminc-fs-pagetitle-done": "– готово!",
+	"wminc-infopage-title-t": "Уикиречник $1"
 }
