@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"MokaAkashiyaPT"
+		]
+	},
+	"wminc-desc": "Sistema de biquis de testes pa la Ancubadora Wikimedia",
+	"wminc-manual": "Manual",
+	"wminc-listwikis": "Lhista de biquis",
+	"wminc-testwiki": "Biqui de testes:",
+	"wminc-testwiki-code": "Lhéngua de la biqui de teste:",
+	"wminc-testwiki-none": "Ningun/Tudo",
+	"wminc-testwiki-site": "(Manutençon)",
+	"wminc-recentchanges-all": "Todas las mudanças recientes",
+	"wminc-prefinfo-language": "La lhéngua de la interface - andependiente de la sue biqui de testes",
+	"wminc-prefinfo-code": "L código ISO 639 de la lhéngua na qual stá a trabalhar",
+	"wminc-prefinfo-project": "Scuolha l porjeto Wikimedia an que stá a trabalhar",
+	"wminc-searchwiki-gotoinfopage": "páigina de anformaçon",
+	"wminc-fs-langselect-title": "Scuolher lhéngua",
+	"wminc-fs-signup-title": "Registre-se",
+	"wminc-fs-settings-title": "Defenir la sue perfréncia de biqui",
+	"wminc-fs-userpage-title": "Criar la sue páigina de outelizador",
+	"wminc-fs-startwiki-title": "Ampeçar la sue biqui",
+	"wminc-fs-pagetitle-done": " - feito!",
+	"wminc-infopage-enter": "nabegar pa la páigina percipal",
+	"wminc-unknownlang": "(código de lhéngua çcoincido)",
+	"wminc-infopage-title-p": "Biquipédia an $1",
+	"wminc-infopage-title-b": "Biquilhibros an $1",
+	"wminc-infopage-title-t": "Biquicionairo an $1",
+	"wminc-infopage-title-q": "Wikiquote an $1",
+	"wminc-infopage-title-n": "Biquiamboras an $1",
+	"wminc-infopage-title-s": "Wikisource an $1",
+	"wminc-infopage-title-v": "Biquibersidade an $1",
+	"wminc-infopage-title-y": "Wikivoyage an $1",
+	"wminc-infopage-status-beforeincubator-sister": "Este porjeto stá çponible an $1.",
+	"wminc-infopage-error": "Erro: {{#infopage}} solo puode ser outelizada an páiginas cun prefixos."
+}
