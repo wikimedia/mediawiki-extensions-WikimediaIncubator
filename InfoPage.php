@@ -52,10 +52,10 @@ class InfoPage {
 		# wminc-infopage-title-q, wminc-infopage-title-n, wminc-infopage-title-s,
 		# wminc-infopage-title-v, wminc-infopage-title-y
 		$this->mFormatTitle = wfMessage( 'wminc-infopage-title-' . $this->mProjectCode,
-			$titleParam )->escaped();
+			$titleParam )->text();
 		if ( !$this->mLangName ) {
 			# Unknown language, add short note to title
-			$this->mFormatTitle .= ' ' . wfMessage( 'wminc-unknownlang', $this->mLangCode )->escaped();
+			$this->mFormatTitle .= ' ' . wfMessage( 'wminc-unknownlang', $this->mLangCode )->text();
 		}
 		return;
 	}
