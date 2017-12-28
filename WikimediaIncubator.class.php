@@ -675,7 +675,9 @@ class WikimediaIncubator {
 
 		$parser->getOutput()->addModuleStyles( 'WikimediaIncubator.InfoPage' );
 		$parser->getOptions()->getUserLangObj(); # we have to split the cache by language
-		$parser->getOutput()->setTitleText( $infopage->mFormatTitle ); # sets <h1> & <title>
+
+		# Set <h1> heading
+		$parser->getOutput()->setTitleText( htmlspecialchars( $infopage->mFormatTitle ) );
 
 		if ( in_array( $infopage->mSubStatus, [ 'created', 'beforeincubator' ] ) ) {
 			$return = $infopage->showExistingWiki();
