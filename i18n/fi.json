@@ -99,7 +99,7 @@
 	"wminc-infopage-createmainpage": "Syötä sana \"Etusivu\" tällä kielellä:",
 	"wminc-infopage-contribute": "Jos osaat tätä kieltä, muokkaa rohkeasti!",
 	"wminc-infopage-status-open": "Tämä on Wikimedia Hautomon avoin wiki.",
-	"wminc-infopage-status-imported": "Tämä Incubator-wiki on tuotu osoitteesta $1, kun wiki suljettiin.",
+	"wminc-infopage-status-imported": "Tämä Hautomo-wiki oli tuotu osoitteesta $1, sen sulkemisen jälkeen.",
 	"wminc-infopage-status-closedsister": "Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <strong>$2</strong>, jos haluat muokata wikiä.",
 	"wminc-infopage-status-created": "Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.",
 	"wminc-infopage-status-beforeincubator": "Tämä projekti luotiin ennen kuin Wikimedia-hautomo käynnistettiin, ja se on saatavilla osoitteessa $1.",
