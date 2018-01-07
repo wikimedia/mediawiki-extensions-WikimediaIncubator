@@ -125,6 +125,7 @@ class WikimediaIncubator {
 	/**
 	 * This validates a given language code.
 	 * Only "xx[x]" and "xx[x]-x[xxxxxxxx]" are allowed.
+	 * @param string $code
 	 * @return bool
 	 */
 	static function validateLanguageCode( $code ) {
@@ -278,7 +279,10 @@ class WikimediaIncubator {
 	/**
 	 * display the prefix by the given project and code
 	 * (or the URL &testwiki= or user preference if no parameters are given)
-	 * @return String
+	 * @param string $project
+	 * @param string $code
+	 * @param bool $allowSister
+	 * @return string
 	 */
 	static function displayPrefix( $project = '', $code = '', $allowSister = false ) {
 		global $wmincSisterProjects;
@@ -371,7 +375,11 @@ class WikimediaIncubator {
 	 * Disables editing pages belonging to existing wikis (+ shows message)
 	 * Disables creating an unprefixed page (+ shows error message)
 	 * See also: WikimediaIncubator::onShowMissingArticle()
-	 * @return Boolean
+	 * @param Title $title
+	 * @param User $user
+	 * @param string $action
+	 * @param array &$result
+	 * @return bool
 	 */
 	static function onGetUserPermissionsErrors( $title, $user, $action, &$result ) {
 		$titletext = $title->getText();
@@ -425,7 +433,11 @@ class WikimediaIncubator {
 	/**
 	 * Return an error if the user wants to move
 	 * an existing page to an unprefixed title
-	 * @return Boolean
+	 * @param string $oldtitle
+	 * @param string $newtitle
+	 * @param User $user
+	 * @param array &$error
+	 * @return bool
 	 */
 	static function checkPrefixMovePermissions( $oldtitle, $newtitle, $user, &$error ) {
 		$status = new Status();
@@ -441,6 +453,10 @@ class WikimediaIncubator {
 	 * Add a link to Special:ViewUserLang from Special:Contributions/USERNAME
 	 * if the user has 'viewuserlang' permission
 	 * Based on code from extension LookupUser made by Tim Starling
+	 * @param int $id
+	 * @param Title $nt
+	 * @param array &$links
+	 * @param SpecialPage $sp
 	 */
 	static function efLoadViewUserLangLink( $id, $nt, array &$links, SpecialPage $sp ) {
 		if ( $sp->getUser()->isAllowed( 'viewuserlang' ) ) {
@@ -486,7 +502,7 @@ class WikimediaIncubator {
 
 	/**
 	 * Do we know the databases of the existing wikis?
-	 * @return Boolean
+	 * @return bool
 	 */
 	static function canWeCheckDB() {
 		global $wmincExistingWikis, $wmincProjectDatabases;
@@ -556,6 +572,7 @@ class WikimediaIncubator {
 	 * If existing wiki: show message or redirect if &testwiki is set to that
 	 * Missing article on Wx/xx info pages: show welcome page
 	 * See also: WikimediaIncubator::onGetUserPermissionsErrors()
+	 * @param Article $article
 	 * @return True
 	 */
 	static function onShowMissingArticle( $article ) {
@@ -645,6 +662,7 @@ class WikimediaIncubator {
 
 	/**
 	 * #infopage parser function
+	 * @param Parser &$parser
 	 * @return array
 	 */
 	public static function renderParserFunction( &$parser ) {
@@ -693,7 +711,9 @@ class WikimediaIncubator {
 
 	/**
 	 * When creating a new info page, help the user by prefilling it
-	 * @return True
+	 * @param string &$text
+	 * @param Title &$title
+	 * @return true
 	 */
 	public static function onEditFormPreloadText( &$text, &$title ) {
 		$prefix = self::analyzePrefix( $title, true /* only info page */,
@@ -741,7 +761,12 @@ class WikimediaIncubator {
 
 	/**
 	 * Redirect if &goto=mainpage on info pages
-	 * @return True
+	 * @param OutputPage $output
+	 * @param string $page
+	 * @param Title $title
+	 * @param User $user
+	 * @param WebRequest $request
+	 * @return true
 	 */
 	public static function onMediaWikiPerformAction( $output, $page, $title, $user, $request ) {
 		$prefix = self::analyzePrefix( $title, true );
@@ -815,7 +840,8 @@ class WikimediaIncubator {
 	 * if it is set in MediaWiki:Incubator-logo-wx-xxx
 	 * and if accessed through &testwiki=wx/xxx
 	 * or if the user preference is set to wx/xxx
-	 * @return Boolean
+	 * @param OutputPage &$out
+	 * @return bool
 	 */
 	static function fnTestWikiLogo( &$out ) {
 		$setLogo = self::shouldWeSetCustomLogo( $out->getTitle() );
@@ -840,6 +866,8 @@ class WikimediaIncubator {
 	/**
 	 * Make the page content language depend on the test wiki
 	 * Info pages are in the user language, they're localised
+	 * @param Title $title
+	 * @param string &$pageLang
 	 * @return true
 	 */
 	static function onPageContentLanguage( $title, &$pageLang ) {
@@ -905,6 +933,9 @@ class WikimediaIncubator {
 
 	/**
 	 * Search: Add an input form to enter a test wiki prefix.
+	 * @param array &$showSections
+	 * @param string $term
+	 * @param array $opts
 	 * @return true
 	 */
 	public static function onSpecialSearchPowerBox( &$showSections, $term, $opts ) {
@@ -915,6 +946,9 @@ class WikimediaIncubator {
 
 	/**
 	 * Search: Search by default in the test wiki of the user's preference (or url &testwiki).
+	 * @param SpecialSearch $search
+	 * @param string $profile
+	 * @param SearchEngine $engine
 	 * @return true
 	 */
 	public static function onSpecialSearchSetupEngine( $search, $profile, $engine ) {
@@ -931,6 +965,7 @@ class WikimediaIncubator {
 	/**
 	 * @param string $url
 	 * @param bool $callLinker Whether to call makeExternalLink()
+	 * @return string
 	 */
 	public static function makeExternalLinkText( $url, $callLinker = false ) {
 		# when displaying a URL, if it contains 'http://' or 'https://' it's ok to leave it,

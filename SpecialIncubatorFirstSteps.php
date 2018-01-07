@@ -47,6 +47,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	 * @param Message $msg Message object
 	 * @param bool $opaque
 	 * @param bool $done
+	 * @return string
 	 */
 	protected function showHeader( $msg, $opaque = true, $done = false ) {
 		$attrs = [];

@@ -140,6 +140,9 @@ class InfoPage {
 	}
 
 	/**
+	 * @param string $beforetitle
+	 * @param string $aftertitle
+	 * @param string $content
 	 * @return String the core HTML for the info page
 	 */
 	public function StandardInfoPage( $beforetitle, $aftertitle, $content ) {

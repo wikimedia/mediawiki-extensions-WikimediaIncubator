@@ -98,6 +98,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	/**
 	 * @param string $projectQuery
 	 * @param string $languageQuery
+	 * @return string
 	 */
 	protected function doSearch( $projectQuery, $languageQuery ) {
 		## Match project ##

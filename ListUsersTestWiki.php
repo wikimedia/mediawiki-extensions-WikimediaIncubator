@@ -21,6 +21,9 @@ class ListUsersTestWiki {
 
 	/**
 	 * Input form
+	 * @param Pager $pager
+	 * @param string &$out
+	 * @return true
 	 */
 	static function onSpecialListusersHeaderForm( $pager, &$out ) {
 		$testwiki = WikimediaIncubator::getUrlParam();
@@ -53,6 +56,9 @@ class ListUsersTestWiki {
 
 	/**
 	 * Query
+	 * @param Pager $pager
+	 * @param array &$query
+	 * @return true
 	 */
 	static function onSpecialListusersQueryInfo( $pager, &$query ) {
 		$testwiki = WikimediaIncubator::getUrlParam();
