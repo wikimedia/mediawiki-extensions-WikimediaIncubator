@@ -18,6 +18,7 @@
 	"wminc-prefinfo-code": "ISO 639 kôd jezika na kom doprinosite ovdje",
 	"wminc-prefinfo-project": "Izaberite Wikimedijin projekt na kom ovdje radite",
 	"wminc-prefinfo-error": "Odabrali ste projekt koji zahtijeva kôd jezika.",
+	"wminc-error-unprefixed-suggest": "<strong>Pogrješka:</strong> Stranica [[{{MediaWiki:Wminc-error-help}}|nema predmetak]]! Možete ju stvoriti na [[:$1]].",
 	"randombytest": "Slučajna stranica prema testnom wikiju",
 	"randombytest-nopages": "Nema stranica u Vašem testnom wikiju, u imenskom prostoru: $1.",
 	"wminc-viewuserlang": "Potraži jezik i testni wiki suradnika",
