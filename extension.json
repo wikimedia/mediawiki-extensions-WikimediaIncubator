@@ -131,7 +131,6 @@
 	},
 	"ResourceModules": {
 		"WikimediaIncubator.InfoPage": {
-			"position": "top",
 			"styles": "InfoPage.css"
 		}
 	},
