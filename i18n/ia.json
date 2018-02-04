@@ -29,7 +29,7 @@
 	"wminc-viewuserlang-go": "Va",
 	"wminc-userdoesnotexist": "Le usator \"$1\" non existe.",
 	"wminc-ip": "\"$1\" es un adresse IP.",
-	"right-viewuserlang": "Vider le lingua e wiki de test de usatores",
+	"right-viewuserlang": "Vider le lingua de un usator e su wiki de test",
 	"group-test-sysop": "Administratores del wiki de test",
 	"group-test-sysop-member": "{{GENDER:$1|administrator|administratrice}} del wiki de test",
 	"grouppage-test-sysop": "{{ns:project}}:Administratores del wiki de test",

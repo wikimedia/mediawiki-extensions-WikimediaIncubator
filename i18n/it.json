@@ -10,7 +10,8 @@
 			"Melos",
 			"Nemo bis",
 			"OrbiliusMagister",
-			"Ximo17"
+			"Ximo17",
+			"McDutchie"
 		]
 	},
 	"wminc-desc": "Sistema wiki di test per Wikimedia Incubator",
@@ -38,7 +39,7 @@
 	"wminc-viewuserlang-go": "Vai",
 	"wminc-userdoesnotexist": "L'utente \"$1\" non esiste.",
 	"wminc-ip": "\"$1\" è un indirizzo IP.",
-	"right-viewuserlang": "Visualizza il linguaggio utente e prova il wiki",
+	"right-viewuserlang": "Visualizza la lingua dell'utente e il suo wiki di test",
 	"group-test-sysop": "Amministratori del wiki di prova",
 	"group-test-sysop-member": "{{GENDER:$1|amministratore|amministratrice|amministratore/trice}} del wiki di prova",
 	"grouppage-test-sysop": "{{ns:project}}:Amministratori del wiki di prova",
