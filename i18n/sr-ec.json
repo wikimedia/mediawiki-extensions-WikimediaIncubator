@@ -7,7 +7,7 @@
 			"Acamicamacaraca"
 		]
 	},
-	"wminc-desc": "Пробни вики-систем за Викимедијин инкубатор",
+	"wminc-desc": "Пробни вики-систем за Викимедијин Инкубатор",
 	"wminc-manual": "Приручник",
 	"wminc-listwikis": "Списак викија",
 	"wminc-testwiki": "Пробни вики:",
@@ -63,7 +63,7 @@
 	"wminc-infopage-option-multilingual": "Можете да одете на вишејезички вики:",
 	"wminc-infopage-createmainpage": "Унесите реч „Главна страна“ на овом језику:",
 	"wminc-infopage-contribute": "Ако познајете овај језик, препоручујемо вам да учествујете!",
-	"wminc-infopage-status-imported": "Овај вики Инкубатор је увезен из $1, по затварању викија.",
+	"wminc-infopage-status-imported": "Овај вики Инкубатор је увезен из $1, по затварању.",
 	"wminc-infopage-status-closedsister": "Овај поддомен је затворен. Идите на <strong>$2</strong> да учествујете на овом викију.",
 	"wminc-infopage-status-created": "Овај пројекат је одобрен од језичког одбора и сада је доступан на $1.",
 	"wminc-infopage-status-beforeincubator": "Овај пројекат је направљен пре почетка рада Викимедијиног Инкубатора и доступан је на $1."
