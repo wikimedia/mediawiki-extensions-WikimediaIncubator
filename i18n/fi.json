@@ -90,7 +90,7 @@
 	"wminc-infopage-title-y": "Wikimatkat $1",
 	"wminc-infopage-welcome": "Tervetuloa Wikimedia hautomoon, Wikimedia Foundationin projektiin ([[{{MediaWiki:Aboutpage}}|tietoja]])",
 	"wminc-infopage-missingwiki-text": "$1-hanketta ei ole vielä tällä kielellä.",
-	"wminc-infopage-option-startwiki": "Jos haluat aloittaa tämän wikin, voit [{{fullurl:{{FULLPAGENAME}}|action=edit}} luoda sivun] ja seurata [[{{MediaWiki:Wminc-manual-url}}|käsikirjamme ohjeita]].",
+	"wminc-infopage-option-startwiki": "Jos haluat aloittaa tämän wikin, ole hyvä ja seuraa '''[$3 näitä vaiheita]''' ja [[{{MediaWiki:Wminc-manual-url}}|käsikirjaamme]].",
 	"wminc-infopage-option-startsister": "Jos haluat aloittaa tämän wikin, mene sivulle <strong>[$2 $1]</strong>.",
 	"wminc-infopage-option-languages-existing": "Voit etsiä [//www.$1.org sivuston $1 muita kieliversioita].",
 	"wminc-infopage-option-sisterprojects-existing": "Voit etsiä nykyisiä hankkeita tällä kielellä:",
@@ -101,7 +101,9 @@
 	"wminc-infopage-status-open": "Tämä on Wikimedia Hautomon avoin wiki.",
 	"wminc-infopage-status-imported": "Tämä Hautomo-wiki oli tuotu osoitteesta $1, sen sulkemisen jälkeen.",
 	"wminc-infopage-status-closedsister": "Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <strong>$2</strong>, jos haluat muokata wikiä.",
+	"wminc-infopage-status-approved": "Tämä hautomo-wiki on hyväksytty [[meta:Special:MyLanguage/Language_committee|kielikomitean]] toimesta ja  tullaan luomaan pian.",
 	"wminc-infopage-status-created": "Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.",
 	"wminc-infopage-status-beforeincubator": "Tämä projekti luotiin ennen kuin Wikimedia-hautomo käynnistettiin, ja se on saatavilla osoitteessa $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Tämä projekti on saatavilla osoitteessa $1."
+	"wminc-infopage-status-beforeincubator-sister": "Tämä projekti on saatavilla osoitteessa $1.",
+	"wminc-infopage-error": "Virhe: {{#infopage}} voidaan käyttää vain etuliitteisillä sivuilla."
 }

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"wminc-manual": "Handvirkt",
+	"wminc-testwiki-site": "(Viðhald)",
+	"wminc-viewuserlang-user": "Notandanafn:",
+	"wminc-viewuserlang-go": "Fara",
+	"wminc-userdoesnotexist": "Notandinn „$1“ er ekki til.",
+	"wminc-searchwiki-selectproject": "Leita að:",
+	"wminc-searchwiki-go": "Fara",
+	"wminc-fs-langselect-title": "Veldu tungumál",
+	"wminc-fs-signup-title": "Nýskrá",
+	"wminc-fs-userpage-title": "Búðu til notendasíðuna þína",
+	"wminc-fs-pagetitle-done": "- búið!",
+	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-b": "Wikibooks $1",
+	"wminc-infopage-title-t": "Wiktionary $1",
+	"wminc-infopage-title-q": "Wikiquote $1",
+	"wminc-infopage-title-n": "Wikinews $1",
+	"wminc-infopage-title-s": "Wikisource $1",
+	"wminc-infopage-title-y": "Wikivoyage $1"
+}
