@@ -26,7 +26,7 @@
 	"wminc-recentchanges-all": "Kaikki viimeisimmät muutokset",
 	"wminc-prefinfo-language": "Käyttöliittymän kieli – riippumaton testiwikistäsi",
 	"wminc-prefinfo-code": "Käyttämäsi kielen ISO 639 -kielikoodi",
-	"wminc-prefinfo-project": "Valitse Wikimedia-projekti, jota työstät täällä",
+	"wminc-prefinfo-project": "Valitse Wikimedia-hanke, jota työstät täällä",
 	"wminc-prefinfo-error": "Olet valinnut projektin, joka tarvitsee kielikoodin.",
 	"wminc-error-move-unprefixed": "<strong>Virhe:</strong> Sivulla, jota yrität siirtää [[{{MediaWiki:Wminc-error-help}}|ei ole etuliitettä tai etuliite on väärin]].",
 	"wminc-error-wronglangcode": "<strong>Virhe:</strong> Tällä sivulla on [[{{MediaWiki:Wminc-error-help}}|väärä kielikoodi]] \"$1\".",
