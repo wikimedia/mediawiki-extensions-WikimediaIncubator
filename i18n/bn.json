@@ -12,6 +12,7 @@
 	"wminc-testwiki": "পরীক্ষামূলক উইকি:",
 	"wminc-testwiki-code": "পরীক্ষা উইকির ভাষা:",
 	"wminc-testwiki-none": "কিছু না/সমস্ত",
+	"wminc-testwiki-site": "(রক্ষণাবেক্ষণ)",
 	"wminc-recentchanges-all": "সকল সাম্প্রতিক পরিবর্তনসমূহ",
 	"wminc-prefinfo-language": "আপনার ইন্টারফেস ভাষা - আপনার পরীক্ষামূলক উইকি হতে স্বাধীন",
 	"wminc-prefinfo-code": "ISO 639 ভাষা কোড",
@@ -21,7 +22,10 @@
 	"wminc-viewuserlang-user": "ব্যবহারকারী নাম:",
 	"wminc-viewuserlang-go": "যাও",
 	"wminc-ip": "\"$1\" একটি আইপি ঠিকানা।",
-	"right-viewuserlang": "ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখাও",
+	"right-viewuserlang": "ব্যবহারকারী ভাষা এবং পরীক্ষামূলক উইকি দেখা",
+	"group-test-sysop": "পরীক্ষা উইকি প্রশাসক",
+	"group-test-sysop-member": "{{GENDER:$1|পরীক্ষা উইকি প্রশাসক}}",
+	"grouppage-test-sysop": "{{ns:project}}:পরীক্ষা উইকি প্রশাসক",
 	"wminc-searchwiki": "একটি উইকির জন্য অনুসন্ধান করুন",
 	"wminc-searchwiki-noproject": "আপনি কোন প্রকল্প বাছেননি।",
 	"wminc-searchwiki-inputlanguage": "ভাষায়:",
@@ -31,6 +35,7 @@
 	"wminc-fs-userpage-title": "আপনার ব্যবহারকারী পাতা তৈরি করুন",
 	"wminc-fs-startwiki-title": "আপনার উইকি শুরু করুন",
 	"wminc-fs-pagetitle-done": " - সম্পন্ন!",
+	"wminc-infopage-enter": "প্রধান পাতায় যান",
 	"wminc-infopage-title-p": "উইকিপিডিয়া $1",
 	"wminc-infopage-title-b": "উইকিবই $1",
 	"wminc-infopage-title-t": "উইকিঅভিধান $1",
@@ -38,5 +43,7 @@
 	"wminc-infopage-title-n": "উইকিসংবাদ $1",
 	"wminc-infopage-title-s": "উইকিসংকলন $1",
 	"wminc-infopage-title-v": "উইকিবিশ্ববিদ্যালয় $1",
-	"wminc-infopage-title-y": "উইকিভ্রমণ $1"
+	"wminc-infopage-title-y": "উইকিভ্রমণ $1",
+	"wminc-infopage-contribute": "আপনি যদি এই ভাষা জানেন, আপনাকে অবদান রাখতে উত্সাহিত করা হচ্ছে!",
+	"wminc-infopage-status-open": "এটি উইকিমিডিয়া ইনকিউবেটরের একটি খোলা উইকি।"
 }
