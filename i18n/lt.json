@@ -3,7 +3,8 @@
 		"authors": [
 			"Eitvys200",
 			"Hugo.arg",
-			"Matasg"
+			"Matasg",
+			"Manvydasz"
 		]
 	},
 	"wminc-desc": "Wiki testasvimo sistema Vikimedija Inkubatoriui",
@@ -36,7 +37,7 @@
 	"wminc-searchwiki-multiplematches": "Jūsų paieška atitinka šias kalbas:",
 	"wminc-searchwiki-gotoinfopage": "informacijos puslapis",
 	"wminc-infopage-enter": "eiti į Pagrindinį Puslapį",
-	"wminc-unknownlang": "(nežinoma kalba su kodu \"$1\")",
+	"wminc-unknownlang": "(nežinomas kalbos kodas)",
 	"wminc-infopage-title-p": "Vikipedija $1",
 	"wminc-infopage-title-b": "Viki knygos $1",
 	"wminc-infopage-title-t": "Viki žodynas $1",
