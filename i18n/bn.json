@@ -30,8 +30,11 @@
 	"wminc-searchwiki-noproject": "আপনি কোন প্রকল্প বাছেননি।",
 	"wminc-searchwiki-inputlanguage": "ভাষায়:",
 	"wminc-searchwiki-go": "যান",
+	"wminc-searchwiki-match-userlangname": "$1 হল একটি ভাষার নাম।",
+	"wminc-searchwiki-gotoinfopage": "তথ্য পাতা",
 	"wminc-fs-langselect-title": "ভাষা নির্বাচন করুন",
 	"wminc-fs-signup-title": "নিবন্ধন",
+	"wminc-fs-settings-title": "আপনার উইকি পছন্দ নির্ধারন করুন",
 	"wminc-fs-userpage-title": "আপনার ব্যবহারকারী পাতা তৈরি করুন",
 	"wminc-fs-startwiki-title": "আপনার উইকি শুরু করুন",
 	"wminc-fs-pagetitle-done": " - সম্পন্ন!",
@@ -44,6 +47,7 @@
 	"wminc-infopage-title-s": "উইকিসংকলন $1",
 	"wminc-infopage-title-v": "উইকিবিশ্ববিদ্যালয় $1",
 	"wminc-infopage-title-y": "উইকিভ্রমণ $1",
+	"wminc-infopage-option-sisterprojects-other": "আপনি এই ভাষায় অন্যান্য প্রকল্প অনুসন্ধান করতে পারেন:",
 	"wminc-infopage-contribute": "আপনি যদি এই ভাষা জানেন, আপনাকে অবদান রাখতে উত্সাহিত করা হচ্ছে!",
 	"wminc-infopage-status-open": "এটি উইকিমিডিয়া ইনকিউবেটরের একটি খোলা উইকি।"
 }
