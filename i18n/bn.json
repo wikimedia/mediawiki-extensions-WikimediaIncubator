@@ -26,6 +26,7 @@
 	"group-test-sysop": "পরীক্ষা উইকি প্রশাসক",
 	"group-test-sysop-member": "{{GENDER:$1|পরীক্ষা উইকি প্রশাসক}}",
 	"grouppage-test-sysop": "{{ns:project}}:পরীক্ষা উইকি প্রশাসক",
+	"wminc-search-nocreate-suggest": "আপনি \"$1\"-এর জন্য অনুসন্ধান করেছেন। আপনি আপনার উইকিতে <strong>[[$3]]</strong> শিরোনামে একটি পাতা তৈরি করতে পারেন!",
 	"wminc-searchwiki": "একটি উইকির জন্য অনুসন্ধান করুন",
 	"wminc-searchwiki-noproject": "আপনি কোন প্রকল্প বাছেননি।",
 	"wminc-searchwiki-inputlanguage": "ভাষায়:",
