@@ -40,6 +40,12 @@
 	"wminc-search-nocreate-nopref": "Doe haes gezóch achter \"$1\". Stèl dien [[Special:Preferences|teswikiveurkäör]] in zoeadet v'r dich kinnen aangaeve wèlch paasj destoe kins aanmake.",
 	"wminc-search-nocreate-suggest": "Doe haes gezóch achter \"$1\". Doe kins 'n paasj in dienem teswikieë aanmaken óp <strong>[[$3]]</strong>.",
 	"wminc-searchwiki": "Zeuk 'ne wiki",
+	"wminc-fs-pagetitle": "Ane slaag - $1",
+	"wminc-fs-langselect-title": "Sillekteer spraok",
+	"wminc-fs-signup-title": "Registreer dich",
+	"wminc-fs-settings-title": "Stèl dien wikiveurkäöre in",
+	"wminc-fs-userpage-title": "Maak dien gebroekerspagina aan",
+	"wminc-fs-startwiki-title": "Begin mit diene wiki",
 	"wminc-infopage-enter": "gank achter g'm veurblaaje",
 	"wminc-unknownlang": "(ónbekèndj spraok mid g'r koeaj \"$1\")",
 	"wminc-infopage-welcome": "Wèlkóm bie g'm Wikimedia Incubator, e perjèk dèr Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|mieër info]])"
