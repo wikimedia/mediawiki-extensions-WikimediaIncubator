@@ -1,15 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shinjiman"
+			"Shinjiman",
+			"Hello903hello"
 		]
 	},
-	"wminc-desc": "Wikimedia Incubator嘅測試wiki系統",
-	"wminc-testwiki": "測試wiki:",
+	"wminc-desc": "維基媒體菢膥機嘅測試wiki系統",
+	"wminc-listwikis": "Wiki一覽",
+	"wminc-testwiki": "測試wiki：",
 	"wminc-testwiki-none": "無/全部",
-	"wminc-prefinfo-language": "你嘅界面語言 - 響你嘅測試wiki獨立嘅",
+	"wminc-prefinfo-language": "你嘅界面語言 - 同你嘅測試wiki獨立嘅",
 	"wminc-prefinfo-code": "ISO 639語言碼",
-	"wminc-prefinfo-project": "揀Wikimedia計劃 (Incubator選項用來做一般嘅嘢)",
+	"wminc-prefinfo-project": "揀你用緊嘅維基媒體計劃",
 	"wminc-prefinfo-error": "你揀咗一個需要語言碼嘅計劃。",
-	"wminc-viewuserlang": "睇用戶語言同測試wiki"
+	"wminc-viewuserlang": "睇用戶語言同測試wiki",
+	"wminc-userdoesnotexist": "用戶「$1」唔存在。",
+	"wminc-ip": "「$1」係個IP地址。",
+	"group-test-sysop": "測試wiki管理員",
+	"group-test-sysop-member": "{{GENDER:$1|測試wiki管理員}}",
+	"grouppage-test-sysop": "{{ns:project}}:測試wiki管理員",
+	"wminc-fs-pagetitle-done": "- 搞掂！",
+	"wminc-infopage-title-p": "$1維基百科",
+	"wminc-infopage-title-b": "$1維基書本",
+	"wminc-infopage-title-t": "$1維基辭典",
+	"wminc-infopage-title-q": "$1維基語錄",
+	"wminc-infopage-title-n": "$1維基新聞",
+	"wminc-infopage-title-y": "$1維基遊埠"
 }

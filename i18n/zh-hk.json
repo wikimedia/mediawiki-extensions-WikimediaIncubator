@@ -1,8 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Hello903hello"
 		]
 	},
-	"wminc-viewuserlang-user": "用戶名稱："
+	"wminc-viewuserlang-user": "用戶名稱：",
+	"wminc-infopage-title-p": "$1維基百科",
+	"wminc-infopage-title-b": "$1維基教科書",
+	"wminc-infopage-title-t": "$1維基詞典",
+	"wminc-infopage-title-q": "$1維基語錄",
+	"wminc-infopage-title-n": "$1維基新聞",
+	"wminc-infopage-title-s": "$1維基文庫",
+	"wminc-infopage-title-v": "$1維基學院",
+	"wminc-infopage-title-y": "$1維基導遊"
 }
