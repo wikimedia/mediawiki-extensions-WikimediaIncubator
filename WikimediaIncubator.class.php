@@ -740,7 +740,7 @@ class WikimediaIncubator {
 	/**
 	 * make "Wx/xxx/Main Page"
 	 * @param string $langCode The language code
-	 * @param Null|string $prefix the "Wx/xxx" prefix to add
+	 * @param Null|string|null $prefix the "Wx/xxx" prefix to add
 	 * @return Title
 	 */
 	public static function getMainPage( $langCode, $prefix = null ) {

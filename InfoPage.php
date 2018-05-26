@@ -65,8 +65,8 @@ class InfoPage {
 	 * @param string $project Project code
 	 * @param bool $clickable
 	 * @param array $params
-	 * @param string $url
-	 * @param string $lang
+	 * @param string|null $url
+	 * @param string|null $lang
 	 * @param bool $mul
 	 * @return String
 	 */
