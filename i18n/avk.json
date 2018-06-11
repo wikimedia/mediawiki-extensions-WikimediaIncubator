@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wikimistusik"
+			"Wikimistusik",
+			"Matěj Suchánek"
 		]
 	},
 	"wminc-desc": "Weslara va wiki bolk tori Wikimedia Incubator",
@@ -30,7 +31,7 @@
 	"wminc-ip": "\"$1\" tir IP mane.",
 	"right-viewuserlang": "Wira va ava ke favesik is weslara va wiki",
 	"group-test-sysop": "Ristusik va weslarafi wiki",
-	"group-test-sysop-member": "{{GENDER:$1ristusik va weslarafi wiki}}",
+	"group-test-sysop-member": "{{GENDER:$1|ristusik va weslarafi wiki}}",
 	"grouppage-test-sysop": "{{ns:project}}:ristusik va weslarafi wiki",
 	"wminc-code-macrolanguage": "[[wikipedia:$2ava|\"$3\" ava]] tir [[wikipedia:ISO 639 veyava|veyava]], nitesa va vlevefa bewafa ava :",
 	"wminc-code-collective": "\"$1\" avabeksa va aptafa ava vols doda dem ava, yoltkirafa gu [[wikipedia:$2 language|\"$3\" languages]] vuester.",
