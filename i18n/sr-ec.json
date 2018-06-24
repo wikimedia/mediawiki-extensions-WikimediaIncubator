@@ -4,7 +4,8 @@
 			"Rancher",
 			"Михајло Анђелковић",
 			"Milicevic01",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog"
 		]
 	},
 	"wminc-desc": "Пробни вики-систем за Викимедијин Инкубатор",
@@ -45,7 +46,7 @@
 	"wminc-searchwiki-go": "Иди",
 	"wminc-fs-langselect-title": "Изаберите језик",
 	"wminc-infopage-enter": "иди на Главну страну",
-	"wminc-unknownlang": "(непознат језички код)",
+	"wminc-unknownlang": "(непознат језички кôд)",
 	"wminc-infopage-title-p": "Википедија на $1",
 	"wminc-infopage-title-b": "Викикњиге на $1",
 	"wminc-infopage-title-t": "Викиречник на $1",
