@@ -3,13 +3,14 @@
 		"authors": [
 			"Hosseinblue",
 			"Arash71",
-			"Lakzon"
+			"Lakzon",
+			"Mogoeilor"
 		]
 	},
 	"wminc-desc": "دةسگآ ویکی آزمائشی ئةرا ویکی ترۀختی(رؤشد)ویکی مدیا",
 	"wminc-manual": "راهنما/رئ نیشاندر",
 	"wminc-listwikis": "لیست ویکیةل",
-	"wminc-testwiki": ":ویکی آزمائشی",
+	"wminc-testwiki": ":ڤیکی آزمائشی",
 	"wminc-testwiki-code": ":آزمائش زوون ویکی",
 	"wminc-testwiki-none": "هؤیچ کام/کؤلّ",
 	"wminc-testwiki-site": "(ویریابین-نگهداری)",
