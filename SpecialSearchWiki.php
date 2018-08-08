@@ -232,7 +232,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 				$this->msg( 'wminc-searchwiki-match-' . $resultType,
 					$languageQuery, $langName, $resultCode )->escaped() . ' ' .
 				$this->getLanguage()->getArrow() . ' ' .
-				$this->msg( 'wminc-searchwiki-goto', $linkMainPage, $linkInfoPage )->text() .
+				$this->msg( 'wminc-searchwiki-goto', $linkMainPage, $linkInfoPage )->parse() .
 			'</li>' );
 		}
 		$this->getOutput()->addHTML( '</ul></div>' );
