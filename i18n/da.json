@@ -5,7 +5,8 @@
 			"Christian List",
 			"Froztbyte",
 			"Masz",
-			"Peter Alberti"
+			"Peter Alberti",
+			"Saederup92"
 		]
 	},
 	"wminc-desc": "Testwikisystem for Wikimedia Incubator",
@@ -26,5 +27,18 @@
 	"group-test-sysop": "Testwiki-administratorer",
 	"group-test-sysop-member": "{{GENDER:$1|testwiki-administrator}}",
 	"grouppage-test-sysop": "{{ns:project}}:Testwiki-administratorer",
-	"wminc-code-retired": "Denne sprogkode er blevet ændret og henviser ikke længere til det oprindelige sprog."
+	"wminc-code-retired": "Denne sprogkode er blevet ændret og henviser ikke længere til det oprindelige sprog.",
+	"wminc-searchwiki-selectproject": "Søg efter:",
+	"wminc-searchwiki-inputlanguage": "På sprog:",
+	"wminc-searchwiki-match-userlangname": "$1 er navnet på et sprog.",
+	"wminc-infopage-enter": "gå til forsiden",
+	"wminc-unknownlang": "(ukendt sprogkode)",
+	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-b": "Wikibooks $1",
+	"wminc-infopage-title-t": "Wiktionary $1",
+	"wminc-infopage-title-q": "Wikiquote $1",
+	"wminc-infopage-title-n": "Wikinews $1",
+	"wminc-infopage-title-s": "Wikisource $1",
+	"wminc-infopage-title-v": "Wikiversity $1",
+	"wminc-infopage-title-y": "Wikivoyage $1"
 }

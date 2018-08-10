@@ -32,7 +32,7 @@
 	"wminc-viewuserlang-user": "Корисничко име:",
 	"wminc-viewuserlang-go": "Иди",
 	"wminc-userdoesnotexist": "Корисник „$1“ не постоји.",
-	"wminc-ip": "„$1“ је ИП адреса.",
+	"wminc-ip": "„$1“ је IP адреса.",
 	"right-viewuserlang": "прегледање корисничког језика и пробног викија",
 	"group-test-sysop": "Администратори пробног викија",
 	"group-test-sysop-member": "{{GENDER:$1|администратор пробног викија|администраторка пробног викија}}",
