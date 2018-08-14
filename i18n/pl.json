@@ -11,7 +11,8 @@
 			"ToSter",
 			"Ty221",
 			"WTM",
-			"Woytecr"
+			"Woytecr",
+			"Vlad5250"
 		]
 	},
 	"wminc-desc": "Testowa wiki dla Inkubatora Wikimedia",
@@ -43,6 +44,8 @@
 	"group-test-sysop": "Administratorzy testowej wiki",
 	"group-test-sysop-member": "{{GENDER:$1|administrator|administratorka}} testowej wiki",
 	"grouppage-test-sysop": "{{ns:project}}:Administratorzy testowej wiki",
+	"group-test-sysop.css": "/* Umieszczony tutaj kod CSS dotyczyć będzie tylko administratorów testowej wiki */",
+	"group-test-sysop.js": "/* Umieszczony tutaj kod JavaScript dotyczyć będzie tylko administratorów testowej wiki */",
 	"wminc-code-macrolanguage": "[[Wikipedia:$2 language|Język $3]] jest [[wikipedia:ISO 639 macrolanguage|makrojęzykiem]], zawierającym następujące warianty języka:",
 	"wminc-code-collective": "Kod „$1“ nie odnosi się do jednego języka, a do kolekcji języków – [[wikipedia:$2 language|$3]].",
 	"wminc-code-retired": "Ten kod języka został zmieniony i nie odnosi się do wcześniej przypisanego mu języka.",

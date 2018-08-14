@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Awangba Mangang"
+		]
+	},
+	"wminc-manual": "ꯈꯨꯠꯄꯥꯏ",
+	"wminc-listwikis": "ꯋꯤꯀꯤꯁꯤꯡ ꯄꯔꯤꯡ ꯅꯥꯏꯅ",
+	"wminc-testwiki": "ꯋꯤꯀꯤ ꯆꯥꯡꯌꯦꯡꯅꯕ:",
+	"wminc-testwiki-code": "ꯋꯤꯀꯤ ꯂꯣꯟꯒꯤ ꯆꯥꯡꯌꯦꯡꯅꯕ:",
+	"wminc-testwiki-none": "ꯂꯩꯇꯦ/ꯄꯨꯂꯞ",
+	"wminc-testwiki-site": "(ꯆꯞꯆꯥꯅ ꯇꯧꯔꯤꯕ)",
+	"wminc-recentchanges-all": "ꯀꯨꯏꯗꯔꯤꯕ ꯑꯍꯣꯡꯕꯁꯤꯡ ꯄꯨꯝꯅꯃꯛ",
+	"wminc-viewuserlang-user": "ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯃꯃꯤꯡ:",
+	"wminc-viewuserlang-go": "ꯆꯠꯂꯨ",
+	"wminc-userdoesnotexist": "ꯁꯤꯖꯤꯟꯅꯔꯤꯕ \"$1\" ꯁꯤ ꯂꯩꯇꯦ ꯫",
+	"wminc-ip": "\"$1\" ꯁꯤ IP ꯂꯩꯐꯝ ꯅꯤ ꯫",
+	"wminc-searchwiki-selectproject": "ꯊꯤꯕꯅꯤ:",
+	"wminc-searchwiki-inputlanguage": "ꯂꯣꯟ ꯃꯅꯨꯡꯗ:",
+	"wminc-searchwiki-go": "ꯆꯠꯂꯨ",
+	"wminc-searchwiki-multiplematches": "ꯅꯪꯅ ꯊꯤꯔꯤꯕꯗꯨ ꯃꯈꯥꯒꯤ ꯂꯣꯟꯁꯤꯒ ꯃꯥꯟꯅꯩ ꯫",
+	"wminc-searchwiki-match-langcode": "\"$1\" ꯁꯤ ꯑꯥꯏ ꯑꯦꯁ ꯑꯣ ꯶꯳꯹ $2 ꯂꯣꯟꯒꯤ ꯃꯍꯨꯠꯁꯤꯟꯕꯅꯤ ꯫",
+	"wminc-searchwiki-match-userlangname": "$1 ꯁꯤ ꯂꯣꯟ ꯱ꯒꯤ ꯃꯃꯤꯡ ꯫",
+	"wminc-searchwiki-match-englishname": "\"$1\" ꯁꯤꯅ $2 ꯒꯤ ꯃꯃꯤꯡꯅꯤ ꯏꯦꯂꯤꯁꯇꯥ ꯫",
+	"wminc-searchwiki-match-nativename": "\"$1\" ꯁꯤꯅ $2 ꯂꯣꯟ ꯑꯗꯨꯒꯤ ꯃꯃꯤꯡꯅꯤ ꯫",
+	"wminc-searchwiki-gotoinfopage": "ꯂꯥꯃꯥꯏ ꯋꯥꯔꯣꯜ",
+	"wminc-fs-langselect-title": "ꯂꯣꯟ ꯈꯟꯂꯨ",
+	"wminc-fs-signup-title": "ꯈꯨꯠꯌꯦꯛ ꯄꯤꯈꯠꯂꯨ",
+	"wminc-fs-settings-title": "ꯅꯪꯒꯤ ꯋꯤꯀꯤ ꯄ꯭ꯔꯤꯐꯔꯦꯟꯁ ꯁꯦꯝꯃꯨ",
+	"wminc-fs-userpage-title": "ꯅꯪꯒꯤ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯂꯥꯃꯥꯏ ꯁꯦꯝꯃꯨ",
+	"wminc-fs-startwiki-title": "ꯅꯪꯒꯤ ꯋꯤꯀꯤꯗꯨ ꯍꯧꯔꯣ",
+	"wminc-fs-pagetitle-done": "-ꯇꯧꯔꯦ!",
+	"wminc-infopage-title-p": "ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ $1",
+	"wminc-infopage-title-b": "ꯋꯤꯀꯤꯂꯥꯏꯔꯤꯛꯁꯤꯡ $1",
+	"wminc-infopage-title-t": "ꯋꯤꯀꯤꯁꯟꯅꯔꯤ $1",
+	"wminc-infopage-title-q": "ꯋꯤꯀꯤꯀꯣꯠ $1",
+	"wminc-infopage-title-n": "ꯋꯤꯀꯤꯄꯥꯎꯁꯤꯡ $1",
+	"wminc-infopage-title-s": "ꯋꯤꯀꯤꯍꯧꯔꯛꯐꯝ $1",
+	"wminc-infopage-title-v": "ꯋꯤꯀꯤꯕꯔꯁꯤꯇꯤ $1",
+	"wminc-infopage-title-y": "ꯋꯤꯀꯤꯕꯣꯌꯦꯁ $1",
+	"wminc-infopage-welcome": "ꯂꯦꯡꯁꯤꯟꯕꯤꯔꯛꯁꯤ ꯋꯤꯀꯤꯃꯦꯗꯤꯌꯥ ꯏꯟꯀꯨꯕꯦꯇꯔ ꯗꯥ |ꯋꯤꯀꯤꯃꯦꯗꯤꯌꯥ ꯃꯈꯣꯡ ꯁꯦꯝꯒꯠꯂꯛꯅꯕ ꯊꯧꯔꯥꯡꯁꯤꯡ ([[{{MediaWiki:Aboutpage}}|ꯃꯔꯝꯗ]]) ꯫"
+}
