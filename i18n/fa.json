@@ -12,7 +12,8 @@
 			"Sahim",
 			"ZxxZxxZ",
 			"Pouyana",
-			"Alirezaaa"
+			"Alirezaaa",
+			"Ladsgroup"
 		]
 	},
 	"wminc-desc": "سامانهٔ ویکی آزمایشی برای ویکی‌رشد ویکی‌مدیا",
@@ -98,7 +99,7 @@
 	"wminc-infopage-createmainpage": "کلمه «صفحهٔ اصلی» برای این زبان را وارد کنید:",
 	"wminc-infopage-contribute": "اگر شما این زبان را می‌دانید، شما به مشارکت در آن تشویق شده‌اید!",
 	"wminc-infopage-status-open": "این یک ویکی باز اینکیوباتور ویکی‌مدیا است.",
-	"wminc-infopage-status-imported": "این ویکی در حال رشد پس از بسته شدن از نشانی $1 وارد شده است.",
+	"wminc-infopage-status-imported": "این ویکی در حال رشد پس از بسته شدن از نشانی $1 وارد شد.",
 	"wminc-infopage-status-closedsister": "این دامنه بسته شد. برای همکاری در این ویکی به <strong> $2 </strong> بروید.",
 	"wminc-infopage-status-approved": "این ویکی اینکیوباتور توسط [[meta:Special:MyLanguage/Language_committee|language committee]] تأیید شده و به زودی ایجاد خواهد‌شد.",
 	"wminc-infopage-status-created": "این پروژه توسط کمیته زبان تصویب شده است و در نشانی $1 در دسترس است.",
