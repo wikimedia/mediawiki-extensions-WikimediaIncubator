@@ -57,7 +57,6 @@ class InfoPage {
 			# Unknown language, add short note to title
 			$this->mFormatTitle .= ' ' . wfMessage( 'wminc-unknownlang', $this->mLangCode )->text();
 		}
-		return;
 	}
 
 	/**
