@@ -5,6 +5,7 @@
 			"Dr Lotus Black"
 		]
 	},
+	"wminc-desc": "ဝီကီမီဒီယာ အင်ကျူဘေတာအတွက် စမ်းသပ်ဝီကီစနစ်",
 	"wminc-manual": "လမ်းညွှန်",
 	"wminc-listwikis": "ဝီကီများစာရင်း",
 	"wminc-testwiki": "စမ်းသပ်ဝီကီ:",
@@ -14,6 +15,7 @@
 	"wminc-recentchanges-all": "လတ်တလော ပြောင်းလဲမှုများအားလုံး",
 	"wminc-prefinfo-language": "သင်၏ အတွင်းမျက်နှာပြင်ဘာသာစကား - သင်၏စမ်းသပ်ဝီကီမှ သီးခြားဖြစ်သည်",
 	"wminc-prefinfo-project": "ဤနေရာတွင် သင်လုပ်ကိုင်နေသည့် ဝီကီမီဒီယာပရောဂျက်ကို ရွေးချယ်ပါ",
+	"wminc-prefinfo-error": "ဘာသာစကားကုဒ်တစ်ခုလိုအပ်သော ပရောဂျက်တစ်ခုကို သင် ရွေးချယ်ခဲ့သည်။",
 	"randombytest": "စမ်းသပ်ဝီကီအလိုက် ကျပန်းစာမျက်နှာ",
 	"wminc-viewuserlang-user": "မှတ်​ပုံ​တင်​အ​မည်:",
 	"wminc-viewuserlang-go": "သွားပါ",
@@ -51,5 +53,6 @@
 	"wminc-infopage-option-sisterprojects-existing": "ဤဘာသာစကားရှိ ရှိနှင့်ပြီးသား ပရောဂျက်များကို ရှာဖွေနိုင်ပါသည်",
 	"wminc-infopage-option-sisterprojects-other": "ဤဘာသာစကားရှိ အခြားပရောဂျက်များကို ရှာဖွေနိုင်ပါသည်",
 	"wminc-infopage-contribute": "ဤဘာသာစကားကို သင် နားလည်ပါက ပံ့ပိုးပေးရန် အားပေးပါသည်",
+	"wminc-infopage-status-open": "ဤသည် ဝီကီမီဒီယာ အင်ကျူဘေတာ၏ ပွင့်လင်းစမ်းသပ်ဝီကီတစ်ခု ဖြစ်ပါသည်။",
 	"wminc-infopage-status-beforeincubator-sister": "ဤပရောဂျက်သည် $1 အောက်တွင် ရရှိနိုင်ပါသည်။"
 }
