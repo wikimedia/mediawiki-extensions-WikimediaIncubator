@@ -5,6 +5,17 @@
 			"Obaid Raza"
 		]
 	},
+	"wminc-manual": "دستی",
+	"wminc-listwikis": "ویکیپیڈیان لسٹ",
+	"wminc-testwiki-code": "آزمائشی ویکیپیڈیا",
+	"wminc-testwiki-site": "(بحالی)",
+	"wminc-viewuserlang-user": "ممبارو نم",
+	"wminc-viewuserlang-go": "Go/بوغے",
+	"wminc-searchwiki-selectproject": "تلاش برائے",
+	"wminc-searchwiki-go": "Go/بوغے",
+	"wminc-searchwiki-gotoinfopage": "معلوماتن صفحہ",
+	"wminc-fs-langselect-title": "زبانو انتخابو کورے",
+	"wminc-fs-signup-title": "لاگن بوس",
 	"wminc-infopage-enter": "آویلو صفحا بوغے",
 	"wminc-unknownlang": "نامعلوم زبانو کوڈ",
 	"wminc-infopage-title-p": "$1 ویکیپیڈیا",
@@ -14,5 +25,6 @@
 	"wminc-infopage-title-n": "ویکی خبار $1",
 	"wminc-infopage-title-s": "ویکی سورس $1",
 	"wminc-infopage-title-v": "ویکی یونیورسٹی $1",
+	"wminc-infopage-title-y": "ویکی سفرنامہ",
 	"wminc-infopage-welcome": "ویکیپیڈیا اینکوبیٹرا رحمت عزیز چترالی پساتے خوشان گیور ریران, ویکی میڈیا فاونڈیشن اوچے کھوار اکیڈمیو ای کھوار پروجیکٹ ([[{{MediaWiki:Aboutpage}}|About]])"
 }
