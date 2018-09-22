@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rul1902"
+		]
+	},
+	"wminc-desc": "ဝီႋကေဝ်ႋမီဒီယ်ု အ်ုကျူပ်ုတာႋအ်ုၯင်း အင်းၜူးဝီႋကေဝ်ႋစ်ုနစ်",
+	"wminc-manual": "ၮဲကျံင်းဖၠံင်",
+	"wminc-listwikis": "ဝီႋကေဝ်ႋစ်ုရင့်လ်ုဖး",
+	"wminc-testwiki": "အင်းၜူး ဝီႋကေဝ်ႋ",
+	"wminc-testwiki-code": "အင်းၜူး ဝီႋကေဝ်ႋ ဆ်ုခၠါင်ဘာႋသာ့:",
+	"wminc-testwiki-none": "လ်ုမွာဲၮင်ႋဍူၜး/လုက်ဆိင့်",
+	"wminc-testwiki-site": "(အင်းထိင်အင်းတာင်)",
+	"wminc-recentchanges-all": "အ်ုခါ့ ဆ်ုအင်းလယ်သာ့လ်ုဖး",
+	"wminc-prefinfo-language": "ၮ်ု အ်ုတၞယ်လိက်မေံဆ်ုခၠါင်ဘာႋသာ့ၮှ် - ၮ်ုအင်းၜူးဝီႋကေဝ်ႋယိုဝ် အှ်လ်ုၜးဍံင်ဝး",
+	"wminc-viewuserlang-user": "က်ုဆာႋမၠိင်:",
+	"wminc-viewuserlang-go": "လေဝ်ႋ",
+	"wminc-searchwiki": "ဝီႋကေဝ်ႋလ်ုၮါင်းအ်ုၯင်း မ်ုအင်းၰူ့",
+	"wminc-searchwiki-selectproject": "မ်ုအင်းၰူ့ၮ်ှ:",
+	"wminc-searchwiki-inputlanguage": "ဆ်ုခၠါင်ဘာႋသာ့ဖိုင်:",
+	"wminc-searchwiki-go": "လေဝ်ႋ",
+	"wminc-searchwiki-gotoinfopage": "လိက်မေံၜၠာ် အ်ုၯာင်ႋအ်ုကျံင်",
+	"wminc-fs-langselect-title": "မ်ုဃွှီႋ ဆ်ုခၠါင်ဘာႋသာ့",
+	"wminc-fs-signup-title": "ပ္တုံအင်းဆာႋ",
+	"wminc-fs-pagetitle-done": " - ၯင်းယာ့",
+	"wminc-infopage-enter": "မ်ုလေဝ်ႋ လိက်မေံခေါဟ်အိုဝ်",
+	"wminc-infopage-status-beforeincubator-sister": "ပ်ုရောဲဂျက်ယိုဝ် $1 ဖင့်လာႋ ၮေဝ်ႋသှ်ေလှ်။"
+}
