@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Elisardojm"
+			"Elisardojm",
+			"Navhy"
 		]
 	},
 	"wminc-desc": "Sistema wiki de probas para a Incubadora da Wikimedia",
@@ -45,7 +46,7 @@
 	"wminc-searchwiki": "Procurar un wiki",
 	"wminc-searchwiki-noproject": "Non seleccionou proxecto ningún.",
 	"wminc-searchwiki-noresults": "Non houbo resultados. Pode procurar segundo códigos de lingua, nomes nativos e nomes na lingua da interface ou en inglés.",
-	"wminc-searchwiki-selectproject": "Buscar:",
+	"wminc-searchwiki-selectproject": "Procurar:",
 	"wminc-searchwiki-inputlanguage": "En lingua:",
 	"wminc-searchwiki-go": "Ir",
 	"wminc-searchwiki-multiplematches": "A procura coincide coas seguintes linguas:",
