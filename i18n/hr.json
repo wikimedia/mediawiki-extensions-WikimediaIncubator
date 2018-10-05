@@ -18,7 +18,11 @@
 	"wminc-prefinfo-code": "ISO 639 kôd jezika na kom doprinosite ovdje",
 	"wminc-prefinfo-project": "Izaberite Wikimedijin projekt na kom ovdje radite",
 	"wminc-prefinfo-error": "Odabrali ste projekt koji zahtijeva kôd jezika.",
+	"wminc-error-move-unprefixed": "<strong>Pogrješka:</strong> stranica koju želite premjestiti [[{{MediaWiki:Wminc-error-help}}|nema prefiks ili je on pogrješan]].",
+	"wminc-error-wronglangcode": "<strong>Pogrješka:</strong> Ova stranica sadržava [[{{MediaWiki:Wminc-error-help}}|pogrješan jezični kôd]] »$1«.",
+	"wminc-error-unprefixed": "<strong>Pogrješka:</strong> Ova stranica [[{{MediaWiki:Wminc-error-help}}|nema prefiks]].",
 	"wminc-error-unprefixed-suggest": "<strong>Pogrješka:</strong> Stranica [[{{MediaWiki:Wminc-error-help}}|nema predmetak]]! Možete ju stvoriti na [[:$1]].",
+	"wminc-error-wiki-exists": "Ovaj wiki već postoji. Stranicu možete naći na $1. Ako je wiki nedavno stvoren, pričekajte nekoliko sati ili dana dok se ne uveze cjelokupan sadržaj.",
 	"randombytest": "Slučajna stranica prema testnom wikiju",
 	"randombytest-nopages": "Nema stranica u Vašem testnom wikiju, u imenskom prostoru: $1.",
 	"wminc-viewuserlang": "Potraži jezik i testni wiki suradnika",
@@ -34,6 +38,7 @@
 	"wminc-code-retired": "Ovaj je jezični kôd izmijenjen i više se ne odnosi na prvobitni jezik.",
 	"wminc-listusers-testwiki": "Pregled popisa suradnika koji su postavili probni wiki na $1.",
 	"wminc-fs-pagetitle-done": " – gotovo!",
+	"wminc-infopage-enter": "pođi na Glavnu stranicu",
 	"wminc-unknownlang": "(nepoznat jezični kôd)",
 	"wminc-infopage-title-p": "Wikipedija na jeziku: $1",
 	"wminc-infopage-title-b": "Wikiknjige na jeziku: $1",
@@ -44,5 +49,7 @@
 	"wminc-infopage-title-v": "Wikiučilište na jeziku: $1",
 	"wminc-infopage-title-y": "Wikiputovanja na jeziku: $1",
 	"wminc-infopage-welcome": "Dobro došli na Wikimedijin Inkubator — projekt Zaklade Wikimedije ([[{{MediaWiki:Aboutpage}}|O projektu]])",
-	"wminc-infopage-missingwiki-text": "Na ovom jeziku još ne postoji $1."
+	"wminc-infopage-missingwiki-text": "Na ovom jeziku još ne postoji $1.",
+	"wminc-infopage-option-sisterprojects-other": "Možete pretražiti druge projekte na ovom jeziku:",
+	"wminc-infopage-contribute": "Ako znate ovaj jezik, ohrabrujemo Vas da doprinosite!"
 }
