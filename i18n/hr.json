@@ -37,6 +37,7 @@
 	"wminc-code-collective": "Kod »$1« ne odnosi se na pojedinačni jezik, već na skup jezika – u ovom slučaju – [[wikipedia:$2 language|»$3«]].",
 	"wminc-code-retired": "Ovaj je jezični kôd izmijenjen i više se ne odnosi na prvobitni jezik.",
 	"wminc-listusers-testwiki": "Pregled popisa suradnika koji su postavili probni wiki na $1.",
+	"wminc-searchwiki": "Pronađi wiki",
 	"wminc-fs-pagetitle-done": " – gotovo!",
 	"wminc-infopage-enter": "pođi na Glavnu stranicu",
 	"wminc-unknownlang": "(nepoznat jezični kôd)",
