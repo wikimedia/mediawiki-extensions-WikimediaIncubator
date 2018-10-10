@@ -52,5 +52,7 @@
 	"wminc-infopage-welcome": "Dobro došli na Wikimedijin Inkubator — projekt Zaklade Wikimedije ([[{{MediaWiki:Aboutpage}}|O projektu]])",
 	"wminc-infopage-missingwiki-text": "Na ovom jeziku još ne postoji $1.",
 	"wminc-infopage-option-sisterprojects-other": "Možete pretražiti druge projekte na ovom jeziku:",
-	"wminc-infopage-contribute": "Ako znate ovaj jezik, ohrabrujemo Vas da doprinosite!"
+	"wminc-infopage-option-multilingual": "Također, možete poći na višejezične wikije:",
+	"wminc-infopage-contribute": "Ako znate ovaj jezik, ohrabrujemo Vas da doprinosite!",
+	"wminc-infopage-status-beforeincubator": "Ovaj projekt stvoren je prije početka rada Wikimedijinoga Inkubatora, te je dostupan na $1."
 }
