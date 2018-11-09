@@ -5,7 +5,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		parent::__construct( 'SearchWiki' );
 	}
 
-	function getDescription() {
+	public function getDescription() {
 		return $this->msg( 'wminc-searchwiki' )->plain();
 	}
 

@@ -19,7 +19,7 @@ class SpecialViewUserLang extends SpecialPage {
 	/**
 	 * @return String
 	 */
-	function getDescription() {
+	public function getDescription() {
 		return $this->msg( 'wminc-viewuserlang' )->plain();
 	}
 
@@ -44,7 +44,7 @@ class SpecialViewUserLang extends SpecialPage {
 	 * Show the ViewUserLang form
 	 * @param mixed $target user whose language and test wiki we're about to look up
 	 */
-	function showForm( $target ) {
+	public function showForm( $target ) {
 		$form = HTMLForm::factory( 'ooui',
 			[ 'Target' => [
 				'type' => 'user',
@@ -67,7 +67,7 @@ class SpecialViewUserLang extends SpecialPage {
 	 * Retrieves and shows the user language and test wiki
 	 * @param mixed $target user whose language and test wiki we're looking up
 	 */
-	function showInfo( $target ) {
+	public function showInfo( $target ) {
 		global $wmincPref, $wmincProjectSite;
 		$user = User::newFromName( $target );
 		if ( User::isIP( $target ) || !$user ) {
