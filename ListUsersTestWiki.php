@@ -8,7 +8,7 @@ class ListUsersTestWiki {
 	 * If the &testwiki= parameter matches the project site (Incubator), return that
 	 * @return Array|null
 	 */
-	static function getProjectInput() {
+	public static function getProjectInput() {
 		global $wmincProjectSite, $wgRequest;
 		$input = strtolower( $wgRequest->getVal( 'testwiki' ) );
 		if ( $input == strtolower( $wmincProjectSite['name'] )
@@ -25,7 +25,7 @@ class ListUsersTestWiki {
 	 * @param string &$out
 	 * @return true
 	 */
-	static function onSpecialListusersHeaderForm( $pager, &$out ) {
+	public static function onSpecialListusersHeaderForm( $pager, &$out ) {
 		$testwiki = WikimediaIncubator::getUrlParam();
 		$project = self::getProjectInput();
 		$input = $project ? $project['name'] : ( $testwiki ? $testwiki['prefix'] : null );
@@ -40,7 +40,7 @@ class ListUsersTestWiki {
 	 * @param string &$out
 	 * @return bool
 	 */
-	static function onSpecialListusersHeader( $pager, &$out ) {
+	public static function onSpecialListusersHeader( $pager, &$out ) {
 		$project = self::getProjectInput();
 		if ( $project ) {
 			$out .= wfMessage( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parseAsBlock();
@@ -60,7 +60,7 @@ class ListUsersTestWiki {
 	 * @param array &$query
 	 * @return true
 	 */
-	static function onSpecialListusersQueryInfo( $pager, &$query ) {
+	public static function onSpecialListusersQueryInfo( $pager, &$query ) {
 		$testwiki = WikimediaIncubator::getUrlParam();
 		$project = self::getProjectInput();
 		if ( !$project && !$testwiki ) {

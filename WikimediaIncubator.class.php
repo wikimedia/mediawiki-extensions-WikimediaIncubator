@@ -41,7 +41,7 @@ class WikimediaIncubator {
 	 * @param array &$preferences
 	 * @return true
 	 */
-	static function onGetPreferences( $user, &$preferences ) {
+	public static function onGetPreferences( $user, &$preferences ) {
 		global $wmincPref, $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
 
 		$preferences['language']['help-message'] = 'wminc-prefinfo-language';
@@ -81,7 +81,7 @@ class WikimediaIncubator {
 	 * to suggest common language codes
 	 * @return string HTML
 	 */
-	static function getTestWikiLanguages() {
+	private static function getTestWikiLanguages() {
 		$list = Language::fetchLanguageNames( null, 'all' );
 		$t = '<datalist id="wminc-testwiki-codelist">' . "\n";
 		foreach ( $list as $code => $name ) {
@@ -98,7 +98,7 @@ class WikimediaIncubator {
 	 * @param string $alldata
 	 * @return string|true
 	 */
-	static function validateCodePreference( $input, $alldata ) {
+	public static function validateCodePreference( $input, $alldata ) {
 		global $wmincPref;
 		# If the user selected a project that NEEDS a language code,
 		# but the user DID NOT enter a valid language code, give an error
@@ -118,9 +118,9 @@ class WikimediaIncubator {
 	 * @param string $input
 	 * @return string|true
 	 */
-	 static function filterCodePreference( $input ) {
-		 return trim( strtolower( $input ) );
-	 }
+	public static function filterCodePreference( $input ) {
+		return trim( strtolower( $input ) );
+	}
 
 	/**
 	 * This validates a given language code.
@@ -128,7 +128,7 @@ class WikimediaIncubator {
 	 * @param string $code
 	 * @return bool
 	 */
-	static function validateLanguageCode( $code ) {
+	public static function validateLanguageCode( $code ) {
 		global $wmincLangCodeLength;
 		if ( strlen( $code ) > $wmincLangCodeLength ) {
 			return false;
@@ -154,7 +154,7 @@ class WikimediaIncubator {
 	 * @return Array with 'error' or 'project', 'lang', 'prefix' and
 	 * 					optionally 'realtitle'
 	 */
-	static function analyzePrefix( $input, $onlyInfoPage = false, $allowSister = false ) {
+	public static function analyzePrefix( $input, $onlyInfoPage = false, $allowSister = false ) {
 		$data = [ 'error' => null ];
 		if ( $input instanceof Title ) {
 			global $wmincTestWikiNamespaces;
@@ -209,7 +209,7 @@ class WikimediaIncubator {
 	 * @param bool $onlyprefix
 	 * @return bool
 	 */
-	static function validatePrefix( $title, $onlyprefix = false ) {
+	public static function validatePrefix( $title, $onlyprefix = false ) {
 		$data = self::analyzePrefix( $title, $onlyprefix );
 		return !$data['error'];
 	}
@@ -219,7 +219,7 @@ class WikimediaIncubator {
 	 * Returns the array of analyzePrefix() on success.
 	 * @return Array or false
 	 */
-	static function getUrlParam() {
+	public static function getUrlParam() {
 		global $wgRequest;
 		$urlParam = $wgRequest->getVal( 'testwiki' );
 		if ( !$urlParam ) {
@@ -243,7 +243,7 @@ class WikimediaIncubator {
 	 * @param bool $includeSister Whether to include sister projects
 	 * @return string|false
 	 */
-	static function getProject( $project = '', $returnName = false, $includeSister = false ) {
+	public static function getProject( $project = '', $returnName = false, $includeSister = false ) {
 		global $wgUser, $wmincPref, $wmincProjects, $wmincSisterProjects;
 		$url = self::getUrlParam();
 		if ( $project ) {
@@ -272,7 +272,9 @@ class WikimediaIncubator {
 	 * @param bool $includeSister
 	 * @return bool
 	 */
-	static function isContentProject( $project = '', $returnName = false, $includeSister = false ) {
+	public static function isContentProject(
+		$project = '', $returnName = false, $includeSister = false
+	) {
 		return (bool)self::getProject( $project, $returnName, $includeSister );
 	}
 
@@ -284,7 +286,7 @@ class WikimediaIncubator {
 	 * @param bool $allowSister
 	 * @return string
 	 */
-	static function displayPrefix( $project = '', $code = '', $allowSister = false ) {
+	public static function displayPrefix( $project = '', $code = '', $allowSister = false ) {
 		global $wmincSisterProjects;
 		if ( $project && $code ) {
 			$projectvalue = $project;
@@ -313,7 +315,7 @@ class WikimediaIncubator {
 	 * @param int $ns numeric value of namespace
 	 * @return Title
 	 */
-	static function displayPrefixedTitle( $title, $ns = 0 ) {
+	private static function displayPrefixedTitle( $title, $ns = 0 ) {
 		global $wgLang, $wmincTestWikiNamespaces;
 		if ( in_array( $ns, $wmincTestWikiNamespaces ) ) {
 			/* Standard namespace as defined by
@@ -332,12 +334,12 @@ class WikimediaIncubator {
 		return $title;
 	}
 
-	static function magicWordVariable( &$magicWords ) {
+	public static function magicWordVariable( &$magicWords ) {
 		$magicWords[] = 'usertestwiki';
 		return true;
 	}
 
-	static function magicWordValue( &$parser, &$cache, &$magicWordId, &$ret ) {
+	public static function magicWordValue( &$parser, &$cache, &$magicWordId, &$ret ) {
 		$p = self::displayPrefix();
 		$ret = $p ? $p : 'none';
 		return true;
@@ -348,7 +350,7 @@ class WikimediaIncubator {
 	 * @param Title $title Title object
 	 * @return bool
 	 */
-	static function shouldWeShowUnprefixedError( $title ) {
+	public static function shouldWeShowUnprefixedError( $title ) {
 		global $wmincTestWikiNamespaces, $wmincProjectSite, $wmincPseudoCategoryNSes;
 		$prefixdata = self::analyzePrefix( $title->getText() );
 		$ns = $title->getNamespace();
@@ -381,7 +383,7 @@ class WikimediaIncubator {
 	 * @param array &$result
 	 * @return bool
 	 */
-	static function onGetUserPermissionsErrors( $title, $user, $action, &$result ) {
+	public static function onGetUserPermissionsErrors( $title, $user, $action, &$result ) {
 		$titletext = $title->getText();
 		$prefixdata = self::analyzePrefix( $titletext );
 
@@ -439,7 +441,7 @@ class WikimediaIncubator {
 	 * @param array &$error
 	 * @return bool
 	 */
-	static function checkPrefixMovePermissions( $oldtitle, $newtitle, $user, &$error ) {
+	public static function checkPrefixMovePermissions( $oldtitle, $newtitle, $user, &$error ) {
 		$status = new Status();
 		self::onMovePageIsValidMove( $oldtitle, $newtitle, $status );
 		if ( !$status->isOK() ) {
@@ -458,7 +460,7 @@ class WikimediaIncubator {
 	 * @param array &$links
 	 * @param SpecialPage $sp
 	 */
-	static function efLoadViewUserLangLink( $id, $nt, array &$links, SpecialPage $sp ) {
+	public static function efLoadViewUserLangLink( $id, $nt, array &$links, SpecialPage $sp ) {
 		if ( $sp->getUser()->isAllowed( 'viewuserlang' ) ) {
 			$user = $nt->getText();
 			$links['viewuserlang'] = $sp->getLinkRenderer()->makeKnownLink(
@@ -504,7 +506,7 @@ class WikimediaIncubator {
 	 * Do we know the databases of the existing wikis?
 	 * @return bool
 	 */
-	static function canWeCheckDB() {
+	public static function canWeCheckDB() {
 		global $wmincExistingWikis, $wmincProjectDatabases;
 		if ( !is_array( $wmincProjectDatabases ) || !is_array( $wmincExistingWikis ) ) {
 			return false; # We don't know the databases
@@ -518,7 +520,7 @@ class WikimediaIncubator {
 	 * @param array $prefix Array from WikimediaIncubator::analyzePrefix();
 	 * @return false|string
 	 */
-	static function getDB( $prefix ) {
+	public static function getDB( $prefix ) {
 		if ( !self::canWeCheckDB() ) {
 			return false;
 		} elseif ( !$prefix || $prefix['error'] ) {
@@ -539,7 +541,7 @@ class WikimediaIncubator {
 	/**
 	 * @return false or array with closed databases
 	 */
-	static function getDBClosedWikis() {
+	public static function getDBClosedWikis() {
 		global $wmincClosedWikis;
 		if ( !self::canWeCheckDB() || !$wmincClosedWikis ) {
 			return false;
@@ -553,7 +555,7 @@ class WikimediaIncubator {
 	 * @param array $prefix Array from WikimediaIncubator::analyzePrefix();
 	 * @return false|string 'existing' 'closed' 'missing'
 	 */
-	static function getDBState( $prefix ) {
+	public static function getDBState( $prefix ) {
 		$db = self::getDB( $prefix );
 		if ( !$db ) {
 			return false;
@@ -575,7 +577,7 @@ class WikimediaIncubator {
 	 * @param Article $article
 	 * @return True
 	 */
-	static function onShowMissingArticle( $article ) {
+	public static function onShowMissingArticle( $article ) {
 		$title = $article->getTitle();
 		$prefix = self::analyzePrefix( $title, true /* only info pages */,
 			true /* also sister projects */ );
@@ -633,7 +635,7 @@ class WikimediaIncubator {
 	 * @param Article $article
 	 * @param array $prefix
 	 */
-	static function onShowMissingArticleForInfoPages( $article, $prefix ) {
+	public static function onShowMissingArticleForInfoPages( $article, $prefix ) {
 		global $wgOut;
 		$title = $article->getTitle();
 		$wgOut->addModuleStyles( 'WikimediaIncubator.InfoPage' );
@@ -818,7 +820,7 @@ class WikimediaIncubator {
 	 * @param Title $title Title object
 	 * @return false|array Array from analyzePrefix()
 	 */
-	static function shouldWeSetCustomLogo( $title ) {
+	private static function shouldWeSetCustomLogo( $title ) {
 		$prefix = self::analyzePrefix( $title );
 
 		# Maybe do later something like if ( isContentProject() && 'recentchanges' ) { return true; }
@@ -843,7 +845,7 @@ class WikimediaIncubator {
 	 * @param OutputPage &$out
 	 * @return bool
 	 */
-	static function fnTestWikiLogo( &$out ) {
+	public static function fnTestWikiLogo( &$out ) {
 		$setLogo = self::shouldWeSetCustomLogo( $out->getTitle() );
 		if ( !$setLogo ) {
 			return true;
@@ -870,7 +872,7 @@ class WikimediaIncubator {
 	 * @param string &$pageLang
 	 * @return true
 	 */
-	static function onPageContentLanguage( $title, &$pageLang ) {
+	public static function onPageContentLanguage( $title, &$pageLang ) {
 		global $wgLang;
 		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
 		if ( !$prefix['error'] ) {

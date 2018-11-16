@@ -1,14 +1,14 @@
 <?php
 
 class IncubatorUnitTests extends MediaWikiTestCase {
-	function testValidateLanguageCode() {
+	public function testValidateLanguageCode() {
 		$this->assertTrue( WikimediaIncubator::validateLanguageCode( 'aa' ),
 			'Valid language code aa' );
 		$this->assertFalse( WikimediaIncubator::validateLanguageCode( 'aaaa' ),
 			'Invalid language code aaaa' );
 	}
 
-	function testShouldWeShowUnprefixedError() {
+	public function testShouldWeShowUnprefixedError() {
 		$testPages = [
 			'Bl/urb' => true,
 			'Talk:Bl/urb' => true,
@@ -26,7 +26,7 @@ class IncubatorUnitTests extends MediaWikiTestCase {
 		}
 	}
 
-	function testOnTitleIsAlwaysKnown() {
+	public function testOnTitleIsAlwaysKnown() {
 		# Assuming default configuration (Wikipedia = Wp; fictional Wz)
 		$title = Title::newFromText( 'Wp/nl' );
 		$this->assertTrue( $title->isKnown() );
@@ -34,7 +34,7 @@ class IncubatorUnitTests extends MediaWikiTestCase {
 		$this->assertFalse( $title->isKnown() );
 	}
 
-	function testOnPageContentLanguage() {
+	public function testOnPageContentLanguage() {
 		$title = Title::newFromText( 'Wp/nl/Test' );
 		$this->assertEquals( $title->getPageLanguage()->getCode(), 'nl' );
 		$title = Title::newFromText( 'Template:Wp/be-tarask/Test' );

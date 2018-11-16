@@ -8,7 +8,7 @@
  */
 
 class TestWikiRC {
-	static function getValues() {
+	public static function getValues() {
 		global $wgUser, $wmincPref, $wgRequest;
 		$url = WikimediaIncubator::getUrlParam();
 		$projectvalue = $url ? $url['project'] : $wgUser->getOption( $wmincPref . '-project' );
@@ -30,7 +30,7 @@ class TestWikiRC {
 	 * @param FormOptions $opts
 	 * @return bool true
 	 */
-	static function onRcQuery( $pageName, &$tables, &$fields, &$conds, &$query_options,
+	public static function onRcQuery( $pageName, &$tables, &$fields, &$conds, &$query_options,
 		&$join_conds, FormOptions $opts
 	) {
 		global $wmincProjectSite, $wmincTestWikiNamespaces;
@@ -62,7 +62,7 @@ class TestWikiRC {
 		return true;
 	}
 
-	static function onRcForm( &$items, $opts ) {
+	public static function onRcForm( &$items, $opts ) {
 		global $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
 
 		list( $projectvalue, $codevalue ) = self::getValues();
