@@ -58,7 +58,7 @@
 		],
 		"ExistingWikis": null,
 		"ProjectDatabases": {
-			"p": "wikipedia",
+			"p": "wiki",
 			"b": "wikibooks",
 			"t": "wiktionary",
 			"q": "wikiquote",
