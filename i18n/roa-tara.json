@@ -33,6 +33,7 @@
 	"group-test-sysop-member": "{{GENDER:$1|amministratore d'a uicchi de test}}",
 	"grouppage-test-sysop": "{{ns:project}}:Test amministrature de uicchi",
 	"wminc-searchwiki": "Cirche pe 'na uicchi",
+	"wminc-searchwiki-noproject": "Non g'è scacchiate 'nu proggette.",
 	"wminc-searchwiki-selectproject": "Cirche pe:",
 	"wminc-searchwiki-inputlanguage": "Jndr'à lènghe:",
 	"wminc-searchwiki-go": "Véje",
