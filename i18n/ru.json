@@ -14,7 +14,8 @@
 			"Renessaince",
 			"Александр Сигачёв",
 			"INS Pirat",
-			"Stjn"
+			"Stjn",
+			"Vlad5250"
 		]
 	},
 	"wminc-desc": "Пробная вики-система для Инкубатора Викимедиа",
@@ -42,7 +43,7 @@
 	"wminc-viewuserlang-go": "Найти",
 	"wminc-userdoesnotexist": "Участник «$1» не существует",
 	"wminc-ip": "«$1» — IP-адрес.",
-	"right-viewuserlang": "просматривать языковые настройки участника и его пробную вики",
+	"right-viewuserlang": "Просматривать языковые настройки участника и его пробную вики",
 	"group-test-sysop": "Администраторы пробной вики",
 	"group-test-sysop-member": "{{GENDER:$1|Администратор пробной вики}}",
 	"grouppage-test-sysop": "{{ns:project}}:Администраторы пробной вики",

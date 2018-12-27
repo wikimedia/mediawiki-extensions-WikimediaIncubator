@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Patriccck"
 		]
 	},
 	"wminc-desc": "Testovací wiki systém pre Inkubátor Wikimedia",
@@ -16,5 +17,6 @@
 	"wminc-viewuserlang": "Vyhľadať jazyk používateľa a testovaciu wiki",
 	"wminc-viewuserlang-user": "Používateľské meno:",
 	"wminc-viewuserlang-go": "Vykonať",
-	"right-viewuserlang": "Zobraziť jazyk používateľa a testovaciu wiki"
+	"right-viewuserlang": "Zobraziť jazyk používateľa a testovaciu wiki",
+	"wminc-infopage-title-p": "Wikipédia $1"
 }
