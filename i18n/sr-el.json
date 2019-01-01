@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Michaello",
-			"Milicevic01"
+			"Milicevic01",
+			"Zoranzoki21"
 		]
 	},
 	"wminc-desc": "Probni viki sistem za Vikimedijin Inkubator",
@@ -40,6 +41,7 @@
 	"wminc-listusers-testwiki": "Pregledate korisnike koji su probni viki namestili na $1.",
 	"wminc-search-nocreate-nopref": "Tražite pojam „$1“. Postavite [[Special:Preferences|postavke probnog vikija]] da bismo vam saopštili koju stranicu možete da napravite.",
 	"wminc-search-nocreate-suggest": "Tražite pojam „$1“. Možete da napravite stranicu na vašem vikiju na <strong>[[$3]]</strong>.",
+	"wminc-searchwiki": "Pretraga vikija",
 	"wminc-searchwiki-go": "Idi",
 	"wminc-fs-langselect-title": "Izaberite jezik",
 	"wminc-infopage-enter": "idi na Glavnu stranu",
