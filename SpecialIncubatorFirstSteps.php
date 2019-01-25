@@ -116,8 +116,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param string $step
-	 * @return string
+	 * @param Message|false $step
+	 * @return Message|false
 	 */
 	protected function showSignup( $step ) {
 		$step_msg = $this->msg( 'wminc-fs-signup-title' );
@@ -149,8 +149,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param string $step
-	 * @return string
+	 * @param Message|false $step
+	 * @return Message|false
 	 */
 	protected function showTestwikiSetting( $step ) {
 		$step_msg = $this->msg( 'wminc-fs-settings-title' );
@@ -170,8 +170,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param string $step
-	 * @return string
+	 * @param Message|false $step
+	 * @return Message|false
 	 */
 	protected function showUserpage( $step ) {
 		$step_msg = $this->msg( 'wminc-fs-userpage-title' );
@@ -203,8 +203,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * @param string $step
-	 * @return string
+	 * @param Message|false $step
+	 * @return Message
 	 */
 	protected function showStartWiki( $step ) {
 		$step_msg = $this->msg( 'wminc-fs-startwiki-title' );

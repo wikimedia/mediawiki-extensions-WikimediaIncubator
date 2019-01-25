@@ -205,7 +205,7 @@ class WikimediaIncubator {
 
 	/**
 	 * This returns simply true or false based on analyzePrefix().
-	 * @param Title $title
+	 * @param string|Title $title
 	 * @param bool $onlyprefix
 	 * @return bool
 	 */
@@ -217,7 +217,7 @@ class WikimediaIncubator {
 	/**
 	 * Get &testwiki=wx/xx and validate that prefix.
 	 * Returns the array of analyzePrefix() on success.
-	 * @return Array or false
+	 * @return array|false
 	 */
 	public static function getUrlParam() {
 		global $wgRequest;
@@ -435,8 +435,8 @@ class WikimediaIncubator {
 	/**
 	 * Return an error if the user wants to move
 	 * an existing page to an unprefixed title
-	 * @param string $oldtitle
-	 * @param string $newtitle
+	 * @param Title $oldtitle
+	 * @param Title $newtitle
 	 * @param User $user
 	 * @param array &$error
 	 * @return bool
@@ -539,7 +539,7 @@ class WikimediaIncubator {
 	}
 
 	/**
-	 * @return false or array with closed databases
+	 * @return false|array Array with closed databases
 	 */
 	public static function getDBClosedWikis() {
 		global $wmincClosedWikis;
@@ -665,7 +665,7 @@ class WikimediaIncubator {
 	/**
 	 * #infopage parser function
 	 * @param Parser &$parser
-	 * @return array
+	 * @return array|string
 	 */
 	public static function renderParserFunction( &$parser ) {
 		$title = $parser->getTitle();
