@@ -75,7 +75,6 @@ class InfoPage {
 			$allProjects[$this->mProjectCode] : '';
 		$this->mPortal = WikimediaIncubator::getSubdomain( 'www', $this->mProjectCode );
 		$this->mIsSister = array_key_exists( $this->mProjectCode, $wmincSisterProjects );
-		$this->mDBStatus = '';
 		$this->mSubStatus = '';
 		$this->mThisLangData = [ 'type' => 'valid' ]; # For later code check feature
 		$name = Language::fetchLanguageName( $this->mLangCode, $wgLang->getCode(), 'all' );
@@ -281,8 +280,6 @@ class InfoPage {
 	 */
 	public function showExistingWiki() {
 		global $wgLang, $wmincSisterProjects;
-		$created = isset( $this->mCreated ) ? $this->mCreated : ''; # for future use
-		$bug = isset( $this->mBug ) ? $this->mBug : ''; # for future use
 		$subdomain = WikimediaIncubator::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = WikimediaIncubator::makeExternalLinkText( $subdomain, true );
 		if ( $this->mThisLangData['type'] != 'invalid' ) {

@@ -640,7 +640,7 @@ class WikimediaIncubator {
 		$title = $article->getTitle();
 		$wgOut->addModuleStyles( 'WikimediaIncubator.InfoPage' );
 		$infopage = new InfoPage( $title, $prefix );
-		$infopage->mDbStatus = $dbstate = self::getDBState( $prefix );
+		$dbstate = self::getDBState( $prefix );
 		if ( $dbstate == 'existing' ) {
 			$infopage->mSubStatus = 'beforeincubator';
 			$wgOut->addHtml( $infopage->showExistingWiki() );
