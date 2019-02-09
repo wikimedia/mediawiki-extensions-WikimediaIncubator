@@ -153,7 +153,7 @@ class InfoPage {
 				$this->makeLogo( $this->mProjectCode )
 			) .
 			Html::rawElement( 'div', [ 'class' => 'wminc-infopage-title' ],
-				$this->mFormatTitle . $aftertitle ) .
+				htmlspecialchars( $this->mFormatTitle ) . $aftertitle ) .
 			$content );
 	}
 
