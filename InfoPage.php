@@ -24,6 +24,42 @@
 
 class InfoPage {
 
+	/** @var Title */
+	private $mTitle;
+
+	/** @var string */
+	private $mPrefix;
+
+	/** @var string */
+	private $mLangCode;
+
+	/** @var string */
+	private $mProjectCode;
+
+	/** @var string */
+	private $mProjectName;
+
+	/** @var string */
+	private $mPortal;
+
+	/** @var bool */
+	private $mIsSister;
+
+	/** @var string */
+	public $mSubStatus;
+
+	/** @var string[] */
+	private $mThisLangData;
+
+	/** @var string */
+	private $mLangName;
+
+	/** @var string */
+	public $mFormatTitle;
+
+	/** @var string[] */
+	public $mOptions = [];
+
 	/**
 	 * @param Title $title
 	 * @param array $prefixdata

@@ -1,6 +1,19 @@
 <?php
 
 class SpecialSearchWiki extends IncludableSpecialPage {
+
+	/** @var string[] */
+	private $mProjects;
+
+	/** @var string[] */
+	private $mNamesUserLang;
+
+	/** @var string[] */
+	private $mEnglishNames;
+
+	/** @var string[] */
+	private $mNativeNames;
+
 	public function __construct() {
 		parent::__construct( 'SearchWiki' );
 	}
