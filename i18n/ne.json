@@ -5,7 +5,8 @@
 			"Nirmal Dulal",
 			"NehalDaveND",
 			"राम प्रसाद जोशी",
-			"सरोज कुमार ढकाल"
+			"सरोज कुमार ढकाल",
+			"पर्वत सुबेदी"
 		]
 	},
 	"wminc-desc": "विकीमीडिया इनक्युबेटर को लागि विकि प्रणाली को परीक्षण",
@@ -41,5 +42,6 @@
 	"wminc-searchwiki-selectproject": "खोज्नुहोस:",
 	"wminc-searchwiki-inputlanguage": "भाषा:",
 	"wminc-searchwiki-go": "जानुहोस्",
-	"wminc-fs-signup-title": "साइन अप"
+	"wminc-fs-signup-title": "साइन अप",
+	"wminc-infopage-title-t": "विक्सनरी $1"
 }
