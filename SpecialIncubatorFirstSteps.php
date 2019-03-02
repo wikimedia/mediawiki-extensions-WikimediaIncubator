@@ -189,7 +189,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$link = $linkRenderer->makeLink( $this->getUser()->getUserPage(), $this->getUser()->getName() );
 		$this->getOutput()->addHtml( $this->msg( 'wminc-fs-userpage-text', $link )->escaped() );
 
-		if ( class_exists( 'CentralAuthUser' ) ) {
+		if ( class_exists( CentralAuthUser::class ) ) {
 			# If CentralAuth is installed, recommend the user to make his account global
 			$globalUser = new CentralAuthUser( $this->getUser()->getName() );
 			if ( !$globalUser->exists() ) {
