@@ -869,17 +869,15 @@ class WikimediaIncubator {
 	 * Make the page content language depend on the test wiki
 	 * Info pages are in the user language, they're localised
 	 * @param Title $title
-	 * @param string &$pageLang
-	 * @return true
+	 * @param string|Language|StubUserLang &$pageLang
+	 * @param Language|StubUserLang $userLang
 	 */
-	public static function onPageContentLanguage( $title, &$pageLang ) {
-		global $wgLang;
+	public static function onPageContentLanguage( $title, &$pageLang, $userLang ) {
 		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
 		if ( !$prefix['error'] ) {
 			$pageLang = self::validatePrefix( $title, true ) ?
-				$wgLang : Language::factory( $prefix['lang'] );
+				$userLang : Language::factory( $prefix['lang'] );
 		}
-		return true;
 	}
 
 	/**
