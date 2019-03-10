@@ -665,9 +665,10 @@ class WikimediaIncubator {
 	/**
 	 * #infopage parser function
 	 * @param Parser &$parser
+	 * @param string ...$parseOptions
 	 * @return array|string
 	 */
-	public static function renderParserFunction( &$parser ) {
+	public static function renderParserFunction( &$parser, ...$parseOptions ) {
 		$title = $parser->getTitle();
 		$prefix = self::analyzePrefix( $title );
 		if ( $prefix['error'] ) {
@@ -680,8 +681,6 @@ class WikimediaIncubator {
 			# other (optional) options: mainpage
 		];
 
-		$parseOptions = func_get_args();
-		array_shift( $parseOptions ); # not $parser
 		foreach ( $parseOptions as $parseOption ) {
 			if ( strpos( $parseOption, '=' ) === false ) {
 				continue;
