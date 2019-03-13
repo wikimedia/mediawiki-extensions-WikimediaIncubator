@@ -13,8 +13,8 @@ class SpecialRandomByTest extends RandomPage {
 		global $wmincPref, $wmincProjectSite;
 		$target = $this->getRequest()->getVal( 'testwiki' );
 		$target = WikimediaIncubator::analyzePrefix( $target );
-		$project = isset( $target['project'] ) ? $target['project'] : '';
-		$lang = isset( $target['lang'] ) ? $target['lang'] : '';
+		$project = $target['project'] ?? '';
+		$lang = $target['lang'] ?? '';
 		if ( WikimediaIncubator::isContentProject() || ( $project && $lang ) ) {
 			$dbr = wfGetDB( DB_REPLICA );
 			$this->extra[] = 'page_title' .

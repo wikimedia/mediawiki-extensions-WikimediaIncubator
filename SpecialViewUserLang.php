@@ -85,9 +85,9 @@ class SpecialViewUserLang extends SpecialPage {
 			return;
 		}
 		$userproject = $user->getOption( $wmincPref . '-project' );
-		$userproject = ( $userproject ? $userproject : 'none' );
+		$userproject = $userproject ?: 'none';
 		$usercode = $user->getOption( $wmincPref . '-code' );
-		$prefix = WikimediaIncubator::displayPrefix( $userproject, $usercode ? $usercode : 'none' );
+		$prefix = WikimediaIncubator::displayPrefix( $userproject, $usercode ?: 'none' );
 		if ( WikimediaIncubator::isContentProject( $userproject ) ) {
 			$testwiki = $this->getLinkRenderer()->makeLink( Title::newFromText( $prefix ) );
 		} elseif ( $prefix == $wmincProjectSite['short'] ) {

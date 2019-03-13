@@ -71,17 +71,16 @@ class InfoPage {
 		$this->mLangCode = $prefixdata['lang'];
 		$this->mProjectCode = $prefixdata['project'];
 		$allProjects = array_merge( $wmincProjects, $wmincSisterProjects );
-		$this->mProjectName = isset( $allProjects[$this->mProjectCode] ) ?
-			$allProjects[$this->mProjectCode] : '';
+		$this->mProjectName = $allProjects[$this->mProjectCode] ?? '';
 		$this->mPortal = WikimediaIncubator::getSubdomain( 'www', $this->mProjectCode );
 		$this->mIsSister = array_key_exists( $this->mProjectCode, $wmincSisterProjects );
 		$this->mSubStatus = '';
 		$this->mThisLangData = [ 'type' => 'valid' ]; # For later code check feature
 		$name = Language::fetchLanguageName( $this->mLangCode, $wgLang->getCode(), 'all' );
-		$this->mLangName = $name ? $name :
+		$this->mLangName = $name ?:
 			Language::fetchLanguageName( $this->mLangCode, 'en', 'all' );
-		$titleParam = $this->mLangName ? $this->mLangName
-			: wfMessage( 'quotation-marks', $this->mLangCode )->text(); # Name, else code
+		$titleParam = $this->mLangName ?:
+			wfMessage( 'quotation-marks', $this->mLangCode )->text(); # Name, else code
 		# Give grep a chance to find the usages:
 		# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t,
 		# wminc-infopage-title-q, wminc-infopage-title-n, wminc-infopage-title-s,
@@ -107,7 +106,7 @@ class InfoPage {
 	public function makeLogo( $project, $clickable = true, $params = [],
 		$url = null, $lang = null, $mul = false
 	) {
-		$lang = $lang ? $lang : $this->mLangCode;
+		$lang = $lang ?: $this->mLangCode;
 		if ( !$mul ) { // for non-multilingual wikis
 			$getDbStatus = WikimediaIncubator::getDBState(
 				[ 'error' => null, 'lang' => $lang, 'project' => $project ]

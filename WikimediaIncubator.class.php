@@ -175,7 +175,7 @@ class WikimediaIncubator {
 			$data['error'] = 'noslash';
 		} else {
 			# get the x from Wx/...
-			$data['project'] = ( isset( $titleparts[0][1] ) ? $titleparts[0][1] : '' );
+			$data['project'] = $titleparts[0][1] ?? '';
 			$data['lang'] = $titleparts[1]; # language code
 			$data['prefix'] = 'W' . $data['project'] . '/' . $data['lang'];
 			# check language code
@@ -341,7 +341,7 @@ class WikimediaIncubator {
 
 	public static function magicWordValue( &$parser, &$cache, &$magicWordId, &$ret ) {
 		$p = self::displayPrefix();
-		$ret = $p ? $p : 'none';
+		$ret = $p ?: 'none';
 		return true;
 	}
 
@@ -410,8 +410,7 @@ class WikimediaIncubator {
 			$error[] = [ 'wminc-error-wronglangcode', $prefixdata['lang'] ];
 		} elseif ( self::isContentProject() ) {
 			# If the user has a test wiki pref, suggest a page title with prefix
-			$suggesttitle = isset( $prefixdata['realtitle'] ) ?
-				$prefixdata['realtitle'] : $titletext;
+			$suggesttitle = $prefixdata['realtitle'] ?? $titletext;
 			$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
 			# Suggest to create a prefixed page
 			$error[] = [ 'wminc-error-unprefixed-suggest', $suggest ];
@@ -497,8 +496,7 @@ class WikimediaIncubator {
 			'lang' => $langHyphen,
 			'site' => $site,
 		];
-		$dbSuffix = isset( $wmincProjectDatabases[$projectCode] ) ?
-			$wmincProjectDatabases[$projectCode] : $site;
+		$dbSuffix = $wmincProjectDatabases[$projectCode] ?? $site;
 		return $wgConf->get( $setting, $langUnderscore . $dbSuffix, $dbSuffix, $params );
 	}
 
@@ -529,8 +527,7 @@ class WikimediaIncubator {
 		global $wmincProjectDatabases, $wgDummyLanguageCodes;
 		$dbLang = str_replace( '-', '_', $prefix['lang'] );
 		$project = $prefix['project'];
-		$dbProject = isset( $wmincProjectDatabases[$project] ) ?
-			$wmincProjectDatabases[$project] : $project;
+		$dbProject = $wmincProjectDatabases[$project] ?? $project;
 		$redirectcode = array_search( $prefix['lang'], $wgDummyLanguageCodes );
 		if ( $redirectcode ) {
 			$prefix['lang'] = $redirectcode;
@@ -588,7 +585,7 @@ class WikimediaIncubator {
 
 		global $wgOut, $wmincSisterProjects;
 		$prefix2 = self::analyzePrefix( $title, false, true );
-		$p = isset( $prefix2['project' ] ) ? $prefix2['project'] : '';
+		$p = $prefix2['project'] ?? '';
 		if ( self::getDBState( $prefix2 ) == 'existing' ) {
 			$link = self::getSubdomain( $prefix2['lang'], $p,
 				( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
@@ -615,8 +612,7 @@ class WikimediaIncubator {
 			# Unprefixed pages
 			if ( self::isContentProject() ) {
 				# If the user has a test wiki pref, suggest a page title with prefix
-				$suggesttitle = isset( $prefix2['realtitle'] ) ?
-					$prefix2['realtitle'] : $title->getText();
+				$suggesttitle = $prefix2['realtitle'] ?? $title->getText();
 				$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
 				# Suggest to create a prefixed page
 				$wgOut->addHtml( '<div class="wminc-unprefixed-suggest">' .

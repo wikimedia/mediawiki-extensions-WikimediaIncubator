@@ -38,10 +38,8 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		if ( $subpage ) {
 			$subpage = explode( '/', $subpage );
 		}
-		$projectQuery = $this->getRequest()->getText( 'searchproject',
-			isset( $subpage[0] ) ? $subpage[0] : '' );
-		$languageQuery = $this->getRequest()->getText( 'searchlanguage',
-			isset( $subpage[1] ) ? $subpage[1] : '' );
+		$projectQuery = $this->getRequest()->getText( 'searchproject', $subpage[0] ?? '' );
+		$languageQuery = $this->getRequest()->getText( 'searchlanguage', $subpage[1] ?? '' );
 
 		$this->showForm( $projectQuery, $languageQuery );
 
