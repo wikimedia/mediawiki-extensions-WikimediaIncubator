@@ -7,10 +7,11 @@
 			"IvanLanin",
 			"Kandar",
 			"Rex",
-			"NoiX180"
+			"NoiX180",
+			"Joseagush"
 		]
 	},
-	"wminc-desc": "Sistem wiki uji-coba untuk Inkubator Wikimedia",
+	"wminc-desc": "Sistem wiki tes untuk Wikimedia Incubator",
 	"wminc-manual": "Manual",
 	"wminc-listwikis": "Daftar wiki",
 	"wminc-testwiki": "Wiki uji-coba:",
@@ -32,7 +33,7 @@
 	"randombytest-nopages": "Tidak ada halaman  wiki pengujian anda, dalam ruangnama: $1.",
 	"wminc-viewuserlang": "Cari bahasa pengguna dan wiki pengujian",
 	"wminc-viewuserlang-user": "Nama pengguna:",
-	"wminc-viewuserlang-go": "Tuju ke",
+	"wminc-viewuserlang-go": "Lanjut",
 	"wminc-userdoesnotexist": "Pengguna \"$1\" tidak ditemukan.",
 	"wminc-ip": "\"$1\" adalah alamat IP.",
 	"right-viewuserlang": "Lihat bahasa pengguna dan wiki pengujian",
