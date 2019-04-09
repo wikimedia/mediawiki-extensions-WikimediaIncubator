@@ -71,7 +71,7 @@
 	"wminc-fs-userpage-title": "Luo käyttäjäsivu",
 	"wminc-fs-startwiki-title": "Aloita wiki",
 	"wminc-fs-pagetitle-done": " - valmis!",
-	"wminc-fs-intro": "Tervetuloa sivuston {{SITENAME}} ohjattuun aloitukseen. Sinut opastetaan uuden wikin aloittamisprosessin läpi.",
+	"wminc-fs-intro": "Tervetuloa {{GRAMMAR:genitive|{{SITENAME}}}} ohjattuun aloitukseen. Sinut opastetaan uuden wikin aloittamisprosessin läpi.",
 	"wminc-fs-langselect": "Jatka kielellä $1 tai $2",
 	"wminc-fs-signup-text": "Jos sinulla jo on käyttäjätunnus, [$1 kirjaudu sisään]. Jos sinulla ei ole sellaista, [$2 luo käyttäjätunnus].\nSitä ei vaadita, mutta sitä vahvasti suositellaan ja sen luomiseen kuluu vain muutama sekunti.",
 	"wminc-fs-settings-text": "Mene nyt [[Special:Preferences#mw-htmlform-i18n|asetuksiisi]] ja muuta testiwikiasetuksesi.\nEnsimmäinen on käyttöliittymän kieli, jonka olet valinnut ensimmäisessä kohdassa, mutta voit yhä muuttaa sen.\nToinen on projekti, johon haluat osallistua ja kolmas on kielikoodi projektiin, johon haluat osallistua.\nJos et tiedä koodia, katso [[{{MediaWiki:Wminc-manual-url}}|käsikirjastamme]] tai [[{{MediaWiki:Portal-url}}|pyydä apua]].",
