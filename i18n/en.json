@@ -30,6 +30,7 @@
 	"wminc-viewuserlang-go": "Go",
 	"wminc-userdoesnotexist": "The user \"$1\" does not exist.",
 	"wminc-ip": "\"$1\" is an IP address.",
+	"action-viewuserlang": "view user language and test wiki",
 	"right-viewuserlang": "View user language and test wiki",
 	"group-test-sysop": "Test wiki administrators",
 	"group-test-sysop-member": "{{GENDER:$1|test wiki administrator}}",
