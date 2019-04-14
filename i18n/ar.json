@@ -39,6 +39,7 @@
 	"wminc-viewuserlang-go": "اذهب",
 	"wminc-userdoesnotexist": "المستخدم \"$1\" لا يوجد",
 	"wminc-ip": "\"$1\" عنوان بروتوكول إنترنت.",
+	"action-viewuserlang": "عرض لغة المستخدم وويكي الاختبار",
 	"right-viewuserlang": "رؤية لغة وويكي الاختبار الخاص بالمستخدم",
 	"group-test-sysop": "إداريو ويكي التجربة",
 	"group-test-sysop-member": "{{GENDER:$1|إداري الويكي التجريبي}}",

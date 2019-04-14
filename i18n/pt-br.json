@@ -13,7 +13,8 @@
 			"Pedroca cerebral",
 			"He7d3r",
 			"Araceletorres",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"wminc-desc": "Sistema de wikis de teste para a Incubadora Wikimedia",
@@ -41,6 +42,7 @@
 	"wminc-viewuserlang-go": "Ir",
 	"wminc-userdoesnotexist": "A conta de usuário \"$1\" não existe.",
 	"wminc-ip": "\"$1\" é um endereço de IP.",
+	"action-viewuserlang": "ver o idioma do usuário e a wiki de teste",
 	"right-viewuserlang": "Ver idioma do usuário e wiki de teste",
 	"group-test-sysop": "Administradores da Test wiki",
 	"group-test-sysop-member": "{{GENDER:$1|administrador|administradora}} da wiki de testes",
