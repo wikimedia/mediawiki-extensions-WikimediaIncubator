@@ -30,6 +30,7 @@
 	"wminc-viewuserlang-go": "Veje",
 	"wminc-userdoesnotexist": "L'utende \"$1\" non g'esiste.",
 	"wminc-ip": "\"$1\" jè 'n'indirizze IP.",
+	"action-viewuserlang": "'ndruche 'a lènghe de l'utende e teste Uicchi",
 	"right-viewuserlang": "Vide 'a lènghe de l'utende e teste Uicchi",
 	"group-test-sysop": "Test amministrature de uicchi",
 	"group-test-sysop-member": "{{GENDER:$1|amministratore d'a uicchi de test}}",
