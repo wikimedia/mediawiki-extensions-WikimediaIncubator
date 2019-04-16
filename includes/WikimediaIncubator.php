@@ -399,7 +399,7 @@ class WikimediaIncubator {
 				str_replace( ' ', '_', $prefixdata['realtitle'] ) );
 			# faking external link to support prot-rel URLs
 			$link = "[$link " . self::makeExternalLinkText( $link ) . "]";
-			$result[] = [ 'wminc-error-wiki-exists', $link ];
+			$result = [ 'wminc-error-wiki-exists', $link ];
 			return $action != 'edit';
 		}
 
