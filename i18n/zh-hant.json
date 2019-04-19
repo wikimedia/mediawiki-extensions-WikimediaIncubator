@@ -15,7 +15,8 @@
 			"Xiaomingyan",
 			"LNDDYL",
 			"EagerLin",
-			"Wehwei"
+			"Wehwei",
+			"Kly"
 		]
 	},
 	"wminc-desc": "維基孵育場的測試 wiki 系統",
@@ -43,6 +44,7 @@
 	"wminc-viewuserlang-go": "前往",
 	"wminc-userdoesnotexist": "使用者 \"$1\" 不存在。",
 	"wminc-ip": "\"$1\" 為 IP 位址。",
+	"action-viewuserlang": "檢視使用者語言和測試 Wiki",
 	"right-viewuserlang": "檢視使用者語言和測試 Wiki",
 	"group-test-sysop": "測試維基的管理員",
 	"group-test-sysop-member": "{{GENDER:$1|測試 Wiki 管理員}}",
