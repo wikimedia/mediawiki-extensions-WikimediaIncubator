@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseagush",
+			"Wandering ant"
+		]
+	},
+	"wminc-desc": "Sistem pangujian wiki anggé Inkubator Wikimedia",
+	"wminc-listwikis": "Bacakan wiki",
+	"wminc-testwiki-code": "Tegarang nganggé basa wiki",
+	"wminc-testwiki-none": "Nénten wénten/Sami",
+	"wminc-testwiki-site": "Miara",
+	"wminc-recentchanges-all": "Sami pawuwuhan sané pinih anyar",
+	"wminc-prefinfo-language": "Basa antar-rai jeroné - nénten mapaiketan sareng pangujian wiki jeroné",
+	"wminc-prefinfo-code": "Kode ISO 639 kaanggén ring basa sané kantun karyanin jeroné driki",
+	"wminc-prefinfo-project": "Pilih proyék Wikimedia sané kantun karyanin jeroné driki",
+	"wminc-prefinfo-error": "Jeroné milih proyék sané ngaptiang kode basa",
+	"wminc-error-wiki-sister": "Kaca puniki padruén proyék sané durung wénten driki. Indayang ka $1 mangda ngamolihang wikiné.",
+	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-b": "Wikipustaka $1",
+	"wminc-infopage-title-t": "Wiktionary $1",
+	"wminc-infopage-title-q": "Wikiquote $1"
+}
