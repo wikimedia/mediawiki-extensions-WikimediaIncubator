@@ -35,6 +35,7 @@
 	"wminc-viewuserlang-go": "OK",
 	"wminc-userdoesnotexist": "De gebruiker \"$1\" bestaat niet.",
 	"wminc-ip": "\"$1\" is een IP-adres.",
+	"action-viewuserlang": "de gebruikerstaal en testwiki te bekijken",
 	"right-viewuserlang": "Gebruikerstaal en testwiki bekijken",
 	"group-test-sysop": "testwikibeheerders",
 	"group-test-sysop-member": "{{GENDER:$1|testwikibeheerder}}",
