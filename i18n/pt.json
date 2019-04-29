@@ -38,6 +38,7 @@
 	"wminc-viewuserlang-go": "Prosseguir",
 	"wminc-userdoesnotexist": "O utilizador \"$1\" não existe.",
 	"wminc-ip": "\"$1\" é um endereço IP.",
+	"action-viewuserlang": "ver língua do utilizador e wiki de testes",
 	"right-viewuserlang": "Ver língua do utilizador e wiki de testes",
 	"group-test-sysop": "Administradores da wiki de testes",
 	"group-test-sysop-member": "{{GENDER:$1|administrador|administradora}} da wiki de testes",
