@@ -46,29 +46,31 @@ class WikimediaIncubator {
 
 		$preferences['language']['help-message'] = 'wminc-prefinfo-language';
 
-		$prefinsert[$wmincPref . '-project'] = [
-			'type' => 'select',
-			'options' =>
-				[ wfMessage( 'wminc-testwiki-none' )->plain() => 'none' ] +
-				array_flip( $wmincProjects ) +
-				[ wfMessage( 'wminc-testwiki-site' )->plain() => $wmincProjectSite['short'] ],
-			'section' => 'personal/i18n',
-			'label-message' => 'wminc-testwiki',
-			'id' => $wmincPref . '-project',
-			'help-message' => 'wminc-prefinfo-project',
-		];
-		$prefinsert[$wmincPref . '-code'] = [
-			'type' => 'text',
-			'section' => 'personal/i18n',
-			'label-message' => 'wminc-testwiki-code',
-			'id' => $wmincPref . '-code',
-			'maxlength' => (int)$wmincLangCodeLength,
-			'size' => (int)$wmincLangCodeLength,
-			'help' => wfMessage( 'wminc-prefinfo-code' )->parse() .
-				self::getTestWikiLanguages(),
-			'list' => 'wminc-testwiki-codelist',
-			'validation-callback' => [ 'WikimediaIncubator', 'validateCodePreference' ],
-			'filter-callback' => [ 'WikimediaIncubator', 'filterCodePreference' ],
+		$prefinsert = [
+			$wmincPref . '-project' => [
+				'type' => 'select',
+				'options' =>
+					[ wfMessage( 'wminc-testwiki-none' )->plain() => 'none' ] +
+					array_flip( $wmincProjects ) +
+					[ wfMessage( 'wminc-testwiki-site' )->plain() => $wmincProjectSite['short'] ],
+				'section' => 'personal/i18n',
+				'label-message' => 'wminc-testwiki',
+				'id' => $wmincPref . '-project',
+				'help-message' => 'wminc-prefinfo-project',
+			],
+			$wmincPref . '-code' => [
+				'type' => 'text',
+				'section' => 'personal/i18n',
+				'label-message' => 'wminc-testwiki-code',
+				'id' => $wmincPref . '-code',
+				'maxlength' => (int)$wmincLangCodeLength,
+				'size' => (int)$wmincLangCodeLength,
+				'help' => wfMessage( 'wminc-prefinfo-code' )->parse() .
+					self::getTestWikiLanguages(),
+				'list' => 'wminc-testwiki-codelist',
+				'validation-callback' => [ 'WikimediaIncubator', 'validateCodePreference' ],
+				'filter-callback' => [ 'WikimediaIncubator', 'filterCodePreference' ],
+			],
 		];
 
 		$preferences = wfArrayInsertAfter( $preferences, $prefinsert, 'language' );
@@ -780,7 +782,7 @@ class WikimediaIncubator {
 			$output->redirect( self::getSubdomain( $prefix['lang'], $prefix['project'] ) );
 			return false;
 		}
-		$params['redirectfrom'] = 'infopage';
+		$params = [ 'redirectfrom' => 'infopage' ];
 		$uselang = $request->getVal( 'uselang' );
 		if ( $uselang ) {
 			# pass through the &uselang parameter
