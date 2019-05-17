@@ -409,17 +409,16 @@ class WikimediaIncubator {
 			# only check if needed & if on page creation
 			return true;
 		} elseif ( $prefixdata['error'] == 'invalidlangcode' ) {
-			$error[] = [ 'wminc-error-wronglangcode', $prefixdata['lang'] ];
+			$result = [ 'wminc-error-wronglangcode', $prefixdata['lang'] ];
 		} elseif ( self::isContentProject() ) {
 			# If the user has a test wiki pref, suggest a page title with prefix
 			$suggesttitle = $prefixdata['realtitle'] ?? $titletext;
 			$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
 			# Suggest to create a prefixed page
-			$error[] = [ 'wminc-error-unprefixed-suggest', $suggest ];
+			$result = [ 'wminc-error-unprefixed-suggest', $suggest ];
 		} else {
-			$error = 'wminc-error-unprefixed';
+			$result = [ 'wminc-error-unprefixed' ];
 		}
-		$result = $error;
 		return $action != 'edit';
 	}
 
