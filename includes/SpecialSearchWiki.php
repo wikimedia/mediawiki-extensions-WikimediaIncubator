@@ -174,7 +174,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 * @param string $str
 	 * @return string
 	 */
-	protected function strip( $str ) {
+	protected static function strip( $str ) {
 		$str = strtolower( trim( $str ) );
 		$replace = [ ' ' => '', '-' => '' ];
 		return str_replace( array_keys( $replace ), array_values( $replace ), $str );
