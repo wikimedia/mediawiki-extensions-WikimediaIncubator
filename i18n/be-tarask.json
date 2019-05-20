@@ -34,6 +34,7 @@
 	"wminc-viewuserlang-go": "Перайсьці",
 	"wminc-userdoesnotexist": "Удзельнік «$1» не існуе.",
 	"wminc-ip": "«$1» — IP-адрас.",
+	"action-viewuserlang": "прагляд мовы ўдзельніка і тэставай вікі",
 	"right-viewuserlang": "прагляд мовы ўдзельніка і тэставаньне вікі",
 	"group-test-sysop": "Адміністратары тэставай вікі",
 	"group-test-sysop-member": "{{GENDER:$1|адміністратар|адміністратарка}} тэставай вікі",
