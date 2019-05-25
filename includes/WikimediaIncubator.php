@@ -947,11 +947,10 @@ class WikimediaIncubator {
 	 * @param string $profile
 	 * @param SearchEngine $engine
 	 * @return true
-	 * @suppress PhanUndeclaredProperty T224353
 	 */
 	public static function onSpecialSearchSetupEngine( $search, $profile, $engine ) {
-		if ( !isset( $search->prefix ) || !$search->prefix ) {
-			$search->prefix = self::displayPrefix();
+		if ( !$engine->prefix ) {
+			$engine->prefix = self::displayPrefix();
 		}
 		return true;
 	}
