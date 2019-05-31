@@ -133,6 +133,7 @@ class InfoPage {
 	public function listOtherProjects() {
 		global $wmincProjects, $wmincSisterProjects;
 		$otherProjects = $wmincProjects + $wmincSisterProjects;
+		'@phan-var array $otherProjects';
 		unset( $otherProjects[$this->mProjectCode] );
 		$listOtherProjects = [];
 		foreach ( $otherProjects as $code => $name ) {

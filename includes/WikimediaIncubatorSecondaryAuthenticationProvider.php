@@ -41,6 +41,7 @@ class WikimediaIncubatorSecondaryAuthenticationProvider
 		);
 
 		if ( $req ) {
+			'@phan-var WikimediaIncubatorAuthenticationRequest $req';
 			$user->setOption( $wmincPref . '-project', $req->testwikiproject );
 			$user->setOption( $wmincPref . '-code', $req->testwikicode );
 			$user->saveSettings();
