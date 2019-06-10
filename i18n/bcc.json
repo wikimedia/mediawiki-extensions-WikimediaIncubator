@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Baloch Afghanistan"
+			"Baloch Afghanistan",
+			"Sultanselim baloch"
 		]
 	},
 	"wminc-desc": "تست ویکی یی سیستم په ویکی میڈ\tیا ئنکوباتور",
 	"wminc-manual": "دستی",
-	"wminc-listwikis": "ویکی هانی لڑ لیست",
+	"wminc-listwikis": "ویکی ئانءِ لیست",
 	"wminc-testwiki": "تست ویکی:",
 	"wminc-testwiki-code": "ویکی یی زبانی تست کورتین:",
 	"wminc-testwiki-none": "هیچگام/موچین",
 	"wminc-testwiki-site": "(ساتیتین)",
-	"wminc-recentchanges-all": "آهیرین موچین ٹگلان",
+	"wminc-recentchanges-all": "دراھیگݔں آھری ٹگلاں",
 	"randombytest": "صفحه تصادفی بر اساس ویکی آزمایشی",
 	"randombytest-nopages": "هیچ صفحه‌ای در ویکی آزمایشی شما وجود ندارد، در فضای نامی: $1.",
 	"wminc-viewuserlang": "مشاهده زبان و ویکی آزمایشی کاربر",
