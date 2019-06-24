@@ -173,7 +173,8 @@ class WikimediaIncubator {
 		}
 		# split title into parts
 		$titleparts = explode( '/', $title );
-		if ( !is_array( $titleparts ) || !isset( $titleparts[1] ) ) {
+		# Test if array, has a language code and project code has proper length
+		if ( !is_array( $titleparts ) || !isset( $titleparts[1] ) || strlen( $titleparts[0] ) != 2 ) {
 			$data['error'] = 'noslash';
 		} else {
 			# get the x from Wx/...
