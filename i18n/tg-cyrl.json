@@ -6,8 +6,11 @@
 			"Vashgird"
 		]
 	},
+	"wminc-manual": "Дастурамал",
+	"wminc-listwikis": "Феҳристи викиҳо",
 	"wminc-testwiki": "Санҷиши вики:",
 	"wminc-testwiki-none": "Ҳеҷ/Ҳама",
+	"wminc-recentchanges-all": "Тамоми тағйироти охиин",
 	"wminc-viewuserlang-user": "Номи корбарӣ:",
 	"wminc-viewuserlang-go": "Рав",
 	"wminc-searchwiki-selectproject": "Ҷустан барои:",
