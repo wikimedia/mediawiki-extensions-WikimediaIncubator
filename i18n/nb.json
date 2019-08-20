@@ -31,6 +31,7 @@
 	"wminc-viewuserlang-go": "Gå",
 	"wminc-userdoesnotexist": "Brukeren «$1» finnes ikke.",
 	"wminc-ip": "«$1» er en IP-adresse.",
+	"action-viewuserlang": "vise brukerspråk og testwiki",
 	"right-viewuserlang": "Vis brukerspråk og testwiki",
 	"group-test-sysop": "Testwikiadministratorer",
 	"group-test-sysop-member": "{{GENDER:$1|testwikiadministrator}}",
