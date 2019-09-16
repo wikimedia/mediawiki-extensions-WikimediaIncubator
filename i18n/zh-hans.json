@@ -18,7 +18,8 @@
 			"Duolaimi",
 			"Impersonator 1",
 			"神樂坂秀吉",
-			"予弦"
+			"予弦",
+			"VulpesVulpes825"
 		]
 	},
 	"wminc-desc": "维基孵育场测试维基系统",
@@ -46,6 +47,7 @@
 	"wminc-viewuserlang-go": "提交",
 	"wminc-userdoesnotexist": "用户 \"$1\" 并不存在。",
 	"wminc-ip": "\" $1 \"是一个IP地址。",
+	"action-viewuserlang": "查看用户语言与测试维基",
 	"right-viewuserlang": "请查看用户语言与测试维基",
 	"group-test-sysop": "测试维基管理员",
 	"group-test-sysop-member": "{{GENDER:$1|测试wiki管理员}}",
