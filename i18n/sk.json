@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Patriccck"
+			"Patriccck",
+			"Luky001"
 		]
 	},
 	"wminc-desc": "Testovací wiki systém pre Inkubátor Wikimedia",
@@ -18,5 +19,12 @@
 	"wminc-viewuserlang-user": "Používateľské meno:",
 	"wminc-viewuserlang-go": "Vykonať",
 	"right-viewuserlang": "Zobraziť jazyk používateľa a testovaciu wiki",
+	"wminc-searchwiki-selectproject": "Hľadať:",
+	"wminc-searchwiki-inputlanguage": "V jazyku:",
+	"wminc-searchwiki-multiplematches": "Vášmu hľadaniu zodpovedajú nasledujúce jazyky:",
+	"wminc-searchwiki-match-langcode": "„$1“ je kód pre jazyk $2 podľa ISO 639.",
+	"wminc-searchwiki-match-userlangname": "$1 je názov jazyka.",
+	"wminc-searchwiki-match-englishname": "„$1“ je anglický názov pre jazyk $2.",
+	"wminc-searchwiki-match-nativename": "„$1“ je názov pre jazyk $2 v tomto jazyku.",
 	"wminc-infopage-title-p": "Wikipédia $1"
 }
