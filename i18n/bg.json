@@ -5,7 +5,8 @@
 			"Spiritia",
 			"Stanqo",
 			"Лорд Бъмбъри",
-			"StanProg"
+			"StanProg",
+			"Ted Masters"
 		]
 	},
 	"wminc-desc": "Тестова уики система за Уикимедия Инкубатор",
@@ -18,14 +19,14 @@
 	"wminc-prefinfo-project": "Изберете проект на Уикимедия (Опцията инкубатор е за потребители, които извършват обща работа)",
 	"wminc-prefinfo-error": "Избрали сте проект, който се нуждае от езиков код.",
 	"randombytest": "Случайна страница от тестваното уики",
-	"randombytest-nopages": "В тестваното уики няма страници в именно пространство: $1.",
+	"randombytest-nopages": "В тестовото Ви уики няма страници в именно пространство: $1.",
 	"wminc-viewuserlang": "Търсене на езика на потребителя и тестовото му уики",
 	"wminc-viewuserlang-user": "Потребителско име:",
 	"wminc-viewuserlang-go": "Отваряне",
 	"wminc-userdoesnotexist": "Не съществува потребител „$1“.",
 	"wminc-ip": "„$1“ е IP-адрес.",
 	"right-viewuserlang": "Преглед на езика на потребителя и на тестовото уики",
-	"wminc-code-retired": "Този езиков код е бил променен и повече не се отнася към първоначалния език.",
+	"wminc-code-retired": "Този езиков код е бил променен и вече не се отнася към първоначалния език.",
 	"wminc-searchwiki-inputlanguage": "На следния език:",
 	"wminc-fs-langselect-title": "Избор на език",
 	"wminc-fs-pagetitle-done": "– готово!",
