@@ -16,7 +16,7 @@
 	"wminc-recentchanges-all": "Всички последни промени",
 	"wminc-prefinfo-language": "Език на интерфейса - независим от езика на вашето тестово уики",
 	"wminc-prefinfo-code": "Езиковият код с който работите тук, съгласно ISO 639",
-	"wminc-prefinfo-project": "Изберете проект на Уикимедия (Опцията инкубатор е за потребители, които извършват обща работа)",
+	"wminc-prefinfo-project": "Избор на уикимедийния проект, върху който работите тук",
 	"wminc-prefinfo-error": "Избрали сте проект, който се нуждае от езиков код.",
 	"randombytest": "Случайна страница от тестваното уики",
 	"randombytest-nopages": "В тестовото Ви уики няма страници в именно пространство: $1.",
@@ -30,5 +30,6 @@
 	"wminc-searchwiki-inputlanguage": "На следния език:",
 	"wminc-fs-langselect-title": "Избор на език",
 	"wminc-fs-pagetitle-done": "– готово!",
+	"wminc-infopage-title-p": "Уикипедия на $1",
 	"wminc-infopage-title-t": "Уикиречник $1"
 }
