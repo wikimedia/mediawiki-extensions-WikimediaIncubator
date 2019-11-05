@@ -300,7 +300,7 @@ class WikimediaIncubator {
 			$projectvalue = ( $url ? $url['project'] : $wgUser->getOption( $wmincPref . '-project' ) );
 			$codevalue = ( $url ? $url['lang'] : $wgUser->getOption( $wmincPref . '-code' ) );
 		}
-		$sister = (bool)( $allowSister && isset( $wmincSisterProjects[$projectvalue] ) );
+		$sister = $allowSister && isset( $wmincSisterProjects[$projectvalue] );
 		if ( self::isContentProject( $projectvalue ) || $sister ) {
 			// if parameters are set OR it falls back to user pref and
 			// he has a content project pref set  -> return the prefix
