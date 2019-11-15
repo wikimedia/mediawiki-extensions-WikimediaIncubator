@@ -342,7 +342,7 @@ class WikimediaIncubator {
 		return true;
 	}
 
-	public static function magicWordValue( &$parser, &$cache, &$magicWordId, &$ret ) {
+	public static function magicWordValue( Parser $parser, &$cache, &$magicWordId, &$ret ) {
 		$p = self::displayPrefix();
 		$ret = $p ?: 'none';
 		return true;
@@ -655,18 +655,18 @@ class WikimediaIncubator {
 		$wgOut->setHTMLTitle( wfMessage( 'pagetitle', $infopage->mFormatTitle )->text() );
 	}
 
-	public static function onParserFirstCallInit( &$parser ) {
+	public static function onParserFirstCallInit( Parser $parser ) {
 		$parser->setFunctionHook( 'infopage', 'WikimediaIncubator::renderParserFunction' );
 		return true;
 	}
 
 	/**
 	 * #infopage parser function
-	 * @param Parser &$parser
+	 * @param Parser $parser
 	 * @param string ...$parseOptions
 	 * @return array|string
 	 */
-	public static function renderParserFunction( &$parser, ...$parseOptions ) {
+	public static function renderParserFunction( Parser $parser, ...$parseOptions ) {
 		$title = $parser->getTitle();
 		$prefix = self::analyzePrefix( $title );
 		if ( $prefix['error'] ) {
@@ -711,10 +711,10 @@ class WikimediaIncubator {
 	/**
 	 * When creating a new info page, help the user by prefilling it
 	 * @param string &$text
-	 * @param Title &$title
+	 * @param Title $title
 	 * @return true
 	 */
-	public static function onEditFormPreloadText( &$text, &$title ) {
+	public static function onEditFormPreloadText( &$text, Title $title ) {
 		$prefix = self::analyzePrefix( $title, true /* only info page */,
 			false /* no sister projects */ );
 		if ( !$prefix['error'] ) {
@@ -839,10 +839,10 @@ class WikimediaIncubator {
 	 * if it is set in MediaWiki:Incubator-logo-wx-xxx
 	 * and if accessed through &testwiki=wx/xxx
 	 * or if the user preference is set to wx/xxx
-	 * @param OutputPage &$out
+	 * @param OutputPage $out
 	 * @return bool
 	 */
-	public static function fnTestWikiLogo( &$out ) {
+	public static function fnTestWikiLogo( OutputPage $out ) {
 		$setLogo = self::shouldWeSetCustomLogo( $out->getTitle() );
 		if ( !$setLogo ) {
 			return true;
