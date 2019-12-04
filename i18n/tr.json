@@ -7,7 +7,8 @@
 			"Joseph",
 			"Karduelis",
 			"Suelnur",
-			"Vito Genovese"
+			"Vito Genovese",
+			"BaRaN6161 TURK"
 		]
 	},
 	"wminc-desc": "Wikimedia Incubator için test vikisi sistemi",
@@ -35,6 +36,7 @@
 	"wminc-viewuserlang-go": "Git",
 	"wminc-userdoesnotexist": "\"$1\" kullanıcısı mevcut değil.",
 	"wminc-ip": "\"$1\" bir IP adresidir.",
+	"action-viewuserlang": "kullanıcı dilini görüntüle ve wiki test et",
 	"right-viewuserlang": "Kullanıcı dilini ve test vikisini gör",
 	"group-test-sysop": "Test Viki hizmetlisi",
 	"group-test-sysop-member": "{{GENDER:$1|test viki hizmetlisi}}",
@@ -66,6 +68,12 @@
 	"wminc-fs-pagetitle-done": " - tamam!",
 	"wminc-fs-intro": "{{SITENAME}} ilk adımlar sihirbazına hoş geldiniz. Yeni bir vikiye başlama işlemi boyunca rehberlik edeceğiz.",
 	"wminc-fs-langselect": "$1 ile ya da $2 ile devam et",
+	"wminc-fs-signup-text": "Zaten bir kullanıcı hesabınız varsa, lütfen [$1 giriş yapın]. Henüz bir hesabınız yoksa, lütfen [$2 kullanıcı hesabı oluşturun].\nBu gerekli değildir, ancak şiddetle tavsiye edilir ve oluşturulması yalnızca birkaç saniye sürer.",
+	"wminc-fs-settings-text": "Lütfen şimdi [[Special:Preferences#mw-htmlform-i18n|tercihleriniz]] bölümüne gidin ve test wiki ayarlarınızı değiştirin.\nİlki, ilk adımda seçtiğiniz arayüz dilinizdir, ancak yine de değiştirebilirsiniz.\nİkincisi, katkıda bulunmak istediğiniz proje ve üçüncüsü de katkıda bulunmak istediğiniz projenin dil kodudur.\nKodu bilmiyorsanız, lütfen [[{{MediaWiki:Wminc-manual-url}}|manüel]] bölümüne bakın veya [[{{MediaWiki:Portal-url}}|yardım]] isteyin.",
+	"wminc-fs-userpage-text": "Lütfen şimdi kendinizle ilgili bazı temel bilgileri içeren $1 kullanıcı sayfanızı oluşturun. Bu sayfanın en üstünde bir link de görebilirsiniz.",
+	"wminc-fs-globaluser-text": "Kullanıcı hesabınız yerel. Herhangi bir Wikimedia wikide kullanabilmeniz için onu $1 ile küresel hale getirmeniz önerilir.",
+	"wminc-fs-startwiki-text": "Wikinizin öneki <strong>$1</strong>. Wikiyi <strong>$2</strong> Ana Sayfa'yı oluşturarak başlayabilirsiniz.",
+	"wminc-fs-startwiki-exists-text": "Wiki önekiniz $1. Ana Sayfa $2. Artık bir topluluk oluşturmak için bu dilin diğer konuşmacıları ile ortak çalışabilirsiniz!\nBir sayfa oluşturmak istiyorsanız, yukarıdaki arama kutusuna adı yazmanız yeterlidir ve göreceğiniz bağlantıyı takip edin.",
 	"wminc-infopage-enter": "Ana sayfaya git",
 	"wminc-unknownlang": "(bilinmeyen dil kodu)",
 	"wminc-infopage-title-p": "$1 Vikipedi",
