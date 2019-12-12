@@ -29,6 +29,7 @@
 	"wminc-viewuserlang-go": "Dir",
 	"wminc-userdoesnotexist": "L'usuariu \"$1\" nun esiste.",
 	"wminc-ip": "\"$1\" ye una direición IP.",
+	"action-viewuserlang": "ver la llingua del usuariu y la wiki de pruebes",
 	"right-viewuserlang": "Ver la llingua del usuariu y la wiki de pruebes",
 	"group-test-sysop": "Alministradores de la wiki de pruebes",
 	"group-test-sysop-member": "{{GENDER:$1|alministrador|alministradora}} de la wiki de pruebes",
