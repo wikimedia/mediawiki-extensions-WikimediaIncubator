@@ -97,7 +97,7 @@ class WikimediaIncubator {
 	/**
 	 * For the preferences above
 	 * @param string $input
-	 * @param string $alldata
+	 * @param array $alldata
 	 * @return string|true
 	 */
 	public static function validateCodePreference( $input, $alldata ) {
@@ -199,6 +199,7 @@ class WikimediaIncubator {
 			$data['error'] = 'invalidprefix';
 		}
 		if ( !$onlyInfoPage && $data['error'] != 'invalidprefix' ) { # there is a Page_title
+			// @phan-suppress-next-line PhanTypePossiblyInvalidDimOffset
 			$prefixn = strlen( $data['prefix'] . '/' ); # number of chars in prefix
 			# get Page_title from Wx/xx/Page_title
 			$data['realtitle'] = substr( $title, $prefixn );
@@ -331,7 +332,7 @@ class WikimediaIncubator {
 			* TITLE + NS => Wx/xxx/NS:TITLE
 			* (with localized namespace name)
 			*/
-			$title = Title::makeTitleSafe( null, self::displayPrefix() . '/' .
+			$title = Title::makeTitleSafe( 0, self::displayPrefix() . '/' .
 				$wgLang->getNsText( $ns ) . ':' . $title );
 		}
 		return $title;
@@ -765,7 +766,7 @@ class WikimediaIncubator {
 	 * @param Title $title
 	 * @param User $user
 	 * @param WebRequest $request
-	 * @return true
+	 * @return bool
 	 */
 	public static function onMediaWikiPerformAction( $output, $page, $title, $user, $request ) {
 		$prefix = self::analyzePrefix( $title, true );
