@@ -60,11 +60,15 @@ class InfoPage {
 	/** @var string[] */
 	public $mOptions = [];
 
+	/** @var User */
+	private $user;
+
 	/**
 	 * @param Title $title
 	 * @param array $prefixdata
+	 * @param User $user
 	 */
-	public function __construct( $title, $prefixdata ) {
+	public function __construct( $title, $prefixdata, User $user ) {
 		global $wmincProjects, $wmincSisterProjects, $wgLang;
 		$this->mTitle = $title;
 		$this->mPrefix = $prefixdata['prefix'];
@@ -72,7 +76,7 @@ class InfoPage {
 		$this->mProjectCode = $prefixdata['project'];
 		$allProjects = array_merge( $wmincProjects, $wmincSisterProjects );
 		$this->mProjectName = $allProjects[$this->mProjectCode] ?? '';
-		$this->mPortal = WikimediaIncubator::getSubdomain( 'www', $this->mProjectCode );
+		$this->mPortal = WikimediaIncubator::getSubdomain( $user, 'www', $this->mProjectCode );
 		$this->mIsSister = array_key_exists( $this->mProjectCode, $wmincSisterProjects );
 		$this->mSubStatus = '';
 		$this->mThisLangData = [ 'type' => 'valid' ]; # For later code check feature
@@ -91,6 +95,7 @@ class InfoPage {
 			# Unknown language, add short note to title
 			$this->mFormatTitle .= ' ' . wfMessage( 'wminc-unknownlang', $this->mLangCode )->text();
 		}
+		$this->user = $user;
 	}
 
 	/**
@@ -112,17 +117,27 @@ class InfoPage {
 				[ 'error' => null, 'lang' => $lang, 'project' => $project ]
 			);
 			$lang = $getDbStatus == 'missing' ? 'en' : $lang;
-			$params['title'] = WikimediaIncubator::getProject( $project, true, true );
+			$params['title'] = WikimediaIncubator::getProject(
+				$this->user,
+				$project,
+				true,
+				true
+			);
 		}
 
-		$logos = WikimediaIncubator::getConf( 'wgLogos', $lang, $project );
+		$logos = WikimediaIncubator::getConf( $this->user, 'wgLogos', $lang, $project );
 		// FIXME: Delete the back-compatibility if $wgLogos isn't set up yet.
-		$params['src'] = $logos['1x'] ?? WikimediaIncubator::getConf( 'wgLogo', $lang, $project );
+		$params['src'] = $logos['1x'] ?? WikimediaIncubator::getConf(
+			$this->user,
+			'wgLogo',
+			$lang,
+			$project
+		);
 		$params['alt'] = "$project ($lang)";
 		$img = Html::element( 'img', $params );
 		if ( $clickable ) {
 			if ( $url === null ) {
-				$url = WikimediaIncubator::getSubdomain( 'www', $project );
+				$url = WikimediaIncubator::getSubdomain( $this->user, 'www', $project );
 			}
 			return Html::rawElement( 'a', [ 'href' => $url ], $img );
 		}
@@ -140,8 +155,12 @@ class InfoPage {
 		unset( $otherProjects[$this->mProjectCode] );
 		$listOtherProjects = [];
 		foreach ( $otherProjects as $code => $name ) {
-			$listOtherProjects[$code] = '<li>' . $this->makeLogo( $code, true,
-				[ 'width' => 75 ], WikimediaIncubator::getSubdomain( $this->mLangCode, $code ) ) . '</li>';
+			$listOtherProjects[$code] = '<li>' . $this->makeLogo(
+				$code,
+				true,
+				[ 'width' => 75 ],
+				WikimediaIncubator::getSubdomain( $this->user, $this->mLangCode, $code )
+			) . '</li>';
 		}
 		return '<ul class="wminc-infopage-otherprojects">' .
 			implode( '', $listOtherProjects ) . '</ul>';
@@ -160,7 +179,7 @@ class InfoPage {
 		foreach ( $wmincMultilingualProjects as $key => $name ) {
 			# multilingual projects are listed under wikipedia
 			$fakeProject = key( $wmincProjects );
-			$url = WikimediaIncubator::getSubdomain( $key, $fakeProject );
+			$url = WikimediaIncubator::getSubdomain( $this->user, $key, $fakeProject );
 			$list[$url] = '<li>' . $this->makeLogo( $fakeProject, true,
 				[ 'width' => 75 ], $url, $key, true ) . '</li>';
 		}
@@ -251,7 +270,11 @@ class InfoPage {
 		} else {
 			$gotoMainPage = '';
 		}
-		$subdomain = WikimediaIncubator::getSubdomain( $this->mLangCode, $this->mProjectCode );
+		$subdomain = WikimediaIncubator::getSubdomain(
+			$this->user,
+			$this->mLangCode,
+			$this->mProjectCode
+		);
 		$subdomainLink = WikimediaIncubator::makeExternalLinkText( $subdomain, true );
 		# Give grep a chance to find the usages:
 		# wminc-infopage-status-open, wminc-infopage-status-imported,
@@ -285,7 +308,11 @@ class InfoPage {
 	 */
 	public function showExistingWiki() {
 		global $wgLang, $wmincSisterProjects;
-		$subdomain = WikimediaIncubator::getSubdomain( $this->mLangCode, $this->mProjectCode );
+		$subdomain = WikimediaIncubator::getSubdomain(
+			$this->user,
+			$this->mLangCode,
+			$this->mProjectCode
+		);
 		$subdomainLink = WikimediaIncubator::makeExternalLinkText( $subdomain, true );
 		if ( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoSubdomain = Html::rawElement( 'span',

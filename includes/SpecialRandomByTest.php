@@ -15,13 +15,14 @@ class SpecialRandomByTest extends RandomPage {
 		$target = WikimediaIncubator::analyzePrefix( $target );
 		$project = $target['project'] ?? '';
 		$lang = $target['lang'] ?? '';
-		if ( WikimediaIncubator::isContentProject() || ( $project && $lang ) ) {
+		$user = $this->getUser();
+		if ( WikimediaIncubator::isContentProject( $user ) || ( $project && $lang ) ) {
 			$dbr = wfGetDB( DB_REPLICA );
 			$this->extra[] = 'page_title' .
 				$dbr->buildLike( WikimediaIncubator::displayPrefix( $project, $lang ) .
 					'/', $dbr->anyString() );
 		} elseif (
-			$this->getUser()->getOption( $wmincPref . '-project' ) == $wmincProjectSite['short']
+			$user->getOption( $wmincPref . '-project' ) == $wmincProjectSite['short']
 		) {
 			# project or help namespace
 			$this->extra['page_namespace'] = [ 4, 12 ];

@@ -8,11 +8,17 @@
  */
 
 class TestWikiRC {
-	public static function getValues() {
-		global $wgUser, $wmincPref, $wgRequest;
+	/**
+	 * Get values
+	 *
+	 * @param User $user
+	 * @return array
+	 */
+	private static function getValues( User $user ) {
+		global $wmincPref, $wgRequest;
 		$url = WikimediaIncubator::getUrlParam();
-		$projectvalue = $url ? $url['project'] : $wgUser->getOption( $wmincPref . '-project' );
-		$codevalue = $url ? $url['lang'] : $wgUser->getOption( $wmincPref . '-code' );
+		$projectvalue = $url ? $url['project'] : $user->getOption( $wmincPref . '-project' );
+		$codevalue = $url ? $url['lang'] : $user->getOption( $wmincPref . '-code' );
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $projectvalue ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $codevalue ) );
 		return [ $projectvalue, $codevalue ];
@@ -39,7 +45,7 @@ class TestWikiRC {
 			return true;
 		}
 
-		list( $projectvalue, $codevalue ) = self::getValues();
+		list( $projectvalue, $codevalue ) = self::getValues( RequestContext::getMain()->getUser() );
 		$prefix = WikimediaIncubator::displayPrefix( $projectvalue, $codevalue );
 		$opts->add( 'rc-testwiki-project', false );
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
@@ -65,7 +71,7 @@ class TestWikiRC {
 	public static function onRcForm( &$items, $opts ) {
 		global $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
 
-		list( $projectvalue, $codevalue ) = self::getValues();
+		list( $projectvalue, $codevalue ) = self::getValues( RequestContext::getMain()->getUser() );
 		$opts->consumeValue( 'rc-testwiki-project' );
 		$opts->consumeValue( 'rc-testwiki-code' );
 		$label = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'rc-testwiki' );

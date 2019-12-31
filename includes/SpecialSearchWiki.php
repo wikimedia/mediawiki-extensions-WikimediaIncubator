@@ -193,7 +193,11 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 			'goto' => 'mainpage',
 			'uselang' => $this->getRequest()->getVal( 'uselang' )
 		];
-		$url = $status == 'existing' ? WikimediaIncubator::getSubdomain( $lang, $project ) :
+		$url = $status == 'existing' ? WikimediaIncubator::getSubdomain(
+				$this->getUser(),
+				$lang,
+				$project
+			) :
 			Title::newFromText( 'W' . $project . '/' . $lang )->getFullURL( $infopageParams );
 		$this->getOutput()->redirect( $url );
 	}

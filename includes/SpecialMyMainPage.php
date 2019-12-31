@@ -20,7 +20,7 @@ class SpecialMyMainPage extends UnlistedSpecialPage {
 		$params = [];
 
 		# Build Wx/xyz?goto=mainpage[&testwiki=]
-		if ( WikimediaIncubator::isContentProject() ) {
+		if ( WikimediaIncubator::isContentProject( $this->getUser() ) ) {
 			$title = Title::newFromText( WikimediaIncubator::displayPrefix() );
 			if ( $this->getRequest()->getVal( 'goto' ) != 'infopage' ) {
 				$params['goto'] = 'mainpage';
