@@ -1,9 +1,9 @@
 <?php
 
-use MediaWiki\Auth\AuthManager;
 use MediaWiki\Auth\AbstractSecondaryAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthenticationResponse;
+use MediaWiki\Auth\AuthManager;
 
 /**
  * If URL parameters "testwikiproject" and "testwikicode" are set
