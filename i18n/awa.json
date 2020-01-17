@@ -1,13 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"1AnuraagPandey"
+			"1AnuraagPandey",
+			"Ajeetsinghawadhi"
 		]
 	},
+	"wminc-manual": "गाइड",
 	"wminc-listwikis": "कुल विकि",
 	"wminc-testwiki": "परीक्षण विकी",
 	"wminc-testwiki-code": "परीक्षण विकी भाषा:",
+	"wminc-testwiki-none": "कउनो नाही/सगरौ",
 	"wminc-recentchanges-all": "नवा बदलाव",
 	"wminc-prefinfo-language": "आप कय इंटरफ़ेस भाषा - आप कय परीक्षण विकी से स्वतंत्र",
-	"wminc-prefinfo-project": "विकिमीडिया परियोजना कय चयन करा जाय (विकिमीडिया ऊष्मानियंत्रक विकल्प सामान्य काम करय वाले उपयोगकर्तन् खत्तिर होय)"
+	"wminc-prefinfo-project": "विकिमीडिया परियोजना कय चयन करा जाय (विकिमीडिया ऊष्मानियंत्रक विकल्प सामान्य काम करय वाले उपयोगकर्तन् खत्तिर होय)",
+	"wminc-viewuserlang-user": "सदस्यनाँव",
+	"wminc-viewuserlang-go": "जावा जाय",
+	"wminc-searchwiki-inputlanguage": "एह भाषा मा:",
+	"wminc-searchwiki-go": "जावा जाय"
 }
