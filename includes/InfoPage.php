@@ -245,6 +245,8 @@ class InfoPage {
 			$gotoMainPage = Html::rawElement( 'span',
 				[ 'class' => 'wminc-infopage-entertest' ],
 				$wgLang->getArrow() . ' ' . ( $this->mIsSister ? $portalLink : $gotoLink ) );
+		} else {
+			$gotoMainPage = '';
 		}
 		$subdomain = WikimediaIncubator::getSubdomain( $this->mLangCode, $this->mProjectCode );
 		$subdomainLink = WikimediaIncubator::makeExternalLinkText( $subdomain, true );
@@ -286,6 +288,8 @@ class InfoPage {
 			$gotoSubdomain = Html::rawElement( 'span',
 				[ 'class' => 'wminc-infopage-entertest' ],
 				$wgLang->getArrow() . ' ' . $subdomainLink );
+		} else {
+			$gotoSubdomain = '';
 		}
 		# Give grep a chance to find the usages:
 		# wminc-infopage-status-open, wminc-infopage-status-imported,
