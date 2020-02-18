@@ -848,17 +848,19 @@ class WikimediaIncubator {
 		if ( !$setLogo ) {
 			return true;
 		}
-		global $wgLogo;
+		// FIXME: This really shouldn't be writing to site config like this
+		// (and certainly not through globals).
+		global $wgLogos;
 		$prefixForPageTitle = str_replace( '/', '-', strtolower( $setLogo['prefix'] ) );
 		$logoMsg = wfMessage( 'Incubator-logo-' . $prefixForPageTitle )->inContentLanguage()->plain();
 		$file = wfFindFile( Title::newFromText( $logoMsg, NS_FILE ) );
 		if ( $file ) {
 			$thumb = $file->transform( [ 'width' => 135, 'height' => 135 ] );
-			$wgLogo = $thumb->getUrl();
+			$wgLogos = [ '1x' => $thumb->getUrl() ];
 		} else {
 			# if MediaWiki:Incubator-logo-wx-xx(x) doesn't exist,
 			# take a general, default logo for that project
-			$wgLogo = self::getConf( 'wgLogo', 'en', $setLogo['project'] );
+			$wgLogos = [ '1x' => self::getConf( 'wgLogo', 'en', $setLogo['project'] ) ];
 		}
 		return true;
 	}
