@@ -114,7 +114,10 @@ class InfoPage {
 			$lang = $getDbStatus == 'missing' ? 'en' : $lang;
 			$params['title'] = WikimediaIncubator::getProject( $project, true, true );
 		}
-		$params['src'] = WikimediaIncubator::getConf( 'wgLogo', $lang, $project );
+
+		$logos = WikimediaIncubator::getConf( 'wgLogos', $lang, $project );
+		// FIXME: Delete the back-compatibility if $wgLogos isn't set up yet.
+		$params['src'] = $logos['1x'] ?? WikimediaIncubator::getConf( 'wgLogo', $lang, $project );
 		$params['alt'] = "$project ($lang)";
 		$img = Html::element( 'img', $params );
 		if ( $clickable ) {
