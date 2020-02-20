@@ -6,7 +6,8 @@
 			"NehalDaveND",
 			"राम प्रसाद जोशी",
 			"सरोज कुमार ढकाल",
-			"पर्वत सुबेदी"
+			"पर्वत सुबेदी",
+			"हिमाल सुबेदी"
 		]
 	},
 	"wminc-desc": "विकीमीडिया इनक्युबेटर को लागि विकि प्रणाली को परीक्षण",
@@ -42,6 +43,7 @@
 	"wminc-searchwiki-selectproject": "खोज्नुहोस:",
 	"wminc-searchwiki-inputlanguage": "भाषा:",
 	"wminc-searchwiki-go": "जानुहोस्",
-	"wminc-fs-signup-title": "साइन अप",
+	"wminc-fs-signup-title": "खाता खाेल्नुहाेस्",
+	"wminc-infopage-title-p": "विकिपिडिया $1",
 	"wminc-infopage-title-t": "विक्सनरी $1"
 }

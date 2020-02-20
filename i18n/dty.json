@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nirajan pant"
+			"Nirajan pant",
+			"हिमाल सुबेदी"
 		]
 	},
 	"wminc-desc": "विकीमीडिया इनक्युबेटर खिलाइ परीक्षण विकी प्रणाली",
@@ -29,7 +30,7 @@
 	"wminc-searchwiki-match-nativename": "\"$1\" $2 को उसै भाषा मी को नाउँ हो।",
 	"wminc-searchwiki-gotoinfopage": "जाणकारी पन्‍ना",
 	"wminc-fs-langselect-title": "भाषा छान",
-	"wminc-fs-signup-title": "साइन अप",
+	"wminc-fs-signup-title": "खाता खाेल्नुहाेस्",
 	"wminc-fs-settings-title": "तमरो विकी प्रेफेरेन्स राखऽ",
 	"wminc-fs-userpage-title": "तमरो प्रयोगकर्ता पन्‍ना बनाऽ",
 	"wminc-fs-startwiki-title": "तमरी विकी पैटाऽ",
