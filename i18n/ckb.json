@@ -3,15 +3,35 @@
 		"authors": [
 			"Marmzok",
 			"Calak",
-			"Sarchia"
+			"Sarchia",
+			"Arya sarhan"
 		]
 	},
+	"wminc-listwikis": "پێڕستی ویکیس",
 	"wminc-testwiki": "تاقی‌کردنه‌وه‌ی ویکی:",
+	"wminc-testwiki-code": "تاقیکردنەوەی زمانی ویکی:",
 	"wminc-testwiki-none": "هیچیان\\هەموویان",
+	"wminc-testwiki-site": "(چاکسازی)",
+	"wminc-recentchanges-all": "ھەموو گۆڕینەکان",
 	"wminc-prefinfo-language": "ڕووکاری زمانی تۆ جیاوازه‌ له‌ تاقی کردنه‌وه‌ی ویکی",
 	"wminc-prefinfo-code": "کۆدی ISO 639ی زمانەکەی لێرە لەسەری کار دەکەی",
+	"wminc-prefinfo-project": "پڕۆژەی ویکیمیدیا ھەبژێرە تۆ دەتوانیت لێرە کار بکەیت",
 	"wminc-prefinfo-error": "پڕۆژەیەکت هەڵبژاردووه کە پێویستی بە کۆدی زمانە.",
 	"wminc-viewuserlang-user": "ناوی بەکارهێنەری:",
 	"wminc-viewuserlang-go": "بڕۆ",
-	"wminc-searchwiki-go": "بڕۆ"
+	"wminc-searchwiki-noproject": "تۆ پڕۆژەت ھەڵنەبژاردووە",
+	"wminc-searchwiki-selectproject": "بگەڕێ بۆ:",
+	"wminc-searchwiki-inputlanguage": "لە زمان:",
+	"wminc-searchwiki-go": "بڕۆ",
+	"wminc-searchwiki-match-userlangname": "$1 ناوی زمانێکە.",
+	"wminc-searchwiki-gotoinfopage": "زانیاری پەڕە",
+	"wminc-fs-langselect-title": "زمان ھەڵبژێرە",
+	"wminc-fs-signup-title": "خۆ تۆمارکردن",
+	"wminc-infopage-title-p": "ویکیپیدیا $1",
+	"wminc-infopage-title-t": "ویکیفەرھەنگ $1",
+	"wminc-infopage-title-q": "ویکیوتە $1",
+	"wminc-infopage-title-s": "ویکیژێدەر $1",
+	"wminc-infopage-title-v": "ویکیزانکۆ $1",
+	"wminc-infopage-title-y": "ویکیسەفەر $1",
+	"wminc-infopage-status-beforeincubator-sister": "ئەم پڕۆژەیە بەردەستە لە $1"
 }
