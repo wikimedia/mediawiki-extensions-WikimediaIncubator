@@ -7,6 +7,8 @@
 			"Arya sarhan"
 		]
 	},
+	"wminc-desc": "تاقیکردنەوەی سیستمی ویکی بۆ ویکیمیدیا ئینکیوبەیتر",
+	"wminc-manual": "دەستکار",
 	"wminc-listwikis": "پێڕستی ویکیس",
 	"wminc-testwiki": "تاقی‌کردنه‌وه‌ی ویکی:",
 	"wminc-testwiki-code": "تاقیکردنەوەی زمانی ویکی:",
@@ -19,6 +21,7 @@
 	"wminc-prefinfo-error": "پڕۆژەیەکت هەڵبژاردووه کە پێویستی بە کۆدی زمانە.",
 	"wminc-viewuserlang-user": "ناوی بەکارهێنەری:",
 	"wminc-viewuserlang-go": "بڕۆ",
+	"wminc-searchwiki": "بگەڕێ بۆ ویکیەک",
 	"wminc-searchwiki-noproject": "تۆ پڕۆژەت ھەڵنەبژاردووە",
 	"wminc-searchwiki-selectproject": "بگەڕێ بۆ:",
 	"wminc-searchwiki-inputlanguage": "لە زمان:",
@@ -30,8 +33,10 @@
 	"wminc-infopage-title-p": "ویکیپیدیا $1",
 	"wminc-infopage-title-t": "ویکیفەرھەنگ $1",
 	"wminc-infopage-title-q": "ویکیوتە $1",
+	"wminc-infopage-title-n": "ویکیھەواڵ $1",
 	"wminc-infopage-title-s": "ویکیژێدەر $1",
 	"wminc-infopage-title-v": "ویکیزانکۆ $1",
 	"wminc-infopage-title-y": "ویکیسەفەر $1",
+	"wminc-infopage-option-sisterprojects-other": "دەتوانیت بۆ پڕۆژەکانی تر لەم زمانە بگەڕێی:",
 	"wminc-infopage-status-beforeincubator-sister": "ئەم پڕۆژەیە بەردەستە لە $1"
 }
