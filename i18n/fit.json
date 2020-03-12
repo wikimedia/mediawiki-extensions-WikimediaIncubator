@@ -8,5 +8,6 @@
 	"wminc-fs-signup-title": "Luo konttu",
 	"wminc-infopage-enter": "siiry alkusivule",
 	"wminc-infopage-title-p": "Wikipeetia $1",
-	"wminc-infopage-title-v": "Wikiversiteetti $1"
+	"wminc-infopage-title-v": "Wikiversiteetti $1",
+	"wminc-infopage-status-beforeincubator": "Tämä prujekti luotiin ennen kuin Wikimeetia-hautomo käynnistettiin, ja se oon saatavilla atressissa $1."
 }
