@@ -9,7 +9,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaIncubator",
 	"descriptionmsg": "wminc-desc",
 	"requires": {
-		"MediaWiki": ">= 1.28.1"
+		"MediaWiki": ">= 1.34"
 	},
 	"type": "other",
 	"config": {

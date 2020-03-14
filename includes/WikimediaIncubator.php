@@ -9,6 +9,8 @@
  * @author Robin Pepermans (SPQRobin)
  */
 
+use MediaWiki\MediaWikiServices;
+
 class WikimediaIncubator {
 
 	/**
@@ -870,7 +872,8 @@ class WikimediaIncubator {
 		global $wgLogos;
 		$prefixForPageTitle = str_replace( '/', '-', strtolower( $setLogo['prefix'] ) );
 		$logoMsg = wfMessage( 'Incubator-logo-' . $prefixForPageTitle )->inContentLanguage()->plain();
-		$file = wfFindFile( Title::newFromText( $logoMsg, NS_FILE ) );
+		$file = MediaWikiServices::getInstance()->getRepoGroup()
+			->findFile( Title::newFromText( $logoMsg, NS_FILE ) );
 		if ( $file ) {
 			$thumb = $file->transform( [ 'width' => 135, 'height' => 135 ] );
 			$wgLogos = [ '1x' => $thumb->getUrl() ];
