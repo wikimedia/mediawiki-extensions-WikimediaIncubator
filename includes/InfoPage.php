@@ -106,7 +106,7 @@ class InfoPage {
 	 * @param string|null $url
 	 * @param string|null $lang
 	 * @param bool $mul
-	 * @return String
+	 * @return string
 	 */
 	public function makeLogo( $project, $clickable = true, $params = [],
 		$url = null, $lang = null, $mul = false
@@ -145,7 +145,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String list of clickable logos of other projects
+	 * @return string list of clickable logos of other projects
 	 * 					(Wikipedia, Wiktionary, ...)
 	 */
 	public function listOtherProjects() {
@@ -167,7 +167,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String list of clickable logos of multilingual projects
+	 * @return string list of clickable logos of multilingual projects
 	 * 					(Meta, Commons, ...)
 	 */
 	public function listMultilingualProjects() {
@@ -188,7 +188,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String "Welcome to Incubator" message
+	 * @return string "Welcome to Incubator" message
 	 */
 	public function showWelcome() {
 		return Html::rawElement( 'div', [ 'class' => 'wminc-infopage-welcome' ],
@@ -199,7 +199,7 @@ class InfoPage {
 	 * @param string $beforetitle
 	 * @param string $aftertitle
 	 * @param string $content
-	 * @return String the core HTML for the info page
+	 * @return string the core HTML for the info page
 	 */
 	public function StandardInfoPage( $beforetitle, $aftertitle, $content ) {
 		global $wgLang;
@@ -215,7 +215,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String
+	 * @return string
 	 */
 	public function showMissingWiki() {
 		global $wgRequest;
@@ -248,7 +248,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String
+	 * @return string
 	 */
 	public function showIncubatingWiki() {
 		global $wgLang;
@@ -304,7 +304,7 @@ class InfoPage {
 	}
 
 	/**
-	 * @return String
+	 * @return string
 	 */
 	public function showExistingWiki() {
 		global $wgLang, $wmincSisterProjects;
