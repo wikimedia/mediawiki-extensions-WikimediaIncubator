@@ -42,6 +42,7 @@
 	"wminc-viewuserlang-go": "Siirry",
 	"wminc-userdoesnotexist": "Käyttäjää ”$1” ei ole olemassa.",
 	"wminc-ip": "$1 on IP-osoite.",
+	"action-viewuserlang": "tarkastella käyttäjän kieltä ja testiwikiä",
 	"right-viewuserlang": "Tarkastella käyttäjän kieltä ja testiwikiä",
 	"group-test-sysop": "testiwikin ylläpitäjät",
 	"group-test-sysop-member": "{{GENDER:$1|testiwikin ylläpitäjä}}",
@@ -102,9 +103,9 @@
 	"wminc-infopage-status-open": "Tämä on Wikimedia-hautomon avoin wiki.",
 	"wminc-infopage-status-imported": "Tämä Hautomo-wiki oli tuotu osoitteesta $1, sen sulkemisen jälkeen.",
 	"wminc-infopage-status-closedsister": "Tämä aliverkkotunnus on suljettu. Siirry osoitteeseen <strong>$2</strong>, jos haluat muokata wikiä.",
-	"wminc-infopage-status-approved": "Tämä hautomo-wiki on hyväksytty [[meta:Special:MyLanguage/Language_committee|kielikomitean]] toimesta ja  tullaan luomaan pian.",
-	"wminc-infopage-status-created": "Kielikomitea on hyväksynyt tämän projektin ja se on nyt saatavilla osoitteessa $1.",
+	"wminc-infopage-status-approved": "Tämä hautomo-wiki on hyväksytty [[meta:Special:MyLanguage/Language_committee|kielikomitean]] toimesta ja tullaan luomaan pian.",
+	"wminc-infopage-status-created": "Kielikomitea on hyväksynyt tämän hankkeen ja se on nyt saatavilla osoitteessa $1.",
 	"wminc-infopage-status-beforeincubator": "Tämä projekti luotiin ennen kuin Wikimedia-hautomo käynnistettiin, ja se on saatavilla osoitteessa $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Tämä projekti on saatavilla osoitteessa $1.",
+	"wminc-infopage-status-beforeincubator-sister": "Tämä hanke on saatavilla osoitteessa $1.",
 	"wminc-infopage-error": "Virhe: {{#infopage}} voidaan käyttää vain etuliitteisillä sivuilla."
 }
