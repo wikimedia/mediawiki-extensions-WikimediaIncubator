@@ -359,9 +359,11 @@ class WikimediaIncubator {
 		return true;
 	}
 
-	public static function magicWordValue( Parser $parser, &$cache, &$magicWordId, &$ret ) {
-		$p = self::displayPrefix();
-		$ret = $p ?: 'none';
+	public static function magicWordValue( Parser $parser, &$cache, $magicWordId, &$ret ) {
+		if ( $magicWordId === 'usertestwiki' ) {
+			$p = self::displayPrefix();
+			$ret = $cache[$magicWordId] = $p ?: 'none';
+		}
 		return true;
 	}
 
