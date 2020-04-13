@@ -47,7 +47,7 @@
 	"group-test-sysop.css": "/* El CSS que se agregue aquí afectará solo a los administradores del wiki de pruebas */",
 	"group-test-sysop.js": "/* El JS que se agregue aquí afectará solo a los administradores del wiki de pruebas */",
 	"wminc-code-macrolanguage": "El [[wikipedia:$2 language|$3]] es una [[wikipedia:es:Macrolengua|macrolengua]], que se compone de los siguientes idiomas:",
-	"wminc-code-collective": "El código \"$1\" no se refiere a un idioma específico sino a una colección de idiomas, específicamente los [[wikipedia:$2 language|idiomas \"$3\"]].",
+	"wminc-code-collective": "El código «$1» no se refiere a un idioma específico sino a una colección de idiomas, específicamente los [[wikipedia:$2 language|idiomas «$3»]].",
 	"wminc-code-retired": "Este código de idioma ha cambiado o ya no se refiere al idioma original.",
 	"wminc-listusers-testwiki": "Estás mirando la lista de usuarios que han seleccionado su opción de wiki de pruebas a $1.",
 	"wminc-search-nocreate-nopref": "Has buscado «$1». Ajusta tus [[Special:Preferences|preferencias del wiki de pruebas]] para que podamos indicarte qué página puedes crear.",
