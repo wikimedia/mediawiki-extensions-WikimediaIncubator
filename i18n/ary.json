@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Enzoreg",
+			"Reda Benkhadra",
 			"زكريا"
 		]
 	},
@@ -15,7 +16,7 @@
 	"randombytest": "Ṣefḫa ĝel l-Lah men l-Wiki dyal 't-tést",
 	"randombytest-nopages": "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
 	"wminc-viewuserlang": "Ha hiya loġaṫ l-mosṫeĥdim o l-Wiki dyal 't-tést dyalo",
-	"wminc-viewuserlang-user": "smiṫ l-mosṫĥdim:",
+	"wminc-viewuserlang-user": "سميت لمستخدم:",
 	"wminc-viewuserlang-go": "Sir",
 	"right-viewuserlang": "Ċof loġṫ l-mosṫeĥdim o l-Wiki dyal 't-tést"
 }
