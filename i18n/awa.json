@@ -17,5 +17,16 @@
 	"wminc-viewuserlang-go": "जावा जाय",
 	"group-test-sysop": "परीक्षण विकी प्रबंधक",
 	"wminc-searchwiki-inputlanguage": "एह भाषा मा:",
-	"wminc-searchwiki-go": "जावा जाय"
+	"wminc-searchwiki-go": "जावा जाय",
+	"wminc-fs-startwiki-title": "आपन विकी शुरू करैं",
+	"wminc-infopage-enter": "प्रधान पन्ना पै जायँ",
+	"wminc-unknownlang": "(नमालुम भाषा कोड)",
+	"wminc-infopage-title-p": "विकिपीड़िया $1",
+	"wminc-infopage-title-b": "विकिकिताब $1",
+	"wminc-infopage-title-t": "विकीकोस $1",
+	"wminc-infopage-title-q": "विकिकहावत $1",
+	"wminc-infopage-title-n": "विकिसमाचार $1",
+	"wminc-infopage-title-s": "विकिसोत $1",
+	"wminc-infopage-status-approved": "ई इनक्यूबेटर विकी का [[meta:Special:MyLanguage/Language_committee|language committee]] द्वारा अनुमोदित कीन गा है अउर जल्दिन बनवा जाये।",
+	"wminc-infopage-status-beforeincubator-sister": "ई परियोजना $1 पै मौजूद है।"
 }
