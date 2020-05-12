@@ -13,62 +13,84 @@
 	},
 	"type": "other",
 	"config": {
-		"_prefix": "wminc",
-		"Pref": "incubatortestwiki",
+		"Pref": {
+			"value": "incubatortestwiki"
+		},
 		"Projects": {
-			"p": "Wikipedia",
-			"b": "Wikibooks",
-			"t": "Wiktionary",
-			"q": "Wikiquote",
-			"n": "Wikinews",
-			"y": "Wikivoyage"
+			"value": {
+				"p": "Wikipedia",
+				"b": "Wikibooks",
+				"t": "Wiktionary",
+				"q": "Wikiquote",
+				"n": "Wikinews",
+				"y": "Wikivoyage"
+			}
 		},
 		"SisterProjects": {
-			"s": "Wikisource",
-			"v": "Wikiversity"
+			"value": {
+				"s": "Wikisource",
+				"v": "Wikiversity"
+			}
 		},
 		"MultilingualProjects": {
-			"meta": "Meta-Wiki",
-			"commons": "Wikimedia Commons",
-			"species": "Wikispecies",
-			"mediawiki": "MediaWiki",
-			"wikidata": "Wikidata"
+			"value": {
+				"meta": "Meta-Wiki",
+				"commons": "Wikimedia Commons",
+				"species": "Wikispecies",
+				"mediawiki": "MediaWiki",
+				"wikidata": "Wikidata"
+			}
 		},
 		"ProjectSite": {
-			"name": "Incubator",
-			"short": "inc"
+			"value": {
+				"name": "Incubator",
+				"short": "inc"
+			}
 		},
-		"TestWikiNamespaces": [
-			0,
-			1,
-			10,
-			11,
-			14,
-			15,
-			828,
-			829
-		],
-		"LangCodeLength": 12,
-		"PseudoCategoryNSes": [
-			"Incubator",
-			"Help",
-			"Users",
-			"Maintenance",
-			"Files"
-		],
-		"ExistingWikis": null,
+		"TestWikiNamespaces": {
+			"value": [
+				0,
+				1,
+				10,
+				11,
+				14,
+				15,
+				828,
+				829
+			]
+		},
+		"LangCodeLength": {
+			"value": 12
+		},
+		"PseudoCategoryNSes": {
+			"value": [
+				"Incubator",
+				"Help",
+				"Users",
+				"Maintenance",
+				"Files"
+			]
+		},
+		"ExistingWikis": {
+			"value": null
+		},
 		"ProjectDatabases": {
-			"p": "wiki",
-			"b": "wikibooks",
-			"t": "wiktionary",
-			"q": "wikiquote",
-			"n": "wikinews",
-			"s": "wikisource",
-			"v": "wikiversity",
-			"y": "wikivoyage"
+			"value": {
+				"p": "wiki",
+				"b": "wikibooks",
+				"t": "wiktionary",
+				"q": "wikiquote",
+				"n": "wikinews",
+				"s": "wikisource",
+				"v": "wikiversity",
+				"y": "wikivoyage"
+			}
 		},
-		"ClosedWikis": false
+		"ClosedWikis": {
+			"value": false
+		}
 	},
+	"config_prefix": "wminc",
 	"GroupPermissions": {
 		"test-sysop": {
 			"delete": true,
@@ -172,5 +194,5 @@
 		"SpecialSearchPowerBox": "WikimediaIncubator::onSpecialSearchPowerBox",
 		"SpecialSearchSetupEngine": "WikimediaIncubator::onSpecialSearchSetupEngine"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
