@@ -74,7 +74,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 		# Make a list of selectable languages, based on language codes
 		# in a MediaWiki message and on the browser language(s)
-		$getLangCodes = array_flip( explode( ',', $getLangCodes ) );
+		$getLangCodes = array_flip( explode( ',', $getLangCodes->text() ) );
 		$names = Language::fetchLanguageNames();
 		$names_keys = array_keys( $names );
 		$browserLanguages = array_keys( $this->getRequest()->getAcceptLang() );
