@@ -13,7 +13,6 @@ class WikimediaIncubatorAuthenticationRequest extends AuthenticationRequest {
 
 	/**
 	 * @inheritDoc
-	 * @suppress SecurityCheck-DoubleEscaped T202112
 	 */
 	public function getFieldInfo() {
 		$request = RequestContext::getMain()->getRequest();
