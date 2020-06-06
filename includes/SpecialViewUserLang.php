@@ -95,7 +95,6 @@ class SpecialViewUserLang extends SpecialPage {
 		} else {
 			$testwiki = $this->msg( 'wminc-testwiki-none' )->escaped();
 		}
-		// @phan-suppress-next-line SecurityCheck-XSS
 		$this->getOutput()->addHtml(
 			Xml::openElement( 'ul' ) .
 			'<li>' . $this->msg( 'username' )->escaped() . ' ' .
