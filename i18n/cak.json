@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mynor Archila"
+		]
+	},
+	"wminc-desc": "Runuk’ulem ruwiki totjtob’enïk pa \"Wikimedia Incubator\"",
+	"wminc-manual": "Wujil",
+	"wminc-listwikis": "Rucholajem wikia’",
+	"wminc-testwiki": "Ruwiki tojtob’enïk:",
+	"wminc-testwiki-code": "Ruch’ab’äl ruwiki tojtob’enïk",
+	"wminc-viewuserlang-user": "Rub’i’ okisanel",
+	"wminc-searchwiki-selectproject": "Rukanoxik pa:",
+	"wminc-fs-langselect-title": "Rucha’ik ch’ab’äl",
+	"wminc-infopage-title-t": "Wikisoltzij $1"
+}
