@@ -168,7 +168,6 @@
 			}
 		}
 	},
-	"callback": "WikimediaIncubator::onRegistration",
 	"Hooks": {
 		"ContributionsToolLinks": "WikimediaIncubator::efLoadViewUserLangLink",
 		"GetPreferences": "WikimediaIncubator::onGetPreferences",
