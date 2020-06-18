@@ -1,8 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erdemaslancan"
+			"Erdemaslancan",
+			"Patriot Kur"
 		]
 	},
-	"wminc-searchwiki-go": "Давардеј"
+	"wminc-testwiki": "Dəvinə viki:",
+	"wminc-testwiki-code": "Dəvinə viki zovonon:",
+	"wminc-testwiki-none": "Ni/Həmmə",
+	"wminc-viewuserlang-user": "İştirokəkə nüm:",
+	"wminc-viewuserlang-go": "Bışi",
+	"wminc-searchwiki-go": "Bışi",
+	"wminc-searchwiki-gotoinfopage": "səhifə məlumot",
+	"wminc-infopage-title-p": "Vikipediya $1",
+	"wminc-infopage-title-b": "Vikikitob $1",
+	"wminc-infopage-title-t": "Vikilüğət $1",
+	"wminc-infopage-title-q": "Vikisitot $1",
+	"wminc-infopage-title-n": "Vikixəbon $1",
+	"wminc-infopage-title-s": "Vikisəvon $1",
+	"wminc-infopage-title-v": "Vikiversitet $1",
+	"wminc-infopage-title-y": "Vikisəyohət $1"
 }
