@@ -101,5 +101,5 @@
 	"wminc-infopage-status-created": "Bu proje dil komitesi tarafından onaylandı ve $1 sayfasında mevcut.",
 	"wminc-infopage-status-beforeincubator": "Bu proje Wikimedia Kuvöz başlamadan önce oluşturuldu ve $1 sayfasında mevcut.",
 	"wminc-infopage-status-beforeincubator-sister": "Bu proje $1 sayfasında mevcut.",
-	"wminc-infopage-error": "Hata: {{#infopage}} sadece ön ekli sayfalarda kullanılabilir."
+	"wminc-infopage-error": "Hata: {{#infopage}} yalnızca önekli sayfalarda kullanılabilir."
 }
