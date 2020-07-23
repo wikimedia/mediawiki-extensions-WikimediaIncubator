@@ -41,6 +41,8 @@
 	"group-test-sysop": "Test viki hizmetlileri",
 	"group-test-sysop-member": "{{GENDER:$1|test viki hizmetlisi}}",
 	"grouppage-test-sysop": "{{ns:project}}:Test viki hizmetlileri",
+	"group-test-sysop.css": "/* Buraya yerleştirilen CSS yalnızca test viki hizmetlilerini etkiler */",
+	"group-test-sysop.js": "/* Buraya yerleştirilen JS yalnızca test viki hizmetlilerini etkiler */",
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" dili]] bir [[wikipedia:ISO 639 macrolanguage|makrodil]], şu üye dillerden oluşuyor:",
 	"wminc-code-collective": "\"$1\" kodu belirli bir dile değil, bir dil koleksiyonuna ait, yani [[wikipedia:$2 language|\"$3\" dilleri]].",
 	"wminc-code-retired": "Bu dil kodu değişti ve artık orijinal dile göndermiyor.",
