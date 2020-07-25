@@ -12,18 +12,6 @@
 use MediaWiki\MediaWikiServices;
 
 class WikimediaIncubator {
-
-	/**
-	 * Callback for extension registration
-	 */
-	public static function onRegistration() {
-		global $wmincExistingWikis, $wgLocalDatabases;
-
-		if ( $wmincExistingWikis === null ) {
-			$wmincExistingWikis = $wgLocalDatabases;
-		}
-	}
-
 	/**
 	 * Add default preference
 	 * @param array &$defOpt
@@ -522,13 +510,20 @@ class WikimediaIncubator {
 		return $wgConf->get( $setting, $langUnderscore . $dbSuffix, $dbSuffix, $params );
 	}
 
+	private static function getExistingWikis() : array {
+		global $wmincExistingWikis, $wgLocalDatabases;
+		// This configuration mainly existed for testing and local development.
+		// It is not used by Wikimedia in production.
+		return $wmincExistingWikis ?? $wgLocalDatabases;
+	}
+
 	/**
 	 * Do we know the databases of the existing wikis?
 	 * @return bool
 	 */
 	public static function canWeCheckDB() {
-		global $wmincExistingWikis, $wmincProjectDatabases;
-		if ( !is_array( $wmincProjectDatabases ) || !is_array( $wmincExistingWikis ) ) {
+		global $wmincProjectDatabases;
+		if ( !is_array( $wmincProjectDatabases ) ) {
 			return false; # We don't know the databases
 		}
 		return true; # Should work now
@@ -579,9 +574,9 @@ class WikimediaIncubator {
 		if ( !$db ) {
 			return false;
 		}
-		global $wmincExistingWikis;
+		$existingWikis = self::getExistingWikis();
 		$closed = self::getDBClosedWikis();
-		if ( !in_array( $db, $wmincExistingWikis ) ) {
+		if ( !in_array( $db, $existingWikis ) ) {
 			return 'missing'; # not in the list
 		} elseif ( is_array( $closed ) && in_array( $db, $closed ) ) {
 			return 'closed'; # in the list of closed wikis
