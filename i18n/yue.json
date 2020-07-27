@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Hello903hello",
+			"Moon0319",
 			"Shinjiman"
 		]
 	},
 	"wminc-desc": "維基媒體菢膥機嘅測試wiki系統",
 	"wminc-listwikis": "Wiki一覽",
 	"wminc-testwiki": "測試wiki：",
-	"wminc-testwiki-none": "無/全部",
+	"wminc-testwiki-none": "冇/冚唪唥",
 	"wminc-prefinfo-language": "你嘅界面語言 - 同你嘅測試wiki獨立嘅",
 	"wminc-prefinfo-code": "ISO 639語言碼",
 	"wminc-prefinfo-project": "揀你用緊嘅維基媒體計劃",
