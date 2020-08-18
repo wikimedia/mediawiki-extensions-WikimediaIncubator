@@ -8,7 +8,8 @@
 			"Joseagush",
 			"Kandar",
 			"NoiX180",
-			"Rex"
+			"Rex",
+			"Sonic Speedy"
 		]
 	},
 	"wminc-desc": "Sistem wiki tes untuk Wikimedia Incubator",
@@ -36,6 +37,7 @@
 	"wminc-viewuserlang-go": "Lanjut",
 	"wminc-userdoesnotexist": "Pengguna \"$1\" tidak ditemukan.",
 	"wminc-ip": "\"$1\" adalah alamat IP.",
+	"action-viewuserlang": "Lihat bahasa pengguna dan wiki pengujian",
 	"right-viewuserlang": "Lihat bahasa pengguna dan wiki pengujian",
 	"group-test-sysop": "Pengurus wiki uji coba",
 	"group-test-sysop-member": "{{GENDER:$1|pengurus wiki uji coba}}",
