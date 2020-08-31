@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yupik"
+		]
+	},
+	"wminc-manual": "Raavâkirje",
+	"wminc-listwikis": "Wikilisto",
+	"wminc-testwiki": "Keččâlemwiki:",
+	"wminc-testwiki-code": "Keččâlemwiki kielâ:",
+	"wminc-testwiki-none": "Ij ollágin/Puoh",
+	"wminc-testwiki-site": "(Paijeentoollâm)",
+	"wminc-recentchanges-all": "Puoh vorâs nubástusah",
+	"wminc-viewuserlang": "Viežâ kevttee kielâ já keččâlemwiki",
+	"wminc-viewuserlang-user": "Kevtteenommâ:",
+	"wminc-viewuserlang-go": "Moonâ",
+	"wminc-userdoesnotexist": "Kevttee \"$1\" ij kávnuu.",
+	"wminc-ip": "\"$1\" lij IP-čujottâs.",
+	"action-viewuserlang": "tarkkuđ kevttee kielâ já keččâlemwiki",
+	"right-viewuserlang": "Čääiti kevttee kielâ já keččâlemwiki",
+	"group-test-sysop": "Keččâlemwiki paijeentuálleeh",
+	"group-test-sysop-member": "{{GENDER:$1|keččâlemwiki paijeentuállee}}",
+	"grouppage-test-sysop": "{{ns:project}}:Keččâlemwiki paijeentuálleeh",
+	"wminc-searchwiki": "Uusâ wiki",
+	"wminc-searchwiki-noproject": "Jieh valjim proojeekt.",
+	"wminc-searchwiki-selectproject": "Uusâ:",
+	"wminc-searchwiki-inputlanguage": "Kielân:",
+	"wminc-searchwiki-go": "Moonâ",
+	"wminc-searchwiki-match-userlangname": "$1 lii kielâ nommâ.",
+	"wminc-searchwiki-match-englishname": "\"$1\" lii kielâ $2 nommâ eŋgâlâskielân.",
+	"wminc-fs-langselect-title": "Valjii kielâ",
+	"wminc-infopage-enter": "Moonâ ovdâsiijđon",
+	"wminc-unknownlang": "(tubdâmettum kielâkoodi)",
+	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-b": "Wikikirjeh $1",
+	"wminc-infopage-title-t": "Wikisänikirje $1",
+	"wminc-infopage-title-q": "Wikisitaateh $1",
+	"wminc-infopage-title-n": "Wikiuđđâseh $1",
+	"wminc-infopage-title-s": "Wikikäldee $1",
+	"wminc-infopage-title-v": "Wikiollâopâttâh $1",
+	"wminc-infopage-title-y": "Wikimääđhih $1"
+}
