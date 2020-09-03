@@ -600,7 +600,8 @@ class WikimediaIncubator {
 			return true;
 		}
 
-		global $wgOut, $wmincSisterProjects;
+		$out = $article->getContext()->getOutput();
+		global $wmincSisterProjects;
 		$prefix2 = self::analyzePrefix( $title, false, true );
 		$p = $prefix2['project'] ?? '';
 		$user = $article->getContext()->getUser();
@@ -609,12 +610,12 @@ class WikimediaIncubator {
 				( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
 			if ( self::displayPrefix() == $prefix2['prefix'] ) {
 				# Redirect to the existing wiki if the user has this wiki as preference
-				$wgOut->redirect( $link );
+				$out->redirect( $link );
 				return true;
 			} else {
 				# Show a link to the existing wiki
 				$showLink = self::makeExternalLinkText( $link, true );
-				$wgOut->addHtml( '<div class="wminc-wiki-exists">' .
+				$out->addHtml( '<div class="wminc-wiki-exists">' .
 					wfMessage( 'wminc-error-wiki-exists' )->rawParams( $showLink )->escaped() .
 				'</div>' );
 			}
@@ -623,7 +624,7 @@ class WikimediaIncubator {
 			$link = self::getSubdomain( $user, $prefix2['lang'], $p,
 				( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
 				$showLink = self::makeExternalLinkText( $link, true );
-				$wgOut->addHtml( '<div class="wminc-wiki-sister">' .
+				$out->addHtml( '<div class="wminc-wiki-sister">' .
 					wfMessage( 'wminc-error-wiki-sister' )->rawParams( $showLink )->escaped() .
 				'</div>' );
 		} elseif ( self::shouldWeShowUnprefixedError( $title ) ) {
@@ -633,11 +634,11 @@ class WikimediaIncubator {
 				$suggesttitle = $prefix2['realtitle'] ?? $title->getText();
 				$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
 				# Suggest to create a prefixed page
-				$wgOut->addHtml( '<div class="wminc-unprefixed-suggest">' .
+				$out->addHtml( '<div class="wminc-unprefixed-suggest">' .
 					wfMessage( 'wminc-error-unprefixed-suggest', $suggest )->parseAsBlock() .
 				'</div>' );
 			} else {
-				$wgOut->addWikiMsg( 'wminc-error-unprefixed' );
+				$out->addWikiMsg( 'wminc-error-unprefixed' );
 			}
 		}
 		return true;
@@ -650,25 +651,25 @@ class WikimediaIncubator {
 	 * @param array $prefix
 	 */
 	public static function onShowMissingArticleForInfoPages( $article, $prefix ) {
-		global $wgOut;
+		$out = $article->getContext()->getOutput();
 		$title = $article->getTitle();
-		$wgOut->addModuleStyles( 'WikimediaIncubator.InfoPage' );
+		$out->addModuleStyles( 'WikimediaIncubator.InfoPage' );
 		$infopage = new InfoPage( $title, $prefix, $article->getContext()->getUser() );
 		$dbstate = self::getDBState( $prefix );
 		if ( $dbstate == 'existing' ) {
 			$infopage->mSubStatus = 'beforeincubator';
-			$wgOut->addHtml( $infopage->showExistingWiki() );
+			$out->addHtml( $infopage->showExistingWiki() );
 		} elseif ( $dbstate == 'closed' ) {
 			$infopage->mSubStatus = 'imported';
-			$wgOut->addHtml( $infopage->showIncubatingWiki() );
+			$out->addHtml( $infopage->showIncubatingWiki() );
 		} elseif ( self::getMainPage( $prefix['lang'], $prefix['prefix'] )->exists() ) {
 			$infopage->mSubStatus = 'open';
-			$wgOut->addHtml( $infopage->showIncubatingWiki() );
+			$out->addHtml( $infopage->showIncubatingWiki() );
 		} else {
-			$wgOut->addHtml( $infopage->showMissingWiki() );
+			$out->addHtml( $infopage->showMissingWiki() );
 		}
 		# Set the page title from "Wx/xyz - Incubator" to "Wikiproject Language - Incubator"
-		$wgOut->setHTMLTitle( wfMessage( 'pagetitle', $infopage->mFormatTitle )->text() );
+		$out->setHTMLTitle( wfMessage( 'pagetitle', $infopage->mFormatTitle )->text() );
 	}
 
 	public static function onParserFirstCallInit( Parser $parser ) {
