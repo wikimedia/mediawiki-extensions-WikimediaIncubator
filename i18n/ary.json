@@ -3,6 +3,7 @@
 		"authors": [
 			"Enzoreg",
 			"Reda Benkhadra",
+			"Tifratin",
 			"زكريا"
 		]
 	},
@@ -10,8 +11,8 @@
 	"wminc-testwiki": "L-Wiki dyal 't-tést :",
 	"wminc-testwiki-none": "Ḫṫa ḫaja / Kol ċi",
 	"wminc-prefinfo-language": "Loġṫ wajihṫek - mesṫaqela men 't-tést dyal l-Wiki dyalek",
-	"wminc-prefinfo-code": "L-kod ISO 639 dyal l-loġa",
-	"wminc-prefinfo-project": "Ĥṫar l-meċroĝ Wikimédya (l-opsyon Incubator mĥeṣeṣa le mosṫeĥdimin li ka iṣaybo ĥedma ĝama)",
+	"wminc-prefinfo-code": "لكود ISO 639 ديال لّوغة لّي خدام بيها هنا",
+	"wminc-prefinfo-project": "ختار لمشروع د ويكيميديا لّي خدّام عليه هنا",
 	"wminc-prefinfo-error": "Ĥṫariṫi meċroĝ li ka iḫṫaj l-kod dyal l-loġa.",
 	"randombytest": "Ṣefḫa ĝel l-Lah men l-Wiki dyal 't-tést",
 	"randombytest-nopages": "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
