@@ -17,7 +17,7 @@ class SpecialViewUserLang extends SpecialPage {
 	}
 
 	/**
-	 * @return String
+	 * @return string
 	 */
 	public function getDescription() {
 		return $this->msg( 'wminc-viewuserlang' )->plain();

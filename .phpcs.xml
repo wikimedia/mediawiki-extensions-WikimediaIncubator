@@ -4,7 +4,9 @@
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPrivate" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationProtected" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic" />
+		<exclude name="MediaWiki.Commenting.PropertyDocumentation.MissingDocumentationPublic" />
 		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
+		<exclude name="MediaWiki.Usage.ExtendClassUsage.FunctionConfigUsage" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
 	</rule>
 	<rule ref="MediaWiki.NamingConventions.ValidGlobalName">
@@ -13,6 +15,6 @@
 		</properties>
 	</rule>
 	<file>.</file>
-	<arg name="extensions" value="php,inc" />
+	<arg name="extensions" value="php" />
 	<arg name="encoding" value="UTF-8" />
 </ruleset>

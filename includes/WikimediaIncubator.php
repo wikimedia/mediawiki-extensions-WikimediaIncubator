@@ -146,7 +146,7 @@ class WikimediaIncubator {
 	 * also allow other text within the page title (Wx/xxx vs Wx/xxx/Text)
 	 * @param bool $allowSister Whether to allow sister projects when checking
 	 * for the project code.
-	 * @return Array with 'error' or 'project', 'lang', 'prefix' and
+	 * @return array with 'error' or 'project', 'lang', 'prefix' and
 	 * 					optionally 'realtitle'
 	 */
 	public static function analyzePrefix( $input, $onlyInfoPage = false, $allowSister = false ) {
@@ -484,7 +484,7 @@ class WikimediaIncubator {
 	 * @param string $setting the setting to call
 	 * @param string $lang the language code
 	 * @param string $project the project code or name
-	 * @return Mixed the setting from $wgConf->settings
+	 * @return mixed the setting from $wgConf->settings
 	 */
 	public static function getConf( User $user, $setting, $lang, $project ) {
 		if ( !self::canWeCheckDB() ) {
@@ -757,7 +757,7 @@ class WikimediaIncubator {
 	/**
 	 * make "Wx/xxx/Main Page"
 	 * @param string $langCode The language code
-	 * @param Null|string|null $prefix the "Wx/xxx" prefix to add
+	 * @param string|null $prefix the "Wx/xxx" prefix to add
 	 * @return Title
 	 */
 	public static function getMainPage( $langCode, $prefix = null ) {

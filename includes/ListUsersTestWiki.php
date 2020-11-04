@@ -6,7 +6,7 @@
 class ListUsersTestWiki {
 	/**
 	 * If the &testwiki= parameter matches the project site (Incubator), return that
-	 * @return Array|null
+	 * @return array|null
 	 */
 	public static function getProjectInput() {
 		global $wmincProjectSite, $wgRequest;

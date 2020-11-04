@@ -204,7 +204,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 	/**
 	 * @param string $code
-	 * @return String
+	 * @return string
 	 */
 	protected function getRootCode( $code ) {
 		# e.g. ks-arab -> ks
