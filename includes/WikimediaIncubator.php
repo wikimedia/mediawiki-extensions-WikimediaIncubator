@@ -406,7 +406,8 @@ class WikimediaIncubator {
 			# no permission if the wiki already exists
 			$link = self::getSubdomain( $user, $prefixdata['lang'],
 				$prefixdata['project'], ( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
-				str_replace( ' ', '_', $prefixdata['realtitle'] ) );
+				( $prefixdata['realtitle'] ?? $titletext )
+			);
 			# faking external link to support prot-rel URLs
 			$link = "[$link " . self::makeExternalLinkText( $link ) . "]";
 			$result = [ 'wminc-error-wiki-exists', $link ];
@@ -607,7 +608,9 @@ class WikimediaIncubator {
 		$user = $article->getContext()->getUser();
 		if ( self::getDBState( $prefix2 ) == 'existing' ) {
 			$link = self::getSubdomain( $user, $prefix2['lang'], $p,
-				( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
+				( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
+				( $prefix2['realtitle'] ?? $title->getText() )
+			);
 			if ( self::displayPrefix() == $prefix2['prefix'] ) {
 				# Redirect to the existing wiki if the user has this wiki as preference
 				$out->redirect( $link );
@@ -622,11 +625,13 @@ class WikimediaIncubator {
 		} elseif ( array_key_exists( $p, $wmincSisterProjects ) ) {
 			# A sister project is not hosted here, so direct the user to the relevant wiki
 			$link = self::getSubdomain( $user, $prefix2['lang'], $p,
-				( $title->getNsText() ? $title->getNsText() . ':' : '' ) . $prefix2['realtitle'] );
-				$showLink = self::makeExternalLinkText( $link, true );
-				$out->addHtml( '<div class="wminc-wiki-sister">' .
-					wfMessage( 'wminc-error-wiki-sister' )->rawParams( $showLink )->escaped() .
-				'</div>' );
+				( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
+				( $prefix2['realtitle'] ?? $title->getText() )
+			);
+			$showLink = self::makeExternalLinkText( $link, true );
+			$out->addHtml( '<div class="wminc-wiki-sister">' .
+				wfMessage( 'wminc-error-wiki-sister' )->rawParams( $showLink )->escaped() .
+			'</div>' );
 		} elseif ( self::shouldWeShowUnprefixedError( $title ) ) {
 			# Unprefixed pages
 			if ( self::isContentProject( $user ) ) {
@@ -751,7 +756,7 @@ class WikimediaIncubator {
 	public static function getSubdomain( User $user, $lang, $project, $title = '' ) {
 		global $wgArticlePath;
 		return self::getConf( $user, 'wgServer', $lang, $project ) .
-			( $title ? str_replace( '$1', $title, $wgArticlePath ) : '' );
+			( $title ? str_replace( '$1', str_replace( ' ', '_', $title ), $wgArticlePath ) : '' );
 	}
 
 	/**
@@ -926,7 +931,7 @@ class WikimediaIncubator {
 				RequestContext::getMain()->getUser(), // No context
 				$newTitleData['lang'], $newTitleData['project'],
 				( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
-				str_replace( ' ', '_', $newTitleData['realtitle'] )
+				( $newTitleData['realtitle'] ?? $title->getText() )
 			);
 			$params[0] = 'wminc-error-wiki-exists';
 			$params[1] = "[$link " . self::makeExternalLinkText( $link ) . "]";
