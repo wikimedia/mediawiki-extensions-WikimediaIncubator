@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
@@ -14,7 +15,7 @@
 	"wminc-viewuserlang": "Viežâ kevttee kielâ já keččâlemwiki",
 	"wminc-viewuserlang-user": "Kevtteenommâ:",
 	"wminc-viewuserlang-go": "Moonâ",
-	"wminc-userdoesnotexist": "Kevttee \"$1\" ij kávnuu.",
+	"wminc-userdoesnotexist": "Kevttee \"$1\" ij kavnuu.",
 	"wminc-ip": "\"$1\" lij IP-čujottâs.",
 	"action-viewuserlang": "tarkkuđ kevttee kielâ já keččâlemwiki",
 	"right-viewuserlang": "Čääiti kevttee kielâ já keččâlemwiki",
