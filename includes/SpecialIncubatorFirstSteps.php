@@ -68,7 +68,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$getLangCodes = $this->msg( 'wminc-fs-langselect-langs' )->inContentLanguage();
 		$currentLangCode = $this->getLanguage()->getCode();
 
-		if ( $this->getUser()->isLoggedIn() || $getLangCodes->isBlank() ) {
+		if ( $this->getUser()->isRegistered() || $getLangCodes->isBlank() ) {
 			return;
 		}
 
@@ -124,7 +124,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		if ( $step ) {
 			$this->showHeader( $step_msg, true, false );
 			return $step;
-		} elseif ( $this->getUser()->isLoggedIn() ) {
+		} elseif ( $this->getUser()->isRegistered() ) {
 			$this->showHeader( $step_msg, true, true );
 			return $step;
 		}
