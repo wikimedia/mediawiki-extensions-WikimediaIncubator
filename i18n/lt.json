@@ -4,7 +4,8 @@
 			"Eitvys200",
 			"Hugo.arg",
 			"Manvydasz",
-			"Matasg"
+			"Matasg",
+			"Tomasdd"
 		]
 	},
 	"wminc-desc": "Wiki testasvimo sistema Vikimedija Inkubatoriui",
@@ -27,7 +28,7 @@
 	"wminc-ip": "\" $1 \" yra IP adresas.",
 	"right-viewuserlang": "Žiūrėti naudotojo kalbą ir testavimo wiki",
 	"group-test-sysop": "Bandyti wiki administratorius",
-	"group-test-sysop-member": "bandyti wiki administratorių",
+	"group-test-sysop-member": "{{GENDER:$1|bandyti viki administratorių}}",
 	"grouppage-test-sysop": "{{ns:project}}:Test wiki administrators",
 	"wminc-code-retired": "Šios kalbos kodas buvo pakeistas ir nebėra nuoroda į originalo kalba.",
 	"wminc-listusers-testwiki": "Jūs matote naudotojams, kurie nustatė bandymo Wiki pirmenybę $1.",
