@@ -10,6 +10,7 @@
 			"Rapsar",
 			"Sezgin İbiş",
 			"Suelnur",
+			"ToprakM",
 			"Vito Genovese"
 		]
 	},
@@ -29,7 +30,7 @@
 	"wminc-error-wronglangcode": "<strong>Hata:</strong> Bu sayfa [[{{MediaWiki:Wminc-error-help}}|yanlış bir dil kod]] içeriyor \"$1\".",
 	"wminc-error-unprefixed": "<strong>Hata:</strong> Bu sayfa [[{{MediaWiki:Wminc-error-help}}|öneksiz]].",
 	"wminc-error-unprefixed-suggest": "<strong>Hata:</strong> Bu sayfa [[{{MediaWiki:Wminc-error-help}}|öneksiz]]! Sayfayı şurada oluşturabilirsiniz: [[:$1]].",
-	"wminc-error-wiki-exists": "Bu viki zaten var. Bunu $1 sayfasında bulabilirsiniz. Eğer viki yeni oluşturulduysa, tüm içerik içe aktarılıncaya kadar lütfen bir kaç saat yada gün bekleyin.",
+	"wminc-error-wiki-exists": "Bu viki zaten var. Bunu $1 sayfasında bulabilirsiniz. Eğer viki yeni oluşturulduysa, tüm içerik içe aktarılıncaya kadar lütfen bir kaç saat ya da gün bekleyin.",
 	"wminc-error-wiki-sister": "Bu sayfa burada barındırılmayan bir projeye ait. Vikiyi bulmak için lütfen $1 sayfasına gidin.",
 	"randombytest": "Test vikisinden rastgele sayfa",
 	"randombytest-nopages": "Test vikinizdeki $1 isim alanında herhangi bir sayfa bulunmuyor.",
