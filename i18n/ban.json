@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chinamoonroll",
 			"Joseagush",
 			"NoiX180",
 			"Wandering ant"
@@ -35,5 +36,5 @@
 	"wminc-infopage-title-p": "Wikipédia $1",
 	"wminc-infopage-title-b": "Wikipustaka $1",
 	"wminc-infopage-title-t": "Wiktionary $1",
-	"wminc-infopage-title-q": "Wikiquote $1"
+	"wminc-infopage-title-q": "Wikianggit $1"
 }
