@@ -3,6 +3,7 @@
 		"authors": [
 			"Kimkha",
 			"Minh Nguyen",
+			"Nghiemtrongdai VN",
 			"Trần Nguyễn Minh Huy",
 			"Vinhtantran"
 		]
@@ -32,6 +33,7 @@
 	"wminc-viewuserlang-go": "Xem",
 	"wminc-userdoesnotexist": "Thành viên “$1” không tồn tại.",
 	"wminc-ip": "“$1” là một địa chỉ IP.",
+	"action-viewuserlang": "xem ngôn ngữ và wiki thử của người dùng",
 	"right-viewuserlang": "Xem ngôn ngữ và wiki thử của người dùng",
 	"group-test-sysop": "Bảo quản viên tại wiki thử nghiệm",
 	"group-test-sysop-member": "{{GENDER:$1}}bảo quản viên tại wiki thử nghiệm",

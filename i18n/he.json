@@ -24,7 +24,7 @@
 	"wminc-error-wronglangcode": "<strong>שגיאה:</strong> הדף הזה מכיל את [[{{MediaWiki:Wminc-error-help}}|קוד השפה השגוי]] \"$1\".",
 	"wminc-error-unprefixed": "<strong>שגיאה:</strong> לדף הזה [[{{MediaWiki:Wminc-error-help}}|אין תחילית]].",
 	"wminc-error-unprefixed-suggest": "<strong>שגיאה:</strong> לדף הזה [[{{MediaWiki:Wminc-error-help}}|אין תחילית]]! אפשר ליצור דף בשם [[:$1]].",
-	"wminc-error-wiki-exists": "הוויקי הזה כבר קיים. אפשר למצוא את הדף הזה בשם $1. אם הוויקי נוצר לאחרונה, נא לחכות מספר שעות או ימים עד שכל התוכן ייובא.",
+	"wminc-error-wiki-exists": "הוויקי הזה כבר קיים. אפשר למצוא את הדף הזה בשם $1. אם הוויקי נוצר לאחרונה, נא לחכות כמה שעות או ימים עד שכל התוכן ייובא.",
 	"wminc-error-wiki-sister": "הדף הזה שייך למיזם שלא מתארח כאן. הוויקי הזה נמצא באתר $1.",
 	"randombytest": "דף אקראי באתר ויקי ניסיוני",
 	"randombytest-nopages": "אין דפים באתר הוויקי הניסיוני שלך, במרחב השם: $1.",
