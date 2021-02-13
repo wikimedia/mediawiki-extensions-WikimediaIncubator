@@ -176,7 +176,6 @@
 		"ParserGetVariableValueSwitch": "WikimediaIncubator::magicWordValue",
 		"getUserPermissionsErrors": "WikimediaIncubator::onGetUserPermissionsErrors",
 		"MovePageIsValidMove": "WikimediaIncubator::onMovePageIsValidMove",
-		"AbortMove": "WikimediaIncubator::checkPrefixMovePermissions",
 		"ChangesListSpecialPageQuery": "TestWikiRC::onRcQuery",
 		"SpecialRecentChangesPanel": "TestWikiRC::onRcForm",
 		"ShowMissingArticle": "WikimediaIncubator::onShowMissingArticle",

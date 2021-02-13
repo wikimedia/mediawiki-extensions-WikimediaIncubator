@@ -442,25 +442,6 @@ class WikimediaIncubator {
 	}
 
 	/**
-	 * Return an error if the user wants to move
-	 * an existing page to an unprefixed title
-	 * @param Title $oldtitle
-	 * @param Title $newtitle
-	 * @param User $user
-	 * @param array &$error
-	 * @return bool
-	 */
-	public static function checkPrefixMovePermissions( $oldtitle, $newtitle, $user, &$error ) {
-		$status = new Status();
-		self::onMovePageIsValidMove( $oldtitle, $newtitle, $status );
-		if ( !$status->isOK() ) {
-			$error = $status->getHTML();
-			return false;
-		}
-		return true;
-	}
-
-	/**
 	 * Add a link to Special:ViewUserLang from Special:Contributions/USERNAME
 	 * if the user has 'viewuserlang' permission
 	 * Based on code from extension LookupUser made by Tim Starling
