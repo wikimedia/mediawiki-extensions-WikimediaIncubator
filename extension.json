@@ -9,7 +9,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaIncubator",
 	"descriptionmsg": "wminc-desc",
 	"requires": {
-		"MediaWiki": ">= 1.34"
+		"MediaWiki": ">= 1.35"
 	},
 	"type": "other",
 	"config": {
@@ -123,7 +123,12 @@
 		"viewuserlang"
 	],
 	"SpecialPages": {
-		"ViewUserLang": "SpecialViewUserLang",
+		"ViewUserLang": {
+			"class": "SpecialViewUserLang",
+			"services": [
+				"UserNameUtils"
+			]
+		},
 		"MyMainPage": "SpecialMyMainPage",
 		"RandomByTest": "SpecialRandomByTest",
 		"SearchWiki": "SpecialSearchWiki",

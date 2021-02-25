@@ -11,9 +11,15 @@
  * @author Robin Pepermans (SPQRobin)
  */
 
+use MediaWiki\User\UserNameUtils;
+
 class SpecialViewUserLang extends SpecialPage {
-	public function __construct() {
+	/** @var UserNameUtils */
+	private $userNameUtils;
+
+	public function __construct( UserNameUtils $userNameUtils ) {
 		parent::__construct( 'ViewUserLang', 'viewuserlang' );
+		$this->userNameUtils = $userNameUtils;
 	}
 
 	/**
@@ -70,7 +76,7 @@ class SpecialViewUserLang extends SpecialPage {
 	public function showInfo( $target ) {
 		global $wmincPref, $wmincProjectSite;
 		$user = User::newFromName( $target );
-		if ( User::isIP( $target ) || !$user ) {
+		if ( $this->userNameUtils->isIP( $target ) || !$user ) {
 			# show error if it is an IP address, or another error occurs
 			$this->getOutput()->addHTML( Xml::span( $this->msg( 'wminc-ip', $target )->text(), 'error' ) );
 			return;
