@@ -376,7 +376,7 @@ class WikimediaIncubator {
 			return false;
 		} elseif ( ( $ns == NS_CATEGORY || $ns == NS_CATEGORY_TALK ) &&
 			preg_match( '/^(' . implode( '|', $categories ) . '):.+$/', $title->getText() ) ) {
-			# whitelisted unprefixed categories
+			# allowed unprefixed categories
 			return false;
 		}
 		return true;
