@@ -169,7 +169,10 @@
 		"secondaryauth": {
 			"WikimediaIncubatorSecondaryAuthenticationProvider": {
 				"class": "WikimediaIncubatorSecondaryAuthenticationProvider",
-				"sort": 0
+				"sort": 0,
+				"services": [
+					"UserOptionsManager"
+				]
 			}
 		}
 	},
