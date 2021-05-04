@@ -158,12 +158,12 @@
 	},
 	"ResourceModules": {
 		"WikimediaIncubator.InfoPage": {
-			"styles": "InfoPage.css"
+			"styles": "infoPage.css"
 		}
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "WikimediaIncubator"
+		"localBasePath": "modules",
+		"remoteExtPath": "WikimediaIncubator/modules"
 	},
 	"AuthManagerAutoConfig": {
 		"secondaryauth": {
