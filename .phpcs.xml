@@ -11,7 +11,7 @@
 	</rule>
 	<rule ref="MediaWiki.NamingConventions.ValidGlobalName">
 		<properties>
-			<property name="ignoreList" type="array" value="$wmincProjects,$wmincPref,$wmincSisterProjects,$wmincMultilingualProjects,$wmincProjectSite,$wmincTestWikiNamespaces,$wmincExistingWikis,$wmincLangCodeLength,$wmincProjectDatabases,$wmincClosedWikis" />
+			<property name="ignoreList" type="array" value="$wmincProjects,$wmincPref,$wmincSisterProjects,$wmincMultilingualProjects,$wmincProjectSite,$wmincTestWikiNamespaces,$wmincExistingWikis,$wmincLangCodeLength,$wmincProjectDatabases,$wmincClosedWikis,$wmincPseudoCategoryNSes" />
 		</properties>
 	</rule>
 	<file>.</file>

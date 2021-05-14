@@ -58,7 +58,7 @@ class WikimediaIncubator {
 				'help' => wfMessage( 'wminc-prefinfo-code' )->parse() .
 					self::getTestWikiLanguages(),
 				'list' => 'wminc-testwiki-codelist',
-				'validation-callback' => function ( $input, $alldata ) use ( $user ) {
+				'validation-callback' => static function ( $input, $alldata ) use ( $user ) {
 					return WikimediaIncubator::validateCodePreference( $user, $input, $alldata );
 				},
 				'filter-callback' => [ 'WikimediaIncubator', 'filterCodePreference' ],
