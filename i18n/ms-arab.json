@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tofeiku"
+		]
+	},
+	"wminc-testwiki-none": "تياد/سموا",
+	"wminc-recentchanges-all": "سموا ڤروبهن ترکيني",
+	"wminc-viewuserlang-user": "نام ڤڠݢونا:",
+	"wminc-viewuserlang-go": "ڤرݢي",
+	"wminc-searchwiki-go": "ڤرݢي",
+	"wminc-fs-langselect-title": "ڤيليه بهاس",
+	"wminc-fs-userpage-title": "چيڤتا لامن ڤڠݢونا اندا",
+	"wminc-fs-startwiki-title": "مولاکن ويکي اندا",
+	"wminc-unknownlang": "(کود بهاس تيدق دکتاهوءي)",
+	"wminc-infopage-title-p": "ويکيڤيديا $1",
+	"wminc-infopage-title-b": "ويکيبوکو $1",
+	"wminc-infopage-title-t": "ويکيقاموس $1",
+	"wminc-infopage-title-q": "ويکيڤتيقن $1",
+	"wminc-infopage-title-n": "ويکيبوکو $1",
+	"wminc-infopage-title-s": "ويکيسومبر $1",
+	"wminc-infopage-title-v": "ويکيۏرسيتي $1",
+	"wminc-infopage-title-y": "ويکيلاير $1"
+}
