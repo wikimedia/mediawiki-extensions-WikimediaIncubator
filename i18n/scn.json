@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Aushulz",
 			"Sarvaturi"
 		]
 	},
 	"wminc-listwikis": "Elencu di wiki",
 	"wminc-recentchanges-all": "Tutti li canciamenti ricenti",
+	"wminc-viewuserlang-user": "Nomu utenti:",
 	"wminc-viewuserlang-go": "Vai",
 	"wminc-searchwiki": "Arricerca un wiki",
 	"wminc-searchwiki-selectproject": "Arricerca pi:",
