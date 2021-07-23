@@ -492,7 +492,7 @@ class WikimediaIncubator {
 		return $wgConf->get( $setting, $langUnderscore . $dbSuffix, $dbSuffix, $params );
 	}
 
-	private static function getExistingWikis() : array {
+	private static function getExistingWikis(): array {
 		global $wmincExistingWikis, $wgLocalDatabases;
 		// This configuration mainly existed for testing and local development.
 		// It is not used by Wikimedia in production.
