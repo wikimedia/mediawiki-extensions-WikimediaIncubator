@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\User\UserIdentity;
+
 /**
  * Implements the "info page" (Wx/xx pages)
  *
@@ -60,15 +63,15 @@ class InfoPage {
 	/** @var string[] */
 	public $mOptions = [];
 
-	/** @var User */
+	/** @var UserIdentity */
 	private $user;
 
 	/**
 	 * @param Title $title
 	 * @param array $prefixdata
-	 * @param User $user
+	 * @param UserIdentity $user
 	 */
-	public function __construct( $title, $prefixdata, User $user ) {
+	public function __construct( $title, $prefixdata, UserIdentity $user ) {
 		global $wmincProjects, $wmincSisterProjects, $wgLang;
 		$this->mTitle = $title;
 		$this->mPrefix = $prefixdata['prefix'];
