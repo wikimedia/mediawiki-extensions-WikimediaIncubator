@@ -12,5 +12,6 @@
 	"wminc-viewuserlang-go": "Vai",
 	"wminc-searchwiki": "Arricerca un wiki",
 	"wminc-searchwiki-selectproject": "Arricerca pi:",
-	"wminc-searchwiki-inputlanguage": "Ntâ lingua:"
+	"wminc-searchwiki-inputlanguage": "Ntâ lingua:",
+	"wminc-infopage-title-p": "Wikipedia n $1"
 }
