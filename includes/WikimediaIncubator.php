@@ -10,6 +10,7 @@
  */
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\User\UserIdentity;
 
 class WikimediaIncubator {
 	/**
@@ -235,14 +236,14 @@ class WikimediaIncubator {
 	 * Returns the project code or name if the given project code or name (or preference by default)
 	 * is one of the projects using the format Wx/xxx (as defined in $wmincProjects)
 	 * Returns false if it is not valid.
-	 * @param User $user
+	 * @param UserIdentity $user
 	 * @param string $project The project code
 	 * @param bool $returnName Whether to return the project name instead of the code
 	 * @param bool $includeSister Whether to include sister projects
 	 * @return string|false
 	 */
 	public static function getProject(
-		User $user,
+		UserIdentity $user,
 		$project = '',
 		$returnName = false,
 		$includeSister = false
@@ -254,7 +255,8 @@ class WikimediaIncubator {
 		} elseif ( $url ) {
 			$r = $url['project']; # Otherwise URL &testwiki= if set
 		} else {
-			$r = $user->getOption( $wmincPref . '-project' ); # Defaults to preference
+			$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
+			$r = $userOptionsLookup->getOption( $user, $wmincPref . '-project' ); # Defaults to preference
 		}
 		$projects = $includeSister ? array_merge( $wmincProjects, $wmincSisterProjects ) : $wmincProjects;
 		if ( array_key_exists( $r, $projects ) ) {
@@ -462,13 +464,13 @@ class WikimediaIncubator {
 
 	/**
 	 * Convenience function to access $wgConf->get()
-	 * @param User $user
+	 * @param UserIdentity $user
 	 * @param string $setting the setting to call
 	 * @param string $lang the language code
 	 * @param string $project the project code or name
 	 * @return mixed the setting from $wgConf->settings
 	 */
-	public static function getConf( User $user, $setting, $lang, $project ) {
+	public static function getConf( UserIdentity $user, $setting, $lang, $project ) {
 		if ( !self::canWeCheckDB() ) {
 			return false;
 		}
@@ -676,7 +678,7 @@ class WikimediaIncubator {
 			return '<span class="error">' .
 				wfMessage( 'wminc-infopage-error' )->plain() . '</span>';
 		}
-		$infopage = new InfoPage( $title, $prefix, $parser->getUser() );
+		$infopage = new InfoPage( $title, $prefix, $parser->getUserIdentity() );
 		$infopage->mOptions = [
 			'status' => 'open',
 			# other (optional) options: mainpage
@@ -728,13 +730,13 @@ class WikimediaIncubator {
 
 	/**
 	 * This forms a URL based on the language and project.
-	 * @param User $user
+	 * @param UserIdentity $user
 	 * @param string $lang Language code
 	 * @param string $project Project code or name
 	 * @param string $title Page name
 	 * @return string
 	 */
-	public static function getSubdomain( User $user, $lang, $project, $title = '' ) {
+	public static function getSubdomain( UserIdentity $user, $lang, $project, $title = '' ) {
 		global $wgArticlePath;
 		return self::getConf( $user, 'wgServer', $lang, $project ) .
 			( $title ? str_replace( '$1', str_replace( ' ', '_', $title ), $wgArticlePath ) : '' );
