@@ -13,6 +13,10 @@ use MediaWiki\MediaWikiServices;
 use MediaWiki\User\UserIdentity;
 
 class WikimediaIncubator {
+	// Used in places that expect the name of a project when no
+	// project has been selected.
+	private const NO_PROJECT_SELECTED = 'none';
+
 	/**
 	 * Add default preference
 	 * @param array &$defOpt
@@ -21,7 +25,7 @@ class WikimediaIncubator {
 	public static function onUserGetDefaultOptions( &$defOpt ) {
 		global $wmincPref;
 
-		$defOpt[$wmincPref . '-project'] = 'none';
+		$defOpt[$wmincPref . '-project'] = self::NO_PROJECT_SELECTED;
 
 		return true;
 	}
@@ -41,7 +45,7 @@ class WikimediaIncubator {
 			$wmincPref . '-project' => [
 				'type' => 'select',
 				'options' =>
-					[ wfMessage( 'wminc-testwiki-none' )->plain() => 'none' ] +
+					[ wfMessage( 'wminc-testwiki-none' )->plain() => self::NO_PROJECT_SELECTED ] +
 					array_flip( $wmincProjects ) +
 					[ wfMessage( 'wminc-testwiki-site' )->plain() => $wmincProjectSite['short'] ],
 				'section' => 'personal/i18n',
@@ -352,7 +356,7 @@ class WikimediaIncubator {
 	public static function magicWordValue( Parser $parser, &$cache, $magicWordId, &$ret ) {
 		if ( $magicWordId === 'usertestwiki' ) {
 			$p = self::displayPrefix();
-			$ret = $cache[$magicWordId] = $p ?: 'none';
+			$ret = $cache[$magicWordId] = $p ?: self::NO_PROJECT_SELECTED;
 		}
 		return true;
 	}
@@ -933,7 +937,7 @@ class WikimediaIncubator {
 			return true;
 		}
 		$params[] = wfEscapeWikiText( $t->getPrefixedText() );
-		$params[0] = $prefix && $prefix != 'none'
+		$params[0] = $prefix && $prefix != self::NO_PROJECT_SELECTED
 			? 'wminc-search-nocreate-suggest' : 'wminc-search-nocreate-nopref';
 		return true;
 	}
@@ -959,8 +963,10 @@ class WikimediaIncubator {
 	 * @return true
 	 */
 	public static function onSpecialSearchSetupEngine( $search, $profile, $engine ) {
-		if ( !$engine->prefix ) {
-			$engine->prefix = self::displayPrefix();
+		$prefix = self::displayPrefix();
+		// The sigil doesn't match real documents, there will be no results if it's used as a search filter.
+		if ( !$engine->prefix && $prefix !== self::NO_PROJECT_SELECTED ) {
+			$engine->prefix = $prefix;
 		}
 		return true;
 	}
