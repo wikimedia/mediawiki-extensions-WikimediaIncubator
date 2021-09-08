@@ -191,6 +191,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 		if ( ExtensionRegistry::getInstance()->isLoaded( 'CentralAuth' ) ) {
 			# If CentralAuth is installed, recommend the user to make his account global
+			// @phan-suppress-next-line SecurityCheck-SQLInjection
 			$globalUser = new CentralAuthUser( $this->getUser()->getName() );
 			if ( !$globalUser->exists() ) {
 				$link = Linker::specialLink( 'mergeaccount' );

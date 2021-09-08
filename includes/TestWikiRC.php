@@ -59,6 +59,7 @@ class TestWikiRC {
 		} elseif ( WikimediaIncubator::validatePrefix( $prefix, true ) ) {
 			// Else, display changes to the selected test wiki in the appropriate namespaces
 			$dbr = wfGetDB( DB_REPLICA );
+			// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
 			$conds[] = 'rc_title ' . $dbr->buildLike( $prefix . '/', $dbr->anyString() ) .
 			' OR rc_title = ' . $dbr->addQuotes( $prefix );

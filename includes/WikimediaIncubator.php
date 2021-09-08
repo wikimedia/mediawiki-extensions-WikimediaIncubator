@@ -159,6 +159,7 @@ class WikimediaIncubator {
 		if ( $input instanceof Title ) {
 			global $wmincTestWikiNamespaces;
 			$title = $input->getText();
+			// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 			if ( !in_array( $input->getNamespace(), $wmincTestWikiNamespaces ) ) {
 				return [ 'error' => 'notestwikinamespace' ];
 			}
@@ -331,6 +332,7 @@ class WikimediaIncubator {
 	 */
 	private static function displayPrefixedTitle( $title, $ns = 0 ) {
 		global $wgLang, $wmincTestWikiNamespaces;
+		// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 		if ( in_array( $ns, $wmincTestWikiNamespaces ) ) {
 			/* Standard namespace as defined by
 			* $wmincTestWikiNamespaces, so use format:
@@ -378,6 +380,7 @@ class WikimediaIncubator {
 			# If user has "project" (Incubator) as test wiki preference, it isn't needed to check
 			return false;
 		} elseif ( !in_array( $ns, $wmincTestWikiNamespaces ) ) {
+			// @phan-suppress-previous-line PhanPossiblyUndeclaredVariable
 			# OK if it's not in one of the content namespaces
 			return false;
 		} elseif ( ( $ns == NS_CATEGORY || $ns == NS_CATEGORY_TALK ) &&
@@ -487,6 +490,7 @@ class WikimediaIncubator {
 		$projectCode = self::getProject( $user, $project, false, true );
 		if ( !$projectCode ) {
 			global $wmincMultilingualProjects;
+			// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 			$projectCode = array_search( $project, $wmincMultilingualProjects );
 		}
 		$site = strtolower( $projectName );
@@ -907,6 +911,7 @@ class WikimediaIncubator {
 		$newNs = $title->getNamespace();
 		$newTitle = $title->getText();
 		$newTitleData = self::analyzePrefix( $newTitle, false, true );
+		// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 		if ( !in_array( $title->getNamespace(), $wmincTestWikiNamespaces ) ) {
 			# namespace not affected by the prefix system: show normal msg
 			return true;
