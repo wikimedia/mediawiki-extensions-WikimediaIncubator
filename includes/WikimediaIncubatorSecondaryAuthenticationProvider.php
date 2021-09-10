@@ -4,6 +4,7 @@ use MediaWiki\Auth\AbstractSecondaryAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthenticationResponse;
 use MediaWiki\Auth\AuthManager;
+use MediaWiki\User\UserOptionsManager;
 
 /**
  * If URL parameters "testwikiproject" and "testwikicode" are set
@@ -15,10 +16,15 @@ use MediaWiki\Auth\AuthManager;
 class WikimediaIncubatorSecondaryAuthenticationProvider
 	extends AbstractSecondaryAuthenticationProvider {
 
+	/** @var UserOptionsManager */
+	private $userOptionsManager;
+
 	/**
+	 * @param UserOptionsManager $userOptionsManager
 	 * @param array $params
 	 */
-	public function __construct( $params = [] ) {
+	public function __construct( UserOptionsManager $userOptionsManager, $params = [] ) {
+		$this->userOptionsManager = $userOptionsManager;
 	}
 
 	public function getAuthenticationRequests( $action, array $options ) {
@@ -42,9 +48,9 @@ class WikimediaIncubatorSecondaryAuthenticationProvider
 
 		if ( $req ) {
 			'@phan-var WikimediaIncubatorAuthenticationRequest $req';
-			$user->setOption( $wmincPref . '-project', $req->testwikiproject );
-			$user->setOption( $wmincPref . '-code', $req->testwikicode );
-			$user->saveSettings();
+			$this->userOptionsManager->setOption( $user, $wmincPref . '-project', $req->testwikiproject );
+			$this->userOptionsManager->setOption( $user, $wmincPref . '-code', $req->testwikicode );
+			$this->userOptionsManager->saveOptions( $user );
 		}
 
 		return AuthenticationResponse::newPass();
