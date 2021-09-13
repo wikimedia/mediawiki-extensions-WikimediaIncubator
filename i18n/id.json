@@ -61,6 +61,7 @@
 	"wminc-searchwiki-match-userlangname": "$1 adalah nama sebuah bahasa.",
 	"wminc-searchwiki-match-englishname": "\"$1\" adalah nama untuk $2 dalam bahasa Inggris.",
 	"wminc-searchwiki-match-nativename": "\"$1\" adalah nama untuk $2 dalam bahasa tersebut.",
+	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "halaman informasi",
 	"wminc-fs-pagetitle": "Tahap memulai - $1",
 	"wminc-fs-langselect-title": "Pilih bahasa",
