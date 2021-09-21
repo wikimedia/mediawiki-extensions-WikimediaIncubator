@@ -325,6 +325,21 @@ class WikimediaIncubator {
 	}
 
 	/**
+	 * @return string|null The prefix used for the selected wiki under incubation,
+	 *  or null when no wiki is selected.
+	 */
+	private static function selectedIncubationWiki() {
+		global $wmincProjectSite;
+
+		$prefix = self::displayPrefix();
+		// These values have special meanings and are not actual wikis under incubation.
+		if ( $prefix === self::NO_PROJECT_SELECTED || $prefix === $wmincProjectSite['short'] ) {
+			return null;
+		}
+		return $prefix;
+	}
+
+	/**
 	 * Makes a full prefixed title of a given page title and namespace
 	 * @param string $title
 	 * @param int $ns numeric value of namespace
@@ -968,10 +983,8 @@ class WikimediaIncubator {
 	 * @return true
 	 */
 	public static function onSpecialSearchSetupEngine( $search, $profile, $engine ) {
-		$prefix = self::displayPrefix();
-		// The sigil doesn't match real documents, there will be no results if it's used as a search filter.
-		if ( !$engine->prefix && $prefix !== self::NO_PROJECT_SELECTED ) {
-			$engine->prefix = $prefix;
+		if ( !$engine->prefix ) {
+			$engine->prefix = self::selectedIncubationWiki() ?? '';
 		}
 		return true;
 	}
