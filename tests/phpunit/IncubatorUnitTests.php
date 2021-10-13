@@ -1,6 +1,6 @@
 <?php
 
-class IncubatorUnitTests extends MediaWikiTestCase {
+class IncubatorUnitTests extends MediaWikiIntegrationTestCase {
 	public function testValidateLanguageCode() {
 		$this->assertTrue( WikimediaIncubator::validateLanguageCode( 'aa' ),
 			'Valid language code aa' );
