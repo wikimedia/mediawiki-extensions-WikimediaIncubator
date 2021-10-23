@@ -36,10 +36,10 @@ class IncubatorUnitTests extends MediaWikiIntegrationTestCase {
 
 	public function testOnPageContentLanguage() {
 		$title = Title::newFromText( 'Wp/nl/Test' );
-		$this->assertEquals( $title->getPageLanguage()->getCode(), 'nl' );
+		$this->assertEquals( 'nl', $title->getPageLanguage()->getCode() );
 		$title = Title::newFromText( 'Template:Wp/be-tarask/Test' );
-		$this->assertEquals( $title->getPageLanguage()->getCode(), 'be-tarask' );
+		$this->assertEquals( 'be-tarask', $title->getPageLanguage()->getCode() );
 		$title = Title::newFromText( 'Project:Wp/nl/Test' );
-		$this->assertEquals( $title->getPageLanguage()->getCode(), 'en' );
+		$this->assertEquals( 'en', $title->getPageLanguage()->getCode() );
 	}
 }
