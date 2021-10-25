@@ -30,7 +30,7 @@
 	"wminc-viewuserlang-user": "واپرائيندڙ-نانءُ:",
 	"wminc-viewuserlang-go": "هلو",
 	"wminc-userdoesnotexist": "واپرائيندڙ ''$1'' وجود نٿو رکي.",
-	"wminc-ip": "''$1'' هڪ آءِپي پتو آهي.",
+	"wminc-ip": "\"$1\" هڪ آئپي پتو آهي.",
 	"right-viewuserlang": "واپرائيندڙ جي ٻولي ۽ آزمائشي وڪي ڏسو",
 	"group-test-sysop": "آزمائشي وڪيءَ جا منتظم",
 	"group-test-sysop-member": "{{GENDER:$1|tآزمائشي وڪي جو منتظم}}",
