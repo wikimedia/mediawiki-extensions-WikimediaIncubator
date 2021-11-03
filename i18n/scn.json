@@ -7,11 +7,26 @@
 		]
 	},
 	"wminc-listwikis": "Elencu di wiki",
+	"wminc-testwiki-none": "Nuddu/Tutti",
 	"wminc-recentchanges-all": "Tutti li canciamenti ricenti",
 	"wminc-viewuserlang-user": "Nomu utenti:",
 	"wminc-viewuserlang-go": "Vai",
+	"wminc-userdoesnotexist": "L'utenti \"$1\" nun esisti.",
+	"wminc-ip": "\"$1\" è nu nnirizzu IP.",
 	"wminc-searchwiki": "Arricerca un wiki",
 	"wminc-searchwiki-selectproject": "Arricerca pi:",
 	"wminc-searchwiki-inputlanguage": "Ntâ lingua:",
-	"wminc-infopage-title-p": "Wikipedia n $1"
+	"wminc-searchwiki-match-userlangname": "$1 è lu nomu di na lingua.",
+	"wminc-searchwiki-match-englishname": "\"$1\" è lu nomu di $2 n ngrisi.",
+	"wminc-searchwiki-match-nativename": "\"$1\" è lu nomu di $2 n sta lingua.",
+	"wminc-searchwiki-gotoinfopage": "nfurmazzioni pàggina",
+	"wminc-fs-pagetitle-done": "- fattu!",
+	"wminc-infopage-title-p": "Wikipedia n $1",
+	"wminc-infopage-title-b": "Wikibooks n $1",
+	"wminc-infopage-title-t": "Wikizziunariu n $1",
+	"wminc-infopage-title-q": "Wikiquote n $1",
+	"wminc-infopage-title-n": "Wikinews n $1",
+	"wminc-infopage-title-s": "Wikisource n $1",
+	"wminc-infopage-title-v": "Wikiversità n $1",
+	"wminc-infopage-title-y": "Wikivoyage n $1"
 }
