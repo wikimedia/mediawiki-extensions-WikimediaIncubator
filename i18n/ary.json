@@ -4,7 +4,9 @@
 			"Enzoreg",
 			"Reda Benkhadra",
 			"Tifratin",
-			"زكريا"
+			"زكريا",
+			"Anass Sedrati",
+			"Ideophagous"
 		]
 	},
 	"wminc-desc": "L-Wiki dyal t-tést le Wikimédya Incubator",
@@ -14,8 +16,8 @@
 	"wminc-prefinfo-code": "لكود ISO 639 ديال لّوغة لّي خدام بيها هنا",
 	"wminc-prefinfo-project": "ختار لمشروع د ويكيميديا لّي خدّام عليه هنا",
 	"wminc-prefinfo-error": "Ĥṫariṫi meċroĝ li ka iḫṫaj l-kod dyal l-loġa.",
-	"randombytest": "Ṣefḫa ĝel l-Lah men l-Wiki dyal 't-tést",
-	"randombytest-nopages": "L-Wiki dyal 't-tést ma fih ḫṫa ṣefḫa, fe l-maḫel dyal 's-smiyaṫ : $1.",
+	"randombytest": "صفحة عالله من لويكي تيست",
+	"randombytest-nopages": "ماكاينة تا صفحة ف لويكي طيسط ديالك، ف النطاق: $1.",
 	"wminc-viewuserlang": "Ha hiya loġaṫ l-mosṫeĥdim o l-Wiki dyal 't-tést dyalo",
 	"wminc-viewuserlang-user": "سميت لمستخدم:",
 	"wminc-viewuserlang-go": "Sir",
