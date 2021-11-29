@@ -4,6 +4,16 @@
 			"Yupik"
 		]
 	},
+	"wminc-recentchanges-all": "Puk võõrâs muttâz",
 	"wminc-viewuserlang-user": "Õõʹnninõmm:",
-	"wminc-fs-langselect-title": "Vaʹlljed ǩiõl"
+	"wminc-searchwiki-match-langcode": "\"$1\" lij ǩiõl $2 ISO 639 -ǩiõllkoodd.",
+	"wminc-searchwiki-match-userlangname": "$1 lij ǩiõl nõmm.",
+	"wminc-searchwiki-match-englishname": "\"$1\" lij ǩiõl $2 nõmm eŋgglõsǩiõʹlˈle.",
+	"wminc-fs-langselect-title": "Vaʹlljed ǩiõl",
+	"wminc-fs-userpage-title": "Raaj õõʹnniseeid",
+	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-b": "Wikiǩeeʹrj $1",
+	"wminc-infopage-title-t": "Wikisääʹnnǩeʹrjj $1",
+	"wminc-infopage-title-q": "Wikisitaatt $1",
+	"wminc-infopage-title-v": "Wikiversiteʹtt $1"
 }
