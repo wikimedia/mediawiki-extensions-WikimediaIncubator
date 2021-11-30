@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\User\UserOptionsLookup;
+
 /**
  * Special page to go to a random page in your test wiki
  * (or a specific wiki if it is defined through &testwiki=Wx/xx)
@@ -9,7 +12,11 @@
  */
 
 class SpecialRandomByTest extends RandomPage {
-	public function __construct() {
+
+	/**
+	 * @param UserOptionsLookup $userOptionsLookup
+	 */
+	public function __construct( UserOptionsLookup $userOptionsLookup ) {
 		global $wmincPref, $wmincProjectSite;
 		$target = $this->getRequest()->getVal( 'testwiki' );
 		$target = WikimediaIncubator::analyzePrefix( $target );
@@ -22,7 +29,7 @@ class SpecialRandomByTest extends RandomPage {
 				$dbr->buildLike( WikimediaIncubator::displayPrefix( $project, $lang ) .
 					'/', $dbr->anyString() );
 		} elseif (
-			$user->getOption( $wmincPref . '-project' ) == $wmincProjectSite['short']
+			$userOptionsLookup->getOption( $user, $wmincPref . '-project' ) == $wmincProjectSite['short']
 		) {
 			# project or help namespace
 			$this->extra['page_namespace'] = [ 4, 12 ];

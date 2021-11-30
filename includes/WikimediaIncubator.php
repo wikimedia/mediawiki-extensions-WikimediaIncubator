@@ -309,8 +309,11 @@ class WikimediaIncubator {
 		} else {
 			global $wmincPref;
 			$url = self::getUrlParam();
-			$projectvalue = ( $url ? $url['project'] : $user->getOption( $wmincPref . '-project' ) );
-			$codevalue = ( $url ? $url['lang'] : $user->getOption( $wmincPref . '-code' ) );
+			$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
+			$projectPref = $userOptionsLookup->getOption( $user, $wmincPref . '-project' );
+			$codePref = $userOptionsLookup->getOption( $user, $wmincPref . '-code' );
+			$projectvalue = ( $url ? $url['project'] : $projectPref );
+			$codevalue = ( $url ? $url['lang'] : $codePref );
 		}
 		$sister = $allowSister && isset( $wmincSisterProjects[$projectvalue] );
 		if ( self::isContentProject( $user, $projectvalue ) || $sister ) {

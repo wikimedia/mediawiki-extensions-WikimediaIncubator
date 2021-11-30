@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * Recent changes for a specific test wiki, or for all project changes (or normal display)
  *
@@ -17,8 +20,11 @@ class TestWikiRC {
 	private static function getValues( User $user ) {
 		global $wmincPref, $wgRequest;
 		$url = WikimediaIncubator::getUrlParam();
-		$projectvalue = $url ? $url['project'] : $user->getOption( $wmincPref . '-project' );
-		$codevalue = $url ? $url['lang'] : $user->getOption( $wmincPref . '-code' );
+		$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
+		$projectPref = $userOptionsLookup->getOption( $user, $wmincPref . '-project' );
+		$codePref = $userOptionsLookup->getOption( $user, $wmincPref . '-code' );
+		$projectvalue = $url ? $url['project'] : $projectPref;
+		$codevalue = $url ? $url['lang'] : $codePref;
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $projectvalue ) );
 		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $codevalue ) );
 		return [ $projectvalue, $codevalue ];

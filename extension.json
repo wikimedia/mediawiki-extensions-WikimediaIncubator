@@ -126,11 +126,17 @@
 		"ViewUserLang": {
 			"class": "SpecialViewUserLang",
 			"services": [
-				"UserNameUtils"
+				"UserNameUtils",
+				"UserOptionsLookup"
 			]
 		},
 		"MyMainPage": "SpecialMyMainPage",
-		"RandomByTest": "SpecialRandomByTest",
+		"RandomByTest": {
+			"class": "SpecialRandomByTest",
+			"services": [
+				"UserOptionsLookup"
+			]
+		},
 		"SearchWiki": "SpecialSearchWiki",
 		"IncubatorFirstSteps": "SpecialIncubatorFirstSteps"
 	},

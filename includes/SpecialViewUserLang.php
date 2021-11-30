@@ -12,14 +12,28 @@
  */
 
 use MediaWiki\User\UserNameUtils;
+use MediaWiki\User\UserOptionsLookup;
 
 class SpecialViewUserLang extends SpecialPage {
 	/** @var UserNameUtils */
 	private $userNameUtils;
 
-	public function __construct( UserNameUtils $userNameUtils ) {
+	/**
+	 * @var UserOptionsLookup
+	 */
+	private $userOptionsLookup;
+
+	/**
+	 * @param UserNameUtils $userNameUtils
+	 * @param UserOptionsLookup $userOptionsLookup
+	 */
+	public function __construct(
+		UserNameUtils $userNameUtils,
+		UserOptionsLookup $userOptionsLookup
+	) {
 		parent::__construct( 'ViewUserLang', 'viewuserlang' );
 		$this->userNameUtils = $userNameUtils;
+		$this->userOptionsLookup = $userOptionsLookup;
 	}
 
 	/**
@@ -90,23 +104,24 @@ class SpecialViewUserLang extends SpecialPage {
 				$this->msg( 'wminc-userdoesnotexist', $target )->text(), 'error' ) );
 			return;
 		}
-		$userproject = $user->getOption( $wmincPref . '-project' );
-		$userproject = $userproject ?: 'none';
-		$usercode = $user->getOption( $wmincPref . '-code' );
-		$prefix = WikimediaIncubator::displayPrefix( $userproject, $usercode ?: 'none' );
-		if ( WikimediaIncubator::isContentProject( $this->getUser(), $userproject ) ) {
+		$projectPref = $this->userOptionsLookup->getOption( $user, $wmincPref . '-project' );
+		$projectPref = $projectPref ?: 'none';
+		$codePref = $this->userOptionsLookup->getOption( $user, $wmincPref . '-code' );
+		$prefix = WikimediaIncubator::displayPrefix( $projectPref, $codePref ?: 'none' );
+		if ( WikimediaIncubator::isContentProject( $this->getUser(), $projectPref ) ) {
 			$testwiki = $this->getLinkRenderer()->makeLink( Title::newFromText( $prefix ) );
 		} elseif ( $prefix == $wmincProjectSite['short'] ) {
 			$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
 		} else {
 			$testwiki = $this->msg( 'wminc-testwiki-none' )->escaped();
 		}
+		$langPref = $this->userOptionsLookup->getOption( $user, 'language' );
 		$this->getOutput()->addHtml(
 			Xml::openElement( 'ul' ) .
 			'<li>' . $this->msg( 'username' )->escaped() . ' ' .
 				Linker::userLink( $id, $name ) . Linker::userToolLinks( $id, $name, true ) . '</li>' .
-			'<li>' . $this->msg( 'loginlanguagelabel', $langNames[$user->getOption( 'language' )] .
-				' (' . htmlspecialchars( $user->getOption( 'language' ) ) . ')' )->escaped() . '</li>' .
+			'<li>' . $this->msg( 'loginlanguagelabel', $langNames[ $langPref ] .
+				' (' . htmlspecialchars( $langPref ) . ')' )->escaped() . '</li>' .
 			'<li>' . $this->msg( 'wminc-testwiki' )->escaped() . ' ' . $testwiki . '</li>' .
 			Xml::closeElement( 'ul' )
 		);
