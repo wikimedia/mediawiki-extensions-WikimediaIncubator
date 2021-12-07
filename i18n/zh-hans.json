@@ -43,7 +43,7 @@
 	"wminc-error-wiki-exists": "该wiki已经存在。您可以在$1找到该页面。如果该wiki是近期创建的，请耐心等待数小时至数日，以便所有内容都被导入。",
 	"wminc-error-wiki-sister": "本页面属于不在这里托管的项目。请前往$1找到该wiki。",
 	"randombytest": "测试维基随机页面",
-	"randombytest-nopages": "您的测试维基的名字空间$1中没有页面。",
+	"randombytest-nopages": "您的测试维基的命名空间$1中没有页面。",
 	"wminc-viewuserlang": "查看用户语言与测试维基",
 	"wminc-viewuserlang-user": "用户名：",
 	"wminc-viewuserlang-go": "提交",

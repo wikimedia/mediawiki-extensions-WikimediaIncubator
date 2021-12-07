@@ -11,7 +11,8 @@
 			"RLuts",
 			"Ua2004",
 			"Ата",
-			"Тест"
+			"Тест",
+			"DDPAT"
 		]
 	},
 	"wminc-desc": "Тестова вікі для Інкубатора Вікімедіа",
@@ -63,6 +64,7 @@
 	"wminc-searchwiki-match-userlangname": "$1 — назва мови.",
 	"wminc-searchwiki-match-englishname": "«$1» — назва мовы $2 англійською.",
 	"wminc-searchwiki-match-nativename": "«$1» — самоназва мови $2.",
+	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "інформаційна сторінка",
 	"wminc-fs-pagetitle": "Майстер початку роботи — $1",
 	"wminc-fs-langselect-title": "Оберіть мову",

@@ -11,7 +11,8 @@
 			"Sezgin İbiş",
 			"Suelnur",
 			"ToprakM",
-			"Vito Genovese"
+			"Vito Genovese",
+			"Cobija"
 		]
 	},
 	"wminc-desc": "Wikimedia Incubator için test vikisi sistemi",
@@ -96,7 +97,7 @@
 	"wminc-infopage-option-languages-existing": "[//www.$1.org Mevcut dil sürümü $1] için arama yapabilirsiniz.",
 	"wminc-infopage-option-sisterprojects-existing": "Bu dilde diğer projeler için arama yapabilirsiniz:",
 	"wminc-infopage-option-sisterprojects-other": "Bu dilde diğer projeler için arama yapabilirsiniz:",
-	"wminc-infopage-option-multilingual": "Alternatif olarak, çok dilli bir vikiye gidebilirsiniz:",
+	"wminc-infopage-option-multilingual": "Alternatif olarak çokdilli bir vikiye gidebilirsiniz:",
 	"wminc-infopage-createmainpage": "Bu dilde \"Anasayfa\" sözcüğünü girin:",
 	"wminc-infopage-contribute": "Eğer bu dili biliyorsanız, sizi katkıda bulunmaya davet ediyoruz!",
 	"wminc-infopage-status-open": "Bu viki Wikimedia Incubator'de açık bir vikidir.",
