@@ -43,7 +43,7 @@
 	"wminc-ip": "«$1» es una dirección IP.",
 	"right-viewuserlang": "Ver idioma de usuario y prueba wiki",
 	"group-test-sysop": "Administradores de wiki de prueba",
-	"group-test-sysop-member": "{{GENDER:$1|administrador|administradora}} del wiki de pruebas",
+	"group-test-sysop-member": "{{GENDER:$1|administrador|administradora}} de la wiki de pruebas",
 	"grouppage-test-sysop": "{{ns:project}}:Administradores de wiki de pruebas",
 	"group-test-sysop.css": "/* El CSS que se agregue aquí afectará solo a los administradores de la wiki de pruebas */",
 	"group-test-sysop.js": "/* El JS que se agregue aquí afectará solo a los administradores de la wiki de pruebas */",
