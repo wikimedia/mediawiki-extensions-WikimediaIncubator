@@ -25,7 +25,7 @@
 	"wminc-error-wiki-sister": "Ta stran pripada projektu, katerega tukaj ne gostujemo. Prosimo, pojdite na $1, da najdete wiki.",
 	"randombytest": "Naključna stran preizkusnega wikija",
 	"randombytest-nopages": "Na vašem wikiju ni strani v imenskem prostoru: $1.",
-	"wminc-viewuserlang": "Poiščite jezik in preizkusni wiki uporabnika",
+	"wminc-viewuserlang": "Poišči jezik in preizkusni wiki uporabnika",
 	"wminc-viewuserlang-user": "Uporabniško ime:",
 	"wminc-viewuserlang-go": "Pojdi",
 	"wminc-userdoesnotexist": "Uporabnik »$1« ne obstaja.",
@@ -82,8 +82,8 @@
 	"wminc-infopage-status-imported": "Ta wiki Inkubatorja je bil po zaprtju uvožen iz $1.",
 	"wminc-infopage-status-closedsister": "Poddomena je zaprta. Pojdite na <strong>$2</strong>, da prispevate k temu wikiju.",
 	"wminc-infopage-status-approved": "Wiki Inkubatorja je odobril [[meta:Special:MyLanguage/Language_committee|jezikovni odbor]] in bo kmalu ustvarjen.",
-	"wminc-infopage-status-created": "Projekt je odobril jezikovni odbor in je odslej na razpolago na naslovu $1.",
-	"wminc-infopage-status-beforeincubator": "Projekt je nastal pred zagonom Wikimedijinega Inkubatorja in je na razpolago na naslovu $1.",
+	"wminc-infopage-status-created": "Projekt je odobril jezikovni odbor in je odslej na voljo na naslovu $1.",
+	"wminc-infopage-status-beforeincubator": "Projekt je nastal pred zagonom Wikimedijinega inkubatorja in je na voljo na naslovu $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Projekt je na voljo na $1.",
 	"wminc-infopage-error": "Napaka: {{#infopage}} se lahko uporablja samo na straneh s predpono."
 }

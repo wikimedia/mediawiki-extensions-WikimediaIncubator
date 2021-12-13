@@ -4,7 +4,8 @@
 			"Eitvys200",
 			"Hugo.arg",
 			"Manvydasz",
-			"Matasg"
+			"Matasg",
+			"Tomasdd"
 		]
 	},
 	"wminc-desc": "Wiki testasvimo sistema Vikimedija Inkubatoriui",
@@ -15,7 +16,7 @@
 	"wminc-testwiki-none": "Nei vienas/Visi",
 	"wminc-recentchanges-all": "Visi naujausi pakeitimai",
 	"wminc-prefinfo-language": "Jūsų sąsajos kalba - nepriklausomai nuo jūsų testavimo wiki",
-	"wminc-prefinfo-code": "ISO 639 kalbos kodas",
+	"wminc-prefinfo-code": "Kalbos, kuria dirbate, ISO 639 kodas",
 	"wminc-prefinfo-error": "Jūs pasirinkote projektą, kuriam reikia kalbos kodo.",
 	"wminc-error-wiki-exists": "Ši viki jau egzistuoja.  Jus galite rasti šį puslapį $1. Jei viki buvo neseniai sukurta, prašome  palaukti kelias valandas ar dienas kol bus importuotas visas tūrinis.",
 	"wminc-error-wiki-sister": "Šis puslapis priklauso projektui, kuris nepatalpintas čia. Prašome grįžti į $1 , kad rasti wiki .",
@@ -27,7 +28,7 @@
 	"wminc-ip": "\" $1 \" yra IP adresas.",
 	"right-viewuserlang": "Žiūrėti naudotojo kalbą ir testavimo wiki",
 	"group-test-sysop": "Bandyti wiki administratorius",
-	"group-test-sysop-member": "bandyti wiki administratorių",
+	"group-test-sysop-member": "{{GENDER:$1|bandyti viki administratorių}}",
 	"grouppage-test-sysop": "{{ns:project}}:Test wiki administrators",
 	"wminc-code-retired": "Šios kalbos kodas buvo pakeistas ir nebėra nuoroda į originalo kalba.",
 	"wminc-listusers-testwiki": "Jūs matote naudotojams, kurie nustatė bandymo Wiki pirmenybę $1.",

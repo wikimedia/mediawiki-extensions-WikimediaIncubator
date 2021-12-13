@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Awangba Mangang"
+			"Awangba Mangang",
+			"Luwanglinux"
 		]
 	},
 	"wminc-manual": "ꯈꯨꯠꯄꯥꯏ",
@@ -9,12 +10,13 @@
 	"wminc-testwiki": "ꯋꯤꯀꯤ ꯆꯥꯡꯌꯦꯡꯅꯕ:",
 	"wminc-testwiki-code": "ꯋꯤꯀꯤ ꯂꯣꯟꯒꯤ ꯆꯥꯡꯌꯦꯡꯅꯕ:",
 	"wminc-testwiki-none": "ꯂꯩꯇꯦ/ꯄꯨꯂꯞ",
-	"wminc-testwiki-site": "(ꯆꯞꯆꯥꯅ ꯇꯧꯔꯤꯕ)",
+	"wminc-testwiki-site": "(ꯁꯦꯟꯅꯔꯤꯕꯥ)",
 	"wminc-recentchanges-all": "ꯀꯨꯏꯗꯔꯤꯕ ꯑꯍꯣꯡꯕꯁꯤꯡ ꯄꯨꯝꯅꯃꯛ",
 	"wminc-viewuserlang-user": "ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯃꯃꯤꯡ:",
 	"wminc-viewuserlang-go": "ꯆꯠꯂꯨ",
 	"wminc-userdoesnotexist": "ꯁꯤꯖꯤꯟꯅꯔꯤꯕ \"$1\" ꯁꯤ ꯂꯩꯇꯦ ꯫",
 	"wminc-ip": "\"$1\" ꯁꯤ IP ꯂꯩꯐꯝ ꯅꯤ ꯫",
+	"wminc-searchwiki": "ꯋꯤꯀꯤ ꯱ꯒꯤ ꯊꯤꯕ",
 	"wminc-searchwiki-selectproject": "ꯊꯤꯕꯅꯤ:",
 	"wminc-searchwiki-inputlanguage": "ꯂꯣꯟ ꯃꯅꯨꯡꯗ:",
 	"wminc-searchwiki-go": "ꯆꯠꯂꯨ",
@@ -25,11 +27,12 @@
 	"wminc-searchwiki-match-nativename": "\"$1\" ꯁꯤꯅ $2 ꯂꯣꯟ ꯑꯗꯨꯒꯤ ꯃꯃꯤꯡꯅꯤ ꯫",
 	"wminc-searchwiki-gotoinfopage": "ꯂꯃꯥꯏ ꯋꯥꯔꯣꯜ",
 	"wminc-fs-langselect-title": "ꯂꯣꯟ ꯈꯟꯂꯨ",
-	"wminc-fs-signup-title": "ꯈꯨꯠꯌꯦꯛ ꯄꯤꯈꯠꯂꯨ",
+	"wminc-fs-signup-title": "ꯃꯤꯡ ꯆꯟꯕ",
 	"wminc-fs-settings-title": "ꯅꯪꯒꯤ ꯋꯤꯀꯤ ꯄ꯭ꯔꯤꯐꯔꯦꯟꯁ ꯁꯦꯝꯃꯨ",
 	"wminc-fs-userpage-title": "ꯅꯪꯒꯤ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯂꯥꯃꯥꯏ ꯁꯦꯝꯃꯨ",
 	"wminc-fs-startwiki-title": "ꯅꯪꯒꯤ ꯋꯤꯀꯤꯗꯨ ꯍꯧꯔꯣ",
 	"wminc-fs-pagetitle-done": "-ꯇꯧꯔꯦ!",
+	"wminc-infopage-enter": "ꯃꯔꯨꯑꯣꯏꯕ ꯂꯃꯥꯏ ꯗ ꯆꯠꯂꯨ",
 	"wminc-infopage-title-p": "ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ $1",
 	"wminc-infopage-title-b": "ꯋꯤꯀꯤꯂꯥꯏꯔꯤꯛꯁꯤꯡ $1",
 	"wminc-infopage-title-t": "ꯋꯤꯀꯤꯁꯟꯅꯔꯤ $1",

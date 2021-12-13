@@ -25,12 +25,14 @@
 	"wminc-fs-pagetitle-done": " - কৰা হ’ল!",
 	"wminc-infopage-enter": "বেটুপাতলৈ যাওক",
 	"wminc-unknownlang": "(অজ্ঞাত ভাষা কোড)",
-	"wminc-infopage-title-p": "ৱিকিপিডিয়া",
+	"wminc-infopage-title-p": "$1 ৱিকিপিডিয়া",
 	"wminc-infopage-title-b": "ৱিকিগ্ৰন্থ $1",
 	"wminc-infopage-title-t": "ৱিকি অভিধান $1",
-	"wminc-infopage-title-q": "ৱিকি উক্তি $1",
+	"wminc-infopage-title-q": "ৱিকিউদ্ধৃতি $1",
 	"wminc-infopage-title-n": "ৱিকিসংবাদ $1",
 	"wminc-infopage-title-s": "ৱিকিউৎস $1",
 	"wminc-infopage-title-v": "ৱিকি বিশ্ববিদ্যালয় $1",
-	"wminc-infopage-welcome": "ৱিকিমিডিয়া ইনকিউবেটৰলৈ আপোনাক আদৰিছোঁ। ই ৱিকিমিডিয়া ফাউণ্ডেশ্যনৰ এটা সহযোগী প্ৰকল্প ([[{{MediaWiki:Aboutpage}}|সবিশেষ]])।"
+	"wminc-infopage-welcome": "ৱিকিমিডিয়া ইনকিউবেটৰলৈ আপোনাক আদৰিছোঁ। ই ৱিকিমিডিয়া ফাউণ্ডেশ্যনৰ এটা সহযোগী প্ৰকল্প ([[{{MediaWiki:Aboutpage}}|সবিশেষ]])।",
+	"wminc-infopage-contribute": "আপুনি যদি এই ভাষাটো জানে, আপোনাক অৱদান আগবঢ়াবলৈ উৎসাহিত কৰা হৈছে!",
+	"wminc-infopage-status-open": "এয়া হৈছে ৱিকিমিডিয়া ইনকিউবেটৰৰ এটা মুকলি পৰীক্ষামূলক ৱিকি।"
 }

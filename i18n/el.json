@@ -7,7 +7,8 @@
 			"Nikosgranturismogt",
 			"Omnipaedista",
 			"Protnet",
-			"ZaDiak"
+			"ZaDiak",
+			"NikosLikomitros"
 		]
 	},
 	"wminc-desc": "Δοκιμή του συστήματος βίκι για το Wikimedia Incubator",
@@ -35,6 +36,7 @@
 	"wminc-viewuserlang-go": "Μετάβαση",
 	"wminc-userdoesnotexist": "Ο χρήστης \"$1\" δεν υπάρχει.",
 	"wminc-ip": "\"$1\" είναι μια διεύθυνση IP.",
+	"action-viewuserlang": "προβολή της γλώσσας χρήστη και του δοκιμαστικού wiki",
 	"right-viewuserlang": "Προβολή της γλώσσας χρήστη και του δοκιμαστικού βίκι",
 	"group-test-sysop": "Διαχειριστές δοκιμαστικού wiki",
 	"group-test-sysop-member": "{{GENDER:$1|διαχειριστής|διαχειρίστρια}} δοκιμαστικού wiki",

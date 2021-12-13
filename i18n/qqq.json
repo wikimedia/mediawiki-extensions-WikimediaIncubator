@@ -16,7 +16,11 @@
 			"Umherirrender",
 			"Whym",
 			"Yekrats",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Awangba Mangang",
+			"Kizule",
+			"Luwanglinux",
+			"Matěj Suchánek"
 		]
 	},
 	"wminc-desc": "{{desc|name=Wikimedia Incubator|url=https://www.mediawiki.org/wiki/Extension:WikimediaIncubator}}",
@@ -31,7 +35,7 @@
 	"wminc-prefinfo-code": "Describes the input requested for the language of the test-wiki for the Preferences.\n\nSee [[:File:Incubator-testwiki-preference.jpg]].",
 	"wminc-prefinfo-project": "Explanation for a dropdown box in your preferences, with options: \"None/All\", \"Wikipedia\", \"Wikibooks\", \"Wikinews\", etc... and \"Incubator\". See [[:File:Incubator-testwiki-preference.jpg]].",
 	"wminc-prefinfo-error": "See [[:File:Incubator-testwiki-preference.jpg]]. If the user selected a Wikimedia project but not a language code, this error message is shown.",
-	"wminc-error-help": "Used in:\n* {{msg-mw|Wminc-error-move-unprefixed}}\n* {{msg-mw|Wminc-error-wronglangcode}}\n* {{msg-mw|Wminc-error-unprefixed}}\n* {{msg-mw|Wminc-error-unprefixed-suggest}}\n{{Identical|HelpContent}}",
+	"wminc-error-help": "{{notranslate}}\nUsed in:\n* {{msg-mw|Wminc-error-move-unprefixed}}\n* {{msg-mw|Wminc-error-wronglangcode}}\n* {{msg-mw|Wminc-error-unprefixed}}\n* {{msg-mw|Wminc-error-unprefixed-suggest}}\n{{Identical|HelpContent}}",
 	"wminc-error-move-unprefixed": "{{doc-important|Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>.}}\nRefers to {{msg-mw|Wminc-error-help}}.",
 	"wminc-error-wronglangcode": "{{doc-important|Do not change <code><nowiki>{{MediaWiki:Wminc-error-help}}</nowiki></code>.}}\nRefers to {{msg-mw|Wminc-error-help}}.\n\nParameters:\n* $1 - a language code",
 	"wminc-error-unprefixed": "Used as error message.\n\nRefers to {{msg-mw|Wminc-error-help}}.",

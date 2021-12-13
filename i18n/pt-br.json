@@ -14,7 +14,8 @@
 			"Luckas",
 			"MetalBrasil",
 			"Pedroca cerebral",
-			555
+			555,
+			"Eduardoaddad"
 		]
 	},
 	"wminc-desc": "Sistema de wikis de teste para a Incubadora Wikimedia",
@@ -33,7 +34,7 @@
 	"wminc-error-wronglangcode": "<strong>Error:</strong> Esta página contém um [[{{MediaWiki:Wminc-error-help}}|código de linguagem errado]] \"$1\".",
 	"wminc-error-unprefixed": "<strong>Error:</strong> Esta página é [[{{MediaWiki:Wminc-error-help}}|aprefixada]].",
 	"wminc-error-unprefixed-suggest": "<strong>Error:</strong> Esta página é [[{{MediaWiki:Wminc-error-help}}|aprefixada]]! Você pode criar uma página em [[:$1]].",
-	"wminc-error-wiki-exists": "Este wiki já existe. Encontre esta página em $1. Se o wiki foi criado recentemente, aguarde algumas horas ou dias até que todo o conteúdo seja importado.",
+	"wminc-error-wiki-exists": "Este wiki já existe. Encontre esta página em $1. Se a wiki foi criada recentemente, aguarde algumas horas ou dias até que todo o conteúdo seja importado.",
 	"wminc-error-wiki-sister": "Essa página pertence a um projeto que não está hospedado aqui. Por favor, vá para $1 para achar o wiki.",
 	"randombytest": "Página aleatória da wiki de testes",
 	"randombytest-nopages": "Não há páginas em sua wiki de testes no domínio: $1.",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tifinaghes"
+			"Tifinaghes",
+			"Hakim1bal"
 		]
 	},
 	"wminc-listwikis": "ⵓⵎⵓⵖ ⵏ ⵡⵉⴽⵉ",
@@ -14,7 +15,7 @@
 	"wminc-ip": "\"$1\" is an ⴰⵣⵡⵉⵍ ⵏ IP.",
 	"group-test-sysop-member": "ⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵡⵉⴽⵉ ⵜⴰⵔⵎⵉⵜ",
 	"grouppage-test-sysop": "{{ns:project}}:ⵉⵏⵎⵀⴰⵍⵏ ⵏ ⵜⵙⵓⵖⵍⵜ",
-	"wminc-searchwiki-selectproject": "ⴰⵔⵣⵣⵓ ⵅⴼ:",
+	"wminc-searchwiki-selectproject": "Rzu ɣef:",
 	"wminc-searchwiki-inputlanguage": "ⵙ ⵜⵓⵜⵍⴰⵢⵜ:",
 	"wminc-searchwiki-go": "ⴷⴷⵓ",
 	"wminc-searchwiki-gotoinfopage": "ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵜⴰⵙⵏⴰ",

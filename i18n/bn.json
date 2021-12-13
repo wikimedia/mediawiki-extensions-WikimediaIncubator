@@ -4,7 +4,8 @@
 			"Aftabuzzaman",
 			"Bellayet",
 			"Bodhisattwa",
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"Tahmid"
 		]
 	},
 	"wminc-desc": "উইকিমিডিয়া ইনকিউবেটরের জন্য পরীক্ষামূলক উইকি ব্যবস্থা",
@@ -51,5 +52,7 @@
 	"wminc-infopage-title-y": "উইকিভ্রমণ $1",
 	"wminc-infopage-option-sisterprojects-other": "আপনি এই ভাষায় অন্যান্য প্রকল্প অনুসন্ধান করতে পারেন:",
 	"wminc-infopage-contribute": "আপনি যদি এই ভাষা জানেন, আপনাকে অবদান রাখতে উত্সাহিত করা হচ্ছে!",
-	"wminc-infopage-status-open": "এটি উইকিমিডিয়া ইনকিউবেটরের একটি খোলা উইকি।"
+	"wminc-infopage-status-open": "এটি উইকিমিডিয়া ইনকিউবেটরের একটি খোলা উইকি।",
+	"wminc-infopage-status-beforeincubator-sister": "এই প্রকল্পটি $1-এ উপলব্ধ।",
+	"wminc-infopage-error": "ত্রুটি: {{#infopage}} শুধুমাত্র উপসর্গযুক্ত পাতায় ব্যবহার করা যাবে।"
 }

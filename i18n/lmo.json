@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"wminc-desc": "Sistema wiki de proeva per Wikimedia Incubator",
+	"wminc-manual": "Manual",
+	"wminc-listwikis": "Lisa de wiki",
+	"wminc-testwiki": "Wiki de proeuvaː",
+	"wminc-testwiki-code": "Lengua del wiki de proeuvaː",
+	"wminc-testwiki-none": "Nissun/Tut",
+	"wminc-testwiki-site": "(Manutenzion)",
+	"wminc-recentchanges-all": "Tute i modifiche recente",
+	"wminc-prefinfo-language": "La lingua de l'interfacia - indipendenta del to wiki de proeuva",
+	"wminc-prefinfo-code": "El codes ISO 639 per la lingua a la qual te lavoret adree",
+	"wminc-prefinfo-project": "Scerniss foeura el proget Wikimedia al qual te voeuret lavoragh adree",
+	"wminc-prefinfo-error": "T'hee scernid foeura un proget che 'l gh'hà besogn d'un codes de la lengua.",
+	"wminc-error-move-unprefixed": "<strong>Eror:</strong> la pagina che te see 'dree a cercà de spostà a [[{{MediaWiki:Wminc-error-help}}|la gh'hà minga de prefiss o la gh'hà 'n prefiss sbagliad]].",
+	"wminc-error-wronglangcode": "<strong>Eror:</strong> questa pagina chì la gh'hà dent un [[{{MediaWiki:Wminc-error-help}}|codes de la lengua sbagliad]] \"$1\".",
+	"wminc-error-unprefixed": "<strong>Eror:</strong> questa pagina chì l'è [[{{MediaWiki:Wminc-error-help}}|senza prefiss]].",
+	"wminc-error-unprefixed-suggest": "<strong>Eror:</strong> questa pagina chì l'è [[{{MediaWiki:Wminc-error-help}}|senza prefiss]]! Te podet creà la pagina [[:$1]].",
+	"wminc-error-wiki-exists": "Questa wiki chì l'esist sgiamò. te podet trovà questa pagina chì in su $1. Se la wiki l'è stada creada de recent, per piesè spèta domà 'na quai ora o anca 'n quai di fin a tant che 'l contegnud el vegnarà importad del tut.",
+	"wminc-error-wiki-sister": "Questa pagina chì la parten a un proget che l'è minga ospitad chichinscì. Và a $1 per trovà questa wiki chì.",
+	"randombytest": "Una pagina a cas de la wiki de proeuva",
+	"randombytest-nopages": "A ghe 'n è minga de pagine in la toa wiki de proeva, per el spazzi di nom: $1.",
+	"wminc-viewuserlang-user": "Nom de l'utentː",
+	"wminc-viewuserlang-go": "Và"
+}

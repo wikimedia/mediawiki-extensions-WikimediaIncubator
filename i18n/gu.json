@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Ashok modhvadia",
-			"Bhatakati aatma"
+			"Bhatakati aatma",
+			"CptViraj"
 		]
 	},
 	"wminc-desc": "વિકિમીડિયા ઇનક્યુબેટર માટે પરિક્ષણ વિકિ પ્રણાલી",
+	"wminc-listwikis": "વિકિઓની યાદી",
 	"wminc-testwiki": "પરિક્ષણ વિકિ:",
 	"wminc-testwiki-none": "કોઇ પણ નહીં/તમામ",
 	"wminc-prefinfo-language": "તમારી ઇન્ટરફેસ ભાષા - તમારા પરિક્ષણ વિકિથી સ્વતંત્ર",
@@ -15,5 +17,12 @@
 	"wminc-viewuserlang": "સભ્ય ભાષા અને પરિક્ષણ વિકિ જુઓ",
 	"wminc-viewuserlang-user": "સભ્યનામ:",
 	"wminc-viewuserlang-go": "જાઓ",
-	"wminc-infopage-title-q": "વિકિસૂક્તિ $1"
+	"wminc-infopage-title-p": "વિકિપીડિયા $1",
+	"wminc-infopage-title-b": "વિકિપુસ્તક $1",
+	"wminc-infopage-title-t": "વિકિકોશ $1",
+	"wminc-infopage-title-q": "વિકિસૂક્તિ $1",
+	"wminc-infopage-title-n": "વિકિસમાચાર $1",
+	"wminc-infopage-title-s": "વિકિસ્રોત $1",
+	"wminc-infopage-title-v": "વિકિવિદ્યાલય $1",
+	"wminc-infopage-title-y": "વિકિયાત્રા $1"
 }
