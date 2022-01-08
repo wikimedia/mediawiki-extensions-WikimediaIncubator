@@ -12,6 +12,8 @@
  * @ingroup SpecialPage
  */
 
+use MediaWiki\Extension\CentralAuth\User\CentralAuthUser;
+
 class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 	/**
