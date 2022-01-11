@@ -721,7 +721,7 @@ class WikimediaIncubator {
 
 		$infopage->mSubStatus = $infopage->mOptions['status'];
 
-		$parser->getOutput()->addModuleStyles( 'WikimediaIncubator.InfoPage' );
+		$parser->getOutput()->addModuleStyles( [ 'WikimediaIncubator.InfoPage' ] );
 		$parser->getOptions()->getUserLangObj(); # we have to split the cache by language
 
 		# Set <h1> heading
