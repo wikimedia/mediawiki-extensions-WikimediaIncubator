@@ -67,7 +67,7 @@
 	"wminc-fs-settings-text": "Vennligst gå til [[Special:Preferences#mw-htmlform-i18n|innstillingene dine]] nå og endre innstillingene for testwikien.\nDen første du må endre er grensesnittspråket ditt, som du valgte i første steg, men du kan likevel endre det.\nDen andre er hvilket prosjekt du ønsker å bidra til, og den tredje er språkkoden for prosjektet du ønsker å bidra til.\nOm du ikke vet språkkoden, sjekk [[{{MediaWiki:Wminc-manual-url}}|manualen]] eller [[{{MediaWiki:Portal-url}}|spør om hjelp]].",
 	"wminc-fs-userpage-text": "Opprett brukersiden din ($1) med litt informasjon om deg selv. Du kan også se en lenke til den på toppen av denne siden.",
 	"wminc-fs-globaluser-text": "Brukerkontoen din er lokal. Det anbefales at du gjør det global via $1 så du kan bruke den på alle Wikimedia-wikier.",
-	"wminc-fs-startwiki-text": "Prefikset til wikien din er <strong>$1</strong>. Du kan starte wikien ved å opprette brukersiden dens på <strong>$2</strong>.",
+	"wminc-fs-startwiki-text": "Prefikset til wikien din er <strong>$1</strong>. Du kan starte wikien ved å opprette forsiden dens på <strong>$2</strong>.",
 	"wminc-fs-startwiki-exists-text": "Prefikset til wikien din er $1. Hovedsiden til wikien er på $2. Du kan nå samarbeide med andre som snakker dette språket for å skape et fellesskap!\nOm du ønsker å opprette en side, skriv inn navnet på siden i søkeboksen ovenfor, og følg lenka som kommer opp.",
 	"wminc-infopage-enter": "gå til hovedsiden",
 	"wminc-unknownlang": "(ukjent språkkode)",
