@@ -1,12 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Kwisha",
-			"Lloffiwr"
+			"Lloffiwr",
+			"Magotech"
 		]
 	},
-	"wminc-listwikis": "Orodha ya Wiki",
-	"wminc-recentchanges-all": "Mabadiliko yote ya juzi",
+	"wminc-desc": "Jaribu mfumo wa kiangulio wa Wikimedia",
+	"wminc-manual": "Kwa mikono",
+	"wminc-listwikis": "List of wikis",
+	"wminc-testwiki": "Jaribu wiki",
+	"wminc-testwiki-code": "Jaribu lugha ya wiki",
+	"wminc-testwiki-none": "Hakuna/Wote\nHakuna/Zote",
+	"wminc-testwiki-site": "(Matengenezo)",
+	"wminc-recentchanges-all": "Mabadiliko ya hivi karibuni",
 	"wminc-viewuserlang-user": "Jina la mtumiaji:",
 	"wminc-viewuserlang-go": "Nenda",
 	"wminc-searchwiki-inputlanguage": "Kwa lugha ya:",
