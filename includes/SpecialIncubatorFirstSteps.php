@@ -12,8 +12,6 @@
  * @ingroup SpecialPage
  */
 
-use MediaWiki\Extension\CentralAuth\User\CentralAuthUser;
-
 class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 	/**
@@ -190,16 +188,6 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$linkRenderer = $this->getLinkRenderer();
 		$link = $linkRenderer->makeLink( $this->getUser()->getUserPage(), $this->getUser()->getName() );
 		$this->getOutput()->addHtml( $this->msg( 'wminc-fs-userpage-text', $link )->escaped() );
-
-		if ( ExtensionRegistry::getInstance()->isLoaded( 'CentralAuth' ) ) {
-			# If CentralAuth is installed, recommend the user to make his account global
-			$globalUser = new CentralAuthUser( $this->getUser()->getName() );
-			if ( !$globalUser->exists() ) {
-				$link = Linker::specialLink( 'mergeaccount' );
-				$this->getOutput()->addHtml(
-					$this->msg( 'wminc-fs-globaluser-text' )->rawParams( $link )->escaped() );
-			}
-		}
 
 		return $step_msg;
 	}

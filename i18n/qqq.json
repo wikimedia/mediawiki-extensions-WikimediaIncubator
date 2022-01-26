@@ -86,7 +86,6 @@
 	"wminc-fs-settings-image": "{{Ignore}}",
 	"wminc-fs-settings-text": "\"At the right you can see...\" refers to an image being shown at the right side of the page. For RTL languages this is at the left.\n\nRefers to {{msg-mw|Wminc-manual-url}} and {{msg-mw|Portal-url}}.",
 	"wminc-fs-userpage-text": "Parameters:\n* $1 - a link which points to the userpage. Its link text is the username",
-	"wminc-fs-globaluser-text": "Used to recommend the user to make his account global. Parameters:\n* $1 - a link which points to [[Special:MergeAccount]]",
 	"wminc-fs-startwiki-text": "Parameters:\n* $1 - the prefix (Wx/xyz)\n* $2 - a link to its main page (Wx/xyz/Main_Page)",
 	"wminc-fs-startwiki-exists-text": "Parameters:\n* $1 - the prefix (Wx/xyz)\n* $2 - a link to its main page (Wx/xyz/Main_Page)",
 	"wminc-infopage-enter": "Text of a link to the Main Page of a test wiki at Incubator.",
