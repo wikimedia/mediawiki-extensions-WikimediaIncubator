@@ -30,7 +30,6 @@
 	"group-test-sysop": "Bandyti wiki administratorius",
 	"group-test-sysop-member": "{{GENDER:$1|bandyti viki administratorių}}",
 	"grouppage-test-sysop": "{{ns:project}}:Test wiki administrators",
-	"wminc-code-retired": "Šios kalbos kodas buvo pakeistas ir nebėra nuoroda į originalo kalba.",
 	"wminc-listusers-testwiki": "Jūs matote naudotojams, kurie nustatė bandymo Wiki pirmenybę $1.",
 	"wminc-searchwiki-selectproject": "Ieškoti:",
 	"wminc-searchwiki-inputlanguage": "Kalba:",

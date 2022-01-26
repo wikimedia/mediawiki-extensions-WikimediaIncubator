@@ -15,7 +15,6 @@
 	"wminc-prefinfo-project": "Izaberite Wikimedijin projekt na kojem ovdje radite",
 	"wminc-prefinfo-error": "Odabrali ste projekat koji zahtijeva kod jezika.",
 	"randombytest": "Slučajna stranica od testirane wiki",
-	"randombytest-nopages": "Nema stranica u Vašoj probnoj wiki, u imenskom prostoru: $1.",
 	"wminc-viewuserlang": "Pregledaj korisnički jezik i testiranu wiki",
 	"wminc-viewuserlang-user": "Korisničko ime:",
 	"wminc-viewuserlang-go": "Idi",

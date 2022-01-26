@@ -21,7 +21,6 @@
 	"wminc-error-wiki-exists": "Tämä wiki oon jo olemassa. Se löytyy atressista $1. Jos wiki luothiin äskettäin, odota muutamia tiimoja tai päiviä, kunnes kaikki sisältö oon importeerattu.",
 	"wminc-error-wiki-sister": "Tämä sivu kuuluu prujektiin, jonka fiilit eivät sijaitse tällä serverillä. Siiry atressiin $1 ja eti wikiä sieltä.",
 	"randombytest": "Satunhainen sivu testiwikistä",
-	"randombytest-nopages": "Testiwikisi nimityhjyyessä $1 ei ole sivuja.",
 	"wminc-viewuserlang": "Hae esiin käyttäjän kieli ja testiwiki",
 	"wminc-ip": "$1 oon IP-atressi.",
 	"action-viewuserlang": "tarkastella käyttäjän kieltä ja testiwikiä",

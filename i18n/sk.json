@@ -15,7 +15,6 @@
 	"wminc-prefinfo-project": "Vybrať wikimedický projekt, na ktorom tu pracujete",
 	"wminc-prefinfo-error": "Vybrali ste projekt, ktorý potrebuje kód jazyka.",
 	"randombytest": "Náhodná stránka z testovacej wiki",
-	"randombytest-nopages": "Vo vašej testovacej wiki neexistujú stránky v mennom priestore $1.",
 	"wminc-viewuserlang": "Vyhľadať jazyk používateľa a testovaciu wiki",
 	"wminc-viewuserlang-user": "Používateľské meno:",
 	"wminc-viewuserlang-go": "Vykonať",
