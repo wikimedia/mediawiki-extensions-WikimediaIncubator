@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adam N.",
 			"Koo6",
 			"Kuvaly",
 			"Matěj Grabovský",
@@ -15,7 +16,7 @@
 	"wminc-listwikis": "Seznam wiki",
 	"wminc-testwiki": "Testovací wiki:",
 	"wminc-testwiki-code": "Jazyk testovací wiki:",
-	"wminc-testwiki-none": "Žádná/všechny",
+	"wminc-testwiki-none": "Všechny wikií",
 	"wminc-testwiki-site": "(Údržba)",
 	"wminc-recentchanges-all": "Všechny poslední změny",
 	"wminc-prefinfo-language": "Váš jazyk rozhraní – nezávislý na vaší testovací wiki",
@@ -68,7 +69,6 @@
 	"wminc-fs-signup-text": "Pokud už máte uživatelský účet, [$1 přihlaste se]. Pokud ho ještě nemáte, můžete [$2 si ho založit].\nNení nezbytný, ale silně doporučený a založení trvá jen pár sekund.",
 	"wminc-fs-settings-text": "Nyní přejděte na [[Special:Preferences#mw-htmlform-i18n|uživatelské nastavení]] a upravte si nastavení své testovací wiki.\nPrvní je jazyk rozhraní, který jste si zvolili v prvním kroku, ale i tak ho můžete změnit.\nDruhou je projekt, do kterého chcete přispívat, a třetí je kód jazyka projektu, do kterého chcete přispívat.\nPokud kód neznáte, podívejte se do naší [[{{MediaWiki:Wminc-manual-url}}|příručky]] nebo požádejte o [[{{MediaWiki:Portal-url}}|pomoc]].",
 	"wminc-fs-userpage-text": "Nyní si prosím založte svou uživatelskou stránku $1 se základními informacemi o sobě. Odkaz na ni můžete vidět také navrchu této stránky.",
-	"wminc-fs-globaluser-text": "Váš uživatelský účet je lokální. Doporučujeme z něj udělat globální účet pomocí $1, abyste ho mohli používat na všech projektech Wikimedia.",
 	"wminc-fs-startwiki-text": "Prefix vaší wiki je <strong>$1</strong>. Wiki můžete založit vytvořením Hlavní strany na <strong>$2</strong>.",
 	"wminc-fs-startwiki-exists-text": "Prefix vaší wiki je $1. Hlavní strana je na $2. Nyní můžete spolu s dalšími mluvčími tohoto jazyka vytvořit komunitu!\nPokud chcete založit stránku, stačí napsat její název do vyhledávacího okénka výše a následovat zobrazený odkaz.",
 	"wminc-infopage-enter": "přejít na Hlavní stranu",

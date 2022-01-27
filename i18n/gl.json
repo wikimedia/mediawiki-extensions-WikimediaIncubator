@@ -63,7 +63,6 @@
 	"wminc-fs-signup-text": "Se xa ten unha conta de usuario, [$1 acceda ao sistema]. Se aínda non a ten, [$2 cree unha nova conta].\nNon é obrigatoria, pero recomendámoslle que a cree; facelo leva uns poucos segundos.",
 	"wminc-fs-settings-text": "Agora vaia ás [[Special:Preferences#mw-htmlform-i18n|súas preferencias]] e cambie a configuración do seu wiki de probas.\nA primeira é a lingua da interface, que elixiu no primeiro paso, pero aínda pode modificala.\nA segunda é o proxecto no que quere contribuír e a terceira é o código de lignua do proxecto no que quere contribuír.\nSe non sabe o código, consulte o noso [[{{MediaWiki:Wminc-manual-url}}|manual]] ou pida [[{{MediaWiki:Portal-url}}|axuda]].",
 	"wminc-fs-userpage-text": "Agora cree a súa páxina de usuario $1 con algunha información básica sobre vostede. Tamén pode ollar unha ligazón ata ela na parte superior desta páxina.",
-	"wminc-fs-globaluser-text": "A súa conta de usuario é local. Recoméndase facela global a través de $1 de xeito que poida utilizala en calquera wiki da Wikimedia.",
 	"wminc-fs-startwiki-text": "O prefixo do seu wiki é <strong>$1</strong>. Pode comezar o seu wiki creando a páxina principal en <strong>$2</strong>.",
 	"wminc-fs-startwiki-exists-text": "O prefixo do seu wiki é $1. A páxina principal está en $2. Agora pode colaborar con outros falantes desta lingua para construír unha comunidade!\nSe quere crear unha páxina, escriba o nome na caixa de procuras superior e siga a ligazón que aparecerá.",
 	"wminc-infopage-enter": "ir á páxina principal",

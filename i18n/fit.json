@@ -50,7 +50,6 @@
 	"wminc-fs-signup-text": "Jos sinulla jo oon käyttäjätunnus, [$1 lokkaa sisäle]. Jos sinulla ei ole sellaista, [$2 luo käyttäjätunnus].\nSitä ei vaadita, mutta sitä vahvasti suositellaan ja sen luomiseen kuluu vain muutama sekunti.",
 	"wminc-fs-settings-text": "Mene nyt [[Special:Preferences#mw-htmlform-i18n|inställninkeihin]] ja muuta testiwiki-inställninkit.\nEnsimäinen oon käyttöliittymän kieli, jonka olet valinnut ensimmäisessä kohassa, mutta voit yhä muuttaa sen.\nToinen oon prujekti, johon halvaat osallistua ja kolmas oon kielikooti prujektiin, johon halvaat osallistua.\nJos et tiedä kootia, kato [[{{MediaWiki:Wminc-manual-url}}|käsikirjastamme]] tai [[{{MediaWiki:Portal-url}}|pyyä apua]].",
 	"wminc-fs-userpage-text": "Luo nyt käyttäjäsivusi $1 ja laita sinne perustietoja itestäsi. Näet länkin siihen myös tämän sivun yläreunassa.",
-	"wminc-fs-globaluser-text": "Käyttäjätunnuksesi oon paikallinen. On suositeltua tehä siitä systeeminlaajunen sivula $1, jotta voit käyttää sitä missä tahansa Wikimeetian wikissä.",
 	"wminc-fs-startwiki-text": "Wikisi etuliite oon <strong>$1</strong>. Voit alottaa wikin luomalla sen alkusivun atressissa <strong>$2</strong>.",
 	"wminc-fs-startwiki-exists-text": "Wikisi etuliite oon $1. Alkusivu oon atressissa $2. Voit nyt tehä yhteistyötä toisten tämän kielen puhujien kanssa rakentaaksesi föreeninkin!\nJos halvaat luoa sivun, kirjota vaan sen nimi hakulaatikkoon yläpuolela ja seuraa näkemääsi länkkiä.",
 	"wminc-infopage-enter": "siiry alkusivule",

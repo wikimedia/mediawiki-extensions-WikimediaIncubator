@@ -63,7 +63,6 @@
 	"wminc-fs-signup-text": "Ikiwa tayari una akaunti ya mtumiaji, tafadhali [$1 ingia]. Ikiwa bado huna, tafadhali [$2 fungua akaunti ya mtumiaji].\nSiyo ya lazima, lakini inapendekezwa sana, na inachukua sekunde chache tu kuunda.",
 	"wminc-fs-settings-text": "Tafadhali sasa nenda kwa [[Special:Preferences#mw-htmlform-i18n|mapendeleo yako]] na ubadilishe mpangilio wako wa wiki ya majaribio.\nYa kwanza ni lugha yako ya kiolesura, ambayo umechagua katika hatua ya kwanza, lakini bado unaweza kuibadilisha.\nYa pili ni mradi unaotaka kuchangia na ya tatu ni msimbo wa lugha ya mradi unaotaka kuchangia.\nIwapo hujui msimbo, tafadhali wasiliana na [[{{MediaWiki:Wminc-manual-url}}|manual]] au uulize [[{{MediaWiki:Portal-url}}|help]].",
 	"wminc-fs-userpage-text": "Tafadhali sasa unda ukurasa wako wa mtumiaji $1 na maelezo ya kimsingi kukuhusu. Unaweza pia kuona kiungo chake juu ya ukurasa huu.",
-	"wminc-fs-globaluser-text": "Akaunti yako ya mtumiaji ni ya ndani. Inapendekezwa kuifanya iwe ya jumla kupitia $1 ili uweze kuitumia kwenye wiki yoyote ya Wikimedia.",
 	"wminc-fs-startwiki-text": "Kiambishi awali cha wiki yako ni <strong>$1</strong>. Unaweza kuanza wiki kwa kuunda Ukurasa Mkuu wa wiki kwa <strong>$2</strong>.",
 	"wminc-fs-startwiki-exists-text": "Kiambishi awali cha wiki yako ni $1. Ukurasa Mkuu ni $2. Sasa unaweza kushirikiana na wazungumzaji wengine wa lugha hii ili kujenga jumuiya!\nIkiwa unataka kuunda ukurasa, andika tu jina kwenye kisanduku cha kutafutia hapo juu, na ufuate kiungo utakachoona.",
 	"wminc-infopage-enter": "nenda Mwanzo",

@@ -65,7 +65,6 @@
 	"wminc-fs-signup-text": "Se vi jam havas uzantan konton, bonvolu [$1 ensaluti]. Se vi ne havas unu ankoraŭ, bonvolu [$2 krei uzantan konton].\nĜi ne estas postulita, sed forte rekomendita kaj nur bezonas kelkajn sekundojn por krei.",
 	"wminc-fs-settings-text": "Bonvolu nun iri al [[Special:Preferences#mw-htmlform-i18n|viaj preferoj]] kaj ŝanĝi vian testan vikian fikson.\nLa unua estas via interfaca lingvo, kiun vi elektis en la unua paŝo, sed vi ankoraŭ povas ŝanĝi ĝin.\nLa dua estas la projekto ke, vi deziras kontribui al kaj la tria estas la lingva kodo de la projekto ke, vi deziras kontribui al.\nSe vi ne scias la kodon, bonvolu konsulti nia [[{{MediaWiki:Wminc-manual-url}}|manlibro]] aŭ peti [[{{MediaWiki:Portal-url}}|helpo]].",
 	"wminc-fs-userpage-text": "Bonvolu krei nun vian uzantpaĝo $1 kun baza informo pri vi. Vi ankaŭ povas vidi ligilo al ĝi ĉe la supro de ĉi tiu paĝo.",
-	"wminc-fs-globaluser-text": "Via uzanta konto estas loka. Ĝi estas rekomendita fari ĝin tutmonda tra $1 do vi povas uzi ĝin sur iu ajn Wikimedia vikio.",
 	"wminc-fs-startwiki-text": "La prefikso de via vikio estas <strong>$1</strong>. Vi povas komenci la vikion per krei la Ĉefpaĝon de la vikio ĉe <strong>$2</strong>.",
 	"wminc-fs-startwiki-exists-text": "La prefikso de via vikio estas $1. La Ĉefa Paĝo estas ĉe $2. Vi nun povas kunlabori kun aliaj parolantoj de ĉi tiu lingvo por konstrui komunumon!\nSe vi deziras krei paĝon, nur entajpi la nomon en la serĉa skatolo super kaj sekvi la ligon ke, vi vidos.",
 	"wminc-infopage-enter": "iras al la Ĉefa Paĝo",

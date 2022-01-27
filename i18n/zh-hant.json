@@ -77,7 +77,6 @@
 	"wminc-fs-signup-text": "若您已有使用者帳號，請先 [$1 登入]。若還沒請先 [$2 建立使用者帳號]。\n這不是必要的動作，但強烈建議先進行，只需要使用幾秒鐘的時間。",
 	"wminc-fs-settings-text": "請前往 [[Special:Preferences#mw-htmlform-i18n|您的偏好設定]] 並且更改您的測試 Wiki 設定。\n第一，是您的介面語言，您可能在第一個步驟已完成，但您仍可以修改。\n第二，是您想要貢獻的專案。第三，是您在貢獻的專案要使用的語言代碼。\n若您不清楚語言代碼，請參考我們的 [[{{MediaWiki:Wminc-manual-url}}|操作手冊]] 或請求 [[{{MediaWiki:Portal-url}}|協助]]。",
 	"wminc-fs-userpage-text": "現在，請建立您的使用者頁面 $1 並填寫一些有關於您自己基本資訊。在本頁面最上方也有連結可至您使用者頁面。",
-	"wminc-fs-globaluser-text": "您所使用的使用者帳號為本機帳號，建議您可至 $1 讓您的帳號可在所有的維基媒體 Wiki 中使用。",
 	"wminc-fs-startwiki-text": "您的 Wiki 字首是 <strong>$1</strong>。您可建立 Wiki 的主頁於 <strong>$2</strong> 開始使用 Wiki。",
 	"wminc-fs-startwiki-exists-text": "您的 Wiki 字首是 <strong>$1</strong>，主頁在 $2。您現在可以與您其他使用此語言的夥伴開始合作建立社群！\n若您想要建立頁面，只需在搜尋框中輸入名稱，並且開啟連結即可。",
 	"wminc-infopage-enter": "轉到主頁",
