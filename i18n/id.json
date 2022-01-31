@@ -9,7 +9,8 @@
 			"Kandar",
 			"NoiX180",
 			"Rex",
-			"Sonic Speedy"
+			"Sonic Speedy",
+			"Syman51"
 		]
 	},
 	"wminc-desc": "Sistem wiki tes untuk Wikimedia Incubator",
@@ -17,7 +18,7 @@
 	"wminc-listwikis": "Daftar wiki",
 	"wminc-testwiki": "Wiki uji-coba:",
 	"wminc-testwiki-code": "Bahasa wiki uji-coba:",
-	"wminc-testwiki-none": "Tidak ada/Semua",
+	"wminc-testwiki-none": "Semua wiki",
 	"wminc-testwiki-site": "(Perawatan)",
 	"wminc-recentchanges-all": "Semua perubahan terbaru",
 	"wminc-prefinfo-language": "Bahasa antarmuka Anda - tidak terpengaruh oleh wiki uji-coba Anda",

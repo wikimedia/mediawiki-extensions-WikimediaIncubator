@@ -20,7 +20,7 @@
 	"wminc-listwikis": "Перелік вікіпроектів",
 	"wminc-testwiki": "Тестова вікі:",
 	"wminc-testwiki-code": "Мова тестової вікі:",
-	"wminc-testwiki-none": "Жодна або всі",
+	"wminc-testwiki-none": "Усі вікі",
 	"wminc-testwiki-site": "(технічне обслуговування)",
 	"wminc-recentchanges-all": "Усі останні зміни",
 	"wminc-prefinfo-language": "Мова інтерфейсу (залежить від мови тестової вікі)",

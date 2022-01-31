@@ -15,6 +15,7 @@
 			"Luckas",
 			"MetalBrasil",
 			"Pedroca cerebral",
+			"Wiiformii",
 			555
 		]
 	},
@@ -23,7 +24,7 @@
 	"wminc-listwikis": "Lista de wikis",
 	"wminc-testwiki": "Wiki de teste:",
 	"wminc-testwiki-code": "Língua da wiki de teste:",
-	"wminc-testwiki-none": "Nenhum/Tudo",
+	"wminc-testwiki-none": "Todas as Wikis",
 	"wminc-testwiki-site": "(Manutenção)",
 	"wminc-recentchanges-all": "Todas as mudanças recentes",
 	"wminc-prefinfo-language": "Seu idioma de interface - independente do seu wiki de teste",
