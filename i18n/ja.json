@@ -8,6 +8,7 @@
 			"Penn Station",
 			"Shirayuki",
 			"Sujiniku",
+			"Tmv",
 			"青子守歌",
 			"아라"
 		]
@@ -17,7 +18,7 @@
 	"wminc-listwikis": "ウィキの一覧",
 	"wminc-testwiki": "試験版ウィキ:",
 	"wminc-testwiki-code": "試験版ウィキの言語:",
-	"wminc-testwiki-none": "なし/すべて",
+	"wminc-testwiki-none": "すべてのウィキ",
 	"wminc-testwiki-site": "(メンテナンス)",
 	"wminc-recentchanges-all": "最近の更新をすべて表示",
 	"wminc-prefinfo-language": "あなたのインターフェイス言語 (あなたの試験版ウィキとは独立しています)",
