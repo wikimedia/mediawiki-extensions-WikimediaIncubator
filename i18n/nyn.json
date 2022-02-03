@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kakonjo"
+		]
+	},
+	"wminc-desc": "Gyezesa wiki system eya mukuza wikimedia",
+	"wminc-manual": "Endagiriro y'enkozesa",
+	"wminc-listwikis": "Orukarara rwa za Wiki",
+	"wminc-testwiki": "Wiki eriyo ne gyezesibwa:",
+	"wminc-testwiki-code": "Gyezesa orurimi rwa wiki:",
+	"wminc-testwiki-none": "Wiki zoona",
+	"wminc-testwiki-site": "(Endeberera)",
+	"wminc-recentchanges-all": "Byoona ebihindwirwe",
+	"wminc-prefinfo-language": "Orurimi rwawe r'okukozesa aha Karimagyezi- ni rutaana aha wiki eriyo ne gyezesibwa",
+	"wminc-prefinfo-code": "ISO 639 kodi eya orurimi Oru oriyo nokoraho ah",
+	"wminc-prefinfo-project": "Toorana wikimedia purogyekiti eyi oriyo nokoraho aha",
+	"wminc-prefinfo-error": "Wa torana purogyekiti eri kwenda Kodi ya orurimi",
+	"wminc-error-move-unprefixed": "<strong>Error:</strong> Orubaju oru oriyo nogyezaho ku twaara aha[[{{MediaWiki:Wminc-error-help}}|turwiine tugambo twokubanza ninga rwiine otugambo tugwire]]",
+	"wminc-error-wronglangcode": "<strong>Enshobi:</strong> Orubaju oru rwiine [[{{MediaWiki:Wminc-error-help}}|Kodi ya orurimi egwire]] \"$1\"",
+	"wminc-error-unprefixed": "<strong>Enshobi:</strong> Orubaju oru tirwiine[[{{MediaWiki:Wminc-error-help}}|otugambo twokubanza]]",
+	"wminc-error-unprefixed-suggest": "<strong>Enshobi:</strong> Orubaju oru tirwiine[[{{MediaWiki:Wminc-error-help}}|otugambo twokubanza]]! Nobasa ku ru hangaho aha [[:$1]].",
+	"wminc-error-wiki-exists": "Egi wiki eriho. Nobasa ku shanga Orubaju oru aha $1. Wiki yerugire ku korwa, rendaho Eshaha ninga ebiro bikye kuhitsya byoona ebyawo byazamu.",
+	"wminc-error-wiki-sister": "Orubaju Oru norwa purogyekiti etaku shangwa aha. Gyenda aha $1 kubona wiki."
+}
