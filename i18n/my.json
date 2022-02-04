@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dr Lotus Black",
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Phosai"
 		]
 	},
 	"wminc-desc": "ဝီကီမီဒီယာ အင်ကျူဘေတာအတွက် စမ်းသပ်ဝီကီစနစ်",
@@ -10,7 +11,7 @@
 	"wminc-listwikis": "ဝီကီများစာရင်း",
 	"wminc-testwiki": "စမ်းသပ်ဝီကီ:",
 	"wminc-testwiki-code": "စမ်းသပ်ဝီကီ ဘာသာစကား:",
-	"wminc-testwiki-none": "တစ်ခုမှမဟုတ်/အကုန်",
+	"wminc-testwiki-none": "အားလုံးသော ဝီကီများ",
 	"wminc-testwiki-site": "(ထိန်းသိမ်းပြုပြင်)",
 	"wminc-recentchanges-all": "လတ်တလော ပြောင်းလဲမှုများအားလုံး",
 	"wminc-prefinfo-language": "သင်၏ အတွင်းမျက်နှာပြင်ဘာသာစကား - သင်၏စမ်းသပ်ဝီကီမှ သီးခြားဖြစ်သည်",
