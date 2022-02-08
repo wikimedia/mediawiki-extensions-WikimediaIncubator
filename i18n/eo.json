@@ -6,7 +6,8 @@
 			"KuboF",
 			"Mirin",
 			"Robin van der Vliet",
-			"Yekrats"
+			"Yekrats",
+			"Spenĉjo"
 		]
 	},
 	"wminc-desc": "Testa vikisistemo por Wikimedia-Inkubatoro",
@@ -90,7 +91,7 @@
 	"wminc-infopage-option-sisterprojects-existing": "Vi povas serĉi eskzistantajn eldonojn en ĉi tiu lingvo:",
 	"wminc-infopage-option-sisterprojects-other": "Vi povas serĉi aliajn projektojn en ĉi tiu lingvo:",
 	"wminc-infopage-option-multilingual": "Elektece, vi povas iri al plurlingva vikio:",
-	"wminc-infopage-createmainpage": "Eniru la vorton \"Ĉefpaĝon\" laŭ ĉi tiu lingvo:",
+	"wminc-infopage-createmainpage": "Entajpu la vorton \"Ĉefpaĝo\" en ĉi tiu lingvo:",
 	"wminc-infopage-contribute": "Se vi scipovas ĉi tiun lingvon, vi estas kuraĝigita por kontribui!",
 	"wminc-infopage-status-open": "Tio ĉi estas malferma vikio de Wikimedia Kovilo.",
 	"wminc-infopage-status-imported": "Ĉi tiu kovilo estis enportita de $1 post ĝi estis fermita.",
