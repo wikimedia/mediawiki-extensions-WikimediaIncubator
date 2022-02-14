@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kakonjo"
+			"Kakonjo",
+			"Amire80"
 		]
 	},
 	"wminc-desc": "Gyezesa wiki system eya mukuza wa wikimedia",
@@ -31,7 +32,7 @@
 	"right-viewuserlang": "Reeba orurimi rwa Omukozesa na  Wiki eriyo ne gyezesibwa",
 	"group-test-sysop": "Abebembezi bakuru ba wiki eriyo ne gyezesibwa",
 	"group-test-sysop-member": "{{GENDER:$1| Omwebembezi mukuru wa wiki eriyo negyezesibwa}}",
-	"grouppage-test-sysop": "{{ns: project}}:Abebembezi bakuru ba wiki eriyo ne gyezesibwa",
+	"grouppage-test-sysop": "{{ns:project}}:Abebembezi bakuru ba wiki eriyo ne gyezesibwa",
 	"wminc-listusers-testwiki": "Oriyo no reeba Abakozesa abakunzire ngu wiki yabo eriyo negyezesibwa  ebe $1.",
 	"wminc-search-nocreate-nopref": "Wa no sherura \"$1\". Torana  [[Special:Preferences| ekyorikwenda ku gyezesa aha wiki]] kwenda ngu tuku gambire ni Orubaju ki Oru was kubasa ku hangaho!",
 	"wminc-search-nocreate-suggest": "Wa no sherura \"$1\". Nobasa ku hangaho Orubaju omu wiki yawe aha <strong>[[$3]]</strong>!",
@@ -58,5 +59,35 @@
 	"wminc-fs-langselect": "Gumizamu omu $1 nari $2",
 	"wminc-fs-signup-text": "Waba Oine account ya Omukozesa,[$1 yeyanjuremu].waba otiine nemwe, [$2 hangaho account ya Omukozesa].\nTikiri kwetengyesa, kwonka nikihamibwa, Kandi nikitwaara obutikitiki bukye ku gi hangaho.",
 	"wminc-fs-settings-text": "Za aha[[Special:Preferences#mw-htmlform-i18n|ebirikwendwa byawe]] ohindure setingi ya wiki erikugyezesibwa.\nEkyo kubanza Ni orurimi rwa Karimagyezi yawe, Oru wa toorana omu ru tambwe rwokubanza kwonka nobasa ku ruhindura.\nEkya kabiri ni purogyekiti eyorikwenda kukoraho nana ekya kashatu ni Kodi y'orurimi rwa purogyekiti eyorikwenda kukoraho.\nWaba otakumanya Kodi, hikirira [[{{MediaWiki:Wminc-manual-url}}|endagiriro yenkozesa]] ninga shaba [[{{MediaWiki:Portal-url}}|Obuyambi]].",
-	"wminc-fs-userpage-text": "Hati hangaho Orubaju rwawe r'okukozesa $1 rwiine na ebirikukukwataho ebikuru. Nobasa kuru reebera aha mutwe gwa Orubaju Oru."
+	"wminc-fs-userpage-text": "Hati hangaho Orubaju rwawe r'okukozesa $1 rwiine na ebirikukukwataho ebikuru. Nobasa kuru reebera aha mutwe gwa Orubaju Oru.",
+	"wminc-fs-startwiki-text": "Otugambo twokubanza twa wiki eriyo negyezesibwa ni <strong>$1</strong>. Nobasa ku hangaho Orubaju orukuru orwa wiki aha <strong>$2</strong>.",
+	"wminc-fs-startwiki-exists-text": "Otugambo twokubanza otwa wiki yawe ni $1. Orubaju orukuru ruri ah $2. Hati nobasas ku kwatanisa na abagambi b'orurimi kwombeka ekyanga!\nWaba noyenda ku hangaho Orubaju, gyezaho ohandiikye eiziina omu bokisi y'okusherururamu aheiguru, ninga kuratirira linki eyi ora reebe.",
+	"wminc-infopage-enter": "Genda aha orubaju rukuru",
+	"wminc-unknownlang": "Kodi y'orurimi Teri kumanywa",
+	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-b": "Wikibitabo $1",
+	"wminc-infopage-title-t": "WikiKavunuzi $1",
+	"wminc-infopage-title-q": "WikiTugambo $1",
+	"wminc-infopage-title-n": "Wikimakuru $1",
+	"wminc-infopage-title-s": "WikiOburigo $1",
+	"wminc-infopage-title-v": "Wikisoma $1",
+	"wminc-infopage-title-y": "Wikitambura $1",
+	"wminc-infopage-welcome": "Wa yakiirwa aha wikimedia mukuza, purogyekiti ya wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|ebirikugyikwataho]])",
+	"wminc-infopage-missingwiki-text": "$1 omu orurimi Oru tekabireho.",
+	"wminc-infopage-option-startwiki": "Waba noyenda ku tandikaho egyi wiki, kuratirira'''[$3 entambwe ezi]'' nana  [[{{MediaWiki:Wminc-manual-url}}|endagiriro yeitu yenkozesa]].",
+	"wminc-infopage-option-startsister": "Waba noyenda ku tandikaho egyi wiki, nobasa ku gyenda aha <strong>[$2 $1]</strong>.",
+	"wminc-infopage-option-languages-existing": "Nobasa ku sherura [//www.$1.org Ebika by'endimi ebiriho ebya $1].",
+	"wminc-infopage-option-sisterprojects-existing": "Nobasa ku sherura purogyekiti eziriho omu orurimi Oru:",
+	"wminc-infopage-option-sisterprojects-other": "Nobasa ku sherura purogyekiti Ezindi eziri omu orurimi Oru:",
+	"wminc-infopage-option-multilingual": "Ahandi, nobasa ku genda aha wiki y'endimi nyingi:",
+	"wminc-infopage-createmainpage": "Tatsyamu ekigambo \"Orubaju orukuru\" omu orurimi Oru:",
+	"wminc-infopage-contribute": "Waba nomanya orurimi Oru, nohigwa kugira ebiwahayo Ori kuhandika",
+	"wminc-infopage-status-open": "Egyi ni wiki eyigwire eya buri omwe eya wikimedia mukuza.",
+	"wminc-infopage-status-imported": "Egyi wiki ya mukuza eretsirwe kuruga $1 bwanyima ya okugikyinga.",
+	"wminc-infopage-status-closedsister": "Egyi subdomain bakagyikyinga. Genda aha <strong>$2</strong> kugira ebi wahayo aha wiki egyi.",
+	"wminc-infopage-status-approved": "Egyi wiki ya mukuza ya yikirizibwa [[meta:Special:MyLanguage/Language_committee|Akakyiiko ka endimi]] Kandi neza ku hangwaho juba.",
+	"wminc-infopage-status-created": "Egyi purogyekiti yikirizibwa Akakyiiko ka endimi, Kandi hati eriho aha $1.",
+	"wminc-infopage-status-beforeincubator": "Egyi purogyekiti eka hangwaho wikimedia mukuza etaka tandikire, hati eriho aha $1.",
+	"wminc-infopage-status-beforeincubator-sister": "Egyi purogyekiti eriho aha $1.",
+	"wminc-infopage-error": "Enshobi: {{# Orubaju rwa ebiri'kukataho}} niribasa kukoresibwa aha embaju eziine otugambo twokubanza honka ."
 }
