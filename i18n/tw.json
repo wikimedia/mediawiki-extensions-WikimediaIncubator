@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"AC Krah"
+			"AC Krah",
+			"Rsaawah"
 		]
 	},
-	"wminc-testwiki-none": "Wikis nyinaa"
+	"wminc-testwiki-none": "Wikis nyinaa",
+	"wminc-fs-userpage-title": "Yɛ wo dwumadie bea",
+	"wminc-fs-userpage-text": "Yɛsrɛ sɛ wode wo ho nsɛm abɔaseɛ kakra bɛyɛ wo dwumadie kratafa $1 seesie. Wo betumi ahunu link a ɛfa ho wɔ kratafa yi soro."
 }
