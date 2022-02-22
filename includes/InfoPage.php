@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
 use MediaWiki\User\UserIdentity;
 
 /**
@@ -264,9 +265,10 @@ class InfoPage {
 			Title::newFromText( $this->mPrefix . '/' . $this->mOptions['mainpage'] ) :
 			WikimediaIncubator::getMainPage( $this->mLangCode, $this->mPrefix );
 		if ( $this->mThisLangData['type'] != 'invalid' ) {
-			$gotoLink = Linker::link(
+			$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
+			$gotoLink = $linkRenderer->makeLink(
 				$mainpage,
-				wfMessage( 'wminc-infopage-enter' )->escaped() );
+				wfMessage( 'wminc-infopage-enter' )->text() );
 			$gotoMainPage = Html::rawElement( 'span',
 				[ 'class' => 'wminc-infopage-entertest' ],
 				$wgLang->getArrow() . ' ' . ( $this->mIsSister ? $portalLink : $gotoLink ) );
