@@ -187,7 +187,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 		$linkRenderer = $this->getLinkRenderer();
 		$link = $linkRenderer->makeLink( $this->getUser()->getUserPage(), $this->getUser()->getName() );
-		$this->getOutput()->addHtml( $this->msg( 'wminc-fs-userpage-text', $link )->escaped() );
+		$this->getOutput()->addHtml( $this->msg( 'wminc-fs-userpage-text' )->rawParams( $link )->escaped() );
 
 		return $step_msg;
 	}
