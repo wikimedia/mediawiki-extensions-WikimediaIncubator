@@ -11,7 +11,7 @@ use MediaWiki\User\UserOptionsLookup;
  * @author Robin Pepermans (SPQRobin)
  */
 
-class SpecialRandomByTest extends RandomPage {
+class SpecialRandomByTest extends SpecialRandomPage {
 
 	/**
 	 * @param UserOptionsLookup $userOptionsLookup
