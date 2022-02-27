@@ -48,6 +48,23 @@ class WikimediaIncubator {
 	}
 
 	/**
+	 * Fallback to no project selected for users without a valid language code.
+	 *
+	 * @param UserIdentity $user
+	 * @param array &$options
+	 */
+	public static function onLoadUserOptions( UserIdentity $user, array &$options ) {
+		global $wmincPref;
+
+		$langCode = $options[$wmincPref . '-code'] ?? '';
+		if ( self::isContentProject( $user, $options[$wmincPref . '-project'] )
+			&& !self::validateLanguageCode( $langCode )
+		) {
+			$options[$wmincPref . '-project'] = self::NO_PROJECT_SELECTED;
+		}
+	}
+
+	/**
 	 * Add preferences
 	 * @param User $user
 	 * @param array &$preferences
@@ -294,14 +311,14 @@ class WikimediaIncubator {
 
 	/**
 	 * Returns a simple boolean based on getProject()
-	 * @param User $user
+	 * @param UserIdentity $user
 	 * @param string $project
 	 * @param bool $returnName
 	 * @param bool $includeSister
 	 * @return bool
 	 */
 	public static function isContentProject(
-		User $user,
+		UserIdentity $user,
 		$project = '',
 		$returnName = false,
 		$includeSister = false

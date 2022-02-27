@@ -176,6 +176,7 @@
 		"ContributionsToolLinks": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::efLoadViewUserLangLink",
 		"GetPreferences": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onGetPreferences",
 		"UserGetDefaultOptions": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onUserGetDefaultOptions",
+		"LoadUserOptions": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onLoadUserOptions",
 		"MagicWordwgVariableIDs": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::magicWordVariable",
 		"ParserGetVariableValueSwitch": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::magicWordValue",
 		"getUserPermissionsErrors": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onGetUserPermissionsErrors",
