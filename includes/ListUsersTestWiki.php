@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Ability to filter list of users based on their test wiki preference
  */
@@ -47,7 +49,8 @@ class ListUsersTestWiki {
 		} else {
 			$testwiki = WikimediaIncubator::getUrlParam();
 			if ( $testwiki ) {
-				$link = Linker::linkKnown( Title::newFromText( $testwiki['prefix'] ) );
+				$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
+				$link = $linkRenderer->makeKnownLink( Title::newFromText( $testwiki['prefix'] ) );
 				$out .= wfMessage( 'wminc-listusers-testwiki' )->rawParams( $link )->parseAsBlock();
 			}
 		}
