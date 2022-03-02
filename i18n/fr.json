@@ -62,7 +62,7 @@
 	"wminc-searchwiki": "Recherche d’un wiki",
 	"wminc-searchwiki-noproject": "Vous n’avez pas sélectionné de projet.",
 	"wminc-searchwiki-noresults": "Aucun résultat. Vous pouvez rechercher par code de langue, par nom dans langue d'origine, par nom dans la langue de votre interface ou en anglais.",
-	"wminc-searchwiki-selectproject": "Rechercher :",
+	"wminc-searchwiki-selectproject": "Rechercher :",
 	"wminc-searchwiki-inputlanguage": "Dans cette langue :",
 	"wminc-searchwiki-go": "Aller",
 	"wminc-searchwiki-multiplematches": "Votre recherche correspond aux langues suivantes :",
