@@ -16,6 +16,7 @@
 	"wminc-prefinfo-project": "Kies die Wikimedia-projek (Inkubator-opsie is vir gebruikers wat nie algemeen werk doen nie)",
 	"wminc-prefinfo-error": "Jy het 'n projek gekies wat 'n taalkode benodig.",
 	"randombytest": "Lukrake bladsy uit die toetswiki",
+	"randombytest-nopages": "Daar is geen bladsye in jou toetswiki in die $1-naamruimte nie.",
 	"wminc-viewuserlang": "Soek op gebruikerstaal en toetswiki",
 	"wminc-viewuserlang-user": "Gebruikersnaam:",
 	"wminc-viewuserlang-go": "OK",

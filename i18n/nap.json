@@ -22,6 +22,7 @@
 	"wminc-error-unprefixed-suggest": "<strong>Errore:</strong> Chesta paggena [[{{MediaWiki:Wminc-error-help}}|nun tene prefisso]]! Pò cria 'a paggena [[:$1]].",
 	"wminc-error-wiki-exists": "Chesta wiki esiste. Può truva chesta paggena ncopp'â $1. Si 'a wiki fuje criata 'e reciente, aspettà cocche ora o cocche juorne pecché 'o cuntenuto sia 'mpurtato tutto.",
 	"randombytest": "Paggena qualonca d\"o wiki 'e test",
+	"randombytest-nopages": "Nun ce stanne paggene int'ô wiki 'e test tujo, int'ô namespace: $1.",
 	"wminc-viewuserlang": "Vere 'a lengua 'e ll’utente e 'o wiki 'e test sujo",
 	"wminc-viewuserlang-user": "Nomme utente:",
 	"wminc-viewuserlang-go": "Vàje",

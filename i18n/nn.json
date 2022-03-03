@@ -13,6 +13,7 @@
 	"wminc-prefinfo-project": "Vél Wikimediaprosjekt (alternativet Incubator er for brukarar som gjer generelt arbeid)",
 	"wminc-prefinfo-error": "Du valde eit prosjekt som krev ei språkkode.",
 	"randombytest": "Tilfelleleg side frå testwiki",
+	"randombytest-nopages": "Det er ingen sider i testwikien din, i namneromet:  $1.",
 	"wminc-viewuserlang": "Slå opp brukarspråk og testwiki",
 	"wminc-viewuserlang-user": "Brukarnamn:",
 	"wminc-viewuserlang-go": "Gå",

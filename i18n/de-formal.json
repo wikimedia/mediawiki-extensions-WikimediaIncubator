@@ -15,6 +15,7 @@
 	"wminc-error-move-unprefixed": "Fehler: Die Seite, die Sie verschieben wollen, hat entweder [[{{MediaWiki:Wminc-error-help}}|kein oder ein falsches Präfix]].",
 	"wminc-error-unprefixed-suggest": "'''Fehler:''' Diese Seite hat [[{{MediaWiki:Wminc-error-help}}|kein Präfix]]. Sie können unter [[:$1]] eine Seite anlegen.",
 	"wminc-error-wiki-sister": "Diese Seite gehört zu einem Projekt, das nicht hier gehostet ist. Gehen Sie bitte zu $1, um das Wiki zu finden.",
+	"randombytest-nopages": "Es befinden sich keine Seiten im Namensraum „$1“ Ihres Testwikis.",
 	"wminc-listusers-testwiki": "Sie sehen Benutzer, die ihre Testwikieinstellung auf $1 eingestellt haben.",
 	"wminc-search-nocreate-nopref": "Sie suchten nach „$1“. Bitte legen Sie die [[Special:Preferences|Einstellungen für Ihr Testwiki]] fest, damit wir Ihnen mitteilen können, welche Seite Sie erstellen können.",
 	"wminc-search-nocreate-suggest": "Sie suchten nach „$1“. Sie können in Ihrem Testwiki eine Seite unter <strong>[[$3]]</strong> erstellen.",
