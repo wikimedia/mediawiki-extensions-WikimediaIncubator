@@ -9,8 +9,25 @@
  * @author Robin Pepermans (SPQRobin)
  */
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
+use Article;
+use Language;
+use Linker;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\User\UserIdentity;
+use OutputPage;
+use Parser;
+use RequestContext;
+use SearchEngine;
+use SpecialPage;
+use SpecialSearch;
+use Status;
+use StubUserLang;
+use Title;
+use User;
+use WebRequest;
+use Xml;
 
 class WikimediaIncubator {
 	// Used in places that expect the name of a project when no
@@ -66,7 +83,7 @@ class WikimediaIncubator {
 				'validation-callback' => static function ( $input, $alldata ) use ( $user ) {
 					return WikimediaIncubator::validateCodePreference( $user, $input, $alldata );
 				},
-				'filter-callback' => [ 'WikimediaIncubator', 'filterCodePreference' ],
+				'filter-callback' => [ self::class, 'filterCodePreference' ],
 			],
 		];
 
@@ -356,16 +373,15 @@ class WikimediaIncubator {
 			* $wmincTestWikiNamespaces, so use format:
 			* TITLE + NS => NS:Wx/xxx/TITLE
 			*/
-			$title = Title::makeTitleSafe( $ns, self::displayPrefix() . '/' . $title );
-		} else {
-			/* Non-standard namespace, so use format:
-			* TITLE + NS => Wx/xxx/NS:TITLE
-			* (with localized namespace name)
-			*/
-			$title = Title::makeTitleSafe( 0, self::displayPrefix() . '/' .
-				$wgLang->getNsText( $ns ) . ':' . $title );
+			return Title::makeTitleSafe( $ns, self::displayPrefix() . '/' . $title );
 		}
-		return $title;
+
+		/* Non-standard namespace, so use format:
+		* TITLE + NS => Wx/xxx/NS:TITLE
+		* (with localized namespace name)
+		*/
+		return Title::makeTitleSafe( 0, self::displayPrefix() . '/' .
+			$wgLang->getNsText( $ns ) . ':' . $title );
 	}
 
 	public static function magicWordVariable( &$magicWords ) {
@@ -398,7 +414,6 @@ class WikimediaIncubator {
 			# If user has "project" (Incubator) as test wiki preference, it isn't needed to check
 			return false;
 		} elseif ( !in_array( $ns, $wmincTestWikiNamespaces ) ) {
-			// @phan-suppress-previous-line PhanPossiblyUndeclaredVariable
 			# OK if it's not in one of the content namespaces
 			return false;
 		} elseif ( ( $ns == NS_CATEGORY || $ns == NS_CATEGORY_TALK ) &&
@@ -687,7 +702,7 @@ class WikimediaIncubator {
 	}
 
 	public static function onParserFirstCallInit( Parser $parser ) {
-		$parser->setFunctionHook( 'infopage', 'WikimediaIncubator::renderParserFunction' );
+		$parser->setFunctionHook( 'infopage', [ self::class, 'renderParserFunction' ] );
 		return true;
 	}
 

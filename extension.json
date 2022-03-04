@@ -124,21 +124,21 @@
 	],
 	"SpecialPages": {
 		"ViewUserLang": {
-			"class": "SpecialViewUserLang",
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialViewUserLang",
 			"services": [
 				"UserNameUtils",
 				"UserOptionsLookup"
 			]
 		},
-		"MyMainPage": "SpecialMyMainPage",
+		"MyMainPage": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialMyMainPage",
 		"RandomByTest": {
-			"class": "SpecialRandomByTest",
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialRandomByTest",
 			"services": [
 				"UserOptionsLookup"
 			]
 		},
-		"SearchWiki": "SpecialSearchWiki",
-		"IncubatorFirstSteps": "SpecialIncubatorFirstSteps"
+		"SearchWiki": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialSearchWiki",
+		"IncubatorFirstSteps": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialIncubatorFirstSteps"
 	},
 	"MessagesDirs": {
 		"WikimediaIncubator": [
@@ -149,18 +149,8 @@
 		"WikimediaIncubatorAlias": "WikimediaIncubator.alias.php",
 		"WikimediaIncubatorMagic": "WikimediaIncubator.i18n.magic.php"
 	},
-	"AutoloadClasses": {
-		"SpecialViewUserLang": "includes/SpecialViewUserLang.php",
-		"WikimediaIncubator": "includes/WikimediaIncubator.php",
-		"SpecialMyMainPage": "includes/SpecialMyMainPage.php",
-		"TestWikiRC": "includes/TestWikiRC.php",
-		"SpecialRandomByTest": "includes/SpecialRandomByTest.php",
-		"InfoPage": "includes/InfoPage.php",
-		"ListUsersTestWiki": "includes/ListUsersTestWiki.php",
-		"SpecialSearchWiki": "includes/SpecialSearchWiki.php",
-		"SpecialIncubatorFirstSteps": "includes/SpecialIncubatorFirstSteps.php",
-		"WikimediaIncubatorAuthenticationRequest": "includes/WikimediaIncubatorAuthenticationRequest.php",
-		"WikimediaIncubatorSecondaryAuthenticationProvider": "includes/WikimediaIncubatorSecondaryAuthenticationProvider.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\WikimediaIncubator\\": "includes/"
 	},
 	"ResourceModules": {
 		"WikimediaIncubator.InfoPage": {
@@ -174,7 +164,7 @@
 	"AuthManagerAutoConfig": {
 		"secondaryauth": {
 			"WikimediaIncubatorSecondaryAuthenticationProvider": {
-				"class": "WikimediaIncubatorSecondaryAuthenticationProvider",
+				"class": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubatorSecondaryAuthenticationProvider",
 				"sort": 0,
 				"services": [
 					"UserOptionsManager"
@@ -183,28 +173,28 @@
 		}
 	},
 	"Hooks": {
-		"ContributionsToolLinks": "WikimediaIncubator::efLoadViewUserLangLink",
-		"GetPreferences": "WikimediaIncubator::onGetPreferences",
-		"UserGetDefaultOptions": "WikimediaIncubator::onUserGetDefaultOptions",
-		"MagicWordwgVariableIDs": "WikimediaIncubator::magicWordVariable",
-		"ParserGetVariableValueSwitch": "WikimediaIncubator::magicWordValue",
-		"getUserPermissionsErrors": "WikimediaIncubator::onGetUserPermissionsErrors",
-		"MovePageIsValidMove": "WikimediaIncubator::onMovePageIsValidMove",
-		"ChangesListSpecialPageQuery": "TestWikiRC::onRcQuery",
-		"SpecialRecentChangesPanel": "TestWikiRC::onRcForm",
-		"ShowMissingArticle": "WikimediaIncubator::onShowMissingArticle",
-		"EditFormPreloadText": "WikimediaIncubator::onEditFormPreloadText",
-		"MediaWikiPerformAction": "WikimediaIncubator::onMediaWikiPerformAction",
-		"TitleIsAlwaysKnown": "WikimediaIncubator::onTitleIsAlwaysKnown",
-		"ParserFirstCallInit": "WikimediaIncubator::onParserFirstCallInit",
-		"BeforePageDisplay": "WikimediaIncubator::fnTestWikiLogo",
-		"PageContentLanguage": "WikimediaIncubator::onPageContentLanguage",
-		"SpecialListusersHeaderForm": "ListUsersTestWiki::onSpecialListusersHeaderForm",
-		"SpecialListusersQueryInfo": "ListUsersTestWiki::onSpecialListusersQueryInfo",
-		"SpecialListusersHeader": "ListUsersTestWiki::onSpecialListusersHeader",
-		"SpecialSearchCreateLink": "WikimediaIncubator::onSpecialSearchCreateLink",
-		"SpecialSearchPowerBox": "WikimediaIncubator::onSpecialSearchPowerBox",
-		"SpecialSearchSetupEngine": "WikimediaIncubator::onSpecialSearchSetupEngine"
+		"ContributionsToolLinks": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::efLoadViewUserLangLink",
+		"GetPreferences": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onGetPreferences",
+		"UserGetDefaultOptions": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onUserGetDefaultOptions",
+		"MagicWordwgVariableIDs": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::magicWordVariable",
+		"ParserGetVariableValueSwitch": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::magicWordValue",
+		"getUserPermissionsErrors": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onGetUserPermissionsErrors",
+		"MovePageIsValidMove": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onMovePageIsValidMove",
+		"ChangesListSpecialPageQuery": "MediaWiki\\Extension\\WikimediaIncubator\\TestWikiRC::onRcQuery",
+		"SpecialRecentChangesPanel": "MediaWiki\\Extension\\WikimediaIncubator\\TestWikiRC::onRcForm",
+		"ShowMissingArticle": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onShowMissingArticle",
+		"EditFormPreloadText": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onEditFormPreloadText",
+		"MediaWikiPerformAction": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onMediaWikiPerformAction",
+		"TitleIsAlwaysKnown": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onTitleIsAlwaysKnown",
+		"ParserFirstCallInit": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onParserFirstCallInit",
+		"BeforePageDisplay": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::fnTestWikiLogo",
+		"PageContentLanguage": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onPageContentLanguage",
+		"SpecialListusersHeaderForm": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersHeaderForm",
+		"SpecialListusersQueryInfo": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersQueryInfo",
+		"SpecialListusersHeader": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersHeader",
+		"SpecialSearchCreateLink": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onSpecialSearchCreateLink",
+		"SpecialSearchPowerBox": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onSpecialSearchPowerBox",
+		"SpecialSearchSetupEngine": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onSpecialSearchSetupEngine"
 	},
 	"manifest_version": 2
 }

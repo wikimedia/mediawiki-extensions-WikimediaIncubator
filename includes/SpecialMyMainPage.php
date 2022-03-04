@@ -9,6 +9,11 @@
  * @author Robin Pepermans (SPQRobin)
  */
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
+use Title;
+use UnlistedSpecialPage;
+
 class SpecialMyMainPage extends UnlistedSpecialPage {
 
 	public function __construct() {

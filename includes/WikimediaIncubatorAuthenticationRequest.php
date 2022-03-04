@@ -1,6 +1,9 @@
 <?php
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
 use MediaWiki\Auth\AuthenticationRequest;
+use RequestContext;
 
 /**
  * An authentication request to grab the custom fields passed to the creation form.

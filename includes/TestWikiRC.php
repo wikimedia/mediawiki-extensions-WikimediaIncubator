@@ -1,6 +1,13 @@
 <?php
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
+use FormOptions;
 use MediaWiki\MediaWikiServices;
+use RequestContext;
+use User;
+use Xml;
+use XmlSelect;
 
 /**
  * Recent changes for a specific test wiki, or for all project changes (or normal display)

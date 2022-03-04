@@ -1,5 +1,14 @@
 <?php
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
+use Html;
+use HTMLForm;
+use IncludableSpecialPage;
+use Language;
+use Title;
+use Xml;
+
 class SpecialSearchWiki extends IncludableSpecialPage {
 
 	/** @var string[] */
@@ -109,7 +118,6 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	/**
 	 * @param string $projectQuery
 	 * @param string $languageQuery
-	 * @return string
 	 */
 	protected function doSearch( $projectQuery, $languageQuery ) {
 		## Match project ##
@@ -122,7 +130,8 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 				# searched with a project name
 				$matchProject = $projectCode;
 			} else {
-				return $this->getOutput()->addWikiMsg( 'wminc-searchwiki-noproject' );
+				$this->getOutput()->addWikiMsg( 'wminc-searchwiki-noproject' );
+				return;
 			}
 		}
 
@@ -163,7 +172,8 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		} elseif ( count( $results ) < 1 ) {
 			$noresult = Html::element( 'p', [ 'class' => 'error' ],
 				$this->msg( 'wminc-searchwiki-noresults' )->text() );
-			return $this->getOutput()->addHTML( $noresult );
+			$this->getOutput()->addHTML( $noresult );
+			return;
 		} elseif ( count( $results ) > 1 ) {
 			$this->showMultipleResults( $matchProject, $languageQuery, $results );
 		}

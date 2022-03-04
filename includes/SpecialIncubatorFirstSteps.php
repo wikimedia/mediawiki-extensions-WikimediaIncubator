@@ -12,6 +12,15 @@
  * @ingroup SpecialPage
  */
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
+use Html;
+use Language;
+use Message;
+use SpecialPage;
+use Title;
+use UnlistedSpecialPage;
+
 class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 	/**
@@ -47,7 +56,6 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	 * @param Message $msg Message object
 	 * @param bool $opaque
 	 * @param bool $done
-	 * @return string
 	 */
 	protected function showHeader( $msg, $opaque = true, $done = false ) {
 		$attrs = [];
@@ -58,7 +66,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		if ( $done ) {
 			$content .= $this->msg( 'wminc-fs-pagetitle-done' )->text();
 		}
-		return $this->getOutput()->addHtml( Html::element( 'h3', $attrs, $content ) );
+		$this->getOutput()->addHtml( Html::element( 'h3', $attrs, $content ) );
 	}
 
 	/**

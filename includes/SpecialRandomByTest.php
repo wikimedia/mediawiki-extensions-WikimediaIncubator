@@ -1,6 +1,9 @@
 <?php
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
 use MediaWiki\User\UserOptionsLookup;
+use SpecialRandomPage;
 
 /**
  * Special page to go to a random page in your test wiki

@@ -1,6 +1,11 @@
 <?php
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
 use MediaWiki\MediaWikiServices;
+use Pager;
+use Title;
+use Xml;
 
 /**
  * Ability to filter list of users based on their test wiki preference

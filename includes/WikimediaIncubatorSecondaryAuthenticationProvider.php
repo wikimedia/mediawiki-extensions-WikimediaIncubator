@@ -1,5 +1,7 @@
 <?php
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
 use MediaWiki\Auth\AbstractSecondaryAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthenticationResponse;

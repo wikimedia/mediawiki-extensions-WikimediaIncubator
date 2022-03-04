@@ -1,7 +1,14 @@
 <?php
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
+use Html;
+use Language;
+use Linker;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\User\UserIdentity;
+use SpecialPage;
+use Title;
 
 /**
  * Implements the "info page" (Wx/xx pages)

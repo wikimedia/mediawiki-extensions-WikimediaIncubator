@@ -11,8 +11,18 @@
  * @author Robin Pepermans (SPQRobin)
  */
 
+namespace MediaWiki\Extension\WikimediaIncubator;
+
+use HTMLForm;
+use Language;
+use Linker;
 use MediaWiki\User\UserNameUtils;
 use MediaWiki\User\UserOptionsLookup;
+use SpecialPage;
+use Title;
+use User;
+use UserNamePrefixSearch;
+use Xml;
 
 class SpecialViewUserLang extends SpecialPage {
 	/** @var UserNameUtils */
