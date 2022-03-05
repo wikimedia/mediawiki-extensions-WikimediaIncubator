@@ -2,10 +2,10 @@
 
 use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
 
-class IncubatorUnitTests extends MediaWikiIntegrationTestCase {
-	/**
-	 * @covers \MediaWiki\Extension\WikimediaIncubator::validateLanguageCode
-	 */
+/**
+ * @covers \MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator
+ */
+class IncubatorUnitTest extends MediaWikiIntegrationTestCase {
 	public function testValidateLanguageCode() {
 		$this->assertTrue( WikimediaIncubator::validateLanguageCode( 'aa' ),
 			'Valid language code aa' );
@@ -13,9 +13,6 @@ class IncubatorUnitTests extends MediaWikiIntegrationTestCase {
 			'Invalid language code aaaa' );
 	}
 
-	/**
-	 * @covers \MediaWiki\Extension\WikimediaIncubator::shouldWeShowUnprefixedError
-	 */
 	public function testShouldWeShowUnprefixedError() {
 		$testPages = [
 			'Bl/urb' => true,
@@ -34,9 +31,6 @@ class IncubatorUnitTests extends MediaWikiIntegrationTestCase {
 		}
 	}
 
-	/**
-	 * @covers \MediaWiki\Extension\WikimediaIncubator::onTitleIsAlwaysKnown
-	 */
 	public function testOnTitleIsAlwaysKnown() {
 		# Assuming default configuration (Wikipedia = Wp; fictional Wz)
 		$title = Title::newFromText( 'Wp/nl' );
@@ -45,9 +39,6 @@ class IncubatorUnitTests extends MediaWikiIntegrationTestCase {
 		$this->assertFalse( $title->isKnown() );
 	}
 
-	/**
-	 * @covers \MediaWiki\Extension\WikimediaIncubator::onPageContentLanguage
-	 */
 	public function testOnPageContentLanguage() {
 		$title = Title::newFromText( 'Wp/nl/Test' );
 		$this->assertEquals( 'nl', $title->getPageLanguage()->getCode() );
