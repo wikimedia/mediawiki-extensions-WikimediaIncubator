@@ -14,7 +14,8 @@
 			"Reza1615",
 			"Rtemis",
 			"Sahim",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Beginneruser"
 		]
 	},
 	"wminc-desc": "سامانهٔ ویکی آزمایشی برای ویکی‌رشد ویکی‌مدیا",
@@ -44,7 +45,7 @@
 	"wminc-ip": "«$1» یک نشانی آی‌پی است.",
 	"right-viewuserlang": "مشاهده زبان و ویکی آزمایشی کاربر",
 	"group-test-sysop": "مدیران ویکی آزمایشی",
-	"group-test-sysop-member": "مدیر ویکی آزمایشی",
+	"group-test-sysop-member": "{{GENDER:$1|مدیر ویکی آزمایشی}}",
 	"grouppage-test-sysop": "{{ns:project}}:مدیران ویکی آزمایشی",
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|زبان «$3»]] یک [[wikipedia:ISO 639 macrolanguage|زبان بزرگ]] است، که ترکیبی از زبان‌های مقابل است:",
 	"wminc-code-collective": "کد \"$1\" به زبان خاصی ارجاع نمی‌دهد، ولی به مجموعه‌ای از زبان‌ها ارجاع می‌دهد، یعنی [[wikipedia:$2 language|زبان‌های «$3»]].",
