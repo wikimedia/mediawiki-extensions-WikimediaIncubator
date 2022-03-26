@@ -187,7 +187,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		if ( $step ) {
 			$this->showHeader( $step_msg, true, false );
 			return $step;
-		} elseif ( $this->getUser()->getUserPage()->exists() ) {
+		} elseif ( $this->getUser()->getUserPage()->isKnown() ) {
 			$this->showHeader( $step_msg, true, true );
 			return $step;
 		}
