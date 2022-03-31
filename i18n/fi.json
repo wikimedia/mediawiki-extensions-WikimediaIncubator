@@ -15,7 +15,8 @@
 			"Stryn",
 			"Valtlait",
 			"Varusmies",
-			"VezonThunder"
+			"VezonThunder",
+			"Moj"
 		]
 	},
 	"wminc-desc": "Testiwiki-järjestelmä Wikimedia-hautomoa varten",
@@ -82,12 +83,12 @@
 	"wminc-fs-startwiki-exists-text": "Wikisi etuliite on $1. Etusivu on osoitteessa $2. Voit nyt tehdä yhteistyötä toisten tämän kielen puhujien kanssa rakentaaksesi yhteisön!\nJos haluat luoda sivun, kirjoita vain sen nimi hakulaatikkoon yläpuolella ja seuraa näkemääsi linkkiä.",
 	"wminc-infopage-enter": "siirry etusivulle",
 	"wminc-unknownlang": "(tuntematon kielikoodi)",
-	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-p": "Wikipedia kielellä $1",
 	"wminc-infopage-title-b": "Wikikirjasto $1",
-	"wminc-infopage-title-t": "Wikisanakirja $1",
+	"wminc-infopage-title-t": "Wikisanakirja kielellä $1",
 	"wminc-infopage-title-q": "Wikisitaatit $1",
-	"wminc-infopage-title-n": "Wikiuutiset $1",
-	"wminc-infopage-title-s": "Wikiaineisto $1",
+	"wminc-infopage-title-n": "Wikiuutiset kielellä $1",
+	"wminc-infopage-title-s": "Wikiaineisto kielellä $1",
 	"wminc-infopage-title-v": "Wikiopisto $1",
 	"wminc-infopage-title-y": "Wikimatkat $1",
 	"wminc-infopage-welcome": "Tervetuloa Wikimedia-hautomoon, Wikimedia Foundationin hankkeeseen ([[{{MediaWiki:Aboutpage}}|tietoja]])",
