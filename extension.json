@@ -1,9 +1,10 @@
 {
 	"name": "Wikimedia Incubator",
-	"version": "5.4.0",
+	"version": "5.5.0",
 	"author": [
 		"SPQRobin",
-		"Hydriz"
+		"Hydriz",
+		"Jon Harald Søby"
 	],
 	"license-name": "GPL-2.0-or-later",
 	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaIncubator",
@@ -190,6 +191,7 @@
 		"ParserFirstCallInit": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onParserFirstCallInit",
 		"BeforePageDisplay": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::fnTestWikiLogo",
 		"PageContentLanguage": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onPageContentLanguage",
+		"MakeGlobalVariablesScript": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onMakeGlobalVariablesScript",
 		"SpecialListusersHeaderForm": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersHeaderForm",
 		"SpecialListusersQueryInfo": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersQueryInfo",
 		"SpecialListusersHeader": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersHeader",
