@@ -60,7 +60,7 @@
 	"wminc-fs-signup-text": "Waba Oine account ya Omukozesa,[$1 yeyanjuremu].waba otiine nemwe, [$2 hangaho account ya Omukozesa].\nTikiri kwetengyesa, kwonka nikihamibwa, Kandi nikitwaara obutikitiki bukye ku gi hangaho.",
 	"wminc-fs-settings-text": "Za aha[[Special:Preferences#mw-htmlform-i18n|ebirikwendwa byawe]] ohindure setingi ya wiki erikugyezesibwa.\nEkyo kubanza Ni orurimi rwa Karimagyezi yawe, Oru wa toorana omu ru tambwe rwokubanza kwonka nobasa ku ruhindura.\nEkya kabiri ni purogyekiti eyorikwenda kukoraho nana ekya kashatu ni Kodi y'orurimi rwa purogyekiti eyorikwenda kukoraho.\nWaba otakumanya Kodi, hikirira [[{{MediaWiki:Wminc-manual-url}}|endagiriro yenkozesa]] ninga shaba [[{{MediaWiki:Portal-url}}|Obuyambi]].",
 	"wminc-fs-userpage-text": "Hati hangaho Orubaju rwawe r'okukozesa $1 rwiine na ebirikukukwataho ebikuru. Nobasa kuru reebera aha mutwe gwa Orubaju Oru.",
-	"wminc-fs-startwiki-text": "Otugambo twokubanza twa wiki eriyo negyezesibwa ni <strong>$1</strong>. Nobasa ku hangaho Orubaju orukuru orwa wiki aha <strong>$2</strong>.",
+	"wminc-fs-startwiki-text": "Otugambo twokubanza twa wiki eriyo negyezesibwa ni <strong>$1</strong>. Nobasa ku hangaho orubaju orukuru orwa wiki aha <strong>$2</strong>.",
 	"wminc-fs-startwiki-exists-text": "Otugambo twokubanza otwa wiki yawe ni $1. Orubaju orukuru ruri ah $2. Hati nobasas ku kwatanisa na abagambi b'orurimi kwombeka ekyanga!\nWaba noyenda ku hangaho Orubaju, gyezaho ohandiikye eiziina omu bokisi y'okusherururamu aheiguru, ninga kuratirira linki eyi ora reebe.",
 	"wminc-infopage-enter": "genda aha Orubaju rukuru",
 	"wminc-unknownlang": "Kodi y'orurimi Teri kumanywa",
