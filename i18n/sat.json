@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fagunkoyel Hansdah"
+			"Fagunkoyel Hansdah",
+			"Rocky 734"
 		]
 	},
-	"wminc-infopage-title-p": "ᱣᱤᱠᱤᱯᱤᱰᱤᱭᱟ $1"
+	"wminc-infopage-title-p": "ᱣᱤᱠᱤᱯᱤᱰᱤᱭᱟ $1",
+	"wminc-infopage-title-t": "$1 ᱣᱤᱠᱤᱢᱩᱨᱟᱹᱭ"
 }
