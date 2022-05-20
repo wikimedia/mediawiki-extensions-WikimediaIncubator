@@ -540,7 +540,6 @@ class WikimediaIncubator {
 		$projectCode = self::getProject( $user, $project, false, true );
 		if ( !$projectCode ) {
 			global $wmincMultilingualProjects;
-			// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 			$projectCode = array_search( $project, $wmincMultilingualProjects );
 		}
 		$site = strtolower( $projectName );
@@ -549,6 +548,12 @@ class WikimediaIncubator {
 			'site' => $site,
 		];
 		$dbSuffix = $wmincProjectDatabases[$projectCode] ?? $site;
+		if ( $setting === 'wmgSiteLogoIcon' && $dbSuffix === 'wiki' ) {
+			# For this specific setting, we can't use the normal Wikipedia
+			# suffix of 'wiki', we need 'wikipedia'. See T254229.
+			# TODO: Make this more predictable/versatile.
+			$dbSuffix = 'wikipedia';
+		}
 		return $wgConf->get( $setting, $langUnderscore . $dbSuffix, $dbSuffix, $params );
 	}
 

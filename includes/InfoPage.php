@@ -136,11 +136,9 @@ class InfoPage {
 			);
 		}
 
-		$logos = WikimediaIncubator::getConf( $this->user, 'wgLogos', $lang, $project );
-		// FIXME: Delete the back-compatibility if $wgLogos isn't set up yet.
-		$params['src'] = $logos['1x'] ?? WikimediaIncubator::getConf(
+		$params['src'] = WikimediaIncubator::getConf(
 			$this->user,
-			'wgLogo',
+			'wmgSiteLogoIcon',
 			$lang,
 			$project
 		);
