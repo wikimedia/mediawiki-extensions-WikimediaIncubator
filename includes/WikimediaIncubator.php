@@ -1039,4 +1039,22 @@ class WikimediaIncubator {
 		$linktext = ltrim( $url, '/' );
 		return $callLinker ? Linker::makeExternalLink( $url, $linktext ) : $linktext;
 	}
+
+	/**
+	 * Set global variables for use in scripts
+	 * @param array &$vars
+	 * @param OutputPage $out
+	 */
+	public static function onMakeGlobalVariablesScript( &$vars, $out ) {
+		$title = $out->getTitle();
+		$prefix = self::analyzePrefix( $title );
+		if ( !$prefix[ 'error' ] ) {
+			$vars[ 'wgWmincTestwikiPrefix' ] = $prefix[ 'prefix' ];
+			$vars[ 'wgWmincTestwikiProject' ] = $prefix[ 'project' ];
+			$vars[ 'wgWmincTestwikiLanguage' ] = $prefix[ 'lang' ];
+			if ( $prefix[ 'realtitle' ] ) {
+				$vars[ 'wgWmincRealPagename' ] = $prefix[ 'realtitle' ];
+			}
+		}
+	}
 }
