@@ -91,8 +91,10 @@ class TestWikiRC {
 		$label = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'rc-testwiki' );
 		$select = new XmlSelect( 'rc-testwiki-project', 'rc-testwiki-project', $projectvalue );
 		$select->addOption( wfMessage( 'wminc-testwiki-none' )->text(), 'none' );
-		foreach ( $wmincProjects as $prefix => $name ) {
-			$select->addOption( $name, $prefix );
+		foreach ( $wmincProjects as $prefix => $metadata ) {
+			if ( !$metadata['sister'] ) {
+				$select->addOption( $metadata['name'], $prefix );
+			}
 		}
 		$select->addOption( $wmincProjectSite['name'], $wmincProjectSite['short'] );
 		$langcode = Xml::input( 'rc-testwiki-code', (int)$wmincLangCodeLength, $codevalue,

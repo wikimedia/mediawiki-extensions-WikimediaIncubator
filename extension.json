@@ -1,6 +1,6 @@
 {
 	"name": "Wikimedia Incubator",
-	"version": "5.5.0",
+	"version": "6.0.0",
 	"author": [
 		"SPQRobin",
 		"Hydriz",
@@ -19,18 +19,54 @@
 		},
 		"Projects": {
 			"value": {
-				"p": "Wikipedia",
-				"b": "Wikibooks",
-				"t": "Wiktionary",
-				"q": "Wikiquote",
-				"n": "Wikinews",
-				"y": "Wikivoyage"
-			}
-		},
-		"SisterProjects": {
-			"value": {
-				"s": "Wikisource",
-				"v": "Wikiversity"
+				"p": {
+					"name": "Wikipedia",
+					"dbsuffix": "wiki",
+					"wikitag": "wikipedia",
+					"sister": false
+				},
+				"t": {
+					"name": "Wiktionary",
+					"dbsuffix": "wiktionary",
+					"wikitag": "wiktionary",
+					"sister": false
+				},
+				"b": {
+					"name": "Wikibooks",
+					"dbsuffix": "wikibooks",
+					"wikitag": "wikibooks",
+					"sister": false
+				},
+				"q": {
+					"name": "Wikiquote",
+					"dbsuffix": "wikiquote",
+					"wikitag": "wikiquote",
+					"sister": false
+				},
+				"n": {
+					"name": "Wikinews",
+					"dbsuffix": "wikinews",
+					"wikitag": "wikinews",
+					"sister": false
+				},
+				"y": {
+					"name": "Wikivoyage",
+					"dbsuffix": "wikivoyage",
+					"wikitag": "wikivoyage",
+					"sister": false
+				},
+				"s": {
+					"name": "Wikisource",
+					"dbsuffix": "wikisource",
+					"wikitag": "wikisource",
+					"sister": true
+				},
+				"v": {
+					"name": "Wikiversity",
+					"dbsuffix": "wikiversity",
+					"wikitag": "wikiversity",
+					"sister": true
+				}
 			}
 		},
 		"MultilingualProjects": {
@@ -74,18 +110,6 @@
 		},
 		"ExistingWikis": {
 			"value": null
-		},
-		"ProjectDatabases": {
-			"value": {
-				"p": "wiki",
-				"b": "wikibooks",
-				"t": "wiktionary",
-				"q": "wikiquote",
-				"n": "wikinews",
-				"s": "wikisource",
-				"v": "wikiversity",
-				"y": "wikivoyage"
-			}
 		},
 		"ClosedWikis": {
 			"value": false

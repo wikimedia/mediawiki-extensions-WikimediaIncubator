@@ -11,7 +11,7 @@ use Xml;
 
 class SpecialSearchWiki extends IncludableSpecialPage {
 
-	/** @var string[] */
+	/** @var array[] */
 	private $mProjects;
 
 	/** @var string[] */
@@ -36,12 +36,12 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 * @param string|null $subpage parameter passed to the page or null
 	 */
 	public function execute( $subpage ) {
-		global $wmincProjects, $wmincSisterProjects;
+		global $wmincProjects;
 
 		$this->setHeaders();
 
 		# Array of projects
-		$this->mProjects = array_merge( $wmincProjects, $wmincSisterProjects );
+		$this->mProjects = $wmincProjects;
 
 		# Queries
 		if ( $subpage ) {
@@ -67,6 +67,11 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 * @param string $language Default value for language field
 	 */
 	protected function showForm( $project, $language ) {
+		$projectList = [];
+		foreach ( $this->mProjects as $projectCode => $projectMetadata ) {
+			$projectList[$projectMetadata['name']] = $projectCode;
+		}
+
 		$form = HTMLForm::factory(
 			'ooui',
 			[
@@ -74,7 +79,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 					'type' => 'select',
 					'name' => 'searchproject',
 					'id' => 'wminc-searchproject',
-					'options' => array_flip( $this->mProjects ),
+					'options' => $projectList,
 					'label-message' => 'wminc-searchwiki-selectproject',
 					'default' => $project,
 				],
@@ -125,7 +130,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 			# searched with a project code (select box)
 			$matchProject = $projectQuery;
 		} else {
-			$projectCode = array_search( $projectQuery, $this->mProjects );
+			$projectCode = array_search( $projectQuery, array_column( $this->mProjects, 'name' ) );
 			if ( $projectCode ) {
 				# searched with a project name
 				$matchProject = $projectCode;

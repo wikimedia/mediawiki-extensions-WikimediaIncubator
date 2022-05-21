@@ -80,15 +80,14 @@ class InfoPage {
 	 * @param UserIdentity $user
 	 */
 	public function __construct( $title, $prefixdata, UserIdentity $user ) {
-		global $wmincProjects, $wmincSisterProjects, $wgLang;
+		global $wmincProjects, $wgLang;
 		$this->mTitle = $title;
 		$this->mPrefix = $prefixdata['prefix'];
 		$this->mLangCode = $prefixdata['lang'];
 		$this->mProjectCode = $prefixdata['project'];
-		$allProjects = array_merge( $wmincProjects, $wmincSisterProjects );
-		$this->mProjectName = $allProjects[$this->mProjectCode] ?? '';
+		$this->mProjectName = $wmincProjects[$this->mProjectCode]['name'] ?? '';
 		$this->mPortal = WikimediaIncubator::getSubdomain( $user, 'www', $this->mProjectCode );
-		$this->mIsSister = array_key_exists( $this->mProjectCode, $wmincSisterProjects );
+		$this->mIsSister = $wmincProjects[$this->mProjectCode]['sister'];
 		$this->mSubStatus = '';
 		$this->mThisLangData = [ 'type' => 'valid' ]; # For later code check feature
 		$name = Language::fetchLanguageName( $this->mLangCode, $wgLang->getCode(), 'all' );
@@ -158,12 +157,12 @@ class InfoPage {
 	 * 					(Wikipedia, Wiktionary, ...)
 	 */
 	public function listOtherProjects() {
-		global $wmincProjects, $wmincSisterProjects;
-		$otherProjects = $wmincProjects + $wmincSisterProjects;
+		global $wmincProjects;
+		$otherProjects = $wmincProjects;
 		'@phan-var array $otherProjects';
 		unset( $otherProjects[$this->mProjectCode] );
 		$listOtherProjects = [];
-		foreach ( $otherProjects as $code => $name ) {
+		foreach ( $otherProjects as $code => $metadata ) {
 			$listOtherProjects[$code] = '<li>' . $this->makeLogo(
 				$code,
 				true,
@@ -317,7 +316,7 @@ class InfoPage {
 	 * @return string
 	 */
 	public function showExistingWiki() {
-		global $wgLang, $wmincSisterProjects;
+		global $wgLang;
 		$subdomain = WikimediaIncubator::getSubdomain(
 			$this->user,
 			$this->mLangCode,
@@ -337,7 +336,7 @@ class InfoPage {
 		# wminc-infopage-status-created, wminc-infopage-status-beforeincubator
 		$msgname = 'wminc-infopage-status-' . $this->mSubStatus;
 		if ( $this->mSubStatus === 'beforeincubator'
-			&& isset( $wmincSisterProjects[$this->mProjectCode] )
+			&& $this->mIsSister
 		) {
 			$msgname = 'wminc-infopage-status-beforeincubator-sister';
 		}

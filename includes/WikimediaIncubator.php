@@ -7,6 +7,7 @@
  * @file
  * @ingroup Extensions
  * @author Robin Pepermans (SPQRobin)
+ * @author Jon Harald Søby
  */
 
 namespace MediaWiki\Extension\WikimediaIncubator;
@@ -75,12 +76,20 @@ class WikimediaIncubator {
 
 		$preferences['language']['help-message'] = 'wminc-prefinfo-language';
 
+		$projectList = array_combine( array_keys( $wmincProjects ), array_column( $wmincProjects, 'name' ) );
+		foreach ( $wmincProjects as $projectCode => $metadata ) {
+			if ( $metadata['sister'] ) {
+				unset( $projectList[$projectCode] );
+			}
+		}
+		$projectList = array_flip( $projectList );
+
 		$prefinsert = [
 			$wmincPref . '-project' => [
 				'type' => 'select',
 				'options' =>
 					[ wfMessage( 'wminc-testwiki-none' )->plain() => self::NO_PROJECT_SELECTED ] +
-					array_flip( $wmincProjects ) +
+					$projectList +
 					[ wfMessage( 'wminc-testwiki-site' )->plain() => $wmincProjectSite['short'] ],
 				'section' => 'personal/i18n',
 				'label-message' => 'wminc-testwiki',
@@ -219,15 +228,17 @@ class WikimediaIncubator {
 				$data['error'] = 'invalidlangcode';
 			}
 		}
-		global $wmincProjects, $wmincSisterProjects;
-		$listProjects = array_map( [ __CLASS__, 'preg_quote_slash' ], array_keys( $wmincProjects ) );
-		if ( $allowSister && is_array( $wmincSisterProjects ) ) {
-			# join the project codes with those of the sister projects
-			$listSister = array_map( [ __CLASS__, 'preg_quote_slash' ], array_keys( $wmincSisterProjects ) );
-			$listProjects = array_merge( $listProjects, $listSister );
+		global $wmincProjects;
+		$listProjects = [];
+		foreach ( $wmincProjects as $projectCode => $metadata ) {
+			if ( $metadata['sister'] && $allowSister ) {
+				array_push( $listProjects, $projectCode );
+			} elseif ( !$metadata['sister'] ) {
+				array_push( $listProjects, $projectCode );
+			}
 		}
-		$listProjects = implode( '|', $listProjects );
-		if ( !preg_match( '/^W[' . $listProjects . ']\/[a-z-]+' .
+		$listProjects = array_map( [ __CLASS__, 'preg_quote_slash' ], $listProjects );
+		if ( !preg_match( '/^W(' . implode( '|', $listProjects ) . ')\/[a-z-]+' .
 			( $onlyInfoPage ? '$/' : '(\/.+)?$/' ), $title ) ) {
 			$data['error'] = 'invalidprefix';
 		}
@@ -287,7 +298,7 @@ class WikimediaIncubator {
 		$returnName = false,
 		$includeSister = false
 	) {
-		global $wmincPref, $wmincProjects, $wmincSisterProjects;
+		global $wmincPref, $wmincProjects;
 		$url = self::getUrlParam();
 		if ( $project ) {
 			$r = $project; # Precedence to given value
@@ -297,13 +308,18 @@ class WikimediaIncubator {
 			$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
 			$r = $userOptionsLookup->getOption( $user, $wmincPref . '-project' ); # Defaults to preference
 		}
-		$projects = $includeSister ? array_merge( $wmincProjects, $wmincSisterProjects ) : $wmincProjects;
+		$projects = $wmincProjects;
+		foreach ( $projects as $projectCode => $metadata ) {
+			if ( !$includeSister && $metadata['sister'] ) {
+				unset( $projects[$projectCode] );
+			}
+		}
 		if ( array_key_exists( $r, $projects ) ) {
 			# If a code is given, return what is wanted
-			return $returnName ? $projects[$r] : $r;
-		} elseif ( array_search( $r, $projects ) ) {
+			return $returnName ? $projects[$r]['name'] : $r;
+		} elseif ( array_search( $r, array_column( $projects, 'name' ) ) ) {
 			# If a name is given, return what is wanted
-			return $returnName ? $r : array_search( $r, $projects );
+			return $returnName ? $r : array_search( $r, array_column( $projects, 'name' ) );
 		}
 		# Unknown code or name given -> false
 		return false;
@@ -335,7 +351,7 @@ class WikimediaIncubator {
 	 * @return string
 	 */
 	public static function displayPrefix( $project = '', $code = '', $allowSister = false ) {
-		global $wmincSisterProjects;
+		global $wmincProjects;
 		$user = RequestContext::getMain()->getUser(); // A lot of callers lack context
 		if ( $project && $code ) {
 			$projectvalue = $project;
@@ -349,7 +365,7 @@ class WikimediaIncubator {
 			$projectvalue = ( $url ? $url['project'] : $projectPref );
 			$codevalue = ( $url ? $url['lang'] : $codePref );
 		}
-		$sister = $allowSister && isset( $wmincSisterProjects[$projectvalue] );
+		$sister = $allowSister && $wmincProjects[$projectvalue]['sister'];
 		if ( self::isContentProject( $user, $projectvalue ) || $sister ) {
 			// if parameters are set OR it falls back to user pref and
 			// he has a content project pref set  -> return the prefix
@@ -531,7 +547,7 @@ class WikimediaIncubator {
 		if ( !self::canWeCheckDB() ) {
 			return false;
 		}
-		global $wmincProjectDatabases, $wgConf;
+		global $wmincProjects, $wgConf;
 		$wgConf->loadFullData();
 		$lang = strtolower( $lang );
 		$langHyphen = str_replace( '_', '-', $lang );
@@ -540,6 +556,7 @@ class WikimediaIncubator {
 		$projectCode = self::getProject( $user, $project, false, true );
 		if ( !$projectCode ) {
 			global $wmincMultilingualProjects;
+			// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 			$projectCode = array_search( $project, $wmincMultilingualProjects );
 		}
 		$site = strtolower( $projectName );
@@ -547,14 +564,9 @@ class WikimediaIncubator {
 			'lang' => $langHyphen,
 			'site' => $site,
 		];
-		$dbSuffix = $wmincProjectDatabases[$projectCode] ?? $site;
-		if ( $setting === 'wmgSiteLogoIcon' && $dbSuffix === 'wiki' ) {
-			# For this specific setting, we can't use the normal Wikipedia
-			# suffix of 'wiki', we need 'wikipedia'. See T254229.
-			# TODO: Make this more predictable/versatile.
-			$dbSuffix = 'wikipedia';
-		}
-		return $wgConf->get( $setting, $langUnderscore . $dbSuffix, $dbSuffix, $params );
+		$dbSuffix = $wmincProjects[$projectCode]['dbsuffix'] ?? $site;
+		$wikiTag = $wmincProjects[$projectCode]['wikitag'] ?? $site;
+		return $wgConf->get( $setting, $langUnderscore . $dbSuffix, $wikiTag, $params );
 	}
 
 	private static function getExistingWikis(): array {
@@ -569,8 +581,10 @@ class WikimediaIncubator {
 	 * @return bool
 	 */
 	public static function canWeCheckDB() {
-		global $wmincProjectDatabases;
-		if ( !is_array( $wmincProjectDatabases ) ) {
+		global $wmincProjects;
+		$databases = array_column( $wmincProjects, 'dbsuffix' );
+
+		if ( empty( $databases ) ) {
 			return false; # We don't know the databases
 		}
 		return true; # Should work now
@@ -588,10 +602,10 @@ class WikimediaIncubator {
 		} elseif ( !$prefix || $prefix['error'] ) {
 			return false; # shouldn't be, but you never know
 		}
-		global $wmincProjectDatabases, $wgDummyLanguageCodes;
+		global $wmincProjects, $wgDummyLanguageCodes;
 		$dbLang = str_replace( '-', '_', $prefix['lang'] );
 		$project = $prefix['project'];
-		$dbProject = $wmincProjectDatabases[$project] ?? $project;
+		$dbProject = $wmincProjects[$project]['dbsuffix'] ?? $project;
 		$redirectcode = array_search( $prefix['lang'], $wgDummyLanguageCodes );
 		if ( $redirectcode ) {
 			$prefix['lang'] = $redirectcode;
@@ -648,7 +662,7 @@ class WikimediaIncubator {
 		}
 
 		$out = $article->getContext()->getOutput();
-		global $wmincSisterProjects;
+		global $wmincProjects;
 		$prefix2 = self::analyzePrefix( $title, false, true );
 		$p = $prefix2['project'] ?? '';
 		$user = $article->getContext()->getUser();
@@ -668,7 +682,7 @@ class WikimediaIncubator {
 					wfMessage( 'wminc-error-wiki-exists' )->rawParams( $showLink )->escaped() .
 				'</div>' );
 			}
-		} elseif ( array_key_exists( $p, $wmincSisterProjects ) ) {
+		} elseif ( array_key_exists( $p, $wmincProjects ) && $wmincProjects[$p]['sister'] ) {
 			# A sister project is not hosted here, so direct the user to the relevant wiki
 			$link = self::getSubdomain( $user, $prefix2['lang'], $p,
 				( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
