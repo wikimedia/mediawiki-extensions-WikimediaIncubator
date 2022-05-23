@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Sahran",
+			"TayfunEt.",
 			"Tel'et",
 			"Uzdil"
 		]
 	},
 	"wminc-manual": "قولدا",
-	"wminc-testwiki": "wiki سىناش:",
+	"wminc-testwiki": "ۋىكى سىناش:",
 	"wminc-testwiki-none": "ھەممىسى/يوق",
 	"wminc-prefinfo-language": "سىزنىڭ كۆرۈنمە تىلىڭىز - wiki سىناشتىن مۇستەقىل تۇرىدۇ",
 	"wminc-prefinfo-code": "ISO 639 تىل كودى",
-	"wminc-viewuserlang": "ئىشلەتكۈچى تىلىنى كۆرۈپ، wiki سىناش",
+	"wminc-viewuserlang": "ئىشلەتكۈچى تىلىنى كۆرۈپ، ۋىكى سىناش",
 	"wminc-viewuserlang-user": "ئىشلەتكۈچى ئاتى:",
 	"wminc-viewuserlang-go": "يوللاش",
 	"wminc-searchwiki-selectproject": "ئىزدە:",
