@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derekatosey",
+			"Ebenoffen1",
+			"Suzieturkson"
+		]
+	},
+	"wminc-desc": "Kyerɛw wiki system gye Wiki Incubator",
+	"wminc-manual": "Akyerɛkyerɛkwan",
+	"wminc-listwikis": "Wiki ndzɛmba",
+	"wminc-testwiki": "Kyerɛw wiki",
+	"wminc-testwiki-code": "Test wiki kasa",
+	"wminc-testwiki-site": "Nsiesie",
+	"wminc-recentchanges-all": "Ɛnyimɛnyim nsesiɛn nyinara",
+	"wminc-prefinfo-language": "Wo ntamugyinadze kasa",
+	"wminc-prefinfo-code": "Kasa a iridzi ho dwuma wɔ ha no ho ISO 639 koodu",
+	"wminc-prefinfo-project": "Yi wikimedia edwuma a iridzi ho dwuma no wɔ ha",
+	"wminc-prefinfo-error": "Iyii dwuma a ohia kasa koodu",
+	"wminc-error-wronglangcode": "<strong>Error:</strong> Dɛm kratafa yi wɔ [[{{MediaWiki:Wminc-error-help}}|kasa koodu a ɔnnyɛ papa]] \"$1\".",
+	"wminc-error-unprefixed": "<strong>Error:</strong> Dɛm kratafa yi yɛ [[{{MediaWiki:Wminc-error-help}}|unprefixed]].",
+	"wminc-error-unprefixed-suggest": "<strong>Error:</strong> This page is [[{{MediaWiki:Wminc-error-help}}|unprefixed]]! Ibotum ebue kratafa wɔ [[:$1]].",
+	"wminc-error-wiki-exists": "Dɛm wiki yi wɔ hɔ dada. Ibohu dɛm kratafa yi wɔ $1. Sɛ wɔyɛɛ wiki no nnkyɛree a, tweɔn dɔnhwer anaa nda kakra kɛpem dɛ nsɛm no bɛba.",
+	"wminc-error-wiki-sister": "Dɛm kratafa yi yɛ dwuma a ɔnnkɔ do wɔ ha. Kɔ $1 hwehwɛ wiki no.",
+	"wminc-viewuserlang-user": "Dwumadzinyi dzin",
+	"wminc-viewuserlang-go": "Kɔ",
+	"wminc-userdoesnotexist": "Dwumadzinyi \"$1\" nnyi hɔ.",
+	"wminc-ip": "\"$1\" yɛ IP adrɛɛse.",
+	"action-viewuserlang": "Hwɛ dwumadzinyi kasa na test wiki",
+	"right-viewuserlang": "Hwɛ dwumadzinyi kasa na test wiki",
+	"group-test-sysop": "Test wiki mpanyimfo",
+	"group-test-sysop-member": "{{GENDER:$1|test wiki panyin}}",
+	"grouppage-test-sysop": "{{ns:project}}:Test wiki mpanyimfo",
+	"wminc-code-macrolanguage": " [[wikipedia:$2 kasa|\"$3\" kasa]] yɛ [[wikipedia:ISO 639 kasakuw kɛse|kasakuw kɛse]] a okitsa kasahorow a ɔka do yi:",
+	"wminc-code-collective": "Koodu \"$1\" no mmfa kasa pɔkyee biara ho, na mbom ɔfa kasahorow ho a hɔn nye [[wikipedia:$2 language|\"$3\" kasahorow]].",
+	"wminc-searchwiki-selectproject": "Whiwhɛ:",
+	"wminc-searchwiki-go": "Kɔ",
+	"wminc-fs-langselect-title": "Yi kasa aa ɛnim",
+	"wminc-fs-pagetitle-done": "ɛwie!",
+	"wminc-infopage-enter": "Kɔ kratafa a ɔdze kan",
+	"wminc-infopage-contribute": "Sɛ ɛnim dɛm kasa yi aa , yɛ hyɛ wu dzin dɛ kyerɛ wu adwin!"
+}
