@@ -15,7 +15,8 @@
 			"Rtemis",
 			"Sahim",
 			"ZxxZxxZ",
-			"Beginneruser"
+			"Beginneruser",
+			"Jeeputer"
 		]
 	},
 	"wminc-desc": "سامانهٔ ویکی آزمایشی برای ویکی‌رشد ویکی‌مدیا",
@@ -23,7 +24,7 @@
 	"wminc-listwikis": "فهرست ویکی‌ها",
 	"wminc-testwiki": "ویکی آزمایشی:",
 	"wminc-testwiki-code": "امتحان‌کردن زبان ویکی:",
-	"wminc-testwiki-none": "هیچ‌کدام/همه",
+	"wminc-testwiki-none": "تمامی ویکی‌ها",
 	"wminc-testwiki-site": "(نگهداری)",
 	"wminc-recentchanges-all": "همهٔ تغییرات اخیر",
 	"wminc-prefinfo-language": "زبان رابط کاربری شما - مستقل از ویکی آزمایشی شما",
