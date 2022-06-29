@@ -45,7 +45,7 @@
 	"wminc-viewuserlang-user": "Nom d’utilisateur :",
 	"wminc-viewuserlang-go": "Aller",
 	"wminc-userdoesnotexist": "L’utilisateur « $1 » n’existe pas.",
-	"wminc-ip": "« $1 » est une adresse IP.",
+	"wminc-ip": "« $1 » est une adresse IP.",
 	"action-viewuserlang": "afficher la langue de l’utilisateur et le wiki de test",
 	"right-viewuserlang": "Voir la langue de l’utilisateur et le wiki de test",
 	"group-test-sysop": "Administrateurs du wiki de test",
