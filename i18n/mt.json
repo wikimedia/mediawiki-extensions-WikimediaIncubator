@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrisportelli"
+			"Chrisportelli",
+			"ToniSant"
 		]
 	},
-	"wminc-viewuserlang-go": "Mur"
+	"wminc-viewuserlang-go": "Mur",
+	"wminc-searchwiki-multiplematches": "Dak li qed tfittex jaqbel ma' dawn il-lingwi:"
 }
