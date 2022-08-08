@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bada Kaji",
 			"NehalDaveND",
 			"Nirmal Dulal",
 			"RajeshPandey",
@@ -40,7 +41,7 @@
 	"grouppage-test-sysop": "{{ns:project}}:परीक्षण विकी प्रवन्धकहरू",
 	"wminc-searchwiki": "विकी खोज्नुहोस्",
 	"wminc-searchwiki-noproject": "तपाईंले कुनै आयोजना छनौट गर्नुभएन ।",
-	"wminc-searchwiki-selectproject": "खोज्नुहोस:",
+	"wminc-searchwiki-selectproject": "खोज्नुहोस्:",
 	"wminc-searchwiki-inputlanguage": "भाषा:",
 	"wminc-searchwiki-go": "जानुहोस्",
 	"wminc-fs-signup-title": "खाता खाेल्नुहाेस्",
