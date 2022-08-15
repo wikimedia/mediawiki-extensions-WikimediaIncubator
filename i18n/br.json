@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Fulup",
+			"Huñvreüs",
 			"Y-M D"
 		]
 	},
@@ -10,7 +11,7 @@
 	"wminc-listwikis": "Roll ar wikioù",
 	"wminc-testwiki": "Wiki testiñ :",
 	"wminc-testwiki-code": "Yezh ar wiki amprouiñ :",
-	"wminc-testwiki-none": "Hini ebet / An holl",
+	"wminc-testwiki-none": "An holl wikioù",
 	"wminc-testwiki-site": "(Trezalc'h)",
 	"wminc-recentchanges-all": "An holl gemmoù diwezhañ",
 	"wminc-prefinfo-language": "Yezh hoc'h etrefas - distag diouzh hini ho wiki testiñ",
