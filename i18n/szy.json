@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Akamycoco",
 			"Tokoabibi"
 		]
 	},
-	"wminc-fs-pagetitle-done": "-malahecitu!"
+	"wminc-fs-pagetitle-done": "-malahecitu!",
+	"wminc-infopage-title-p": "Wikipitiya $1"
 }
