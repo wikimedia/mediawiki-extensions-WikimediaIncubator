@@ -3,6 +3,7 @@
 		"authors": [
 			"Bugoslav",
 			"Ex13",
+			"MaGa",
 			"Ponor",
 			"Tivek"
 		]
@@ -12,7 +13,7 @@
 	"wminc-listwikis": "Popis wikija",
 	"wminc-testwiki": "Testni wiki:",
 	"wminc-testwiki-code": "Jezik testnoga wikija:",
-	"wminc-testwiki-none": "Nijedno/Sve",
+	"wminc-testwiki-none": "Svi wikiji",
 	"wminc-testwiki-site": "(Održavanje)",
 	"wminc-recentchanges-all": "Sve nedavne promjene",
 	"wminc-prefinfo-language": "Vaš jezik sučelja - neovisno o Vašem testnom wikiju",
@@ -39,6 +40,8 @@
 	"wminc-code-retired": "Ovaj je jezični kôd izmijenjen i više se ne odnosi na izvorni jezik.",
 	"wminc-listusers-testwiki": "Pregled popisa suradnika koji su postavili probni wiki na $1.",
 	"wminc-searchwiki": "Pronađi wiki",
+	"wminc-searchwiki-selectproject": "Traži:",
+	"wminc-searchwiki-inputlanguage": "Na jeziku:",
 	"wminc-fs-pagetitle-done": " – gotovo!",
 	"wminc-infopage-enter": "pođi na Glavnu stranicu",
 	"wminc-unknownlang": "(nepoznat jezični kôd)",
