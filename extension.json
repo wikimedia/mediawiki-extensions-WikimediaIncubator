@@ -167,7 +167,8 @@
 	},
 	"MessagesDirs": {
 		"WikimediaIncubator": [
-			"i18n"
+			"i18n/core",
+			"i18n/onwikimessages"
 		]
 	},
 	"ExtensionMessagesFiles": {
