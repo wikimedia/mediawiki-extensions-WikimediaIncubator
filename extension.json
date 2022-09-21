@@ -1,6 +1,6 @@
 {
 	"name": "Wikimedia Incubator",
-	"version": "6.0.0",
+	"version": "6.1.0",
 	"author": [
 		"SPQRobin",
 		"Hydriz",
@@ -213,7 +213,6 @@
 		"MediaWikiPerformAction": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onMediaWikiPerformAction",
 		"TitleIsAlwaysKnown": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onTitleIsAlwaysKnown",
 		"ParserFirstCallInit": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onParserFirstCallInit",
-		"BeforePageDisplay": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::fnTestWikiLogo",
 		"PageContentLanguage": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onPageContentLanguage",
 		"MakeGlobalVariablesScript": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onMakeGlobalVariablesScript",
 		"SpecialListusersHeaderForm": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersHeaderForm",
