@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Keresturec"
+		]
+	},
+	"wminc-desc": "Пробна вики система за Викимедийов Инкубатор",
+	"wminc-manual": "Ручни",
+	"wminc-listwikis": "Листа вики проєктох",
+	"wminc-testwiki": "Пробна вики:",
+	"wminc-testwiki-code": "Язик пробней вики:",
+	"wminc-testwiki-none": "Шицки викиї",
+	"wminc-testwiki-site": "(Технїчне отримованє)",
+	"wminc-recentchanges-all": "Шицки нєдавни пременки"
+}
