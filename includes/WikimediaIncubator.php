@@ -896,59 +896,6 @@ class WikimediaIncubator {
 	}
 
 	/**
-	 * Whether we should use the feature of custom logos per project
-	 * @param Title $title Title object
-	 * @return false|array Array from analyzePrefix()
-	 */
-	private static function shouldWeSetCustomLogo( $title ) {
-		$prefix = self::analyzePrefix( $title );
-
-		# Maybe do later something like if ( isContentProject() && 'recentchanges' ) { return true; }
-
-		# return if the page does not have a valid prefix (info page is considered valid)
-		if ( $prefix['error'] ) {
-			return false;
-		}
-		# display the custom logo only if &testwiki=wx/xx or
-		# the user's pref is set to the current test wiki
-		if ( self::displayPrefix() != $prefix['prefix'] ) {
-			return false;
-		}
-		return $prefix;
-	}
-
-	/**
-	 * Display a different logo in current test wiki
-	 * if it is set in MediaWiki:Incubator-logo-wx-xxx
-	 * and if accessed through &testwiki=wx/xxx
-	 * or if the user preference is set to wx/xxx
-	 * @param OutputPage $out
-	 * @return bool
-	 */
-	public static function fnTestWikiLogo( OutputPage $out ) {
-		$setLogo = self::shouldWeSetCustomLogo( $out->getTitle() );
-		if ( !$setLogo ) {
-			return true;
-		}
-		// FIXME: This really shouldn't be writing to site config like this
-		// (and certainly not through globals).
-		global $wgLogos;
-		$prefixForPageTitle = str_replace( '/', '-', strtolower( $setLogo['prefix'] ) );
-		$logoMsg = wfMessage( 'Incubator-logo-' . $prefixForPageTitle )->inContentLanguage()->plain();
-		$file = MediaWikiServices::getInstance()->getRepoGroup()
-			->findFile( Title::newFromText( $logoMsg, NS_FILE ) );
-		if ( $file ) {
-			$thumb = $file->transform( [ 'width' => 135, 'height' => 135 ] );
-			$wgLogos = [ '1x' => $thumb->getUrl() ];
-		} else {
-			# if MediaWiki:Incubator-logo-wx-xx(x) doesn't exist,
-			# take a general, default logo for that project
-			$wgLogos = [ '1x' => self::getConf( $out->getUser(), 'wgLogo', 'en', $setLogo['project'] ) ];
-		}
-		return true;
-	}
-
-	/**
 	 * Make the page content language depend on the test wiki
 	 * Info pages are in the user language, they're localised
 	 * @param Title $title
