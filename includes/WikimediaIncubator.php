@@ -1023,4 +1023,16 @@ class WikimediaIncubator {
 			}
 		}
 	}
+
+	/**
+	 * Use real page title as default sort key
+	 * @param Title &$title
+	 * @param string &$sortkey
+	 */
+	public static function onGetDefaultSortkey( &$title, &$sortkey ) {
+		$prefix = self::analyzePrefix( $title );
+		if ( !$prefix[ 'error' ] && $prefix[ 'realtitle' ] ) {
+			$sortkey = $prefix[ 'realtitle' ];
+		}
+	}
 }
