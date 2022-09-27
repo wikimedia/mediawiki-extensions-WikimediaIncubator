@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"এম আবু সাঈদ"
+			"এম আবু সাঈদ",
+			"ꠢꠣꠍꠘ ꠞꠣꠎꠣ"
 		]
 	},
 	"wminc-desc": "ꠃꠁꠇꠤꠝꠤꠒꠤꠀ ꠁꠘꠇꠤꠃꠛꠦꠐꠞꠞ ꠟꠣꠉꠤ ꠐꠦꠡꠐ ꠃꠁꠇꠤ ꠡꠤꠡꠐꠝ",
@@ -11,5 +12,18 @@
 	"wminc-testwiki-code": "ꠐꠦꠡꠐ ꠃꠁꠇꠤꠞ ꠝꠣꠔ:",
 	"wminc-testwiki-none": "ꠄꠉꠥꠅꠘꠣꠄ/ꠢꠈꠟꠐꠤ",
 	"wminc-testwiki-site": "(ꠛꠣꠃꠇꠇꠞꠣ)",
-	"wminc-recentchanges-all": "ꠅꠘꠇꠥꠞ ꠢꠈꠟ ꠛꠖꠟ"
+	"wminc-recentchanges-all": "ꠅꠘꠇꠥꠞ ꠢꠈꠟ ꠛꠖꠟ",
+	"wminc-viewuserlang-user": "ꠛꠦꠛꠀꠞꠇꠞ꠆ꠞꠣꠞ ꠘꠣꠝ:",
+	"wminc-searchwiki-go": "ꠎꠣꠁꠘ",
+	"wminc-fs-signup-title": "ꠎꠥꠉ ꠖꠦꠁꠘ",
+	"wminc-infopage-enter": "ꠝꠥꠟꠞ ꠙꠣꠔꠣꠔ ꠎꠣꠃꠇ꠆ꠇꠣ",
+	"wminc-unknownlang": "(ꠅꠌꠤꠘ ꠜꠣꠡꠣꠞ ꠇꠥꠒ)",
+	"wminc-infopage-title-p": "$1 ꠃꠁꠇꠤꠙꠤꠒꠤꠀ",
+	"wminc-infopage-title-b": "$1 ꠃꠁꠇꠤꠛꠁꠀꠁꠘ",
+	"wminc-infopage-title-t": "$1 ꠁꠃꠇꠤꠡꠛ꠆ꠖꠣꠁꠘ",
+	"wminc-infopage-title-q": "$1 ꠁꠃꠇꠤꠒꠣꠇ",
+	"wminc-infopage-title-n": "$1 ꠃꠁꠇꠤꠈꠛꠞ",
+	"wminc-infopage-title-s": "$1 ꠃꠁꠇꠤꠟꠈ",
+	"wminc-infopage-title-v": "$1 ꠃꠁꠇꠤꠢꠤꠇꠤꠞꠎꠦꠉꠣ",
+	"wminc-infopage-title-y": "$1 ꠃꠁꠇꠤꠍꠚꠞ"
 }
