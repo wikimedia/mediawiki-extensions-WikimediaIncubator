@@ -16,7 +16,8 @@
 			"Valtlait",
 			"Varusmies",
 			"VezonThunder",
-			"Moj"
+			"Moj",
+			"Ilja.mos"
 		]
 	},
 	"wminc-desc": "Testiwiki-järjestelmä Wikimedia-hautomoa varten",
@@ -26,7 +27,7 @@
 	"wminc-testwiki-code": "Testiwikin kieli:",
 	"wminc-testwiki-none": "Kaikki wikit",
 	"wminc-testwiki-site": "(Ylläpito)",
-	"wminc-recentchanges-all": "Kaikki tuoreet muutokset",
+	"wminc-recentchanges-all": "Kaikki tuorehet muutokšet",
 	"wminc-prefinfo-language": "Käyttöliittymän kieli – riippumaton testiwikistäsi",
 	"wminc-prefinfo-code": "Käyttämäsi kielen ISO 639 -kielikoodi",
 	"wminc-prefinfo-project": "Valitse Wikimedia-hanke, jota työstät täällä",
