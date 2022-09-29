@@ -2,9 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Conquistador",
-			"Kolega2357"
+			"Kolega2357",
+			"Vlad5250"
 		]
 	},
+	"wminc-desc": "Testni wikisustav za Wikimedijin Inkubator",
+	"wminc-manual": "Priručnik",
+	"wminc-listwikis": "Spisak wikija",
+	"wminc-testwiki": "Testni wiki:",
+	"wminc-testwiki-code": "Jezik testnoga wikija:",
+	"wminc-testwiki-none": "Svi wikiji",
+	"wminc-testwiki-site": "(Održavanje)",
+	"wminc-recentchanges-all": "Sve nedavne promjene",
 	"wminc-viewuserlang-user": "Korisničko ime:",
 	"wminc-infopage-enter": "idi na glavnu stranicu",
 	"wminc-infopage-createmainpage": "Unesite riječ \"Glavna stranica\" na ovom jeziku:"
