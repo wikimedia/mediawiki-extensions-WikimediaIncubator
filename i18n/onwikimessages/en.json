@@ -41,6 +41,7 @@
 	"wminc-gadget-iw-error-title": "Interwiki gadget error",
 	"wminc-gadget-iw-error-invalid": "The Wikidata ID you entered or the page that was linked doesn't exist, or the page isn't connected to Wikidata. Please try again.",
 	"wminc-gadget-iw-error-reload": "Please reload the page and try again.",
+	"wminc-gadget-iw-editsummary": "Adding interwiki links to [[d:$1]]",
 	"tag-gadget-interwiki": "Interwiki gadget",
 	"tag-gadget-interwiki-description": "Edits that add interwiki links using the interwiki gadget.",
 	"gadget-settestwikipreference": "Adds a \"Set language\" and \"Set (test project) as your test project\" button to the sidebar when viewing test wikis.",

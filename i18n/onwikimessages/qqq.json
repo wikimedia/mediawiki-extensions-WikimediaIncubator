@@ -40,6 +40,7 @@
 	"wminc-gadget-iw-error-title": "Title for an error message related to the interwiki gadget.",
 	"wminc-gadget-iw-error-invalid": "Error text explaining what made adding an interwiki link impossible.",
 	"wminc-gadget-iw-error-reload": "Error text asking the user to reload the page.",
+	"wminc-gadget-iw-editsummary": "Edit summary used when adding interwiki template using the interwiki gadget.",
 	"tag-gadget-interwiki": "Label for a change tag that is added to changes made with the interwiki gadget. <strong>Should be kept short.</strong>",
 	"tag-gadget-interwiki-description": "Description text for the change tag that is added to edits made with the interwiki gadget.",
 	"gadget-settestwikipreference": "Description for a gadget.",
