@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ted Masters"
+		]
+	},
+	"wminc-code-retired": "Този езиков код е бил променен и вече не се отнася към първоначалния език.",
+	"wminc-gadget-iw-dialog-cancel": "Отказ",
+	"wminc-gadget-iw-dialog-publish": "Публикуване",
+	"wminc-gadget-iw-dialog-qid-placeholder": "например $1"
+}

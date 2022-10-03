@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"NikosLikomitros"
+		]
+	},
+	"wminc-code-macrolanguage": "Η [[wikipedia:$2 language|\"$3\" γλώσσα]] είναι μια [[wikipedia:ISO 639 macrolanguage|μακρογλώσσα]], που αποτελείται από τις εξής γλώσσες-μέλη:",
+	"wminc-code-collective": "Ο κωδικός \"$1\" δεν αναφέρεται σε μια συγκεκριμένη γλώσσα, αλλά μια συλλογή από γλώσσες, τις [[wikipedia:$2 language|\"$3\" γλώσσες]].",
+	"wminc-code-retired": "Αυτός ο κωδικός γλώσσας έχει αλλάξει και δεν αναφέρεται πλέον στην αρχική γλώσσα.",
+	"wminc-custom-featuredwikis-permanent": "Αυτά κατά πάσα πιθανότητα θα μείνουμε εδώ:",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Προσθέτει αυτόματα προθέματα σε συνδέσμους όταν δημιουργεί μια σελίδα."
+}

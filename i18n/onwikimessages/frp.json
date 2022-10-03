@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"wminc-code-macrolanguage": "La [[wikipedia:$2 language|lengoua « $3 »]] est una [[wikipedia:ISO 639 macrolanguage|macro-lengoua]], composâ de cetes lengoues :",
+	"wminc-code-collective": "Lo code « $1 » regârde pas una lengoua spècefica, mas una colèccion de lengoues, en particuliér les [[wikipedia:$2 language|lengoues « $3 »]].",
+	"wminc-code-retired": "Ceti code lengoua at étâ changiê et fât pas més refèrence a la lengoua d’origina."
+}

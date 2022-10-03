@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Bahasa \"$3\"]] ialah sejenis [[wikipedia:ISO 639 macrolanguage|bahasa makro]], yang terdiri daripada bahasa-bahasa ahli yang berikut:",
+	"wminc-code-collective": "Kod \"$1\" tidak merujuk kepada satu bahasa yang tertentu, sebaliknya merujuk kepada koleksi bahasa, iaitu [[wikipedia:$2 language|rumpun bahasa \"$3\"]].",
+	"wminc-code-retired": "Kod bahasa ini sudah berubah dan tidak lagi merujuk kepada bahasa asal.",
+	"wminc-custom-featuredwikis-approved": "Wiki ini telah diluluskan dan/atau dibuat:",
+	"wminc-custom-featuredwikis-active": "Wiki ini adalah wiki yang aktif dan mungkin mendapatkan laman web mereka sendiri segera:",
+	"wminc-custom-featuredwikis-permanent": "Wiki ini mungkin akan tetap di sini:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Sila perhatikan:</strong> Kamu sedang mencipta sebuah laman tanpa [[$1|awalan]].",
+	"wminc-custom-newarticletext-withprefix-3": "Kamu sedang mencipta sebuah laman (dengan [[$1|awalan]]) yang dinamakan \"{{FULLPAGENAME}}\"."
+}

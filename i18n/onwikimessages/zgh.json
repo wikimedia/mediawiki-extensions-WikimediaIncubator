@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wminc-custom-newarticletext-noprefix": "<strong>ⵔⴰⵔ ⵜⴰⵢⵏⵉⵜ:</strong> ⴰⵔ ⵜⵙⵏⵓⵍⴼⵓⴷ ⵢⴰⵜ ⵜⴰⵙⵏⴰ ⵎⵉⵏ [[$1|ⴰⵣⵡⵉⵔ]].",
+	"wminc-custom-newarticletext-withprefix-3": "ⴰⵔ ⵜⵙⵏⵓⵍⴼⵓⴷ ⵢⴰⵜ ⵜⴰⵙⵏⴰ ⵜⴰⵎⴰⵢⵏⵓⵜ ⵙ ([[$1|ⵓⵣⵡⵉⵔ]]) ⵉⵙⵎ ⵏⵏⵙ \"{{FULLPAGENAME}}\".",
+	"wminc-gadget-iw-dialog-cancel": "ⵙⵔ",
+	"wminc-gadget-iw-dialog-publish": "ⴼⵙⵔ"
+}

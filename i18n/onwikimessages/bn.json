@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"আফতাবুজ্জামান"
+		]
+	},
+	"wminc-custom-featuredwikis-approved": "এগুলো অনুমোদিত এবং/অথবা তৈরি করা হয়েছে:",
+	"wminc-custom-featuredwikis-active": "এইগুলি সক্রিয় এবং শীঘ্রই তাদের নিজস্ব সাইট পেতে পারে:",
+	"wminc-custom-featuredwikis-permanent": "এইগুলি সম্ভবত এখানেই থাকবে:",
+	"wminc-custom-newarticletext-noprefix": "<strong>দয়া করে লক্ষ্য করুন:</strong> আপনি [[$1|উপসর্গ]] ছাড়া একটি পাতা তৈরি করতে চলেছেন।",
+	"wminc-custom-newarticletext-withprefix-1": "$1 টাইপ করুন এবং তারপর \"{{int:publishpage}}\" ক্লিক করুন।",
+	"wminc-custom-newarticletext-withprefix-2": "\"$1\" প্রতিস্থাপন করুন এবং তারপর \"{{int:publishpage}}\" ক্লিক করুন।",
+	"wminc-custom-newarticletext-withprefix-3": "আপনি \"{{FULLPAGENAME}}\" নামে একটি নতুন ([[$1|উপসর্গযুক্ত]]) পাতা তৈরি করতে চলেছেন।",
+	"gadget-addprefix": "<strong>উপসর্গ যোগ</strong>: একটি পাতা তৈরির সময় স্বয়ংক্রিয়ভাবে লিংকের সাথে উপসর্গ যুক্ত করবে।",
+	"wminc-gadget-addprefix-toggle": "উপসর্গ দেখান/লুকান",
+	"wminc-gadget-iw-add-wikidata": "উইকিউপাত্ত সংযোগ যোগ করুন",
+	"wminc-gadget-iw-dialog-cancel": "বাতিল",
+	"wminc-gadget-iw-dialog-publish": "প্রকাশ করুন",
+	"wminc-gadget-iw-dialog-title": "আন্তঃউইকি সংযোগ যোগ করুন",
+	"wminc-gadget-iw-dialog-text": "উইকিউপাত্ত আইটেমের মাধ্যমে আন্তঃউইকি সংযোগ যোগ করতে এই ফর্মটি ব্যবহার করুন। নিচে একটি উইকিউপাত্ত আইটেমের আইডি বা একটি আইটেমের ইউআরএল বা অন্য ভাষায় বিদ্যমান একটি নিবন্ধ প্রতিলেপন করুন এবং \"{{int:wminc-gadget-iw-dialog-publish}}\" টিপুন।",
+	"wminc-gadget-iw-dialog-qid-placeholder": "উদা: $1",
+	"wminc-gadget-iw-dialog-editpage": "পাতাটি সম্পাদনা করুন",
+	"wminc-gadget-iw-dialog-learn-more": "উইকিউপাত্ত সম্পর্কে আরও জানুন",
+	"wminc-gadget-iw-dialog-wikidata-search": "উইকিউপাত্ত অনুসন্ধান",
+	"wminc-gadget-iw-error-title": "আন্তঃউইকি গ্যাজেটে ত্রুটি",
+	"wminc-gadget-iw-error-reload": "দয়া করে পাতাটি পুনরায় লোড করে আবার চেষ্টা করুন।",
+	"wminc-gadget-iw-editsummary": "আন্তঃউইকি [[d:$1]] যোগ করা হয়েছে",
+	"tag-gadget-interwiki": "আন্তঃউইকি গ্যাজেট"
+}

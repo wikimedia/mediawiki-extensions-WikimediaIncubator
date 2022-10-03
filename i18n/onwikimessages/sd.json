@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mehtab ahmed"
+		]
+	},
+	"wminc-code-macrolanguage": " [[wikipedia:$2 language|\"$3\" ٻولي]] هڪ [[wikipedia:ISO 639 macrolanguage|ميڪرو ٻولي آهي]]، جيڪا هيٺين رڪن ٻولين تي مشتمل آهي:",
+	"wminc-code-collective": "ڪوڊ \"$1\" ڪنھن خاص ٻولي ڏانهن اشارو نٿو ڪري، پر ٻولين جي هڪ مجموعي ڏانهن، جن جا نالا آهن [[wikipedia:$2 language|\"$3\" ٻوليون]].",
+	"wminc-code-retired": "هي ٻولي ڪوڊ بدلايو ويو آهي ۽ اصل ٻولي ڏانھن هاڻي اشارو نٿو ڪري.",
+	"wminc-gadget-iw-dialog-cancel": "رد",
+	"wminc-gadget-iw-dialog-publish": "ڇاپيو",
+	"wminc-gadget-iw-dialog-qid-placeholder": "مثالي قدر. $1"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" 語言]] 是 [[wikipedia:ISO 639 macrolanguage|巨集語言]]，由以下成員語言所組成：",
+	"wminc-code-collective": "代碼 \"$1\" 不代表特定語言，而是指一系列語言的集合，即[[wikipedia:$2 language|\"$3\" 語言]]。",
+	"wminc-code-retired": "此語言代碼已變更，已不再代表原來的語言。"
+}

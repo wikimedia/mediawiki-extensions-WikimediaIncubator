@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wminc-custom-editnotice-2": "Ki he fakahā o te 'u lea e ke poto ai, faka'aoga te $1. O hage lā, e ke lea fakafalani koe kae e ke poto lelei i te fakapilitania, faka'aoga te $2.",
+	"wminc-custom-featuredwikis-approved": "Kua fakamo'oni pea/pe fakatu'u te 'u gaue aeni:",
+	"wminc-custom-featuredwikis-active": "Ko te 'u gaue aeni e lolotoga pea e lagi ma'u vave nai 'anātou 'u site:",
+	"wminc-custom-featuredwikis-permanent": "Ko te 'u gaue aeni e lagi tuku ia i heni:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Fakatokaga:</strong> E ke fa'u nei te pāsina e hala mo he  [[$1|fakamu'a]].",
+	"wminc-custom-newarticletext-withprefix-1": "Tohi $1 pea lomi \"{{int:publishpage}}\"",
+	"wminc-custom-newarticletext-withprefix-2": "Fetogi \"$1\" pea lomi te \"{{int:publishpage}}\"",
+	"wminc-custom-newarticletext-withprefix-3": "E ke fa'u nei te pāsina fo'ou e ([[$1|mu'akupu]]) e higoa ko \"{{FULLPAGENAME}}\".",
+	"wminc-custom-tb-incorrect-title-title": "E ke fakatu'u nei he pāsina e hala tana higoa.",
+	"wminc-custom-tb-incorrect-title-text": "E hala i te higoa te [[$1|mu'akupu]] pe ko tana fa'ahiga tohi.\n\nKā ne'e ke kaku mai ki heni mai he tahi pāsina, liliu ki ai o fetogi te tāpiki pea toe fakahigoa fakalelei te pāsina. Kā e ke fia fa'u fakahagatonu te pāsina pea tohi fakalelei tona higoa.\n\nKā mole lava fa'u e koe he pāsina fo'ou, 'uhi ko te koga aeni e tuha mo tona higoa, faitohi mai ki te [[$2|pule gaue]].",
+	"wminc-custom-tb-invalid-code-title": "E ke faiga'i nei ke fa'u he pāsina fo'ou kae e mole lelei tona [[$1|nūmelo ISO 639-1 pe -3]].",
+	"wminc-custom-tb-invalid-code-text": "Ko te nūmelo aeni e lagi hala pe mole pipiki i he lea e tali i te 'u gaue o te Vikimetia.\n\nKā ne'e ke kaku mai ki heni mai he tahi pāsina, liliu ki ai o fetogi te fakapipiki pea fa'u mo he pāsina fo'ou aki he higoa e tonu.\n\nKā mole lava fa'u e koe he pāsina fo'ou, 'uhi ko te koga aeni, faitohi mai ki te [[$1|pule gaue]].",
+	"wminc-custom-tb-space-colon": "E hala te tohi o te higoa he ma'ua ke kamata aki he kupu.",
+	"wminc-gadget-addprefix-help": "Mole ma'ua ke faka'aoga'i he mu'akupu mo kā e fetogi te pāsina aeni. E tohi fakahagatonu pe ia mo kā faka'asi te pāsina.",
+	"wminc-gadget-addprefix-toggle": "Fakahā/Fufū te mu'akupu"
+}

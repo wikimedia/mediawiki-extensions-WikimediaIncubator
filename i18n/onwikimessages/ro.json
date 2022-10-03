@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Limba „$3”]] este o [[wikipedia:ISO 639 macrolanguage\n|<!--wikipedia:ro:ISO 639 macrolimbă|-->macrolimbă]], incluzând următoarele limbi:",
+	"wminc-custom-featuredwikis-approved": "Acestea au fost aprobate și/sau create:",
+	"wminc-custom-featuredwikis-active": "Acestea sunt active și este probabil că vor primi propriul lor sit în curând:",
+	"wminc-gadget-iw-dialog-cancel": "Anulează",
+	"wminc-gadget-iw-dialog-publish": "Publică",
+	"wminc-gadget-iw-dialog-qid-placeholder": "de ex. $1",
+	"wminc-gadget-iw-dialog-editpage": "Modificați această pagină",
+	"wminc-gadget-iw-dialog-learn-more": "Aflați mai multe despre Wikidata",
+	"wminc-gadget-iw-dialog-wikidata-search": "Căutare în Wikidata"
+}

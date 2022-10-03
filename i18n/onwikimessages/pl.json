@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sp5uhe"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Język $3]] jest [[wikipedia:ISO 639 macrolanguage|makrojęzykiem]], zawierającym następujące warianty języka:",
+	"wminc-code-collective": "Kod „$1“ nie odnosi się do jednego języka, a do kolekcji języków – [[wikipedia:$2 language|$3]].",
+	"wminc-code-retired": "Ten kod języka został zmieniony i nie odnosi się do wcześniej przypisanego mu języka.",
+	"wminc-custom-newarticletext-noprefix": "<strong>Uwaga:</strong> Tworzysz stronę bez [[$1|prefiksu]].",
+	"wminc-custom-newarticletext-withprefix-2": "Zastąp „$1”, a następnie kliknij „{{Int:Publishpage}}”.",
+	"wminc-custom-tb-incorrect-title-title": "Próbujesz utworzyć stronę z niepoprawnym tytułem.",
+	"wminc-custom-tb-space-colon": "Ze względów technicznych tytuł nie może zaczynać się spacją ani dwukropkiem.",
+	"wminc-gadget-addprefix-help": "Nie musisz używać prefiksu podczas edycji tej strony. Jest dodawany automatycznie po opublikowaniu strony.",
+	"wminc-gadget-addprefix-toggle": "Pokaż/ukryj prefiks",
+	"gadget-interwiki": "<strong>Interwiki:</strong> Dodaje funkcjonalność dodawania i wyświetlania linków międzyjęzykowych z Wikidanych.",
+	"wminc-gadget-iw-add-wikidata": "Dodaj linki do Wikidanych",
+	"wminc-gadget-iw-dialog-cancel": "Anuluj",
+	"wminc-gadget-iw-dialog-publish": "Opublikuj",
+	"wminc-gadget-iw-dialog-title": "Dodaj linki interwiki",
+	"wminc-gadget-iw-dialog-qid-placeholder": "np. $1",
+	"wminc-gadget-iw-dialog-editpage": "Edytuj tę stronę",
+	"wminc-gadget-iw-dialog-replace-editinstead": "Jeśli to nie jest poprawne, edytuj stronę, aby ręcznie naprawić link.",
+	"wminc-gadget-iw-dialog-learn-more": "Dowiedz się więcej o Wikidanych",
+	"wminc-gadget-iw-dialog-wikidata-search": "Szukaj w Wikidanych",
+	"wminc-gadget-iw-error-reload": "Przeładuj stronę i spróbuj ponownie.",
+	"tag-gadget-interwiki": "Gadżet Interwiki",
+	"wminc-gadget-twpref-setlang": "Ustaw język: $1",
+	"wminc-gadget-twpref-setlang-tooltip": "Ustaw język interfejsu na $1"
+}

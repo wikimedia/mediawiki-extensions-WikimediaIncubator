@@ -26,7 +26,6 @@
 	"wminc-userdoesnotexist": "Не съществува потребител „$1“.",
 	"wminc-ip": "„$1“ е IP-адрес.",
 	"right-viewuserlang": "Преглед на езика на потребителя и на тестовото уики",
-	"wminc-code-retired": "Този езиков код е бил променен и вече не се отнася към първоначалния език.",
 	"wminc-searchwiki-inputlanguage": "На следния език:",
 	"wminc-fs-langselect-title": "Избор на език",
 	"wminc-fs-pagetitle-done": "– готово!",

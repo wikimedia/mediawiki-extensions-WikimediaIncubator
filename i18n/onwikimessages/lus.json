@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"RMizo"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|<!--wikipedia:$2  ţawng|-->\"$3\"  ţawng]] hi [[wikipedia:ISO 639 macrolanguage|<!--wikipedia:ISO 639  ţawnglian (macrolanguage)|-->ţawnglian (''macrolanguage'')]] a ni a, a hnuaia  ţawngte khu a huam:",
+	"wminc-code-collective": "Thurûk \"$1\" hian  ţawng bîk kawh nei lovin  ţawng huho, hêng: [[wikipedia:$2 language|\"$3\"  ţawngte]] te hi a kâwk.",
+	"wminc-code-retired": "He  ţawng thurûk (code) hi thlâk tawh a ni a, a ţawng hlui pangngai a kâwk lo.",
+	"wminc-gadget-iw-dialog-cancel": "Sûtna"
+}

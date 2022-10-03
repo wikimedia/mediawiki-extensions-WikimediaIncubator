@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Rancher"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Језик „$3“]] је [[wikipedia:ISO 639 macrolanguage|макројезик]], који се састоји од следећих језика:",
+	"wminc-code-collective": "Код „$1“ се не односи на појединачни језик, већ на збир језика под називом [[wikipedia:$2 language|„$3“ језици]].",
+	"wminc-code-retired": "Овај језички код је промењен и више се не односи на првобитни језик.",
+	"wminc-custom-featuredwikis-approved": "Ови су одобрени и направљени:",
+	"wminc-custom-featuredwikis-active": "Ови су активни и можда ће добити свој сајт ускоро:",
+	"wminc-custom-featuredwikis-permanent": "Ови ће вероватно овде и остати:"
+}

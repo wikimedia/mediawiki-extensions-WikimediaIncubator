@@ -32,8 +32,6 @@
 	"group-test-sysop": "Test wiki mpanyimfo",
 	"group-test-sysop-member": "{{GENDER:$1|test wiki panyin}}",
 	"grouppage-test-sysop": "{{ns:project}}:Test wiki mpanyimfo",
-	"wminc-code-macrolanguage": " [[wikipedia:$2 kasa|\"$3\" kasa]] yɛ [[wikipedia:ISO 639 kasakuw kɛse|kasakuw kɛse]] a okitsa kasahorow a ɔka do yi:",
-	"wminc-code-collective": "Koodu \"$1\" no mmfa kasa pɔkyee biara ho, na mbom ɔfa kasahorow ho a hɔn nye [[wikipedia:$2 language|\"$3\" kasahorow]].",
 	"wminc-searchwiki-selectproject": "Whiwhɛ:",
 	"wminc-searchwiki-go": "Kɔ",
 	"wminc-fs-langselect-title": "Yi kasa aa ɛnim",

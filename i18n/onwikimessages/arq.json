@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Oldstoneage"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|اللوغة \"$3\"]] [[wikipedia:ISO 639 macrolanguage|هيا لوغة واسعة]]، تضمن اللوغات الصغيرة هادي:",
+	"wminc-code-collective": "الكود \"$1\" ما يوشّرش ل كاش لوغة مخصّصة، بصّح ل مجموعة تاع اللوغات، و هيا [[wikipedia:$2 language|اللوغات \"$3\"]].",
+	"wminc-code-retired": "الكود تاع اللوغة هادا راه تبدّل و ما راهش يوشّر لل لوغة الأصليّة."
+}

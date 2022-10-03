@@ -25,6 +25,5 @@
 	"wminc-userdoesnotexist": "Nauduotuojė \"$1\" nier.",
 	"wminc-ip": "\" $1 \" īr IP adresos.",
 	"right-viewuserlang": "Veizietė nauduotuojė kalba ė testavėma wiki",
-	"grouppage-test-sysop": "{{ns:project}}: Testavėma wiki admėnėstratuorē",
-	"wminc-code-macrolanguage": "[[wikipedia:$2 kalba|\"$3\" kalba]] īr [[wikipedia:ISO 639 makrokalba|makrokalba]], katra sodara šėtas kalbas:"
+	"grouppage-test-sysop": "{{ns:project}}: Testavėma wiki admėnėstratuorē"
 }

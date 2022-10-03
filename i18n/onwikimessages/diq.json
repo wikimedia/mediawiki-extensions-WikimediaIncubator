@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan",
+			"Mirzali"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Zıwanê \"$3\" ]] literatur dı [[wikipedia:ISO 639 macrolanguage|herazıwano]], cêr dı xorê zewna zıwan bewni re:",
+	"wminc-code-collective": "Kodê zıwan dê \"$1\" teba mana nêdano, feqet koleksiyonê zıwani, zek vacım [[wikipedia:$2 language|zıwano \"$3\"]]o.",
+	"wminc-code-retired": "Eno kodê zıwani vuriyayo u endi zıwanê oricinali ifade nêkeno.",
+	"wminc-custom-featuredwikis-approved": "Cı rê icazet deyayo u/ yana vıraziyayo:",
+	"wminc-custom-featuredwikis-active": "Newke aktivo, zaf nezdı ra şıma senê sita xod bıvinê:",
+	"wminc-custom-featuredwikis-permanent": "Mara ke nedê tiyad vındarneyê:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Şıma re not:</strong> Bê [[$1|Veroli]] şıma nêşenê ena pela vırazê.",
+	"wminc-custom-newarticletext-withprefix-3": "Şımayê kene kı ([[$1|veroleya]]) newe vırazê  \"{{FULLPAGENAME}}\" ra veyn dê pela.",
+	"gadget-addprefix": "<strong>VeroleDekerdış:</strong> Otomatikmen pela re veroleya gıre vırazêno."
+}

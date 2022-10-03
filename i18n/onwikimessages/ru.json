@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac",
+			"UniCollab",
+			"Александр Сигачёв"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Язык «$3»]] считается [[wikipedia:ISO 639 macrolanguage|макроязыком]], состоящим из следующих языков:",
+	"wminc-code-collective": "Код «$1» относится не к конкретному языку, а к группе из нескольких языков, под общим названием [[wikipedia:$2 language|«$3»]].",
+	"wminc-code-retired": "Этот код языка был изменён и больше не ссылается на определённый язык.",
+	"wminc-custom-featuredwikis-approved": "Уже одобрены и/или созданы (перенесены на отдельный вики-сайт):",
+	"wminc-custom-featuredwikis-active": "Активны и в скором времени могут получить свой ​​собственный сайт:",
+	"wminc-custom-featuredwikis-permanent": "По всей видимости, пока останутся здесь:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Будьте внимательны:</strong> вы пытаетесь создать страницу без [[$1|префикса]].",
+	"wminc-custom-newarticletext-withprefix-1": "Введите $1 и нажмите \"{{int:publishpage}}\".",
+	"wminc-custom-newarticletext-withprefix-2": "Замените \"$1\" и нажмите \"{{int:publishpage}}\".",
+	"wminc-custom-newarticletext-withprefix-3": "Вы создадите новую страницу, [[$1|имеющую префикс]], с названием \"{{FULLPAGENAME}}\".",
+	"wminc-custom-tb-space-colon": "По техническим причинам заголовок не может начинаться с пробела или двоеточия.",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Автоматическое добавление префиксов к ссылкам при изменении страницы.",
+	"wminc-gadget-addprefix-toggle": "Показать/скрыть префикс",
+	"wminc-gadget-iw-add-wikidata": "Добавить ссылку на Викиданные",
+	"wminc-gadget-iw-dialog-cancel": "Отмена",
+	"wminc-gadget-iw-dialog-publish": "Опубликовать",
+	"wminc-gadget-iw-dialog-title": "Добавить интервики-ссылки",
+	"wminc-gadget-iw-dialog-qid-placeholder": "например $1",
+	"wminc-gadget-iw-dialog-editpage": "Редактировать страницу",
+	"wminc-gadget-iw-dialog-replace-editinstead": "Если это неверно, отредактируйте страницу, чтобы исправить ссылку вручную.",
+	"wminc-gadget-iw-dialog-wikidata-search": "Поиск в Викиданных",
+	"wminc-gadget-iw-error-reload": "Пожалуйста, обновите страницу и попробуйте еще раз.",
+	"wminc-gadget-twpref-setlang-tooltip": "Использовать $1 для языка интерфейса",
+	"wminc-gadget-twpref-setwiki": "Установить $1 в качестве тестового проекта",
+	"wminc-gadget-twpref-setwiki-tooltip": "Установить $1 в качестве вашего тестового проекта, чтобы новые страницы, которые вы создаете, были частью этого проекта."
+}

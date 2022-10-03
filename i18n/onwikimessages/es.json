@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Drini",
+			"Fitoschido",
+			"La Mantis",
+			"Savh"
+		]
+	},
+	"wminc-code-macrolanguage": "El [[wikipedia:$2 language|$3]] es una [[wikipedia:es:Macrolengua|macrolengua]], que se compone de los siguientes idiomas:",
+	"wminc-code-collective": "El código «$1» no se refiere a un idioma específico sino a una colección de idiomas, específicamente los [[wikipedia:$2 language|idiomas «$3»]].",
+	"wminc-code-retired": "Este código de idioma ha cambiado o ya no se refiere al idioma original.",
+	"wminc-custom-featuredwikis-approved": "Estos han sido aprobados y/o creados:",
+	"wminc-custom-featuredwikis-active": "Estos están activos y podrían obtener su propio sitio en breve:",
+	"wminc-custom-featuredwikis-permanent": "Estos probablemente se queden aquí:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Nota:</strong> Estás creando una página sin un [[$1|prefijo]].",
+	"wminc-custom-newarticletext-withprefix-3": "Estás creando una nueva página [[$1|prefijada]] llamada \"{{FULLPAGENAME}}\".",
+	"gadget-addprefix": "<strong>Agrega prefijo:</strong> automáticamente agrega prefijos a enlaces cuando se crea una página.",
+	"wminc-gadget-iw-dialog-cancel": "Cancelar",
+	"wminc-gadget-iw-dialog-publish": "Publicar",
+	"wminc-gadget-iw-dialog-title": "Agregar un enlace interwiki",
+	"wminc-gadget-iw-dialog-qid-placeholder": "por ejemplo, $1",
+	"wminc-gadget-iw-dialog-editpage": "Editar la página",
+	"wminc-gadget-iw-dialog-wikidata-search": "Buscar en Wikidata"
+}

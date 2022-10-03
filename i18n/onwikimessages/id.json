@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"NoiX180"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Bahasa \"$3\"]] merupakan [[wikipedia:ISO 639 macrolanguage|bahasa makro]], yang terdiri dari bahasa-bahasa anggota berikut ini:",
+	"wminc-code-collective": "Kode \"$1\" tidak merujuk pada suatu bahasa tertentu, tetapi pada sekelompok bahasa, yang disebut [[wikipedia:$2 language|rumpun bahasa \"$3\"]].",
+	"wminc-code-retired": "Kode bahasa ini telah diubah dan tidak lagi merujuk kepada bahasa yang semula.",
+	"wminc-custom-featuredwikis-approved": "Berikut ini adalah wiki yang telah disetujui dan/atau dibuat:",
+	"wminc-custom-featuredwikis-active": "Berikut ini adalah wiki yang aktif dan mungkin  segera mendapatkan situsnya sendiri:",
+	"wminc-custom-featuredwikis-permanent": "Berikut ini adalah wiki yang mungkin akan tetap di sini:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Harap dicatat:</strong> Anda membuat halaman tanpa [[$1|prefiks]].",
+	"wminc-custom-newarticletext-withprefix-3": "Anda sedang membuat halaman baru ([[$1|yang diberi prefiks]]) bernama \"{{FULLPAGENAME}}\".",
+	"wminc-custom-tb-incorrect-title-title": "Anda mencoba membuat halaman dengan judul yang tidak benar.",
+	"wminc-custom-tb-incorrect-title-text": "Judul tersebut kemungkinan tidak punya [[$1|awalan]] atau dalam format salah yang lain (huruf kapital di awalan, garis miring di akhir, dll.).\n\nJika Anda datang ke sini dari halaman lain, tolong kembali dan perbaiki pranalanya, kemudian buat halaman dengan nama yang benar. Jika Anda mencoba membuat halaman secara langsung, tolong buat halamannya dengan nama yang benar.\n\nJika ini menghalangi Anda dari membuat halaman yang Anda rasa format judulnya benar, silakan [[$2|beri tahu para pengurus]].",
+	"wminc-custom-tb-invalid-code-title": "Anda mencoba membuat halaman tanpa [[$1|kode ISO 639-1 atau -3 code]] yang sah.",
+	"wminc-custom-tb-invalid-code-text": "Kode ini antara tidak sah atau tidak termasuk kode untuk bahasa yang diterima untuk proyek Wikimedia baru.\n\nJika Anda datang ke sini dari halaman lain, tolong kembali dan perbaiki pranalanya, kemudian buat halaman dengan nama yang benar.\n\nJika ini menghalangi Anda dari membuat halaman yang Anda rasa punya kode ISO 639-1 atau -3 yang sah atau milik bahasa yang telah diterima, silakan [[$1|beri tahu para pengurus]].",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Secara otomatis menambahkan prefiks di tautan saat membuat sebuah halaman."
+}

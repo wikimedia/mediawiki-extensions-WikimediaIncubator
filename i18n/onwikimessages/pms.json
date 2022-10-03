@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt"
+		]
+	},
+	"wminc-code-macrolanguage": "La [[wikipedia:$2 language|lenga «$3»]] a l'é na [[wikipedia:ISO 639 macrolanguage|macrolenga]], ch'a consist ëd le lenghe sì-dapress:",
+	"wminc-code-collective": "Ël còdes «$1» as riferiss pa a na lenga spessìfica, ma a na colession ëd lenghe, visadì le [[wikipedia:$2 language|lenghe «$3»]].",
+	"wminc-code-retired": "Cost còdes ëd lenga a l'é stàit cangià e as arferiss pa pi a la lenga originaria.",
+	"wminc-gadget-iw-dialog-cancel": "Anulé",
+	"wminc-gadget-iw-dialog-editpage": "Modifiché la pàgina"
+}

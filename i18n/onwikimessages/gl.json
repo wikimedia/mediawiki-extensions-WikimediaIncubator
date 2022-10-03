@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"wminc-code-macrolanguage": "A [[wikipedia:$2 language|lingua \"$3\"]] é unha [[wikipedia:ISO 639 macrolanguage|macrolingua]], composta polas seguintes linguas:",
+	"wminc-code-collective": "O código \"$1\" non se refire a unha lingua específica, senón a un conxunto de linguas, en particular, as [[wikipedia:$2 language|linguas \"$3\"]].",
+	"wminc-code-retired": "Este código de lingua cambiou e xa non se refire á lingua orixinal.",
+	"wminc-custom-newarticletext-noprefix": "<strong>Ollo</strong>: Estás a crear unha páxina sen [[$1|prefixo]].",
+	"wminc-custom-newarticletext-withprefix-3": "Estás a crear unha nova páxina ([[$1|prefixada]]) chamada \"{{NOMEDAPÁXINA}}\"."
+}

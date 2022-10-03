@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Magotech"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" language]] ni [[wikipedia:ISO 639 macrolanguage|lugha kubwa]], inayojumuisha lugha zifuatazo za wanachama:",
+	"wminc-code-collective": "Msimbo \"$1\" haurejelei lugha mahususi, bali mkusanyo wa lugha, yaani [[wikipedia:$2 language|lugha \"$3\"]].",
+	"wminc-code-retired": "Msimbo huu wa lugha umebadilishwa na haurejelei tena lugha asili."
+}

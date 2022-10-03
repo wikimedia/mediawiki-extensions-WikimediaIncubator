@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Jazyk „$3“]] je [[wikipedia:ISO 639 macrolanguage|makrojazyk]], který se skládá z následujících jazyků:",
+	"wminc-code-collective": "Kód „$1“ neoznačuje konkrétní jazyk, ale skupinu jazyků, konkrétně [[wikipedia:$2 language|jazyky „$3“]].",
+	"wminc-code-retired": "Tento kód jazyka byl změněn a nadále již neoznačuje původní jazyk."
+}

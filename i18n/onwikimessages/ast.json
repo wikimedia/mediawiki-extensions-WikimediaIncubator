@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"wminc-code-macrolanguage": "La [[wikipedia:$2 language|llingua \"$3\"]] ye una [[wikipedia:ISO 639 macrolanguage|macrollingua]], compuesta poles siguientes llingües:",
+	"wminc-code-collective": "El códigu \"$1\" nun fai referencia a una llingua específica, sinón a un conxuntu de llingües, en particular, a les [[wikipedia:$2 language|llingües \"$3\"]].",
+	"wminc-code-retired": "Esti códigu de llingua camudó y yá nun fai referencia a la llingua orixinal."
+}

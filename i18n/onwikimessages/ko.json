@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"아라"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" 언어]]는 다음과 같은 회원 언어로 구성된 [[wikipedia:ISO 639 macrolanguage|매크로 언어]]입니다:",
+	"wminc-code-collective": "\"$1\" 코드는 특정 언어를 참고하지만 [[wikipedia:$2 language|\"$3\" 언어]]로 된 언어의 모음집을 참조하지 않습니다.",
+	"wminc-code-retired": "이 언어 코드가 바뀌었고 더 이상 원래 언어를 참고하지 않습니다.",
+	"wminc-custom-featuredwikis-approved": "아래 위키들은 승인 및/또는 생성되었습니다.",
+	"wminc-custom-featuredwikis-active": "아래 위키들은 활동 빈도가 높아 곧 독립 사이트로 승격될 가능성이 있습니다.",
+	"wminc-custom-featuredwikis-permanent": "아래 위키들은 인큐베이터에 잔류할 것으로 보입니다.",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> 문서를 만들 때 자동으로 링크에 접두어를 추가해 줍니다."
+}

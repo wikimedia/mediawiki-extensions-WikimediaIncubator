@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|»$3« jezik]] je [[wikipedia:ISO 639 macrolanguage|makrojezik]], koji se sastoji od sljedećih jezika-članova:",
+	"wminc-code-collective": "Kod »$1« ne odnosi se na pojedinačni jezik, već na skup jezika – u ovom slučaju – [[wikipedia:$2 language|»$3«]].",
+	"wminc-code-retired": "Ovaj je jezični kôd izmijenjen i više se ne odnosi na izvorni jezik."
+}

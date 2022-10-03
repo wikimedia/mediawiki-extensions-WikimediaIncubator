@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"wminc-code-macrolanguage": "Le [[wikipedia:$2 language|lingua \"$3\"]] es un [[wikipedia:ISO 639 macrolanguage|macrolingua]] que se compone del sequente linguas membros:",
+	"wminc-code-collective": "Le codice \"$1\" non refere a un lingua specific, ma a un collection de linguas, a saper le [[wikipedia:$2 language|linguas \"$3\"]].",
+	"wminc-code-retired": "Iste codice de lingua ha essite cambiate e non plus refere al lingua original."
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Baloch Afghanistan"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|زبان «$3»]] یک [[wikipedia:ISO 639 macrolanguage|مزنین زبان]] اینت، که شه دیگه زبانان ترکیب بوته:",
+	"wminc-code-collective": "کد \"$1\" به زبان خاصی ارجاع نمی‌دهد، ولی به مجموعه‌ای از زبان‌ها ارجاع می‌دهد، یعنی [[wikipedia:$2 language|زبان‌های «$3»]].",
+	"wminc-code-retired": "کد زبان تغییر کرده است و دیگر به زبان اصلی ارجاع نمی‌دهد."
+}

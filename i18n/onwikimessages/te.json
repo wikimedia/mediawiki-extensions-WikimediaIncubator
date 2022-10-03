@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veeven"
+		]
+	},
+	"wminc-custom-newarticletext-noprefix": "<strong>దయచేసి గమనించండి:</strong> [[$1|మునుజేర్పు]] లేకుండానే మీరు ఒక పేజీని సృష్టిస్తున్నారు",
+	"wminc-custom-tb-incorrect-title-title": "మీరు తప్పుడు శీర్షికతో పేజీని సృష్టించే ప్రయత్నం చేస్తున్నారు.",
+	"wminc-custom-tb-space-colon": "సాంకేతిక కారణాల వల్ల, ఖాళీ లేదా కోలన్ లతో శీర్షిక మొదలుకాకూడదు.",
+	"wminc-gadget-addprefix-toggle": "మునుజేర్పును చూపించు/దాచు",
+	"wminc-gadget-iw-add-wikidata": "వికీడేటా లంకెను చేర్చు",
+	"wminc-gadget-iw-dialog-cancel": "రద్దుచేయి",
+	"wminc-gadget-iw-dialog-publish": "ప్రచురించు",
+	"wminc-gadget-iw-dialog-title": "అంతర్వికీ లంకెలు చేర్చు",
+	"wminc-gadget-iw-dialog-learn-more": "వికీడేటా గురించి మరింత తెలుసుకోండి"
+}

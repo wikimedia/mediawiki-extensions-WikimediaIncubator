@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wminc-custom-featuredwikis-approved": "यैं स्वीकृत अहैं अउर/ या बनाया गवा अहैं:",
+	"wminc-custom-featuredwikis-active": "यै सब सक्रिय अहैं अउर जल्दिन आपन साइट पाइ सकत हैं:",
+	"wminc-custom-featuredwikis-permanent": "यय सब संभावित रूप से हियाँ रहिहैं:",
+	"wminc-custom-newarticletext-noprefix": "<strong>कृपया नोट करा:</strong> आप बिना [[$1|उपसर्ग]] कय पन्ना बनावत अहैं।",
+	"wminc-custom-newarticletext-withprefix-3": "आप नवा बनावत अहैं ([[$1|prefixed]]) पन्ना कहा जात अहै \"{{FULLPAGENAME}}\".",
+	"gadget-addprefix": "<strong>प्रिफिक्सजोड़ा:</strong> पेज बनावत समय लिंक मा स्वचालित रूप से प्रीफिक्स जोड़ देत है।"
+}

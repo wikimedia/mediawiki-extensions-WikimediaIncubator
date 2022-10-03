@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"wminc-code-macrolanguage": "De Schprohch „[[wikipedia:$2 language|$3]]“ is en [[wikipedia:ISO 639 macrolanguage|<!--wikipedia:ksh:Makroschprohch (ISO 639-3)|-->Makroschprohch noh ISO 639-3]], woh heh di Schprohche bei_jehühre:",
+	"wminc-code-collective": "Dat Köözel „$1“ es nit för en bestemmpte Schprohch, söndern för en Sammlong vun Schprohche, nämmlesch de [[wikipedia:$2 language|$3 Schprohche]].",
+	"wminc-code-retired": "Dat Köözel fö di Schprohch wood jeändert un deiht nit mieh för di besheereje Schprohch.",
+	"wminc-gadget-iw-dialog-cancel": "Ophühre",
+	"wminc-gadget-iw-dialog-publish": "Öffentlesch maache",
+	"wminc-gadget-iw-dialog-qid-placeholder": "För e Beijschpell: $1",
+	"wminc-gadget-iw-dialog-editpage": "Di Sigg beärbeide",
+	"wminc-gadget-iw-dialog-wikidata-search": "En de Wikidata söhke"
+}

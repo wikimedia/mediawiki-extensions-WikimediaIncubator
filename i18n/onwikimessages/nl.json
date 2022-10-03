@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin"
+		]
+	},
+	"wminc-code-macrolanguage": "De [[wikipedia:$2 language|taal \"$3\"]] is een [[wikipedia:ISO 639 macrolanguage|macrotaal]], die bestaat uit de volgende talen:",
+	"wminc-code-collective": "De code \"$1\" verwijst niet naar een specifieke taal, maar naar een verzameling talen, namelijk de [[wikipedia:$2 language|\"$3\" talen.]]",
+	"wminc-code-retired": "Deze taalcode is gewijzigd en verwijst niet meer naar de oorspronkelijke taal.",
+	"wminc-custom-featuredwikis-approved": "Deze zijn goedgekeurd of hebben een eigen site:",
+	"wminc-custom-featuredwikis-active": "Deze zijn actief en maken kans om een eigen site te krijgen:",
+	"wminc-custom-featuredwikis-permanent": "Deze blijven hier waarschijnlijk:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Merk op:</strong> U bent bezig met het aanmaken van een pagina zonder [[$1|voorvoegsel]].",
+	"wminc-custom-newarticletext-withprefix-3": "U bent bezig met het aanmaken van een nieuwe pagina ([[$1|met voorvoegsel]]) met als naam \"{{FULLPAGENAME}}\".",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Automatisch voorvoegsels toevoegen aan links bij het aanmaken van een pagina"
+}

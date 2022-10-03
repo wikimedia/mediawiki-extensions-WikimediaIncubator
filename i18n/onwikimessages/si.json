@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" භාෂාව]] යනු [[wikipedia:ISO 639 macrolanguage|විශාල භාෂාවකි]], එය මෙම භාෂා සමූහයෙන් සමන්විතයි:",
+	"wminc-code-collective": "\"$1\" කේතය විශේෂිත භාෂාවකට යොමු නොවේ, නමුත් භාෂා එකතුව වෙත, නාමික වශයෙන් [[wikipedia:$2 language|\"$3\" languages]].",
+	"wminc-code-retired": "මෙම භාෂා කේතය වෙනස් වී ඇති අතර තව දුරටත් නියම භාෂාවට යොමු කල නොහැක.",
+	"wminc-custom-featuredwikis-approved": "මේවා අනුමත කර ඇත/හෝ නිර්මාණය කර ඇත:"
+}

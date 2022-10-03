@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Tiếng “$3”]] là một [[wikipedia:ISO 639 macrolanguage|ngôn ngữ vĩ mô]] bao gồm các ngôn ngữ này:",
+	"wminc-code-collective": "Mã “$1” không phải chỉ đến một ngôn ngữ riêng mà chỉ đến nhóm ngôn ngữ [[wikipedia:$2 language|tiếng “$3”]].",
+	"wminc-code-retired": "Mã ngôn ngữ này đã thay đổi và không còn chỉ đến ngôn ngữ ban đầu.",
+	"wminc-custom-featuredwikis-approved": "Những dự án này đã được phê duyệt và/hoặc đã được khởi tạo:",
+	"wminc-custom-featuredwikis-active": "Những dự án này đang hoạt động tích cực và có thể sớm mở trang web riêng:",
+	"wminc-custom-featuredwikis-permanent": "Những dự án này dường như sẽ tiếp tục ở lại đây:",
+	"wminc-custom-tb-incorrect-title-title": "Bạn đang cố gắng tạo trang với tựa đề bị sai.",
+	"wminc-gadget-iw-dialog-cancel": "Hủy bỏ",
+	"wminc-gadget-iw-dialog-publish": "Đăng",
+	"wminc-gadget-iw-dialog-qid-placeholder": "ví dụ $1",
+	"wminc-gadget-iw-dialog-editpage": "Sửa đổi trang này",
+	"wminc-gadget-iw-dialog-learn-more": "Tìm hiểu thêm về Wikidata",
+	"wminc-gadget-iw-dialog-wikidata-search": "Tìm trong Wikidata"
+}

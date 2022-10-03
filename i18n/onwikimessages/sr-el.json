@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Jezik „$3“]] je [[wikipedia:ISO 639 macrolanguage|makrojezik]], koji se sastoji od sledećih jezika:",
+	"wminc-code-collective": "Kod „$1“ se ne odnosi na pojedinačni jezik, već na zbir jezika pod nazivom [[wikipedia:$2 language|„$3“ jezici]].",
+	"wminc-code-retired": "Ovaj jezički kod je izmenjen i više se ne odnosi na prvobitni jezik."
+}

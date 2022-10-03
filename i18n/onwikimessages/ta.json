@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wminc-custom-featuredwikis-approved": "இவை ஏற்கப்பட்டுவிட்டன அல்லது உருவாக்கப்பட்டுவிட்டன",
+	"wminc-custom-featuredwikis-active": "இவை நன்றாக இயங்குவதால், தங்களுக்கான தனித் தளங்களைப் பெறக்கூடும். .",
+	"wminc-custom-featuredwikis-permanent": "இந்த விக்கிகள் இங்கேயே இருக்கக்கூடும்",
+	"wminc-custom-newarticletext-noprefix": "<strong>கவனிக்க:</strong> நீங்கள் [[$1|முன்னொட்டு]] இல்லாமல் பக்கத்தை உருவாக்குகிறீர்கள்",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> பக்கத்தை உருவாக்கும்போதே தானியக்கமாக முன்னொட்டைச் சேர்க்கும்.."
+}

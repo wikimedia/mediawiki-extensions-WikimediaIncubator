@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olli",
+			"Valtlait"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Kieli ”$3”]] on [[wikipedia:ISO 639 macrolanguage|makrokieli]], joka koostuu seuraavista kielistä:",
+	"wminc-code-collective": "Koodi ”$1” ei viittaa tiettyyn kieleen, vaan kielikokoelmaan nimeltä [[wikipedia:$2 language|”$3” kielet]].",
+	"wminc-code-retired": "Tämä kielikoodi on muutettu, ja se ei enää viittaa alkuperäiseen kieleen.",
+	"wminc-custom-featuredwikis-approved": "Nämä on hyväksytty ja/tai luotu:",
+	"wminc-custom-featuredwikis-active": "Nämä ovat aktiivisia ja saattavat saada oman sivunsa pian:",
+	"wminc-custom-featuredwikis-permanent": "Nämä todennäköisesti pysyvät Hautomossa:"
+}

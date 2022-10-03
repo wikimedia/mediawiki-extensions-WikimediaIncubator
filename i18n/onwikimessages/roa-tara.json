@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"wminc-code-macrolanguage": "'A [[wikipedia:$2 language|lènghe \"$3\"]] jè 'na [[wikipedia:ISO 639 macrolanguage|macrolènghe]], fatte da ste lènghe:",
+	"wminc-code-collective": "'U codece \"$1\" non ge face referimende a 'nu linguagge specifeche, ma a 'nu 'nzieme de lènghe, 'ndruche [[wikipedia:$2 language|lènghe \"$3\"]].",
+	"wminc-code-retired": "Stu codece de lènghe ha state cangiate e non ge se referisce cchiù a 'a lènghe origgenale."
+}

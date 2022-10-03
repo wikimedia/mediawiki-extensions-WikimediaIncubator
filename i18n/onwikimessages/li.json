@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"wminc-code-macrolanguage": "De [[wikipedia:$2 language|spraok \"$3\"]] is 'n [[wikipedia:ISO 639 macrolanguage|euverspraok]], die besteit oet g'r nègksvóggendjer spräök:",
+	"wminc-code-collective": "De koeaj \"$1\" verwies neet achter 'ner specefieker spraok, mer achter 'n gaedering aan spräök, naomelik de [[wikipedia:$2 language|\"$3\"-spräök.]]",
+	"wminc-code-retired": "Dees spraokkoeaj is angerdj èn verwies nimmieër achter g'r oearsprónkeliker spraok.",
+	"wminc-custom-featuredwikis-approved": "Dees zeen goodgekäördj of höbben 'n eige site:",
+	"wminc-custom-featuredwikis-active": "Dees zeen aktief en make kans óm 'n eige site te bekómme:",
+	"wminc-custom-featuredwikis-permanent": "Dees zölle wersjienlik hie blieve:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Mèrk op:</strong> De bös noe 'n paasj aan 'nt make zónger [[$1|veurveugsel]].",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Veug autematis veurveugsele tou aan links bie 't aanmake van 'n pagina.",
+	"wminc-gadget-iw-dialog-cancel": "Braek aaf",
+	"wminc-gadget-iw-dialog-publish": "Bring oet",
+	"wminc-gadget-iw-dialog-editpage": "Bewirk dees pagina"
+}

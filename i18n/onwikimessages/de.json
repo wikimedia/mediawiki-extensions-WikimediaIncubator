@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"ThisCarthing"
+		]
+	},
+	"wminc-code-macrolanguage": "Die [[wikipedia:$2 language|Sprache „$3“]] ist eine [[wikipedia:de:Makrosprache_(ISO_639)|Makrosprache]], welche die folgenden Einzelsprachen enthält:",
+	"wminc-code-collective": "Der Code „$1“ bezieht sich nicht auf eine bestimmte Sprache, sondern auf eine Gruppe von Sprachen, namentlich die [[wikipedia:$2 language|Sprachen „$3“]].",
+	"wminc-code-retired": "Dieser Sprachcode wurde geändert und bezieht sich nicht mehr auf die ursprüngliche Sprache.",
+	"wminc-custom-featuredwikis-approved": "Diese wurden genehmigt und/oder erstellt:",
+	"wminc-custom-featuredwikis-active": "Diese sind aktiv und könnten bald in ein eigenes Wiki umziehen:",
+	"wminc-custom-featuredwikis-permanent": "Diese werden wahrscheinlich hier bleiben:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Bitte beachte:</strong> Du bist dabei, eine Seite ohne [[$1|Präfix]] zu erstellen.",
+	"wminc-custom-newarticletext-withprefix-3": "Du bist dabei, eine neue (mit [[$1|Präfix]] versehene) Seite namens \"{{FULLPAGENAME}}\" anzulegen.",
+	"wminc-custom-tb-incorrect-title-title": "Du versuchst, eine Seite mit einem nicht zulässigen Titel zu erstellen.",
+	"wminc-custom-tb-invalid-code-title": "Du versuchst, eine Seite ohne gültigen [[$1|ISO-639-1 oder -3-Code]] zu erstellen.",
+	"wminc-custom-tb-invalid-code-text": "Dieser Code ist entweder ungültig oder wird nicht für neue Wikimedia-Projekte akzeptiert.\n\nWenn dich ein Link von einer anderen Seite hierhin geführt hat, gehe bitte zurück und berichtige den Link.\n\nFalls diese Sperre dich davon abhält, eine Seite anzulegen, die deiner Meinung nach einen gültigen ISO-639-1 oder -3-Code hat oder zu einer akzeptierten Sprache gehört, wende dich bitte an die [[$1|Administratoren]].",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Fügt beim Erstellen von Seiten automatisch den Links Präfixe hinzu.",
+	"wminc-gadget-iw-add-wikidata": "Wikidata-Link hinzufügen",
+	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata durchsuchen"
+}

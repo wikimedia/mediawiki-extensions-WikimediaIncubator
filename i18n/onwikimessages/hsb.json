@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Rěč \"$3\"]] je [[wikipedia:ISO 639 macrolanguage|makrorěč]], kotraž so ze slědowacych jednotliwych rěčow zestaja:",
+	"wminc-code-collective": "Kod \"$1\" njepoćahuje so na wěstu rěč, ale na skupinu rěčow, ale na [[wikipedia:$2 language|rěče \"$3\"]].",
+	"wminc-code-retired": "Tutón rěčny kod je so změnił a hižo njepoćahuje na prěnjotnu rěč."
+}

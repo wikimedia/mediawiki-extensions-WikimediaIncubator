@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"wminc-code-macrolanguage": "La [[wikipedia:$2 language|lingua \"$3\"]] è una [[wikipedia:ISO 639 macrolanguage|macrolingua]], composta dalle seguenti lingue:",
+	"wminc-code-collective": "Il codice \"$1\" non fa riferimento a un linguaggio specifico, ma a un insieme di lingue, vedi [[wikipedia:$2 language|lingue \"$3\"]].",
+	"wminc-code-retired": "Questo codice lingua è stato modificato e non si riferisce più alla lingua originale.",
+	"wminc-gadget-iw-add-wikidata": "Aggiungi collegamento Wikidata",
+	"wminc-gadget-twpref-setlang-tooltip": "Imposta la lingua dell'interfaccia su $1"
+}

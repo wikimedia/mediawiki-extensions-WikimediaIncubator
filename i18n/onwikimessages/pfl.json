@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wminc-custom-featuredwikis-approved": "Die sin gbillischd oda eazaischd worre:",
+	"wminc-custom-featuredwikis-active": "Die sin agdiv un kenndn demnegschd s'aischene Wiki grische:",
+	"wminc-custom-featuredwikis-permanent": "Die werren do wohl blaiwe:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Beachd:</strong> Du magschd grad ä Said ohni [[$1|Voasilw]].",
+	"wminc-custom-newarticletext-withprefix-1": "Type $1 and then click \"{{int:publishpage}}\".",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> fieschd vun allä Voasilwe dzu wonnä Said oagleschd werd.",
+	"wminc-gadget-iw-dialog-cancel": "Abbresche",
+	"wminc-gadget-iw-dialog-editpage": "Die Said bearwaide"
+}

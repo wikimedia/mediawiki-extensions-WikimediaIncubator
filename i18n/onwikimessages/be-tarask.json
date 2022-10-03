@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 мова|«$3» мова]] зьяўляецца [[wikipedia:ISO 639 macrolanguage|макрамовай]], якая ўтрымлівае наступную колькасьць моваў:",
+	"wminc-code-collective": "Код «$1» адносіцца не да пэўнай мовы, а да набору моваў, а менавіта да [[wikipedia:$2 language|«$3»]].",
+	"wminc-code-retired": "Гэты код мовы быў зьменены і болей не датычыцца арыгінальнай мовы.",
+	"wminc-custom-editnotice-2": "Каб паказаць, якімі мовамі вы можаце карыстацца, выкарыстоўвайце $1. Напрыклад, калі ваша родная мова французская і вы добра размаўляеце па-англійску, выкарыстоўвайце $2.",
+	"wminc-custom-featuredwikis-approved": "Ужо ўхваленыя і/або створаныя:",
+	"wminc-custom-featuredwikis-active": "Актыўныя вікі, якія неўзабаве могуць атрымаць уласную бачыну:",
+	"wminc-custom-featuredwikis-permanent": "Гэтыя найхутчэй застануцца тут:",
+	"wminc-custom-newarticletext-noprefix": "Вы ствараеце новую ([[$1|з прэфіксам]]) старонку пад назвай «{{FULLPAGENAME}}».",
+	"wminc-gadget-addprefix-toggle": "Паказаць/схаваць прэфікс",
+	"wminc-gadget-iw-dialog-cancel": "Скасаваць",
+	"wminc-gadget-iw-dialog-publish": "Апублікаваць",
+	"wminc-gadget-iw-dialog-qid-placeholder": "напрыклад, $1"
+}

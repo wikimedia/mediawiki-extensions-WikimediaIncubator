@@ -34,8 +34,6 @@
 	"group-test-sysop": "ტესტური ვიკის ადმინისტრატორები",
 	"group-test-sysop-member": "{{GENDER:$1|ტესტური ვიკის ადმინისტრატორი}}",
 	"grouppage-test-sysop": "{{ns:project}}:ტესტური ვიკის ადმინისტრატორები",
-	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\"]] [[wikipedia:ISO 639 macrolanguage|მაკროენაა]], რომელიც შემდეგ წევრ ენებს შეიცავს:",
-	"wminc-code-retired": "ენის ეს კოდი შეიცვალა და აღარ შეესაბამება თავდაპირველ ენას.",
 	"wminc-searchwiki": "ვიკიში ძიება",
 	"wminc-searchwiki-noproject": "თქვენ არ აგირჩევიათ პროექტი.",
 	"wminc-searchwiki-selectproject": "ძიება:",

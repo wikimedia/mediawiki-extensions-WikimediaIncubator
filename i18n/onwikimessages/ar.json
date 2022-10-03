@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"زكريا"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|اللغة \"$3\"]] [[wikipedia:ISO 639 macrolanguage|لغة كبرى]]، تشمل اللغات الصغرى التالية:",
+	"wminc-code-collective": "رمز \"$1\" لا يدل على لغة معينة، بل على مجموعة من اللغات، وهي [[wikipedia:$2 language|اللغات \"$3\"]].",
+	"wminc-code-retired": "رمز اللغة قد تغير أو لم يعد يرمز به إلى اللغة الأصلية.",
+	"wminc-custom-featuredwikis-approved": "هذه تمت الموافقة عليها و/أو إنشاؤها:",
+	"wminc-custom-featuredwikis-active": "هذه نشطة ويمكن أن يكون لها موقعها قريبا:",
+	"wminc-custom-featuredwikis-permanent": "هذه ستبقى على الأرجح هنا:",
+	"wminc-custom-newarticletext-noprefix": "<strong>لاحظ من فضلك:</strong> إنك تنشئ صفحة من دون [[$1|شأو]].",
+	"wminc-custom-newarticletext-withprefix-3": "لقد أنشأت شأوا جديدا([[$1|prefixed]])لصفحة تسمى{{FULLPAGENAME}}\".",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> يضيف البادئة تلقائيا للوصلات عند إنشاء صفحة."
+}

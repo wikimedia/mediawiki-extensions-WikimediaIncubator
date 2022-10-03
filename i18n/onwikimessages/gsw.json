@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Chlämens"
+		]
+	},
+	"wminc-code-macrolanguage": "D [[wikipedia:$2 language|Sprooch „$3“]] isch e [[wikipedia:ISO 639 macrolanguage|Makrosprooch]], wo die Einzelsprooche dezueghöre:",
+	"wminc-code-collective": "S Chürzel „$1“ beziegt sich nit uff ei bstimmti Sprooch, sundern uff e Grupp vo Sprooche, un zwar d [[wikipedia:$2 language|Sprooche „$3“]].",
+	"wminc-code-retired": "Des Sproochchürzel isch gänderet un beziegt sich nümme uff di ursprünglichi Sprooch.",
+	"wminc-gadget-iw-dialog-cancel": "Abbräche",
+	"wminc-gadget-iw-dialog-publish": "Vereffetlige",
+	"wminc-gadget-iw-dialog-editpage": "Die Syte bearbeite",
+	"wminc-gadget-iw-dialog-wikidata-search": "In de Wikidata sueche"
+}

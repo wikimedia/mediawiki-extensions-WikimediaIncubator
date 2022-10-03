@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"WikiPhoenix"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Språket \"$3\"]] är en [[wikipedia:ISO 639 macrolanguage|makrospråk]], som består av följande medlemsspråk:",
+	"wminc-code-collective": "Koden \"$1\" refererar inte till ett visst språk, utan en samling av språk, nämligen [[wikipedia:$2 language|\"$3\"-språken]].",
+	"wminc-code-retired": "Denna språkkod har ändrats och hänvisar inte längre till det ursprungliga språket.",
+	"wminc-custom-featuredwikis-approved": "De här har godkänts och/eller skapats:",
+	"wminc-custom-featuredwikis-active": "De här är aktiva och kommer kanske få sin egen sajt snart:",
+	"wminc-custom-featuredwikis-permanent": "De här kommer nog stanna kvar här",
+	"wminc-custom-newarticletext-noprefix": "<strong>Vänligen notera:</strong> Du håller på att skapa en sida utan [[$1|prefix]].",
+	"wminc-custom-newarticletext-withprefix-3": "Du skapar en ny sida ([[$1|med prefix]])  som heter \"{{FULLPAGENAME}}\".",
+	"wminc-custom-tb-incorrect-title-title": "Du försöker skapa en sida med en felaktig titel.",
+	"wminc-custom-tb-incorrect-title-text": "Titeln saknar förmodligen ett [[$1|prefix]] eller har på annat sätt ett felaktigt format (versaler i prefix, felvända snedstreck, osv.).\n\nOm du kommit hit från en annan sida, var god gå tillbaka och åtgärda länken och försök sedan skapa sida igen med rätt namn.\n\nOm du av någon anledning hindras från att skapa sidan som du tycker har rätt titelformat kan du rapportera detta till [[$2|administratörerna]].",
+	"wminc-custom-tb-invalid-code-title": "Du försöker skapa en sida utan en giltig [[$1|ISO 639-1 eller -3-kod]].",
+	"wminc-custom-tb-invalid-code-text": "Denna kod är antingen inte giltig eller så tillhör den inte ett språk som accepterats för nya Wikimediaprojekt.\n\nOm du kommit hit från en annan sida, var god gå tillbaka och åtgärda länken för att sedan skapa sidan med rätt sidnamn.\n\nOm detta någon anledning hindrar dig från att skapa sidan med det du tycker är en giltig ISO 639-1 eller -3-kod eller tillhör ett godkänt språk kan du rapportera det till [[$1|administratörerna]].",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Lägger automatiskt till prefix till länkar när en sida skapas."
+}

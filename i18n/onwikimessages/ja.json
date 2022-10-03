@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"MathXplore",
+			"Omotecho",
+			"Shirayuki"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|言語「$3」]] は[[wikipedia:ISO 639 macrolanguage|マクロ言語]]であり、以下の言語から構成されます:",
+	"wminc-code-collective": "コード「$1」は特定の言語を指すわけではなく、言語の集合、すなわち[[wikipedia:$2 language|$3群]]を指します。",
+	"wminc-code-retired": "この言語コードには変更があり、元の言語を指さないようになりました。",
+	"wminc-custom-featuredwikis-approved": "サイト作成待ちまたは作成済みのウィキ:",
+	"wminc-custom-featuredwikis-active": "活発で、まもなくインキュベーターから独立しそうなウィキ:",
+	"wminc-custom-featuredwikis-permanent": "以下はインキュベーターに留まるはずのウィキです:",
+	"wminc-custom-newarticletext-noprefix": "<strong>注意:</strong> [[$1|接頭辞]]がないページを作成しようとしています",
+	"wminc-custom-newarticletext-withprefix-3": "([[$1|接頭辞]]付きの) ページ「{{FULLPAGENAME}}」を新規作成しようとしています。",
+	"gadget-addprefix": "<strong>Add Prefix:</strong>\nページを作成する際に、リンクに接頭辞を自動的に追加します。",
+	"wminc-gadget-iw-dialog-cancel": "キャンセル",
+	"wminc-gadget-iw-dialog-publish": "公開",
+	"wminc-gadget-iw-dialog-editpage": "このページを編集",
+	"wminc-gadget-iw-dialog-learn-more": "ウィキデータについてもっと学ぶ"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"wminc-code-macrolanguage": "Ang [[wikipedia:$2 language|wikang \"$3\"]] ay isang [[wikipedia:ISO 639 macrolanguage|makro-wika]], na binubuo ng sumusunod na kasaping mga wika:",
+	"wminc-code-collective": "Ang kodigong \"$1\" ay hindi tumutukoy sa isang tiyak na wika, bagkus ay sa isang kalipunan ng mga wika, na sa makatuwid ay ang [[wikipedia:$2 language|mga wikang \"$3\"]].",
+	"wminc-code-retired": "Nabago na ang kodigo ng wikang ito at hindi na tumutukoy sa orihinal na wika.",
+	"wminc-custom-newarticletext-noprefix": "<strong>Tignan:</strong> Gumagawa ka ng pahinang walang unlapi [[$1|unlapi]]."
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|«$3» er eit [[wikipedia:ISO 639 macrolanguage|makrospråk]] som består av fylgjande einskildspråk:",
+	"wminc-custom-featuredwikis-approved": "Desse har vorte godkjente og/eller oppretta:",
+	"wminc-custom-featuredwikis-active": "Desse er aktive og kan få sin eigen wiki snart:",
+	"wminc-custom-featuredwikis-permanent": "Desse vil trulig bli her:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Merk:</strong> Du skapar ei side utan [[$1|prefiks]]",
+	"wminc-custom-newarticletext-withprefix-1": "Skriv $1 og trykk på «{{int:publishpage}}».",
+	"wminc-custom-newarticletext-withprefix-2": "Erstatt «$1» og trykk på «{{int:publishpage}}».",
+	"wminc-custom-newarticletext-withprefix-3": "Du skapar ei ny side (med [[$1|prefiks]]) med namn «{{FULLPAGENAME}}».",
+	"gadget-interwiki": "<strong>Interwiki:</strong> Legg til funksjonalitet for å leggja til og visa språklenkjer frå Wikidata.",
+	"wminc-gadget-iw-add-wikidata": "Legg til Wikidata-lenkje",
+	"wminc-gadget-iw-dialog-cancel": "Bryt av",
+	"wminc-gadget-iw-dialog-publish": "Publiser",
+	"wminc-gadget-iw-dialog-title": "Legg til interwikilenkjer",
+	"wminc-gadget-iw-dialog-qid-placeholder": "t.d. $1",
+	"wminc-gadget-iw-dialog-editpage": "Endre sida",
+	"wminc-gadget-iw-dialog-wikidata-search": "Søk i Wikidata",
+	"wminc-gadget-iw-editsummary": "Legg til interwikilenkje til [[d:$1]]",
+	"wminc-gadget-twpref-setlang": "Set språk: $1",
+	"wminc-gadget-twpref-setlang-tooltip": "Set grensesnittspråket ditt til $1",
+	"wminc-gadget-twpref-setwiki": "Set $1 som testprosjektet ditt",
+	"wminc-gadget-twpref-setwiki-tooltip": "Set $1 til å vere testprosjektet ditt, så nye sider du skapar blir del av dette prosjektet"
+}

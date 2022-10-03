@@ -36,8 +36,6 @@
 	"group-test-sysop": "परीक्षण विकी प्रबंधक",
 	"group-test-sysop-member": "{{GENDER:$1|परीक्षण विकि प्रबंधक}}",
 	"grouppage-test-sysop": "{{ns:project}}:परीक्षण विकी प्रबंधक",
-	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" भाषा]] एक [[wikipedia:ISO 639 macrolanguage|वृहत्भाषा]] है, जो निम्नलिखित भाषाओं से युक्त है:",
-	"wminc-code-retired": "यह भाषा कोड बदल दिया गया है और अब मूल भाषा को संदर्भित नहीं करता है।",
 	"wminc-listusers-testwiki": "आप उन प्रयोक्ताओं को देख रहे हैं जिन्होंने अपनी परिक्षण विकी वरीयता $1 निर्धारित की है।",
 	"wminc-searchwiki-noresults": "कोई परिणाम नहीं। आप भाषा के कोड, मूल नाम और अंतरफलक नाम या अंग्रेज़ी नाम से खोज सकते हैं।",
 	"wminc-searchwiki-selectproject": "खोजें:",

@@ -36,8 +36,6 @@
 	"group-test-sysop": "Tesztwiki adminisztrátorok",
 	"group-test-sysop-member": "{{GENDER:$1|tesztwiki adminisztrátor}}",
 	"grouppage-test-sysop": "{{ns:project}}:Tesztwiki adminisztrátorok",
-	"wminc-code-macrolanguage": "A(z) [[wikipedia:$2 language|„$3” nyelv]] egy [[wikipedia:hu:Makronyelv|makronyelv]], ami az alábbi nyelvekből áll:",
-	"wminc-code-collective": "A(z) „$1” kód nem egy konkrét nyelvre vonatkozik, hanem egy nyelvcsaládra, nevezetesen a(z) [[wikipedia:$2 language|„$3” nyelvekre]].",
 	"wminc-search-nocreate-suggest": "Erre kerestél rá: „$1”. Létrehozhatsz egy lapot a wikidben itt: <strong>[[$3]]</strong>.",
 	"wminc-searchwiki": "Keresés egy wikire",
 	"wminc-searchwiki-noproject": "Nem választottál projektet.",

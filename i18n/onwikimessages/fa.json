@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ebraminio",
+			"Mjbmr"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|زبان «$3»]] یک [[wikipedia:ISO 639 macrolanguage|زبان بزرگ]] است، که ترکیبی از زبان‌های مقابل است:",
+	"wminc-code-collective": "کد \"$1\" به زبان خاصی ارجاع نمی‌دهد، ولی به مجموعه‌ای از زبان‌ها ارجاع می‌دهد، یعنی [[wikipedia:$2 language|زبان‌های «$3»]].",
+	"wminc-code-retired": "کد زبان تغییر کرده است و دیگر به زبان اصلی ارجاع نمی‌دهد.",
+	"wminc-custom-featuredwikis-approved": "این ویکی را مورد تایید قرار گرفته و / یا ایجاد شده است:",
+	"wminc-custom-featuredwikis-active": "این ویکی فعال هستند و ممکن است سایت خود را به زودی:",
+	"wminc-custom-featuredwikis-permanent": "این ویکی به احتمال زیاد در اینجا باقی می ماند:"
+}

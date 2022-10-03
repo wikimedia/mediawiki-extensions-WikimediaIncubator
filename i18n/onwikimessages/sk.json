@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wminc-custom-featuredwikis-approved": "Tieto boli schválené a/alebo vytvorené:",
+	"wminc-custom-featuredwikis-active": "Tieto sú aktívne a môžu čoskoro získať vlastnú stránkú:",
+	"wminc-custom-featuredwikis-permanent": "Tieto tu pravdepodobne ostanú:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Prosím, všimnite si že :</strong> Vytvárate stránku bez [[$1|prefixu]].",
+	"wminc-custom-newarticletext-withprefix-3": "Vytvorili ste novú ([[$1|prefixovanú]]) stránku s názvom \"{{FULLPAGENAME}}\".",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Automaticky pridá prefixy na odkazy keď sa vytvorí stránka."
+}

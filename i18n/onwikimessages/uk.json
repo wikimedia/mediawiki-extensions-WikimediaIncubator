@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dim Grits",
+			"Пан Хаунд"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" мова]] є [[wikipedia:ISO 639 macrolanguage|макромовою]], що складається з наступних мов:",
+	"wminc-code-collective": "Код \"$1\" відноситься не до конкретної мови, а до декількох, об'єднаних під загальною назвою [[wikipedia:$2 language|\"$3\"]].",
+	"wminc-code-retired": "Цей код мови було змінено, код більше не посилається на конкретну мову.",
+	"wminc-custom-featuredwikis-approved": "Вже схвалені і/або створені (перенесені на окремий вікі-сайт):",
+	"wminc-custom-featuredwikis-active": "Активні вікі, що невдовзі можуть отримати власні сайти:",
+	"wminc-custom-featuredwikis-permanent": "Схоже, деякий час залишатимуться тут:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Будьте уважні:</strong> Ви намагаєтеся створити сторінку без [[$1|префікса]].",
+	"wminc-custom-newarticletext-withprefix-3": "Ви створите нову сторінку, ([[$1|що має префікс]]), з назвою \"{{FULLPAGENAME}}\".",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Автоматично додає префікси до посилань при створенні сторінки.",
+	"wminc-gadget-iw-dialog-cancel": "Скасувати",
+	"wminc-gadget-iw-dialog-qid-placeholder": "напр., $1"
+}

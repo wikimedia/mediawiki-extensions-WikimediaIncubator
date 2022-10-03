@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Teitei Para"
+		]
+	},
+	"wminc-custom-featuredwikis-permanent": "Hezy hecha liata a y awpazy ama châ aw:",
+	"wminc-custom-newarticletext-withprefix-1": "$1 he roh la, \"{{int:publishpage}}\" he hmie mah y.",
+	"wminc-custom-newarticletext-withprefix-2": "\"$1\" he sohpathi la \"{{int:publishpage}}\" he hmie teh.",
+	"wminc-custom-tb-invalid-code-text": "He code hecha apy leipa cvk Wikimedia parawche thiehpazy châta pasai leipa reihchâ lia ahlaopa a châ thlo aw.\n\nHmia hropa tawh avypa na châ khiah, kua pakua la, link kha paraih tua la, âdo kawpa ta moh piepa hmia tao teh.\n\nApypa ISO 639-1 cvk -3 code cvk apypa reihchâ sâkha a hnei'pa ta na pangiasapa kheihhawhpa hmia taona tawhta atlyna ta a cha pakhâ khâh khiah, [[$1|mohôhtuhzy lâta chho bei teh]].",
+	"wminc-custom-tb-space-colon": "Technical pasiapasôna vâta, chôtlâhpipa cha space ta cvk colon ta a pathao thei vei.",
+	"wminc-gadget-addprefix-toggle": "Hmiazao palâ/nyu",
+	"wminc-gadget-iw-add-wikidata": " Wikidata link bai",
+	"wminc-gadget-iw-dialog-cancel": "Châvei",
+	"wminc-gadget-iw-dialog-publish": "Pazaw",
+	"wminc-gadget-iw-dialog-title": "interwiki linkzy khô",
+	"wminc-gadget-iw-dialog-qid-placeholder": "p.s. $1",
+	"wminc-gadget-iw-dialog-editpage": "Hmia paraih",
+	"wminc-gadget-iw-dialog-replace-editinstead": "Cha cha âdo vei khiah, link kha pôhpa ta taopathi awpa ta hmia kha paraih mah y.",
+	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata lia tlua",
+	"wminc-gadget-iw-error-reload": "Hmia he khâh pathi la azaoh pathi teh.",
+	"wminc-gadget-twpref-setlang-tooltip": "$1 lâta na khohpa reihchâ thla teh",
+	"wminc-gadget-twpref-setwiki": "$1 he nâma test parawche lâta thla teh",
+	"wminc-gadget-twpref-setwiki-tooltip": "$1 he nâma test prawche lâta thla teh, cha khiah dei na taopa hmia thiehpazy cha he prawche pachiah a châ aw."
+}

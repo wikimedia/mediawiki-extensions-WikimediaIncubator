@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" എന്ന ഭാഷ]] ഒരു [[wikipedia:ISO 639 macrolanguage|ചെറുഭാഷയാണ്]], അത് ഉൾക്കൊള്ളുന്ന അംഗഭാഷകൾ ഇനി നൽകുന്നു:",
+	"wminc-code-collective": "\"$1\" എന്ന കോഡ് ഒരു പ്രത്യേക ഭാഷയെ പ്രതിനിധീകരിക്കുന്നില്ല, മറിച്ച് [[wikipedia:$2 language|\"$3\" ഭാഷകൾ]] എന്ന ഒരു കൂട്ടം ഭാഷകളാണ്.",
+	"wminc-code-retired": "ഈ ഭാഷാ കോഡ് മാറിയിരിക്കുന്നു, യഥാർത്ഥ ഭാഷയെ അത് പ്രതിനിധീകരിക്കുന്നില്ല.",
+	"wminc-custom-featuredwikis-approved": "അംഗീകരിച്ചതും സൃഷ്ടിച്ചതോ അല്ലാത്തതോ ആയിട്ടുള്ള വിക്കികൾ:",
+	"wminc-custom-featuredwikis-active": "സജീവമായ വിക്കികളാണ് ഇവ. അടുത്തുതന്നെ അവരുടേതായിട്ടുള്ള സൈറ്റ് ലഭിച്ചേക്കാം:",
+	"wminc-custom-newarticletext-noprefix": "<strong>ദയവായി ശ്രദ്ധിക്കുക:</strong> താങ്കൾ [[$1|പൂർവ്വപദം]] ചേർക്കാത്ത താളാണ് സൃഷ്ടിക്കാൻ പോവുന്നത്."
+}

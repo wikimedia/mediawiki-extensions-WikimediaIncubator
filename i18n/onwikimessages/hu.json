@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"wminc-code-macrolanguage": "A(z) [[wikipedia:$2 language|„$3” nyelv]] egy [[wikipedia:hu:Makronyelv|makronyelv]], ami az alábbi nyelvekből áll:",
+	"wminc-code-collective": "A(z) „$1” kód nem egy konkrét nyelvre vonatkozik, hanem egy nyelvcsaládra, nevezetesen a(z) [[wikipedia:$2 language|„$3” nyelvekre]].",
+	"wminc-custom-editnotice-2": "Beszélt nyelveid megadására kérjük használd a $1 sablont. Ha például az anyanyelved francia, de jól érted az angolt, azt így adhatod meg a sablonnal: $2. A magyar nyelv kódja a ''hu''.",
+	"wminc-custom-featuredwikis-approved": "Ezeket nemrégiben élesítettük:",
+	"wminc-custom-featuredwikis-active": "Az élesítéshez közel álló (aktív) projektjeink:",
+	"wminc-custom-featuredwikis-permanent": "Ezek viszont minden bizonnyal még jó ideig itt maradnak:",
+	"wminc-custom-newarticletext-noprefix": "<strong>Figyelmeztetés:</strong> [[$1|előtag]] nélküli lapot hozol létre.",
+	"wminc-custom-newarticletext-withprefix-1": "Másold be, hogy „$1”, aztán kattints az „{{int:publishpage}}” gombra.",
+	"wminc-custom-newarticletext-withprefix-3": "Új, ([[$1|előtaggal ellátott]]) lapot hozol létre \"{{FULLPAGENAME}}\" néven.",
+	"wminc-custom-newarticletext-withprefix-4": "Ne felejtsd el előtaggal ellátni a linkeket sem: <code><nowiki>[[Page title|Lapcím]]</nowiki></code> helyett <code><nowiki>[[Wx/xx/Page title|Lapcím]]</nowiki></code>, illetve <code><nowiki>{{Lapcím}}</nowiki></code> helyett <code><nowiki>{{Wx/xx/Lapcím}}</nowiki></code> álljon.",
+	"wminc-custom-newarticletext-withprefix-5": "A linkek automatikus javításában segíthet az [[$1|AddPrefix segédeszköz]].",
+	"wminc-custom-tb-incorrect-title-title": "Helytelen címmel próbálsz lapot létrehozni.",
+	"wminc-custom-tb-incorrect-title-text": "A legvalószínűbb eset, hogy nem adtál meg [[$1|előtagot]] vagy nem megfelelően formáztad azt meg (nagybetűk az előtagban, felesleges perjel a cím végén stb.).\n\nHa egy linket követve kerültél ide, lapozz vissza, és javítsd ki a linket a kiinduló lapon. Ha közvetlenül szeretnél létrehozni egy lapot, annak kérjük normál, előtagos címet adj.\n\nHa úgy látod, hogy a címmel nincs baj, de a lapot mégsem tudod létrehozni, értesítsd az [[$2|adminisztrátorokat]]!",
+	"wminc-custom-tb-invalid-code-title": "A lap nem hozható létre érvényes [[$1|ISO 639-1 vagy 639-3 kód]] nélkül.",
+	"wminc-custom-tb-invalid-code-text": "A megadott kód nem érvényes vagy ezen a nyelven nem megengedett az új Wikimedia-projektek létrehozása.\n\nHa egy másik lapról kerültél ide, kérjük lépj vissza, javítsd ki a linket, és az új lapot majd a kijavított néven hozd létre.\n\nHa úgy gondolod, hogy ez a korlátozás olyan lapot érint, aminek nincs gond az ISO-kódjával, illetve elfogadott nyelvhez tartozik, kérjük [[$1|szólj az adminisztrátoroknak]].",
+	"wminc-custom-tb-space-colon": "Technikai okokból a cím nem kezdődhet szóközzel vagy kettősponttal.",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> automatikusan előtagokkal látja el a linkeket lap létrehozásakor.",
+	"wminc-gadget-addprefix-help": "A projekt előtagját nem szükséges feltüntetned a linkekben, amikor ezt a lapot szerkeszted. A linkeket az AddPrefix segédeszköz automatikusan kiegészíti, amikor mented a lapot.",
+	"wminc-gadget-addprefix-toggle": "Előtagok elrejtése/mutatása"
+}

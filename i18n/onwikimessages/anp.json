@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Angpradesh"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" भाषा]] एगऽ [[wikipedia:ISO 639 macrolanguage|वृहत्भाषा]] छेकै, जे निम्नलिखित भाषा सभ सं॑ युक्त छै:",
+	"wminc-code-collective": "कोड \"$1\" एगऽ विशिष्ट भाषा के उल्लेख नै करै छै, बल्कि भाषा सब केरऽ एगऽ संग्रह छेकै, मुख्यतः [[wikipedia:$2 language|\"$3\" भाषा]].",
+	"wminc-code-retired": "इ भाषा कोड बदली देलऽ गेलऽ छै आरू अब॑ मूल भाषा क॑ संदर्भित नै करै छै.",
+	"wminc-custom-featuredwikis-approved": "एकरा स्वीकृत करलॉ गेलॉ छै आरू/या बनैलॉ गेलॉ छै:"
+}

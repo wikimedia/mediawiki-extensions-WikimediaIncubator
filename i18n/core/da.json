@@ -27,7 +27,6 @@
 	"group-test-sysop": "Testwiki-administratorer",
 	"group-test-sysop-member": "{{GENDER:$1|testwiki-administrator}}",
 	"grouppage-test-sysop": "{{ns:project}}:Testwiki-administratorer",
-	"wminc-code-retired": "Denne sprogkode er blevet ændret og henviser ikke længere til det oprindelige sprog.",
 	"wminc-searchwiki": "Søg efter en wiki",
 	"wminc-searchwiki-noproject": "Du valgte ikke et projekt.",
 	"wminc-searchwiki-selectproject": "Søg efter:",
