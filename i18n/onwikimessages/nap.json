@@ -9,5 +9,5 @@
 	"wminc-custom-featuredwikis-permanent": "Sti ccose probabilmente hanna sta' cca:",
 	"wminc-custom-newarticletext-noprefix": "<strong>Attenzione:</strong> Stai criando 'na paggena senza 'o [[$1|prefisso]].",
 	"wminc-custom-newarticletext-withprefix-3": "Staie crianno 'na nuova paggena co 'nu ([[$1|prefisso]]) che se chiamme \"{{FULLPAGENAME}}\".",
-	"gadget-addprefix": "<strong>AddPrefix:</strong> Prefissi song criati automaticamente ppe links quanno si cria 'na paggena"
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Azzecca automaticamente prefissi 'e links quanno si cria 'na paggena"
 }

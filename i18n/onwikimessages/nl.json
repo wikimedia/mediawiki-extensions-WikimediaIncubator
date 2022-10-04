@@ -1,16 +1,34 @@
 {
 	"@metadata": {
 		"authors": [
+			"Mainframe98",
 			"SPQRobin"
 		]
 	},
 	"wminc-code-macrolanguage": "De [[wikipedia:$2 language|taal \"$3\"]] is een [[wikipedia:ISO 639 macrolanguage|macrotaal]], die bestaat uit de volgende talen:",
 	"wminc-code-collective": "De code \"$1\" verwijst niet naar een specifieke taal, maar naar een verzameling talen, namelijk de [[wikipedia:$2 language|\"$3\" talen.]]",
 	"wminc-code-retired": "Deze taalcode is gewijzigd en verwijst niet meer naar de oorspronkelijke taal.",
+	"wminc-custom-editnotice-2": "Gebruik $1 om aan te geven welke talen u kunt gebruiken. Als uw moedertaal bijvoorbeeld Frans is en u goed Engels spreekt, gebruik dan $2.",
 	"wminc-custom-featuredwikis-approved": "Deze zijn goedgekeurd of hebben een eigen site:",
 	"wminc-custom-featuredwikis-active": "Deze zijn actief en maken kans om een eigen site te krijgen:",
 	"wminc-custom-featuredwikis-permanent": "Deze blijven hier waarschijnlijk:",
 	"wminc-custom-newarticletext-noprefix": "<strong>Merk op:</strong> U bent bezig met het aanmaken van een pagina zonder [[$1|voorvoegsel]].",
+	"wminc-custom-newarticletext-withprefix-1": "Typ $1 en klik daarna op \"{{int:publishpage}}\".",
+	"wminc-custom-newarticletext-withprefix-2": "Vervang \"$1\" en klik daarna op \"{{int:publishpage}}\".",
 	"wminc-custom-newarticletext-withprefix-3": "U bent bezig met het aanmaken van een nieuwe pagina ([[$1|met voorvoegsel]]) met als naam \"{{FULLPAGENAME}}\".",
-	"gadget-addprefix": "<strong>AddPrefix:</strong> Automatisch voorvoegsels toevoegen aan links bij het aanmaken van een pagina"
+	"wminc-custom-tb-incorrect-title-title": "U probeert een pagina aan te maken met een onjuiste titel.",
+	"wminc-custom-tb-invalid-code-title": "U probeert een pagina te maken zonder een geldige [[$1|ISO 639-1 of -3 code]].",
+	"wminc-custom-tb-space-colon": "Om technische redenen mag een titel niet beginnen met een spatie of een dubbele punt.",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Automatisch voorvoegsels toevoegen aan links bij het aanmaken van een pagina",
+	"wminc-gadget-addprefix-help": "U hoeft het voorvoegsel niet te gebruiken bij het bewerken van deze pagina. Het wordt automatisch toegevoegd wanneer u de pagina publiceert.",
+	"wminc-gadget-addprefix-toggle": "Toon/verberg het voorvoegsel",
+	"wminc-gadget-iw-add-wikidata": "Wikidata-koppeling toevoegen",
+	"wminc-gadget-iw-dialog-cancel": "Annuleren",
+	"wminc-gadget-iw-dialog-publish": "Publiceren",
+	"wminc-gadget-iw-dialog-title": "Interwikikoppelingen toevoegen",
+	"wminc-gadget-iw-dialog-qid-placeholder": "zoals $1",
+	"wminc-gadget-iw-dialog-editpage": "Pagina bewerken",
+	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata doorzoeken",
+	"wminc-gadget-iw-error-reload": "Laad de pagina opnieuw en probeer het opnieuw.",
+	"wminc-gadget-iw-editsummary": "Interwiki-links toevoegen aan [[d:$1]]"
 }

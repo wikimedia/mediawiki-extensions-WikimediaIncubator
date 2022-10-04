@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ykhwong",
 			"아라"
 		]
 	},
@@ -10,5 +11,13 @@
 	"wminc-custom-featuredwikis-approved": "아래 위키들은 승인 및/또는 생성되었습니다.",
 	"wminc-custom-featuredwikis-active": "아래 위키들은 활동 빈도가 높아 곧 독립 사이트로 승격될 가능성이 있습니다.",
 	"wminc-custom-featuredwikis-permanent": "아래 위키들은 인큐베이터에 잔류할 것으로 보입니다.",
-	"gadget-addprefix": "<strong>AddPrefix:</strong> 문서를 만들 때 자동으로 링크에 접두어를 추가해 줍니다."
+	"gadget-addprefix": "<strong>AddPrefix:</strong> 문서를 만들 때 자동으로 링크에 접두어를 추가해 줍니다.",
+	"wminc-gadget-iw-add-wikidata": "위키데이터 링크 추가",
+	"wminc-gadget-iw-dialog-cancel": "취소",
+	"wminc-gadget-iw-dialog-publish": "게시",
+	"wminc-gadget-iw-dialog-editpage": "문서 편집하기",
+	"wminc-gadget-iw-dialog-learn-more": "위키데이터에 대해 더 알아보기",
+	"wminc-gadget-iw-dialog-wikidata-search": "위키데이터 검색",
+	"tag-gadget-interwiki": "인터위키 소도구",
+	"wminc-gadget-twpref-setlang": "언어 설정: $1"
 }

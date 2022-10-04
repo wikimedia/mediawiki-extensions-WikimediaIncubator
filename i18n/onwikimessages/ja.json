@@ -19,5 +19,6 @@
 	"wminc-gadget-iw-dialog-cancel": "キャンセル",
 	"wminc-gadget-iw-dialog-publish": "公開",
 	"wminc-gadget-iw-dialog-editpage": "このページを編集",
-	"wminc-gadget-iw-dialog-learn-more": "ウィキデータについてもっと学ぶ"
+	"wminc-gadget-iw-dialog-learn-more": "ウィキデータについてもっと学ぶ",
+	"wminc-gadget-iw-dialog-wikidata-search": "ウィキデータ内を検索"
 }
