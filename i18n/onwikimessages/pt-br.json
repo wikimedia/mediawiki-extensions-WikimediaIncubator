@@ -41,6 +41,7 @@
 	"wminc-gadget-iw-error-title": "Erro do gadget de interwikis",
 	"wminc-gadget-iw-error-invalid": "O identificador do elemento Wikidata que inseriu ou a página que foi ligada não existe, ou a página não está ligada à wiki Wikidata. Tente novamente, por favor.",
 	"wminc-gadget-iw-error-reload": "Por favor, recarregue a página e tente denovo.",
+	"wminc-gadget-iw-editsummary": "Adição de links de interwikis para [[d:$1]]",
 	"tag-gadget-interwiki": "Gadget de interwikis",
 	"tag-gadget-interwiki-description": "Edições que adicionam links interwikis usando o gadget de interwikis.",
 	"gadget-settestwikipreference": "Adiciona um botão \"Definir idioma\" e \"Definir (projeto de teste) como seu projeto de teste\" à barra lateral ao visualizar wikis de teste.",

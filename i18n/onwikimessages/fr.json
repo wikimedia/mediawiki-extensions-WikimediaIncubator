@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"SleaY",
 			"Verdy p"
 		]
 	},
@@ -30,7 +31,7 @@
 	"wminc-gadget-iw-add-wikidata": "Ajouter un lien Wikidata",
 	"wminc-gadget-iw-dialog-cancel": "Annuler",
 	"wminc-gadget-iw-dialog-publish": "Publier",
-	"wminc-gadget-iw-dialog-title": "Ajouter un lien interwiki",
+	"wminc-gadget-iw-dialog-title": "Ajouter des liens interwikis",
 	"wminc-gadget-iw-dialog-text": "Utilisez ce formulaire pour ajouter des liens interwiki via un élément Wikidata. Collez simplement un identifiant (« Q''nn'' ») d’élément Wikidata ou une URL vers un élément ou un article existant dans une autre langue ci-dessous et appuyez sur « {{Int:Wminc-gadget-iw-dialog-publish}} ».",
 	"wminc-gadget-iw-dialog-qid-placeholder": "par ex. $1",
 	"wminc-gadget-iw-dialog-editpage": "Modifier la page",

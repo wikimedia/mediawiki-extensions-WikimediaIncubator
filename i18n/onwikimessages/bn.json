@@ -24,6 +24,6 @@
 	"wminc-gadget-iw-dialog-wikidata-search": "উইকিউপাত্ত অনুসন্ধান",
 	"wminc-gadget-iw-error-title": "আন্তঃউইকি গ্যাজেটে ত্রুটি",
 	"wminc-gadget-iw-error-reload": "দয়া করে পাতাটি পুনরায় লোড করে আবার চেষ্টা করুন।",
-	"wminc-gadget-iw-editsummary": "আন্তঃউইকি [[d:$1]] যোগ করা হয়েছে",
+	"wminc-gadget-iw-editsummary": "আন্তঃউইকি লিঙ্ক যোগ করা হয়েছে ([[d:$1]])",
 	"tag-gadget-interwiki": "আন্তঃউইকি গ্যাজেট"
 }
