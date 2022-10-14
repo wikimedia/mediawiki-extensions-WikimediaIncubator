@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cakkaparla"
+			"Cakkaparla",
+			"ReyLon Mrat",
+			"YaThaWinTha"
 		]
 	},
+	"wminc-gadget-iw-dialog-cancel": "ဖျက်သိမ်းပါ။",
+	"wminc-gadget-iw-dialog-publish": "လူသိရှင်ကြားမျှဝေ",
+	"wminc-gadget-iw-dialog-editpage": "ဒေစာမျက်နှာကိုတီးဖြတ်ပါ",
 	"wminc-gadget-iw-dialog-wikidata-search": "ဝီကီဒေတာကိုရှာပါ"
 }

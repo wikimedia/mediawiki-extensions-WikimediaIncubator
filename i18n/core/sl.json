@@ -25,7 +25,7 @@
 	"wminc-error-wiki-sister": "Ta stran pripada projektu, katerega tukaj ne gostujemo. Prosimo, pojdite na $1, da najdete wiki.",
 	"randombytest": "Naključna stran preizkusnega wikija",
 	"randombytest-nopages": "Na vašem wikiju ni strani v imenskem prostoru: $1.",
-	"wminc-viewuserlang": "Poišči jezik in preizkusni wiki uporabnika",
+	"wminc-viewuserlang": "Iskanje jezika in preizkusnega vikija uporabnika",
 	"wminc-viewuserlang-user": "Uporabniško ime:",
 	"wminc-viewuserlang-go": "Pojdi",
 	"wminc-userdoesnotexist": "Uporabnik »$1« ne obstaja.",
