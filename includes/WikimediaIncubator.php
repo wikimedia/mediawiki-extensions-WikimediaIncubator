@@ -398,7 +398,7 @@ class WikimediaIncubator {
 	 * @param int $ns numeric value of namespace
 	 * @return Title
 	 */
-	private static function displayPrefixedTitle( $title, $ns = 0 ) {
+	public static function displayPrefixedTitle( $title, $ns = 0 ) {
 		global $wgLang, $wmincTestWikiNamespaces;
 		// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
 		if ( in_array( $ns, $wmincTestWikiNamespaces ) ) {

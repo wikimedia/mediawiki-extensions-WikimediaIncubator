@@ -1,6 +1,6 @@
 {
 	"name": "Wikimedia Incubator",
-	"version": "6.1.0",
+	"version": "6.2.0",
 	"author": [
 		"SPQRobin",
 		"Hydriz",
@@ -155,7 +155,7 @@
 				"UserOptionsLookup"
 			]
 		},
-		"MyMainPage": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialMyMainPage",
+		"MyWiki": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialMyWiki",
 		"RandomByTest": {
 			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialRandomByTest",
 			"services": [
