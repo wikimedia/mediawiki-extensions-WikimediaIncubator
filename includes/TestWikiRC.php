@@ -72,7 +72,9 @@ class TestWikiRC {
 		} elseif ( WikimediaIncubator::validatePrefix( $prefix, true ) ) {
 			// Else, display changes to the selected test wiki in the appropriate namespaces
 			$dbr = wfGetDB( DB_REPLICA );
-			// @phan-suppress-next-line PhanPossiblyUndeclaredVariable
+			// The next line (the phan-suppress one) is buggy some times. If phan-docker
+			// complains, try re-adding it by adding/removing the initial @.
+			// phan-suppress-next-line PhanPossiblyUndeclaredVariable
 			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
 			$conds[] = 'rc_title ' . $dbr->buildLike( $prefix . '/', $dbr->anyString() ) .
 			' OR rc_title = ' . $dbr->addQuotes( $prefix );

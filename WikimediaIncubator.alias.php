@@ -12,7 +12,7 @@ $specialPageAliases = [];
 $specialPageAliases['en'] = [
 	'IncubatorFirstSteps' => [ 'IncubatorFirstSteps' ],
 	'ViewUserLang' => [ 'ViewUserLang' ],
-	'MyMainPage' => [ 'MyMainPage' ],
+	'MyWiki' => [ 'MyWiki', 'MyMainPage' ],
 	'RandomByTest' => [ 'RandomByTest' ],
 	'SearchWiki' => [ 'SearchWiki' ],
 ];
