@@ -1,10 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hanberke"
+			"Hanberke",
+			"TayfunEt."
 		]
 	},
 	"wminc-testwiki": "Test wiki:",
 	"wminc-viewuserlang-user": "Ulanyjy ady:",
-	"wminc-viewuserlang-go": "Git"
+	"wminc-viewuserlang-go": "Git",
+	"wminc-searchwiki": "Wiki gözläň",
+	"wminc-searchwiki-noproject": "Taslama saýlamadyňyz.",
+	"wminc-searchwiki-noresults": "Netije ýok. Dil kodlary, ene atlary we atlary interfeýs dilinde ýa-da iňlis dilinde gözläp bilersiňiz.",
+	"wminc-searchwiki-selectproject": "Şuny gözle:",
+	"wminc-fs-langselect-title": "Dil saýlaň",
+	"wminc-fs-userpage-title": "Ulanyjy sahypaňyzy dörediň"
 }

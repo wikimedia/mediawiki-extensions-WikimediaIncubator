@@ -4,5 +4,9 @@
 			"Ajiniyaz Nurniyazov"
 		]
 	},
-	"wminc-gadget-iw-dialog-cancel": "Biykarlaw"
+	"wminc-gadget-iw-dialog-cancel": "Biykarlaw",
+	"wminc-gadget-iw-dialog-editpage": "Betti redaktorlaw",
+	"wminc-gadget-iw-dialog-replace-editinstead": "Eger bul nadurıs bolsa, siltemenı qolda ońlaw ushın betti redaktorlań.",
+	"wminc-gadget-iw-error-reload": "Betti qayta júkleń hám qaytadan urınıp kóriń.",
+	"wminc-gadget-twpref-setlang-tooltip": "Interfeys tilin $1 ge sazlań"
 }
