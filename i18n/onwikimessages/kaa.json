@@ -4,9 +4,21 @@
 			"Ajiniyaz Nurniyazov"
 		]
 	},
+	"wminc-custom-featuredwikis-permanent": "Bular usı jerde qaladı:",
+	"wminc-custom-newarticletext-withprefix-1": "$1 kiritiń hám keyin “{{int:publishpage}}” knopkasın basıń.",
+	"wminc-custom-newarticletext-withprefix-2": "$1 kiritiń hám keyin “{{int:publishpage}}” knopkasın basıń.",
+	"wminc-custom-tb-invalid-code-text": "Bul kod jaramsız yamasa jańa Wikimedia joybarları ushın qabıl etilgen tilge tiyisli emes.\n\nEger siz bul jerge basqa betten kelgen bolsańız, márhámát, artqa qaytıń hám siltemeni dúzetiń hám keyin tuwrı atalǵan betti jaratıń.\n\nNabada bul siziń názerińizde ISO 639-1 yamasa -3 kodına iye yamasa qabıl etilgen tilge tiyisli bet jaratılıwına tosqınlıq qılıp atırǵan bolsa, márhámát,[[$1|administratorlarǵa xabar beriń]].",
+	"wminc-custom-tb-space-colon": "Texnikalıq sebeplerge kóre bas bet bos jay menen yamasa eki noqat penen baslanbaydı.",
+	"wminc-gadget-addprefix-toggle": "Prefiksti kórsetiw/jasırıw",
+	"wminc-gadget-iw-add-wikidata": "Wikiderek siltemesin qosıń",
 	"wminc-gadget-iw-dialog-cancel": "Biykarlaw",
+	"wminc-gadget-iw-dialog-publish": "Jariyalaw",
+	"wminc-gadget-iw-dialog-qid-placeholder": "mısalı $1",
 	"wminc-gadget-iw-dialog-editpage": "Betti redaktorlaw",
 	"wminc-gadget-iw-dialog-replace-editinstead": "Eger bul nadurıs bolsa, siltemenı qolda ońlaw ushın betti redaktorlań.",
+	"wminc-gadget-iw-dialog-wikidata-search": "Wikiderekten izlew",
 	"wminc-gadget-iw-error-reload": "Betti qayta júkleń hám qaytadan urınıp kóriń.",
-	"wminc-gadget-twpref-setlang-tooltip": "Interfeys tilin $1 ge sazlań"
+	"wminc-gadget-twpref-setlang-tooltip": "Interfeys tilin $1 ge sazlań",
+	"wminc-gadget-twpref-setwiki": "Sınaq joybarıńız retinde $1 belgileń",
+	"wminc-gadget-twpref-setwiki-tooltip": "$1 di sınaq joybarıńız etip belgileń, sonda siz jaratqan jańa betler bul joybardıń bir bólegi boladı"
 }
