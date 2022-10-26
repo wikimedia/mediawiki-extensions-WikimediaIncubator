@@ -11,6 +11,7 @@
 	"wminc-custom-newarticletext-withprefix-1": "$1 টাইপ করুন এবং তারপর \"{{int:publishpage}}\" ক্লিক করুন।",
 	"wminc-custom-newarticletext-withprefix-2": "\"$1\" প্রতিস্থাপন করুন এবং তারপর \"{{int:publishpage}}\" ক্লিক করুন।",
 	"wminc-custom-newarticletext-withprefix-3": "আপনি \"{{FULLPAGENAME}}\" নামে একটি নতুন ([[$1|উপসর্গযুক্ত]]) পাতা তৈরি করতে চলেছেন।",
+	"wminc-custom-tb-incorrect-title-title": "আপনি ভুল শিরোনামে একটি পাতা তৈরি করার চেষ্টা করছেন।",
 	"gadget-addprefix": "<strong>উপসর্গ যোগ</strong>: একটি পাতা তৈরির সময় স্বয়ংক্রিয়ভাবে লিংকের সাথে উপসর্গ যুক্ত করবে।",
 	"wminc-gadget-addprefix-toggle": "উপসর্গ দেখান/লুকান",
 	"wminc-gadget-iw-add-wikidata": "উইকিউপাত্ত সংযোগ যোগ করুন",
@@ -25,5 +26,6 @@
 	"wminc-gadget-iw-error-title": "আন্তঃউইকি গ্যাজেটে ত্রুটি",
 	"wminc-gadget-iw-error-reload": "দয়া করে পাতাটি পুনরায় লোড করে আবার চেষ্টা করুন।",
 	"wminc-gadget-iw-editsummary": "আন্তঃউইকি লিঙ্ক যোগ করা হয়েছে ([[d:$1]])",
-	"tag-gadget-interwiki": "আন্তঃউইকি গ্যাজেট"
+	"tag-gadget-interwiki": "আন্তঃউইকি গ্যাজেট",
+	"wminc-gadget-twpref-setwiki": "আপনার পরীক্ষা প্রকল্প হিসেবে $1 নির্ধারণ করুন"
 }

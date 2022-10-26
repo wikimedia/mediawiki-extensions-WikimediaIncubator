@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Tofeiku"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Bahasa \"$3\"]] ialah sejenis [[wikipedia:ISO 639 macrolanguage|bahasa makro]], yang terdiri daripada bahasa-bahasa ahli yang berikut:",
@@ -11,5 +12,21 @@
 	"wminc-custom-featuredwikis-active": "Wiki ini adalah wiki yang aktif dan mungkin mendapatkan laman web mereka sendiri segera:",
 	"wminc-custom-featuredwikis-permanent": "Wiki ini mungkin akan tetap di sini:",
 	"wminc-custom-newarticletext-noprefix": "<strong>Sila perhatikan:</strong> Kamu sedang mencipta sebuah laman tanpa [[$1|awalan]].",
-	"wminc-custom-newarticletext-withprefix-3": "Kamu sedang mencipta sebuah laman (dengan [[$1|awalan]]) yang dinamakan \"{{FULLPAGENAME}}\"."
+	"wminc-custom-newarticletext-withprefix-1": "Taip $1 dan kemudian klik \"{{int:publishpage}}\".",
+	"wminc-custom-newarticletext-withprefix-2": "Gantikan \"$1\" dan kemudian klik pada \"{{int:publishpage}}\".",
+	"wminc-custom-newarticletext-withprefix-3": "Kamu sedang mencipta sebuah laman (dengan [[$1|awalan]]) yang dinamakan \"{{FULLPAGENAME}}\".",
+	"wminc-custom-tb-incorrect-title-title": "Anda sedang cuba mencipta laman dengan tajuk yang salah.",
+	"wminc-gadget-addprefix-toggle": "Tunjukkan/sorokkan awalan",
+	"wminc-gadget-iw-add-wikidata": "Tambah pautan Wikidata",
+	"wminc-gadget-iw-dialog-cancel": "Batalkan",
+	"wminc-gadget-iw-dialog-publish": "Terbitkan",
+	"wminc-gadget-iw-dialog-title": "Tambah pautan antara wiki",
+	"wminc-gadget-iw-dialog-qid-placeholder": "contoh $1",
+	"wminc-gadget-iw-dialog-editpage": "Sunting laman",
+	"wminc-gadget-iw-dialog-learn-more": "Ketahui lebih lanjut tentang Wikidata",
+	"wminc-gadget-iw-dialog-wikidata-search": "Cari Wikidata",
+	"wminc-gadget-twpref-setlang": "Tetapkan bahasa: $1",
+	"wminc-gadget-twpref-setlang-tooltip": "Tetapkan bahasa antara muka anda kepada $1",
+	"wminc-gadget-twpref-setwiki": "Tetapkan $1 sebagai projek ujian anda",
+	"wminc-gadget-twpref-setwiki-tooltip": "Tetapkan $1 untuk menjadi projek ujian anda agar laman baru yang anda cipta akan menjadi sebahagian daripada projek ini"
 }
