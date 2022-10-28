@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Kareyac",
-			"Vadgt"
+			"Vadgt",
+			"Սերգեյ Սաֆարյան"
 		]
 	},
+	"wminc-viewuserlang-user": "Օգտանուն՝",
 	"wminc-viewuserlang-go": "Անցնել",
 	"wminc-infopage-title-b": "Վիքիգրքեր $1",
 	"wminc-infopage-title-t": "Վիքիբառարան $1",
