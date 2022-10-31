@@ -951,7 +951,7 @@ class WikimediaIncubator {
 		}
 
 		$t = Title::newFromText( $newTitle, $newNs );
-		if ( $t->isKnown() ) {
+		if ( $t && $t->isKnown() ) {
 			# use the default message if the suggested title exists
 			$params[0] = 'searchmenu-exists';
 			$params[1] = wfEscapeWikiText( $t->getPrefixedText() );
