@@ -65,7 +65,7 @@
 	"wminc-infopage-title-s": "Wikivir $1",
 	"wminc-infopage-title-v": "Wikiverza $1",
 	"wminc-infopage-title-y": "Wikipotovanje $1",
-	"wminc-infopage-welcome": "Dobrodošli na Wikimediinem Inkubatorju, projektu Fundacije Wikimedia ([[{{MediaWiki:Aboutpage}}|O projektu]])",
+	"wminc-infopage-welcome": "Pozdravljeni v Wikimedijinem inkubatorju, projektu Fundacije Wikimedia ([[{{MediaWiki:Aboutpage}}|O projektu]])",
 	"wminc-infopage-missingwiki-text": "$1 v tem jeziku še ne obstaja.",
 	"wminc-infopage-option-startwiki": "Če želite zagnati wiki, sledite\n'''[$3 tem korakom]''' in [[{{MediaWiki:Wminc-manual-url}}|našemu priročniku]].",
 	"wminc-infopage-option-startsister": "Če želite zagnati ta wiki, pojdite na <strong>[$2 $1]</strong>.",
