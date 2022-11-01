@@ -957,7 +957,7 @@ class WikimediaIncubator {
 			$params[1] = wfEscapeWikiText( $t->getPrefixedText() );
 			return true;
 		}
-		$params[] = wfEscapeWikiText( $t->getPrefixedText() );
+		$params[] = wfEscapeWikiText( $t ? $t->getPrefixedText() : $newTitle );
 		$params[0] = $prefix && $prefix != self::NO_PROJECT_SELECTED
 			? 'wminc-search-nocreate-suggest' : 'wminc-search-nocreate-nopref';
 		return true;
