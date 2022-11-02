@@ -7,7 +7,7 @@
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Jezik »$3«]] je [[wikipedia:ISO 639 macrolanguage|makrojezik]], sestavljen iz naslednjih jezikovnih članov:",
 	"wminc-code-collective": "Koda »$1« se ne nanaša na določen jezik, ampak na skupino jezikov, in sicer [[wikipedia:$2 language|jeziki »$3«]].",
-	"wminc-code-retired": "Oznaka jezika je spremenjena in se več ne nanaša na izvirni jezik.",
+	"wminc-code-retired": "Oznaka jezika je bila spremenjena in se več ne nanaša na izvorni jezik.",
 	"wminc-custom-editnotice-2": "Če želite označiti, katere jezike lahko uporabljate, uporabite $1. Če je vaš materni jezik na primer francoščina in dobro govorite angleško, uporabite $2.",
 	"wminc-custom-featuredwikis-approved": "Ti so bili odobreni in/ali ustvarjeni:",
 	"wminc-custom-featuredwikis-active": "Ti so aktivni in jim bo morda kmalu dodeljeno lastno spletno mesto:",
