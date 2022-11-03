@@ -7,9 +7,9 @@
 		]
 	},
 	"wminc-custom-editnotice-2": "မင့်ဇာဘာသာစကားကို အသုံးပြုနိုင်ရေဆိုစွာညွန်ပြဖို့ $1 ကိုသုံးပါ။ ဥပမာ၊ မင့်မိခင်ဘာသာစကားက ပြင်သစ်ဆိုကေ မင့်အင်္ဂလိပ်ဘာသာစကားကို ကောင်းကောင်းပြောနိုင်ကေ $2 ကိုသုံးပါ။",
-	"wminc-custom-featuredwikis-approved": "ဒေချင့်ကိုလက်ခံပြီးဗျာ ယပြီးကေ/မဟုတ်ကေ ဖန်တီးပြီးဗျာ",
+	"wminc-custom-featuredwikis-approved": "ဒေချင့်ကိုလက်ခံပြီးဗျာလ် ယပြီးကေ/မဟုတ်ကေ ဖန်တီးပြီးဗျာလ်",
 	"wminc-custom-featuredwikis-permanent": "ဒေချင့်တိစွာ ဒေနီရာမှာဟိမ့်ဖို့။",
-	"wminc-custom-newarticletext-withprefix-3": "သင်အသစ်ဖန်တီးနီရေ\n([[$1|prefixed]]) စာမျက်နှာကိုခေါ်စွာက \"{{FULLPAGENAME}}\".",
+	"wminc-custom-newarticletext-withprefix-3": "မင်းအသစ်ဖန်တီးနီရေ\n([[$1|prefixed]]) စာမျက်နှာကိုခေါ်စွာက \"{{FULLPAGENAME}}\".",
 	"wminc-custom-tb-incorrect-title-title": "မင်း ဂေါင်းစိုင်အမှားနန့် စာမျက်နှာတခုဖန်တီးဖို့လုပ်နီရေ။",
 	"wminc-custom-tb-invalid-code-title": "မင်း ဆီလျော်မှုမဟိရေ စာမှက်နှာတခုဖန်တီးနီရေ  [[$1|ISO 639-1 or -3 code]].",
 	"wminc-custom-tb-space-colon": "နည်းပညာကြောင့် ဂေါင်းစိုင်ကို နီရာခြားစွာ ဖူးကော်လန်ရို့ထေ့ပနာစလို့မရပါ။",
