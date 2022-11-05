@@ -16,32 +16,36 @@ namespace MediaWiki\Extension\WikimediaIncubator;
 use HTMLForm;
 use Language;
 use Linker;
+use MediaWiki\User\UserNamePrefixSearch;
 use MediaWiki\User\UserNameUtils;
 use MediaWiki\User\UserOptionsLookup;
 use SpecialPage;
 use Title;
 use User;
-use UserNamePrefixSearch;
 use Xml;
 
 class SpecialViewUserLang extends SpecialPage {
+	/** @var UserNamePrefixSearch */
+	private $userNamePrefixSearch;
+
 	/** @var UserNameUtils */
 	private $userNameUtils;
 
-	/**
-	 * @var UserOptionsLookup
-	 */
+	/** @var UserOptionsLookup */
 	private $userOptionsLookup;
 
 	/**
+	 * @param UserNamePrefixSearch $userNamePrefixSearch
 	 * @param UserNameUtils $userNameUtils
 	 * @param UserOptionsLookup $userOptionsLookup
 	 */
 	public function __construct(
+		UserNamePrefixSearch $userNamePrefixSearch,
 		UserNameUtils $userNameUtils,
 		UserOptionsLookup $userOptionsLookup
 	) {
 		parent::__construct( 'ViewUserLang', 'viewuserlang' );
+		$this->userNamePrefixSearch = $userNamePrefixSearch;
 		$this->userNameUtils = $userNameUtils;
 		$this->userOptionsLookup = $userOptionsLookup;
 	}
@@ -152,7 +156,7 @@ class SpecialViewUserLang extends SpecialPage {
 			return [];
 		}
 		// Autocomplete subpage as user list - public to allow caching
-		return UserNamePrefixSearch::search( 'public', $search, $limit, $offset );
+		return $this->userNamePrefixSearch->search( UserNamePrefixSearch::AUDIENCE_PUBLIC, $search, $limit, $offset );
 	}
 
 	protected function getGroupName() {

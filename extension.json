@@ -151,6 +151,7 @@
 		"ViewUserLang": {
 			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialViewUserLang",
 			"services": [
+				"UserNamePrefixSearch",
 				"UserNameUtils",
 				"UserOptionsLookup"
 			]
