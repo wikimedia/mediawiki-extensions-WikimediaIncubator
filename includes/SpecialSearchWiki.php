@@ -152,21 +152,21 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		$lcLanguageQuery = self::strip( $languageQuery );
 
 		$codeByEnglishName = array_search(
-			$lcLanguageQuery, array_map( 'self::strip', $this->mEnglishNames )
+			$lcLanguageQuery, array_map( [ self::class, 'strip' ], $this->mEnglishNames )
 		);
 		if ( $codeByEnglishName ) {
 			$results[$codeByEnglishName] = 'englishname'; # Match name in English
 		}
 
 		$codeUserLang = array_search(
-			$lcLanguageQuery, array_map( 'self::strip', $this->mNamesUserLang )
+			$lcLanguageQuery, array_map( [ self::class, 'strip' ], $this->mNamesUserLang )
 		);
 		if ( $codeUserLang ) {
 			$results[$codeUserLang] = 'userlangname'; # Match name in user language
 		}
 
 		$codeByNativeName = array_search(
-			$lcLanguageQuery, array_map( 'self::strip', $this->mNativeNames )
+			$lcLanguageQuery, array_map( [ self::class, 'strip' ], $this->mNativeNames )
 		);
 		if ( $codeByNativeName ) {
 			$results[$codeByNativeName] = 'nativename'; # Match native name
