@@ -21,7 +21,7 @@ class SpecialRandomByTest extends SpecialRandomPage {
 	 */
 	public function __construct( UserOptionsLookup $userOptionsLookup ) {
 		global $wmincPref, $wmincProjectSite;
-		$target = $this->getRequest()->getVal( 'testwiki' );
+		$target = $this->getRequest()->getVal( 'testwiki', '' );
 		$target = WikimediaIncubator::analyzePrefix( $target );
 		$project = $target['project'] ?? '';
 		$lang = $target['lang'] ?? '';
