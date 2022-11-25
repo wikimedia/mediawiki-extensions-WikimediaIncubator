@@ -1,6 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Yupik"
+		]
 	},
-	"wminc-custom-newarticletext-noprefix": "<strong>FUOM:</strong> Don leat álggaheamen siiddu [[$1|prefiksa]] haga."
+	"wminc-custom-newarticletext-noprefix": "<strong>FUOM:</strong> Don leat álggaheamen siiddu [[$1|prefiksa]] haga.",
+	"wminc-gadget-iw-dialog-learn-more": "Lassedieđut Wikidata birra"
 }
