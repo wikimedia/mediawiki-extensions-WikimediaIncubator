@@ -9,6 +9,7 @@
 			"Shirayuki",
 			"Sujiniku",
 			"Tmv",
+			"春春眠眠",
 			"青子守歌",
 			"아라"
 		]
@@ -38,7 +39,8 @@
 	"wminc-viewuserlang-go": "表示",
 	"wminc-userdoesnotexist": "利用者アカウント「$1」は存在しません。",
 	"wminc-ip": "「$1」はIPアドレスです。",
-	"right-viewuserlang": "利用者の言語を閲覧しウィキをテスト",
+	"action-viewuserlang": "利用者の言語と試験版ウィキを閲覧",
+	"right-viewuserlang": "利用者の言語と試験版ウィキを閲覧",
 	"group-test-sysop": "試験版ウィキ管理者",
 	"group-test-sysop-member": "{{GENDER:$1|試験版ウィキ管理者}}",
 	"grouppage-test-sysop": "{{ns:project}}:試験版ウィキ管理者",
