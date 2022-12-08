@@ -33,7 +33,7 @@
 	"action-viewuserlang": "ogled uporabniškega jezika in preizkusnega vikija",
 	"right-viewuserlang": "Vpogled v jezik in preizkusni wiki uporabnika",
 	"group-test-sysop": "Administratorji preizkusnega vikija",
-	"group-test-sysop-member": "{{GENDER:$1|administrator|administratorka|administrator/ka}} preizkusnega vikija",
+	"group-test-sysop-member": "{{GENDER:$1|administrator|administratorka|administrator_ka}} preizkusnega vikija",
 	"grouppage-test-sysop": "{{ns:project}}:Administratorji preizkusnega vikija",
 	"group-test-sysop.css": "/* Tukaj postavljeni CSS bo vplival samo na administratorje preizkusnega vikija */",
 	"group-test-sysop.js": "/* Tukaj postavljeni JS bo vplival samo na administratorje preizkusnega vikija */",
