@@ -27,6 +27,7 @@
 	"grouppage-test-sysop": "{{ns:project}}:စမ်းသပ်ဝီကီ အက်ဒမင်များ",
 	"wminc-searchwiki": "ဝီကီတစ်ခုအတွက် ရှာဖွေရန်",
 	"wminc-searchwiki-noproject": "သင်သည် ပရောဂျက်တစ်ခုကို မရွေးချယ်ခဲ့ပါ။",
+	"wminc-searchwiki-noresults": "ရလဒ်မရှိပါ။ သင်သည် ဘာသာစကား ကုဒ်များ၊ မူရင်းအမည်များနှင့် အမည်များကို သင်၏ အင်တာဖေ့စ်ဘာသာစကား သို့မဟုတ် အင်္ဂလိပ်ဘာသာဖြင့် ရှာဖွေနိုင်သည်။",
 	"wminc-searchwiki-selectproject": "ရှာဖွေရန်မှာ:",
 	"wminc-searchwiki-inputlanguage": "ဘာသာစကားထဲတွင်:",
 	"wminc-searchwiki-go": "သွားပါ",

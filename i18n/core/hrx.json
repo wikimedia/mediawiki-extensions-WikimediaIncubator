@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iohanen"
+		]
+	},
+	"wminc-desc": "Sistem fun Testwikis fer de Wikimedia Incubator",
+	"wminc-manual": "Manuaal",
+	"wminc-listwikis": "List fun Wikis",
+	"wminc-testwiki": "Tëstwiki:",
+	"wminc-testwiki-code": "Sproch fun dem Testwiki:",
+	"wminc-testwiki-none": "Alle Wikis",
+	"wminc-testwiki-site": "(Unnerhallung)",
+	"wminc-recentchanges-all": "Alle letste Ennrunge",
+	"wminc-prefinfo-code": "De ISO-639-Code fun de Sproch mit där du hier aarvetest",
+	"wminc-prefinfo-project": "Weele das Wikimedia-Projekt aus, aan dem du hier aarvetest",
+	"wminc-prefinfo-error": "Bei do dem Projekt muss en Sprochcode aangewe werre."
+}
