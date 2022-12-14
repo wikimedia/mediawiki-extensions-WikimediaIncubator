@@ -27,6 +27,7 @@
 	"wminc-gadget-iw-dialog-wikidata-search": "ဝီကီဒေတာတွင် ရှာဖွေရန်",
 	"wminc-gadget-iw-error-invalid": "သင်ထည့်သွင်းထားသော ဝီကီဒေတာ ID သို့မဟုတ် လင့်ခ်ချိတ်ထားသည့် စာမျက်နှာ မရှိပါ သို့မဟုတ် စာမျက်နှာသည် ဝီကီဒေတာနှင့် မချိတ်ဆက်ထားပါ။ ထပ်မံစမ်းကြည့်ပါ။",
 	"wminc-gadget-iw-error-reload": "ကျေးဇူးပြု၍ စာမျက်နှာကို ပြန်လည်စတင်ပြီး ထပ်စမ်းကြည့်ပါ။",
+	"wminc-gadget-iw-editsummary": "[[d:$1]] သို့ အင်တာဝီကီလင့်ခ်များ ထည့်ခြင်း",
 	"wminc-gadget-twpref-setlang": "ဘာသာစကား သတ်မှတ်ရန်- $1",
 	"wminc-gadget-twpref-setlang-tooltip": "သင်၏ အင်တာဖေ့စ်ဘာသာစကားကို $1 ဟု သတ်မှတ်ပါ",
 	"wminc-gadget-twpref-setwiki": "$1ကို သင်၏စမ်းသပ်ပရောဂျက်အဖြစ် သတ်မှတ်ပါ",
