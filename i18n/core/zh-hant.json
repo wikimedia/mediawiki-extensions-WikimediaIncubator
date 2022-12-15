@@ -18,7 +18,8 @@
 			"Winston Sung",
 			"Wrightbus",
 			"Xiaomingyan",
-			"Xiplus"
+			"Xiplus",
+			"捍粵者"
 		]
 	},
 	"wminc-desc": "維基孵育場的測試 wiki 系統",
@@ -54,9 +55,9 @@
 	"wminc-listusers-testwiki": "您正檢視有將測試 Wiki 偏好設定設為 $1 的使用者。",
 	"wminc-search-nocreate-nopref": "您在尋找 \"$1\"。請設定您的 [[Special:Preferences|測試 Wiki 偏好設定]]，以便我們通知您可建立的頁面！",
 	"wminc-search-nocreate-suggest": "您在尋找 \"$1\"。您可以於 <strong>[[$3]]</strong> 建立您的 Wiki 頁面！",
-	"wminc-searchwiki": "搜尋一個 wiki",
+	"wminc-searchwiki": "搜尋wiki",
 	"wminc-searchwiki-noproject": "您尚未選擇專案。",
-	"wminc-searchwiki-noresults": "查無結果。您可依語言代碼、語言名稱和您的介面語言或英文進行搜尋。",
+	"wminc-searchwiki-noresults": "查無結果。您可依您介面的語言或英文以語言代碼或語言名稱搜尋。",
 	"wminc-searchwiki-selectproject": "搜尋：",
 	"wminc-searchwiki-inputlanguage": "使用語言：",
 	"wminc-searchwiki-go": "前往",
