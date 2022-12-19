@@ -27,7 +27,7 @@
 	"wminc-gadget-addprefix-help": "Pri urejanju te strani vam ni treba uporabljati predpone. Doda se samodejno, ko objavite stran.",
 	"wminc-gadget-addprefix-toggle": "Pokaži/skrij predpono",
 	"gadget-interwiki": "<strong>Interviki:</strong> doda funkcionalnost za dodajanje in prikaz medjezikovnih povezav iz Wikipodatkov.",
-	"wminc-gadget-iw-add-wikidata": "Dodaj povezavo Wikipodatki",
+	"wminc-gadget-iw-add-wikidata": "Dodaj povezavo na Wikipodatke",
 	"wminc-gadget-iw-dialog-cancel": "Prekliči",
 	"wminc-gadget-iw-dialog-publish": "Objavi",
 	"wminc-gadget-iw-dialog-title": "Dodajanje interviki povezav",
