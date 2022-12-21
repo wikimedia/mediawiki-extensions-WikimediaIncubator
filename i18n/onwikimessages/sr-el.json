@@ -4,5 +4,8 @@
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Jezik „$3“]] je [[wikipedia:ISO 639 macrolanguage|makrojezik]], koji se sastoji od sledećih jezika:",
 	"wminc-code-collective": "Kod „$1“ se ne odnosi na pojedinačni jezik, već na zbir jezika pod nazivom [[wikipedia:$2 language|„$3“ jezici]].",
-	"wminc-code-retired": "Ovaj jezički kod je izmenjen i više se ne odnosi na prvobitni jezik."
+	"wminc-code-retired": "Ovaj jezički kod je promenjen i više se ne odnosi na prvobitni jezik.",
+	"wminc-custom-featuredwikis-approved": "Ovi su odobreni i napravljeni:",
+	"wminc-custom-featuredwikis-active": "Ovi su aktivni i možda će dobiti svoj sajt uskoro:",
+	"wminc-custom-featuredwikis-permanent": "Ovi će verovatno ovde i ostati:"
 }
