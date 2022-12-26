@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Fryed-peach",
+			"MagicAho",
 			"MathXplore",
 			"Omotecho",
 			"Shirayuki",
@@ -17,7 +18,7 @@
 	"wminc-custom-featuredwikis-permanent": "以下はインキュベーターに留まるはずのウィキです:",
 	"wminc-custom-newarticletext-noprefix": "<strong>注意:</strong> [[$1|接頭辞]]がないページを作成しようとしています",
 	"wminc-custom-newarticletext-withprefix-3": "([[$1|接頭辞]]付きの) ページ「{{FULLPAGENAME}}」を新規作成しようとしています。",
-	"wminc-custom-tb-incorrect-title-title": "間違ったタイトルのページを作成しようとしています。",
+	"wminc-custom-tb-incorrect-title-title": "間違った名前のページを作成しようとしています。",
 	"gadget-addprefix": "<strong>Add Prefix:</strong>\nページを作成する際に、リンクに接頭辞を自動的に追加します。",
 	"wminc-gadget-addprefix-help": "このページを編集するときは、接頭詞を使用する必要はありません。ページを公開すると自動的に追加されます。",
 	"wminc-gadget-addprefix-toggle": "接頭詞の表示/非表示",
