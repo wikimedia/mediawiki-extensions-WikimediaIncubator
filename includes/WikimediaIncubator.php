@@ -15,6 +15,7 @@ namespace MediaWiki\Extension\WikimediaIncubator;
 use Article;
 use Language;
 use Linker;
+use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\User\UserIdentity;
 use OutputPage;
@@ -124,7 +125,8 @@ class WikimediaIncubator {
 	 * @return string HTML
 	 */
 	private static function getTestWikiLanguages() {
-		$list = Language::fetchLanguageNames( null, 'all' );
+		$list = MediaWikiServices::getInstance()->getLanguageNameUtils()
+			->getLanguageNames( LanguageNameUtils::AUTONYMS, LanguageNameUtils::ALL );
 		$t = '<datalist id="wminc-testwiki-codelist">' . "\n";
 		foreach ( $list as $code => $name ) {
 			$t .= Xml::element( 'option', [ 'value' => $code ],

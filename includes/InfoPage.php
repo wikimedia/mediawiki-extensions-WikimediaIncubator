@@ -3,8 +3,8 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use Html;
-use Language;
 use Linker;
+use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\User\UserIdentity;
 use SpecialPage;
@@ -90,9 +90,10 @@ class InfoPage {
 		$this->mIsSister = $wmincProjects[$this->mProjectCode]['sister'];
 		$this->mSubStatus = '';
 		$this->mThisLangData = [ 'type' => 'valid' ]; # For later code check feature
-		$name = Language::fetchLanguageName( $this->mLangCode, $wgLang->getCode(), 'all' );
+		$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
+		$name = $languageNameUtils->getLanguageName( $this->mLangCode, $wgLang->getCode(), LanguageNameUtils::ALL );
 		$this->mLangName = $name ?:
-			Language::fetchLanguageName( $this->mLangCode, 'en', 'all' );
+			$languageNameUtils->getLanguageName( $this->mLangCode, 'en', LanguageNameUtils::ALL );
 		$titleParam = $this->mLangName ?:
 			wfMessage( 'quotation-marks', $this->mLangCode )->text(); # Name, else code
 		# Give grep a chance to find the usages:

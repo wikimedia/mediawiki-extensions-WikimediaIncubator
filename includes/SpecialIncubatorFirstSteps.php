@@ -15,7 +15,7 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use Html;
-use Language;
+use MediaWiki\Languages\LanguageNameUtils;
 use Message;
 use SpecialPage;
 use Title;
@@ -28,8 +28,17 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	 */
 	protected $wikiprefix;
 
-	public function __construct() {
+	/** @var LanguageNameUtils */
+	private $languageNameUtils;
+
+	/**
+	 * @param LanguageNameUtils $languageNameUtils
+	 */
+	public function __construct(
+		LanguageNameUtils $languageNameUtils
+	) {
 		parent::__construct( 'IncubatorFirstSteps' );
+		$this->languageNameUtils = $languageNameUtils;
 	}
 
 	/**
@@ -83,7 +92,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		# Make a list of selectable languages, based on language codes
 		# in a MediaWiki message and on the browser language(s)
 		$getLangCodes = array_flip( explode( ',', $getLangCodes->text() ) );
-		$names = Language::fetchLanguageNames();
+		$names = $this->languageNameUtils->getLanguageNames();
 		$names_keys = array_keys( $names );
 		$browserLanguages = array_keys( $this->getRequest()->getAcceptLang() );
 

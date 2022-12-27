@@ -14,8 +14,8 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use HTMLForm;
-use Language;
 use Linker;
+use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\User\UserNamePrefixSearch;
 use MediaWiki\User\UserNameUtils;
 use MediaWiki\User\UserOptionsLookup;
@@ -34,20 +34,26 @@ class SpecialViewUserLang extends SpecialPage {
 	/** @var UserOptionsLookup */
 	private $userOptionsLookup;
 
+	/** @var LanguageNameUtils */
+	private $languageNameUtils;
+
 	/**
 	 * @param UserNamePrefixSearch $userNamePrefixSearch
 	 * @param UserNameUtils $userNameUtils
 	 * @param UserOptionsLookup $userOptionsLookup
+	 * @param LanguageNameUtils $languageNameUtils
 	 */
 	public function __construct(
 		UserNamePrefixSearch $userNamePrefixSearch,
 		UserNameUtils $userNameUtils,
-		UserOptionsLookup $userOptionsLookup
+		UserOptionsLookup $userOptionsLookup,
+		LanguageNameUtils $languageNameUtils
 	) {
 		parent::__construct( 'ViewUserLang', 'viewuserlang' );
 		$this->userNamePrefixSearch = $userNamePrefixSearch;
 		$this->userNameUtils = $userNameUtils;
 		$this->userOptionsLookup = $userOptionsLookup;
+		$this->languageNameUtils = $languageNameUtils;
 	}
 
 	/**
@@ -111,7 +117,7 @@ class SpecialViewUserLang extends SpecialPage {
 		}
 		$name = $user->getName();
 		$id = $user->getId();
-		$langNames = Language::fetchLanguageNames( $this->getLanguage()->getCode() );
+		$langNames = $this->languageNameUtils->getLanguageNames( $this->getLanguage()->getCode() );
 		if ( !$id ) {
 			# show error if a user with that name does not exist
 			$this->getOutput()->addHTML( Xml::span(

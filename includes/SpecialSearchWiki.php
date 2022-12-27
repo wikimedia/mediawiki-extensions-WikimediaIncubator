@@ -6,6 +6,7 @@ use Html;
 use HTMLForm;
 use IncludableSpecialPage;
 use Language;
+use MediaWiki\Languages\LanguageNameUtils;
 use Title;
 use Xml;
 
@@ -23,8 +24,17 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	/** @var string[] */
 	private $mNativeNames;
 
-	public function __construct() {
+	/** @var LanguageNameUtils */
+	private $languageNameUtils;
+
+	/**
+	 * @param LanguageNameUtils $languageNameUtils
+	 */
+	public function __construct(
+		LanguageNameUtils $languageNameUtils
+	) {
 		parent::__construct( 'SearchWiki' );
+		$this->languageNameUtils = $languageNameUtils;
 	}
 
 	public function getDescription() {
@@ -54,9 +64,12 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 		# Search
 		if ( $projectQuery || $languageQuery ) {
-			$this->mNamesUserLang = Language::fetchLanguageNames( $this->getLanguage()->getCode(), 'all' );
-			$this->mEnglishNames = Language::fetchLanguageNames( 'en', 'all' );
-			$this->mNativeNames = Language::fetchLanguageNames( null, 'all' );
+			$this->mNamesUserLang = $this->languageNameUtils
+				->getLanguageNames( $this->getLanguage()->getCode(), LanguageNameUtils::ALL );
+			$this->mEnglishNames = $this->languageNameUtils
+				->getLanguageNames( 'en', LanguageNameUtils::ALL );
+			$this->mNativeNames = $this->languageNameUtils
+				->getLanguageNames( LanguageNameUtils::AUTONYMS, LanguageNameUtils::ALL );
 			$this->doSearch( $projectQuery, $languageQuery );
 		}
 	}
@@ -111,7 +124,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 */
 	private function getLanguageOptions() {
 		$userLang = $this->getLanguage()->getCode();
-		$languages = Language::fetchLanguageNames( $userLang, 'mwfile' );
+		$languages = $this->languageNameUtils->getLanguageNames( $userLang, LanguageNameUtils::SUPPORTED );
 		ksort( $languages );
 		$options = [];
 		foreach ( $languages as $code => $name ) {
@@ -144,7 +157,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 
 		$lcLanguageQuery = strtolower( $languageQuery );
 		# The more important, the more below, because they override earlier codes
-		$validCodes = array_keys( Language::fetchLanguageNames( 'en', 'all' ) );
+		$validCodes = array_keys( $this->languageNameUtils->getLanguageNames( 'en', LanguageNameUtils::ALL ) );
 		if ( in_array( $lcLanguageQuery, $validCodes ) ) {
 			$builtinCode = Language::factory( $lcLanguageQuery )->getCode();
 			$results[$builtinCode] = 'langcode'; # Match language code
