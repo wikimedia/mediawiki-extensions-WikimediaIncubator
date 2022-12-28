@@ -17,7 +17,7 @@ class ListUsersTestWiki {
 	 */
 	public static function getProjectInput() {
 		global $wmincProjectSite, $wgRequest;
-		$input = strtolower( $wgRequest->getVal( 'testwiki' ) );
+		$input = strtolower( $wgRequest->getVal( 'testwiki', '' ) );
 		if ( $input == strtolower( $wmincProjectSite['name'] )
 			|| $input == strtolower( $wmincProjectSite['short'] )
 		) {
@@ -35,7 +35,7 @@ class ListUsersTestWiki {
 	public static function onSpecialListusersHeaderForm( $pager, &$out ) {
 		$testwiki = WikimediaIncubator::getUrlParam();
 		$project = self::getProjectInput();
-		$input = $project ? $project['name'] : ( $testwiki ? $testwiki['prefix'] : null );
+		$input = $project ? $project['name'] : ( $testwiki ? $testwiki['prefix'] : '' );
 		$out .= Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
 			Xml::input( 'testwiki', 20, $input, [ 'id' => 'testwiki' ] ) . '<br />';
 		return true;
