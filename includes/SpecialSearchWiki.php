@@ -5,7 +5,7 @@ namespace MediaWiki\Extension\WikimediaIncubator;
 use Html;
 use HTMLForm;
 use IncludableSpecialPage;
-use Language;
+use MediaWiki\Languages\LanguageFactory;
 use MediaWiki\Languages\LanguageNameUtils;
 use Title;
 use Xml;
@@ -27,14 +27,20 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	/** @var LanguageNameUtils */
 	private $languageNameUtils;
 
+	/** @var LanguageFactory */
+	private $languageFactory;
+
 	/**
 	 * @param LanguageNameUtils $languageNameUtils
+	 * @param LanguageFactory $languageFactory
 	 */
 	public function __construct(
-		LanguageNameUtils $languageNameUtils
+		LanguageNameUtils $languageNameUtils,
+		LanguageFactory $languageFactory
 	) {
 		parent::__construct( 'SearchWiki' );
 		$this->languageNameUtils = $languageNameUtils;
+		$this->languageFactory = $languageFactory;
 	}
 
 	public function getDescription() {
@@ -159,7 +165,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		# The more important, the more below, because they override earlier codes
 		$validCodes = array_keys( $this->languageNameUtils->getLanguageNames( 'en', LanguageNameUtils::ALL ) );
 		if ( in_array( $lcLanguageQuery, $validCodes ) ) {
-			$builtinCode = Language::factory( $lcLanguageQuery )->getCode();
+			$builtinCode = $this->languageFactory->getLanguage( $lcLanguageQuery )->getCode();
 			$results[$builtinCode] = 'langcode'; # Match language code
 		}
 		$lcLanguageQuery = self::strip( $languageQuery );

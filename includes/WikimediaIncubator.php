@@ -905,7 +905,7 @@ class WikimediaIncubator {
 		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
 		if ( !$prefix['error'] ) {
 			$pageLang = self::validatePrefix( $title, true ) ?
-				$userLang : Language::factory( $prefix['lang'] );
+				$userLang : MediaWikiServices::getInstance()->getLanguageFactory()->getLanguage( $prefix['lang'] );
 		}
 	}
 

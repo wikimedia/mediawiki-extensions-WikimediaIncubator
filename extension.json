@@ -167,7 +167,8 @@
 		"SearchWiki": {
 			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialSearchWiki",
 			"services": [
-				"LanguageNameUtils"
+				"LanguageNameUtils",
+				"LanguageFactory"
 			]
 		},
 		"IncubatorFirstSteps": {
