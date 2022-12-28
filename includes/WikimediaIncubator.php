@@ -158,11 +158,11 @@ class WikimediaIncubator {
 
 	/**
 	 * For the preferences above
-	 * @param string $input
+	 * @param string|null $input
 	 * @return string|true
 	 */
 	public static function filterCodePreference( $input ) {
-		return trim( strtolower( $input ) );
+		return $input === null ? '' : trim( strtolower( $input ) );
 	}
 
 	/**

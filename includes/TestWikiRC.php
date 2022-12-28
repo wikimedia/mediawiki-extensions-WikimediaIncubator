@@ -28,8 +28,8 @@ class TestWikiRC {
 		global $wmincPref, $wgRequest;
 		$url = WikimediaIncubator::getUrlParam();
 		$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
-		$projectPref = $userOptionsLookup->getOption( $user, $wmincPref . '-project' );
-		$codePref = $userOptionsLookup->getOption( $user, $wmincPref . '-code' );
+		$projectPref = $userOptionsLookup->getOption( $user, $wmincPref . '-project' ) ?? '';
+		$codePref = $userOptionsLookup->getOption( $user, $wmincPref . '-code' ) ?? '';
 		$projectvalue = $url ? $url['project'] : $projectPref;
 		$codevalue = $url ? $url['lang'] : $codePref;
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $projectvalue ) );
