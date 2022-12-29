@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Lloffiwr",
 			"Robin Owain"
 		]
@@ -33,6 +34,7 @@
 	"wminc-searchwiki-gotoinfopage": "Tudalen wybodaeth",
 	"wminc-fs-langselect-title": "Dewisiwch iaith",
 	"wminc-fs-signup-title": "Mewngofnodwch",
+	"wminc-fs-startwiki-title": "Dechrau eich wiki",
 	"wminc-fs-pagetitle-done": "- gorffennwyd!",
 	"wminc-infopage-enter": "ewch i'r Hafan",
 	"wminc-infopage-title-p": "Wicipedia $1",
