@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bosogo",
 			"Growingup"
 		]
 	},
 	"wminc-manual": "Колдонмо",
-	"wminc-testwiki-none": "Жок/баары"
+	"wminc-testwiki-none": "Жок/баары",
+	"wminc-searchwiki-selectproject": "Издөө:"
 }

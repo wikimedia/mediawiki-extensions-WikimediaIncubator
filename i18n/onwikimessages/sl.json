@@ -10,7 +10,7 @@
 	"wminc-code-retired": "Oznaka jezika je bila spremenjena in se več ne nanaša na izvorni jezik.",
 	"wminc-custom-editnotice-2": "Če želite označiti, katere jezike lahko uporabljate, uporabite $1. Če je vaš materni jezik na primer francoščina in dobro govorite angleško, uporabite $2.",
 	"wminc-custom-featuredwikis-approved": "Ti so bili odobreni in/ali ustvarjeni:",
-	"wminc-custom-featuredwikis-active": "Ti so aktivni in jim bo morda kmalu dodeljeno lastno spletno mesto:",
+	"wminc-custom-featuredwikis-active": "Ti so aktivni in jim bo morda kmalu dodeljeno lastno mesto:",
 	"wminc-custom-featuredwikis-permanent": "Ti bodo verjetno ostali tu:",
 	"wminc-custom-newarticletext-noprefix": "<strong>Upoštevajte:</strong> Ustvarjate stran brez [[$1|predpone]]",
 	"wminc-custom-newarticletext-withprefix-1": "Vnesite $1 in kliknite »{{int:publishpage}}«.",
