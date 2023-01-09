@@ -44,7 +44,7 @@
 	"wminc-gadget-iw-editsummary": "Dodajanje interviki povezav na [[d:$1]]",
 	"tag-gadget-interwiki": "Pripomoček Interviki",
 	"tag-gadget-interwiki-description": "Urejanja, ki dodajo interviki povezave z uporabo pripomočka Interviki.",
-	"gadget-settestwikipreference": "Pri prikazu preizkusnih vikijev doda v stransko vrstico gumba »Nastavi jezik« in »Nastavi (preizkusni projekt) kot moj preizkusni projekt«.",
+	"gadget-settestwikipreference": "Pri prikazu preizkusnih vikijev doda v stransko letvico gumba »Nastavi jezik« in »Nastavi (preizkusni projekt) kot moj preizkusni projekt«.",
 	"wminc-gadget-twpref-setlang": "Nastavi jezik: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "Nastavite jezik vmesnika na $1",
 	"wminc-gadget-twpref-setwiki": "Nastavi $1 kot testni projekt",

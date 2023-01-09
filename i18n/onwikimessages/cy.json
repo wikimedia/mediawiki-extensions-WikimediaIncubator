@@ -4,8 +4,12 @@
 			"Afalau"
 		]
 	},
+	"wminc-custom-newarticletext-noprefix": "<strong>Rhybudd:</strong> Rydych chi'n creu tudalen heb [[$1|rhagddodiad]]",
+	"wminc-custom-newarticletext-withprefix-1": "Teipiwch $1, ac wedyn cliciwch \"{{int:publishpage}}\".",
+	"wminc-gadget-iw-dialog-cancel": "Canslo",
 	"wminc-gadget-iw-dialog-publish": "Cyhoeddi",
 	"wminc-gadget-iw-dialog-qid-placeholder": "e.e. $1",
+	"wminc-gadget-iw-dialog-editpage": "Golygu'r dudalen",
 	"wminc-gadget-iw-dialog-wikidata-search": "Chwilio Wicidata",
 	"wminc-gadget-twpref-setlang": "Gosod iaith: $1"
 }
