@@ -71,7 +71,7 @@ class SpecialMyWiki extends UnlistedSpecialPage {
 			}
 
 			if ( $userHasTestWiki ) {
-				$title = WikimediaIncubator::displayPrefixedTitle( $targetPagename, $targetNs );
+				$title = WikimediaIncubator::displayPrefixedTitle( $targetPagename, $targetNs, false );
 			} else {
 				$title = $target;
 			}
