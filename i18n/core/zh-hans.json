@@ -11,6 +11,7 @@
 			"Hydra",
 			"Impersonator 1",
 			"Jimmy xu wrk",
+			"John Smith Ri",
 			"Liangent",
 			"Linforest",
 			"Liuxinyu970226",
@@ -23,6 +24,7 @@
 			"Xiaomingyan",
 			"Xiplus",
 			"予弦",
+			"星海",
 			"神樂坂秀吉"
 		]
 	},
@@ -34,7 +36,7 @@
 	"wminc-testwiki-none": "所有 wiki",
 	"wminc-testwiki-site": "（维护）",
 	"wminc-recentchanges-all": "所有最近更改",
-	"wminc-prefinfo-language": "您的界面语言 - 独立自您的测试wiki",
+	"wminc-prefinfo-language": "您的界面语言 - 独立于您的测试wiki",
 	"wminc-prefinfo-code": "您正在操作的语言的ISO 639语言代码",
 	"wminc-prefinfo-project": "选择您正在操作的维基媒体项目",
 	"wminc-prefinfo-error": "您选择了需要语言代码的项目。",
@@ -52,7 +54,7 @@
 	"wminc-userdoesnotexist": "用户 \"$1\" 并不存在。",
 	"wminc-ip": "\" $1 \"是一个IP地址。",
 	"action-viewuserlang": "查看用户语言与测试维基",
-	"right-viewuserlang": "请查看用户语言与测试维基",
+	"right-viewuserlang": "查看用户语言与测试wiki",
 	"group-test-sysop": "测试维基管理员",
 	"group-test-sysop-member": "{{GENDER:$1|测试wiki管理员}}",
 	"grouppage-test-sysop": "{{ns:project}}:测试wiki管理员",
