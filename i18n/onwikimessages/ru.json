@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Kareyac",
+			"Merrahtar",
 			"UniCollab",
 			"Александр Сигачёв"
 		]
@@ -18,6 +19,7 @@
 	"wminc-custom-newarticletext-withprefix-3": "Вы создадите новую страницу, [[$1|имеющую префикс]], с названием \"{{FULLPAGENAME}}\".",
 	"wminc-custom-tb-space-colon": "По техническим причинам заголовок не может начинаться с пробела или двоеточия.",
 	"gadget-addprefix": "<strong>AddPrefix:</strong> Автоматическое добавление префиксов к ссылкам при изменении страницы.",
+	"wminc-gadget-addprefix-help": "Вам не требуется использовать префикс при редактировании этой страницы. Он будет добавлен автоматически после её публикации.",
 	"wminc-gadget-addprefix-toggle": "Показать/скрыть префикс",
 	"wminc-gadget-iw-add-wikidata": "Добавить ссылку на Викиданные",
 	"wminc-gadget-iw-dialog-cancel": "Отмена",
