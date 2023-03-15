@@ -397,10 +397,18 @@ class WikimediaIncubator {
 	 * Makes a full prefixed title of a given page title and namespace
 	 * @param string $title
 	 * @param int $ns numeric value of namespace
+	 * @param bool $translateNs whether the namespaces should be in the user's language
 	 * @return Title
 	 */
-	public static function displayPrefixedTitle( $title, $ns = 0 ) {
-		global $wgLang, $wmincTestWikiNamespaces;
+	public static function displayPrefixedTitle( $title, $ns = 0, $translateNs = true ) {
+		global $wmincTestWikiNamespaces;
+
+		$lang = RequestContext::getMain()->getLanguage();
+		if ( !$translateNs ) {
+			$lang = MediaWikiServices::getInstance()->getLanguageFactory()
+				->getLanguage( 'en' );
+		}
+
 		if ( in_array( $ns, $wmincTestWikiNamespaces ) ) {
 			/* Standard namespace as defined by
 			* $wmincTestWikiNamespaces, so use format:
@@ -414,7 +422,7 @@ class WikimediaIncubator {
 		* (with localized namespace name)
 		*/
 		return Title::makeTitleSafe( 0, self::displayPrefix() . '/' .
-			$wgLang->getNsText( $ns ) . ':' . $title );
+			$lang->getNsText( $ns ) . ':' . $title );
 	}
 
 	public static function magicWordVariable( &$magicWords ) {
@@ -905,7 +913,8 @@ class WikimediaIncubator {
 		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
 		if ( !$prefix['error'] ) {
 			$pageLang = self::validatePrefix( $title, true ) ?
-				$userLang : MediaWikiServices::getInstance()->getLanguageFactory()->getLanguage( $prefix['lang'] );
+				$userLang : MediaWikiServices::getInstance()->getLanguageFactory()
+					->getLanguage( $prefix['lang'] );
 		}
 	}
 
