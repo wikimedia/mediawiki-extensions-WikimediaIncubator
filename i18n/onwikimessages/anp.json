@@ -1,11 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Angpradesh"
+			"Angpradesh",
+			"Proabscorp!"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" भाषा]] एगऽ [[wikipedia:ISO 639 macrolanguage|वृहत्भाषा]] छेकै, जे निम्नलिखित भाषा सभ सं॑ युक्त छै:",
 	"wminc-code-collective": "कोड \"$1\" एगऽ विशिष्ट भाषा के उल्लेख नै करै छै, बल्कि भाषा सब केरऽ एगऽ संग्रह छेकै, मुख्यतः [[wikipedia:$2 language|\"$3\" भाषा]].",
 	"wminc-code-retired": "इ भाषा कोड बदली देलऽ गेलऽ छै आरू अब॑ मूल भाषा क॑ संदर्भित नै करै छै.",
-	"wminc-custom-featuredwikis-approved": "एकरा स्वीकृत करलॉ गेलॉ छै आरू/या बनैलॉ गेलॉ छै:"
+	"wminc-custom-editnotice-2": "हैय इंगित करै लेली कि तोंय कौन भाषा क उपयोग करै सकै छौ, कृपया $1 क उपयोग करौ। उदाहरण लेली, यदि तोरौ मूल भाषा अंगिका छेकौं आरो तोंय अच्छ बांगला बोलै सकै छौ, त $2 क उपयोग करौ।",
+	"wminc-custom-featuredwikis-approved": "एकरा स्वीकृत करलॉ गेलॉ छै आरू/या बनैलॉ गेलॉ छै:",
+	"wminc-custom-featuredwikis-active": "इ सक्रिय छै आरो जल्दिए एकरा सिनी क अपनौ साइट मिलै सकै छै:",
+	"wminc-custom-featuredwikis-permanent": "इ संभवतः हिन्ने रहतअ:",
+	"wminc-custom-newarticletext-noprefix": "<strong>कृपया ध्यान दौ:</strong> तोंय बिना [[$1|उपसर्ग]] लगैलौ पन्ना बनाय रहलौ छौ।",
+	"wminc-custom-newarticletext-withprefix-3": "तोंय \"{{FULLPAGENAME}}\" नामक ([[$1|उपसर्ग सहित]]) क नया पन्ना बना रहलौ छौ।",
+	"wminc-custom-tb-incorrect-title-title": "तोंय एगो गलत शीर्षकवाला पन्ना बनायबै के कोशिश करी रहलौ छौ।",
+	"wminc-gadget-iw-add-wikidata": "विकिडाटा लिंक जोड़ौ",
+	"wminc-gadget-iw-dialog-cancel": "रद्द करौ",
+	"wminc-gadget-iw-dialog-publish": "प्रकाशित करौ",
+	"wminc-gadget-iw-dialog-title": "अंतरविकी कड़ी जोड़ौ",
+	"wminc-gadget-iw-dialog-qid-placeholder": "उदहारण $1",
+	"wminc-gadget-iw-dialog-editpage": " ई पन्ना के सम्पादन करौ",
+	"wminc-gadget-iw-dialog-wikidata-search": "विकिपीडिया मँ खोजौ",
+	"wminc-gadget-twpref-setwiki": "$1 क अपनौ परीक्षण प्रोजेक्ट केरौ रूप मँ सेट करौ"
 }
