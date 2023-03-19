@@ -1,6 +1,6 @@
 {
 	"name": "Wikimedia Incubator",
-	"version": "6.2.1",
+	"version": "6.3.0",
 	"author": [
 		"SPQRobin",
 		"Hydriz",
@@ -235,7 +235,8 @@
 		"SpecialSearchCreateLink": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onSpecialSearchCreateLink",
 		"SpecialSearchPowerBox": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onSpecialSearchPowerBox",
 		"SpecialSearchSetupEngine": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onSpecialSearchSetupEngine",
-		"GetDefaultSortkey": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onGetDefaultSortkey"
+		"GetDefaultSortkey": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onGetDefaultSortkey",
+		"BeforePageDisplay": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onBeforePageDisplay"
 	},
 	"manifest_version": 2
 }

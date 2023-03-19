@@ -13,6 +13,8 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use Article;
+use Html;
+use HtmlArmor;
 use Language;
 use Linker;
 use MediaWiki\Languages\LanguageNameUtils;
@@ -22,6 +24,7 @@ use OutputPage;
 use Parser;
 use RequestContext;
 use SearchEngine;
+use Skin;
 use SpecialPage;
 use SpecialSearch;
 use Status;
@@ -1041,6 +1044,141 @@ class WikimediaIncubator {
 		$prefix = self::analyzePrefix( $title );
 		if ( !$prefix[ 'error' ] && $prefix[ 'realtitle' ] ) {
 			$sortkey = $prefix[ 'realtitle' ];
+		}
+	}
+
+	/**
+	 * Generate an HTML title.
+	 *
+	 * Generate an HTML title (for use in the <h1> tag) with spans around
+	 * the prefix and real title.
+	 *
+	 * @param string $namespace
+	 * @param string $prefix
+	 * @param string $realTitle
+	 * @param string $displayTitle HTML
+	 * @return string
+	 */
+	private static function generateHtmlTitle( $namespace, $prefix, $realTitle, $displayTitle ) {
+		// Is there an actual, valid {{DISPLAYTITLE}} on the page? If the
+		// $displayTitle *doesn't* contain the following string, there is.
+		// Validation of the display title is already done by the time the
+		// hook below is run, so what it returns can be considered safe HTML.
+		$useDisplayTitle = !preg_match( '/mw-page-title-main/', $displayTitle );
+
+		// If the display title contains the prefix uninterrupted, we can
+		// safely remove the prefix and attach the remainder to the prefix
+		// to form the full page title. This will allow future-proof
+		// display titles like {{DISPLAYTITLE:''{{PAGENAME}}''}} work
+		// as well.
+		// An example of an "interrupted" prefix would be e.g.
+		// "Wp/<b>xx</b>/<i>Title</i>".
+		$displayTitleExploded = explode( '/', $displayTitle );
+		$displayTitleSliced = array_slice( $displayTitleExploded, 0, 2 );
+		$displayTitlePrefix = implode( '/', $displayTitleSliced ) . '/';
+		$displayTitleContainsPrefix = str_ends_with( $displayTitlePrefix, $prefix . '/' );
+
+		// If the display title doesn't contain the prefix uninterrupted,
+		// we just return the display title without doing anything else.
+		// This is similar to how core deals with DISPLAYTITLE.
+		if ( $useDisplayTitle && !$displayTitleContainsPrefix ) {
+			return $displayTitle;
+		} elseif ( $useDisplayTitle ) {
+			$realTitle = preg_replace(
+				'~' . preg_quote( $prefix, '~' ) . '/~',
+				'',
+				$displayTitle,
+				1
+			);
+		}
+
+		$prefixsplit = explode( '/', $prefix );
+
+		$project = Html::element(
+			'span',
+			[
+				'class' => 'ext-wminc-title-project',
+				'dir' => 'ltr',
+			],
+			$prefixsplit[0]
+		);
+
+		$langCode = Html::element(
+			'span',
+			[
+				'class' => 'ext-wminc-title-langcode',
+				'dir' => 'ltr',
+			],
+			$prefixsplit[1]
+		);
+
+		$title = Html::rawElement(
+			'span',
+			[ 'class' => 'ext-wminc-title-prefix' ],
+			$project . '/' . $langCode . '/'
+		);
+		// Needs to be rawElement to allow passing HTML from the display title.
+		$title .= Html::rawElement(
+			'span',
+			[ 'class' => 'ext-wminc-title-realtitle' ],
+			$realTitle
+		);
+
+		return Parser::formatPageTitle( $namespace, ':', new HtmlArmor( $title ) );
+	}
+
+	/**
+	 * Set the page title.
+	 *
+	 * Encapsulate the test wiki prefix in the <h1> element with <span> tags
+	 * with relevant classes in order to let them be styled separately.
+	 *
+	 * Also changes the HTML's <title> element to remove the prefix, but only for
+	 * pages in the main namespace.
+	 *
+	 * The function takes into consideration DISPLAYTITLEs and language
+	 * conversion; when converting the title, this function ensures that
+	 * only the "realtitle" (i.e. the part after the prefix) is converted,
+	 * and not the prefix as well.
+	 *
+	 * @param OutputPage $out
+	 * @param Skin $skin
+	 * @return void
+	 */
+	public static function onBeforePageDisplay( OutputPage $out, Skin $skin ) {
+		$prefix = self::analyzePrefix( $out->getTitle() );
+		$action = $out->getContext()->getActionName();
+
+		if ( !$prefix['error'] && $prefix['realtitle'] && $action === 'view' ) {
+			$service = MediaWikiServices::getInstance();
+			$displayTitle = $out->getDisplayTitle();
+			$languageConverter = $service->getLanguageConverterFactory()
+				->getLanguageConverter( $out->getTitle()->getPageLanguage() );
+			$convertedTitle = $languageConverter->convert( $prefix['realtitle'] );
+
+			// Change the page title (i.e. what's inside <h1> tags) according
+			// to our formatting (see self::generatHtmlTitle() above)
+			$title = self::generateHtmlTitle(
+				$out->getTitle()->getNsText(),
+				$prefix['prefix'],
+				$convertedTitle,
+				$displayTitle
+			);
+			$out->setPageTitle( $title );
+
+			// Set the page's <title> element to the prefixless version of the
+			// page name, but only in the main namespace.
+			$namespace = $out->getTitle()->getNamespace();
+
+			if ( $namespace === 0 ) {
+				$titleElementText = $out->msg( 'wminc-title-element' )
+					->params( $convertedTitle, $prefix['prefix'] )
+					->text();
+				$pageTitleMsg = $out->msg( 'pagetitle' )
+					->params( $titleElementText )
+					->text();
+				$out->setHTMLTitle( $pageTitleMsg );
+			}
 		}
 	}
 }
