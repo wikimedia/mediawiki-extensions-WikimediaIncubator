@@ -34,6 +34,7 @@
 	"group-test-sysop": "Administratores del wiki de test",
 	"group-test-sysop-member": "{{GENDER:$1|administrator|administratrice}} del wiki de test",
 	"grouppage-test-sysop": "{{ns:project}}:Administratores del wiki de test",
+	"group-test-sysop.css": "/* Le codice CSS placiate hic affectara solmente administratores de wikis de test */",
 	"wminc-listusers-testwiki": "Tu vide le usatores que ha mittite lor preferentias de wiki de test a $1.",
 	"wminc-search-nocreate-nopref": "Tu cercava \"$1\". Per favor specifica tu [[Special:Preferences|preferentias de wiki de test]] de sorta que nos pote dicer te le pagina que tu pote crear!",
 	"wminc-search-nocreate-suggest": "Tu cercava \"$1\". Tu pote crear un pagina in tu wiki a <strong>[[$3]]</strong>!",

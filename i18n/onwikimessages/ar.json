@@ -1,16 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
+			"MRidhaAJ",
 			"زكريا"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|اللغة \"$3\"]] [[wikipedia:ISO 639 macrolanguage|لغة كبرى]]، تشمل اللغات الصغرى التالية:",
 	"wminc-code-collective": "رمز \"$1\" لا يدل على لغة معينة، بل على مجموعة من اللغات، وهي [[wikipedia:$2 language|اللغات \"$3\"]].",
 	"wminc-code-retired": "رمز اللغة قد تغير أو لم يعد يرمز به إلى اللغة الأصلية.",
+	"wminc-custom-editnotice-2": "للإشارة إلى اللغات التي يمكنك استخدامها ، الرجاء استخدام $1 . على سبيل المثال ، إذا كانت لغتك الأم هي الفرنسية ويمكنك التحدث باللغة الإنجليزية جيدًا ، فاستخدم $2 .",
 	"wminc-custom-featuredwikis-approved": "هذه تمت الموافقة عليها و/أو إنشاؤها:",
 	"wminc-custom-featuredwikis-active": "هذه نشطة ويمكن أن يكون لها موقعها قريبا:",
 	"wminc-custom-featuredwikis-permanent": "هذه ستبقى على الأرجح هنا:",
 	"wminc-custom-newarticletext-noprefix": "<strong>لاحظ من فضلك:</strong> إنك تنشئ صفحة من دون [[$1|شأو]].",
+	"wminc-custom-newarticletext-withprefix-1": "اكتب $1 ثم انقر فوق \"{{int: publishpage}}\".",
+	"wminc-custom-newarticletext-withprefix-2": "استبدل \" $1 \" ثم انقر على \"{{int: publishpage}}\".",
 	"wminc-custom-newarticletext-withprefix-3": "لقد أنشأت شأوا جديدا([[$1|prefixed]])لصفحة تسمى{{FULLPAGENAME}}\".",
+	"wminc-custom-newarticletext-withprefix-4": "أضف أيضًا البادئات إلى الروابط الخاصة بك:<nowiki> <code>[[Page title]]</code></nowiki> ل<nowiki> <code>[[Wx/xx/Page title]]</code></nowiki> و<nowiki> <code>{{Page title}}</code></nowiki> ل<nowiki> <code>{{Wx/xx/Page title}}</code></nowiki> .",
+	"wminc-custom-newarticletext-withprefix-5": "للقيام بذلك تلقائيًا ، يمكنك استخدام [[$1|add prifex gadget]].",
+	"wminc-custom-tb-incorrect-title-title": "أنت تحاول إنشاء صفحة بعنوان غير صحيح.",
 	"gadget-addprefix": "<strong>AddPrefix:</strong> يضيف البادئة تلقائيا للوصلات عند إنشاء صفحة."
 }
