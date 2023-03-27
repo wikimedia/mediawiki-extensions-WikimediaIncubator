@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"MRidhaAJ"
+		]
+	},
+	"wminc-desc": "نظام ويكي الإختبار لويكيميديا الحاضنة",
+	"wminc-manual": "دليل",
+	"wminc-listwikis": "قائمة الويكيات",
+	"wminc-testwiki": "ويكي الاختبار:",
+	"wminc-testwiki-code": "لغة ويكي الإختبار:",
+	"wminc-testwiki-none": "كل الويكيات",
+	"wminc-testwiki-site": "(صيانة)",
+	"wminc-recentchanges-all": "كل التغييرات الحديثة",
+	"wminc-prefinfo-language": "لغة واجهتك - مستقلة على ويكي الإختبار",
+	"wminc-prefinfo-code": "كود الأيزو 639 للغة اللي تشتغل عليها هنا",
+	"wminc-prefinfo-project": "إختار مشروع ويكيميديا اللي تشتغل عليه هنا",
+	"wminc-prefinfo-error": "إختاريت مشروع يحتاج كود لغة.",
+	"wminc-error-move-unprefixed": "<strong>خطأ:</strong> الصفحة اللي تنقلها لـ[[{{MediaWiki:Wminc-error-help}}|ما بيها بادئة لو بيها بادئة غلط]]!",
+	"wminc-error-wronglangcode": "<strong>خطأ:</strong> هاي الصفحة بيها [[{{MediaWiki:Wminc-error-help}}|كود لغة غلط]] \"$1\".",
+	"wminc-error-unprefixed": "<strong>خطأ:</strong> هاي الصفحة [[{{MediaWiki:Wminc-error-help}}|ما بيها بادئة]].",
+	"wminc-error-unprefixed-suggest": "<strong>خطأ</strong> هاي الصفحة [[{{MediaWiki:Wminc-error-help}}|ما بيها بادئة]]! تكدر تسوي صفحة بـ[[:$1]].",
+	"wminc-error-wiki-exists": "هاذ الويكي موجود. تكدر تشوف هاي الصفحة بـ$1. إذا جان الويكي مسوينه حديثاً فإنتظر ساعات لو أيام لحد ما ينتقل محتواه.",
+	"wminc-error-wiki-sister": "الصفحة من مشروع مو من المشاريع الموجودة هنا. إطلب $1 وتشوف الويكي.",
+	"randombytest": "صفحة عشوائية بويكي الاختبار",
+	"randombytest-nopages": "ماكو صفحات بويكي الإختبار مالك، بالنطاق: $1.",
+	"wminc-viewuserlang": "طلع لغة المستخدم وويكي الاختبار",
+	"wminc-viewuserlang-user": "اسم المستخدم:",
+	"wminc-viewuserlang-go": "روح",
+	"wminc-userdoesnotexist": "المستخدم \"$1\" ماكو",
+	"wminc-ip": "\"$1\" هو آيبي.",
+	"action-viewuserlang": "طلع لغة المستخدم وويكي الاختبار",
+	"right-viewuserlang": "طلع لغة المستخدم وويكي الاختبار",
+	"group-test-sysop": "إداريين ويكي الإختبار",
+	"group-test-sysop-member": "{{GENDER:$1|إداري الويكي التجريبي}}",
+	"grouppage-test-sysop": "{{ns:project}}:إداريين ويكي التجربة",
+	"wminc-listusers-testwiki": "اللي تشوفه هو المستخدمين اللي حطوا إعداد ويكي الإختبار على $1"
+}
