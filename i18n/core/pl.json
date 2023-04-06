@@ -12,7 +12,8 @@
 			"Ty221",
 			"Vlad5250",
 			"WTM",
-			"Woytecr"
+			"Woytecr",
+			"Msz2001"
 		]
 	},
 	"wminc-desc": "Testowa wiki dla Inkubatora Wikimedia",
@@ -32,7 +33,7 @@
 	"wminc-error-unprefixed": "<strong>Błąd:'''</strong> Ta strona nie ma [[{{MediaWiki:Wminc-error-help}}|przedrostka]].",
 	"wminc-error-unprefixed-suggest": "<strong>Błąd:</strong> Ta strona nie ma [[{{MediaWiki:Wminc-error-help}}|przedrostka]]! Możesz utworzyć stronę [[:$1]].",
 	"wminc-error-wiki-exists": "Taka wiki już istnieje. Możesz odnaleźć tę stronę na $1. Jeśli wiki została utworzona niedawno, poczekaj kilka godzin lub dni, aż cała zawartość zostanie zaimportowana.",
-	"wminc-error-wiki-sister": "Niniejsza strona znajduje się w projekcie, który nie znajduje się tutaj. Przejdź do $1, aby znaleźć właściwą wiki.",
+	"wminc-error-wiki-sister": "Niniejsza strona znajduje się w projekcie, który nie jest utrzymywany tutaj. Przejdź pod $1, aby trafić na właściwą wiki.",
 	"randombytest": "Losowa strona testowej wiki",
 	"randombytest-nopages": "W Twojej testowej wiki brak jest stron w przestrzeni nazw $1.",
 	"wminc-viewuserlang": "Sprawdzanie języka użytkownika i testowej wiki",

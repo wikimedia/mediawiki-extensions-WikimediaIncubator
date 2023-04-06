@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kimberli Mäkäräinen (WMNO)"
+			"Kimberli Mäkäräinen (WMNO)",
+			"Yupik"
 		]
 	},
+	"wminc-viewuserlang-user": "Geavaheaddjinamma:",
 	"wminc-fs-langselect-title": "Vállje giela",
 	"wminc-infopage-title-v": "Wikiversitehta $1"
 }
