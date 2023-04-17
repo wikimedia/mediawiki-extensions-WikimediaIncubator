@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"MRidhaAJ"
+		]
+	},
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|اللغه \"$3\"]] [[wikipedia:ISO 639 macrolanguage|لغه كبرى]]، تشمل اللغات الصغرى التاليه:",
+	"wminc-code-collective": "رمز \"$1\" ما يدل على لغه معينه، بل على مجموعة من اللغات، وهي [[wikipedia:$2 language|اللغات \"$3\"]].",
+	"wminc-code-retired": "رمز اللغة يمكن تغير لو بعد ما يرمز بيه إلى اللغه الأصليه.",
+	"wminc-custom-editnotice-2": "للإشارة إلى اللغات التي تكدر تستخدمها، الرجاء استخدام $1. على سبيل المثال، إذا جانت لغتك الأم هي الفرنسي وتكدر تحجي انگليزي زين ، فاستخدم $2 .",
+	"wminc-custom-featuredwikis-approved": "هاي وافقوا عليها و/لو سووها:",
+	"wminc-custom-featuredwikis-active": "هاي نشطه ويمكن أن يكون الها موقعها قريبا:",
+	"wminc-custom-featuredwikis-permanent": "هاي راح تبقى هنا:",
+	"wminc-custom-newarticletext-noprefix": "<strong>لاحظ من فضلك:</strong> إنك تسوي صفحه بدون [[$1|بادئة]].",
+	"wminc-custom-newarticletext-withprefix-1": "اكتب $1 ودوس فوك \"{{int: publishpage}}\".",
+	"wminc-custom-newarticletext-withprefix-2": "استبدل \" $1 \" ودوس على \"{{int: publishpage}}\".",
+	"wminc-custom-newarticletext-withprefix-3": "انته سويت بادئة جديده([[$1|prefixed]])لصفحه اسمها \"{{FULLPAGENAME}}\".",
+	"wminc-custom-newarticletext-withprefix-4": "حط همين البادئات للروابط مالتك:<nowiki> <code>[[Page title]]</code></nowiki> ل<nowiki> <code>[[Wx/xx/Page title]]</code></nowiki> و<nowiki> <code>{{Page title}}</code></nowiki> ل<nowiki> <code>{{Wx/xx/Page title}}</code></nowiki> .",
+	"wminc-custom-newarticletext-withprefix-5": "حتى تسوي هيج تلقائيًا، تكدر تستخدم [[$1|أداة وضع البادئات]].",
+	"wminc-custom-tb-incorrect-title-title": "انته تحاول تسوي صفحه بعنوان مو صحيح.",
+	"gadget-addprefix": "<strong>AddPrefix:</strong> يحط البادئة تلقائيا للوصلات من تسوي صفحه.",
+	"wminc-gadget-addprefix-toggle": "طلع/ضم البادئة",
+	"wminc-gadget-iw-add-wikidata": "حط وصلة ويكي بيانات",
+	"wminc-gadget-iw-dialog-cancel": "ألغي",
+	"wminc-gadget-iw-dialog-publish": "انشر",
+	"wminc-gadget-iw-dialog-title": "حط وصلات انترويكي",
+	"wminc-gadget-iw-dialog-qid-placeholder": "مثلاً $1",
+	"wminc-gadget-iw-dialog-editpage": "عدل هاي الصفحه"
+}
