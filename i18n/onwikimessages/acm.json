@@ -25,5 +25,8 @@
 	"wminc-gadget-iw-dialog-publish": "انشر",
 	"wminc-gadget-iw-dialog-title": "حط وصلات انترويكي",
 	"wminc-gadget-iw-dialog-qid-placeholder": "مثلاً $1",
-	"wminc-gadget-iw-dialog-editpage": "عدل هاي الصفحه"
+	"wminc-gadget-iw-dialog-editpage": "عدل هاي الصفحه",
+	"wminc-gadget-iw-dialog-learn-more": "تعلم بعد على ويكي البيانات",
+	"wminc-gadget-twpref-setlang-tooltip": "حط لغة واجهتك ل$1",
+	"wminc-gadget-twpref-setwiki": "سوي $1 ويكي اختبارك"
 }
