@@ -10,7 +10,8 @@
 			"NoiX180",
 			"Rex",
 			"Sonic Speedy",
-			"Syman51"
+			"Syman51",
+			"Veracious"
 		]
 	},
 	"wminc-desc": "Sistem wiki tes untuk Wikimedia Incubator",
@@ -80,7 +81,7 @@
 	"wminc-infopage-title-p": "Wikipedia $1",
 	"wminc-infopage-title-b": "Wikibooks $1",
 	"wminc-infopage-title-t": "Wiktionary $1",
-	"wminc-infopage-title-q": "Wikiquote $1",
+	"wminc-infopage-title-q": "Wikikutip $1",
 	"wminc-infopage-title-n": "Wikinews $1",
 	"wminc-infopage-title-s": "Wikisource $1",
 	"wminc-infopage-title-v": "Wikiversity $1",

@@ -19,7 +19,13 @@
 	"wminc-custom-newarticletext-withprefix-4": "أضف أيضًا البادئات إلى الروابط الخاصة بك:<nowiki> <code>[[Page title]]</code></nowiki> ل<nowiki> <code>[[Wx/xx/Page title]]</code></nowiki> و<nowiki> <code>{{Page title}}</code></nowiki> ل<nowiki> <code>{{Wx/xx/Page title}}</code></nowiki> .",
 	"wminc-custom-newarticletext-withprefix-5": "للقيام بذلك تلقائيًا ، يمكنك استخدام [[$1|add prifex gadget]].",
 	"wminc-custom-tb-incorrect-title-title": "أنت تحاول إنشاء صفحة بعنوان غير صحيح.",
-	"wminc-custom-tb-incorrect-title-text": "غالبًا ما يفتقر العنوان إلى [[ $1 | بادئة]] أو بطريقة أخرى بتنسيق غير صحيح (الأحرف الكبيرة في البادئة ، والشرطة المائلة اللاحقة ، وما إلى ذلك).! N !! N! إذا أتيت إلى هنا من أي صفحة أخرى ، من فضلك العودة مرة أخرى وإصلاح الارتباط ثم إنشاء الصفحة المسماة بشكل صحيح. إذا كنت تحاول إنشاء الصفحة مباشرة ، فالرجاء إنشاء الصفحة باسم مناسب.! N !! N! إذا كان هذا بأي حال من الأحوال يمنعك من إنشاء أي صفحة تعتقد أن لها تنسيق عنوان صحيح ، من فضلك [[ $2 | دع المسؤولين يعرفون]].",
+	"wminc-custom-tb-incorrect-title-text": "غالبًا ما يفتقر العنوان إلى [[$1|بادئة]] أو بطريقة أخرى بتنسيق غير صحيح (الأحرف الكبيرة في البادئة ، والشرطة المائلة اللاحقة ، وما إلى ذلك).! N !! N! إذا أتيت إلى هنا من أي صفحة أخرى ، من فضلك العودة مرة أخرى وإصلاح الارتباط ثم إنشاء الصفحة المسماة بشكل صحيح. إذا كنت تحاول إنشاء الصفحة مباشرة ، فالرجاء إنشاء الصفحة باسم مناسب.! N !! N! إذا كان هذا بأي حال من الأحوال يمنعك من إنشاء أي صفحة تعتقد أن لها تنسيق عنوان صحيح، من فضلك [[$2|دع المسؤولين يعرفون]].",
 	"wminc-custom-tb-invalid-code-title": "أنت تحاول إنشاء صفحة بدون [[ $1 | ISO 639-1 أو -3 كود]] صالح.",
-	"gadget-addprefix": "<strong>AddPrefix:</strong> يضيف البادئة تلقائيا للوصلات عند إنشاء صفحة."
+	"gadget-addprefix": "<strong>AddPrefix:</strong> يضيف البادئة تلقائيا للوصلات عند إنشاء صفحة.",
+	"wminc-gadget-iw-dialog-qid-placeholder": "على سبيل المثال $1",
+	"wminc-gadget-iw-dialog-editpage": "عدل الصفحة",
+	"wminc-gadget-twpref-setlang": "ضبط اللغة: $1",
+	"wminc-gadget-twpref-setlang-tooltip": "اضبط لغة الواجهة على $1",
+	"wminc-gadget-twpref-setwiki": "عيِّن $1 كمشروع اختباري",
+	"wminc-gadget-twpref-setwiki-tooltip": "عيِّن $1 ليكون مشروعك الاختباري، بحيث تكون الصفحات الجديدة التي تنشئها جزءًا من هذا المشروع"
 }
