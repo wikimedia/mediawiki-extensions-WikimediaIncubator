@@ -3,10 +3,12 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use Html;
+use Language;
 use Linker;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\User\UserIdentity;
+use RequestContext;
 use SpecialPage;
 use Title;
 
@@ -74,13 +76,16 @@ class InfoPage {
 	/** @var UserIdentity */
 	private $user;
 
+	/** @var Language */
+	private $userLang;
+
 	/**
 	 * @param Title $title
 	 * @param array $prefixdata
 	 * @param UserIdentity $user
 	 */
 	public function __construct( $title, $prefixdata, UserIdentity $user ) {
-		global $wmincProjects, $wgLang;
+		global $wmincProjects;
 		$this->mTitle = $title;
 		$this->mPrefix = $prefixdata['prefix'];
 		$this->mLangCode = $prefixdata['lang'];
@@ -90,8 +95,13 @@ class InfoPage {
 		$this->mIsSister = $wmincProjects[$this->mProjectCode]['sister'];
 		$this->mSubStatus = '';
 		$this->mThisLangData = [ 'type' => 'valid' ]; # For later code check feature
+		$this->userLang = RequestContext::getMain()->getLanguage();
 		$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
-		$name = $languageNameUtils->getLanguageName( $this->mLangCode, $wgLang->getCode(), LanguageNameUtils::ALL );
+		$name = $languageNameUtils->getLanguageName(
+			$this->mLangCode,
+			$this->userLang->getCode(),
+			LanguageNameUtils::ALL
+		);
 		$this->mLangName = $name ?:
 			$languageNameUtils->getLanguageName( $this->mLangCode, 'en', LanguageNameUtils::ALL );
 		$titleParam = $this->mLangName ?:
@@ -211,9 +221,8 @@ class InfoPage {
 	 * @return string the core HTML for the info page
 	 */
 	public function StandardInfoPage( $beforetitle, $aftertitle, $content ) {
-		global $wgLang;
 		return Html::rawElement( 'div', [ 'class' => 'wminc-infopage plainlinks',
-			'lang' => $wgLang->getCode(), 'dir' => $wgLang->getDir() ],
+			'lang' => $this->userLang->getCode(), 'dir' => $this->userLang->getDir() ],
 			$beforetitle .
 			Html::rawElement( 'div', [ 'class' => 'wminc-infopage-logo' ],
 				$this->makeLogo( $this->mProjectCode )
@@ -260,7 +269,6 @@ class InfoPage {
 	 * @return string
 	 */
 	public function showIncubatingWiki() {
-		global $wgLang;
 		$substatus = $this->mSubStatus;
 		if ( $substatus == 'imported' && $this->mIsSister ) {
 			$substatus = 'closedsister';
@@ -276,7 +284,7 @@ class InfoPage {
 				wfMessage( 'wminc-infopage-enter' )->text() );
 			$gotoMainPage = Html::rawElement( 'span',
 				[ 'class' => 'wminc-infopage-entertest' ],
-				$wgLang->getArrow() . ' ' . ( $this->mIsSister ? $portalLink : $gotoLink ) );
+				$this->userLang->getArrow() . ' ' . ( $this->mIsSister ? $portalLink : $gotoLink ) );
 		} else {
 			$gotoMainPage = '';
 		}
@@ -317,7 +325,6 @@ class InfoPage {
 	 * @return string
 	 */
 	public function showExistingWiki() {
-		global $wgLang;
 		$subdomain = WikimediaIncubator::getSubdomain(
 			$this->user,
 			$this->mLangCode,
@@ -327,7 +334,7 @@ class InfoPage {
 		if ( $this->mThisLangData['type'] != 'invalid' ) {
 			$gotoSubdomain = Html::rawElement( 'span',
 				[ 'class' => 'wminc-infopage-entertest' ],
-				$wgLang->getArrow() . ' ' . $subdomainLink );
+				$this->userLang->getArrow() . ' ' . $subdomainLink );
 		} else {
 			$gotoSubdomain = '';
 		}
