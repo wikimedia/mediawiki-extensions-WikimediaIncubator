@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lancine.kounfantoh.fofana"
+		]
+	},
+	"wminc-manual": "ߓߟߏߟߕߊ",
+	"wminc-listwikis": "ߥߞߌ ߟߎ߬ ߛߙߍߘߍ",
+	"wminc-testwiki": "ߛߓߍߟߌ ߥߞߌ",
+	"wminc-testwiki-code": "ߛߓߍߟߌ ߥߞߌ ߞߊ߲",
+	"wminc-testwiki-none": "ߥߞߌ ߓߍ߯",
+	"wminc-testwiki-site": "(ߘߐ߰ߘߏ߲߬ߠߌ߲)",
+	"wminc-recentchanges-all": "ߞߐ߯ߟߊ߫ ߡߊߦߟߍߡߊ߲ߠߌ߲ ߠߎ߬ ߓߍ߯",
+	"wminc-prefinfo-language": "ߌ ߟߊ߫ ߢߐ߲߯ߕߍߞߣߍ߫ ߞߊ߲ – ߘߍ߲ߖߘߍߟߊߣߍ߲߫ ߦߋ߫ ߌ ߟߊ߫ ߥߞߌ߫ ߞߊ߲ ߡߊ߬",
+	"wminc-prefinfo-code": "ߌ ߦߋ߫ ߓߊ߯ߙߊ߫ ߟߊ߫ ߞߊ߲ ߡߍ߲ ߘߐ߫ ߦߊ߲߬߸ ߏ߬ ߡ.ߛ.ߛ (ߌߛߏ «ISO») ߘߏߞߊ߲ ߆߃߉",
+	"wminc-prefinfo-project": "ߥߞߌߡߋߘߌߦߊ ߖߊ߬ߕߋ߬ߘߐ߬ߛߌ߮ ߛߎߥߊ߲ߘߌ߫߸ ߌ ߦߋ߫ ߓߊ߯ߙߊ߫ ߟߊ߫ ߡߍ߲ ߘߐ߫ ߦߊ߲߬",
+	"wminc-prefinfo-error": "ߌ ߓߘߊ߫ ߖߊ߬ߕߋ߬ߘߐ߬ߛߌ߮ ߘߏ߫ ߛߎߥߊ߲ߘߌ߫ ߡߍ߲ ߡߊ߬ߞߏ ߦߋ߫ ߞߊ߲ ߘߏߞߊ߲ ߠߊ߫.",
+	"wminc-error-move-unprefixed": "<strong>ߝߎ߬ߕߎ߲߬ߕߌ:</strong> ߌ ߦߴߌ ߛߊ߯ߛߊ ߞߊ߲߬ ߞߐߜߍ ߡߍ߲ ߕߐ߯ߟߊ߫ ߞߏ ߘߐ߫ [[{{MediaWiki:Wminc-error-help}}|ߢߍߣߙߊ߫ ߛߌ߫ ߕߴߊ߬ ߟߊ߫ ߥߟߊ߫ ߢߍߣߙߊ߫ ߝߍ߬ߡߊ ߟߋ߬ ߦߴߊ߬ ߫ߟߊ߫]]"
+}
