@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use FormOptions;
+use MediaWiki\Html\FormOptions;
 use MediaWiki\MediaWikiServices;
 use RequestContext;
 use User;
