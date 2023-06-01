@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Tofeiku"
+			"Tofeiku",
+			"Ultron90"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Bahasa \"$3\"]] ialah sejenis [[wikipedia:ISO 639 macrolanguage|bahasa makro]], yang terdiri daripada bahasa-bahasa ahli yang berikut:",
 	"wminc-code-collective": "Kod \"$1\" tidak merujuk kepada satu bahasa yang tertentu, sebaliknya merujuk kepada koleksi bahasa, iaitu [[wikipedia:$2 language|rumpun bahasa \"$3\"]].",
 	"wminc-code-retired": "Kod bahasa ini sudah berubah dan tidak lagi merujuk kepada bahasa asal.",
+	"wminc-custom-editnotice-2": "Untuk menunjukkan bahasa mana yang anda boleh gunakan, sila gunakan $1. Contohnya, jika bahasa ibunda anda ialah bahasa Perancis dan anda boleh berbahasa Inggeris dengan baik, gunakan $2.",
 	"wminc-custom-featuredwikis-approved": "Wiki ini telah diluluskan dan/atau dibuat:",
 	"wminc-custom-featuredwikis-active": "Wiki ini adalah wiki yang aktif dan mungkin mendapatkan laman web mereka sendiri segera:",
 	"wminc-custom-featuredwikis-permanent": "Wiki ini mungkin akan tetap di sini:",
@@ -23,11 +25,15 @@
 	"wminc-gadget-iw-dialog-title": "Tambah pautan antara wiki",
 	"wminc-gadget-iw-dialog-qid-placeholder": "contoh $1",
 	"wminc-gadget-iw-dialog-editpage": "Sunting laman",
+	"wminc-gadget-iw-dialog-replace-editinstead": "Jika tidak betul, sila sunting halaman untuk membaiki pautan secara manual.",
 	"wminc-gadget-iw-dialog-learn-more": "Ketahui lebih lanjut tentang Wikidata",
 	"wminc-gadget-iw-dialog-wikidata-search": "Cari Wikidata",
 	"wminc-gadget-iw-error-title": "Ralat alat antarawiki",
 	"wminc-gadget-iw-error-reload": "Sila muat semula laman dan cuba lagi.",
 	"wminc-gadget-iw-editsummary": "Menambah pautan antara wiki ke [[d:$1]]",
+	"tag-gadget-interwiki": "Gajet Antarawiki",
+	"tag-gadget-interwiki-description": "Suntingan yang menambah pautan antarawiki menggunakan gajet antarawiki.",
+	"gadget-settestwikipreference": "Menambahkan butang \"Tetapkan bahasa\" dan \"Tetapkan (project ujian) sebagai projek ujian anda\" pada palangsisi apabila melihat wiki ujian.",
 	"wminc-gadget-twpref-setlang": "Tetapkan bahasa: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "Tetapkan bahasa antara muka anda kepada $1",
 	"wminc-gadget-twpref-setwiki": "Tetapkan $1 sebagai projek ujian anda",
