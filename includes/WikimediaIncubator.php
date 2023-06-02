@@ -17,7 +17,6 @@ use Language;
 use Linker;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
-use MediaWiki\StubObject\StubUserLang;
 use MediaWiki\User\UserIdentity;
 use OutputPage;
 use Parser;
@@ -904,16 +903,18 @@ class WikimediaIncubator {
 
 	/**
 	 * Make the page content language depend on the test wiki
-	 * Info pages are in the user language, they're localised
+	 *
+	 * Info pages appear in the user language, they're localised
+	 *
 	 * @param Title $title
-	 * @param string|Language|StubUserLang &$pageLang
-	 * @param Language|StubUserLang $userLang
+	 * @param Language &$pageLang
 	 */
-	public static function onPageContentLanguage( $title, &$pageLang, $userLang ) {
+	public static function onPageContentLanguage( $title, &$pageLang ) {
 		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
 		if ( !$prefix['error'] ) {
-			$pageLang = self::validatePrefix( $title, true ) ?
-				$userLang : MediaWikiServices::getInstance()->getLanguageFactory()
+			$pageLang = self::validatePrefix( $title, true )
+				? RequestContext::getMain()->getLanguage()
+				: MediaWikiServices::getInstance()->getLanguageFactory()
 					->getLanguage( $prefix['lang'] );
 		}
 	}
