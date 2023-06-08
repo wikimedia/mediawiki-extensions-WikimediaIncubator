@@ -14,13 +14,17 @@
 	"wminc-custom-featuredwikis-active": "Nämä ovat aktiivisia ja saattavat saada oman sivunsa pian:",
 	"wminc-custom-featuredwikis-permanent": "Nämä todennäköisesti pysyvät Hautomossa:",
 	"wminc-custom-newarticletext-withprefix-1": "Kirjoita $1 ja klikkaa sitten \"{{int:publishpage}}\".",
+	"wminc-gadget-addprefix-toggle": "Näytä/piilota etuliite",
 	"wminc-gadget-iw-add-wikidata": "Lisää Wikidata-linkki",
 	"wminc-gadget-iw-dialog-cancel": "Peruuta",
 	"wminc-gadget-iw-dialog-publish": "Julkaise",
 	"wminc-gadget-iw-dialog-title": "Lisää wikienväliset linkit",
 	"wminc-gadget-iw-dialog-qid-placeholder": "esim. $1",
 	"wminc-gadget-iw-dialog-editpage": "Muokkaa sivua",
+	"wminc-gadget-iw-dialog-replace-editinstead": "Jos tämä ei pidä paikkaansa, muokkaa sivua ja korjaa linkki manuaalisesti.",
 	"wminc-gadget-iw-dialog-learn-more": "Lue lisää Wikidatasta",
 	"wminc-gadget-iw-dialog-wikidata-search": "Hae Wikidatasta",
-	"wminc-gadget-twpref-setlang": "Aseta kieli: $1"
+	"wminc-gadget-twpref-setlang": "Aseta kieli: $1",
+	"wminc-gadget-twpref-setlang-tooltip": "Aseta käyttöliittymän kieleksi $1",
+	"wminc-gadget-twpref-setwiki": "Aseta $1 testiprojektiksesi"
 }
