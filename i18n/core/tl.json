@@ -51,7 +51,6 @@
 	"wminc-searchwiki-match-userlangname": "Ang $1 ay ang pangalan ng isang wika.",
 	"wminc-searchwiki-match-englishname": "Ang \"$1\" ay ang pangalan para sa $2 sa Ingles.",
 	"wminc-searchwiki-match-nativename": "Ang \"$1\" ay ang pangalan para sa $2 sa wikang iyan.",
-	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "pahina ng kabatiran",
 	"wminc-fs-pagetitle": "Masalamangkang pagsisimula - $1",
 	"wminc-fs-langselect-title": "Pumili ng wika",

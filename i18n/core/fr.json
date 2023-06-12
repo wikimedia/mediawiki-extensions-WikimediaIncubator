@@ -49,7 +49,7 @@
 	"wminc-ip": "« $1 » est une adresse IP.",
 	"action-viewuserlang": "afficher la langue de l’utilisateur et le wiki de test",
 	"right-viewuserlang": "Voir la langue de l’utilisateur et le wiki de test",
-	"group-test-sysop": "Administrateurs du wiki de test",
+	"group-test-sysop": "Administrateurs de wiki de test",
 	"group-test-sysop-member": "administrat{{GENDER:$1|eur|rice}} de wiki de test",
 	"grouppage-test-sysop": "{{ns:project}}:Administrateurs de wiki de test",
 	"group-test-sysop.css": "/* Le CSS placé ici n’affectera que les administrateurs du wiki de test */",
@@ -68,7 +68,6 @@
 	"wminc-searchwiki-match-userlangname": "$1 est le nom d’une langue.",
 	"wminc-searchwiki-match-englishname": "« $1 » est le nom de $2 en anglais.",
 	"wminc-searchwiki-match-nativename": "« $1 » est le nom de $2 dans cette langue.",
-	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "page d’informations",
 	"wminc-fs-pagetitle": "Assistant de démarrage – $1",
 	"wminc-fs-langselect-title": "Sélectionner la langue",
@@ -111,5 +110,6 @@
 	"wminc-infopage-status-created": "Ce projet a été approuvé par le comité linguistique et est maintenant disponible sur $1.",
 	"wminc-infopage-status-beforeincubator": "Ce projet a été créé avant le lancement de Wikimedia Incubator et est disponible sur $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Ce projet est disponible sur $1.",
-	"wminc-infopage-error": "Erreur : {{#infopage}} ne peut être utilisé que sur des pages préfixées."
+	"wminc-infopage-error": "Erreur : {{#infopage}} ne peut être utilisé que sur des pages préfixées.",
+	"wminc-title-element": "$1 – $2"
 }

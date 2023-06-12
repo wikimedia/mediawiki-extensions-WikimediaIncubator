@@ -94,5 +94,6 @@
 	"wminc-infopage-status-created": "Dette prosjektet har blitt godkjent av språkkomiteen, og er nå tilgjengelig på $1.",
 	"wminc-infopage-status-beforeincubator": "Dette prosjektet ble opprettet før Wikimedia Incubator startet, og er tilgjengelig på $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Dette prosjektet er tilgjengelig på $1.",
-	"wminc-infopage-error": "Feil: {{#infopage}} kan bare brukes på sider med prefiks."
+	"wminc-infopage-error": "Feil: {{#infopage}} kan bare brukes på sider med prefiks.",
+	"wminc-title-element": "$1 – $2"
 }

@@ -60,7 +60,6 @@
 	"wminc-searchwiki-match-userlangname": "$1 は言語名です。",
 	"wminc-searchwiki-match-englishname": "「$1」は $2 の英語での名前です。",
 	"wminc-searchwiki-match-nativename": "「$1」は $2 のその言語での名前です。",
-	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "情報ページ",
 	"wminc-fs-pagetitle": "開始準備ウィザード - $1",
 	"wminc-fs-langselect-title": "言語を選択",

@@ -51,7 +51,6 @@
 	"wminc-searchwiki-match-userlangname": "$1 je ime jezika.",
 	"wminc-searchwiki-match-englishname": "»$1« je ime jezika $2 v angleščini.",
 	"wminc-searchwiki-match-nativename": "»$1« je ime jezika $2 v tem jeziku.",
-	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "stran z informacijami",
 	"wminc-fs-pagetitle": "Čarovnik za začetek – $1",
 	"wminc-fs-langselect-title": "Izberite jezik",
@@ -94,5 +93,6 @@
 	"wminc-infopage-status-created": "Projekt je odobril jezikovni odbor in je odslej na voljo na naslovu $1.",
 	"wminc-infopage-status-beforeincubator": "Projekt je nastal pred zagonom Wikimedijinega inkubatorja in je na voljo na naslovu $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Projekt je na voljo na $1.",
-	"wminc-infopage-error": "Napaka: {{#infopage}} se lahko uporablja samo na straneh s predpono."
+	"wminc-infopage-error": "Napaka: {{#infopage}} se lahko uporablja samo na straneh s predpono.",
+	"wminc-title-element": "$1 – $2"
 }

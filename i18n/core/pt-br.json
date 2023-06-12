@@ -65,7 +65,6 @@
 	"wminc-searchwiki-match-userlangname": "$1 é o nome de um idioma.",
 	"wminc-searchwiki-match-englishname": "\"$1\" é o nome para $2 em inglês.",
 	"wminc-searchwiki-match-nativename": "\"$1\" é o nome para $2 nesse idioma.",
-	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "página de informação",
 	"wminc-fs-pagetitle": "Assistente de iniciação - $1",
 	"wminc-fs-langselect-title": "Selecionar idioma",

@@ -56,7 +56,6 @@
 	"wminc-searchwiki-match-userlangname": "$1' eno/ena zuwandeyo.",
 	"wminc-searchwiki-match-englishname": "Namey \"$1\"'i zuwando bindı $2 zazakiyo.",
 	"wminc-searchwiki-match-nativename": "Namay \"$1\"'i zuwando bindı $2'o(a)",
-	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "Peyaya destegi",
 	"wminc-fs-pagetitle": "Seherbaze dest peke - $1",
 	"wminc-fs-langselect-title": "Zıwan weçine",

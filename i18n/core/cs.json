@@ -56,7 +56,6 @@
 	"wminc-searchwiki-match-userlangname": "$1 je název jazyka.",
 	"wminc-searchwiki-match-englishname": "„$1“ je anglický název pro jazyk $2.",
 	"wminc-searchwiki-match-nativename": "„$1“ je název pro jazyk $2 v tomto jazyce.",
-	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "informační stránka",
 	"wminc-fs-pagetitle": "Průvodce začátkem – $1",
 	"wminc-fs-langselect-title": "Vyberte jazyk",
