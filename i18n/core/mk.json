@@ -50,6 +50,7 @@
 	"wminc-searchwiki-match-userlangname": "$1 е име на јазик.",
 	"wminc-searchwiki-match-englishname": "„$1“ е името на $2 на англиски.",
 	"wminc-searchwiki-match-nativename": "„$1“ е името на $2 на тој јазик.",
+	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "инфостраница",
 	"wminc-fs-pagetitle": "Помошник „Како да започнете“ - $1",
 	"wminc-fs-langselect-title": "Одберете јазик",
@@ -92,5 +93,6 @@
 	"wminc-infopage-status-created": "Овој проект е одобрен од јазичната комисија и сега е достапен на $1.",
 	"wminc-infopage-status-beforeincubator": "Овој проект е создаден пред започнувањето на Инкубаторот на Викимедија и е достапен на $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Проектот е достапен на $1.",
-	"wminc-infopage-error": "Грешка: {{#infopage}} може да се користи само на страници со претставки."
+	"wminc-infopage-error": "Грешка: {{#infopage}} може да се користи само на страници со претставки.",
+	"wminc-title-element": "$1 — $2"
 }
