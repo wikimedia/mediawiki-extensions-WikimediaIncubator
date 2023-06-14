@@ -50,7 +50,7 @@
 	"wminc-viewuserlang-user": "Label for the input.\n\n{{Identical|Username}}",
 	"wminc-viewuserlang-go": "Text on the submit button to view the user's language and test wiki.\n\n{{Identical|Go}}",
 	"wminc-userdoesnotexist": "Used on [[Special:ViewUserLang]] when the entered user does not exist.\n\nParameters:\n* $1 - username",
-	"wminc-ip": "Used on [[Special:ViewUserLang]] which can only be used for logged in users.\n\nThis error message is shown for IP addresses.\n\nParameters:\n* $1 - the specified IP address",
+	"wminc-ip": "Used on [[Special:ViewUserLang]] which can only be used for logged in users.\n\nThis error message is shown for IP addresses or temporary users.\n\nParameters:\n* $1 - the specified IP address or temporary user",
 	"action-viewuserlang": "{{doc-action|viewuserlang}}",
 	"right-viewuserlang": "{{doc-right|viewuserlang}}\nThe message says (in the long form): (This group has) \"The ability to view the language and test wiki of a user\". A user can set his language and test wiki through [[Special:Preferences]].",
 	"group-test-sysop": "{{doc-group|test-sysop}}\nName of the group of administrators of a specific test wiki on the Wikimedia Incubator.",
