@@ -49,7 +49,7 @@
 	"wminc-ip": "« $1 » est une adresse IP.",
 	"action-viewuserlang": "afficher la langue de l’utilisateur et le wiki de test",
 	"right-viewuserlang": "Voir la langue de l’utilisateur et le wiki de test",
-	"group-test-sysop": "Administrateurs du wiki de test",
+	"group-test-sysop": "Administrateurs de wiki de test",
 	"group-test-sysop-member": "administrat{{GENDER:$1|eur|rice}} de wiki de test",
 	"grouppage-test-sysop": "{{ns:project}}:Administrateurs de wiki de test",
 	"group-test-sysop.css": "/* Le CSS placé ici n’affectera que les administrateurs du wiki de test */",

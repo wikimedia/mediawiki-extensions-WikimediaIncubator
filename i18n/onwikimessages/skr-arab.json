@@ -4,7 +4,11 @@
 			"Saraiki"
 		]
 	},
+	"wminc-gadget-iw-add-wikidata": "وکی ڈیٹا لنک شامل کرو",
 	"wminc-gadget-iw-dialog-cancel": "منسوخ",
 	"wminc-gadget-iw-dialog-publish": "شائع کرو",
-	"wminc-gadget-iw-dialog-editpage": "ایں ورقے تے لکھو"
+	"wminc-gadget-iw-dialog-title": "انٹر وکی لنک شامل کرو",
+	"wminc-gadget-iw-dialog-editpage": "ایں ورقے تے لکھو",
+	"wminc-gadget-iw-dialog-wikidata-search": "وکی ڈیٹا وچ ڳولو",
+	"wminc-gadget-twpref-setlang": "زبان مقرر کرو: $1"
 }
