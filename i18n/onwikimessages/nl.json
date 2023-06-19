@@ -30,5 +30,18 @@
 	"wminc-gadget-iw-dialog-editpage": "Pagina bewerken",
 	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata doorzoeken",
 	"wminc-gadget-iw-error-reload": "Laad de pagina opnieuw en probeer het opnieuw.",
-	"wminc-gadget-iw-editsummary": "Interwiki-links toevoegen aan [[d:$1]]"
+	"wminc-gadget-iw-editsummary": "Interwiki-links toevoegen aan [[d:$1]]",
+	"wminc-infopage-title-status-approved": "Dit is een goedgekeurde testwiki van de Wikimedia Incubator.",
+	"wminc-infopage-title-status-default": "Dit is een testwiki van de Wikimedia Incubator.",
+	"wminc-infopage-title-status-imported": "Dit is een geïmporteerde testwiki van de Wikimedia Incubator.",
+	"wminc-infopage-title-status-invalidcode": "Deze test heeft een ongeldige [[$1|ISO 639]]-taalcode en is dus verwijderd.",
+	"wminc-infopage-title-status-open": "Dit is een open testwiki van de Wikimedia Incubator.",
+	"wminc-infopage-text-approved": "Deze testwiki is goedgegekeurd door het [[$2|Taalcomité]] (zie ook het [[$1|logboek met nieuwe sites]]).",
+	"wminc-infopage-text-default": "Ontbrekende of verkeerde parameter \"$4\". Zie [[$5|hier voor meer informatie]] over dit sjabloon.",
+	"wminc-infopage-text-imported": "Deze testwiki was [[$6|geïmporteerd]] nadat de wiki werd gesloten. Als u deze wiki wilt (her)opstarten, kunt u deze pagina's gebruiken om mee te starten.",
+	"wminc-infopage-text-invalidcode": "Deze testwiki heeft een ongeldige [[$7|ISO 639]]-taalcode, dus het werd verwijderd. Er kan een XML-bestand beschikbaar zijn (vraag er [[$8|hier]] naar) die kan overgezet worden naar een niet-Wikimedia-wiki.",
+	"wminc-infopage-text-open": "Deze testwiki is open of gecontroleerd. U wordt aangemoedigd om bij te dragen als u deze taal kent. Zie ook [[Help:Manual]] voor een uitleg over wat u moet doen.",
+	"wminc-infopage-text-tocreate": "Deze testwiki is nog niet begonnen. Als u deze taal kent, volg dan de uitleg op [[$9]]. U kunt een Hoofdpagina maken op ''\"{{PAGENAME}}/Hoofdpagina\"'' met \"Hoofdpagina\" vertaald naar deze taal (bijvoorbeeld \"Wp/fr/Accueil\" als het een Franse testwiki was).",
+	"wminc-infopage-text-approved-created": "U kunt het vinden op $1.",
+	"wminc-infopage-req-header": "Benodigdheden"
 }

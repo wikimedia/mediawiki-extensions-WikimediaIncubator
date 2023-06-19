@@ -8,5 +8,18 @@
 	"wminc-code-collective": "Il codice \"$1\" non fa riferimento a un linguaggio specifico, ma a un insieme di lingue, vedi [[wikipedia:$2 language|lingue \"$3\"]].",
 	"wminc-code-retired": "Questo codice lingua è stato modificato e non si riferisce più alla lingua originale.",
 	"wminc-gadget-iw-add-wikidata": "Aggiungi collegamento Wikidata",
-	"wminc-gadget-twpref-setlang-tooltip": "Imposta la lingua dell'interfaccia su $1"
+	"wminc-gadget-twpref-setlang-tooltip": "Imposta la lingua dell'interfaccia su $1",
+	"wminc-infopage-language-header": "Lingua",
+	"wminc-infopage-language-translatewiki": "Portale Translatewiki.net",
+	"wminc-infopage-content-main-category": "Categoria principale",
+	"wminc-infopage-content-administroters": "Amministratori:",
+	"wminc-infopage-content-project": "Progetto: $1",
+	"wminc-infopage-content-project-b": "Wikibooks",
+	"wminc-infopage-content-project-n": "Wikinotizie",
+	"wminc-infopage-content-project-p": "Wikipedia",
+	"wminc-infopage-content-project-q": "Wikiquote",
+	"wminc-infopage-content-project-s": "Wikisource",
+	"wminc-infopage-content-project-t": "Wikizionario",
+	"wminc-infopage-content-project-v": "Wikiversità",
+	"wminc-infopage-content-project-y": "Wikivoyage"
 }

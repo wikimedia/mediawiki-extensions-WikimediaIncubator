@@ -49,5 +49,18 @@
 	"wminc-gadget-twpref-setlang": "Ställ in språk: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "Ställ in ditt gränssnittsspråk till $1",
 	"wminc-gadget-twpref-setwiki": "Ställ in $1 som ditt testprojekt",
-	"wminc-gadget-twpref-setwiki-tooltip": "Ställ inte $1 som ditt testprojekt så att nya sidor du skapar kommer vara en del av det här projektet"
+	"wminc-gadget-twpref-setwiki-tooltip": "Ställ inte $1 som ditt testprojekt så att nya sidor du skapar kommer vara en del av det här projektet",
+	"wminc-infopage-title-status-approved": "Detta är ett godkänt projekt på Wikimedia Inkubator.",
+	"wminc-infopage-title-status-default": "Det här är en testwiki på Wikimedia Inkubator.",
+	"wminc-infopage-title-status-imported": "Det här är en importerad testwiki på Wikimedia Inkubator.",
+	"wminc-infopage-title-status-invalidcode": "Det här testet har en ogiltig [[$1|ISO 639]]-språkkod, så den har raderats.",
+	"wminc-infopage-title-status-open": "Det här är en öppen testwiki på Wikimedia Inkubator.",
+	"wminc-infopage-text-approved": "Den här wikin har godkänts av [[$2|Språkkommittén]] (se även [[$1|loggen för skapade webbplatser]]).",
+	"wminc-infopage-text-default": "Saknande eller fel parameter \"$4\". Läs [[$5|här för mer information]] som den här mallen.",
+	"wminc-infopage-text-imported": "Den här wikin har [[$6|importerats]] efter att wikin stängdes. Om du vill (åter)uppliva det här projektet, kan du använda de här sidorna till att börja med.",
+	"wminc-infopage-text-invalidcode": "Den här testwikin har en ogiltig [[$7|ISO 639]]-språkkod, så den har raderats. Det kan finnas en tillgänglig XML-fil (fråga [[$8|här]]) som kan överföras till en icke-Wikimedia-wiki.",
+	"wminc-infopage-text-open": "Den här testwikin är öppen eller bekräftat berättigad. Du uppmuntras bidra om du kan språket. Läs också [[$9|Hjälp:Manual]] för en förklaring över vad du kan göra.",
+	"wminc-infopage-text-tocreate": "Den här wikin har ännu inte påbörjats. Om du kan språket, följ instruktionerna på [[$9|Hjälp:Manual]]. Du kan skapa en huvudsida på ''\"{{PAGENAME}}/Huvudsida\"'' med \"Huvudsida\" översatt till det här språket (till exempel \"Wp/fr/Accueil\" om det vore en fransk testwiki).",
+	"wminc-infopage-text-approved-created": "Du hittar den på $1.",
+	"wminc-infopage-req-header": "Kriterier"
 }

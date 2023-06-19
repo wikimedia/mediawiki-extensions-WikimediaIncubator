@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"wminc-code-collective": "De Code \"$1\" bezitt sech net op eng bestëmmte Sprooch, mä op eng Grupp vu Sproochen, an zwar op [[wikipedia:$2 language|\"$3\"-Sproochen]].",
@@ -9,5 +10,8 @@
 	"wminc-gadget-iw-dialog-cancel": "Ofbriechen",
 	"wminc-gadget-iw-dialog-publish": "Verëffentlechen",
 	"wminc-gadget-iw-dialog-editpage": "D'Säit änneren",
-	"wminc-gadget-twpref-setlang": "Sprooch astellen: $1"
+	"wminc-gadget-twpref-setlang": "Sprooch astellen: $1",
+	"wminc-infopage-language-header": "Sprooch",
+	"wminc-infopage-content-main-category": "Haaptkategorie",
+	"wminc-infopage-content-administroters": "Administrateuren:"
 }

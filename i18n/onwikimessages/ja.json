@@ -33,5 +33,14 @@
 	"wminc-gadget-twpref-setlang": "言語を設定: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "表示言語を$1に設定します",
 	"wminc-gadget-twpref-setwiki": "$1をあなたの試験版プロジェクトとして設定します",
-	"wminc-gadget-twpref-setwiki-tooltip": "$1をあなたの試験版プロジェクトとして設定し、新規作成するページがこのプロジェクトの一部になるようにします。"
+	"wminc-gadget-twpref-setwiki-tooltip": "$1をあなたの試験版プロジェクトとして設定し、新規作成するページがこのプロジェクトの一部になるようにします。",
+	"wminc-infopage-language-header": "言語",
+	"wminc-infopage-content-project-b": "ウィキブックス",
+	"wminc-infopage-content-project-n": "ウィキニュース",
+	"wminc-infopage-content-project-p": "ウィキペディア",
+	"wminc-infopage-content-project-q": "ウィキクォート",
+	"wminc-infopage-content-project-s": "ウィキソース",
+	"wminc-infopage-content-project-t": "ウィクショナリー",
+	"wminc-infopage-content-project-v": "ウィキバーシティ",
+	"wminc-infopage-content-project-y": "ウィキボヤージュ"
 }

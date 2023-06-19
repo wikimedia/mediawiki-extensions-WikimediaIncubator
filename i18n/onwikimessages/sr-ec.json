@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BadDog",
+			"Milicevic01",
 			"Rancher"
 		]
 	},
@@ -10,5 +11,24 @@
 	"wminc-code-retired": "Овај језички код је промењен и више се не односи на првобитни језик.",
 	"wminc-custom-featuredwikis-approved": "Ови су одобрени и направљени:",
 	"wminc-custom-featuredwikis-active": "Ови су активни и можда ће добити свој сајт ускоро:",
-	"wminc-custom-featuredwikis-permanent": "Ови ће вероватно овде и остати:"
+	"wminc-custom-featuredwikis-permanent": "Ови ће вероватно овде и остати:",
+	"wminc-infopage-text-approved-date": "Направљена је $1.",
+	"wminc-infopage-language-header": "Језик",
+	"wminc-infopage-language-nocode": "ништа",
+	"wminc-infopage-language-directionality": "Правац: $1",
+	"wminc-infopage-language-directionality-ltr": "с’ лева на десно",
+	"wminc-infopage-language-directionality-rtl": "с’ десна на лево",
+	"wminc-infopage-language-macrolanguage": "Члан макро језика: $1",
+	"wminc-infopage-content-main-category": "Главна категорија",
+	"wminc-infopage-content-contributors": "Доприносиоци",
+	"wminc-infopage-content-administroters": "Администратори:",
+	"wminc-infopage-content-project-b": "Викикњиге",
+	"wminc-infopage-content-project-n": "Викиновости",
+	"wminc-infopage-content-project-p": "Википедија",
+	"wminc-infopage-content-project-q": "Викицитати",
+	"wminc-infopage-content-project-s": "Викизворник",
+	"wminc-infopage-content-project-t": "Викиречник",
+	"wminc-infopage-content-project-v": "Викиверзитет",
+	"wminc-infopage-req-header": "Предуслови",
+	"wminc-infopage-req-rejected": "'''(одбијено)'''"
 }

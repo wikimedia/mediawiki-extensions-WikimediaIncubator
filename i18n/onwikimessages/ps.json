@@ -4,5 +4,10 @@
 	},
 	"wminc-custom-featuredwikis-approved": "دا مخونه تاييد شوي/او جوړ شوی دي:",
 	"wminc-custom-featuredwikis-active": "دا فعاله دي او کیداي شي ژر تر ژره خپل سايټ يا پاڼه ترلاسه کړي:",
-	"wminc-custom-featuredwikis-permanent": "دا به احتمالن دلته پاتې شي:"
+	"wminc-custom-featuredwikis-permanent": "دا به احتمالن دلته پاتې شي:",
+	"wminc-infopage-title-status-approved": "دا د ويکيمېډيا اېنکیوبېټر تاييد شوي آزموینې ويکي ده",
+	"wminc-infopage-title-status-open": "دا د ويکيمېډيا اېنکیوبېټر یوه خلاصه آزموینې ويکي ده",
+	"wminc-infopage-text-approved": "دا ويکي د [[$2|د ژبې کمېټۍ]] لخوا تاييد کړل شوي ده، (همدارنګه [[$1|د ويکي جوړونې پاڼه]] هم وګوري).",
+	"wminc-infopage-text-open": "دا ازمايښتي ويکي خلاصه ده یا د جوړولو وړتیاوې لري. که تاسو په دي ژبه پوهيږي، نو ستاسو نه غوښتنه کيږی چي په دغه پروژه کې بدلونونه راولي. همدارنګه\n[[$9|لارښوونه]] وګوري چي څه کارونو   ته اړتیا شته چي تاسو يي تر سره کړي.",
+	"wminc-infopage-text-approved-created": "تاسو کولی شئ دا په $1 کي پيدا کړي."
 }

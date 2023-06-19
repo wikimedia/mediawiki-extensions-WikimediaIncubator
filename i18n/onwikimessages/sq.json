@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"wminc-infopage-title-status-approved": "Ky është një test wiki i miratuar i Wikimedia Incubator.",
+	"wminc-infopage-title-status-default": "Ky është një test wiki i Wikimedia Incubator.",
+	"wminc-infopage-title-status-imported": "Ky është një test wiki i importuar i Wikimedia Incubator.",
+	"wminc-infopage-title-status-invalidcode": "Ky test ka një kod gjuhe [[$1|ISO 639]] të pavlefshëm, kështu që është grisur.",
+	"wminc-infopage-title-status-open": "Ky është një test wiki i hapur i Wikimedia Incubator.",
+	"wminc-infopage-text-approved": "Ky test wiki është miratuar nga [[$2|Komisioni i gjuhës]] (shikoni gjithashtu [[$1|regjistrin e krijimit të sajteve]]).",
+	"wminc-infopage-text-default": "Parametri \"$4\" mungon ose është i gabuar. Shikoni [[$5|këtu për më shumë informacione]] rreth kësaj stampe.",
+	"wminc-infopage-text-imported": "Ky wiki është [[$6|importuar]] pasi wiki u mbyll. Nëse doni ta (ri)filloni këtë projekt, ju mund të përdorni këto faqe për të filluar.",
+	"wminc-infopage-text-invalidcode": "Ky test wiki ka një kod gjuhe [[$7|ISO 639]] të pavlefshëm, kështu që është grisur. Mund të gjendet një skedë XML (pyesni [[$8|këtu]]) që mund të transferohet tek një jo-Wikimedia wiki.",
+	"wminc-infopage-text-open": "Ky test wiki është i hapur ose i verifikuar si i pranueshëm. Jeni të inkurajuar të kontribuoni nëse e dini këtë gjuhë. Shikoni gjithashtu [[$9|Ndihmë:Manuali]] për një shpjegim se çfarë duhet të bëni.",
+	"wminc-infopage-text-tocreate": "Ky test wiki nuk ka filluar ende. Nëse e dini këtë gjuhë, ndiqni udhëzimet tek [[$9|Ndihmë:Manuali]]. Ju mund të krijoni një Faqe Kryesore tek ''\"{{PAGENAME}}/Faqja_Kryesore\"'' me \"Faqja Kryesore\" të përkthyer në këtë gjuhë (për shembull \"Wp/en/Main_Page\" nëse është një test wiki në gjuhën angleze).",
+	"wminc-infopage-text-approved-created": "Ju mund ta gjeni atë tek $1.",
+	"wminc-infopage-req-header": "Kërkesat"
+}

@@ -52,7 +52,7 @@
 	"wminc-viewuserlang-user": "用户名：",
 	"wminc-viewuserlang-go": "提交",
 	"wminc-userdoesnotexist": "用户 \"$1\" 并不存在。",
-	"wminc-ip": "\" $1 \"是一个IP地址。",
+	"wminc-ip": "“$1”是一个IP地址或临时用户。",
 	"action-viewuserlang": "查看用户语言与测试维基",
 	"right-viewuserlang": "查看用户语言与测试wiki",
 	"group-test-sysop": "测试维基管理员",

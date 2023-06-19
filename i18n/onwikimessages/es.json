@@ -4,6 +4,7 @@
 			"Drini",
 			"Fitoschido",
 			"La Mantis",
+			"No se",
 			"Savh"
 		]
 	},
@@ -21,5 +22,19 @@
 	"wminc-gadget-iw-dialog-title": "Agregar un enlace interwiki",
 	"wminc-gadget-iw-dialog-qid-placeholder": "por ejemplo, $1",
 	"wminc-gadget-iw-dialog-editpage": "Editar la página",
-	"wminc-gadget-iw-dialog-wikidata-search": "Buscar en Wikidata"
+	"wminc-gadget-iw-dialog-wikidata-search": "Buscar en Wikidata",
+	"wminc-infopage-title-status-approved": "Ésta es una wiki en pruebas aprobada de la Incubadora de Wikimedia.",
+	"wminc-infopage-title-status-default": "Ésta es una wiki en pruebas de la Incubadora de Wikimedia.",
+	"wminc-infopage-title-status-imported": "Ésta es una wiki en pruebas importada de la Incubadora de Wikimedia.",
+	"wminc-infopage-title-status-invalidcode": "Esta prueba tiene un código de lengua [[$1|ISO 639]] inválido, así que ha sido eliminada.",
+	"wminc-infopage-title-status-open": "Ésta es una wiki en pruebas abierta de la Incubadora de Wikimedia.",
+	"wminc-infopage-title-status-rejected": "Este wiki de prueba fue rechazado por el comité de idiomas y ha sido eliminado.",
+	"wminc-infopage-text-default": "El parámetro \"$4\" falta o es incorrecto. Ver [[$5|aquí para más información]] sobre ese modelo.",
+	"wminc-infopage-text-imported": "Esta wiki ha sido [[$6|importada]] tras haber sido cerrada. Si quieres (re)comenzar el proyecto, puedes utilizar estas páginas como punto de partida.",
+	"wminc-infopage-text-invalidcode": "Esta wiki en pruebas tiene un código [[$7|ISO 639]] incorrecto y en consecuecia ha sido eliminada. Un fichero XML que podría ser transferido a una wiki no perteneciente a Wikimedia podría estar disponible (solicitarlo [[$8|aquí]]).",
+	"wminc-infopage-text-tocreate": "Esta wiki en pruebas para la lengua {{{language}}} aún no ha sido comenzada. Si conoces esta lengua, sigue las instrucciones en [[$9]]. Puedes crear una Página Principal en ''\"{{PAGENAME}}/Página Principal\"'' con \"Página Principal\" traducida a esta lengua (por ejemplo \"Wp/fr/Accueil\" si se tratase de una wiki en pruebas para la lengua francesa).",
+	"wminc-infopage-language-header": "Idioma",
+	"wminc-infopage-content-main-category": "Categoría principal",
+	"wminc-infopage-content-administroters": "Administradores:",
+	"wminc-infopage-req-header": "Requisitos"
 }

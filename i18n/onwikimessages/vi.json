@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Flyplanevn27",
 			"Minh Nguyen"
 		]
 	},
@@ -16,5 +17,16 @@
 	"wminc-gadget-iw-dialog-qid-placeholder": "ví dụ $1",
 	"wminc-gadget-iw-dialog-editpage": "Sửa đổi trang này",
 	"wminc-gadget-iw-dialog-learn-more": "Tìm hiểu thêm về Wikidata",
-	"wminc-gadget-iw-dialog-wikidata-search": "Tìm trong Wikidata"
+	"wminc-gadget-iw-dialog-wikidata-search": "Tìm trong Wikidata",
+	"wminc-infopage-title-status-approved": "Đây là một trang wiki thử nghiệm được chấp nhận trên Wikimedia Incubator.",
+	"wminc-infopage-title-status-default": "Đây là một trang wiki thử nghiệm trên Wikimedia Incubator.",
+	"wminc-infopage-title-status-imported": "Đây là một trang wiki thử nghiệm được nhập vào Wikimedia Incubator.",
+	"wminc-infopage-title-status-invalidcode": "Wiki thử nghiệm này có mã ngôn ngữ [[$1|ISO 639]] không hợp lệ, vì vậy nó đã bị xóa.",
+	"wminc-infopage-title-status-open": "Đây là một trang wiki thử nghiệm đang được mở trên Wikimedia Incubator.",
+	"wminc-infopage-text-default": "Thông số \"$4\" bị sai hoặc thiếu. Xem [[$5|ở đây để có nhiều thông tin hơn]] về bản mẫu này.",
+	"wminc-infopage-text-imported": "Trang wiki này đã được [[$6|nhập vào]] sau khi wiki bị đóng. Nếu bạn muốn khởi động (lại) dự án này, bạn có thể tham khảo các trang này để bắt đầu.",
+	"wminc-infopage-text-invalidcode": "Trang wiki thử nghiệm này có mã ngôn ngữ [[$7|ISO 639]] không hợp lệ, vì vậy nên nó đã bị xóa. Hiện có sẵn một tệp XML (hãy hỏi [[$8|tại đây]]) mà có thể chuyển đến một wiki không thuộc Wikimedia.",
+	"wminc-infopage-text-open": "Trang wiki thử nghiệm được mở hoặc xác nhận là đủ tư cách. Rất hoan nghênh bạn đóng góp nếu bạn biết ngôn ngữ này. Hãy xem qua [[$9|sách hướng dẫn]] để được giải thích rõ hơn về những gì bạn cần làm.",
+	"wminc-infopage-text-tocreate": "Trang wiki thử nghiệm này chưa được khởi tạo. Nếu bạn hiểu ngôn ngữ này, hãy làm theo các bước trong [[$9|Hướng dẫn]]. Bạn có thể tạo một Trang Chính tại ''\"{{PAGENAME}}/Main_Page\"'' với \"Main_Page\" được dịch sang ngôn ngữ đó (Ví dụ \"Wp/fr/Accueil\" nếu nó là một trang wiki thử nghiệm bằng tiếng Pháp).",
+	"wminc-infopage-req-header": "Yêu cầu"
 }

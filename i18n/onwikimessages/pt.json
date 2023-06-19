@@ -47,5 +47,16 @@
 	"wminc-gadget-twpref-setlang": "Definir língua: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "Definir a sua língua da interface como $1",
 	"wminc-gadget-twpref-setwiki": "Definir $1 como o seu projeto de teste",
-	"wminc-gadget-twpref-setwiki-tooltip": "Definir $1 como o seu projeto de teste, para que as páginas novas que criar façam parte deste projeto"
+	"wminc-gadget-twpref-setwiki-tooltip": "Definir $1 como o seu projeto de teste, para que as páginas novas que criar façam parte deste projeto",
+	"wminc-infopage-title-status-approved": "Esta é uma wiki de teste aprovada, do Wikimedia Incubator.",
+	"wminc-infopage-title-status-default": "Esta é uma wiki de teste, do Wikimedia Incubator.",
+	"wminc-infopage-title-status-imported": "Esta é uma wiki de teste importada, pertencente ao Wikimedia Incubator.",
+	"wminc-infopage-title-status-invalidcode": "Este teste tem um código [[$1|ISO 639]] inválido e por isso foi apagado.",
+	"wminc-infopage-title-status-open": "Esta é uma wiki de teste aberta, do Wikimedia Incubator.",
+	"wminc-infopage-text-default": "O parâmetro \"$4\" é inexistente ou incorreto. Clique [[$5|aqui]] para mais informações sobre este template.",
+	"wminc-infopage-text-imported": "Esta wiki foi [[$6|importada]] após ter sido fechada. Se você quiser (re)iniciar este projeto, você pode utilizar estas páginas para começar.",
+	"wminc-infopage-text-invalidcode": "Esta wiki de teste tem um código de idioma [[$7|ISO 639]] inválido e, por isso, foi apagada. Talvez exista um arquivo XML disponível (pergunte [[$8|aqui]]), que poderia ser transferido para uma wiki não pertencente à Wikimedia.",
+	"wminc-infopage-text-open": "Esta wiki de teste está ativa ou foi confirmada como elegível. Se você fala este idioma, está convidado a contribuir. Veja também [[Help:Manual]] para uma explicação sobre o que você precisa fazer.",
+	"wminc-infopage-text-tocreate": "Esta wiki de teste na língua {{{language}}} ainda não foi iniciada. Se você fala esse idioma, siga as instruções em [[$9]]. Você poderá criar uma Página Principal em ''\"{{PAGENAME}}/Página_Principal\"'' com \"Página_Principal\" traduzido para o idioma em questão (por exemplo \"Wp/fr/Accueil\" se você estivesse criando uma wiki de teste em francês).",
+	"wminc-infopage-req-header": "Pré-requisitos"
 }

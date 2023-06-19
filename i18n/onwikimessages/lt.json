@@ -5,5 +5,10 @@
 			"Nokeoo"
 		]
 	},
-	"wminc-code-retired": "Šios kalbos kodas buvo pakeistas ir nebėra nuoroda į originalo kalba."
+	"wminc-code-retired": "Šios kalbos kodas buvo pakeistas ir nebėra nuoroda į originalo kalba.",
+	"wminc-infopage-title-status-approved": "Tai patvirtinta bandomoji Wikimedia Inkubatoriaus wiki.",
+	"wminc-infopage-title-status-default": "Tai bandomoji Wikimedia Inkubatoriaus wiki.",
+	"wminc-infopage-title-status-imported": "Tai importuota bandomoji Wikimedia Inkubatoriaus wiki.",
+	"wminc-infopage-title-status-open": "Tai atvira bandomoji Wikimedia Inkubatoriaus wiki.",
+	"wminc-infopage-req-header": "Reikalavimai"
 }

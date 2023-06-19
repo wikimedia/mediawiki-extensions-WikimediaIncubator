@@ -67,7 +67,7 @@
 	"wminc-infopage-text-toimport": "Explanatory text for the info page template.",
 	"wminc-infopage-text-awaiting-creation": "Explanatory text for the info page template.\n\n\"It\" = the test wiki.\n\nParameters:\n* $1 - a Phabricator task ID",
 	"wminc-infopage-text-approved-created": "Text explaining where to find a wiki.\n\n\"it\" = the test wiki",
-	"wminc-infopage-text-approved-date": "Text explaining when a test wiki was created.\n\n\"It\" = the test wiki.",
+	"wminc-infopage-text-approved-date": "Text explaining when a test wiki was created.\n\n\"It\" = the test wiki.\n\nParameters:\n* $1 - a date",
 	"wminc-infopage-language-header": "Header for a column about this test wiki's language.",
 	"wminc-infopage-language-iso1": "Text linking to an ISO 639-1 code.\n\nParameters:\n* $1 - a language code or {{msg-mw|wminc-infopage-language-nocode}}",
 	"wminc-infopage-language-nocode": "Text shown instead of a language code if a language doesn't have one.",

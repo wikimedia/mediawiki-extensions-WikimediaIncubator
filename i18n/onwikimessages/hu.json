@@ -22,5 +22,13 @@
 	"wminc-custom-tb-space-colon": "Technikai okokból a cím nem kezdődhet szóközzel vagy kettősponttal.",
 	"gadget-addprefix": "<strong>AddPrefix:</strong> automatikusan előtagokkal látja el a linkeket lap létrehozásakor.",
 	"wminc-gadget-addprefix-help": "A projekt előtagját nem szükséges feltüntetned a linkekben, amikor ezt a lapot szerkeszted. A linkeket az AddPrefix segédeszköz automatikusan kiegészíti, amikor mented a lapot.",
-	"wminc-gadget-addprefix-toggle": "Előtagok elrejtése/mutatása"
+	"wminc-gadget-addprefix-toggle": "Előtagok elrejtése/mutatása",
+	"wminc-infopage-title-status-approved": "Élesítés előtt álló tesztprojekt.",
+	"wminc-infopage-text-approved": "A [[$2|Nyelvi Albizottság]] jóváhagyta a projekt élesítését. (Lásd még: [[$1|Projektélesítési napló]].)",
+	"wminc-infopage-text-imported": "Ez a tesztprojekt egy bezárt wiki [[$6|importálásával]] jött létre. Ha fel szeretnéd éleszteni, használhatod a korábban megírt oldalakat.",
+	"wminc-infopage-text-invalidcode": "A projektet töröltük, mert a nyelvének nincs [[$7|ISO 639]]-es kódja. Az [[$8|adminisztrátoroktól]] elkérheted az XML fájlt, ha importálni szeretnéd a korábbi tartalmat egy másik (nem Wikimedia) wikibe. Feltéve, hogy van.",
+	"wminc-infopage-text-open": "Ez a tesztprojekt nyitva van, és szerkeszthető: ha ismered a nyelvet, nyugodtan dolgozhatsz benne. A projektnyitás teendőiről a [[$9|kézikönyvben]] olvashatsz bővebben.",
+	"wminc-infopage-text-tocreate": "Ez a tesztprojekt még nem indult el. Ha ismered a nyelvet, és szeretnél segíteni a létrehozásában, akkor kövesd a [[$9|kézikönyvben]] leírtakat. A tesztprojekt kezdőlapját a ''{{PAGENAME}}/Kezdőlap'' címen tudod létrehozni. (A kezdőlap szó az adott nyelven kell szerepeljen: a francia Wikipédia kezdőlapjának címe például Wp/fr/Accueil lenne az Inkubátorban.)",
+	"wminc-infopage-text-approved-created": "A projekt új címe: $1.",
+	"wminc-infopage-req-header": "Egyebek"
 }

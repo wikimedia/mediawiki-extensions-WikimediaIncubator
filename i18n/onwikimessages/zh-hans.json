@@ -51,5 +51,16 @@
 	"wminc-gadget-twpref-setlang": "设置语言：$1",
 	"wminc-gadget-twpref-setlang-tooltip": "将界面语言设置为$1",
 	"wminc-gadget-twpref-setwiki": "将$1设置为您的测试项目",
-	"wminc-gadget-twpref-setwiki-tooltip": "将$1设置为您的测试项目，这样您创建的新页面将成为该项目的一部分"
+	"wminc-gadget-twpref-setwiki-tooltip": "将$1设置为您的测试项目，这样您创建的新页面将成为该项目的一部分",
+	"wminc-infopage-title-status-approved": "这是一个经过批准的在维基媒体孵化器的测试维基。",
+	"wminc-infopage-title-status-default": "这是一个在维基媒体孵化器的测试维基。",
+	"wminc-infopage-title-status-imported": "这是一个在维基孵化器中被导入的维基。",
+	"wminc-infopage-title-status-invalidcode": "这个测试维基使用一个无效的[[$1|ISO 639]]语言代码，所以它已被删除。",
+	"wminc-infopage-title-status-open": "这是维基孵育场的一个开放测试维基。",
+	"wminc-infopage-text-approved": "这个测试维基已由[[$2|语言委员会]]批准（见[[$1|网站创建日志]]）。",
+	"wminc-infopage-text-default": "丢失或错误的参数“$4”。关于此模板的更多信息，请参阅[[$5|这里]]。",
+	"wminc-infopage-text-imported": "这是一个关闭后被[[$6|导入]]的维基。如果你想（重新）开始这个项目，您可以使用这些被导入的页面重新开始。",
+	"wminc-infopage-text-invalidcode": "这个测试维基有一个无效的[[$7|ISO 639]]语言代码，所以它已被删除。这里可能会有一个XML文件（在[[$8|这里]]询问），它可以被转移到一个非维基媒体基金会的维基。",
+	"wminc-infopage-text-approved-created": "你能在$1找到它。",
+	"wminc-infopage-req-header": "要求"
 }

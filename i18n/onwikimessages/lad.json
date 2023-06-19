@@ -4,5 +4,8 @@
 	},
 	"wminc-custom-featuredwikis-approved": "Estas vikis an sido aprovadas y/o criadas:",
 	"wminc-custom-featuredwikis-active": "Estas vikis están aktivas i podrían tener su propia hoja web luego:",
-	"wminc-custom-featuredwikis-permanent": "Estas vikis de prova provavlemente se keden akí:"
+	"wminc-custom-featuredwikis-permanent": "Estas vikis de prova provavlemente se keden akí:",
+	"wminc-infopage-title-status-open": "Esto es un viki test abierto del Wikimedia Incubator.",
+	"wminc-infopage-text-open": "Este viki test está abierto o verifiado como eligible. Estáis envitados a contribuir si sabéis hablar esta lingua. Mirad también [[Help:Manual]] para esplicaciones encima de, cualo cale que hagáis.",
+	"wminc-infopage-req-header": "Condiciones"
 }

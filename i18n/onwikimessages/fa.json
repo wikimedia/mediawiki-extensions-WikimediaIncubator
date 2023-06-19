@@ -10,5 +10,13 @@
 	"wminc-code-retired": "کد زبان تغییر کرده است و دیگر به زبان اصلی ارجاع نمی‌دهد.",
 	"wminc-custom-featuredwikis-approved": "این ویکی را مورد تایید قرار گرفته و / یا ایجاد شده است:",
 	"wminc-custom-featuredwikis-active": "این ویکی فعال هستند و ممکن است سایت خود را به زودی:",
-	"wminc-custom-featuredwikis-permanent": "این ویکی به احتمال زیاد در اینجا باقی می ماند:"
+	"wminc-custom-featuredwikis-permanent": "این ویکی به احتمال زیاد در اینجا باقی می ماند:",
+	"wminc-infopage-title-status-approved": "این یک ویکی آزمایشی تصویب شده از ویکی‌رشد ویکی‌مدیا است.",
+	"wminc-infopage-title-status-imported": "این یک ویکی آزمایشی وارد شده از ویکی‌رشد ویکی‌مدیا است.",
+	"wminc-infopage-title-status-invalidcode": "این آزمایش یک کد زبان [[$1|ازو ۶۳۹]] نامعتبر دارد، بنابراین حذف شده است.",
+	"wminc-infopage-title-status-open": "این یک ویکی آزمایشی باز از ویکی‌رشد ویکی‌مدیا است.",
+	"wminc-infopage-text-approved": "این ویکی آزمایشی توسط [[$2|کمیته زبان]] تصویب شده است (همچنین [[$1|سیاههٔ ایجاد وبگاه]] را ببینید).",
+	"wminc-infopage-text-open": "این ویکی آزمایشی باز است و یا برای واجد شرایط بودن تأیید شده است. اگر شما این زبان را می‌شناسید به مشارکت در آن تشویق شده‌اید. همچنین\n[[$9|راهنما]] را ببنید که چه کارهایی احتیاج هست شما انجام دهید.",
+	"wminc-infopage-text-approved-created": "شما می‌توانید آن را در $1 پیدا کنید.",
+	"wminc-infopage-req-header": "الزامات"
 }

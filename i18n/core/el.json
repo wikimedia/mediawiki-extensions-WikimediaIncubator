@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chris Sarant",
 			"Crazymadlover",
 			"Geraki",
 			"Glavkos",
@@ -8,6 +9,7 @@
 			"Nikosgranturismogt",
 			"Omnipaedista",
 			"Protnet",
+			"Spyridon Eftychios Kokotos",
 			"ZaDiak"
 		]
 	},
@@ -35,7 +37,7 @@
 	"wminc-viewuserlang-user": "Όνομα χρήστη:",
 	"wminc-viewuserlang-go": "Μετάβαση",
 	"wminc-userdoesnotexist": "Ο χρήστης \"$1\" δεν υπάρχει.",
-	"wminc-ip": "\"$1\" είναι μια διεύθυνση IP.",
+	"wminc-ip": "\"$1\" είναι μια διεύθυνση IP ή ένας προσωρινός χρήστης.",
 	"action-viewuserlang": "προβολή της γλώσσας χρήστη και του δοκιμαστικού wiki",
 	"right-viewuserlang": "Προβολή της γλώσσας χρήστη και του δοκιμαστικού βίκι",
 	"group-test-sysop": "Διαχειριστές δοκιμαστικού wiki",
@@ -72,14 +74,14 @@
 	"wminc-fs-startwiki-exists-text": "Το πρόθεμα του βίκι σας είναι στο $1. Η κύρια σελίδα είναι στο $2. Τώρα μπορείτε να συνεργαστείτε με άλλους ομιλητές αυτής της γλώσσας για να χτίσετε μια κοινότητα!\nΑν θέλετε να δημιουργήσετε μια σελίδα, απλά πληκτρολογήστε το όνομα στο κουτί αναζήτησης πάνω και ακολουθήστε τον σύνδεσμο που θα δείτε.",
 	"wminc-infopage-enter": "Πηγαίνετε στην κύρια σελίδα",
 	"wminc-unknownlang": "(άγνωστος κωδικός γλώσσας)",
-	"wminc-infopage-title-p": "Βικιπαίδεια $1",
-	"wminc-infopage-title-b": "Βικιβιβλία $1",
-	"wminc-infopage-title-t": "Βικιλεξικό $1",
-	"wminc-infopage-title-q": "Βικιφθέγματα $1",
-	"wminc-infopage-title-n": "Βικινέα $1",
+	"wminc-infopage-title-p": "$1 Βικιπαίδεια",
+	"wminc-infopage-title-b": "$1 Βικιβιβλία",
+	"wminc-infopage-title-t": "$1 Βικιλεξικό",
+	"wminc-infopage-title-q": "$1 Βικιφθέγματα",
+	"wminc-infopage-title-n": "$1 Βικινέα",
 	"wminc-infopage-title-s": "Βικιθήκη $1",
-	"wminc-infopage-title-v": "Βικιεπιστήμιο $1",
-	"wminc-infopage-title-y": "Βικιταξίδια $1",
+	"wminc-infopage-title-v": "$1 Βικιεπιστήμιο",
+	"wminc-infopage-title-y": "$1 Βικιταξίδια",
 	"wminc-infopage-welcome": "Καλώς ήλθατε στον Επωαστήρα του Wikimedia, ένα εγχείρημα του Ιδρύματος Wikimedia ([[{{MediaWiki:Aboutpage}}|Σχετικά]])",
 	"wminc-infopage-missingwiki-text": "Ένα $1 σε αυτή τη γλώσσα δεν υπάρχει ακόμα.",
 	"wminc-infopage-option-startwiki": "Εάν θέλετε να ξεκινήσετε αυτό το βίκι, παρακαλώ ακολουθήστε\n'''[$3 αυτά τα βήματα]''' και [[{{MediaWiki:Wminc-manual-url}}|το εγχειρίδιό μας]].",

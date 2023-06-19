@@ -1,10 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cwlin0416"
+			"Cwlin0416",
+			"Winston Sung"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" 語言]] 是 [[wikipedia:ISO 639 macrolanguage|巨集語言]]，由以下成員語言所組成：",
 	"wminc-code-collective": "代碼 \"$1\" 不代表特定語言，而是指一系列語言的集合，即[[wikipedia:$2 language|\"$3\" 語言]]。",
-	"wminc-code-retired": "此語言代碼已變更，已不再代表原來的語言。"
+	"wminc-code-retired": "此語言代碼已變更，已不再代表原來的語言。",
+	"wminc-infopage-language-nocode": "無",
+	"wminc-infopage-language-translatewiki": "translatewiki.net 語言入口",
+	"wminc-infopage-language-directionality": "書寫方向：$1",
+	"wminc-infopage-language-directionality-ltr": "左至右書寫",
+	"wminc-infopage-language-directionality-rtl": "右至左書寫",
+	"wminc-infopage-language-setlang-na": "該語言目前不是已受支援的介面語言。",
+	"wminc-infopage-content-header": "測試wiki內容",
+	"wminc-infopage-content-main-category": "主分類",
+	"wminc-infopage-content-contributors": "貢獻者",
+	"wminc-infopage-content-administroters": "管理員：",
+	"wminc-infopage-content-project": "專案：$1",
+	"wminc-infopage-content-project-b": "維基教科書",
+	"wminc-infopage-content-project-n": "維基新聞",
+	"wminc-infopage-content-project-p": "維基百科",
+	"wminc-infopage-content-project-q": "維基語錄",
+	"wminc-infopage-content-project-s": "維基文庫",
+	"wminc-infopage-content-project-t": "維基詞典",
+	"wminc-infopage-content-project-v": "維基學院",
+	"wminc-infopage-content-project-y": "維基導遊",
+	"wminc-infopage-req-rejected": "'''（已被拒絕）'''"
 }

@@ -21,5 +21,10 @@
 	"wminc-gadget-iw-error-reload": "Betti qayta júkleń hám qaytadan urınıp kóriń.",
 	"wminc-gadget-twpref-setlang-tooltip": "Interfeys tilin $1 ge sazlań",
 	"wminc-gadget-twpref-setwiki": "Sınaq joybarıńız retinde $1 belgileń",
-	"wminc-gadget-twpref-setwiki-tooltip": "$1 di sınaq joybarıńız etip belgileń, sonda siz jaratqan jańa betler bul joybardıń bir bólegi boladı"
+	"wminc-gadget-twpref-setwiki-tooltip": "$1 di sınaq joybarıńız etip belgileń, sonda siz jaratqan jańa betler bul joybardıń bir bólegi boladı",
+	"wminc-infopage-language-header": "Til",
+	"wminc-infopage-content-administroters": "Administratorlar:",
+	"wminc-infopage-content-project-p": "Wikipedia",
+	"wminc-infopage-content-project-t": "Wikisózlik",
+	"wminc-infopage-content-project-v": "Wikiversitet"
 }

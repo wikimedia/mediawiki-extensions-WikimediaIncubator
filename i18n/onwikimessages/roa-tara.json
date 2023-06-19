@@ -6,5 +6,18 @@
 	},
 	"wminc-code-macrolanguage": "'A [[wikipedia:$2 language|lènghe \"$3\"]] jè 'na [[wikipedia:ISO 639 macrolanguage|macrolènghe]], fatte da ste lènghe:",
 	"wminc-code-collective": "'U codece \"$1\" non ge face referimende a 'nu linguagge specifeche, ma a 'nu 'nzieme de lènghe, 'ndruche [[wikipedia:$2 language|lènghe \"$3\"]].",
-	"wminc-code-retired": "Stu codece de lènghe ha state cangiate e non ge se referisce cchiù a 'a lènghe origgenale."
+	"wminc-code-retired": "Stu codece de lènghe ha state cangiate e non ge se referisce cchiù a 'a lènghe origgenale.",
+	"wminc-infopage-title-status-approved": "Quiste jè 'nu test wiki appruvate da Uicchimèdie Incubatore.",
+	"wminc-infopage-title-status-default": "Quiste jè 'nu test wiki de Uicchimèdie Incubatore.",
+	"wminc-infopage-title-status-imported": "Quiste jè 'nu test wiki 'mbortate de Uicchimèdie Incubatore.",
+	"wminc-infopage-title-status-invalidcode": "'Stù test tène 'nu codece de lènga [[$1|ISO 639]] ca non g'ète valide, accussì jè state scangellate.",
+	"wminc-infopage-title-status-open": "Quiste jè 'nu test wiki apìrte de Uicchimèdie Incubatore.",
+	"wminc-infopage-text-approved": "'Stù test wiki jè state approvate da 'u [[$2|Language committee]] ('ndruche pure 'u [[$1|site creation log]]).",
+	"wminc-infopage-text-default": "Parametre \"$4\" ca non ge 'stè o ce jè sbagliate. 'Ndruche [[$5|aqquà pe' cchiù 'mbormazzione]] sus a 'stù template.",
+	"wminc-infopage-text-imported": "'Stà wiki jè state [[$6|'mbortate]] nnande c'a wiki ha state chiuse. Ce tu vuè ccu (re)accumenze 'stù pruggette, se pòtene ausà quèste pàgene pe' accumenzà.",
+	"wminc-infopage-text-invalidcode": "Quèste wiki tène 'nu codece de lènga [[$7|ISO 639]] ca non g'ète valide, pe' 'stù fatte ha state scangellate. Ne putìsse essere 'nu file XML disponibbele (chiedere [[$8|aqquà]]) ca puè ccu esse spustate a uicchi ca no sonde de Uicchimèdie.",
+	"wminc-infopage-text-open": "'Stù test wiki jè apìrte o verifecate pe' essere eleggibele. Tu sìnde 'ngoraggiate a condrebbuiscere ce tu canosce 'stà lènga. 'Ndruche pure Help:Manual pe' 'na spiegazione sus a quidde ca s'ha ddà fà.",
+	"wminc-infopage-text-tocreate": "'Stù test wiki non g'ète angore state accumenzate. Ce tu canosce 'stà lènga, scè rrète a ll'istruzione sus a [[$9]]. Tu puè ccrejà 'na Pagene Prengepále SUS A ''\"{{PAGENAME}}/Main_Page\"'' cu \"Pagene_Prengepále\" tradotte jndr'â lènga tove (pe' esembie \"Wp/fr/Accueil\" ce fùsse pe' 'na uicchi 'mbrangese).",
+	"wminc-infopage-text-approved-created": "Tu le puè acchijà sus a $1.",
+	"wminc-infopage-req-header": "Quidde ca s'ha ddà tenè"
 }

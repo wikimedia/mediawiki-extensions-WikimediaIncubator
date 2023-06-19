@@ -11,5 +11,15 @@
 	"wminc-gadget-iw-dialog-publish": "Öffentlesch maache",
 	"wminc-gadget-iw-dialog-qid-placeholder": "För e Beijschpell: $1",
 	"wminc-gadget-iw-dialog-editpage": "Di Sigg beärbeide",
-	"wminc-gadget-iw-dialog-wikidata-search": "En de Wikidata söhke"
+	"wminc-gadget-iw-dialog-wikidata-search": "En de Wikidata söhke",
+	"wminc-infopage-title-status-approved": "Dat es en aanjenumme Teswiki fum Wikimedia Incubator.",
+	"wminc-infopage-title-status-default": "Dat es e Teswiki fum Wikimedia Incubator.",
+	"wminc-infopage-title-status-imported": "Dat es en empotteet Teswiki fum Wikimedia Incubator.",
+	"wminc-infopage-title-status-invalidcode": "Dat Teswiki hat ene verkeehte [[$1|ISO 639]]-Shprooche-Kood jehatt, un es fottjeschmeße woode.",
+	"wminc-infopage-title-status-open": "Dat es en offe Teswiki fum Wikimedia Incubator.",
+	"wminc-infopage-text-default": "Dä Parrameeter „$4“ es nit doh, udder dä es verkiehrt aanjejovve. Loor noh [[$5|mieh Enfomazjuhn]] över di Schabloon.",
+	"wminc-infopage-text-invalidcode": "Dat Teswiki hät ene onjöltije [[$7|ISO 639]]-Shprooche-Kod jehat, do_der_wäje es et fottjeschmeße woode. Ühr künnt en XML-Datei dofun han, wann et se jitt (Doht [[$8|donoh frore]]) di kann en en Nit-Wikimedia-Wiki empotteet wäde.",
+	"wminc-infopage-text-open": "Dat Teswiki es offe udder weed jeprööf. Ühr künnt jet beidraare, wann Ühr de Shprooch künnt. Doht dat! Em „[[Help:Manual]]“ künnd Er nohlesse, wat ze donn es.",
+	"wminc-infopage-text-tocreate": "Dat Tetwiki en de Shprooch „{{{language}}}“ es noch nit aanjefange. Wann Ühr di Shprooch künnt, folscht de Henwies em „[[$9]]“. Ühr künd en Houpsigg maache op „''{{PAGENAME}}/Houpsigg''“ met „Houpsigg“ övversatz noh de Shprooch (Zem Beispell „Wp/fr/Accueil“ för et Teswiki op Franzüüsesch).",
+	"wminc-infopage-req-header": "Nüdischkeite"
 }

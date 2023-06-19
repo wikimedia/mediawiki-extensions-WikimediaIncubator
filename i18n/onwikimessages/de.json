@@ -18,5 +18,18 @@
 	"wminc-custom-tb-invalid-code-text": "Dieser Code ist entweder ungültig oder wird nicht für neue Wikimedia-Projekte akzeptiert.\n\nWenn dich ein Link von einer anderen Seite hierhin geführt hat, gehe bitte zurück und berichtige den Link.\n\nFalls diese Sperre dich davon abhält, eine Seite anzulegen, die deiner Meinung nach einen gültigen ISO-639-1 oder -3-Code hat oder zu einer akzeptierten Sprache gehört, wende dich bitte an die [[$1|Administratoren]].",
 	"gadget-addprefix": "<strong>AddPrefix:</strong> Fügt beim Erstellen von Seiten automatisch den Links Präfixe hinzu.",
 	"wminc-gadget-iw-add-wikidata": "Wikidata-Link hinzufügen",
-	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata durchsuchen"
+	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata durchsuchen",
+	"wminc-infopage-title-status-approved": "Dies ist ein genehmigtes, ehemaliges Testwiki von Wikimedia Incubator.",
+	"wminc-infopage-title-status-default": "Dies ist ein Testwiki des Wikimedia-Incubators.",
+	"wminc-infopage-title-status-imported": "Dies ist ein importiertes Testwiki von Wikimedia Incubator.",
+	"wminc-infopage-title-status-invalidcode": "Dieses Testwiki hat keinen gültigen [[$1|ISO-639]]-Code und wurde deshalb gelöscht.",
+	"wminc-infopage-title-status-open": "Dies ist ein offenes Testwiki von Wikimedia Incubator.",
+	"wminc-infopage-text-approved": "Dieses Test-Wiki ist vom [[$2|Sprachkomitee]] genehmigt worden (betrachte auch das [[$1|Seitenerstellungslogbuch]]).",
+	"wminc-infopage-text-default": "Parameter \"$4\" fehlt oder ist nicht korrekt angegeben. [[$5|Hier]] finden Sie weitere Informationen.",
+	"wminc-infopage-text-imported": "Dieses Wiki wurde [[$6|importiert]], nachdem es geschlossen wurde. Wenn Sie es (wieder)starten möchten, können Sie diese Seiten als Startpunkt nehmen.",
+	"wminc-infopage-text-invalidcode": "Dieses Testwiki hat keinen gültigen [[$7|ISO-639]]-Code und wurde deshalb gelöscht. Es kann eine XML-Datei erstellt werden (fragen Sie [[$8|hier]]), die in ein nicht-Wikimedia Wiki importiert werden kann.",
+	"wminc-infopage-text-open": "Dieses Testwiki ist offen oder als annehmbar bestätigt worden. Wenn Sie diese Sprache beherrschen, können Sie gerne mitmachen. Sehen Sie bitte im [[$9|Handbuch]] für weitere Erklärungen darüber, was Sie machen können, nach.",
+	"wminc-infopage-text-tocreate": "Dieses Testwiki existiert noch nicht. Wenn Sie diese Sprache beherrschen, folgen Sie bitte die Anweisungen im [[$9|Handbuch]]. Sie können eine Hauptseite namens ''\"{{PAGENAME}}/Hauptseite\"'' erstellen (wobei \"Hauptseite\" durch die entsprechende Übersetzung in der Zielsprache ersetzt werden muss, zum Beispiel \"Wp/fr/Accueil\" für ein französisches Testwiki).",
+	"wminc-infopage-text-approved-created": "Du kannst es unter $1 finden.",
+	"wminc-infopage-req-header": "Voraussetzungen"
 }
