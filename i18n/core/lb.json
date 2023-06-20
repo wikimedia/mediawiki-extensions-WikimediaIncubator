@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"wminc-desc": "Testwiki-System fir de Wikimedia-Incubator",
@@ -24,7 +25,7 @@
 	"wminc-viewuserlang-user": "Benotzernumm:",
 	"wminc-viewuserlang-go": "Lass",
 	"wminc-userdoesnotexist": "De Benotzer ''$1'' gëtt et net.",
-	"wminc-ip": "\"$1\" ass eng IP-Adress.",
+	"wminc-ip": "\"$1\" ass eng IP-Adress oder en temporäre Benotzer.",
 	"right-viewuserlang": "Benotzersprooch an Test-Wiki weisen",
 	"group-test-sysop": "Adminstrateure vun der Testwiki",
 	"group-test-sysop-member": "{{GENDER:$1|Adminstrateur|Administratrice}} vun der Testwiki",
@@ -49,9 +50,14 @@
 	"wminc-fs-signup-text": "Wann Dir schonn e Benotzerkont hutt da [$1 loggt Iech wgl. an]. Wann Dir nach keen hutt, da [$2 leet wgl. e Benotzerkont un].\nEt ass net obligatoresch, mä et gëtt staark recommandéiert, an et dauert nëmmen een Ament fir e Benotzerkont ze maachen.",
 	"wminc-infopage-enter": "Gitt op d'Haaptsäit",
 	"wminc-unknownlang": "(onbekannte Sprooch-Code)",
-	"wminc-infopage-title-p": "Wikipedia $1",
-	"wminc-infopage-title-b": "Wikibooks $1",
-	"wminc-infopage-title-t": "Wiktionnaire $1",
+	"wminc-infopage-title-p": "$1 Wikipedia",
+	"wminc-infopage-title-b": "$1 Wikibooks",
+	"wminc-infopage-title-t": "$1 Wiktionnaire",
+	"wminc-infopage-title-q": "$1 Wikiquote",
+	"wminc-infopage-title-n": "$1 Wikinews",
+	"wminc-infopage-title-s": "$1 Wikisource",
+	"wminc-infopage-title-v": "$1 Wikiversity",
+	"wminc-infopage-title-y": "$1 Wikivoyage",
 	"wminc-infopage-missingwiki-text": "$1 gëtt et an dëser Sprooch nach net",
 	"wminc-infopage-option-startsister": "Wann Dir dës Wiki ufänke wëllt, da gitt wgl. op <strong>[$2 $1]</strong>.",
 	"wminc-infopage-option-languages-existing": "Dir kënnt no [//www.$1.org Sproochversiounen, déi et vun $1 gëtt, sichen].",
