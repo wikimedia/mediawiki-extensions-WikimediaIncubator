@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"ꠢꠣꠍꠘ ꠞꠣꠎꠣ"
+		]
 	},
 	"wminc-custom-editnotice-2": "ꠀꠙꠘꠦ ꠇꠥꠘ ꠝꠣꠔꠣꠁꠘ ꠛꠦꠛꠀꠞ ꠇꠞ꠆ꠔꠣ ꠙꠣꠞ꠆ꠛꠣ ꠛꠥꠎꠣꠁꠔꠦ ꠨ ꠇꠡ꠆ꠐ ꠇꠞꠤ $1 ꠛꠦꠛꠀꠞ ꠇꠞꠂꠇ꠆ꠇꠣ।। ꠎꠦꠝꠟꠣ ꠨ ꠎꠥꠖꠤꠘ ꠀꠙꠘꠣꠞ ꠘꠣꠉ꠆ꠞꠤ ꠝꠣꠔ ꠕꠣꠈꠦ ꠚꠞꠣꠡꠤ ꠀꠞ ꠀꠙꠘꠦ ꠀꠋꠞꠦꠎ ꠝꠣꠔꠣꠔ ꠜꠣꠟꠣ ꠨ ꠔꠦ $2 ꠛꠦꠛꠀꠞ ꠇꠞꠂꠇ꠆ꠇꠣ।।",
 	"wminc-custom-featuredwikis-approved": "ꠁꠉꠥꠁꠘ ꠛꠣꠍꠣ ꠅꠁꠉꠦꠍ ꠀꠞꠘꠣꠄ ꠛꠣꠘꠣꠁꠟ ꠅꠁꠉꠦꠍ:",
@@ -11,5 +13,7 @@
 	"wminc-custom-newarticletext-withprefix-2": "ꠛꠖꠟꠣꠃꠇ꠆ꠇꠣ \"$1\" ꠀꠞ ꠔꠣꠞꠛꠣꠖꠦ {{int:publishpage}} ꠅ‌ ꠑꠤꠙꠣ ꠝꠣꠞꠂꠇ꠆ꠇꠣ",
 	"wminc-custom-newarticletext-withprefix-3": "ꠀꠙꠘꠦ ꠄꠉꠥ ꠘꠄꠀ ꠛꠣꠘꠣꠁꠞꠣ ([[$1|prefixed]]) ꠙꠣꠔꠣꠞ ꠘꠣꠝ \"{{FULLPAGENAME}}\"॥",
 	"wminc-custom-tb-space-colon": "ꠐꠦꠇꠘꠤꠇꠦꠟ ꠇꠣꠞꠘꠦ ꠨ ꠄꠉꠥ ꠀꠉꠤꠘꠣꠝ ꠈꠣꠟꠤ ꠘꠣꠄ ꠖꠥꠁꠛꠤꠘ꠆ꠖꠥꠖꠤ ꠀꠞꠝ꠆ꠛ ꠇꠞꠣ ꠎꠣꠁꠔꠘꠣ ॥",
-	"wminc-gadget-iw-dialog-cancel": "ꠛꠣꠖ"
+	"wminc-gadget-iw-dialog-cancel": "ꠛꠣꠖ",
+	"wminc-gadget-iw-editsummary": "ꠀꠞ꠆ꠎꠣꠔ ꠃꠁꠇꠤꠞ ꠟꠉꠦ ꠟꠉ ꠟꠣꠉꠣꠁꠀꠞ [[d:$1]]",
+	"wminc-gadget-twpref-setlang-tooltip": "ꠀꠙꠘ꠆ꠘꠣꠞ ꠁꠘ꠆ꠐꠣꠞꠚꠦꠁꠍꠞ ꠜꠣꠡꠣ $1 ꠛꠣꠘꠣꠁꠖꠦꠁꠘ"
 }

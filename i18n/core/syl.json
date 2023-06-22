@@ -16,7 +16,10 @@
 	"randombytest": "ꠐꠦꠡ꠆ꠐ ꠃꠁꠇꠤꠖꠤ ꠎꠦꠍꠣ ꠙꠣꠔꠣ",
 	"wminc-viewuserlang-user": "ꠛꠦꠛꠀꠞꠇꠞ꠆ꠞꠣꠞ ꠘꠣꠝ:",
 	"group-test-sysop": "ꠐꠦꠡ꠆ꠐ ꠃꠁꠇꠤ ꠄꠒꠝꠤꠘꠣꠁꠘ",
+	"group-test-sysop-member": "{{GENDER:$1|ꠁ ꠃꠁꠇꠤꠞ ꠄꠒꠝꠤꠘ}}",
+	"grouppage-test-sysop": "{{ns:project}}:ꠐꠦꠡ꠆ꠐ ꠃꠁꠇꠤ ꠄꠒꠝꠤꠘꠣꠁꠘ",
 	"wminc-searchwiki-go": "ꠎꠣꠁꠘ",
+	"wminc-searchwiki-gotoinfopage": "ꠔꠁꠔ꠆ꠔꠞ ꠙꠣꠔꠣ",
 	"wminc-fs-signup-title": "ꠎꠥꠉ ꠖꠦꠁꠘ",
 	"wminc-infopage-enter": "ꠝꠥꠟꠞ ꠙꠣꠔꠣꠔ ꠎꠣꠃꠇ꠆ꠇꠣ",
 	"wminc-unknownlang": "(ꠅꠌꠤꠘ ꠜꠣꠡꠣꠞ ꠇꠥꠒ)",
@@ -28,6 +31,7 @@
 	"wminc-infopage-title-s": "$1 ꠃꠁꠇꠤꠟꠈ",
 	"wminc-infopage-title-v": "$1 ꠃꠁꠇꠤꠢꠤꠇꠤꠞꠎꠦꠉꠣ",
 	"wminc-infopage-title-y": "$1 ꠃꠁꠇꠤꠍꠚꠞ",
+	"wminc-infopage-option-sisterprojects-existing": "ꠁ ꠜꠣꠡꠣꠄ ꠀꠞ꠆ꠎꠣꠔ ꠙꠎꠦꠇ꠆ꠐꠣꠁꠘ ꠀꠙꠘꠦ ꠕꠥꠇꠣꠁꠔꠣ ꠙꠣꠞ꠆ꠛꠣ ꠪",
 	"wminc-infopage-option-sisterprojects-other": "ꠁ ꠜꠣꠡꠣꠄ ꠀꠞ꠆ꠎꠣꠔ ꠙꠎꠦꠇ꠆ꠐꠣꠁꠘ ꠀꠙꠘꠦ ꠕꠥꠇꠣꠁꠔꠣ ꠙꠣꠞ꠆ꠛꠣ ꠪",
 	"wminc-infopage-contribute": "ꠀꠙꠘꠦ ꠎꠥꠖꠤꠘ ꠁ ꠜꠣꠡꠣ ꠎꠣꠘꠂꠘ ꠔꠦ ꠀꠉꠥꠁꠀ ꠀꠃꠇ꠆ꠇꠣ !",
 	"wminc-infopage-status-open": "ꠁꠈꠣꠘ ꠃꠁꠇꠤꠝꠤꠒꠤꠀꠞ ꠄꠈꠣꠘ ꠈꠥꠟꠣꠝꠦꠟꠣ ꠃꠁꠇꠤ ⁕"
