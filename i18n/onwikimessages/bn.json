@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Yahya",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -33,6 +34,7 @@
 	"wminc-infopage-language-header": "ভাষা",
 	"wminc-infopage-language-wikipedia-article": "ইংরেজি উইকিপিডিয়া নিবন্ধ: [[$1|$2]] ([[$3|$4]])",
 	"wminc-infopage-language-directionality-ltr": "বাম থেকে ডানে",
+	"wminc-infopage-content-main-category": "মূল বিষয়শ্রেণী",
 	"wminc-infopage-content-contributors": "অবদানকারীগণ",
 	"wminc-infopage-content-administroters": "প্রশাসক:",
 	"wminc-infopage-content-project": "প্রকল্প: $1",
@@ -44,6 +46,7 @@
 	"wminc-infopage-content-project-t": "উইকিঅভিধান",
 	"wminc-infopage-content-project-v": "উইকিবিশ্ববিদ্যালয়",
 	"wminc-infopage-content-project-y": "উইকিভ্রমণ",
+	"wminc-infopage-req-meta": "মেটা-উইকিতে অনুরোধ",
 	"wminc-infopage-req-rejected": "'''(প্রত্যাখ্যাত)'''",
 	"wminc-infopage-req-codelookup": "স্থানীয়করণের প্রয়োজনীয়তা পরীক্ষা করুন",
 	"wminc-infopage-req-catanalysis": "উইকি কার্যকলাপ পরীক্ষা করুন"

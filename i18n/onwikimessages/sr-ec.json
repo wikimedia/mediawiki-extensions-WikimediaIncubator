@@ -22,6 +22,7 @@
 	"wminc-infopage-content-main-category": "Главна категорија",
 	"wminc-infopage-content-contributors": "Доприносиоци",
 	"wminc-infopage-content-administroters": "Администратори:",
+	"wminc-infopage-content-project": "Пројекат: $1",
 	"wminc-infopage-content-project-b": "Викикњиге",
 	"wminc-infopage-content-project-n": "Викиновости",
 	"wminc-infopage-content-project-p": "Википедија",
@@ -29,6 +30,7 @@
 	"wminc-infopage-content-project-s": "Викизворник",
 	"wminc-infopage-content-project-t": "Викиречник",
 	"wminc-infopage-content-project-v": "Викиверзитет",
+	"wminc-infopage-content-project-y": "Википутовања",
 	"wminc-infopage-req-header": "Предуслови",
 	"wminc-infopage-req-rejected": "'''(одбијено)'''"
 }

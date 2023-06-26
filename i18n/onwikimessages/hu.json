@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Zalán Hári"
 		]
 	},
 	"wminc-code-macrolanguage": "A(z) [[wikipedia:$2 language|„$3” nyelv]] egy [[wikipedia:hu:Makronyelv|makronyelv]], ami az alábbi nyelvekből áll:",
@@ -28,7 +29,7 @@
 	"wminc-infopage-text-imported": "Ez a tesztprojekt egy bezárt wiki [[$6|importálásával]] jött létre. Ha fel szeretnéd éleszteni, használhatod a korábban megírt oldalakat.",
 	"wminc-infopage-text-invalidcode": "A projektet töröltük, mert a nyelvének nincs [[$7|ISO 639]]-es kódja. Az [[$8|adminisztrátoroktól]] elkérheted az XML fájlt, ha importálni szeretnéd a korábbi tartalmat egy másik (nem Wikimedia) wikibe. Feltéve, hogy van.",
 	"wminc-infopage-text-open": "Ez a tesztprojekt nyitva van, és szerkeszthető: ha ismered a nyelvet, nyugodtan dolgozhatsz benne. A projektnyitás teendőiről a [[$9|kézikönyvben]] olvashatsz bővebben.",
-	"wminc-infopage-text-tocreate": "Ez a tesztprojekt még nem indult el. Ha ismered a nyelvet, és szeretnél segíteni a létrehozásában, akkor kövesd a [[$9|kézikönyvben]] leírtakat. A tesztprojekt kezdőlapját a ''{{PAGENAME}}/Kezdőlap'' címen tudod létrehozni. (A kezdőlap szó az adott nyelven kell szerepeljen: a francia Wikipédia kezdőlapjának címe például Wp/fr/Accueil lenne az Inkubátorban.)",
+	"wminc-infopage-text-tocreate": "Ez a tesztprojekt még nem indult el. Ha beszéled a nyelvét, és szeretnél segíteni a létrehozásában, akkor kövesd a [[$9|kézikönyvben]] leírtakat. A tesztprojekt kezdőlapját a ''{{PAGENAME}}/Kezdőlap'' címen tudod létrehozni. (A kezdőlap szónak az adott nyelven kell szerepelnie: a francia Wikipédia kezdőlapjának címe például Wp/fr/Accueil lenne az Inkubátorban.)",
 	"wminc-infopage-text-approved-created": "A projekt új címe: $1.",
-	"wminc-infopage-req-header": "Egyebek"
+	"wminc-infopage-req-header": "Követelmények"
 }

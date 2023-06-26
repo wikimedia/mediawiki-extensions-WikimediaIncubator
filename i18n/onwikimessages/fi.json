@@ -26,5 +26,12 @@
 	"wminc-gadget-iw-dialog-wikidata-search": "Hae Wikidatasta",
 	"wminc-gadget-twpref-setlang": "Aseta kieli: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "Aseta käyttöliittymän kieleksi $1",
-	"wminc-gadget-twpref-setwiki": "Aseta $1 testiprojektiksesi"
+	"wminc-gadget-twpref-setwiki": "Aseta $1 testiprojektiksesi",
+	"wminc-infopage-language-header": "Kieli",
+	"wminc-infopage-content-project-b": "Wikikirjasto",
+	"wminc-infopage-content-project-n": "Wikiuutiset",
+	"wminc-infopage-content-project-s": "Wikiaineisto",
+	"wminc-infopage-content-project-t": "Wikisanakirja",
+	"wminc-infopage-content-project-v": "Wikiopisto",
+	"wminc-infopage-content-project-y": "Wikimatkat"
 }
