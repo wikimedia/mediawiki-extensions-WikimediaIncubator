@@ -56,6 +56,7 @@
 	"wminc-infopage-title-status-open": "Bu, Wikimedia Incubator'deki etkin bir test vikisidir.",
 	"wminc-infopage-title-status-rejected": "Bu test vikisi, Dil kurulu tarafından geri çevrildi ve silindi.",
 	"wminc-infopage-title-status-tocreate": "Bu, Wikimedia Incubator'deki etkin bir test vikisidir.",
+	"wminc-infopage-text-open": "Bu test vikisi açık ya da uygun olarak doğrulandı. Bu dili biliyorsanız katkıda bulunmaya davet ediyoruz. Ayrıca, ne yapmanız gerektiğiyle ilgili bir açıklama için [[$9|katkıda bulunma el kitabına]] bakın.",
 	"wminc-infopage-text-approved-date": "$1 tarihinde oluşturuldu.",
 	"wminc-infopage-language-header": "Dil",
 	"wminc-infopage-language-nocode": "hiçbiri",
