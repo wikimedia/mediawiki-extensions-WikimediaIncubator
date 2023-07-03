@@ -31,10 +31,12 @@ use MediaWiki\Hook\SpecialSearchCreateLinkHook;
 use MediaWiki\Hook\SpecialSearchSetupEngineHook;
 use MediaWiki\Hook\TitleIsAlwaysKnownHook;
 use MediaWiki\Html\Html;
+use MediaWiki\Languages\LanguageFactory;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\OutputPage;
+use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Page\Hook\ShowMissingArticleHook;
 use MediaWiki\Permissions\Hook\GetUserPermissionsErrorsHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
@@ -48,6 +50,7 @@ use MediaWiki\User\Options\Hook\LoadUserOptionsHook;
 use MediaWiki\User\User;
 use MediaWiki\User\UserIdentity;
 use Parser;
+use ParserOptions;
 use RequestContext;
 use SearchEngine;
 use Skin;
@@ -68,6 +71,7 @@ class WikimediaIncubator implements
 	TitleIsAlwaysKnownHook,
 	ParserFirstCallInitHook,
 	PageContentLanguageHook,
+	ArticleParserOptionsHook,
 	MakeGlobalVariablesScriptHook,
 	SpecialSearchCreateLinkHook,
 	SpecialSearchPowerBoxHook,
@@ -78,6 +82,15 @@ class WikimediaIncubator implements
 	// Used in places that expect the name of a project when no
 	// project has been selected.
 	private const NO_PROJECT_SELECTED = 'none';
+
+	private LanguageFactory $languageFactory;
+
+	/**
+	 * Initialize this hook implementation class with needed services.
+	 */
+	public function __construct( LanguageFactory $languageFactory ) {
+		$this->languageFactory = $languageFactory;
+	}
 
 	/**
 	 * Add default preference
@@ -929,9 +942,13 @@ class WikimediaIncubator implements
 	}
 
 	/**
-	 * Make the page content language depend on the test wiki
+	 * Override the page language of test wiki content pages.
 	 *
-	 * Info pages appear in the user language, they're localised
+	 * This affects not just the page view, but also the reported meta data
+	 * for this page title in other contexts (e.g. API queries, Page information).
+	 *
+	 * For pages belonging to an incubating test wiki, deterministically
+	 * set the page content language to the language of the test wiki.
 	 *
 	 * @param Title $title
 	 * @param Language &$pageLang
@@ -939,11 +956,26 @@ class WikimediaIncubator implements
 	 */
 	public function onPageContentLanguage( $title, &$pageLang, $userLang ) {
 		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
+		if ( !$prefix['error'] && !self::validatePrefix( $title, true ) ) {
+			$pageLang = $this->languageFactory->getLanguage( $prefix['lang'] );
+		}
+	}
+
+	/**
+	 * Override the Parser language on page views.
+	 *
+	 * For info pages, localise the content in the current user's language
+	 * (akin to interface messages and special pages).
+	 *
+	 * @param Article $article
+	 * @param ParserOptions $parserOptions
+	 */
+	public function onArticleParserOptions( Article $article, ParserOptions $parserOptions ) {
+		$title = $article->getTitle();
+		$prefix = self::analyzePrefix( $title, true );
 		if ( !$prefix['error'] ) {
-			$pageLang = self::validatePrefix( $title, true )
-				? RequestContext::getMain()->getLanguage()
-				: MediaWikiServices::getInstance()->getLanguageFactory()
-					->getLanguage( $prefix['lang'] );
+			$pageLang = RequestContext::getMain()->getLanguage();
+			$parserOptions->setTargetLanguage( $pageLang );
 		}
 	}
 

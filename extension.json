@@ -234,6 +234,7 @@
 		"TitleIsAlwaysKnown": "main",
 		"ParserFirstCallInit": "main",
 		"PageContentLanguage": "main",
+		"ArticleParserOptions": "main",
 		"MakeGlobalVariablesScript": "main",
 		"SpecialListusersHeaderForm": "listusers",
 		"SpecialListusersQueryInfo": "listusers",
@@ -246,7 +247,10 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator"
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator",
+			"services": [
+				"LanguageFactory"
+			]
 		},
 		"recentchanges": {
 			"class": "MediaWiki\\Extension\\WikimediaIncubator\\TestWikiRC"
