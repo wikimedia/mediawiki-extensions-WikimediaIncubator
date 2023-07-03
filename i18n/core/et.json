@@ -29,7 +29,7 @@
 	"wminc-viewuserlang-user": "Kasutajanimi:",
 	"wminc-viewuserlang-go": "Mine",
 	"wminc-userdoesnotexist": "Kasutajat \"$1\" pole olemas.",
-	"wminc-ip": "$1 on IP-aadress.",
+	"wminc-ip": "$1 on IP-aadress või ajutine kasutaja.",
 	"action-viewuserlang": "kasutaja keelt ja katsevikit vaadata",
 	"right-viewuserlang": "Vaadata kasutaja keelt ja katsevikit",
 	"group-test-sysop": "Katseviki administraatorid",

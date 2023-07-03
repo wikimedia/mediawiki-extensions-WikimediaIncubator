@@ -28,7 +28,7 @@
 	"wminc-viewuserlang-user": "Хасновательске мено:",
 	"wminc-viewuserlang-go": "Прейсц",
 	"wminc-userdoesnotexist": "Хаснователь „$1“ нє еґзистує.",
-	"wminc-ip": "„$1“ то IP адреса.",
+	"wminc-ip": "„$1“ то IP адреса або дочасови хаснователь.",
 	"action-viewuserlang": "опатри хасновательов язик и його пробни вики",
 	"right-viewuserlang": "Опатри хасновательов язик и його пробни вики",
 	"group-test-sysop": "Администраторе пробного викия",
