@@ -3,16 +3,17 @@
 		"authors": [
 			"Assele",
 			"Haqmar",
+			"З. ӘЙЛЕ",
 			"Ләйсән"
 		]
 	},
 	"wminc-infopage-enter": "Баш биткә күсергә",
 	"wminc-unknownlang": "(билдәһеҙ тел коды)",
-	"wminc-infopage-title-p": "Википедия $1",
-	"wminc-infopage-title-b": "Викидәреслек «$1»",
-	"wminc-infopage-title-t": "Викиһүҙлек $1",
-	"wminc-infopage-title-q": "Викиөҙөмтә $1",
-	"wminc-infopage-title-n": "Викияңылыҡтар $1",
-	"wminc-infopage-title-s": "Викикитапхана $1",
-	"wminc-infopage-title-v": "Викиверситет $1"
+	"wminc-infopage-title-p": "$1 телендә Википедия",
+	"wminc-infopage-title-b": "«$1» телендә Викидәреслек",
+	"wminc-infopage-title-t": "$1 телендә Викиһүҙлек",
+	"wminc-infopage-title-q": "$1 телендә Викиөҙөмтә",
+	"wminc-infopage-title-n": "$1 телендә Викияңылыҡтар",
+	"wminc-infopage-title-s": "$1 телендә Викикитапхана",
+	"wminc-infopage-title-v": "$1 телендә Викиверситет"
 }
