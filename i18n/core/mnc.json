@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chulsu463"
+		]
+	},
+	"wminc-infopage-title-p": "Wikipedia $1",
+	"wminc-infopage-title-t": "Wiktionary $1",
+	"wminc-infopage-title-n": "Wikinews $1",
+	"wminc-infopage-title-s": "Wikisource $1",
+	"wminc-infopage-title-y": "Wikivoyage $1"
+}

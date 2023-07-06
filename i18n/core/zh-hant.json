@@ -46,7 +46,7 @@
 	"wminc-viewuserlang-user": "使用者名稱：",
 	"wminc-viewuserlang-go": "前往",
 	"wminc-userdoesnotexist": "使用者 \"$1\" 不存在。",
-	"wminc-ip": "\"$1\" 為 IP 位址。",
+	"wminc-ip": "\"$1\" 為 IP 位址或臨時使用者。",
 	"action-viewuserlang": "檢視使用者語言和測試 Wiki",
 	"right-viewuserlang": "檢視使用者語言和測試 Wiki",
 	"group-test-sysop": "測試wiki管理員",
