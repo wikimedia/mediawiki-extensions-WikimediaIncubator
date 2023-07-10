@@ -9,6 +9,7 @@
 	"wminc-testwiki": "ٹیسٹ وکی:",
 	"wminc-testwiki-code": "ٹیسٹ وکی زبان:",
 	"wminc-testwiki-none": "ساریاں وکیاں",
+	"wminc-testwiki-site": "(خبرگیری)",
 	"wminc-recentchanges-all": "ساریاں نویاں تبدیلیاں",
 	"randombytest": "ٹیسٹ وکی ولوں پوکھواں ورقہ",
 	"wminc-viewuserlang-user": "ورتݨ ناں:",
@@ -16,6 +17,8 @@
 	"group-test-sysop": "ٹیسٹ وکی ایڈمن",
 	"group-test-sysop-member": "{{GENDER:$1|ٹیسٹ وکی ایڈمن}}",
 	"grouppage-test-sysop": "{{ns:project}}:ٹیسٹ وکی ایڈمن",
+	"wminc-searchwiki": "وکی کیتے ڳول",
+	"wminc-searchwiki-noproject": "تساں منصوبہ کائنی چݨیا۔",
 	"wminc-searchwiki-selectproject": "کیتے ڳول:",
 	"wminc-searchwiki-inputlanguage": "زبان وچ:",
 	"wminc-searchwiki-go": "ڄلو",
@@ -27,6 +30,7 @@
 	"wminc-fs-startwiki-title": "آپݨاں وکی شروع کرو",
 	"wminc-fs-pagetitle-done": "ـ تھی ڳیا!",
 	"wminc-infopage-enter": "پہلے پرت تے ون٘ڄو",
+	"wminc-unknownlang": "(نامعلوم زبان کوڈ)",
 	"wminc-infopage-title-p": "$1 وکیپیڈیا",
 	"wminc-infopage-title-b": "$1 وکی کتاباں",
 	"wminc-infopage-title-t": "$1 وکشنری",
@@ -34,5 +38,9 @@
 	"wminc-infopage-title-n": "$1 وکی خبراں",
 	"wminc-infopage-title-s": "$1 وکی ماخذ",
 	"wminc-infopage-title-v": "$1 وکی ورسٹی",
-	"wminc-infopage-title-y": "$1 وکی سیرسپاٹا"
+	"wminc-infopage-title-y": "$1 وکی سیرسپاٹا",
+	"wminc-infopage-option-sisterprojects-other": "تساں ایں زبان دے ٻئے منصوبے ڳول سڳدے ہو:",
+	"wminc-infopage-contribute": "جے تساں ایہ زبان ڄاݨدے ہو تاں تساں ایں کم وچ حصہ پاؤ۔",
+	"wminc-infopage-status-open": "ایہ وکی میڈیا انکوبیٹر دا کھلا وکی ہے۔",
+	"wminc-infopage-status-beforeincubator-sister": "ایہ منصوبہ $1 تے دستیاب ہے۔"
 }

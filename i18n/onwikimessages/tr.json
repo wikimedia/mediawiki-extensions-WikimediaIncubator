@@ -84,7 +84,7 @@
 	"wminc-infopage-content-project-v": "Vikiversite",
 	"wminc-infopage-content-project-y": "Vikigezgin",
 	"wminc-infopage-req-header": "Gereksinimler",
-	"wminc-infopage-req-meta": "Meta-Wiki'de istek yap",
+	"wminc-infopage-req-meta": "Meta-Wiki'deki istek",
 	"wminc-infopage-req-meta-none": "[[$1|Meta-Wiki]]'de istek yok ([$2 oluştur])",
 	"wminc-infopage-req-rejected": "'''(Reddedilmiş)'''",
 	"wminc-infopage-req-unprefixed-templates": "Ön eksiz şablon kullanan {{PLURAL:$1|$1 sayfa}} var",

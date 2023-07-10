@@ -8,12 +8,15 @@
 	"wminc-gadget-iw-dialog-cancel": "منسوخ",
 	"wminc-gadget-iw-dialog-publish": "شائع کرو",
 	"wminc-gadget-iw-dialog-title": "انٹر وکی لنک شامل کرو",
+	"wminc-gadget-iw-dialog-qid-placeholder": "مثال دے طور تے $1",
 	"wminc-gadget-iw-dialog-editpage": "ایں ورقے تے لکھو",
 	"wminc-gadget-iw-dialog-learn-more": "وکی ڈیٹا بارے ٻیا سکھو",
 	"wminc-gadget-iw-dialog-wikidata-search": "وکی ڈیٹا وچ ڳولو",
 	"wminc-gadget-iw-error-title": "انٹروکی گیجٹ خرابی",
 	"tag-gadget-interwiki": "انٹر وکی گیجٹ",
 	"wminc-gadget-twpref-setlang": "زبان مقرر کرو: $1",
+	"wminc-gadget-twpref-setlang-tooltip": "آپݨی انٹرفیس زبان $1 مقرر کرو۔",
+	"wminc-gadget-twpref-setwiki": "$1 کوں آپݨا ٹیسٹ منصوبہ مقرر کرو",
 	"wminc-infopage-text-approved-created": "تساں ایں کوں $1 تے لبھ سڳدے ہو۔",
 	"wminc-infopage-text-approved-date": "ایہ $1 تے تخلیق تھیا۔",
 	"wminc-infopage-language-header": "زبان",
@@ -42,5 +45,6 @@
 	"wminc-infopage-req-meta": "میٹا وکی وچ ارداس",
 	"wminc-infopage-req-rejected": "'''(مسترد تھیا)'''",
 	"wminc-infopage-req-error": "ضرورت خرابی:",
+	"wminc-infopage-req-codelookup": "مقامیت دیاں ضروریات دی پڑتال کرو",
 	"wminc-infopage-req-catanalysis": "وکی سرگرمی دی پڑتال کرو"
 }
