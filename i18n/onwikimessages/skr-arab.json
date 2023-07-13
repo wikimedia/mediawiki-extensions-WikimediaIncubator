@@ -8,7 +8,13 @@
 	"wminc-gadget-iw-dialog-cancel": "منسوخ",
 	"wminc-gadget-iw-dialog-publish": "شائع کرو",
 	"wminc-gadget-iw-dialog-title": "انٹر وکی لنک شامل کرو",
+	"wminc-gadget-iw-dialog-qid-placeholder": "مثال دے طور تے $1",
 	"wminc-gadget-iw-dialog-editpage": "ایں ورقے تے لکھو",
+	"wminc-gadget-iw-dialog-learn-more": "وکی ڈیٹا بارے ٻیا سکھو",
 	"wminc-gadget-iw-dialog-wikidata-search": "وکی ڈیٹا وچ ڳولو",
-	"wminc-gadget-twpref-setlang": "زبان مقرر کرو: $1"
+	"wminc-gadget-iw-error-title": "انٹروکی گیجٹ خرابی",
+	"tag-gadget-interwiki": "انٹر وکی گیجٹ",
+	"wminc-gadget-twpref-setlang": "زبان مقرر کرو: $1",
+	"wminc-gadget-twpref-setlang-tooltip": "آپݨی انٹرفیس زبان $1 مقرر کرو۔",
+	"wminc-gadget-twpref-setwiki": "$1 کوں آپݨا ٹیسٹ منصوبہ مقرر کرو"
 }

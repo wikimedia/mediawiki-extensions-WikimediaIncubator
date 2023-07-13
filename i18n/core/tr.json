@@ -91,7 +91,7 @@
 	"wminc-infopage-missingwiki-text": "$1, bu dilde henüz mevcut değil.",
 	"wminc-infopage-option-startwiki": "Eğer bu vikiyi başlatmak istiyorsanız, lütfen\n'''[$3 bu adımları]''' ve [[{{MediaWiki:Wminc-manual-url}}|el kitabımızı]] takip edin.",
 	"wminc-infopage-option-startsister": "Bu vikiyi başlatmak istiyorsanız, <strong>[$2 $1]</strong> \nsayfasına gidebilirsiniz.",
-	"wminc-infopage-option-languages-existing": "[//www.$1.org Mevcut dil sürümü $1] için arama yapabilirsiniz.",
+	"wminc-infopage-option-languages-existing": "[//www.$1.org Var olan dillerdeki $1 sürümleri] için arama yapabilirsiniz.",
 	"wminc-infopage-option-sisterprojects-existing": "Bu dilde diğer projeler için arama yapabilirsiniz:",
 	"wminc-infopage-option-sisterprojects-other": "Bu dilde diğer projeler için arama yapabilirsiniz:",
 	"wminc-infopage-option-multilingual": "Alternatif olarak çokdilli bir vikiye gidebilirsiniz:",

@@ -10,7 +10,7 @@
 	"wminc-code-retired": "Bu dil kodu değişti ve artık orijinal dile göndermiyor.",
 	"wminc-custom-editnotice-2": "Hangi dilleri kullanabileceğinizi belirtmek için lütfen $1 kullanın. Örneğin, ana diliniz Fransızca ve iyi derecede İngilizce konuşabiliyorsanız, $2 kullanın.",
 	"wminc-custom-featuredwikis-approved": "Bunlar onaylandı ve/veya oluşturuldu:",
-	"wminc-custom-featuredwikis-active": "Aktif olan ve yakın zamanda kendi sitelerine sahip olabilecekler:",
+	"wminc-custom-featuredwikis-active": "Etkin olan ve yakın zamanda kendi sitelerine sahip olabilecekler:",
 	"wminc-custom-featuredwikis-permanent": "Bunlar muhtemelen burada kalacak:",
 	"wminc-custom-newarticletext-noprefix": "<strong>Lütfen dikkat:</strong> [[$1|Önek]] olmadan sayfa oluşturuyorsunuz.",
 	"wminc-custom-newarticletext-withprefix-1": "$1 yazın ve \"{{int:publishpage}}\" düğmesine tıklayın.",
