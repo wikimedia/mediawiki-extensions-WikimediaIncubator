@@ -3,7 +3,8 @@
 		"authors": [
 			"Erdemaslancan",
 			"Patriot Kor",
-			"Patriot Kur"
+			"Patriot Kur",
+			"Гусейн"
 		]
 	},
 	"wminc-listwikis": "Vikinaxşon siyohi",
@@ -15,13 +16,13 @@
 	"wminc-viewuserlang-go": "Bışi",
 	"wminc-searchwiki-go": "Bışi",
 	"wminc-searchwiki-gotoinfopage": "səhifə məlumot",
-	"wminc-infopage-title-p": "Vikipediya $1",
-	"wminc-infopage-title-b": "Vikikitob $1",
-	"wminc-infopage-title-t": "Vikilüğət $1",
-	"wminc-infopage-title-q": "Vikisitot $1",
-	"wminc-infopage-title-n": "Vikixəbon $1",
-	"wminc-infopage-title-s": "Vikisəvon $1",
-	"wminc-infopage-title-v": "Vikiversitet $1",
-	"wminc-infopage-title-y": "Vikisəyohət $1",
+	"wminc-infopage-title-p": "$1 Vikipediə",
+	"wminc-infopage-title-b": "$1 Vikikitob",
+	"wminc-infopage-title-t": "$1 Vikiluǧət",
+	"wminc-infopage-title-q": "$1 Vikisitot",
+	"wminc-infopage-title-n": "$1 Vikixəbon",
+	"wminc-infopage-title-s": "$1 Vikisəvon",
+	"wminc-infopage-title-v": "$1 Vikiversitet",
+	"wminc-infopage-title-y": "$1 Vikisəyohət",
 	"wminc-infopage-status-open": "Im çı Vikimediya İnqubatori ojə testə vikiye."
 }
