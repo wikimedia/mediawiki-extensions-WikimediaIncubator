@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
+			"Hakimi97",
 			"Tofeiku",
 			"Ultron90"
 		]
@@ -17,7 +18,12 @@
 	"wminc-custom-newarticletext-withprefix-1": "Taip $1 dan kemudian klik \"{{int:publishpage}}\".",
 	"wminc-custom-newarticletext-withprefix-2": "Gantikan \"$1\" dan kemudian klik pada \"{{int:publishpage}}\".",
 	"wminc-custom-newarticletext-withprefix-3": "Kamu sedang mencipta sebuah laman (dengan [[$1|awalan]]) yang dinamakan \"{{FULLPAGENAME}}\".",
+	"wminc-custom-newarticletext-withprefix-4": "Tambahkan juga awalan pada pautan anda:<nowiki> <code>[[Page title]]</code></nowiki> kepada <nowiki><code>[[Wx/xx/Page title]]</code></nowiki> dan <nowiki><code>{{Page title}}</code></nowiki> kepada <nowiki><code>{{Wx/xx/Page title}}</code></nowiki>.",
+	"wminc-custom-newarticletext-withprefix-5": "Untuk melakukan ini secara automatik, anda boleh menggunakan [[$1|Tambah alat imbuhan awal]].",
 	"wminc-custom-tb-incorrect-title-title": "Anda sedang cuba mencipta laman dengan tajuk yang salah.",
+	"wminc-custom-tb-incorrect-title-text": "Tajuk itu berkemungkinan besar tidak mempunyai [[$1|imbuhan awal]] atau dalam cara lain dalam format yang salah (huruf besar dalam imbuhan awal, garis miring di belakang dll.).\n\nJika anda datang ke sini dari mana-mana halaman lain, sila kembali semula dan betulkan pautan dan kemudian cipta halaman yang dinamakan dengan betul. Jika anda cuba membuat halaman secara langsung, sila buat halaman dengan nama yang betul.\n\nJika secara kebetulan hal ini menghalang anda daripada mencipta mana-mana halaman yang anda fikir mempunyai format tajuk yang betul, sila [[$2|beritahu penyelia]].",
+	"wminc-custom-tb-invalid-code-title": "Anda cuba mencipta laman tanpa [[$1|kod ISO 639-1 atau -3]] yang sah.",
+	"wminc-custom-tb-invalid-code-text": "Kod ini sama ada tidak sah atau bukan milik bahasa yang diterima untuk projek Wikimedia baharu.\n\nJika anda datang ke sini dari mana-mana halaman lain, sila kembali semula dan betulkan pautan itu dan kemudian buat halaman yang dinamakan dengan betul.\n\nJika hal ini berkemungkinan menghalang anda daripada mencipta mana-mana halaman yang anda fikir mempunyai kod ISO 639-1 atau -3 yang sah atau milik bahasa yang diterima, sila [[$1|beritahu penyelia di sini]].",
 	"wminc-gadget-addprefix-toggle": "Tunjukkan/sorokkan awalan",
 	"wminc-gadget-iw-add-wikidata": "Tambah pautan Wikidata",
 	"wminc-gadget-iw-dialog-cancel": "Batalkan",
