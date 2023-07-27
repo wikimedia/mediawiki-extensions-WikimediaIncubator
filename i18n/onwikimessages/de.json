@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kghbln",
-			"ThisCarthing"
+			"ThisCarthing",
+			"King Muli 12"
 		]
 	},
 	"wminc-code-macrolanguage": "Die [[wikipedia:$2 language|Sprache „$3“]] ist eine [[wikipedia:de:Makrosprache_(ISO_639)|Makrosprache]], welche die folgenden Einzelsprachen enthält:",
@@ -18,5 +19,9 @@
 	"wminc-custom-tb-invalid-code-text": "Dieser Code ist entweder ungültig oder wird nicht für neue Wikimedia-Projekte akzeptiert.\n\nWenn dich ein Link von einer anderen Seite hierhin geführt hat, gehe bitte zurück und berichtige den Link.\n\nFalls diese Sperre dich davon abhält, eine Seite anzulegen, die deiner Meinung nach einen gültigen ISO-639-1 oder -3-Code hat oder zu einer akzeptierten Sprache gehört, wende dich bitte an die [[$1|Administratoren]].",
 	"gadget-addprefix": "<strong>AddPrefix:</strong> Fügt beim Erstellen von Seiten automatisch den Links Präfixe hinzu.",
 	"wminc-gadget-iw-add-wikidata": "Wikidata-Link hinzufügen",
+	"wminc-gadget-iw-dialog-publish": "Veröffentlichen",
+	"wminc-gadget-iw-dialog-qid-placeholder": "z.&nbsp;B. $1",
+	"wminc-gadget-iw-dialog-editpage": "Seite bearbeiten",
+	"wminc-gadget-iw-dialog-learn-more": "Erfahre mehr über Wikidata",
 	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata durchsuchen"
 }

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"wminc-custom-tb-space-colon": "Iz tehničkih razloga naslov ne može započeti razmakom ili dvotočkom.",
+	"wminc-gadget-iw-dialog-cancel": "Otkaži",
+	"wminc-gadget-iw-dialog-publish": "Objavi",
+	"wminc-gadget-iw-dialog-title": "Dodaj interwiki linkove",
+	"wminc-gadget-iw-dialog-qid-placeholder": "npr. $1",
+	"wminc-gadget-iw-dialog-editpage": "Uredite stranicu",
+	"wminc-gadget-iw-dialog-wikidata-search": "Pretraži Wikidata",
+	"wminc-gadget-iw-error-reload": "Molimo preučitajte stranicu i pokušajte ponovno."
+}

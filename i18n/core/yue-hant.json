@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"wminc-desc": "維基媒體菢膥機嘅測試wiki系統",
+	"wminc-listwikis": "Wiki一覽",
+	"wminc-testwiki": "測試wiki：",
+	"wminc-testwiki-none": "無/全部",
+	"wminc-prefinfo-language": "你嘅界面語言 - 同你嘅測試wiki獨立嘅",
+	"wminc-prefinfo-code": "ISO 639語言碼",
+	"wminc-prefinfo-project": "揀你用緊嘅維基媒體計劃",
+	"wminc-prefinfo-error": "你揀咗一個需要語言碼嘅計劃。",
+	"wminc-viewuserlang": "睇用戶語言同測試wiki",
+	"wminc-userdoesnotexist": "用戶「$1」唔存在。",
+	"group-test-sysop": "測試wiki管理員",
+	"group-test-sysop-member": "{{GENDER:$1|測試wiki管理員}}",
+	"grouppage-test-sysop": "{{ns:project}}:測試wiki管理員",
+	"wminc-fs-pagetitle-done": "- 搞掂！"
+}

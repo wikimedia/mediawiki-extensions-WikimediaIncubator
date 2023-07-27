@@ -7,7 +7,8 @@
 			"Pizza1016",
 			"Tofeiku",
 			"Ultron90",
-			"Yosri"
+			"Yosri",
+			"Hakimi97"
 		]
 	},
 	"wminc-desc": "Sistem wiki ujian untuk Pengeram Wikimedia",
@@ -40,6 +41,8 @@
 	"group-test-sysop": "Pentadbir wiki ujian",
 	"group-test-sysop-member": "{{GENDER:$1|pentadir wiki ujian}}",
 	"grouppage-test-sysop": "{{ns:project}}:Pentadbir wiki ujian",
+	"group-test-sysop.css": "/* CSS yang diletakkan di sini akan menjejaskan penyelia wiki ujian sahaja */",
+	"group-test-sysop.js": "/* JS yang diletakkan di sini akan menjejaskan penyelia wiki ujian sahaja */",
 	"wminc-listusers-testwiki": "Anda sedang melihat pengguna-pengguna yang menetapkan keutamaan wiki ujian mereka kepada $1.",
 	"wminc-search-nocreate-nopref": "Anda mencari \"$1\". Sila tetapkan [[Special:Preferences|keutamaan wiki ujian]] anda supaya kami boleh memberitahu anda laman yang mana boleh anda buat!",
 	"wminc-search-nocreate-suggest": "Anda mencari \"$1\". Anda boleh membuat halaman dalam wiki anda di <strong>[[$3]]</strong>!",
@@ -54,6 +57,7 @@
 	"wminc-searchwiki-match-userlangname": "$1 ialah nama sesuatu bahasa.",
 	"wminc-searchwiki-match-englishname": "\"$1\" ialah nama $2 dalam bahasa Melayu.",
 	"wminc-searchwiki-match-nativename": "\"$1\" ialah nama $2 dalam bahasa tersebut.",
+	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "halaman maklumat",
 	"wminc-fs-pagetitle": "Bestari permulaan - $1",
 	"wminc-fs-langselect-title": "Pilih bahasa",
@@ -92,7 +96,7 @@
 	"wminc-infopage-status-open": "Ini merupakan wiki terbuka Wikimedia Incubator.",
 	"wminc-infopage-status-imported": "Wiki Inkubator ini diimportkan dari $1 selepas ia ditutup.",
 	"wminc-infopage-status-closedsister": "Subdomain ini ditutup. Pergi ke <strong>$2</strong> untuk menyumbang kepada wiki ini.",
-	"wminc-infopage-status-approved": "Wiki Incubator ini telah diluluskan oleh [[meta:Special:MyLanguage/Language_committee|jawatankuasa bahasa]] dan akan dibuka tidak lama lagi.",
+	"wminc-infopage-status-approved": "Inkubator wiki ini telah diluluskan oleh [[meta:Special:MyLanguage/Language_committee|jawatankuasa bahasa]] dan akan dibuka tidak lama lagi.",
 	"wminc-infopage-status-created": "Projek ini telah diluluskan oleh jawatankuasa bahasa dan kini boleh didapati di $1.",
 	"wminc-infopage-status-beforeincubator": "Projek ini dibuka sebelum Wikimedia Incubator dimulakan, dan boleh didapati di $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Projek ini terdapat di $1.",
