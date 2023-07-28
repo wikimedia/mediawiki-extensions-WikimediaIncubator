@@ -24,11 +24,11 @@
 	"wminc-viewuserlang-user": "Потребителско име:",
 	"wminc-viewuserlang-go": "Отваряне",
 	"wminc-userdoesnotexist": "Не съществува потребител „$1“.",
-	"wminc-ip": "„$1“ е IP-адрес.",
+	"wminc-ip": "„$1“ е IP-адрес или временен потребител.",
 	"right-viewuserlang": "Преглед на езика на потребителя и на тестовото уики",
 	"wminc-searchwiki-inputlanguage": "На следния език:",
 	"wminc-fs-langselect-title": "Избор на език",
 	"wminc-fs-pagetitle-done": "– готово!",
 	"wminc-infopage-title-p": "Уикипедия на $1",
-	"wminc-infopage-title-t": "Уикиречник $1"
+	"wminc-infopage-title-t": "Уикиречник на $1"
 }
