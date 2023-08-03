@@ -8,7 +8,9 @@
 			"Nikosgranturismogt",
 			"Omnipaedista",
 			"Protnet",
-			"ZaDiak"
+			"ZaDiak",
+			"Chris Sarant",
+			"Spyridon Eftychios Kokotos"
 		]
 	},
 	"wminc-desc": "Δοκιμή του συστήματος βίκι για το Wikimedia Incubator",
@@ -30,7 +32,7 @@
 	"wminc-error-wiki-exists": "Το wiki αυτό υπάρχει ήδη. Μπορείτε να βρείτε αυτήν τη σελίδα στο $1. Αν το wiki δημιουργήθηκε πρόσφατα, παρακαλούμε να περιμένετε μερικές ώρες ή μέρες μέχρι να εισαχθεί όλο το περιεχόμενο.",
 	"wminc-error-wiki-sister": "Αυτή η σελίδα ανήκει σε ένα εγχείρημα που δεν φιλοξενείται εδώ. Παρακαλώ επισκεφθείτε το $1 για να βρείτε το βίκι.",
 	"randombytest": "Τυχαία σελίδα από το δοκιμαστικό wiki",
-	"randombytest-nopages": "Δεν υπάρχουν σελίδες στο wiki δοκιμής σας, στις περιοχές ονομάτων: $1.",
+	"randombytest-nopages": "Δεν υπάρχουν σελίδες στο wiki δοκιμής σας, στους ονοματοχώρους: $1.",
 	"wminc-viewuserlang": "Ανατρέξτε στη γλώσσα χρήστη και στο δοκιμαστικό βίκι",
 	"wminc-viewuserlang-user": "Όνομα χρήστη:",
 	"wminc-viewuserlang-go": "Μετάβαση",
