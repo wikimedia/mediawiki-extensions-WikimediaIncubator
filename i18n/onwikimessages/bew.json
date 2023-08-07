@@ -61,7 +61,7 @@
 	"wminc-infopage-text-default": "Patokan \"$4\" kaga' ada atawa salah. Liat [[$5|di mari bakal inpormasi selengkepnya]] pasal ni blatan.",
 	"wminc-infopage-text-imported": "Ni wiki udah [[$6|diimpor]] abisnya ni wiki diapus. Kalo lu mau mulain (ulang) ni proyèk, lu bisa paké ni halaman bakal mulain.",
 	"wminc-infopage-text-invalidcode": "Ni wiki penjajalan ada punya kode basa [[$7|ISO 639]] nyang kaga' aci, jadinya diapus dah. Ada juga' berekas XML nyang kesedia (minta' ama [[$8|merbot]]) nyang bisa dipindahin ke wiki bukan-Wikimédia.",
-	"wminc-infopage-text-open": "Ni wiki penjajalan ngablag atawa dianggep menuhin pesaratan. Lu disaranin nyumbang kalo lu bisa ni basa. Liat juga' [[$9|pedoman sumbangsih]] bakal penjelasan pasal apa nyang lu perlu lakonin.",
+	"wminc-infopage-text-open": "Ni wiki penjajalan ngablag atawa dianggep menuhin persaratan. Lu disaranin nyumbang kalo lu bisa ni basa. Liat juga' [[$9|pedoman sumbangsih]] bakal penjelasan pasal apa nyang lu perlu lakonin.",
 	"wminc-infopage-text-rejected": "Ni ièlah wiki penjajalan nyang ditolak ama [[$2|Kumité Basa]] èn udah diapus. Ada juga' berekas XML nyang kesedia (minta' ama [[$8|merbot]]) nyang bisa dipindahin ke wiki bukan-Wikimédia.",
 	"wminc-infopage-text-tocreate": "Ni wiki penjajalan belon dimulain. Kalo lu bisa ni basa, ikutin ni arahan di [[$9]]. Lu bisa keja Balé-balé di ''\"{{PAGENAME}}/Main_Page\"'' dengen \"Main_Page\" diterjemahin ke ni basa (tulad: \"Wp/fr/Accueil\" kalo di wiki penjajalan basa Prasman).",
 	"wminc-infopage-text-toimport": "Ni wiki udah ditutup èn bakalan diimpor di mari. Kalo lu mau mulain ulang ni proyèk, dimohon tunggu [[Special:ListUsers/import|pengimpor]] dulu nyang bakal ngimpor semua halaman deri wiki aslinya.",
