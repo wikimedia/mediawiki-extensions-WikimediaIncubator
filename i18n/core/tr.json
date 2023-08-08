@@ -11,12 +11,13 @@
 			"Karduelis",
 			"Rapsar",
 			"Sezgin İbiş",
+			"Stultiwikia",
 			"Suelnur",
 			"ToprakM",
 			"Vito Genovese"
 		]
 	},
-	"wminc-desc": "Wikimedia Incubator için test vikisi sistemi",
+	"wminc-desc": "Wikimedia Kuluçka için test vikisi sistemi",
 	"wminc-manual": "Kılavuz",
 	"wminc-listwikis": "Vikilerin listesi",
 	"wminc-testwiki": "Test viki:",
@@ -98,11 +99,11 @@
 	"wminc-infopage-createmainpage": "Bu dilde \"Anasayfa\" sözcüğünü girin:",
 	"wminc-infopage-contribute": "Eğer bu dili biliyorsanız, sizi katkıda bulunmaya davet ediyoruz!",
 	"wminc-infopage-status-open": "Bu, Wikimedia Incubator'de etkin bir vikidir.",
-	"wminc-infopage-status-imported": "Bu Incubator vikisi, viki kapatıldıktan sonra $1 sayfasından içeri aktarıldı.",
+	"wminc-infopage-status-imported": "Bu Kuluçka vikisi, viki kapatıldıktan sonra $1 sayfasından içeri aktarıldı.",
 	"wminc-infopage-status-closedsister": "Bu alt alan adı kapatıldı. Bu vikiye katkıda bulunmak için <strong>$2</strong> sayfasına gidin.",
-	"wminc-infopage-status-approved": "Bu Incubator vikisi [[meta:Special:MyLanguage/Language_committee|dil komitesi]] tarafından onaylandı ve yakında oluşturulacak.",
+	"wminc-infopage-status-approved": "Bu Kuluçka vikisi [[meta:Special:MyLanguage/Language_committee|dil komitesi]] tarafından onaylandı ve yakında oluşturulacak.",
 	"wminc-infopage-status-created": "Bu proje dil komitesi tarafından onaylandı ve $1 sayfasında mevcut.",
-	"wminc-infopage-status-beforeincubator": "Bu proje Wikimedia Incubator başlamadan önce oluşturuldu ve $1 sayfasında mevcut.",
+	"wminc-infopage-status-beforeincubator": "Bu proje Wikimedia Kuluçka başlamadan önce oluşturuldu ve $1 sayfasında mevcut.",
 	"wminc-infopage-status-beforeincubator-sister": "Bu proje $1 sayfasında mevcut.",
 	"wminc-infopage-error": "Hata: {{#infopage}} yalnızca önekli sayfalarda kullanılabilir."
 }

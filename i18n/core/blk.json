@@ -3,6 +3,7 @@
 		"authors": [
 			"Khun Kt",
 			"Ninjastrikers",
+			"ခွန်ဖန်ဒွဲ့",
 			"咽頭べさ"
 		]
 	},
@@ -54,8 +55,8 @@
 	"wminc-infopage-title-q": "ဝီခီအာႏကွိုꩻ $1",
 	"wminc-infopage-title-n": "ဝီခီသꩻတင်ꩻ $1",
 	"wminc-infopage-title-s": "ဝီခီရွီးခိုႏ $1",
-	"wminc-infopage-title-v": "ဝီခီဗာသတီ $1",
-	"wminc-infopage-title-y": "ဝီခီတဖူꩻလွေꩻ $1",
+	"wminc-infopage-title-v": "$1 ဝီခီတက္ကသိုလ်ႏ",
+	"wminc-infopage-title-y": "$1 ဝီခီတဖူꩻလွေꩻ",
 	"wminc-infopage-welcome": "အဝ်ႏဝီခီမီဒီယာ အိဉ်စျူဗေတာယို ကျိုႏဆွုမ်ႏဒျာႏသြ၊ ယိုနဝ်ꩻ ထွာဒျာႏ ဝီခီမီဒီယာ ဖောင်ဒေးသိဉ်းစွိုꩻ ပရောစဲစ်တဗာႏဒျာႏသွူ။\n([[{{MediaWiki:Aboutpage}}|အကျောင်ꩻခရာႏ]])",
 	"wminc-infopage-missingwiki-text": "ဘာႏသာႏငဝ်းငွါကိုယိုနဝ်ꩻ $1 အဝ်ႏတဝ်းဒွိုန်းသွူ။",
 	"wminc-infopage-option-sisterprojects-existing": "နာꩻထိုမ်ႏနွောင်ꩻဒျာႏ ဘာႏသာႏငဝ်းငွါယိုအကို ကအဝ်ႏထွူလဲဉ်းဒါႏ ပရောစဲစ်ဖိုင်ႏသွူ:",
