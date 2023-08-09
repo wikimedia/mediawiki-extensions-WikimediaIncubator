@@ -33,6 +33,7 @@
 	"wminc-infopage-title-status-open": "這是維基孵育場的一個開放測試 wiki。",
 	"wminc-infopage-title-status-tocreate": "這是維基孵育場的一個開放測試 wiki。",
 	"wminc-infopage-text-default": "缺少參數「$4」或是內容有誤。有關此模板請參閱[[$5|在此查了解更多資訊]]。",
+	"wminc-infopage-text-awaiting-creation": "這只能等待由開發者建立，請見'''[[phabricator:$1|任務 $1]]'''。",
 	"wminc-infopage-text-approved-created": "您可以在$1找到。",
 	"wminc-infopage-text-approved-date": "這是建立於$1。",
 	"wminc-infopage-language-header": "語言",
