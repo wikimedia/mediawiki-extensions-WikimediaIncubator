@@ -2,9 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Fadli Idris",
-			"Si Gam Acèh"
+			"Si Gam Acèh",
+			"SevenEagleX"
 		]
 	},
-	"wminc-desc": "Sistem cuba wiki keu Wikimedia Incubator",
+	"wminc-desc": "Sistem wiki uji cuba keu Wikimedia Incubator",
+	"wminc-manual": "Manual",
+	"wminc-listwikis": "Daftar wiki",
+	"wminc-testwiki": "Tes wiki:",
+	"wminc-testwiki-code": "Basa wiki tes:",
+	"wminc-testwiki-none": "Bandum wiki",
+	"wminc-testwiki-site": "(Teungoh Keubahsuaian)",
+	"wminc-recentchanges-all": "Banmandum perubahan nyang ka lheuh",
 	"wminc-viewuserlang": "Kalon bahsa ureueng nguy ngon wiki neuujoe"
 }
