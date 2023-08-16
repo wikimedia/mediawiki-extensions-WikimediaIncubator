@@ -1,6 +1,22 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Гусейн"
+		]
 	},
-	"wminc-custom-featuredwikis-active": "Imı aktivin iən bə rə vaxt iştə sayton bə dast bənən vay:"
+	"wminc-custom-featuredwikis-active": "Aktivin ijən by nezoni bəzynen yštə sajt səj:",
+	"wminc-infopage-language-header": "Zyvon",
+	"wminc-infopage-language-nocode": "ni",
+	"wminc-infopage-language-translatewiki": "Translatewiki.net portal",
+	"wminc-infopage-content-administroters": "Mudiron:",
+	"wminc-infopage-content-project": "Projekt: $1",
+	"wminc-infopage-content-project-b": "Vikikitob",
+	"wminc-infopage-content-project-n": "Vikixəbon",
+	"wminc-infopage-content-project-p": "Vikipedia",
+	"wminc-infopage-content-project-q": "Vikisitot",
+	"wminc-infopage-content-project-s": "Vikisəvon",
+	"wminc-infopage-content-project-t": "Vikiluǧət",
+	"wminc-infopage-content-project-v": "Vikiversitet",
+	"wminc-infopage-content-project-y": "Vikisəjohət",
+	"wminc-infopage-req-header": "Tələbon"
 }
