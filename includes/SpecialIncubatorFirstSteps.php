@@ -16,9 +16,9 @@ namespace MediaWiki\Extension\WikimediaIncubator;
 
 use Html;
 use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Title\Title;
 use Message;
 use SpecialPage;
-use Title;
 use UnlistedSpecialPage;
 
 class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {

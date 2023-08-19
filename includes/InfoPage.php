@@ -7,10 +7,10 @@ use Language;
 use Linker;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 use RequestContext;
 use SpecialPage;
-use Title;
 
 /**
  * Implements the "info page" (Wx/xx pages)

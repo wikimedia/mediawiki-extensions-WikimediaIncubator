@@ -3,8 +3,8 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use Pager;
-use Title;
 use Xml;
 
 /**

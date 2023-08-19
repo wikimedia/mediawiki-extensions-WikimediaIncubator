@@ -7,7 +7,7 @@ use HTMLForm;
 use IncludableSpecialPage;
 use MediaWiki\Languages\LanguageFactory;
 use MediaWiki\Languages\LanguageNameUtils;
-use Title;
+use MediaWiki\Title\Title;
 use Xml;
 
 class SpecialSearchWiki extends IncludableSpecialPage {

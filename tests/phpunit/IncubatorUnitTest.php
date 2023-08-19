@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
+use MediaWiki\Title\Title;
 
 /**
  * @covers \MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator

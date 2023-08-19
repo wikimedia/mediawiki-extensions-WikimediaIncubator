@@ -16,11 +16,11 @@ namespace MediaWiki\Extension\WikimediaIncubator;
 use HTMLForm;
 use Linker;
 use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Title\Title;
 use MediaWiki\User\UserNamePrefixSearch;
 use MediaWiki\User\UserNameUtils;
 use MediaWiki\User\UserOptionsLookup;
 use SpecialPage;
-use Title;
 use User;
 use Xml;
 

@@ -13,7 +13,7 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use Title;
+use MediaWiki\Title\Title;
 use UnlistedSpecialPage;
 
 class SpecialMyWiki extends UnlistedSpecialPage {
