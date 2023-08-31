@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"wminc-desc": "Testwiki-System fir de Wikimedia-Incubator",
@@ -43,7 +44,7 @@
 	"wminc-fs-langselect-title": "Sprooch eraussichen",
 	"wminc-fs-signup-title": "Mellt Iech un",
 	"wminc-fs-settings-title": "Leet Är Wiki-Astellunge fest",
-	"wminc-fs-userpage-title": "Är Benotzersäit maachen",
+	"wminc-fs-userpage-title": "Är Benotzersäit uleeën",
 	"wminc-fs-startwiki-title": "Fänkt mat Ärer Wiki un",
 	"wminc-fs-pagetitle-done": " - fäerdeg!",
 	"wminc-fs-signup-text": "Wann Dir schonn e Benotzerkont hutt da [$1 loggt Iech wgl. an]. Wann Dir nach keen hutt, da [$2 leet wgl. e Benotzerkont un].\nEt ass net obligatoresch, mä et gëtt staark recommandéiert, an et dauert nëmmen een Ament fir e Benotzerkont ze maachen.",

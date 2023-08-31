@@ -3,11 +3,12 @@
 		"authors": [
 			"Assele",
 			"Haqmar",
-			"Ләйсән"
+			"Ләйсән",
+			"З. ӘЙЛЕ"
 		]
 	},
 	"wminc-infopage-enter": "Баш биткә күсергә",
-	"wminc-unknownlang": "(билдәһеҙ тел коды)",
+	"wminc-unknownlang": "(Телдең билдәһеҙ коды)",
 	"wminc-infopage-title-p": "Википедия $1",
 	"wminc-infopage-title-b": "Викидәреслек «$1»",
 	"wminc-infopage-title-t": "Викиһүҙлек $1",
