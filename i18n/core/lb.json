@@ -19,6 +19,7 @@
 	"wminc-prefinfo-project": "Wielt de Wikimediaprojet  un deem Dir hei schafft",
 	"wminc-prefinfo-error": "Dir hutt e Projet gewielt deen e Sproochecode brauch.",
 	"wminc-error-wronglangcode": "<strong>Feeler:</strong> Op dëser Säit ass e [[{{MediaWiki:Wminc-error-help}}|falsche Sproochecode]] \"$1\".",
+	"wminc-error-unprefixed": "<strong>Feeler:</strong> Dës Säit huet[[{{MediaWiki:Wminc-error-help}}|kee Prefix]].",
 	"randombytest": "Zoufallssäit duerch Test Wiki",
 	"randombytest-nopages": "Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.",
 	"wminc-viewuserlang": "Benotzersprooch an Test-Wiki nokucken",
@@ -69,5 +70,6 @@
 	"wminc-infopage-status-imported": "Dës Incubator-Wiki gouf vu(n) $1 importéiert nodeem se zougemaach gouf.",
 	"wminc-infopage-status-closedsister": "Dës Subdomain gouf zougemaach. Gitt op <strong>$2</strong> fir un dëser Wiki matzeschaffen.",
 	"wminc-infopage-status-created": "Dëse Projet gouf vum Sproochecomité akzeptéiert an ass elo op $1 disponibel.",
-	"wminc-infopage-status-beforeincubator": "Dëse Projet gouf ugeluecht ier et Wikimedia Incubator gouf an ass op $1 disponibel."
+	"wminc-infopage-status-beforeincubator": "Dëse Projet gouf ugeluecht ier et Wikimedia Incubator gouf an ass op $1 disponibel.",
+	"wminc-infopage-status-beforeincubator-sister": "Dëse Projet ass ënner $1 verfügbar."
 }
