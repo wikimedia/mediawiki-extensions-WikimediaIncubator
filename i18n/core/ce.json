@@ -17,7 +17,7 @@
 	"wminc-viewuserlang-user": "Декъашхочун цӀе:",
 	"wminc-viewuserlang-go": "Каро",
 	"wminc-userdoesnotexist": "«$1» цӀе йолу декъашхо цакарий",
-	"wminc-ip": "«$1» и IP-адрес дац.",
+	"wminc-ip": "«$1» — IP-адрес йа ханна декъашхо.",
 	"group-test-sysop": "Зуьйш йолу викин администраторш",
 	"group-test-sysop-member": "{{GENDER:$1|Зуьйш йолу викин администратор}}",
 	"grouppage-test-sysop": "{{ns:project}}:Зуьйш йолу викин администраторш",
