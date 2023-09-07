@@ -134,6 +134,9 @@
 			"viewuserlang": true
 		}
 	},
+	"PrivilegedGroups": [
+		"test-sysop"
+	],
 	"AddGroups": {
 		"bureaucrat": [
 			"test-sysop"
