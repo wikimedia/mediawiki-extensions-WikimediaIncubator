@@ -5,6 +5,7 @@ use MediaWiki\Title\Title;
 
 /**
  * @covers \MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator
+ * @group Database
  */
 class IncubatorUnitTest extends MediaWikiIntegrationTestCase {
 	public function testValidateLanguageCode() {
