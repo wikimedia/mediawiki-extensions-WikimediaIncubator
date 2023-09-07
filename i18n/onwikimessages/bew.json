@@ -9,7 +9,7 @@
 	"wminc-code-retired": "Ni kode basa udah dirobah èn kaga' lagi ngeruju' ke basa aslinya.",
 	"wminc-custom-editnotice-2": "Bakal ngasi tau basa mana-mana aja lu punya bisa, dimohon maké $1. Misalnya, kalo lu punya basa asli – basa Prasman èn lu juga' bisa basa Inggris juga', paké $2.",
 	"wminc-custom-featuredwikis-approved": "Ni dia wiki nyang udah disetujuin èn/atawa dikeja:",
-	"wminc-custom-featuredwikis-active": "Ni dia wiki nyang aktip èn barangkali sigra dapet dia punya pelampangnya sendèwèk:",
+	"wminc-custom-featuredwikis-active": "Ni dia wiki nyang getap èn barangkali sigra dapet dia punya pelampangnya sendèwèk:",
 	"wminc-custom-featuredwikis-permanent": "Ni dia wiki nyang roman-romannya bakalan tetep di mari:",
 	"wminc-custom-newarticletext-noprefix": "<strong>Catet baè'-baè':</strong> Lu lagi ngeja halaman sonder [[$1|awalan]]",
 	"wminc-custom-newarticletext-withprefix-1": "Ketik $1 èn terus klik \"{{int:publishpage}}\".",
@@ -45,7 +45,7 @@
 	"tag-gadget-interwiki-description": "Permakan nyang nambahin sènggètan anterwiki paké alat anterwiki.",
 	"gadget-settestwikipreference": "Tambahin tombol \"Setèl basa\" èn \"Setèl (proyèk penjajalan) sebagé lu punya proyèk penjajalan\" ke palang samping kapan ndeleng wiki penjajalan.",
 	"wminc-gadget-twpref-setlang": "Setèl basa: $1",
-	"wminc-gadget-twpref-setlang-tooltip": "Setèl lu punya basa antermuka jadi $1",
+	"wminc-gadget-twpref-setlang-tooltip": "Setèl lu punya basa telampangan jadi $1",
 	"wminc-gadget-twpref-setwiki": "Setèl $1 sebagé lu punya proyèk penjajalan",
 	"wminc-gadget-twpref-setwiki-tooltip": "Setèl $1 jadi lu punya proyèk penjajalan, sehingga halaman baru lu punya keja bakalan jadi bagèan ni proyèk"
 }
