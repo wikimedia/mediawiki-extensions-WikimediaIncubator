@@ -35,7 +35,7 @@ class SpecialRandomByTest extends SpecialRandomPage {
 		$lang = $target['lang'] ?? '';
 		$user = $this->getUser();
 		if ( WikimediaIncubator::isContentProject( $user ) || ( $project && $lang ) ) {
-			$dbr = wfGetDB( DB_REPLICA );
+			$dbr = $dbProvider->getReplicaDatabase();
 			$this->extra[] = 'page_title' .
 				$dbr->buildLike( WikimediaIncubator::displayPrefix( $project, $lang ) .
 					'/', $dbr->anyString() );

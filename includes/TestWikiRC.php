@@ -67,11 +67,11 @@ class TestWikiRC {
 
 		if ( $projectvalue == $wmincProjectSite['short'] ) {
 			// If project site is selected, display all changes except test wiki changes
-			$dbr = wfGetDB( DB_REPLICA );
+			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
 			$conds[] = 'rc_title NOT ' . $dbr->buildLike( 'W', $dbr->anyChar(), '/', $dbr->anyString() );
 		} elseif ( WikimediaIncubator::validatePrefix( $prefix, true ) ) {
 			// Else, display changes to the selected test wiki in the appropriate namespaces
-			$dbr = wfGetDB( DB_REPLICA );
+			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
 			// The next line (the phan-suppress one) is buggy some times. If phan-docker
 			// complains, try re-adding it by adding/removing the initial @.
 			// phan-suppress-next-line PhanPossiblyUndeclaredVariable
