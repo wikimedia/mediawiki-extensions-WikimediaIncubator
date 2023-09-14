@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Baloch Afghanistan",
-			"Sultanselim baloch"
+			"Sultanselim baloch",
+			"Moshtank"
 		]
 	},
 	"wminc-desc": "تست ویکی یی سیستم په ویکی میڈ\tیا ئنکوباتور",
@@ -16,7 +17,7 @@
 	"randombytest": "صفحه تصادفی بر اساس ویکی آزمایشی",
 	"randombytest-nopages": "هیچ صفحه‌ای در ویکی آزمایشی شما وجود ندارد، در فضای نامی: $1.",
 	"wminc-viewuserlang": "مشاهده زبان و ویکی آزمایشی کاربر",
-	"wminc-viewuserlang-user": "کار زوروکی نام:",
+	"wminc-viewuserlang-user": "کارزیری نام:",
 	"wminc-viewuserlang-go": "برا",
 	"wminc-userdoesnotexist": "کار زوروکی «$1» هنگته نه اینت.",
 	"wminc-ip": "«$1» یک نشانی آی‌پی است.",
@@ -41,7 +42,7 @@
 	"wminc-searchwiki-gotoinfopage": "مئلوماتی دیم",
 	"wminc-fs-pagetitle": "شروع شده ویزارد ـ $1",
 	"wminc-fs-langselect-title": "زبانی انتخاب",
-	"wminc-fs-signup-title": "ثبت نام",
+	"wminc-fs-signup-title": "سپت نام",
 	"wminc-fs-settings-title": "تنظیم اولویت ویکی شما",
 	"wminc-fs-userpage-title": "وتی کار زوروکی دیمی جوڑ کورتین",
 	"wminc-fs-startwiki-title": "وتی ویکی یی شروع کورتین",
