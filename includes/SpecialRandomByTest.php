@@ -3,7 +3,9 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use MediaWiki\User\UserOptionsLookup;
+use NamespaceInfo;
 use SpecialRandomPage;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 /**
  * Special page to go to a random page in your test wiki
@@ -17,9 +19,15 @@ use SpecialRandomPage;
 class SpecialRandomByTest extends SpecialRandomPage {
 
 	/**
+	 * @param IConnectionProvider $dbProvider
+	 * @param NamespaceInfo $nsInfo
 	 * @param UserOptionsLookup $userOptionsLookup
 	 */
-	public function __construct( UserOptionsLookup $userOptionsLookup ) {
+	public function __construct(
+		IConnectionProvider $dbProvider,
+		NamespaceInfo $nsInfo,
+		UserOptionsLookup $userOptionsLookup
+	) {
 		global $wmincPref, $wmincProjectSite;
 		$target = $this->getRequest()->getVal( 'testwiki', '' );
 		$target = WikimediaIncubator::analyzePrefix( $target );
@@ -37,6 +45,10 @@ class SpecialRandomByTest extends SpecialRandomPage {
 			# project or help namespace
 			$this->extra['page_namespace'] = [ 4, 12 ];
 		}
-		parent::__construct( 'RandomByTest' );
+		parent::__construct(
+			$dbProvider,
+			$nsInfo
+		);
+		$this->mName = 'RandomByTest';
 	}
 }
