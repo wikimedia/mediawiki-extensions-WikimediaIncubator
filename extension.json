@@ -217,31 +217,42 @@
 		}
 	},
 	"Hooks": {
-		"ContributionsToolLinks": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::efLoadViewUserLangLink",
-		"GetPreferences": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onGetPreferences",
-		"UserGetDefaultOptions": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onUserGetDefaultOptions",
-		"LoadUserOptions": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onLoadUserOptions",
-		"MagicWordwgVariableIDs": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::magicWordVariable",
-		"ParserGetVariableValueSwitch": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::magicWordValue",
-		"getUserPermissionsErrors": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onGetUserPermissionsErrors",
-		"MovePageIsValidMove": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onMovePageIsValidMove",
-		"ChangesListSpecialPageQuery": "MediaWiki\\Extension\\WikimediaIncubator\\TestWikiRC::onRcQuery",
-		"SpecialRecentChangesPanel": "MediaWiki\\Extension\\WikimediaIncubator\\TestWikiRC::onRcForm",
-		"ShowMissingArticle": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onShowMissingArticle",
-		"EditFormPreloadText": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onEditFormPreloadText",
-		"MediaWikiPerformAction": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onMediaWikiPerformAction",
-		"TitleIsAlwaysKnown": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onTitleIsAlwaysKnown",
-		"ParserFirstCallInit": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onParserFirstCallInit",
-		"PageContentLanguage": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onPageContentLanguage",
-		"MakeGlobalVariablesScript": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onMakeGlobalVariablesScript",
-		"SpecialListusersHeaderForm": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersHeaderForm",
-		"SpecialListusersQueryInfo": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersQueryInfo",
-		"SpecialListusersHeader": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki::onSpecialListusersHeader",
-		"SpecialSearchCreateLink": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onSpecialSearchCreateLink",
-		"SpecialSearchPowerBox": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onSpecialSearchPowerBox",
-		"SpecialSearchSetupEngine": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onSpecialSearchSetupEngine",
-		"GetDefaultSortkey": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onGetDefaultSortkey",
-		"BeforePageDisplay": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator::onBeforePageDisplay"
+		"ContributionsToolLinks": "main",
+		"GetPreferences": "main",
+		"UserGetDefaultOptions": "main",
+		"LoadUserOptions": "main",
+		"MagicWordwgVariableIDs": "main",
+		"ParserGetVariableValueSwitch": "main",
+		"getUserPermissionsErrors": "main",
+		"MovePageIsValidMove": "main",
+		"ChangesListSpecialPageQuery": "recentchanges",
+		"SpecialRecentChangesPanel": "recentchanges",
+		"ShowMissingArticle": "main",
+		"EditFormPreloadText": "main",
+		"MediaWikiPerformAction": "main",
+		"TitleIsAlwaysKnown": "main",
+		"ParserFirstCallInit": "main",
+		"PageContentLanguage": "main",
+		"MakeGlobalVariablesScript": "main",
+		"SpecialListusersHeaderForm": "listusers",
+		"SpecialListusersQueryInfo": "listusers",
+		"SpecialListusersHeader": "listusers",
+		"SpecialSearchCreateLink": "main",
+		"SpecialSearchPowerBox": "main",
+		"SpecialSearchSetupEngine": "main",
+		"GetDefaultSortkey": "main",
+		"BeforePageDisplay": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\WikimediaIncubator"
+		},
+		"recentchanges": {
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\TestWikiRC"
+		},
+		"listusers": {
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\ListUsersTestWiki"
+		}
 	},
 	"manifest_version": 2
 }

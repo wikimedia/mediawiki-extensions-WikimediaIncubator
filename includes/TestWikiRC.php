@@ -2,8 +2,10 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
+use MediaWiki\Hook\SpecialRecentChangesPanelHook;
 use MediaWiki\Html\FormOptions;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\SpecialPage\Hook\ChangesListSpecialPageQueryHook;
 use RequestContext;
 use User;
 use Xml;
@@ -17,7 +19,10 @@ use XmlSelect;
  * @author Robin Pepermans (SPQRobin)
  */
 
-class TestWikiRC {
+class TestWikiRC implements
+	ChangesListSpecialPageQueryHook,
+	SpecialRecentChangesPanelHook
+{
 	/**
 	 * Get values
 	 *
@@ -47,15 +52,14 @@ class TestWikiRC {
 	 * @param array &$query_options
 	 * @param array &$join_conds
 	 * @param FormOptions $opts
-	 * @return bool true
 	 */
-	public static function onRcQuery( $pageName, &$tables, &$fields, &$conds, &$query_options,
-		&$join_conds, FormOptions $opts
+	public function onChangesListSpecialPageQuery( $pageName, &$tables, &$fields, &$conds, &$query_options,
+		&$join_conds, $opts
 	) {
 		global $wmincProjectSite, $wmincTestWikiNamespaces;
 
 		if ( $pageName !== 'Recentchanges' ) {
-			return true;
+			return;
 		}
 
 		list( $projectvalue, $codevalue ) = self::getValues( RequestContext::getMain()->getUser() );
@@ -80,11 +84,9 @@ class TestWikiRC {
 			' OR rc_title = ' . $dbr->addQuotes( $prefix );
 		}
 		// If "none" is selected, display normal recent changes
-
-		return true;
 	}
 
-	public static function onRcForm( &$items, $opts ) {
+	public function onSpecialRecentChangesPanel( &$items, $opts ) {
 		global $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
 
 		list( $projectvalue, $codevalue ) = self::getValues( RequestContext::getMain()->getUser() );
@@ -102,6 +104,5 @@ class TestWikiRC {
 		$langcode = Xml::input( 'rc-testwiki-code', (int)$wmincLangCodeLength, $codevalue,
 			[ 'id' => 'rc-testwiki-code', 'maxlength' => (int)$wmincLangCodeLength ] );
 		$items['testwiki'] = [ $label, $select->getHTML() . ' ' . $langcode ];
-		return true;
 	}
 }
