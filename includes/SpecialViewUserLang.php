@@ -20,6 +20,7 @@ use MediaWiki\Title\Title;
 use MediaWiki\User\UserNamePrefixSearch;
 use MediaWiki\User\UserNameUtils;
 use MediaWiki\User\UserOptionsLookup;
+use Message;
 use SpecialPage;
 use User;
 use Xml;
@@ -57,10 +58,10 @@ class SpecialViewUserLang extends SpecialPage {
 	}
 
 	/**
-	 * @return string
+	 * @return Message
 	 */
 	public function getDescription() {
-		return $this->msg( 'wminc-viewuserlang' )->plain();
+		return $this->msg( 'wminc-viewuserlang' );
 	}
 
 	/**
