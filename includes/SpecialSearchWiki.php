@@ -44,7 +44,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	}
 
 	public function getDescription() {
-		return $this->msg( 'wminc-searchwiki' )->plain();
+		return $this->msg( 'wminc-searchwiki' );
 	}
 
 	/**
