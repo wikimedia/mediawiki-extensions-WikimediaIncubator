@@ -6,6 +6,7 @@
 			"Minh Nguyen",
 			"Nghiemtrongdai VN",
 			"Nguyễn Mạnh An",
+			"Pisceskaze",
 			"Trần Nguyễn Minh Huy",
 			"Vinhtantran"
 		]
@@ -34,7 +35,7 @@
 	"wminc-viewuserlang-user": "Tên người dùng:",
 	"wminc-viewuserlang-go": "Xem",
 	"wminc-userdoesnotexist": "Thành viên “$1” không tồn tại.",
-	"wminc-ip": "“$1” là một địa chỉ IP.",
+	"wminc-ip": "“$1” là một địa chỉ IP hoặc người dùng tạm thời.",
 	"action-viewuserlang": "xem ngôn ngữ và wiki thử của người dùng",
 	"right-viewuserlang": "Xem ngôn ngữ và wiki thử của người dùng",
 	"group-test-sysop": "Bảo quản viên tại wiki thử nghiệm",
