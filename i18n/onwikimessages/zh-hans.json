@@ -5,14 +5,15 @@
 			"John Smith Ri",
 			"MangoFanFanw",
 			"PhiLiP",
-			"星海"
+			"星海",
+			"LittlePaw365"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|$3]]是[[wikipedia:ISO 639 macrolanguage|宏语言]]之一，由以下成员语言组成：",
 	"wminc-code-collective": "代码“$1”并不是一种语言，而是一系列语言的集合，即[[wikipedia:$2 language|$3语言]]。",
 	"wminc-code-retired": "该语言代码已更改，并且不再指向原来的语言。",
 	"wminc-custom-editnotice-2": "要指明您可以使用哪些语言，请使用$1。例如，如果您的母语是法语并且您的英语说得很好，请使用$2。",
-	"wminc-custom-featuredwikis-approved": "这些维基已被批准和/或创建：",
+	"wminc-custom-featuredwikis-approved": "这些已被批准和/或创建：",
 	"wminc-custom-featuredwikis-active": "这些维基很活跃，可能马上就会有自己的网站了：",
 	"wminc-custom-featuredwikis-permanent": "这些维基很可能留在这里：",
 	"wminc-custom-newarticletext-noprefix": "<strong>请注意：</strong>您正在创建一个无[[$1|前缀]]的页面。",
