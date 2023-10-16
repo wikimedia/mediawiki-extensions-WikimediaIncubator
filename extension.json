@@ -75,7 +75,8 @@
 				"commons": "Wikimedia Commons",
 				"species": "Wikispecies",
 				"mediawiki": "MediaWiki",
-				"wikidata": "Wikidata"
+				"wikidata": "Wikidata",
+				"wikifunctions": "Wikifunctions"
 			}
 		},
 		"ProjectSite": {
