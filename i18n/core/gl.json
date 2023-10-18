@@ -30,7 +30,7 @@
 	"wminc-viewuserlang-user": "Nome de usuario:",
 	"wminc-viewuserlang-go": "Ir",
 	"wminc-userdoesnotexist": "O usuario \"$1\" non existe.",
-	"wminc-ip": "\"$1\" é un enderezo IP.",
+	"wminc-ip": "\"$1\" é un enderezo IP ou un usuario temporal.",
 	"action-viewuserlang": "ver a lingua do usuario e o wiki de probas",
 	"right-viewuserlang": "Ver a lingua do usuario e o wiki de probas",
 	"group-test-sysop": "Administradores do wiki de probas",
