@@ -624,12 +624,7 @@ class WikimediaIncubator implements
 	 */
 	public static function canWeCheckDB() {
 		global $wmincProjects;
-		$databases = array_column( $wmincProjects, 'dbsuffix' );
-
-		if ( empty( $databases ) ) {
-			return false; # We don't know the databases
-		}
-		return true; # Should work now
+		return (bool)array_column( $wmincProjects, 'dbsuffix' );
 	}
 
 	/**
