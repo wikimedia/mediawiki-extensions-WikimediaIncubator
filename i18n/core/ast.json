@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"wminc-desc": "Sistema de wiki de pruebes pa Wikimedia Incubator",
@@ -17,7 +18,7 @@
 	"wminc-prefinfo-project": "Seleiciona'l proyeutu de Wikimedia nel que tas trabayando equí",
 	"wminc-prefinfo-error": "Seleicionasti un proyeutu que necesita un códigu de llingua.",
 	"wminc-error-move-unprefixed": "<strong>Error:</strong> La páxina que ta intentando treslladar a [[{{MediaWiki:Wminc-error-help}}| nun tien prefixu o esti ye incorreutu]].",
-	"wminc-error-wronglangcode": "<strong>Error:</strong> Esta páxina contien un [[{{MediaWiki:Wminc-error-help}}|códigu de llingua incorreutu]], «$1».",
+	"wminc-error-wronglangcode": "<strong>Error:</strong> Esta páxina contién un [[{{MediaWiki:Wminc-error-help}}|códigu de llingua incorreutu]], «$1».",
 	"wminc-error-unprefixed": "<strong>Error:</strong> Esta páxina [[{{MediaWiki:Wminc-error-help}}|nun tien prefixu]].",
 	"wminc-error-unprefixed-suggest": "<strong>Error:</strong> ¡Esta páxina nun tien [[{{MediaWiki:Wminc-error-help}}|prefixu]]! Pue crear una páxina en [[:$1]].",
 	"wminc-error-wiki-exists": "Esta wiki yá esiste. Pues alcontrar esta páxina en $1. Si la wiki se creó recién, espera delles hores o díes mentanto s'importa tou'l conteníu.",
