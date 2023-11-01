@@ -3,7 +3,8 @@
 		"authors": [
 			"Derekatosey",
 			"Ebenoffen1",
-			"Suzieturkson"
+			"Suzieturkson",
+			"Leonard Nketsia"
 		]
 	},
 	"wminc-desc": "Kyerɛw wiki system gye Wiki Incubator",
@@ -26,7 +27,7 @@
 	"wminc-viewuserlang-user": "Dwumadzinyi dzin",
 	"wminc-viewuserlang-go": "Kɔ",
 	"wminc-userdoesnotexist": "Dwumadzinyi \"$1\" nnyi hɔ.",
-	"wminc-ip": "\"$1\" yɛ IP adrɛɛse.",
+	"wminc-ip": "\"$1\" yɛ IP adrɛɛse anaa mprempren dwumadzinyi.",
 	"action-viewuserlang": "Hwɛ dwumadzinyi kasa na test wiki",
 	"right-viewuserlang": "Hwɛ dwumadzinyi kasa na test wiki",
 	"group-test-sysop": "Test wiki mpanyimfo",
