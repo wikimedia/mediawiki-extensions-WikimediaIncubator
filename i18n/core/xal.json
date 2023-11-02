@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Алия"
+		]
+	},
+	"wminc-desc": "Викимедиа Инкубаторин туршлтын вики-систем",
+	"wminc-manual": "Һарин авлһ",
+	"wminc-listwikis": "Мана төслин җигсәлт",
+	"wminc-testwiki": "Туршлтын вики:",
+	"wminc-testwiki-code": "Туршлтын викиһин келн:",
+	"wminc-testwiki-none": "Бүк вики",
+	"wminc-testwiki-site": "(Техникин үүлчллһн)",
+	"wminc-recentchanges-all": "Бүк сүүлин ясвр",
+	"wminc-prefinfo-language": "Тана интерфейсин келн Тана туршлтын викиһәс хамархш",
+	"wminc-error-wronglangcode": "<strong>Эндү:</strong> Халхнь [[{{MediaWiki:Wminc-error-help}}|«$1 келнә буру кодыг]] аһулҗана."
+}
