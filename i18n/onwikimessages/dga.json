@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joachim Yirkang"
+		]
+	},
+	"wminc-gadget-iw-add-wikidata": "Eŋ wikidata tage lammo",
+	"wminc-gadget-iw-dialog-cancel": "Sãã bare",
+	"wminc-gadget-iw-dialog-publish": "De-eŋ",
+	"wminc-gadget-iw-dialog-title": "Eŋ interwiki tage lammo",
+	"wminc-gadget-iw-dialog-qid-placeholder": "e.g. $1",
+	"wminc-gadget-iw-dialog-editpage": "Maale a gampɛle",
+	"wminc-gadget-iw-dialog-replace-editinstead": "Ka onaŋ ba e soŋ,  sɔrɔɔ la maale gampɛle a de eŋ a tage lammo.",
+	"wminc-gadget-iw-dialog-learn-more": "Zanne yɛlɛ gaga kyaare neŋ a wikidata",
+	"wminc-gadget-iw-dialog-wikidata-search": "Bɔ wikidata",
+	"wminc-gadget-iw-error-title": "Interwiki gbɛ ŋmɛ"
+}
