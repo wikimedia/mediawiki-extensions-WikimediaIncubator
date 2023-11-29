@@ -6,7 +6,7 @@ use MediaWiki\Auth\AbstractSecondaryAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthenticationResponse;
 use MediaWiki\Auth\AuthManager;
-use MediaWiki\User\UserOptionsManager;
+use MediaWiki\User\Options\UserOptionsManager;
 
 /**
  * If URL parameters "testwikiproject" and "testwikicode" are set
