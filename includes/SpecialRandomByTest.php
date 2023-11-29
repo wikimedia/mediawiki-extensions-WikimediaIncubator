@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use MediaWiki\User\UserOptionsLookup;
+use MediaWiki\User\Options\UserOptionsLookup;
 use NamespaceInfo;
 use SpecialRandomPage;
 use Wikimedia\Rdbms\IConnectionProvider;
