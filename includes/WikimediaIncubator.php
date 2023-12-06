@@ -13,10 +13,8 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use Article;
-use Html;
 use HtmlArmor;
 use Language;
-use Linker;
 use MediaWiki;
 use MediaWiki\Content\Hook\PageContentLanguageHook;
 use MediaWiki\Hook\BeforePageDisplayHook;
@@ -32,25 +30,27 @@ use MediaWiki\Hook\ParserGetVariableValueSwitchHook;
 use MediaWiki\Hook\SpecialSearchCreateLinkHook;
 use MediaWiki\Hook\SpecialSearchSetupEngineHook;
 use MediaWiki\Hook\TitleIsAlwaysKnownHook;
+use MediaWiki\Html\Html;
 use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\OutputPage;
 use MediaWiki\Page\Hook\ShowMissingArticleHook;
 use MediaWiki\Permissions\Hook\GetUserPermissionsErrorsHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\Request\WebRequest;
 use MediaWiki\Search\Hook\SpecialSearchPowerBoxHook;
+use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\Specials\SpecialSearch;
 use MediaWiki\Title\Title;
 use MediaWiki\User\Hook\UserGetDefaultOptionsHook;
 use MediaWiki\User\Options\Hook\LoadUserOptionsHook;
+use MediaWiki\User\User;
 use MediaWiki\User\UserIdentity;
-use OutputPage;
 use Parser;
 use RequestContext;
 use SearchEngine;
 use Skin;
-use SpecialPage;
-use SpecialSearch;
-use User;
-use WebRequest;
 use Xml;
 
 class WikimediaIncubator implements

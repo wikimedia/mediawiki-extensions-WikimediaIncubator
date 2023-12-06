@@ -14,15 +14,15 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use HTMLForm;
-use Linker;
 use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Linker\Linker;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use MediaWiki\User\Options\UserOptionsLookup;
+use MediaWiki\User\User;
 use MediaWiki\User\UserNamePrefixSearch;
 use MediaWiki\User\UserNameUtils;
 use Message;
-use SpecialPage;
-use User;
 use Xml;
 
 class SpecialViewUserLang extends SpecialPage {

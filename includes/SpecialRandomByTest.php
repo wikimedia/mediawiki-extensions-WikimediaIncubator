@@ -2,9 +2,9 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
+use MediaWiki\Specials\SpecialRandomPage;
+use MediaWiki\Title\NamespaceInfo;
 use MediaWiki\User\Options\UserOptionsLookup;
-use NamespaceInfo;
-use SpecialRandomPage;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 /**

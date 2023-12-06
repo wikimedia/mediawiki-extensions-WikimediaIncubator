@@ -2,15 +2,15 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use Html;
 use Language;
-use Linker;
+use MediaWiki\Html\Html;
 use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 use RequestContext;
-use SpecialPage;
 
 /**
  * Implements the "info page" (Wx/xx pages)

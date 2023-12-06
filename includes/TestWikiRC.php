@@ -6,8 +6,8 @@ use MediaWiki\Hook\SpecialRecentChangesPanelHook;
 use MediaWiki\Html\FormOptions;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\Hook\ChangesListSpecialPageQueryHook;
+use MediaWiki\User\User;
 use RequestContext;
-use User;
 use Xml;
 use XmlSelect;
 

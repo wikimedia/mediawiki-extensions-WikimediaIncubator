@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use Html;
 use HTMLForm;
-use IncludableSpecialPage;
+use MediaWiki\Html\Html;
 use MediaWiki\Languages\LanguageFactory;
 use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\SpecialPage\IncludableSpecialPage;
 use MediaWiki\Title\Title;
 use Xml;
 
