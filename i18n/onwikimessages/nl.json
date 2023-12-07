@@ -44,5 +44,7 @@
 	"wminc-infopage-text-open": "Deze testwiki is open of gecontroleerd. U wordt aangemoedigd om bij te dragen als u deze taal kent. Zie ook [[$9|de bijdrage handleiding]] voor een uitleg over wat u moet doen.",
 	"wminc-infopage-text-tocreate": "Deze testwiki is nog niet begonnen. Als u deze taal kent, volg dan de uitleg op [[$9]]. U kunt een Hoofdpagina maken op ''\"{{PAGENAME}}/Hoofdpagina\"'' met \"Hoofdpagina\" vertaald naar deze taal (bijvoorbeeld \"Wp/fr/Accueil\" als het een Franse testwiki was).",
 	"wminc-infopage-text-approved-created": "U kunt het vinden op $1.",
+	"wminc-infopage-language-header": "Taal",
+	"wminc-infopage-language-nocode": "geen",
 	"wminc-infopage-req-header": "Benodigdheden"
 }
