@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
-			"SPQRobin"
+			"SPQRobin",
+			"HanV",
+			"McDutchie"
 		]
 	},
 	"wminc-code-macrolanguage": "De [[wikipedia:$2 language|taal \"$3\"]] is een [[wikipedia:ISO 639 macrolanguage|macrotaal]], die bestaat uit de volgende talen:",
@@ -16,19 +18,37 @@
 	"wminc-custom-newarticletext-withprefix-1": "Typ $1 en klik daarna op \"{{int:publishpage}}\".",
 	"wminc-custom-newarticletext-withprefix-2": "Vervang \"$1\" en klik daarna op \"{{int:publishpage}}\".",
 	"wminc-custom-newarticletext-withprefix-3": "U bent bezig met het aanmaken van een nieuwe pagina ([[$1|met voorvoegsel]]) met als naam \"{{FULLPAGENAME}}\".",
+	"wminc-custom-newarticletext-withprefix-4": "Voeg ook voorvoegsels toe aan uw koppelingen: van <code><nowiki>[[Page title]]</nowiki></code> naar <code><nowiki>[[Wx/xx/Page title]]</nowiki></code> en van <code><nowiki>{{Page title}}</nowiki></code> naar <code><nowiki>{{Wx/xx/Page title}}</nowiki></code>.",
+	"wminc-custom-newarticletext-withprefix-5": "Om dit automatisch te doen, kunt u de [[$1|gadget Add Prefix]] gebruiken.",
 	"wminc-custom-tb-incorrect-title-title": "U probeert een pagina aan te maken met een onjuiste titel.",
+	"wminc-custom-tb-incorrect-title-text": "De titel heeft waarschijnlijk geen [[$1|voorvoegsel]] of is op een andere manier onjuist opgemaakt (hoofdletters in het voorvoegsel, schuine streep, enz.).\n\nAls u hier vanaf een andere pagina bent gekomen, ga dan terug, herstel de koppeling en maak dan de pagina met de juiste naam aan. Als u probeert de pagina rechtstreeks aan te maken, gebruik dan een correcte naam.\n\nAls dit u verhindert een pagina te maken die volgens u wel degelijk een juist opgemaakte titel heeft, [[$2|laat het dan weten aan de moderatoren]].",
 	"wminc-custom-tb-invalid-code-title": "U probeert een pagina te maken zonder een geldige [[$1|ISO 639-1 of -3 code]].",
+	"wminc-custom-tb-invalid-code-text": "Deze code is niet geldig of behoort niet tot een taal die wordt geaccepteerd voor nieuwe Wikimedia-projecten.\n\nAls u hier vanaf een andere pagina bent gekomen, ga dan terug, herstel de koppeling en maak dan de pagina met de juiste naam aan.\n\nAls dit u verhindert een pagina te maken die volgens u wel degelijk een geldige ISO 639-1- of -3-code heeft of tot een geaccepteerde taal behoort, [[$1|laat het dan weten aan de moderatoren]].",
 	"wminc-custom-tb-space-colon": "Om technische redenen mag een titel niet beginnen met een spatie of een dubbele punt.",
 	"gadget-addprefix": "<strong>AddPrefix:</strong> Automatisch voorvoegsels toevoegen aan links bij het aanmaken van een pagina",
 	"wminc-gadget-addprefix-help": "U hoeft het voorvoegsel niet te gebruiken bij het bewerken van deze pagina. Het wordt automatisch toegevoegd wanneer u de pagina publiceert.",
 	"wminc-gadget-addprefix-toggle": "Toon/verberg het voorvoegsel",
+	"gadget-interwiki": "<strong>Interwiki:</strong> Voegt functionaliteit toe om intertaalkoppelingen van Wikidata toe te voegen en weer te geven.",
 	"wminc-gadget-iw-add-wikidata": "Wikidata-koppeling toevoegen",
 	"wminc-gadget-iw-dialog-cancel": "Annuleren",
 	"wminc-gadget-iw-dialog-publish": "Publiceren",
 	"wminc-gadget-iw-dialog-title": "Interwikikoppelingen toevoegen",
+	"wminc-gadget-iw-dialog-text": "Gebruik dit formulier om interwiki-koppelingen toe te voegen via een Wikidata-item. Plak een Wikidata-item-ID of een URL in een item of een bestaand artikel in een andere taal hieronder en druk dan op “{{int:wminc-gadget-iw-dialog-publish}}”.",
 	"wminc-gadget-iw-dialog-qid-placeholder": "zoals $1",
 	"wminc-gadget-iw-dialog-editpage": "Pagina bewerken",
+	"wminc-gadget-iw-dialog-replace-text": "Door op “{{int:wminc-gadget-iw-dialog-publish}}” te klikken, vervangt u de oude interwiki-koppelingen op deze pagina door interwiki-koppelingen die door Wikidata worden aangeboden. Het artikel dat zal worden gebruikt om het Wikidata-item te kiezen is het volgende:",
+	"wminc-gadget-iw-dialog-replace-editinstead": "Als dat niet juist is, bewerk dan de pagina en verbeter de koppeling handmatig.",
+	"wminc-gadget-iw-dialog-learn-more": "Meer informatie over Wikidata",
 	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata doorzoeken",
+	"wminc-gadget-iw-error-title": "Interwiki-gadgetfout",
+	"wminc-gadget-iw-error-invalid": "De Wikidata-ID die u hebt ingevoerd of de pagina die is gekoppeld bestaat niet, of de pagina is niet verbonden met Wikidata. Probeer het opnieuw.",
 	"wminc-gadget-iw-error-reload": "Laad de pagina opnieuw en probeer het opnieuw.",
-	"wminc-gadget-iw-editsummary": "Interwiki-links toevoegen aan [[d:$1]]"
+	"wminc-gadget-iw-editsummary": "Interwiki-links toevoegen aan [[d:$1]]",
+	"tag-gadget-interwiki": "Interwiki-gadget",
+	"tag-gadget-interwiki-description": "Bewerkingen die interwiki-koppelingen toevoegen met behulp van de interwiki-gadget.",
+	"gadget-settestwikipreference": "Voegt knoppen “Taal instellen” en “(Testproject) als uw testproject instellen” toe aan de zijbalk bij het bekijken van testwiki’s.",
+	"wminc-gadget-twpref-setlang": "Taal instellen: $1",
+	"wminc-gadget-twpref-setlang-tooltip": "Stel uw interfacetaal in op $1",
+	"wminc-gadget-twpref-setwiki": "$1 instellen als uw testproject",
+	"wminc-gadget-twpref-setwiki-tooltip": "Stel $1 in als uw testproject zodat nieuwe pagina’s die u maakt deel zullen uitmaken van dit project"
 }
