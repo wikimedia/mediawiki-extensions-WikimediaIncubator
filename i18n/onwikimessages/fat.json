@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ebenoffen1"
+			"Ebenoffen1",
+			"Gregorynelsonmensah1"
 		]
 	},
 	"wminc-code-macrolanguage": " [[wikipedia:$2 kasa|\"$3\" kasa]] yɛ [[wikipedia:ISO 639 kasakuw kɛse|kasakuw kɛse]] a okitsa kasahorow a ɔka do yi:",
-	"wminc-code-collective": "Koodu \"$1\" no mmfa kasa pɔkyee biara ho, na mbom ɔfa kasahorow ho a hɔn nye [[wikipedia:$2 language|\"$3\" kasahorow]]."
+	"wminc-code-collective": "Koodu \"$1\" no mmfa kasa pɔkyee biara ho, na mbom ɔfa kasahorow ho a hɔn nye [[wikipedia:$2 kasa|\"$3\" kasahorow]]."
 }
