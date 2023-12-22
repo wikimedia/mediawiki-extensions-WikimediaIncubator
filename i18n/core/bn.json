@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"Aishik Rehman",
 			"Bellayet",
 			"Bodhisattwa",
 			"Tahmid",
@@ -43,8 +44,8 @@
 	"wminc-search-nocreate-nopref": "আপনি \"$1\"-এর জন্য অনুসন্ধান করেছেন। অনুগ্রহ করে [[Special:Preferences|টেস্ট উইকি পছন্দ]] নির্ধারণ করুন। যাতে আমরা আপনাকে বলতে পারি, আপনি কোন পাতা তৈরি করতে পারবেন!",
 	"wminc-search-nocreate-suggest": "আপনি \"$1\"-এর জন্য অনুসন্ধান করেছেন। আপনি আপনার উইকিতে <strong>[[$3]]</strong> শিরোনামে একটি পাতা তৈরি করতে পারেন!",
 	"wminc-searchwiki": "একটি উইকির জন্য অনুসন্ধান করুন",
-	"wminc-searchwiki-noproject": "আপনি কোন প্রকল্প বাছেননি।",
-	"wminc-searchwiki-noresults": "কোন ফলাফল নেই। আপনি আপনার ইন্টারফেস ভাষা বা ইংরেজিতে ভাষার কোড, স্থানীয় নাম এবং নাম দ্বারা অনুসন্ধান করতে পারেন।",
+	"wminc-searchwiki-noproject": "আপনি কোনো প্রকল্প বাছেননি।",
+	"wminc-searchwiki-noresults": "কোনো ফলাফল নেই। আপনি আপনার ইন্টারফেস ভাষা বা ইংরেজিতে ভাষার কোড, স্থানীয় নাম এবং নাম দ্বারা অনুসন্ধান করতে পারেন।",
 	"wminc-searchwiki-selectproject": "অনুসন্ধান:",
 	"wminc-searchwiki-inputlanguage": "ভাষায়:",
 	"wminc-searchwiki-go": "যান",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alhassan Peter"
+			"Alhassan Peter",
+			"Issahiddris98"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" language]] maa nyɛla [[wikipedia:ISO 639 macrolanguage|macrolanguage]], din mali zuliya yɛltɔɣa kalinli din doya ŋɔ:",
@@ -62,7 +63,7 @@
 	"wminc-infopage-text-imported": "Wiki ŋɔ yila shɛli polo na [[$6|imported]] wiki yɔbu nyaaŋga. A yi bɔri ni a (labi) pili tuma ŋɔ, a ni tooi zaŋ yaɣa ŋɔ pili.",
 	"wminc-infopage-text-invalidcode": "Wiki dahimbu balli kodi ŋɔ bi paai [[$7|ISO 639]] , di zuɣu di yihi labi. Din tooi niŋ ka XML kolibila beni (bɔhimi [[$8|ban su fukumsi]])",
 	"wminc-infopage-text-open": "Wiki dahimbu yoomi bee saɣiya ti di zaŋ tum tuma. Ti kpaŋsira ni niŋ tɔɣino a yi mi zuliya yɛltɔɣa ŋɔ. Yulimi kpe gba [[$9|the contribution manual]] ka di kahigi ti a ni yɛn niŋ shɛli.",
-	"wminc-infopage-text-rejected": "Wiki dahimbu ŋɔ nyɛla [[$2|zuliya yɛltɔɣa laɣingu] zaɣisi shɛli ka yihi li labi. Din tooi niŋ ka XML kolibila beni  (Bɔhimi [[$8| di fukumsinima]])din ni tooi kpuɣin tahi din wikimedia wiki.",
+	"wminc-infopage-text-rejected": "Wiki dahimbu ŋɔ nyɛla [[$2|zuliya yɛltɔɣa laɣingu]] zaɣisi shɛli ka yihi li labi. Din tooi niŋ ka XML kolibila beni  (Bɔhimi [[$8| di fukumsinima]])din ni tooi kpuɣin tahi din wikimedia wiki.",
 	"wminc-infopage-text-tocreate": "Wiki dahimbu ŋɔ nyɛla din na bi pili. A yi balli ŋɔ nyin doli sodoligu ŋɔ [[$9]].A ni tooi nam yaɣ' palli '\"{{PAGENAME}}/Main_Page\"'' with \"Main_Page\" translated into this language (for example \"Wp/fr/Accueil\" if it were a French test wiki\n).",
 	"wminc-infopage-text-toimport": "Wiki ŋɔ nyɛla din yo ka yɛn kpuɣi kana kpe. A yi bɔri ni a labi pili tuma ŋɔ, pahimi suɣilo guhimi [[Special:ListUsers/import|importer\n]] ka kpuɣi yaɣa zaa labisi na tuuli wiki la puuni.",
 	"wminc-infopage-text-awaiting-creation": "Di dɔmi guli baŋdiba ban yɛn nam li, '''[[phabricator:$1|task $1]]'''.",
