@@ -6,8 +6,8 @@ use MediaWiki\Hook\SpecialListusersHeaderFormHook;
 use MediaWiki\Hook\SpecialListusersHeaderHook;
 use MediaWiki\Hook\SpecialListusersQueryInfoHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Pager\Pager;
 use MediaWiki\Title\Title;
-use Pager;
 use Xml;
 
 /**
