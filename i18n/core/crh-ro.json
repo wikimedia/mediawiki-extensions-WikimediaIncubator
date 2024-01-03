@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zolgoyo"
+		]
+	},
+	"wminc-desc": "Wikimedia Incubator úşín test wiki sistemí",
+	"wminc-listwikis": "Wikiler ğedwelí",
+	"wminc-testwiki": "Test wiki:",
+	"wminc-testwiki-code": "Test wiki tílí:",
+	"wminc-testwiki-none": "Bútún wikiler",
+	"wminc-recentchanges-all": "Bútún pítkí deñíştírmeler",
+	"wminc-unknownlang": "(bílínmegen tíl kodî)"
+}
