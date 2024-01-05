@@ -15,7 +15,7 @@ namespace MediaWiki\Extension\WikimediaIncubator;
 use Article;
 use HtmlArmor;
 use Language;
-use MediaWiki;
+use MediaWiki\Actions\ActionEntryPoint;
 use MediaWiki\Content\Hook\PageContentLanguageHook;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\ContributionsToolLinksHook;
@@ -895,7 +895,7 @@ class WikimediaIncubator implements
 	 * @param Title $title
 	 * @param User $user
 	 * @param WebRequest $request
-	 * @param MediaWiki $mediaWiki
+	 * @param ActionEntryPoint $mediaWiki
 	 * @return bool
 	 */
 	public function onMediaWikiPerformAction( $output, $page, $title, $user, $request, $mediaWiki ) {
