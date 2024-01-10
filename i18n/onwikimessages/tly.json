@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Гусейн"
+			"Гусейн",
+			"Patriot Kor"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Zyvon «$3»]] [[wikipedia:ISO 639 macrolanguage|makrozyvon]] hisob bejdə, əcəj dylədə ym zyvonon hestin:",
@@ -81,7 +82,7 @@
 	"wminc-infopage-content-main-category": "Əsosə kategorijə",
 	"wminc-infopage-content-all-pages": "By testə vikijədə həmmə səhifon",
 	"wminc-infopage-content-contributors": "Ištirokəkon",
-	"wminc-infopage-content-administroters": "Mudiron:",
+	"wminc-infopage-content-administroters": "İnzibátavonon:",
 	"wminc-infopage-content-project": "Projekt: $1",
 	"wminc-infopage-content-project-b": "Vikikitob",
 	"wminc-infopage-content-project-n": "Vikixəbon",

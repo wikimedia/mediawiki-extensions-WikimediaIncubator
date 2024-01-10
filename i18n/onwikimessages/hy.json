@@ -6,5 +6,18 @@
 	},
 	"wminc-gadget-iw-dialog-cancel": "Չեղարկել",
 	"wminc-gadget-iw-dialog-publish": "Հրապարակել",
-	"wminc-gadget-iw-dialog-editpage": "Խմբագրել էջը"
+	"wminc-gadget-iw-dialog-qid-placeholder": "օրինակ՝ $1",
+	"wminc-gadget-iw-dialog-editpage": "Խմբագրել էջը",
+	"wminc-infopage-language-header": "Լեզու",
+	"wminc-infopage-content-administroters": "Ադմինիստրատորներ",
+	"wminc-infopage-content-project": "Նախագիծ. $1",
+	"wminc-infopage-content-project-b": "Վիքիգրքեր",
+	"wminc-infopage-content-project-n": "Վիքիլուրեր",
+	"wminc-infopage-content-project-p": "Վիքիպեդիա",
+	"wminc-infopage-content-project-q": "Վիքիքաղվածք",
+	"wminc-infopage-content-project-s": "Վիքիդարան",
+	"wminc-infopage-content-project-t": "Վիքիբառարան",
+	"wminc-infopage-content-project-v": "Վիքիլսարան",
+	"wminc-infopage-content-project-y": "Վիքիճամփորդ",
+	"wminc-infopage-req-header": "Պահանջներ"
 }
