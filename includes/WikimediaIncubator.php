@@ -952,7 +952,7 @@ class WikimediaIncubator implements
 	 *
 	 * @param Title $title
 	 * @param Language &$pageLang
-	 * @param Language $userLang Unused, T299369
+	 * @param mixed $userLang Unused, T299369
 	 */
 	public function onPageContentLanguage( $title, &$pageLang, $userLang ) {
 		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
