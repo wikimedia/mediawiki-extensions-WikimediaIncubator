@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"POSSUM chowg"
+		]
+	},
+	"wminc-code-macrolanguage": "[[Wikipedia:$2 language|\"$3\"-ləlang]] ixt [[wikipedia:ISO 639 macrolanguage|hayu-ləlang yaka nim-ikta]], pi yaka t'uʔan ukuk delet ləlang:",
+	"wminc-code-collective": "\"$1\" wik ixt ləlang, yaka hayu ləlang, epe [[wikipedia:$2 language|\"$3\"-ləlang]]."
+}
