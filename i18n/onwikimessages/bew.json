@@ -4,7 +4,7 @@
 			"Bangrapip"
 		]
 	},
-	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" Basa]] entuh [[wikipedia:ISO 639 macrolanguage|basa besar]], nyang kediri deri ni basa-basa anggota:",
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" Basa]] entuh [[wikipedia:ISO 639 macrolanguage|basa gedé]], nyang kediri deri ni basa-basa anggota:",
 	"wminc-code-collective": "Kode \"$1\" kaga' ngeruju' ke basa ketentu, mar ke kumpulan basa, ya'entu nyang disebut [[wikipedia:$2 language|rumpun basa \"$3\"]].",
 	"wminc-code-retired": "Ni kode basa udah dirobah èn kaga' lagi ngeruju' ke basa aslinya.",
 	"wminc-custom-editnotice-2": "Bakal ngasi tau basa mana-mana aja lu punya bisa, dimohon maké $1. Misalnya, kalo lu punya basa asli – basa Prasman èn lu juga' bisa basa Inggris juga', paké $2.",
@@ -78,7 +78,7 @@
 	"wminc-infopage-language-directionality": "Kearahan: $1",
 	"wminc-infopage-language-directionality-ltr": "kèbot-nganan",
 	"wminc-infopage-language-directionality-rtl": "kanan-ngèbot",
-	"wminc-infopage-language-macrolanguage": "Anggota basa besar: $1",
+	"wminc-infopage-language-macrolanguage": "Anggota basa gedé: $1",
 	"wminc-infopage-language-setlang-na": "Ni basa sekarang ni kaga' punya basa telampangan nyang didukung.",
 	"wminc-infopage-content-header": "Isi wiki penjajalan",
 	"wminc-infopage-content-main-category": "Katègori utama",
