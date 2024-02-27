@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Albamhandae",
+			"Dr1t jg",
 			"Hym411",
 			"Kwj2772",
 			"Nuevo Paso",
@@ -36,7 +37,8 @@
 	"wminc-viewuserlang-user": "사용자 이름:",
 	"wminc-viewuserlang-go": "보기",
 	"wminc-userdoesnotexist": "\"$1\" 사용자가 존재하지 않습니다.",
-	"wminc-ip": "\"$1\"은(는) IP 주소입니다.",
+	"wminc-ip": "\"$1\"은 IP 주소거나 일시적 사용자임.",
+	"action-viewuserlang": "사용자 언어랑 테스트 위키를 봐",
 	"right-viewuserlang": "사용자 언어와 테스트 위키 보기",
 	"group-test-sysop": "테스트 위키 관리자",
 	"group-test-sysop-member": "{{GENDER:$1|테스트 위키 관리자}}",
