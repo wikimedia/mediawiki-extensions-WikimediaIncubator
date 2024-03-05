@@ -14,6 +14,7 @@
 	"wminc-custom-featuredwikis-active": "Nämä ovat aktiivisia ja saattavat saada oman sivunsa pian:",
 	"wminc-custom-featuredwikis-permanent": "Nämä todennäköisesti pysyvät Hautomossa:",
 	"wminc-custom-newarticletext-withprefix-1": "Kirjoita $1 ja klikkaa sitten \"{{int:publishpage}}\".",
+	"wminc-custom-newarticletext-withprefix-2": "Korvaa \"$1\" ja klikkaa sitten \"{{int:publishpage}}\".",
 	"wminc-gadget-addprefix-toggle": "Näytä/piilota etuliite",
 	"wminc-gadget-iw-add-wikidata": "Lisää Wikidata-linkki",
 	"wminc-gadget-iw-dialog-cancel": "Peruuta",
