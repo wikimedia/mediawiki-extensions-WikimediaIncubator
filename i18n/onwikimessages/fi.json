@@ -24,6 +24,7 @@
 	"wminc-gadget-iw-dialog-replace-editinstead": "Jos tämä ei pidä paikkaansa, muokkaa sivua ja korjaa linkki manuaalisesti.",
 	"wminc-gadget-iw-dialog-learn-more": "Lue lisää Wikidatasta",
 	"wminc-gadget-iw-dialog-wikidata-search": "Hae Wikidatasta",
+	"wminc-gadget-iw-error-reload": "Päivitä sivu ja yritä uudelleen.",
 	"wminc-gadget-twpref-setlang": "Aseta kieli: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "Aseta käyttöliittymän kieleksi $1",
 	"wminc-gadget-twpref-setwiki": "Aseta $1 testiprojektiksesi"

@@ -9,7 +9,8 @@
 			"Priviet",
 			"Revi",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"Dr1t jg"
 		]
 	},
 	"wminc-desc": "위키미디어 인큐베이터의 테스트 위키 시스템",
@@ -37,6 +38,7 @@
 	"wminc-viewuserlang-go": "보기",
 	"wminc-userdoesnotexist": "\"$1\" 사용자가 존재하지 않습니다.",
 	"wminc-ip": "\"$1\"은(는) IP 주소입니다.",
+	"action-viewuserlang": "사용자 언어랑 테스트 위키를 봐",
 	"right-viewuserlang": "사용자 언어와 테스트 위키 보기",
 	"group-test-sysop": "테스트 위키 관리자",
 	"group-test-sysop-member": "{{GENDER:$1|테스트 위키 관리자}}",
