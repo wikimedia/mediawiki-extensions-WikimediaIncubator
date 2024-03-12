@@ -62,7 +62,7 @@ class TestWikiRC implements
 			return;
 		}
 
-		list( $projectvalue, $codevalue ) = self::getValues( RequestContext::getMain()->getUser() );
+		[ $projectvalue, $codevalue ] = self::getValues( RequestContext::getMain()->getUser() );
 		$prefix = WikimediaIncubator::displayPrefix( $projectvalue, $codevalue );
 		$opts->add( 'rc-testwiki-project', false );
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
@@ -89,7 +89,7 @@ class TestWikiRC implements
 	public function onSpecialRecentChangesPanel( &$items, $opts ) {
 		global $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
 
-		list( $projectvalue, $codevalue ) = self::getValues( RequestContext::getMain()->getUser() );
+		[ $projectvalue, $codevalue ] = self::getValues( RequestContext::getMain()->getUser() );
 		$opts->consumeValue( 'rc-testwiki-project' );
 		$opts->consumeValue( 'rc-testwiki-code' );
 		$label = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'rc-testwiki' );

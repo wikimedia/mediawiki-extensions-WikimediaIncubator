@@ -704,8 +704,11 @@ class WikimediaIncubator implements
 	 */
 	public function onShowMissingArticle( $article ) {
 		$title = $article->getTitle();
-		$prefix = self::analyzePrefix( $title, true /* only info pages */,
-			true /* also sister projects */ );
+		$prefix = self::analyzePrefix(
+			$title,
+			true, /* only info pages */
+			true /* also sister projects */
+		);
 		if ( !$prefix['error'] ) {
 			self::onShowMissingArticleForInfoPages( $article, $prefix );
 			return true;
@@ -814,7 +817,7 @@ class WikimediaIncubator implements
 			if ( strpos( $parseOption, '=' ) === false ) {
 				continue;
 			}
-			list( $key, $value ) = explode( '=', $parseOption, 2 );
+			[ $key, $value ] = explode( '=', $parseOption, 2 );
 			$key = strtolower( trim( $key ) );
 			$infopage->mOptions[$key] = trim( $value );
 		}
@@ -845,8 +848,11 @@ class WikimediaIncubator implements
 	 * @param Title $title
 	 */
 	public function onEditFormPreloadText( &$text, $title ) {
-		$prefix = self::analyzePrefix( $title, true /* only info page */,
-			false /* no sister projects */ );
+		$prefix = self::analyzePrefix(
+			$title,
+			true, /* only info page */
+			false /* no sister projects */
+		);
 		if ( !$prefix['error'] ) {
 			$text = wfMessage( 'wminc-infopage-prefill', $prefix['prefix'] )->plain();
 		}
