@@ -14,6 +14,7 @@ namespace MediaWiki\Extension\WikimediaIncubator;
 
 use Article;
 use HtmlArmor;
+use InvalidArgumentException;
 use Language;
 use MediaWiki\Actions\ActionEntryPoint;
 use MediaWiki\Content\Hook\PageContentLanguageHook;
@@ -873,16 +874,22 @@ class WikimediaIncubator implements
 	}
 
 	/**
-	 * make "Wx/xxx/Main Page"
+	 * Make "Wx/xxx/Main Page"
 	 * @param string $langCode The language code
 	 * @param string|null $prefix the "Wx/xxx" prefix to add
 	 * @return Title
+	 * @throws InvalidArgumentException
 	 */
 	public static function getMainPage( $langCode, $prefix = null ) {
 		# Take the "mainpage" msg in the given language
 		$msg = wfMessage( 'mainpage' )->inLanguage( $langCode )->plain();
 		$mainpage = $prefix !== null ? $prefix . '/' . $msg : $msg;
 		$title = Title::newFromText( $mainpage );
+		if ( $title === null ) {
+			throw new InvalidArgumentException(
+				"'mainpage' message for language '$langCode' is an invalid title"
+			);
+		}
 		if ( $title->exists() ) {
 			return $title; # If it exists, use it
 		}
