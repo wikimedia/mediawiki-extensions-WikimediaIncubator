@@ -3,10 +3,11 @@
 		"authors": [
 			"Artsiom91",
 			"Jarash",
+			"No Sleep till Krupki",
 			"ZlyiLev"
 		]
 	},
 	"wminc-error-wronglangcode": "<strong>Памылка:</strong> гэтая старонка змяшчае [[{{MediaWiki:Wminc-error-help}}|няслушны код мовы]] «$1».",
-	"wminc-infopage-title-p": "Вікіпедыя $1",
+	"wminc-infopage-title-p": "Вікіпедыя: $1",
 	"wminc-infopage-title-b": "Вікікнігі: $1"
 }

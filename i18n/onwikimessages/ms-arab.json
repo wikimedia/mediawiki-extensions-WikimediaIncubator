@@ -1,8 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hakimi97"
+			"Hakimi97",
+			"Tofeiku"
 		]
 	},
-	"wminc-infopage-content-project-p": "ويکيڤيديا"
+	"wminc-gadget-iw-dialog-publish": "تربيت",
+	"wminc-gadget-iw-dialog-title": "تمبه ڤاءوتن انتارا ويکي",
+	"wminc-gadget-iw-dialog-text": "ݢونا بورڠ اين اونتوق منمبه ڤاءوتن انتارا ويکي ملالوءي بوتير ويکيداتا. هاڽ تمڤل اءي. دي. بوتير ويکوداتا اتاو يو. ار. ايل. کبوتير اتاو رنچان يڠ اد دالم بهاس لاءين دباوه دان تکن \"{{int:wminc-gadget-iw-dialog-publish}}\".",
+	"wminc-gadget-iw-dialog-editpage": "سونتيڠ لامن",
+	"wminc-gadget-iw-dialog-wikidata-search": "چاري ويکيداتا",
+	"wminc-infopage-language-header": "بهاس",
+	"wminc-infopage-language-nocode": "تياد",
+	"wminc-infopage-content-contributors": "ڤڽومبڠ",
+	"wminc-infopage-content-administroters": "ڤڽليا:",
+	"wminc-infopage-content-project": "ڤروجيک: $1",
+	"wminc-infopage-content-project-b": "ويکيبوکو",
+	"wminc-infopage-content-project-n": "ويکيبريتا",
+	"wminc-infopage-content-project-p": "ويکيڤيديا",
+	"wminc-infopage-content-project-s": "ويکيسومبر",
+	"wminc-infopage-content-project-t": "ويکيقاموس",
+	"wminc-infopage-content-project-v": "ويکيۏرسيتي",
+	"wminc-infopage-req-header": "شرط",
+	"wminc-infopage-req-catanalysis": "ڤريقسا کݢياتن ويکي"
 }
