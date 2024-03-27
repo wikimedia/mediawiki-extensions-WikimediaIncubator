@@ -29,6 +29,7 @@
 	"wminc-gadget-iw-dialog-cancel": "Batalkan",
 	"wminc-gadget-iw-dialog-publish": "Terbitkan",
 	"wminc-gadget-iw-dialog-title": "Tambah pautan antara wiki",
+	"wminc-gadget-iw-dialog-text": "Guna borang ini untuk menambah pautan antara wiki melalui butir Wikidata. Hanya tampal ID butir Wikidata atau URL ke butir atau rencana yang ada dalam bahasa lain di bawah dan tekan \"{{int:wminc-gadget-iw-dialog-publish}}\".",
 	"wminc-gadget-iw-dialog-qid-placeholder": "contoh $1",
 	"wminc-gadget-iw-dialog-editpage": "Sunting laman",
 	"wminc-gadget-iw-dialog-replace-editinstead": "Jika tidak betul, sila sunting halaman untuk membaiki pautan secara manual.",
