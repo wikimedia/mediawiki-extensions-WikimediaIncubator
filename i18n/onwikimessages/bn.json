@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"Asked42",
+			"Yahya"
 		]
 	},
 	"wminc-custom-featuredwikis-approved": "এগুলো অনুমোদিত এবং/অথবা তৈরি করা হয়েছে:",
@@ -27,5 +29,7 @@
 	"wminc-gadget-iw-error-reload": "দয়া করে পাতাটি পুনরায় লোড করে আবার চেষ্টা করুন।",
 	"wminc-gadget-iw-editsummary": "আন্তঃউইকি লিঙ্ক যোগ করা হয়েছে ([[d:$1]])",
 	"tag-gadget-interwiki": "আন্তঃউইকি গ্যাজেট",
+	"tag-gadget-interwiki-description": "যে সম্পাদনাগুলি ইন্টারউইকি গ্যাজেট ব্যবহার করে আন্তঃউইকি লিঙ্ক যোগ করে।",
+	"wminc-gadget-twpref-setlang-tooltip": "আপনার ইন্টারফেস ভাষা $1 করুন",
 	"wminc-gadget-twpref-setwiki": "আপনার পরীক্ষা প্রকল্প হিসেবে $1 নির্ধারণ করুন"
 }

@@ -14,5 +14,7 @@
 	"wminc-custom-featuredwikis-permanent": "Ови ће вероватно овде и остати:",
 	"wminc-gadget-iw-dialog-cancel": "Откажи",
 	"wminc-gadget-iw-dialog-publish": "Објави",
-	"wminc-gadget-iw-dialog-editpage": "Уреди страницу"
+	"wminc-gadget-iw-dialog-qid-placeholder": "нпр. $1",
+	"wminc-gadget-iw-dialog-editpage": "Уреди страницу",
+	"wminc-gadget-iw-dialog-wikidata-search": "Претрага Википодатака"
 }
