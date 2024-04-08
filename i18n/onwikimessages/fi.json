@@ -38,6 +38,7 @@
 	"wminc-gadget-twpref-setlang-tooltip": "Aseta käyttöliittymän kieleksi $1",
 	"wminc-gadget-twpref-setwiki": "Aseta $1 testiprojektiksesi",
 	"wminc-infopage-title-status-default": "Tämä on testiwiki Wikimedia-hautomossa.",
+	"wminc-infopage-title-status-imported": "Tämä on tuotu testiwiki Wikimedia-hautomossa.",
 	"wminc-infopage-title-status-invalidcode": "Tällä testiwikillä on virheellinen [[$1|ISO 639]] -kielikoodi, joten se on poistettu.",
 	"wminc-infopage-title-status-open": "Tämä on avoin testiwiki Wikimedia-hautomossa.",
 	"wminc-infopage-title-status-rejected": "Kielitoimikunta hylkäsi tämän testiwikin, ja se on poistettu.",
