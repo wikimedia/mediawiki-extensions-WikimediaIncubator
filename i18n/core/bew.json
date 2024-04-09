@@ -62,7 +62,7 @@
 	"wminc-fs-settings-text": "Sekarang, dimohon ke [[Special:Preferences#mw-htmlform-i18n|lu punya pengaturan]] èn robah lu punya penyetèlan wiki penjajalan.\nNyang pertama ièlah lu punya basa telampangan, nyang lu udah pilih di langkah pertama, cuman lu masing bisa ngrobahnya lagi.\nNyang kedua ièlah proyèk nyang lu pèngèn kasi sumbangan èn nyang ketiga ièlah kode basa deri proyèk nyang lu pèngèn kasi sumbangan.\nKalo lu kaga' nyaho tu kode, jal liat kita punya [[{{MediaWiki:Wminc-manual-url}}|pedoman]] atawa minta' [[{{MediaWiki:Portal-url}}|pertulungan]].",
 	"wminc-fs-userpage-text": "Nah sekarang, jal keja lu punya halaman pemaké $1 paké pengabaran dasar lu punya dèwèk. Lu bisa liat ada sènggètan ke sonoh di bagèan atas ni halaman.",
 	"wminc-fs-startwiki-text": "Depanan lu punya wiki ièlah <strong>$1</strong>. Lu bisa mulain wiki tibang ngeja Balé-balé wikinya dulu di <strong>$2</strong>.",
-	"wminc-fs-startwiki-exists-text": "Depanan lu punya wiki ièlah $1. Balé-balénya ada di $2. Sekarang, lu bisa gawé bareng ama laèn pengomong ni basa bakal ngeja komunitèt!\nKalo lu pèngèn ngeja halaman, lah tinggal ketik namanya di kotak penyarian di atas, èn ikutin sènggètan nyang nongol.",
+	"wminc-fs-startwiki-exists-text": "Depanan lu punya wiki ièlah $1. Balé-balénya ada di $2. Sekarang, lu bisa gawé bareng ama laèn pengomong ni basa bakal ngeja jema'ah!\nKalo lu pèngèn ngeja halaman, lah tinggal ketik namanya di kotak penyarian di atas, èn ikutin sènggètan nyang nongol.",
 	"wminc-infopage-enter": "ke Balé-balé",
 	"wminc-unknownlang": "(kode basa kaga' ditauin)",
 	"wminc-infopage-title-p": "Wikipédi $1",
