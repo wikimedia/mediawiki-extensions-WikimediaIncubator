@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Къарачайлы"
+		]
+	},
+	"wminc-desc": "Викимедиа Инкубатор ючюн тест вики-система",
+	"wminc-manual": "Къол режим",
+	"wminc-listwikis": "Викилени тизмеси",
+	"wminc-testwiki": "Тест вики:",
+	"wminc-testwiki-code": "Тест вики тил:",
+	"wminc-testwiki-none": "Бютеу викиле",
+	"wminc-testwiki-site": "(Джумушун этиу)",
+	"wminc-recentchanges-all": "Бютеу ахыр тюрлениуле",
+	"wminc-prefinfo-language": "Интерфейс тилигиз - тест викигизге бойсунмайды",
+	"wminc-prefinfo-code": "Юсюнде кюрешген проектгизники болгъан ISO 639 тил кодну былайгъа джазыгъыз.",
+	"wminc-prefinfo-project": "Былайда, юсюнде кюрешген Викимедиа проектни сайлагъыз",
+	"wminc-prefinfo-error": "Тил код керек болгъан проекни сайладыгъыз.",
+	"wminc-error-move-unprefixed": "<strong>Халат:</strong> Сиз ташыргъа кюрешген бет [[{{MediaWiki:Wminc-error-help}}|префиксизди неда джангылыч префикси барды]].",
+	"wminc-error-wronglangcode": "<strong>Халат:</strong> Бу бет [[{{MediaWiki:Wminc-error-help}}|ичинде джангылыч тил кодну]] тутады \"$1\".",
+	"wminc-error-unprefixed": "<strong>Халат:</strong> Бу бет [[{{MediaWiki:Wminc-error-help}}|префиксизди]].",
+	"wminc-error-unprefixed-suggest": "<strong>Халат:</strong> Бу бет [[{{MediaWiki:Wminc-error-help}}|префиксизди]]! Бетни былайда къураргъа боллукъсуз: [[:$1]].",
+	"wminc-error-wiki-exists": "Бу вики алайсыз да барды. Буну $1 бетде табаргъа боллукъсуз. Вики джангы болдурулгъан эсе, бютеу ичиндегиси импорт болгъунчу талай сагъат неда талай кюн сакъларыгъызны тилейбиз.",
+	"wminc-error-wiki-sister": "Бу бет, былайда болмагъан проектникиди. Викини табар ючюн $1 бетге ётюгюз.",
+	"randombytest": "Тест викиден рандом бет",
+	"randombytest-nopages": "Тест викигизде $1 ат аламда, чырт бир бет джокъду.",
+	"wminc-viewuserlang": "Хайырланыучу тил эмда тест викиге къарагъыз",
+	"wminc-viewuserlang-user": "Хайырланыучуну аты:",
+	"wminc-viewuserlang-go": "Бар",
+	"wminc-userdoesnotexist": "\"$1\" хайырланыучу джокъду.",
+	"action-viewuserlang": "хайырланыучу тилни эхмда тест викини кёргюз",
+	"right-viewuserlang": "Хайырланыучу тилни эхмда тест викини кёргюз",
+	"group-test-sysop": "Текст вики администраторла",
+	"group-test-sysop-member": "{{GENDER:$1|текст вики администратор}}",
+	"grouppage-test-sysop": "{{ns:project}}:Тест вики администраторла",
+	"wminc-listusers-testwiki": "Тест вики джарашдырыуларын $1 этген хайырланыучуланы кёресиз."
+}

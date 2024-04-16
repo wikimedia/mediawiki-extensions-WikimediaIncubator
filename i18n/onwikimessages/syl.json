@@ -14,6 +14,9 @@
 	"wminc-custom-newarticletext-withprefix-3": "ꠀꠙꠘꠦ ꠄꠉꠥ ꠘꠄꠀ ꠛꠣꠘꠣꠁꠞꠣ ([[$1|prefixed]]) ꠙꠣꠔꠣꠞ ꠘꠣꠝ \"{{FULLPAGENAME}}\"॥",
 	"wminc-custom-tb-space-colon": "ꠐꠦꠇꠘꠤꠇꠦꠟ ꠇꠣꠞꠘꠦ ꠨ ꠄꠉꠥ ꠀꠉꠤꠘꠣꠝ ꠈꠣꠟꠤ ꠘꠣꠄ ꠖꠥꠁꠛꠤꠘ꠆ꠖꠥꠖꠤ ꠀꠞꠝ꠆ꠛ ꠇꠞꠣ ꠎꠣꠁꠔꠘꠣ ॥",
 	"wminc-gadget-iw-dialog-cancel": "ꠛꠣꠖ",
+	"wminc-gadget-iw-dialog-publish": "ꠛꠣꠞ ꠇꠞꠂꠘ",
+	"wminc-gadget-iw-dialog-qid-placeholder": "ꠏꠦꠝꠟꠣ $1",
+	"wminc-gadget-iw-dialog-editpage": "ꠅꠃ ꠙꠦꠁꠎꠅ ꠟꠦꠈꠇ꠆ꠇꠣ",
 	"wminc-gadget-iw-editsummary": "ꠀꠞ꠆ꠎꠣꠔ ꠃꠁꠇꠤꠞ ꠟꠉꠦ ꠟꠉ ꠟꠣꠉꠣꠁꠀꠞ [[d:$1]]",
 	"wminc-gadget-twpref-setlang": "ꠜꠣꠡꠣ ꠖꠦꠁꠘ ꠪ $1",
 	"wminc-gadget-twpref-setlang-tooltip": "ꠀꠙꠘ꠆ꠘꠣꠞ ꠁꠘ꠆ꠐꠣꠞꠚꠦꠁꠍꠞ ꠜꠣꠡꠣ $1 ꠛꠣꠘꠣꠁꠖꠦꠁꠘ"
