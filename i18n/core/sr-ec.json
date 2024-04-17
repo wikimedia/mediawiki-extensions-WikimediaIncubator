@@ -60,7 +60,7 @@
 	"wminc-infopage-title-n": "Викиновости на језику: $1",
 	"wminc-infopage-title-s": "Викизворник на $1",
 	"wminc-infopage-title-v": "Викиверзитет на $1",
-	"wminc-infopage-welcome": "Добро дошли на Викимедијин Инкубатор — пројекат Задужбине Викимедија ([[{{MediaWiki:Aboutpage}}|О пројекту]])",
+	"wminc-infopage-welcome": "Добро дошли на Викимедијин инкубатор — пројекат Задужбине Викимедија ([[{{MediaWiki:Aboutpage}}|О пројекту]])",
 	"wminc-infopage-missingwiki-text": "На овом језику још не постоји $1.",
 	"wminc-infopage-option-startwiki": "Ако желите да започнете овај вики, молимо пратите\n'''[$3 ове кораке]''' и [[{{MediaWiki:Wminc-manual-url}}|наш приручник]].",
 	"wminc-infopage-option-startsister": "Ако желите да започнете овај вики, идите на <strong>[$2 $1]</strong>.",
