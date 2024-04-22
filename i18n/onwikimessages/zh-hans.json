@@ -6,7 +6,8 @@
 			"LittlePaw365",
 			"MangoFanFanw",
 			"PhiLiP",
-			"星海"
+			"星海",
+			"沈澄心"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|$3]]是[[wikipedia:ISO 639 macrolanguage|宏语言]]之一，由以下成员语言组成：",
@@ -63,5 +64,19 @@
 	"wminc-infopage-text-imported": "这是一个关闭后被[[$6|导入]]的维基。如果你想（重新）开始这个项目，您可以使用这些被导入的页面重新开始。",
 	"wminc-infopage-text-invalidcode": "这个测试维基有一个无效的[[$7|ISO 639]]语言代码，所以它已被删除。这里可能会有一个XML文件（在[[$8|这里]]询问），它可以被转移到一个非维基媒体基金会的维基。",
 	"wminc-infopage-text-approved-created": "你能在$1找到它。",
-	"wminc-infopage-req-header": "要求"
+	"wminc-infopage-language-header": "语言",
+	"wminc-infopage-language-nocode": "无",
+	"wminc-infopage-content-contributors": "贡献者",
+	"wminc-infopage-content-project-b": "维基教科书",
+	"wminc-infopage-content-project-n": "维基新闻",
+	"wminc-infopage-content-project-p": "维基百科",
+	"wminc-infopage-content-project-q": "维基语录",
+	"wminc-infopage-content-project-s": "维基文库",
+	"wminc-infopage-content-project-t": "维基词典",
+	"wminc-infopage-content-project-v": "维基学院",
+	"wminc-infopage-content-project-y": "维基导游",
+	"wminc-infopage-req-header": "要求",
+	"wminc-infopage-req-meta": "在元维基的请求",
+	"wminc-infopage-req-codelookup": "检查本地化要求",
+	"wminc-infopage-req-catanalysis": "检查wiki活动"
 }
