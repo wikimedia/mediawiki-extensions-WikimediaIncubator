@@ -6,6 +6,8 @@ use MediaWiki\Specials\SpecialRandomPage;
 use MediaWiki\Title\NamespaceInfo;
 use MediaWiki\User\Options\UserOptionsLookup;
 use Wikimedia\Rdbms\IConnectionProvider;
+use Wikimedia\Rdbms\IExpression;
+use Wikimedia\Rdbms\LikeValue;
 
 /**
  * Special page to go to a random page in your test wiki
@@ -36,9 +38,11 @@ class SpecialRandomByTest extends SpecialRandomPage {
 		$user = $this->getUser();
 		if ( WikimediaIncubator::isContentProject( $user ) || ( $project && $lang ) ) {
 			$dbr = $dbProvider->getReplicaDatabase();
-			$this->extra[] = 'page_title' .
-				$dbr->buildLike( WikimediaIncubator::displayPrefix( $project, $lang ) .
-					'/', $dbr->anyString() );
+			$this->extra[] = $dbr->expr(
+				'page_title',
+				IExpression::LIKE,
+				new LikeValue( WikimediaIncubator::displayPrefix( $project, $lang ) . '/', $dbr->anyString() )
+			);
 		} elseif (
 			$userOptionsLookup->getOption( $user, $wmincPref . '-project' ) == $wmincProjectSite['short']
 		) {
