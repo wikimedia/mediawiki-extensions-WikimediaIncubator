@@ -45,6 +45,7 @@
 	"wminc-searchwiki": "Претрага викија",
 	"wminc-searchwiki-noproject": "Нисте изабрали пројекат.",
 	"wminc-searchwiki-selectproject": "Претражи:",
+	"wminc-searchwiki-inputlanguage": "На језику:",
 	"wminc-searchwiki-go": "Иди",
 	"wminc-searchwiki-match-userlangname": "$1 је име језика.",
 	"wminc-searchwiki-gotoinfopage": "инфо страница",
