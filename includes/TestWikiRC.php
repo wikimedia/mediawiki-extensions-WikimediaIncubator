@@ -8,6 +8,8 @@ use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\Hook\ChangesListSpecialPageQueryHook;
 use MediaWiki\User\User;
 use RequestContext;
+use Wikimedia\Rdbms\IExpression;
+use Wikimedia\Rdbms\LikeValue;
 use Xml;
 use XmlSelect;
 
@@ -72,7 +74,11 @@ class TestWikiRC implements
 		if ( $projectvalue == $wmincProjectSite['short'] ) {
 			// If project site is selected, display all changes except test wiki changes
 			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
-			$conds[] = 'rc_title NOT ' . $dbr->buildLike( 'W', $dbr->anyChar(), '/', $dbr->anyString() );
+			$conds[] = $dbr->expr(
+				'rc_title',
+				IExpression::NOT_LIKE,
+				new LikeValue( 'W', $dbr->anyChar(), '/', $dbr->anyString() )
+			);
 		} elseif ( WikimediaIncubator::validatePrefix( $prefix, true ) ) {
 			// Else, display changes to the selected test wiki in the appropriate namespaces
 			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
@@ -80,8 +86,8 @@ class TestWikiRC implements
 			// complains, try re-adding it by adding/removing the initial @.
 			// phan-suppress-next-line PhanPossiblyUndeclaredVariable
 			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
-			$conds[] = 'rc_title ' . $dbr->buildLike( $prefix . '/', $dbr->anyString() ) .
-			' OR rc_title = ' . $dbr->addQuotes( $prefix );
+			$conds[] = $dbr->expr( 'rc_title', IExpression::LIKE, new LikeValue( $prefix . '/', $dbr->anyString() ) )
+				->or( 'rc_title', '=', $prefix );
 		}
 		// If "none" is selected, display normal recent changes
 	}
