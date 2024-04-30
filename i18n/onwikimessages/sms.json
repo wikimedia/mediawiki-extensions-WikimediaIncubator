@@ -4,6 +4,14 @@
 			"Yupik"
 		]
 	},
-	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Ǩiõll ”$3”]] lij [[wikipedia:ISO 639 macrolanguage|makroǩiõll]], koozz koʹlle täk ǩiõl:",
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Ǩiõll \"$3\"]] lij [[wikipedia:ISO 639 macrolanguage|makroǩiõll]], koozz koʹlle täk ǩiõl:",
+	"wminc-gadget-addprefix-toggle": "Čuäʹjet leʹbe čiõǥǥ prefiiks",
+	"wminc-gadget-iw-add-wikidata": "Lââʹzzet Wikidata-liiŋk",
+	"wminc-gadget-iw-dialog-cancel": "Jõõsk",
+	"wminc-gadget-iw-dialog-publish": "Õlmstââʹtt",
+	"wminc-gadget-iw-dialog-title": "Lââʹzzet interwiki-liiŋkid",
+	"wminc-gadget-iw-dialog-qid-placeholder": "ouddmiârkkân $1",
+	"wminc-gadget-iw-dialog-editpage": "Muuʹtt seeid",
+	"wminc-gadget-iw-dialog-learn-more": "Lââʹssteâđ Wikidatast",
 	"wminc-gadget-iw-dialog-wikidata-search": "Ooʒʒ Wikidatast"
 }
