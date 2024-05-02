@@ -4,6 +4,29 @@
 			"Yupik"
 		]
 	},
-	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Ǩiõll ”$3”]] lij [[wikipedia:ISO 639 macrolanguage|makroǩiõll]], koozz koʹlle täk ǩiõl:",
-	"wminc-gadget-iw-dialog-wikidata-search": "Ooʒʒ Wikidatast"
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Ǩiõll \"$3\"]] lij [[wikipedia:ISO 639 macrolanguage|makroǩiõll]], koozz koʹlle täk ǩiõl:",
+	"wminc-gadget-addprefix-toggle": "Čuäʹjet leʹbe čiõǥǥ prefiiks",
+	"wminc-gadget-iw-add-wikidata": "Lââʹzzet Wikidata-liiŋk",
+	"wminc-gadget-iw-dialog-cancel": "Jõõsk",
+	"wminc-gadget-iw-dialog-publish": "Õlmstââʹtt",
+	"wminc-gadget-iw-dialog-title": "Lââʹzzet interwiki-liiŋkid",
+	"wminc-gadget-iw-dialog-qid-placeholder": "ouddmiârkkân $1",
+	"wminc-gadget-iw-dialog-editpage": "Muuʹtt seeid",
+	"wminc-gadget-iw-dialog-learn-more": "Lââʹssteâđ Wikidatast",
+	"wminc-gadget-iw-dialog-wikidata-search": "Ooʒʒ Wikidatast",
+	"wminc-infopage-language-header": "Ǩiõll",
+	"wminc-infopage-language-iso1": "ISO 639-1: $1",
+	"wminc-infopage-language-nocode": "ij leäkku",
+	"wminc-infopage-language-iso3": "[[$1|ISO 639-3]]: $2",
+	"wminc-infopage-language-glottolog": "$1 ([[$2|Glottolog]])",
+	"wminc-infopage-content-main-category": "Väʹlddkategoria",
+	"wminc-infopage-content-project": "Projeʹktt: $1",
+	"wminc-infopage-content-project-b": "Wikiǩeeʹrj",
+	"wminc-infopage-content-project-n": "Wikiođđâz",
+	"wminc-infopage-content-project-p": "Wikipedia",
+	"wminc-infopage-content-project-q": "Wikisitaatt",
+	"wminc-infopage-content-project-s": "Wikiaunstõõzz",
+	"wminc-infopage-content-project-t": "Wikisääʹnnǩeʹrjj",
+	"wminc-infopage-content-project-v": "Wikiversiteʹtt",
+	"wminc-infopage-content-project-y": "Wikimääʹtǩ"
 }
