@@ -4,13 +4,13 @@ namespace MediaWiki\Extension\WikimediaIncubator;
 
 use MediaWiki\Hook\SpecialRecentChangesPanelHook;
 use MediaWiki\Html\FormOptions;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\Hook\ChangesListSpecialPageQueryHook;
 use MediaWiki\User\User;
 use RequestContext;
 use Wikimedia\Rdbms\IExpression;
 use Wikimedia\Rdbms\LikeValue;
-use Xml;
 use XmlSelect;
 
 /**
@@ -98,7 +98,7 @@ class TestWikiRC implements
 		[ $projectvalue, $codevalue ] = self::getValues( RequestContext::getMain()->getUser() );
 		$opts->consumeValue( 'rc-testwiki-project' );
 		$opts->consumeValue( 'rc-testwiki-code' );
-		$label = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'rc-testwiki' );
+		$label = Html::label( wfMessage( 'wminc-testwiki' )->text(), 'rc-testwiki' );
 		$select = new XmlSelect( 'rc-testwiki-project', 'rc-testwiki-project', $projectvalue );
 		$select->addOption( wfMessage( 'wminc-testwiki-none' )->text(), 'none' );
 		foreach ( $wmincProjects as $prefix => $metadata ) {
@@ -107,8 +107,11 @@ class TestWikiRC implements
 			}
 		}
 		$select->addOption( $wmincProjectSite['name'], $wmincProjectSite['short'] );
-		$langcode = Xml::input( 'rc-testwiki-code', (int)$wmincLangCodeLength, $codevalue,
-			[ 'id' => 'rc-testwiki-code', 'maxlength' => (int)$wmincLangCodeLength ] );
+		$langcode = Html::input( 'rc-testwiki-code', $codevalue, 'text', [
+			'id' => 'rc-testwiki-code',
+			'size' => (int)$wmincLangCodeLength,
+			'maxlength' => (int)$wmincLangCodeLength,
+		] );
 		$items['testwiki'] = [ $label, $select->getHTML() . ' ' . $langcode ];
 	}
 }

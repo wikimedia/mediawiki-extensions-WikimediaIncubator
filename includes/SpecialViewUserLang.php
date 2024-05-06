@@ -14,6 +14,7 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use HTMLForm;
+use MediaWiki\Html\Html;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\Linker\Linker;
 use MediaWiki\SpecialPage\SpecialPage;
@@ -23,7 +24,6 @@ use MediaWiki\User\User;
 use MediaWiki\User\UserNamePrefixSearch;
 use MediaWiki\User\UserNameUtils;
 use Message;
-use Xml;
 
 class SpecialViewUserLang extends SpecialPage {
 	/** @var UserNamePrefixSearch */
@@ -113,7 +113,8 @@ class SpecialViewUserLang extends SpecialPage {
 		$user = User::newFromName( $target );
 		if ( $this->userNameUtils->isIP( $target ) || !$user || $user->isTemp() ) {
 			# show error if it is an IP address, or another error occurs
-			$this->getOutput()->addHTML( Xml::span( $this->msg( 'wminc-ip', $target )->text(), 'error' ) );
+			$this->getOutput()->addHTML( Html::element( 'span', [ 'class' => 'error' ],
+				$this->msg( 'wminc-ip', $target )->text() ) );
 			return;
 		}
 		$name = $user->getName();
@@ -121,8 +122,8 @@ class SpecialViewUserLang extends SpecialPage {
 		$langNames = $this->languageNameUtils->getLanguageNames( $this->getLanguage()->getCode() );
 		if ( !$id ) {
 			# show error if a user with that name does not exist
-			$this->getOutput()->addHTML( Xml::span(
-				$this->msg( 'wminc-userdoesnotexist', $target )->text(), 'error' ) );
+			$this->getOutput()->addHTML( Html::element( 'span', [ 'class' => 'error' ],
+				$this->msg( 'wminc-userdoesnotexist', $target )->text() ) );
 			return;
 		}
 		$projectPref = $this->userOptionsLookup->getOption( $user, $wmincPref . '-project' );
@@ -137,15 +138,13 @@ class SpecialViewUserLang extends SpecialPage {
 			$testwiki = $this->msg( 'wminc-testwiki-none' )->escaped();
 		}
 		$langPref = $this->userOptionsLookup->getOption( $user, 'language' );
-		$this->getOutput()->addHtml(
-			Xml::openElement( 'ul' ) .
+		$this->getOutput()->addHtml( Html::rawElement( 'ul', [],
 			'<li>' . $this->msg( 'username' )->escaped() . ' ' .
 				Linker::userLink( $id, $name ) . Linker::userToolLinks( $id, $name, true ) . '</li>' .
 			'<li>' . $this->msg( 'loginlanguagelabel', $langNames[ $langPref ] .
 				' (' . htmlspecialchars( $langPref ) . ')' )->escaped() . '</li>' .
-			'<li>' . $this->msg( 'wminc-testwiki' )->escaped() . ' ' . $testwiki . '</li>' .
-			Xml::closeElement( 'ul' )
-		);
+			'<li>' . $this->msg( 'wminc-testwiki' )->escaped() . ' ' . $testwiki . '</li>'
+		) );
 	}
 
 	/**

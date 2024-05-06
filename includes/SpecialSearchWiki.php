@@ -8,7 +8,6 @@ use MediaWiki\Languages\LanguageFactory;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\SpecialPage\IncludableSpecialPage;
 use MediaWiki\Title\Title;
-use Xml;
 
 class SpecialSearchWiki extends IncludableSpecialPage {
 
@@ -253,7 +252,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 */
 	protected function showMultipleResults( $project, $languageQuery, $results ) {
 		$this->getOutput()->addHTML( '<div id="wminc-searchwiki-results">' .
-			Xml::element( 'p', [],
+			Html::element( 'p', [],
 				$this->msg( 'wminc-searchwiki-multiplematches' )->text() ) .
 			'<ul>'
 		);
