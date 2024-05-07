@@ -25,7 +25,8 @@
 			"Xiplus",
 			"予弦",
 			"星海",
-			"神樂坂秀吉"
+			"神樂坂秀吉",
+			"沈澄心"
 		]
 	},
 	"wminc-desc": "维基孵育场测试维基系统",
@@ -109,7 +110,7 @@
 	"wminc-infopage-option-multilingual": "或者您也可以前往一个多语言wiki：",
 	"wminc-infopage-createmainpage": "输入“主页”此词在这种语言的翻译：",
 	"wminc-infopage-contribute": "如果您会这门语言，欢迎您做出贡献！",
-	"wminc-infopage-status-open": "这是维基孵育场的一个开放测试维基。",
+	"wminc-infopage-status-open": "这是维基孵育场的一个开放测试wiki。",
 	"wminc-infopage-status-imported": "此孵育场wiki是从$1在其关闭后导入的。",
 	"wminc-infopage-status-closedsister": "这个子域名已关闭。前往<strong>$2</strong>以贡献此wiki。",
 	"wminc-infopage-status-approved": "这个维基媒体孵育场的维基已被[[meta:Special:MyLanguage/Language_committee|语言委员会]]批准，此维基很快就会创建。",
