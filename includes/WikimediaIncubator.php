@@ -55,7 +55,6 @@ use ParserOptions;
 use RequestContext;
 use SearchEngine;
 use Skin;
-use Xml;
 
 class WikimediaIncubator implements
 	ContributionsToolLinksHook,
@@ -180,7 +179,7 @@ class WikimediaIncubator implements
 			->getLanguageNames( LanguageNameUtils::AUTONYMS, LanguageNameUtils::ALL );
 		$t = '<datalist id="wminc-testwiki-codelist">' . "\n";
 		foreach ( $list as $code => $name ) {
-			$t .= Xml::element( 'option', [ 'value' => $code ],
+			$t .= Html::element( 'option', [ 'value' => $code ],
 				$code . ' - ' . $name ) . "\n";
 		}
 		$t .= '</datalist>';
@@ -203,7 +202,7 @@ class WikimediaIncubator implements
 			&& self::isContentProject( $user, $alldata[$wmincPref . '-project'] )
 			&& !self::validateLanguageCode( $filteredInput )
 		) {
-			return Xml::element( 'span', [ 'class' => 'error' ],
+			return Html::element( 'span', [ 'class' => 'error' ],
 				wfMessage( 'wminc-prefinfo-error' )->plain() );
 		}
 		return true;
@@ -1049,8 +1048,9 @@ class WikimediaIncubator implements
 	 * @param array &$opts
 	 */
 	public function onSpecialSearchPowerBox( &$showSections, $term, &$opts ) {
-		$showSections['testwiki'] = Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' )
-			. ' ' . Xml::input( 'testwiki', 20, self::displayPrefix(), [ 'id' => 'testwiki' ] );
+		$showSections['testwiki'] = Html::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) .
+			' ' .
+			Html::input( 'testwiki', self::displayPrefix(), 'text', [ 'id' => 'testwiki', 'size' => 20 ] );
 	}
 
 	/**

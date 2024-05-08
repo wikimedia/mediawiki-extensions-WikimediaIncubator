@@ -5,10 +5,10 @@ namespace MediaWiki\Extension\WikimediaIncubator;
 use MediaWiki\Hook\SpecialListusersHeaderFormHook;
 use MediaWiki\Hook\SpecialListusersHeaderHook;
 use MediaWiki\Hook\SpecialListusersQueryInfoHook;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Pager\Pager;
 use MediaWiki\Title\Title;
-use Xml;
 
 /**
  * Ability to filter list of users based on their test wiki preference
@@ -42,8 +42,8 @@ class ListUsersTestWiki implements
 		$testwiki = WikimediaIncubator::getUrlParam();
 		$project = self::getProjectInput();
 		$input = $project ? $project['name'] : ( $testwiki ? $testwiki['prefix'] : '' );
-		$out .= Xml::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
-			Xml::input( 'testwiki', 20, $input, [ 'id' => 'testwiki' ] ) . '<br />';
+		$out .= Html::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
+			Html::input( 'testwiki', $input, 'text', [ 'id' => 'testwiki', 'size' => 20 ] ) . '<br />';
 	}
 
 	/**
