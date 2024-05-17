@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Xuacu",
 			"YoaR"
 		]
@@ -23,7 +24,7 @@
 	"wminc-error-unprefixed-suggest": "<strong>Error:</strong> ¡Esta páxina nun tien [[{{MediaWiki:Wminc-error-help}}|prefixu]]! Pue crear una páxina en [[:$1]].",
 	"wminc-error-wiki-exists": "Esta wiki yá esiste. Pues alcontrar esta páxina en $1. Si la wiki se creó recién, espera delles hores o díes mentanto s'importa tou'l conteníu.",
 	"wminc-error-wiki-sister": "Esta páxina pertenez a un proyeutu que nun ta agospiáu equí. Visita $1 p'alcontrar la wiki.",
-	"randombytest": "Páxina al  debalu de la wiki de pruebes",
+	"randombytest": "Páxina al debalu de la wiki de pruebes",
 	"randombytest-nopages": "Nun hai páxines na to wiki de pruebes, nel espaciu de nomes: $1.",
 	"wminc-viewuserlang": "Ver la llingua del usuariu y la wiki de pruebes",
 	"wminc-viewuserlang-user": "Nome d'usuariu:",
