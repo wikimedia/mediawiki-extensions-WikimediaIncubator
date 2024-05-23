@@ -11,7 +11,8 @@
 			"Rex",
 			"Sonic Speedy",
 			"Syman51",
-			"Veracious"
+			"Veracious",
+			"Amire80"
 		]
 	},
 	"wminc-desc": "Sistem wiki tes untuk Wikimedia Incubator",
@@ -33,7 +34,7 @@
 	"wminc-error-wiki-exists": "Wiki ini sudah ada. Anda dapat menemukan halaman ini di $1. Jika wiki tersebut baru saja dibuat, mohon tunggu beberapa jam atau hari hingga seluruh kontennya selesai diimpor.",
 	"wminc-error-wiki-sister": "Halaman ini merupakan bagian dari proyek yang tidak diinangkan di sini. Mohon menuju ke $1 untuk mencari wikinya.",
 	"randombytest": "Halaman sembarang oleh wiki percobaan",
-	"randombytest-nopages": "Tidak ada halaman  wiki pengujian anda, dalam ruangnama: $1.",
+	"randombytest-nopages": "Tidak ada halaman wiki pengujian anda, dalam ruangnama: $1.",
 	"wminc-viewuserlang": "Cari bahasa pengguna dan wiki pengujian",
 	"wminc-viewuserlang-user": "Nama pengguna:",
 	"wminc-viewuserlang-go": "Lanjut",
