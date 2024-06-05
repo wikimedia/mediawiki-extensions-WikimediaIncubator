@@ -86,7 +86,7 @@
 	"wminc-fs-pagetitle-done": " - 完成！",
 	"wminc-fs-intro": "欢迎来到{{SITENAME}}第一步骤向导。您会被带领走过创建一个新的维基的过程。",
 	"wminc-fs-langselect": "与$1或$2继续",
-	"wminc-fs-signup-text": "如果您已经有个账户，请[$1 登入]。如果您还没有一个，请[$2 创建一个账户]。\n这不是必须的，但我们强烈建议您这样做，而且只会花费几秒钟的时间。",
+	"wminc-fs-signup-text": "如果您已拥有用户账号，请[$1 登录]。如果您还没有，请[$2 创建用户账号]。尽管创建账号不是必须的，但我们强烈推荐，并且只需花费很短的时间。",
 	"wminc-fs-settings-text": "现在请至[[Special:Preferences#mw-htmlform-i18n|您的设置]]更改您的测试维基设置。第一个是您的界面语言，您选择的第一步，但您仍可以更改它。第二个是您想贡献的项目，另外第三个是您想贡献的项目的语言代码。如果您不知道代码，请查阅我们的[[{{MediaWiki:Wminc-manual-url}}|手册]]或前往[[{{MediaWiki:Portal-url}}|帮助]]询问。",
 	"wminc-fs-userpage-text": "现在，请创建您的用户页 $1 并填入自己的一些基本信息。您还可以看到一个链接在此页面的顶部。",
 	"wminc-fs-startwiki-text": "您的维基的前缀是<strong>$1</strong>。您可以通过创建维基的主页面来启动维基<strong>$2</strong>。",
