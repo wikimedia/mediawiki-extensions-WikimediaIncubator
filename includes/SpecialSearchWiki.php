@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use HTMLForm;
 use MediaWiki\Html\Html;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Languages\LanguageFactory;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\SpecialPage\IncludableSpecialPage;

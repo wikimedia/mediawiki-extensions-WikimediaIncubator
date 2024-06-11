@@ -2,13 +2,13 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Hook\SpecialRecentChangesPanelHook;
 use MediaWiki\Html\FormOptions;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\Hook\ChangesListSpecialPageQueryHook;
 use MediaWiki\User\User;
-use RequestContext;
 use Wikimedia\Rdbms\IExpression;
 use Wikimedia\Rdbms\LikeValue;
 use XmlSelect;
