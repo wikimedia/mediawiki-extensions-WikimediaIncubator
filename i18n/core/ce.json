@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Исмаил Садуев",
 			"Умар"
 		]
 	},
@@ -15,7 +16,7 @@
 	"wminc-error-wiki-sister": "ХӀара агӀо йу кхузахь йоцу проектан. Дехар до, хӀокху $1 чугӀо вики каро.",
 	"randombytest": "Зуьйш йолу викин цахууш нисйелла агӀо",
 	"wminc-viewuserlang-user": "Декъашхочун цӀе:",
-	"wminc-viewuserlang-go": "Каро",
+	"wminc-viewuserlang-go": "Лаха",
 	"wminc-userdoesnotexist": "«$1» цӀе йолу декъашхо цакарий",
 	"wminc-ip": "«$1» — IP-адрес йа ханна декъашхо.",
 	"group-test-sysop": "Зуьйш йолу викин администраторш",
