@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chelin"
+			"Chelin",
+			"Ruthven"
 		]
 	},
 	"wminc-desc": "Sestemma wiki 'e test pe Wikimedia Incubator",
@@ -20,7 +21,7 @@
 	"wminc-error-wronglangcode": "<strong>Errore:</strong> Chesta paggena cuntiene nu [[{{MediaWiki:Wminc-error-help}}|codece 'e lengua fauzo]] \"$1\".",
 	"wminc-error-unprefixed": "<strong>Errore:</strong> Chesta paggena [[{{MediaWiki:Wminc-error-help}}|nun tene prefisso]].",
 	"wminc-error-unprefixed-suggest": "<strong>Errore:</strong> Chesta paggena [[{{MediaWiki:Wminc-error-help}}|nun tene prefisso]]! Pò cria 'a paggena [[:$1]].",
-	"wminc-error-wiki-exists": "Chesta wiki esiste. Può truva chesta paggena ncopp'â $1. Si 'a wiki fuje criata 'e reciente, aspettà cocche ora o cocche juorne pecché 'o cuntenuto sia 'mpurtato tutto.",
+	"wminc-error-wiki-exists": "Chesta wiki nce sta già. Può truva chesta paggena ncopp'a $1. Si sta wiki è nova, statte quacche ora o quacche juorno pe fà 'mpurtà 'o cuntenuto.",
 	"randombytest": "Paggena qualonca d\"o wiki 'e test",
 	"randombytest-nopages": "Nun ce stanne paggene int'ô wiki 'e test tujo, int'ô namespace: $1.",
 	"wminc-viewuserlang": "Vere 'a lengua 'e ll’utente e 'o wiki 'e test sujo",
