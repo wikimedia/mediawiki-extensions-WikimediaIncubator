@@ -3,7 +3,8 @@
 		"authors": [
 			"Dbc334",
 			"Eleassar",
-			"Upwinxp"
+			"Upwinxp",
+			"IJzeren Jan"
 		]
 	},
 	"wminc-desc": "Preizkusni viki sistem za Inkubator Wikimedie",
@@ -19,7 +20,7 @@
 	"wminc-prefinfo-project": "Izberite projekt Wikimedie, na katerem tukaj delate",
 	"wminc-prefinfo-error": "Izbrali ste projekt, ki potrebuje oznako jezika.",
 	"wminc-error-move-unprefixed": "<strong>Napaka:</strong> Stran, na katero skušate prestaviti, [[{{MediaWiki:Wminc-error-help}}|nima predpone ali ima napačno predpono]].",
-	"wminc-error-wronglangcode": "<strong>Napaka:</strong> Stran vsebuje [[{{MediaWiki:Wminc-error-help}}|napačno oynako jezika]] »$1«.",
+	"wminc-error-wronglangcode": "<strong>Napaka:</strong> Stran vsebuje [[{{MediaWiki:Wminc-error-help}}|napačno oznako jezika]] »$1«.",
 	"wminc-error-unprefixed": "<strong>Napaka:</strong> Stran [[{{MediaWiki:Wminc-error-help}}|nima predpone]].",
 	"wminc-error-unprefixed-suggest": "<strong>Napaka:</strong> Stran [[{{MediaWiki:Wminc-error-help}}|nima predpone]]! Stran lahko ustvarite na [[:$1]].",
 	"wminc-error-wiki-exists": "Viki že obstaja. Stran lahko najdete na $1. Če je bil viki ustvarjen pred kratkim, počakajte nekaj ur ali dni, dokler se ne uvozi vsa vsebina.",

@@ -3,7 +3,8 @@
 		"authors": [
 			"Cwlin0416",
 			"Kly",
-			"Winston Sung"
+			"Winston Sung",
+			"列维劳德"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" 語言]] 是 [[wikipedia:ISO 639 macrolanguage|巨集語言]]，由以下成員語言所組成：",
@@ -11,8 +12,8 @@
 	"wminc-code-retired": "此語言代碼已變更，已不再代表原來的語言。",
 	"wminc-custom-editnotice-2": "要指示您可以使用哪些語言，請使用$1。例如，如果您的母語是法語，而且您英語說得很好，請使用$2。",
 	"wminc-custom-featuredwikis-approved": "這些已被批准與/或建立：",
-	"wminc-custom-featuredwikis-active": "這些 wiki 是活躍的，可能很快就會取得自己的網站：",
-	"wminc-custom-featuredwikis-permanent": "這些 wiki 可能會留在這裡：",
+	"wminc-custom-featuredwikis-active": "以下為活躍專案，不久後便可能取得專屬的網站：",
+	"wminc-custom-featuredwikis-permanent": "以下專案會暫時保留：",
 	"wminc-custom-newarticletext-noprefix": "<strong>請注意：</strong>您正在建立一個沒有[[$1|前綴]]的頁面",
 	"wminc-custom-newarticletext-withprefix-1": "輸入$1，然後點擊「{{int:publishpage}}」。",
 	"wminc-custom-newarticletext-withprefix-2": "取代「$1」然後點擊「{{int:publishpage}}」。",
