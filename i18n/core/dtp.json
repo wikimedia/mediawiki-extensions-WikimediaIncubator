@@ -2,22 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"FRANCIS5091",
-			"AnderGapoh"
+			"AnderGapoh",
+			"CorrelMoris38"
 		]
 	},
 	"wminc-desc": "Nuludan pogumbalan wiki montok Pongongomut Wikimodia",
 	"wminc-manual": "Pangahak",
 	"wminc-listwikis": "Rayat wiki",
 	"wminc-testwiki": "Wiki pogumbalan",
-	"wminc-testwiki-code": "Boros wiki poinginam:",
+	"wminc-testwiki-code": "Pongumbalan boros wiki:",
 	"wminc-testwiki-none": "Aiso/Oinsanan",
-	"wminc-testwiki-site": "(Ponondulian)",
-	"wminc-recentchanges-all": "Ngai kosisimban",
+	"wminc-testwiki-site": "(Ponginsanangan)",
+	"wminc-recentchanges-all": "Toinsanan kosisimban",
 	"wminc-prefinfo-language": "Woyoboros gunoonnu - poinsuai mantad wiki pogumbalannu",
 	"wminc-prefinfo-code": "Kod woyoboros tumanud ISO 639",
 	"wminc-prefinfo-project": "Pilio purujik wikimodia (Pongongomut nopo nga pipilion montok momomoguno di pigosusuaian wonsoion)",
 	"wminc-prefinfo-error": "Minomili ko di purujik di momoguno kod woyoboros",
-	"wminc-error-move-unprefixed": "<strong>Tundul:</strong>[[{{MediaWiki:Wminc-error-help}}|Au kiponulu toi asala ponulu]] dit loun poilihon nu.",
+	"wminc-error-move-unprefixed": "<strong>Tundul:</strong> Bolikan di umbalan nu popoundaliu kumaa [[{{MediaWiki:Wminc-error-help}}|au kiponulu toi asala ponulu]]",
 	"randombytest": "Songkobolikon do wiki pogumbalan",
 	"randombytest-nopages": "Ingaa bobolikon id wiki pogumbalannu, it koingaran do: $1.",
 	"wminc-viewuserlang": "Ihumo boros momoguno om pogumbalan wiki",
