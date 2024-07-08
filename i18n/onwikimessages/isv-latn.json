@@ -93,7 +93,7 @@
 	"wminc-infopage-content-project-y": "Vikiputnik",
 	"wminc-infopage-req-header": "Trěbovanja",
 	"wminc-infopage-req-meta": "Podanje v Meta-viki",
-	"wminc-infopage-req-meta-none": "Nejame podanja v [[$1|Meta-viki]] ([$2 stvoriti])",
+	"wminc-infopage-req-meta-none": "Nemaje podanja v [[$1|Meta-viki]] ([$2 stvoriti])",
 	"wminc-infopage-req-rejected": "'''(odkydnuto)'''",
 	"wminc-infopage-req-unprefixed-templates": "Na {{PLURAL:$1|$1 stranici|$1 stranicah}} sut vključene šablony bez prědstavky",
 	"wminc-infopage-req-error": "Pogrěška trěbovanja:",
