@@ -10,5 +10,7 @@
 	"wminc-testwiki-code": "Тэ̄сст-вики кӣлл:",
 	"wminc-recentchanges-all": "Пугк о̄дт воа̄йхэз",
 	"group-test-sysop": "Тэ̄сст-вики администратэр",
-	"grouppage-test-sysop": "{{ns:project}}:Тэ̄сст-вики администратэр"
+	"group-test-sysop-member": "{{GENDER:$1|тэ̄сст-вики администратэр}}",
+	"grouppage-test-sysop": "{{ns:project}}:Тэ̄сст-вики администратэр",
+	"wminc-searchwiki-selectproject": "О̄дзэ:"
 }
