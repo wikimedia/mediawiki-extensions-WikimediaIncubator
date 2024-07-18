@@ -5,7 +5,8 @@
 			"Fitoschido",
 			"La Mantis",
 			"No se",
-			"Savh"
+			"Savh",
+			"Qwrop"
 		]
 	},
 	"wminc-code-macrolanguage": "El [[wikipedia:$2 language|$3]] es una [[wikipedia:es:Macrolengua|macrolengua]], que se compone de los siguientes idiomas:",
@@ -34,7 +35,10 @@
 	"wminc-infopage-text-invalidcode": "Esta wiki en pruebas tiene un código [[$7|ISO 639]] incorrecto y en consecuecia ha sido eliminada. Un fichero XML que podría ser transferido a una wiki no perteneciente a Wikimedia podría estar disponible (solicitarlo [[$8|aquí]]).",
 	"wminc-infopage-text-tocreate": "Esta wiki en pruebas para la lengua {{{language}}} aún no ha sido comenzada. Si conoces esta lengua, sigue las instrucciones en [[$9]]. Puedes crear una Página Principal en ''\"{{PAGENAME}}/Página Principal\"'' con \"Página Principal\" traducida a esta lengua (por ejemplo \"Wp/fr/Accueil\" si se tratase de una wiki en pruebas para la lengua francesa).",
 	"wminc-infopage-language-header": "Idioma",
+	"wminc-infopage-language-wikipedia-article": "Artículo en la Wikipedia en inglés: [[$1|$2]] ([[$3|$4]])",
 	"wminc-infopage-content-main-category": "Categoría principal",
 	"wminc-infopage-content-administroters": "Administradores:",
+	"wminc-infopage-content-project-p": "Wikipedia",
+	"wminc-infopage-content-project-t": "Wikcionario",
 	"wminc-infopage-req-header": "Requisitos"
 }
