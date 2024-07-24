@@ -13,7 +13,8 @@
 			"Macofe",
 			"Savh",
 			"Translationista",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Qwrop"
 		]
 	},
 	"wminc-desc": "Sistema de wiki de prueba para Wikimedia Incubator",
@@ -80,7 +81,7 @@
 	"wminc-unknownlang": "(código de idioma desconocido)",
 	"wminc-infopage-title-p": "Wikipedia $1",
 	"wminc-infopage-title-b": "Wikilibros $1",
-	"wminc-infopage-title-t": "Wikcionario $1",
+	"wminc-infopage-title-t": "Wikcionario en $1",
 	"wminc-infopage-title-q": "Wikiquote $1",
 	"wminc-infopage-title-n": "Wikinoticias $1",
 	"wminc-infopage-title-s": "Wikisource $1",
