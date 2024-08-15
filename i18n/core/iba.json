@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Song GK"
+		]
+	},
+	"wminc-manual": "Manual",
+	"wminc-listwikis": "Ripih wiki",
+	"wminc-testwiki": "Wiki penguji:",
+	"wminc-testwiki-code": "Jaku wiki penguji:",
+	"wminc-testwiki-none": "Semua wiki",
+	"wminc-testwiki-site": "(Pengadu)",
+	"wminc-recentchanges-all": "Semua ubah ke maya tu",
+	"wminc-prefinfo-language": "Jaku entaramua nuan - bibas ari wiki penguji nuan",
+	"wminc-prefinfo-code": "Kod ISO 639 kena jaku dikerejaka nuan ba ditu",
+	"wminc-prefinfo-project": "Pilih projek Wikimedia ke nuan ngerejaka ba ditu",
+	"wminc-prefinfo-error": "Nuan milih projek ke begunaka kod jaku.",
+	"randombytest": "Lambar seneka wiki penguji",
+	"wminc-infopage-contribute": "Enti nuan nemu jaku tu, nuan diperangsang deka meri!",
+	"wminc-infopage-status-open": "Tu wiki tebuka Wikimedia Inkubator."
+}
