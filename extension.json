@@ -165,7 +165,7 @@
 		"RandomByTest": {
 			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialRandomByTest",
 			"services": [
-				"DBLoadBalancerFactory",
+				"ConnectionProvider",
 				"NamespaceInfo",
 				"UserOptionsLookup"
 			]

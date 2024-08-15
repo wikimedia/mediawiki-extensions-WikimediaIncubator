@@ -64,6 +64,8 @@ class TestWikiRC implements
 			return;
 		}
 
+		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
+
 		[ $projectvalue, $codevalue ] = self::getValues( RequestContext::getMain()->getUser() );
 		$prefix = WikimediaIncubator::displayPrefix( $projectvalue, $codevalue );
 		$opts->add( 'rc-testwiki-project', false );
@@ -73,7 +75,6 @@ class TestWikiRC implements
 
 		if ( $projectvalue == $wmincProjectSite['short'] ) {
 			// If project site is selected, display all changes except test wiki changes
-			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
 			$conds[] = $dbr->expr(
 				'rc_title',
 				IExpression::NOT_LIKE,
@@ -81,7 +82,6 @@ class TestWikiRC implements
 			);
 		} elseif ( WikimediaIncubator::validatePrefix( $prefix, true ) ) {
 			// Else, display changes to the selected test wiki in the appropriate namespaces
-			$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
 			// The next line (the phan-suppress one) is buggy some times. If phan-docker
 			// complains, try re-adding it by adding/removing the initial @.
 			// phan-suppress-next-line PhanPossiblyUndeclaredVariable
