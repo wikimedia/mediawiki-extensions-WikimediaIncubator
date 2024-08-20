@@ -9,9 +9,11 @@ use MediaWiki\Context\RequestContext;
  * An authentication request to grab the custom fields passed to the creation form.
  */
 class WikimediaIncubatorAuthenticationRequest extends AuthenticationRequest {
+	/** @var int */
 	public $required = self::OPTIONAL;
-
+	/** @var string */
 	public $testwikiproject;
+	/** @var string */
 	public $testwikicode;
 
 	/**
