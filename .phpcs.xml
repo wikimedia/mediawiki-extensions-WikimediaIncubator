@@ -5,12 +5,16 @@
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationProtected" />
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic" />
 		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
-		<exclude name="MediaWiki.Usage.ExtendClassUsage.FunctionConfigUsage" />
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
 	</rule>
 	<rule ref="MediaWiki.NamingConventions.ValidGlobalName">
 		<properties>
 			<property name="ignoreList" type="array" value="$wmincProjects,$wmincPref,$wmincMultilingualProjects,$wmincProjectSite,$wmincTestWikiNamespaces,$wmincExistingWikis,$wmincLangCodeLength,$wmincClosedWikis,$wmincPseudoCategoryNSes" />
+		</properties>
+	</rule>
+	<rule ref="MediaWiki.Usage.ExtendClassUsage">
+		<properties>
+			<property name="nonConfigGlobals" type="array" value="$wmincProjects,$wmincPref,$wmincProjectSite" />
 		</properties>
 	</rule>
 	<file>.</file>
