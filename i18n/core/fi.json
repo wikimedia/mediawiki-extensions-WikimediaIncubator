@@ -18,7 +18,8 @@
 			"Valtlai",
 			"Valtlait",
 			"Varusmies",
-			"VezonThunder"
+			"VezonThunder",
+			"Samoasambia"
 		]
 	},
 	"wminc-desc": "Testiwiki-järjestelmä Wikimedia-hautomoa varten",
@@ -94,7 +95,7 @@
 	"wminc-infopage-missingwiki-text": "$1-hanketta ei ole vielä tällä kielellä.",
 	"wminc-infopage-option-startwiki": "Jos haluat aloittaa tämän wikin, ole hyvä ja seuraa '''[$3 näitä vaiheita]''' ja [[{{MediaWiki:Wminc-manual-url}}|käsikirjaamme]].",
 	"wminc-infopage-option-startsister": "Jos haluat aloittaa tämän wikin, mene sivulle <strong>[$2 $1]</strong>.",
-	"wminc-infopage-option-languages-existing": "Voit etsiä [//www.$1.org sivuston $1 muita kieliversioita].",
+	"wminc-infopage-option-languages-existing": "Voit etsiä [//www.$1.org {{GRAMMAR:genitive|$1}} muita kieliversioita].",
 	"wminc-infopage-option-sisterprojects-existing": "Voit etsiä nykyisiä hankkeita tällä kielellä:",
 	"wminc-infopage-option-sisterprojects-other": "Voit etsiä muita hankkeita tällä kielellä:",
 	"wminc-infopage-option-multilingual": "Vaihtoehtoisesti, voit siirtyä monikieliseen wikiin:",

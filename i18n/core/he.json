@@ -5,7 +5,8 @@
 			"Guycn2",
 			"Rotemliss",
 			"YaronSh",
-			"חיים"
+			"חיים",
+			"מקף"
 		]
 	},
 	"wminc-desc": "מערכת אתרי ויקי ניסיוניים עבור האינקובטור של ויקימדיה",
@@ -32,7 +33,7 @@
 	"wminc-viewuserlang-user": "שם המשתמש:",
 	"wminc-viewuserlang-go": "הצגה",
 	"wminc-userdoesnotexist": "המשתמש \"$1\" אינו קיים.",
-	"wminc-ip": "\"$1\" הוא כתובת IP או משתמש זמני.",
+	"wminc-ip": "\"$1\" הוא כתובת IP או חשבון חולף.",
 	"action-viewuserlang": "לצפות בשפת המשתמש ובאתר הוויקי הניסיוני",
 	"right-viewuserlang": "צפייה בשפת המשתמש ובאתר הוויקי הניסיוני",
 	"group-test-sysop": "מפעילי ויקי לבדיקה",
