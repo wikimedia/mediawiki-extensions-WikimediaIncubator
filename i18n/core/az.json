@@ -23,10 +23,10 @@
 	"grouppage-test-sysop": "{{ns:project}}:Test viki idarəçisi",
 	"wminc-infopage-enter": "Ana Səhifəyə get",
 	"wminc-infopage-title-p": "$1 Vikipediya",
-	"wminc-infopage-title-b": "Vikikitab $1",
-	"wminc-infopage-title-t": "Vikilüğət $1",
-	"wminc-infopage-title-q": "Vikisitat $1",
-	"wminc-infopage-title-n": "Vikixəbər $1",
-	"wminc-infopage-title-s": "Vikimənbə $1",
+	"wminc-infopage-title-b": "$1 Vikikitab",
+	"wminc-infopage-title-t": "$1 Vikilüğət",
+	"wminc-infopage-title-q": "$1 Vikisitat",
+	"wminc-infopage-title-n": "$1 Vikixəbər",
+	"wminc-infopage-title-s": "$1 Vikimənbə",
 	"wminc-infopage-title-v": "$1 Vikiversitet"
 }
