@@ -6,13 +6,18 @@
 			"Wertuose"
 		]
 	},
+	"wminc-desc": "Wikimedia Incubator üçün test viki sistemi",
 	"wminc-manual": "Əl ilə",
 	"wminc-listwikis": "Vikilərin siyahısı",
 	"wminc-testwiki": "Test viki:",
 	"wminc-testwiki-code": "Test viki dili:",
 	"wminc-testwiki-none": "Heç biri/Hamısı",
+	"wminc-testwiki-site": "(Texniki baxış)",
 	"wminc-recentchanges-all": "Bütün son dəyişikliklər",
+	"wminc-prefinfo-language": "İnterfeys diliniz - test vikinizdən asılı olmayaraq",
 	"wminc-prefinfo-code": "Sizin burada istifadə etdiyiniz dilin ISO 639-dakı kodu",
+	"wminc-prefinfo-project": "Burada üzərində işlədiyiniz Vikimedia layihəsini seçin",
+	"wminc-prefinfo-error": "Siz dil kodu tələb edən layihə seçdiniz.",
 	"randombytest": "Test vikisindən təsadüfi səhifə",
 	"wminc-viewuserlang-user": "İstifadəçi adı:",
 	"wminc-viewuserlang-go": "Keç",
