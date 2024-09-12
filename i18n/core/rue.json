@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Constraque",
 			"Gazeb"
 		]
 	},
@@ -17,7 +18,7 @@
 	"wminc-error-move-unprefixed": "<strong>Хыба:</strong> Сторінка на яку пробуєте переменовати на [[{{MediaWiki:Wminc-error-help}}|не мать префікс або мать планый префікс]].",
 	"wminc-error-wronglangcode": "<strong>Хыба:</strong> Тота сторінка обсягує [[{{MediaWiki:Wminc-error-help}}|неплатный код языка]] \"$1\".",
 	"wminc-error-unprefixed": "<strong>Хыва:</strong> Тота сторінка [[{{MediaWiki:Wminc-error-help}}|не обсягує префіксы]].",
-	"wminc-error-unprefixed-suggest": "<strong>Хыба:</strong> Тота сторінка [[{{MediaWiki:Wminc-error-help}}|не обсягує префікс]]! Можете створити сторінку [[:$1]].",
+	"wminc-error-unprefixed-suggest": "<strong>Хыба:</strong> Тота сторінка [[{{MediaWiki:Wminc-error-help}}|не обсягує префікс]]! Можете вытворити сторінку [[:$1]].",
 	"wminc-error-wiki-exists": "Тота вікі уж екзістує. Тоту сторінку можете найти на $1. Кідь тота вікі была недавно створена, просиме почекайте пару годин або днїв докы цалый обсяг є імпортованый.",
 	"wminc-error-wiki-sister": "Тота сторінка належыть до проєкту, котрый не є гостованый ту. Просиме, ідьте до $1, жебы сьте тоту вікі нашли.",
 	"randombytest": "Трафункова сторінка з тестовой вікі",

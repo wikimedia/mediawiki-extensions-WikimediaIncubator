@@ -22,7 +22,7 @@
 	"wminc-viewuserlang-user": "İstifadəçi adı:",
 	"wminc-viewuserlang-go": "Keç",
 	"wminc-userdoesnotexist": "İstifadəçi \"$1\" mövcud deyil",
-	"wminc-ip": "\"$1\" bir IP ünvanıdır.",
+	"wminc-ip": "\"$1\" bir IP ünvanı və ya müvəqqəti istifadəçidir.",
 	"right-viewuserlang": "İstifadəçinin dilini və test vikisini görmək",
 	"group-test-sysop": "Test viki idarəçiləri",
 	"grouppage-test-sysop": "{{ns:project}}:Test viki idarəçisi",
