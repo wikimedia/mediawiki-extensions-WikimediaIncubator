@@ -33,5 +33,7 @@
 	"group-test-sysop-member": "Адміністратор тестовой вікі",
 	"grouppage-test-sysop": "{{ns:project}}:Адміністраторытестовой вікі",
 	"wminc-listusers-testwiki": "Перезерате хоснователїв, котры наставили їх тест вікі наставлїня на $1.",
-	"wminc-infopage-contribute": "Кідь розумієте тот язык, рекомендуєме, жебы сьте приспівали!"
+	"wminc-infopage-enter": "до Головной сторінкы",
+	"wminc-infopage-title-p": "Вікіпедія языком $1",
+	"wminc-infopage-contribute": "Кедь розумієте тот язык, рекомендуєме, жебы сьте приспівали!"
 }
