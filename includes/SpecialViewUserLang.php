@@ -94,6 +94,7 @@ class SpecialViewUserLang extends SpecialPage {
 				'size' => 40,
 				'label-message' => 'wminc-viewuserlang-user',
 				'default' => $target,
+				'excludetemp' => true,
 			] ],
 			$this->getContext()
 		);
