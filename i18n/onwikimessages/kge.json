@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Es Krim 5 Juta Rasa"
 		]
 	},
@@ -63,7 +64,7 @@
 	"wminc-infopage-text-invalidcode": "Wiki pangujian hasa uwat kode bahasa [[$7|ISO 639]] sai mak valid, sampai kok tihapus.  Mangkali uwat berkas XML sai tersedia (tanyako di [[$8|administrator]]) yang pandai titransfer guk wiki non-Wikimedia.",
 	"wminc-infopage-text-open": "Wiki uji hasa terbuka atawa tiverifikasi monuhi syarat.  Niku tijujungko untuk bukontribusi aman Niku pandai bahasa hasa.  Liyak munih [[$9|panduan kontribusi]] untuk panjelasan tentang apiya sai porlu Niku gawiko.",
 	"wminc-infopage-text-rejected": "Wiki tes hasa ditolak bak [[$2|Komite Bahasa]] rik kok tihapus.  Mangkali uwat berkas XML sai tersedia (tanyako di [[$8|administrator]]) sai pandai titransfer guk wiki non-Wikimedia.",
-	"wminc-infopage-text-tocreate": "Wiki uji hasa makkung timulai.  Aman Niku pandai bahasa hasa, turuti patunjuk di [[$9]].  Niku pandai ngguwai Halaman Mukak di ''\"{{PAGENAME}}/Main_Page\"'' rik \"Main_Page\" sai titerjemahko guk lom bahasa hasa (misalna \"Wp/fr/Accueil\" man sina wiki tes bahasa Prancis).",
+	"wminc-infopage-text-tocreate": "Wiki uji hasa makkung timulai. Aman Niku pandai bahasa hasa, turuti patunjuk di [[$9]]. Niku pandai ngguwai Halaman Mukak di ''\"{{PAGENAME}}/Main_Page\"'' rik \"Main_Page\" sai titerjemahko guk lom bahasa hasa (misalna \"Wp/fr/Accueil\" man sina wiki tes bahasa Prancis).",
 	"wminc-infopage-text-toimport": "Wiki hasa kok titutup rik haga tiimpor guk ja sa.  Aman Niku haga ngamulai ulang proyek sa, payu ponah pai sampai [[Special:ListUsers/import|importer]] ngimpor kaunyin halaman jak wiki asli mona.",
 	"wminc-infopage-text-awaiting-creation": "Ina bih monah pangguwaian bak pangombang, liyak '''[[phabricator:$1|tugas $1]]'''.",
 	"wminc-infopage-text-approved-created": "Niku pandai mahaluina di $1",
