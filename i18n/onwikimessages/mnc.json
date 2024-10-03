@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chulsu463"
+			"Chulsu463",
+			"Amire80",
+			"MiiCii"
 		]
 	},
 	"wminc-infopage-title-status-default": "ere oci Wikimedia Incubator i test wiki kai.",
@@ -10,8 +12,8 @@
 	"wminc-infopage-text-approved-created": "si $1 de baicarangga mutembi.",
 	"wminc-infopage-language-directionality-rtl": "ici ci hashū de",
 	"wminc-infopage-content-header": "test wiki i jaka",
-	"wminc-infopage-content-main-category": "oyonggo category",
-	"wminc-infopage-content-all-pages": "ere test wiki i geren justan",
+	"wminc-infopage-content-main-category": "Ujui duwalibun",
+	"wminc-infopage-content-all-pages": "Ere cendere Uiki -i gubci afaha",
 	"wminc-infopage-content-project-b": "Wikibooks",
 	"wminc-infopage-content-project-n": "Wikinews",
 	"wminc-infopage-content-project-q": "wikiquote",
