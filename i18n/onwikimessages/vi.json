@@ -3,7 +3,9 @@
 		"authors": [
 			"Flyplanevn27",
 			"Minh Nguyen",
-			"Pisceskaze"
+			"Pisceskaze",
+			"Doraemonluonbentoi",
+			"SongNgu.xyz"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Tiếng “$3”]] là một [[wikipedia:ISO 639 macrolanguage|ngôn ngữ vĩ mô]] bao gồm các ngôn ngữ này:",
@@ -62,9 +64,9 @@
 	"wminc-infopage-text-approved": "Wiki thử nghiệm này đã được phê duyệt bởi [[$2|Ủy ban Ngôn ngữ]] (xem thêm [[$1|nhật ký tạo trang web]]).",
 	"wminc-infopage-text-default": "Thông số \"$4\" bị sai hoặc thiếu. Xem [[$5|ở đây để có nhiều thông tin hơn]] về bản mẫu này.",
 	"wminc-infopage-text-imported": "Trang wiki này đã được [[$6|nhập vào]] sau khi wiki bị đóng. Nếu bạn muốn khởi động (lại) dự án này, bạn có thể tham khảo các trang này để bắt đầu.",
-	"wminc-infopage-text-invalidcode": "Trang wiki thử nghiệm này có mã ngôn ngữ [[$7|ISO 639]] không hợp lệ, vì vậy nên nó đã bị xóa. Hiện có sẵn một tệp XML (hãy hỏi [[$8|tại đây]]) mà có thể chuyển đến một wiki không thuộc Wikimedia.",
+	"wminc-infopage-text-invalidcode": "Trang wiki thử nghiệm này có mã ngôn ngữ [[$7|ISO 639]] không hợp lệ, vì vậy nên nó đã bị xóa. Hiện có sẵn một tập tin XML (hãy hỏi [[$8|tại đây]]) mà có thể chuyển đến một wiki không thuộc Wikimedia.",
 	"wminc-infopage-text-open": "Trang wiki thử nghiệm được mở hoặc xác nhận là đủ tư cách. Rất hoan nghênh bạn đóng góp nếu bạn biết ngôn ngữ này. Hãy xem qua [[$9|sách hướng dẫn]] để được giải thích rõ hơn về những gì bạn cần làm.",
-	"wminc-infopage-text-rejected": "Trang wiki thử nghiệm này có mã ngôn ngữ [[$2|ISO 639]] không hợp lệ, vì vậy nên nó đã bị xóa. Hiện có sẵn một tệp XML (hãy hỏi [[$8|tại đây]]) mà có thể chuyển đến một wiki không thuộc Wikimedia.",
+	"wminc-infopage-text-rejected": "Trang wiki thử nghiệm này có mã ngôn ngữ [[$2|ISO 639]] không hợp lệ, vì vậy nên nó đã bị xóa. Hiện có sẵn một tập tin XML (hãy hỏi [[$8|tại đây]]) mà có thể chuyển đến một wiki không thuộc Wikimedia.",
 	"wminc-infopage-text-tocreate": "Trang wiki thử nghiệm này chưa được khởi tạo. Nếu bạn hiểu ngôn ngữ này, hãy làm theo các bước trong [[$9|Hướng dẫn]]. Bạn có thể tạo một Trang Chính tại ''\"{{PAGENAME}}/Main_Page\"'' với \"Main_Page\" được dịch sang ngôn ngữ đó (Ví dụ \"Wp/fr/Accueil\" nếu nó là một trang wiki thử nghiệm bằng tiếng Pháp).",
 	"wminc-infopage-text-toimport": "Wiki này đã bị đóng và sắp được nhập vào đây. Nếu bạn muốn khởi động lại dự án này, trước tiên vui lòng đợi một [[Special:ListUsers/import|người nhập]] tất cả các trang từ wiki gốc.",
 	"wminc-infopage-text-awaiting-creation": "Nó chỉ đang chờ các nhà phát triển tạo ra, xem '''[[phabricator:$1|task $1]]'''.",
