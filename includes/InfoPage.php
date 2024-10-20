@@ -2,9 +2,9 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use Language;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Html\Html;
+use MediaWiki\Language\Language;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;

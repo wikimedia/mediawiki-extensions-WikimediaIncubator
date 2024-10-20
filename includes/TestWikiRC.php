@@ -9,9 +9,9 @@ use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\Hook\ChangesListSpecialPageQueryHook;
 use MediaWiki\User\User;
+use MediaWiki\Xml\XmlSelect;
 use Wikimedia\Rdbms\IExpression;
 use Wikimedia\Rdbms\LikeValue;
-use XmlSelect;
 
 /**
  * Recent changes for a specific test wiki, or for all project changes (or normal display)
