@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jawadywn"
+		]
+	},
+	"wminc-desc": "Sistem wiki jajalan gawé' Wikimedia Incubator",
+	"wminc-manual": "Panduan",
+	"wminc-listwikis": "Lis wiki",
+	"wminc-testwiki": "Wiki jajalan:",
+	"wminc-testwiki-code": "Baso wiki jajalan:",
+	"wminc-testwiki-none": "Galo-galo wiki",
+	"wminc-testwiki-site": "(Pemiaroan)",
+	"wminc-recentchanges-all": "Galo-galo robahan buncitan",
+	"wminc-prefinfo-language": "Baso anterorai (interface) Dulur - ajek da' mélo'i wiki jajalan Dulur",
+	"wminc-prefinfo-code": "Kode ISO 639 gawé' baso yang na' Dulur gawîke di sini",
+	"wminc-prefinfo-project": "Pîlî peroyék Wikimedia yang na' Dulur gawîke di sini",
+	"wminc-prefinfo-error": "Dulur mîlî siko' peroyék yang kenda'nyo punyo siko' kode baso.",
+	"wminc-error-move-unprefixed": "<strong>Ngarut:</strong> Laman yang na' diancap peringgutan [[{{MediaWiki:Wminc-error-help}}|da' kati' awalan apo makî awalan yang sala]].",
+	"wminc-error-wronglangcode": "<strong>Ngarut:</strong> Laman ni ado makî [[{{MediaWiki:Wminc-error-help}}|kode baso yang sala]] \"$1\".",
+	"wminc-error-unprefixed": "<strong>Ngarut:</strong> Laman ni [[{{MediaWiki:Wminc-error-help}}|lum ado awalannyo]].",
+	"wminc-viewuserlang-user": "Namo pemakî:",
+	"wminc-viewuserlang-go": "Laju",
+	"wminc-searchwiki-go": "Laju",
+	"wminc-fs-signup-title": "Daptar",
+	"wminc-fs-settings-title": "Setél wiki Dulur ma'mano gala'nyo",
+	"wminc-infopage-title-p": "Wikipédi $1",
+	"wminc-infopage-title-b": "Wikibuku $1",
+	"wminc-infopage-title-t": "Wikikomus $1",
+	"wminc-infopage-title-q": "Wikiomongan $1",
+	"wminc-infopage-title-n": "Wikiwarto $1",
+	"wminc-infopage-title-s": "Wikisumber $1",
+	"wminc-infopage-title-v": "Wikikulia $1",
+	"wminc-infopage-title-y": "Wikipelesir $1"
+}
