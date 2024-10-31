@@ -1,8 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ardianaidil6667"
+			"Ardianaidil6667",
+			"Jawadywn"
 		]
 	},
-	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Basé \"$3\"]] mérupokan [[wikipedia:ISO 639 macrolanguage|basé makro]], yang terdiri dari basé-basé anggota berikut ini:"
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Basé \"$3\"]] mérupokan [[wikipedia:ISO 639 macrolanguage|basé makro]], yang terdiri dari basé-basé anggota berikut ini:",
+	"wminc-infopage-content-project-b": "Wikibuku",
+	"wminc-infopage-content-project-n": "Wikiwarto",
+	"wminc-infopage-content-project-p": "Wikipédi",
+	"wminc-infopage-content-project-q": "Wikiomongan",
+	"wminc-infopage-content-project-s": "Wikisumber",
+	"wminc-infopage-content-project-t": "Wikikomus",
+	"wminc-infopage-content-project-v": "Wikikulia",
+	"wminc-infopage-content-project-y": "Wikipelesir"
 }

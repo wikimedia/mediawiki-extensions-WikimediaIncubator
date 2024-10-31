@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Afalau"
+			"Afalau",
+			"Ceirios"
 		]
 	},
 	"wminc-custom-newarticletext-noprefix": "<strong>Rhybudd:</strong> Rydych chi'n creu tudalen heb [[$1|rhagddodiad]]",
