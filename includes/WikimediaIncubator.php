@@ -1065,7 +1065,7 @@ class WikimediaIncubator implements
 		}
 	}
 
-	private static function preg_quote_slash( $str ) {
+	private static function preg_quote_slash( string $str ): string {
 		return preg_quote( $str, '/' );
 	}
 
