@@ -475,10 +475,12 @@ class WikimediaIncubator implements
 			$lang->getNsText( $ns ) . ':' . $title );
 	}
 
+	/** @inheritDoc */
 	public function onMagicWordwgVariableIDs( &$magicWords ) {
 		$magicWords[] = 'usertestwiki';
 	}
 
+	/** @inheritDoc */
 	public function onParserGetVariableValueSwitch( $parser, &$cache, $magicWordId, &$ret, $frame ) {
 		if ( $magicWordId === 'usertestwiki' ) {
 			$p = self::displayPrefix();
@@ -562,6 +564,7 @@ class WikimediaIncubator implements
 		return $action != 'edit';
 	}
 
+	/** @inheritDoc */
 	public function onMovePageIsValidMove( $oldTitle, $newTitle, $status ) {
 		if ( self::shouldWeShowUnprefixedError( $newTitle ) ) {
 			# there should be an error with the new page title
@@ -790,6 +793,7 @@ class WikimediaIncubator implements
 		$out->setHTMLTitle( wfMessage( 'pagetitle', $infopage->mFormatTitle )->text() );
 	}
 
+	/** @inheritDoc */
 	public function onParserFirstCallInit( $parser ) {
 		$parser->setFunctionHook( 'infopage', [ self::class, 'renderParserFunction' ] );
 	}

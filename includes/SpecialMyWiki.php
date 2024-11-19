@@ -22,6 +22,7 @@ class SpecialMyWiki extends UnlistedSpecialPage {
 		parent::__construct( 'MyWiki' );
 	}
 
+	/** @inheritDoc */
 	public function execute( $subpage ) {
 		$title = '';
 		// Remove a single initial colon from the subpage if there are any.
