@@ -29,6 +29,7 @@ class WikimediaIncubatorSecondaryAuthenticationProvider
 		$this->userOptionsManager = $userOptionsManager;
 	}
 
+	/** @inheritDoc */
 	public function getAuthenticationRequests( $action, array $options ) {
 		if ( $action === AuthManager::ACTION_CREATE ) {
 			return [ new WikimediaIncubatorAuthenticationRequest ];
@@ -37,10 +38,12 @@ class WikimediaIncubatorSecondaryAuthenticationProvider
 		return [];
 	}
 
+	/** @inheritDoc */
 	public function beginSecondaryAuthentication( $user, array $reqs ) {
 		return AuthenticationResponse::newAbstain();
 	}
 
+	/** @inheritDoc */
 	public function beginSecondaryAccountCreation( $user, $creator, array $reqs ) {
 		global $wmincPref;
 

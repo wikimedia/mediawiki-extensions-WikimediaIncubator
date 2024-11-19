@@ -40,6 +40,7 @@ class WikimediaIncubatorAuthenticationRequest extends AuthenticationRequest {
 		];
 	}
 
+	/** @inheritDoc */
 	public function loadFromSubmission( array $data ) {
 		global $wmincProjects;
 

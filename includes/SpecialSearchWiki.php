@@ -42,6 +42,7 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 		$this->languageFactory = $languageFactory;
 	}
 
+	/** @inheritDoc */
 	public function getDescription() {
 		return $this->msg( 'wminc-searchwiki' );
 	}

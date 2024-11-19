@@ -92,6 +92,7 @@ class TestWikiRC implements
 		// If "none" is selected, display normal recent changes
 	}
 
+	/** @inheritDoc */
 	public function onSpecialRecentChangesPanel( &$items, $opts ) {
 		global $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
 
