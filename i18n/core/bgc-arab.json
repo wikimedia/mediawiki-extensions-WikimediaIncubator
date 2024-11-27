@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"امین اکبر"
+		]
+	},
+	"wminc-desc": "ویکیمیڈیا انکوبیٹر کی خاطر ٹسٹ ویکی سسٹم",
+	"wminc-manual": "مینول",
+	"wminc-listwikis": "ویکیاں کی لسٹ",
+	"wminc-testwiki": "ٹسٹ ویکی:",
+	"wminc-testwiki-code": "ٹسٹ ویکی کی بولی",
+	"wminc-testwiki-none": "ساری ویکیاں",
+	"wminc-infopage-title-p": "$1 ویکیپیڈیا",
+	"wminc-infopage-title-b": "$1 ویکی کتاباں",
+	"wminc-infopage-title-t": "$1 وکشنری",
+	"wminc-infopage-title-n": "$1 ویکی خبراں"
+}
