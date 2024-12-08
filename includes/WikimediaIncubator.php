@@ -290,7 +290,7 @@ class WikimediaIncubator implements
 				array_push( $listProjects, $projectCode );
 			}
 		}
-		$listProjects = array_map( [ __CLASS__, 'preg_quote_slash' ], $listProjects );
+		$listProjects = array_map( [ __CLASS__, 'pregQuoteSlash' ], $listProjects );
 		if ( !preg_match( '/^W(' . implode( '|', $listProjects ) . ')\/[a-z-]+' .
 			( $onlyInfoPage ? '$/' : '(\/.+)?$/' ), $title ) ) {
 			$data['error'] = 'invalidprefix';
@@ -504,7 +504,7 @@ class WikimediaIncubator implements
 		global $wmincTestWikiNamespaces, $wmincProjectSite, $wmincPseudoCategoryNSes;
 		$prefixdata = self::analyzePrefix( $title->getText() );
 		$ns = $title->getNamespace();
-		$categories = array_map( [ __CLASS__, 'preg_quote_slash' ], $wmincPseudoCategoryNSes );
+		$categories = array_map( [ __CLASS__, 'pregQuoteSlash' ], $wmincPseudoCategoryNSes );
 		if ( !$prefixdata['error'] ) {
 			# no error in prefix -> no error to show
 			return false;
@@ -1083,7 +1083,7 @@ class WikimediaIncubator implements
 		}
 	}
 
-	private static function preg_quote_slash( string $str ): string {
+	private static function pregQuoteSlash( string $str ): string {
 		return preg_quote( $str, '/' );
 	}
 

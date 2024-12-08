@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <ruleset>
-	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
-		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
-	</rule>
+	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki" />
 	<rule ref="MediaWiki.NamingConventions.ValidGlobalName">
 		<properties>
 			<property name="ignoreList" type="array" value="$wmincProjects,$wmincPref,$wmincMultilingualProjects,$wmincProjectSite,$wmincTestWikiNamespaces,$wmincExistingWikis,$wmincLangCodeLength,$wmincClosedWikis,$wmincPseudoCategoryNSes" />

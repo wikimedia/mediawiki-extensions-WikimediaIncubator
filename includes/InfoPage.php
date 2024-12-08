@@ -222,7 +222,7 @@ class InfoPage {
 	 * @param string $content
 	 * @return string the core HTML for the info page
 	 */
-	public function StandardInfoPage( $beforetitle, $aftertitle, $content ) {
+	public function standardInfoPage( $beforetitle, $aftertitle, $content ) {
 		return Html::rawElement( 'div', [ 'class' => 'wminc-infopage plainlinks',
 			'lang' => $this->userLang->getCode(), 'dir' => $this->userLang->getDir() ],
 			$beforetitle .
@@ -264,7 +264,7 @@ class InfoPage {
 				wfMessage( 'wminc-infopage-option-multilingual' )->parse() .
 				$this->listMultilingualProjects() )
 		);
-		return $this->StandardInfoPage( $this->showWelcome(), '', $content );
+		return $this->standardInfoPage( $this->showWelcome(), '', $content );
 	}
 
 	/**
@@ -320,7 +320,7 @@ class InfoPage {
 		$content .= Html::rawElement( 'ul', [ 'class' => 'wminc-infopage-options' ],
 			Html::rawElement( 'li', [], wfMessage( 'wminc-infopage-option-sisterprojects-other' )
 				->parseAsBlock() . $this->listOtherProjects() ) );
-		return $this->StandardInfoPage( '', $gotoMainPage, $content );
+		return $this->standardInfoPage( '', $gotoMainPage, $content );
 	}
 
 	/**
@@ -361,6 +361,6 @@ class InfoPage {
 				wfMessage( 'wminc-infopage-option-multilingual' )->parseAsBlock() .
 				$this->listMultilingualProjects() )
 		);
-		return $this->StandardInfoPage( $this->showWelcome(), $gotoSubdomain, $content );
+		return $this->standardInfoPage( $this->showWelcome(), $gotoSubdomain, $content );
 	}
 }
