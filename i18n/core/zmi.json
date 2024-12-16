@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zahirulnukman"
+		]
+	},
+	"wminc-desc": "Sistem wiki cocubo untuk Pongoram Wikimedia",
+	"wminc-manual": "Podoman",
+	"wminc-listwikis": "Sonaghai wiki",
+	"wminc-testwiki": "Wiki cocubo:",
+	"wminc-testwiki-code": "Bahaso wiki cocubo:",
+	"wminc-testwiki-none": "Semuo wiki",
+	"wminc-testwiki-site": "(Mentenen)",
+	"wminc-recentchanges-all": "Semuo poghubahan nijam"
+}
