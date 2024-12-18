@@ -8,7 +8,8 @@
 			"Pizza1016",
 			"Tofeiku",
 			"Ultron90",
-			"Yosri"
+			"Yosri",
+			"Zahirulnukman"
 		]
 	},
 	"wminc-desc": "Sistem wiki ujian untuk Pengeram Wikimedia",
@@ -78,7 +79,7 @@
 	"wminc-infopage-title-p": "$1 Wikipedia",
 	"wminc-infopage-title-b": "$1 Wikibuku",
 	"wminc-infopage-title-t": "$1 Wikikamus",
-	"wminc-infopage-title-q": "$1 Wikipetikan",
+	"wminc-infopage-title-q": "$1 Wikipetik",
 	"wminc-infopage-title-n": "$1 Wikiberita",
 	"wminc-infopage-title-s": "$1 Wikisumber",
 	"wminc-infopage-title-v": "$1 Wikiversiti",

@@ -4,7 +4,8 @@
 			"Anakmalaysia",
 			"Hakimi97",
 			"Tofeiku",
-			"Ultron90"
+			"Ultron90",
+			"Zahirulnukman"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Bahasa \"$3\"]] merupakan salah satu [[wikipedia:ISO 639 macrolanguage|bahasa makro]] yang terdiri daripada beberapa ahli bahasa seperti berikut:",
@@ -51,6 +52,9 @@
 	"wminc-infopage-title-status-open": "Laman ini merupakan wiki ujian terbuka di Wikimedia Pengeram.",
 	"wminc-infopage-title-status-tocreate": "Laman ini merupakan wiki ujian terbuka di Wikimedia Pengeram.",
 	"wminc-infopage-title-status-toimport": "Laman ini merupakan sebuah wiki ujian di Wikimedia Pengeram yang akan diimport ke sini.",
+	"wminc-infopage-content-project-b": "Wikibuku",
+	"wminc-infopage-content-project-q": "Wikipetik",
 	"wminc-infopage-content-project-s": "Wikisumber",
-	"wminc-infopage-content-project-t": "Wikikamus"
+	"wminc-infopage-content-project-t": "Wikikamus",
+	"wminc-infopage-content-project-y": "Wikilayar"
 }
