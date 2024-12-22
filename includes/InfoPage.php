@@ -94,7 +94,8 @@ class InfoPage {
 		$this->mPortal = WikimediaIncubator::getSubdomain( $user, 'www', $this->mProjectCode );
 		$this->mIsSister = $wmincProjects[$this->mProjectCode]['sister'];
 		$this->mSubStatus = '';
-		$this->mThisLangData = [ 'type' => 'valid' ]; # For later code check feature
+		# For later code check feature
+		$this->mThisLangData = [ 'type' => 'valid' ];
 		$this->userLang = RequestContext::getMain()->getLanguage();
 		$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 		$name = $languageNameUtils->getLanguageName(
@@ -105,7 +106,7 @@ class InfoPage {
 		$this->mLangName = $name ?:
 			$languageNameUtils->getLanguageName( $this->mLangCode, 'en', LanguageNameUtils::ALL );
 		$titleParam = $this->mLangName ?:
-			wfMessage( 'quotation-marks', $this->mLangCode )->text(); # Name, else code
+			wfMessage( 'quotation-marks', $this->mLangCode )->text();
 		# Give grep a chance to find the usages:
 		# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t,
 		# wminc-infopage-title-q, wminc-infopage-title-n, wminc-infopage-title-s,
@@ -133,7 +134,8 @@ class InfoPage {
 		$url = null, $lang = null, $mul = false
 	) {
 		$lang = $lang ?: $this->mLangCode;
-		if ( !$mul ) { // for non-multilingual wikis
+		if ( !$mul ) {
+			// for non-multilingual wikis
 			$getDbStatus = WikimediaIncubator::getDBState(
 				[ 'error' => null, 'lang' => $lang, 'project' => $project ]
 			);

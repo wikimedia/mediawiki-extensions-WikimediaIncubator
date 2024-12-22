@@ -109,7 +109,8 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 			$getLangCodes[$urlTestWiki['lang']] = true;
 		}
 
-		ksort( $getLangCodes ); // sorting by language code is not ideal, but well
+		// sorting by language code is not ideal, but well
+		ksort( $getLangCodes );
 
 		$showLanguages = [];
 		$linkRenderer = $this->getLinkRenderer();
