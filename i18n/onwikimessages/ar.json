@@ -4,7 +4,8 @@
 			"Asma",
 			"FiberAhmed",
 			"MRidhaAJ",
-			"زكريا"
+			"زكريا",
+			"Meno25"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|اللغة \"$3\"]] [[wikipedia:ISO 639 macrolanguage|لغة كبرى]]، تشمل اللغات الصغرى التالية:",
@@ -32,6 +33,7 @@
 	"wminc-gadget-iw-add-wikidata": "أضف رابط ويكي بيانات",
 	"wminc-gadget-iw-dialog-cancel": "ألغِ",
 	"wminc-gadget-iw-dialog-publish": "انشر",
+	"wminc-gadget-iw-dialog-title": "أضف وصلة إنترويكي",
 	"wminc-gadget-iw-dialog-text": "استخدم هذا النموذج لإضافة روابط إنترويكي عبر عنصر ويكي بيانات. ما عليك سوى لصق معرّف عنصر ويكي بيانات أو مسار لعنصر أو مقالة موجودة بلغة أخرى أدناه واضغط على \"{{int: wminc-gadget-iw-panel-publish}}\".",
 	"wminc-gadget-iw-dialog-qid-placeholder": "على سبيل المثال $1",
 	"wminc-gadget-iw-dialog-editpage": "عدل الصفحة",
@@ -39,6 +41,8 @@
 	"wminc-gadget-iw-dialog-replace-editinstead": "إن لم يكن ذلك صحيحًا، فيرجى تعديل الصفحة لإصلاح الارتباط يدويًا.",
 	"wminc-gadget-iw-dialog-learn-more": "تعلم المزيد عن ويكي بيانات",
 	"wminc-gadget-iw-dialog-wikidata-search": "ابحث في ويكي بيانات",
+	"wminc-gadget-iw-error-title": "خطأ في أداة Interwiki",
+	"wminc-gadget-iw-error-invalid": "إن معرف Wikidata الذي أدخلته أو الصفحة المرتبطة به غير موجودة، أو أن الصفحة غير متصلة بـ Wikidata. يُرجى المحاولة مرة أخرى.",
 	"wminc-gadget-iw-error-reload": "يرجى إعادة تحميل الصفحة وحاول مرة أخرى.",
 	"wminc-gadget-iw-editsummary": "إضافة روابط إنترويكي إلى [[d:$1]]",
 	"tag-gadget-interwiki": "أداة إنترويكي",
