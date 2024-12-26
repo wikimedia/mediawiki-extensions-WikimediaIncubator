@@ -74,7 +74,8 @@ class ListUsersTestWiki implements
 		$testwiki = WikimediaIncubator::getUrlParam();
 		$project = self::getProjectInput();
 		if ( !$project && !$testwiki ) {
-			return; # no input or invalid input
+			# no input or invalid input
+			return;
 		}
 		global $wmincPref;
 		$query['tables']['p1'] = 'user_properties';
@@ -83,7 +84,8 @@ class ListUsersTestWiki implements
 			'p1.up_value' => $project ? $project['short'] : $testwiki['project']
 		] ];
 		if ( $project ) {
-			return; # project site doesn't need language code = returning
+			# project site doesn't need language code = returning
+			return;
 		}
 		$query['tables']['p2'] = 'user_properties';
 		$query['join_conds']['p2'] = [ 'JOIN', [ 'user_id=p2.up_user',

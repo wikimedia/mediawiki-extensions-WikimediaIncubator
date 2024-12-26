@@ -229,7 +229,8 @@ class WikimediaIncubator implements
 			return false;
 		}
 		if ( $code == 'be-x-old' ) {
-			return true; # one exception... waiting to be renamed to be-tarask
+			# one exception... waiting to be renamed to be-tarask
+			return true;
 		}
 		return (bool)preg_match( '/^[a-z][a-z][a-z]?(-[a-z]+)?$/', $code );
 	}
@@ -272,7 +273,8 @@ class WikimediaIncubator implements
 		} else {
 			# get the x from Wx/...
 			$data['project'] = $titleparts[0][1] ?? '';
-			$data['lang'] = $titleparts[1]; # language code
+			# language code
+			$data['lang'] = $titleparts[1];
 			$data['prefix'] = 'W' . $data['project'] . '/' . $data['lang'];
 			# check language code
 			if ( !self::validateLanguageCode( $data['lang'] ) ) {
@@ -293,13 +295,15 @@ class WikimediaIncubator implements
 			( $onlyInfoPage ? '$/' : '(\/.+)?$/' ), $title ) ) {
 			$data['error'] = 'invalidprefix';
 		}
-		if ( !$onlyInfoPage && $data['error'] != 'invalidprefix' ) { # there is a Page_title
+		if ( !$onlyInfoPage && $data['error'] != 'invalidprefix' ) {
+			# there is a Page_title
 			// @phan-suppress-next-line PhanTypePossiblyInvalidDimOffset
-			$prefixn = strlen( $data['prefix'] . '/' ); # number of chars in prefix
+			$prefixn = strlen( $data['prefix'] . '/' );
 			# get Page_title from Wx/xx/Page_title
 			$data['realtitle'] = substr( $title, $prefixn );
 		}
-		return $data; # return an array with information
+		# return an array with information
+		return $data;
 	}
 
 	/**
@@ -352,12 +356,14 @@ class WikimediaIncubator implements
 		global $wmincPref, $wmincProjects;
 		$url = self::getUrlParam();
 		if ( $project ) {
-			$r = $project; # Precedence to given value
+			# Precedence to given value
+			$r = $project;
 		} elseif ( $url ) {
-			$r = $url['project']; # Otherwise URL &testwiki= if set
+			# Otherwise URL &testwiki= if set
+			$r = $url['project'];
 		} else {
 			$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
-			$r = $userOptionsLookup->getOption( $user, $wmincPref . '-project' ); # Defaults to preference
+			$r = $userOptionsLookup->getOption( $user, $wmincPref . '-project' );
 		}
 		$projects = $wmincProjects;
 		foreach ( $projects as $projectCode => $metadata ) {
@@ -403,7 +409,8 @@ class WikimediaIncubator implements
 	 */
 	public static function displayPrefix( $project = '', $code = '', $allowSister = false ) {
 		global $wmincProjects;
-		$user = RequestContext::getMain()->getUser(); // A lot of callers lack context
+		// A lot of callers lack context
+		$user = RequestContext::getMain()->getUser();
 		if ( $project && $code ) {
 			$projectvalue = $project;
 			$codevalue = $code;
@@ -420,7 +427,7 @@ class WikimediaIncubator implements
 		if ( self::isContentProject( $user, $projectvalue ) || $sister ) {
 			// if parameters are set OR it falls back to user pref and
 			// he has a content project pref set  -> return the prefix
-			return 'W' . $projectvalue . '/' . $codevalue; // return the prefix
+			return 'W' . $projectvalue . '/' . $codevalue;
 		} else {
 			// fall back to user pref with NO content pref set
 			// -> still provide the value (probably 'none' or 'inc')
@@ -653,7 +660,8 @@ class WikimediaIncubator implements
 		if ( !self::canWeCheckDB() ) {
 			return false;
 		} elseif ( !$prefix || $prefix['error'] ) {
-			return false; # shouldn't be, but you never know
+			# shouldn't be, but you never know
+			return false;
 		}
 		global $wmincProjects, $wgDummyLanguageCodes;
 		$dbLang = str_replace( '-', '_', $prefix['lang'] );
@@ -691,9 +699,11 @@ class WikimediaIncubator implements
 		$existingWikis = self::getExistingWikis();
 		$closed = self::getDBClosedWikis();
 		if ( !in_array( $db, $existingWikis ) ) {
-			return 'missing'; # not in the list
+			# not in the list
+			return 'missing';
 		} elseif ( is_array( $closed ) && in_array( $db, $closed ) ) {
-			return 'closed'; # in the list of closed wikis
+			# in the list of closed wikis
+			return 'closed';
 		}
 		return 'existing';
 	}
@@ -709,8 +719,8 @@ class WikimediaIncubator implements
 		$title = $article->getTitle();
 		$prefix = self::analyzePrefix(
 			$title,
-			true, /* only info pages */
-			true /* also sister projects */
+			true,
+			true
 		);
 		if ( !$prefix['error'] ) {
 			self::onShowMissingArticleForInfoPages( $article, $prefix );
@@ -829,7 +839,8 @@ class WikimediaIncubator implements
 		$infopage->mSubStatus = $infopage->mOptions['status'];
 
 		$parser->getOutput()->addModuleStyles( [ 'WikimediaIncubator.InfoPage' ] );
-		$parser->getOptions()->getUserLangObj(); # we have to split the cache by language
+		# we have to split the cache by language
+		$parser->getOptions()->getUserLangObj();
 
 		# Set <h1> heading
 		$parser->getOutput()->setTitleText( htmlspecialchars( $infopage->mFormatTitle ) );
@@ -854,8 +865,8 @@ class WikimediaIncubator implements
 	public function onEditFormPreloadText( &$text, $title ) {
 		$prefix = self::analyzePrefix(
 			$title,
-			true, /* only info page */
-			false /* no sister projects */
+			true,
+			false
 		);
 		if ( !$prefix['error'] ) {
 			$text = wfMessage( 'wminc-infopage-prefill', $prefix['prefix'] )->plain();
@@ -894,14 +905,17 @@ class WikimediaIncubator implements
 			);
 		}
 		if ( $title->exists() ) {
-			return $title; # If it exists, use it
+			# If it exists, use it
+			return $title;
 		}
 		$mainpage = $prefix !== null ? $prefix . '/Main_Page' : 'Main_Page';
 		$title2 = Title::newFromText( $mainpage );
 		if ( $title2->exists() ) {
-			return $title2; # Try the English "Main Page"
+			# Try the English "Main Page"
+			return $title2;
 		}
-		return $title; # Nothing exists, use the original again
+		# Nothing exists, use the original again
+		return $title;
 	}
 
 	/**
@@ -971,7 +985,7 @@ class WikimediaIncubator implements
 	 * @param mixed $userLang Unused, T299369
 	 */
 	public function onPageContentLanguage( $title, &$pageLang, $userLang ) {
-		$prefix = self::analyzePrefix( $title, /* onlyInfoPage*/ false );
+		$prefix = self::analyzePrefix( $title, false );
 		if ( !$prefix['error'] && !self::validatePrefix( $title, true ) ) {
 			$pageLang = $this->languageFactory->getLanguage( $prefix['lang'] );
 		}
@@ -1019,7 +1033,7 @@ class WikimediaIncubator implements
 		} elseif ( self::getDBState( $newTitleData ) == 'existing' ) {
 			# the wiki already exists
 			$link = self::getSubdomain(
-				RequestContext::getMain()->getUser(), // No context
+				RequestContext::getMain()->getUser(),
 				$newTitleData['lang'], $newTitleData['project'],
 				( $title->getNsText() ? $title->getNsText() . ':' : '' ) .
 				( $newTitleData['realtitle'] ?? $title->getText() )
