@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Es Krim 5 Juta Rasa"
+			"Es Krim 5 Juta Rasa",
+			"Jawadywn"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Bahasa \"$3\"]] joda da [[wikipedia:ISO 639 macrolanguage|bahasa makro]], sai terdiri jak bahasa-bahasa anggota juk sa:",
@@ -18,9 +19,9 @@
 	"wminc-custom-newarticletext-withprefix-4": "Tambahko munih awalan guk kahikan mu: <code><nowiki>[[Page title]]</nowiki></code> sampai <code><nowiki>[[Wx/xx/Page title]]</nowiki></code> rik <code><nowiki>{{Page title}}</nowiki></code> jadi <code><nowiki>{{Wx/xx/Page title}}</nowiki></code>.",
 	"wminc-custom-newarticletext-withprefix-5": "Untuk nggawiko hasa sacara otomatis, Niku pandai nggunako [[$1|Tambahko gejet Awalan]].",
 	"wminc-custom-tb-incorrect-title-title": "Niku nyuba ngguwai halaman rik judul sai mak bonor.",
-	"wminc-custom-tb-incorrect-title-text": "Judul sina kamungkinan makka [[$1|awalan]] atawa dilom format salah sai barih (huruf kapital di awalan, garis miring di akhir, rbn.).\n\nAman Niku ratong guk ja sa jak halaman barih, payu muloh rik holaui pranalana, raduna guwai halaman rik golar sai bonor. Aman Niku nyuba ngguwai halaman sacara langsung, payu guwai halamanna rik golar sai bonor.\n\nAman hasa ngahalangi Niku jak ngguwai halaman sai panggasa mu format judulna bonor, payu [[$2|unjuk pandai pangurus]].",
+	"wminc-custom-tb-incorrect-title-text": "Judul sina kamungkinan makka [[$1|awalan]] atawa dilom format salah say barih (huruf kapital di awalan, garis miring di akhir, rbn.).\n\nAman Niku ratong guk ja sa jak halaman barih, payu muloh rik holaui pranalana, raduna guway halaman rik golar say bonor. Aman Niku nyuba ngguway halaman sacara langsung, payu guwai halamanna rik golar say bonor.\n\nAman hasa ngahalangi Niku jak ngguway halaman say panggasa mu format judulna bonor, payu [[$2|unjuk pandai pangurus]].",
 	"wminc-custom-tb-invalid-code-title": "Niku nyuba ngguwai halaman makka [[$1|kode ISO 639-1 atawa -3 code]] sai sah.",
-	"wminc-custom-tb-invalid-code-text": "Kode hasa antara mak sah atawa mak tikuruk kode untuk bahasa sai titarima untuk proyek Wikimedia anyar.\n\nAman Niku ratong guk ja sa jak halaman barih, payu muloh rik holaui pranalana, raduna guwai halaman rik golar sai bonor.\n\nAman hasa ngahalangi Niku jak ngguwai halaman sai panggasa mu uwat kode ISO 639-1 atawa -3 sai sah atawa ngka bahasa sai kok titarima, payu [[$1|unjuk pandai pangurus]].",
+	"wminc-custom-tb-invalid-code-text": "Kode hasa antara mak sah atawa mak tikuruk kode untuk bahasa say titarima untuk proyek Wikimedia anyar.\n\nAman Niku ratong guk ja sa jak halaman barih, payu muloh rik holaui pranalana, raduna guwai halaman rik golar sai bonor.\n\nAman hasa ngahalangi Niku jak ngguway halaman sai panggasa mu uwat kode ISO 639-1 atawa -3 sai sah atawa ongka bahasa say kok titarima, payu [[$1|unjuk panday pangingun]].",
 	"wminc-custom-tb-space-colon": "Lah alasan teknis, judul mak hingan tiawali rik spasi atawa titik rua.",
 	"gadget-addprefix": "<strong>AddPrefix:</strong> Sacara otomatis nambahko prefiks di kahikan harak ngguwai halaman.",
 	"wminc-gadget-addprefix-help": "Niku makin da makai awalan harak ngedit halaman hasa.  Ina titambahko sacara otomatis harak Niku ngapublikasiko halaman.",
@@ -81,7 +82,7 @@
 	"wminc-infopage-content-main-category": "Kategori utama",
 	"wminc-infopage-content-all-pages": "Kaunyin halaman di tes wiki hasa",
 	"wminc-infopage-content-contributors": "Kontributor",
-	"wminc-infopage-content-administroters": "Pangurus:",
+	"wminc-infopage-content-administroters": "Pangingun:",
 	"wminc-infopage-content-project": "Proyek: $1",
 	"wminc-infopage-content-project-b": "Wikibuku",
 	"wminc-infopage-content-project-n": "Wikibarita",
