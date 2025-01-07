@@ -4,7 +4,7 @@
 			"Jawadywn"
 		]
 	},
-	"wminc-desc": "Sistem wiki jajalan gawé' Wikimedia Incubator",
+	"wminc-desc": "Sistem wiki jajalan gawé' Pereman Wikimédia",
 	"wminc-manual": "Panduan",
 	"wminc-listwikis": "Lîs wiki",
 	"wminc-testwiki": "Wiki jajalan:",
@@ -61,9 +61,13 @@
 	"wminc-infopage-title-s": "Wikisumber $1",
 	"wminc-infopage-title-v": "Wikikulia $1",
 	"wminc-infopage-title-y": "Wikipelesir $1",
+	"wminc-infopage-welcome": "Diatûri ke Pereman Wikimédia, yola dio siko' peroyék dari Yayasan Wikimédia ([[{{MediaWiki:Aboutpage}}|Pekaro]])",
 	"wminc-infopage-missingwiki-text": "$1 makî baso ini ni lûm ado ma'ini.",
 	"wminc-infopage-createmainpage": "Maso'ke kato \"Muaro Lawang\" di jerû baso ini:",
 	"wminc-infopage-contribute": "Amen Dûlûr tereti baso ini, Dûlûr diatûri na' mélo' beréjo!",
-	"wminc-infopage-status-open": "Ini ni yola wiki yang paca' digawîke di Wikimedia Incubator.",
+	"wminc-infopage-status-open": "Ini ni yola wiki yang paca' digawîke di Pereman Wikimédia.",
+	"wminc-infopage-status-imported": "Wiki Pereman ini ni dijulu'ke dari $1, sangkan dionyo la ditûtûp.",
+	"wminc-infopage-status-approved": "Wiki Pereman ini ni la diiyoke [[meta:Special:MyLanguage/Language_committee|kûmité baso]], mangko dio la na' digawé'la ini.",
+	"wminc-infopage-status-beforeincubator": "Peroyék ini ni digawé' sebelûm Pereman Wikimédia ado; ma'ini la paca' disanjo di $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Peroyék ni ado tecager di $1."
 }
