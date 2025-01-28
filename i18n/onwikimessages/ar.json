@@ -5,6 +5,7 @@
 			"FiberAhmed",
 			"MRidhaAJ",
 			"Meno25",
+			"XIDME",
 			"زكريا"
 		]
 	},
@@ -31,7 +32,7 @@
 	"wminc-gadget-addprefix-toggle": "إظهار/إخفاء البادئة",
 	"gadget-interwiki": "<strong>Interwiki:</strong> إضافة وظائف لإضافة روابط اللغات وعرضها من ويكي بيانات.",
 	"wminc-gadget-iw-add-wikidata": "أضف رابط ويكي بيانات",
-	"wminc-gadget-iw-dialog-cancel": "ألغِ",
+	"wminc-gadget-iw-dialog-cancel": "إلغاء",
 	"wminc-gadget-iw-dialog-publish": "انشر",
 	"wminc-gadget-iw-dialog-title": "أضف وصلة إنترويكي",
 	"wminc-gadget-iw-dialog-text": "استخدم هذا النموذج لإضافة روابط إنترويكي عبر عنصر ويكي بيانات. ما عليك سوى لصق معرّف عنصر ويكي بيانات أو مسار لعنصر أو مقالة موجودة بلغة أخرى أدناه واضغط على \"{{int: wminc-gadget-iw-panel-publish}}\".",
