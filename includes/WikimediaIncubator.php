@@ -505,21 +505,26 @@ class WikimediaIncubator implements
 		$prefixdata = self::analyzePrefix( $title->getText() );
 		$ns = $title->getNamespace();
 		$categories = array_map( [ __CLASS__, 'pregQuoteSlash' ], $wgWmincPseudoCategoryNSes );
-		if ( !$prefixdata['error'] ) {
+
+		$showError = true;
+		if (
 			# no error in prefix -> no error to show
-			return false;
-		} elseif ( self::displayPrefix() == $wgWmincProjectSite['short'] ) {
-			# If user has "project" (Incubator) as test wiki preference, it isn't needed to check
-			return false;
-		} elseif ( !in_array( $ns, $wgWmincTestWikiNamespaces ) ) {
-			# OK if it's not in one of the content namespaces
-			return false;
-		} elseif ( ( $ns == NS_CATEGORY || $ns == NS_CATEGORY_TALK ) &&
-			preg_match( '/^(' . implode( '|', $categories ) . '):.+$/', $title->getText() ) ) {
-			# allowed unprefixed categories
-			return false;
+			!$prefixdata['error'] ||
+			# The user has "project" (Incubator) set as their test wiki
+			self::displayPrefix() === $wgWmincProjectSite['short'] ||
+			# The page is not in a test wiki namespace
+			!$title->inNamespaces( $wgWmincTestWikiNamespaces ?? [] ) ||
+			# Unprefixed pseudocategories are allowed
+			( $title->inNamespaces( NS_CATEGORY, NS_CATEGORY_TALK ) &&
+			preg_match( '/^(' . implode( '|', $categories ) . '):.+$/', $title->getText() ) ) ||
+			# The page is a talk page of a pre-existing subject page
+			( $title->isTalkPage() && $title->getSubjectPage()->isKnown() ) ||
+			# The page is a subpage of an already existing non-mainspace page
+			( $ns !== 0 && $title->isSubpage() && $title->getBaseTitle()->isKnown() )
+		) {
+			$showError = false;
 		}
-		return true;
+		return $showError;
 	}
 
 	/**
