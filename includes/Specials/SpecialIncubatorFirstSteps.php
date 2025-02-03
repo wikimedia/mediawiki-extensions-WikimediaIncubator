@@ -12,8 +12,9 @@
  * @ingroup SpecialPage
  */
 
-namespace MediaWiki\Extension\WikimediaIncubator;
+namespace MediaWiki\Extension\WikimediaIncubator\Specials;
 
+use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
 use MediaWiki\Html\Html;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\Message\Message;

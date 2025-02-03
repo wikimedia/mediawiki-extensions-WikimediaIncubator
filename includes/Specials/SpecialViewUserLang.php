@@ -11,8 +11,9 @@
  * @author Robin Pepermans (SPQRobin)
  */
 
-namespace MediaWiki\Extension\WikimediaIncubator;
+namespace MediaWiki\Extension\WikimediaIncubator\Specials;
 
+use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
 use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Languages\LanguageNameUtils;

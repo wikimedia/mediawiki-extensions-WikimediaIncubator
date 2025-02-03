@@ -11,8 +11,9 @@
  * @author Jon Harald Søby
  */
 
-namespace MediaWiki\Extension\WikimediaIncubator;
+namespace MediaWiki\Extension\WikimediaIncubator\Specials;
 
+use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
 use MediaWiki\SpecialPage\UnlistedSpecialPage;
 use MediaWiki\Title\Title;
 
