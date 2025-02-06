@@ -3,18 +3,19 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Aushulz",
-			"Sarvaturi"
+			"Sarvaturi",
+			"GianAntonucci"
 		]
 	},
 	"wminc-desc": "Sistema wiki di test pi Wikimedia Incubator",
 	"wminc-manual": "Manuali",
-	"wminc-listwikis": "Elencu di wiki",
+	"wminc-listwikis": "Lista dî wiki",
 	"wminc-testwiki": "Wiki di prova:",
 	"wminc-testwiki-code": "Lingua dû wiki di prova:",
 	"wminc-testwiki-none": "Tutti li wiki",
 	"wminc-testwiki-site": "(Manutinzioni)",
 	"wminc-recentchanges-all": "Tutti li canciamenti ricenti",
-	"wminc-prefinfo-language": "La lingua dâ ntirfaccia - nnipinnenti dû tò wiki di prova",
+	"wminc-prefinfo-language": "La to lingua dâ ntirfacci - nnipinnenti dâ to wiki di prova",
 	"wminc-viewuserlang-user": "Nomu utenti:",
 	"wminc-viewuserlang-go": "Vai",
 	"wminc-userdoesnotexist": "L'utenti \"$1\" nun esisti.",
