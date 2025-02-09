@@ -243,7 +243,8 @@
 		"SpecialSearchPowerBox": "main",
 		"SpecialSearchSetupEngine": "main",
 		"GetDefaultSortkey": "main",
-		"BeforePageDisplay": "main"
+		"BeforePageDisplay": "main",
+		"AuthPreserveQueryParams": "main"
 	},
 	"HookHandlers": {
 		"main": {

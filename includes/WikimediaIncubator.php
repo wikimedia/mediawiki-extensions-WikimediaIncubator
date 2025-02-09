@@ -16,6 +16,7 @@ use Article;
 use HtmlArmor;
 use InvalidArgumentException;
 use MediaWiki\Actions\ActionEntryPoint;
+use MediaWiki\Auth\Hook\AuthPreserveQueryParamsHook;
 use MediaWiki\Content\Hook\PageContentLanguageHook;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Hook\ContributionsToolLinksHook;
@@ -77,7 +78,8 @@ class WikimediaIncubator implements
 	SpecialSearchPowerBoxHook,
 	SpecialSearchSetupEngineHook,
 	GetDefaultSortkeyHook,
-	BeforePageDisplayHook
+	BeforePageDisplayHook,
+	AuthPreserveQueryParamsHook
 {
 	// Used in places that expect the name of a project when no
 	// project has been selected.
@@ -1262,5 +1264,14 @@ class WikimediaIncubator implements
 				$out->setHTMLTitle( $pageTitleMsg );
 			}
 		}
+	}
+
+	/** @inheritDoc */
+	public function onAuthPreserveQueryParams( array &$params, array $options ) {
+		$request = RequestContext::getMain()->getRequest();
+		$params += [
+			'testwikiproject' => $request->getRawVal( 'testwikiproject' ),
+			'testwikicode' => $request->getRawVal( 'testwikicode' ),
+		];
 	}
 }
