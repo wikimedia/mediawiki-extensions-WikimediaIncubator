@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"DedeKurnn"
+		]
+	},
+	"wminc-desc": "Sistim wiki tés guwai Wikimédiya Inkubator",
+	"wminc-manual": "Manuwal",
+	"wminc-listwikis": "Daptar wiki",
+	"wminc-testwiki": "Wiki uji-cuba:",
+	"wminc-testwiki-code": "Basa wiki uji-cuba:",
+	"wminc-testwiki-none": "Unyin wiki",
+	"wminc-testwiki-site": "(Perawatan)",
+	"wminc-recentchanges-all": "Unyin perubahan ampai",
+	"wminc-prefinfo-language": "Basa antarpudakmu - mak tipengaruh jama wiki uji-cubamu",
+	"wminc-prefinfo-code": "Kode ISO 639 guwai basa sai lagi niku gawiko dija",
+	"wminc-prefinfo-project": "Pilih proyék Wikimédiya sai lagi Niku gawiko dija",
+	"wminc-prefinfo-error": "Niku milih sai proyék sai perlu sai kode basa."
+}
