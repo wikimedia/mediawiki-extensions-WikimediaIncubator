@@ -116,7 +116,7 @@
 			"value": false
 		}
 	},
-	"config_prefix": "wminc",
+	"config_prefix": "wgWminc",
 	"GroupPermissions": {
 		"test-sysop": {
 			"delete": true,

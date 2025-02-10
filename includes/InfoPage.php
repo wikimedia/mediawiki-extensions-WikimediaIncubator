@@ -85,14 +85,14 @@ class InfoPage {
 	 * @param UserIdentity $user
 	 */
 	public function __construct( $title, $prefixdata, UserIdentity $user ) {
-		global $wmincProjects;
+		global $wgWmincProjects;
 		$this->mTitle = $title;
 		$this->mPrefix = $prefixdata['prefix'];
 		$this->mLangCode = $prefixdata['lang'];
 		$this->mProjectCode = $prefixdata['project'];
-		$this->mProjectName = $wmincProjects[$this->mProjectCode]['name'] ?? '';
+		$this->mProjectName = $wgWmincProjects[$this->mProjectCode]['name'] ?? '';
 		$this->mPortal = WikimediaIncubator::getSubdomain( $user, 'www', $this->mProjectCode );
-		$this->mIsSister = $wmincProjects[$this->mProjectCode]['sister'];
+		$this->mIsSister = $wgWmincProjects[$this->mProjectCode]['sister'];
 		$this->mSubStatus = '';
 		# For later code check feature
 		$this->mThisLangData = [ 'type' => 'valid' ];
@@ -170,8 +170,8 @@ class InfoPage {
 	 * 					(Wikipedia, Wiktionary, ...)
 	 */
 	public function listOtherProjects() {
-		global $wmincProjects;
-		$otherProjects = $wmincProjects;
+		global $wgWmincProjects;
+		$otherProjects = $wgWmincProjects;
 		'@phan-var array $otherProjects';
 		unset( $otherProjects[$this->mProjectCode] );
 		$listOtherProjects = [];
@@ -192,14 +192,14 @@ class InfoPage {
 	 * 					(Meta, Commons, ...)
 	 */
 	public function listMultilingualProjects() {
-		global $wmincMultilingualProjects, $wmincProjects;
-		if ( !is_array( $wmincMultilingualProjects ) ) {
+		global $wgWmincMultilingualProjects, $wgWmincProjects;
+		if ( !is_array( $wgWmincMultilingualProjects ) ) {
 			return '';
 		}
 		$list = [];
-		foreach ( $wmincMultilingualProjects as $key => $name ) {
+		foreach ( $wgWmincMultilingualProjects as $key => $name ) {
 			# multilingual projects are listed under wikipedia
-			$fakeProject = key( $wmincProjects );
+			$fakeProject = key( $wgWmincProjects );
 			$url = WikimediaIncubator::getSubdomain( $this->user, $key, $fakeProject );
 			$list[$url] = '<li>' . $this->makeLogo( $fakeProject, true,
 				[ 'width' => 75 ], $url, $key, true ) . '</li>';

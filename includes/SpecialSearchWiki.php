@@ -52,12 +52,12 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	 * @param string|null $subpage parameter passed to the page or null
 	 */
 	public function execute( $subpage ) {
-		global $wmincProjects;
+		global $wgWmincProjects;
 
 		$this->setHeaders();
 
 		# Array of projects
-		$this->mProjects = $wmincProjects;
+		$this->mProjects = $wgWmincProjects;
 
 		# Queries
 		if ( $subpage ) {
