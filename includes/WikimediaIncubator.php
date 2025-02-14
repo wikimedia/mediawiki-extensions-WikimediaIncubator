@@ -1129,13 +1129,16 @@ class WikimediaIncubator implements
 	 * @return string
 	 */
 	private static function generateHtmlTitle( $namespace, $prefix, $realTitle, $displayTitle ) {
+		// Replace underscores with spaces
+		$namespace = str_replace( '_', ' ', $namespace );
+
 		// Is there an actual, valid {{DISPLAYTITLE}} on the page? If the
 		// $displayTitle *doesn't* contain the following string, there is.
 		// Validation of the display title is already done by the time the
 		// hook below is run, so what it returns can be considered safe HTML.
 		$useDisplayTitle = !preg_match( '/mw-page-title-main/', $displayTitle );
 
-		// If the display title contains the prefix uninterrupted, we can
+		// If the display title contains the prefix, uninterrupted, we can
 		// safely remove the prefix and attach the remainder to the prefix
 		// to form the full page title. This will allow future-proof
 		// display titles like {{DISPLAYTITLE:''{{PAGENAME}}''}} work
@@ -1147,14 +1150,14 @@ class WikimediaIncubator implements
 		$displayTitlePrefix = implode( '/', $displayTitleSliced ) . '/';
 		$displayTitleContainsPrefix = str_ends_with( $displayTitlePrefix, $prefix . '/' );
 
-		// If the display title doesn't contain the prefix uninterrupted,
+		// If the display title doesn't contain the uninterrupted prefix,
 		// we just return the display title without doing anything else.
 		// This is similar to how core deals with DISPLAYTITLE.
 		if ( $useDisplayTitle && !$displayTitleContainsPrefix ) {
 			return $displayTitle;
 		} elseif ( $useDisplayTitle ) {
 			$realTitle = preg_replace(
-				'~' . preg_quote( $prefix, '~' ) . '/~',
+				'~(' . preg_quote( $namespace, '~' ) . ':)?' . preg_quote( $prefix, '~' ) . '/~',
 				'',
 				$displayTitle,
 				1
