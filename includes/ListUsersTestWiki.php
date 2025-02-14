@@ -23,12 +23,12 @@ class ListUsersTestWiki implements
 	 * @return array|null
 	 */
 	public static function getProjectInput() {
-		global $wmincProjectSite, $wgRequest;
+		global $wgWmincProjectSite, $wgRequest;
 		$input = strtolower( $wgRequest->getVal( 'testwiki', '' ) );
-		if ( $input == strtolower( $wmincProjectSite['name'] )
-			|| $input == strtolower( $wmincProjectSite['short'] )
+		if ( $input == strtolower( $wgWmincProjectSite['name'] )
+			|| $input == strtolower( $wgWmincProjectSite['short'] )
 		) {
-			return $wmincProjectSite;
+			return $wgWmincProjectSite;
 		}
 		return null;
 	}
@@ -77,10 +77,10 @@ class ListUsersTestWiki implements
 			# no input or invalid input
 			return;
 		}
-		global $wmincPref;
+		global $wgWmincPref;
 		$query['tables']['p1'] = 'user_properties';
 		$query['join_conds']['p1'] = [ 'JOIN', [ 'user_id=p1.up_user',
-			'p1.up_property' => "$wmincPref-project",
+			'p1.up_property' => "$wgWmincPref-project",
 			'p1.up_value' => $project ? $project['short'] : $testwiki['project']
 		] ];
 		if ( $project ) {
@@ -89,7 +89,7 @@ class ListUsersTestWiki implements
 		}
 		$query['tables']['p2'] = 'user_properties';
 		$query['join_conds']['p2'] = [ 'JOIN', [ 'user_id=p2.up_user',
-			'p2.up_property' => "$wmincPref-code",
+			'p2.up_property' => "$wgWmincPref-code",
 			'p2.up_value' => $testwiki['lang']
 		] ];
 	}

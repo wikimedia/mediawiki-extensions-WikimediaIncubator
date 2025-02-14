@@ -45,7 +45,7 @@ class WikimediaIncubatorSecondaryAuthenticationProvider
 
 	/** @inheritDoc */
 	public function beginSecondaryAccountCreation( $user, $creator, array $reqs ) {
-		global $wmincPref;
+		global $wgWmincPref;
 
 		$req = AuthenticationRequest::getRequestByClass(
 			$reqs, WikimediaIncubatorAuthenticationRequest::class
@@ -53,8 +53,8 @@ class WikimediaIncubatorSecondaryAuthenticationProvider
 
 		if ( $req ) {
 			'@phan-var WikimediaIncubatorAuthenticationRequest $req';
-			$this->userOptionsManager->setOption( $user, $wmincPref . '-project', $req->testwikiproject );
-			$this->userOptionsManager->setOption( $user, $wmincPref . '-code', $req->testwikicode );
+			$this->userOptionsManager->setOption( $user, $wgWmincPref . '-project', $req->testwikiproject );
+			$this->userOptionsManager->setOption( $user, $wgWmincPref . '-code', $req->testwikicode );
 			$this->userOptionsManager->saveOptions( $user );
 		}
 

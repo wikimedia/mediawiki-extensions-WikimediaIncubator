@@ -32,11 +32,11 @@ class TestWikiRC implements
 	 * @return array
 	 */
 	private static function getValues( User $user ) {
-		global $wmincPref, $wgRequest;
+		global $wgWmincPref, $wgRequest;
 		$url = WikimediaIncubator::getUrlParam();
 		$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
-		$projectPref = $userOptionsLookup->getOption( $user, $wmincPref . '-project' ) ?? '';
-		$codePref = $userOptionsLookup->getOption( $user, $wmincPref . '-code' ) ?? '';
+		$projectPref = $userOptionsLookup->getOption( $user, $wgWmincPref . '-project' ) ?? '';
+		$codePref = $userOptionsLookup->getOption( $user, $wgWmincPref . '-code' ) ?? '';
 		$projectvalue = $url ? $url['project'] : $projectPref;
 		$codevalue = $url ? $url['lang'] : $codePref;
 		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $projectvalue ) );
@@ -58,7 +58,7 @@ class TestWikiRC implements
 	public function onChangesListSpecialPageQuery( $pageName, &$tables, &$fields, &$conds, &$query_options,
 		&$join_conds, $opts
 	) {
-		global $wmincProjectSite, $wmincTestWikiNamespaces;
+		global $wgWmincProjectSite, $wgWmincTestWikiNamespaces;
 
 		if ( $pageName !== 'Recentchanges' ) {
 			return;
@@ -73,7 +73,7 @@ class TestWikiRC implements
 		$opts->add( 'rc-testwiki-code', false );
 		$opts->setValue( 'rc-testwiki-code', $codevalue );
 
-		if ( $projectvalue == $wmincProjectSite['short'] ) {
+		if ( $projectvalue == $wgWmincProjectSite['short'] ) {
 			// If project site is selected, display all changes except test wiki changes
 			$conds[] = $dbr->expr(
 				'rc_title',
@@ -85,7 +85,7 @@ class TestWikiRC implements
 			// The next line (the phan-suppress one) is buggy some times. If phan-docker
 			// complains, try re-adding it by adding/removing the initial @.
 			// phan-suppress-next-line PhanPossiblyUndeclaredVariable
-			$conds['rc_namespace'] = $wmincTestWikiNamespaces;
+			$conds['rc_namespace'] = $wgWmincTestWikiNamespaces;
 			$conds[] = $dbr->expr( 'rc_title', IExpression::LIKE, new LikeValue( $prefix . '/', $dbr->anyString() ) )
 				->or( 'rc_title', '=', $prefix );
 		}
@@ -94,7 +94,7 @@ class TestWikiRC implements
 
 	/** @inheritDoc */
 	public function onSpecialRecentChangesPanel( &$items, $opts ) {
-		global $wmincProjects, $wmincProjectSite, $wmincLangCodeLength;
+		global $wgWmincProjects, $wgWmincProjectSite, $wgWmincLangCodeLength;
 
 		[ $projectvalue, $codevalue ] = self::getValues( RequestContext::getMain()->getUser() );
 		$opts->consumeValue( 'rc-testwiki-project' );
@@ -102,16 +102,16 @@ class TestWikiRC implements
 		$label = Html::label( wfMessage( 'wminc-testwiki' )->text(), 'rc-testwiki' );
 		$select = new XmlSelect( 'rc-testwiki-project', 'rc-testwiki-project', $projectvalue );
 		$select->addOption( wfMessage( 'wminc-testwiki-none' )->text(), 'none' );
-		foreach ( $wmincProjects as $prefix => $metadata ) {
+		foreach ( $wgWmincProjects as $prefix => $metadata ) {
 			if ( !$metadata['sister'] ) {
 				$select->addOption( $metadata['name'], $prefix );
 			}
 		}
-		$select->addOption( $wmincProjectSite['name'], $wmincProjectSite['short'] );
+		$select->addOption( $wgWmincProjectSite['name'], $wgWmincProjectSite['short'] );
 		$langcode = Html::input( 'rc-testwiki-code', $codevalue, 'text', [
 			'id' => 'rc-testwiki-code',
-			'size' => (int)$wmincLangCodeLength,
-			'maxlength' => (int)$wmincLangCodeLength,
+			'size' => (int)$wgWmincLangCodeLength,
+			'maxlength' => (int)$wgWmincLangCodeLength,
 		] );
 		$items['testwiki'] = [ $label, $select->getHTML() . ' ' . $langcode ];
 	}

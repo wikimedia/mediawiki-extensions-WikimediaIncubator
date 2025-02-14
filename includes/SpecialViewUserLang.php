@@ -110,7 +110,7 @@ class SpecialViewUserLang extends SpecialPage {
 	 * @param mixed $target user whose language and test wiki we're looking up
 	 */
 	public function showInfo( $target ) {
-		global $wmincPref, $wmincProjectSite;
+		global $wgWmincPref, $wgWmincProjectSite;
 		$user = User::newFromName( $target );
 		if ( $this->userNameUtils->isIP( $target ) || !$user || $user->isTemp() ) {
 			# show error if it is an IP address, or another error occurs
@@ -127,14 +127,14 @@ class SpecialViewUserLang extends SpecialPage {
 				$this->msg( 'wminc-userdoesnotexist', $target )->text() ) );
 			return;
 		}
-		$projectPref = $this->userOptionsLookup->getOption( $user, $wmincPref . '-project' );
+		$projectPref = $this->userOptionsLookup->getOption( $user, $wgWmincPref . '-project' );
 		$projectPref = $projectPref ?: 'none';
-		$codePref = $this->userOptionsLookup->getOption( $user, $wmincPref . '-code' );
+		$codePref = $this->userOptionsLookup->getOption( $user, $wgWmincPref . '-code' );
 		$prefix = WikimediaIncubator::displayPrefix( $projectPref, $codePref ?: 'none' );
 		if ( WikimediaIncubator::isContentProject( $this->getUser(), $projectPref ) ) {
 			$testwiki = $this->getLinkRenderer()->makeLink( Title::newFromText( $prefix ) );
-		} elseif ( $prefix == $wmincProjectSite['short'] ) {
-			$testwiki = htmlspecialchars( $wmincProjectSite['name'] );
+		} elseif ( $prefix == $wgWmincProjectSite['short'] ) {
+			$testwiki = htmlspecialchars( $wgWmincProjectSite['name'] );
 		} else {
 			$testwiki = $this->msg( 'wminc-testwiki-none' )->escaped();
 		}

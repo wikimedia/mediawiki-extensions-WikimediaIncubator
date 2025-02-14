@@ -1,14 +1,9 @@
 <?xml version="1.0"?>
 <ruleset>
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki" />
-	<rule ref="MediaWiki.NamingConventions.ValidGlobalName">
-		<properties>
-			<property name="ignoreList" type="array" value="$wmincProjects,$wmincPref,$wmincMultilingualProjects,$wmincProjectSite,$wmincTestWikiNamespaces,$wmincExistingWikis,$wmincLangCodeLength,$wmincClosedWikis,$wmincPseudoCategoryNSes" />
-		</properties>
-	</rule>
 	<rule ref="MediaWiki.Usage.ExtendClassUsage">
 		<properties>
-			<property name="nonConfigGlobals" type="array" value="$wmincProjects,$wmincPref,$wmincProjectSite" />
+			<property name="nonConfigGlobals" type="array" value="$wgWmincProjects,$wgWmincPref,$wgWmincProjectSite" />
 		</properties>
 	</rule>
 	<file>.</file>

@@ -30,7 +30,7 @@ class SpecialRandomByTest extends SpecialRandomPage {
 		NamespaceInfo $nsInfo,
 		UserOptionsLookup $userOptionsLookup
 	) {
-		global $wmincPref, $wmincProjectSite;
+		global $wgWmincPref, $wgWmincProjectSite;
 		$target = $this->getRequest()->getVal( 'testwiki', '' );
 		$target = WikimediaIncubator::analyzePrefix( $target );
 		$project = $target['project'] ?? '';
@@ -44,7 +44,7 @@ class SpecialRandomByTest extends SpecialRandomPage {
 				new LikeValue( WikimediaIncubator::displayPrefix( $project, $lang ) . '/', $dbr->anyString() )
 			);
 		} elseif (
-			$userOptionsLookup->getOption( $user, $wmincPref . '-project' ) == $wmincProjectSite['short']
+			$userOptionsLookup->getOption( $user, $wgWmincPref . '-project' ) == $wgWmincProjectSite['short']
 		) {
 			# project or help namespace
 			$this->extra['page_namespace'] = [ 4, 12 ];
