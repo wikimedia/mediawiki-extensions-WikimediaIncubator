@@ -43,14 +43,6 @@ class IncubatorUnitTest extends MediaWikiLangTestCase {
 		}
 	}
 
-	public function testOnTitleIsAlwaysKnown() {
-		# Assuming default configuration (Wikipedia = Wp; fictional Wz)
-		$title = Title::newFromText( 'Wp/nl' );
-		$this->assertTrue( $title->isKnown() );
-		$title = Title::newFromText( 'Wz/nl' );
-		$this->assertFalse( $title->isKnown() );
-	}
-
 	public static function provideOnPageContentLanguage() {
 		yield 'content under test prefix' => [ 'Wp/nl/Test', 'nl' ];
 		yield 'template under test prefix' => [ 'Template:Wp/be-tarask/Test', 'be-tarask' ];

@@ -29,7 +29,6 @@ use MediaWiki\Hook\ParserFirstCallInitHook;
 use MediaWiki\Hook\ParserGetVariableValueSwitchHook;
 use MediaWiki\Hook\SpecialSearchCreateLinkHook;
 use MediaWiki\Hook\SpecialSearchSetupEngineHook;
-use MediaWiki\Hook\TitleIsAlwaysKnownHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Language\Language;
 use MediaWiki\Languages\LanguageFactory;
@@ -69,7 +68,6 @@ class WikimediaIncubator implements
 	ShowMissingArticleHook,
 	EditFormPreloadTextHook,
 	MediaWikiPerformActionHook,
-	TitleIsAlwaysKnownHook,
 	ParserFirstCallInitHook,
 	PageContentLanguageHook,
 	ArticleParserOptionsHook,
@@ -958,19 +956,6 @@ class WikimediaIncubator implements
 			return false;
 		}
 		return true;
-	}
-
-	/**
-	 * Valid Wx/xyz info pages should be considered as existing pages
-	 * Note: TitleIsAlwaysKnown hook exists since 1.20
-	 * @param Title $title
-	 * @param bool &$isKnown
-	 */
-	public function onTitleIsAlwaysKnown( $title, &$isKnown ) {
-		$prefix = self::analyzePrefix( $title, true, true );
-		if ( !$prefix['error'] ) {
-			$isKnown = true;
-		}
 	}
 
 	/**
