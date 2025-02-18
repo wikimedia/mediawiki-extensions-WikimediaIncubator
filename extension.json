@@ -153,7 +153,7 @@
 	],
 	"SpecialPages": {
 		"ViewUserLang": {
-			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialViewUserLang",
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\Specials\\SpecialViewUserLang",
 			"services": [
 				"UserNamePrefixSearch",
 				"UserNameUtils",
@@ -161,9 +161,9 @@
 				"LanguageNameUtils"
 			]
 		},
-		"MyWiki": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialMyWiki",
+		"MyWiki": "MediaWiki\\Extension\\WikimediaIncubator\\Specials\\SpecialMyWiki",
 		"RandomByTest": {
-			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialRandomByTest",
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\Specials\\SpecialRandomByTest",
 			"services": [
 				"ConnectionProvider",
 				"NamespaceInfo",
@@ -171,14 +171,14 @@
 			]
 		},
 		"SearchWiki": {
-			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialSearchWiki",
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\Specials\\SpecialSearchWiki",
 			"services": [
 				"LanguageNameUtils",
 				"LanguageFactory"
 			]
 		},
 		"IncubatorFirstSteps": {
-			"class": "MediaWiki\\Extension\\WikimediaIncubator\\SpecialIncubatorFirstSteps",
+			"class": "MediaWiki\\Extension\\WikimediaIncubator\\Specials\\SpecialIncubatorFirstSteps",
 			"services": [
 				"LanguageNameUtils"
 			]

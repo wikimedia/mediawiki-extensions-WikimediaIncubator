@@ -1,7 +1,8 @@
 <?php
 
-namespace MediaWiki\Extension\WikimediaIncubator;
+namespace MediaWiki\Extension\WikimediaIncubator\Specials;
 
+use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
 use MediaWiki\Specials\SpecialRandomPage;
 use MediaWiki\Title\NamespaceInfo;
 use MediaWiki\User\Options\UserOptionsLookup;
