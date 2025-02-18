@@ -28,7 +28,7 @@
 	"wminc-viewuserlang-user": "Anv implijer :",
 	"wminc-viewuserlang-go": "Mont",
 	"wminc-userdoesnotexist": "N'eus ket eus an implijer \"$1\".",
-	"wminc-ip": "Ur chomlec'h IP eo \"$1\"",
+	"wminc-ip": "Ur chomlec'h IP pe un implijer berrbad eo \"$1\".",
 	"right-viewuserlang": "Gwelet yezh an implijer hag ar wiki testiñ",
 	"group-test-sysop": "Merourien ar wiki arnod",
 	"group-test-sysop-member": "{{GENDER:$1|merour|merourez}} ar wiki arnod",
