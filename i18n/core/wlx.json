@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zakaria Tunsung"
+		]
+	},
+	"wminc-desc": "Teesi wiki tuma ku Wikipiidia Inkubeeta",
+	"wminc-manual": "Buku ang wuno mansin tumbu",
+	"wminc-listwikis": "Wikihi yoe",
+	"wminc-testwiki": "Teesi wiki:",
+	"wminc-testwiki-code": "Teesi wiki kɔkɔri:",
+	"wminc-testwiki-none": "Wikihi jaa",
+	"wminc-testwiki-site": "(maalibu)",
+	"wminc-recentchanges-all": "Pampana tɛgibuhi jaa",
+	"wminc-prefinfo-language": "A niŋe kɔkɔri - yie u yoŋ niŋ i teesi wiki iŋaŋ",
+	"wminc-prefinfo-code": "A IS0 639 gondo seuri ku a kɔkɔri ŋa iŋ tuna niŋ tuma puoŋ kyɛ",
+	"wminc-prefinfo-project": "Lugi ihi a Wikimiidia tuma ni iŋ tuna niŋ tuma kyɛ",
+	"wminc-prefinfo-error": "Tuma ŋa iŋ lugi ihi ŋa tarɛɛ sori ka u tari kɔkɔri gondo seubiri."
+}
