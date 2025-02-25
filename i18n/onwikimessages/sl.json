@@ -58,7 +58,7 @@
 	"wminc-infopage-title-status-tocreate": "To je odobren testni viki v Inkubatorju Wikimedie.",
 	"wminc-infopage-title-status-toimport": "To je testni viki v Inkubatorju Wikimedie, ki ga bomo uvozili sem.",
 	"wminc-infopage-text-approved-prelangcom": "Zahtevani projekt je bil ustvarjen. Upoštevajte, da je bil ta zahtevek odobren pred uvedbo standardizirane [[$3|politike predlogov jezikov]] in se ne bi smel uporabljati kot model za prihodnje zahtevke (glejte tudi [[$1|dnevnik ustvarjanja spletnega mesta]]).",
-	"wminc-infopage-text-approved": "Ta testni viki je odobril [[$2|Jezikovni odbor]] (glejte tudi [[$1|dnevnik ustvarjanja spletnega mesta]]).",
+	"wminc-infopage-text-approved": "Ta testni viki je odobril [[$2|Jezikovni odbor]] (glejte tudi [[$1|dnevnik ustvarjanja spletnih mest]]).",
 	"wminc-infopage-text-default": "Manjkajoč ali napačen parameter »$4«. Za več informacij o predlogi glejte [[$5|tukaj]].",
 	"wminc-infopage-text-imported": "Ta viki je bil [[$6|uvožen]] po zaprtju vikija. Če želite (znova) zagnati ta projekt, lahko za začetek uporabite te strani.",
 	"wminc-infopage-text-invalidcode": "Ta testni viki je ime neveljavno oznako jezika [[$7|ISO 639]], zato je bil izbrisan. Morda je na voljo datoteka XML (vprašajte [[$8|administratorje]]), ki jo je mogoče prenesti v viki zunaj Wikimedie.",
