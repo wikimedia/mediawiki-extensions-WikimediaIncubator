@@ -19,8 +19,11 @@
 	"wminc-gadget-iw-dialog-editpage": "Уреди страницу",
 	"wminc-gadget-iw-dialog-learn-more": "Сазнајте више о Википодацима",
 	"wminc-gadget-iw-dialog-wikidata-search": "Претрага Википодатака",
+	"wminc-gadget-iw-error-reload": "Освежите страницу па покушајте поново.",
+	"wminc-gadget-twpref-setlang": "Задат језик: $1",
 	"wminc-infopage-title-status-open": "Ово је пробни вики у Викимедијиниом инкубатору.",
 	"wminc-infopage-title-status-tocreate": "Ово је пробни вики у Викимедијином инкубатору.",
+	"wminc-infopage-text-approved-created": "Можете пронаћи на $1.",
 	"wminc-infopage-text-approved-date": "Направљена је $1.",
 	"wminc-infopage-language-header": "Језик",
 	"wminc-infopage-language-nocode": "ништа",
@@ -46,6 +49,7 @@
 	"wminc-infopage-content-project-y": "Википутовања",
 	"wminc-infopage-req-header": "Предуслови",
 	"wminc-infopage-req-meta": "Захтев на Метавикију",
+	"wminc-infopage-req-meta-none": "Нема захтева на [[$1|Метавикију]] ([$2 направи])",
 	"wminc-infopage-req-rejected": "'''(одбијено)'''",
 	"wminc-infopage-req-catanalysis": "Активност викија"
 }
