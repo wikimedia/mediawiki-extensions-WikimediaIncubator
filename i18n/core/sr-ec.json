@@ -41,7 +41,7 @@
 	"grouppage-test-sysop": "{{ns:project}}:Администратори пробног викија",
 	"wminc-listusers-testwiki": "Прегледате кориснике који су пробни вики наместили на $1.",
 	"wminc-search-nocreate-nopref": "Тражите појам „$1“. Поставите [[Special:Preferences|подешавања пробног викија]] да бисмо вам саопштили коју страницу можете да направите.",
-	"wminc-search-nocreate-suggest": "Тражите појам „$1“. Можете да направите страницу на вашем викију на <strong>[[$3]]</strong>.",
+	"wminc-search-nocreate-suggest": "Тражени појам „$1“. Можете да направите страницу на вашем викију на <strong>[[$3]]</strong>.",
 	"wminc-searchwiki": "Претрага викија",
 	"wminc-searchwiki-noproject": "Нисте изабрали пројекат.",
 	"wminc-searchwiki-selectproject": "Претражи:",
