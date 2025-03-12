@@ -1,12 +1,43 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cabal"
+			"Cabal",
+			"Kuldeepburjbhalaike"
 		]
 	},
+	"wminc-gadget-iw-dialog-editpage": "ਇਹ ਸਫ਼ਾ ਸੋਧੋ",
+	"wminc-gadget-iw-dialog-replace-editinstead": "ਜੇ ਇਹ ਸਹੀ ਨਹੀਂ ਹੈ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਕੜੀ ਨੂੰ ਹੱਥੀਂ ਠੀਕ ਕਰਨ ਲਈ ਵਰਕੇ ਨੂੰ ਸੋਧ ਦਿਓ।",
+	"wminc-gadget-iw-dialog-learn-more": "ਵਿਕੀਡਾਟਾ ਬਾਰੇ ਹੋਰ ਜਾਣੋ",
+	"wminc-gadget-iw-dialog-wikidata-search": "ਵਿਕੀਡਾਟਾ ’ਤੇ ਲੱਭੋ",
+	"wminc-gadget-iw-error-title": "ਅੰਤਰਵਿਕੀ ਜੰਤਰ ਗਲਤੀ",
+	"wminc-gadget-iw-error-reload": "ਕਿਰਪਾ ਕਰਕੇ ਸਫ਼ੇ ਨੂੰ ਮੁੜ-ਚਲਾਓ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
 	"wminc-gadget-iw-editsummary": "ਅੰਤਰ-ਵਿਕੀ ਕੜੀਆਂ ਨੂੰ [[d:$1]] ਵਿੱਚ ਜੋੜਨਾ",
 	"tag-gadget-interwiki": "ਅੰਤਰਵਿਕੀ ਜੰਤਰ",
+	"wminc-gadget-twpref-setlang": "ਬੋਲੀ ਕਾਇਮ ਕਰੋ: $1",
+	"wminc-infopage-language-header": "ਬੋਲੀ",
+	"wminc-infopage-language-nocode": "ਕੋਈ ਨਹੀਂ",
+	"wminc-infopage-language-wikipedia-article": "ਅੰਗਰੇਜ਼ੀ ਵਿਕੀਪੀਡੀਆ ਲੇਖ: [[$1|$2]] ([[$3|$4]])",
+	"wminc-infopage-language-translatewiki": "Translatewiki.net ਫ਼ਾਟਕ",
+	"wminc-infopage-language-directionality": "ਦਿਸ਼ਾ: $1",
+	"wminc-infopage-language-directionality-ltr": "ਖੱਬੇ-ਤੋਂ-ਸੱਜੇ",
+	"wminc-infopage-language-directionality-rtl": "ਸੱਜੇ-ਤੋਂ-ਖੱਬੇ",
 	"wminc-infopage-content-main-category": "ਮੁੱਢਲੀ ਸ਼੍ਰੇਣੀ",
+	"wminc-infopage-content-all-pages": "ਇਸ ਵਿਕੀ ਪ੍ਰੀਖਿਆ ਦੇ ਸਾਰੇ ਵਰਕੇ",
+	"wminc-infopage-content-contributors": "ਯੋਗਦਾਨੀ",
+	"wminc-infopage-content-administroters": "ਪ੍ਰਬੰਧਕ:",
+	"wminc-infopage-content-project": "ਪ੍ਰੋਜੈਕਟ: $1",
 	"wminc-infopage-content-project-b": "ਵਿਕੀਕਿਤਾਬਾਂ",
-	"wminc-infopage-content-project-n": "ਵਿਕੀਖ਼ਬਰਾਂ"
+	"wminc-infopage-content-project-n": "ਵਿਕੀਖ਼ਬਰਾਂ",
+	"wminc-infopage-content-project-p": "ਵਿਕੀਪੀਡੀਆ",
+	"wminc-infopage-content-project-q": "ਵਿਕੀਹਵਾਲਾ",
+	"wminc-infopage-content-project-s": "ਵਿਕੀਸਰੋਤ",
+	"wminc-infopage-content-project-t": "ਵਿਕਸ਼ਨਰੀ",
+	"wminc-infopage-content-project-v": "ਵਿਕੀਵਰਸਿਟੀ",
+	"wminc-infopage-content-project-y": "ਵਿਕੀਸਫ਼ਰ",
+	"wminc-infopage-req-header": "ਲੋੜਾਂ",
+	"wminc-infopage-req-meta": "ਮੈਟਾ-ਵਿਕੀ ਵਿੱਚ ਬੇਨਤੀ ਕਰੋ",
+	"wminc-infopage-req-meta-none": "[[$1|Meta-Wiki]] ਵਿੱਚ ਕੋਈ ਬੇਨਤੀ ਨਹੀਂ ਐ ([$2 create])",
+	"wminc-infopage-req-rejected": "'''(ਨਕਾਰਿਆ ਗਿਆ)'''",
+	"wminc-infopage-req-error": "ਲੋੜ ਗਲਤੀ:",
+	"wminc-infopage-req-catanalysis": "ਵਿਕੀ ਗਤੀਵਿਧੀ ਦੀ ਜਾਂਚ ਕਰੋ"
 }
