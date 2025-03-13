@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cabal"
+			"Cabal",
+			"Kuldeepburjbhalaike"
 		]
 	},
 	"wminc-gadget-iw-dialog-editpage": "ਇਹ ਸਫ਼ਾ ਸੋਧੋ",
@@ -15,10 +16,13 @@
 	"wminc-gadget-twpref-setlang": "ਬੋਲੀ ਕਾਇਮ ਕਰੋ: $1",
 	"wminc-infopage-language-header": "ਬੋਲੀ",
 	"wminc-infopage-language-nocode": "ਕੋਈ ਨਹੀਂ",
+	"wminc-infopage-language-wikipedia-article": "ਅੰਗਰੇਜ਼ੀ ਵਿਕੀਪੀਡੀਆ ਲੇਖ: [[$1|$2]] ([[$3|$4]])",
 	"wminc-infopage-language-translatewiki": "Translatewiki.net ਫ਼ਾਟਕ",
+	"wminc-infopage-language-directionality": "ਦਿਸ਼ਾ: $1",
 	"wminc-infopage-language-directionality-ltr": "ਖੱਬੇ-ਤੋਂ-ਸੱਜੇ",
 	"wminc-infopage-language-directionality-rtl": "ਸੱਜੇ-ਤੋਂ-ਖੱਬੇ",
 	"wminc-infopage-content-main-category": "ਮੁੱਢਲੀ ਸ਼੍ਰੇਣੀ",
+	"wminc-infopage-content-all-pages": "ਇਸ ਵਿਕੀ ਪ੍ਰੀਖਿਆ ਦੇ ਸਾਰੇ ਵਰਕੇ",
 	"wminc-infopage-content-contributors": "ਯੋਗਦਾਨੀ",
 	"wminc-infopage-content-administroters": "ਪ੍ਰਬੰਧਕ:",
 	"wminc-infopage-content-project": "ਪ੍ਰੋਜੈਕਟ: $1",
@@ -34,5 +38,6 @@
 	"wminc-infopage-req-meta": "ਮੈਟਾ-ਵਿਕੀ ਵਿੱਚ ਬੇਨਤੀ ਕਰੋ",
 	"wminc-infopage-req-meta-none": "[[$1|Meta-Wiki]] ਵਿੱਚ ਕੋਈ ਬੇਨਤੀ ਨਹੀਂ ਐ ([$2 create])",
 	"wminc-infopage-req-rejected": "'''(ਨਕਾਰਿਆ ਗਿਆ)'''",
-	"wminc-infopage-req-error": "ਲੋੜ ਗਲਤੀ:"
+	"wminc-infopage-req-error": "ਲੋੜ ਗਲਤੀ:",
+	"wminc-infopage-req-catanalysis": "ਵਿਕੀ ਗਤੀਵਿਧੀ ਦੀ ਜਾਂਚ ਕਰੋ"
 }
