@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Song GK"
+		]
+	},
+	"wminc-custom-featuredwikis-approved": "Wiki tu udah diluluska lalu/tauka digaga:",
+	"wminc-custom-featuredwikis-active": "Wiki tu wiki ke aktif lalu dipelaba bulih laman web sida kediri ba awak ke datai:",
+	"wminc-custom-featuredwikis-permanent": "Wiki tu dipelaba deka mengkang ditu:",
+	"wminc-custom-tb-incorrect-title-title": "Nuan benung nguji ngaga lambar enggau tajuk ke salah.",
+	"wminc-gadget-iw-dialog-cancel": "Kinsil",
+	"wminc-gadget-iw-dialog-publish": "Mansutka",
+	"wminc-gadget-iw-dialog-editpage": "Edit lambar tu",
+	"wminc-gadget-twpref-setlang": "Set jaku: $1",
+	"wminc-gadget-twpref-setlang-tooltip": "Set jaku entara mua nuan ngagai $1",
+	"wminc-gadget-twpref-setwiki": "Set $1 nyadi projek penguji nuan"
+}
