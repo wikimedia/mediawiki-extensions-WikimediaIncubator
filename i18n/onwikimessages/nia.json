@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Slaia"
+		]
 	},
-	"wminc-custom-newarticletext-noprefix": "<strong>Nitöngöni:</strong> Edöna te'azökhi zura si lö [[$1|prefiks]]."
+	"wminc-custom-newarticletext-noprefix": "<strong>Nitöngöni:</strong> Edöna öfazökhi zura si lö [[$1|prefiks]]."
 }

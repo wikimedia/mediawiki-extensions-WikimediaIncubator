@@ -4,6 +4,7 @@
 			"Song GK"
 		]
 	},
+	"wminc-desc": "Sistem wiki penguji ungkup Pemeram Wikimedia",
 	"wminc-manual": "Manual",
 	"wminc-listwikis": "Ripih wiki",
 	"wminc-testwiki": "Wiki penguji:",
@@ -16,6 +17,13 @@
 	"wminc-prefinfo-project": "Pilih projek Wikimedia ke nuan ngerejaka ba ditu",
 	"wminc-prefinfo-error": "Nuan milih projek ke begunaka kod jaku.",
 	"randombytest": "Lambar seneka wiki penguji",
+	"wminc-viewuserlang-go": "Pegi",
+	"wminc-fs-langselect-title": "Pilih jaku",
+	"wminc-fs-signup-title": "Rejista",
+	"wminc-fs-userpage-title": "Gaga lambar pengena nuan",
+	"wminc-fs-startwiki-title": "Ngepunka wiki nuan",
+	"wminc-infopage-title-p": "$1 Wikipedia",
+	"wminc-infopage-title-b": "$1 Wikibup",
 	"wminc-infopage-contribute": "Enti nuan nemu jaku tu, nuan diperangsang deka meri!",
 	"wminc-infopage-status-open": "Tu wiki tebuka Wikimedia Inkubator."
 }
