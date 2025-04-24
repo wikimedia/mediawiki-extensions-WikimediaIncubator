@@ -12,7 +12,6 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use Article;
 use HtmlArmor;
 use InvalidArgumentException;
 use MediaWiki\Actions\ActionEntryPoint;
@@ -38,6 +37,7 @@ use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Output\Hook\MakeGlobalVariablesScriptHook;
 use MediaWiki\Output\OutputPage;
+use MediaWiki\Page\Article;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Page\Hook\ShowMissingArticleHook;
 use MediaWiki\Parser\Parser;
@@ -46,6 +46,7 @@ use MediaWiki\Permissions\Hook\GetUserPermissionsErrorsHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\Search\Hook\SpecialSearchPowerBoxHook;
+use MediaWiki\Skin\Skin;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Specials\SpecialSearch;
 use MediaWiki\Title\Title;
@@ -54,7 +55,6 @@ use MediaWiki\User\Options\Hook\LoadUserOptionsHook;
 use MediaWiki\User\User;
 use MediaWiki\User\UserIdentity;
 use SearchEngine;
-use Skin;
 
 class WikimediaIncubator implements
 	ContributionsToolLinksHook,
