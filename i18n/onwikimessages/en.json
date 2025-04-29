@@ -55,7 +55,7 @@
 	"wminc-infopage-title-status-invalidcode": "This test wiki has an invalid [[$1|ISO 639]] language code, so it has been deleted.",
 	"wminc-infopage-title-status-open": "This is an open test wiki in the Wikimedia Incubator.",
 	"wminc-infopage-title-status-rejected": "This test wiki was rejected by the Language committee, and has been deleted.",
-	"wminc-infopage-title-status-tocreate": "This is an open test wiki in the Wikimedia Incubator.",
+	"wminc-infopage-title-status-tocreate": "This test wiki has not yet been started.",
 	"wminc-infopage-title-status-toimport": "This is a test wiki in the Wikimedia Incubator about to be imported here.",
 	"wminc-infopage-text-approved-prelangcom": "The requested project was created. Note that this request was approved before the implementation of the standardised [[$3|language proposal policy]], and should not be used as a model for future requests (see also the [[$1|site creation log]]).",
 	"wminc-infopage-text-approved": "This test wiki has been approved by the [[$2|Language Committee]] (see also the [[$1|site creation log]]).",
