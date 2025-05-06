@@ -1,10 +1,20 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"شاه زمان پټان"
+		]
 	},
-	"wminc-custom-featuredwikis-approved": "دا مخونه تاييد شوي/او جوړ شوی دي:",
-	"wminc-custom-featuredwikis-active": "دا فعاله دي او کیداي شي ژر تر ژره خپل سايټ يا پاڼه ترلاسه کړي:",
-	"wminc-custom-featuredwikis-permanent": "دا به احتمالن دلته پاتې شي:",
+	"wminc-code-macrolanguage": "[[wikipedia:$2 language|ژبه «$3»]] يو[[wikipedia:ISO 639 macrolanguage|لويه ژبه]] ده،  چې لاندې وړې ژبې لري:",
+	"wminc-code-collective": "\"$1\" کوډ کومې ځانگړې ژبې ته اشاره نه کوي، بلکې د ژبو يوې ټولگې ته اشاره کوي چې [[wikipedia:$2 language|\"$3\" ژبې]] نومېږي.",
+	"wminc-code-retired": "د دې ژبې کوډ بدل شوی دی او له دې وروسته ارې ژبې ته اشاره نه کوي.",
+	"wminc-custom-editnotice-2": "د هغه ژبو ښودلو لپاره چې تاسو پرې پوهېږئ، مهرباني وکړئ $1 وکاروئ. د بېلگې په توگه که ستاسو مورنۍ ژبه فرانسوي وي او تاسو په انگليسي ژبه ښې خبرې کولی شئ، له $2 کار واخلئ.",
+	"wminc-custom-featuredwikis-approved": "دا تاييد شوي او/يا جوړ شوي دي:",
+	"wminc-custom-featuredwikis-active": "دا چارن شوي او شايد ډېر ژر خپل وېبځی ترلاسه کړي:",
+	"wminc-custom-featuredwikis-permanent": "دا شايد دلته پاتې شي:",
+	"wminc-custom-newarticletext-noprefix": "<strong>په ياد ولرئ:</strong> تاسو له [[$1|مختاړي]] پرته مخ جوړوئ",
+	"wminc-custom-newarticletext-withprefix-1": "$1 وليکئ او بيا په \"{{int:publishpage}}\" وټوکئ.",
+	"wminc-custom-newarticletext-withprefix-2": "\"$1\" بدل کړئ او بيا په \"{{int:publishpage}}\" وټوکئ.",
+	"wminc-custom-newarticletext-withprefix-3": "تاسو د \"{{FULLPAGENAME}}\" په نوم يو نوی ([[$1|مختاړی]]) مخ جوړوئ.",
 	"wminc-infopage-title-status-approved": "دا د ويکيمېډيا اېنکیوبېټر تاييد شوي آزموینې ويکي ده",
 	"wminc-infopage-title-status-open": "دا د ويکيمېډيا اېنکیوبېټر یوه خلاصه آزموینې ويکي ده",
 	"wminc-infopage-text-approved": "دا ويکي د [[$2|د ژبې کمېټۍ]] لخوا تاييد کړل شوي ده، (همدارنګه [[$1|د ويکي جوړونې پاڼه]] هم وګوري).",

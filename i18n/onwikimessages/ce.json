@@ -16,6 +16,10 @@
 	"wminc-custom-newarticletext-withprefix-2": "\"$1\" хийца а хийцина \"{{int:publishpage}}\" тӀетаӀайе.",
 	"wminc-custom-newarticletext-withprefix-3": "Ахьа керла агӀо кхуллур йу, [[$1|префикс]] йолуш,  \"{{FULLPAGENAME}}\" цӀе а йолуш.",
 	"wminc-custom-newarticletext-withprefix-4": "Иштта хьажоргашна йуьххьехь префиксаш тӀетоха: <code><nowiki>[[Page title]]</nowiki></code> иштта гуш хила йеза, иштта <code><nowiki>[[Wx/xx/Page title]]</nowiki></code>, ткъа <code><nowiki>{{Page title}}</nowiki></code> — иштта <code><nowiki>{{Wx/xx/Page title}}</nowiki></code>.",
+	"wminc-custom-newarticletext-withprefix-5": "Иза автоматица дан, лело мегар ду гаджет [[$1|ТӀетоха префикс]].",
+	"wminc-custom-tb-incorrect-title-title": "Хьо нийса йоцу цӀе йолу агӀо кхолла гӀерташ.",
+	"wminc-custom-tb-incorrect-title-text": "ЦӀеран йукъахь [[$1|префикс]] йац йа кхечу кепара нийса йоцчу форматехь йу (префиксехь даккхий элпаш, тӀаьхьара хьаьрк и. дӀ. кх. а).\n\nНагахь санна хьо кхуза муьлххачу а кхечу агӀонан тӀера кхаьчнехь, йуха а гӀой, хьажорг нисйе, тӀаккха нийса цӀе йолу агӀо кхолла. Нагахь санна хьо агӀо ма-дарра кхолла гӀерташ велахь, нийса цӀе а йолуш агӀо кхолла.\n\nНагахь санна хӀокхо хьуна новкъарло йеш йелахь муьлхха а агӀо кхолла, хьайна хетарехь цӀеран формат нийса йолуш, дехар ду [[$2|хаийта администраторшна]].",
+	"wminc-custom-tb-invalid-code-title": "Хьо агӀо кхолла гӀерта нийса [[$1|ISO 639-1 йа -3 код]] йоцуш.",
 	"wminc-custom-tb-space-colon": "Техникин бахьанашца цӀе дӀайолайала йиш йац кӀайдаргца йа шитӀадамца.",
 	"gadget-addprefix": "<strong>AddPrefix:</strong> Префиксаш хьажоргашна авто тӀетохар, агӀо хийцича.",
 	"wminc-gadget-addprefix-help": "ХӀара агӀо хуьйцуш префикс лело ца оьшу. ДӀайазйинчул тӀаьхьа авто тӀетоьхна хир йу.",
@@ -53,6 +57,12 @@
 	"wminc-infopage-language-header": "Мотт",
 	"wminc-infopage-language-nocode": "хӀан-хӀа",
 	"wminc-infopage-language-directionality": "Хьажам: $1",
+	"wminc-infopage-language-directionality-ltr": "аьрру агӀорара аьтту агӀор",
+	"wminc-infopage-language-directionality-rtl": "аьтту агӀорара аьрру агӀор",
+	"wminc-infopage-language-macrolanguage": "Макрометтан декъахо: $1.",
+	"wminc-infopage-content-header": "Тестан вики-контент",
+	"wminc-infopage-content-main-category": "Коьрта категори",
+	"wminc-infopage-content-contributors": "Авторш",
 	"wminc-infopage-content-administroters": "Администраторш:",
 	"wminc-infopage-content-project": "Проект: $1",
 	"wminc-infopage-content-project-b": "ВикиӀамат",
@@ -63,5 +73,7 @@
 	"wminc-infopage-content-project-t": "Викидошам",
 	"wminc-infopage-content-project-v": "Викиверситет",
 	"wminc-infopage-content-project-y": "Викинекъ",
-	"wminc-infopage-req-header": "ТӀедожораш"
+	"wminc-infopage-req-header": "ТӀедожораш",
+	"wminc-infopage-req-error": "Дехарийн гӀалат:",
+	"wminc-infopage-req-catanalysis": "Вики жигаралла толлу"
 }
