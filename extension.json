@@ -222,7 +222,7 @@
 		"GetPreferences": "main",
 		"UserGetDefaultOptions": "main",
 		"LoadUserOptions": "main",
-		"MagicWordwgVariableIDs": "main",
+		"GetMagicVariableIDs": "main",
 		"ParserGetVariableValueSwitch": "main",
 		"getUserPermissionsErrors": "main",
 		"MovePageIsValidMove": "main",

@@ -21,7 +21,7 @@ use MediaWiki\Context\RequestContext;
 use MediaWiki\Hook\ContributionsToolLinksHook;
 use MediaWiki\Hook\EditFormPreloadTextHook;
 use MediaWiki\Hook\GetDefaultSortkeyHook;
-use MediaWiki\Hook\MagicWordwgVariableIDsHook;
+use MediaWiki\Hook\GetMagicVariableIDsHook;
 use MediaWiki\Hook\MediaWikiPerformActionHook;
 use MediaWiki\Hook\MovePageIsValidMoveHook;
 use MediaWiki\Hook\ParserFirstCallInitHook;
@@ -61,7 +61,7 @@ class WikimediaIncubator implements
 	GetPreferencesHook,
 	UserGetDefaultOptionsHook,
 	LoadUserOptionsHook,
-	MagicWordwgVariableIDsHook,
+	GetMagicVariableIDsHook,
 	ParserGetVariableValueSwitchHook,
 	GetUserPermissionsErrorsHook,
 	MovePageIsValidMoveHook,
@@ -483,8 +483,8 @@ class WikimediaIncubator implements
 	}
 
 	/** @inheritDoc */
-	public function onMagicWordwgVariableIDs( &$magicWords ) {
-		$magicWords[] = 'usertestwiki';
+	public function onGetMagicVariableIDs( &$variableIDs ): void {
+		$variableIDs[] = 'usertestwiki';
 	}
 
 	/** @inheritDoc */
