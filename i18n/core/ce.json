@@ -17,7 +17,7 @@
 	"wminc-prefinfo-code": "ISO 639 код йу ахьа болх бечу меттан",
 	"wminc-prefinfo-project": "Аша кхузахь тӀехь болх беш йолу Викимедиан проект харжар",
 	"wminc-prefinfo-error": "Ахьа хаьржина проект, цунна меттан код билгалйаккха йезаш йолу.",
-	"wminc-error-move-unprefixed": "<strong>ГӀалат:</strong> [[{{MediaWiki:Wminc-error-help/ce}}|цӀе хийца гӀертачу агӀонан нийса йоцу префикс йу йа йанне а йац]].",
+	"wminc-error-move-unprefixed": "<strong>ГӀалат:</strong> [[{{MediaWiki:Wminc-error-help}}|цӀе хийца гӀертачу агӀонан нийса йоцу префикс йу йа йанне а йац]].",
 	"wminc-error-wronglangcode": "<strong>ГӀалат:</strong> АгӀонан чохь [[{{MediaWiki:Wminc-error-help}}|нийса йоцу меттан код]] «$1».",
 	"wminc-error-unprefixed": "<strong>ГӀалат:</strong> ХӀокху агӀонан [[{{MediaWiki:Wminc-error-help}}|префикс йац]].",
 	"wminc-error-unprefixed-suggest": "<strong>ГӀалат:</strong> ХӀокху агӀонан [[{{MediaWiki:Wminc-error-help}}|префикс йац]]! Хьан йиш йу [[:$1]] агӀо кхолла.",
