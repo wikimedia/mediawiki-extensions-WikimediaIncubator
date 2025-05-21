@@ -46,7 +46,7 @@
 	"wminc-viewuserlang-user": "Käyttäjätunnus:",
 	"wminc-viewuserlang-go": "Siirry",
 	"wminc-userdoesnotexist": "Käyttäjää ”$1” ei ole olemassa.",
-	"wminc-ip": "$1 on IP-osoite tai väliaikainen käyttäjä.",
+	"wminc-ip": "”$1” on IP-osoite tai tilapäinen käyttäjä.",
 	"action-viewuserlang": "tarkastella käyttäjän kieltä ja testiwikiä",
 	"right-viewuserlang": "Tarkastella käyttäjän kieltä ja testiwikiä",
 	"group-test-sysop": "testiwikin ylläpitäjät",
