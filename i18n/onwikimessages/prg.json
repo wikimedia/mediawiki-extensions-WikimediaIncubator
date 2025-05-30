@@ -61,7 +61,7 @@
 	"wminc-infopage-text-default": "Ni adder blāndewingis parāmeteris \"$4\". Wīdais [[$5|stwi pēr tūlin infōrmacionin]] ezze šan šablonin.",
 	"wminc-infopage-text-imported": "Šis wiki-prōjaktan [[$6|impōrtits]] panzdau wiki-projaktan auwerts. Tū mazzi tērpaus šāns pāusans ik tū kwaitēi (et)pagaūtun tennan.",
 	"wminc-infopage-text-invalidcode": "Šis tests wiki turri nigilawīngin [[$7|ISO 639]] billas kōdan, be tīt, eliminītan. Mazīngei, XML zūrbrukis ast preiēimins (madli [[$8|perwaldītajans]]), kawids mazzi būtwei prawedduns prei kittan wiki prōjaktan.",
-	"wminc-infopage-text-open": "Šis tests wiki ast etwirs adder izbandāi per gilaūsnan. Madli, preipīda ik tū zinna billin. Wīdais [[$9|rankaslāiskas preipīstun]] per ka tū turri segītun.",
+	"wminc-infopage-text-open": "Šis tests wiki ast etwirs adder izbandāi per gilaūsnan. Madli, preipīda ik tū bilāi šan billin. Wīdais [[$9|rankaslāiskas preipīstun]] per ka tū turri segītun.",
 	"wminc-infopage-text-rejected": "[[$2|Billas Kōmitejan]] etmestas šan testan wikin, be eliminītan. Mazīngei, XML zūrbrukis ast preiēimins (madli [[$8|perwaldītajans]]), kawids mazzi būtwei prawedduns prei kittan wiki prōjaktan.",
 	"wminc-infopage-text-tocreate": "Šis tests wiki ni dabber pagaūwuns. Ik tū zinna šin billin, rīpja palaipīnsnas ēn [[$9]]. Tū mazzi teīktun galwas pāusan prei \"„{{PAGENAME}}/Main_Page“\", sen „Main_Page“ tulkaui ēn šin billin (prei perwaidīnsnan, ik sta bēi ēn miksiskan: „Wp/de/Hauptseite“).",
 	"wminc-infopage-text-toimport": "Šis wiki auwerts be wīrst skassuns impōrtits. Ik tū kwaitēi etpagaūtun tennan, pirman, gēideis pēr [[Special:ListUsers/import|impōrtitajan]] impōrtitun wissans pāusans ezze ōriginalu wiki.",
