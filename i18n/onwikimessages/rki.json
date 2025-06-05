@@ -3,7 +3,8 @@
 		"authors": [
 			"Cakkaparla",
 			"ReyLon Mrat",
-			"YaThaWinTha"
+			"YaThaWinTha",
+			"Tejoebāsa"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" language]] စွာ အောက်ပါ သင့်ဘာသာစကားတိ ပါဝင်ရေ [[wikipedia:ISO 639 macrolanguage|macrolanguage]] တစ်ခုဖြစ်ရေ။",
@@ -59,7 +60,7 @@
 	"wminc-infopage-title-status-tocreate": "ဒေချင့်စွာ ဝီကီမီဒီယာ အင်ကျူဘေတာဧ့ ပွင့်လင်းစမ်းသပ်ဝီကီတစ်ခု ဖြစ်ပါရေ။",
 	"wminc-infopage-title-status-toimport": "ဒေချင့်စွာ တင်သွင်ဖို့ Wikimedia Incubator ဟိ စမ်းသပ် wiki တစ်ခုဖြစ်ရေ။",
 	"wminc-infopage-text-approved-prelangcom": "တောင်းဆိုထားရေ ပရောဂျက်ကို ဖန်တီးခရေ။ စံချိန်စံညွှန်းသတ်မှတ်ထားရေ [[$3|ဘာသာစကား အဆိုပြုချက်မူဝါဒ]] ကို အကောင်အထည် မဖော်မီတွင် ဒေတောင်းဆိုချက်ကို အတည်ပြုထားပြီး၊ အနာဂတ်တောင်းဆိုမှုတိအတွက် စံနမူနာအဖြစ် အသုံးမပြုသင့်ပါ ([[$1|ဆိုက်ဖန်တီးမှုမှတ်တမ်း]]) ကို ကြည့်ပါ။",
-	"wminc-infopage-text-approved": "ဒေစမ်းသပ်မှု wiki ကို [[$2|ဘာသာစကား ကော်မတီ]] မှ အတည်ပြုထားပါရေ ([[$1|ဆိုက်ဖန်တီးမှုမှတ်တမ်း]]])",
+	"wminc-infopage-text-approved": "ဒေစမ်းသပ်မှု wiki ကို [[$2|ဘာသာစကား ကော်မတီ]] က အတည်ပြုထားပါရေ ([[$1|ဆိုက်ဖန်တီးမှုမှတ်တမ်း]])။",
 	"wminc-infopage-text-default": "ပါရာမီတာ \"$4\" လွဲမှားနိန်ရေ မဟုတ်ကေလဲ့ မှားနိန်ရေ။ ဒေပုံစံပလိတ်အကြောင်း [[$5|နောက်ထပ်အချက်အလက်များအတွက် ဒေနိန်ရာ]] ကိုကြည့်ပါ။",
 	"wminc-infopage-text-imported": "ဝီကီးကို ပိတ်ပြီးနောက် ဒေဝီကီးကို [[$6|တင်သွင်း]] ပြီးပါရာ။ ဒေပရောဂျက်ကို ပြန်လည်စတင်လိုကေ၊ ဒေစာမျက်နှာတိကို စတင်အသုံးပြုနိုင်ပါရေ။",
 	"wminc-infopage-text-invalidcode": "ဒေစမ်းသပ်မှု wiki တွင် မမှန်ကန်ရေ [[$7|ISO 639]] ဘာသာစကားကုဒ် ပါဟိအတွက်နန့် ၎င်းကို ဖျက်လိုက်ပါရာ။ ဝီကီမီဒီယာမဟုတ်ရေ ဝီကီသို့ လွှဲပြောင်းနိုင်ရေ [[$8|စီမံခန့်ခွဲသူတိ]] ကို မီးရန် XML ဖိုင်တစ်ခု ဟိနိုင်ပါရေ။",
@@ -68,7 +69,7 @@
 	"wminc-infopage-text-tocreate": "ဒေစမ်းသပ်မှု wiki ကို မစတင်ရသိမ့်ပါ။ ဒေဘာသာစကားကို သင်သိပါကေ [[$9]] တွင် ညွှန်ကြားချက်တိကို လိုက်နာပါ။ ဒေဘာသာစကားသို့ ဘာသာပြန်ဆိုထားသော \"Main_Page\" နန့် ''\"{{PAGENAME}}/Main_Page\"'' တွင် ပင်မစာမျက်နှာကို သင်ဖန်တီးနိုင်ရေ (ဥပမာ \"Wp/fr/Accueil\" ပြင်သစ်စမ်းသပ် wiki ဖြစ်ခကေ)။",
 	"wminc-infopage-text-toimport": "ဒေဝီကီကို ပိတ်ထားပြီး ဒေနိန်ရာမှာ တင်သွင်းပါဖို့။ ဒေပရောဂျက်ကို ပြန်လည်စတင်လိုကေ၊ မူရင်းဝီကီးက စာမျက်နှာ အားနူံးကို ဦးစွာတင်သွင်းဖို့ [[Special:ListUsers/import|importer]] ကို စောင့်ပါ။",
 	"wminc-infopage-text-awaiting-creation": "ယင့်ချင့်စွာ သဲဖ်ဝဲရီးသား တိဧ့ ဖန်တီးမှုကို စောင့်မျှော်နိန်ပါရေ၊ '''[[phabricator:$1|task $1]]''' ကိုကြည့်ပါ။",
-	"wminc-infopage-text-approved-created": "1$ နန့် ယှာနိုင်ရေ။",
+	"wminc-infopage-text-approved-created": "သင် $1 နန့် ယှာနိုင်ပါရေ။",
 	"wminc-infopage-text-approved-date": "$1 နန့် ဖန်တီးခရေ။",
 	"wminc-infopage-language-header": "ဘာသာစကား",
 	"wminc-infopage-language-nocode": "မဟိန့်",
@@ -99,7 +100,7 @@
 	"wminc-infopage-req-rejected": "''(ငြင်းပယ်)''''",
 	"wminc-infopage-req-unprefixed-templates": "ရှေ့မဆက်ရသိမ့်ရေ နမူနာတိကို အသုံးပြုပနာ {{PLURAL:$1|ရေ $1 စာမျက်နှာ|$1 စာမျက်နှာတိဖြစ်ရေ}}",
 	"wminc-infopage-req-error": "လိုအပ်ချက် အမှားတိ-",
-	"wminc-infopage-req-error-wikisource": "ဒေပရောဂျက်ရေ ''Wikisource'' တစ်ခုဖြစ်ရေ။ [[$1|ဘာသာစကားမျိုးစုံ Wikisource]",
+	"wminc-infopage-req-error-wikisource": "ဒေပရောဂျက်စွာ ''Wikisource'''' ဖြစ်တေ။  Wikisource တီးဖြတ်မှုတိကို [[$1|Multilingual Wikisource]] မာ ပြုလုပ်ရပါဖို့။",
 	"wminc-infopage-req-error-wikiversity": "ဒေပရောဂျက်စွာ ''Wikiversity'''' ဖြစ်ရေ။ Wikiversity တဲးဖြတ်မှုတိကို [[$1|Beta Wikiversity]] တွင် ပြုလုပ်ရပါဖို့။",
 	"wminc-infopage-req-codelookup": "Localization လိုအပ်ချက်တိကို စစ်ဆီးပါ။",
 	"wminc-infopage-req-catanalysis": "ဝီကီး လုပ်ဆောင်ချက်ကို စစ်ဆီးပါ။"
