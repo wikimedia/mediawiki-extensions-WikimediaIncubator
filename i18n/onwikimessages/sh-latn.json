@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -11,5 +12,30 @@
 	"wminc-gadget-iw-dialog-qid-placeholder": "npr. $1",
 	"wminc-gadget-iw-dialog-editpage": "Uredite stranicu",
 	"wminc-gadget-iw-dialog-wikidata-search": "Pretraži Wikidata",
-	"wminc-gadget-iw-error-reload": "Molimo preučitajte stranicu i pokušajte ponovno."
+	"wminc-gadget-iw-error-reload": "Molimo preučitajte stranicu i pokušajte ponovno.",
+	"wminc-gadget-twpref-setlang-tooltip": "Postavi jezik interfejsa na $1",
+	"wminc-infopage-title-status-default": "Probni projekt u Wikimedijinom inkubatoru",
+	"wminc-infopage-title-status-open": "Otvoreni probni projekt u Wikimedijinom inkubatoru",
+	"wminc-infopage-text-open": "Ovaj probni projekt je otvoren ili potvrđen kao podoban. Da biste saznali više o tome kako možete doprinijeti, pročitajte [[$9|priručnik]].",
+	"wminc-infopage-language-wikipedia-article": "Engleska Wikipedija: [[$1|$2]] ([[$3|$4]])",
+	"wminc-infopage-language-translatewiki": "Portal na sajtu translatewiki.net",
+	"wminc-infopage-language-directionality": "Smjer pisanja: $1",
+	"wminc-infopage-language-directionality-ltr": "slijeva nadesno",
+	"wminc-infopage-language-directionality-rtl": "zdesna nalijevo",
+	"wminc-infopage-content-header": "Sadržina probnog projekta",
+	"wminc-infopage-content-all-pages": "Sve stranice probnog projekta",
+	"wminc-infopage-content-contributors": "Urednici",
+	"wminc-infopage-content-project": "Projekt: $1",
+	"wminc-infopage-content-project-b": "Wikiknjige",
+	"wminc-infopage-content-project-n": "Wikinovosti",
+	"wminc-infopage-content-project-p": "Wikipedija",
+	"wminc-infopage-content-project-q": "Wikicitat",
+	"wminc-infopage-content-project-s": "Wikiteka",
+	"wminc-infopage-content-project-t": "Wikirječnik",
+	"wminc-infopage-content-project-v": "Wikiverzitet",
+	"wminc-infopage-content-project-y": "Wikivodič",
+	"wminc-infopage-req-header": "Uslovi",
+	"wminc-infopage-req-meta": "Zahtjev na Meta-Wikiju",
+	"wminc-infopage-req-codelookup": "Uslovi lokalizacije",
+	"wminc-infopage-req-catanalysis": "Aktivnost projekta"
 }
