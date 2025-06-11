@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"wminc-desc": "Testni wikisustav za Wikimedijin Inkubator",
@@ -11,7 +12,7 @@
 	"wminc-testwiki-code": "Jezik testnoga wikija:",
 	"wminc-testwiki-none": "Svi wikiji",
 	"wminc-testwiki-site": "(Održavanje)",
-	"wminc-recentchanges-all": "Sve nedavne promjene",
+	"wminc-recentchanges-all": "Sve nedavne izmjene",
 	"wminc-prefinfo-language": "Vaš jezik sučelja - nazavisno od vašeg testnog vikija",
 	"wminc-prefinfo-code": "ISO 639 kôd jezika na kojem ovdje radite",
 	"wminc-prefinfo-project": "Izaberite Vikimedijin projekt na kojem ovdje radite",
@@ -19,6 +20,16 @@
 	"wminc-error-move-unprefixed": "<strong>Greška:</strong> Stranica koju želite premjestiti [[{{MediaWiki:Wminc-error-help}}|nema prefiks ili je on pogrešan]].",
 	"wminc-viewuserlang": "Provjeri jezik korisnika i njegov probni wiki",
 	"wminc-viewuserlang-user": "Korisničko ime:",
-	"wminc-infopage-enter": "idi na glavnu stranicu",
-	"wminc-infopage-createmainpage": "Unesite riječ \"Glavna stranica\" na ovom jeziku:"
+	"wminc-infopage-enter": "Glavna stranica",
+	"wminc-infopage-title-p": "Wikipedija na jeziku $1",
+	"wminc-infopage-title-b": "Wikiknjige na jeziku $1",
+	"wminc-infopage-title-t": "Wikirječnik na jeziku $1",
+	"wminc-infopage-title-q": "Wikicitat na jeziku $1",
+	"wminc-infopage-title-n": "Wikinovosti na jeziku $1",
+	"wminc-infopage-title-s": "Wikiteka na jeziku $1",
+	"wminc-infopage-title-v": "Wikiverzitet na jeziku $1",
+	"wminc-infopage-title-y": "Wikivodič na jeziku $1",
+	"wminc-infopage-option-sisterprojects-other": "Potražite ostale projekte na ovom jeziku:",
+	"wminc-infopage-createmainpage": "Unesite riječ \"Glavna stranica\" na ovom jeziku:",
+	"wminc-infopage-contribute": "Ako znate ovaj jezik, pozivamo vas da doprinesete."
 }
