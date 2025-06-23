@@ -33,7 +33,7 @@
 	"wminc-gadget-iw-dialog-learn-more": "ウィキデータについてもっと学ぶ",
 	"wminc-gadget-iw-dialog-wikidata-search": "ウィキデータ内を検索",
 	"wminc-gadget-iw-error-title": "Interwikiガジェットのエラー",
-	"wminc-gadget-iw-error-reload": "ページをリロードしてもう一度お試しください。",
+	"wminc-gadget-iw-error-reload": "ページを再読み込みしてもう一度お試しください。",
 	"wminc-gadget-iw-editsummary": "[[d:$1]]へのウィキ間リンクの追加",
 	"tag-gadget-interwiki": "Interwikiガジェット",
 	"wminc-gadget-twpref-setlang": "言語を設定: $1",
