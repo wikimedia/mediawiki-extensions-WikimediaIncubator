@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Juwan~backup"
+		]
+	},
+	"wminc-infopage-language-header": "toki",
+	"wminc-infopage-language-nocode": "ala",
+	"wminc-infopage-language-wikipedia-article": "lipu Wikipesija pi toki Inli la lipu: [[$1|$2]] ([[$3|$4]])",
+	"wminc-infopage-content-project-b": "lipu Wikilipu",
+	"wminc-infopage-content-project-p": "lipu Wikipesija",
+	"wminc-infopage-content-project-t": "lipu Wikinimi",
+	"wminc-infopage-req-header": "sona wile",
+	"wminc-infopage-req-meta": "lipu Meta-Wiki la toki wile",
+	"wminc-infopage-req-meta-none": "lipu [[$1|Meta-Wiki]] la toki wile li lon ala ([$2 o open])"
+}
