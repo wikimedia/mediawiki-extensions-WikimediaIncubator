@@ -15,6 +15,7 @@
 	"wminc-custom-newarticletext-withprefix-1": "$1 وليکئ او بيا په \"{{int:publishpage}}\" وټوکئ.",
 	"wminc-custom-newarticletext-withprefix-2": "\"$1\" بدل کړئ او بيا په \"{{int:publishpage}}\" وټوکئ.",
 	"wminc-custom-newarticletext-withprefix-3": "تاسو د \"{{FULLPAGENAME}}\" په نوم يو نوی ([[$1|مختاړی]]) مخ جوړوئ.",
+	"wminc-gadget-addprefix-toggle": "مختاړی پټول/ښودل",
 	"wminc-gadget-iw-add-wikidata": "ويکي‌اومتوک وېبتړنه وړگډول",
 	"wminc-gadget-iw-dialog-cancel": "ناگارل",
 	"wminc-gadget-iw-dialog-publish": "خپرول",
