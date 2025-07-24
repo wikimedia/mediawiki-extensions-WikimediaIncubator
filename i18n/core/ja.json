@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aotake",
+			"Dragoniez",
 			"Fryed-peach",
 			"Marine-Blue",
 			"Otokoume",
@@ -38,7 +39,7 @@
 	"wminc-viewuserlang-user": "利用者名:",
 	"wminc-viewuserlang-go": "表示",
 	"wminc-userdoesnotexist": "利用者アカウント「$1」は存在しません。",
-	"wminc-ip": "「$1」はIPアドレスまたは臨時利用者です。",
+	"wminc-ip": "「$1」はIPアドレスまたは仮利用者です。",
 	"action-viewuserlang": "利用者の言語と試験版ウィキの閲覧",
 	"right-viewuserlang": "利用者の言語と試験版ウィキを閲覧",
 	"group-test-sysop": "試験版ウィキ管理者",
