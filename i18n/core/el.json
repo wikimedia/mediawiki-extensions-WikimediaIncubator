@@ -10,6 +10,7 @@
 			"Omnipaedista",
 			"Protnet",
 			"Spyridon Eftychios Kokotos",
+			"Warudo",
 			"ZaDiak"
 		]
 	},
@@ -37,7 +38,7 @@
 	"wminc-viewuserlang-user": "Όνομα χρήστη:",
 	"wminc-viewuserlang-go": "Μετάβαση",
 	"wminc-userdoesnotexist": "Ο χρήστης \"$1\" δεν υπάρχει.",
-	"wminc-ip": "\"$1\" είναι μια διεύθυνση IP ή ένας προσωρινός χρήστης.",
+	"wminc-ip": "Η «$1» είναι διεύθυνση IP ή προσωρινός χρήστης.",
 	"action-viewuserlang": "προβολή της γλώσσας χρήστη και του δοκιμαστικού wiki",
 	"right-viewuserlang": "Προβολή της γλώσσας χρήστη και του δοκιμαστικού βίκι",
 	"group-test-sysop": "Διαχειριστές δοκιμαστικού wiki",
