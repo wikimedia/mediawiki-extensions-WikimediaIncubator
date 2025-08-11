@@ -54,7 +54,7 @@
 	"wminc-infopage-title-status-invalidcode": "Iste wiki de test ha un codice de lingua [[$1|ISO 639]] non valide, dunque ha essite delite.",
 	"wminc-infopage-title-status-open": "Isto es un wiki de test aperte in le Incubator de Wikimedia.",
 	"wminc-infopage-title-status-rejected": "Iste wiki de test ha essite rejectate per le Comité de linguas e ha essite delite.",
-	"wminc-infopage-title-status-tocreate": "Isto es un wiki de test aperte in le Incubator de Wikimedia.",
+	"wminc-infopage-title-status-tocreate": "Iste wiki de test non ha ancora essite initiate.",
 	"wminc-infopage-title-status-toimport": "Isto es un wiki de test in le Incubator de Wikimedia que es sur le puncto de esser importate hic.",
 	"wminc-infopage-text-approved-prelangcom": "Le projecto requestate ha essite create. Nota ben que iste requesta ha essite approbate ante le implementation del [[$3|politica de proposition de linguas]] standardisate, e non debe esser usate como modello pro requestas futur (vide etiam le [[$1|registro de creation de sitos]]).",
 	"wminc-infopage-text-approved": "Iste wiki de test ha essite approbate per le [[$2|Comité de linguas]] (vide etiam le [[$1|registro de creation de sitos]]).",

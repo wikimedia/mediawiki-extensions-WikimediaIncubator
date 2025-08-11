@@ -3,6 +3,7 @@
 		"authors": [
 			"Kghbln",
 			"King Muli 12",
+			"MoritzMT20",
 			"PretzelRocky",
 			"TMg",
 			"ThisCarthing"
@@ -35,6 +36,7 @@
 	"wminc-infopage-title-status-imported": "Dies ist ein importiertes Testwiki von Wikimedia Incubator.",
 	"wminc-infopage-title-status-invalidcode": "Dieses Testwiki hat keinen gültigen [[$1|ISO-639]]-Code und wurde deshalb gelöscht.",
 	"wminc-infopage-title-status-open": "Dies ist ein offenes Testwiki von Wikimedia Incubator.",
+	"wminc-infopage-title-status-tocreate": "Dieses Test-Wiki wurde noch nicht gestartet.",
 	"wminc-infopage-text-approved": "Dieses Test-Wiki ist vom [[$2|Sprachkomitee]] genehmigt worden (betrachte auch das [[$1|Seitenerstellungslogbuch]]).",
 	"wminc-infopage-text-default": "Parameter \"$4\" fehlt oder ist nicht korrekt angegeben. [[$5|Hier]] finden Sie weitere Informationen.",
 	"wminc-infopage-text-imported": "Dieses Wiki wurde [[$6|importiert]], nachdem es geschlossen wurde. Wenn Sie es (wieder)starten möchten, können Sie diese Seiten als Startpunkt nehmen.",
