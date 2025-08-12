@@ -54,7 +54,7 @@
 	"wminc-infopage-title-status-invalidcode": "Este wiki de probas ten un código de lingua [[$1|ISO 639]] non válido, polo que foi eliminado.",
 	"wminc-infopage-title-status-open": "Este é un wiki de probas aberto na Incubadora da Wikimedia.",
 	"wminc-infopage-title-status-rejected": "Este wiki de probas foi rexeitado polo comité de linguas e foi eliminado.",
-	"wminc-infopage-title-status-tocreate": "Este é un wiki de probas aberto na Incubadora da Wikimedia.",
+	"wminc-infopage-title-status-tocreate": "Este wiki de probas aínda non se iniciou.",
 	"wminc-infopage-title-status-toimport": "Este é un wiki de probas na Incubadora da Wikimedia que está a piques de ser importado aquí.",
 	"wminc-infopage-text-approved-prelangcom": "Creouse o proxecto solicitado. Ten en conta que esta solicitude foi aprobada antes da implementación da [[$3|política de proposta de linguas]] estandarizada e non se debe usar como modelo para futuras solicitudes (consulta tamén o [[$1|rexistro de creación de sitios]]).",
 	"wminc-infopage-text-approved": "Este wiki de probas foi aprobado polo [[$2|comité de linguas]] (consulta tamén o [[$1|rexistro de creación de sitios]]).",

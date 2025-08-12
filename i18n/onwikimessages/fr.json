@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"JLTRY",
 			"McDutchie",
 			"SleaY",
 			"Verdy p"
@@ -57,7 +58,7 @@
 	"wminc-infopage-title-status-invalidcode": "Ce wiki de test a un code [[$1|ISO 639]] non valide et a donc été supprimé.",
 	"wminc-infopage-title-status-open": "Ceci est un wiki de test ouvert sur l’Incubateur de Wikimedia.",
 	"wminc-infopage-title-status-rejected": "Ce wiki de test a été rejeté par le Comité des langues et a été supprimé.",
-	"wminc-infopage-title-status-tocreate": "Ceci est un wiki de test ouvert sur l’Incubateur de Wikimedia.",
+	"wminc-infopage-title-status-tocreate": "Ce wiki de test n'a pas encore été démarré.",
 	"wminc-infopage-title-status-toimport": "Ceci est un wiki de test qui va bientôt être importé ici sur l’Incubateur de Wikimedia.",
 	"wminc-infopage-text-approved-prelangcom": "Le projet demandé a été créé. Noter que cette demande a été approuvée avant la mise en œuvre et la standardisation de la [[$3|politique de proposition d’une langue]] et ne devrait pas être utilisée comme un modèle pour de futures demandes (voir aussi le [[$1|journal de création de sites]]).",
 	"wminc-infopage-text-approved": "Ce wiki de test a été approuvé par le [[$2|Comité des langues]] (voir aussi le [[$1|journal de création de sites]]).",
