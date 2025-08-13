@@ -57,7 +57,7 @@
 	"wminc-infopage-title-status-invalidcode": "Deze test heeft een ongeldige [[$1|ISO 639]]-taalcode en is dus verwijderd.",
 	"wminc-infopage-title-status-open": "Dit is een open testwiki van de Wikimedia Incubator.",
 	"wminc-infopage-title-status-rejected": "Deze testwiki is afgewezen door de Taalcommissie en is verwijderd.",
-	"wminc-infopage-title-status-tocreate": "Dit is een open testwiki van de Wikimedia Incubator.",
+	"wminc-infopage-title-status-tocreate": "Deze testwiki is nog niet opgestart.",
 	"wminc-infopage-title-status-toimport": "Dit is een testwiki in de Wikimedia Incubator die hier binnenkort wordt geïmporteerd.",
 	"wminc-infopage-text-approved-prelangcom": "Het gevraagde project is aangemaakt. Houd er rekening mee dat dit verzoek is goedgekeurd vóór de implementatie van het gestandaardiseerde [[$3|beleid voorstellen talen]] en niet mag worden gebruikt als model voor toekomstige verzoeken (zie ook het [[$1|logboek site-aanmaak]]).",
 	"wminc-infopage-text-approved": "Deze testwiki is goedgegekeurd door het [[$2|Taalcomité]] (zie ook het [[$1|logboek met nieuwe sites]]).",
