@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"JeffreyKim"
+			"JeffreyKim",
+			"Yueman"
 		]
 	},
-	"wminc-infopage-title-status-tocreate": "呢個測試維基仲未開始"
+	"wminc-infopage-title-status-tocreate": "呢個測試維基仲未開始",
+	"wminc-infopage-language-nocode": "冇"
 }
