@@ -55,7 +55,7 @@
 	"wminc-infopage-title-status-invalidcode": "Esta wiki de teste tem um código de língua [[$1|ISO 639]] inválido e, por isso, foi apagada.",
 	"wminc-infopage-title-status-open": "Esta é uma wiki de teste aberta, do Wikimedia Incubator.",
 	"wminc-infopage-title-status-rejected": "Esta wiki de teste foi rejeitada pelo comité de \"Idiomas\" e foi eliminada.",
-	"wminc-infopage-title-status-tocreate": "Esta é uma wiki de teste aberta, da Incubadora da Wikimédia.",
+	"wminc-infopage-title-status-tocreate": "Esta wiki de testes ainda não foi iniciada.",
 	"wminc-infopage-title-status-toimport": "Este é um wiki de teste na Incubadora da Wikimédia que está prestes a ser importada para aqui.",
 	"wminc-infopage-text-approved-prelangcom": "O projeto solicitado foi criado. Note que este pedido foi aprovado antes da implementação da [[$3|política de proposta de idioma]] padronizada, e não deveria ser utilizada como modelo para pedidos futuros (consulte também o [[$1|registo de criação de <i>site</i>]]).",
 	"wminc-infopage-text-approved": "Esta wiki de teste foi aprovada pelo [[$2|Comité de Idiomas]] (consulte também o [[$1|registo de criação de <i>site</i>]]).",
