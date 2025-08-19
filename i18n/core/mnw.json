@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aue Nai"
+			"Aue Nai",
+			"Htawmonzel"
 		]
 	},
-	"wminc-viewuserlang-user": "ယၟုညးလွပ်:",
+	"wminc-viewuserlang-user": "ယၟုညးလွပ်-",
 	"wminc-viewuserlang-go": "အာ",
 	"wminc-searchwiki-selectproject": "ဂၠာဲ သွက်",
 	"wminc-searchwiki-inputlanguage": "ပ္ဍဲအရေဝ်ဘာသာ",
