@@ -59,7 +59,7 @@
 	"wminc-infopage-title-status-invalidcode": "يحتوي ويكي الاختبار هذا على ملف [[$1|ISO 639]] رمز اللغة ، لذلك تم حذفه.",
 	"wminc-infopage-title-status-open": "هذا اختبار ويكي معتمد في حاضنة ويكيميديا.",
 	"wminc-infopage-title-status-rejected": "تم رفض ويكي الاختبار هذا من قبل لجنة اللغة ، وتم حذفه.",
-	"wminc-infopage-title-status-tocreate": "هذا اختبار ويكي معتمد في حاضنة ويكيميديا.",
+	"wminc-infopage-title-status-tocreate": "لم يتم البدء في اختبار الويكي هذا بعد.",
 	"wminc-infopage-title-status-toimport": "هذا اختبار ويكي في حاضنة ويكيميديا على وشك أن يتم استيراده هنا.",
 	"wminc-infopage-text-approved-prelangcom": "تم إنشاء المشروع المطلوب. لاحظ أنه تمت الموافقة على هذا الطلب قبل تنفيذ المعيار الموحد [[$3|language proposal policy]], ويجب عدم استخدامه كنموذج للطلبات المستقبلية (انظر أيضا[[$1|site creation log]]).",
 	"wminc-infopage-text-approved": "تمت الموافقة على ويكي الاختبار هذا بواسطة [[$2|Language Committee]] (انظر أيضا [[$1|site creation log]]).",
