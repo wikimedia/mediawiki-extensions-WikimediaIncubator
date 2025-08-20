@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"JeffreyKim"
+			"JeffreyKim",
+			"Yueman"
 		]
-	}
+	},
+	"wminc-infopage-language-nocode": "冇"
 }
