@@ -57,7 +57,7 @@
 	"wminc-infopage-title-status-invalidcode": "此測試 wiki 有無效的 [[$1|ISO 639]] 語言代碼，因此已被刪除。",
 	"wminc-infopage-title-status-open": "這是維基孵育場的一個開放測試 wiki。",
 	"wminc-infopage-title-status-rejected": "此測試 wiki 已被語言委員會拒絕及刪除。",
-	"wminc-infopage-title-status-tocreate": "這是維基孵育場的一個開放測試 wiki。",
+	"wminc-infopage-title-status-tocreate": "此測試 wiki 尚未啟用。",
 	"wminc-infopage-title-status-toimport": "這是維基孵育場中的一個測試 wiki，即將匯入於此。",
 	"wminc-infopage-text-approved-prelangcom": "所請求的專案已建立。請注意此請求是在實施標準化[[$3|語言提案方針]]之前獲得批准，所以不應作為往後請求的參照對象（另請參閱 [[$1|站台建立日誌]]）。",
 	"wminc-infopage-text-approved": "[[$2|語言委員會]]已批准此測試 wiki（另請參閱[[$1|站台建立日誌]]）。",
