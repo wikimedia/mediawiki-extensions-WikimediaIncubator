@@ -31,7 +31,7 @@
 	"wminc-viewuserlang-user": "Uporabniško ime:",
 	"wminc-viewuserlang-go": "Pojdi",
 	"wminc-userdoesnotexist": "Uporabnik »$1« ne obstaja.",
-	"wminc-ip": "»$1« je IP-naslov ali začasen uporabnik.",
+	"wminc-ip": "»$1« je IP-naslov ali začasni uporabnik.",
 	"action-viewuserlang": "ogled uporabniškega jezika in preizkusnega vikija",
 	"right-viewuserlang": "Vpogled v uporabniški jezik in preizkusni viki",
 	"group-test-sysop": "Administratorji preizkusnega vikija",
