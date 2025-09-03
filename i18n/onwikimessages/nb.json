@@ -54,7 +54,7 @@
 	"wminc-infopage-title-status-invalidcode": "Denne testwikien har en ugyldig [[$1|ISO 639]]-kode, så den har blitt slettet.",
 	"wminc-infopage-title-status-open": "Dette er en åpen testwiki på Wikimedia Incubator.",
 	"wminc-infopage-title-status-rejected": "Denne testwikien har blitt avvist av språkkomiteen, og har blitt slettet.",
-	"wminc-infopage-title-status-tocreate": "Dette er en åpen testwiki på Wikimedia Incubator.",
+	"wminc-infopage-title-status-tocreate": "Denne testwikien er ikke påbegynt.",
 	"wminc-infopage-title-status-toimport": "Dette er en testwiki på Wikimedia Incubator som er i ferd med å bli importert.",
 	"wminc-infopage-text-approved-prelangcom": "Det etterspurte prosjektet ble opprettet. Merk at denne forespørselen ble godkjent før den standardiserte [[$3|språkpolitikken]] ble vedtatt, og kan ikke brukes som eksempel for fremtidige forespørsler (se også [[$1|loggen over opprettede wikier]]).",
 	"wminc-infopage-text-approved": "Denne testwikien har blitt godkjent av [[$2|språkkomiteen]] (se også [[$1|loggen for oppretting av nettsteder]])",
