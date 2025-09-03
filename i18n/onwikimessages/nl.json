@@ -17,7 +17,7 @@
 	"wminc-custom-newarticletext-noprefix": "<strong>Merk op:</strong> U bent bezig met het aanmaken van een pagina zonder [[$1|voorvoegsel]].",
 	"wminc-custom-newarticletext-withprefix-1": "Typ $1 en klik daarna op \"{{int:publishpage}}\".",
 	"wminc-custom-newarticletext-withprefix-2": "Vervang \"$1\" en klik daarna op \"{{int:publishpage}}\".",
-	"wminc-custom-newarticletext-withprefix-3": "U bent bezig met het aanmaken van een nieuwe pagina ([[$1|met voorvoegsel]]) met als naam \"{{FULLPAGENAME}}\".",
+	"wminc-custom-newarticletext-withprefix-3": "U bent een nieuwe pagina ([[$1|met voorvoegsel]]) met de naam “{{FULLPAGENAME}}” aan het aanmaken.",
 	"wminc-custom-newarticletext-withprefix-4": "Voeg ook voorvoegsels toe aan uw koppelingen: van <code><nowiki>[[Page title]]</nowiki></code> naar <code><nowiki>[[Wx/xx/Page title]]</nowiki></code> en van <code><nowiki>{{Page title}}</nowiki></code> naar <code><nowiki>{{Wx/xx/Page title}}</nowiki></code>.",
 	"wminc-custom-newarticletext-withprefix-5": "Om dit automatisch te doen, kunt u de [[$1|gadget Add Prefix]] gebruiken.",
 	"wminc-custom-tb-incorrect-title-title": "U probeert een pagina aan te maken met een onjuiste titel.",
