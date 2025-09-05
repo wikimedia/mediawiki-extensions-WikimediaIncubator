@@ -3,7 +3,7 @@
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki" />
 	<rule ref="MediaWiki.Usage.ExtendClassUsage">
 		<properties>
-			<property name="nonConfigGlobals" type="array" value="$wgWmincProjects,$wgWmincPref,$wgWmincProjectSite" />
+			<property name="nonConfigGlobals[]" value="$wgWmincProjects,$wgWmincPref,$wgWmincProjectSite" />
 		</properties>
 	</rule>
 	<file>.</file>
