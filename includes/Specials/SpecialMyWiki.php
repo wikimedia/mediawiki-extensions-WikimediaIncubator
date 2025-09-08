@@ -1,15 +1,4 @@
 <?php
-/**
- * Special page to go to a page on one's test wiki as set in the
- * preferences. Goes to the default Main Page if the test wiki or
- * an unprefixed page if the test wiki preference is set no
- * None/All or Incubator.
- *
- * @file
- * @ingroup SpecialPage
- * @author Robin Pepermans (SPQRobin)
- * @author Jon Harald Søby
- */
 
 namespace MediaWiki\Extension\WikimediaIncubator\Specials;
 
@@ -17,6 +6,16 @@ use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
 use MediaWiki\SpecialPage\UnlistedSpecialPage;
 use MediaWiki\Title\Title;
 
+/**
+ * Special page to go to a page on one's test wiki as set in the
+ * preferences. Goes to the default Main Page if the test wiki or
+ * an unprefixed page if the test wiki preference is set no
+ * None/All or Incubator.
+ *
+ * @ingroup SpecialPage
+ * @author Robin Pepermans (SPQRobin)
+ * @author Jon Harald Søby
+ */
 class SpecialMyWiki extends UnlistedSpecialPage {
 
 	public function __construct() {

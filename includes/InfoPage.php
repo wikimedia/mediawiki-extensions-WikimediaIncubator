@@ -30,11 +30,9 @@ use MediaWiki\User\UserIdentity;
  *    'beforeincubator': This project was created before Wikimedia Incubator started and is
  *       available at xyz.wikiproject.org.
  *
- * @file
  * @ingroup Extensions
  * @author Robin Pepermans (SPQRobin)
  */
-
 class InfoPage {
 
 	/** @var Title */

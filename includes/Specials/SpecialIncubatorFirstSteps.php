@@ -1,16 +1,4 @@
 <?php
-/**
- * Makes Special:IncubatorFirstSteps to guide users
- * through the process of starting a new wiki.
- *
- * Based on the concept of FirstSteps of the Translate extension.
- *
- * @file
- * @author Robin Pepermans
- * @author Niklas Laxström
- * @license GPL-2.0-or-later
- * @ingroup SpecialPage
- */
 
 namespace MediaWiki\Extension\WikimediaIncubator\Specials;
 
@@ -22,6 +10,17 @@ use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\SpecialPage\UnlistedSpecialPage;
 use MediaWiki\Title\Title;
 
+/**
+ * Makes Special:IncubatorFirstSteps to guide users
+ * through the process of starting a new wiki.
+ *
+ * Based on the concept of FirstSteps of the Translate extension.
+ *
+ * @author Robin Pepermans
+ * @author Niklas Laxström
+ * @license GPL-2.0-or-later
+ * @ingroup SpecialPage
+ */
 class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 
 	/**

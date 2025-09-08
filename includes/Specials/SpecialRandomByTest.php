@@ -14,11 +14,9 @@ use Wikimedia\Rdbms\LikeValue;
  * Special page to go to a random page in your test wiki
  * (or a specific wiki if it is defined through &testwiki=Wx/xx)
  *
- * @file
  * @ingroup SpecialPage
  * @author Robin Pepermans (SPQRobin)
  */
-
 class SpecialRandomByTest extends SpecialRandomPage {
 
 	/**

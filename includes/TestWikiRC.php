@@ -16,11 +16,9 @@ use Wikimedia\Rdbms\LikeValue;
 /**
  * Recent changes for a specific test wiki, or for all project changes (or normal display)
  *
- * @file
  * @ingroup Extensions
  * @author Robin Pepermans (SPQRobin)
  */
-
 class TestWikiRC implements
 	ChangesListSpecialPageQueryHook,
 	SpecialRecentChangesPanelHook

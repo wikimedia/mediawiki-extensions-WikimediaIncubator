@@ -1,14 +1,4 @@
 <?php
-/**
- * Main class of the WikimediaIncubator extension.
- * Implement test wiki preference, magic word and prefix check on edit page,
- * and contains general functions for other classes.
- *
- * @file
- * @ingroup Extensions
- * @author Robin Pepermans (SPQRobin)
- * @author Jon Harald Søby
- */
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
@@ -56,6 +46,15 @@ use MediaWiki\User\User;
 use MediaWiki\User\UserIdentity;
 use SearchEngine;
 
+/**
+ * Main class of the WikimediaIncubator extension.
+ * Implement test wiki preference, magic word and prefix check on edit page,
+ * and contains general functions for other classes.
+ *
+ * @ingroup Extensions
+ * @author Robin Pepermans (SPQRobin)
+ * @author Jon Harald Søby
+ */
 class WikimediaIncubator implements
 	ContributionsToolLinksHook,
 	GetPreferencesHook,

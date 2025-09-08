@@ -1,15 +1,4 @@
 <?php
-/**
- * Provides a special page to look up user language and test wiki
- * This can be useful e.g. when a user has a problem with the preference system,
- * so the test wiki/language information can be easily looked up
- *
- * Based on code from extension LookupUser made by Tim Starling
- *
- * @file
- * @ingroup SpecialPage
- * @author Robin Pepermans (SPQRobin)
- */
 
 namespace MediaWiki\Extension\WikimediaIncubator\Specials;
 
@@ -26,6 +15,16 @@ use MediaWiki\User\User;
 use MediaWiki\User\UserNamePrefixSearch;
 use MediaWiki\User\UserNameUtils;
 
+/**
+ * Provides a special page to look up user language and test wiki
+ * This can be useful e.g. when a user has a problem with the preference system,
+ * so the test wiki/language information can be easily looked up
+ *
+ * Based on code from extension LookupUser made by Tim Starling
+ *
+ * @ingroup SpecialPage
+ * @author Robin Pepermans (SPQRobin)
+ */
 class SpecialViewUserLang extends SpecialPage {
 	/** @var UserNamePrefixSearch */
 	private $userNamePrefixSearch;
