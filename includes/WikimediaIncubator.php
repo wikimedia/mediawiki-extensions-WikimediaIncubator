@@ -82,13 +82,9 @@ class WikimediaIncubator implements
 	// project has been selected.
 	private const NO_PROJECT_SELECTED = 'none';
 
-	private LanguageFactory $languageFactory;
-
-	/**
-	 * Initialize this hook implementation class with needed services.
-	 */
-	public function __construct( LanguageFactory $languageFactory ) {
-		$this->languageFactory = $languageFactory;
+	public function __construct(
+		private readonly LanguageFactory $languageFactory
+	) {
 	}
 
 	/**

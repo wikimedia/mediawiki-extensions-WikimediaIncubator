@@ -26,35 +26,13 @@ use MediaWiki\User\UserNameUtils;
  * @author Robin Pepermans (SPQRobin)
  */
 class SpecialViewUserLang extends SpecialPage {
-	/** @var UserNamePrefixSearch */
-	private $userNamePrefixSearch;
-
-	/** @var UserNameUtils */
-	private $userNameUtils;
-
-	/** @var UserOptionsLookup */
-	private $userOptionsLookup;
-
-	/** @var LanguageNameUtils */
-	private $languageNameUtils;
-
-	/**
-	 * @param UserNamePrefixSearch $userNamePrefixSearch
-	 * @param UserNameUtils $userNameUtils
-	 * @param UserOptionsLookup $userOptionsLookup
-	 * @param LanguageNameUtils $languageNameUtils
-	 */
 	public function __construct(
-		UserNamePrefixSearch $userNamePrefixSearch,
-		UserNameUtils $userNameUtils,
-		UserOptionsLookup $userOptionsLookup,
-		LanguageNameUtils $languageNameUtils
+		private readonly UserNamePrefixSearch $userNamePrefixSearch,
+		private readonly UserNameUtils $userNameUtils,
+		private readonly UserOptionsLookup $userOptionsLookup,
+		private readonly LanguageNameUtils $languageNameUtils,
 	) {
 		parent::__construct( 'ViewUserLang', 'viewuserlang' );
-		$this->userNamePrefixSearch = $userNamePrefixSearch;
-		$this->userNameUtils = $userNameUtils;
-		$this->userOptionsLookup = $userOptionsLookup;
-		$this->languageNameUtils = $languageNameUtils;
 	}
 
 	/**

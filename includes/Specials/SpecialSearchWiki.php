@@ -24,23 +24,11 @@ class SpecialSearchWiki extends IncludableSpecialPage {
 	/** @var string[] */
 	private $mNativeNames;
 
-	/** @var LanguageNameUtils */
-	private $languageNameUtils;
-
-	/** @var LanguageFactory */
-	private $languageFactory;
-
-	/**
-	 * @param LanguageNameUtils $languageNameUtils
-	 * @param LanguageFactory $languageFactory
-	 */
 	public function __construct(
-		LanguageNameUtils $languageNameUtils,
-		LanguageFactory $languageFactory
+		private readonly LanguageNameUtils $languageNameUtils,
+		private readonly LanguageFactory $languageFactory,
 	) {
 		parent::__construct( 'SearchWiki' );
-		$this->languageNameUtils = $languageNameUtils;
-		$this->languageFactory = $languageFactory;
 	}
 
 	/** @inheritDoc */

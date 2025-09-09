@@ -18,15 +18,14 @@ use MediaWiki\User\Options\UserOptionsManager;
 class WikimediaIncubatorSecondaryAuthenticationProvider
 	extends AbstractSecondaryAuthenticationProvider {
 
-	/** @var UserOptionsManager */
-	private $userOptionsManager;
-
 	/**
 	 * @param UserOptionsManager $userOptionsManager
 	 * @param array $params
 	 */
-	public function __construct( UserOptionsManager $userOptionsManager, $params = [] ) {
-		$this->userOptionsManager = $userOptionsManager;
+	public function __construct(
+		private readonly UserOptionsManager $userOptionsManager,
+		$params = [],
+	) {
 	}
 
 	/** @inheritDoc */

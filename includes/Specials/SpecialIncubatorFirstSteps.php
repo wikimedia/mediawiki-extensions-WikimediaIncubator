@@ -28,17 +28,10 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 	 */
 	protected $wikiprefix;
 
-	/** @var LanguageNameUtils */
-	private $languageNameUtils;
-
-	/**
-	 * @param LanguageNameUtils $languageNameUtils
-	 */
 	public function __construct(
-		LanguageNameUtils $languageNameUtils
+		private readonly LanguageNameUtils $languageNameUtils,
 	) {
 		parent::__construct( 'IncubatorFirstSteps' );
-		$this->languageNameUtils = $languageNameUtils;
 	}
 
 	/**
