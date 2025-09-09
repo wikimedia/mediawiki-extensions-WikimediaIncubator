@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yaw tuba"
+		]
+	},
+	"wminc-desc": "Sɔhwɛ wiki nhyehyɛe ma Wikimedia Incubator",
+	"wminc-manual": "Nwoma",
+	"wminc-listwikis": "Wiki ahodoɔ a bɛahyehyɛ",
+	"wminc-testwiki": "Sɔhwɛ wiki:",
+	"wminc-testwiki-code": "Sɔhwɛ wiki kasa:",
+	"wminc-testwiki-none": "Wikis nyinaa",
+	"wminc-testwiki-site": "(Adeyɛ titiriw)"
+}
