@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"InNerdsWeTrust"
+		]
+	},
+	"wminc-custom-featuredwikis-approved": "Dille wurda genehmigt und/oaber derstallt:",
+	"wminc-custom-featuredwikis-active": "Dille sein aktiv und kunnda baale in ein eegenes Wiki imziehn:",
+	"wminc-custom-featuredwikis-permanent": "Dille waar woahrscheinlich hieh bleiba:",
+	"wminc-infopage-language-header": "Sproache",
+	"wminc-infopage-content-project-b": "Wikibooks",
+	"wminc-infopage-content-project-n": "Wikinews",
+	"wminc-infopage-content-project-p": "Wikipeedia",
+	"wminc-infopage-content-project-q": "Wikiquote",
+	"wminc-infopage-content-project-s": "Wikisource",
+	"wminc-infopage-content-project-t": "Wiktionary",
+	"wminc-infopage-content-project-v": "Wikiversity",
+	"wminc-infopage-content-project-y": "Wikivoyage"
+}

@@ -3,6 +3,7 @@
 		"authors": [
 			"Diskdance",
 			"John Smith Ri",
+			"Libamidi",
 			"LittlePaw365",
 			"MangoFanFanw",
 			"PhiLiP",
@@ -60,7 +61,7 @@
 	"wminc-infopage-title-status-invalidcode": "这个测试维基使用一个无效的[[$1|ISO 639]]语言代码，所以它已被删除。",
 	"wminc-infopage-title-status-open": "这是维基孵育场的一个开放测试wiki。",
 	"wminc-infopage-title-status-rejected": "此测试wiki已被语言委员会拒绝及删除。",
-	"wminc-infopage-title-status-tocreate": "这是维基孵育场的一个开放测试wiki。",
+	"wminc-infopage-title-status-tocreate": "此测试wiki尚未启用。",
 	"wminc-infopage-text-approved": "这个测试维基已由[[$2|语言委员会]]批准（见[[$1|网站创建日志]]）。",
 	"wminc-infopage-text-default": "丢失或错误的参数“$4”。关于此模板的更多信息，请参阅[[$5|这里]]。",
 	"wminc-infopage-text-imported": "这是一个关闭后被[[$6|导入]]的维基。如果你想（重新）开始这个项目，您可以使用这些被导入的页面重新开始。",
