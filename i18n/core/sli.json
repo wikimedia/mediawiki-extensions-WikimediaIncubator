@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"InNerdsWeTrust"
+		]
+	},
+	"wminc-manual": "Manuell",
+	"wminc-listwikis": "Liste dar Wikis",
+	"wminc-testwiki": "Testwiki:",
+	"wminc-testwiki-code": "Sproache des Testwikis:",
+	"wminc-testwiki-none": "Olle Wikis",
+	"wminc-recentchanges-all": "Olle letzta Ändarunga",
+	"wminc-viewuserlang-user": "Benieternoame:",
+	"wminc-viewuserlang-go": "Lus",
+	"right-viewuserlang": "Benietersproache und Testwiki oansahn",
+	"group-test-sysop": "Testadministratoren",
+	"grouppage-test-sysop": "{{ns:project}}:Testadministratoren",
+	"wminc-searchwiki": "Noach emm Wiki sicha",
+	"wminc-searchwiki-selectproject": "Sicha noach:",
+	"wminc-searchwiki-inputlanguage": "In Sproache:",
+	"wminc-searchwiki-go": "Lus",
+	"wminc-searchwiki-match-englishname": "\"$1\" ies dar Noame fier $2 uff Englisch.",
+	"wminc-searchwiki-match-nativename": "\"$1\" ies dar Noame fier $2 in darr Sproache.",
+	"wminc-searchwiki-gotoinfopage": "Infoseite",
+	"wminc-fs-langselect-title": "Sproache aussicha",
+	"wminc-infopage-title-p": "Wikipeedia auf $1",
+	"wminc-infopage-welcome": "Wielkumma bei dam Wikimedia Incubator, emm Projekt dar Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Über]])"
+}
