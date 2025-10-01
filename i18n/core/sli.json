@@ -4,12 +4,15 @@
 			"InNerdsWeTrust"
 		]
 	},
+	"wminc-desc": "Dermeegliecht Testwikis fier dan Wikimedia Incubator",
 	"wminc-manual": "Manuell",
 	"wminc-listwikis": "Liste dar Wikis",
 	"wminc-testwiki": "Testwiki:",
 	"wminc-testwiki-code": "Sproache des Testwikis:",
 	"wminc-testwiki-none": "Olle Wikis",
+	"wminc-testwiki-site": "(Woartung)",
 	"wminc-recentchanges-all": "Olle letzta Ändarunga",
+	"wminc-prefinfo-language": "Sproache denner Benieteräberfläche - vum Testwiki inobhängig",
 	"wminc-viewuserlang-user": "Benieternoame:",
 	"wminc-viewuserlang-go": "Lus",
 	"right-viewuserlang": "Benietersproache und Testwiki oansahn",
@@ -23,6 +26,7 @@
 	"wminc-searchwiki-match-nativename": "\"$1\" ies dar Noame fier $2 in darr Sproache.",
 	"wminc-searchwiki-gotoinfopage": "Infoseite",
 	"wminc-fs-langselect-title": "Sproache aussicha",
+	"wminc-fs-startwiki-title": "Wiki starta",
 	"wminc-infopage-title-p": "Wikipeedia auf $1",
 	"wminc-infopage-welcome": "Wielkumma bei dam Wikimedia Incubator, emm Projekt dar Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Über]])"
 }
