@@ -6,7 +6,8 @@
 			"MRidhaAJ",
 			"زكريا",
 			"Meno25",
-			"XIDME"
+			"XIDME",
+			"Mohammed Qays"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|اللغة \"$3\"]] [[wikipedia:ISO 639 macrolanguage|لغة كبرى]]، تشمل اللغات الصغرى التالية:",
@@ -43,7 +44,7 @@
 	"wminc-gadget-iw-dialog-learn-more": "تعلم المزيد عن ويكي بيانات",
 	"wminc-gadget-iw-dialog-wikidata-search": "ابحث في ويكي بيانات",
 	"wminc-gadget-iw-error-title": "خطأ في أداة Interwiki",
-	"wminc-gadget-iw-error-invalid": "إن معرف Wikidata الذي أدخلته أو الصفحة المرتبطة به غير موجودة، أو أن الصفحة غير متصلة بـ Wikidata. يُرجى المحاولة مرة أخرى.",
+	"wminc-gadget-iw-error-invalid": "إن معرف ويكي بيانات الذي أدخلته أو الصفحة المرتبطة به غير موجودة، أو أن الصفحة غير متصلة بويكي بيانات. يُرجى المحاولة مرة أخرى.",
 	"wminc-gadget-iw-error-reload": "يرجى إعادة تحميل الصفحة وحاول مرة أخرى.",
 	"wminc-gadget-iw-editsummary": "إضافة روابط إنترويكي إلى [[d:$1]]",
 	"tag-gadget-interwiki": "أداة إنترويكي",
