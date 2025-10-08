@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"ChiK",
 			"VASANTH S.N."
 		]
 	},
 	"wminc-listwikis": "ವಿಕಿ ಪೀಡಿಯಾಲೆನ ತಖ್ತೆ",
-	"wminc-testwiki": "ಪ್ರಯೋಗಡುಪ್ಪಿನ ವಿಕಿ"
+	"wminc-testwiki": "ಪ್ರಯೋಗಡುಪ್ಪಿನ ವಿಕಿ",
+	"wminc-infopage-title-p": "$1 ವಿಕಿಪೀಡಿಯ"
 }
