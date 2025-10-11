@@ -887,12 +887,10 @@ class WikimediaIncubator implements
 			$output->redirect( self::getSubdomain( $user, $prefix['lang'], $prefix['project'] ) );
 			return false;
 		}
-		$params = [ 'redirectfrom' => 'infopage' ];
-		$uselang = $request->getVal( 'uselang' );
-		if ( $uselang ) {
-			# pass through the &uselang parameter
-			$params['uselang'] = $uselang;
-		}
+
+		$params = $request->getQueryValues();
+		// Pass along all URL parameters, except `title` and `goto`
+		unset( $params['title'], $params['goto'] );
 		$mainpage = self::getMainPage( $prefix['lang'], $prefix['prefix'] );
 		if ( $mainpage->exists() ) {
 			# Only redirect to the main page if that page exists
