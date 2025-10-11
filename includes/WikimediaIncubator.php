@@ -14,7 +14,6 @@ use MediaWiki\Hook\GetDefaultSortkeyHook;
 use MediaWiki\Hook\GetMagicVariableIDsHook;
 use MediaWiki\Hook\MediaWikiPerformActionHook;
 use MediaWiki\Hook\MovePageIsValidMoveHook;
-use MediaWiki\Hook\ParserFirstCallInitHook;
 use MediaWiki\Hook\ParserGetVariableValueSwitchHook;
 use MediaWiki\Hook\SpecialSearchCreateLinkHook;
 use MediaWiki\Hook\SpecialSearchSetupEngineHook;
@@ -67,7 +66,6 @@ class WikimediaIncubator implements
 	ShowMissingArticleHook,
 	EditFormPreloadTextHook,
 	MediaWikiPerformActionHook,
-	ParserFirstCallInitHook,
 	PageContentLanguageHook,
 	ArticleParserOptionsHook,
 	MakeGlobalVariablesScriptHook,
@@ -801,60 +799,6 @@ class WikimediaIncubator implements
 		}
 		# Set the page title from "Wx/xyz - Incubator" to "Wikiproject Language - Incubator"
 		$out->setHTMLTitle( wfMessage( 'pagetitle', $infopage->mFormatTitle )->text() );
-	}
-
-	/** @inheritDoc */
-	public function onParserFirstCallInit( $parser ) {
-		$parser->setFunctionHook( 'infopage', [ self::class, 'renderParserFunction' ] );
-	}
-
-	/**
-	 * #infopage parser function
-	 * @param Parser $parser
-	 * @param string ...$parseOptions
-	 * @return array|string
-	 */
-	public static function renderParserFunction( Parser $parser, ...$parseOptions ) {
-		$title = $parser->getTitle();
-		$prefix = self::analyzePrefix( $title );
-		if ( $prefix['error'] ) {
-			return '<span class="error">' .
-				wfMessage( 'wminc-infopage-error' )->plain() . '</span>';
-		}
-		$infopage = new InfoPage( $title, $prefix, $parser->getUserIdentity() );
-		$infopage->mOptions = [
-			'status' => 'open',
-			# other (optional) options: mainpage
-		];
-
-		foreach ( $parseOptions as $parseOption ) {
-			if ( strpos( $parseOption, '=' ) === false ) {
-				continue;
-			}
-			[ $key, $value ] = explode( '=', $parseOption, 2 );
-			$key = strtolower( trim( $key ) );
-			$infopage->mOptions[$key] = trim( $value );
-		}
-
-		$infopage->mSubStatus = $infopage->mOptions['status'];
-
-		$parser->getOutput()->addModuleStyles( [ 'WikimediaIncubator.InfoPage' ] );
-		# we have to split the cache by language
-		$parser->getOptions()->getUserLangObj();
-
-		# Set <h1> heading
-		$parser->getOutput()->setTitleText( htmlspecialchars( $infopage->mFormatTitle ) );
-
-		if ( in_array( $infopage->mSubStatus, [ 'created', 'beforeincubator' ] ) ) {
-			$return = $infopage->showExistingWiki();
-		} elseif ( self::getMainPage( $prefix['lang'], $prefix['prefix'] )->exists() ) {
-			$return = $infopage->showIncubatingWiki();
-		} else {
-			// open wiki, no test wiki main page => missing
-			$return = $infopage->showMissingWiki();
-		}
-
-		return [ $return, 'noparse' => true, 'nowiki' => true, 'isHTML' => true ];
 	}
 
 	/**

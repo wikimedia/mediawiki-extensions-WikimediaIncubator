@@ -231,7 +231,6 @@
 		"ShowMissingArticle": "main",
 		"EditFormPreloadText": "main",
 		"MediaWikiPerformAction": "main",
-		"ParserFirstCallInit": "main",
 		"PageContentLanguage": "main",
 		"ArticleParserOptions": "main",
 		"MakeGlobalVariablesScript": "main",

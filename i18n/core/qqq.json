@@ -119,7 +119,6 @@
 	"wminc-infopage-status-created": "'''$1''' is a URL to the existing wiki.",
 	"wminc-infopage-status-beforeincubator": "'''$1''' is a URL to the existing wiki.",
 	"wminc-infopage-status-beforeincubator-sister": "'''$1''' is a URL to the existing wiki.",
-	"wminc-infopage-error": "Error message shown when trying to use <code>{{#infopage:}}</code> on a non-prefixed page (i.e. pages not starting with a Wx/xyz/ prefix).",
 	"wminc-infopage-links": "{{ignored}}",
 	"wminc-title-element": "{{optional}}\nUsed for the HTML &lt;title&gt; element on mainspace pages in the Incubator.\n\nParameters:\n* $1 - A page's prefixless title\n* $2 - The test wiki's name"
 }

@@ -98,7 +98,6 @@
 	"wminc-infopage-status-created": "This project has been approved by the language committee and is now available at $1.",
 	"wminc-infopage-status-beforeincubator": "This project was created before Wikimedia Incubator started and is available at $1.",
 	"wminc-infopage-status-beforeincubator-sister": "This project is available at $1.",
-	"wminc-infopage-error": "Error: {{#infopage}} can only be used on prefixed pages.",
 	"wminc-infopage-links": "",
 	"wminc-title-element": "$1 - $2"
 }
