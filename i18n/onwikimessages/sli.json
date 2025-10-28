@@ -12,8 +12,18 @@
 	"wminc-gadget-iw-dialog-qid-placeholder": "z.B. $1",
 	"wminc-gadget-iw-dialog-editpage": "Seite beoarbeeta",
 	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata sicha",
+	"tag-gadget-interwiki": "Interwiki Gadget",
+	"wminc-gadget-twpref-setlang": "Sproache eistella: $1",
+	"wminc-gadget-twpref-setwiki": "$1 ols denn Testprujätt eistella",
+	"wminc-infopage-text-approved-created": "Is befindet siech inda $1.",
 	"wminc-infopage-language-header": "Sproache",
+	"wminc-infopage-language-nocode": "Keene",
+	"wminc-infopage-language-wikipedia-article": "Englisch Wikipeediaortikel: [[$1|$2]] ([[$3|$4]])",
+	"wminc-infopage-language-translatewiki": "Translatewiki.net Portal",
+	"wminc-infopage-content-main-category": "Hauptkategorie",
+	"wminc-infopage-content-contributors": "Autora",
 	"wminc-infopage-content-administroters": "Administratora:",
+	"wminc-infopage-content-project": "Prujätt: $1",
 	"wminc-infopage-content-project-b": "Wikibooks",
 	"wminc-infopage-content-project-n": "Wikinews",
 	"wminc-infopage-content-project-p": "Wikipeedia",
@@ -21,5 +31,7 @@
 	"wminc-infopage-content-project-s": "Wikisource",
 	"wminc-infopage-content-project-t": "Wiktionary",
 	"wminc-infopage-content-project-v": "Wikiversity",
-	"wminc-infopage-content-project-y": "Wikivoyage"
+	"wminc-infopage-content-project-y": "Wikivoyage",
+	"wminc-infopage-req-header": "Veraussetzunga",
+	"wminc-infopage-req-meta": "Oafroage eim Meta-Wiki"
 }
