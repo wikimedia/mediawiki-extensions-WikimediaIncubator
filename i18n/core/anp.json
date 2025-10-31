@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Angpradesh",
+			"IND-ANP",
 			"Proabscorp!"
 		]
 	},
@@ -57,14 +58,14 @@
 	"wminc-fs-langselect": "आगू बढ़ौ $1 मँ नै त $2 मँ",
 	"wminc-infopage-enter": "मुख्य पृष्ठ प जा",
 	"wminc-unknownlang": "(अज्ञात भाषा संकेत)",
-	"wminc-infopage-title-p": "विकिपीड़िया $1",
-	"wminc-infopage-title-b": "विकिकिताब $1",
-	"wminc-infopage-title-t": "विक्शनरी $1",
-	"wminc-infopage-title-q": "विकिसूक्ती $1",
-	"wminc-infopage-title-n": "विकिन्यूज $1",
-	"wminc-infopage-title-s": "विकिस्रोत $1",
-	"wminc-infopage-title-v": "विकिविश्वविद्यालय $1",
-	"wminc-infopage-title-y": "विकिपर्यटन $1",
+	"wminc-infopage-title-p": "$1 विकिपीडिया",
+	"wminc-infopage-title-b": "$1 विकिकिताब",
+	"wminc-infopage-title-t": "$1 विक्शनरी",
+	"wminc-infopage-title-q": "$1 विकिसूक्ती",
+	"wminc-infopage-title-n": "$1 विकिन्यूज",
+	"wminc-infopage-title-s": "$1 विकिस्रोत",
+	"wminc-infopage-title-v": "$1 विकिविश्वविद्यालय",
+	"wminc-infopage-title-y": "$1 विकिपर्यटन",
 	"wminc-infopage-welcome": "विकिमिडिया इनक्यूबेटर प तोरौ स्वागत छौं। इ ([[{{MediaWiki:Aboutpage}}|विकिमिडिया फाऊंडेशन केरऽ ]]) एगो सहप्रकल्प छेकै।",
 	"wminc-infopage-missingwiki-text": "A $1 भाषा अभी तलक आस्तित्व मँ नै छै।",
 	"wminc-infopage-status-beforeincubator-sister": "इ परियोजना $1 प उपलब्ध छै।"
