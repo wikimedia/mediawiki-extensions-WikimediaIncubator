@@ -93,6 +93,5 @@
 	"wminc-infopage-status-approved": "دا زېږوونکې ويکي د [[meta:Special:MyLanguage/Language_committee|ژبټولنې]] له خوا تاييد شوې او ډېر ژر به جوړه شي.",
 	"wminc-infopage-status-created": "دا پروژه د ژبټولنې له خوا تاييد شوې ده او اوسمهال په $1 کې د لاسرسي وړ ده.",
 	"wminc-infopage-status-beforeincubator": "دا پروژه د ويکيمېډيا زېږوونکي څخه مخکې جوړه شوې وه، او اوسمهال په $1 کې د لاسرسي وړ ده.",
-	"wminc-infopage-status-beforeincubator-sister": "دا پروژه په $1 کې د لاسرسي وړ ده.",
-	"wminc-infopage-error": "تېروتنه: {{#infopage}} يوازې په مختاړو مخونو کې کارول کېدای شي."
+	"wminc-infopage-status-beforeincubator-sister": "دا پروژه په $1 کې د لاسرسي وړ ده."
 }

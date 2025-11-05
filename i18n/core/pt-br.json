@@ -108,6 +108,5 @@
 	"wminc-infopage-status-approved": "Este Incubador wiki foi aprovado pelo [[meta:Special:MyLanguage/Language_committee|comite de idiomas]] e será criado em breve.",
 	"wminc-infopage-status-created": "Esse projeto foi aprovado pela comitê linguístico e agora é avaliável em $1.",
 	"wminc-infopage-status-beforeincubator": "Esse projeto foi criado antes do inicio da Wikimedia Incubator e está avaliável em $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Este projeto está disponível em $1.",
-	"wminc-infopage-error": "Erro: {{#infopage}} só pode ser usada em páginas com prefixos."
+	"wminc-infopage-status-beforeincubator-sister": "Este projeto está disponível em $1."
 }

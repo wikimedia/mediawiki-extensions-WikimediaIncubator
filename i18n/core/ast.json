@@ -90,6 +90,5 @@
 	"wminc-infopage-status-approved": "El [[meta:Special:MyLanguage/Language_committee|comité de llingües]] aprobó esta wiki de Incubadora y se creará aína.",
 	"wminc-infopage-status-created": "Esti proyeutu s'aprobó pol comité de llingües y agora ta disponible en $1.",
 	"wminc-infopage-status-beforeincubator": "Esti proyeutu se creó enantes que principiara Wikimedia Incubator y ta disponible en $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Esti proyeutu ta disponible en $1.",
-	"wminc-infopage-error": "Error: {{#infopage}} sólo se pue utilizar nes páxines con prefixu."
+	"wminc-infopage-status-beforeincubator-sister": "Esti proyeutu ta disponible en $1."
 }

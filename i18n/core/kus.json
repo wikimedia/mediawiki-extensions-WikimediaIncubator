@@ -89,6 +89,5 @@
 	"wminc-infopage-status-approved": "[[meta:Special:MyLanguage/Language_committee|language committee]] siak di'e Incubator wiki kaŋa ka li kʋ yuugɛ ka na maal.",
 	"wminc-infopage-status-created": "Buudi pian'ad Kpɛɛmnam yʋ'ʋn siak di'e tʋʋm kaŋa ka li yʋ'ʋn bɛ $1 nannana",
 	"wminc-infopage-status-beforeincubator": "Tʋʋm kaŋa daa naam nɛ ka Wikimedia Incubator naan pin'il ka bɛ $1",
-	"wminc-infopage-status-beforeincubator-sister": "Tʋʋm kaŋa bɛ $1.",
-	"wminc-infopage-error": "Gbɛlʋŋ: {{#infopage}} tʋn'e nyaŋi nɔk tʋm nɛ prefixed lakisa ni ma'aa."
+	"wminc-infopage-status-beforeincubator-sister": "Tʋʋm kaŋa bɛ $1."
 }

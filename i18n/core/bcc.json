@@ -76,6 +76,5 @@
 	"wminc-infopage-contribute": "اگه شما ای زبانا زانیت، شما بی ای زبانی تا بی  مشارکتا تشویک بوته گیت!",
 	"wminc-infopage-status-open": "ای یک پاچین ویکی شه ئنکوباتور ویکی‌میڈ\tیا ها اینت.",
 	"wminc-infopage-status-created": "ای پروژه شه زبانی کمیٹه یی نیمگا کبول بوته وبی ای نشانی تا $1 توانیت آییرا ودی کنیت .",
-	"wminc-infopage-status-beforeincubator-sister": "ای پروژه بی $1 تا دسترس اینت.",
-	"wminc-infopage-error": "خطا: {{#infopage}} فقط در صفحات پیشوند می‌تواند مورد استفاده قرار گیرد."
+	"wminc-infopage-status-beforeincubator-sister": "ای پروژه بی $1 تا دسترس اینت."
 }

@@ -89,6 +89,5 @@
 	"wminc-infopage-status-approved": "تمت الموافقة على ويكي الحاضنة هاذ من كبل [[meta:Special:MyLanguage/Language_committee|لجنة اللغة]] وراح يسوونه قريبا.",
 	"wminc-infopage-status-created": "تمت الموافقة على هاذ المشروع من قبل لجنة اللغات وهو متاح هسه في $1.",
 	"wminc-infopage-status-beforeincubator": "تم إنشاء هاذ المشروع قبل بدء حاضنة ويكيميديا وهو متاح في $1.",
-	"wminc-infopage-status-beforeincubator-sister": "هاذ المشروع متوفر من $1.",
-	"wminc-infopage-error": "خطأ: {{#infopage}} تكدر بس تستخدمها في صفحات بيها بادئة."
+	"wminc-infopage-status-beforeincubator-sister": "هاذ المشروع متوفر من $1."
 }

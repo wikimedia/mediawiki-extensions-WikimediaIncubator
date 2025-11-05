@@ -103,6 +103,5 @@
 	"wminc-infopage-status-approved": "Ця інкубаторна вікі була затверджена [[meta:Special:MyLanguage/Language_committee|мовним комітетом]] і буде скоро створена.",
 	"wminc-infopage-status-created": "Цей проєкт було схвалено мовним комітетом і тепер він доступний на $1.",
 	"wminc-infopage-status-beforeincubator": "Цей проєкт було створено до існування Інкубатора Вікімедіа, доступний $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Цей проєкт доступний за адресою $1.",
-	"wminc-infopage-error": "Помилка: {{#infopage}} може використовуватись лише на сторінках із префіксом."
+	"wminc-infopage-status-beforeincubator-sister": "Цей проєкт доступний за адресою $1."
 }

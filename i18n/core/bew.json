@@ -89,6 +89,5 @@
 	"wminc-infopage-status-approved": "Ni wiki Pengerem udah disetujuin ama [[meta:Special:MyLanguage/Language_committee|kumité basa]] èn bakal sigra dikeja.",
 	"wminc-infopage-status-created": "Ni proyèk udah disetujuin ama kumité basa èn sekarang udah derak di $1.",
 	"wminc-infopage-status-beforeincubator": "Ni proyèk udah dibuat sebelonnya Pengerem Wikimédia ada èn derak di $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Ni proyèk derak di $1.",
-	"wminc-infopage-error": "Kengabluan: {{#infopage}} cuman bisa dipaké di halaman beawalan doang."
+	"wminc-infopage-status-beforeincubator-sister": "Ni proyèk derak di $1."
 }

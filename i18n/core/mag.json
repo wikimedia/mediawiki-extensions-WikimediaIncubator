@@ -89,6 +89,5 @@
 	"wminc-infopage-status-approved": "ई ऊष्मानियन्त्रक विकिके [[meta:Special:MyLanguage/Language_committee|भाषासमिति]] द्वारा अनुमोदित कैल गेलीहे आउ एकरा जल्दिए बनावल जैतै ।",
 	"wminc-infopage-status-created": "ई परियोजनाके भाषा समितिद्वारा अनुमोदित कैल गेलीहे आउ अखनि ई $1 पर उपलब्ध हे ।",
 	"wminc-infopage-status-beforeincubator": "ई परियोजना विकिमीडिया ऊष्मानियन्त्रकके आरम्भ होवेसे पहलहीँ बनावल गेलीहल आउ ई $1 पर उपलब्ध हे ।",
-	"wminc-infopage-status-beforeincubator-sister": "ई परियोजना $1 पर उपलब्ध हे ।",
-	"wminc-infopage-error": "त्रुटि : {{#infopage}} के उपयोग खाली उपसर्गित पन्नेपर कैल जा सकहे ।"
+	"wminc-infopage-status-beforeincubator-sister": "ई परियोजना $1 पर उपलब्ध हे ।"
 }

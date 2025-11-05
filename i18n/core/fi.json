@@ -107,6 +107,5 @@
 	"wminc-infopage-status-approved": "Tämä hautomo-wiki on hyväksytty [[meta:Special:MyLanguage/Language_committee|kielikomitean]] toimesta ja tullaan luomaan pian.",
 	"wminc-infopage-status-created": "Kielikomitea on hyväksynyt tämän hankkeen ja se on nyt saatavilla osoitteessa $1.",
 	"wminc-infopage-status-beforeincubator": "Tämä projekti luotiin ennen kuin Wikimedia-hautomo käynnistettiin, ja se on saatavilla osoitteessa $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Tämä hanke on saatavilla osoitteessa $1.",
-	"wminc-infopage-error": "Virhe: {{#infopage}} voidaan käyttää vain etuliitteisillä sivuilla."
+	"wminc-infopage-status-beforeincubator-sister": "Tämä hanke on saatavilla osoitteessa $1."
 }

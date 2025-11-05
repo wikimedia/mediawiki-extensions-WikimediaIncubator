@@ -97,6 +97,5 @@
 	"wminc-infopage-status-approved": "Dieses Incubator-Wiki wurde vom [[meta:Special:MyLanguage/Language_committee|Sprachkomitee]] genehmigt und wird bald erstellt werden.",
 	"wminc-infopage-status-created": "Dieses Projekt wurde vom Sprachkomitee genehmigt und ist nun unter $1 verfügbar..",
 	"wminc-infopage-status-beforeincubator": "Dieses Projekt wurde erstellt, bevor es den Wikimedia Incubator gab, und ist unter $1 verfügbar.",
-	"wminc-infopage-status-beforeincubator-sister": "Dieses Projekt ist unter $1 verfügbar.",
-	"wminc-infopage-error": "Fehler: {{#infopage}} kann nur auf Seiten, die über ein Präfix verfügen, verwendet werden."
+	"wminc-infopage-status-beforeincubator-sister": "Dieses Projekt ist unter $1 verfügbar."
 }

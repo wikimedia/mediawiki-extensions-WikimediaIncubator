@@ -56,6 +56,5 @@
 	"wminc-infopage-status-approved": "Sta wiki de Incubator ła ze stada aprovada dal [[meta:Special:MyLanguage/Language_committee|comitato lenguìstego]] e ła vegnarà tra poco creada.",
 	"wminc-infopage-status-created": "Sto projeto el ze sta aprovà dal comitato lenguìstego e el ze dispunìbiłe inte el inderiso $1.",
 	"wminc-infopage-status-beforeincubator": "Sto projeto el ze sta creà prima del nàsare del comitato lenguìstego e el ze dispunìbiłe inte el inderiso $1.",
-	"wminc-infopage-status-beforeincubator-sister": "El projeto el ze dispunìbiłe inte l'inderiso $1.",
-	"wminc-infopage-error": "Error: {{#infopage}} el połe èsar doparà solo inte łe voze co prefiso."
+	"wminc-infopage-status-beforeincubator-sister": "El projeto el ze dispunìbiłe inte l'inderiso $1."
 }

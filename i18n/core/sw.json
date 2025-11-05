@@ -91,6 +91,5 @@
 	"wminc-infopage-status-approved": "Wiki hii ya kiangulio imeidhinishwa na [[meta:Special:MyLanguage/Language_committee|kamati_ya_lugha]] na itaundwa hivi karibuni.",
 	"wminc-infopage-status-created": "Mradi huu umeidhinishwa na kamati ya lugha na sasa unapatikana kwa $1.",
 	"wminc-infopage-status-beforeincubator": "Mradi huu uliundwa kabla ya kiangulio cha Wikimedia kuanza na unapatikana kwa $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Mradi huu unapatikana $1",
-	"wminc-infopage-error": "Hitilafu: {{#infopage}} inaweza kutumika tu kwenye kurasa zilizoangaziwa."
+	"wminc-infopage-status-beforeincubator-sister": "Mradi huu unapatikana $1"
 }

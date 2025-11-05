@@ -88,6 +88,5 @@
 	"wminc-infopage-status-approved": "Egyi wiki ya mukuza ya yikirizibwa [[meta:Special:MyLanguage/Language_committee|Akakyiiko ka endimi]] Kandi neza ku hangwaho juba.",
 	"wminc-infopage-status-created": "Egyi purogyekiti yikirizibwa Akakyiiko ka endimi, Kandi hati eriho aha $1.",
 	"wminc-infopage-status-beforeincubator": "Egyi purogyekiti eka hangwaho wikimedia mukuza etaka tandikire, hati eriho aha $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Egyi purogyekiti eriho aha $1.",
-	"wminc-infopage-error": "Enshobi: {{#infopage}} niribasa kukoresibwa aha embaju eziine otugambo twokubanza honka."
+	"wminc-infopage-status-beforeincubator-sister": "Egyi purogyekiti eriho aha $1."
 }

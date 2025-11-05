@@ -101,6 +101,5 @@
 	"wminc-infopage-status-approved": "Denna inkubatorwiki har godkänts av [[meta:Special:MyLanguage/Language_committee|språkkommittén]] och kommer snart att skapas.",
 	"wminc-infopage-status-created": "Detta projekt har godkänts av språkkommittén och finns nu på $1.",
 	"wminc-infopage-status-beforeincubator": "Detta projekt skapades före Wikimedia Inkubator startade och finns på $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Detta projekt finns på $1.",
-	"wminc-infopage-error": "Fel: {{#infopage}} kan endast användas på sidor med prefix."
+	"wminc-infopage-status-beforeincubator-sister": "Detta projekt finns på $1."
 }

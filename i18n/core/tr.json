@@ -104,6 +104,5 @@
 	"wminc-infopage-status-approved": "Bu Kuluçka vikisi [[meta:Special:MyLanguage/Language_committee|dil komitesi]] tarafından onaylandı ve yakında oluşturulacak.",
 	"wminc-infopage-status-created": "Bu proje dil komitesi tarafından onaylandı ve $1 sayfasında mevcut.",
 	"wminc-infopage-status-beforeincubator": "Bu proje Wikimedia Kuluçka başlamadan önce oluşturuldu ve $1 sayfasında mevcut.",
-	"wminc-infopage-status-beforeincubator-sister": "Bu proje $1 sayfasında mevcut.",
-	"wminc-infopage-error": "Hata: {{#infopage}} yalnızca önekli sayfalarda kullanılabilir."
+	"wminc-infopage-status-beforeincubator-sister": "Bu proje $1 sayfasında mevcut."
 }

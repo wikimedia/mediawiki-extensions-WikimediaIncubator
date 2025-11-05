@@ -90,6 +90,5 @@
 	"wminc-infopage-status-approved": "ХӀара инкубатор къобалйина йу [[meta:Special:MyLanguage/Language_committee|меттан комитето]], кестта кхуллур йолуш йу.",
 	"wminc-infopage-status-created": "ХӀара проект меттан комитето къобалйина йу, хӀинца $1 адресца тӀекхочуш йу.",
 	"wminc-infopage-status-beforeincubator": "ХӀара проект, Викимедиа-инкубатор йолайалале кхоьллина йу, хьажа йиш йу $1 адресехь.",
-	"wminc-infopage-status-beforeincubator-sister": "ХӀара проект тӀекхочуш йу $1 чохь.",
-	"wminc-infopage-error": "ГӀалат: {{#infopage}} лело мегар дац бухара агӀонаш тӀехь бен."
+	"wminc-infopage-status-beforeincubator-sister": "ХӀара проект тӀекхочуш йу $1 чохь."
 }

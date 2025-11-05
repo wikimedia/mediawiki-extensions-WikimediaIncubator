@@ -112,6 +112,5 @@
 	"wminc-infopage-status-created": "Ce projet a été approuvé par le comité linguistique et est maintenant disponible sur $1.",
 	"wminc-infopage-status-beforeincubator": "Ce projet a été créé avant le lancement de Wikimedia Incubator et est disponible sur $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Ce projet est disponible sur $1.",
-	"wminc-infopage-error": "Erreur : {{#infopage}} ne peut être utilisé que sur des pages préfixées.",
 	"wminc-title-element": "$1 – $2"
 }

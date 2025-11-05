@@ -93,6 +93,5 @@
 	"wminc-infopage-status-created": "Овој проект е одобрен од јазичната комисија и сега е достапен на $1.",
 	"wminc-infopage-status-beforeincubator": "Овој проект е создаден пред започнувањето на Инкубаторот на Викимедија и е достапен на $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Проектот е достапен на $1.",
-	"wminc-infopage-error": "Грешка: {{#infopage}} може да се користи само на страници со претставки.",
 	"wminc-title-element": "$1 — $2"
 }

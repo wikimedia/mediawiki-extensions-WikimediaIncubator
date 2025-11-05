@@ -88,6 +88,5 @@
 	"wminc-infopage-status-approved": "Tutón Inkubatorowy wiki je so wot [[meta:Special:MyLanguage/Language_committee|rěčneho komiteja]] schwalił a budźe so bórze wutworjeć.",
 	"wminc-infopage-status-created": "Tutón projekt je so wot rěčneho komiteja schwalił a steji nětko pod $1 k dispoziciji.",
 	"wminc-infopage-status-beforeincubator": "Tutón projekt je so wutworił, prjedy hač inkubator Wikimedije je so startował a steji pod $1 k dispoziciji.",
-	"wminc-infopage-status-beforeincubator-sister": "Tutón projekt steji pod $1 k dispoziciji.",
-	"wminc-infopage-error": "Zmylk: {{#infopage}} da so jenož na stronach wužiwać, kotrež prefiks maja."
+	"wminc-infopage-status-beforeincubator-sister": "Tutón projekt steji pod $1 k dispoziciji."
 }

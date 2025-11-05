@@ -90,6 +90,5 @@
 	"wminc-infopage-status-approved": "Costa wiki d'Incubator a l'é staita aprovà dal [[meta:Special:MyLanguage/Language_committee|comità lenghìstich]] e a sarà tòst creà.",
 	"wminc-infopage-status-created": "Ës proget a l'é stàit aprovà dal comità lenghìstich e a l'é adess disponìbil a $1.",
 	"wminc-infopage-status-beforeincubator": "Ës proget a l'é stàit creà prima che l'Incubator ëd Wikipedia a partèissa e a l'é disponìbil a $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Sto proget a l'é disponìbil a $1.",
-	"wminc-infopage-error": "Eror: {{#infopage}} a peul mach esse dovrà dzora a dle pàgine prefissà.."
+	"wminc-infopage-status-beforeincubator-sister": "Sto proget a l'é disponìbil a $1."
 }

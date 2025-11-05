@@ -83,6 +83,5 @@
 	"wminc-infopage-status-approved": "Toś ten Inkubatorowy wiki jo se wót [[meta:Special:MyLanguage/Language_committee|rěcnego komiteja]] pśizwolił a buźo se skóro napóraś.",
 	"wminc-infopage-status-created": "Toś ten projekt jo se wót rěcnego komiteja pśizwólił a stoj něnto pód $1 k dispoziciji.",
 	"wminc-infopage-status-beforeincubator": "Toś ten projekt jo se napórał, nježli až Wikimedia Incubator jo se startował a stoj pód $1 k dispoziciji.",
-	"wminc-infopage-status-beforeincubator-sister": "Toś ten projekt stoj pód $1 k dispoziciji.",
-	"wminc-infopage-error": "Zmólka: {{#infopage}} dajo se jano na bokach wužywaś, kótarež maju prefiks."
+	"wminc-infopage-status-beforeincubator-sister": "Toś ten projekt stoj pód $1 k dispoziciji."
 }

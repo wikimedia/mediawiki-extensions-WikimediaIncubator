@@ -99,6 +99,5 @@
 	"wminc-infopage-status-approved": "Αυτό το βίκι του Επωαστήρα έχει εγκριθεί από την [[meta:Special:MyLanguage/Language_committee|γλωσσική επιτροπή]] και θα δημιουργηθεί σύντομα.",
 	"wminc-infopage-status-created": "Αυτό το εγχείρημα έχει εγκριθεί από την γλωσσική επιτροπή και τώρα είναι διαθέσιμο στο $1.",
 	"wminc-infopage-status-beforeincubator": "Αυτό το εγχείρημα δημιουργήθηκε πριν το ξεκίνημα του Επωαστήρα του Wikimedia και είναι διαθέσιμο στο $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Το εγχείρημα είναι διαθέσιμο στο $1.",
-	"wminc-infopage-error": "Σφάλμα: {{#infopage}} μπορεί να βρεθεί μόνο σε σελίδες με πρόθεμα."
+	"wminc-infopage-status-beforeincubator-sister": "Το εγχείρημα είναι διαθέσιμο στο $1."
 }

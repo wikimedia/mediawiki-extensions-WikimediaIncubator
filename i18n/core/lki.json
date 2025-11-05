@@ -92,6 +92,5 @@
 	"wminc-infopage-status-approved": "این ویکی اینکیوباتور توسط [[meta:Special:MyLanguage/Language_committee|language committee]] تأیید شده و به زودی ایجاد خواهد‌شد.",
 	"wminc-infopage-status-created": "این پروژه توسط کمیته زبان تصویب شده است و در نشانی $1 در دسترس است.",
 	"wminc-infopage-status-beforeincubator": "این پروژه قبل از شروع ویکی‌رشد، ایجاد شده است و در نشانی $1 در دسترس است.",
-	"wminc-infopage-status-beforeincubator-sister": "این پروژه در $1 در دسترس است.",
-	"wminc-infopage-error": "خطا: {{#infopage}} فقط در صفحات پیشوند می‌تواند مورد استفاده قرار گیرد."
+	"wminc-infopage-status-beforeincubator-sister": "این پروژه در $1 در دسترس است."
 }

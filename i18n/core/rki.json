@@ -89,6 +89,5 @@
 	"wminc-infopage-status-approved": "ဒေ Incubator wiki ကို [[meta:Special:MyLanguage/Language_committee|language committee]] က အတည်ပြုထားပြီး မကြာခင် ဖန်တီးပါဖို့။",
 	"wminc-infopage-status-created": "ဒေပရောဂျက်ကို ဘာသာစကားကော်မတီမှ အတည်ပြုထားပြီး အဂု $1 နန့် ရနိုင်ပါရေ။",
 	"wminc-infopage-status-beforeincubator": "Wikimedia Incubator မစတင်မီ ဒေပရောဂျက်ကို ဖန်တီးခယား $1 နန့် ရနိုင်ပါရေ။",
-	"wminc-infopage-status-beforeincubator-sister": "ဒေပရောဂျက်စွာ $1 အောက်တွင် ရဟိနိုင်ပါရေ။",
-	"wminc-infopage-error": "အမှားအယွင်း- {{#infopage}} ကို ရှေ့ဗြီးစာမျက်နှာတိတွင်သာ အသုံးပြုနိုင်ပါရေ။"
+	"wminc-infopage-status-beforeincubator-sister": "ဒေပရောဂျက်စွာ $1 အောက်တွင် ရဟိနိုင်ပါရေ။"
 }

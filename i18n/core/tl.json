@@ -91,6 +91,5 @@
 	"wminc-infopage-status-approved": "Ang wiking Limliman na ito ay pinayagan na ng [[meta:Special:MyLanguage/Language_committee|lupon ng wika]] at lilikhain na pagdaka.",
 	"wminc-infopage-status-created": "Ang proyektong ito ay napayagan na ng lupon ng wika at makukuha na ngayon doon sa $1.",
 	"wminc-infopage-status-beforeincubator": "Ang proyektong ito ay nalikha bago magsimula ang Limliman ng Wikimedia at makukuha roon sa $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Ang proyektong ito ay makukuha roon sa $1.",
-	"wminc-infopage-error": "Kamalian: Ang {{#infopage}} ay magagamit lamang sa mga pahinang may unlapi."
+	"wminc-infopage-status-beforeincubator-sister": "Ang proyektong ito ay makukuha roon sa $1."
 }

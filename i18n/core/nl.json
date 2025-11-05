@@ -96,6 +96,5 @@
 	"wminc-infopage-status-approved": "Deze Incubatorwiki is goedgekeurd door de [[meta:Special:MyLanguage/Language_committee|taalcommissie]] en wordt binnenkort aangemaakt.",
 	"wminc-infopage-status-created": "Dit project is goedgekeurd door het taalcomité en is nu beschikbaar op $1.",
 	"wminc-infopage-status-beforeincubator": "Dit project is gemaakt voordat Wikimedia Incubator is opgericht en is beschikbaar op $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Dit project is beschikbaar op $1.",
-	"wminc-infopage-error": "Fout: {{#infopage}} kan alleen gebruikt worden in pagina's met een voorvoegsel."
+	"wminc-infopage-status-beforeincubator-sister": "Dit project is beschikbaar op $1."
 }

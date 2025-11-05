@@ -95,6 +95,5 @@
 	"wminc-infopage-status-approved": "Ĉi tiu Kovila vikio estas aprobita de la [[meta:Special:MyLanguage/Language_committee|lingva komitato]] kaj estos kreita baldaŭ.",
 	"wminc-infopage-status-created": "Ĉi tiu projekto estas aprobita de la lingva komitato kaj estas nun havebla ĉe $1.",
 	"wminc-infopage-status-beforeincubator": "Ĉi tiu projekto estis kreita antaŭ Wikimedia Kovilo komencis kaj estas havebla ĉe $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Ĉi tiu projekto estas disponebla ĉe $1",
-	"wminc-infopage-error": "Eraro: {{#infopage}} nur povas esti uzita sur prefiksitaj paĝoj."
+	"wminc-infopage-status-beforeincubator-sister": "Ĉi tiu projekto estas disponebla ĉe $1"
 }

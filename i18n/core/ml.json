@@ -85,6 +85,5 @@
 	"wminc-infopage-status-approved": "ഈ ഇൻകുബേറ്റർ വിക്കി [[meta:Special:MyLanguage/Language_committee|ഭാഷാ സമിതി]] അംഗീകരിച്ചിരിക്കുന്നു, ഉടൻ തന്നെ സൃഷ്ടിക്കപ്പെടുന്നതാണ്.",
 	"wminc-infopage-status-created": "ഈ സംരംഭം ഭാഷാ കമ്മിറ്റി അംഗീകരിച്ചിരിക്കുന്നു, അതിപ്പോൾ $1 എന്നു ലഭ്യമാണ്.",
 	"wminc-infopage-status-beforeincubator": "ഈ പദ്ധതി, വിക്കിമീഡിയ ഇൻകുബേറ്റർ തുടങ്ങുന്നതിനു മുമ്പേയുള്ളതാണ്, അത് $1-ൽ ലഭ്യമാണ്.",
-	"wminc-infopage-status-beforeincubator-sister": "ഈ പദ്ധതി ഇപ്പോൾ $1 എന്ന വിലാസത്തിൽ ലഭ്യമാണ്.",
-	"wminc-infopage-error": "പിഴവ്: പൂർവ്വപദമുള്ള താളുകളിൽ മാത്രമേ {{#infopage}} ഉപയോഗിക്കാൻ കഴിയുകയുള്ളു."
+	"wminc-infopage-status-beforeincubator-sister": "ഈ പദ്ധതി ഇപ്പോൾ $1 എന്ന വിലാസത്തിൽ ലഭ്യമാണ്."
 }

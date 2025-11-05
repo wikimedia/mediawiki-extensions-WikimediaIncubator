@@ -89,6 +89,5 @@
 	"wminc-infopage-status-approved": "Tuta viki v Inkubatoru jest utvrdžena [[meta:Special:MyLanguage/Language_committee|jezyčnym komitetom]] i skoro bude stvorjena.",
 	"wminc-infopage-status-created": "Tuta viki v Inkubatoru jest utvrdžena jezyčnym komitetom i nyně jest dostupna tu: $1.",
 	"wminc-infopage-status-beforeincubator": "Tutoj projekt byl iztvorjeny prěd početka Inkubatora Vikimedije i jest dostupny tu: $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Tutoj projekt jest dostupny tu: $1.",
-	"wminc-infopage-error": "Pogrěška: {{#infopage}} upotrěbjaje se samo na stranicah s prědstavkoju."
+	"wminc-infopage-status-beforeincubator-sister": "Tutoj projekt jest dostupny tu: $1."
 }

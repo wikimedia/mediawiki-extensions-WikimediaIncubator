@@ -90,6 +90,5 @@
 	"wminc-infopage-status-approved": "Wiki Incubator ŋɔ nyɛla[[meta:Special:N zuliya yɛltɔɣa/zuliya yɛltɔɣa laɣingu|zuliya_yɛltɔɣa laɣingu]]  ni saɣi ti shɛli ka ni nam saha biɛla sunsuuni.",
 	"wminc-infopage-status-created": "Tuma ŋɔ ny~la zuliya yɛltɔɣa laɣingu ni saɣi ti shɛli ka yi pa be $1",
 	"wminc-infopage-status-beforeincubator": "Tuma ŋɔ daa nammi pɔi ka wikimedia Incubator nan yi ti pili ka be $1",
-	"wminc-infopage-status-beforeincubator-sister": "Tuma ŋɔ be $1",
-	"wminc-infopage-error": "Chiriŋ: {{#infopage}} din tooi niŋla prefix yaɣa konko."
+	"wminc-infopage-status-beforeincubator-sister": "Tuma ŋɔ be $1"
 }

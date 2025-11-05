@@ -96,6 +96,5 @@
 	"wminc-infopage-status-approved": "Гэты інкубатарны праект быў ухвалены [[meta:Special:MyLanguage/Language_committee|Моўным камітэтам]] і хутка будзе створаны.",
 	"wminc-infopage-status-created": "Гэты праект быў зацьверджаны моўным камітэтам, і цяпер ён даступны на $1.",
 	"wminc-infopage-status-beforeincubator": "Гэты праект быў створаны перад пачаткам функцыянаваньня Інкубатара фундацыі «Вікімэдыя» і ён даступны на $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Гэты праект даступны па адрасе $1.",
-	"wminc-infopage-error": "Памылка: {{#infopage}} можна выкарыстоўваць толькі на старонках з прэфіксам."
+	"wminc-infopage-status-beforeincubator-sister": "Гэты праект даступны па адрасе $1."
 }

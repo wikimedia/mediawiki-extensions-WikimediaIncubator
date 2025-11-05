@@ -90,6 +90,5 @@
 	"wminc-infopage-status-approved": "[[meta:Special:MyLanguage/Language_committee|Keelekomitee]] on selle Inkubaatori-viki heaks kiitnud ja see luuakse peatselt.",
 	"wminc-infopage-status-created": "Keelekomitee on selle projekti heaks kiitnud ja see on nüüd saadaval asukohas $1.",
 	"wminc-infopage-status-beforeincubator": "Selle projektiga alustati enne Wikimedia Inkubaatori avamist ja see on saadaval asukohas $1.",
-	"wminc-infopage-status-beforeincubator-sister": "See projekt on saadaval asukohas $1.",
-	"wminc-infopage-error": "Tõrge: {{#infopage}} on kasutatav ainult eesliitega lehekülgedel."
+	"wminc-infopage-status-beforeincubator-sister": "See projekt on saadaval asukohas $1."
 }

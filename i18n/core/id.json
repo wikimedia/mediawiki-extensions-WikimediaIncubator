@@ -101,6 +101,5 @@
 	"wminc-infopage-status-approved": "Wiki Inkubator ini telah disetujui oleh [[meta:Special:MyLanguage/Language_committee|komite bahasa]] dan akan segera dibuat.",
 	"wminc-infopage-status-created": "Proyek ini telah disetujui oleh komite bahasa dan sekarang tersedia di $1.",
 	"wminc-infopage-status-beforeincubator": "Proyek ini dibuat selebum Inkubator Wikimedia ada dan tersedia di $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Proyek ini tersedia di $1.",
-	"wminc-infopage-error": "Galat: {{#infopage}} hanya bisa digunakan pada halaman berprefiks."
+	"wminc-infopage-status-beforeincubator-sister": "Proyek ini tersedia di $1."
 }

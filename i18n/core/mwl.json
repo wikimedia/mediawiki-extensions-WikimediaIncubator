@@ -58,6 +58,5 @@
 	"wminc-infopage-missingwiki-text": "Inda nó eisiste $1 nesta lhéngua.",
 	"wminc-infopage-createmainpage": "Screba l termo \"Páigina percipal\" nesta lhéngua:",
 	"wminc-infopage-status-closedsister": "Este subdomínio fui cerrado. Nabegue pa <strong>$2</strong> pa cuntrebuir nesta biqui.",
-	"wminc-infopage-status-beforeincubator-sister": "Este porjeto stá çponible an $1.",
-	"wminc-infopage-error": "Erro: {{#infopage}} solo puode ser outelizada an páiginas cun prefixos."
+	"wminc-infopage-status-beforeincubator-sister": "Este porjeto stá çponible an $1."
 }

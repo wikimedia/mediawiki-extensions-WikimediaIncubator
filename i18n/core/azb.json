@@ -65,6 +65,5 @@
 	"wminc-infopage-status-approved": "بو اینوکوباتور ویکی [[meta:Special:MyLanguage/Language_committee|دیل کومیته‌سینده]] تأیید اولونوب‌دور و بو یاخیندا یارادیلاجاق‌دیر.",
 	"wminc-infopage-status-created": "بو پروژه دیل کومیته‌سینده تأیید اولونوب‌دور و $1-ده ال‌ده‌دیر.",
 	"wminc-infopage-status-beforeincubator": "بو پروژه ویکی‌مئدیا اینکوباتور یاراناندان قاباق باشلانیب‌دیر و $1-ده ال‌ده‌دیر.",
-	"wminc-infopage-status-beforeincubator-sister": "بو پروژه $1-ده ال‌ده‌دیر.",
-	"wminc-infopage-error": "خطا: {{#infopage}}-ی یالنیز اؤن‌اکلی صحیفه‌لرده ایشلتمک اولار."
+	"wminc-infopage-status-beforeincubator-sister": "بو پروژه $1-ده ال‌ده‌دیر."
 }

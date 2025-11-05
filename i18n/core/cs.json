@@ -97,6 +97,5 @@
 	"wminc-infopage-status-approved": "Tato inkubační wiki byla schválena [[meta:Special:MyLanguage/Language_committee|jazykovou komisí]] a bude brzy založena.",
 	"wminc-infopage-status-created": "Tento projekt byl schválen jazykovou komisí a je nyní dostupný na $1.",
 	"wminc-infopage-status-beforeincubator": "Tento projekt vznikl před spuštěním Inkubátoru Wikimedia a je dostupný na $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Projekt je dostupný na $1.",
-	"wminc-infopage-error": "Chyba: {{#infopage}} lze použít jen na stránkách s prefixem."
+	"wminc-infopage-status-beforeincubator-sister": "Projekt je dostupný na $1."
 }

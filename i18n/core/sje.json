@@ -54,6 +54,5 @@
 	"wminc-infopage-status-approved": "[[meta:Special:MyLanguage/Language_committee|Giellakomitea]] lä dáv Incubator-wikiav buorreválldám, ja wiki gallgá ruvva álgaduvvut.",
 	"wminc-infopage-status-created": "Giellakomitea buorreválldám dáv prosjiektav, ja prosjäkkta dálä gävdnu $1 sinne.",
 	"wminc-infopage-status-beforeincubator": "Dát prosjäkkta lij álgeduvvum åvvdep gu Wikimedia Incubator lij álgeduvvum ja gävdnu $1 sinne.",
-	"wminc-infopage-status-beforeincubator-sister": "Dát prosjäkkta gävdnu $1 sinne.",
-	"wminc-infopage-error": "Vihke: {{#infopage}} máhhtá bär prefiksalatj belij sinne aneduvvut."
+	"wminc-infopage-status-beforeincubator-sister": "Dát prosjäkkta gävdnu $1 sinne."
 }

@@ -96,6 +96,5 @@
 	"wminc-infopage-status-approved": "הוויקי הזה, שנמצא עכשיו באינקובטור, אושר על־ידי [[meta:Special:MyLanguage/Language_committee|הוועדה הלשונית]] וייווצר בקרוב.",
 	"wminc-infopage-status-created": "המיזם הזה אושר על־ידי הוועדה הלשונית ועכשיו הוא זמין בכתובת $1.",
 	"wminc-infopage-status-beforeincubator": "המיזם הזה נוצר לפני שהוקם האינקובטור של ויקימדיה והוא זמין בכתובת $1.",
-	"wminc-infopage-status-beforeincubator-sister": "המיזם הזה זמין בכתובת $1.",
-	"wminc-infopage-error": "שגיאה: אפשר להשתמש ב־<span dir=\"ltr\">{{#infopage}}</span> רק בדפים עם תחילית."
+	"wminc-infopage-status-beforeincubator-sister": "המיזם הזה זמין בכתובת $1."
 }

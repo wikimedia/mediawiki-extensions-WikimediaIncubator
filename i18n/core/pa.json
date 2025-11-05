@@ -89,6 +89,5 @@
 	"wminc-infopage-status-approved": "ਇਸ ਆਲਣੇਂ ਵਿਕੀ ਨੂੰ [[meta:Special:MyLanguage/Language_committee|ਭਾਸ਼ਾ ਕਮੇਟੀ]] ਵੱਲੋਂ ਮਨਜ਼ੂਰੀ ਦਿੱਤੀ ਗਈ ਏ ਅਤੇ ਇਸਨੂੰ ਜਲਦੀ ਹੀ ਬਣਾਇਆ ਜਾਵੇਗਾ।",
 	"wminc-infopage-status-created": "ਇਸ ਪ੍ਰੋਜੈਕਟ ਨੂੰ ਭਾਸ਼ਾ ਕਮੇਟੀ ਵੱਲੋਂ ਮਨਜ਼ੂਰੀ ਦੇ ਦਿੱਤੀ ਗਈ ਏ ਅਤੇ ਹੁਣ ਇਹ $1 ਵਿੱਚ ਮੌਜ਼ੂਦ ਏ।",
 	"wminc-infopage-status-beforeincubator": "ਇਹ ਪ੍ਰੋਜੈਕਟ ਵਿਕੀਮੀਡੀਆ ਆਲਣੇਂ ਦੇ ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਬਣਾਇਆ ਗਿਆ ਸੀ ਅਤੇ ਇਹ $1 ਵਿੱਚ ਮੌਜ਼ੂਦ ਏ।",
-	"wminc-infopage-status-beforeincubator-sister": "ਇਹ ਪ੍ਰੋਜੈਕਟ $1 ਵਿੱਚ ਮੌਜ਼ੂਦ ਏ।",
-	"wminc-infopage-error": "ਗਲਤੀ: {{#infopage}} ਦੀ ਵਰਤੋਂ ਸਿਰਫ ਅਗੇਤਰ ਵਾਲੇ ਵਰਕਿਆਂ 'ਤੇ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ।"
+	"wminc-infopage-status-beforeincubator-sister": "ਇਹ ਪ੍ਰੋਜੈਕਟ $1 ਵਿੱਚ ਮੌਜ਼ੂਦ ਏ।"
 }

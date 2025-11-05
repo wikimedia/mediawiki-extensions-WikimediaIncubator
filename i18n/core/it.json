@@ -98,6 +98,5 @@
 	"wminc-infopage-status-approved": "Questo wiki di Incubator è stato approvato dal [[meta:Special:MyLanguage/Language_committee|comitato linguistico]] e sarà creato presto.",
 	"wminc-infopage-status-created": "Questo progetto è stato approvato dal language committee ed è ora disponibile all'indirizzo $1",
 	"wminc-infopage-status-beforeincubator": "Questo progetto è stato creato prima della nascita di Wikimedia Incubator ed è disponibile all'indirizzo $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Questo progetto è disponibile all'indirizzo $1.",
-	"wminc-infopage-error": "Errore: {{#infopage}} può essere utilizzato solo su pagine con prefisso."
+	"wminc-infopage-status-beforeincubator-sister": "Questo progetto è disponibile all'indirizzo $1."
 }

@@ -89,6 +89,5 @@
 	"wminc-infopage-status-approved": "هاد الويكي محضانة راه اتقبل من عند [[meta:Special:MyLanguage/Language_committee|مشوَر اللوغات]] و غادي قريب يتّخلق.",
 	"wminc-infopage-status-created": "هاد البروجي راهو مقبول من عند مشوَر اللوغات و راهو ضركا واجد ف $1.",
 	"wminc-infopage-status-beforeincubator": "هاد البروجي كان اتّخلق قبل ما يبدا محضانة` ويكيميديا و راه واجد ف $1.",
-	"wminc-infopage-status-beforeincubator-sister": "هاد البروجي راه واجد ف $1.",
-	"wminc-infopage-error": "غلطة: {{#infopage}} ما تنجم تستعملها غير فل باجات لي فيها بريفيكس."
+	"wminc-infopage-status-beforeincubator-sister": "هاد البروجي راه واجد ف $1."
 }

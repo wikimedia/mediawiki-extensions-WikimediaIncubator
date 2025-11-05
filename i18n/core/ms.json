@@ -102,6 +102,5 @@
 	"wminc-infopage-status-created": "Projek ini telah diluluskan oleh jawatankuasa bahasa dan kini boleh didapati di $1.",
 	"wminc-infopage-status-beforeincubator": "Projek ini dibuka sebelum Wikimedia Pengeram dimulakan, dan boleh didapati di $1.",
 	"wminc-infopage-status-beforeincubator-sister": "Projek ini terdapat di $1.",
-	"wminc-infopage-error": "Ralat: {{#infopage}} boleh digunakan di laman-laman berawalan sahaja.",
 	"wminc-title-element": "$1 - $2"
 }

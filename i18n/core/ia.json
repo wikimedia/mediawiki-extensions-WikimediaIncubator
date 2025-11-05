@@ -90,6 +90,5 @@
 	"wminc-infopage-status-approved": "Iste wiki incubator ha essite approbate per le [[meta:Special:MyLanguage/Language_committee|comité de linguas]] e essera create tosto.",
 	"wminc-infopage-status-created": "Iste projecto ha essite approbate per le comité linguistic e es ora disponibile a $1.",
 	"wminc-infopage-status-beforeincubator": "Iste projecto ha essite create ante le comenciamento de Wikimedia Incubator e es disponibile a $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Iste projecto es disponibile a $1.",
-	"wminc-infopage-error": "Error: {{#infopage}} pote esser usate solmente in paginas con prefixo."
+	"wminc-infopage-status-beforeincubator-sister": "Iste projecto es disponibile a $1."
 }

@@ -79,6 +79,5 @@
 	"wminc-infopage-status-approved": "Tämä hautomo-wiki oon hyväksytty [[meta:Special:MyLanguage/Language_committee|kielikomitean]] toimesta ja tullaan luomaan pian.",
 	"wminc-infopage-status-created": "Kielikomitea oon hyväksynyt tämän prujektin ja se oon nyt saatavilla atressissa $1.",
 	"wminc-infopage-status-beforeincubator": "Tämä prujekti luotiin ennen kuin Wikimeetia-hautomo käynnistettiin, ja se oon saatavilla atressissa $1.",
-	"wminc-infopage-status-beforeincubator-sister": "Tämä prujekti oon saatavilla atressista $1.",
-	"wminc-infopage-error": "Virhe: {{#infopage}} voiaan käyttää vain etuliitteisilä sivuila."
+	"wminc-infopage-status-beforeincubator-sister": "Tämä prujekti oon saatavilla atressista $1."
 }
