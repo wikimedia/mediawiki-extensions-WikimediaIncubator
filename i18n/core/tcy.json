@@ -7,5 +7,8 @@
 	},
 	"wminc-listwikis": "ವಿಕಿ ಪೀಡಿಯಾಲೆನ ತಖ್ತೆ",
 	"wminc-testwiki": "ಪ್ರಯೋಗಡುಪ್ಪಿನ ವಿಕಿ",
-	"wminc-infopage-title-p": "$1 ವಿಕಿಪೀಡಿಯ"
+	"wminc-infopage-title-p": "$1 ವಿಕಿಪೀಡಿಯ",
+	"wminc-infopage-title-b": "$1 ವಿಕಿಬುಕ್ಸ್",
+	"wminc-infopage-title-n": "$1 ವಿಕಿನ್ಯೂಸ್",
+	"wminc-infopage-title-y": "$1 ವಿಕಿವೊಯೇಜ್"
 }
