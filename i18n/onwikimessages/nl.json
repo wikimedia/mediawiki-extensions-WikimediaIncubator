@@ -4,7 +4,8 @@
 			"HanV",
 			"Mainframe98",
 			"McDutchie",
-			"SPQRobin"
+			"SPQRobin",
+			"Siebrand"
 		]
 	},
 	"wminc-code-macrolanguage": "De [[wikipedia:$2 language|taal \"$3\"]] is een [[wikipedia:ISO 639 macrolanguage|macrotaal]], die bestaat uit de volgende talen:",
@@ -51,6 +52,9 @@
 	"wminc-gadget-twpref-setlang-tooltip": "Stel uw interfacetaal in op $1",
 	"wminc-gadget-twpref-setwiki": "$1 instellen als uw testproject",
 	"wminc-gadget-twpref-setwiki-tooltip": "Stel $1 in als uw testproject zodat nieuwe pagina’s die u maakt deel zullen uitmaken van dit project",
+	"gadget-language-banner": "Een banner toevoegen die laat weten wanneer uw testwikitaal beschikbaar is als interfacetaal.",
+	"wminc-gadget-language-banner-available": "{{GENDER:$1|U}} kunt <bdi>$2</bdi> nu gebruiken als uw interfacetaal in Wikimedia Incubator.",
+	"wminc-gadget-language-banner-switch": "Nu overschakelen",
 	"wminc-infopage-title-status-approved": "Dit is een goedgekeurde testwiki van de Wikimedia Incubator.",
 	"wminc-infopage-title-status-default": "Dit is een testwiki van de Wikimedia Incubator.",
 	"wminc-infopage-title-status-imported": "Dit is een geïmporteerde testwiki van de Wikimedia Incubator.",
