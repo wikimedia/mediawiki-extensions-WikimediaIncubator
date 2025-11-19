@@ -48,6 +48,8 @@
 	"wminc-gadget-twpref-setlang-tooltip": "Ensadinnais interfācas billin prēi $1",
 	"wminc-gadget-twpref-setwiki": "Ensadinnais $1 kāigi testan prōjaktan",
 	"wminc-gadget-twpref-setwiki-tooltip": "Ensadinnais $1 kāigi testan prōjaktan, kāi nawwai pāusai tū teikāis wīrst engūbuns šin prōjaktan.",
+	"wminc-gadget-language-banner-available": "Tēnti, tū mazzi tērpaus <bdi>$2</bdi> būtwei twajs interfācas billin ēn Wikimēdijas Inkubatōrin.",
+	"wminc-gadget-language-banner-switch": "Enklaūjais",
 	"wminc-infopage-title-status-approved": "Šis ast aprōbiska testas wiki ēn Wikimedia Inkubatōrin.",
 	"wminc-infopage-title-status-default": "Šis ast testas wiki ēn Wikimedia Inkubatōrin.",
 	"wminc-infopage-title-status-imported": "Šis ast impōrtiska testas wiki ēn Wikimedia Inkubatōrin.",
