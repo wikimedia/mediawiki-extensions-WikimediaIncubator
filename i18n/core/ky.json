@@ -11,12 +11,12 @@
 	"wminc-searchwiki-selectproject": "Издөө:",
 	"wminc-fs-langselect-title": "Тилди тандаңыз",
 	"wminc-fs-signup-title": "Катталуу",
-	"wminc-infopage-title-p": "$1 тилиндеги Википедия",
-	"wminc-infopage-title-b": "$1 тилиндеги Викикитеп",
-	"wminc-infopage-title-t": "$1 тилиндеги Викисөздүк",
-	"wminc-infopage-title-q": "$1 тилиндеги Викиүзүндү",
-	"wminc-infopage-title-n": "$1 тилиндеги Викижаңылыктар",
-	"wminc-infopage-title-s": "$1 тилиндеги Викибулак",
-	"wminc-infopage-title-v": "$1 тилиндеги Викиверситет",
-	"wminc-infopage-title-y": "$1 тилиндеги Викисаякат"
+	"wminc-infopage-title-p": "$1 Википедия",
+	"wminc-infopage-title-b": "$1 Викикитеп",
+	"wminc-infopage-title-t": "$1 Викисөздүк",
+	"wminc-infopage-title-q": "$1 Викиүзүндү",
+	"wminc-infopage-title-n": "$1 Викижаңылыктар",
+	"wminc-infopage-title-s": "$1 Викибулак",
+	"wminc-infopage-title-v": "$1 Викиверситет",
+	"wminc-infopage-title-y": "$1 Викисаякат"
 }
