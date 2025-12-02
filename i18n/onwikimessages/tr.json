@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Asma",
-			"Joseph"
+			"Joseph",
+			"SaldırganSincap"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\" dili]] bir [[wikipedia:ISO 639 macrolanguage|makrodil]], şu üye dillerden oluşuyor:",
@@ -16,7 +17,7 @@
 	"wminc-custom-newarticletext-withprefix-1": "$1 yazın ve \"{{int:publishpage}}\" düğmesine tıklayın.",
 	"wminc-custom-newarticletext-withprefix-2": "\"$1\" kısmını değiştirin ve \"{{int:publishpage}}\" düğmesine tıklayın.",
 	"wminc-custom-newarticletext-withprefix-3": "\"{{FULLPAGENAME}}\" adında yeni bir ([[$1|önekli]]) sayfa oluşturuyorsunuz.",
-	"wminc-custom-newarticletext-withprefix-4": "Ayrıca, bağlantılarınıza önek ekleyin: <code><nowiki>[[Sayfa başlığı]]</nowiki></code> yerine <code><nowiki>[[Wx/xx/Sayfa başlığı]]</nowiki></code> ve <code><nowiki>{{Sayfa başlığı}}</nowiki></code> yerine <code><nowiki>{{Wx/xx/Sayfa başlığı}}</nowiki></code>.",
+	"wminc-custom-newarticletext-withprefix-4": "Ayrıca, bağlantılarınıza önek ekleyin: <code><nowiki>[[Page title]]</nowiki></code> yerine <code><nowiki>[[Wx/xx/Page title]]</nowiki></code> ve <code><nowiki>{{Page title}}</nowiki></code> yerine <code><nowiki>{{Wx/xx/Page title}}</nowiki></code>.",
 	"wminc-custom-newarticletext-withprefix-5": "Bunu kendiliğinden yapmak için, [[$1|Önek Ekle küçük aracını]] kullanabilirsiniz.",
 	"wminc-custom-tb-incorrect-title-title": "Yanlış bir başlığa sahip bir sayfa oluşturmaya çalışıyorsunuz.",
 	"wminc-custom-tb-incorrect-title-text": "Başlık büyük olasılıkla bir [[$1|önek]] içermiyor veya başka bir biçimde yanlış bir biçimdedir (önekte büyük harfler, sondaki eğik çizgi vb.).\n\nBuraya başka bir sayfadan geldiyseniz, lütfen geri dönün ve bağlantıyı düzeltin ve ardından doğru adlandırılmış sayfayı oluşturun. Sayfayı doğrudan oluşturmaya çalışıyorsanız, lütfen sayfayı uygun bir adla oluşturun.\n\nBu, doğru başlık biçimine sahip olduğunu düşündüğünüz herhangi bir sayfa oluşturmanızı engelliyorsa, lütfen [[$2|hizmetlilere bildirin]].",
