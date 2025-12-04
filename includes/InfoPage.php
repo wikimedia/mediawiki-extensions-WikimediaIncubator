@@ -308,7 +308,7 @@ class InfoPage {
 		if ( $this->mSubStatus != 'approved' && $this->mThisLangData['type'] != 'invalid' ) {
 			$content .= Html::element( 'div',
 				[ 'class' => 'wminc-infopage-contribute' ],
-				$this->context->msg( 'wminc-infopage-contribute' )->plain() );
+				$this->context->msg( 'wminc-infopage-contribute' )->text() );
 		}
 		$content .= Html::rawElement( 'div', [ 'class' => 'wminc-infopage-links' ],
 			# custom links and other stuff
