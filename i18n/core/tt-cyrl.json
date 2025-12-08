@@ -5,6 +5,7 @@
 			"Marat-avgust",
 			"Ерней",
 			"З. ӘЙЛЕ",
+			"Ильгиз",
 			"Ильнар"
 		]
 	},
@@ -49,5 +50,5 @@
 	"wminc-infopage-title-p": "«$1» телендәге Википедия",
 	"wminc-infopage-title-t": "Викисүзлек $1 телендә",
 	"wminc-infopage-status-approved": "Бу инкубатор [[meta:Special:MyLanguage/Language_committee|тел комитеты]] тарафыннан хупланган һәм тиздән ачылачак.",
-	"wminc-infopage-status-beforeincubator-sister": "Этот проект доступен в $1."
+	"wminc-infopage-status-beforeincubator-sister": "Бу проект $1 эчендә бар."
 }
