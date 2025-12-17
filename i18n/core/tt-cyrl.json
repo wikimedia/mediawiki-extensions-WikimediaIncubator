@@ -24,7 +24,7 @@
 	"wminc-error-wronglangcode": "<strong>Хата:</strong> Әлеге биттә [[{{MediaWiki:Wminc-error-help}}|дөрес булмаган тел коды бар]] «$1».",
 	"wminc-error-unprefixed": "<strong>Хата:</strong> Элеге битнең [[{{MediaWiki:Wminc-error-help}}|префиксы юк]].",
 	"randombytest": "Тикшерелүче викиның очраклы мәкаләсе",
-	"randombytest-nopages": "Сезнең тикшерелүче викида $1 исемнәр аланындагы битләр юк",
+	"randombytest-nopages": "Сезнең тестлау өчен ясалган википроектыгызда $1 исемарасында битләр юк.",
 	"wminc-viewuserlang": "Кулланучының һәм аның тикшерелүче викиенең тел көйләнмәләрен эзләү",
 	"wminc-viewuserlang-user": "Кулланучы исеме:",
 	"wminc-viewuserlang-go": "Табу",
