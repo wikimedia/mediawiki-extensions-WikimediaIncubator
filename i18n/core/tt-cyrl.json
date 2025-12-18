@@ -5,7 +5,8 @@
 			"Marat-avgust",
 			"Ерней",
 			"З. ӘЙЛЕ",
-			"Ильнар"
+			"Ильнар",
+			"Ильгиз"
 		]
 	},
 	"wminc-desc": "Викимедиа Инкубаторы өчен тикшерелмә вики-система",
@@ -23,7 +24,7 @@
 	"wminc-error-wronglangcode": "<strong>Хата:</strong> Әлеге биттә [[{{MediaWiki:Wminc-error-help}}|дөрес булмаган тел коды бар]] «$1».",
 	"wminc-error-unprefixed": "<strong>Хата:</strong> Элеге битнең [[{{MediaWiki:Wminc-error-help}}|префиксы юк]].",
 	"randombytest": "Тикшерелүче викиның очраклы мәкаләсе",
-	"randombytest-nopages": "Сезнең тикшерелүче викида $1 исемнәр аланындагы битләр юк",
+	"randombytest-nopages": "Сезнең тестлау өчен ясалган википроектыгызда $1 исемарасында битләр юк.",
 	"wminc-viewuserlang": "Кулланучының һәм аның тикшерелүче викиенең тел көйләнмәләрен эзләү",
 	"wminc-viewuserlang-user": "Кулланучы исеме:",
 	"wminc-viewuserlang-go": "Табу",
@@ -49,5 +50,5 @@
 	"wminc-infopage-title-p": "«$1» телендәге Википедия",
 	"wminc-infopage-title-t": "Викисүзлек $1 телендә",
 	"wminc-infopage-status-approved": "Бу инкубатор [[meta:Special:MyLanguage/Language_committee|тел комитеты]] тарафыннан хупланган һәм тиздән ачылачак.",
-	"wminc-infopage-status-beforeincubator-sister": "Этот проект доступен в $1."
+	"wminc-infopage-status-beforeincubator-sister": "Бу проект $1 эчендә бар."
 }
