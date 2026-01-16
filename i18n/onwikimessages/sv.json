@@ -3,6 +3,7 @@
 		"authors": [
 			"Jon Harald Søby",
 			"Sabelöga",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
@@ -17,7 +18,7 @@
 	"wminc-custom-newarticletext-withprefix-1": "Skriv $1 och klicka sedan på \"{{int:publishpage}}\".",
 	"wminc-custom-newarticletext-withprefix-2": "Ersätt \"$1\" och klicka sedan på \"{{int:publishpage}}\".",
 	"wminc-custom-newarticletext-withprefix-3": "Du skapar en ny sida ([[$1|med prefix]])  som heter \"{{FULLPAGENAME}}\".",
-	"wminc-custom-newarticletext-withprefix-4": "Lägg också till prefix i dina länkar: <code><nowiki>[[Sidtitel]]</nowiki></code> till <code><nowiki>[[Wx/xx/Sidtitel]]</nowiki></code> och <code><nowiki>{{Sidtitel}}</nowiki></code> till <code><nowiki>{{Wx/xx/Sidtitel}}</nowiki></code>.",
+	"wminc-custom-newarticletext-withprefix-4": "Lägg även till prefix i dina länkar: <code><nowiki>[[Page title]]</nowiki></code> till <code><nowiki>[[Wx/xx/Page title]]</nowiki></code> och <code><nowiki>{{Page title}}</nowiki></code> till <code><nowiki>{{Wx/xx/Page title}}</nowiki></code>.",
 	"wminc-custom-newarticletext-withprefix-5": "För att automatiskt göra detta kan du använda [[$1|finessen Lägg till prefix (AddPrefix)]].",
 	"wminc-custom-tb-incorrect-title-title": "Du försöker skapa en sida med en felaktig titel.",
 	"wminc-custom-tb-incorrect-title-text": "Titeln saknar förmodligen ett [[$1|prefix]] eller har på annat sätt ett felaktigt format (versaler i prefix, felvända snedstreck, osv.).\n\nOm du kommit hit från en annan sida, var god gå tillbaka och åtgärda länken och försök sedan skapa sida igen med rätt namn.\n\nOm du av någon anledning hindras från att skapa sidan som du tycker har rätt titelformat kan du rapportera detta till [[$2|administratörerna]].",
