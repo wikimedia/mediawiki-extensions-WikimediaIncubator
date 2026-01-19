@@ -13,7 +13,7 @@
 	"wminc-testwiki-none": "Svi wikiji",
 	"wminc-testwiki-site": "(Održavanje)",
 	"wminc-recentchanges-all": "Sve nedavne izmjene",
-	"wminc-prefinfo-language": "Vaš jezik sučelja - nazavisno od vašeg testnog vikija",
+	"wminc-prefinfo-language": "Jezik vašeg interfejsa – nazavisno od vašeg probnog projekta",
 	"wminc-prefinfo-code": "ISO 639 kôd jezika na kojem ovdje radite",
 	"wminc-prefinfo-project": "Izaberite Vikimedijin projekt na kojem ovdje radite",
 	"wminc-prefinfo-error": "Odabrali ste projekt koji zahtijeva kod jezika.",

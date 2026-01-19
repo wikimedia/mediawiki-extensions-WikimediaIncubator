@@ -23,7 +23,7 @@
 	"wminc-error-unprefixed": "<strong>Feeler:</strong> Dës Säit huet [[{{MediaWiki:Wminc-error-help}}|kee Prefix]].",
 	"wminc-error-unprefixed-suggest": "<strong>:Feeler:</strong> Dës Säit huet [[{{MediaWiki:Wminc-error-help}}|kee Prefix]]! Dir kënnt ënner [[:$1]] eng Säit uleeën.",
 	"wminc-error-wiki-exists": "Dës Wiki gëtt et schonn. Dir kënnt dës Säit ënner $1 fannen. Wann d'Wiki viru Kuerzem ugeluecht gouf, waart wgl. e puer Stonnen oder Deeg, bis de ganzen Inhalt importéiert gouf.",
-	"randombytest": "Zoufallssäit duerch Test-Wiki",
+	"randombytest": "Zoufälleg Säit aus der Test-Wiki",
 	"randombytest-nopages": "Et si keng Säiten op Ärer Test-Wiki, am Nummraum: $1.",
 	"wminc-viewuserlang": "Benotzersprooch an Test-Wiki nokucken",
 	"wminc-viewuserlang-user": "Benotzernumm:",

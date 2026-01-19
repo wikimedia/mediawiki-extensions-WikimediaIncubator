@@ -28,7 +28,7 @@
 	"wminc-viewuserlang-user": "Koristničsko ime:",
 	"wminc-viewuserlang-go": "Prějdti",
 	"wminc-userdoesnotexist": "Koristnik «$1» ne jestvuje.",
-	"wminc-ip": "«$1» jest IP-adres ili vrěmenny koristnik.",
+	"wminc-ip": "«$1» jest IP-adres ili začasny koristnik.",
 	"action-viewuserlang": "Gleděnje jezyka i testnoj viki koristnika",
 	"right-viewuserlang": "Gleděnje jezyka i testnoj viki koristnika",
 	"group-test-sysop": "Administratori testnoj viki",
