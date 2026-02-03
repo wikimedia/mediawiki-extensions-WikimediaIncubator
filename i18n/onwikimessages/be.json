@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Ucukor"
 		]
 	},
+	"wminc-gadget-iw-dialog-cancel": "Скасаваць",
 	"wminc-gadget-iw-dialog-publish": "Апублікаваць"
 }
