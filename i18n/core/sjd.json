@@ -8,6 +8,7 @@
 	"wminc-listwikis": "Пукэ Википроэктэ лысст",
 	"wminc-testwiki": "Тэ̄сст-вики:",
 	"wminc-testwiki-code": "Тэ̄сст-вики кӣлл:",
+	"wminc-testwiki-none": "Пугк вики",
 	"wminc-recentchanges-all": "Пугк о̄дт воа̄йхэз",
 	"group-test-sysop": "Тэ̄сст-вики администратэр",
 	"group-test-sysop-member": "{{GENDER:$1|тэ̄сст-вики администратэр}}",
@@ -15,5 +16,12 @@
 	"wminc-search-nocreate-suggest": "То̄нн о̄дзекь «$1». То̄нн вуаяк ӣжянт викесьт лыст <strong>[[$3]]</strong> лыһкэ!",
 	"wminc-searchwiki-selectproject": "О̄дзэ:",
 	"wminc-infopage-enter": "мэ̄ннлэ э̄ввт лысста",
-	"wminc-infopage-title-p": "Википедья кӣлэсьт $1"
+	"wminc-infopage-title-p": "Википедья кӣлэсьт $1",
+	"wminc-infopage-title-b": "Викикырьй $1 кӣлэсьт",
+	"wminc-infopage-title-t": "Викиса̄ннҍнэһкь $1 кӣлэсьт",
+	"wminc-infopage-title-q": "Викицитатнэһкь $1 кӣлэсьт",
+	"wminc-infopage-title-n": "Викио̄дтас $1 кӣлэсьт",
+	"wminc-infopage-title-s": "Викитека $1 кӣлэсьт",
+	"wminc-infopage-title-v": "Викиверситеһт $1 кӣлэсьт",
+	"wminc-infopage-title-y": "Викиво̄дтэй $1 кӣлэсьт"
 }
