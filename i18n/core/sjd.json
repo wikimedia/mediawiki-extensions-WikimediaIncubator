@@ -5,10 +5,11 @@
 		]
 	},
 	"wminc-manual": "Выгкмушш",
-	"wminc-listwikis": "Пукэ Википроэктэ лысст",
+	"wminc-listwikis": "Пугк Википроэктэ лысст",
 	"wminc-testwiki": "Тэ̄сст-вики:",
 	"wminc-testwiki-code": "Тэ̄сст-вики кӣлл:",
 	"wminc-testwiki-none": "Пугк вики",
+	"wminc-testwiki-site": "Техническэ лушшмушш",
 	"wminc-recentchanges-all": "Пугк о̄дт воа̄йхэз",
 	"group-test-sysop": "Тэ̄сст-вики администратэр",
 	"group-test-sysop-member": "{{GENDER:$1|тэ̄сст-вики администратэр}}",
