@@ -8,7 +8,13 @@
 	"wminc-gadget-addprefix-help": "Тоннӭ ыбе пре̄фикс тэнн лыст воа̄йхэмэнҍ оаннӭ. Со̄нн ӣджь маӈӈа лыст элмсаһтмужэсьт лашшан.",
 	"wminc-gadget-addprefix-toggle": "Вӯзьхэ/пе̄ҋҋтэ пре̄фикс",
 	"wminc-gadget-iw-add-wikidata": "Лажьхэ уж Викида̄ннэе э̄л",
+	"wminc-gadget-iw-dialog-title": "Лажьхэ интэрвики-ужэтҍ",
+	"wminc-gadget-iw-dialog-qid-placeholder": "ва̄лльтэ, $1",
+	"wminc-gadget-iw-dialog-learn-more": "Е̄намп тӣдҍсэ Викида̄ннэе баяс",
+	"wminc-gadget-iw-dialog-wikidata-search": "О̄дзэ Викида̄ннэнҍ",
+	"wminc-gadget-iw-editsummary": "Интэрвики-ужэтҍ элеменнтэ [[d:$1]] лажьхэмушш",
 	"tag-gadget-interwiki": "Интэрвики га̄джеһт",
+	"wminc-gadget-twpref-setlang": "О̄нънэ кӣл: $1",
 	"wminc-gadget-twpref-setwiki": "Пыйе $1 гу тэ̄сст-проэктант",
 	"wminc-infopage-content-main-category": "Шурьмусс категорья"
 }
