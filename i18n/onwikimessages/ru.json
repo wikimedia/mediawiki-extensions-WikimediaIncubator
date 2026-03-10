@@ -7,7 +7,8 @@
 			"UniCollab",
 			"Александр Сигачёв",
 			"Умар",
-			"Köpleres"
+			"Köpleres",
+			"Lvova"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Язык «$3»]] считается [[wikipedia:ISO 639 macrolanguage|макроязыком]], состоящим из следующих языков:",
@@ -68,7 +69,7 @@
 	"wminc-infopage-language-nocode": "нет",
 	"wminc-infopage-language-iso3": "Код [[$1|ISO 639-3]]: $2",
 	"wminc-infopage-language-glottolog": "$1 ([[$2|Glottolog]])",
-	"wminc-infopage-language-wikipedia-article": "Статья на английской Википедии: [[$1|$2]] ([[$3|$4]])",
+	"wminc-infopage-language-wikipedia-article": "Статья в Википедии на английском языке: [[$1|$2]] ([[$3|$4]])",
 	"wminc-infopage-language-translatewiki": "Портал на translatewiki.net",
 	"wminc-infopage-language-directionality": "Направление письма: $1",
 	"wminc-infopage-language-directionality-ltr": "слева направо",
