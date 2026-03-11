@@ -764,7 +764,7 @@ class WikimediaIncubator implements
 				$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
 				# Suggest to create a prefixed page
 				$out->addHtml( '<div class="wminc-unprefixed-suggest">' .
-					wfMessage( 'wminc-error-unprefixed-suggest', $suggest )->parseAsBlock() .
+					wfMessage( 'wminc-error-unprefixed-suggest', $suggest->getPrefixedText() )->parseAsBlock() .
 				'</div>' );
 			} else {
 				$out->addWikiMsg( 'wminc-error-unprefixed' );
