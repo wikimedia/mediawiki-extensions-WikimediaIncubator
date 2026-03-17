@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tuwewanzi"
+		]
+	},
+	"wminc-custom-featuredwikis-permanent": "Ókiŋni lená léčhiya yaŋké kte, načhéče:",
+	"wminc-gadget-addprefix-toggle": "Tȟokáb-ažú naȟmá/pazó {{GENDER:|wo|we|wo/we}}",
+	"wminc-gadget-iw-add-wikidata": "Wikidata wóičhikȟoyake waŋ yeyá {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-gadget-iw-dialog-cancel": "Yužúžu {{GENDER:|wo|we|wo/we}}",
+	"wminc-gadget-iw-dialog-publish": "Yeyá {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-gadget-iw-dialog-editpage": "Oyúblaye kiŋ lé yutȟókeča {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-gadget-iw-dialog-learn-more": "Wikidata uŋspéič'ičhiya {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-gadget-iw-dialog-wikidata-search": "Wikidata Wóle {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-infopage-text-approved-created": "$1 ektá iyéyaya oyákihi.",
+	"wminc-infopage-text-approved-date": "$1 hé eháŋ he káǧapi.",
+	"wminc-infopage-language-header": "Iyápi",
+	"wminc-infopage-language-nocode": "Waníča",
+	"wminc-infopage-language-wikipedia-article": "Wikimedia Wašíču-Iápi oyúblaye: [[$1|$2]] ([[$3|$4]])",
+	"wminc-infopage-content-main-category": "Očháže čhokáta",
+	"wminc-infopage-content-contributors": "Tuwá kíč'uŋ kiŋ",
+	"wminc-infopage-content-administroters": "Oítȟaƞčhaƞ:",
+	"wminc-infopage-content-project": "Wičhóȟ'aŋ: $1",
+	"wminc-infopage-content-project-b": "Wikibooks",
+	"wminc-infopage-content-project-n": "Wikinews",
+	"wminc-infopage-content-project-p": "Wikipedia",
+	"wminc-infopage-content-project-q": "Wikiquote",
+	"wminc-infopage-content-project-s": "Wikisource",
+	"wminc-infopage-content-project-t": "Wiktionary",
+	"wminc-infopage-content-project-v": "Wikiversity",
+	"wminc-infopage-content-project-y": "Wikivoyage"
+}

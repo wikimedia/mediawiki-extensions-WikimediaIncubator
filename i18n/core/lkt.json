@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tuwewanzi"
+		]
+	},
+	"wminc-listwikis": "Wiki čhašówapi",
+	"wminc-testwiki": "Wóiyutȟe-wiki:",
+	"wminc-testwiki-code": "Wóiyutȟe-wiki iyápi:",
+	"wminc-testwiki-none": "Wiki iyúha",
+	"wminc-recentchanges-all": "Leháŋl woyútȟokča iyúha",
+	"wminc-prefinfo-project": "Wikimedia wičoȟ'aŋ héčhiya ahtáyani kiŋ kaȟníǧa {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-viewuserlang-user": "Tuwá uƞ kiƞ tȟačháze:",
+	"wminc-viewuserlang-go": "Ektá yá {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-userdoesnotexist": "Tuwá uŋ kiŋ $1 waníča.",
+	"wminc-ip": "\"$1\" IP makȟóčhažeyate naíŋš tuwá íȟaŋȟaŋ uŋ kiŋ héčha.",
+	"group-test-sysop": "Wóiyutȟe-wiki oítȟaŋčhaŋ",
+	"group-test-sysop-member": "{{GENDER\n:$1|wóiyutȟe-wiki oítȟaŋčhaŋ}}",
+	"grouppage-test-sysop": "{{ns\n:project}}:Wóiyutȟe-wiki oítȟaŋčhaŋ",
+	"wminc-searchwiki": "Wiki waŋ ole {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-searchwiki-noproject": "Wičhóȟ'aŋ waŋ yakáȟniǧe šni.",
+	"wminc-searchwiki-inputlanguage": "Iyápi:",
+	"wminc-searchwiki-go": "Ektá yá {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-searchwiki-match-userlangname": "$1 Iyápi tȟačháže héčha.",
+	"wminc-fs-langselect-title": "Iyápi kaȟniǧa {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-fs-signup-title": "Čhažé-oyáŋke kičháǧa{{GENDER:|yo|ye|yo/ye}}",
+	"wminc-fs-userpage-title": "Čhažé-oyáŋke oyúblaye kičháǧa   {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-fs-startwiki-title": "Wiki kičháǧa   {{GENDER:|yo|ye|yo/ye}}",
+	"wminc-fs-pagetitle-done": "- wašná luštáŋ!"
+}
