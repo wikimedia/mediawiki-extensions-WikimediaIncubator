@@ -97,7 +97,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		}
 
 		# add the language of the "testwiki" URL param if set
-		$urlTestWiki = WikimediaIncubator::getUrlParam();
+		$urlTestWiki = WikimediaIncubator::getUrlParam( $this->getRequest() );
 		if ( $urlTestWiki ) {
 			$getLangCodes[$urlTestWiki['lang']] = true;
 		}
@@ -145,7 +145,7 @@ class SpecialIncubatorFirstSteps extends UnlistedSpecialPage {
 		$link = SpecialPage::getTitleFor( 'Userlogin' );
 		$query = [ 'returnto' => $this->getPageTitle(),
 			'uselang' => $this->getRequest()->getVal( 'uselang' ) ];
-		$urlTestWiki = WikimediaIncubator::getUrlParam();
+		$urlTestWiki = WikimediaIncubator::getUrlParam( $this->getRequest() );
 		if ( $urlTestWiki ) {
 			// set preferences automatically, based on the "testwiki" URL param
 			$query['testwikiproject'] = $urlTestWiki['project'];

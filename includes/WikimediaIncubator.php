@@ -315,9 +315,8 @@ class WikimediaIncubator implements
 	 * Returns the array of analyzePrefix() on success.
 	 * @return array|false
 	 */
-	public static function getUrlParam() {
-		global $wgRequest;
-		$urlParam = $wgRequest->getVal( 'testwiki' );
+	public static function getUrlParam( WebRequest $request ) {
+		$urlParam = $request->getVal( 'testwiki' );
 		if ( !$urlParam ) {
 			return false;
 		}
@@ -347,7 +346,7 @@ class WikimediaIncubator implements
 		$includeSister = false
 	) {
 		global $wgWmincPref, $wgWmincProjects;
-		$url = self::getUrlParam();
+		$url = self::getUrlParam( RequestContext::getMain()->getRequest() );
 		if ( $project ) {
 			# Precedence to given value
 			$r = $project;
@@ -409,7 +408,7 @@ class WikimediaIncubator implements
 			$codevalue = $code;
 		} else {
 			global $wgWmincPref;
-			$url = self::getUrlParam();
+			$url = self::getUrlParam( RequestContext::getMain()->getRequest() );
 			$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
 			$projectPref = $userOptionsLookup->getOption( $user, $wgWmincPref . '-project' );
 			$codePref = $userOptionsLookup->getOption( $user, $wgWmincPref . '-code' );
@@ -783,7 +782,7 @@ class WikimediaIncubator implements
 		$out = $article->getContext()->getOutput();
 		$title = $article->getTitle();
 		$out->addModuleStyles( 'WikimediaIncubator.InfoPage' );
-		$infopage = new InfoPage( $title, $prefix, $article->getContext()->getUser() );
+		$infopage = new InfoPage( $title, $prefix, $article->getContext() );
 		$dbstate = self::getDBState( $prefix );
 		if ( $dbstate == 'existing' ) {
 			$infopage->mSubStatus = 'beforeincubator';

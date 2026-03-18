@@ -2,6 +2,7 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Html\Html;
 use MediaWiki\Language\Language;
@@ -80,16 +81,21 @@ class InfoPage {
 	/**
 	 * @param Title $title
 	 * @param array $prefixdata
-	 * @param UserIdentity $user
+	 * @param IContextSource $context
 	 */
-	public function __construct( $title, $prefixdata, UserIdentity $user ) {
+	public function __construct(
+		$title,
+		$prefixdata,
+		private readonly IContextSource $context,
+	) {
 		global $wgWmincProjects;
+		$this->user = $this->context->getUser();
 		$this->mTitle = $title;
 		$this->mPrefix = $prefixdata['prefix'];
 		$this->mLangCode = $prefixdata['lang'];
 		$this->mProjectCode = $prefixdata['project'];
 		$this->mProjectName = $wgWmincProjects[$this->mProjectCode]['name'] ?? '';
-		$this->mPortal = WikimediaIncubator::getSubdomain( $user, 'www', $this->mProjectCode );
+		$this->mPortal = WikimediaIncubator::getSubdomain( $this->user, 'www', $this->mProjectCode );
 		$this->mIsSister = $wgWmincProjects[$this->mProjectCode]['sister'];
 		$this->mSubStatus = '';
 		# For later code check feature
@@ -115,7 +121,6 @@ class InfoPage {
 			# Unknown language, add short note to title
 			$this->mFormatTitle .= ' ' . wfMessage( 'wminc-unknownlang', $this->mLangCode )->text();
 		}
-		$this->user = $user;
 	}
 
 	/**
@@ -236,10 +241,9 @@ class InfoPage {
 	 * @return string
 	 */
 	public function showMissingWiki() {
-		global $wgRequest;
 		$link = SpecialPage::getTitleFor( 'IncubatorFirstSteps' );
 		$query = [ 'testwiki' => $this->mPrefix,
-			'uselang' => $wgRequest->getVal( 'uselang' ) ];
+			'uselang' => $this->context->getRequest()->getVal( 'uselang' ) ];
 		$steps = $link->getFullUrl( $query );
 
 		$content = Html::rawElement( 'div',

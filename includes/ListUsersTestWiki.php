@@ -2,12 +2,14 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Hook\SpecialListusersHeaderFormHook;
 use MediaWiki\Hook\SpecialListusersHeaderHook;
 use MediaWiki\Hook\SpecialListusersQueryInfoHook;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Pager\Pager;
+use MediaWiki\Request\WebRequest;
 use MediaWiki\Title\Title;
 
 /**
@@ -22,9 +24,9 @@ class ListUsersTestWiki implements
 	 * If the &testwiki= parameter matches the project site (Incubator), return that
 	 * @return array|null
 	 */
-	public static function getProjectInput() {
-		global $wgWmincProjectSite, $wgRequest;
-		$input = strtolower( $wgRequest->getVal( 'testwiki', '' ) );
+	private static function getProjectInput( WebRequest $request ) {
+		global $wgWmincProjectSite;
+		$input = strtolower( $request->getVal( 'testwiki', '' ) );
 		if ( $input == strtolower( $wgWmincProjectSite['name'] )
 			|| $input == strtolower( $wgWmincProjectSite['short'] )
 		) {
@@ -39,8 +41,9 @@ class ListUsersTestWiki implements
 	 * @param string &$out
 	 */
 	public function onSpecialListusersHeaderForm( $pager, &$out ) {
-		$testwiki = WikimediaIncubator::getUrlParam();
-		$project = self::getProjectInput();
+		$request = RequestContext::getMain()->getRequest();
+		$testwiki = WikimediaIncubator::getUrlParam( $request );
+		$project = self::getProjectInput( $request );
 		$input = $project ? $project['name'] : ( $testwiki ? $testwiki['prefix'] : '' );
 		$out .= Html::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
 			Html::input( 'testwiki', $input, 'text', [ 'id' => 'testwiki', 'size' => 20 ] ) . '<br />';
@@ -52,11 +55,12 @@ class ListUsersTestWiki implements
 	 * @param string &$out
 	 */
 	public function onSpecialListusersHeader( $pager, &$out ) {
-		$project = self::getProjectInput();
+		$request = RequestContext::getMain()->getRequest();
+		$project = self::getProjectInput( $request );
 		if ( $project ) {
 			$out .= wfMessage( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parseAsBlock();
 		} else {
-			$testwiki = WikimediaIncubator::getUrlParam();
+			$testwiki = WikimediaIncubator::getUrlParam( $request );
 			if ( $testwiki ) {
 				$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 				$link = $linkRenderer->makeKnownLink( Title::newFromText( $testwiki['prefix'] ) );
@@ -71,8 +75,9 @@ class ListUsersTestWiki implements
 	 * @param array &$query
 	 */
 	public function onSpecialListusersQueryInfo( $pager, &$query ) {
-		$testwiki = WikimediaIncubator::getUrlParam();
-		$project = self::getProjectInput();
+		$request = RequestContext::getMain()->getRequest();
+		$testwiki = WikimediaIncubator::getUrlParam( $request );
+		$project = self::getProjectInput( $request );
 		if ( !$project && !$testwiki ) {
 			# no input or invalid input
 			return;

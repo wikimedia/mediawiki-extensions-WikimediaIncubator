@@ -8,7 +8,6 @@ use MediaWiki\Html\FormOptions;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\SpecialPage\Hook\ChangesListSpecialPageQueryHook;
-use MediaWiki\User\User;
 use MediaWiki\Xml\XmlSelect;
 use Wikimedia\Rdbms\IExpression;
 use Wikimedia\Rdbms\LikeValue;
@@ -25,20 +24,19 @@ class TestWikiRC implements
 {
 	/**
 	 * Get values
-	 *
-	 * @param User $user
-	 * @return array
 	 */
-	private static function getValues( User $user ) {
-		global $wgWmincPref, $wgRequest;
-		$url = WikimediaIncubator::getUrlParam();
+	private static function getValues(): array {
+		global $wgWmincPref;
+		$request = RequestContext::getMain()->getRequest();
+		$user = RequestContext::getMain()->getUser();
+		$url = WikimediaIncubator::getUrlParam( $request );
 		$userOptionsLookup = MediaWikiServices::getInstance()->getUserOptionsLookup();
 		$projectPref = $userOptionsLookup->getOption( $user, $wgWmincPref . '-project' ) ?? '';
 		$codePref = $userOptionsLookup->getOption( $user, $wgWmincPref . '-code' ) ?? '';
 		$projectvalue = $url ? $url['project'] : $projectPref;
 		$codevalue = $url ? $url['lang'] : $codePref;
-		$projectvalue = strtolower( $wgRequest->getVal( 'rc-testwiki-project', $projectvalue ) );
-		$codevalue = strtolower( $wgRequest->getVal( 'rc-testwiki-code', $codevalue ) );
+		$projectvalue = strtolower( $request->getVal( 'rc-testwiki-project', $projectvalue ) );
+		$codevalue = strtolower( $request->getVal( 'rc-testwiki-code', $codevalue ) );
 		return [ $projectvalue, $codevalue ];
 	}
 
@@ -64,7 +62,7 @@ class TestWikiRC implements
 
 		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 
-		[ $projectvalue, $codevalue ] = self::getValues( RequestContext::getMain()->getUser() );
+		[ $projectvalue, $codevalue ] = self::getValues();
 		$prefix = WikimediaIncubator::displayPrefix( $projectvalue, $codevalue );
 		$opts->add( 'rc-testwiki-project', false );
 		$opts->setValue( 'rc-testwiki-project', $projectvalue );
@@ -94,7 +92,7 @@ class TestWikiRC implements
 	public function onSpecialRecentChangesPanel( &$items, $opts ) {
 		global $wgWmincProjects, $wgWmincProjectSite, $wgWmincLangCodeLength;
 
-		[ $projectvalue, $codevalue ] = self::getValues( RequestContext::getMain()->getUser() );
+		[ $projectvalue, $codevalue ] = self::getValues();
 		$opts->consumeValue( 'rc-testwiki-project' );
 		$opts->consumeValue( 'rc-testwiki-code' );
 		$label = Html::label( wfMessage( 'wminc-testwiki' )->text(), 'rc-testwiki' );
