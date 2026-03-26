@@ -20,6 +20,7 @@
 	"wminc-infopage-text-approved-date": "Se gouf de(n) $1 erstallt.",
 	"wminc-infopage-language-header": "Sprooch",
 	"wminc-infopage-language-wikipedia-article": "Englesche Wikipedia-Artikel: [[$1|$2]] ([[$3|$4]])",
+	"wminc-infopage-language-translatewiki": "Translatewiki.net-Portal",
 	"wminc-infopage-language-directionality": "Schreifrichtung: $1",
 	"wminc-infopage-language-directionality-ltr": "vu lénks no riets",
 	"wminc-infopage-language-directionality-rtl": "vu riets no lénks",

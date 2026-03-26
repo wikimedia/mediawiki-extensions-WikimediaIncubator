@@ -11,6 +11,8 @@
 	"wminc-testwiki-none": "Пугк вики",
 	"wminc-testwiki-site": "Техническэ лушшмушш",
 	"wminc-recentchanges-all": "Пугк о̄дт воа̄йхэз",
+	"wminc-error-unprefixed": "<strong>Cя̄гкнэгк:</strong> Тэнн лыстэсьт [[{{MediaWiki:Wminc-error-help}}|элля пре̄фикс]].",
+	"wminc-error-unprefixed-suggest": "<strong>Cя̄гкнэгк:</strong> Тэнн лыстэсьт [[{{MediaWiki:Wminc-error-help}}|элля пре̄фикс]]! То̄нн вуаяк лыст [[:$1]] лыһкэ.",
 	"group-test-sysop": "Тэ̄сст-вики администратэр",
 	"group-test-sysop-member": "{{GENDER:$1|тэ̄сст-вики администратэр}}",
 	"grouppage-test-sysop": "{{ns:project}}:Тэ̄сст-вики администратэр",
