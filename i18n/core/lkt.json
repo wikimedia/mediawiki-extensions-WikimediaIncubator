@@ -13,7 +13,7 @@
 	"wminc-viewuserlang-user": "Tuwá uƞ kiƞ tȟačháze:",
 	"wminc-viewuserlang-go": "Ektá yá {{GENDER:|yo|ye|yo/ye}}",
 	"wminc-userdoesnotexist": "Tuwá uŋ kiŋ $1 waníča.",
-	"wminc-ip": "\"$1\" IP makȟóčhažeyate naíŋš tuwá íȟaŋȟaŋ uŋ kiŋ héčha.",
+	"wminc-ip": "\"$1\" IP makȟóčhažeyate naíŋš tuwá íȟaŋhaŋ uŋ kiŋ héčha.",
 	"group-test-sysop": "Wóiyutȟe-wiki oítȟaŋčhaŋ",
 	"group-test-sysop-member": "{{GENDER\n:$1|wóiyutȟe-wiki oítȟaŋčhaŋ}}",
 	"grouppage-test-sysop": "{{ns:project}}:Wóiyutȟe-wiki oítȟaŋčhaŋ kiŋ",
@@ -36,5 +36,6 @@
 	"wminc-infopage-title-v": "$1 Wikiversity",
 	"wminc-infopage-title-y": "$1 Wikivoyage",
 	"wminc-infopage-welcome": "Taŋyáŋ Wikimedia Incubator ektá yahi. Wičhóȟ'aŋ kiŋ le Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Ečhíyataŋhaŋ]]) káǧe.",
-	"wminc-infopage-missingwiki-text": "Héčhena iyápi kiŋ le ogná wičhóȟ'aŋ $1 káǧapi šni."
+	"wminc-infopage-missingwiki-text": "Héčhena iyápi kiŋ le ogná wičhóȟ'aŋ $1 káǧapi šni.",
+	"wminc-infopage-createmainpage": "Iyápi kiŋ le ogná wičhóiye \"Main Page\" owa {{GENDER:|yo|ye|yo/ye}}:"
 }
