@@ -30,7 +30,7 @@
 	"wminc-gadget-iw-dialog-cancel": "Kansela",
 	"wminc-gadget-iw-dialog-publish": "Publika",
 	"wminc-gadget-iw-dialog-title": "Kirsenta ligasons nteruiki",
-	"wminc-gadget-iw-dialog-text": "Uza es furmulári pa kirsenta ligasons nteruiki ku uzu di un ilimentu Uikidadus. Pa kel-li, kola idintifikador di un ilimentu Uikidadus na un ilimentu o artigu izistenti na otu linga dibaxu-li, i klika \"{{int:wminc-gadget-iw-dialog-publish}}\".",
+	"wminc-gadget-iw-dialog-text": "Uza es furmulári pa kirsenta ligasons nteruiki ku uzu di un ilimentu Uikidadus. Pa kel-li, kola idintifikador di un ilimentu Uikidadus na un ilimentu o artigu izistenti na otu linga dibaxu-li, i perta \"{{int:wminc-gadget-iw-dialog-publish}}\".",
 	"wminc-gadget-iw-dialog-qid-placeholder": "pa izénplu, $1",
 	"wminc-gadget-iw-dialog-editpage": "Idita pájina",
 	"wminc-gadget-iw-dialog-replace-text": "Si bu klika na \"{{int:wminc\n-gadget-iw-dialog-publish}}\", bu ta ba subustitui tudu ligason nteruiki bédju di es pájina pa ligasons nteruiki furnisedu pa Uikidadus. Artigu ki ta ser uzadu pa skodji ilimentu Uikidadus é es siginti:",
