@@ -13,7 +13,7 @@
 	"wminc-viewuserlang-user": "Tuwá uƞ kiƞ tȟačháze:",
 	"wminc-viewuserlang-go": "Ektá yá {{GENDER:|yo|ye|yo/ye}}",
 	"wminc-userdoesnotexist": "Tuwá uŋ kiŋ $1 waníča.",
-	"wminc-ip": "\"$1\" IP makȟóčhažeyate naíŋš tuwá íȟaŋȟaŋ uŋ kiŋ héčha.",
+	"wminc-ip": "\"$1\" IP makȟóčhažeyate naíŋš tuwá íȟaŋhaŋ uŋ kiŋ héčha.",
 	"group-test-sysop": "Wóiyutȟe-wiki oítȟaŋčhaŋ",
 	"group-test-sysop-member": "{{GENDER\n:$1|wóiyutȟe-wiki oítȟaŋčhaŋ}}",
 	"grouppage-test-sysop": "{{ns:project}}:Wóiyutȟe-wiki oítȟaŋčhaŋ kiŋ",
@@ -26,5 +26,16 @@
 	"wminc-fs-signup-title": "Čhažé-oyáŋke kičháǧa{{GENDER:|yo|ye|yo/ye}}",
 	"wminc-fs-userpage-title": "Čhažé-oyáŋke oyúblaye kičháǧa   {{GENDER:|yo|ye|yo/ye}}",
 	"wminc-fs-startwiki-title": "Wiki kičháǧa   {{GENDER:|yo|ye|yo/ye}}",
-	"wminc-fs-pagetitle-done": "- wašná luštáŋ!"
+	"wminc-fs-pagetitle-done": "- wašná luštáŋ!",
+	"wminc-infopage-title-p": "$1 Wikipedia",
+	"wminc-infopage-title-b": "$1 Wikibooks",
+	"wminc-infopage-title-t": "$1 Wiktionary",
+	"wminc-infopage-title-q": "$1 Wikiquote",
+	"wminc-infopage-title-n": "$1 Wikinews",
+	"wminc-infopage-title-s": "$1 Wikisource",
+	"wminc-infopage-title-v": "$1 Wikiversity",
+	"wminc-infopage-title-y": "$1 Wikivoyage",
+	"wminc-infopage-welcome": "Taŋyáŋ Wikimedia Incubator ektá yahi. Wičhóȟ'aŋ kiŋ le Wikimedia Foundation ([[{{MediaWiki:Aboutpage}}|Ečhíyataŋhaŋ]]) káǧe.",
+	"wminc-infopage-missingwiki-text": "Héčhena iyápi kiŋ le ogná wičhóȟ'aŋ $1 káǧapi šni.",
+	"wminc-infopage-createmainpage": "Iyápi kiŋ le ogná wičhóiye \"Main Page\" owa {{GENDER:|yo|ye|yo/ye}}:"
 }
