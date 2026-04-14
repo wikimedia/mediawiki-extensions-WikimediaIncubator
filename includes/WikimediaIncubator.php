@@ -932,7 +932,7 @@ class WikimediaIncubator implements
 		$title = $article->getTitle();
 		$prefix = self::analyzePrefix( $title, true );
 		if ( !$prefix['error'] ) {
-			$pageLang = RequestContext::getMain()->getLanguage();
+			$pageLang = $article->getContext()->getLanguage();
 			$parserOptions->setTargetLanguage( $pageLang );
 		}
 	}

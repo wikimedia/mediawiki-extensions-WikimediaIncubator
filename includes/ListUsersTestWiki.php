@@ -2,14 +2,13 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use MediaWiki\Context\RequestContext;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
-use MediaWiki\Pager\Pager;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\Specials\Hook\SpecialListusersHeaderFormHook;
 use MediaWiki\Specials\Hook\SpecialListusersHeaderHook;
 use MediaWiki\Specials\Hook\SpecialListusersQueryInfoHook;
+use MediaWiki\Specials\Pager\UsersPager;
 use MediaWiki\Title\Title;
 
 /**
@@ -37,11 +36,11 @@ class ListUsersTestWiki implements
 
 	/**
 	 * Input form
-	 * @param Pager $pager
+	 * @param UsersPager $pager
 	 * @param string &$out
 	 */
 	public function onSpecialListusersHeaderForm( $pager, &$out ) {
-		$request = RequestContext::getMain()->getRequest();
+		$request = $pager->getRequest();
 		$testwiki = WikimediaIncubator::getUrlParam( $request );
 		$project = self::getProjectInput( $request );
 		$input = $project ? $project['name'] : ( $testwiki ? $testwiki['prefix'] : '' );
@@ -51,11 +50,11 @@ class ListUsersTestWiki implements
 
 	/**
 	 * Show a message that you are viewing a list of users of a certain test wiki
-	 * @param Pager $pager
+	 * @param UsersPager $pager
 	 * @param string &$out
 	 */
 	public function onSpecialListusersHeader( $pager, &$out ) {
-		$request = RequestContext::getMain()->getRequest();
+		$request = $pager->getRequest();
 		$project = self::getProjectInput( $request );
 		if ( $project ) {
 			$out .= wfMessage( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parseAsBlock();
@@ -71,11 +70,11 @@ class ListUsersTestWiki implements
 
 	/**
 	 * Query
-	 * @param Pager $pager
+	 * @param UsersPager $pager
 	 * @param array &$query
 	 */
 	public function onSpecialListusersQueryInfo( $pager, &$query ) {
-		$request = RequestContext::getMain()->getRequest();
+		$request = $pager->getRequest();
 		$testwiki = WikimediaIncubator::getUrlParam( $request );
 		$project = self::getProjectInput( $request );
 		if ( !$project && !$testwiki ) {

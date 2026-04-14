@@ -3,7 +3,6 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use MediaWiki\Context\IContextSource;
-use MediaWiki\Context\RequestContext;
 use MediaWiki\Html\Html;
 use MediaWiki\Language\Language;
 use MediaWiki\Language\LanguageNameUtils;
@@ -100,7 +99,7 @@ class InfoPage {
 		$this->mSubStatus = '';
 		# For later code check feature
 		$this->mThisLangData = [ 'type' => 'valid' ];
-		$this->userLang = RequestContext::getMain()->getLanguage();
+		$this->userLang = $this->context->getLanguage();
 		$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 		$name = $languageNameUtils->getLanguageName(
 			$this->mLangCode,
