@@ -28,7 +28,7 @@
 	"wminc-custom-tb-space-colon": "Om technische redenen mag een titel niet beginnen met een spatie of een dubbele punt.",
 	"gadget-addprefix": "<strong>AddPrefix:</strong> Automatisch voorvoegsels toevoegen aan links bij het aanmaken van een pagina",
 	"wminc-gadget-addprefix-help": "U hoeft het voorvoegsel niet te gebruiken bij het bewerken van deze pagina. Het wordt automatisch toegevoegd wanneer u de pagina publiceert.",
-	"wminc-gadget-addprefix-toggle": "Toon/verberg het voorvoegsel",
+	"wminc-gadget-addprefix-toggle": "Voorvoegsel weergeven/verbergen",
 	"gadget-interwiki": "<strong>Interwiki:</strong> Voegt functionaliteit toe om intertaalkoppelingen van Wikidata toe te voegen en weer te geven.",
 	"wminc-gadget-iw-add-wikidata": "Wikidata-koppeling toevoegen",
 	"wminc-gadget-iw-dialog-cancel": "Annuleren",
