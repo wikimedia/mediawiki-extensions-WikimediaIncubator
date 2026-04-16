@@ -18,6 +18,7 @@
 	"randombytest-nopages": "Nema stranica u Vašoj probnoj wiki, u imenskom prostoru: $1.",
 	"wminc-viewuserlang": "Pregledaj korisnički jezik i testiranu wiki",
 	"wminc-viewuserlang-user": "Korisničko ime:",
-	"wminc-viewuserlang-go": "Idi",
-	"right-viewuserlang": "Pregledavanje korisničkog jezika i probne wiki"
+	"wminc-viewuserlang-go": "Pokreni",
+	"right-viewuserlang": "Pregledavanje korisničkog jezika i probne wiki",
+	"wminc-searchwiki-go": "Pokreni"
 }
