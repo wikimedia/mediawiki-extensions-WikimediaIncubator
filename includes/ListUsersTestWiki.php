@@ -3,13 +3,13 @@
 namespace MediaWiki\Extension\WikimediaIncubator;
 
 use MediaWiki\Context\RequestContext;
-use MediaWiki\Hook\SpecialListusersHeaderFormHook;
-use MediaWiki\Hook\SpecialListusersHeaderHook;
-use MediaWiki\Hook\SpecialListusersQueryInfoHook;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Pager\Pager;
 use MediaWiki\Request\WebRequest;
+use MediaWiki\Specials\Hook\SpecialListusersHeaderFormHook;
+use MediaWiki\Specials\Hook\SpecialListusersHeaderHook;
+use MediaWiki\Specials\Hook\SpecialListusersQueryInfoHook;
 use MediaWiki\Title\Title;
 
 /**

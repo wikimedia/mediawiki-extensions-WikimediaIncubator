@@ -5,8 +5,8 @@ namespace MediaWiki\Extension\WikimediaIncubator\Specials;
 use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
 use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\HTMLForm;
-use MediaWiki\Languages\LanguageFactory;
-use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Language\LanguageFactory;
+use MediaWiki\Language\LanguageNameUtils;
 use MediaWiki\SpecialPage\IncludableSpecialPage;
 use MediaWiki\Title\Title;
 

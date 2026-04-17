@@ -2,7 +2,7 @@
 
 use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
 use MediaWiki\Language\Language;
-use MediaWiki\Languages\LanguageFactory;
+use MediaWiki\Language\LanguageFactory;
 use MediaWiki\Page\Article;
 use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Title\Title;

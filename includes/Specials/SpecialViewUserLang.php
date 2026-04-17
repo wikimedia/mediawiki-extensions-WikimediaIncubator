@@ -5,7 +5,7 @@ namespace MediaWiki\Extension\WikimediaIncubator\Specials;
 use MediaWiki\Extension\WikimediaIncubator\WikimediaIncubator;
 use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\HTMLForm;
-use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Language\LanguageNameUtils;
 use MediaWiki\Linker\Linker;
 use MediaWiki\Message\Message;
 use MediaWiki\SpecialPage\SpecialPage;

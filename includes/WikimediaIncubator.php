@@ -2,25 +2,19 @@
 
 namespace MediaWiki\Extension\WikimediaIncubator;
 
-use HtmlArmor;
 use InvalidArgumentException;
 use MediaWiki\Actions\ActionEntryPoint;
 use MediaWiki\Auth\Hook\AuthPreserveQueryParamsHook;
 use MediaWiki\Content\Hook\PageContentLanguageHook;
 use MediaWiki\Context\RequestContext;
-use MediaWiki\Hook\ContributionsToolLinksHook;
 use MediaWiki\Hook\EditFormPreloadTextHook;
 use MediaWiki\Hook\GetDefaultSortkeyHook;
-use MediaWiki\Hook\GetMagicVariableIDsHook;
 use MediaWiki\Hook\MediaWikiPerformActionHook;
 use MediaWiki\Hook\MovePageIsValidMoveHook;
-use MediaWiki\Hook\ParserGetVariableValueSwitchHook;
-use MediaWiki\Hook\SpecialSearchCreateLinkHook;
-use MediaWiki\Hook\SpecialSearchSetupEngineHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Language\Language;
-use MediaWiki\Languages\LanguageFactory;
-use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Language\LanguageFactory;
+use MediaWiki\Language\LanguageNameUtils;
 use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
@@ -29,21 +23,27 @@ use MediaWiki\Output\OutputPage;
 use MediaWiki\Page\Article;
 use MediaWiki\Page\Hook\ArticleParserOptionsHook;
 use MediaWiki\Page\Hook\ShowMissingArticleHook;
+use MediaWiki\Parser\Hook\GetMagicVariableIDsHook;
+use MediaWiki\Parser\Hook\ParserGetVariableValueSwitchHook;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Permissions\Hook\GetUserPermissionsErrorsHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\Request\WebRequest;
 use MediaWiki\Search\Hook\SpecialSearchPowerBoxHook;
+use MediaWiki\Search\SearchEngine;
 use MediaWiki\Skin\Skin;
 use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\Specials\Hook\ContributionsToolLinksHook;
+use MediaWiki\Specials\Hook\SpecialSearchCreateLinkHook;
+use MediaWiki\Specials\Hook\SpecialSearchSetupEngineHook;
 use MediaWiki\Specials\SpecialSearch;
 use MediaWiki\Title\Title;
 use MediaWiki\User\Hook\UserGetDefaultOptionsHook;
 use MediaWiki\User\Options\Hook\LoadUserOptionsHook;
 use MediaWiki\User\User;
 use MediaWiki\User\UserIdentity;
-use SearchEngine;
+use Wikimedia\HtmlArmor\HtmlArmor;
 
 /**
  * Main class of the WikimediaIncubator extension.
