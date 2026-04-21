@@ -32,7 +32,12 @@ class SpecialViewUserLang extends SpecialPage {
 		private readonly UserOptionsLookup $userOptionsLookup,
 		private readonly LanguageNameUtils $languageNameUtils,
 	) {
-		parent::__construct( 'ViewUserLang', 'viewuserlang' );
+		parent::__construct( 'ViewUserLang' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'viewuserlang';
 	}
 
 	/**
