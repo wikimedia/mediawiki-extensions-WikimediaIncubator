@@ -38,7 +38,7 @@ class SpecialMyWiki extends UnlistedSpecialPage {
 		$prefix = $userHasTestWiki ? WikimediaIncubator::displayPrefix() : '';
 
 		if ( $subpage === '' ) {
-			if ( $this->getRequest()->getVal( 'goto' ) !== 'infopage' ) {
+			if ( $this->getRequest()->getRawVal( 'goto' ) !== 'infopage' ) {
 				$params['goto'] = 'mainpage';
 			}
 

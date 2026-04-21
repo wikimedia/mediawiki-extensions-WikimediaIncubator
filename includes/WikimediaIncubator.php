@@ -875,7 +875,7 @@ class WikimediaIncubator implements
 	 */
 	public function onMediaWikiPerformAction( $output, $page, $title, $user, $request, $mediaWiki ) {
 		$prefix = self::analyzePrefix( $title, true );
-		if ( $prefix['error'] || $request->getVal( 'goto' ) != 'mainpage' ) {
+		if ( $prefix['error'] || $request->getRawVal( 'goto' ) !== 'mainpage' ) {
 			return true;
 		}
 
