@@ -44,7 +44,7 @@ class ListUsersTestWiki implements
 		$testwiki = WikimediaIncubator::getUrlParam( $request );
 		$project = self::getProjectInput( $request );
 		$input = $project ? $project['name'] : ( $testwiki ? $testwiki['prefix'] : '' );
-		$out .= Html::label( wfMessage( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
+		$out .= Html::label( $pager->msg( 'wminc-testwiki' )->text(), 'testwiki' ) . ' ' .
 			Html::input( 'testwiki', $input, 'text', [ 'id' => 'testwiki', 'size' => 20 ] ) . '<br />';
 	}
 
@@ -57,13 +57,13 @@ class ListUsersTestWiki implements
 		$request = $pager->getRequest();
 		$project = self::getProjectInput( $request );
 		if ( $project ) {
-			$out .= wfMessage( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parseAsBlock();
+			$out .= $pager->msg( 'wminc-listusers-testwiki', '"' . $project['name'] . '"' )->parseAsBlock();
 		} else {
 			$testwiki = WikimediaIncubator::getUrlParam( $request );
 			if ( $testwiki ) {
 				$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 				$link = $linkRenderer->makeKnownLink( Title::newFromText( $testwiki['prefix'] ) );
-				$out .= wfMessage( 'wminc-listusers-testwiki' )->rawParams( $link )->parseAsBlock();
+				$out .= $pager->msg( 'wminc-listusers-testwiki' )->rawParams( $link )->parseAsBlock();
 			}
 		}
 	}

@@ -724,7 +724,8 @@ class WikimediaIncubator implements
 			return true;
 		}
 
-		$out = $article->getContext()->getOutput();
+		$context = $article->getContext();
+		$out = $context->getOutput();
 		global $wgWmincProjects;
 		$prefix2 = self::analyzePrefix( $title, false, true );
 		$p = $prefix2['project'] ?? '';
@@ -742,7 +743,7 @@ class WikimediaIncubator implements
 				# Show a link to the existing wiki
 				$showLink = self::makeExternalLinkText( $link, true );
 				$out->addHtml( '<div class="wminc-wiki-exists">' .
-					wfMessage( 'wminc-error-wiki-exists' )->rawParams( $showLink )->escaped() .
+					$context->msg( 'wminc-error-wiki-exists' )->rawParams( $showLink )->escaped() .
 				'</div>' );
 			}
 		} elseif ( array_key_exists( $p, $wgWmincProjects ) && $wgWmincProjects[$p]['sister'] ) {
@@ -753,7 +754,7 @@ class WikimediaIncubator implements
 			);
 			$showLink = self::makeExternalLinkText( $link, true );
 			$out->addHtml( '<div class="wminc-wiki-sister">' .
-				wfMessage( 'wminc-error-wiki-sister' )->rawParams( $showLink )->escaped() .
+				$context->msg( 'wminc-error-wiki-sister' )->rawParams( $showLink )->escaped() .
 			'</div>' );
 		} elseif ( self::shouldWeShowUnprefixedError( $title ) ) {
 			# Unprefixed pages
@@ -763,7 +764,7 @@ class WikimediaIncubator implements
 				$suggest = self::displayPrefixedTitle( $suggesttitle, $title->getNamespace() );
 				# Suggest to create a prefixed page
 				$out->addHtml( '<div class="wminc-unprefixed-suggest">' .
-					wfMessage( 'wminc-error-unprefixed-suggest', $suggest->getPrefixedText() )->parseAsBlock() .
+					$context->msg( 'wminc-error-unprefixed-suggest', $suggest->getPrefixedText() )->parseAsBlock() .
 				'</div>' );
 			} else {
 				$out->addWikiMsg( 'wminc-error-unprefixed' );
@@ -779,7 +780,8 @@ class WikimediaIncubator implements
 	 * @param array $prefix
 	 */
 	public static function onShowMissingArticleForInfoPages( $article, $prefix ) {
-		$out = $article->getContext()->getOutput();
+		$context = $article->getContext();
+		$out = $context->getOutput();
 		$title = $article->getTitle();
 		$out->addModuleStyles( 'WikimediaIncubator.InfoPage' );
 		$infopage = new InfoPage( $title, $prefix, $article->getContext() );
@@ -797,7 +799,7 @@ class WikimediaIncubator implements
 			$out->addHtml( $infopage->showMissingWiki() );
 		}
 		# Set the page title from "Wx/xyz - Incubator" to "Wikiproject Language - Incubator"
-		$out->setHTMLTitle( wfMessage( 'pagetitle', $infopage->mFormatTitle )->text() );
+		$out->setHTMLTitle( $context->msg( 'pagetitle', $infopage->mFormatTitle )->text() );
 	}
 
 	/**
