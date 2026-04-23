@@ -55,7 +55,7 @@ class SpecialViewUserLang extends SpecialPage {
 		$this->setHeaders();
 		$this->checkPermissions();
 
-		$target = $this->getRequest()->getText( 'target', $subpage );
+		$target = $this->getRequest()->getText( 'target', $subpage ?? '' );
 
 		$this->showForm( $target );
 
