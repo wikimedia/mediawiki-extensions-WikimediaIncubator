@@ -105,7 +105,7 @@
 	"wminc-infopage-missingwiki-text": "'''$1''' is a project: Wikipedia/Wiktionary/...",
 	"wminc-infopage-option-startwiki": "{{doc-important|Do not change <code><nowiki>{{MediaWiki:Wminc-manual-url}}</nowiki></code>!}}\nRefers to {{msg-mw|Wminc-manual-url}}.\n\nParameters:\n* $3 - a URL which points to [[Special:IncubatorFirstSteps]]\nSee also:\n* {{msg-mw|Wminc-infopage-option-startsister}} - if sister",
 	"wminc-infopage-option-startsister": "Parameters:\n* $1 - the project name of $2\n* $2 - a link which points to either Wikisource or Wikiversity\nSee also:\n* {{msg-mw|Wminc-infopage-option-startwiki}} - if not sister",
-	"wminc-infopage-option-languages-existing": "'''$1''' is the project name (Wikipedia, Wikinews, ...).",
+	"wminc-infopage-option-languages-existing": "'''$1''' is the project name (Wikipedia, Wiktionary, etc.).",
 	"wminc-infopage-option-sisterprojects-existing": "Followed by clickable logos of content projects: Wikipedia, Wiktionary, Wikiquote, Wikinews, Wikivoyage, Wikisource, and Wikiversity.",
 	"wminc-infopage-option-sisterprojects-other": "Followed by clickable logos of projects Wikipedia, Wiktionary, Wikibooks, ...",
 	"wminc-infopage-option-multilingual": "Followed by clickable logos of Meta, Commons, Wikispecies, MediaWiki and Wikidata.",
