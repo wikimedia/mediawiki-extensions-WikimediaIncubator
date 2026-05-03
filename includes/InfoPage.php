@@ -112,8 +112,8 @@ class InfoPage {
 			$this->context->msg( 'quotation-marks', $this->mLangCode )->text();
 		# Give grep a chance to find the usages:
 		# wminc-infopage-title-p, wminc-infopage-title-b, wminc-infopage-title-t,
-		# wminc-infopage-title-q, wminc-infopage-title-n, wminc-infopage-title-s,
-		# wminc-infopage-title-v, wminc-infopage-title-y
+		# wminc-infopage-title-q, wminc-infopage-title-s, wminc-infopage-title-v,
+		# wminc-infopage-title-y
 		$this->mFormatTitle = $this->context->msg( 'wminc-infopage-title-' . $this->mProjectCode,
 			$titleParam )->text();
 		if ( !$this->mLangName ) {

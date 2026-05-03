@@ -43,12 +43,6 @@
 					"wikitag": "wikiquote",
 					"sister": false
 				},
-				"n": {
-					"name": "Wikinews",
-					"dbsuffix": "wikinews",
-					"wikitag": "wikinews",
-					"sister": false
-				},
 				"y": {
 					"name": "Wikivoyage",
 					"dbsuffix": "wikivoyage",
