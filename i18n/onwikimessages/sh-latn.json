@@ -34,9 +34,9 @@
 	"wminc-infopage-content-project-t": "Wikirječnik",
 	"wminc-infopage-content-project-v": "Wikiverzitet",
 	"wminc-infopage-content-project-y": "Wikivodič",
-	"wminc-infopage-req-header": "Uslovi",
+	"wminc-infopage-req-header": "Uvjeti",
 	"wminc-infopage-req-meta": "Zahtjev na Meta-Wikiju",
 	"wminc-infopage-req-meta-none": "Nema zahtjeva na [[$1|Meta-Wikiju]] ([$2 izradi])",
-	"wminc-infopage-req-codelookup": "Uslovi lokalizacije",
+	"wminc-infopage-req-codelookup": "Uvjeti lokalizacije",
 	"wminc-infopage-req-catanalysis": "Aktivnost projekta"
 }
