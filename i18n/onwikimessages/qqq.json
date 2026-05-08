@@ -106,5 +106,6 @@
 	"wminc-infopage-req-error-wikisource": "Text explaining that a Wikisource edition is not created in the Wikimedia Incubator.\n\nParameters:\n* $1 - link target",
 	"wminc-infopage-req-error-wikiversity": "Text explaining that a Wikiversity edition is not created in the Wikimedia Incubator.\n\nParameters:\n* $1 - link target",
 	"wminc-infopage-req-codelookup": "Link text for a link to a language requirement overview.",
-	"wminc-infopage-req-catanalysis": "Link text for a link to a tool that lists activity in a test wiki."
+	"wminc-infopage-req-catanalysis": "Link text for a link to a tool that lists activity in a test wiki.",
+	"wminc-infopage-title-n": "This is the main title of the info page. $1 is the language name from CLDR, i.e. it takes the name in your language if available. Otherwise, it's in English.\n{{Identical|Wikibooks}}"
 }

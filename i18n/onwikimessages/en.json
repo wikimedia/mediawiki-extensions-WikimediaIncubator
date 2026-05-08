@@ -107,5 +107,6 @@
 	"wminc-infopage-req-error-wikisource": "This project is a '''Wikisource'''. Wikisource editions have to be made at the [[$1|Multilingual Wikisource]].",
 	"wminc-infopage-req-error-wikiversity": "This project is a '''Wikiversity'''. Wikiversity editions have to be made at the [[$1|Beta Wikiversity]].",
 	"wminc-infopage-req-codelookup": "Check localisation requirements",
-	"wminc-infopage-req-catanalysis": "Check wiki activity"
+	"wminc-infopage-req-catanalysis": "Check wiki activity",
+	"wminc-infopage-title-n": "$1 Wikinews"
 }
