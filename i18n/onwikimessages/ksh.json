@@ -21,5 +21,6 @@
 	"wminc-infopage-text-invalidcode": "Dat Teswiki hät ene onjöltije [[$7|ISO 639]]-Shprooche-Kod jehat, do_der_wäje es et fottjeschmeße woode. Ühr künnt en XML-Datei dofun han, wann et se jitt (Doht [[$8|donoh frore]]) di kann en en Nit-Wikimedia-Wiki empotteet wäde.",
 	"wminc-infopage-text-open": "Dat Teswiki es offe udder weed jeprööf. Ühr künnt jet beidraare, wann Ühr de Shprooch künnt. Doht dat! Em „[[Help:Manual]]“ künnd Er nohlesse, wat ze donn es.",
 	"wminc-infopage-text-tocreate": "Dat Tetwiki en de Shprooch „{{{language}}}“ es noch nit aanjefange. Wann Ühr di Shprooch künnt, folscht de Henwies em „[[$9]]“. Ühr künd en Houpsigg maache op „''{{PAGENAME}}/Houpsigg''“ met „Houpsigg“ övversatz noh de Shprooch (Zem Beispell „Wp/fr/Accueil“ för et Teswiki op Franzüüsesch).",
-	"wminc-infopage-req-header": "Nüdischkeite"
+	"wminc-infopage-req-header": "Nüdischkeite",
+	"wminc-infopage-title-n": "Neujeschkeitewiki op $1"
 }

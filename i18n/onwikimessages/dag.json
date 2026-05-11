@@ -101,5 +101,6 @@
 	"wminc-infopage-req-error-wikisource": "Tuma ŋɔ nyɛla '''Wikisource'''. Wikisource tuma tumi ni di niŋ la [[$1|Multilingual Wikisource]].",
 	"wminc-infopage-req-error-wikiversity": "Tuma ŋɔ nyɛla '''Wikiversity'''. Wikiversity tuma tu ni di niŋ la  [[$1|Beta Wikiversity]].",
 	"wminc-infopage-req-codelookup": "Nyami dundɔŋ ni bimbɔra",
-	"wminc-infopage-req-catanalysis": "Nyami wiki tuma"
+	"wminc-infopage-req-catanalysis": "Nyami wiki tuma",
+	"wminc-infopage-title-n": "$1 Wikilahabali pala"
 }

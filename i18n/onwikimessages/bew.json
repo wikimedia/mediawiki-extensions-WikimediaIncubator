@@ -103,5 +103,6 @@
 	"wminc-infopage-req-error-wikisource": "Ni proyèk – '''Wikisumber'''. Kuaran Wikisumber kudu dibuat di [[$1|Wikisumber Serbabasa]].",
 	"wminc-infopage-req-error-wikiversity": "Ni proyèk – '''Wikikuliah'''. Kuaran Wikikuliah kudu dibuat di [[$1|Wikikuliah Belongkotan]].",
 	"wminc-infopage-req-codelookup": "Perèksa persaratan penyetempatan",
-	"wminc-infopage-req-catanalysis": "Perèksa kegetolan wiki"
+	"wminc-infopage-req-catanalysis": "Perèksa kegetolan wiki",
+	"wminc-infopage-title-n": "Wikiawat $1"
 }

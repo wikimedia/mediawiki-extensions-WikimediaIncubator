@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Angpradesh",
+			"IND-ANP",
 			"Proabscorp!"
 		]
 	},
@@ -22,5 +23,6 @@
 	"wminc-gadget-iw-dialog-qid-placeholder": "उदहारण $1",
 	"wminc-gadget-iw-dialog-editpage": " ई पन्ना के सम्पादन करौ",
 	"wminc-gadget-iw-dialog-wikidata-search": "विकिपीडिया मँ खोजौ",
-	"wminc-gadget-twpref-setwiki": "$1 क अपनौ परीक्षण प्रोजेक्ट केरौ रूप मँ सेट करौ"
+	"wminc-gadget-twpref-setwiki": "$1 क अपनौ परीक्षण प्रोजेक्ट केरौ रूप मँ सेट करौ",
+	"wminc-infopage-title-n": "$1 विकिन्यूज"
 }

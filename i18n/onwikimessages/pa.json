@@ -39,5 +39,6 @@
 	"wminc-infopage-req-meta-none": "[[$1|Meta-Wiki]] ਵਿੱਚ ਕੋਈ ਬੇਨਤੀ ਨਹੀਂ ਐ ([$2 create])",
 	"wminc-infopage-req-rejected": "'''(ਨਕਾਰਿਆ ਗਿਆ)'''",
 	"wminc-infopage-req-error": "ਲੋੜ ਗਲਤੀ:",
-	"wminc-infopage-req-catanalysis": "ਵਿਕੀ ਗਤੀਵਿਧੀ ਦੀ ਜਾਂਚ ਕਰੋ"
+	"wminc-infopage-req-catanalysis": "ਵਿਕੀ ਗਤੀਵਿਧੀ ਦੀ ਜਾਂਚ ਕਰੋ",
+	"wminc-infopage-title-n": "$1 ਵਿਕੀਖ਼ਬਰਾਂ"
 }

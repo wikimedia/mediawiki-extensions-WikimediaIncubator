@@ -84,5 +84,6 @@
 	"wminc-infopage-req-meta-none": "[[$1|メタウィキ]]に申請が有りません ([$2 作成する])",
 	"wminc-infopage-req-rejected": "'''(却下済み)'''",
 	"wminc-infopage-req-codelookup": "ローカライズ作業の要件を確認",
-	"wminc-infopage-req-catanalysis": "ウィキの活動を確認"
+	"wminc-infopage-req-catanalysis": "ウィキの活動を確認",
+	"wminc-infopage-title-n": "$1ウィキニュース"
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dr Lotus Black"
+			"Dr Lotus Black",
+			"Ninjastrikers"
 		]
 	},
 	"wminc-code-retired": "ဤဘာသာစကားကုဒ်ကို ပြောင်းထားပြီး မူရင်းဘာသာစကားကို ရည်ညွှန်းခြင်းမပြုတော့ပါ။",
@@ -31,5 +32,6 @@
 	"wminc-gadget-twpref-setlang": "ဘာသာစကား သတ်မှတ်ရန်- $1",
 	"wminc-gadget-twpref-setlang-tooltip": "သင်၏ အင်တာဖေ့စ်ဘာသာစကားကို $1 ဟု သတ်မှတ်ပါ",
 	"wminc-gadget-twpref-setwiki": "$1ကို သင်၏စမ်းသပ်ပရောဂျက်အဖြစ် သတ်မှတ်ပါ",
-	"wminc-gadget-twpref-setwiki-tooltip": "$1 ကို သင့်စမ်းသပ်ပရောဂျက်အဖြစ် သတ်မှတ်ပါ၊ သို့မှသာ သင်ဖန်တီးသော စာမျက်နှာအသစ်များသည် ဤပရောဂျက်၏ တစ်စိတ်တစ်ပိုင်းဖြစ်ပါမည်"
+	"wminc-gadget-twpref-setwiki-tooltip": "$1 ကို သင့်စမ်းသပ်ပရောဂျက်အဖြစ် သတ်မှတ်ပါ၊ သို့မှသာ သင်ဖန်တီးသော စာမျက်နှာအသစ်များသည် ဤပရောဂျက်၏ တစ်စိတ်တစ်ပိုင်းဖြစ်ပါမည်",
+	"wminc-infopage-title-n": "$1 ဝီကီသတင်း"
 }

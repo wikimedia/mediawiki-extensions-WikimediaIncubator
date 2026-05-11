@@ -3,6 +3,7 @@
 		"authors": [
 			"Kghbln",
 			"King Muli 12",
+			"MF-Warburg",
 			"MoritzMT20",
 			"PretzelRocky",
 			"TMg",
@@ -61,5 +62,6 @@
 	"wminc-infopage-content-project-y": "Wikivoyage",
 	"wminc-infopage-req-header": "Voraussetzungen",
 	"wminc-infopage-req-meta": "Anfrage im Meta-Wiki",
-	"wminc-infopage-req-rejected": "'''(abgelehnt)'''"
+	"wminc-infopage-req-rejected": "'''(abgelehnt)'''",
+	"wminc-infopage-title-n": "Wikinews auf $1"
 }

@@ -3,6 +3,7 @@
 		"authors": [
 			"Ebrahim",
 			"Ebraminio",
+			"Huji",
 			"Mjbmr"
 		]
 	},
@@ -19,5 +20,6 @@
 	"wminc-infopage-text-approved": "این ویکی آزمایشی توسط [[$2|کمیته زبان]] تصویب شده است (همچنین [[$1|سیاههٔ ایجاد وبگاه]] را ببینید).",
 	"wminc-infopage-text-open": "این ویکی آزمایشی باز است و یا برای واجد شرایط بودن تأیید شده است. اگر شما این زبان را می‌شناسید به مشارکت در آن تشویق شده‌اید. همچنین\n[[$9|راهنما]] را ببنید که چه کارهایی احتیاج هست شما انجام دهید.",
 	"wminc-infopage-text-approved-created": "شما می‌توانید آن را در $1 پیدا کنید.",
-	"wminc-infopage-req-header": "الزامات"
+	"wminc-infopage-req-header": "الزامات",
+	"wminc-infopage-title-n": "ویکی‌خبر $1"
 }

@@ -67,5 +67,6 @@
 	"wminc-infopage-req-meta-none": "[[$1|মেটা-উইকিতে]] কোনও অনুরোধ নেই ([$2 তৈরি করুন])",
 	"wminc-infopage-req-rejected": "'''(প্রত্যাখ্যাত)'''",
 	"wminc-infopage-req-codelookup": "স্থানীয়করণের প্রয়োজনীয়তা পরীক্ষা করুন",
-	"wminc-infopage-req-catanalysis": "উইকি কার্যকলাপ পরীক্ষা করুন"
+	"wminc-infopage-req-catanalysis": "উইকি কার্যকলাপ পরীক্ষা করুন",
+	"wminc-infopage-title-n": "$1 উইকিসংবাদ"
 }

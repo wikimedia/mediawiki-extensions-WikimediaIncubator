@@ -100,5 +100,6 @@
 	"wminc-infopage-req-error-wikisource": "Tʋʋm kaŋa anɛ \"Wikisource\". Wikisource dɛmisa nar ye li maal bɛ [[$1|Multilingual Wikisource]] ni.",
 	"wminc-infopage-req-error-wikiversity": "Tʋʋm kaŋa anɛ \"wikiversity\". Wikiversity dɛmisa nar ye li maal bɛ  [[$1|Beta Wikiversity]] la ni.",
 	"wminc-infopage-req-codelookup": "Gɔsim zin'ig bɔɔdim nam",
-	"wminc-infopage-req-catanalysis": "Gɔsim wiki tʋʋma"
+	"wminc-infopage-req-catanalysis": "Gɔsim wiki tʋʋma",
+	"wminc-infopage-title-n": "$1 wikilabaya"
 }

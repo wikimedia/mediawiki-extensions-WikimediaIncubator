@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Anzx",
+			"VASANTH S.N.",
 			"~aanzx"
 		]
 	},
@@ -15,5 +16,6 @@
 	"wminc-gadget-iw-dialog-cancel": "ರದ್ದುಮಾಡಿ",
 	"wminc-gadget-iw-dialog-publish": "ಪ್ರಕಟಿಸಿ",
 	"wminc-gadget-iw-dialog-qid-placeholder": "ಉದಾ‌. $1",
-	"wminc-gadget-iw-dialog-wikidata-search": "ವಿಕಿಡೇಟಾವನ್ನು ಹುಡುಕಿ"
+	"wminc-gadget-iw-dialog-wikidata-search": "ವಿಕಿಡೇಟಾವನ್ನು ಹುಡುಕಿ",
+	"wminc-infopage-title-n": "ವಿಕಿವಾರ್ತೆಗಳು$1"
 }

@@ -103,5 +103,6 @@
 	"wminc-infopage-req-error-wikisource": "Es prujétu é un '''Uikifonti'''. Idisons di Uikifonti debi fasedu na [[$1|Uikifonti Multilíngui]].",
 	"wminc-infopage-req-error-wikiversity": "Es prujétu é un '''Uikiversidadi'''. Idisons di Uikiversidadi debi fasedu na [[$1|Uikiversidadi Béta]].",
 	"wminc-infopage-req-codelookup": "Birifika izijénsas di adapitason di kuntiúdu",
-	"wminc-infopage-req-catanalysis": "Birifika atividadi di uiki"
+	"wminc-infopage-req-catanalysis": "Birifika atividadi di uiki",
+	"wminc-infopage-title-n": "$1 Uikinóbas"
 }

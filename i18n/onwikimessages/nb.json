@@ -103,5 +103,6 @@
 	"wminc-infopage-req-error-wikisource": "Dette er et '''Wikikilden'''-prosjekt. Wikikilden-utgaver må opprettes på [[$1|den flerspråklige Wikikilden]].",
 	"wminc-infopage-req-error-wikiversity": "Dette prosjektet er en '''Wikiversity'''. Wikiversity-utgaver må opprettes på [[$1|Beta Wikiversity]].",
 	"wminc-infopage-req-codelookup": "Sjekk oversettelseskrav",
-	"wminc-infopage-req-catanalysis": "Sjekk wikiaktivitet"
+	"wminc-infopage-req-catanalysis": "Sjekk wikiaktivitet",
+	"wminc-infopage-title-n": "Wikinytt på $1"
 }

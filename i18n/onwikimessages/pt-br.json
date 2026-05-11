@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"555",
 			"Eduardoaddad",
 			"MetalBrasil"
 		]
@@ -48,5 +49,6 @@
 	"wminc-gadget-twpref-setlang": "Definir idioma: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "Definir o seu idioma da interface como $1",
 	"wminc-gadget-twpref-setwiki": "Definir $1 como o seu projeto de teste",
-	"wminc-gadget-twpref-setwiki-tooltip": "Definir $1 como o seu projeto de teste, para que as páginas novas que criar façam parte deste projeto"
+	"wminc-gadget-twpref-setwiki-tooltip": "Definir $1 como o seu projeto de teste, para que as páginas novas que criar façam parte deste projeto",
+	"wminc-infopage-title-n": "Wikinotícias em $1"
 }

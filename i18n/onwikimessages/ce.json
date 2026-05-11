@@ -100,5 +100,6 @@
 	"wminc-infopage-req-error-wikisource": "ХӀара проект '''Викихьост''' йу. Викихьостан хийцамаш бан беза [[$1|Дуккха а меттанийн Викихьостан]] тӀехь.",
 	"wminc-infopage-req-error-wikiversity": "ХӀара проект '''Викиверситет''' йу. Викиверситетан хийцамаш бан беза [[$1|Beta Wikiversity]] тӀехь.",
 	"wminc-infopage-req-codelookup": "Локализацин дехарш хьажа",
-	"wminc-infopage-req-catanalysis": "Вики жигаралла толлу"
+	"wminc-infopage-req-catanalysis": "Вики жигаралла толлу",
+	"wminc-infopage-title-n": "Викикерланаш $1 маттахь"
 }

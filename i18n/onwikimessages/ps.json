@@ -70,5 +70,6 @@
 	"wminc-infopage-req-rejected": "''(رد شوی)''''",
 	"wminc-infopage-req-error": "د اړتیا تېروتنه:",
 	"wminc-infopage-req-codelookup": "ځاييتابه اړتياوې وگورئ",
-	"wminc-infopage-req-catanalysis": "ويکي چارې وگورئ"
+	"wminc-infopage-req-catanalysis": "ويکي چارې وگورئ",
+	"wminc-infopage-title-n": "$1 ويکيخبرونه"
 }

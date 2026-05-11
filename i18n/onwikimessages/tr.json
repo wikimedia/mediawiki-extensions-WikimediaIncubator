@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Asma",
+			"Emperyan",
 			"Joseph",
 			"SaldırganSincap"
 		]
@@ -97,5 +98,6 @@
 	"wminc-infopage-req-error-wikisource": "Bu proje bir '''VikiKaynak'''tır. Vikikaynak sürümleri [[$1|Çok dilli Vikikaynak]]ta yapılmalıdır.",
 	"wminc-infopage-req-error-wikiversity": "Bu proje bir '''Vikiversite'''dir. Vikiversite sürümleri [[$1|Beta Vikiversite]]'de yapılmalıdır.",
 	"wminc-infopage-req-codelookup": "Yerelleştirme gereksinimlerini kontrol et",
-	"wminc-infopage-req-catanalysis": "Viki etkinliğini kontrol et"
+	"wminc-infopage-req-catanalysis": "Viki etkinliğini kontrol et",
+	"wminc-infopage-title-n": "$1 Vikihaber"
 }

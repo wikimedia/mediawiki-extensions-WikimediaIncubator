@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Dj",
 			"Tacsipacsi",
 			"Zalán Hári"
 		]
@@ -31,5 +32,6 @@
 	"wminc-infopage-text-open": "Ez a tesztprojekt nyitva van, és szerkeszthető: ha ismered a nyelvet, nyugodtan dolgozhatsz benne. A projektnyitás teendőiről a [[$9|kézikönyvben]] olvashatsz bővebben.",
 	"wminc-infopage-text-tocreate": "Ez a tesztprojekt még nem indult el. Ha beszéled a nyelvét, és szeretnél segíteni a létrehozásában, akkor kövesd a [[$9|kézikönyvben]] leírtakat. A tesztprojekt kezdőlapját a ''{{PAGENAME}}/Kezdőlap'' címen tudod létrehozni. (A kezdőlap szónak az adott nyelven kell szerepelnie: a francia Wikipédia kezdőlapjának címe például Wp/fr/Accueil lenne az Inkubátorban.)",
 	"wminc-infopage-text-approved-created": "A projekt új címe: $1.",
-	"wminc-infopage-req-header": "Követelmények"
+	"wminc-infopage-req-header": "Követelmények",
+	"wminc-infopage-title-n": "$1 Wikihírek"
 }

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
+			"Renessaince",
 			"Ucukor"
 		]
 	},
@@ -16,5 +17,6 @@
 	"wminc-gadget-addprefix-toggle": "Паказаць/схаваць прэфікс",
 	"wminc-gadget-iw-dialog-cancel": "Скасаваць",
 	"wminc-gadget-iw-dialog-publish": "Апублікаваць",
-	"wminc-gadget-iw-dialog-qid-placeholder": "напрыклад, $1"
+	"wminc-gadget-iw-dialog-qid-placeholder": "напрыклад, $1",
+	"wminc-infopage-title-n": "ВікіНавіны мовай $1"
 }

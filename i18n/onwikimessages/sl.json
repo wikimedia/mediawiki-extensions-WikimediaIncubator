@@ -101,5 +101,6 @@
 	"wminc-infopage-req-error-wikisource": "Ta projekt je '''Wikivir'''. Izdaje Wikivira morajo biti izdelane v [[$1|Večjezičnem Wikiviru]].",
 	"wminc-infopage-req-error-wikiversity": "Ta projekt je '''Wikiverza'''. Izdaje Wikiverze je treba ustvariti na [[$1|Beta Wikiverzi]].",
 	"wminc-infopage-req-codelookup": "Preverite zahteve za lokalizacijo",
-	"wminc-infopage-req-catanalysis": "Preverite viki dejavnost"
+	"wminc-infopage-req-catanalysis": "Preverite viki dejavnost",
+	"wminc-infopage-title-n": "Wikinovice v $1"
 }

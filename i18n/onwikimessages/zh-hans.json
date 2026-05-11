@@ -3,6 +3,7 @@
 		"authors": [
 			"Diskdance",
 			"John Smith Ri",
+			"Liangent",
 			"Libamidi",
 			"LittlePaw365",
 			"MangoFanFanw",
@@ -96,5 +97,6 @@
 	"wminc-infopage-req-unprefixed-templates": "有{{PLURAL:$1|$1}}个页面使用无前缀模板",
 	"wminc-infopage-req-error": "需求错误：",
 	"wminc-infopage-req-codelookup": "检查本地化要求",
-	"wminc-infopage-req-catanalysis": "检查wiki活动"
+	"wminc-infopage-req-catanalysis": "检查wiki活动",
+	"wminc-infopage-title-n": "$1维基新闻"
 }

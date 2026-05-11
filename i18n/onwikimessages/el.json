@@ -65,5 +65,6 @@
 	"wminc-infopage-req-error-wikisource": "Αυτό το ερευνητικό σχέδιο είναι ένας ''Wikisource'''. Οι εκδόσεις Wikisource θα πρέπει να δημιουργηθούν στο [[$1|Πολύγλωσσο Wikisource]].",
 	"wminc-infopage-req-error-wikiversity": "Αυτή η εργασία είναι '''Βικιπανεπιστήμιο'''. Οι εκδόσεις Βικιπανεπιστημίου, θα πρέπει να δημιουργηθούν στο [[$1|Beta Βικιπανεπιστήμιο]].",
 	"wminc-infopage-req-codelookup": "Ελέγξτε τις απαιτήσεις εντοπισμού",
-	"wminc-infopage-req-catanalysis": "Ελέγξτε τη δραστηριότητα του wiki"
+	"wminc-infopage-req-catanalysis": "Ελέγξτε τη δραστηριότητα του wiki",
+	"wminc-infopage-title-n": "$1 Βικινέα"
 }

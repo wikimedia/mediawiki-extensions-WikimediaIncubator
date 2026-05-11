@@ -101,5 +101,6 @@
 	"wminc-infopage-req-error-wikisource": "Ym '''Vikisəvon''' projekte. Vikisəvoni bešə cijon bəpe soxtə bybun bə [[$1|vejzyvonə Vikisəvonədə]].",
 	"wminc-infopage-req-error-wikiversity": "Ym '''Vikiversitet''' projekte. Vikiversiteti bešə cijon bəpe soxtə bybun bə [[$1|Beta Wikiversity]].",
 	"wminc-infopage-req-codelookup": "Lokal karde šərton osə bykənən",
-	"wminc-infopage-req-catanalysis": "Viki aktivəti osə karde"
+	"wminc-infopage-req-catanalysis": "Viki aktivəti osə karde",
+	"wminc-infopage-title-n": "$1 Vikixəbon"
 }

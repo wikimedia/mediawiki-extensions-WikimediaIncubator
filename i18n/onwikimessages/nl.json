@@ -107,5 +107,6 @@
 	"wminc-infopage-req-error-wikisource": "Dit project is een '''Wikisource'''. Wikisource-edities moeten worden gemaakt op de [[$1|meertalige Wikisource]].",
 	"wminc-infopage-req-error-wikiversity": "Dit project is een '''Wikiversity'''. Wikiversity-edities moeten worden gemaakt op de [[$1|Bèta-Wikiversity]].",
 	"wminc-infopage-req-codelookup": "Lokalisatievereisten controleren",
-	"wminc-infopage-req-catanalysis": "Wiki-activiteit controleren"
+	"wminc-infopage-req-catanalysis": "Wiki-activiteit controleren",
+	"wminc-infopage-title-n": "$1 Wikinieuws"
 }

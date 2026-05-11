@@ -63,5 +63,6 @@
 	"wminc-infopage-req-rejected": "'''(avvist)'''",
 	"wminc-infopage-req-unprefixed-templates": "Det er {{PLURAL:$1|éi side|$1 sider}} som brukar malar utan prefiks",
 	"wminc-infopage-req-codelookup": "Sjekk omsetjingskrav",
-	"wminc-infopage-req-catanalysis": "Sjekk wikiaktivitet"
+	"wminc-infopage-req-catanalysis": "Sjekk wikiaktivitet",
+	"wminc-infopage-title-n": "Wikinytt på $1"
 }

@@ -107,5 +107,6 @@
 	"wminc-infopage-req-error-wikisource": "Ce projet est destiné à une édition de '''Wikisource'''. Les éditions de test pour Wikisource doivent être réalisées sur [[$1|Wikisource multilingue]].",
 	"wminc-infopage-req-error-wikiversity": "Ce projet est destiné à une édition de '''Wikiversité'''. Les éditions de test pour Wikiversité doivent être réalisées sur l’[[$1|édition bêta de Wikiversité]].",
 	"wminc-infopage-req-codelookup": "Vérifier les prérequis de régionalisation",
-	"wminc-infopage-req-catanalysis": "Vérifier l’activité du wiki"
+	"wminc-infopage-req-catanalysis": "Vérifier l’activité du wiki",
+	"wminc-infopage-title-n": "Wikinews en $1"
 }

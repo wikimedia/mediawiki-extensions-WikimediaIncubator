@@ -103,5 +103,6 @@
 	"wminc-infopage-req-error-wikisource": "Iste projecto es un '''Wikisource'''. Le editiones de Wikisource debe esser create sur le [[$1|Wikisource multilingue]].",
 	"wminc-infopage-req-error-wikiversity": "Iste projecto es un '''Wikiversitate'''. Le editiones de Wikiversitate debe esser create sur le [[$1|Wikiversitate beta]].",
 	"wminc-infopage-req-codelookup": "Verificar requisitos de localisation",
-	"wminc-infopage-req-catanalysis": "Verificar activitate wiki"
+	"wminc-infopage-req-catanalysis": "Verificar activitate wiki",
+	"wminc-infopage-title-n": "Wikinews in $1"
 }

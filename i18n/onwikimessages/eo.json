@@ -8,5 +8,6 @@
 	"wminc-code-collective": "La lingvo-kodo \"$1\" ne referencas specifan lingvo, sed aro da lingvoj, ĉefe la [[wikipedia:$2 language|\"$3\" lingvoj]].",
 	"wminc-code-retired": "Ĉi tiu lingvo-kodo estis ŝanĝita kaj ne plu referencas la originalan lingvon.",
 	"wminc-custom-featuredwikis-approved": "Tiuj ĉi vikioj estis aprobitaj kaj/aŭ kreitaj:",
-	"wminc-custom-featuredwikis-permanent": "Tiuj probable restos ĉi tie:"
+	"wminc-custom-featuredwikis-permanent": "Tiuj probable restos ĉi tie:",
+	"wminc-infopage-title-n": "Vikinovaĵoj $1"
 }

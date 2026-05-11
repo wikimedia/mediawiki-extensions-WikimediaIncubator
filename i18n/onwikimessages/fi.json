@@ -75,5 +75,6 @@
 	"wminc-infopage-req-error-wikisource": "Tämä hanke on ''Wikiaineisto''. Wikiaineisto-versiot on tehtävä [[$1|Monikielisessä Wikiaineistossa]].",
 	"wminc-infopage-req-error-wikiversity": "Tämä hanke on '''Wikiopisto'''. Wikiopisto-versiot on tehtävä [[$1|Wikiopisto Betassa]].",
 	"wminc-infopage-req-codelookup": "Tarkista lokalisointivaatimukset",
-	"wminc-infopage-req-catanalysis": "Tarkista wikin toiminta"
+	"wminc-infopage-req-catanalysis": "Tarkista wikin toiminta",
+	"wminc-infopage-title-n": "Wikiuutiset kielellä $1"
 }

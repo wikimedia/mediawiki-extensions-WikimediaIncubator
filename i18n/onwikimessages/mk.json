@@ -103,5 +103,6 @@
 	"wminc-infopage-req-error-wikisource": "Овој проект е '''Викиизвор'''. Изданијата на Викиизвор мора да се прават од [[$1|повеќејазичниот Викиизвор]].",
 	"wminc-infopage-req-error-wikiversity": "Овој проект е '''Викиуниверзитет'''. Изданијата на Викиуниверзитет мора да се прават на [[$1|Бета-Викиуниверзитетот]].",
 	"wminc-infopage-req-codelookup": "Провери барања за локализација",
-	"wminc-infopage-req-catanalysis": "Провери викиактивност"
+	"wminc-infopage-req-catanalysis": "Провери викиактивност",
+	"wminc-infopage-title-n": "Викивести на $1"
 }

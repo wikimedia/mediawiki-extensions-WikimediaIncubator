@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"JeffreyKim",
+			"Winston Sung",
 			"Yueman"
 		]
 	},
 	"wminc-infopage-title-status-tocreate": "呢個測試維基仲未開始",
-	"wminc-infopage-language-nocode": "冇"
+	"wminc-infopage-language-nocode": "冇",
+	"wminc-infopage-title-n": "$1維基新聞"
 }

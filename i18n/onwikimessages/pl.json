@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Msz2001",
 			"Sp5uhe"
 		]
 	},
@@ -26,5 +27,6 @@
 	"wminc-gadget-iw-error-reload": "Przeładuj stronę i spróbuj ponownie.",
 	"tag-gadget-interwiki": "Gadżet Interwiki",
 	"wminc-gadget-twpref-setlang": "Ustaw język: $1",
-	"wminc-gadget-twpref-setlang-tooltip": "Ustaw język interfejsu na $1"
+	"wminc-gadget-twpref-setlang-tooltip": "Ustaw język interfejsu na $1",
+	"wminc-infopage-title-n": "Wikinews w języku $1"
 }

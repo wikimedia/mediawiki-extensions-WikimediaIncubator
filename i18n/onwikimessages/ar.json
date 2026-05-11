@@ -112,5 +112,6 @@
 	"wminc-infopage-req-error-wikisource": "هذا المشروع هو \"ويكي مصدر\" \". يجب عمل إصدارات ويكي مصدر في [[$1|Multilingual Wikisource]].",
 	"wminc-infopage-req-error-wikiversity": "هذا المشروع هو \"ويكي الجامعة\" \". يجب أن تكون إصدارات ويكي الجامعة في [[$1|Beta Wikiversity]].",
 	"wminc-infopage-req-codelookup": "تحقق من متطلبات الترجمة",
-	"wminc-infopage-req-catanalysis": "تحقق من نشاط الويكي"
+	"wminc-infopage-req-catanalysis": "تحقق من نشاط الويكي",
+	"wminc-infopage-title-n": "$1 ويكي الأخبار"
 }

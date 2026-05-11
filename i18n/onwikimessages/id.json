@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"NoiX180"
+			"NoiX180",
+			"Veracious"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Bahasa \"$3\"]] merupakan [[wikipedia:ISO 639 macrolanguage|bahasa makro]], yang terdiri dari bahasa-bahasa anggota berikut ini:",
@@ -16,5 +17,6 @@
 	"wminc-custom-tb-incorrect-title-text": "Judul tersebut kemungkinan tidak punya [[$1|awalan]] atau dalam format salah yang lain (huruf kapital di awalan, garis miring di akhir, dll.).\n\nJika Anda datang ke sini dari halaman lain, tolong kembali dan perbaiki pranalanya, kemudian buat halaman dengan nama yang benar. Jika Anda mencoba membuat halaman secara langsung, tolong buat halamannya dengan nama yang benar.\n\nJika ini menghalangi Anda dari membuat halaman yang Anda rasa format judulnya benar, silakan [[$2|beri tahu para pengurus]].",
 	"wminc-custom-tb-invalid-code-title": "Anda mencoba membuat halaman tanpa [[$1|kode ISO 639-1 atau -3 code]] yang sah.",
 	"wminc-custom-tb-invalid-code-text": "Kode ini antara tidak sah atau tidak termasuk kode untuk bahasa yang diterima untuk proyek Wikimedia baru.\n\nJika Anda datang ke sini dari halaman lain, tolong kembali dan perbaiki pranalanya, kemudian buat halaman dengan nama yang benar.\n\nJika ini menghalangi Anda dari membuat halaman yang Anda rasa punya kode ISO 639-1 atau -3 yang sah atau milik bahasa yang telah diterima, silakan [[$1|beri tahu para pengurus]].",
-	"gadget-addprefix": "<strong>AddPrefix:</strong> Secara otomatis menambahkan prefiks di tautan saat membuat sebuah halaman."
+	"gadget-addprefix": "<strong>AddPrefix:</strong> Secara otomatis menambahkan prefiks di tautan saat membuat sebuah halaman.",
+	"wminc-infopage-title-n": "Wikiberita $1"
 }

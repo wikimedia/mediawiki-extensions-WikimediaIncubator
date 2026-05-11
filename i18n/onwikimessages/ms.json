@@ -3,6 +3,7 @@
 		"authors": [
 			"Anakmalaysia",
 			"Hakimi97",
+			"Mirlim",
 			"Tofeiku",
 			"Ultron90",
 			"Zahirulnukman"
@@ -57,5 +58,6 @@
 	"wminc-infopage-content-project-q": "Wikipetik",
 	"wminc-infopage-content-project-s": "Wikisumber",
 	"wminc-infopage-content-project-t": "Wikikamus",
-	"wminc-infopage-content-project-y": "Wikilayar"
+	"wminc-infopage-content-project-y": "Wikilayar",
+	"wminc-infopage-title-n": "Wikiberita $1"
 }

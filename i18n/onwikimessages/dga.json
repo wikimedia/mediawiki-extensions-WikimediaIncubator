@@ -100,5 +100,6 @@
 	"wminc-infopage-req-error-wikisource": "A toma ŋa la '''Wikisommo zie'''. Wikisommo seŋ ka a maale a [[$1|Multilingual Wikisource]].",
 	"wminc-infopage-req-error-wikiversity": "A toma ŋa la '''Wikikaazie'''. Wikikaazie seŋ ka a maale a [[$1|Beta Wikiversity]].",
 	"wminc-infopage-req-codelookup": "Kaa bonkore boŋboɔrɛ",
-	"wminc-infopage-req-catanalysis": "Kaa wiki toma"
+	"wminc-infopage-req-catanalysis": "Kaa wiki toma",
+	"wminc-infopage-title-n": "$1 Wikiduoro"
 }

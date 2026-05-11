@@ -103,5 +103,6 @@
 	"wminc-infopage-req-error-wikisource": "ဒေပရောဂျက်စွာ ''Wikisource'''' ဖြစ်တေ။  Wikisource တီးဖြတ်မှုတိကို [[$1|Multilingual Wikisource]] မာ ပြုလုပ်ရပါဖို့။",
 	"wminc-infopage-req-error-wikiversity": "ဒေပရောဂျက်စွာ ''Wikiversity'''' ဖြစ်ရေ။ Wikiversity တဲးဖြတ်မှုတိကို [[$1|Beta Wikiversity]] တွင် ပြုလုပ်ရပါဖို့။",
 	"wminc-infopage-req-codelookup": "Localization လိုအပ်ချက်တိကို စစ်ဆီးပါ။",
-	"wminc-infopage-req-catanalysis": "ဝီကီး လုပ်ဆောင်ချက်ကို စစ်ဆီးပါ။"
+	"wminc-infopage-req-catanalysis": "ဝီကီး လုပ်ဆောင်ချက်ကို စစ်ဆီးပါ။",
+	"wminc-infopage-title-n": "$1 ဝီကီသတင်း"
 }

@@ -100,5 +100,6 @@
 	"wminc-infopage-req-error-wikisource": "ई परियोजना एगो ''विकिस्रोत'' हे । विकिस्रोत संस्करण [[$1|बहुभाषी विकिस्रोत]] पर बनावे पड़त ।",
 	"wminc-infopage-req-error-wikiversity": "ई परियोजना एगो ''विकिविश्वविद्यालय'' हे । विकिविश्वविद्यालय सन्स्करण [[$1|बिटा विकिविश्वविद्यालय]] पर बनावे पड़त ।",
 	"wminc-infopage-req-codelookup": "स्थानीयकरण आवश्यकता जाँची",
-	"wminc-infopage-req-catanalysis": "विकि गतिविधि जाँची"
+	"wminc-infopage-req-catanalysis": "विकि गतिविधि जाँची",
+	"wminc-infopage-title-n": "$1 विकिसमाचार"
 }

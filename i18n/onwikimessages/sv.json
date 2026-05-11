@@ -63,5 +63,6 @@
 	"wminc-infopage-text-open": "Den här testwikin är öppen eller bekräftat berättigad. Du uppmuntras bidra om du kan språket. Läs också [[$9|Hjälp:Manual]] för en förklaring över vad du kan göra.",
 	"wminc-infopage-text-tocreate": "Den här wikin har ännu inte påbörjats. Om du kan språket, följ instruktionerna på [[$9|Hjälp:Manual]]. Du kan skapa en huvudsida på ''\"{{PAGENAME}}/Huvudsida\"'' med \"Huvudsida\" översatt till det här språket (till exempel \"Wp/fr/Accueil\" om det vore en fransk testwiki).",
 	"wminc-infopage-text-approved-created": "Du hittar den på $1.",
-	"wminc-infopage-req-header": "Kriterier"
+	"wminc-infopage-req-header": "Kriterier",
+	"wminc-infopage-title-n": "$1 Wikinews"
 }

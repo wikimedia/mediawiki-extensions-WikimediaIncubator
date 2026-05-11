@@ -106,5 +106,6 @@
 	"wminc-infopage-req-error-wikisource": "Dự án này là một '''Wikisource'''. Các ấn bản Wikisource phải được thực hiện tại [[$1|Wikisource đa ngôn ngữ]].",
 	"wminc-infopage-req-error-wikiversity": "Dự án này là một ''Wikiversity'''. Các ấn bản Wikiversity phải được thực hiện tại [[$1|Beta Wikiversity]].",
 	"wminc-infopage-req-codelookup": "Kiểm tra yêu cầu bản địa hóa",
-	"wminc-infopage-req-catanalysis": "Kiểm tra hoạt động wiki"
+	"wminc-infopage-req-catanalysis": "Kiểm tra hoạt động wiki",
+	"wminc-infopage-title-n": "Wikinews $1"
 }

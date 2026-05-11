@@ -39,5 +39,6 @@
 	"wminc-infopage-req-meta-none": "Dim cais ym [[$1|Meta-Wici]] ([$2 creu])",
 	"wminc-infopage-req-rejected": "'''(gwrthodwyd)'''",
 	"wminc-infopage-req-error": "Gwall gofyniad:",
-	"wminc-infopage-req-codelookup": "Gwirio gofynion cyfieithu"
+	"wminc-infopage-req-codelookup": "Gwirio gofynion cyfieithu",
+	"wminc-infopage-title-n": "Wicinewyddion $1"
 }

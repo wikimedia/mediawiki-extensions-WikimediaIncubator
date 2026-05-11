@@ -19,5 +19,6 @@
 	"wminc-infopage-text-open": "'Stù test wiki jè apìrte o verifecate pe' essere eleggibele. Tu sìnde 'ngoraggiate a condrebbuiscere ce tu canosce 'stà lènga. 'Ndruche pure Help:Manual pe' 'na spiegazione sus a quidde ca s'ha ddà fà.",
 	"wminc-infopage-text-tocreate": "'Stù test wiki non g'ète angore state accumenzate. Ce tu canosce 'stà lènga, scè rrète a ll'istruzione sus a [[$9]]. Tu puè ccrejà 'na Pagene Prengepále SUS A ''\"{{PAGENAME}}/Main_Page\"'' cu \"Pagene_Prengepále\" tradotte jndr'â lènga tove (pe' esembie \"Wp/fr/Accueil\" ce fùsse pe' 'na uicchi 'mbrangese).",
 	"wminc-infopage-text-approved-created": "Tu le puè acchijà sus a $1.",
-	"wminc-infopage-req-header": "Quidde ca s'ha ddà tenè"
+	"wminc-infopage-req-header": "Quidde ca s'ha ddà tenè",
+	"wminc-infopage-title-n": "$1 Uicchinews"
 }

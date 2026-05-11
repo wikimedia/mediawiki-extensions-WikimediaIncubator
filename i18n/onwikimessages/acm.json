@@ -84,5 +84,6 @@
 	"wminc-infopage-req-rejected": "'''(محضور)'''",
 	"wminc-infopage-req-error": "غلط بالشرط:",
 	"wminc-infopage-req-codelookup": "تأكد من احتياجات الترجمه",
-	"wminc-infopage-req-catanalysis": "شوف نشاطات الويكي"
+	"wminc-infopage-req-catanalysis": "شوف نشاطات الويكي",
+	"wminc-infopage-title-n": "$1 ويكي الأخبار"
 }

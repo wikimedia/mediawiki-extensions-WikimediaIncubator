@@ -21,5 +21,6 @@
 	"gadget-addprefix": "<strong>उपसर्ग जोड़ें:</strong> पृष्ठ बनाते समय कड़ी में स्वतः उपसर्ग जोड़ता है।",
 	"wminc-infopage-language-header": "भाषा",
 	"wminc-infopage-language-nocode": "कोई नहीं",
-	"wminc-infopage-content-project-p": "विकिपीडिया"
+	"wminc-infopage-content-project-p": "विकिपीडिया",
+	"wminc-infopage-title-n": "$1 विकिसमाचार"
 }

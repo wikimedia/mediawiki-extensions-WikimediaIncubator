@@ -52,5 +52,6 @@
 	"wminc-infopage-req-meta": "Захтев на Метавикију",
 	"wminc-infopage-req-meta-none": "Нема захтева на [[$1|Метавикију]] ([$2 направи])",
 	"wminc-infopage-req-rejected": "'''(одбијено)'''",
-	"wminc-infopage-req-catanalysis": "Активност викија"
+	"wminc-infopage-req-catanalysis": "Активност викија",
+	"wminc-infopage-title-n": "Викиновости на језику: $1"
 }

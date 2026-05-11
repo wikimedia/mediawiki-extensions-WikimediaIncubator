@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Kareyac",
 			"Köpleres",
 			"Lvova",
@@ -104,5 +105,6 @@
 	"wminc-infopage-req-unprefixed-templates": "На {{PLURAL:$1|$1 странице|$1 страницах|1=одной странице}} используются шаблоны без префиксов",
 	"wminc-infopage-req-error": "Ошибка требования:",
 	"wminc-infopage-req-codelookup": "Проверить требования к локализации",
-	"wminc-infopage-req-catanalysis": "Проверить активность в вики"
+	"wminc-infopage-req-catanalysis": "Проверить активность в вики",
+	"wminc-infopage-title-n": "Викиновости на языке $1"
 }

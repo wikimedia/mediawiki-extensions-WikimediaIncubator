@@ -49,5 +49,6 @@
 	"wminc-infopage-req-rejected": "'''(مسترد تھیا)'''",
 	"wminc-infopage-req-error": "ضرورت خرابی:",
 	"wminc-infopage-req-codelookup": "مقامیت دیاں ضروریات دی پڑتال کرو",
-	"wminc-infopage-req-catanalysis": "وکی سرگرمی دی پڑتال کرو"
+	"wminc-infopage-req-catanalysis": "وکی سرگرمی دی پڑتال کرو",
+	"wminc-infopage-title-n": "$1 وکی خبراں"
 }

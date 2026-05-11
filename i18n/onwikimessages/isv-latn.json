@@ -103,5 +103,6 @@
 	"wminc-infopage-req-error-wikisource": "Tutoj projekt jest '''vikiizvornik'''. Izdanja vikiizvornika trěba stvoriti v [[$1|mnogojezyčnom vikiizvorniku]].",
 	"wminc-infopage-req-error-wikiversity": "Tutoj projekt jest '''vikiversitet'''. Izdanja vikiversiteta trěba stvoriti v [[$1|Beta-vikiversitetu]].",
 	"wminc-infopage-req-codelookup": "Prověriti trěbovanja za lokalizaciju",
-	"wminc-infopage-req-catanalysis": "Prověriti aktivnost v viki"
+	"wminc-infopage-req-catanalysis": "Prověriti aktivnost v viki",
+	"wminc-infopage-title-n": "$1 Vikinoviny"
 }

@@ -36,5 +36,6 @@
 	"wminc-infopage-content-project-y": "위키여행",
 	"wminc-infopage-req-header": "요건",
 	"wminc-infopage-req-rejected": "'''(거부됨)'''",
-	"wminc-infopage-req-error": "요구 사항 오류:"
+	"wminc-infopage-req-error": "요구 사항 오류:",
+	"wminc-infopage-title-n": "$1 위키뉴스"
 }

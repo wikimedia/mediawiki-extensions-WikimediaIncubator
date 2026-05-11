@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"BRUTE"
+			"BRUTE",
+			"David1010"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|\"$3\"]] [[wikipedia:ISO 639 macrolanguage|მაკროენაა]], რომელიც შემდეგ წევრ ენებს შეიცავს:",
-	"wminc-code-retired": "ენის ეს კოდი შეიცვალა და აღარ შეესაბამება თავდაპირველ ენას."
+	"wminc-code-retired": "ენის ეს კოდი შეიცვალა და აღარ შეესაბამება თავდაპირველ ენას.",
+	"wminc-infopage-title-n": "ვიკისიახლენი $1"
 }

@@ -106,5 +106,6 @@
 	"wminc-infopage-req-error-wikisource": "此專案是一個'''維基文庫'''。維基文庫版本必須在[[$1|多語言維基文庫]]裡製作。",
 	"wminc-infopage-req-error-wikiversity": "此專案是一個'''維基學院'''。維基學院版本必須在[[$1|維基學院測試版]]裡製作。",
 	"wminc-infopage-req-codelookup": "檢查本地化需求",
-	"wminc-infopage-req-catanalysis": "檢查 wiki 活動"
+	"wminc-infopage-req-catanalysis": "檢查 wiki 活動",
+	"wminc-infopage-title-n": "$1維基新聞"
 }

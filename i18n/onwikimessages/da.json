@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Peter Alberti"
+			"Peter Alberti",
+			"Saederup92"
 		]
 	},
-	"wminc-code-retired": "Denne sprogkode er blevet ændret og henviser ikke længere til det oprindelige sprog."
+	"wminc-code-retired": "Denne sprogkode er blevet ændret og henviser ikke længere til det oprindelige sprog.",
+	"wminc-infopage-title-n": "Wikinews $1"
 }

@@ -3,6 +3,7 @@
 		"authors": [
 			"Drini",
 			"Fitoschido",
+			"Imre",
 			"La Mantis",
 			"No se",
 			"Qwrop",
@@ -40,5 +41,6 @@
 	"wminc-infopage-content-administroters": "Administradores:",
 	"wminc-infopage-content-project-p": "Wikipedia",
 	"wminc-infopage-content-project-t": "Wikcionario",
-	"wminc-infopage-req-header": "Requisitos"
+	"wminc-infopage-req-header": "Requisitos",
+	"wminc-infopage-title-n": "Wikinoticias $1"
 }

@@ -47,5 +47,6 @@
 	"wminc-infopage-req-meta": "Zahtev na Metavikiju",
 	"wminc-infopage-req-meta-none": "Nema zahteva na [[$1|Metavikiju]] ([$2 napravi])",
 	"wminc-infopage-req-rejected": "'''(odbijeno)'''",
-	"wminc-infopage-req-catanalysis": "Aktivnost vikija"
+	"wminc-infopage-req-catanalysis": "Aktivnost vikija",
+	"wminc-infopage-title-n": "Vikinovosti na jeziku: $1"
 }

@@ -13,5 +13,6 @@
 	"wminc-custom-featuredwikis-permanent": "Nê benê ke tiya bımanê:",
 	"wminc-custom-newarticletext-noprefix": "<strong>Ebe keremê xo ra diqet kerên:</strong> Şımayê bê [[$1|verbend]] yew pele vırazenê.",
 	"wminc-custom-newarticletext-withprefix-3": "Şımayê be nameyê \"{{FULLPAGENAME}}\" ra yew pela newiye ([[$1|be verbend ra]]) vırazenê.",
-	"gadget-addprefix": "<strong>Verbend cı ke:</strong> Otomatikmen pelan rê gıreyanê verbendan vırazeno."
+	"gadget-addprefix": "<strong>Verbend cı ke:</strong> Otomatikmen pelan rê gıreyanê verbendan vırazeno.",
+	"wminc-infopage-title-n": "Wikixebera $1"
 }

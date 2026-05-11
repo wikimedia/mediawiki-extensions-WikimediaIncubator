@@ -103,5 +103,6 @@
 	"wminc-infopage-req-error-wikisource": "המיזם הזה הוא '''ויקיטקסט'''. מהדורות של ויקיטקסט צריכות להיבנות באתר [[$1|ויקיטקסט רב־לשוני]].",
 	"wminc-infopage-req-error-wikiversity": "המיזם הזה הוא '''ויקיברסיטה'''. מהדורות של ויקיברסיטה צריכות להיבנות באתר [[$1|בטא ויקיברסיטה]].",
 	"wminc-infopage-req-codelookup": "בדיקת קיום דרישות תרגום",
-	"wminc-infopage-req-catanalysis": "בדיקת פעילות ויקי"
+	"wminc-infopage-req-catanalysis": "בדיקת פעילות ויקי",
+	"wminc-infopage-title-n": "ויקיחדשות ב{{GRAMMAR:תחילית|$1}}"
 }
