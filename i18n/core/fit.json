@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hosumaija",
 			"Pyscowicz"
 		]
 	},
@@ -23,6 +24,7 @@
 	"randombytest": "Satunhainen sivu testiwikistä",
 	"randombytest-nopages": "Testiwikisi nimityhjyyessä $1 ei ole sivuja.",
 	"wminc-viewuserlang": "Hae esiin käyttäjän kieli ja testiwiki",
+	"wminc-viewuserlang-user": "Käyttäjänimi:",
 	"wminc-ip": "$1 oon IP-atressi.",
 	"action-viewuserlang": "tarkastella käyttäjän kieltä ja testiwikiä",
 	"right-viewuserlang": "Tarkastella käyttäjän kieltä ja testiwikiä",
