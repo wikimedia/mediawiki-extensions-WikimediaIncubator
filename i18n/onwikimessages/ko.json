@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"YeBoy371",
 			"Ykhwong",
 			"아라"
@@ -16,6 +17,7 @@
 	"wminc-gadget-iw-add-wikidata": "위키데이터 링크 추가",
 	"wminc-gadget-iw-dialog-cancel": "취소",
 	"wminc-gadget-iw-dialog-publish": "게시",
+	"wminc-gadget-iw-dialog-qid-placeholder": "예: $1",
 	"wminc-gadget-iw-dialog-editpage": "문서 편집하기",
 	"wminc-gadget-iw-dialog-learn-more": "위키데이터에 대해 더 알아보기",
 	"wminc-gadget-iw-dialog-wikidata-search": "위키데이터 검색",
@@ -26,6 +28,9 @@
 	"wminc-infopage-text-open": "이 시험판 위키는 타당성을 검증하기 위해 개설되었습니다. 이 시험판에 쓰여진 언어를 아신다면, 기여를 부탁드립니다. 자세한 설명을 보시려면 [[$9|도움말:메뉴얼]]을 참고하세요.",
 	"wminc-infopage-language-header": "언어",
 	"wminc-infopage-language-nocode": "없음",
+	"wminc-infopage-content-contributors": "기여자",
+	"wminc-infopage-content-administroters": "관리자:",
+	"wminc-infopage-content-project": "프로젝트: $1",
 	"wminc-infopage-content-project-b": "위키책",
 	"wminc-infopage-content-project-n": "위키뉴스",
 	"wminc-infopage-content-project-p": "위키백과",
