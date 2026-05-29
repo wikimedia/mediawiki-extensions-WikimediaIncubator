@@ -4,7 +4,8 @@
 			"Olli",
 			"Pyscowicz",
 			"Valtlai",
-			"Valtlait"
+			"Valtlait",
+			"Samoasambia"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|Kieli ”$3”]] on [[wikipedia:ISO 639 macrolanguage|makrokieli]], joka koostuu seuraavista kielistä:",
@@ -28,7 +29,7 @@
 	"wminc-gadget-iw-dialog-qid-placeholder": "esim. $1",
 	"wminc-gadget-iw-dialog-editpage": "Muokkaa sivua",
 	"wminc-gadget-iw-dialog-replace-editinstead": "Jos tämä ei pidä paikkaansa, muokkaa sivua ja korjaa linkki manuaalisesti.",
-	"wminc-gadget-iw-dialog-learn-more": "Lue lisää Wikidatasta",
+	"wminc-gadget-iw-dialog-learn-more": "Lisätietoja Wikidatasta",
 	"wminc-gadget-iw-dialog-wikidata-search": "Hae Wikidatasta",
 	"wminc-gadget-iw-error-title": "Interwiki-pienoisohjelman virhe",
 	"wminc-gadget-iw-error-reload": "Päivitä sivu ja yritä uudelleen.",
