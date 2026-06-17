@@ -28,6 +28,7 @@
 	"wminc-gadget-iw-error-reload": "مهرباني وکړئ مخ بياځلي بار کړئ اؤ بيا هڅه وکړئ.",
 	"wminc-gadget-iw-editsummary": "[[d:$1]] ته د ويکي‌خپلمنځو وېبتړنې ورگډول",
 	"tag-gadget-interwiki": "ويکي‌خپلمنځي گادجېت",
+	"tag-gadget-interwiki-description": "د ويکي‌خپلمنځي ويښيارتوکي کارولو سره د ويکي‌خپلمنځي تړونو ورگډولو سمونونه.",
 	"wminc-gadget-twpref-setlang": "ژبه ټاکل: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "$1 ته خپل د مخبڼې ژبه وټاکئ",
 	"wminc-gadget-twpref-setwiki": "$1 د خپلې ازمېښتي پروژې په توگه ټاکل",
