@@ -43,6 +43,7 @@ use MediaWiki\User\Hook\UserGetDefaultOptionsHook;
 use MediaWiki\User\Options\Hook\LoadUserOptionsHook;
 use MediaWiki\User\User;
 use MediaWiki\User\UserIdentity;
+use Wikimedia\ArrayUtils\ArrayUtils;
 use Wikimedia\HtmlArmor\HtmlArmor;
 
 /**
@@ -159,7 +160,7 @@ class WikimediaIncubator implements
 			],
 		];
 
-		$preferences = wfArrayInsertAfter( $preferences, $prefinsert, 'language' );
+		$preferences = ArrayUtils::insertAfter( $preferences, $prefinsert, 'language' );
 	}
 
 	/**
