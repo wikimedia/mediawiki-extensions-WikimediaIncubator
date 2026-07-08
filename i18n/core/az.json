@@ -3,11 +3,12 @@
 		"authors": [
 			"Cekli829",
 			"Nemoralis",
-			"Wertuose"
+			"Wertuose",
+			"Əkrəm"
 		]
 	},
 	"wminc-desc": "Wikimedia Incubator üçün test viki sistemi",
-	"wminc-manual": "Əl ilə",
+	"wminc-manual": "Əllə",
 	"wminc-listwikis": "Vikilərin siyahısı",
 	"wminc-testwiki": "Test viki:",
 	"wminc-testwiki-code": "Test viki dili:",
