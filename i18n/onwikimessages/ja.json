@@ -6,7 +6,8 @@
 			"MathXplore",
 			"Omotecho",
 			"Shirayuki",
-			"春春眠眠"
+			"春春眠眠",
+			"Tensama0415"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|言語「$3」]] は[[wikipedia:ISO 639 macrolanguage|マクロ言語]]であり、以下の言語から構成されます:",
@@ -46,7 +47,7 @@
 	"wminc-infopage-title-status-invalidcode": "この試験版ウィキは無効な[[$1|ISO 639]]言語コードであるため、削除されました。",
 	"wminc-infopage-title-status-open": "このウィキはウィキメディア・インキュベーター内の開いている試験版ウィキです。",
 	"wminc-infopage-title-status-rejected": "この試験版ウィキは言語委員会によって却下され、削除されました。",
-	"wminc-infopage-title-status-tocreate": "このウィキはウィキメディア・インキュベーター内の開いている試験版ウィキです。",
+	"wminc-infopage-title-status-tocreate": "このテストウィキはまだ始まっていません。",
 	"wminc-infopage-title-status-toimport": "このウィキはウィキメディア・インキュベーターに取り込まれる予定の試験版ウィキです。",
 	"wminc-infopage-text-approved": "この試験版ウィキは[[$2|言語委員会]]によって承認されました ([[$1|サイト作成記録]]も参照)。",
 	"wminc-infopage-text-imported": "このウィキは閉鎖された後、[[$6|取り込まれ]]ました。このプロジェクトを再開または開始したい場合は、取り込まれたページを使用して始めることができます。",
