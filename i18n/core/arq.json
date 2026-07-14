@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Oldstoneage"
+			"Oldstoneage",
+			"Bachounda"
 		]
 	},
-	"wminc-desc": "تيستي السيستام تاع الويكي فل ويكيميديا حاضانة",
-	"wminc-manual": "الكتيّب",
+	"wminc-desc": "سيستام الويكي التجريبي لويكيمديا المحضنة",
+	"wminc-manual": "كتيّب",
 	"wminc-listwikis": "ليستة تاع الويكيّات",
 	"wminc-testwiki": "ويكي التجريبي",
 	"wminc-testwiki-code": "اللوغة تاع ويكي التجريبة",
@@ -28,7 +29,7 @@
 	"wminc-viewuserlang-user": "سميّت` المستعملي:",
 	"wminc-viewuserlang-go": "روح",
 	"wminc-userdoesnotexist": "الأسم المستعملي \"$1\" ما كانش منّهو",
-	"wminc-ip": "\"$1\" هيا آدريسة تاع IP.",
+	"wminc-ip": "\"$1\" راهو عنوان إيپي (IP) ولا مستخدم مؤقت.",
 	"action-viewuserlang": "شوف اللوغة تاع المستعملي و الويكي التجريبي",
 	"right-viewuserlang": "شوف اللوغة تاع المستعملي و الويكي التجريبي",
 	"group-test-sysop": "الإيداريّين تاع الويكي التجريبي",
@@ -65,14 +66,14 @@
 	"wminc-fs-startwiki-exists-text": "البريفيكس تاع الويكي تاعك هوا $1. تصيب الباجة اللولانيّة فـ $2. ضركا، تنجم تكولابوري معا المتكلّمين تاع اللوغة هادي و تبنيو مجتامع جديد!\nيلا حبّيت تخلق باجة جديدة، اكتب برك الأسم تاعها فل قابسة تاع التفتاش هنا لفوق، و كليكي على الوصيل لي يخرج لك.",
 	"wminc-infopage-enter": "روح لل پاجة اللولانيّة",
 	"wminc-unknownlang": "(كود تاع لوغة ماشي معروف)",
-	"wminc-infopage-title-p": "ويكيپيديا $1",
-	"wminc-infopage-title-b": "ويكيبوكس $1",
-	"wminc-infopage-title-t": "ويكيسيوناري $1",
-	"wminc-infopage-title-q": "ويكيكوت $1",
+	"wminc-infopage-title-p": "$1 ويكيبيديا",
+	"wminc-infopage-title-b": "ويكي كتب $1",
+	"wminc-infopage-title-t": "ويكي قاموس $1",
+	"wminc-infopage-title-q": "ويكي كلام$1",
 	"wminc-infopage-title-n": "ويكيخبارات $1",
-	"wminc-infopage-title-s": "ويكيمصادر (ويكيسورس) $1",
-	"wminc-infopage-title-v": "ويكيفارسيتي $1",
-	"wminc-infopage-title-y": "ويكيسفارات $1",
+	"wminc-infopage-title-s": "ويكي مصادر $1",
+	"wminc-infopage-title-v": "ويكي جامعة $1",
+	"wminc-infopage-title-y": "ويكي رحّالة$1",
 	"wminc-infopage-welcome": "مرحبا بيك فل محضانة تاع ويكيميديا، واحد من البوجيّات تاع الموأسّاسة تاع ويكيميديا ([[{{MediaWiki:Aboutpage}}|شوف عليها]])",
 	"wminc-infopage-missingwiki-text": "$1 مازال ماكانش ف هاد اللوغة.",
 	"wminc-infopage-option-startwiki": "يلا بغيت تبدا هاد الويكي، مادابيك تتبّع\n'''[$3 هاد الخطوات]''' و [[{{MediaWiki:Wminc-manual-url}}|الكتيّب تاع الشروحات ديالنا]].",

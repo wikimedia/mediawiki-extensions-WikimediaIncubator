@@ -4,7 +4,8 @@
 			"Ebrahim",
 			"Ebraminio",
 			"Mjbmr",
-			"Huji"
+			"Huji",
+			"Mohammad ebz"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|زبان «$3»]] یک [[wikipedia:ISO 639 macrolanguage|زبان بزرگ]] است، که ترکیبی از زبان‌های مقابل است:",
@@ -13,6 +14,7 @@
 	"wminc-custom-featuredwikis-approved": "این ویکی را مورد تأیید قرار گرفته و / یا ایجاد شده است:",
 	"wminc-custom-featuredwikis-active": "این ویکی فعال هستند و ممکن است سایت خود را به زودی:",
 	"wminc-custom-featuredwikis-permanent": "این ویکی به احتمال زیاد در اینجا باقی می‌ماند:",
+	"wminc-gadget-iw-add-wikidata": "افزودن پیوند ویکی‌داده",
 	"wminc-infopage-title-status-approved": "این یک ویکی آزمایشی تصویب شده از ویکی‌رشد ویکی‌مدیا است.",
 	"wminc-infopage-title-status-imported": "این یک ویکی آزمایشی وارد شده از ویکی‌رشد ویکی‌مدیا است.",
 	"wminc-infopage-title-status-invalidcode": "این آزمایش یک کد زبان [[$1|ازو ۶۳۹]] نامعتبر دارد، بنابراین حذف شده است.",
