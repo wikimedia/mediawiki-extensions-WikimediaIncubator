@@ -71,6 +71,7 @@
 	"wminc-infopage-text-approved-date": "这建立于$1。",
 	"wminc-infopage-language-header": "语言",
 	"wminc-infopage-language-nocode": "无",
+	"wminc-infopage-language-translatewiki": "translatewiki.net语言入口",
 	"wminc-infopage-language-directionality": "书写方向：$1",
 	"wminc-infopage-language-directionality-ltr": "左至右书写",
 	"wminc-infopage-language-directionality-rtl": "右至左书写",
