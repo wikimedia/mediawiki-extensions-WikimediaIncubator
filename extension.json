@@ -14,10 +14,10 @@
 	},
 	"type": "other",
 	"config": {
-		"Pref": {
+		"WmincPref": {
 			"value": "incubatortestwiki"
 		},
-		"Projects": {
+		"WmincProjects": {
 			"value": {
 				"p": {
 					"name": "Wikipedia",
@@ -63,7 +63,7 @@
 				}
 			}
 		},
-		"MultilingualProjects": {
+		"WmincMultilingualProjects": {
 			"value": {
 				"meta": "Meta-Wiki",
 				"commons": "Wikimedia Commons",
@@ -73,13 +73,13 @@
 				"wikifunctions": "Wikifunctions"
 			}
 		},
-		"ProjectSite": {
+		"WmincProjectSite": {
 			"value": {
 				"name": "Incubator",
 				"short": "inc"
 			}
 		},
-		"TestWikiNamespaces": {
+		"WmincTestWikiNamespaces": {
 			"value": [
 				0,
 				1,
@@ -91,10 +91,10 @@
 				829
 			]
 		},
-		"LangCodeLength": {
+		"WmincLangCodeLength": {
 			"value": 12
 		},
-		"PseudoCategoryNSes": {
+		"WmincPseudoCategoryNSes": {
 			"value": [
 				"Incubator",
 				"Help",
@@ -103,14 +103,13 @@
 				"Files"
 			]
 		},
-		"ExistingWikis": {
+		"WmincExistingWikis": {
 			"value": null
 		},
-		"ClosedWikis": {
+		"WmincClosedWikis": {
 			"value": false
 		}
 	},
-	"config_prefix": "wgWminc",
 	"GroupPermissions": {
 		"test-sysop": {
 			"delete": true,
