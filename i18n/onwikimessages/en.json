@@ -78,7 +78,7 @@
 	"wminc-infopage-language-iso3": "[[$1|ISO 639-3]]: $2",
 	"wminc-infopage-language-glottolog": "$1 ([[$2|Glottolog]])",
 	"wminc-infopage-language-wikipedia-article": "English Wikipedia article: [[$1|$2]] ([[$3|$4]])",
-	"wminc-infopage-language-translatewiki": "Translatewiki.net portal",
+	"wminc-infopage-language-translatewiki": "translatewiki.net portal",
 	"wminc-infopage-language-directionality": "Directionality: $1",
 	"wminc-infopage-language-directionality-ltr": "left-to-right",
 	"wminc-infopage-language-directionality-rtl": "right-to-left",
