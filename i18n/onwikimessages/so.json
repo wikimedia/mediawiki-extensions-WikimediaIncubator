@@ -74,7 +74,7 @@
 	"wminc-infopage-language-header": "Luuqada",
 	"wminc-infopage-language-nocode": "midna",
 	"wminc-infopage-language-wikipedia-article": "Maqaalka Wikipedia Ingiriisiga: [[$1|$2]] ([[$3|$4]])",
-	"wminc-infopage-language-translatewiki": "Bogga Translatewiki.net",
+	"wminc-infopage-language-translatewiki": "Bogga translatewiki.net",
 	"wminc-infopage-language-directionality": "Jihada qoraalka: $1",
 	"wminc-infopage-language-directionality-ltr": "bidix-ilaa-midig",
 	"wminc-infopage-language-directionality-rtl": "midig-ilaa-bidix",

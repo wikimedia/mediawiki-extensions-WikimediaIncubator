@@ -46,6 +46,7 @@
 	"wminc-infopage-text-tocreate": "Dieses Testwiki existiert noch nicht. Wenn Sie diese Sprache beherrschen, folgen Sie bitte die Anweisungen im [[$9|Handbuch]]. Sie können eine Hauptseite namens ''\"{{PAGENAME}}/Hauptseite\"'' erstellen (wobei \"Hauptseite\" durch die entsprechende Übersetzung in der Zielsprache ersetzt werden muss, zum Beispiel \"Wp/fr/Accueil\" für ein französisches Testwiki).",
 	"wminc-infopage-text-approved-created": "Du kannst es unter $1 finden.",
 	"wminc-infopage-language-header": "Sprache",
+	"wminc-infopage-language-translatewiki": "translatewiki.net-Portal",
 	"wminc-infopage-language-directionality-ltr": "links nach rechts",
 	"wminc-infopage-language-directionality-rtl": "rechts nach links",
 	"wminc-infopage-content-main-category": "Hauptkategorie",
