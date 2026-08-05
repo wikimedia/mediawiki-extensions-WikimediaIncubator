@@ -77,7 +77,7 @@
 	"wminc-infopage-language-header": "언어",
 	"wminc-infopage-language-nocode": "없음",
 	"wminc-infopage-language-wikipedia-article": "영어 위키백과 문서: [[$1|$2]] ([[$3|$4]])",
-	"wminc-infopage-language-translatewiki": "Translatewiki.net 포털",
+	"wminc-infopage-language-translatewiki": "translatewiki.net 포털",
 	"wminc-infopage-language-directionality": "방향: $1",
 	"wminc-infopage-language-directionality-ltr": "왼쪽에서 오른쪽으로",
 	"wminc-infopage-language-directionality-rtl": "오른쪽에서 왼쪽으로",
