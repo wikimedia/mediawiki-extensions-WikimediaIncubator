@@ -8,6 +8,7 @@
 			"Libamidi",
 			"LittlePaw365",
 			"MangoFanFanw",
+			"Ouclie",
 			"PhiLiP",
 			"星海",
 			"沈澄心"
@@ -83,7 +84,7 @@
 	"wminc-infopage-language-header": "语言",
 	"wminc-infopage-language-nocode": "无",
 	"wminc-infopage-language-wikipedia-article": "英文维基百科条目：[[$1|$2]]（[[$3|$4]]）",
-	"wminc-infopage-language-translatewiki": "translatewiki.net语言入口",
+	"wminc-infopage-language-translatewiki": "translatewiki.net门户",
 	"wminc-infopage-language-directionality": "书写方向：$1",
 	"wminc-infopage-language-directionality-ltr": "左至右书写",
 	"wminc-infopage-language-directionality-rtl": "右至左书写",
