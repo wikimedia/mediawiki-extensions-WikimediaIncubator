@@ -83,7 +83,7 @@
 	"wminc-infopage-language-iso3": "[[$1|ISO 639-3]]: $2",
 	"wminc-infopage-language-glottolog": "$1 ([[$2|Glottolog]])",
 	"wminc-infopage-language-wikipedia-article": "مقالة ويكيبيديا الإنجليزية: [[$1|$2]] ([[$3|$4]])",
-	"wminc-infopage-language-translatewiki": "بوابة Translatewiki.net",
+	"wminc-infopage-language-translatewiki": "بوابة translatewiki.net",
 	"wminc-infopage-language-directionality": "الاتجاهية: $1",
 	"wminc-infopage-language-directionality-ltr": "من اليسار إلى اليمين",
 	"wminc-infopage-language-directionality-rtl": "من اليمين الى اليسار",
