@@ -29,7 +29,7 @@
 	"wminc-infopage-language-header": "Језик",
 	"wminc-infopage-language-nocode": "ништа",
 	"wminc-infopage-language-wikipedia-article": "Чланак на Википедији на енглеском: [[$1|$2]] ([[$3|$4]])",
-	"wminc-infopage-language-translatewiki": "Translatewiki.net портал",
+	"wminc-infopage-language-translatewiki": "translatewiki.net портал",
 	"wminc-infopage-language-directionality": "Правац: $1",
 	"wminc-infopage-language-directionality-ltr": "с’ лева на десно",
 	"wminc-infopage-language-directionality-rtl": "с’ десна на лево",
