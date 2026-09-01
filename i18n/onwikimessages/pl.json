@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Msz2001",
+			"PanWor",
 			"Sp5uhe"
 		]
 	},
@@ -28,5 +29,6 @@
 	"tag-gadget-interwiki": "Gadżet Interwiki",
 	"wminc-gadget-twpref-setlang": "Ustaw język: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "Ustaw język interfejsu na $1",
+	"wminc-infopage-req-error-wikisource": "Ten projekt jest częścią '''Wikiźródeł'''. Wydania Wikiźródeł muszą być tworzone w [[$1|wielojęzycznych Wikiźródłach]].",
 	"wminc-infopage-title-n": "Wikinews w języku $1"
 }
