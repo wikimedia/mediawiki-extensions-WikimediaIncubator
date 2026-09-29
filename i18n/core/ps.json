@@ -5,6 +5,7 @@
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
 			"Amjad Khan",
 			"Baloch Khan",
+			"باران",
 			"شاه زمان پټان"
 		]
 	},
@@ -32,7 +33,7 @@
 	"wminc-viewuserlang-user": "کارن‌نوم:",
 	"wminc-viewuserlang-go": "ورځه",
 	"wminc-userdoesnotexist": "د $1 په نوم کارن نشته.",
-	"wminc-ip": "\"$1\" يوهوېب پته يا بېړنی کارن دی.",
+	"wminc-ip": "\"$1\" يوه وېب پته يا لنډمهاله کارن دی.",
 	"action-viewuserlang": "کارن‌ژبې او ازمون‌ويکي کتل",
 	"right-viewuserlang": "کارن‌ژبې او ازمون‌ويکي کتل",
 	"group-test-sysop": "ازمايښتي ويکي پازوالان",
@@ -75,7 +76,7 @@
 	"wminc-infopage-title-q": "ويکيوراشه $1",
 	"wminc-infopage-title-s": "$1 ويکيسرچينه",
 	"wminc-infopage-title-v": "$1 ويکيپوهنتون",
-	"wminc-infopage-title-y": "$1 ويکيسفر",
+	"wminc-infopage-title-y": "$1 ويکي‌يون",
 	"wminc-infopage-welcome": "ويکيمېډيا زېږوونکي ته ښه راغلئ، دا د ويکيمېډيا بنسټ يوه پروژه ده ([[{{MediaWiki:Aboutpage}}|په اړه]])",
 	"wminc-infopage-missingwiki-text": "يو $1 د دې ژبې تراوسه نشته.",
 	"wminc-infopage-option-startwiki": "که دا ويکي پيلول غواړئ؛ نو مهرباني وکړئ '''[$3 دا گامونه]''' او [[{{MediaWiki:Wminc-manual-url}}|زموږ لارښود]] وڅارئ.",
