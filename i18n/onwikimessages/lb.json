@@ -7,6 +7,7 @@
 	},
 	"wminc-code-collective": "De Code \"$1\" bezitt sech net op eng bestëmmte Sprooch, mä op eng Grupp vu Sproochen, an zwar op [[wikipedia:$2 language|\"$3\"-Sproochen]].",
 	"wminc-code-retired": "Dëse Sproochcode gouf geännert a bezitt sech net méi op d'Original-Sprooch.",
+	"wminc-custom-newarticletext-withprefix-3": "Dir sidd amgaang, eng nei ([[$1|prefixéiert]]) Säit mam Numm „{{FULLPAGENAME}}“ unzeleeën.",
 	"wminc-gadget-iw-add-wikidata": "Wikidata-Link derbäisetzen",
 	"wminc-gadget-iw-dialog-cancel": "Ofbriechen",
 	"wminc-gadget-iw-dialog-publish": "Verëffentlechen",
