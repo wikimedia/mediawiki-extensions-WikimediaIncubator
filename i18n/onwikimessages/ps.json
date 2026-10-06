@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"شاه زمان پټان"
+			"شاه زمان پټان",
+			"باران"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|ژبه «$3»]] يو[[wikipedia:ISO 639 macrolanguage|لويه ژبه]] ده،  چې لاندې وړې ژبې لري:",
@@ -24,10 +25,10 @@
 	"wminc-gadget-iw-dialog-editpage": "مخ سمول",
 	"wminc-gadget-iw-dialog-learn-more": "د ويکي‌اومتوک اړوند نور زده‌کول",
 	"wminc-gadget-iw-dialog-wikidata-search": "ويکي‌اومتوک پلټل",
-	"wminc-gadget-iw-error-title": "ويکي‌خپلمنځي گادجېت تېروتنه",
+	"wminc-gadget-iw-error-title": "ويکي‌خپلمنځي ويښيارتوکي تېروتنه",
 	"wminc-gadget-iw-error-reload": "مهرباني وکړئ مخ بياځلي بار کړئ اؤ بيا هڅه وکړئ.",
 	"wminc-gadget-iw-editsummary": "[[d:$1]] ته د ويکي‌خپلمنځو وېبتړنې ورگډول",
-	"tag-gadget-interwiki": "ويکي‌خپلمنځي گادجېت",
+	"tag-gadget-interwiki": "ويکي‌خپلمنځي ويښيارتوکی",
 	"tag-gadget-interwiki-description": "د ويکي‌خپلمنځي ويښيارتوکي کارولو سره د ويکي‌خپلمنځي تړونو ورگډولو سمونونه.",
 	"wminc-gadget-twpref-setlang": "ژبه ټاکل: $1",
 	"wminc-gadget-twpref-setlang-tooltip": "$1 ته خپل د مخبڼې ژبه وټاکئ",
@@ -35,7 +36,8 @@
 	"wminc-infopage-title-status-approved": "دا د ويکيمېډيا اېنکیوبېټر تاييد شوي آزموینې ويکي ده",
 	"wminc-infopage-title-status-default": "دا په ويکي‌رسنۍ زېږوونکي کې يوه ازمېښتي ويکي ده.",
 	"wminc-infopage-title-status-imported": "دا د ويکي‌رسنۍ زېږوونکې يوه رالېږدول‌شوې ازمېښتي ويکي ده.",
-	"wminc-infopage-title-status-open": "دا د ويکيمېډيا اېنکیوبېټر یوه خلاصه آزموینې ويکي ده",
+	"wminc-infopage-title-status-open": "دا د ويکي‌رسنۍ زېږوونکې يوه پرانېستې ازمېښتي ويکي ده.",
+	"wminc-infopage-title-status-rejected": "دا ازمېښتي ويکي د ژبې د ټولنې له‌خوا ناگاره شوې او ړنگه شوې ده.",
 	"wminc-infopage-text-approved": "دا ازمېښتي ويکي د [[$2|ژبې ټولنې]] له‌خوا تاييد شوې ده (همدارنگه د [[$1|د وېبپاڼې جوړولو يادښت]] هم وگورئ).",
 	"wminc-infopage-text-open": "دا ازمايښتي ويکي پرانېستې ده یا د جوړولو وړتیاوې لري. که تاسو په دې ژبه پوهېږئ؛ نو له ستاسو غوښتنه کېږي چې په دې پروژه کې بدلونونه راولئ. همدارنگه\n[[$9|لارښوونه]] وگوري چې څه کارونو ته اړتیا شته چې تاسو يې تر سره کړئ.",
 	"wminc-infopage-text-approved-created": "تاسو کولی شئ دا په $1 کې پيدا کړئ.",
