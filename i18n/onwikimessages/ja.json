@@ -7,7 +7,8 @@
 			"Omotecho",
 			"Shirayuki",
 			"Tensama0415",
-			"春春眠眠"
+			"春春眠眠",
+			"Kokage si"
 		]
 	},
 	"wminc-code-macrolanguage": "[[wikipedia:$2 language|言語「$3」]] は[[wikipedia:ISO 639 macrolanguage|マクロ言語]]であり、以下の言語から構成されます:",
@@ -62,7 +63,7 @@
 	"wminc-infopage-language-iso3": "[[$1|ISO 639-3]]: $2",
 	"wminc-infopage-language-glottolog": "$1 ([[$2|グロットログ]])",
 	"wminc-infopage-language-wikipedia-article": "英語版ウィキペディアの記事: [[$1|$2]] ([[$3|$4]])",
-	"wminc-infopage-language-translatewiki": "Translatewiki.netポータル",
+	"wminc-infopage-language-translatewiki": "translatewiki.netポータル",
 	"wminc-infopage-language-directionality": "書字方向: $1",
 	"wminc-infopage-language-directionality-ltr": "左から右",
 	"wminc-infopage-language-directionality-rtl": "右から左",
