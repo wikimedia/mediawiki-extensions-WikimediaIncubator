@@ -783,9 +783,8 @@ class WikimediaIncubator implements
 	public static function onShowMissingArticleForInfoPages( $article, $prefix ) {
 		$context = $article->getContext();
 		$out = $context->getOutput();
-		$title = $article->getTitle();
 		$out->addModuleStyles( 'WikimediaIncubator.InfoPage' );
-		$infopage = new InfoPage( $title, $prefix, $article->getContext() );
+		$infopage = new InfoPage( $prefix, $article->getContext() );
 		$dbstate = self::getDBState( $prefix );
 		if ( $dbstate == 'existing' ) {
 			$infopage->mSubStatus = 'beforeincubator';

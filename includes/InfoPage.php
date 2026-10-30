@@ -35,9 +35,6 @@ use MediaWiki\User\UserIdentity;
  */
 class InfoPage {
 
-	/** @var Title */
-	private $mTitle;
-
 	/** @var string */
 	private $mPrefix;
 
@@ -78,18 +75,15 @@ class InfoPage {
 	private $userLang;
 
 	/**
-	 * @param Title $title
 	 * @param array $prefixdata
 	 * @param IContextSource $context
 	 */
 	public function __construct(
-		$title,
 		$prefixdata,
 		private readonly IContextSource $context,
 	) {
 		global $wgWmincProjects;
 		$this->user = $this->context->getUser();
-		$this->mTitle = $title;
 		$this->mPrefix = $prefixdata['prefix'];
 		$this->mLangCode = $prefixdata['lang'];
 		$this->mProjectCode = $prefixdata['project'];
