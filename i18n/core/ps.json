@@ -39,6 +39,8 @@
 	"group-test-sysop": "ازمايښتي ويکي پازوالان",
 	"group-test-sysop-member": "{{GENDER:$1|ازمون‌ويکي پازوال}}",
 	"grouppage-test-sysop": "{{ns:project}}:ازمايښتي ويکي پازوالان",
+	"group-test-sysop.css": "/* دلته ځای پرځای شوی سي‌اېس‌اېس به يوازې د ازمېښتي ويکي پازوالان اغېزمن کړي */",
+	"group-test-sysop.js": "/* دلته ځای پرځای شوی جی‌اېس به يوازې د ازمېښتي ويکي پازوالان اغېزمن کړي */",
 	"wminc-listusers-testwiki": "تاسو هغه کارنان گورئ چې خپل ازمون‌ويکي غوره توبونه يې  $1 ټاکلي.",
 	"wminc-search-nocreate-nopref": "تاسو پلټی\"$1\". مهرباني وکړئ خپل [[Special:Preferences|ازمون‌‌ويکي غوره‌توبونه]] وټاکئ، ترڅو موږ تاسو ته ووايو چې کوم مخ جوړولی شئ!",
 	"wminc-search-nocreate-suggest": "تاسو \"$1\" پلټلی. تاسو کولی شئ خپل ويکي کې <strong>[[$3]]</strong> مخ جوړ کړئ.",
@@ -53,6 +55,7 @@
 	"wminc-searchwiki-match-userlangname": "$1 د يوې ژبې نوم دی.",
 	"wminc-searchwiki-match-englishname": "\"$1\" په انگليسي د $2 نوم دی.",
 	"wminc-searchwiki-match-nativename": "\"$1\" په دې ژبه کې د $2 نوم دی.",
+	"wminc-searchwiki-goto": "<strong>$1</strong> ($2)",
 	"wminc-searchwiki-gotoinfopage": "د مخ مالومات",
 	"wminc-fs-pagetitle": "پيلولو کوډگر - $1",
 	"wminc-fs-langselect-title": "ژبه ټاکل",
@@ -94,5 +97,6 @@
 	"wminc-infopage-status-approved": "دا زېږوونکې ويکي د [[meta:Special:MyLanguage/Language_committee|ژبټولنې]] له خوا تاييد شوې او ډېر ژر به جوړه شي.",
 	"wminc-infopage-status-created": "دا پروژه د ژبټولنې له خوا تاييد شوې ده او اوسمهال په $1 کې د لاسرسي وړ ده.",
 	"wminc-infopage-status-beforeincubator": "دا پروژه د ويکيمېډيا زېږوونکي څخه مخکې جوړه شوې وه، او اوسمهال په $1 کې د لاسرسي وړ ده.",
-	"wminc-infopage-status-beforeincubator-sister": "دا پروژه په $1 کې د لاسرسي وړ ده."
+	"wminc-infopage-status-beforeincubator-sister": "دا پروژه په $1 کې د لاسرسي وړ ده.",
+	"wminc-title-element": "$1 – $2"
 }
